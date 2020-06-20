@@ -1,0 +1,67 @@
+definitions:
+  FileConstraint:
+    type: object
+    properties:
+      os:
+        $ref: "#/definitions/Os"
+      store:
+        $ref: "#/definitions/Store"
+  RegistryConstraint:
+    type: object
+    properties:
+      store:
+        $ref: "#/definitions/Store"
+  Os:
+    type: string
+    enum:
+      - windows
+      - linux
+      - mac
+  Store:
+    type: string
+    enum:
+      - steam
+      - epic
+      - discord
+      - origin
+      - uplay
+  Tag:
+    type: string
+    enum:
+      - save
+      - config
+
+type: object
+additionalProperties:
+  type: object
+  properties:
+    files:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          tags:
+            type: array
+            items:
+              $ref: "#/definitions/Tag"
+          when:
+            type: array
+            items:
+              $ref: "#/definitions/FileConstraint"
+    installDir:
+      type: object
+    registry:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          tags:
+            type: array
+            items:
+              $ref: "#/definitions/Tag"
+          when:
+            type: array
+            items:
+              $ref: "#/definitions/RegistryConstraint"
+    steamId:
+      type: integer

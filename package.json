@@ -1,0 +1,28 @@
+{
+  "name": "ludusavi-manifest",
+  "version": "0.0.0",
+  "description": "Game data backup info",
+  "author": "Matthew T. Kennerly <mtkennerly@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cache": "ts-node ./src/importer.ts --cache",
+    "manifest": "ts-node ./src/importer.ts --manifest",
+    "schema": "npm run schema:normal && npm run schema:strict",
+    "schema:normal": "ajv validate -s ./data/schema.yaml -d ./data/manifest.yaml",
+    "schema:strict": "ajv validate -s ./data/schema.strict.yaml -d ./data/manifest.yaml"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^3.12.4",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^14.0.13",
+    "ajv-cli": "^3.2.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "minimist": "^1.2.5",
+    "steam-user": "^4.16.2",
+    "wikiapi": "^1.10.0"
+  }
+}

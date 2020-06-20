@@ -1,0 +1,54 @@
+definitions:
+  FileConstraint:
+    type: object
+    properties:
+      os:
+        $ref: "#/definitions/Os"
+      store:
+        $ref: "#/definitions/Store"
+  RegistryConstraint:
+    type: object
+    properties:
+      store:
+        $ref: "#/definitions/Store"
+  Os:
+    type: string
+  Store:
+    type: string
+  Tag:
+    type: string
+
+type: object
+additionalProperties:
+  type: object
+  properties:
+    files:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          tags:
+            type: array
+            items:
+              $ref: "#/definitions/Tag"
+          when:
+            type: array
+            items:
+              $ref: "#/definitions/FileConstraint"
+    installDir:
+      type: object
+    registry:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          tags:
+            type: array
+            items:
+              $ref: "#/definitions/Tag"
+          when:
+            type: array
+            items:
+              $ref: "#/definitions/RegistryConstraint"
+    steamId:
+      type: integer

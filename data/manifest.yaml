@@ -1,0 +1,904 @@
+'! That Bastard Is Trying To Steal Our Gold !':
+  installDir:
+    '! That Bastard Is Trying To Steal Our Gold !': {}
+  registry:
+    <regHkcu>/SOFTWARE/WTFOMGames/That Dick Trying To Steal Our Gold:
+      tags:
+        - config
+        - save
+  steamId: 449940
+'!4RC4N01D!':
+  steamId: 777010
+'!4RC4N01D! 2: Retro Edition':
+  steamId: 791550
+'!4RC4N01D! 3: Cold Space':
+  steamId: 809370
+'!4RC4N01D! 4: Kohbeep Edition':
+  steamId: 824660
+'!Anyway!':
+  files:
+    <winLocalAppData>/anyway:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Anyway: {}
+  steamId: 866510
+'!BurnToDie!':
+  steamId: 928700
+'!Dead Pixels Adventure!':
+  steamId: 873700
+'!LABrpgUP!':
+  installDir:
+    '!LABrpgUP!': {}
+  steamId: 870990
+'!Peace Phantom 2!':
+  steamId: 805170
+$1 Ride:
+  installDir:
+    $1 Ride: {}
+  steamId: 508290
+'''83':
+  steamId: 1059220
+'''90s Football Stars':
+  installDir:
+    '''90s Football Stars': {}
+  steamId: 879310
+'''n Verlore Verstand':
+  installDir:
+    '''n Verlore Verstand': {}
+  steamId: 439550
+'***':
+  installDir:
+    SSS: {}
+  steamId: 1034230
+'-KLAUS-':
+  installDir:
+    KLAUS: {}
+  steamId: 729370
+.Age:
+  steamId: 638510
+.EXE:
+  installDir:
+    .EXE: {}
+  steamId: 471640
+.Projekt:
+  installDir:
+    projekt: {}
+  steamId: 759000
+'.T.E.S.T: Expected Behaviour':
+  files:
+    <home>/AppData/LocalLow/Veslo Games/Test Expected Behaviour/default.profile:
+      tags:
+        - save
+      when:
+        - os: windows
+    <xdgConfig>/unity3d/Veslo Games/Test Expected Behaviour/default.profile:
+      tags:
+        - save
+      when:
+        - os: linux
+    <xdgConfig>/unity3d/Veslo Games/Test Expected Behaviour/pref:
+      tags:
+        - config
+      when:
+        - os: linux
+  installDir:
+    Test Expected Behaviour: {}
+  registry:
+    <regHkcu>/Software/Veslo Games/Test Expected Behaviour:
+      tags:
+        - config
+  steamId: 771710
+.fall:
+  installDir:
+    fall: {}
+  steamId: 1087950
+.hack//G.U. Last Recode:
+  files:
+    <root>/userdata/<storeUserId>/525480/remote/savedata:
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    hackGU: {}
+  steamId: 525480
+0 A.D.:
+  files:
+    <home>/Documents/My Games/0ad:
+      tags:
+        - save
+      when:
+        - os: windows
+    <home>/Library/Application/ Support/0ad:
+      tags:
+        - save
+      when:
+        - os: mac
+    <winAppData>/0ad:
+      tags:
+        - config
+      when:
+        - os: windows
+    <xdgConfig>/0ad:
+      tags:
+        - config
+      when:
+        - os: linux
+    <xdgData>/0ad:
+      tags:
+        - save
+      when:
+        - os: linux
+0 Day:
+  installDir:
+    0 Day: {}
+  steamId: 554920
+'0000':
+  steamId: 639880
+007 Legends:
+  files:
+    <home>/Documents/My Games/Activision/007 Legends:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winLocalAppData>/Activision/007 Legends:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    007 Legends: {}
+  steamId: 211670
+'007: Quantum of Solace':
+  files:
+    <winAppData>/Activision/Quantum of Solace/players/<storeUserId>/config.cfg:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Quantum of Solace: {}
+  steamId: 10080
+03.04:
+  installDir:
+    03.04: {}
+  steamId: 952950
+0Gravity:
+  installDir:
+    0Gravity: {}
+  steamId: 1101290
+0rbitalis:
+  files:
+    <root>/userdata/<storeUserId>/278440/remote:
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+    <winAppData>/0RBITALIS:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    0rbitalis: {}
+  steamId: 278440
+0°N 0°W:
+  installDir:
+    0°N 0°W: {}
+  steamId: 670750
+1 Hit Kill:
+  installDir:
+    1 HIT KILL: {}
+  steamId: 882750
+'1 Moment of Time: Silentville':
+  files:
+    <winAppData>/2Monkeys/CrossMoT:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winAppData>/2Monkeys/CrossMoT/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    1 Moment Of Time Silentville: {}
+  steamId: 497400
+1 Screen Platformer:
+  files:
+    <winLocalAppData>/OneScreenPlatformStaticGM14:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    1 Screen Platformer: {}
+  steamId: 791180
+1 ⛷ 1:
+  steamId: 932490
+'1, 2, 3... Bruegel!':
+  installDir:
+    '1, 2, 3... Bruegel!': {}
+  steamId: 1071310
+'1,000 Heads Among the Trees':
+  installDir:
+    1000 Heads Among the Trees: {}
+  steamId: 406730
+1-2-Swift:
+  installDir:
+    1-2-Swift: {}
+  steamId: 583570
+'1-Bit Revival: The Residuals of Null':
+  installDir:
+    1-Bit Revival The Residuals of Null: {}
+  steamId: 1025480
+1... 2... 3... KICK IT! (Drop That Beat Like an Ugly Baby):
+  installDir:
+    123kickit: {}
+  registry:
+    <regHkcu>/Software/Dejobaan Games/Ugly Baby:
+      tags:
+        - config
+  steamId: 15540
+1/4平方米的星空:
+  installDir:
+    A Piece of Wish upon the Stars: {}
+  steamId: 899190
+10 Miles To Safety:
+  installDir:
+    10 Miles To Safety: {}
+  steamId: 1015140
+10 Minute Barbarian:
+  installDir:
+    10 Minute Barbarian: {}
+  steamId: 389120
+10 Minute Tower:
+  installDir:
+    10 Minute Tower: {}
+  steamId: 477010
+10 Second Ninja:
+  files:
+    <home>/Library/Application Support/com.yoyogames.macyoyorunner:
+      tags:
+        - save
+      when:
+        - os: mac
+    <home>/Library/Application Support/com.yoyogames.macyoyorunner/settings.ini:
+      tags:
+        - config
+      when:
+        - os: mac
+    <winLocalAppData>/10_Second_Ninja:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winLocalAppData>/10_Second_Ninja/settings.ini:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    10 Second Ninja: {}
+  steamId: 271670
+10 Second Ninja X:
+  installDir:
+    10 Second Ninja X: {}
+  steamId: 435790
+10 Second Shuriken:
+  installDir:
+    10 Second Shuriken: {}
+  steamId: 1130440
+10 Seconds:
+  installDir:
+    10 seconds: {}
+  steamId: 852190
+10 Years After:
+  installDir:
+    10 Years After: {}
+  registry:
+    <regHkcu>/SOFTWARE/Ten Tree Games/10 Years After:
+      tags:
+        - config
+        - save
+  steamId: 339240
+'10,000,000':
+  files:
+    <xdgConfig>/unity3d/EightyEightGames/10000000:
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  installDir:
+    '10000000': {}
+  registry:
+    <regHkcu>/Software/EightyEightGames/10000000:
+      tags:
+        - config
+        - save
+  steamId: 227580
+10-4 Indirect Contact:
+  installDir:
+    10-4: {}
+  steamId: 1055140
+100 Chests:
+  installDir:
+    100 Chests: {}
+  steamId: 856260
+100 Seconds:
+  installDir:
+    100 Seconds: {}
+  steamId: 796580
+100 Years' War:
+  installDir:
+    100 Years War: {}
+  steamId: 1025530
+100$:
+  installDir:
+    100$: {}
+  steamId: 1016250
+100% Orange Juice!:
+  files:
+    <base>/config.dat:
+      tags:
+        - config
+      when:
+        - os: windows
+    <base>/user.dat:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    100 Orange Juice: {}
+  steamId: 282800
+1000 Amps:
+  files:
+    <base>:
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+    <home>/Library/Application Support/Brandon Brizzi/1000 Amps:
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+  installDir:
+    1000 Amps: {}
+  steamId: 205690
+1000 Days to Escape:
+  installDir:
+    1000 days to escape: {}
+  steamId: 1103100
+1000 Stages:
+  installDir:
+    1000 Stages: {}
+  steamId: 873180
+1000$:
+  installDir:
+    1000$: {}
+  steamId: 1099840
+1001 Hugs:
+  installDir:
+    1001Hugs: {}
+  steamId: 1157020
+1001 Jigsaw Castles And Palaces:
+  installDir:
+    1001 Jigsaw Castles And Palaces: {}
+  steamId: 1158830
+'1001 Jigsaw World Tour: Europe':
+  installDir:
+    1001 Jigsaw Europe: {}
+  steamId: 1128830
+1001 Jigsaw. 6 Magic Elements:
+  installDir:
+    1001 Jigsaw. 6 Magic Elements: {}
+  steamId: 1095850
+1001 Jigsaw. Earth Chronicles:
+  installDir:
+    1001 Jigsaw. Earth Chronicles: {}
+  steamId: 970870
+1001 Jigsaw. Home Sweet Home:
+  installDir:
+    1001 Jigsaw. Home Sweet Home: {}
+  steamId: 970900
+1001 Jigsaw. Myths of ancient Greece:
+  installDir:
+    1001 JIGSAW. MYTHS OF ANCIENT GREECE: {}
+  steamId: 1165430
+'1001 Jigsaw. World Tour: Australian Puzzles':
+  installDir:
+    1001 Jigsaw. World Tour Australian Puzzles: {}
+  steamId: 970880
+'1001 Jigsaw. World Tour: France':
+  installDir:
+    1001 Jigsaw. World Tour France: {}
+  steamId: 1095870
+'1001 Jigsaw. World Tour: Great America':
+  installDir:
+    1001 Jigsaw. World Tour Great America: {}
+  steamId: 970910
+'1001 Jigsaw. World Tour: London':
+  installDir:
+    1001 Jigsaw. World Tour London: {}
+  steamId: 970890
+1001 Spikes:
+  files:
+    <home>/Documents/My Games/1001 Spikes:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    <home>/Library/Application Support/1001 Spikes:
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    <xdgData>/1001 spikes:
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  installDir:
+    1001 Spikes: {}
+  steamId: 260790
+1001st Hyper Tower:
+  installDir:
+    1001stHyperTower: {}
+  steamId: 958050
+100ft Robot Golf:
+  installDir:
+    100ft Robot Golf: {}
+  steamId: 368000
+100nya:
+  installDir:
+    100nya: {}
+  steamId: 553830
+101 Ways to Die:
+  installDir:
+    101 Ways to Die: {}
+  steamId: 413480
+'1010':
+  installDir:
+    '1010': {}
+  steamId: 761190
+'101010':
+  installDir:
+    '101010': {}
+  steamId: 1081800
+'102 Dalmatians: Puppies to the Rescue':
+  files:
+    <base>/savegame.dat:
+      tags:
+        - save
+      when:
+        - os: windows
+'103':
+  files:
+    <winLocalAppData>/OneZeroThree/Saved/SaveGames:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    '103': {}
+  steamId: 913850
+11-11 Memories Retold:
+  files:
+    <root>/userdata/<storeUserId>/735580/remote:
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    RocketMan: {}
+  registry:
+    '<regHkcu>/Software/Bandai Namco/11-11: Memories Retold':
+      tags:
+        - config
+  steamId: 735580
+112 Operator:
+  installDir:
+    112 Operator: {}
+  steamId: 793460
+'1166':
+  installDir:
+    '1166': {}
+  steamId: 581810
+11th Dream:
+  installDir:
+    11th Dream Game: {}
+  steamId: 949450
+12 HOURS:
+  installDir:
+    12 HOURS: {}
+  steamId: 1063560
+12 HOURS 2:
+  installDir:
+    12 HOURS 2: {}
+  steamId: 1126840
+12 Labours of Hercules:
+  files:
+    <home>/.Saves/ZOG/Hercules:
+      tags:
+        - save
+      when:
+        - os: linux
+    <home>/.Saves/ZOG/Hercules/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: linux
+    <home>/Library/Application Support/ZOG/Hercules:
+      tags:
+        - save
+      when:
+        - os: mac
+    <home>/Library/Application Support/ZOG/Hercules/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: mac
+    <winAppData>/ZOG/Hercules:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winAppData>/ZOG/Hercules/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 Labours of Hercules: {}
+  steamId: 342580
+'12 Labours of Hercules II: The Cretan Bull':
+  files:
+    <winAppData>/ZOG/Hercules2:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winAppData>/ZOG/Hercules2/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 Labours of Hercules II The Cretan Bull: {}
+  steamId: 360640
+'12 Labours of Hercules III: Girl Power':
+  files:
+    <winAppData>/ZOG/Hercules3:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winAppData>/ZOG/Hercules3/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 Labours of Hercules III Girl Power: {}
+  steamId: 360650
+'12 Labours of Hercules IV: Mother Nature':
+  installDir:
+    12 Labours of Hercules IV Mother Nature: {}
+  steamId: 396800
+'12 Labours of Hercules IX: A Hero''s Moonwalk':
+  installDir:
+    12 Labours of Hercules IX A Hero's Moonwalk: {}
+  steamId: 1026070
+'12 Labours of Hercules V: Kids of Hellas':
+  installDir:
+    12 Labours of Hercules V Kids of Hellas: {}
+  steamId: 491330
+'12 Labours of Hercules VI: Race for Olympus':
+  files:
+    <home>/.Saves/ZOG/Hercules6CE:
+      tags:
+        - save
+      when:
+        - os: linux
+    <home>/.Saves/ZOG/Hercules6CE/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: linux
+    <home>/Library/Application Support/ZOG/Hercules6CE:
+      tags:
+        - save
+      when:
+        - os: mac
+    <home>/Library/Application Support/ZOG/Hercules6CE/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: mac
+    <winAppData>/ZOG/Hercules6CE:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winAppData>/ZOG/Hercules6CE/Settings.sav:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 Labours of Hercules VI Race for Olympus: {}
+  steamId: 567800
+'12 Labours of Hercules VII: Fleecing the Fleece':
+  installDir:
+    12 Labours of Hercules VII Fleecing the Fleece: {}
+  steamId: 663210
+'12 Labours of Hercules VIII: How I Met Megara':
+  installDir:
+    12 Labours of Hercules VIII: {}
+  steamId: 938310
+12 Orbits:
+  files:
+    <home>/.config/unity3d/Roman Uhlig/12 orbits:
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    <home>/Library/Preferences/unity.Roman Uhlig.12 orbits.plist:
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  installDir:
+    12 orbits: {}
+  registry:
+    <regHkcu>/Software/Roman Uhlig/12 orbits:
+      tags:
+        - config
+        - save
+  steamId: 529950
+12 is Better Than 6:
+  files:
+    <winAppData>/_12ibt6/savedata.ini:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winAppData>/_12ibt6/settings.ini:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    12 is Better Than 6: {}
+  steamId: 410110
+123 Slaughter Me Street:
+  installDir:
+    123 Slaughter Me Street: {}
+  steamId: 405180
+123 Slaughter Me Street 2:
+  installDir:
+    123 Slaughter Me Street 2: {}
+  steamId: 551190
+'1248':
+  installDir:
+    '1248': {}
+  steamId: 814510
+13 Cycles:
+  installDir:
+    13 Cycles: {}
+  steamId: 862790
+'140':
+  files:
+    <home>/Library/Preferences/unity.JeppeCarlsen.140.plist:
+      tags:
+        - config
+      when:
+        - os: mac
+    <xdgConfig>/unity3d/JeppeCarlsen/140:
+      tags:
+        - config
+      when:
+        - os: linux
+  installDir:
+    '140': {}
+  registry:
+    <regHkcu>/SOFTWARE/JeppeCarlsen/140:
+      tags:
+        - save
+  steamId: 242820
+'1406':
+  installDir:
+    '1406': {}
+  steamId: 1043350
+'141':
+  installDir:
+    '141': {}
+  steamId: 1140110
+15 Days:
+  installDir:
+    15 Days: {}
+  steamId: 342990
+16bit Trader:
+  files:
+    <root>/userdata/<storeUserId>/375460/remote:
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    16bittrader: {}
+  registry:
+    <regHkcu>/SOFTWARE/Forever Entertainment/16bit Trader:
+      tags:
+        - config
+  steamId: 375460
+'1849':
+  files:
+    <winAppData>/com.somasim.fortynine/Local Store:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    '1849': {}
+  steamId: 290970
+'1982':
+  installDir:
+    '1982': {}
+  steamId: 639650
+'2048':
+  installDir:
+    '2048': {}
+  steamId: 942050
+'2084':
+  installDir:
+    '2084': {}
+  steamId: 987850
+'21':
+  installDir:
+    '21': {}
+  steamId: 938520
+'2100':
+  installDir:
+    '2100': {}
+  steamId: 1018090
+'222':
+  installDir:
+    '222': {}
+  steamId: 1028160
+'29':
+  steamId: 651490
+'3079':
+  files:
+    <home>/3079Saves:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+        - os: mac
+        - os: linux
+  installDir:
+    '3079': {}
+  steamId: 259620
+'3089':
+  files:
+    <home>/3089:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+        - os: mac
+        - os: linux
+  installDir:
+    '3089': {}
+  steamId: 263360
+'428: Shibuya Scramble':
+  files:
+    <root>/userdata/<storeUserId>/648580/remote:
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    428_shibuya_scramble_en: {}
+  steamId: 648580
+'5089':
+  files:
+    <home>/5089:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    '5089': {}
+  steamId: 414510
+60 Parsecs!:
+  files:
+    <root>/userdata/<storeUserId>/646270/remote:
+      tags:
+        - save
+      when:
+        - store: steam
+    <root>/userdata/<storeUserId>/646270/remote/settings:
+      tags:
+        - config
+      when:
+        - store: steam
+  installDir:
+    60 Parsecs!: {}
+  registry:
+    <regHkcu>/Software/Robot Gentleman/60 Parsecs:
+      tags:
+        - config
+  steamId: 646270
+60 Seconds! Reatomized:
+  files:
+    <root>/userdata/<storeUserId>/1012880/remote:
+      tags:
+        - save
+      when:
+        - store: steam
+    <root>/userdata/<storeUserId>/1012880/remote/settings:
+      tags:
+        - config
+      when:
+        - store: steam
+  installDir:
+    60 Seconds! Reatomized: {}
+  steamId: 1012880
+'6120':
+  installDir:
+    '6120': {}
+  steamId: 1063230
+'69':
+  steamId: 854380
+'7':
+  installDir:
+    7 Game: {}
+  steamId: 684210
+8infinity:
+  files:
+    <root>/userdata/<storeUserId>/526540/remote:
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    8infinity: {}
+  steamId: 526540
+'900':
+  installDir:
+    '900': {}
+  steamId: 696860
+'999':
+  installDir:
+    '999': {}
+  steamId: 876840
+'99999':
+  installDir:
+    Gunkid99: {}
+  steamId: 906600
