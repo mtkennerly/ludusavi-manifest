@@ -739,6 +739,22 @@ $1 Ride:
   installDir:
     15 Days: {}
   steamId: 342990
+15 Defense:
+  steamId: 599090
+15 Seconds:
+  installDir:
+    15 seconds: {}
+  steamId: 856350
+'150,000 B.C.':
+  installDir:
+    150000bc: {}
+  steamId: 864940
+16 Bit Arena:
+  installDir:
+    16 Bit Arena: {}
+  steamId: 347630
+'16 Planes:Return':
+  steamId: 986770
 16bit Trader:
   files:
     <root>/userdata/<storeUserId>/375460/remote:
@@ -753,6 +769,132 @@ $1 Ride:
       tags:
         - config
   steamId: 375460
+'1775: Rebellion':
+  installDir:
+    '1775': {}
+  steamId: 422610
+18 Floors:
+  installDir:
+    18 Floors: {}
+  steamId: 855320
+'18 Wheels of Steel: Across America':
+  files:
+    <home>/Documents/18 WoS Across America/config.cfg:
+      tags:
+        - config
+      when:
+        - os: windows
+    <home>/Documents/18 WoS Across America/saves:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    18 Wheels of Steel Across America: {}
+  steamId: 514160
+'18 Wheels of Steel: American Long Haul':
+  files:
+    <home>/Documents/18 WoS American Long Haul:
+      tags:
+        - config
+      when:
+        - os: windows
+    <home>/Documents/18 WoS American Long Haul/save:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    18 Wheels of Steel American Long Haul: {}
+  steamId: 12520
+'18 Wheels of Steel: Convoy':
+  files:
+    <home>/Documents/18 WoS Convoy:
+      tags:
+        - config
+      when:
+        - os: windows
+    <home>/Documents/18 WoS Convoy/save:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    18 Wheels of Steel Convoy: {}
+  steamId: 514170
+'18 Wheels of Steel: Extreme Trucker':
+  files:
+    <home>/Documents/18 WoS Extreme Trucker:
+      tags:
+        - config
+      when:
+        - os: windows
+    <home>/Documents/18 WoS Extreme Trucker/profile##:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    18 Wheels of Steel Extreme Trucker: {}
+  steamId: 33730
+'18 Wheels of Steel: Extreme Trucker 2':
+  files:
+    <home>/Documents/18 WoS Extreme Trucker 2:
+      tags:
+        - config
+      when:
+        - os: windows
+    <home>/Documents/18 WoS Extreme Trucker 2/profile##:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    18 WoS Extreme Trucker 2: {}
+  steamId: 362780
+'18 Wheels of Steel: Haulin''':
+  files:
+    <home>/Documents/18 WoS Haulin:
+      tags:
+        - config
+      when:
+        - os: windows
+    <home>/Documents/18 WoS Haulin/save:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    18 Wheels of Steel Haulin: {}
+  steamId: 514180
+'18 Wheels of Steel: Pedal to the Metal':
+  files:
+    <home>/Documents/18 WoS Pedal to the Metal/config.cfg:
+      tags:
+        - config
+      when:
+        - os: windows
+    <home>/Documents/18 WoS Pedal to the Metal/saves:
+      tags:
+        - save
+      when:
+        - os: windows
+18+:
+  installDir:
+    18+: {}
+  steamId: 877360
+18+ MEMORY:
+  installDir:
+    18+ MEMORY: {}
+  steamId: 1222470
+'1812: Napoleon Wars':
+  installDir:
+    1812 Napoleon Wars: {}
+  steamId: 1166230
+'1812: The Invasion of Canada':
+  installDir:
+    1812 The Invasion of Canada: {}
+  steamId: 555370
 '1849':
   files:
     <winAppData>/com.somasim.fortynine/Local Store:
@@ -764,6 +906,30 @@ $1 Ride:
   installDir:
     '1849': {}
   steamId: 290970
+1912 Titanic Mystery:
+  installDir:
+    1912 Titanic Mystery: {}
+  steamId: 1114270
+'1914: Prelude to Chaos':
+  installDir:
+    1914 Prelude to Chaos: {}
+  steamId: 627950
+1917 - The Alien Invasion:
+  installDir:
+    1917 - The Alien Invasion DX: {}
+  steamId: 470060
+'1931: Scheherazade at the Library of Pergamum':
+  installDir:
+    Scheherazade: {}
+  steamId: 334850
+'1942: The Pacific Air War':
+  installDir:
+    1942 - The Pacific Air War: {}
+  steamId: 347230
+1943 Berlin Blitz:
+  installDir:
+    BerlinBlitz_0.07g_Steam: {}
+  steamId: 513490
 '1982':
   installDir:
     '1982': {}
@@ -902,3 +1068,38 @@ $1 Ride:
   installDir:
     Gunkid99: {}
   steamId: 906600
+Celeste:
+  files:
+    <base>/Saves:
+      tags:
+        - config
+      when:
+        - os: windows
+    <base>/Saves/settings.celeste:
+      tags:
+        - save
+      when:
+        - os: windows
+    <home>/Library/Application Support/Celeste/Saves:
+      tags:
+        - config
+      when:
+        - os: mac
+    <home>/Library/Application Support/Celeste/Saves/settings.celeste:
+      tags:
+        - save
+      when:
+        - os: mac
+    <xdgData>/Celeste/Saves:
+      tags:
+        - config
+      when:
+        - os: linux
+    <xdgData>/Celeste/Saves/settings.celeste:
+      tags:
+        - save
+      when:
+        - os: linux
+  installDir:
+    Celeste: {}
+  steamId: 504230
