@@ -68,7 +68,7 @@ Paths can include these placeholders:
 |---------------------|----------------------------------------------------------------------------------------|
 | `<root>`            | a directory where games are installed (configured in backup tool)                      |
 | `<game>`            | an `installDir` (if defined) or the game's canonical name in the manifest              |
-| `<base>`            | shorthand for `<root>/**/<game>`                                                       |
+| `<base>`            | shorthand for `<root>/<game>` (unless overridden by store-specific rules)              |
 | `<home>`            | current user's home directory in the OS (`~`)                                          |
 | `<storeUserId>`     | current user's ID in the game store                                                    |
 | `<osUserName>`      | current user's name in the OS                                                          |
@@ -100,8 +100,10 @@ Tools must implement the following in addition to respecting the schema:
 
 Tools may also:
 
-* Use store-specific logic to narrow down the `**` in `<base>`. For example,
-  with Steam, it would be `<root>/steamapps/common/<game>`.
+* Use store-specific logic to determine the `<base>`. For example,
+  with Steam, if the root is `~/.steam/steam`, then `<base>` would be
+  `<root>/steamapps/common/<game>`. Or a tool could use `<root>/**/<game>`
+  as a generic option, although it could lead to wasted search time.
 
 The latest version of the primary manifest can be downloaded from
 https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml .
