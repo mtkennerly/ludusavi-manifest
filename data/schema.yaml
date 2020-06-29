@@ -50,5 +50,8 @@ additionalProperties:
             type: array
             items:
               $ref: "#/definitions/RegistryConstraint"
-    steamId:
-      type: integer
+    steam:
+      type: object
+      properties:
+        id:
+          type: integer

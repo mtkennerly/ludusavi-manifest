@@ -36,13 +36,13 @@ $1 Ride:
   revId: 841129
 '''90s Football Stars':
   pageId: 98644
-  revId: 841107
+  revId: 975157
 '''n Verlore Verstand':
   pageId: 43728
   revId: 892716
 '***':
   pageId: 129579
-  revId: 841120
+  revId: 976962
 '-KLAUS-':
   pageId: 113092
   revId: 841110
@@ -69,7 +69,7 @@ $1 Ride:
   revId: 952124
 0 A.D.:
   pageId: 6203
-  revId: 974024
+  revId: 978749
 0 Day:
   pageId: 53391
   revId: 841116
@@ -93,7 +93,7 @@ $1 Ride:
   revId: 841123
 0°N 0°W:
   pageId: 67968
-  revId: 841124
+  revId: 978315
 1 Hit Kill:
   pageId: 103249
   revId: 841125
@@ -165,7 +165,7 @@ $1 Ride:
   revId: 839598
 100$:
   pageId: 127526
-  revId: 910085
+  revId: 976963
 100% Orange Juice!:
   pageId: 27256
   revId: 947097
@@ -363,7 +363,7 @@ $1 Ride:
   revId: 939407
 18+:
   pageId: 98580
-  revId: 917659
+  revId: 978068
 18+ MEMORY:
   pageId: 156473
   revId: 931643
@@ -1500,22 +1500,22 @@ A Legend of Luca:
   revId: 841528
 A Legionary's Life:
   pageId: 134830
-  revId: null
+  revId: 936654
 A Lenda do Herói:
   pageId: 38191
-  revId: null
+  revId: 977793
 A Light in the Dark:
   pageId: 87557
-  revId: null
+  revId: 841531
 A Little Lily Princess:
   pageId: 34700
-  revId: null
+  revId: 841532
 A Little Rabbit Story:
   pageId: 80968
-  revId: null
+  revId: 841533
 A Long Night For Crazy King:
   pageId: 150754
-  revId: null
+  revId: 902479
 A Long Road Home:
   pageId: 56912
   revId: null
@@ -63414,7 +63414,7 @@ Lone Pirate VR:
   revId: null
 Lone Survivor:
   pageId: 3011
-  revId: null
+  revId: 962604
 Lone Vessel:
   pageId: 71723
   revId: null
@@ -83139,10 +83139,11 @@ Preventive Strike:
   revId: null
 Prey:
   pageId: 10517
-  revId: null
+  revId: 973111
 Prey (2017):
   pageId: 33371
-  revId: null
+  revId: 978549
+  unsupportedOs: true
 Prey with Gun:
   pageId: 73532
   revId: null

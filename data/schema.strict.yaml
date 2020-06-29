@@ -14,22 +14,23 @@ definitions:
   Os:
     type: string
     enum:
-      - windows
       - linux
       - mac
+      - windows
   Store:
     type: string
     enum:
-      - steam
-      - epic
       - discord
+      - epic
+      - gog
       - origin
+      - steam
       - uplay
   Tag:
     type: string
     enum:
-      - save
       - config
+      - save
 
 type: object
 additionalProperties:
@@ -63,5 +64,8 @@ additionalProperties:
             type: array
             items:
               $ref: "#/definitions/RegistryConstraint"
-    steamId:
-      type: integer
+    steam:
+      type: object
+      properties:
+        id:
+          type: integer

@@ -50,7 +50,8 @@ An Example Game:
       tags:
         - save
         - config
-  steamId: 123
+  steam:
+    id: 123
 ```
 
 This means:
@@ -78,8 +79,8 @@ Paths can include these placeholders:
 | `<winDir>`          | `%WINDIR%` on Windows                                                     |
 | `<xdgData>`         | `$XDG_DATA_HOME` on Linux                                                 |
 | `<xdgConfig>`       | `$XDG_CONFIG_HOME` on Linux                                               |
-| `regHkcu`           | `HKEY_CURRENT_USER` in the Windows registry                               |
-| `regHklm`           | `HKEY_LOCAL_MACHINE` in the Windows registry                              |
+| `<regHkcu>`         | `HKEY_CURRENT_USER` in the Windows registry                               |
+| `<regHklm>`         | `HKEY_LOCAL_MACHINE` in the Windows registry                              |
 
 ## Implementation
 Tools must implement the following in addition to respecting the schema:

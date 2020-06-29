@@ -4,9 +4,9 @@ import * as pathMod from "path";
 import * as minimist from "minimist";
 import * as yaml from "js-yaml";
 import * as SteamUser from "steam-user";
-import { resolve } from "path";
 
 const REPO = pathMod.dirname(__dirname);
+const DELAY_BETWEEN_GAMES_MS = 1000;
 
 interface Cli {
     cache?: boolean,
@@ -14,6 +14,7 @@ interface Cli {
     all?: boolean,
     existing?: boolean,
     missing?: boolean,
+    unchecked?: boolean,
     unsupportedOs?: boolean,
     unsupportedPath?: boolean,
     game?: string,
@@ -185,7 +186,9 @@ interface Game {
             tags?: Array<Tag>,
         }
     };
-    steamId?: number;
+    steam?: {
+        id?: number
+    };
 }
 
 interface Constraint {
@@ -381,6 +384,7 @@ class ManifestFile extends YamlFile<Manifest> {
             all: boolean,
             existing: boolean,
             missing: boolean,
+            unchecked: boolean,
             unsupportedOs: boolean,
             unsupportedPath: boolean,
             game: string | undefined,
@@ -398,6 +402,9 @@ class ManifestFile extends YamlFile<Manifest> {
                 check = true;
             }
             if (filter.missing && !this.data.hasOwnProperty(title)) {
+                check = true;
+            }
+            if (filter.unchecked && wikiCache[title].revId === null) {
                 check = true;
             }
             if (filter.unsupportedOs && info.unsupportedOs) {
@@ -419,12 +426,12 @@ class ManifestFile extends YamlFile<Manifest> {
             }
 
             const game = await getGame(title, wikiCache);
-            if (game.files === undefined && game.registry === undefined && game.steamId === undefined) {
+            if (game.files === undefined && game.registry === undefined && game.steam?.id === undefined) {
                 delete this.data[title];
                 continue;
             }
-            if (game.steamId !== undefined) {
-                const installDir = await steamCache.getAppInstallDir(game.steamId);
+            if (game.steam?.id !== undefined) {
+                const installDir = await steamCache.getAppInstallDir(game.steam.id);
                 if (installDir !== undefined) {
                     if (game.installDir === undefined) {
                         game.installDir = {}
@@ -433,6 +440,8 @@ class ManifestFile extends YamlFile<Manifest> {
                 }
             }
             this.data[title] = game;
+
+            await new Promise(resolve => setTimeout(resolve, DELAY_BETWEEN_GAMES_MS));
         }
     }
 }
@@ -455,7 +464,7 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
         if (template.name === "Infobox game") {
             const steamId = Number(template.parameters["steam appid"]);
             if (!isNaN(steamId) && steamId > 0) {
-                game.steamId = steamId;
+                game.steam = { id: steamId };
             }
         } else if (template.name === "Game data/saves" || template.name === "Game data/config") {
             const rawPath = typeof template.parameters[2] === "string" ? template.parameters[2] : template.parameters[2].toString();
@@ -465,13 +474,6 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
             try {
                 const [path, pathType] = parsePath(rawPath);
                 if (pathType === PathType.FileSystem) {
-                    if (!game.files.hasOwnProperty(path)) {
-                        game.files[path] = {
-                            when: [],
-                            tags: [],
-                        };
-                    }
-
                     let os: Os | undefined = undefined;
                     let store: Store | undefined = undefined;
                     if ((template.parameters[1] as string).match(/steam/i)) {
@@ -480,6 +482,14 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
                         os = parseOs(template.parameters[1]);
                         store = getStoreConstraintFromPath(rawPath);
                     }
+
+                    if (!game.files.hasOwnProperty(path)) {
+                        game.files[path] = {
+                            when: [],
+                            tags: [],
+                        };
+                    }
+
                     if (!game.files[path].when.some(x => x.os === os && x.store === store)) {
                         if (os !== undefined && store !== undefined) {
                             game.files[path].when.push({ os, store });
@@ -616,6 +626,7 @@ async function main() {
                     all: args.all ?? false,
                     existing: args.existing ?? false,
                     missing: args.missing ?? false,
+                    unchecked: args.unchecked ?? false,
                     unsupportedOs: args.unsupportedOs ?? false,
                     unsupportedPath: args.unsupportedPath ?? false,
                     game: args.game,

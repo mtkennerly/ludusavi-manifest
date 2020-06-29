@@ -5,8 +5,9 @@ Requires Node.js.
   * `npm run cache`
 * Update the manifest with games from the cache (`--limit 25` is default at a time):
   * All games in cache: `npm run manifest -- --all`
-  * Games missing from manifest: `npm run manifest -- --missing`
   * Games already in the manifest: `npm run manifest -- --existing`
+  * Games missing from manifest: `npm run manifest -- --missing`
+  * Games not yet checked on the wiki: `npm run manifest -- --unchecked`
   * Games that had an unknown OS: `npm run manifest -- --unsuportedOs`
   * Games that had an unusable path: `npm run manifest -- --unsupportedPath`
   * A specific game: `npm run manifest -- --game "Name of Game"`
