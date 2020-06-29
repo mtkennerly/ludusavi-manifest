@@ -64,23 +64,24 @@ This means:
 
 Paths can include these placeholders:
 
-| placeholder         | meaning                                                                   |
-|---------------------|---------------------------------------------------------------------------|
-| `<root>`            | a directory where games are installed (configured in backup tool)         |
-| `<game>`            | an `installDir` (if defined) or the game's canonical name in the manifest |
-| `<base>`            | shorthand for `<root>/**/<game>`                                          |
-| `<home>`            | current user's home directory in the OS (`~`)                             |
-| `<storeUserId>`     | current user's ID in the game store                                       |
-| `<osUserName>`      | current user's name in the OS                                             |
-| `<winAppData>`      | `%APPDATA%` on Windows                                                    |
-| `<winLocalAppData>` | `%LOCALAPPDATA%` on Windows                                               |
-| `<winPublic>`       | `%PUBLIC%` on Windows                                                     |
-| `<winProgramData>`  | `%PROGRAMDATA%` on Windows                                                |
-| `<winDir>`          | `%WINDIR%` on Windows                                                     |
-| `<xdgData>`         | `$XDG_DATA_HOME` on Linux                                                 |
-| `<xdgConfig>`       | `$XDG_CONFIG_HOME` on Linux                                               |
-| `<regHkcu>`         | `HKEY_CURRENT_USER` in the Windows registry                               |
-| `<regHklm>`         | `HKEY_LOCAL_MACHINE` in the Windows registry                              |
+| placeholder         | meaning                                                                                |
+|---------------------|----------------------------------------------------------------------------------------|
+| `<root>`            | a directory where games are installed (configured in backup tool)                      |
+| `<game>`            | an `installDir` (if defined) or the game's canonical name in the manifest              |
+| `<base>`            | shorthand for `<root>/**/<game>`                                                       |
+| `<home>`            | current user's home directory in the OS (`~`)                                          |
+| `<storeUserId>`     | current user's ID in the game store                                                    |
+| `<osUserName>`      | current user's name in the OS                                                          |
+| `<winAppData>`      | `%APPDATA%` on Windows                                                                 |
+| `<winLocalAppData>` | `%LOCALAPPDATA%` on Windows                                                            |
+| `<winDocuments>`    | `<home>/Documents` (f.k.a. `<home>/My Documents`) or a localized equivalent on Windows |
+| `<winPublic>`       | `%PUBLIC%` on Windows                                                                  |
+| `<winProgramData>`  | `%PROGRAMDATA%` on Windows                                                             |
+| `<winDir>`          | `%WINDIR%` on Windows                                                                  |
+| `<xdgData>`         | `$XDG_DATA_HOME` on Linux                                                              |
+| `<xdgConfig>`       | `$XDG_CONFIG_HOME` on Linux                                                            |
+| `<regHkcu>`         | `HKEY_CURRENT_USER` in the Windows registry                                            |
+| `<regHklm>`         | `HKEY_LOCAL_MACHINE` in the Windows registry                                           |
 
 ## Implementation
 Tools must implement the following in addition to respecting the schema:

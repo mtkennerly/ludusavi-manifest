@@ -117,7 +117,7 @@ const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?
         when: { os: "windows" },
     },
     "userprofile\\documents": {
-        mapped: "<home>/Documents",
+        mapped: "<winDocuments>",
         when: { os: "windows" },
     },
     appdata: {

@@ -130,11 +130,6 @@ $1 Ride:
     id: 525480
 0 A.D.:
   files:
-    <home>/Documents/My Games/0ad:
-      tags:
-        - save
-      when:
-        - os: windows
     <home>/Library/Application/ Support/0ad:
       tags:
         - save
@@ -143,6 +138,11 @@ $1 Ride:
     <winAppData>/0ad:
       tags:
         - config
+      when:
+        - os: windows
+    <winDocuments>/My Games/0ad:
+      tags:
+        - save
       when:
         - os: windows
     <xdgConfig>/0ad:
@@ -165,7 +165,7 @@ $1 Ride:
     id: 639880
 007 Legends:
   files:
-    <home>/Documents/My Games/Activision/007 Legends:
+    <winDocuments>/My Games/Activision/007 Legends:
       tags:
         - save
       when:
@@ -508,18 +508,18 @@ $1 Ride:
     id: 970890
 1001 Spikes:
   files:
-    <home>/Documents/My Games/1001 Spikes:
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
     <home>/Library/Application Support/1001 Spikes:
       tags:
         - config
         - save
       when:
         - os: mac
+    <winDocuments>/My Games/1001 Spikes:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
     <xdgData>/1001 spikes:
       tags:
         - config
@@ -890,12 +890,12 @@ $1 Ride:
     id: 855320
 '18 Wheels of Steel: Across America':
   files:
-    <home>/Documents/18 WoS Across America/config.cfg:
+    <winDocuments>/18 WoS Across America/config.cfg:
       tags:
         - config
       when:
         - os: windows
-    <home>/Documents/18 WoS Across America/saves:
+    <winDocuments>/18 WoS Across America/saves:
       tags:
         - save
       when:
@@ -906,12 +906,12 @@ $1 Ride:
     id: 514160
 '18 Wheels of Steel: American Long Haul':
   files:
-    <home>/Documents/18 WoS American Long Haul:
+    <winDocuments>/18 WoS American Long Haul:
       tags:
         - config
       when:
         - os: windows
-    <home>/Documents/18 WoS American Long Haul/save:
+    <winDocuments>/18 WoS American Long Haul/save:
       tags:
         - save
       when:
@@ -922,12 +922,12 @@ $1 Ride:
     id: 12520
 '18 Wheels of Steel: Convoy':
   files:
-    <home>/Documents/18 WoS Convoy:
+    <winDocuments>/18 WoS Convoy:
       tags:
         - config
       when:
         - os: windows
-    <home>/Documents/18 WoS Convoy/save:
+    <winDocuments>/18 WoS Convoy/save:
       tags:
         - save
       when:
@@ -938,12 +938,12 @@ $1 Ride:
     id: 514170
 '18 Wheels of Steel: Extreme Trucker':
   files:
-    <home>/Documents/18 WoS Extreme Trucker:
+    <winDocuments>/18 WoS Extreme Trucker:
       tags:
         - config
       when:
         - os: windows
-    <home>/Documents/18 WoS Extreme Trucker/profile##:
+    <winDocuments>/18 WoS Extreme Trucker/profile##:
       tags:
         - save
       when:
@@ -954,12 +954,12 @@ $1 Ride:
     id: 33730
 '18 Wheels of Steel: Extreme Trucker 2':
   files:
-    <home>/Documents/18 WoS Extreme Trucker 2:
+    <winDocuments>/18 WoS Extreme Trucker 2:
       tags:
         - config
       when:
         - os: windows
-    <home>/Documents/18 WoS Extreme Trucker 2/profile##:
+    <winDocuments>/18 WoS Extreme Trucker 2/profile##:
       tags:
         - save
       when:
@@ -970,12 +970,12 @@ $1 Ride:
     id: 362780
 '18 Wheels of Steel: Haulin''':
   files:
-    <home>/Documents/18 WoS Haulin:
+    <winDocuments>/18 WoS Haulin:
       tags:
         - config
       when:
         - os: windows
-    <home>/Documents/18 WoS Haulin/save:
+    <winDocuments>/18 WoS Haulin/save:
       tags:
         - save
       when:
@@ -986,12 +986,12 @@ $1 Ride:
     id: 514180
 '18 Wheels of Steel: Pedal to the Metal':
   files:
-    <home>/Documents/18 WoS Pedal to the Metal/config.cfg:
+    <winDocuments>/18 WoS Pedal to the Metal/config.cfg:
       tags:
         - config
       when:
         - os: windows
-    <home>/Documents/18 WoS Pedal to the Metal/saves:
+    <winDocuments>/18 WoS Pedal to the Metal/saves:
       tags:
         - save
       when:
@@ -1279,6 +1279,22 @@ Celeste:
     Celeste: {}
   steam:
     id: 504230
+Dark Souls III:
+  files:
+    <winAppData>/DarkSoulsIII/<storeUserId>:
+      tags:
+        - save
+      when:
+        - os: windows
+    <winAppData>/DarkSoulsIII/GraphicsConfig.xml:
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    DARK SOULS III: {}
+  steam:
+    id: 374320
 Lone Survivor:
   files:
     <base>/LoneSurvivor/META-INF/AIR:
@@ -1317,11 +1333,6 @@ Prey:
         - save
       when:
         - os: linux
-    <home>/Documents/My Games/PREY/base:
-      tags:
-        - save
-      when:
-        - os: windows
     <home>/Library/Application Support/Prey/base:
       tags:
         - config
@@ -1332,6 +1343,11 @@ Prey:
         - save
       when:
         - os: mac
+    <winDocuments>/My Games/PREY/base:
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Prey 2006: {}
   steam:
@@ -1352,3 +1368,69 @@ Prey (2017):
     Prey: {}
   steam:
     id: 480490
+Stardew Valley:
+  files:
+    <home>/.config/StardewValley:
+      tags:
+        - config
+      when:
+        - os: mac
+    <home>/.config/StardewValley/Saves:
+      tags:
+        - save
+      when:
+        - os: mac
+    <winAppData>/StardewValley:
+      tags:
+        - config
+      when:
+        - os: windows
+    <winAppData>/StardewValley/Saves:
+      tags:
+        - save
+      when:
+        - os: windows
+    <xdgConfig>/StardewValley:
+      tags:
+        - config
+      when:
+        - os: linux
+    <xdgConfig>/StardewValley/Saves:
+      tags:
+        - save
+      when:
+        - os: linux
+  installDir:
+    Stardew Valley: {}
+  steam:
+    id: 413150
+Undertale:
+  files:
+    <home>/.config/UNDERTALE_linux_steamver:
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    <home>/Library/Application Support/com.tobyfox.undertale:
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    <root>/userdata/<storeUserId>/391540/remote:
+      tags:
+        - config
+        - save
+      when:
+        - store: steam
+    <winLocalAppData>/UNDERTALE:
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Undertale: {}
+  steam:
+    id: 391540
