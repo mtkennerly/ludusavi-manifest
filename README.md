@@ -46,7 +46,7 @@ An Example Game:
   installDir:
     AnExampleGame: {}
   registry:
-    <regHkcu>/Software/An Example Game:
+    HKEY_CURRENT_USER/Software/An Example Game:
       tags:
         - save
         - config
@@ -59,10 +59,10 @@ This means:
 * `<base>/saves` will be backed up on any system.
 * `<base>/settings.json` will be backed up if you're using Windows or Linux.
 * `<base>/other` will be backed up if you're using Mac and Steam.
-* On Windows, the registry path `<regHkcu>/Software/An Example Game` will be
+* On Windows, the registry key `HKEY_CURRENT_USER/Software/An Example Game` will be
   backed up.
 
-Paths can include these placeholders:
+Paths in the `files` section can include these placeholders:
 
 | placeholder         | meaning                                                                                |
 |---------------------|----------------------------------------------------------------------------------------|
@@ -80,8 +80,6 @@ Paths can include these placeholders:
 | `<winDir>`          | `%WINDIR%` on Windows                                                                  |
 | `<xdgData>`         | `$XDG_DATA_HOME` on Linux                                                              |
 | `<xdgConfig>`       | `$XDG_CONFIG_HOME` on Linux                                                            |
-| `<regHkcu>`         | `HKEY_CURRENT_USER` in the Windows registry                                            |
-| `<regHklm>`         | `HKEY_LOCAL_MACHINE` in the Windows registry                                           |
 
 ## Implementation
 Tools must implement the following in addition to respecting the schema:
@@ -91,6 +89,7 @@ Tools must implement the following in addition to respecting the schema:
   directories.
 * When a path identifies a folder, the backup includes all of its files
   and subdirectories recursively.
+* When backing up registry keys, the backup includes all sub-keys recursively.
 * Relative paths must be resolved relative to the location of the manifest file.
   This is important for secondary manifests to work correctly without
   hard-coding their location.

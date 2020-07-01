@@ -93,12 +93,12 @@ const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?
         },
     },
     hkcu: {
-        mapped: "<regHkcu>",
+        mapped: "HKEY_CURRENT_USER",
         when: { os: "windows" },
         registry: true,
     },
     hklm: {
-        mapped: "<regHklm>",
+        mapped: "HKEY_LOCAL_MACHINE",
         when: { os: "windows" },
         registry: true,
     },

@@ -2,7 +2,7 @@
   installDir:
     '! That Bastard Is Trying To Steal Our Gold !': {}
   registry:
-    <regHkcu>/SOFTWARE/WTFOMGames/That Dick Trying To Steal Our Gold:
+    HKEY_CURRENT_USER/SOFTWARE/WTFOMGames/That Dick Trying To Steal Our Gold:
       tags:
         - config
         - save
@@ -106,7 +106,7 @@ $1 Ride:
   installDir:
     Test Expected Behaviour: {}
   registry:
-    <regHkcu>/Software/Veslo Games/Test Expected Behaviour:
+    HKEY_CURRENT_USER/Software/Veslo Games/Test Expected Behaviour:
       tags:
         - config
   steam:
@@ -284,7 +284,7 @@ $1 Ride:
   installDir:
     123kickit: {}
   registry:
-    <regHkcu>/Software/Dejobaan Games/Ugly Baby:
+    HKEY_CURRENT_USER/Software/Dejobaan Games/Ugly Baby:
       tags:
         - config
   steam:
@@ -354,7 +354,7 @@ $1 Ride:
   installDir:
     10 Years After: {}
   registry:
-    <regHkcu>/SOFTWARE/Ten Tree Games/10 Years After:
+    HKEY_CURRENT_USER/SOFTWARE/Ten Tree Games/10 Years After:
       tags:
         - config
         - save
@@ -371,7 +371,7 @@ $1 Ride:
   installDir:
     '10000000': {}
   registry:
-    <regHkcu>/Software/EightyEightGames/10000000:
+    HKEY_CURRENT_USER/Software/EightyEightGames/10000000:
       tags:
         - config
         - save
@@ -589,7 +589,7 @@ $1 Ride:
   installDir:
     RocketMan: {}
   registry:
-    '<regHkcu>/Software/Bandai Namco/11-11: Memories Retold':
+    'HKEY_CURRENT_USER/Software/Bandai Namco/11-11: Memories Retold':
       tags:
         - config
   steam:
@@ -765,7 +765,7 @@ $1 Ride:
   installDir:
     12 orbits: {}
   registry:
-    <regHkcu>/Software/Roman Uhlig/12 orbits:
+    HKEY_CURRENT_USER/Software/Roman Uhlig/12 orbits:
       tags:
         - config
         - save
@@ -822,7 +822,7 @@ $1 Ride:
   installDir:
     '140': {}
   registry:
-    <regHkcu>/SOFTWARE/JeppeCarlsen/140:
+    HKEY_CURRENT_USER/SOFTWARE/JeppeCarlsen/140:
       tags:
         - save
   steam:
@@ -873,7 +873,7 @@ $1 Ride:
   installDir:
     16bittrader: {}
   registry:
-    <regHkcu>/SOFTWARE/Forever Entertainment/16bit Trader:
+    HKEY_CURRENT_USER/SOFTWARE/Forever Entertainment/16bit Trader:
       tags:
         - config
   steam:
@@ -1156,7 +1156,7 @@ $1 Ride:
   installDir:
     60 Parsecs!: {}
   registry:
-    <regHkcu>/Software/Robot Gentleman/60 Parsecs:
+    HKEY_CURRENT_USER/Software/Robot Gentleman/60 Parsecs:
       tags:
         - config
   steam:
