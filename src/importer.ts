@@ -249,6 +249,7 @@ function pathIsTooBroad(path: string): boolean {
     // as likely false positives.
     if ([
         "<home>/Documents",
+        "<home>/Saved Games",
         "<root>/config",
         "<winDir>/win.ini",
     ].includes(path)) {

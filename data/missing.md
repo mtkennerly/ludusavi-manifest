@@ -29377,6 +29377,7 @@
 * [Tale of Wuxia](https://www.pcgamingwiki.com/wiki/?curid=43340)
 * [Tale of Wuxia: The Pre-Sequel](https://www.pcgamingwiki.com/wiki/?curid=67841)
 * [Talent Not Included](https://www.pcgamingwiki.com/wiki/?curid=36624)
+* [Tales](https://www.pcgamingwiki.com/wiki/?curid=52113)
 * [Tales Across Time](https://www.pcgamingwiki.com/wiki/?curid=43550)
 * [Tales From Galaxy 34](https://www.pcgamingwiki.com/wiki/?curid=124470)
 * [Tales from Off-Peak City Vol. 1](https://www.pcgamingwiki.com/wiki/?curid=151335)
