@@ -11,12 +11,15 @@ const DELAY_BETWEEN_GAMES_MS = 250;
 interface Cli {
     cache?: boolean,
     manifest?: boolean,
+    stats?: boolean,
     all?: boolean,
     existing?: boolean,
     missing?: boolean,
     unchecked?: boolean,
     unsupportedOs?: boolean,
     unsupportedPath?: boolean,
+    tooBroad?: boolean,
+    tooBroadUntagged?: boolean,
     game?: string,
     limit?: number,
 }
@@ -298,7 +301,7 @@ function getConstraintFromSystem(system: string, path: string): Constraint {
         constraint.store = "microsoft";
     } else if (system.match(/gog\.com/i)) {
         constraint.store = "gog";
-    } else if (system.match(/epic games store/i)) {
+    } else if (system.match(/epic games/i)) {
         constraint.store = "epic";
     } else if (system.match(/uplay/i)) {
         constraint.store = "uplay";
@@ -442,6 +445,8 @@ class ManifestFile extends YamlFile<Manifest> {
             unchecked: boolean,
             unsupportedOs: boolean,
             unsupportedPath: boolean,
+            tooBroad: boolean,
+            tooBroadUntagged: boolean,
             game: string | undefined,
         },
         limit: number,
@@ -469,6 +474,12 @@ class ManifestFile extends YamlFile<Manifest> {
                 check = true;
             }
             if (filter.game === title) {
+                check = true;
+            }
+            if (filter.tooBroad && info.tooBroad) {
+                check = true;
+            }
+            if (filter.tooBroadUntagged && Object.keys(this.data[title]?.files ?? []).some(x => pathIsTooBroad(x))) {
                 check = true;
             }
             if (!check) {
@@ -674,6 +685,14 @@ async function main() {
     const manifest = new ManifestFile();
     manifest.load();
 
+    if (args.stats) {
+        console.log(`Total games in manifest: ${Object.keys(manifest.data).length}`);
+        console.log(`Total games in manifest with files or registry: ${Object.values(manifest.data).filter(x => x.files !== undefined || x.registry !== undefined).length}`);
+        console.log(`Total games in manifest without files and registry: ${Object.values(manifest.data).filter(x => x.files === undefined && x.registry === undefined).length}`);
+        console.log(`Total games in wiki cache: ${Object.keys(wikiCache.data).length}`);
+        process.exit(0);
+    }
+
     try {
         if (args.cache) {
             await wikiCache.addNewGames(manifest.data);
@@ -689,6 +708,8 @@ async function main() {
                     unchecked: args.unchecked ?? false,
                     unsupportedOs: args.unsupportedOs ?? false,
                     unsupportedPath: args.unsupportedPath ?? false,
+                    tooBroad: args.tooBroad ?? false,
+                    tooBroadUntagged: args.tooBroadUntagged ?? false,
                     game: args.game,
                 },
                 args.limit ?? 25,

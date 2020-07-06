@@ -9,7 +9,8 @@
     "manifest": "ts-node ./src/importer.ts --manifest",
     "schema": "npm run schema:normal && npm run schema:strict",
     "schema:normal": "ajv validate -s ./data/schema.yaml -d ./data/manifest.yaml",
-    "schema:strict": "ajv validate -s ./data/schema.strict.yaml -d ./data/manifest.yaml"
+    "schema:strict": "ajv validate -s ./data/schema.strict.yaml -d ./data/manifest.yaml",
+    "stats": "ts-node ./src/importer.ts --stats"
   },
   "devDependencies": {
     "@types/js-yaml": "^3.12.4",

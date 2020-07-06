@@ -13,6 +13,8 @@ Requires Node.js.
   * A specific game: `npm run manifest -- --game "Name of Game"`
 * Validate the manifest against the schema:
   * `npm run schema`
+* List some stats about the data set:
+  * `npm run stats`
 
 ## API etiquette
 When running or modifying the importer script, please be mindful not to
