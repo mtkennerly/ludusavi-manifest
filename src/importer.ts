@@ -63,6 +63,8 @@ type WikiGameCache = {
         unsupportedOs?: boolean,
         /** Whether an entry on the page failed because of an unsupported Path template argument. */
         unsupportedPath?: boolean,
+        /** Whether an entry has a path that is too broad (e.g., the entirety of %WINDIR%). */
+        tooBroad?: boolean,
     };
 };
 
@@ -235,6 +237,25 @@ function parsePath(path: string): [string, PathType] {
             .replace(/^~(?=($|\/))/, "<home>"),
         pathType,
     ];
+}
+
+function pathIsTooBroad(path: string): boolean {
+    if (Object.values(PATH_ARGS).map(x => x.mapped).includes(path)) {
+        return true;
+    }
+
+    // TODO: These paths are present whether or not the game is installed.
+    // To include them in the manifest, there should be some way to flag them
+    // as likely false positives.
+    if ([
+        "<home>/Documents",
+        "<root>/config",
+        "<winDir>/win.ini",
+    ].includes(path)) {
+        return true;
+    }
+
+    return false;
 }
 
 function pathContainsArg(path: string, arg: string): boolean {
@@ -493,6 +514,7 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
     };
     let unsupportedOs = 0;
     let unsupportedPath = 0;
+    let tooBroad = 0;
     page.parse().each("template", template => {
         if (template.name === "Infobox game") {
             const steamId = Number(template.parameters["steam appid"]);
@@ -506,6 +528,10 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
             }
             try {
                 const [path, pathType] = parsePath(rawPath);
+                if (pathIsTooBroad(path)) {
+                    tooBroad += 1;
+                    return;
+                }
                 if (pathType === PathType.FileSystem) {
                     const constraint = getConstraintFromSystem(template.parameters[1], rawPath);
 
@@ -601,6 +627,12 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
         cache[pageTitle].unsupportedPath = true;
     } else {
         delete cache[pageTitle].unsupportedPath;
+    }
+
+    if (tooBroad > 0) {
+        cache[pageTitle].tooBroad = true;
+    } else {
+        delete cache[pageTitle].tooBroad;
     }
 
     cache[pageTitle].revId = page.revisions?.[0]?.revid ?? 0;
