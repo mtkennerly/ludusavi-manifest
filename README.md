@@ -103,6 +103,12 @@ Tools may also:
   with Steam, if the root is `~/.steam/steam`, then `<base>` would be
   `<root>/steamapps/common/<game>`. Or a tool could use `<root>/**/<game>`
   as a generic option, although it could lead to wasted search time.
+* Check possible save data locations even if the entry has inapplicable
+  constraints. For example, if a file entry is marked as `os: windows`, then
+  ideally a tool should only need to check that entry when running on Windows;
+  however, it is a reality of the data set that it may simply be the only
+  confirmed occurrence of the file, and it may in fact occur on other operating
+  systems as well.
 
 The latest version of the primary manifest can be downloaded from
 https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml .

@@ -14,6 +14,7 @@ definitions:
   Os:
     type: string
     enum:
+      - dos
       - linux
       - mac
       - windows
@@ -23,6 +24,7 @@ definitions:
       - discord
       - epic
       - gog
+      - microsoft
       - origin
       - steam
       - uplay

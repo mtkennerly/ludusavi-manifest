@@ -6,7 +6,7 @@ import * as yaml from "js-yaml";
 import * as SteamUser from "steam-user";
 
 const REPO = pathMod.dirname(__dirname);
-const DELAY_BETWEEN_GAMES_MS = 1000;
+const DELAY_BETWEEN_GAMES_MS = 250;
 
 interface Cli {
     cache?: boolean,
@@ -47,11 +47,11 @@ enum PathType {
     Registry,
 }
 
-type Os = "windows" | "linux" | "mac";
+type Os = "dos" | "linux" | "mac" | "windows";
 
-type Store = "steam" | "uplay";
+type Store = "epic" | "gog" | "microsoft" | "steam" | "uplay";
 
-type Tag = "save" | "config";
+type Tag = "config" | "save";
 
 type GamePages = Array<{ pageid: number, title: string }>;
 
@@ -69,6 +69,7 @@ type WikiGameCache = {
 type SteamGameCache = {
     [appId: string]: {
         installDir?: string,
+        unknown?: boolean,
     };
 };
 
@@ -265,6 +266,28 @@ function getStoreConstraintFromPath(path: string): Store | undefined {
     }
 }
 
+function getConstraintFromSystem(system: string, path: string): Constraint {
+    const constraint: Constraint = {};
+
+    if (system.match(/steam/i)) {
+        constraint.store = "steam";
+    } else if (system.match(/microsoft store/i)) {
+        constraint.os = "windows";
+        constraint.store = "microsoft";
+    } else if (system.match(/gog\.com/i)) {
+        constraint.store = "gog";
+    } else if (system.match(/epic games store/i)) {
+        constraint.store = "epic";
+    } else if (system.match(/uplay/i)) {
+        constraint.store = "uplay";
+    } else {
+        constraint.os = parseOs(system);
+        constraint.store = getStoreConstraintFromPath(path);
+    }
+
+    return constraint;
+}
+
 function getTagFromTemplate(template: string): Tag | undefined {
     switch (template) {
         case "Game data/saves":
@@ -284,6 +307,8 @@ function parseOs(os: string): Os {
             return "mac";
         case "Linux":
             return "linux";
+        case "DOS":
+            return "dos";
         default:
             throw new UnsupportedOsError(`Unsupported OS: ${os}`);
     }
@@ -365,9 +390,17 @@ class SteamGameCacheFile extends YamlFile<SteamGameCache> {
             return this.data[key].installDir;
         } else {
             const info: SteamProductInfoResponse = await this.steamClient.getProductInfo([appId], []);
+
+            if (info.unknownApps.includes(appId)) {
+                this.data[key] = { unknown: true };
+                return undefined;
+            }
+
             const installDir = info.apps[key].appinfo.config?.installdir;
             if (installDir !== undefined) {
                 this.data[key] = { installDir };
+            } else {
+                this.data[key] = {};
             }
             return installDir;
         }
@@ -467,21 +500,14 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
                 game.steam = { id: steamId };
             }
         } else if (template.name === "Game data/saves" || template.name === "Game data/config") {
-            const rawPath = typeof template.parameters[2] === "string" ? template.parameters[2] : template.parameters[2].toString();
-            if (rawPath.length === 0) {
+            const rawPath = typeof template.parameters[2] === "string" ? template.parameters[2] : template.parameters[2]?.toString();
+            if (rawPath === undefined || rawPath.length === 0) {
                 return;
             }
             try {
                 const [path, pathType] = parsePath(rawPath);
                 if (pathType === PathType.FileSystem) {
-                    let os: Os | undefined = undefined;
-                    let store: Store | undefined = undefined;
-                    if ((template.parameters[1] as string).match(/steam/i)) {
-                        store = "steam";
-                    } else {
-                        os = parseOs(template.parameters[1]);
-                        store = getStoreConstraintFromPath(rawPath);
-                    }
+                    const constraint = getConstraintFromSystem(template.parameters[1], rawPath);
 
                     if (!game.files.hasOwnProperty(path)) {
                         game.files[path] = {
@@ -490,13 +516,13 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
                         };
                     }
 
-                    if (!game.files[path].when.some(x => x.os === os && x.store === store)) {
-                        if (os !== undefined && store !== undefined) {
-                            game.files[path].when.push({ os, store });
-                        } else if (os !== undefined) {
-                            game.files[path].when.push({ os });
-                        } else if (store !== undefined) {
-                            game.files[path].when.push({ store });
+                    if (!game.files[path].when.some(x => x.os === constraint.os && x.store === constraint.store)) {
+                        if (constraint.os !== undefined && constraint.store !== undefined) {
+                            game.files[path].when.push(constraint);
+                        } else if (constraint.os !== undefined) {
+                            game.files[path].when.push({ os: constraint.os });
+                        } else if (constraint.store !== undefined) {
+                            game.files[path].when.push({ store: constraint.store });
                         }
                     }
 
@@ -590,7 +616,8 @@ interface SteamProductInfoResponse {
                 }
             }
         }
-    }
+    },
+    unknownApps: Array<number>,
 }
 
 async function getSteamClient(): Promise<SteamUser> {
