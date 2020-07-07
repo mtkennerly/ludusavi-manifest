@@ -1,6 +1,4 @@
 # Ludusavi Manifest
-**This project is still a prototype! It is subject to change, and not all data is available yet.**
-
 The Ludusavi Manifest format is a YAML structure for defining the location of
 game save data and other files that are of interest to back up. Although this
 project was started for use by [Ludusavi](https://github.com/mtkennerly/ludusavi),
