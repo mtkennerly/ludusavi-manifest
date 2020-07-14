@@ -5,12 +5,12 @@
   "author": "Matthew T. Kennerly <mtkennerly@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cache": "ts-node ./src/importer.ts --cache",
-    "manifest": "ts-node ./src/importer.ts --manifest",
+    "cache": "ts-node ./src/bin.ts --cache",
+    "manifest": "ts-node ./src/bin.ts --manifest",
     "schema": "npm run schema:normal && npm run schema:strict",
     "schema:normal": "ajv validate -s ./data/schema.yaml -d ./data/manifest.yaml",
     "schema:strict": "ajv validate -s ./data/schema.strict.yaml -d ./data/manifest.yaml",
-    "stats": "ts-node ./src/importer.ts --stats"
+    "stats": "ts-node ./src/bin.ts --stats"
   },
   "devDependencies": {
     "@types/js-yaml": "^3.12.4",

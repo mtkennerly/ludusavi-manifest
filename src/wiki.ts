@@ -1,64 +1,8 @@
+import { REPO, PathType, UnsupportedOsError, UnsupportedPathError, YamlFile } from ".";
+import { Manifest, Constraint, Game, Store, Tag, Os } from "./manifest";
 import * as Wikiapi from "wikiapi";
-import * as fs from "fs";
-import * as pathMod from "path";
-import * as minimist from "minimist";
-import * as yaml from "js-yaml";
-import * as SteamUser from "steam-user";
 
-const REPO = pathMod.dirname(__dirname);
-const DELAY_BETWEEN_GAMES_MS = 250;
-
-interface Cli {
-    cache?: boolean,
-    manifest?: boolean,
-    stats?: boolean,
-    all?: boolean,
-    existing?: boolean,
-    missing?: boolean,
-    unchecked?: boolean,
-    unsupportedOs?: boolean,
-    unsupportedPath?: boolean,
-    tooBroad?: boolean,
-    tooBroadUntagged?: boolean,
-    game?: string,
-    limit?: number,
-}
-
-class UnsupportedError extends Error {
-    constructor(message?: string) {
-        super(message);
-        Object.setPrototypeOf(this, new.target.prototype);
-    }
-}
-
-class UnsupportedOsError extends UnsupportedError {
-    constructor(message?: string) {
-        super(message);
-        Object.setPrototypeOf(this, new.target.prototype);
-    }
-}
-
-class UnsupportedPathError extends UnsupportedError {
-    constructor(message?: string) {
-        super(message);
-        Object.setPrototypeOf(this, new.target.prototype);
-    }
-}
-
-enum PathType {
-    FileSystem,
-    Registry,
-}
-
-type Os = "dos" | "linux" | "mac" | "windows";
-
-type Store = "epic" | "gog" | "microsoft" | "steam" | "uplay";
-
-type Tag = "config" | "save";
-
-type GamePages = Array<{ pageid: number, title: string }>;
-
-type WikiGameCache = {
+export type WikiGameCache = {
     [title: string]: {
         pageId: number,
         revId: number | null,
@@ -71,12 +15,23 @@ type WikiGameCache = {
     };
 };
 
-type SteamGameCache = {
-    [appId: string]: {
-        installDir?: string,
-        unknown?: boolean,
-    };
-};
+export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
+    path = `${REPO}/data/wiki-game-cache.yaml`;
+    defaultData = {};
+
+    async addNewGames(manifest: Manifest): Promise<void> {
+        const wiki = makeApiClient();
+        const pages: Array<{ pageid: number, title: string }> = JSON.parse(JSON.stringify(await wiki.categorymembers("Games")));
+        for (const page of pages) {
+            if (!this.data.hasOwnProperty(page.title)) {
+                this.data[page.title] = {
+                    pageId: page.pageid,
+                    revId: null,
+                };
+            }
+        };
+    }
+}
 
 // This defines how {{P|game}} and such are converted.
 const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?: boolean, ignored?: boolean } } = {
@@ -172,36 +127,6 @@ const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?
     },
 }
 
-interface Manifest {
-    [game: string]: Game;
-}
-
-interface Game {
-    files?: {
-        [path: string]: {
-            when?: Array<Constraint>,
-            tags?: Array<Tag>,
-        }
-    };
-    installDir?: {
-        [name: string]: {}
-    };
-    registry?: {
-        [path: string]: {
-            when?: Array<Omit<Constraint, "os">>,
-            tags?: Array<Tag>,
-        }
-    };
-    steam?: {
-        id?: number
-    };
-}
-
-interface Constraint {
-    os?: Os;
-    store?: Store;
-}
-
 function makePathArgRegex(arg: string): RegExp {
     const escaped = `{{P|${arg}}}`
         .replace("\\", "\\\\")
@@ -242,14 +167,13 @@ function parsePath(path: string): [string, PathType] {
     ];
 }
 
-function pathIsTooBroad(path: string): boolean {
+export function pathIsTooBroad(path: string): boolean {
     if (Object.values(PATH_ARGS).map(x => x.mapped).includes(path)) {
         return true;
     }
 
     // TODO: These paths are present whether or not the game is installed.
-    // To include them in the manifest, there should be some way to flag them
-    // as likely false positives.
+    // If possible, they should be narrowed down on the wiki.
     if ([
         "<home>/Documents",
         "<home>/Saved Games",
@@ -343,179 +267,10 @@ function makeApiClient() {
     return new Wikiapi("https://www.pcgamingwiki.com/w");
 }
 
-function saveMissingGames(cache: WikiGameCache, manifest: Manifest): void {
-    fs.writeFileSync(
-        `${REPO}/data/missing.md`,
-        Object.entries(cache)
-            .sort((x, y) => x[0].localeCompare(y[0]))
-            .filter(([k, _]) => (manifest[k]?.files ?? []).length === 0 && (manifest[k]?.registry ?? []).length === 0)
-            .map(([k, v]) => `* [${k}](https://www.pcgamingwiki.com/wiki/?curid=${v.pageId})`)
-            .join("\n") + "\n",
-    );
-}
-
-abstract class YamlFile<T = object> {
-    data: T;
-    abstract path: string;
-    abstract defaultData: T;
-
-    load(): void {
-        if (fs.existsSync(this.path)) {
-            this.data = yaml.safeLoad(fs.readFileSync(this.path, "utf8"));
-        } else {
-            this.data = this.defaultData;
-        }
-    }
-
-    save(): void {
-        fs.writeFileSync(
-            this.path,
-            yaml.safeDump(
-                this.data,
-                {
-                    sortKeys: true,
-                    indent: 2,
-                    skipInvalid: true,
-                    lineWidth: 120,
-                }
-            )
-        );
-    }
-}
-
-class WikiGameCacheFile extends YamlFile<WikiGameCache> {
-    path = `${REPO}/data/wiki-game-cache.yaml`;
-    defaultData = {};
-
-    async addNewGames(manifest: Manifest): Promise<void> {
-        const wiki = makeApiClient();
-        const pages: Array<{ pageid: number, title: string }> = JSON.parse(JSON.stringify(await wiki.categorymembers("Games")));
-        for (const page of pages) {
-            if (!this.data.hasOwnProperty(page.title)) {
-                this.data[page.title] = {
-                    pageId: page.pageid,
-                    revId: null,
-                };
-            }
-        };
-    }
-}
-
-class SteamGameCacheFile extends YamlFile<SteamGameCache> {
-    path = `${REPO}/data/steam-game-cache.yaml`;
-    defaultData = {};
-
-    constructor(public steamClient: SteamUser) {
-        super();
-    }
-
-    async getAppInstallDir(appId: number): Promise<string | undefined> {
-        const key = appId.toString();
-        if (this.data.hasOwnProperty(key)) {
-            return this.data[key].installDir;
-        } else {
-            const info: SteamProductInfoResponse = await this.steamClient.getProductInfo([appId], []);
-
-            if (info.unknownApps.includes(appId)) {
-                this.data[key] = { unknown: true };
-                return undefined;
-            }
-
-            const installDir = info.apps[key].appinfo.config?.installdir;
-            if (installDir !== undefined) {
-                this.data[key] = { installDir };
-            } else {
-                this.data[key] = {};
-            }
-            return installDir;
-        }
-    }
-}
-
-class ManifestFile extends YamlFile<Manifest> {
-    path = `${REPO}/data/manifest.yaml`;
-    defaultData = {};
-
-    async updateGames(
-        wikiCache: WikiGameCache,
-        filter: {
-            all: boolean,
-            existing: boolean,
-            missing: boolean,
-            unchecked: boolean,
-            unsupportedOs: boolean,
-            unsupportedPath: boolean,
-            tooBroad: boolean,
-            tooBroadUntagged: boolean,
-            game: string | undefined,
-        },
-        limit: number,
-        steamCache: SteamGameCacheFile,
-    ): Promise<void> {
-        let i = 0;
-        for (const [title, info] of Object.entries(wikiCache)) {
-            let check = false;
-            if (filter.all) {
-                check = true;
-            }
-            if (filter.existing && this.data.hasOwnProperty(title)) {
-                check = true;
-            }
-            if (filter.missing && !this.data.hasOwnProperty(title)) {
-                check = true;
-            }
-            if (filter.unchecked && wikiCache[title].revId === null) {
-                check = true;
-            }
-            if (filter.unsupportedOs && info.unsupportedOs) {
-                check = true;
-            }
-            if (filter.unsupportedPath && info.unsupportedPath) {
-                check = true;
-            }
-            if (filter.game === title) {
-                check = true;
-            }
-            if (filter.tooBroad && info.tooBroad) {
-                check = true;
-            }
-            if (filter.tooBroadUntagged && Object.keys(this.data[title]?.files ?? []).some(x => pathIsTooBroad(x))) {
-                check = true;
-            }
-            if (!check) {
-                continue;
-            }
-
-            i++;
-            if (i > limit) {
-                break;
-            }
-
-            const game = await getGame(title, wikiCache);
-            if (game.files === undefined && game.registry === undefined && game.steam?.id === undefined) {
-                delete this.data[title];
-                continue;
-            }
-            if (game.steam?.id !== undefined) {
-                const installDir = await steamCache.getAppInstallDir(game.steam.id);
-                if (installDir !== undefined) {
-                    if (game.installDir === undefined) {
-                        game.installDir = {}
-                    }
-                    game.installDir[installDir] = {}
-                }
-            }
-            this.data[title] = game;
-
-            await new Promise(resolve => setTimeout(resolve, DELAY_BETWEEN_GAMES_MS));
-        }
-    }
-}
-
 /**
  * https://www.pcgamingwiki.com/wiki/Template:Game_data
  */
-async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
+export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
     console.log(pageTitle);
     const wiki = makeApiClient();
     const page = await wiki.page(pageTitle, { rvprop: "ids|content" });
@@ -651,86 +406,3 @@ async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
     return game;
 }
 
-interface SteamProductInfoResponse {
-    apps: {
-        [appId: string]: {
-            appinfo: {
-                config?: {
-                    installdir?: string
-                }
-            }
-        }
-    },
-    unknownApps: Array<number>,
-}
-
-async function getSteamClient(): Promise<SteamUser> {
-    const client = new SteamUser();
-    client.logOn();
-    await new Promise(resolve => {
-        client.on("loggedOn", () => {
-            resolve();
-        });
-    });
-    return client;
-}
-
-async function main() {
-    const args = minimist<Cli>(process.argv.slice(2));
-
-    const wikiCache = new WikiGameCacheFile();
-    wikiCache.load();
-    const steamCache = new SteamGameCacheFile(await getSteamClient());
-    steamCache.load();
-    const manifest = new ManifestFile();
-    manifest.load();
-
-    if (args.stats) {
-        console.log(`Total games in manifest: ${Object.keys(manifest.data).length}`);
-        console.log(`Total games in manifest with files or registry: ${Object.values(manifest.data).filter(x => x.files !== undefined || x.registry !== undefined).length}`);
-        console.log(`Total games in manifest without files and registry: ${Object.values(manifest.data).filter(x => x.files === undefined && x.registry === undefined).length}`);
-        console.log(`Total games in wiki cache: ${Object.keys(wikiCache.data).length}`);
-        process.exit(0);
-    }
-
-    try {
-        if (args.cache) {
-            await wikiCache.addNewGames(manifest.data);
-        }
-
-        if (args.manifest) {
-            await manifest.updateGames(
-                wikiCache.data,
-                {
-                    all: args.all ?? false,
-                    existing: args.existing ?? false,
-                    missing: args.missing ?? false,
-                    unchecked: args.unchecked ?? false,
-                    unsupportedOs: args.unsupportedOs ?? false,
-                    unsupportedPath: args.unsupportedPath ?? false,
-                    tooBroad: args.tooBroad ?? false,
-                    tooBroadUntagged: args.tooBroadUntagged ?? false,
-                    game: args.game,
-                },
-                args.limit ?? 25,
-                steamCache,
-            );
-        }
-
-        wikiCache.save();
-        steamCache.save();
-        manifest.save();
-        saveMissingGames(wikiCache.data, manifest.data);
-        steamCache.steamClient.logOff();
-        process.exit(0);
-    } catch (e) {
-        wikiCache.save();
-        steamCache.save();
-        manifest.save();
-        saveMissingGames(wikiCache.data, manifest.data);
-        steamCache.steamClient.logOff();
-        throw e;
-    }
-}
-
-main();
