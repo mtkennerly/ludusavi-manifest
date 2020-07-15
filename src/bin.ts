@@ -18,6 +18,7 @@ interface Cli {
     tooBroad?: boolean,
     tooBroadUntagged?: boolean,
     game?: string,
+    recent?: number,
     limit?: number,
 }
 
@@ -41,7 +42,11 @@ async function main() {
 
     try {
         if (args.cache) {
-            await wikiCache.addNewGames(manifest.data);
+            if (args.recent) {
+                await wikiCache.flagRecentChanges(args.recent);
+            } else {
+                await wikiCache.addNewGames();
+            }
         }
 
         if (args.manifest) {
@@ -57,6 +62,7 @@ async function main() {
                     tooBroad: args.tooBroad ?? false,
                     tooBroadUntagged: args.tooBroadUntagged ?? false,
                     game: args.game,
+                    recent: args.recent,
                 },
                 args.limit ?? 25,
                 steamCache,

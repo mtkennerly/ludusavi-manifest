@@ -1,6 +1,17 @@
 ## Development
 Requires Node.js.
 
+Generally, you just need these commands:
+
+* Add all recent changes since a certain number of days ago:
+  * `npm run recent 5`
+* Validate the manifest against the schema:
+  * `npm run schema`
+* List some stats about the data set:
+  * `npm run stats`
+
+There are some lower-level commands for finer control or full imports:
+
 * Add new games to wiki-game-cache.yaml (required in order to add them to the manifest):
   * `npm run cache`
 * Update the manifest with games from the cache (`--limit 25` is default at a time):
@@ -13,10 +24,6 @@ Requires Node.js.
   * Games with paths that are too broad and are tagged as such in the wiki cache: `npm run manifest -- --tooBroad`
   * Games with paths that are too broad and aren't already tagged as such in the wiki cache: `npm run manifest -- --tooBroadUntagged`
   * A specific game: `npm run manifest -- --game "Name of Game"`
-* Validate the manifest against the schema:
-  * `npm run schema`
-* List some stats about the data set:
-  * `npm run stats`
 
 ## API etiquette
 When running or modifying the importer script, please be mindful not to

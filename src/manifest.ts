@@ -54,8 +54,9 @@ export class ManifestFile extends YamlFile<Manifest> {
             tooBroad: boolean,
             tooBroadUntagged: boolean,
             game: string | undefined,
+            recent: number | undefined,
         },
-        limit: number,
+        limit: number | undefined,
         steamCache: SteamGameCacheFile,
     ): Promise<void> {
         let i = 0;
@@ -88,16 +89,26 @@ export class ManifestFile extends YamlFile<Manifest> {
             if (filter.tooBroadUntagged && Object.keys(this.data[title]?.files ?? []).some(x => pathIsTooBroad(x))) {
                 check = true;
             }
+            if (filter.recent && wikiCache[title].recentlyChanged) {
+                check = true;
+            }
             if (!check) {
                 continue;
             }
 
             i++;
-            if (i > limit) {
+            if (limit > 0 && i > limit) {
                 break;
             }
 
+            if (info.renamedFrom) {
+                for (const oldName of info.renamedFrom) {
+                    delete this.data[oldName];
+                }
+            }
+
             const game = await getGame(title, wikiCache);
+            wikiCache[title].recentlyChanged = false;
             if (game.files === undefined && game.registry === undefined && game.steam?.id === undefined) {
                 delete this.data[title];
                 continue;

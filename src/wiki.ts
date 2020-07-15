@@ -1,6 +1,7 @@
 import { REPO, PathType, UnsupportedOsError, UnsupportedPathError, YamlFile } from ".";
-import { Manifest, Constraint, Game, Store, Tag, Os } from "./manifest";
+import { Constraint, Game, Store, Tag, Os } from "./manifest";
 import * as Wikiapi from "wikiapi";
+import * as NodeMw from "nodemw";
 
 export type WikiGameCache = {
     [title: string]: {
@@ -12,6 +13,8 @@ export type WikiGameCache = {
         unsupportedPath?: boolean,
         /** Whether an entry has a path that is too broad (e.g., the entirety of %WINDIR%). */
         tooBroad?: boolean,
+        recentlyChanged?: boolean,
+        renamedFrom?: Array<string>,
     };
 };
 
@@ -19,7 +22,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
     path = `${REPO}/data/wiki-game-cache.yaml`;
     defaultData = {};
 
-    async addNewGames(manifest: Manifest): Promise<void> {
+    async addNewGames(): Promise<void> {
         const wiki = makeApiClient();
         const pages: Array<{ pageid: number, title: string }> = JSON.parse(JSON.stringify(await wiki.categorymembers("Games")));
         for (const page of pages) {
@@ -31,6 +34,51 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
             }
         };
     }
+
+    async flagRecentChanges(days: number): Promise<void> {
+        const changes = await getRecentChanges(days);
+        const client = makeApiClient2();
+        for (const [recentName, recentInfo] of Object.entries(changes).sort((x, y) => x[0].localeCompare(y[0]))) {
+            if (this.data[recentName] !== undefined) {
+                // Existing entry has been edited.
+                console.log(`[E  ] ${recentName}`);
+                this.data[recentName].recentlyChanged = true;
+            } else {
+                // Check for a rename.
+                let renamed = false;
+                for (const [existingName, existingInfo] of Object.entries(this.data)) {
+                    if (existingInfo.pageId === recentInfo.pageId) {
+                        // We have a confirmed rename.
+                        console.log(`[ M ] ${recentName} <<< ${existingName}`);
+                        renamed = true;
+                        this.data[recentName] = {
+                            pageId: recentInfo.pageId,
+                            revId: existingInfo.revId,
+                            recentlyChanged: true,
+                            renamedFrom: [...(existingInfo.renamedFrom ?? []), existingName]
+                        };
+                        delete this.data[existingName];
+                        break;
+                    }
+                }
+                if (!renamed) {
+                    // Brand new page.
+                    const [data, _] = await callMw<Array<string>>(client, "getArticleCategories", recentName);
+                    if (data.includes("Category:Games")) {
+                        // It's a game, so add it to the cache.
+                        console.log(`[  C] ${recentName}`);
+                        this.data[recentName] = { pageId: recentInfo.pageId, revId: 0, recentlyChanged: true };
+                    }
+                }
+            }
+        }
+    }
+}
+
+interface RecentChanges {
+    [article: string]: {
+        pageId: number;
+    };
 }
 
 // This defines how {{P|game}} and such are converted.
@@ -263,8 +311,79 @@ function parseOs(os: string): Os {
     }
 }
 
+// Used for most functionality, but it seems like a less active project
+// and it's hard to figure out what functionality is available,
+// so we'll probably migrate to nodemw.
 function makeApiClient() {
     return new Wikiapi("https://www.pcgamingwiki.com/w");
+}
+
+// Used for the Recent Changes page and getting a single page's categories.
+// Will probably also migrate to this in general.
+function makeApiClient2(): any {
+    return new NodeMw({
+        protocol: "https",
+        server: "www.pcgamingwiki.com",
+        path: "/w",
+        debug: false,
+        userAgent: "ludusavi-manifest-importer/0.0.0",
+        concurrency: 1,
+    });
+}
+
+// Promise wrapper for nodemw.
+function callMw<T = any>(client, method: string, ...args: Array<any>): Promise<[T, any]> {
+    return new Promise((resolve, reject) => {
+        client[method](...args, (err: any, data: T, next: any) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve([data, next]);
+            }
+        });
+    });
+}
+
+export async function getRecentChanges(days: number): Promise<RecentChanges> {
+    const changes: RecentChanges = {};
+    const client = makeApiClient2();
+    const startTimestamp = new Date().toISOString();
+    const endTimestamp = new Date(new Date().setDate(new Date().getDate() - days)).toISOString();
+    let rccontinue: string | undefined = undefined;
+
+    while (true) {
+        const params = {
+            action: "query",
+            list: "recentchanges",
+            rcprop: "title|ids",
+            rcstart: startTimestamp,
+            rcend: endTimestamp,
+            rclimit: 500,
+            rcnamespace: 0,
+            rctype: "edit|new",
+            rccontinue,
+        };
+        if (params.rccontinue === undefined) {
+            delete params.rccontinue;
+        }
+        const [data, next] = await callMw<{ recentchanges: Array<{ title: string; pageid: number }> }>(
+            client.api, "call", params
+        );
+
+        for (const article of data.recentchanges) {
+            changes[article.title] = {
+                pageId: article.pageid,
+            };
+        }
+
+        if (next) {
+            rccontinue = next.rccontinue;
+        } else {
+            break;
+        }
+    }
+
+    return changes;
 }
 
 /**

@@ -7,6 +7,7 @@
   "scripts": {
     "cache": "ts-node ./src/bin.ts --cache",
     "manifest": "ts-node ./src/bin.ts --manifest",
+    "recent": "ts-node ./src/bin.ts --limit 0 --cache --manifest --recent",
     "schema": "npm run schema:normal && npm run schema:strict",
     "schema:normal": "ajv validate -s ./data/schema.yaml -d ./data/manifest.yaml",
     "schema:strict": "ajv validate -s ./data/schema.strict.yaml -d ./data/manifest.yaml",
@@ -23,6 +24,7 @@
   "dependencies": {
     "js-yaml": "^3.14.0",
     "minimist": "^1.2.5",
+    "nodemw": "^0.13.0",
     "steam-user": "^4.16.2",
     "wikiapi": "^1.10.0"
   }
