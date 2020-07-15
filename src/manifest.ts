@@ -108,7 +108,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             }
 
             const game = await getGame(title, wikiCache);
-            wikiCache[title].recentlyChanged = false;
+            delete wikiCache[title].recentlyChanged;
             if (game.files === undefined && game.registry === undefined && game.steam?.id === undefined) {
                 delete this.data[title];
                 continue;
@@ -128,5 +128,3 @@ export class ManifestFile extends YamlFile<Manifest> {
         }
     }
 }
-
-

@@ -38594,11 +38594,6 @@ FULLCHOKE:
 FUNGI:
   pageId: 156019
   revId: 931093
-FUSER:
-  pageId: 161491
-  renamedFrom:
-    - Fuser
-  revId: 0
 FUTURE GPX CYBER FORMULA SIN VIER:
   pageId: 123862
   revId: 852743
@@ -38830,9 +38825,9 @@ Fairy Escape:
 Fairy Fencer F:
   pageId: 23023
   revId: 982514
-Fairy Fencer F Advent Dark Force:
+'Fairy Fencer F: Advent Dark Force':
   pageId: 57452
-  revId: 982518
+  revId: 982517
 'Fairy Godmother Stories: Cinderella':
   pageId: 153042
   revId: 915746
@@ -43678,6 +43673,11 @@ Fuse Balls:
 Fused:
   pageId: 125113
   revId: 854301
+Fuser:
+  pageId: 161491
+  renamedFrom:
+    - FUSER
+  revId: 981922
 Futanari Quest:
   pageId: 92857
   revId: 854302
@@ -76802,6 +76802,11 @@ Oirbo:
 Okaeri:
   pageId: 144815
   revId: 946155
+Okami HD:
+  pageId: 70781
+  renamedFrom:
+    - Ōkami HD
+  revId: 981042
 'Okay, Panic!':
   pageId: 141041
   revId: 863683
@@ -95131,6 +95136,11 @@ Shadow Fencer Theatre:
 Shadow Force:
   pageId: 130464
   revId: 868820
+Shadow Gangs:
+  pageId: 161212
+  renamedFrom:
+    - Shadow gangs
+  revId: 974366
 'Shadow Harvest: Phantom Ops':
   pageId: 40999
   revId: 868821
@@ -95215,11 +95225,6 @@ Shadow Watch:
 'Shadow Wolf Mysteries: Under the Crimson Moon Collector''s Edition':
   pageId: 123673
   revId: 868847
-Shadow gangs:
-  pageId: 161212
-  renamedFrom:
-    - Shadow Gangs
-  revId: 974367
 Shadow of Conquest:
   pageId: 61548
   revId: 868848
@@ -101539,12 +101544,11 @@ Sponchies:
   pageId: 16581
   revId: 977391
   tooBroad: true
-'SpongeBob SquarePants: Battle for Bikini Bottom Rehydrated':
+'SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated':
   pageId: 138112
   renamedFrom:
     - 'SpongeBob SquarePants: Battle for Bikini Bottom Rehydrated'
-    - 'SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated'
-  revId: 976749
+  revId: 982568
 'SpongeBob SquarePants: Diner Dash':
   pageId: 140400
   revId: 934458
@@ -106527,14 +106531,14 @@ Switcher:
 Sword 'N' Board:
   pageId: 44766
   revId: 872205
+Sword Art Online Alicization Lycoris:
+  pageId: 133036
+  renamedFrom:
+    - 'Sword Art Online: Alicization Lycoris'
+  revId: 982055
 'Sword Art Online Re: Hollow Fragment':
   pageId: 108434
   revId: 966487
-'Sword Art Online: Alicization Lycoris':
-  pageId: 133036
-  renamedFrom:
-    - Sword Art Online Alicization Lycoris
-  revId: 0
 'Sword Art Online: Fatal Bullet':
   pageId: 80649
   revId: 966033
@@ -130887,12 +130891,6 @@ Zzzzz:
 Černaja Metka:
   pageId: 139919
   revId: 953789
-Ōkami HD:
-  pageId: 70781
-  renamedFrom:
-    - Ōkami HD
-    - Okami HD
-  revId: 975594
 'ΔV: Rings of Saturn':
   pageId: 109004
   revId: 879097

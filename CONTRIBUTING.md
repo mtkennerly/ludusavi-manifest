@@ -9,6 +9,11 @@ Generally, you just need these commands:
   * `npm run schema`
 * List some stats about the data set:
   * `npm run stats`
+* Activate pre-commit hooks (requires Python):
+  ```
+  pip install --user pre-commit
+  pre-commit install
+  ```
 
 There are some lower-level commands for finer control or full imports:
 

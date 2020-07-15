@@ -524,4 +524,3 @@ export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<
     cache[pageTitle].revId = page.revisions?.[0]?.revid ?? 0;
     return game;
 }
-
