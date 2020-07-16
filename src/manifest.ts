@@ -85,7 +85,14 @@ export class ManifestFile extends YamlFile<Manifest> {
             if (filter.irregularPath && wikiCache[title].irregularPath) {
                 check = true;
             }
-            if (filter.irregularPathUntagged && !wikiCache[title].irregularPath && Object.keys(this.data[title]?.files ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("<br>") || x.includes("<br/>"))) {
+            if (
+                filter.irregularPathUntagged &&
+                !wikiCache[title].irregularPath &&
+                (
+                    Object.keys(this.data[title]?.files ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("/>") || x.includes("<br>")) ||
+                    Object.keys(this.data[title]?.registry ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("/>") || x.includes("<br>"))
+                )
+            ) {
                 check = true;
             }
             if (filter.games && filter.games.includes(title)) {

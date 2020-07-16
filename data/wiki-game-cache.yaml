@@ -1653,6 +1653,7 @@ A Rite from the Stars:
   pageId: 103285
   revId: 841573
 A Robot Named Fight!:
+  irregularPath: true
   pageId: 66273
   revId: 934101
 A Roll-Back Story:
@@ -21838,7 +21839,6 @@ Coin Commander:
   pageId: 156234
   revId: 931401
 Coin Crypt:
-  irregularPath: true
   pageId: 26839
   revId: 982667
 Coin Pickers:
@@ -92302,6 +92302,7 @@ Ruzar - The Life Stone:
   pageId: 45427
   revId: 868025
 Ruzh Delta Z:
+  irregularPath: true
   pageId: 47954
   revId: 868026
 Ryan Black:
