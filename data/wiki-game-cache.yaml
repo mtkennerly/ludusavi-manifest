@@ -4658,7 +4658,7 @@ Alice in CyberCity:
   revId: 842443
 Alice in Stardom:
   pageId: 132216
-  revId: 884069
+  revId: 983376
 Alice in Wonderland:
   pageId: 33992
   revId: 967024
@@ -4887,7 +4887,7 @@ Alien Syndrome:
   revId: 964556
 Alien Trilogy:
   pageId: 61902
-  revId: 965676
+  revId: 983377
 Alien Worms Invasion:
   pageId: 88019
   revId: 842511
@@ -5743,6 +5743,7 @@ Amulet Zero 零物语 - Optimize:
   pageId: 103919
   revId: 842790
 Amulet of Dreams:
+  irregularPath: true
   pageId: 42710
   revId: 956472
 Amulet of the Seven Souls:
@@ -7422,7 +7423,7 @@ Arkane Rush Multiverse Mayhem:
   revId: 843298
 Arkanoid:
   pageId: 159395
-  revId: 981550
+  revId: 983378
 Arkanoid For Painters:
   pageId: 104179
   revId: 843299
@@ -7760,6 +7761,7 @@ Art of Horology:
   pageId: 132008
   revId: 843387
 Art of Murder - Cards of Destiny:
+  irregularPath: true
   pageId: 103377
   revId: 960464
 Art of Murder - Deadly Secrets:
@@ -7769,6 +7771,7 @@ Art of Murder - FBI Confidential:
   pageId: 103385
   revId: 960466
 Art of Murder - Hunt for the Puppeteer:
+  irregularPath: true
   pageId: 103381
   revId: 960467
 Art of Murder - The Secret Files:
@@ -10015,7 +10018,7 @@ Bad Thoughts:
   revId: 844053
 Bad Toys 3D:
   pageId: 68729
-  revId: 964657
+  revId: 983379
 Bad birthday:
   pageId: 53073
   revId: 844055
@@ -11461,7 +11464,7 @@ Beach Head 2000:
   revId: 923955
 Beach Head 2002:
   pageId: 61990
-  revId: 908782
+  revId: 983380
 'Beach Head: Desert War':
   pageId: 61988
   revId: 844495
@@ -13951,7 +13954,7 @@ Bloo Kid 2:
   revId: 845208
 Blood:
   pageId: 13918
-  revId: 966820
+  revId: 983381
 'Blood & Gold: Caribbean!':
   pageId: 34288
   revId: 845210
@@ -15020,7 +15023,7 @@ Boozy Dwarf:
   revId: 845494
 Boppin':
   pageId: 148099
-  revId: 967180
+  revId: 983382
 Boratium Wars:
   pageId: 73258
   revId: 845495
@@ -15347,7 +15350,7 @@ Box Out!:
   revId: 845596
 Box PC3:
   pageId: 151969
-  revId: 906835
+  revId: 983383
 'Box: The Game':
   pageId: 98664
   revId: 845597
@@ -15623,7 +15626,7 @@ Breach:
   revId: 845681
 Breach & Clear:
   pageId: 17523
-  revId: 963241
+  revId: 983384
 'Breach & Clear: Deadline':
   pageId: 22518
   revId: 918468
@@ -18811,7 +18814,7 @@ Cateau:
   revId: 846781
 Catechumen:
   pageId: 91641
-  revId: 953214
+  revId: 983385
 'Category:Free-to-play':
   pageId: 159098
   revId: 956562
@@ -21117,7 +21120,7 @@ Clean VR:
   revId: 847450
 Clean'Em Up:
   pageId: 36179
-  revId: 946114
+  revId: 983386
 Cleaner:
   pageId: 138558
   revId: 847452
@@ -23461,7 +23464,7 @@ Counter Terrorism - Minesweeper:
   revId: 900622
 Counter Terrorist Agency:
   pageId: 122854
-  revId: 957712
+  revId: 983387
 Counter-Fall:
   pageId: 156893
   revId: 977944
@@ -28519,7 +28522,7 @@ Deep Rest:
   revId: 849627
 Deep Rock Galactic:
   pageId: 55221
-  revId: 979976
+  revId: 983388
 Deep Sea Endurance:
   pageId: 127345
   revId: 849629
@@ -30617,7 +30620,7 @@ Disc League:
   revId: 850249
 Disc Room (2016):
   pageId: 159132
-  revId: 963380
+  revId: 983389
 Disc Room (2020):
   pageId: 159141
   revId: 980071
@@ -31056,7 +31059,7 @@ Diving Trunks:
   revId: 978240
 Divinoids:
   pageId: 159902
-  revId: 963608
+  revId: 983390
 Divinum:
   pageId: 151513
   revId: 903263
@@ -34784,7 +34787,7 @@ Eat All the Things:
   revId: 891108
 Eat My Dust:
   pageId: 146902
-  revId: 923391
+  revId: 983391
 Eat Your Words:
   pageId: 99772
   revId: 851630
@@ -36309,7 +36312,7 @@ Engram:
   revId: 852073
 Enigma:
   pageId: 39785
-  revId: 944954
+  revId: 983392
 Enigma Prison:
   pageId: 39654
   revId: 852075
@@ -38319,10 +38322,10 @@ F29 Retaliator:
   tooBroad: true
 FAITH:
   pageId: 146578
-  revId: 923265
+  revId: 983393
 'FAITH: Chapter II':
   pageId: 148340
-  revId: 923266
+  revId: 983394
 'FAITH: The Unholy Trinity':
   pageId: 151868
   revId: 906071
@@ -40253,7 +40256,7 @@ Fields of Glory:
   revId: 964799
 Fiend:
   pageId: 101851
-  revId: 923090
+  revId: 983395
 Fiends of Imprisonment:
   pageId: 45988
   revId: 853256
@@ -58066,7 +58069,7 @@ Jumplord:
   revId: 931458
 Jumpman Lives!:
   pageId: 147147
-  revId: 964886
+  revId: 983396
 Jumpo Joe:
   pageId: 98426
   revId: 886514
@@ -58342,7 +58345,7 @@ K-pop VR:
   revId: 858469
 'K. Hawk: Survival Instinct':
   pageId: 157705
-  revId: 935731
+  revId: 983397
 K.O.M.A:
   pageId: 129879
   revId: 858470
@@ -61371,7 +61374,7 @@ Last Resort Island:
   revId: 859322
 Last Rites:
   pageId: 88158
-  revId: 964901
+  revId: 983398
   tooBroad: true
 Last Salvo:
   pageId: 78298
@@ -62757,7 +62760,7 @@ Lifeblood:
   revId: 886916
 Lifeforce Tenka:
   pageId: 123043
-  revId: 966111
+  revId: 983399
 Lifeless:
   pageId: 33512
   revId: 910591
@@ -66333,7 +66336,7 @@ Mainland:
   revId: 860751
 Mainlining:
   pageId: 39280
-  revId: 962867
+  revId: 983400
 Maitetsu:
   pageId: 97404
   revId: 887692
@@ -66601,10 +66604,10 @@ Manhunter:
   revId: 952269
 'Manhunter 2: San Francisco':
   pageId: 17079
-  revId: 964929
+  revId: 983401
 'Manhunter: New York':
   pageId: 147113
-  revId: 964930
+  revId: 983402
 Maniac GO:
   pageId: 64749
   revId: 887733
@@ -67465,7 +67468,7 @@ Max Payne:
   unsupportedOs: true
 'Max Payne 2: The Fall of Max Payne':
   pageId: 3397
-  revId: 981660
+  revId: 983403
 Max Payne 3:
   pageId: 2846
   revId: 974341
@@ -68976,7 +68979,7 @@ Microsoft Flight Simulator X:
   revId: 938558
 Microsoft Flight Simulator for Windows 95:
   pageId: 152533
-  revId: 951241
+  revId: 983404
 Microsoft Golf:
   pageId: 7343
   revId: 964953
@@ -69742,7 +69745,7 @@ Miniature - The Story Puzzle:
   revId: 888217
 Miniature Garden:
   pageId: 39791
-  revId: 945576
+  revId: 983405
 Miniature TD - VR:
   pageId: 67555
   revId: 888219
@@ -72931,7 +72934,7 @@ NALOGI:
   revId: 894091
 NAM:
   pageId: 25285
-  revId: 967858
+  revId: 983406
 NAMELESS:
   pageId: 121355
   revId: 894092
@@ -77023,7 +77026,7 @@ Omina Mortis:
   revId: 863742
 'Ominous Horizons: A Paladin''s Calling':
   pageId: 91644
-  revId: 938751
+  revId: 983407
 'Ominous Objects: Family Portrait Collector''s Edition':
   pageId: 58451
   revId: 896828
@@ -80707,7 +80710,7 @@ Phantasmagoria:
   revId: 964108
 'Phantasmagoria 2: A Puzzle of Flesh':
   pageId: 36560
-  revId: 967581
+  revId: 983408
 Phantasmagoria of Flower View:
   pageId: 30995
   revId: 897367
@@ -81195,13 +81198,13 @@ Pinball 3:
   revId: 864868
 Pinball Dreams:
   pageId: 131950
-  revId: 967172
+  revId: 983409
 Pinball Dreams 2:
   pageId: 131955
-  revId: 967171
+  revId: 983410
 Pinball Dreams Deluxe:
   pageId: 154686
-  revId: 965461
+  revId: 983411
 Pinball Dreams HD:
   pageId: 147647
   revId: 891890
@@ -81216,7 +81219,7 @@ Pinball FX3:
   revId: 967057
 Pinball Fantasies:
   pageId: 26166
-  revId: 965001
+  revId: 983412
 Pinball HD Collection:
   pageId: 41876
   revId: 897443
@@ -81228,7 +81231,7 @@ Pinball Illusions:
   revId: 897444
 Pinball Mania:
   pageId: 131959
-  revId: 965003
+  revId: 983413
 Pinball Parlor:
   pageId: 55720
   revId: 897445
@@ -82482,7 +82485,7 @@ Pleasure in Dream:
   revId: 897657
 'Pleurghburg: Dark Ages':
   pageId: 147240
-  revId: 964113
+  revId: 983414
 'Plexarium: Mega Maze Crawler':
   pageId: 68984
   revId: 897658
@@ -95213,7 +95216,7 @@ Shadow Uprising:
   revId: 868838
 Shadow Warrior (1997):
   pageId: 9487
-  revId: 981826
+  revId: 983415
 Shadow Warrior (2013):
   pageId: 10160
   revId: 966908
@@ -95412,7 +95415,7 @@ Shadwen:
   revId: 868898
 Shady Knight:
   pageId: 151852
-  revId: 905987
+  revId: 983416
 Shady Part of Me:
   pageId: 145441
   revId: 840813
@@ -95616,7 +95619,7 @@ Sharp X Mind:
   revId: 868958
 SharpShooter3D:
   pageId: 96729
-  revId: 952435
+  revId: 983417
 'Sharpe Investigations: Death on the Seine':
   pageId: 49931
   revId: 868960
@@ -96806,7 +96809,7 @@ SilverFrame(纯白星原):
   revId: 953806
 Silverball:
   pageId: 154872
-  revId: 967170
+  revId: 983418
 Silverfall:
   pageId: 41393
   revId: 869317
@@ -97940,7 +97943,7 @@ Sleepwalker:
   revId: 965119
 Sleepwalker's Journey:
   pageId: 8035
-  revId: 899182
+  revId: 983419
 Sleigh Runner:
   pageId: 124046
   revId: 869630
@@ -101064,7 +101067,7 @@ SpellForce 3:
   revId: 908052
 'SpellForce 3: Soul Harvest':
   pageId: 124855
-  revId: 973183
+  revId: 983420
 'SpellForce: The Order of Dawn':
   pageId: 4483
   revId: 966978
@@ -101573,7 +101576,7 @@ Sponchies:
   revId: 947210
 'SpongeBob SquarePants: Operation Krabby Patty':
   pageId: 152323
-  revId: 923384
+  revId: 983421
 'SpongeBob: Patty Pursuit':
   pageId: 160743
   revId: 971198
@@ -101744,7 +101747,7 @@ SpyParty:
   revId: 919163
 'Spycraft: The Great Game':
   pageId: 21136
-  revId: 967626
+  revId: 983422
 Spyder:
   pageId: 158655
   revId: 976586
@@ -104947,7 +104950,7 @@ Super Blockbreak 3D:
   revId: 871736
 Super Blood Hockey:
   pageId: 56152
-  revId: 963132
+  revId: 983423
 Super Blue Boy Planet:
   pageId: 55127
   revId: 871738
@@ -108569,7 +108572,7 @@ Tengutana:
   revId: 872788
 Tenis PC3:
   pageId: 151895
-  revId: 906238
+  revId: 983425
 Tenkyu:
   pageId: 90052
   revId: 872789
@@ -108935,7 +108938,7 @@ Tetripank:
   revId: 872886
 Tetris (AcademySoft):
   pageId: 152573
-  revId: 965192
+  revId: 983426
 Tetris Effect:
   pageId: 140550
   revId: 962944
@@ -114647,7 +114650,7 @@ The Snowboard Game:
   revId: 874483
 The Software Toolworks' Star Wars Chess:
   pageId: 147946
-  revId: 964160
+  revId: 983427
 The Sojourn:
   pageId: 105615
   revId: 969477
@@ -115713,7 +115716,7 @@ The Wranglers:
   revId: 874765
 The X-Files Game:
   pageId: 3889
-  revId: 967162
+  revId: 983428
 The Yawhg:
   pageId: 7534
   revId: 929938
@@ -117742,7 +117745,7 @@ Tony Slopes:
   revId: 875328
 Tony Tough and the Night of Roasted Moths:
   pageId: 47978
-  revId: 963261
+  revId: 983429
 Too Angry to Space:
   pageId: 41751
   revId: 875330
@@ -121918,7 +121921,7 @@ Urban Cards:
   revId: 840706
 Urban Chaos:
   pageId: 19490
-  revId: 963329
+  revId: 983430
 Urban Empire:
   pageId: 35573
   revId: 876515
@@ -128172,7 +128175,7 @@ World War I:
   revId: 948653
 World War II GI:
   pageId: 25290
-  revId: 967159
+  revId: 983431
 World War II Online:
   pageId: 62464
   revId: 878298

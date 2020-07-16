@@ -52,6 +52,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             unsupportedOs: boolean,
             unsupportedPath: boolean,
             irregularPath: boolean,
+            irregularPathUntagged: boolean,
             tooBroad: boolean,
             tooBroadUntagged: boolean,
             games: Array<string> | undefined,
@@ -81,7 +82,10 @@ export class ManifestFile extends YamlFile<Manifest> {
             if (filter.unsupportedPath && info.unsupportedPath) {
                 check = true;
             }
-            if (filter.irregularPath && (wikiCache[title].irregularPath || Object.keys(this.data[title]?.files ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("<br>") || x.includes("<br/>")))) {
+            if (filter.irregularPath && wikiCache[title].irregularPath) {
+                check = true;
+            }
+            if (filter.irregularPathUntagged && !wikiCache[title].irregularPath && Object.keys(this.data[title]?.files ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("<br>") || x.includes("<br/>"))) {
                 check = true;
             }
             if (filter.games && filter.games.includes(title)) {
@@ -90,7 +94,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             if (filter.tooBroad && info.tooBroad) {
                 check = true;
             }
-            if (filter.tooBroadUntagged && Object.keys(this.data[title]?.files ?? []).some(x => pathIsTooBroad(x))) {
+            if (filter.tooBroadUntagged && !info.tooBroad && Object.keys(this.data[title]?.files ?? []).some(x => pathIsTooBroad(x))) {
                 check = true;
             }
             if (filter.recent && wikiCache[title].recentlyChanged) {

@@ -466,12 +466,18 @@ export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<
                 game.steam = { id: steamId };
             }
         } else if (template.name === "Game data/saves" || template.name === "Game data/config") {
+            // console.log("\n\n\n\n\n\n--------------------------------------------------------------------------")
+            // console.log(template);
             for (const cellKey of Object.getOwnPropertyNames(template.parameters)) {
                 if (cellKey === "0" || cellKey === "1") {
                     continue;
                 }
                 const cell = template.parameters[cellKey];
+                // console.log("======================================")
+                // console.log(cell)
                 const [rawPath, regular] = getRawPathFromCell(cell);
+                // console.log("-----------------");
+                // console.log(`${regular} :  ${rawPath}`);
 
                 if (!regular) {
                     irregularPath += 1;

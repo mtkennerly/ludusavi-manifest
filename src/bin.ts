@@ -16,6 +16,7 @@ interface Cli {
     unsupportedOs?: boolean,
     unsupportedPath?: boolean,
     irregularPath?: boolean,
+    irregularPathUntagged?: boolean,
     tooBroad?: boolean,
     tooBroadUntagged?: boolean,
     recent?: number,
@@ -35,6 +36,7 @@ async function main() {
             "unsupportedOs",
             "unsupportedPath",
             "irregularPath",
+            "irregularPathUntagged",
             "tooBroad",
             "tooBroadUntagged",
         ]
@@ -77,6 +79,7 @@ async function main() {
                     tooBroad: args.tooBroad ?? false,
                     tooBroadUntagged: args.tooBroadUntagged ?? false,
                     irregularPath: args.irregularPath ?? false,
+                    irregularPathUntagged: args.irregularPathUntagged ?? false,
                     games: args._,
                     recent: args.recent,
                 },
