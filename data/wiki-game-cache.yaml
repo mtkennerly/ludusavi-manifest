@@ -1653,6 +1653,7 @@ A Rite from the Stars:
   pageId: 103285
   revId: 841573
 A Robot Named Fight!:
+  irregularPath: true
   pageId: 66273
   revId: 934101
 A Roll-Back Story:
@@ -2109,8 +2110,9 @@ AI War 2:
   pageId: 44800
   revId: 841706
 'AI: The Somnium Files':
+  irregularPath: true
   pageId: 132809
-  revId: 963156
+  revId: 983332
 AIDS Simulator:
   pageId: 96877
   revId: 841708
@@ -47163,7 +47165,7 @@ Graveyard Defender:
   revId: 839908
 Graveyard Keeper:
   pageId: 58471
-  revId: 962811
+  revId: 983342
 Graveyard Shift:
   pageId: 51951
   revId: 855328
@@ -50952,6 +50954,7 @@ Her Majesty's Ship:
   pageId: 88894
   revId: 887258
 Her Story:
+  irregularPath: true
   pageId: 26295
   revId: 975631
 Her War:

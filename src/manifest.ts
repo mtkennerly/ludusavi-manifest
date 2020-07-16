@@ -51,6 +51,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             unchecked: boolean,
             unsupportedOs: boolean,
             unsupportedPath: boolean,
+            irregularPath: boolean,
             tooBroad: boolean,
             tooBroadUntagged: boolean,
             game: string | undefined,
@@ -78,6 +79,9 @@ export class ManifestFile extends YamlFile<Manifest> {
                 check = true;
             }
             if (filter.unsupportedPath && info.unsupportedPath) {
+                check = true;
+            }
+            if (filter.irregularPath && (wikiCache[title].irregularPath || Object.keys(this.data[title]?.files ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("<br>") || x.includes("<br/>")))) {
                 check = true;
             }
             if (filter.game === title) {
