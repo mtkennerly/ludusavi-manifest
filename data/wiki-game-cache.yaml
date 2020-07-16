@@ -12649,7 +12649,7 @@ BioShock:
   revId: 982790
 BioShock 2:
   pageId: 1536
-  revId: 982792
+  revId: 983736
 BioShock 2 Remastered:
   pageId: 39886
   revId: 963806
@@ -16321,7 +16321,7 @@ Buddy Bash:
   revId: 932275
 Budget Cuts:
   pageId: 39540
-  revId: 960533
+  revId: 983546
 'Budget Cuts 2: Mission Insolvency':
   pageId: 139552
   revId: 937556
@@ -17240,7 +17240,7 @@ CS2D:
   revId: 928350
 'CT Special Forces: Fire for Effect':
   pageId: 50575
-  revId: 890908
+  revId: 983560
 CTHON:
   pageId: 59351
   revId: 846287
@@ -18658,7 +18658,7 @@ Cat Quest:
   revId: 965422
 Cat Quest II:
   pageId: 132805
-  revId: 980970
+  revId: 983549
 Cat Simulator:
   pageId: 44629
   revId: 929846
@@ -18679,7 +18679,7 @@ Cat doesn't like banana:
   revId: 846738
 Cat on a Diet:
   pageId: 37630
-  revId: 929299
+  revId: 983561
 Cat or Bread?:
   pageId: 62168
   revId: 846740
@@ -19082,7 +19082,7 @@ Ceggtcher VR:
   revId: 846845
 Celaria:
   pageId: 137104
-  revId: 927635
+  revId: 983562
 Celeste:
   pageId: 61156
   revId: 983257
@@ -19387,6 +19387,7 @@ Change Ranger:
     - 'Change : A Little Story'
   revId: 983182
 Changed:
+  irregularPath: true
   pageId: 88866
   revId: 846917
 Changeling:
@@ -20481,6 +20482,7 @@ ChronoBreach:
   pageId: 134604
   revId: 847259
 ChronoClock:
+  irregularPath: true
   pageId: 57343
   revId: 847260
 Chronoclysm:
@@ -20977,6 +20979,7 @@ Clandestiny:
   pageId: 147292
   revId: 927738
 Clannad:
+  irregularPath: true
   pageId: 21159
   revId: 895214
 Clannad Side Stories:
@@ -22403,6 +22406,7 @@ Command & Conquer:
   pageId: 76
   revId: 970743
 'Command & Conquer 3: Tiberium Wars':
+  irregularPath: true
   pageId: 484
   revId: 960553
 'Command & Conquer 4: Tiberian Twilight':
@@ -24548,6 +24552,7 @@ Crowman & Wolfboy:
   pageId: 44982
   revId: 983117
 'Crown Champion: Legends of the Arena':
+  irregularPath: true
   pageId: 51459
   revId: 848467
 Crown Trick:
@@ -26356,6 +26361,7 @@ Dangerous Dave in the Haunted Mansion:
   pageId: 131848
   revId: 967176
 Dangerous Dave's Risky Rescue:
+  irregularPath: true
   pageId: 131850
   revId: 964727
 Dangerous Driving:
@@ -26518,6 +26524,7 @@ Dark Deception:
   pageId: 66025
   revId: 849006
 Dark Devotion:
+  irregularPath: true
   pageId: 72425
   revId: 962764
 'Dark Dimensions: City of Ash Collector''s Edition':
@@ -27015,6 +27022,7 @@ Darkest Depths:
   pageId: 130295
   revId: 849151
 Darkest Dungeon:
+  irregularPath: true
   pageId: 22744
   revId: 974614
 'Darkest Hour: A Hearts of Iron Game':
@@ -27282,6 +27290,7 @@ Dave:
   pageId: 121912
   revId: 849244
 Dave Goes Nutz!:
+  irregularPath: true
   pageId: 131851
   revId: 964735
 Dave Mirra Freestyle BMX:
@@ -27709,7 +27718,7 @@ Dead Rising 3:
   revId: 976959
 Dead Rising 4:
   pageId: 35569
-  revId: 976960
+  revId: 983563
 Dead Russia Co-op:
   pageId: 157100
   revId: 932308
@@ -29763,6 +29772,7 @@ Detention:
   pageId: 53970
   revId: 926299
 DethKarz:
+  irregularPath: true
   pageId: 154788
   revId: 958580
   unsupportedPath: true
@@ -30009,7 +30019,7 @@ DiRT Showdown:
   revId: 953273
 Diablo:
   pageId: 2982
-  revId: 979272
+  revId: 983740
 Diablo II:
   pageId: 595
   revId: 983291
@@ -32134,6 +32144,7 @@ Draconic Route:
   pageId: 50977
   revId: 928187
 Dracula Origin:
+  irregularPath: true
   pageId: 41345
   revId: 933344
 Dracula's Legacy:
@@ -32146,6 +32157,7 @@ Dracula's Library 2:
   pageId: 78104
   revId: 850882
 'Dracula: Love Kills':
+  irregularPath: true
   pageId: 40556
   revId: 979727
 'Dracula: The Days of Gore':
@@ -34234,9 +34246,11 @@ Dynasty Warriors 5 Special:
   pageId: 111468
   revId: 983077
 Dynasty Warriors 6:
+  irregularPath: true
   pageId: 5157
   revId: 976555
 Dynasty Warriors 7 with Xtreme Legends:
+  irregularPath: true
   pageId: 40410
   revId: 976564
 'Dynasty Warriors 7: Xtreme Legends Definitive Edition':
@@ -34246,6 +34260,7 @@ Dynasty Warriors 7 with Xtreme Legends:
   pageId: 22801
   revId: 976596
 'Dynasty Warriors 8: Xtreme Legends':
+  irregularPath: true
   pageId: 17223
   revId: 976594
 Dynasty Warriors 9:
@@ -35475,6 +35490,7 @@ Elementium:
   pageId: 80992
   revId: 918836
 'Elements II: Hearts of Light':
+  irregularPath: true
   pageId: 34952
   revId: 851824
 'Elements: Epic Heroes':
@@ -38538,6 +38554,7 @@ FMath:
   pageId: 76973
   revId: 852727
 FNaF World:
+  irregularPath: true
   pageId: 30954
   revId: 973970
 FOCUS on YOU:
@@ -42093,7 +42110,7 @@ Ford Racing 3:
   revId: 971598
 Ford Street Racing:
   pageId: 49673
-  revId: 971521
+  revId: 983551
 Forebearers:
   pageId: 123804
   revId: 853809
@@ -43770,7 +43787,7 @@ G-Nome:
   revId: 800904
 G-Police:
   pageId: 126876
-  revId: 913864
+  revId: 983564
 G.A.M.E.S:
   pageId: 141554
   revId: 854325
@@ -47427,6 +47444,7 @@ Greed Corp:
   pageId: 124241
   revId: 855397
 GreedFall:
+  irregularPath: true
   pageId: 137032
   revId: 962886
 Greedy Crush:
@@ -50133,6 +50151,7 @@ Hectic Highways:
   pageId: 127490
   revId: 977984
 'Hector: Badge of Carnage!':
+  irregularPath: true
   pageId: 4231
   revId: 963344
 Hedgewars:
@@ -52875,7 +52894,7 @@ Hot Takes:
   revId: 901568
 'Hot Tin Roof: The Cat That Wore a Fedora':
   pageId: 26129
-  revId: 939000
+  revId: 983565
 Hot Wheels Stunt Track Driver:
   pageId: 11206
   revId: 929202
@@ -56076,7 +56095,7 @@ Interregnum-Alpha:
   revId: 857833
 'Interrogation: You Will Be Deceived':
   pageId: 128619
-  revId: 961885
+  revId: 983555
 Intershelter:
   pageId: 53445
   revId: 910508
@@ -56894,7 +56913,7 @@ J.R.R. Tolkien's War in Middle Earth:
   revId: 964870
 J.U.L.I.A. Among the Stars:
   pageId: 34220
-  revId: 972233
+  revId: 983603
 'J.U.R: Japan Underground Racing':
   pageId: 36220
   revId: 858077
@@ -58573,7 +58592,7 @@ Kana Quest:
   revId: 938618
 'Kane & Lynch: Dead Men':
   pageId: 10983
-  revId: 967250
+  revId: 983572
 Kanji Training Game:
   pageId: 46332
   revId: 858529
@@ -59207,6 +59226,7 @@ Killing Floor 2:
   pageId: 17184
   revId: 983238
 'Killing Floor: Incursion':
+  irregularPath: true
   pageId: 68296
   revId: 934195
 Killing Random Dudes Online:
@@ -60142,7 +60162,7 @@ Kokoda VR:
   revId: 858973
 Kokomando:
   pageId: 155040
-  revId: 927214
+  revId: 983573
 Kokorogawari:
   pageId: 107826
   revId: 858974
@@ -62098,6 +62118,7 @@ Legions of Tyrandel:
   pageId: 38545
   revId: 886642
 'Legionwood 2: Rise of the Eternal''s Realm - Director''s Cut':
+  irregularPath: true
   pageId: 50252
   revId: 859531
 Lego Alpha Team:
@@ -62603,6 +62624,7 @@ Lgnorant girl doll:
   pageId: 127787
   revId: 886891
 LiEat:
+  irregularPath: true
   pageId: 35782
   revId: 975263
 Liam Finds a Story:
@@ -62675,6 +62697,7 @@ Life Is Strange 2:
   pageId: 69523
   revId: 983243
 'Life Is Strange: Before the Storm':
+  irregularPath: true
   pageId: 63562
   revId: 979821
 Life Lessons:
@@ -66443,8 +66466,10 @@ Makeover Desire - HENSHIN GANBO:
   pageId: 41098
   revId: 860786
 'Making History: The Calm & the Storm':
+  irregularPath: true
   pageId: 41394
   revId: 887709
+  tooBroad: true
 'Making History: The Great War':
   pageId: 48853
   revId: 860788
@@ -67124,6 +67149,7 @@ Mashed:
   pageId: 17965
   revId: 934715
 Mashinky:
+  irregularPath: true
   pageId: 69030
   revId: 891001
 Mask of Mists:
@@ -68784,8 +68810,9 @@ Metro 2033 Redux:
   pageId: 74550
   revId: 888083
 Metro Exodus:
+  irregularPath: true
   pageId: 63660
-  revId: 982037
+  revId: 983747
   tooBroad: true
 Metro Explosion Simulator:
   pageId: 140875
@@ -73100,7 +73127,7 @@ NEKROTRONIC VR:
   revId: 839806
 'NEO AQUARIUM: The King of Crustaceans':
   pageId: 26880
-  revId: 862619
+  revId: 983575
 NEO Impossible Bosses:
   pageId: 70020
   revId: 896198
@@ -75100,6 +75127,7 @@ Nihilumbra:
   pageId: 34348
   revId: 863187
 'Nikopol: Secrets of the Immortals':
+  irregularPath: true
   pageId: 41257
   revId: 863188
 'Nil-Ninjahtic: Ronin':
@@ -75579,7 +75607,7 @@ Noita:
   revId: 951748
 'Noitu Love 2: Devolution':
   pageId: 14021
-  revId: 863326
+  revId: 983577
 Nokbak:
   pageId: 69312
   revId: 896596
@@ -75663,7 +75691,7 @@ Normal Fastfood Fantasy:
   revId: 896611
 Normality:
   pageId: 36381
-  revId: 964976
+  revId: 983578
 Norman's Night In:
   pageId: 130613
   revId: 863352
@@ -76467,8 +76495,10 @@ OctoFurry:
   pageId: 156549
   revId: 931719
 'Octodad: Dadliest Catch':
+  irregularPath: true
   pageId: 14415
   revId: 982152
+  tooBroad: true
 Octogeddon:
   pageId: 78741
   revId: 886814
@@ -76525,7 +76555,7 @@ Oddria!:
   revId: 979992
 'Oddworld: Munch''s Oddysee':
   pageId: 4715
-  revId: 968467
+  revId: 983579
 'Oddworld: Munch''s Oddysee (2016)':
   pageId: 35721
   revId: 971359
@@ -76538,10 +76568,10 @@ Oddria!:
   revId: 831759
 'Oddworld: Stranger''s Wrath':
   pageId: 4960
-  revId: 968466
+  revId: 983580
 'Oddworld: Stranger''s Wrath HD':
   pageId: 4958
-  revId: 968465
+  revId: 983581
 Ode:
   pageId: 140569
   revId: 926456
@@ -77664,7 +77694,7 @@ OpenArena:
   revId: 794217
 OpenRA:
   pageId: 28776
-  revId: 977877
+  revId: 983557
 OpenRCT2:
   pageId: 35535
   revId: 940804
@@ -82324,6 +82354,7 @@ Platformica:
   pageId: 41803
   revId: 897627
 Platformines:
+  irregularPath: true
   pageId: 27497
   revId: 865184
 Platforms:
@@ -94422,6 +94453,7 @@ Secret of Mana:
   pageId: 68794
   revId: 961962
 Secret of the Magic Crystals:
+  irregularPath: true
   pageId: 7802
   revId: 954332
 Secret of the Pendulum:
@@ -95783,6 +95815,7 @@ Shera and the Three Treasures:
   pageId: 47579
   revId: 926496
 Sherlock Holmes and the Hound of the Baskervilles:
+  irregularPath: true
   pageId: 123061
   revId: 981857
 Sherlock Holmes versus Jack the Ripper:
@@ -95807,6 +95840,7 @@ Sherlock Holmes versus Jack the Ripper:
   pageId: 147443
   revId: 968114
 'Sherlock Holmes: The Awakened - Remastered':
+  irregularPath: true
   pageId: 31369
   revId: 973739
 'Sherlock Holmes: The Devil''s Daughter':
@@ -97093,6 +97127,7 @@ Sinner:
   pageId: 69755
   revId: 920784
 Sins of The Demon RPG:
+  irregularPath: true
   pageId: 34966
   revId: 869394
 Sins of a Solar Empire:
@@ -100285,6 +100320,7 @@ Space Pilgrim Academy:
   pageId: 114130
   revId: 934254
 'Space Pilgrim Episode I: Alpha Centauri':
+  irregularPath: true
   pageId: 37941
   revId: 934247
 'Space Pilgrim Episode II: Epsilon Indi':
@@ -101732,7 +101768,7 @@ Spy DNA:
   revId: 967629
 Spy Hunter (2003):
   pageId: 56849
-  revId: 977400
+  revId: 983558
 'Spy Hunter: Nowhere to Run':
   pageId: 89938
   revId: 905403
@@ -102064,6 +102100,7 @@ Star Chart:
   pageId: 47367
   revId: 870893
 Star Citizen:
+  irregularPath: true
   pageId: 9950
   revId: 978802
 Star Clash:
@@ -103129,6 +103166,7 @@ SteamWorld Heist:
   pageId: 33127
   revId: 926715
 'SteamWorld Quest: Hand of Gilgamech':
+  irregularPath: true
   pageId: 136286
   revId: 926717
 'Steamalot: Epoch''s Journey':
@@ -103268,7 +103306,7 @@ Steelrising:
   revId: 981236
 Steep:
   pageId: 36448
-  revId: 980754
+  revId: 983607
 Stefanos Sizzling Pizza Pie:
   pageId: 98796
   revId: 871243
@@ -104769,7 +104807,7 @@ Sunburnt:
   revId: 871682
 Sundered:
   pageId: 50969
-  revId: 976840
+  revId: 983559
 Sundown Refusal:
   pageId: 137130
   revId: 871684
@@ -104823,7 +104861,7 @@ Sunset Kingdom:
   revId: 930381
 Sunset Overdrive:
   pageId: 120675
-  revId: 979370
+  revId: 983624
 Sunset Planet:
   pageId: 128274
   revId: 871700
@@ -106627,6 +106665,7 @@ Sword of the Slayer:
 Sword of the Stars:
   pageId: 204
   revId: 983303
+  tooBroad: true
 'Sword of the Stars II: Lords of Winter':
   pageId: 10084
   revId: 928505
@@ -107160,6 +107199,7 @@ TRANSIT:
   pageId: 144119
   revId: 839453
 TRI:
+  irregularPath: true
   pageId: 20705
   revId: 931282
 TRI.DEFENDER:
@@ -107425,7 +107465,7 @@ Tail Drift:
   revId: 872449
 Tailor Tales:
   pageId: 122584
-  revId: 872450
+  revId: 983654
 Tails:
   pageId: 41759
   revId: 872451
@@ -108843,6 +108883,7 @@ Tesla's Best Friend:
   pageId: 93166
   revId: 872863
 Teslagrad:
+  irregularPath: true
   pageId: 13362
   revId: 967275
 Tess Elated:
@@ -111310,6 +111351,7 @@ The Frosty Leaves:
   pageId: 82111
   revId: 873560
 The Fruit of Grisaia:
+  irregularPath: true
   pageId: 33656
   revId: 873561
 The Fruitless Flower:
@@ -112517,6 +112559,7 @@ The Legacy of Music:
   pageId: 96219
   revId: 873905
 'The Legacy: Realm of Terror':
+  irregularPath: true
   pageId: 154786
   revId: 965229
 The Legend Of Vraz:
@@ -112808,6 +112851,7 @@ The Lord of the Rings Online:
   pageId: 22963
   revId: 967007
 'The Lord of the Rings: The Return of the King':
+  irregularPath: true
   pageId: 20183
   revId: 974781
 'The Lord of the Rings: War in the North':
@@ -113032,7 +113076,7 @@ The Matrix Online:
   tooBroad: true
 'The Matrix: Path of Neo':
   pageId: 27561
-  revId: 966166
+  revId: 983655
 The Maw:
   pageId: 15603
   revId: 874027
@@ -114497,7 +114541,7 @@ The Shape of Heart:
   revId: 874445
 The Shapeshifting Detective:
   pageId: 113554
-  revId: 969495
+  revId: 983735
 The Shattered Blade:
   pageId: 144993
   revId: 840364
@@ -114970,6 +115014,7 @@ The Technician:
   pageId: 95168
   revId: 874566
 The Technomancer:
+  irregularPath: true
   pageId: 32296
   revId: 981230
 The Temple of Elemental Evil:
@@ -119313,6 +119358,7 @@ Tribocalypse VR:
   pageId: 40062
   revId: 875770
 Trick & Treat:
+  irregularPath: true
   pageId: 39173
   revId: 875771
 Trick Shot:
@@ -125808,7 +125854,7 @@ Watson's Watch:
   revId: 877625
 Wattam:
   pageId: 70259
-  revId: 969049
+  revId: 983660
 Wauies - The Pet Shop Game:
   pageId: 79254
   revId: 877627
@@ -128585,6 +128631,7 @@ Wunderwaffe:
   pageId: 102707
   revId: 878412
 Wuppo:
+  irregularPath: true
   pageId: 39129
   revId: 941325
 Wurm Unlimited:

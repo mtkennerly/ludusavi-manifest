@@ -187,22 +187,35 @@ function makePathArgRegex(arg: string): RegExp {
 
 interface PathCell {
     [index: number]: string | PathCell;
-    type: "comment" | "transclusion" | "page_title" | "plain";
+    type: "comment" | "transclusion" | "page_title" | "plain" | "tag";
     parameters: { [key: string]: any }; // keys are numbers as strings
+    tag?: string, // when type=tag
     toString(): string;
 }
 
-function stringifyTransclusionSegment(segment: PathCell): [string, boolean] {
-    const templateName = segment[0][0] as string;
+function stringifyTransclusionCell(cell: PathCell): [string, boolean] {
+    const templateName = cell[0][0] as string;
     switch (templateName.toLowerCase()) {
         case "p":
         case "path":
-            return [`{{${templateName}|${segment[1]}}}`, true];
+            return [`{{${templateName}|${cell[1]}}}`, true];
         case "code":
         case "file":
             return ["*", false];
         case "localizedpath":
-            return [segment[1] as string, false];
+            return [cell[1] as string, false];
+        default:
+            return ["", false];
+    }
+}
+
+function stringifyTagCell(cell: PathCell): [string, boolean] {
+    if (cell.tag === undefined) {
+        return ["", false];
+    }
+    switch (cell.tag.toLowerCase()) {
+        case "code":
+            return ["*", false];
         default:
             return ["", false];
     }
@@ -215,7 +228,13 @@ function getRawPathFromCell(cell: string | PathCell): [string, boolean] {
     if (typeof cell === "string") {
         composite += cell;
     } else if (cell.type === "transclusion") {
-        const [stringified, segmentRegular] = stringifyTransclusionSegment(cell);
+        const [stringified, segmentRegular] = stringifyTransclusionCell(cell);
+        if (!segmentRegular) {
+            regular = false;
+        }
+        composite += stringified;
+    } else if (cell.type === "tag") {
+        const [stringified, segmentRegular] = stringifyTagCell(cell);
         if (!segmentRegular) {
             regular = false;
         }
@@ -229,7 +248,13 @@ function getRawPathFromCell(cell: string | PathCell): [string, boolean] {
             if (typeof segment === "string") {
                 composite += segment;
             } else if (segment.type === "transclusion") {
-                const [stringified, segmentRegular] = stringifyTransclusionSegment(segment);
+                const [stringified, segmentRegular] = stringifyTransclusionCell(segment);
+                if (!segmentRegular) {
+                    regular = false;
+                }
+                composite += stringified;
+            } else if (segment.type === "tag") {
+                const [stringified, segmentRegular] = stringifyTagCell(segment);
                 if (!segmentRegular) {
                     regular = false;
                 }
@@ -238,7 +263,7 @@ function getRawPathFromCell(cell: string | PathCell): [string, boolean] {
         }
     }
 
-    return [composite.replace(/<ref>.*?<\ref>/, "").trim(), regular];
+    return [composite.trim(), regular];
 }
 
 /**
