@@ -18,13 +18,27 @@ interface Cli {
     irregularPath?: boolean,
     tooBroad?: boolean,
     tooBroadUntagged?: boolean,
-    game?: string,
     recent?: number,
     limit?: number,
 }
 
 async function main() {
-    const args = minimist<Cli>(process.argv.slice(2));
+    const args = minimist<Cli>(process.argv.slice(2), {
+        boolean: [
+            "cache",
+            "manifest",
+            "stats",
+            "all",
+            "existing",
+            "missing",
+            "unchecked",
+            "unsupportedOs",
+            "unsupportedPath",
+            "irregularPath",
+            "tooBroad",
+            "tooBroadUntagged",
+        ]
+    });
 
     const wikiCache = new WikiGameCacheFile();
     wikiCache.load();
@@ -63,7 +77,7 @@ async function main() {
                     tooBroad: args.tooBroad ?? false,
                     tooBroadUntagged: args.tooBroadUntagged ?? false,
                     irregularPath: args.irregularPath ?? false,
-                    game: args.game,
+                    games: args._,
                     recent: args.recent,
                 },
                 args.limit ?? 25,

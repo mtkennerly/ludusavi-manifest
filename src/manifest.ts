@@ -54,7 +54,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             irregularPath: boolean,
             tooBroad: boolean,
             tooBroadUntagged: boolean,
-            game: string | undefined,
+            games: Array<string> | undefined,
             recent: number | undefined,
         },
         limit: number | undefined,
@@ -84,7 +84,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             if (filter.irregularPath && (wikiCache[title].irregularPath || Object.keys(this.data[title]?.files ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("<br>") || x.includes("<br/>")))) {
                 check = true;
             }
-            if (filter.game === title) {
+            if (filter.games && filter.games.includes(title)) {
                 check = true;
             }
             if (filter.tooBroad && info.tooBroad) {

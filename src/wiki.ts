@@ -185,17 +185,15 @@ function makePathArgRegex(arg: string): RegExp {
     return new RegExp(escaped, "gi");
 }
 
-// Examples:
-// [ [["p"], "linuxhome"], ".config" ]
-// [ [["cn"], "Is this right?", "date=January 1, 2000"] ]
-type PathSegment = string | [[string], ...Array<string>];
+interface PathCell {
+    [index: number]: string | PathCell;
+    type: "comment" | "transclusion" | "page_title" | "plain";
+    parameters: { [key: string]: any }; // keys are numbers as strings
+    toString(): string;
+}
 
-function stringifyPathSegment(segment: PathSegment): [string, boolean] {
-    if (typeof segment === "string") {
-        return [segment, true];
-    }
-
-    const templateName = segment[0][0];
+function stringifyTransclusionSegment(segment: PathCell): [string, boolean] {
+    const templateName = segment[0][0] as string;
     switch (templateName.toLowerCase()) {
         case "p":
         case "path":
@@ -204,27 +202,43 @@ function stringifyPathSegment(segment: PathSegment): [string, boolean] {
         case "file":
             return ["*", false];
         case "localizedpath":
-            return [segment[1], false];
+            return [segment[1] as string, false];
         default:
             return ["", false];
     }
 }
 
-function getRawPathFromCell(cell: string | Array<PathSegment> | undefined): [string | undefined, boolean] {
+function getRawPathFromCell(cell: string | PathCell): [string, boolean] {
+    let composite = "";
     let regular = true;
-    if (cell === undefined) {
-        return [undefined, regular];
-    } else if (typeof cell === "string") {
-        return [cell.replace(/<ref>.*?<\ref>/, ""), regular];
-    } else {
-        return [cell.map(x => {
-            const [stringified, segmentRegular] = stringifyPathSegment(x);
-            if (!segmentRegular) {
-                regular = false;
+
+    if (typeof cell === "string") {
+        composite += cell;
+    } else if (cell.type === "transclusion") {
+        const [stringified, segmentRegular] = stringifyTransclusionSegment(cell);
+        if (!segmentRegular) {
+            regular = false;
+        }
+        composite += stringified;
+    } else if (cell.type === "plain") {
+        for (let i = 0; i < 50; i++) {
+            const segment = cell[i];
+            if (segment === undefined) {
+                break;
             }
-            return stringified;
-        }).join("").replace(/<ref>.*?<\ref>/, ""), regular];
+            if (typeof segment === "string") {
+                composite += segment;
+            } else if (segment.type === "transclusion") {
+                const [stringified, segmentRegular] = stringifyTransclusionSegment(segment);
+                if (!segmentRegular) {
+                    regular = false;
+                }
+                composite += stringified;
+            }
+        }
     }
+
+    return [composite.replace(/<ref>.*?<\ref>/, "").trim(), regular];
 }
 
 /**
@@ -463,7 +477,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<
                     irregularPath += 1;
                 }
 
-                if (rawPath === undefined || rawPath.length === 0) {
+                if (rawPath.length === 0) {
                     continue;
                 }
 

@@ -28,7 +28,7 @@ There are some lower-level commands for finer control or full imports:
   * Games that had an unusable path: `npm run manifest -- --unsupportedPath`
   * Games with paths that are too broad and are tagged as such in the wiki cache: `npm run manifest -- --tooBroad`
   * Games with paths that are too broad and aren't already tagged as such in the wiki cache: `npm run manifest -- --tooBroadUntagged`
-  * A specific game: `npm run manifest -- --game "Name of Game"`
+  * A specific game: `npm run manifest -- "Game 1" "Game 2"`
 
 ## API etiquette
 When running or modifying the importer script, please be mindful not to
