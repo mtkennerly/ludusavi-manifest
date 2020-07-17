@@ -245,22 +245,14 @@ function getRawPathFromCell(cell: string | PathCell): [string, boolean] {
             if (segment === undefined) {
                 break;
             }
-            if (typeof segment === "string") {
-                composite += segment;
-            } else if (segment.type === "transclusion") {
-                const [stringified, segmentRegular] = stringifyTransclusionCell(segment);
-                if (!segmentRegular) {
-                    regular = false;
-                }
-                composite += stringified;
-            } else if (segment.type === "tag") {
-                const [stringified, segmentRegular] = stringifyTagCell(segment);
-                if (!segmentRegular) {
-                    regular = false;
-                }
-                composite += stringified;
+            const [stringified, segmentRegular] = getRawPathFromCell(segment);
+            if (!segmentRegular) {
+                regular = false;
             }
+            composite += stringified;
         }
+    } else if (cell.type !== "comment" && cell.type !== "page_title") {
+        regular = false;
     }
 
     return [composite.trim(), regular];
