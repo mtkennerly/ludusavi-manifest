@@ -57,7 +57,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             tooBroadUntagged: boolean,
             skipUntil: string | undefined,
             games: Array<string> | undefined,
-            recent: number | undefined,
+            recent: boolean | undefined,
         },
         limit: number | undefined,
         steamCache: SteamGameCacheFile,

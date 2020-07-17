@@ -1,7 +1,8 @@
 import { REPO, PathType, UnsupportedOsError, UnsupportedPathError, YamlFile } from ".";
 import { Constraint, Game, Store, Tag, Os } from "./manifest";
-import * as Wikiapi from "wikiapi";
+import * as moment from "moment";
 import * as NodeMw from "nodemw";
+import * as Wikiapi from "wikiapi";
 
 export type WikiGameCache = {
     [title: string]: {
@@ -17,6 +18,10 @@ export type WikiGameCache = {
         renamedFrom?: Array<string>,
         irregularPath?: boolean,
     };
+};
+
+export type WikiMetaCache = {
+    lastCheckedRecentChanges: string;
 };
 
 export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
@@ -36,9 +41,11 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
         };
     }
 
-    async flagRecentChanges(days: number): Promise<void> {
-        const changes = await getRecentChanges(days);
+    async flagRecentChanges(metaCache: WikiMetaCacheFile): Promise<void> {
+        const now = moment();
+        const changes = await getRecentChanges(now.toDate(), moment(metaCache.data.lastCheckedRecentChanges).subtract(1, "minute").toDate());
         const client = makeApiClient2();
+
         for (const [recentName, recentInfo] of Object.entries(changes).sort((x, y) => x[0].localeCompare(y[0]))) {
             if (this.data[recentName] !== undefined) {
                 // Existing entry has been edited.
@@ -73,7 +80,16 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                 }
             }
         }
+
+        metaCache.data.lastCheckedRecentChanges = now.toISOString();
     }
+}
+
+export class WikiMetaCacheFile extends YamlFile<WikiMetaCache> {
+    path = `${REPO}/data/wiki-meta-cache.yaml`;
+    defaultData = {
+        lastCheckedRecentChanges: moment().subtract(7, "days").toISOString(),
+    };
 }
 
 interface RecentChanges {
@@ -418,11 +434,11 @@ function callMw<T = any>(client, method: string, ...args: Array<any>): Promise<[
     });
 }
 
-export async function getRecentChanges(days: number): Promise<RecentChanges> {
+export async function getRecentChanges(newest: Date, oldest: Date): Promise<RecentChanges> {
     const changes: RecentChanges = {};
     const client = makeApiClient2();
-    const startTimestamp = new Date().toISOString();
-    const endTimestamp = new Date(new Date().setDate(new Date().getDate() - days)).toISOString();
+    const startTimestamp = newest.toISOString();
+    const endTimestamp = oldest.toISOString();
     let rccontinue: string | undefined = undefined;
 
     while (true) {

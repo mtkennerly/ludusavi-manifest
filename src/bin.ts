@@ -2,7 +2,7 @@ import * as minimist from "minimist";
 
 import { ManifestFile } from "./manifest";
 import { SteamGameCacheFile, getSteamClient } from "./steam";
-import { WikiGameCacheFile } from "./wiki";
+import { WikiGameCacheFile, WikiMetaCacheFile } from "./wiki";
 import { saveMissingGames } from "./missing";
 
 interface Cli {
@@ -20,7 +20,7 @@ interface Cli {
     tooBroad?: boolean,
     tooBroadUntagged?: boolean,
     skipUntil?: string,
-    recent?: number,
+    recent?: boolean,
     limit?: number,
 }
 
@@ -45,6 +45,8 @@ async function main() {
 
     const wikiCache = new WikiGameCacheFile();
     wikiCache.load();
+    const wikiMetaCache = new WikiMetaCacheFile();
+    wikiMetaCache.load();
     const steamCache = new SteamGameCacheFile(await getSteamClient());
     steamCache.load();
     const manifest = new ManifestFile();
@@ -61,7 +63,7 @@ async function main() {
     try {
         if (args.cache) {
             if (args.recent) {
-                await wikiCache.flagRecentChanges(args.recent);
+                await wikiCache.flagRecentChanges(wikiMetaCache);
             } else {
                 await wikiCache.addNewGames();
             }
@@ -91,6 +93,7 @@ async function main() {
         }
 
         wikiCache.save();
+        wikiMetaCache.save();
         steamCache.save();
         manifest.save();
         saveMissingGames(wikiCache.data, manifest.data);
@@ -98,6 +101,7 @@ async function main() {
         process.exit(0);
     } catch (e) {
         wikiCache.save();
+        wikiMetaCache.save();
         steamCache.save();
         manifest.save();
         saveMissingGames(wikiCache.data, manifest.data);

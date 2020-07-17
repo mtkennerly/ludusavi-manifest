@@ -24,6 +24,7 @@
   "dependencies": {
     "js-yaml": "^3.14.0",
     "minimist": "^1.2.5",
+    "moment": "^2.27.0",
     "nodemw": "^0.13.0",
     "steam-user": "^4.16.2",
     "wikiapi": "^1.10.0"

@@ -3,8 +3,8 @@ Requires Node.js.
 
 Generally, you just need these commands:
 
-* Add all recent changes since a certain number of days ago:
-  * `npm run recent 5`
+* Add all recent changes (defaults to last 7 days, but then it remembers when you last ran it):
+  * `npm run recent`
 * Validate the manifest against the schema:
   * `npm run schema`
 * List some stats about the data set:
