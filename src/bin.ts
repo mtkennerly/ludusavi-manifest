@@ -19,6 +19,7 @@ interface Cli {
     irregularPathUntagged?: boolean,
     tooBroad?: boolean,
     tooBroadUntagged?: boolean,
+    skipUntil?: string,
     recent?: number,
     limit?: number,
 }
@@ -80,6 +81,7 @@ async function main() {
                     tooBroadUntagged: args.tooBroadUntagged ?? false,
                     irregularPath: args.irregularPath ?? false,
                     irregularPathUntagged: args.irregularPathUntagged ?? false,
+                    skipUntil: args.skipUntil,
                     games: args._,
                     recent: args.recent,
                 },

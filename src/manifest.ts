@@ -55,6 +55,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             irregularPathUntagged: boolean,
             tooBroad: boolean,
             tooBroadUntagged: boolean,
+            skipUntil: string | undefined,
             games: Array<string> | undefined,
             recent: number | undefined,
         },
@@ -62,7 +63,16 @@ export class ManifestFile extends YamlFile<Manifest> {
         steamCache: SteamGameCacheFile,
     ): Promise<void> {
         let i = 0;
+        let foundSkipUntil = false;
         for (const [title, info] of Object.entries(wikiCache)) {
+            if (filter.skipUntil && !foundSkipUntil) {
+                if (title === filter.skipUntil) {
+                    foundSkipUntil = true;
+                } else {
+                    continue;
+                }
+            }
+
             let check = false;
             if (filter.all) {
                 check = true;

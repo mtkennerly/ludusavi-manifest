@@ -31,6 +31,7 @@ There are some lower-level commands for finer control or full imports:
   * Games with paths that look invalid and are tagged as such in the wiki cache: `npm run manifest -- --irregularPath`
   * Games with paths that look invalid and aren't already tagged as such in the wiki cache: `npm run manifest -- --irregularPathUntagged`
   * A specific game: `npm run manifest -- "Game 1" "Game 2"`
+  * In any above command, skip games alphabetically prior to a particular one: `--skipUntil 'Game 3'`
 
 ## API etiquette
 When running or modifying the importer script, please be mindful not to
