@@ -32433,11 +32433,11 @@ Dragon Quest X:
 Dragon Quest XI:
   pageId: 90887
   revId: 987890
-'Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition':
+Dragon Quest XI S - Definitive Edition:
   pageId: 162136
   renamedFrom:
-    - Dragon Quest XI S - Definitive Edition
-  revId: 986190
+    - 'Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition'
+  revId: 986195
 Dragon Racer:
   pageId: 125454
   revId: 850947
@@ -43398,9 +43398,6 @@ Frontline Zed:
 Frost:
   pageId: 42585
   revId: 854180
-FrostFall:
-  pageId: 154225
-  revId: 916996
 FrostRunner:
   pageId: 125304
   revId: 854181
@@ -88342,6 +88339,11 @@ Red Flu:
 Red Forest:
   pageId: 53220
   revId: 898726
+Red Frost:
+  pageId: 154225
+  renamedFrom:
+    - FrostFall
+  revId: 985253
 'Red Fuse: Rolling Explosive Device':
   pageId: 46434
   revId: 898727
@@ -126022,9 +126024,11 @@ Watch Dogs:
 Watch Dogs 2:
   pageId: 33230
   revId: 988668
-Watch Dogs Legion:
+'Watch Dogs: Legion':
   pageId: 138449
-  revId: 982722
+  renamedFrom:
+    - Watch Dogs Legion
+  revId: 982721
 Watch Me Jump:
   pageId: 69757
   revId: 988240
