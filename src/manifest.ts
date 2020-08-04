@@ -132,10 +132,15 @@ export class ManifestFile extends YamlFile<Manifest> {
                 }
             }
 
-            const game = await getGame(title, wikiCache);
-            delete wikiCache[title].recentlyChanged;
-            if (game.files === undefined && game.registry === undefined && game.steam?.id === undefined) {
+            const [verifiedTitle, game] = await getGame(title, wikiCache);
+            delete wikiCache[verifiedTitle].recentlyChanged;
+
+            if (verifiedTitle !== title) {
                 delete this.data[title];
+            }
+
+            if (game.files === undefined && game.registry === undefined && game.steam?.id === undefined) {
+                delete this.data[verifiedTitle];
                 continue;
             }
             if (game.steam?.id !== undefined) {
@@ -147,7 +152,7 @@ export class ManifestFile extends YamlFile<Manifest> {
                     game.installDir[installDir] = {}
                 }
             }
-            this.data[title] = game;
+            this.data[verifiedTitle] = game;
 
             await new Promise(resolve => setTimeout(resolve, DELAY_BETWEEN_GAMES_MS));
         }

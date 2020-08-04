@@ -479,10 +479,39 @@ export async function getRecentChanges(newest: Date, oldest: Date): Promise<Rece
 /**
  * https://www.pcgamingwiki.com/wiki/Template:Game_data
  */
-export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<Game> {
+export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<[string, Game]> {
     console.log(pageTitle);
     const wiki = makeApiClient();
-    const page = await wiki.page(pageTitle, { rvprop: "ids|content" });
+    let page = await wiki.page(pageTitle, { rvprop: "ids|content" });
+    if (page.missing !== undefined) {
+        // Couldn't find it by name, so try again by ID.
+        // This can happen for pages moved without leaving a redirect.
+        // (If they have a redirect, then the recent changes code takes care of it.)
+        const pageId = cache[pageTitle].pageId;
+        const client = makeApiClient2();
+        const params = {
+            action: "query",
+            pageids: [pageId],
+        };
+        try {
+            const [data, _] = await callMw<{ pages: { [id: string]: { title: string } } }>(
+                client.api, "call", params
+            );
+            const newTitle = data.pages[pageId.toString()].title;
+            console.log(`:: getGame: page ${pageId} called '${pageTitle}' renamed to '${newTitle}'`);
+            cache[newTitle] = cache[pageTitle];
+            delete cache[pageTitle];
+            if (cache[newTitle].renamedFrom === undefined) {
+                cache[newTitle].renamedFrom = [pageTitle];
+            } else {
+                cache[newTitle].renamedFrom.push(pageTitle);
+            }
+            page = await wiki.page(newTitle, { rvprop: "ids|content" });
+            pageTitle = newTitle;
+        } catch {
+            console.log(`:: page ${pageId} called '${pageTitle}' no longer exists`);
+        }
+    }
 
     const game: Game = {
         files: {},
@@ -637,5 +666,5 @@ export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<
     }
 
     cache[pageTitle].revId = page.revisions?.[0]?.revid ?? 0;
-    return game;
+    return [pageTitle, game];
 }
