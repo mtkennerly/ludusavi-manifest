@@ -129,10 +129,9 @@ const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?
         registry: true,
     },
     wow64: {
-        mapped: "<regWow64>",
+        mapped: "WOW6432Node",
         when: { os: "windows" },
         registry: true,
-        ignored: true,
     },
     username: {
         mapped: "<osUserName>",
