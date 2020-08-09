@@ -11786,6 +11786,7 @@
 * [Frog X Bird](https://www.pcgamingwiki.com/wiki/?curid=69060)
 * [Frog X Log](https://www.pcgamingwiki.com/wiki/?curid=156845)
 * [Frogger in Toy Town](https://www.pcgamingwiki.com/wiki/?curid=147739)
+* [Frogger: Ancient Shadow](https://www.pcgamingwiki.com/wiki/?curid=162494)
 * [Froggo](https://www.pcgamingwiki.com/wiki/?curid=129657)
 * [Froggy Boi](https://www.pcgamingwiki.com/wiki/?curid=93629)
 * [FrogStatue](https://www.pcgamingwiki.com/wiki/?curid=96341)
