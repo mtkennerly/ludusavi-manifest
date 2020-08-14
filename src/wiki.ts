@@ -47,7 +47,12 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
         const client = makeApiClient2();
 
         for (const [recentName, recentInfo] of Object.entries(changes).sort((x, y) => x[0].localeCompare(y[0]))) {
-            if (this.data[recentName] !== undefined) {
+            if (recentInfo.redirect) {
+                // This is an entry for the redirect page itself. We can ignore
+                // it, and we'll update our data when we get to the entry for
+                // the new page name.
+                continue;
+            } else if (this.data[recentName] !== undefined) {
                 // Existing entry has been edited.
                 console.log(`[E  ] ${recentName}`);
                 this.data[recentName].recentlyChanged = true;
@@ -95,6 +100,7 @@ export class WikiMetaCacheFile extends YamlFile<WikiMetaCache> {
 interface RecentChanges {
     [article: string]: {
         pageId: number;
+        redirect: boolean;
     };
 }
 
@@ -444,7 +450,7 @@ export async function getRecentChanges(newest: Date, oldest: Date): Promise<Rece
         const params = {
             action: "query",
             list: "recentchanges",
-            rcprop: "title|ids",
+            rcprop: "title|ids|redirect",
             rcstart: startTimestamp,
             rcend: endTimestamp,
             rclimit: 500,
@@ -455,13 +461,14 @@ export async function getRecentChanges(newest: Date, oldest: Date): Promise<Rece
         if (params.rccontinue === undefined) {
             delete params.rccontinue;
         }
-        const [data, next] = await callMw<{ recentchanges: Array<{ title: string; pageid: number }> }>(
+        const [data, next] = await callMw<{ recentchanges: Array<{ title: string; pageid: number, redirect?: string }> }>(
             client.api, "call", params
         );
 
         for (const article of data.recentchanges) {
             changes[article.title] = {
                 pageId: article.pageid,
+                redirect: article.redirect !== undefined,
             };
         }
 
