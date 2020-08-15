@@ -504,6 +504,10 @@ export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<
                 client.api, "call", params
             );
             const newTitle = data.pages[pageId.toString()].title;
+            if (newTitle === undefined) {
+                // This happened once intermittently; the cause is unclear.
+                throw new Error("Unable to retrieve page by ID");
+            }
             console.log(`:: getGame: page ${pageId} called '${pageTitle}' renamed to '${newTitle}'`);
             cache[newTitle] = cache[pageTitle];
             delete cache[pageTitle];
