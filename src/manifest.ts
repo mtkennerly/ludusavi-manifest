@@ -4,7 +4,7 @@ import { WikiGameCache, getGame, pathIsTooBroad } from "./wiki";
 
 export type Os = "dos" | "linux" | "mac" | "windows";
 
-export type Store = "epic" | "gog" | "microsoft" | "steam" | "uplay";
+export type Store = "epic" | "gog" | "microsoft" | "steam" | "uplay" | "origin";
 
 export type Tag = "config" | "save";
 

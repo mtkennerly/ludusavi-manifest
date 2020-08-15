@@ -372,6 +372,8 @@ function getConstraintFromSystem(system: string, path: string): Constraint {
         constraint.store = "epic";
     } else if (system.match(/uplay/i)) {
         constraint.store = "uplay";
+    } else if (system.match(/origin/i)) {
+        constraint.store = "origin";
     } else {
         constraint.os = parseOs(system);
         constraint.store = getStoreConstraintFromPath(path);
