@@ -1,0 +1,23 @@
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+name: Import
+
+jobs:
+  recent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10'
+      - run: |
+          npm install
+          npm run recent
+          npm run schema
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Import recent changes from PCGamingWiki
