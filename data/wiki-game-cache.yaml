@@ -1464,7 +1464,7 @@ A Hand in the Darkness:
   revId: 841513
 A Handful of Keflings:
   pageId: 81444
-  revId: 841514
+  revId: 994857
 A Hat in Time:
   pageId: 39610
   revId: 990242
@@ -1491,7 +1491,7 @@ A Killer's Sorrow:
   revId: 841521
 A Kingdom for Keflings:
   pageId: 127123
-  revId: 841522
+  revId: 994855
 A Kingdom of Flesh and Stone:
   pageId: 141616
   revId: 841523
@@ -1862,6 +1862,9 @@ A Wonder:
 A World With No Colour:
   pageId: 150217
   revId: 901932
+A World of Keflings:
+  pageId: 162971
+  revId: 994850
 A Writer and His Daughter:
   pageId: 68577
   revId: 841636
@@ -4841,7 +4844,7 @@ Alien Planet:
   revId: 842491
 Alien Rage - Unlimited:
   pageId: 10667
-  revId: 969088
+  revId: 994743
 Alien Rampage:
   pageId: 73772
   revId: 964555
@@ -5179,7 +5182,7 @@ Alone in the Dark 3:
   revId: 960443
 'Alone in the Dark: The New Nightmare':
   pageId: 7530
-  revId: 990594
+  revId: 994772
 Alone in the Forest VR:
   pageId: 93958
   revId: 842596
@@ -10790,7 +10793,7 @@ Batla:
   revId: 844282
 'Batman: Arkham Asylum':
   pageId: 638
-  revId: 993693
+  revId: 994801
 'Batman: Arkham City':
   pageId: 748
   revId: 977802
@@ -13592,7 +13595,7 @@ BlazBlue Centralfiction:
   tooBroad: true
 'BlazBlue: Calamity Trigger':
   pageId: 15126
-  revId: 994471
+  revId: 994838
 'BlazBlue: Chronophantasma Extend':
   pageId: 31285
   revId: 980537
@@ -14127,8 +14130,9 @@ Blood Waves:
   pageId: 76219
   revId: 972096
 Blood and Bacon:
+  irregularPath: true
   pageId: 37126
-  revId: 987907
+  revId: 994687
 Blood and Lust:
   pageId: 138944
   revId: 845242
@@ -14856,7 +14860,7 @@ Bonetown - The Power of Death:
   revId: 845434
 Boneworks:
   pageId: 129124
-  revId: 993999
+  revId: 994736
 Bonfire:
   pageId: 151078
   revId: 926513
@@ -17121,6 +17125,9 @@ CARDCORE:
 CARRUMBLE:
   pageId: 150345
   revId: 902061
+CART Precision Racing:
+  pageId: 162947
+  revId: 994786
 'CASE: Animatronics':
   pageId: 38224
   revId: 918483
@@ -21368,7 +21375,7 @@ Clock Simulator:
   revId: 989526
 Clock Tower:
   pageId: 71800
-  revId: 929130
+  revId: 994789
 Clocker:
   pageId: 122296
   revId: 928766
@@ -21407,7 +21414,7 @@ Cloney:
   revId: 847512
 Cloning Clyde:
   pageId: 9134
-  revId: 888911
+  revId: 994843
 Close Call Extreme:
   pageId: 79316
   revId: 847514
@@ -22483,7 +22490,7 @@ Command & Conquer:
 'Command & Conquer 3: Tiberium Wars':
   irregularPath: true
   pageId: 484
-  revId: 960553
+  revId: 994839
 'Command & Conquer 4: Tiberian Twilight':
   pageId: 4292
   revId: 960554
@@ -26406,7 +26413,7 @@ Dandy Dungeon - Legend of Brave Yamada -:
   revId: 991707
 'Danganronpa: Trigger Happy Havoc':
   pageId: 30929
-  revId: 964390
+  revId: 994775
 Danger City:
   pageId: 152763
   revId: 915454
@@ -30518,7 +30525,7 @@ Dino Crisis:
   tooBroad: true
 Dino Crisis 2:
   pageId: 147898
-  revId: 982304
+  revId: 994863
 Dino D-Day:
   pageId: 6967
   revId: 955977
@@ -31162,7 +31169,7 @@ Diving Trunks:
 'Divinity: Original Sin II - Definitive Edition':
   irregularPath: true
   pageId: 124876
-  revId: 993040
+  revId: 994728
 Divinoids:
   pageId: 159902
   revId: 983390
@@ -32240,7 +32247,7 @@ Draconic Route:
   revId: 928182
 'Dracula 3: The Path of the Dragon':
   pageId: 36416
-  revId: 928183
+  revId: 994799
 'Dracula 4: The Shadow of the Dragon':
   pageId: 50186
   revId: 928186
@@ -37907,7 +37914,7 @@ Exaella:
   revId: 852501
 Exanima:
   pageId: 25778
-  revId: 951613
+  revId: 994762
 Exapunks:
   pageId: 104813
   revId: 960644
@@ -38503,7 +38510,7 @@ FAN CLUB:
   revId: 852694
 FATE:
   pageId: 20991
-  revId: 985105
+  revId: 994836
 'FATE: The Cursed King':
   pageId: 49299
   revId: 933396
@@ -40727,7 +40734,7 @@ Final Fantasy XIII-2:
   revId: 990769
 Final Fantasy XV:
   pageId: 68726
-  revId: 993118
+  revId: 994741
 Final Fantasy XV Pocket Edition:
   pageId: 97041
   revId: 960685
@@ -45048,7 +45055,7 @@ Gearend:
   revId: 854642
 Gears 5:
   pageId: 129518
-  revId: 990991
+  revId: 994739
 Gears POP!:
   pageId: 143617
   revId: 960693
@@ -45427,7 +45434,7 @@ Get Me Outta Here - Deluxe/Remastered Edition:
   revId: 902183
 Get Medieval:
   pageId: 100804
-  revId: 984825
+  revId: 994791
 Get Off My Lawn!:
   pageId: 49355
   revId: 957911
@@ -57662,7 +57669,7 @@ Jets'n'Guns:
   revId: 918270
 Jets'n'Guns 2:
   pageId: 123812
-  revId: 994407
+  revId: 994776
 Jetstream:
   pageId: 108776
   revId: 858227
@@ -59732,7 +59739,7 @@ Kingdom Clicker:
   revId: 858805
 'Kingdom Come: Deliverance':
   pageId: 20535
-  revId: 993378
+  revId: 994731
 Kingdom Defense:
   pageId: 77028
   revId: 858808
@@ -67328,7 +67335,7 @@ Mary Le Chef - Cooking Passion:
   revId: 860976
 'Mary Skelter: Nightmares':
   pageId: 103273
-  revId: 994284
+  revId: 994796
 'Mary-Kate and Ashley: Crush Course':
   pageId: 92589
   revId: 934613
@@ -67891,7 +67898,7 @@ McDROID:
   revId: 861152
 McOsu:
   pageId: 59599
-  revId: 986881
+  revId: 994697
 McPixel:
   pageId: 8303
   revId: 933447
@@ -68005,7 +68012,7 @@ MechWarrior:
   revId: 964943
 'MechWarrior 2: 31st Century Combat':
   pageId: 18935
-  revId: 964096
+  revId: 994699
   tooBroad: true
 'MechWarrior 2: Mercenaries':
   pageId: 18939
@@ -70515,7 +70522,7 @@ Moeras:
   revId: 930469
 Moero Chronicle:
   pageId: 68733
-  revId: 994309
+  revId: 994787
 Mogh:
   pageId: 153031
   revId: 915734
@@ -70931,7 +70938,7 @@ Monster Minis Extreme Off-Road:
   revId: 888362
 Monster Monpiece:
   pageId: 58372
-  revId: 888363
+  revId: 994798
 Monster Prom:
   pageId: 87519
   revId: 982368
@@ -74914,7 +74921,10 @@ Nex Machina:
   revId: 927114
 Nexomon:
   pageId: 152849
-  revId: 917560
+  revId: 994829
+'Nexomon: Extinction':
+  pageId: 162965
+  revId: 994828
 Nexoria:
   pageId: 113978
   revId: 941247
@@ -75767,7 +75777,7 @@ Nocturnal Hunt:
   revId: 896583
 Nocturne:
   pageId: 75817
-  revId: 828499
+  revId: 994765
 Nocturne of Steel:
   pageId: 109228
   revId: 896584
@@ -80915,7 +80925,7 @@ Peter Jackson's King Kong:
   revId: 993766
 Peter Jackson's King Kong Gamer's Edition:
   pageId: 139823
-  revId: 993763
+  revId: 994735
 Peter World:
   pageId: 104225
   revId: 897359
@@ -82435,7 +82445,7 @@ PlanetSide:
   revId: 829134
 PlanetSide 2:
   pageId: 4002
-  revId: 990423
+  revId: 994730
 PlanetSide Arena:
   pageId: 125970
   revId: 919611
@@ -82595,7 +82605,7 @@ Platformica:
 Platformines:
   irregularPath: true
   pageId: 27497
-  revId: 865184
+  revId: 994686
 Platforms:
   pageId: 144532
   revId: 839898
@@ -85007,10 +85017,10 @@ Protothype:
   revId: 898023
 Prototype:
   pageId: 3861
-  revId: 992558
+  revId: 994744
 Prototype 2:
   pageId: 3245
-  revId: 981958
+  revId: 994864
 Prototype Mansion - Used No Cover:
   pageId: 99942
   revId: 865886
@@ -88764,7 +88774,7 @@ Reframed:
   revId: 924016
 Refunct:
   pageId: 37148
-  revId: 992539
+  revId: 994725
 'Regalia: Of Men and Monarchs':
   pageId: 54685
   revId: 912674
@@ -92579,7 +92589,7 @@ Rymdkapsel:
   revId: 868032
 'Ryse: Son of Rome':
   pageId: 19353
-  revId: 989197
+  revId: 994690
 Rysen:
   pageId: 81691
   revId: 868036
@@ -101755,7 +101765,7 @@ Spirited Heart Deluxe:
   revId: 870689
 Spiritfarer:
   pageId: 139736
-  revId: 993936
+  revId: 994693
 Spiritlands:
   pageId: 61590
   revId: 870691
@@ -101938,7 +101948,7 @@ Spooky's Jump Scare Mansion:
   revId: 950498
 'Spooky''s Jump Scare Mansion: HD Renovation':
   pageId: 57683
-  revId: 976668
+  revId: 994698
 Spoorky:
   pageId: 120836
   revId: 870749
@@ -102634,7 +102644,7 @@ Star Trek Timelines:
   revId: 969146
 'Star Trek: Bridge Commander':
   pageId: 162831
-  revId: 994386
+  revId: 994702
   tooBroad: true
 'Star Trek: Bridge Crew':
   pageId: 56509
@@ -107823,10 +107833,10 @@ Tainted Grail:
   revId: 977351
 Taito Legends:
   pageId: 111502
-  revId: 992238
+  revId: 994841
 Taito Legends 2:
   pageId: 111494
-  revId: 992239
+  revId: 994840
 Take Care of the Paperwork:
   pageId: 98736
   revId: 872458
@@ -108805,7 +108815,7 @@ Tell Me Everything:
   revId: 872748
 Tell Me Why:
   pageId: 152129
-  revId: 994441
+  revId: 994861
 Tell a Demon:
   pageId: 65997
   revId: 872749
@@ -110900,7 +110910,7 @@ The Devil Haunts Me:
   revId: 873343
 The Devil on G-String:
   pageId: 33636
-  revId: 987525
+  revId: 994711
 The Devil's Calculator:
   pageId: 127768
   revId: 873345
@@ -111272,7 +111282,7 @@ The Evil Within:
   revId: 978559
 The Evil Within 2:
   pageId: 63523
-  revId: 994648
+  revId: 994729
 The Executioner:
   pageId: 88174
   revId: 889167
@@ -113077,7 +113087,7 @@ The Light Remake:
   pageId: 151026
   renamedFrom:
     - The Light
-  revId: 991365
+  revId: 994862
 The Lighthouse:
   pageId: 66297
   revId: 873942
@@ -115001,7 +115011,7 @@ The Singularity Wish:
   revId: 874469
 The Sinking City:
   pageId: 97752
-  revId: 989721
+  revId: 994780
 The Six Dragons:
   pageId: 113124
   revId: 874471
@@ -116016,7 +116026,7 @@ The Witcher:
   revId: 991092
 'The Witcher 3: Wild Hunt':
   pageId: 17653
-  revId: 991099
+  revId: 994770
 The Witcher Adventure Game:
   pageId: 18472
   revId: 961071
@@ -118121,7 +118131,7 @@ Tony Hawk's American Wasteland:
   revId: 992479
 Tony Hawk's Pro Skater 1 + 2:
   pageId: 160343
-  revId: 993688
+  revId: 994764
 Tony Hawk's Pro Skater 2:
   pageId: 804
   revId: 992484
@@ -120114,7 +120124,7 @@ Tropico:
   revId: 982329
 Tropico 3:
   pageId: 310
-  revId: 980000
+  revId: 994680
 Tropico 4:
   pageId: 2454
   revId: 968590
@@ -124983,10 +124993,10 @@ WOUNDED:
   revId: 950164
 'WRC 8: FIA World Rally Championship':
   pageId: 128666
-  revId: 950792
+  revId: 994831
 'WRC 9: FIA World Rally Championship':
   pageId: 158653
-  revId: 993939
+  revId: 994835
 WRC Powerslide:
   pageId: 55333
   revId: 927445
@@ -126119,7 +126129,7 @@ Wasteland 2:
   revId: 969607
 Wasteland 3:
   pageId: 45129
-  revId: 994636
+  revId: 994825
 Wasteland Angel:
   pageId: 40914
   revId: 969646
