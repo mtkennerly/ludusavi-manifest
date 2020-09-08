@@ -1864,7 +1864,7 @@ A World With No Colour:
   revId: 901932
 A World of Keflings:
   pageId: 162971
-  revId: 994850
+  revId: 996739
 A Writer and His Daughter:
   pageId: 68577
   revId: 841636
@@ -6145,7 +6145,7 @@ Angry Birds Space:
   revId: 842916
 Angry Bunny:
   pageId: 150193
-  revId: 901908
+  revId: 996679
 Angry Farm:
   pageId: 129823
   revId: 842917
@@ -7456,13 +7456,14 @@ Arkane Rush Multiverse Mayhem:
   revId: 843298
 Arkanoid:
   pageId: 159395
-  revId: 984665
+  revId: 996777
+  unsupportedOs: true
 Arkanoid For Painters:
   pageId: 104179
   revId: 843299
 'Arkanoid: Doh It Again':
   pageId: 137738
-  revId: 995873
+  revId: 996774
 'Arkanoid: Revenge of Doh':
   pageId: 161734
   revId: 981548
@@ -8286,7 +8287,7 @@ Asterix & Obelix XXL 3 - The Crystal Menhir:
   revId: 987621
 Asterix & Obelix XXL Romastered:
   pageId: 162927
-  revId: 994546
+  revId: 996627
 Asterlode:
   pageId: 105133
   revId: 843525
@@ -12714,7 +12715,7 @@ BioShock 2 Remastered:
   revId: 963806
 BioShock Infinite:
   pageId: 4082
-  revId: 963804
+  revId: 996715
 BioShock Remastered:
   pageId: 35048
   revId: 963787
@@ -13323,7 +13324,7 @@ Blackout Rugby:
   revId: 845006
 'Blacksad: Under the Skin':
   pageId: 134111
-  revId: 988311
+  revId: 996740
 Blackscreen Simulator:
   pageId: 75023
   revId: 845008
@@ -24913,7 +24914,7 @@ Crystal Catacombs:
   revId: 848537
 Crystal Caves:
   pageId: 22370
-  revId: 964712
+  revId: 996615
 Crystal Chameleon:
   pageId: 125221
   revId: 848539
@@ -25768,7 +25769,7 @@ Cyberprank Girls 2077:
   revId: 993968
 Cyberpunk 2077:
   pageId: 97605
-  revId: 989884
+  revId: 996612
 Cyberpunk 3776:
   pageId: 48403
   revId: 848774
@@ -26045,7 +26046,7 @@ DINO VR:
   revId: 848838
 DIRT 5:
   pageId: 160129
-  revId: 991973
+  revId: 996603
 DISONANTE:
   pageId: 136393
   revId: 848839
@@ -26809,7 +26810,7 @@ Dark Night:
   revId: 849053
 Dark Nights with Poe and Munro:
   pageId: 150766
-  revId: 969545
+  revId: 996624
 Dark Noid:
   pageId: 79198
   revId: 849054
@@ -27229,7 +27230,7 @@ Darksiders:
   revId: 966083
 Darksiders Genesis:
   pageId: 138205
-  revId: 992801
+  revId: 996619
 Darksiders II:
   pageId: 3416
   revId: 966084
@@ -30093,7 +30094,7 @@ Devolver Bootleg:
   revId: 923563
 Devolverland Expo:
   pageId: 161780
-  revId: 984917
+  revId: 996780
 Devotion:
   pageId: 127827
   revId: 990977
@@ -31856,7 +31857,7 @@ Doom & Destiny Advanced:
   revId: 988074
 Doom (1993):
   pageId: 502
-  revId: 996439
+  revId: 996714
 Doom (2016):
   pageId: 19349
   revId: 993267
@@ -31874,16 +31875,16 @@ Doom 64 EX:
   revId: 976649
 Doom Classic:
   pageId: 155161
-  revId: 996205
+  revId: 996638
 Doom Eternal:
   pageId: 97499
   revId: 991569
 Doom II Classic:
   pageId: 155160
-  revId: 996206
+  revId: 996720
 'Doom II: Hell on Earth':
   pageId: 3218
-  revId: 996438
+  revId: 996713
 Doom Rails:
   pageId: 41208
   revId: 994259
@@ -33267,7 +33268,7 @@ Driver:
   revId: 994275
 'Driver: San Francisco':
   pageId: 2145
-  revId: 995336
+  revId: 996719
 Driving School Simulator:
   pageId: 49599
   revId: 851162
@@ -37117,7 +37118,7 @@ Escape from Life Inc:
   revId: 988230
 Escape from Monkey Island:
   pageId: 30778
-  revId: 996140
+  revId: 996600
 Escape from Nazi Labs:
   pageId: 52912
   revId: 852267
@@ -44770,19 +44771,19 @@ Gangs of Space:
   revId: 854561
 Gangsta Sniper:
   pageId: 121689
-  revId: 854562
+  revId: 996674
 'Gangsta Sniper 2: Revenge':
   pageId: 127457
-  revId: 854564
+  revId: 996675
 'Gangsta Sniper 3: Final Parody':
   pageId: 153288
-  revId: 916007
+  revId: 996677
 'Gangsta Underground : The Poker':
   pageId: 160056
   revId: 967209
 Gangsta Woman:
   pageId: 140765
-  revId: 854565
+  revId: 996676
 Gangsters 1920:
   pageId: 150387
   revId: 902106
@@ -45548,10 +45549,10 @@ Ghost Dimension:
   revId: 854779
 'Ghost Files 2: Memory of a Crime':
   pageId: 153264
-  revId: 915983
+  revId: 996695
 'Ghost Files: The Face of Guilt':
   pageId: 62314
-  revId: 854780
+  revId: 996694
 Ghost Grab 3000:
   pageId: 132492
   revId: 987933
@@ -46023,6 +46024,9 @@ Gleaner Heights:
 Glick's Cat Simulator:
   pageId: 77391
   revId: 854923
+Glider:
+  pageId: 163191
+  revId: 996599
 Glider 4.0:
   irregularPath: true
   pageId: 162586
@@ -46280,12 +46284,16 @@ Gnubbl:
 'Gnumz: Masters of Defense':
   pageId: 45200
   revId: 855002
-Go All Out!:
+Go All Out:
   pageId: 88842
-  revId: 855003
-'Go All Out: Free To Play':
+  renamedFrom:
+    - Go All Out!
+  revId: 996654
+'Go All Out: Free to Play':
   pageId: 153326
-  revId: 916047
+  renamedFrom:
+    - 'Go All Out: Free To Play'
+  revId: 996655
 Go Away My Fat:
   pageId: 90124
   revId: 855004
@@ -47592,7 +47600,7 @@ Great Battles of the American Civil War:
   revId: 900185
 Great Big War Game:
   pageId: 21715
-  revId: 855381
+  revId: 996699
 Great Cause of the Three Kingdoms:
   pageId: 78748
   revId: 855382
@@ -49112,7 +49120,7 @@ Half Past Impossible:
   revId: 855810
 Half-Life:
   pageId: 467
-  revId: 995079
+  revId: 996614
 Half-Life 2:
   pageId: 94
   revId: 996499
@@ -49898,7 +49906,7 @@ Haunted Hotel:
   revId: 885938
 'Haunted Hotel: Room 18':
   pageId: 153338
-  revId: 916060
+  revId: 996648
 'Haunted Hotel: Stay in the Light':
   pageId: 64733
   revId: 885942
@@ -52336,7 +52344,7 @@ Hitman GO:
   revId: 990565
 'Hitman: Codename 47':
   pageId: 3615
-  revId: 984628
+  revId: 996734
 'Hitman: Contracts':
   pageId: 491
   revId: 995496
@@ -58429,7 +58437,7 @@ Just Cause:
   tooBroad: true
 Just Cause 2:
   pageId: 2045
-  revId: 960771
+  revId: 996631
 Just Cause 3:
   pageId: 20905
   revId: 980762
@@ -59879,10 +59887,10 @@ Kingdoms and Castles:
   revId: 978552
 'Kingdoms of Amalur: Re-Reckoning':
   pageId: 160891
-  revId: 995855
+  revId: 996766
 'Kingdoms of Amalur: Reckoning':
   pageId: 15
-  revId: 995854
+  revId: 996607
 Kingpin Royale:
   pageId: 110058
   revId: 858839
@@ -59891,7 +59899,7 @@ Kingpin Royale:
   revId: 991424
 'Kingpin: Reloaded':
   pageId: 155279
-  revId: 983042
+  revId: 996737
 Kings:
   pageId: 93351
   revId: 858841
@@ -63321,7 +63329,7 @@ Limberjack:
   revId: 886970
 Limbo:
   pageId: 2711
-  revId: 982639
+  revId: 996769
   tooBroad: true
 Limbo of the Lost:
   pageId: 90882
@@ -67919,9 +67927,6 @@ Mazes and Mages 2:
 Mazgeon:
   pageId: 145316
   revId: 840688
-Mazi - Remastered:
-  pageId: 153308
-  revId: 955844
 McDROID:
   pageId: 49677
   revId: 861152
@@ -71416,7 +71421,7 @@ Morph Pong:
   revId: 862087
 MorphX:
   pageId: 147974
-  revId: 993252
+  revId: 996708
 Morphblade:
   pageId: 58636
   revId: 888425
@@ -71949,10 +71954,10 @@ Mr. Prepper:
   revId: 892861
 'Mr. Pumpkin 2: Kowloon walled city':
   pageId: 153282
-  revId: 916001
+  revId: 996691
 Mr. Pumpkin Adventure:
   pageId: 42483
-  revId: 862229
+  revId: 996690
 Mr. Robot:
   pageId: 15409
   revId: 945446
@@ -74959,7 +74964,7 @@ Nexomon:
   revId: 994829
 'Nexomon: Extinction':
   pageId: 162965
-  revId: 994870
+  revId: 996646
 Nexoria:
   pageId: 113978
   revId: 941247
@@ -76189,7 +76194,7 @@ Nowhere Station:
   revId: 863421
 Nox:
   pageId: 7607
-  revId: 996234
+  revId: 996768
 Nox Dei:
   pageId: 77628
   revId: 896650
@@ -77530,10 +77535,10 @@ One Giant Leap:
   revId: 896862
 'One Gun 2: Stickman':
   pageId: 153286
-  revId: 916005
+  revId: 996687
 'One Gun: Cat':
   pageId: 121466
-  revId: 896863
+  revId: 996686
 One Hand Clapping:
   pageId: 122894
   revId: 863807
@@ -87153,7 +87158,7 @@ Radiis:
   revId: 866486
 Radio Commander:
   pageId: 109124
-  revId: 967211
+  revId: 996762
 Radio General:
   pageId: 135447
   revId: 947246
@@ -89302,7 +89307,7 @@ Resident Evil 3 (2020):
   revId: 993360
 'Resident Evil 3: Nemesis':
   pageId: 21578
-  revId: 990619
+  revId: 996609
   tooBroad: true
 Resident Evil 4:
   pageId: 690
@@ -90351,6 +90356,9 @@ Rise of the Tomb Raider:
 Rise of the Triad:
   pageId: 7852
   revId: 929306
+Rise of the Triad Remastered:
+  pageId: 163192
+  revId: 996617
 'Rise of the Triad: Dark War':
   pageId: 9179
   revId: 964181
@@ -91128,7 +91136,7 @@ Rocket Knight:
   revId: 899373
 Rocket League:
   pageId: 26300
-  revId: 995667
+  revId: 996605
 Rocket Mania!:
   pageId: 12905
   revId: 867597
@@ -97094,7 +97102,7 @@ Silent Hill 3:
   revId: 969627
 'Silent Hill 4: The Room':
   pageId: 20028
-  revId: 995464
+  revId: 996593
 'Silent Hill: Homecoming':
   pageId: 13527
   revId: 995040
@@ -98000,7 +98008,7 @@ SkyBoats:
   revId: 869528
 SkyDrift:
   pageId: 12573
-  revId: 989270
+  revId: 996670
 SkyGameChanger-AirCombat II-:
   pageId: 127213
   revId: 869530
@@ -102162,7 +102170,7 @@ Spykebots:
   revId: 870793
 Spyro Reignited Trilogy:
   pageId: 137698
-  revId: 993426
+  revId: 996704
 Squad:
   pageId: 34671
   revId: 940220
@@ -110013,7 +110021,7 @@ The Battle of Mahjong:
   revId: 873076
 The Battle of Polytopia:
   pageId: 109168
-  revId: 873077
+  revId: 996639
 The Battle of Sol:
   pageId: 47411
   revId: 873078
@@ -111166,7 +111174,7 @@ The Eigengrau Menagerie:
   revId: 971214
 'The Elder Scrolls IV: Oblivion':
   pageId: 120
-  revId: 996583
+  revId: 996705
 The Elder Scrolls Online:
   pageId: 9001
   revId: 985313
@@ -112998,13 +113006,13 @@ The Legend of Crystal Valley:
   revId: 900500
 The Legend of Dark Witch:
   pageId: 45449
-  revId: 873908
+  revId: 996700
 'The Legend of Dark Witch - Episode 2: The Price of Desire':
   pageId: 53968
-  revId: 873909
+  revId: 996698
 The Legend of Dark Witch Renovation:
   pageId: 153262
-  revId: 915981
+  revId: 996697
 The Legend of Evil:
   pageId: 121470
   revId: 873910
@@ -114967,7 +114975,7 @@ The Shape of Heart:
   revId: 874445
 The Shapeshifting Detective:
   pageId: 113554
-  revId: 996552
+  revId: 996667
 The Shattered Blade:
   pageId: 144993
   revId: 840364
@@ -118163,6 +118171,11 @@ Tomboys Need Love Too!:
 Tommy Tronic:
   pageId: 41060
   revId: 875320
+Tommy's Battlegrounds:
+  pageId: 153308
+  renamedFrom:
+    - Mazi - Remastered
+  revId: 996669
 Tommyknockers:
   pageId: 88736
   revId: 875321
@@ -118201,7 +118214,7 @@ Tony Hawk's American Wasteland:
   revId: 992479
 Tony Hawk's Pro Skater 1 + 2:
   pageId: 160343
-  revId: 996584
+  revId: 996745
 Tony Hawk's Pro Skater 2:
   pageId: 804
   revId: 992484
@@ -125066,10 +125079,10 @@ WOUNDED:
   revId: 950164
 'WRC 8: FIA World Rally Championship':
   pageId: 128666
-  revId: 994831
+  revId: 996770
 'WRC 9: FIA World Rally Championship':
   pageId: 158653
-  revId: 996071
+  revId: 996645
 WRC Powerslide:
   pageId: 55333
   revId: 927445
@@ -126202,7 +126215,7 @@ Wasteland 2:
   revId: 969607
 Wasteland 3:
   pageId: 45129
-  revId: 995894
+  revId: 996775
 Wasteland Angel:
   pageId: 40914
   revId: 969646
@@ -126525,7 +126538,7 @@ We who are about to Die:
   revId: 932535
 We. The Revolution:
   pageId: 76631
-  revId: 978751
+  revId: 996712
 WeLOVE:
   pageId: 135379
   revId: 877691
@@ -129263,7 +129276,7 @@ XBall Champion:
   revId: 878455
 XCOM 2:
   pageId: 30092
-  revId: 992295
+  revId: 996602
 'XCOM: Chimera Squad':
   pageId: 159222
   revId: 978235
@@ -129626,7 +129639,7 @@ Yakuza Kiwami:
   revId: 993434
 Yakuza Kiwami 2:
   pageId: 133468
-  revId: 989657
+  revId: 996616
 'Yakuza: Like a Dragon':
   pageId: 160068
   revId: 993498
