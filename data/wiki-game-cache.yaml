@@ -4230,7 +4230,7 @@ AirShock:
   revId: 842327
 Airbo:
   pageId: 93206
-  revId: 971739
+  revId: 997089
 Airborn:
   pageId: 128559
   revId: 842329
@@ -4926,7 +4926,7 @@ Alien invasion:
   revId: 842514
 'Alien: Isolation':
   pageId: 17716
-  revId: 980947
+  revId: 997010
 AlienAfterlife:
   pageId: 127277
   revId: 842516
@@ -8161,7 +8161,7 @@ Assassin's Creed Unity:
   revId: 990632
 Assassin's Creed Valhalla:
   pageId: 159546
-  revId: 982335
+  revId: 997030
 'Assassin''s Creed: Brotherhood':
   pageId: 222
   revId: 972127
@@ -11714,7 +11714,7 @@ Beat Guru:
   revId: 840660
 Beat Hazard:
   pageId: 5347
-  revId: 977560
+  revId: 997136
 Beat Hazard 2:
   pageId: 113012
   revId: 980896
@@ -15344,7 +15344,7 @@ Boundless:
   revId: 986290
 Bounty Battle:
   pageId: 109064
-  revId: 845569
+  revId: 997080
 Bounty Hunter:
   pageId: 125661
   revId: 845570
@@ -17163,9 +17163,6 @@ CDF Ghostship:
 CDF Starfighter VR:
   pageId: 43746
   revId: 846245
-CENTRALIA:
-  pageId: 141566
-  revId: 846247
 CEdges:
   pageId: 88957
   revId: 846248
@@ -18368,7 +18365,7 @@ Cars Arena:
   revId: 846625
 Cars Mater-National Championship:
   pageId: 48613
-  revId: 963528
+  revId: 997146
 'Cars Toon: Mater''s Tall Tales':
   pageId: 49550
   revId: 962511
@@ -18651,7 +18648,7 @@ CastleStorm:
   revId: 984815
 CastleStorm II:
   pageId: 139790
-  revId: 973570
+  revId: 997033
 Castles:
   pageId: 14491
   revId: 964669
@@ -18759,7 +18756,7 @@ Cat couple:
   revId: 977627
 Cat doesn't like banana:
   pageId: 104487
-  revId: 846738
+  revId: 997119
 Cat on a Diet:
   pageId: 37630
   revId: 983561
@@ -19014,7 +19011,7 @@ Causality:
   revId: 899172
 Cave Adventures:
   pageId: 95569
-  revId: 846807
+  revId: 997116
 Cave Brawlers:
   pageId: 80316
   revId: 846808
@@ -19258,9 +19255,14 @@ Centifeed:
 Central Intelligence:
   pageId: 88834
   revId: 964676
+Centralia:
+  pageId: 141566
+  renamedFrom:
+    - CENTRALIA
+  revId: 997160
 'Centralia: Homecoming':
   pageId: 148737
-  revId: 900389
+  revId: 997161
 Cepheus Protocol:
   pageId: 157205
   revId: 932418
@@ -21266,7 +21268,7 @@ Click the Business:
   revId: 847466
 Click.O.Fast:
   pageId: 93735
-  revId: 847467
+  revId: 997111
 ClickBit:
   pageId: 77610
   revId: 847468
@@ -21841,7 +21843,7 @@ CoderBear:
   revId: 847643
 Codex of Victory:
   pageId: 42211
-  revId: 847645
+  revId: 997128
 Coffee Break:
   pageId: 155666
   revId: 930736
@@ -23456,7 +23458,7 @@ Cosmonautica:
   revId: 848125
 'Cosmonet: Space Adventure':
   pageId: 124104
-  revId: 848126
+  revId: 997099
 Cosmophony:
   pageId: 38536
   revId: 848128
@@ -27612,7 +27614,7 @@ DeDrive:
   revId: 849299
 DeFaster:
   pageId: 93733
-  revId: 849300
+  revId: 997110
 DeMagnete VR:
   pageId: 128718
   revId: 849301
@@ -30145,7 +30147,7 @@ Diablo:
   revId: 983740
 Diablo II:
   pageId: 595
-  revId: 991837
+  revId: 996988
 Diablo III:
   pageId: 2185
   revId: 970226
@@ -31423,7 +31425,7 @@ Dojini:
   revId: 850634
 Doka 2 Trade:
   pageId: 150115
-  revId: 901824
+  revId: 997123
 Doka 3 Sto Sloev Kishkov:
   pageId: 124014
   revId: 850635
@@ -31789,10 +31791,10 @@ Donuts'n'Justice:
   revId: 850741
 DooM in the Dark:
   pageId: 129677
-  revId: 850742
+  revId: 997154
 DooM in the Dark 2:
   pageId: 153095
-  revId: 915801
+  revId: 997155
 Doodle Creatures:
   pageId: 129932
   revId: 994563
@@ -31857,7 +31859,7 @@ Doom & Destiny Advanced:
   revId: 988074
 Doom (1993):
   pageId: 502
-  revId: 996714
+  revId: 997036
 Doom (2016):
   pageId: 19349
   revId: 993267
@@ -31884,7 +31886,7 @@ Doom II Classic:
   revId: 996720
 'Doom II: Hell on Earth':
   pageId: 3218
-  revId: 996713
+  revId: 996949
 Doom Rails:
   pageId: 41208
   revId: 994259
@@ -34557,7 +34559,7 @@ EFootball PES 2020:
   revId: 985114
 EFootball PES 2021:
   pageId: 161930
-  revId: 984035
+  revId: 996973
 EGE DistantPlanet NonXXX:
   pageId: 73191
   revId: 851523
@@ -34614,7 +34616,7 @@ ERR - 001:
   revId: 851537
 ERTX 2080TI Mining clicker:
   pageId: 110732
-  revId: 851538
+  revId: 997120
 ERacer:
   pageId: 162449
   revId: 990147
@@ -36728,7 +36730,7 @@ Epic World:
   revId: 916064
 Epic drag puZOOls:
   pageId: 94759
-  revId: 852154
+  revId: 997094
 'Epic of Serinor: Dawnshadow':
   pageId: 122514
   revId: 852155
@@ -39313,7 +39315,7 @@ Fallout Shelter:
   revId: 972842
 'Fallout: New Vegas':
   pageId: 573
-  revId: 994523
+  revId: 997063
 Fallstreak:
   pageId: 121460
   revId: 852912
@@ -40688,7 +40690,7 @@ Final Directive:
   revId: 853319
 Final Doom:
   pageId: 12396
-  revId: 996440
+  revId: 997132
 Final Dusk:
   pageId: 49125
   revId: 853321
@@ -43045,7 +43047,7 @@ Freddy Fazbear's Pizzeria Simulator:
   revId: 967396
 Freddy in Space 2:
   pageId: 163229
-  revId: 996935
+  revId: 997000
 Freddy's Journey:
   pageId: 96895
   revId: 854052
@@ -43366,7 +43368,7 @@ Froggo:
   revId: 854141
 Froggy Boi:
   pageId: 93629
-  revId: 854142
+  revId: 997104
 Frogvale:
   pageId: 126391
   revId: 854143
@@ -43964,7 +43966,7 @@ G-Darius:
   revId: 995805
 G-Dino's Jungle Adventure:
   pageId: 94755
-  revId: 854322
+  revId: 997093
 G-Force:
   pageId: 49546
   revId: 981668
@@ -44852,7 +44854,7 @@ Gardenarium:
   revId: 854584
 Gardener the Ripper:
   pageId: 93198
-  revId: 854585
+  revId: 997108
 Gardens Inc. - From Rakes to Riches:
   pageId: 50530
   revId: 854586
@@ -45029,7 +45031,7 @@ Gay World:
   revId: 854624
 Gaygarin In deep as's'pace:
   pageId: 112628
-  revId: 854625
+  revId: 997121
 Gaze At Maze:
   pageId: 94715
   revId: 854626
@@ -45753,7 +45755,7 @@ Gift:
   revId: 992092
 Gift of Parthax:
   pageId: 92383
-  revId: 854849
+  revId: 997072
 Gift to Humanity:
   pageId: 75445
   revId: 854850
@@ -49090,7 +49092,7 @@ Hailstorm:
   revId: 855799
 Haimrik:
   pageId: 39685
-  revId: 992527
+  revId: 997017
 Hakoniwa Explorer Plus:
   pageId: 94300
   revId: 855801
@@ -49767,10 +49769,10 @@ Harvest Life:
   revId: 855985
 'Harvest Moon: Light of Hope':
   pageId: 75047
-  revId: 855986
+  revId: 997143
 'Harvest Moon: Mad Dash':
   pageId: 153190
-  revId: 973693
+  revId: 997144
 Harvest Seasons:
   pageId: 79910
   revId: 855987
@@ -50531,7 +50533,7 @@ Hell Yeah! Wrath of the Dead Rabbit:
   revId: 961667
 Hell in Paradise:
   pageId: 93204
-  revId: 856208
+  revId: 997088
 Hell is Other Demons:
   pageId: 130436
   revId: 985219
@@ -51268,10 +51270,10 @@ Herman 2:
   revId: 856375
 'Hermes: Rescue Mission':
   pageId: 153103
-  revId: 915809
+  revId: 997151
 'Hermes: War of the Gods':
   pageId: 152689
-  revId: 915935
+  revId: 997152
 Hermina Lumen is Only Human:
   pageId: 142369
   revId: 856376
@@ -52940,7 +52942,7 @@ Horizon Vanguard:
   revId: 886332
 Horizon Zero Dawn:
   pageId: 158338
-  revId: 996117
+  revId: 997086
 Horizon of History:
   pageId: 53389
   revId: 886333
@@ -53214,6 +53216,9 @@ Hotline Miami:
 'Hotline Miami 2: Wrong Number':
   pageId: 16711
   revId: 996513
+Hotshot Racing:
+  pageId: 163232
+  revId: 996976
 Houdini Redux:
   pageId: 136873
   revId: 856999
@@ -54364,6 +54369,9 @@ IBomber Defense Pacific:
 ICARUS.1:
   pageId: 39315
   revId: 914900
+ICBM:
+  pageId: 163236
+  revId: 997004
 ICE AGENT:
   pageId: 113670
   revId: 857299
@@ -59779,7 +59787,7 @@ Kingdom Clicker:
   revId: 858805
 'Kingdom Come: Deliverance':
   pageId: 20535
-  revId: 994731
+  revId: 996992
 Kingdom Defense:
   pageId: 77028
   revId: 858808
@@ -59890,10 +59898,10 @@ Kingdoms and Castles:
   revId: 978552
 'Kingdoms of Amalur: Re-Reckoning':
   pageId: 160891
-  revId: 996897
+  revId: 997149
 'Kingdoms of Amalur: Reckoning':
   pageId: 15
-  revId: 996607
+  revId: 997013
 Kingpin Royale:
   pageId: 110058
   revId: 858839
@@ -61861,7 +61869,7 @@ Le Fetiche Maya:
   revId: 977318
 Le Mans 24 Hours:
   pageId: 25241
-  revId: 779237
+  revId: 997003
 Le Maître des Âmes:
   pageId: 75277
   revId: 964902
@@ -63083,7 +63091,7 @@ Light Crusader:
   revId: 969193
 Light Cube:
   pageId: 93682
-  revId: 886927
+  revId: 997109
 Light Fairytale Episode 1:
   pageId: 64918
   revId: 967152
@@ -64203,7 +64211,7 @@ Lord Mayor:
   revId: 860065
 Lord VS Nas Vai:
   pageId: 104343
-  revId: 887116
+  revId: 997117
 Lord Winklebottom Investigates:
   pageId: 128747
   revId: 860067
@@ -65996,7 +66004,7 @@ Maelstrom:
   revId: 887588
 Mafia:
   pageId: 2311
-  revId: 996944
+  revId: 996991
 Mafia Alive:
   pageId: 72320
   revId: 887589
@@ -66008,13 +66016,13 @@ Mafia II:
   revId: 996581
 'Mafia II: Definitive Edition':
   pageId: 160506
-  revId: 996161
+  revId: 996969
 Mafia III:
   pageId: 30025
-  revId: 996519
+  revId: 996966
 'Mafia: Definitive Edition':
   pageId: 160512
-  revId: 981148
+  revId: 996967
 Mag Racer:
   pageId: 95651
   revId: 964927
@@ -68858,7 +68866,7 @@ Metal Gear:
   revId: 966984
 'Metal Gear Solid: Integral':
   pageId: 637
-  revId: 986405
+  revId: 997078
 Metal Gear Survive:
   pageId: 54715
   revId: 960822
@@ -70228,10 +70236,10 @@ MisBits:
   revId: 970621
 'Misadventures of Laura Silver: Chapter I':
   pageId: 132798
-  revId: 960826
+  revId: 997073
 'Misadventures of Laura Silver: Chapter II':
   pageId: 145518
-  revId: 960827
+  revId: 997043
 'Misao: Definitive Edition':
   pageId: 74409
   revId: 988087
@@ -71075,7 +71083,7 @@ Monsters:
   revId: 861990
 Monsters & Anomaly:
   pageId: 123770
-  revId: 888372
+  revId: 997124
 Monsters & Munitions:
   pageId: 61197
   revId: 888373
@@ -73189,7 +73197,7 @@ N.E.O:
   revId: 862571
 N.E.U.F.O:
   pageId: 125490
-  revId: 862572
+  revId: 997122
 N.P.P.D. RUSH - The Milk of Ultraviolet:
   pageId: 50665
   revId: 862574
@@ -81345,7 +81353,7 @@ Pictassembler:
   revId: 988566
 PictoQuest:
   pageId: 157803
-  revId: 973110
+  revId: 997126
 Pictopix:
   pageId: 55580
   revId: 967796
@@ -86768,7 +86776,7 @@ RIP (2019):
   revId: 898465
 RKN - Roskomnadzor Banned Internet:
   pageId: 93772
-  revId: 898466
+  revId: 997090
 'RKN Block Me: Telegram':
   pageId: 145968
   revId: 879832
@@ -86915,7 +86923,7 @@ RYB:
   revId: 988229
 'RaKoval~Nya: Escape Edition':
   pageId: 93818
-  revId: 898491
+  revId: 997091
 Raatihuone:
   pageId: 130195
   revId: 866419
@@ -87161,7 +87169,7 @@ Radiis:
   revId: 866486
 Radio Commander:
   pageId: 109124
-  revId: 996934
+  revId: 997051
 Radio General:
   pageId: 135447
   revId: 947246
@@ -89323,7 +89331,7 @@ Resident Evil 5:
   revId: 962069
 Resident Evil 6:
   pageId: 3451
-  revId: 962070
+  revId: 996964
 'Resident Evil 7 Teaser: Beginning Hour':
   pageId: 55249
   revId: 961684
@@ -92298,7 +92306,7 @@ Run'N'Get:
   revId: 867922
 'Run, Run, Monsters!':
   pageId: 104347
-  revId: 867923
+  revId: 997118
 'Run, chicken, run!':
   pageId: 125046
   revId: 867924
@@ -93649,7 +93657,7 @@ Samurai Wish:
   revId: 868300
 Samurai in Africa:
   pageId: 124106
-  revId: 868302
+  revId: 997107
 Samurai of Hyuga:
   pageId: 40267
   revId: 868303
@@ -94033,7 +94041,7 @@ Save the Village Chief:
   revId: 868416
 Save the Villy:
   pageId: 94657
-  revId: 868417
+  revId: 997112
 Save the girl:
   pageId: 107660
   revId: 868418
@@ -94295,7 +94303,7 @@ Scions of Fate:
   revId: 934841
 Scooby-Doo! First Frights:
   pageId: 81314
-  revId: 946278
+  revId: 996983
 Scooby-Doo! Jinx at the Sphinx:
   pageId: 92544
   revId: 934836
@@ -95218,7 +95226,7 @@ Sepia Tears:
   revId: 868739
 'Septerra Core: Legacy of the Creator':
   pageId: 21512
-  revId: 989684
+  revId: 997002
   tooBroad: true
 Septic Savages:
   pageId: 52574
@@ -96359,7 +96367,7 @@ Shinobi Spirits S Legend of Heroes/忍スピリッツS 真田獣勇士伝:
   revId: 963180
 Shiny:
   pageId: 36592
-  revId: 869061
+  revId: 997059
 Shiny Gauntlet:
   pageId: 41854
   revId: 869062
@@ -96765,7 +96773,7 @@ Shred! 2:
   revId: 967060
 Shrek Forever After:
   pageId: 32789
-  revId: 928318
+  revId: 996980
 Shrek SuperSlam:
   pageId: 126540
   revId: 990845
@@ -97410,10 +97418,10 @@ SincereMen:
   revId: 839676
 Sine Mora:
   pageId: 12562
-  revId: 927900
+  revId: 996953
 Sine Mora EX:
   pageId: 65966
-  revId: 976569
+  revId: 996954
 'Sine Requie: Snake Eyes':
   pageId: 78828
   revId: 869377
@@ -97906,7 +97914,7 @@ Sky Conqueror:
   revId: 869495
 Sky Dodge:
   pageId: 93196
-  revId: 869496
+  revId: 997103
 Sky Flight:
   pageId: 121323
   revId: 869497
@@ -98558,7 +98566,7 @@ Slither Link:
   revId: 869691
 Sliver-Sclicker:
   pageId: 94792
-  revId: 869692
+  revId: 997095
 Slizer Battle Management System:
   pageId: 70064
   revId: 869693
@@ -99077,7 +99085,7 @@ Snow Ash Land:
   revId: 869856
 Snow Battle Princess SAYUKI:
   pageId: 140209
-  revId: 987459
+  revId: 997046
 Snow Clearing Driving Simulator:
   pageId: 149559
   revId: 901257
@@ -100481,7 +100489,7 @@ Space God:
   revId: 870274
 Space Googy:
   pageId: 92742
-  revId: 870275
+  revId: 997087
 Space Grunts:
   pageId: 34047
   revId: 930191
@@ -101497,7 +101505,7 @@ Spellbound:
   revId: 870592
 Spellbreak:
   pageId: 134193
-  revId: 995732
+  revId: 996955
 Spellcaster University:
   pageId: 122724
   revId: 936490
@@ -101678,7 +101686,7 @@ Spider-Man (2001):
   revId: 967061
 Spider-Man 3:
   pageId: 21076
-  revId: 996278
+  revId: 996971
 'Spider-Man: Far From Home Virtual Reality':
   pageId: 141218
   revId: 928220
@@ -102614,7 +102622,7 @@ Star Realms:
   revId: 870931
 Star Renegades:
   pageId: 90449
-  revId: 996913
+  revId: 997040
 Star Rogue:
   pageId: 44746
   revId: 870933
@@ -104216,7 +104224,7 @@ Story of Monster:
   revId: 871404
 'Story of Seasons: Friends of Mineral Town':
   pageId: 161249
-  revId: 983832
+  revId: 996977
 Story of a Cube:
   pageId: 44265
   revId: 871405
@@ -104739,7 +104747,7 @@ Struggle for Survival VR:
   revId: 871545
 Struggling:
   pageId: 130696
-  revId: 871546
+  revId: 997029
 Stubbs the Zombie in Rebel Without a Pulse:
   pageId: 35918
   revId: 963053
@@ -105350,7 +105358,7 @@ Super Asteroids:
   revId: 871726
 Super B-Dino's adventures:
   pageId: 94659
-  revId: 871727
+  revId: 997092
 Super BOO Quest:
   pageId: 114746
   revId: 871728
@@ -108114,7 +108122,7 @@ Tales of Memo:
   revId: 926612
 Tales of Monkey Island:
   pageId: 8355
-  revId: 978797
+  revId: 996979
 'Tales of Nebezem: Elemental Link':
   pageId: 82756
   revId: 872518
@@ -108887,7 +108895,7 @@ Tell Me Everything:
   revId: 872748
 Tell Me Why:
   pageId: 152129
-  revId: 995776
+  revId: 997129
 Tell a Demon:
   pageId: 65997
   revId: 872749
@@ -109389,7 +109397,7 @@ Tetris (AcademySoft):
   revId: 983426
 Tetris Effect:
   pageId: 140550
-  revId: 962944
+  revId: 997159
 Tetris Ultimate:
   pageId: 30097
   revId: 925052
@@ -111090,7 +111098,7 @@ The Dropping of The Dead:
   revId: 965208
 The Duller:
   pageId: 94719
-  revId: 873372
+  revId: 997113
 The Dummy Experiment:
   pageId: 79332
   revId: 873373
@@ -111174,7 +111182,7 @@ The Eigengrau Menagerie:
   revId: 990476
 'The Elder Scrolls III: Morrowind':
   pageId: 46
-  revId: 971214
+  revId: 997023
 'The Elder Scrolls IV: Oblivion':
   pageId: 120
   revId: 996705
@@ -111535,13 +111543,13 @@ The Final Boss:
   revId: 873490
 'The Final Days: Blood Dawn':
   pageId: 87317
-  revId: 873491
+  revId: 997141
 'The Final Days: Eternal Night':
   pageId: 68412
-  revId: 873492
+  revId: 997140
 'The Final Days: I''m Still Alive':
   pageId: 36998
-  revId: 873493
+  revId: 997139
 The Final Earth 2:
   pageId: 154365
   revId: 917145
@@ -115909,7 +115917,7 @@ The Wanderer:
   revId: 991388
 The Wanderings Dragon:
   pageId: 104351
-  revId: 874683
+  revId: 997097
 'The War God: The Artifact':
   pageId: 65616
   revId: 874684
@@ -117882,7 +117890,7 @@ Tock:
   revId: 875237
 Tod Stein:
   pageId: 103245
-  revId: 875238
+  revId: 997105
 Today is My Birthday:
   pageId: 151432
   revId: 903175
@@ -118217,19 +118225,19 @@ Tony Hawk's American Wasteland:
   revId: 992479
 Tony Hawk's Pro Skater 1 + 2:
   pageId: 160343
-  revId: 996943
+  revId: 996962
 Tony Hawk's Pro Skater 2:
   pageId: 804
-  revId: 992484
+  revId: 996957
 Tony Hawk's Pro Skater 3:
   pageId: 18774
-  revId: 996534
+  revId: 996958
 Tony Hawk's Pro Skater 4:
   pageId: 796
   revId: 992482
 Tony Hawk's Pro Skater HD:
   pageId: 3662
-  revId: 992478
+  revId: 996959
 Tony Hawk's Underground:
   pageId: 18775
   revId: 992481
@@ -118642,7 +118650,7 @@ Touhou Hisoutensoku:
   revId: 907347
 Touhou Luna Nights:
   pageId: 104463
-  revId: 995699
+  revId: 996963
 Touhou Makukasai ~ Fantasy Danmaku Festival:
   pageId: 103935
   revId: 913082
@@ -118940,7 +118948,7 @@ Toy Story:
   tooBroad: true
 'Toy Story 3: The Video Game':
   pageId: 32410
-  revId: 996323
+  revId: 996970
 Toy Story Drop!:
   pageId: 146944
   revId: 942131
@@ -125139,7 +125147,7 @@ WWF Raw:
   revId: 995401
 WWII - TD:
   pageId: 104483
-  revId: 877293
+  revId: 997098
 WWII英雄列伝 最強の虎 クルト・クニスペル:
   pageId: 77247
   revId: 877294
@@ -126676,13 +126684,13 @@ Weird Creatures:
   revId: 877731
 'Weird Dungeon Explorer: Defender':
   pageId: 94745
-  revId: 877732
+  revId: 997114
 'Weird Dungeon Explorer: Run Away':
   pageId: 94747
-  revId: 877733
+  revId: 997115
 'Weird Dungeon Explorer: Wave Beat':
   pageId: 94749
-  revId: 877734
+  revId: 997106
 Weird Hero:
   pageId: 53107
   revId: 877735
@@ -126832,7 +126840,7 @@ Werewolf Voice - Party Game:
   revId: 981214
 'Werewolf: The Apocalypse - Heart of the Forest':
   pageId: 162127
-  revId: 994890
+  revId: 997006
 Werewolves Within:
   pageId: 54588
   revId: 877776
@@ -128831,7 +128839,7 @@ World of Tanks Blitz:
   revId: 878329
 World of Tea:
   pageId: 95401
-  revId: 878330
+  revId: 997096
 'World of Tennis: Roaring ''20s':
   pageId: 113224
   revId: 878332
@@ -128880,7 +128888,7 @@ World's Dawn:
   revId: 970183
 World's End Club:
   pageId: 163120
-  revId: 995985
+  revId: 997074
 World's Fastest Pizza:
   pageId: 44150
   revId: 878344
@@ -129465,7 +129473,7 @@ Xenon Valkyrie:
   revId: 878510
 Xenonauts:
   pageId: 7809
-  revId: 934304
+  revId: 997015
 Xenonauts 2:
   pageId: 91681
   revId: 879506
