@@ -326,6 +326,11 @@ export function pathIsTooBroad(path: string): boolean {
         return true;
     }
 
+    // Drive letters:
+    if (path.match(/^[a-zA-Z]:$/)) {
+        return true;
+    }
+
     return false;
 }
 

@@ -17549,6 +17549,7 @@
 * [Lord Winklebottom Investigates](https://www.pcgamingwiki.com/wiki/?curid=128747)
 * [Lordian: Karma](https://www.pcgamingwiki.com/wiki/?curid=94336)
 * [Lords Mobile](https://www.pcgamingwiki.com/wiki/?curid=136771)
+* [Lords of Doom](https://www.pcgamingwiki.com/wiki/?curid=75269)
 * [Lords of Kingdoms](https://www.pcgamingwiki.com/wiki/?curid=91088)
 * [Lords of Magic](https://www.pcgamingwiki.com/wiki/?curid=36388)
 * [Lords of New York](https://www.pcgamingwiki.com/wiki/?curid=52956)
