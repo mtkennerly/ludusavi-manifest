@@ -17040,8 +17040,6 @@
 * [Leprechaun Shadow](https://www.pcgamingwiki.com/wiki/?curid=122690)
 * [Lepur](https://www.pcgamingwiki.com/wiki/?curid=78302)
 * [Les 4 Alice: Lorange Journey](https://www.pcgamingwiki.com/wiki/?curid=104427)
-* [Les Manley in: Lost in L.A.](https://www.pcgamingwiki.com/wiki/?curid=163327)
-* [Les Manley in: Search for the King](https://www.pcgamingwiki.com/wiki/?curid=163325)
 * [Les Misérables: Cosette's Fate](https://www.pcgamingwiki.com/wiki/?curid=90917)
 * [Les Misérables: Jean Valjean](https://www.pcgamingwiki.com/wiki/?curid=90919)
 * [Les Quatre Alices](https://www.pcgamingwiki.com/wiki/?curid=67609)
