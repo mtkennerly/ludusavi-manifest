@@ -1473,7 +1473,7 @@ A Handful of Keflings:
   revId: 994857
 A Hat in Time:
   pageId: 39610
-  revId: 990242
+  revId: 1001817
 'A Haunting: Witching Hour':
   pageId: 72712
   revId: 841516
@@ -5746,7 +5746,7 @@ Among Trees:
   revId: 980035
 Among Us:
   pageId: 121898
-  revId: 1001435
+  revId: 1001742
 Among the Dead:
   pageId: 79269
   revId: 842771
@@ -7871,7 +7871,7 @@ Art of Rally:
   pageId: 137030
   renamedFrom:
     - Art of rally
-  revId: 1000550
+  revId: 1001818
 Art of Stealth:
   pageId: 56086
   revId: 843393
@@ -10658,7 +10658,7 @@ Bargon Attack:
 'Barkley, Shut Up and Jam: Gaiden':
   irregularPath: true
   pageId: 163670
-  revId: 999974
+  revId: 1001728
 Barn Finders:
   pageId: 128680
   revId: 979567
@@ -13322,7 +13322,7 @@ BlackSimulator:
   revId: 844987
 'BlackSite: Area 51':
   pageId: 38627
-  revId: 992509
+  revId: 1001811
 BlackSmith HIT:
   pageId: 38264
   revId: 844988
@@ -13458,7 +13458,7 @@ Blade & Bones:
   revId: 845025
 Blade & Sorcery:
   pageId: 122448
-  revId: 1001150
+  revId: 1001688
 Blade & Soul:
   pageId: 30987
   revId: 911511
@@ -20553,7 +20553,7 @@ Chromatic Aberration:
   revId: 847230
 Chrome:
   pageId: 21661
-  revId: 988962
+  revId: 1001806
 Chrome SpecForce:
   pageId: 21666
   revId: 982211
@@ -23620,7 +23620,7 @@ Cottage Garden:
   revId: 977322
 Cotton Reboot:
   pageId: 162297
-  revId: 1001616
+  revId: 1001786
 Couch Party Game Night:
   pageId: 112032
   revId: 848151
@@ -24925,7 +24925,7 @@ CryoFall:
   revId: 955759
 Cryostasis:
   pageId: 1454
-  revId: 995377
+  revId: 1001697
 Crypt:
   pageId: 81741
   revId: 848513
@@ -26804,7 +26804,7 @@ Dark Fairy Fantasy:
   revId: 900521
 'Dark Fall 3: Lost Souls':
   pageId: 19495
-  revId: 951793
+  revId: 1001751
 'Dark Fall II: Lights Out':
   pageId: 13958
   revId: 993734
@@ -33730,7 +33730,7 @@ Duckie Dash:
   revId: 851258
 'Duckman: The Graphic Adventures of a Private Dick':
   pageId: 146968
-  revId: 922794
+  revId: 1001789
 Duckpocalypse:
   pageId: 41563
   revId: 851259
@@ -34511,6 +34511,9 @@ Dynasty Warriors 7 with Xtreme Legends:
 Dynasty Warriors 9:
   pageId: 83036
   revId: 976599
+'Dynasty Warriors 9: Empires':
+  pageId: 163897
+  revId: 1001705
 Dynetzzle Extended:
   pageId: 44144
   revId: 851485
@@ -34738,7 +34741,7 @@ ESCAPE ROOM VR:
   revId: 930997
 ESCHATOS:
   pageId: 37525
-  revId: 851541
+  revId: 1001745
 ESKO:
   pageId: 130201
   revId: 851542
@@ -38537,7 +38540,7 @@ F-22 Lightning 3:
   revId: 917592
 F.E.A.R.:
   pageId: 1345
-  revId: 1000693
+  revId: 1001656
 'F.E.A.R. 2: Project Origin':
   pageId: 1860
   revId: 1000621
@@ -38703,7 +38706,7 @@ FIFA 12:
   revId: 979423
 FIFA 13:
   pageId: 7667
-  revId: 979424
+  revId: 1001791
 FIFA 14:
   pageId: 10275
   revId: 987050
@@ -39762,10 +39765,10 @@ Far Cry:
   tooBroad: true
 Far Cry 2:
   pageId: 1333
-  revId: 995995
+  revId: 1001826
 Far Cry 3:
   pageId: 3763
-  revId: 998697
+  revId: 1001663
 Far Cry 3 - Blood Dragon:
   pageId: 6362
   revId: 989009
@@ -42846,7 +42849,7 @@ Forward to the Sky:
   revId: 919764
 Forza Horizon 3:
   pageId: 39904
-  revId: 1000733
+  revId: 1001814
 Forza Horizon 4:
   pageId: 97177
   revId: 1000771
@@ -45058,7 +45061,7 @@ Garlock Online:
   revId: 854592
 'Garou: Mark of the Wolves':
   pageId: 54586
-  revId: 999802
+  revId: 1001784
 Garrison Gauntlet:
   pageId: 104217
   revId: 988548
@@ -45492,8 +45495,9 @@ Genocide:
   pageId: 158326
   revId: 942466
 Genshin Impact:
+  irregularPath: true
   pageId: 163267
-  revId: 1001436
+  revId: 1001788
 Gensokyo Defenders / 幻想郷ディフェンダーズ / 幻想鄉守護者:
   pageId: 134750
   revId: 854720
@@ -45856,6 +45860,9 @@ Ghoul:
 Ghoul Kid:
   pageId: 43378
   revId: 854829
+Ghoul x Ghoulah:
+  pageId: 163928
+  revId: 1001706
 Ghoulboy:
   pageId: 76971
   revId: 854830
@@ -48446,7 +48453,7 @@ Guild Quest:
   revId: 855572
 Guild Wars:
   pageId: 51117
-  revId: 939105
+  revId: 1001805
 Guild Wars 2:
   pageId: 1681
   revId: 994487
@@ -49902,10 +49909,10 @@ Harry Potter and the Chamber of Secrets:
   revId: 990682
 Harry Potter and the Deathly Hallows Part 1:
   pageId: 19544
-  revId: 998281
+  revId: 1001812
 Harry Potter and the Deathly Hallows Part 2:
   pageId: 19546
-  revId: 998283
+  revId: 1001813
 Harry Potter and the Goblet of Fire:
   pageId: 19538
   revId: 990231
@@ -53124,7 +53131,7 @@ Horizon Vanguard:
   revId: 886332
 Horizon Zero Dawn:
   pageId: 158338
-  revId: 999148
+  revId: 1001820
 Horizon of History:
   pageId: 53389
   revId: 886333
@@ -56138,7 +56145,7 @@ Injured by Space:
   revId: 857721
 Injustice 2:
   pageId: 75869
-  revId: 999798
+  revId: 1001660
 'Injustice: Gods Among Us':
   pageId: 11108
   revId: 985564
@@ -57610,7 +57617,7 @@ Jambo's Adventure:
   revId: 967001
 'James Bond 007: The Stealth Affair':
   pageId: 147397
-  revId: 974028
+  revId: 1001790
 'James Cameron''s Avatar: The Game':
   pageId: 4228
   revId: 918041
@@ -60652,7 +60659,7 @@ Kona:
   revId: 976662
 'Konami Collector''s Series: Castlevania & Contra':
   pageId: 163820
-  revId: 1001608
+  revId: 1001809
 'KonoSuba: Fukkatsu no Beldia':
   pageId: 137164
   revId: 895574
@@ -64679,7 +64686,7 @@ Lost Labyrinth Extended Version:
   revId: 860137
 'Lost Lands: Mistakes of the Past':
   pageId: 123928
-  revId: 860138
+  revId: 1001802
 'Lost Lands: The Four Horsemen':
   pageId: 37217
   revId: 860139
@@ -66236,13 +66243,13 @@ Mafia II:
   revId: 1000630
 'Mafia II: Definitive Edition':
   pageId: 160506
-  revId: 1000928
+  revId: 1001702
 Mafia III:
   pageId: 30025
   revId: 1001066
 'Mafia: Definitive Edition':
   pageId: 160512
-  revId: 1001603
+  revId: 1001739
 Mag Racer:
   pageId: 95651
   revId: 964927
@@ -69089,7 +69096,7 @@ Metal Gear (2020):
   revId: 966984
 'Metal Gear Solid: Integral':
   pageId: 637
-  revId: 1001585
+  revId: 1001762
 Metal Gear Survive:
   pageId: 54715
   revId: 960822
@@ -71250,7 +71257,7 @@ Monster Slayers:
   revId: 995900
 Monster Train:
   pageId: 160675
-  revId: 1001590
+  revId: 1001755
 Monster Trampoline:
   pageId: 125717
   revId: 888364
@@ -75368,10 +75375,10 @@ NieR Replicant:
   pageId: 158829
   renamedFrom:
     - 'NieR: Replicant'
-  revId: 1001506
+  revId: 1001785
 'NieR: Automata':
   pageId: 53017
-  revId: 1001006
+  revId: 1001679
 Niffelheim:
   pageId: 43334
   revId: 989172
@@ -75898,7 +75905,7 @@ No Man's Land:
   revId: 905402
 No Man's Sky:
   pageId: 25679
-  revId: 999611
+  revId: 1001695
 No Mans Land:
   pageId: 69663
   revId: 979661
@@ -78643,7 +78650,7 @@ Ori and the Blind Forest:
   revId: 962690
 'Ori and the Blind Forest: Definitive Edition':
   pageId: 32520
-  revId: 1000420
+  revId: 1001816
 Ori and the Will of the Wisps:
   pageId: 137485
   revId: 999261
@@ -83280,6 +83287,9 @@ Pokris:
 Pokémon Play It!:
   pageId: 81269
   revId: 801509
+Pokémon Play It! Version 2:
+  pageId: 163935
+  revId: 1001747
 'Polandball: Can into Space!':
   pageId: 33436
   revId: 865286
@@ -83352,7 +83362,7 @@ Police Stunt Cars:
   revId: 865307
 'Police Tactics: Imperio':
   pageId: 38751
-  revId: 865308
+  revId: 1001815
 'Police: Destruction Street':
   pageId: 60221
   revId: 897697
@@ -87675,7 +87685,7 @@ Railroad Tycoon 3:
   revId: 980295
 Railroad Tycoon II:
   pageId: 8887
-  revId: 984706
+  revId: 1001654
 Railroad X:
   pageId: 50097
   revId: 898558
@@ -88768,14 +88778,14 @@ Red Embrace:
   revId: 880339
 Red Faction:
   pageId: 3280
-  revId: 999244
+  revId: 1001823
   unsupportedOs: true
 Red Faction Guerrilla Re-Mars-tered:
   pageId: 91325
   revId: 981126
 Red Faction II:
   pageId: 9623
-  revId: 960912
+  revId: 1001822
 'Red Faction: Armageddon':
   pageId: 4204
   revId: 960913
@@ -93981,7 +93991,7 @@ Samurai Shodown V:
   revId: 927352
 Samurai Shodown V Special:
   pageId: 131710
-  revId: 999788
+  revId: 1001772
 Samurai Simulator:
   pageId: 157340
   revId: 932559
@@ -95626,7 +95636,7 @@ Serious Sam 2:
   revId: 1000639
 Serious Sam 4:
   pageId: 92526
-  revId: 1001642
+  revId: 1001659
 'Serious Sam Classics: Revolution':
   pageId: 19189
   revId: 996134
@@ -97392,7 +97402,7 @@ Sigil:
   revId: 840937
 Sigils of Elohim:
   pageId: 20405
-  revId: 960955
+  revId: 1001719
 'Sigma Theory: Global Cold War':
   pageId: 90376
   revId: 968489
@@ -97812,7 +97822,7 @@ Singled Out:
   revId: 801753
 Singularity:
   pageId: 6458
-  revId: 980420
+  revId: 1001673
 Singularity 5:
   pageId: 124189
   revId: 869383
@@ -100180,7 +100190,7 @@ Sonic 3D Blast (2010):
   revId: 989558
 Sonic Adventure 2:
   pageId: 5774
-  revId: 993492
+  revId: 1001694
 Sonic Adventure DX:
   pageId: 21737
   revId: 997884
@@ -103439,6 +103449,9 @@ Starena:
 Starexcess:
   pageId: 150659
   revId: 902382
+Starfield:
+  pageId: 163920
+  revId: 1001671
 Starfield Wars:
   pageId: 98852
   revId: 871054
@@ -105167,7 +105180,7 @@ Stupid Cupid:
   revId: 871561
 Stupid Invaders:
   pageId: 58955
-  revId: 974223
+  revId: 1001727
 Stupid Quest - Medieval Adventures:
   pageId: 132290
   revId: 871562
@@ -106166,7 +106179,7 @@ Super Man Or Monster:
   revId: 871859
 Super Mario 64:
   pageId: 160103
-  revId: 1000890
+  revId: 1001732
 'Super Mario Bros. & Friends: When I Grow Up':
   pageId: 155077
   revId: 965171
@@ -108559,22 +108572,22 @@ Talesshop puzzle 테일즈샵 퍼즐:
   revId: 900805
 Talewind:
   pageId: 41521
-  revId: 872535
+  revId: 1001736
 Talif's Journey:
   pageId: 151189
   revId: 902926
 'Talisman: Digital Edition':
   pageId: 24067
-  revId: 1001079
+  revId: 1001714
 'Talisman: Origins':
   pageId: 135256
-  revId: 961005
+  revId: 1001718
 'Talisman: Prologue':
   pageId: 40577
-  revId: 961006
+  revId: 1001713
 'Talisman: The Horus Heresy':
   pageId: 44497
-  revId: 968205
+  revId: 1001716
 Talismania:
   pageId: 16600
   revId: 872540
@@ -111572,7 +111585,7 @@ The Eigengrau Menagerie:
   revId: 996705
 The Elder Scrolls Online:
   pageId: 9001
-  revId: 998439
+  revId: 1001675
 The Elder Scrolls Online - Greymoor:
   pageId: 157053
   revId: 981277
@@ -111587,7 +111600,7 @@ The Elder Scrolls Online - Greymoor:
   revId: 963862
 The Elder Scrolls VI:
   pageId: 101575
-  revId: 949112
+  revId: 1001670
 'The Elder Scrolls: Arena':
   pageId: 3394
   revId: 996811
@@ -112440,6 +112453,9 @@ The Grey Man:
 The Grid:
   pageId: 100078
   revId: 873642
+The Griffon Legend:
+  pageId: 163942
+  revId: 1001801
 The Grim and I:
   pageId: 140891
   revId: 873643
@@ -112945,6 +112961,9 @@ The Jackbox Party Pack 5:
 The Jackbox Party Pack 6:
   pageId: 147783
   revId: 961036
+The Jackbox Party Pack 7:
+  pageId: 163932
+  revId: 1001734
 The Janitor:
   pageId: 42269
   revId: 873773
@@ -113031,7 +113050,7 @@ The Kindred:
   revId: 912377
 The King of Fighters '97 Global Match:
   pageId: 92501
-  revId: 999808
+  revId: 1001769
 The King of Fighters '98 Ultimate Match Final Edition:
   pageId: 30373
   revId: 927378
@@ -113155,7 +113174,7 @@ The Last Blade:
   revId: 927374
 The Last Blade 2:
   pageId: 76901
-  revId: 999801
+  revId: 1001783
 The Last Bullet:
   pageId: 136928
   revId: 873839
@@ -118477,7 +118496,7 @@ Tom Clancy's Splinter Cell:
   tooBroad: true
 'Tom Clancy''s Splinter Cell: Pandora Tomorrow':
   pageId: 9429
-  revId: 1001643
+  revId: 1001653
 Tom Clancy's The Division:
   pageId: 16701
   revId: 1000371
@@ -121634,7 +121653,7 @@ Ultima Defesa:
   revId: 968249
 'Ultima IV: Quest of the Avatar':
   pageId: 7344
-  revId: 968250
+  revId: 1001723
 'Ultima IX: Ascension':
   pageId: 14110
   revId: 991801
@@ -121649,7 +121668,7 @@ Ultima Defesa:
   revId: 968252
 'Ultima VI: The False Prophet':
   pageId: 14020
-  revId: 968253
+  revId: 1001724
 'Ultima VII Part Two: Serpent Isle':
   pageId: 14063
   revId: 968912
@@ -121658,7 +121677,7 @@ Ultima Defesa:
   revId: 968259
 'Ultima VIII: Pagan':
   pageId: 14078
-  revId: 999306
+  revId: 1001725
 'Ultima Worlds of Adventure 2: Martian Dreams':
   pageId: 13755
   revId: 968258
@@ -122601,7 +122620,7 @@ Unpossible:
   revId: 876446
 Unrailed!:
   pageId: 135642
-  revId: 1001602
+  revId: 1001744
 Unravel:
   pageId: 31310
   revId: 995105
@@ -129735,7 +129754,7 @@ XGun-Weapon Evolution:
   revId: 878463
 XIII:
   pageId: 3514
-  revId: 1001579
+  revId: 1001676
 XIII (2020):
   pageId: 133767
   revId: 1000079
@@ -130168,6 +130187,9 @@ Yerah:
 'Yes, Your Grace':
   pageId: 151317
   revId: 963133
+YesterMorrow:
+  pageId: 163929
+  revId: 1001720
 Yesterday:
   pageId: 40814
   revId: 945465
