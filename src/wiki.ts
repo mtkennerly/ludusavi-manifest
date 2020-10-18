@@ -331,6 +331,16 @@ export function pathIsTooBroad(path: string): boolean {
         return true;
     }
 
+    // Root:
+    if (path === "/") {
+        return true;
+    }
+
+    // Relative path wildcard:
+    if (path.startsWith("*")) {
+        return true;
+    }
+
     return false;
 }
 
