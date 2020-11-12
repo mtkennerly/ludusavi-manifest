@@ -35366,7 +35366,6 @@
 * [Yago, the Coquerrestrial](https://www.pcgamingwiki.com/wiki/?curid=75419)
 * [Yahrit!](https://www.pcgamingwiki.com/wiki/?curid=99950)
 * [Yakuza Kiss](https://www.pcgamingwiki.com/wiki/?curid=96239)
-* [Yakuza: Like a Dragon](https://www.pcgamingwiki.com/wiki/?curid=160068)
 * [Yama](https://www.pcgamingwiki.com/wiki/?curid=68859)
 * [YamaYama](https://www.pcgamingwiki.com/wiki/?curid=43865)
 * [Yametei](https://www.pcgamingwiki.com/wiki/?curid=127565)
