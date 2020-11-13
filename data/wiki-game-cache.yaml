@@ -6062,7 +6062,7 @@ Ancient knowledge:
   revId: 964567
 Ancients of Ooga:
   pageId: 40971
-  revId: 842861
+  revId: 1011691
 And All Would Cry Beware!:
   pageId: 135553
   revId: 945068
@@ -8277,7 +8277,7 @@ Assassin's Creed Rogue:
   revId: 1004794
 Assassin's Creed Syndicate:
   pageId: 25229
-  revId: 1004795
+  revId: 1011708
 Assassin's Creed Unity:
   pageId: 17713
   revId: 1011051
@@ -12018,7 +12018,7 @@ Bee Movie Game:
   revId: 969105
 Bee Simulator:
   pageId: 105225
-  revId: 965496
+  revId: 1011755
 BeeBeeQ:
   pageId: 92373
   revId: 844590
@@ -13542,7 +13542,7 @@ Blade & Bones:
   revId: 845025
 Blade & Sorcery:
   pageId: 122448
-  revId: 1001688
+  revId: 1011738
 Blade & Soul:
   pageId: 30987
   revId: 911511
@@ -14340,19 +14340,19 @@ BloodNet:
   revId: 966821
 BloodRayne:
   pageId: 7437
-  revId: 1010275
+  revId: 1011652
 BloodRayne 2:
   pageId: 7408
   revId: 1011514
 'BloodRayne 2: Terminal Cut':
   pageId: 165079
-  revId: 1011190
+  revId: 1011779
 'BloodRayne: Betrayal':
   pageId: 16899
   revId: 1011516
 'BloodRayne: Terminal Cut':
   pageId: 165077
-  revId: 1011191
+  revId: 1011780
 'BloodRealm: Battlegrounds':
   pageId: 48709
   revId: 845256
@@ -14397,7 +14397,7 @@ Bloodsports.TV:
   revId: 1001016
 'Bloodstained: Ritual of the Night':
   pageId: 61255
-  revId: 1011200
+  revId: 1011663
 'Bloodstone: An Epic Dwarven Tale':
   pageId: 75370
   revId: 964624
@@ -16639,7 +16639,7 @@ Bugs!:
   revId: 845889
 Bugsnax:
   pageId: 161042
-  revId: 1011005
+  revId: 1011742
 Bugspeed Collider:
   pageId: 51153
   revId: 845890
@@ -21357,7 +21357,7 @@ Clash of the Monsters:
   revId: 847428
 ClassiCube:
   pageId: 135285
-  revId: 959991
+  revId: 1011727
 Classic British Motor Racing:
   pageId: 88330
   revId: 934417
@@ -28729,7 +28729,7 @@ Deathless Dungeon:
   revId: 849558
 Deathloop:
   pageId: 158798
-  revId: 1011612
+  revId: 1011777
 'Deathly Storm: The Edge of Life':
   pageId: 87549
   revId: 849559
@@ -32179,7 +32179,7 @@ Doom Classic:
   revId: 1011114
 Doom Eternal:
   pageId: 97499
-  revId: 1006470
+  revId: 1011665
 Doom II Classic:
   pageId: 155160
   revId: 1011115
@@ -32812,7 +32812,7 @@ Dragon Quest XI S - Definitive Edition:
   pageId: 162136
   renamedFrom:
     - 'Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition'
-  revId: 1011305
+  revId: 1011762
 Dragon Racer:
   pageId: 125454
   revId: 850947
@@ -36050,7 +36050,7 @@ Elite Dangerous:
   pageId: 17724
   renamedFrom:
     - 'Elite: Dangerous'
-  revId: 1005900
+  revId: 1011702
 'Elite Dangerous: Arena':
   pageId: 44599
   revId: 937695
@@ -41420,9 +41420,11 @@ Firefighters - The Simulation:
 Firefighters 2014:
   pageId: 50232
   revId: 899193
-Firefighting Simulator:
+Firefighting Simulator - The Squad:
   pageId: 69080
-  revId: 1005225
+  renamedFrom:
+    - Firefighting Simulator
+  revId: 1011687
 Fireflies:
   pageId: 46536
   revId: 853432
@@ -45525,7 +45527,7 @@ Gears POP!:
   revId: 1009337
 Gears Tactics:
   pageId: 143659
-  revId: 971083
+  revId: 1011689
 Gears of Eden:
   pageId: 82215
   revId: 854645
@@ -45774,7 +45776,7 @@ Genocide:
   revId: 942466
 Genshin Impact:
   pageId: 163267
-  revId: 1011618
+  revId: 1011668
 Gensokyo Defenders / 幻想郷ディフェンダーズ / 幻想鄉守護者:
   pageId: 134750
   revId: 854720
@@ -47031,7 +47033,7 @@ Goddess of Math 数学女神:
   revId: 855091
 Godfall:
   pageId: 154613
-  revId: 1011607
+  revId: 1011726
 Godhood:
   pageId: 109878
   revId: 992200
@@ -49871,7 +49873,7 @@ Handball 16:
   revId: 981282
 Handball 17:
   pageId: 53210
-  revId: 855875
+  revId: 1011760
 Handball Action Total:
   pageId: 78609
   revId: 855876
@@ -61097,7 +61099,7 @@ Korwin The Game:
   revId: 859001
 Kosmokrats:
   pageId: 165103
-  revId: 1010459
+  revId: 1011670
 Kosmonaut:
   pageId: 140271
   revId: 967174
@@ -68959,7 +68961,7 @@ Mega Man X Legacy Collection:
   revId: 1010853
 Mega Man X Legacy Collection 2:
   pageId: 100300
-  revId: 985222
+  revId: 1011740
 Mega Man X3:
   pageId: 32054
   revId: 963362
@@ -69547,7 +69549,7 @@ Metal Gear (2020):
   revId: 1011604
 'Metal Gear Solid: Integral':
   pageId: 637
-  revId: 1010039
+  revId: 1011731
 Metal Gear Survive:
   pageId: 54715
   revId: 960822
@@ -70943,7 +70945,7 @@ Mischief On Main Street:
   revId: 888254
 Miscreated:
   pageId: 20657
-  revId: 1003027
+  revId: 1011707
 'Miscreation: Evolve Your Creature!':
   pageId: 150494
   revId: 902214
@@ -74962,7 +74964,7 @@ Need for Speed Rivals:
   revId: 1006997
 'Need for Speed: World':
   pageId: 6921
-  revId: 975783
+  revId: 1011710
 'Need for Spirit: Drink & Drive Simulator':
   pageId: 110306
   revId: 896321
@@ -75355,6 +75357,9 @@ Neonoen:
 Neonwall:
   pageId: 81137
   revId: 896386
+'Neopets: Puzzle Adventure':
+  pageId: 165246
+  revId: 1011783
 Neotrie VR:
   pageId: 123371
   revId: 896387
@@ -76156,6 +76161,9 @@ Nihilumbra:
 'Nijowari: Where Angels Fall':
   pageId: 150197
   revId: 998689
+'Nikita: The Mystery of the Hidden Treasure':
+  pageId: 165236
+  revId: 1011642
 'Niko: Through the Dream':
   pageId: 34348
   revId: 863187
@@ -84760,7 +84768,7 @@ Preventive Strike:
   revId: 897824
 Prey:
   pageId: 10517
-  revId: 1001571
+  revId: 1011733
 Prey (2017):
   pageId: 33371
   revId: 999327
@@ -90192,10 +90200,10 @@ Resident Evil 3 (2020):
   tooBroad: true
 Resident Evil 4:
   pageId: 690
-  revId: 1011603
+  revId: 1011746
 Resident Evil 4 Ultimate HD Edition:
   pageId: 14546
-  revId: 1011164
+  revId: 1011693
 Resident Evil 5:
   pageId: 3989
   revId: 1004101
@@ -90493,7 +90501,7 @@ Return of the Triad:
   revId: 920183
 Return to Castle Wolfenstein:
   pageId: 5849
-  revId: 1011099
+  revId: 1011653
 Return to Cube Planet:
   pageId: 136562
   revId: 898887
@@ -92218,7 +92226,7 @@ Rogue Islands:
   revId: 899402
 Rogue Legacy:
   pageId: 8332
-  revId: 992863
+  revId: 1011781
 Rogue Legacy 2:
   pageId: 161358
   revId: 992865
@@ -92815,7 +92823,7 @@ Rover Builder:
   revId: 867808
 Rover Mechanic Simulator:
   pageId: 135697
-  revId: 1010923
+  revId: 1011741
 Rover Rescue:
   pageId: 50296
   revId: 867810
@@ -94296,7 +94304,7 @@ Sairento VR:
   revId: 868217
 'Sakuna: Of Rice and Ruin':
   pageId: 165213
-  revId: 1011574
+  revId: 1011778
 Sakura Agent:
   pageId: 56790
   revId: 868218
@@ -102351,7 +102359,7 @@ Spears 'n' Spades:
   revId: 1011407
 'Spec Ops: The Line':
   pageId: 3116
-  revId: 1011393
+  revId: 1011656
 SpecNaz 2:
   pageId: 88954
   revId: 969469
@@ -102621,7 +102629,7 @@ Spelunky:
   revId: 1005570
 Spelunky 2:
   pageId: 162603
-  revId: 1002394
+  revId: 1011753
 Spelunky Classic:
   pageId: 4875
   revId: 993345
@@ -103881,7 +103889,7 @@ Star Wars Galaxies:
   revId: 959653
 'Star Wars: Galactic Battlegrounds':
   pageId: 8814
-  revId: 993792
+  revId: 1011654
 'Star Wars: Imperial Assault - Legends of the Alliance':
   pageId: 77053
   revId: 870984
@@ -105635,7 +105643,7 @@ Streets of Rage 3:
   revId: 965868
 Streets of Rage 4:
   pageId: 107386
-  revId: 1007620
+  revId: 1011747
 Streets of Rage Remake:
   pageId: 143269
   revId: 997855
@@ -105644,7 +105652,7 @@ Streets of Rage Remake:
   revId: 928574
 Streets of Rogue:
   pageId: 51523
-  revId: 997812
+  revId: 1011776
 Streets of SimCity:
   pageId: 88376
   revId: 925898
@@ -106867,7 +106875,7 @@ Super Lovely Planet:
   revId: 871854
 Super Lucky's Tale:
   pageId: 75935
-  revId: 993108
+  revId: 1011690
 Super Lula Escape From Prison:
   pageId: 90929
   revId: 871856
@@ -106882,7 +106890,7 @@ Super Man Or Monster:
   revId: 871859
 Super Mario 64:
   pageId: 160103
-  revId: 1002343
+  revId: 1011674
 'Super Mario Bros. & Friends: When I Grow Up':
   pageId: 155077
   revId: 965171
@@ -109295,7 +109303,7 @@ Talif's Journey:
   revId: 1001714
 'Talisman: Origins':
   pageId: 135256
-  revId: 1001718
+  revId: 1011658
 'Talisman: Prologue':
   pageId: 40577
   revId: 1001857
@@ -111952,7 +111960,7 @@ The Daring Mermaid Expedition:
   revId: 951777
 The Dark Heart of Uukrul:
   pageId: 72578
-  revId: 965207
+  revId: 1011675
 The Dark Inside Me:
   pageId: 93265
   revId: 873295
@@ -116667,7 +116675,7 @@ The Testing Floor:
   revId: 874575
 'The Textorcist: The Story of Ray Bibbia':
   pageId: 122594
-  revId: 1010495
+  revId: 1011701
 The Theodore Adventures:
   pageId: 65273
   revId: 874577
@@ -117360,7 +117368,7 @@ The World Named Fred:
   revId: 874757
 The World Next Door:
   pageId: 105587
-  revId: 913564
+  revId: 1011739
 The World is Your Weapon:
   pageId: 141200
   revId: 874759
@@ -117744,7 +117752,7 @@ Thief:
   revId: 962672
 'Thief II: The Metal Age':
   pageId: 2797
-  revId: 986152
+  revId: 1011713
   tooBroad: true
 Thief Simulator:
   pageId: 70399
@@ -119261,7 +119269,7 @@ Tom Clancy's Splinter Cell:
   revId: 1004029
 'Tom Clancy''s Splinter Cell: Conviction':
   pageId: 9430
-  revId: 1011608
+  revId: 1011768
 'Tom Clancy''s Splinter Cell: Double Agent':
   pageId: 9148
   revId: 1010520
@@ -121836,7 +121844,7 @@ Turok:
   revId: 966758
 'Turok: Dinosaur Hunter (2015)':
   pageId: 30173
-  revId: 1005005
+  revId: 1011730
 'Turok: Escape from Lost Valley':
   pageId: 141387
   revId: 1011613
@@ -130603,7 +130611,7 @@ XIII:
   revId: 1011581
 XIII (2020):
   pageId: 133767
-  revId: 1011601
+  revId: 1011723
 XIII - Lost Identity:
   pageId: 89210
   revId: 950206
