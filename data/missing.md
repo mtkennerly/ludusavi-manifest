@@ -13500,7 +13500,6 @@
 * [Hard Time 2D](https://www.pcgamingwiki.com/wiki/?curid=67215)
 * [Hard Times](https://www.pcgamingwiki.com/wiki/?curid=142028)
 * [Hard to Be a God](https://www.pcgamingwiki.com/wiki/?curid=46751)
-* [Hard Truck Apocalypse](https://www.pcgamingwiki.com/wiki/?curid=50567)
 * [Hard Truck Apocalypse: Arcade](https://www.pcgamingwiki.com/wiki/?curid=50565)
 * [Hard Truck Apocalypse: Rise of Clans](https://www.pcgamingwiki.com/wiki/?curid=50566)
 * [Hard Truck: 18 Wheels of Steel](https://www.pcgamingwiki.com/wiki/?curid=29603)
