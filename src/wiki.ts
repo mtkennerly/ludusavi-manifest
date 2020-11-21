@@ -315,13 +315,18 @@ export function pathIsTooBroad(path: string): boolean {
         return true;
     }
 
-    // TODO: These paths are present whether or not the game is installed.
+    // These paths are present whether or not the game is installed.
     // If possible, they should be narrowed down on the wiki.
     if ([
         "<home>/Documents",
         "<home>/Saved Games",
         "<root>/config",
         "<winDir>/win.ini",
+        "<home>/AppData",
+        "<home>/AppData/Local",
+        "<home>/AppData/Local/Packages",
+        "<home>/AppData/LocalLow",
+        "<home>/AppData/Roaming",
     ].includes(path)) {
         return true;
     }
