@@ -5730,7 +5730,7 @@ American Railroads - Summit River & Pine Valley:
   revId: 842745
 American Truck Simulator:
   pageId: 25655
-  revId: 1002205
+  revId: 1015426
 'American University Life: Welcome Week!':
   pageId: 102421
   revId: 842747
@@ -10958,7 +10958,7 @@ Batla:
   revId: 1014410
 'Batman: Arkham Knight':
   pageId: 15767
-  revId: 1014412
+  revId: 1015418
 'Batman: Arkham Origins':
   pageId: 10725
   revId: 1014587
@@ -13211,10 +13211,10 @@ Björk Vulnicura Virtual Reality Album:
   revId: 840061
 Black & White:
   pageId: 1085
-  revId: 1011081
+  revId: 1015337
 Black & White 2:
   pageId: 5666
-  revId: 975435
+  revId: 1015447
 Black & White Bushido:
   pageId: 46180
   revId: 937254
@@ -18182,7 +18182,7 @@ Captain The Runner:
   revId: 846507
 'Captain Tsubasa: Rise of New Champions':
   pageId: 157564
-  revId: 1001953
+  revId: 1015341
 Captain fly and sexy students:
   pageId: 148964
   revId: 900626
@@ -19238,7 +19238,7 @@ Cave Story:
   revId: 1014287
 Cave Story+:
   pageId: 2359
-  revId: 1014196
+  revId: 1015400
 Cave of Illusions:
   pageId: 150031
   revId: 901740
@@ -28648,10 +28648,10 @@ Death by Game Show:
   revId: 849527
 Death end re;Quest:
   pageId: 130527
-  revId: 1010956
+  revId: 1015435
 Death end re;Quest 2:
   pageId: 161908
-  revId: 1015291
+  revId: 1015437
 'Death from Unknown: Survival':
   pageId: 90324
   revId: 849529
@@ -30698,7 +30698,7 @@ Digging Dragon:
   revId: 850132
 'Diggles: The Myth of Fenris':
   pageId: 3193
-  revId: 942144
+  revId: 1015390
 Digimon Masters Online:
   pageId: 52109
   revId: 930227
@@ -32178,7 +32178,7 @@ Doom & Destiny Worlds:
   revId: 1011903
 Doom (1993):
   pageId: 502
-  revId: 1014595
+  revId: 1015442
 Doom (2016):
   pageId: 19349
   revId: 1014510
@@ -32199,13 +32199,13 @@ Doom Classic:
   revId: 1013183
 Doom Eternal:
   pageId: 97499
-  revId: 1013675
+  revId: 1015439
 Doom II Classic:
   pageId: 155160
   revId: 1013184
 'Doom II: Hell on Earth':
   pageId: 3218
-  revId: 1014642
+  revId: 1015444
 Doom Rails:
   pageId: 41208
   revId: 994259
@@ -32340,7 +32340,7 @@ DotX:
   revId: 850800
 Dota 2:
   pageId: 195
-  revId: 1015297
+  revId: 1015343
 Dota Underlords:
   pageId: 139922
   revId: 947912
@@ -35753,9 +35753,11 @@ El Culto:
 'El Culto: edición completa':
   pageId: 153115
   revId: 915823
-El Hijo:
+El Hijo - A Wild West Tale:
   pageId: 94144
-  revId: 994437
+  renamedFrom:
+    - El Hijo
+  revId: 1015407
 El Hincha Rusia 2018:
   pageId: 96427
   revId: 851762
@@ -38803,7 +38805,7 @@ F-22 Lightning 3:
   revId: 917592
 F.E.A.R.:
   pageId: 1345
-  revId: 1009376
+  revId: 1015364
 'F.E.A.R. 2: Project Origin':
   pageId: 1860
   revId: 1000621
@@ -44563,7 +44565,7 @@ GRID 2:
   revId: 998747
 GRID Autosport:
   pageId: 17581
-  revId: 1012374
+  revId: 1015445
 'GRIDD: Retroenhanced':
   pageId: 58936
   revId: 854364
@@ -45811,7 +45813,7 @@ Genocide:
   revId: 942466
 Genshin Impact:
   pageId: 163267
-  revId: 1013728
+  revId: 1015429
 Gensokyo Defenders / 幻想郷ディフェンダーズ / 幻想鄉守護者:
   pageId: 134750
   revId: 854720
@@ -50527,7 +50529,7 @@ Have A Sticker:
   revId: 885955
 Haven:
   pageId: 137430
-  revId: 1008299
+  revId: 1015393
 Haven Moon:
   pageId: 42481
   revId: 962646
@@ -53796,7 +53798,7 @@ Houdini's Castle:
   revId: 857000
 Houkai 3rd:
   pageId: 157677
-  revId: 1008106
+  revId: 1015432
 Hound:
   pageId: 54683
   revId: 886376
@@ -54169,7 +54171,7 @@ Human-powered Spacecraft:
   revId: 886427
 'Human: Fall Flat':
   pageId: 37810
-  revId: 1014030
+  revId: 1015395
 'HumanKind: The Awakening':
   pageId: 68913
   revId: 881478
@@ -66720,7 +66722,7 @@ Mafia Gambling:
   revId: 860582
 Mafia II:
   pageId: 11207
-  revId: 1015332
+  revId: 1015374
 'Mafia II: Definitive Edition':
   pageId: 160506
   revId: 1010829
@@ -69717,7 +69719,7 @@ Metamorphic:
   revId: 861428
 Metamorphosis:
   pageId: 130714
-  revId: 987432
+  revId: 1015379
 Metanet Hunter CD:
   pageId: 57285
   revId: 888071
@@ -71407,7 +71409,7 @@ Molecule - A Chemical Challenge:
   revId: 888313
 Molek-Syntez:
   pageId: 151853
-  revId: 960829
+  revId: 1015428
 Molemen Must Die!:
   pageId: 59077
   revId: 861882
@@ -73981,7 +73983,7 @@ Mò The Frog:
   revId: 894089
 Möbius Front '83:
   pageId: 165090
-  revId: 1014823
+  revId: 1015427
 'N':
   pageId: 20151
   revId: 982387
@@ -74984,7 +74986,7 @@ Need for Speed Rivals:
   revId: 1013800
 'Need for Speed: Carbon':
   pageId: 6895
-  revId: 1011857
+  revId: 1015338
 'Need for Speed: Edge':
   pageId: 91406
   revId: 923602
@@ -75948,7 +75950,7 @@ NieR Replicant:
   revId: 1001785
 'NieR: Automata':
   pageId: 53017
-  revId: 1006721
+  revId: 1015347
 Niffelheim:
   pageId: 43334
   revId: 989172
@@ -81636,7 +81638,7 @@ Peppered:
   revId: 930420
 Per Aspera:
   pageId: 139695
-  revId: 1004857
+  revId: 1015415
 Perception:
   pageId: 39598
   revId: 989591
@@ -82087,7 +82089,7 @@ Phoenix Force:
   revId: 897389
 Phoenix Point:
   pageId: 91441
-  revId: 1014003
+  revId: 1015423
 Phoenix Tales:
   pageId: 153334
   revId: 916055
@@ -82362,7 +82364,7 @@ Pillars of Dust:
   revId: 988594
 Pillars of Eternity:
   pageId: 23003
-  revId: 976845
+  revId: 1015397
 'Pillars of Eternity II: Deadfire':
   pageId: 57045
   revId: 971343
@@ -87051,7 +87053,7 @@ Quake:
   revId: 1000602
 Quake 4:
   pageId: 6551
-  revId: 1015245
+  revId: 1015446
 Quake Champions:
   pageId: 61723
   revId: 1003772
@@ -88768,7 +88770,7 @@ Rayman:
   revId: 1013213
 'Rayman 2: The Great Escape':
   pageId: 7330
-  revId: 1013600
+  revId: 1015441
 'Rayman 3: Hoodlum Havoc':
   pageId: 9397
   revId: 1006842
@@ -94603,7 +94605,7 @@ Sam & Max Save the World:
   revId: 1011151
 Sam & Max Save the World (2020):
   pageId: 165176
-  revId: 1015319
+  revId: 1015340
 'Sam & Max: The Devil''s Playhouse':
   pageId: 7783
   revId: 998744
@@ -96632,7 +96634,7 @@ Shadow Corps:
   revId: 967519
 Shadow Empire:
   pageId: 151137
-  revId: 982082
+  revId: 1015417
 Shadow Fear Path to Insanity:
   pageId: 105371
   revId: 868817
@@ -98220,7 +98222,7 @@ Silent Gentleman:
   revId: 889568
 'Silent Hill 2: Director''s Cut':
   pageId: 4803
-  revId: 1014969
+  revId: 1015346
   tooBroad: true
 Silent Hill 3:
   pageId: 5271
@@ -100960,7 +100962,7 @@ Sonic CD (1996):
   revId: 974193
 Sonic CD (2012):
   pageId: 8796
-  revId: 1015255
+  revId: 1015410
 Sonic Dash:
   pageId: 62420
   revId: 1012693
@@ -100981,7 +100983,7 @@ Sonic Lost World:
   revId: 1007288
 Sonic Mania:
   pageId: 57370
-  revId: 1015256
+  revId: 1015411
 Sonic Mega Collection Plus:
   pageId: 72161
   revId: 963271
@@ -109928,7 +109930,7 @@ Tear and the Library of Labyrinths:
   revId: 1008004
 Teardown:
   pageId: 151473
-  revId: 1011092
+  revId: 1015381
 'Tears - 9, 10':
   pageId: 80976
   revId: 872699
@@ -113159,7 +113161,7 @@ The Godfather II:
   revId: 1014175
 'The Godfather: The Game':
   pageId: 23620
-  revId: 992776
+  revId: 1015375
 The Golden Compass:
   pageId: 88501
   revId: 945643
@@ -114560,7 +114562,7 @@ The Lord of the Rings Online:
   revId: 1010955
 'The Lord of the Rings: The Battle for Middle-earth II':
   pageId: 22966
-  revId: 987822
+  revId: 1015336
 'The Lord of the Rings: The Fellowship of the Ring (2002)':
   pageId: 22963
   revId: 1013275
@@ -115197,7 +115199,7 @@ The Occupant:
   revId: 874145
 The Occupation:
   pageId: 78790
-  revId: 1015208
+  revId: 1015434
 The Odd Battle:
   pageId: 108196
   revId: 874147
@@ -116347,7 +116349,7 @@ The Sims 2:
   revId: 1014174
 The Sims 3:
   pageId: 4253
-  revId: 1013877
+  revId: 1015349
 The Sims 4:
   pageId: 17715
   revId: 1014435
@@ -116760,6 +116762,9 @@ The Tenth Line:
 The Terminal 2:
   pageId: 49791
   revId: 874573
+The Terminator 2029:
+  pageId: 165523
+  revId: 1015433
 'The Terminator: Future Shock':
   pageId: 82572
   revId: 965247
@@ -116960,7 +116965,7 @@ The Twins:
   revId: 931561
 'The Typing of The Dead: Overkill':
   pageId: 11856
-  revId: 1013166
+  revId: 1015351
 The Typing of the Dead:
   pageId: 80224
   revId: 1013926
@@ -117443,7 +117448,7 @@ The Wolf's Bite:
   revId: 874749
 'The Wonderful 101: Remastered':
   pageId: 157799
-  revId: 1006222
+  revId: 1015373
 The Wonderful End of the World:
   pageId: 18328
   revId: 1000605
@@ -119574,7 +119579,7 @@ ToolBoy:
   revId: 875336
 Tools Up!:
   pageId: 135766
-  revId: 1014715
+  revId: 1015372
 Toon Ocean VR:
   pageId: 36698
   revId: 875338
@@ -122057,7 +122062,7 @@ Twin Brothers:
   revId: 876047
 Twin Mirror:
   pageId: 110948
-  revId: 1015263
+  revId: 1015380
 Twin Peaks VR:
   pageId: 153588
   revId: 916324
@@ -122285,7 +122290,7 @@ Tyran:
   revId: 876110
 Tyranny:
   pageId: 35036
-  revId: 976830
+  revId: 1015398
 Tyred:
   pageId: 76077
   revId: 876112
@@ -131044,19 +131049,19 @@ Yahrit!:
   revId: 928595
 Yakuza 0:
   pageId: 97277
-  revId: 1014456
+  revId: 1015358
 Yakuza Kiss:
   pageId: 96239
   revId: 878561
 Yakuza Kiwami:
   pageId: 97273
-  revId: 1011016
+  revId: 1015357
 Yakuza Kiwami 2:
   pageId: 133468
-  revId: 1011018
+  revId: 1015355
 'Yakuza: Like a Dragon':
   pageId: 160068
-  revId: 1013852
+  revId: 1015353
 Yama:
   pageId: 68859
   revId: 878564
