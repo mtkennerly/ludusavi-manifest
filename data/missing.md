@@ -28169,7 +28169,6 @@
 * [Starlight Tactics](https://www.pcgamingwiki.com/wiki/?curid=48270)
 * [Starlight Vega](https://www.pcgamingwiki.com/wiki/?curid=33612)
 * [StarLightRiders: HyperJump](https://www.pcgamingwiki.com/wiki/?curid=128475)
-* [Starlink: Battle for Atlas](https://www.pcgamingwiki.com/wiki/?curid=134057)
 * [Starlite: Astronaut Rescue](https://www.pcgamingwiki.com/wiki/?curid=50709)
 * [Starlord](https://www.pcgamingwiki.com/wiki/?curid=45633)
 * [Starman](https://www.pcgamingwiki.com/wiki/?curid=87465)
