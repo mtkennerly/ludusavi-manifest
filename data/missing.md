@@ -8905,7 +8905,6 @@
 * [DragonWingsVR](https://www.pcgamingwiki.com/wiki/?curid=54979)
 * [Draid](https://www.pcgamingwiki.com/wiki/?curid=122640)
 * [DrainLive](https://www.pcgamingwiki.com/wiki/?curid=153652)
-* [Drake of the 99 Dragons](https://www.pcgamingwiki.com/wiki/?curid=88652)
 * [Drakeling Labs](https://www.pcgamingwiki.com/wiki/?curid=89198)
 * [Drakerz - Confrontation](https://www.pcgamingwiki.com/wiki/?curid=50248)
 * [Drakkar Crew](https://www.pcgamingwiki.com/wiki/?curid=109196)
