@@ -1656,7 +1656,7 @@ A Place for the Unwilling:
   revId: 887259
 'A Plague Tale: Innocence':
   pageId: 110952
-  revId: 986733
+  revId: 1018530
 A Planet of Mine:
   pageId: 153460
   revId: 916191
@@ -3541,7 +3541,7 @@ Aentity:
   revId: 953761
 Aeolis Tournament:
   pageId: 142248
-  revId: 1018419
+  revId: 1018655
 Aeon:
   pageId: 62477
   revId: 892677
@@ -4985,7 +4985,7 @@ Alien invasion:
   revId: 842514
 'Alien: Isolation':
   pageId: 17716
-  revId: 997010
+  revId: 1018574
 AlienAfterlife:
   pageId: 127277
   revId: 842516
@@ -5046,6 +5046,9 @@ Alimardan Meets Merlin:
 Alimardan's Mischief:
   pageId: 68819
   revId: 842533
+Alisa:
+  pageId: 165806
+  revId: 1018585
 Alive:
   pageId: 105651
   revId: 842534
@@ -5694,10 +5697,11 @@ American Angst:
   revId: 842733
 American Conquest:
   pageId: 1494
-  revId: 842734
+  revId: 1018614
 'American Conquest: Divided Nation':
+  irregularPath: true
   pageId: 7826
-  revId: 800264
+  revId: 1018613
 'American Conquest: Fight Back':
   pageId: 7501
   revId: 842735
@@ -11733,7 +11737,7 @@ BeamNG.drive:
   pageId: 9256
   renamedFrom:
     - BeamNG Drive
-  revId: 1014058
+  revId: 1018671
 Bean Battles:
   pageId: 104837
   revId: 844506
@@ -24566,7 +24570,7 @@ Crest:
   revId: 1003517
 'Crew 167: The Grand Block Odyssey':
   pageId: 165786
-  revId: 1018429
+  revId: 1018654
 Crewsaders:
   pageId: 51681
   revId: 848360
@@ -26079,7 +26083,7 @@ Cyberprank Girls 2077:
   revId: 993968
 Cyberpunk 2077:
   pageId: 97605
-  revId: 1018498
+  revId: 1018674
 Cyberpunk 3776:
   pageId: 48403
   revId: 848774
@@ -26486,7 +26490,7 @@ DWVR:
   revId: 848866
 'DX-Ball 2: 20th Anniversary Edition':
   pageId: 110130
-  revId: 1016094
+  revId: 1018665
 DYO:
   pageId: 82653
   revId: 848868
@@ -27308,7 +27312,7 @@ Dark Souls Remastered:
   revId: 1016245
 'Dark Souls: Prepare to Die Edition':
   pageId: 3367
-  revId: 1018371
+  revId: 1018559
 Dark Space Conqueror:
   pageId: 136958
   revId: 849104
@@ -30345,7 +30349,7 @@ Devil May Cry 4 Special Edition:
   revId: 972113
 Devil May Cry 5:
   pageId: 97185
-  revId: 1017887
+  revId: 1018615
 Devil May Cry HD Collection:
   pageId: 83070
   revId: 1013982
@@ -30483,7 +30487,7 @@ Diablo:
   revId: 1013247
 Diablo II:
   pageId: 595
-  revId: 1013249
+  revId: 1018618
 Diablo III:
   pageId: 2185
   revId: 970226
@@ -31093,7 +31097,7 @@ Disc Room (2016):
   revId: 1007097
 Disc Room (2020):
   pageId: 159141
-  revId: 1014261
+  revId: 1018560
 DiscStorm:
   pageId: 33472
   revId: 850250
@@ -33292,7 +33296,7 @@ Dream Pets VR:
   revId: 851066
 Dream Pinball 3D:
   pageId: 15391
-  revId: 985461
+  revId: 1018666
 Dream Quest:
   pageId: 54745
   revId: 851068
@@ -36578,7 +36582,7 @@ EnchantedGirl - 纯情房东俏房客:
   revId: 851988
 Enclave:
   pageId: 9333
-  revId: 1018444
+  revId: 1018664
 Encodya:
   pageId: 145520
   revId: 974766
@@ -40093,7 +40097,7 @@ Far Cry 3 - Blood Dragon:
   revId: 989009
 Far Cry 4:
   pageId: 17330
-  revId: 974804
+  revId: 1018659
 Far Cry 5:
   pageId: 62697
   revId: 997764
@@ -43194,7 +43198,7 @@ Forza Horizon 3:
   revId: 1017880
 Forza Horizon 4:
   pageId: 97177
-  revId: 1015188
+  revId: 1018577
 Forza Motorsport:
   pageId: 162113
   revId: 985764
@@ -44395,6 +44399,9 @@ Fuser:
   renamedFrom:
     - FUSER
   revId: 1012885
+Futa Fix Dick Dine and Dash:
+  pageId: 165796
+  revId: 1018533
 Futanari Quest:
   pageId: 92857
   revId: 854302
@@ -47823,7 +47830,7 @@ Grand Theft Auto V:
   revId: 1017500
 'Grand Theft Auto: Vice City':
   pageId: 994
-  revId: 1017499
+  revId: 1018568
 GrandNarr!:
   pageId: 145457
   revId: 840829
@@ -50614,6 +50621,9 @@ Haxor:
 Haydee:
   pageId: 41499
   revId: 1013894
+Haydee 2:
+  pageId: 165794
+  revId: 1018526
 Hayfever:
   pageId: 154186
   revId: 941185
@@ -51864,10 +51874,10 @@ Heresy:
   revId: 886088
 Heretic:
   pageId: 14842
-  revId: 1014639
+  revId: 1018571
 Heretic II:
   pageId: 14843
-  revId: 1002245
+  revId: 1018589
 'Heretic Kingdoms: The Inquisition':
   pageId: 16244
   revId: 941445
@@ -52373,10 +52383,10 @@ Hexen Hegemony:
   revId: 886158
 Hexen II:
   pageId: 5996
-  revId: 995687
+  revId: 1018587
 'Hexen: Beyond Heretic':
   pageId: 14839
-  revId: 1014640
+  revId: 1018668
 Hexile:
   pageId: 109280
   revId: 856515
@@ -53840,7 +53850,7 @@ Hotel Spring:
   revId: 886374
 Hotel Transylvania Popstic:
   pageId: 103309
-  revId: 886375
+  revId: 1018651
 Hotel Tutwin:
   pageId: 132520
   revId: 856995
@@ -59627,7 +59637,7 @@ Karma:
   revId: 858548
 Karma - A Visual Novel About A Dystopia.:
   pageId: 150123
-  revId: 998851
+  revId: 1018528
 Karma Miwa:
   pageId: 35978
   revId: 858549
@@ -62125,7 +62135,7 @@ Lapya:
   revId: 859250
 Lara Croft GO:
   pageId: 30341
-  revId: 965652
+  revId: 1018611
 Lara Croft and the Guardian of Light:
   pageId: 3957
   revId: 923206
@@ -66503,7 +66513,7 @@ Macdows 95:
   revId: 929817
 'Mace Griffin: Bounty Hunter':
   pageId: 57867
-  revId: 929132
+  revId: 1018562
 Mace and Grace:
   pageId: 134941
   revId: 860501
@@ -70294,7 +70304,7 @@ Might & Mayhem:
   revId: 1015867
 Might and Magic IX:
   pageId: 5002
-  revId: 963081
+  revId: 1018595
 'Might and Magic VI: The Mandate of Heaven':
   pageId: 4782
   revId: 963600
@@ -71971,7 +71981,7 @@ Monsters' Den Chronicles:
   revId: 888379
 'Monsters, Inc. Scream Team':
   pageId: 165710
-  revId: 1017832
+  revId: 1018602
 'MonsterxMan: Inheritence To Lust':
   pageId: 92067
   revId: 886844
@@ -75050,7 +75060,7 @@ Need for Speed (2016):
   revId: 1017347
 Need for Speed Heat:
   pageId: 143195
-  revId: 1017343
+  revId: 1018536
 Need for Speed II:
   pageId: 6750
   revId: 1012361
@@ -81189,7 +81199,7 @@ Partisans 1941:
   revId: 1016479
 Party Animals:
   pageId: 164205
-  revId: 1004714
+  revId: 1018534
 Party Crashers:
   pageId: 74954
   revId: 897263
@@ -82113,7 +82123,7 @@ Phantomers:
   revId: 926592
 Pharaoh:
   pageId: 2485
-  revId: 994344
+  revId: 1018591
   tooBroad: true
 Pharaoh Rebirth+:
   pageId: 37339
@@ -82123,7 +82133,7 @@ Pharaoh's Tomb:
   revId: 963939
 'Pharaoh: A New Era':
   pageId: 162903
-  revId: 994357
+  revId: 1018593
 Pharaonic:
   pageId: 34087
   revId: 864766
@@ -84722,7 +84732,7 @@ Praey for the Gods:
   revId: 960000
 Pragmata:
   pageId: 161023
-  revId: 972898
+  revId: 1018519
 Prana:
   pageId: 74918
   revId: 897792
@@ -88750,7 +88760,7 @@ Rat Simulator:
   revId: 970633
 Ratatouille:
   pageId: 87821
-  revId: 1007926
+  revId: 1018672
 Ratergy:
   pageId: 90176
   revId: 898612
@@ -88759,7 +88769,7 @@ Ratings War:
   revId: 866630
 Ratropolis:
   pageId: 145172
-  revId: 903873
+  revId: 1018601
 Rats:
   pageId: 34022
   revId: 866631
@@ -89501,7 +89511,7 @@ Red Bull X-Fighters:
   revId: 866829
 Red Comrades Save the Galaxy:
   pageId: 37247
-  revId: 866830
+  revId: 1018649
 'Red Crow Mysteries: Legion':
   pageId: 47747
   revId: 866831
@@ -90732,7 +90742,7 @@ Returner 77:
   revId: 898892
 Reus:
   pageId: 6970
-  revId: 927719
+  revId: 1018576
 Reveal:
   pageId: 98724
   revId: 898893
@@ -91609,6 +91619,9 @@ Rival Nation Wars:
 Rival Rampage:
   pageId: 75453
   revId: 867423
+Rival Realms:
+  pageId: 165804
+  revId: 1018557
 Rivalry:
   pageId: 44850
   revId: 867424
@@ -93703,7 +93716,7 @@ Russpuppy Kid Games:
   revId: 868013
 Rust:
   pageId: 11999
-  revId: 1013051
+  revId: 1018518
 Rustbucket Rumble:
   pageId: 48018
   revId: 868015
@@ -97229,10 +97242,8 @@ SharpShooter3D:
   pageId: 49931
   revId: 868960
 Shatter:
-  irregularPath: true
   pageId: 4686
-  revId: 1012571
-  unsupportedOs: true
+  revId: 1018667
 Shatter Everything:
   pageId: 91100
   revId: 868962
@@ -97304,7 +97315,7 @@ She Wants Me Dead:
   revId: 886719
 She Will Punish Them:
   pageId: 156993
-  revId: 960098
+  revId: 1018643
 She and the Light Bearer:
   pageId: 92680
   revId: 868986
@@ -97363,7 +97374,7 @@ Shenmue III:
   revId: 1014931
 Shenzhen I/O:
   pageId: 40145
-  revId: 1009154
+  revId: 1018575
 Shenzhen Solitaire:
   pageId: 55135
   revId: 965101
@@ -104099,7 +104110,7 @@ Star Wars Galaxies:
   revId: 870984
 'Star Wars: Jedi Knight - Dark Forces II':
   pageId: 841
-  revId: 1018489
+  revId: 1018523
 'Star Wars: Jedi Knight - Jedi Academy':
   pageId: 1068
   revId: 1016657
@@ -104316,7 +104327,7 @@ Starcross Arena:
   revId: 871045
 Stardew Valley:
   pageId: 31535
-  revId: 1014133
+  revId: 1018648
 Stardrift Nomads:
   pageId: 59093
   revId: 871047
@@ -111363,7 +111374,7 @@ The Battle for Sector 219:
   revId: 873073
 The Battle for Wesnoth:
   pageId: 17699
-  revId: 1016003
+  revId: 1018656
 The Battle for the Hut:
   pageId: 92726
   revId: 982090
@@ -111855,7 +111866,7 @@ The Chronicles of Joseph of Egypt:
   revId: 1014115
 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe':
   pageId: 26750
-  revId: 1014100
+  revId: 1018670
 The Chronicles of Noah's Ark:
   pageId: 103269
   revId: 873206
@@ -115428,7 +115439,7 @@ The Otterman Empire:
   revId: 874179
 The Outer Worlds:
   pageId: 123318
-  revId: 1018483
+  revId: 1018522
 The Outforce:
   pageId: 14801
   revId: 1018455
@@ -122422,7 +122433,7 @@ Tyto Online:
   revId: 876115
 'Tzar: The Burden of the Crown':
   pageId: 19694
-  revId: 1005566
+  revId: 1018607
 Tzompantli:
   pageId: 52924
   revId: 876117
@@ -123793,7 +123804,7 @@ Untitled Goose Game:
   revId: 1003923
 Unto the End:
   pageId: 63648
-  revId: 1016974
+  revId: 1018629
 Untouchable:
   pageId: 94399
   revId: 876488
@@ -127732,7 +127743,7 @@ Watch Dogs:
   revId: 966907
 Watch Dogs 2:
   pageId: 33230
-  revId: 1018245
+  revId: 1018566
 'Watch Dogs: Legion':
   pageId: 138449
   renamedFrom:
@@ -130811,7 +130822,7 @@ XCOM 2:
   revId: 1015771
 'XCOM: Chimera Squad':
   pageId: 159222
-  revId: 978235
+  revId: 1018531
 'XCOM: Enemy Unknown':
   pageId: 3709
   revId: 989318
@@ -131054,7 +131065,7 @@ Xobox - circle and cross:
   revId: 878527
 Xonotic:
   pageId: 9442
-  revId: 1016004
+  revId: 1018657
 XorceD - Sashiro's Laedrum:
   pageId: 43606
   revId: 878528
