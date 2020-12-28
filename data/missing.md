@@ -3680,7 +3680,6 @@
 * [Blessed Ones: The Magic Wolves](https://www.pcgamingwiki.com/wiki/?curid=45389)
 * [Blessed Surface](https://www.pcgamingwiki.com/wiki/?curid=77389)
 * [Blight of the Immortals](https://www.pcgamingwiki.com/wiki/?curid=36662)
-* [Blightbound](https://www.pcgamingwiki.com/wiki/?curid=165882)
 * [Blightmare](https://www.pcgamingwiki.com/wiki/?curid=142133)
 * [Blik](https://www.pcgamingwiki.com/wiki/?curid=80613)
 * [Blind](https://www.pcgamingwiki.com/wiki/?curid=93092)
