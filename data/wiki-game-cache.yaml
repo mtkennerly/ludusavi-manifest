@@ -3850,9 +3850,6 @@ Age of Cavemen:
 Age of Chivalry:
   pageId: 32064
   revId: 960427
-Age of Civilizations II:
-  pageId: 59301
-  revId: 895852
 'Age of Conan: Unchained':
   pageId: 40656
   revId: 969078
@@ -3944,6 +3941,11 @@ Age of Heroes:
 'Age of Heroes: Conquest':
   pageId: 61309
   revId: 842241
+Age of History II:
+  pageId: 59301
+  renamedFrom:
+    - Age of Civilizations II
+  revId: 1020067
 Age of Magic CCG:
   pageId: 44066
   revId: 842242
@@ -4284,7 +4286,7 @@ Airborne Empires:
   revId: 842330
 Airborne Kingdom:
   pageId: 130638
-  revId: 1018405
+  revId: 1020147
 'Airborne Troops: Countdown to D-Day':
   pageId: 160802
   revId: 970128
@@ -4741,7 +4743,7 @@ Alice in Stardom:
   revId: 983376
 Alice in Wonderland:
   pageId: 33992
-  revId: 995382
+  revId: 1020040
 Alice in Wonderland - 3D Labyrinth Game:
   pageId: 95475
   revId: 842446
@@ -6904,7 +6906,7 @@ Apex Hunters:
   revId: 843097
 Apex Legends:
   pageId: 126989
-  revId: 1019853
+  revId: 1020057
 Apex Tournament:
   pageId: 77198
   revId: 843100
@@ -21159,7 +21161,7 @@ City Monsters:
   revId: 847354
 'City Patrol: Police':
   pageId: 93033
-  revId: 1002675
+  revId: 1020111
 City Play:
   pageId: 42997
   revId: 847356
@@ -26096,7 +26098,7 @@ Cyberprank Girls 2077:
   revId: 993968
 Cyberpunk 2077:
   pageId: 97605
-  revId: 1020034
+  revId: 1020148
 Cyberpunk 3776:
   pageId: 48403
   revId: 848774
@@ -34474,7 +34476,7 @@ Dungeons 2:
   revId: 980540
 Dungeons 3:
   pageId: 58396
-  revId: 1017390
+  revId: 1020150
 Dungeons Again:
   pageId: 141940
   revId: 851397
@@ -36127,7 +36129,7 @@ Elise the Devil:
   revId: 989428
 Elite:
   pageId: 20153
-  revId: 964775
+  revId: 1020144
 Elite Archery:
   pageId: 121961
   revId: 851849
@@ -36138,10 +36140,10 @@ Elite Dangerous:
   pageId: 17724
   renamedFrom:
     - 'Elite: Dangerous'
-  revId: 1019539
+  revId: 1020145
 'Elite Dangerous: Arena':
   pageId: 44599
-  revId: 937695
+  revId: 1020146
 Elite Encounter:
   pageId: 61646
   revId: 851851
@@ -38626,7 +38628,7 @@ Expelled:
   revId: 852599
 Expendable:
   pageId: 21166
-  revId: 949856
+  revId: 1020083
 Experience:
   pageId: 34964
   revId: 985492
@@ -41218,7 +41220,7 @@ Final Fantasy VIII:
   revId: 965658
 Final Fantasy VIII (2013):
   pageId: 13151
-  revId: 985847
+  revId: 1020044
 Final Fantasy VIII Remastered:
   pageId: 138446
   revId: 1016047
@@ -41236,7 +41238,7 @@ Final Fantasy XIII:
   revId: 1019770
 Final Fantasy XIII-2:
   pageId: 19991
-  revId: 1019886
+  revId: 1020121
 'Final Fantasy XIV: A Realm Reborn':
   pageId: 1583
   revId: 1006722
@@ -42644,7 +42646,7 @@ Football Manager 2019:
   revId: 853769
 Football Manager 2020:
   pageId: 145614
-  revId: 1018045
+  revId: 1020085
 Football Manager 2020 Touch:
   pageId: 145617
   revId: 1015066
@@ -44543,7 +44545,7 @@ GEESE vs CTHULHU:
   revId: 900093
 GENSOU Skydrift:
   pageId: 153507
-  revId: 1009707
+  revId: 1020163
 GEO Master:
   pageId: 43159
   revId: 854337
@@ -50237,7 +50239,7 @@ Hard Truck:
   revId: 986252
 Hard Truck 2:
   pageId: 31153
-  revId: 947475
+  revId: 1020166
 Hard Truck Apocalypse:
   pageId: 50567
   revId: 1012926
@@ -50249,7 +50251,7 @@ Hard Truck Apocalypse:
   revId: 855949
 'Hard Truck: 18 Wheels of Steel':
   pageId: 29603
-  revId: 947477
+  revId: 1020165
 Hard Way to Heaven:
   pageId: 91999
   revId: 855950
@@ -51177,7 +51179,7 @@ HellAngel:
   revId: 856211
 HellCat:
   pageId: 96415
-  revId: 1011180
+  revId: 1020113
 HellCrunch:
   pageId: 88114
   revId: 856213
@@ -55695,7 +55697,7 @@ Immortals Fenyx Rising:
   pageId: 138457
   renamedFrom:
     - Gods & Monsters
-  revId: 1017945
+  revId: 1020140
 Immune - True Survival:
   pageId: 48391
   revId: 857459
@@ -59602,7 +59604,7 @@ Kapsul Infinite:
   revId: 929936
 Kara no Shojo:
   pageId: 121429
-  revId: 858537
+  revId: 1020039
 Kara's Darkness Chapter One:
   pageId: 95208
   revId: 858538
@@ -60070,7 +60072,7 @@ Kidnapped:
   revId: 858668
 Kids:
   pageId: 91232
-  revId: 1014244
+  revId: 1020136
 Kids Learn:
   pageId: 102441
   revId: 858670
@@ -65309,7 +65311,7 @@ Lost Planet 3:
   revId: 1002846
 'Lost Planet: Extreme Condition Colonies Edition':
   pageId: 20036
-  revId: 1007048
+  revId: 1020164
 Lost Region:
   pageId: 105527
   revId: 950701
@@ -68213,7 +68215,7 @@ Mary Le Chef - Cooking Passion:
   revId: 860976
 'Mary Skelter: Nightmares':
   pageId: 103273
-  revId: 1010948
+  revId: 1020171
 'Mary-Kate and Ashley: Crush Course':
   pageId: 92589
   revId: 934613
@@ -69767,7 +69769,7 @@ Metal Slug XX:
   revId: 982283
 Metal Soldiers 2:
   pageId: 77102
-  revId: 1003770
+  revId: 1020112
 Metal Suit Warrior VR:
   pageId: 132040
   revId: 888065
@@ -70036,7 +70038,7 @@ Micro Machines World Series:
   revId: 970017
 Micro Mages:
   pageId: 134540
-  revId: 975277
+  revId: 1020084
 Micro Mayhem:
   pageId: 127319
   revId: 888095
@@ -77803,7 +77805,7 @@ Oddria!:
   tooBroad: true
 'Oddworld: New ''n'' Tasty!':
   pageId: 22809
-  revId: 1018154
+  revId: 1020151
 'Oddworld: Soulstorm':
   pageId: 131251
   revId: 1018222
@@ -82490,7 +82492,7 @@ Pillars of Dust:
   revId: 988594
 Pillars of Eternity:
   pageId: 23003
-  revId: 1017114
+  revId: 1020152
 'Pillars of Eternity II: Deadfire':
   pageId: 57045
   revId: 1016672
@@ -83612,7 +83614,7 @@ Plants vs. Zombies:
   revId: 995109
 'Plants vs. Zombies: Battle for Neighborville':
   pageId: 146323
-  revId: 1020012
+  revId: 1020062
 'Plants vs. Zombies: Garden Warfare':
   pageId: 15988
   revId: 925092
@@ -84119,7 +84121,7 @@ Police Stunt Cars:
   revId: 865307
 'Police Tactics: Imperio':
   pageId: 38751
-  revId: 1001815
+  revId: 1020110
 'Police: Destruction Street':
   pageId: 60221
   revId: 897697
@@ -85108,11 +85110,11 @@ Prince of Persia (2008):
   revId: 1016280
 'Prince of Persia: The Two Thrones':
   pageId: 4316
-  revId: 1019425
+  revId: 1020120
   tooBroad: true
 'Prince of Persia: Warrior Within':
   pageId: 4314
-  revId: 1014859
+  revId: 1020090
   tooBroad: true
 Prince of Qin:
   pageId: 157559
@@ -85501,7 +85503,7 @@ Procyon:
   revId: 897903
 Prodeus:
   pageId: 124601
-  revId: 1011159
+  revId: 1020142
 Prodigy Tactics:
   pageId: 61804
   revId: 865702
@@ -92616,7 +92618,7 @@ RollerCoaster Tycoon 3:
   revId: 1017084
 'RollerCoaster Tycoon 3: Complete Edition':
   pageId: 163256
-  revId: 1012427
+  revId: 1020132
 RollerCoaster Tycoon Adventures:
   pageId: 131671
   revId: 927677
@@ -97053,7 +97055,7 @@ Shady Knight:
   revId: 983416
 Shady Part of Me:
   pageId: 145441
-  revId: 1018475
+  revId: 1020043
 Shahrzad - The Storyteller:
   pageId: 108490
   revId: 868900
@@ -98212,7 +98214,7 @@ Sid Meier's Railroads!:
   revId: 962347
 Sid Meier's SimGolf:
   pageId: 8459
-  revId: 929075
+  revId: 1020042
 Sid Meier's Starships:
   pageId: 23418
   revId: 1012827
@@ -100900,7 +100902,7 @@ Solitaire. Dragon Light:
   revId: 870020
 Solitairica:
   pageId: 37778
-  revId: 870022
+  revId: 1020130
 Solitude - Escape of Head:
   pageId: 96445
   revId: 870023
@@ -104583,7 +104585,7 @@ Starship Troopers:
   revId: 1013206
 Starship Troopers - Terran Command:
   pageId: 152633
-  revId: 914855
+  revId: 1020041
 'Starship Troopers: Terran Ascendancy':
   pageId: 65526
   revId: 1013226
@@ -105167,7 +105169,7 @@ Stick Spartans:
   revId: 871289
 Stick it to The Man!:
   pageId: 13359
-  revId: 999034
+  revId: 1020153
 Stick man Flipper:
   pageId: 123379
   revId: 871292
@@ -105597,7 +105599,7 @@ Stranded Alone:
   revId: 871418
 Stranded Deep:
   pageId: 22601
-  revId: 1020035
+  revId: 1020137
 Stranded II:
   pageId: 59719
   revId: 1005925
@@ -107153,7 +107155,7 @@ Super Meat Boy:
   revId: 971425
 Super Meat Boy Forever:
   pageId: 91423
-  revId: 1019503
+  revId: 1020072
 Super Meat Shooter:
   pageId: 76063
   revId: 871862
@@ -108061,7 +108063,7 @@ Surviving in the Forest:
   revId: 1001560
 Surviving the Aftermath:
   pageId: 147692
-  revId: 1007163
+  revId: 1020154
 Survivor:
   pageId: 130480
   revId: 872126
@@ -109095,7 +109097,7 @@ Tachyon Project:
   revId: 872408
 'Tachyon: The Fringe':
   pageId: 26063
-  revId: 872409
+  revId: 1020135
 Taco Gun:
   pageId: 93802
   revId: 872410
@@ -110644,7 +110646,7 @@ Terrorist Elimination:
   revId: 872855
 Terrorist Takedown 2:
   pageId: 30659
-  revId: 834487
+  revId: 1020091
 Tesla Breaks the World!:
   pageId: 49235
   revId: 872856
@@ -111074,7 +111076,7 @@ The Afterwoods:
   revId: 872978
 The Age of Decadence:
   pageId: 12507
-  revId: 1019622
+  revId: 1020070
 'The Agency of Anomalies: Cinderstone Orphanage Collector''s Edition':
   pageId: 53660
   revId: 872980
@@ -112654,7 +112656,7 @@ The Emerald Tablet:
   revId: 928698
 The Emperor's New Groove:
   pageId: 65506
-  revId: 987297
+  revId: 1020054
   tooBroad: true
 The Empire's Crisis:
   pageId: 148952
@@ -112800,7 +112802,7 @@ The Expedition:
   revId: 873453
 The Expendabros:
   pageId: 19017
-  revId: 1013331
+  revId: 1020107
 'The Experiment: Escape Room':
   pageId: 122022
   revId: 917303
@@ -115813,7 +115815,7 @@ The Psychic:
   revId: 874268
 The Punisher (2005):
   pageId: 31295
-  revId: 1002141
+  revId: 1020059
 The Puppet Master:
   pageId: 51961
   revId: 874269
@@ -117191,7 +117193,7 @@ The Undying Plague:
   revId: 874641
 The Unfinished Swan:
   pageId: 163276
-  revId: 998690
+  revId: 1020155
 'The Unfolding Engine: Paint a Game':
   pageId: 123509
   revId: 874642
@@ -119509,7 +119511,7 @@ Tom Clancy's Rainbow Six:
   revId: 1019908
 Tom Clancy's Rainbow Six Quarantine:
   pageId: 138439
-  revId: 1009043
+  revId: 1020063
 Tom Clancy's Rainbow Six Siege:
   pageId: 23053
   revId: 1019726
@@ -121702,7 +121704,7 @@ Tropico 4:
   revId: 968590
 Tropico 5:
   pageId: 16699
-  revId: 1018957
+  revId: 1020156
 Tropico 6:
   pageId: 63642
   revId: 1018956
@@ -128065,7 +128067,7 @@ We Were Here:
   revId: 1000341
 We Were Here Together:
   pageId: 113412
-  revId: 995670
+  revId: 1020172
 We Were Here Too:
   pageId: 67297
   revId: 1000329
