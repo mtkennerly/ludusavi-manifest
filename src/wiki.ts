@@ -151,6 +151,10 @@ const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?
         mapped: "<winDocuments>",
         when: { os: "windows" },
     },
+    "userprofile\\appdata\\locallow": {
+        mapped: "<winAppData>/LocalLow",
+        when: { os: "windows" },
+    },
     appdata: {
         mapped: "<winAppData>",
         when: { os: "windows" },
@@ -199,10 +203,10 @@ const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?
 
 function makePathArgRegex(arg: string): RegExp {
     const escaped = `{{P(ath)?|${arg}}}`
-        .replace("\\", "\\\\")
-        .replace("|", "\\|")
-        .replace("{", "\\{")
-        .replace("}", "\\}");
+        .replace(/\\/g, "\\\\")
+        .replace(/\|/g, "\\|")
+        .replace(/\{/g, "\\{")
+        .replace(/\}/g, "\\}");
     return new RegExp(escaped, "gi");
 }
 
