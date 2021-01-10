@@ -9386,7 +9386,7 @@ Avoidon:
   revId: 902520
 Avorion:
   pageId: 55770
-  revId: 941926
+  revId: 1021624
 Avowed:
   pageId: 162116
   revId: 995379
@@ -11500,7 +11500,7 @@ Battlefield V:
   revId: 1016274
 Battlefield Vietnam:
   pageId: 2006
-  revId: 1021051
+  revId: 1021623
 'Battlefield: Bad Company 2':
   pageId: 59
   revId: 1012996
@@ -12914,7 +12914,7 @@ Biohazard 2 (Sourcenext):
   revId: 992853
 'Biohazard 3: Last Escape (Sourcenext)':
   pageId: 124708
-  revId: 971857
+  revId: 1021715
 Biolab:
   pageId: 157780
   revId: 936117
@@ -16837,7 +16837,7 @@ Bulletstorm:
   revId: 1016976
 'Bulletstorm: Full Clip Edition':
   pageId: 54255
-  revId: 999063
+  revId: 1021661
 Bulls town:
   pageId: 124239
   revId: 846083
@@ -25272,7 +25272,7 @@ Crystal Reign:
   revId: 848551
 Crystal Rift:
   pageId: 43889
-  revId: 848552
+  revId: 1021723
 Crystal Shard Adventure Bundle:
   pageId: 55137
   revId: 848553
@@ -27998,7 +27998,7 @@ Dead Castle:
   revId: 849311
 Dead Cells:
   pageId: 58168
-  revId: 1021533
+  revId: 1021672
 Dead Climb:
   pageId: 89648
   revId: 849313
@@ -28531,7 +28531,7 @@ Dear Ashely:
   revId: 849475
 Dear Esther:
   pageId: 5181
-  revId: 967195
+  revId: 1021650
 'Dear Esther: Landmark Edition':
   pageId: 57929
   revId: 963103
@@ -33648,7 +33648,7 @@ Driver:
   revId: 851159
 'Driver: Parallel Lines':
   pageId: 15430
-  revId: 1014653
+  revId: 1021727
 'Driver: San Francisco':
   pageId: 2145
   revId: 1020964
@@ -39781,7 +39781,7 @@ Fallout Shelter:
   revId: 1009035
 'Fallout: New Vegas':
   pageId: 573
-  revId: 1019491
+  revId: 1021702
 Fallstreak:
   pageId: 121460
   revId: 1010218
@@ -45900,7 +45900,7 @@ Genocide:
   revId: 942466
 Genshin Impact:
   pageId: 163267
-  revId: 1020368
+  revId: 1021663
 Gensokyo Defenders / 幻想郷ディフェンダーズ / 幻想鄉守護者:
   pageId: 134750
   revId: 854720
@@ -48889,7 +48889,7 @@ Guild Wars:
   revId: 1001805
 Guild Wars 2:
   pageId: 1681
-  revId: 994487
+  revId: 1021598
 Guild Wars Factions:
   pageId: 51118
   revId: 855574
@@ -49916,7 +49916,7 @@ Halo Wars 2:
   revId: 1014807
 'Halo: The Master Chief Collection':
   pageId: 129467
-  revId: 1020568
+  revId: 1021731
 Halunazi:
   pageId: 74403
   revId: 855847
@@ -56662,7 +56662,7 @@ Injured by Space:
   revId: 1003358
 Injustice 2:
   pageId: 75869
-  revId: 1021547
+  revId: 1021700
 'Injustice: Gods Among Us':
   pageId: 11108
   revId: 1010926
@@ -63172,7 +63172,7 @@ Lego Friends:
   revId: 927477
 'Lego Harry Potter: Years 1-4':
   pageId: 11791
-  revId: 1016060
+  revId: 1021701
 'Lego Harry Potter: Years 5-7':
   pageId: 4071
   revId: 1018152
@@ -65340,7 +65340,7 @@ Lost Sea:
   revId: 860158
 Lost Secret of the Rainforest:
   pageId: 147104
-  revId: 978265
+  revId: 1021617
 Lost Sector Online:
   pageId: 54832
   revId: 887151
@@ -66743,7 +66743,7 @@ Madagascar:
   revId: 1014432
 'Madagascar: Escape 2 Africa':
   pageId: 89077
-  revId: 1014433
+  revId: 1021658
 'Madballs in Babo: Invasion':
   pageId: 41238
   revId: 963168
@@ -70040,7 +70040,8 @@ Micro Cosmic Worlds:
   revId: 888093
 Micro Machines V4:
   pageId: 87806
-  revId: 799429
+  revId: 1021660
+  tooBroad: true
 Micro Machines World Series:
   pageId: 56710
   revId: 970017
@@ -71618,7 +71619,7 @@ Monjarmageddon:
   revId: 861909
 Monkey Barrels:
   pageId: 166015
-  revId: 1021540
+  revId: 1021653
 Monkey GO Happy:
   pageId: 156005
   revId: 931079
@@ -72293,7 +72294,7 @@ Moribund:
   revId: 862081
 Morkredd:
   pageId: 165666
-  revId: 1017034
+  revId: 1021716
 Morning Never Comes:
   pageId: 91017
   revId: 892847
@@ -75024,7 +75025,7 @@ NecroVisioN:
   revId: 1006376
 'NecroVisioN: Lost Company':
   pageId: 24295
-  revId: 1006736
+  revId: 1021649
 Necroarmy:
   pageId: 87135
   revId: 896312
@@ -95788,7 +95789,7 @@ SculptrVR:
   revId: 868543
 Scum:
   pageId: 54461
-  revId: 1020323
+  revId: 1021656
 Scutter:
   pageId: 98128
   revId: 868545
@@ -102622,7 +102623,7 @@ Spear Master:
   revId: 902745
 Spear of Destiny:
   pageId: 17604
-  revId: 1013694
+  revId: 1021614
 Spears 'n' Spades:
   pageId: 66633
   revId: 870530
@@ -102901,7 +102902,7 @@ Spelunker Party!:
   revId: 870612
 Spelunky:
   pageId: 8588
-  revId: 1018209
+  revId: 1021722
 Spelunky 2:
   pageId: 162603
   revId: 1021150
@@ -104137,7 +104138,7 @@ Star Wars Galaxies:
   revId: 973938
 'Star Wars: Battlefront II':
   pageId: 114
-  revId: 1011168
+  revId: 1021652
 'Star Wars: Dark Forces':
   pageId: 1041
   revId: 1021101
@@ -107694,7 +107695,7 @@ Superhot VR:
   revId: 1012704
 'Superhot: Mind Control Delete':
   pageId: 78066
-  revId: 1017656
+  revId: 1021705
 Superior Wizards:
   pageId: 113818
   revId: 872007
@@ -110300,7 +110301,7 @@ Tell Me Everything:
   revId: 872748
 Tell Me Why:
   pageId: 152129
-  revId: 1016534
+  revId: 1021713
 Tell a Demon:
   pageId: 65997
   revId: 872749
@@ -114517,7 +114518,7 @@ The Legend of Excalipurr:
   revId: 1014946
 'The Legend of Heroes: Zero no Kiseki':
   pageId: 159003
-  revId: 1014925
+  revId: 1021730
   tooBroad: true
 The Legend of Korra:
   pageId: 20411
@@ -119564,7 +119565,7 @@ Tom Clancy's Rainbow Six Siege:
   revId: 1013174
 Tom Clancy's Splinter Cell:
   pageId: 8580
-  revId: 1013398
+  revId: 1021680
 'Tom Clancy''s Splinter Cell: Blacklist':
   pageId: 8950
   revId: 1010566
@@ -122514,7 +122515,7 @@ U-Boats:
   revId: 876120
 U.B Funkeys:
   pageId: 66863
-  revId: 920283
+  revId: 1021678
 U.F.O - Unfortunately Fortunate Organisms:
   pageId: 58569
   revId: 988613
@@ -127282,7 +127283,7 @@ Warchasm:
   revId: 1020210
 'Warcraft: Orcs & Humans':
   pageId: 7891
-  revId: 965291
+  revId: 1021619
 Warcube:
   pageId: 39237
   revId: 877456
@@ -129956,7 +129957,7 @@ Wolfenstein:
   revId: 1020406
 Wolfenstein 3D:
   pageId: 3190
-  revId: 1018460
+  revId: 1021613
   tooBroad: true
 'Wolfenstein II: The New Colossus':
   pageId: 63522
@@ -132624,7 +132625,7 @@ Zombie Office Politics:
   revId: 878961
 Zombie Panic In Wonderland DX:
   pageId: 150733
-  revId: 1021586
+  revId: 1021721
 Zombie Panic! Source:
   pageId: 1552
   revId: 989322
