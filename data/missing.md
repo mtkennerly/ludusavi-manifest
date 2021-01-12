@@ -31236,6 +31236,7 @@
 * [The Road Trip](https://www.pcgamingwiki.com/wiki/?curid=93974)
 * [The Rodinia Project](https://www.pcgamingwiki.com/wiki/?curid=66663)
 * [The Rollingball's Melody](https://www.pcgamingwiki.com/wiki/?curid=46006)
+* [The Room 4: Old Sins](https://www.pcgamingwiki.com/wiki/?curid=166041)
 * [The Room of Black & White](https://www.pcgamingwiki.com/wiki/?curid=45210)
 * [The Room Syndrome](https://www.pcgamingwiki.com/wiki/?curid=148499)
 * [The Rose and I](https://www.pcgamingwiki.com/wiki/?curid=43769)
