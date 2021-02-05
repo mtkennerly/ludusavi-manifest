@@ -352,7 +352,7 @@ $1 Ride:
   revId: 841193
 '18 Wheels of Steel: Across America':
   pageId: 29601
-  revId: 1026662
+  revId: 1026914
 '18 Wheels of Steel: American Long Haul':
   pageId: 25378
   revId: 1026640
@@ -1440,7 +1440,7 @@ A Game of Thrones - Genesis:
   revId: 940766
 'A Game of Thrones: The Board Game - Digital Edition':
   pageId: 163960
-  revId: 1001917
+  revId: 1026891
 A Gay Love Story About Gay Love:
   pageId: 164567
   revId: 1006404
@@ -5032,7 +5032,7 @@ Aliens in the Yard:
   revId: 842526
 Aliens versus Predator:
   pageId: 8248
-  revId: 1022727
+  revId: 1026790
 Aliens versus Predator 2:
   pageId: 754
   revId: 1017680
@@ -6546,7 +6546,7 @@ Anno 1503:
   revId: 984799
 Anno 1701:
   pageId: 24920
-  revId: 982296
+  revId: 1026909
 'Anno 1701: History Edition':
   pageId: 161402
   revId: 1018302
@@ -7106,7 +7106,8 @@ Aquila Bird Flight Simulator:
   revId: 1021559
 Ara Fell:
   pageId: 34437
-  revId: 1020882
+  revId: 1026812
+  tooBroad: true
 Arabian Nights:
   pageId: 32114
   revId: 963326
@@ -10331,7 +10332,7 @@ Bala na manga:
   revId: 844082
 Balan Wonderworld:
   pageId: 162129
-  revId: 1025551
+  revId: 1026848
 BalanCity:
   pageId: 41545
   revId: 844084
@@ -11479,10 +11480,10 @@ Battlefield 1:
   revId: 1004340
 Battlefield 1942:
   pageId: 446
-  revId: 992781
+  revId: 1026850
 Battlefield 2:
   pageId: 225
-  revId: 1014157
+  revId: 1026849
 Battlefield 2142:
   pageId: 4478
   revId: 1015938
@@ -12518,7 +12519,7 @@ Beyond Flesh and Blood:
   revId: 844721
 Beyond Good & Evil:
   pageId: 2862
-  revId: 1026605
+  revId: 1026759
 Beyond Good & Evil 2:
   pageId: 97553
   revId: 785650
@@ -24345,7 +24346,7 @@ Crazy Machines 1.5:
   revId: 983108
 Crazy Machines 2:
   pageId: 41356
-  revId: 1022389
+  revId: 1026789
 Crazy Machines 3:
   pageId: 36944
   revId: 986753
@@ -24420,13 +24421,13 @@ Crazy Tank:
   revId: 848311
 Crazy Taxi:
   pageId: 57938
-  revId: 1026754
+  revId: 1026869
 Crazy Taxi (2011):
   pageId: 166397
-  revId: 1026755
+  revId: 1026870
 Crazy Taxi (Steam):
   pageId: 22994
-  revId: 1026756
+  revId: 1026876
 'Crazy Taxi 3: High Roller':
   pageId: 29152
   revId: 1026750
@@ -29041,7 +29042,7 @@ Deep Rest:
   revId: 849627
 Deep Rock Galactic:
   pageId: 55221
-  revId: 1024861
+  revId: 1026894
 Deep Sea Endurance:
   pageId: 127345
   revId: 849629
@@ -30891,7 +30892,7 @@ Diminutive:
   revId: 850165
 Din's Curse:
   pageId: 22558
-  revId: 922591
+  revId: 1026904
 Din's Legacy:
   pageId: 109620
   revId: 991955
@@ -31278,13 +31279,13 @@ Disjoint:
   revId: 850288
 Disjunction:
   pageId: 122788
-  revId: 1026297
+  revId: 1026878
 'Dismantle: Construct Carnage':
   pageId: 127197
   revId: 850290
 'Disney Classic Games: Aladdin and The Lion King':
   pageId: 147702
-  revId: 1004734
+  revId: 1026930
 'Disney Fairies: Tinker Bell''s Adventure':
   pageId: 49552
   revId: 850291
@@ -32284,7 +32285,7 @@ Doom Classic:
   revId: 1013183
 Doom Eternal:
   pageId: 97499
-  revId: 1024021
+  revId: 1026809
 Doom II Classic:
   pageId: 155160
   revId: 1013184
@@ -32777,7 +32778,7 @@ Dragon Age II:
   revId: 1012994
 'Dragon Age: Inquisition':
   pageId: 16793
-  revId: 1017779
+  revId: 1026820
 'Dragon Age: Origins':
   pageId: 69
   revId: 1004087
@@ -36642,7 +36643,7 @@ Enclave:
   revId: 1019923
 Encodya:
   pageId: 145520
-  revId: 1026655
+  revId: 1026823
 Encompassed:
   pageId: 87926
   revId: 851990
@@ -38920,7 +38921,7 @@ F-22 Lightning 3:
   revId: 917592
 F.E.A.R.:
   pageId: 1345
-  revId: 1025948
+  revId: 1026880
 'F.E.A.R. 2: Project Origin':
   pageId: 1860
   revId: 1000621
@@ -46054,8 +46055,10 @@ Germination:
   pageId: 90320
   revId: 988278
 Gerty:
+  irregularPath: true
   pageId: 100634
-  revId: 933338
+  revId: 1026815
+  tooBroad: true
 'Gerty: Robots in Love':
   pageId: 50942
   revId: 854750
@@ -46231,7 +46234,7 @@ Ghost in the Machine:
   revId: 1024879
 Ghost of a Tale:
   pageId: 35704
-  revId: 998062
+  revId: 1026917
 Ghost on the Shore:
   pageId: 157430
   revId: 932659
@@ -48321,7 +48324,7 @@ Greed Corp:
 GreedFall:
   irregularPath: true
   pageId: 137032
-  revId: 1016629
+  revId: 1026929
 Greedy Crush:
   pageId: 123507
   revId: 855399
@@ -49588,7 +49591,7 @@ HRDINA:
   revId: 855751
 HROT:
   pageId: 161207
-  revId: 1016217
+  revId: 1026766
 HTR+ Slot Car Simulation:
   pageId: 50177
   revId: 919818
@@ -49764,7 +49767,7 @@ Hakoniwa Explorer Plus:
   revId: 855803
 'Halcyon 6: Lightspeed Edition':
   pageId: 66221
-  revId: 1009158
+  revId: 1026860
 'Halcyon 6: Starbase Commander':
   pageId: 37471
   revId: 927119
@@ -49831,7 +49834,7 @@ Half-Life 2:
   revId: 1008229
 'Half-Life: Source':
   pageId: 186
-  revId: 1024621
+  revId: 1026802
 'Half-Minute Hero: Super Mega Neo Climax Ultimate Boy':
   pageId: 4281
   revId: 927146
@@ -50303,7 +50306,7 @@ Hard Truck Apocalypse:
   revId: 855949
 'Hard Truck: 18 Wheels of Steel':
   pageId: 29603
-  revId: 1026661
+  revId: 1026931
 Hard Way to Heaven:
   pageId: 91999
   revId: 855950
@@ -50663,7 +50666,7 @@ Have A Sticker:
   revId: 1022351
 Haven:
   pageId: 137430
-  revId: 1025036
+  revId: 1026861
 Haven Moon:
   pageId: 42481
   revId: 962646
@@ -51393,7 +51396,7 @@ Hellsinker.:
   revId: 891550
 Helltaker:
   pageId: 160927
-  revId: 974842
+  revId: 1026841
 Helltower:
   pageId: 130217
   revId: 856253
@@ -56245,7 +56248,7 @@ Indiana Jones and His Desktop Adventures:
   revId: 1014798
 Indiana Jones and the Emperor's Tomb:
   pageId: 24790
-  revId: 1017704
+  revId: 1026801
 Indiana Jones and the Fate of Atlantis:
   pageId: 28781
   revId: 1023480
@@ -57702,7 +57705,7 @@ Isle of the Dead:
   revId: 964866
 Isles of Adalar:
   pageId: 151393
-  revId: 1022303
+  revId: 1026905
 Islet Online:
   pageId: 44732
   revId: 858014
@@ -68365,7 +68368,7 @@ Mass Effect:
   revId: 1026627
 Mass Effect 2:
   pageId: 177
-  revId: 1022904
+  revId: 1026933
 Mass Effect 3:
   pageId: 1300
   revId: 1026659
@@ -70008,7 +70011,7 @@ Metro Warp:
   revId: 990736
 'Metro: Last Light Redux':
   pageId: 17420
-  revId: 1024605
+  revId: 1026898
 Metrocide:
   pageId: 21957
   revId: 929580
@@ -76614,7 +76617,7 @@ Nino's Isekai:
   revId: 906079
 'Nioh 2: The Complete Edition':
   pageId: 165272
-  revId: 1026168
+  revId: 1026866
 'Nioh: Complete Edition':
   pageId: 73165
   revId: 1024869
@@ -77399,7 +77402,7 @@ Nutrients for Life:
   revId: 896675
 Nuts:
   pageId: 166017
-  revId: 1026652
+  revId: 1026888
 'Nuts!: The Battle of the Bulge':
   pageId: 44633
   revId: 863459
@@ -78320,7 +78323,7 @@ Oligopoly:
   revId: 896813
 Olija:
   pageId: 166273
-  revId: 1026743
+  revId: 1026881
 Olimdal:
   pageId: 125603
   revId: 896814
@@ -86069,7 +86072,7 @@ Project Wingman:
   revId: 1021357
 Project Winter:
   pageId: 122592
-  revId: 998073
+  revId: 1026919
 Project Witchstone:
   pageId: 135840
   revId: 897987
@@ -89056,10 +89059,10 @@ Rayman M:
   revId: 999323
 Rayman Mini:
   pageId: 148165
-  revId: 966831
+  revId: 1026868
 Rayman Origins:
   pageId: 1958
-  revId: 1009392
+  revId: 1026865
 Rayman Raving Rabbids:
   pageId: 17912
   revId: 1022993
@@ -90557,10 +90560,10 @@ Resident Evil 4:
   revId: 1026029
 Resident Evil 4 Ultimate HD Edition:
   pageId: 14546
-  revId: 1016754
+  revId: 1026873
 Resident Evil 5:
   pageId: 3989
-  revId: 1025317
+  revId: 1026879
 Resident Evil 6:
   pageId: 3451
   revId: 996964
@@ -93952,7 +93955,7 @@ Rysen:
   revId: 868036
 Ryu ga Gotoku Online:
   pageId: 123045
-  revId: 930280
+  revId: 1026810
 Ryzom:
   pageId: 43161
   revId: 868037
@@ -94420,7 +94423,7 @@ SWAM:
   revId: 981863
 SWAT 4:
   pageId: 685
-  revId: 1026290
+  revId: 1026872
 SWEATER? OK! - The Dilogy:
   pageId: 153758
   revId: 1022320
@@ -96666,7 +96669,7 @@ Serious Office:
   revId: 868751
 Serious Sam 2:
   pageId: 512
-  revId: 1015106
+  revId: 1026855
 'Serious Sam 3 VR: BFE':
   pageId: 75978
   revId: 1006462
@@ -99977,6 +99980,9 @@ Slipstream:
 Slipstream 5000:
   pageId: 21284
   revId: 995499
+Slipways:
+  pageId: 166407
+  revId: 1026788
 Slither Link:
   pageId: 110664
   revId: 869691
@@ -101241,7 +101247,7 @@ Sonic 3D Blast (2010):
   revId: 1004408
 Sonic Adventure 2:
   pageId: 5774
-  revId: 1025171
+  revId: 1026922
 Sonic Adventure DX:
   pageId: 21737
   revId: 1025749
@@ -105954,7 +105960,7 @@ Street Champ VR:
   revId: 871469
 Street Fighter 30th Anniversary Collection:
   pageId: 90604
-  revId: 985357
+  revId: 1026910
 Street Fighter Alpha 2:
   pageId: 19767
   revId: 999803
@@ -105963,7 +105969,7 @@ Street Fighter IV:
   revId: 1013753
 Street Fighter V:
   pageId: 29367
-  revId: 1011090
+  revId: 1026913
 Street Fighter X Mega Man:
   pageId: 4187
   revId: 985353
@@ -107918,7 +107924,7 @@ Supraball:
   revId: 929044
 Supraland:
   pageId: 87976
-  revId: 1015254
+  revId: 1026897
 Supralympic Runners:
   pageId: 93881
   revId: 872034
@@ -108679,7 +108685,7 @@ Syberia:
   revId: 1019887
 Syberia 3:
   pageId: 33396
-  revId: 971885
+  revId: 1026916
 Syberia II:
   pageId: 13562
   revId: 1019888
@@ -113019,7 +113025,7 @@ The Facility:
   revId: 965210
 The Falconeer:
   pageId: 154398
-  revId: 1014041
+  revId: 1026918
 'The Falconers: Moonlight':
   pageId: 60934
   revId: 873464
@@ -115153,7 +115159,7 @@ The Mechanical World of Dr. Gearbox:
   revId: 932394
 The Medium:
   pageId: 160125
-  revId: 1026287
+  revId: 1026817
 The Meldstorm:
   pageId: 157132
   revId: 932343
@@ -120031,7 +120037,7 @@ Torchlight III:
   revId: 1022911
 Toren:
   pageId: 25089
-  revId: 927960
+  revId: 1026928
   tooBroad: true
 Torgar's Quest:
   pageId: 42810
@@ -120408,7 +120414,7 @@ Tower Fortress:
   revId: 875463
 'Tower Hunter: Erza''s Trial':
   pageId: 96199
-  revId: 999958
+  revId: 1026811
 'Tower Island: Explore, Discover and Disassemble':
   pageId: 42037
   revId: 875465
@@ -125090,7 +125096,7 @@ Vampire of the Sands:
   revId: 1005886
 'Vampire: The Masquerade - Swansong':
   pageId: 148254
-  revId: 981266
+  revId: 1026779
 Vampires!:
   pageId: 70497
   revId: 876790
@@ -128572,7 +128578,7 @@ Werewolf Voice - Party Game:
   revId: 915627
 'Werewolf: The Apocalypse - Earthblood':
   pageId: 148265
-  revId: 1024194
+  revId: 1026932
 'Werewolf: The Apocalypse - Heart of the Forest':
   pageId: 162127
   revId: 1005139
@@ -131428,7 +131434,7 @@ Yakuza 3 Remastered:
   revId: 1026691
 Yakuza 4 Remastered:
   pageId: 165647
-  revId: 1026693
+  revId: 1026768
 Yakuza 5 Remastered:
   pageId: 165648
   revId: 1026694
