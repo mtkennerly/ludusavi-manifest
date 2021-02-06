@@ -5792,10 +5792,10 @@ Amira:
   revId: 971818
 'Amnesia: Rebirth':
   pageId: 158273
-  revId: 1016422
+  revId: 1026978
 'Amnesia: The Dark Descent':
   pageId: 693
-  revId: 1010356
+  revId: 1026979
 Amok:
   pageId: 44042
   revId: 842763
@@ -10332,7 +10332,7 @@ Bala na manga:
   revId: 844082
 Balan Wonderworld:
   pageId: 162129
-  revId: 1026848
+  revId: 1027039
 BalanCity:
   pageId: 41545
   revId: 844084
@@ -11483,10 +11483,10 @@ Battlefield 1942:
   revId: 1026850
 Battlefield 2:
   pageId: 225
-  revId: 1026849
+  revId: 1027026
 Battlefield 2142:
   pageId: 4478
-  revId: 1015938
+  revId: 1027025
 Battlefield 3:
   pageId: 102
   revId: 1022881
@@ -14628,6 +14628,9 @@ Blue Effect VR:
 Blue Estate The Game:
   pageId: 37676
   revId: 888908
+Blue Fire:
+  pageId: 166442
+  revId: 1026975
 Blue Force:
   pageId: 147150
   revId: 964627
@@ -17811,13 +17814,13 @@ Call of Duty:
   revId: 1015973
 Call of Duty 2:
   pageId: 4229
-  revId: 1018363
+  revId: 1026981
 'Call of Duty 4: Modern Warfare':
   pageId: 912
-  revId: 1010585
+  revId: 1026983
 'Call of Duty: Advanced Warfare':
   pageId: 17063
-  revId: 1023846
+  revId: 1026993
 'Call of Duty: Black Ops':
   pageId: 1654
   revId: 1020547
@@ -17825,50 +17828,50 @@ Call of Duty 2:
   pageId: 162705
   renamedFrom:
     - Call of Duty Black Ops Cold War
-  revId: 1023335
+  revId: 1026991
 'Call of Duty: Black Ops II':
   pageId: 3457
-  revId: 1025306
+  revId: 1026989
 'Call of Duty: Black Ops III':
   pageId: 24480
-  revId: 1023849
+  revId: 1026990
 'Call of Duty: Black Ops IIII':
   pageId: 91292
   revId: 1023848
 'Call of Duty: Ghosts':
   pageId: 7772
-  revId: 1023847
+  revId: 1026992
   tooBroad: true
 'Call of Duty: Heroes':
   pageId: 76744
   revId: 972106
 'Call of Duty: Infinite Warfare':
   pageId: 32597
-  revId: 1023845
+  revId: 1026994
 'Call of Duty: Modern Warfare':
   pageId: 137772
   revId: 1021119
 'Call of Duty: Modern Warfare 2':
   pageId: 3848
-  revId: 1013516
+  revId: 1026985
 'Call of Duty: Modern Warfare 2 Campaign Remastered':
   pageId: 158844
   revId: 1026647
 'Call of Duty: Modern Warfare 3':
   pageId: 30
-  revId: 1023840
+  revId: 1026986
 'Call of Duty: Modern Warfare Remastered':
   pageId: 32600
-  revId: 1023843
+  revId: 1026987
 'Call of Duty: Online':
   pageId: 94163
   revId: 803010
 'Call of Duty: WWII':
   pageId: 61703
-  revId: 1023844
+  revId: 1026995
 'Call of Duty: World at War':
   pageId: 576
-  revId: 1023839
+  revId: 1026988
 Call of Fries:
   pageId: 132460
   revId: 846379
@@ -17910,7 +17913,7 @@ Call of the Ocean:
   revId: 846391
 Call of the Sea:
   pageId: 160502
-  revId: 1020766
+  revId: 1026950
 Call of the Void:
   pageId: 136971
   revId: 846392
@@ -21672,7 +21675,7 @@ Clive 'N' Wrench:
   revId: 847498
 Clive Barker's Jericho:
   pageId: 7720
-  revId: 1026531
+  revId: 1027082
 Clive Barker's Undying:
   pageId: 1521
   revId: 1024545
@@ -22801,7 +22804,7 @@ Commanager Tycoon:
   revId: 847829
 Command & Conquer:
   pageId: 76
-  revId: 988678
+  revId: 1027019
 'Command & Conquer 3: Tiberium Wars':
   irregularPath: true
   pageId: 484
@@ -22817,10 +22820,10 @@ Command & Conquer Remastered Collection:
   revId: 988621
 'Command & Conquer: Red Alert':
   pageId: 3188
-  revId: 1004128
+  revId: 1027016
 'Command & Conquer: Red Alert 2':
   pageId: 459
-  revId: 1026096
+  revId: 1027014
 'Command & Conquer: Red Alert 3':
   pageId: 3140
   revId: 1016977
@@ -22833,7 +22836,7 @@ Command & Conquer Remastered Collection:
   revId: 990979
 'Command & Conquer: Tiberian Sun':
   pageId: 458
-  revId: 1017179
+  revId: 1027018
 Command HQ:
   pageId: 17108
   revId: 967920
@@ -26123,7 +26126,7 @@ Cyberprank Girls 2077:
   revId: 993968
 Cyberpunk 2077:
   pageId: 97605
-  revId: 1025252
+  revId: 1026966
 Cyberpunk 3776:
   pageId: 48403
   revId: 848774
@@ -27508,7 +27511,7 @@ Darken VR:
   revId: 849150
 Darkened Skye:
   pageId: 97137
-  revId: 967037
+  revId: 1026961
   tooBroad: true
 Darkest Depths:
   pageId: 130295
@@ -28701,7 +28704,7 @@ Death Toll:
   revId: 849518
 'Death Track: Resurrection':
   pageId: 21558
-  revId: 1017981
+  revId: 1027051
 Death Tractor:
   pageId: 45848
   revId: 849520
@@ -28755,10 +28758,10 @@ Death or Cress:
   revId: 849533
 Death to Spies:
   pageId: 21017
-  revId: 987267
+  revId: 1027088
 'Death to Spies: Moment of Truth':
   pageId: 34311
-  revId: 849535
+  revId: 1027087
 Death's Gambit:
   pageId: 39478
   revId: 962953
@@ -29042,7 +29045,7 @@ Deep Rest:
   revId: 849627
 Deep Rock Galactic:
   pageId: 55221
-  revId: 1026894
+  revId: 1027077
 Deep Sea Endurance:
   pageId: 127345
   revId: 849629
@@ -29672,6 +29675,9 @@ Demon Queen Melissa:
 Demon Robot Runner:
   pageId: 88150
   revId: 1001518
+'Demon Slayer: Kimetsu no Yaiba – Hinokami Kepputan':
+  pageId: 166446
+  revId: 1027020
 Demon Truck:
   pageId: 41495
   revId: 849819
@@ -30120,7 +30126,7 @@ Destined:
   revId: 849942
 Destiny 2:
   pageId: 60175
-  revId: 1023712
+  revId: 1027000
 Destiny Girls:
   pageId: 149993
   revId: 978022
@@ -30387,7 +30393,7 @@ Devil Guns - Demon Bullet Hell Arena:
   pageId: 7959
   renamedFrom:
     - 'Devil May Cry 3: Dante''s Awakening'
-  revId: 1025061
+  revId: 1026962
   tooBroad: true
 Devil May Cry 4:
   pageId: 10174
@@ -38921,7 +38927,7 @@ F-22 Lightning 3:
   revId: 917592
 F.E.A.R.:
   pageId: 1345
-  revId: 1026880
+  revId: 1027022
 'F.E.A.R. 2: Project Origin':
   pageId: 1860
   revId: 1000621
@@ -40145,7 +40151,7 @@ Far Cnight:
   revId: 853007
 Far Cry:
   pageId: 3802
-  revId: 1019898
+  revId: 1027037
   tooBroad: true
 Far Cry 2:
   pageId: 1333
@@ -40969,6 +40975,9 @@ Field Breaking:
 Field of Glory II:
   pageId: 70681
   revId: 967850
+'Field of Glory II: Medieval':
+  pageId: 166445
+  revId: 1027007
 'Field of Glory: Empires':
   pageId: 130611
   revId: 966376
@@ -41263,7 +41272,7 @@ Final Fantasy VII:
   revId: 977482
 Final Fantasy VII (2012):
   pageId: 1938
-  revId: 1025847
+  revId: 1027008
 Final Fantasy VIII:
   pageId: 583
   revId: 965658
@@ -41275,7 +41284,7 @@ Final Fantasy VIII Remastered:
   revId: 1016047
 Final Fantasy X/X-2 HD Remaster:
   pageId: 32709
-  revId: 1016179
+  revId: 1026980
 Final Fantasy XI:
   pageId: 788
   revId: 960679
@@ -41294,7 +41303,7 @@ Final Fantasy XIII-2:
 Final Fantasy XV:
   irregularPath: true
   pageId: 68726
-  revId: 1024932
+  revId: 1027092
 Final Fantasy XV Pocket Edition:
   pageId: 97041
   revId: 960685
@@ -46297,7 +46306,7 @@ Ghostory:
   revId: 904995
 Ghostrunner:
   pageId: 143628
-  revId: 1026121
+  revId: 1026963
 Ghosts of Miami:
   pageId: 65736
   revId: 854823
@@ -47468,7 +47477,7 @@ GolfTopia:
   revId: 902855
 Golfing Over It with Alva Majo:
   pageId: 90100
-  revId: 1021081
+  revId: 1026948
 Golfy Golf:
   pageId: 92281
   revId: 855168
@@ -47894,7 +47903,7 @@ Grand Theft Auto IV:
   revId: 1026368
 Grand Theft Auto V:
   pageId: 17708
-  revId: 1026243
+  revId: 1026956
 'Grand Theft Auto: Episodes from Liberty City':
   pageId: 1518
   revId: 1016557
@@ -49591,7 +49600,7 @@ HRDINA:
   revId: 855751
 HROT:
   pageId: 161207
-  revId: 1026766
+  revId: 1026959
 HTR+ Slot Car Simulation:
   pageId: 50177
   revId: 919818
@@ -49722,7 +49731,7 @@ Hadean Lands:
   revId: 855790
 Hades:
   pageId: 137191
-  revId: 1020415
+  revId: 1026996
 Hades Challenge:
   pageId: 97263
   revId: 928170
@@ -50428,7 +50437,7 @@ Harry Potter and the Philosopher's Stone:
   revId: 1020429
 Harry Potter and the Prisoner of Azkaban:
   pageId: 19536
-  revId: 1024639
+  revId: 1027002
 'Harry Potter: Quidditch World Cup':
   pageId: 19551
   revId: 1000868
@@ -51051,7 +51060,7 @@ Hectic Highways:
 'Hector: Badge of Carnage!':
   irregularPath: true
   pageId: 4231
-  revId: 985405
+  revId: 1027074
 Hedgewars:
   pageId: 74813
   revId: 1023628
@@ -53051,7 +53060,7 @@ Hitman GO:
   revId: 1016774
 'Hitman: Codename 47':
   pageId: 3615
-  revId: 1025748
+  revId: 1027055
 'Hitman: Contracts':
   pageId: 491
   revId: 1023667
@@ -53223,7 +53232,7 @@ Hollow Island:
   revId: 931683
 Hollow Knight:
   pageId: 54531
-  revId: 1024203
+  revId: 1026999
 'Hollow Knight: Silksong':
   pageId: 129541
   revId: 1007636
@@ -72264,7 +72273,7 @@ Moonlight thief:
   revId: 862052
 Moonlighter:
   pageId: 61691
-  revId: 1010790
+  revId: 1026954
 Moonlit Mayhem:
   pageId: 51342
   revId: 862053
@@ -72715,7 +72724,7 @@ Mount & Blade:
   revId: 1006294
 'Mount & Blade II: Bannerlord':
   pageId: 52013
-  revId: 1002995
+  revId: 1027004
 'Mount & Blade: Warband':
   pageId: 547
   revId: 1013909
@@ -76617,7 +76626,7 @@ Nino's Isekai:
   revId: 906079
 'Nioh 2: The Complete Edition':
   pageId: 165272
-  revId: 1026866
+  revId: 1026977
 'Nioh: Complete Edition':
   pageId: 73165
   revId: 1024869
@@ -82285,7 +82294,7 @@ Phase Edge:
   revId: 794598
 Phase Shift:
   pageId: 32290
-  revId: 945313
+  revId: 1027095
 Phase Shift (2019):
   pageId: 137314
   revId: 945002
@@ -87312,7 +87321,7 @@ Quake:
   revId: 1016042
 Quake 4:
   pageId: 6551
-  revId: 1023886
+  revId: 1026998
 Quake Champions:
   pageId: 61723
   revId: 1026389
@@ -90547,10 +90556,10 @@ Resident Evil 2:
   tooBroad: true
 Resident Evil 2 (2019):
   pageId: 97738
-  revId: 1026617
+  revId: 1026984
 Resident Evil 3 (2020):
   pageId: 154505
-  revId: 1014134
+  revId: 1026982
 'Resident Evil 3: Nemesis':
   pageId: 21578
   revId: 1015227
@@ -98474,7 +98483,7 @@ Signs of Darkness:
   revId: 869272
 Signs of Life:
   pageId: 18361
-  revId: 869273
+  revId: 1027093
 Signs of the Sojourner:
   pageId: 137070
   revId: 1021196
@@ -101250,7 +101259,7 @@ Sonic Adventure 2:
   revId: 1026922
 Sonic Adventure DX:
   pageId: 21737
-  revId: 1025749
+  revId: 1027079
 Sonic Adventure DX (2011):
   pageId: 4375
   revId: 1026685
@@ -102513,7 +102522,7 @@ Spacebase DF-9:
   revId: 982535
 Spacebase Startopia:
   pageId: 145483
-  revId: 986326
+  revId: 1027013
 Spacecats with Lasers VR:
   pageId: 55536
   revId: 870459
@@ -111137,7 +111146,7 @@ The Adventure of Magical Girl:
   revId: 872947
 The Adventure of Nayu:
   pageId: 166209
-  revId: 1024116
+  revId: 1027096
 'The Adventurer - Episode 1: Beginning of the End':
   pageId: 66765
   revId: 1010166
@@ -115159,7 +115168,7 @@ The Mechanical World of Dr. Gearbox:
   revId: 932394
 The Medium:
   pageId: 160125
-  revId: 1026817
+  revId: 1027043
 The Meldstorm:
   pageId: 157132
   revId: 932343
@@ -119090,7 +119099,7 @@ TimeOver:
   revId: 875110
 TimeShift:
   pageId: 9124
-  revId: 998226
+  revId: 1026972
 TimeTekker:
   pageId: 94041
   revId: 875112
@@ -124985,7 +124994,7 @@ Valhalla Hills:
   revId: 1021070
 Valheim:
   pageId: 113522
-  revId: 1023168
+  revId: 1027071
 Valiant:
   pageId: 43235
   revId: 876761
@@ -125618,7 +125627,7 @@ Victim of Xen:
   revId: 876937
 Victor Vran:
   pageId: 26572
-  revId: 991476
+  revId: 1027091
 Victoria (2019):
   pageId: 137384
   revId: 908641
@@ -128578,7 +128587,7 @@ Werewolf Voice - Party Game:
   revId: 915627
 'Werewolf: The Apocalypse - Earthblood':
   pageId: 148265
-  revId: 1026932
+  revId: 1027080
 'Werewolf: The Apocalypse - Heart of the Forest':
   pageId: 162127
   revId: 1005139
@@ -130608,7 +130617,7 @@ World of Subways 4 - New York Line 7:
   revId: 878327
 World of Tanks:
   pageId: 39
-  revId: 968001
+  revId: 1026958
 World of Tanks Blitz:
   pageId: 51282
   revId: 878329
@@ -131428,13 +131437,13 @@ Yahrit!:
   revId: 1020407
 Yakuza 0:
   pageId: 97277
-  revId: 1026606
+  revId: 1027052
 Yakuza 3 Remastered:
   pageId: 165646
-  revId: 1026691
+  revId: 1027086
 Yakuza 4 Remastered:
   pageId: 165647
-  revId: 1026768
+  revId: 1027085
 Yakuza 5 Remastered:
   pageId: 165648
   revId: 1026694
