@@ -152,7 +152,7 @@ const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?
         when: { os: "windows" },
     },
     "userprofile\\appdata\\locallow": {
-        mapped: "<winAppData>/LocalLow",
+        mapped: "<home>/AppData/LocalLow",
         when: { os: "windows" },
     },
     appdata: {

@@ -55,6 +55,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             irregularPathUntagged: boolean,
             tooBroad: boolean,
             tooBroadUntagged: boolean,
+            pathContains: string | undefined,
             skipUntil: string | undefined,
             games: Array<string> | undefined,
             recent: boolean | undefined,
@@ -74,6 +75,9 @@ export class ManifestFile extends YamlFile<Manifest> {
             }
 
             let check = false;
+            if (filter.pathContains && Object.keys(this.data[title]?.files ?? {}).some(x => x.includes(filter.pathContains))) {
+                check = true;
+            }
             if (filter.all) {
                 check = true;
             }
