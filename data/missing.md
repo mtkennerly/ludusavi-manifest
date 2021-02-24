@@ -7486,6 +7486,7 @@
 * [Daydream](https://www.pcgamingwiki.com/wiki/?curid=79684)
 * [Daydream Blue](https://www.pcgamingwiki.com/wiki/?curid=56963)
 * [Daydreamer](https://www.pcgamingwiki.com/wiki/?curid=46787)
+* [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
 * [Days Gone By](https://www.pcgamingwiki.com/wiki/?curid=153420)
 * [Days of a Princess](https://www.pcgamingwiki.com/wiki/?curid=89200)
 * [Days of Purgatory](https://www.pcgamingwiki.com/wiki/?curid=78709)
