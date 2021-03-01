@@ -4246,7 +4246,7 @@ Air Marty:
   revId: 946185
 'Air Missions: HIND':
   pageId: 38151
-  revId: 987879
+  revId: 1032588
 Air Raid Over Britain:
   pageId: 88824
   revId: 842318
@@ -5261,7 +5261,7 @@ Alone in the Dark 3:
   revId: 1011943
 'Alone in the Dark: The New Nightmare':
   pageId: 7530
-  revId: 1032085
+  revId: 1032527
 Alone in the Forest VR:
   pageId: 93958
   revId: 842596
@@ -7623,6 +7623,11 @@ ArkanoidSmoking:
 Arkasha:
   pageId: 82139
   revId: 843301
+'Arkham Horror: Mother''s Embrace':
+  pageId: 93355
+  renamedFrom:
+    - 'Mansions of Madness: Mother''s Embrace'
+  revId: 1032506
 Arkham Nightmares:
   pageId: 41635
   revId: 843302
@@ -7974,7 +7979,7 @@ Art of Rally:
   pageId: 137030
   renamedFrom:
     - Art of rally
-  revId: 1028422
+  revId: 1032662
 Art of Stealth:
   pageId: 56086
   revId: 843393
@@ -8323,7 +8328,7 @@ Assassin's Creed Unity:
   revId: 1026373
 Assassin's Creed Valhalla:
   pageId: 159546
-  revId: 1027799
+  revId: 1032626
 'Assassin''s Creed: Brotherhood':
   pageId: 222
   revId: 1023387
@@ -8332,7 +8337,7 @@ Assassin's Creed Valhalla:
   revId: 1027147
 'Assassin''s Creed: Liberation HD':
   pageId: 14074
-  revId: 990628
+  revId: 1032617
 'Assassin''s Creed: Pirates':
   pageId: 69296
   revId: 960487
@@ -11488,22 +11493,22 @@ Battlecursed:
   revId: 844427
 Battlefield 1:
   pageId: 32669
-  revId: 1032463
+  revId: 1032616
 Battlefield 1942:
   pageId: 446
-  revId: 1026850
+  revId: 1032594
 Battlefield 2:
   pageId: 225
-  revId: 1031541
+  revId: 1032597
 Battlefield 2142:
   pageId: 4478
-  revId: 1031542
+  revId: 1032603
 Battlefield 3:
   pageId: 102
-  revId: 1032464
+  revId: 1032608
 Battlefield 4:
   pageId: 5924
-  revId: 1032458
+  revId: 1032614
 Battlefield Alliance:
   pageId: 66589
   revId: 844434
@@ -11512,7 +11517,7 @@ Battlefield Armor:
   revId: 844435
 Battlefield Hardline:
   pageId: 17778
-  revId: 1032460
+  revId: 1032615
 Battlefield Heroes:
   pageId: 73080
   revId: 971839
@@ -11527,7 +11532,7 @@ Battlefield V:
   revId: 1032465
 Battlefield Vietnam:
   pageId: 2006
-  revId: 1021623
+  revId: 1032595
 'Battlefield: Bad Company 2':
   pageId: 59
   revId: 1032455
@@ -12932,7 +12937,7 @@ BioShock Infinite:
   revId: 1021562
 BioShock Remastered:
   pageId: 35048
-  revId: 1032280
+  revId: 1032590
 Biodigital:
   pageId: 110214
   revId: 844835
@@ -13310,7 +13315,7 @@ Black Day:
   revId: 993386
 Black Desert Online:
   pageId: 52052
-  revId: 974391
+  revId: 1032571
 Black Dream:
   pageId: 90016
   revId: 844943
@@ -16080,7 +16085,7 @@ BreathePeace.World:
   revId: 845719
 Breathedge:
   pageId: 88208
-  revId: 1031975
+  revId: 1032613
 Breathing Fear:
   pageId: 51308
   revId: 992077
@@ -16399,7 +16404,7 @@ Broken Spell 2:
   revId: 995209
 'Broken Sword 2.5: The Return of the Templars':
   pageId: 68762
-  revId: 968062
+  revId: 1032666
 'Broken Sword 3: The Sleeping Dragon':
   pageId: 19574
   revId: 968050
@@ -17869,7 +17874,7 @@ Call of Duty 2:
   revId: 1026994
 'Call of Duty: Modern Warfare':
   pageId: 137772
-  revId: 1029303
+  revId: 1032589
 'Call of Duty: Modern Warfare 2':
   pageId: 3848
   revId: 1026985
@@ -17932,7 +17937,7 @@ Call of the Ocean:
   revId: 846391
 Call of the Sea:
   pageId: 160502
-  revId: 1026950
+  revId: 1032643
 Call of the Void:
   pageId: 136971
   revId: 846392
@@ -19717,7 +19722,7 @@ Championship Manager 4:
   revId: 1024110
 Championship Manager 5:
   pageId: 154796
-  revId: 980283
+  revId: 1032627
 Championship Manager 93:
   pageId: 154810
   revId: 979066
@@ -21430,7 +21435,7 @@ Clans to Kingdoms:
   revId: 847412
 Clash:
   pageId: 82258
-  revId: 964689
+  revId: 1032558
 Clash (2016):
   pageId: 40126
   revId: 935024
@@ -24203,7 +24208,7 @@ Crash And Burn Racing:
   revId: 848230
 'Crash Bandicoot 4: It''s About Time':
   pageId: 166524
-  revId: 1028720
+  revId: 1032502
 Crash Bandicoot N. Sane Trilogy:
   pageId: 89119
   revId: 1028003
@@ -26059,7 +26064,7 @@ Cyber Hook:
   revId: 1031907
 Cyber Hunter:
   pageId: 165873
-  revId: 1027605
+  revId: 1032539
 Cyber Jolt:
   pageId: 58136
   revId: 848744
@@ -31302,7 +31307,7 @@ Discworld:
   revId: 1019861
 'Discworld II: Missing Presumed...!?':
   pageId: 131793
-  revId: 1019841
+  revId: 1032665
 Discworld Noir:
   pageId: 29938
   revId: 1007973
@@ -32757,10 +32762,10 @@ Draconic Route:
   revId: 1013755
 'Dracula 4: The Shadow of the Dragon':
   pageId: 50186
-  revId: 1032481
+  revId: 1032652
 'Dracula 5: The Blood Legacy':
   pageId: 50977
-  revId: 1032479
+  revId: 1032660
 Dracula Origin:
   irregularPath: true
   pageId: 41345
@@ -34017,7 +34022,7 @@ Drusilla Dreams:
   revId: 851230
 'Druuna: Morbus Gravis':
   pageId: 35272
-  revId: 779198
+  revId: 1032661
 Dry Drowning:
   pageId: 138482
   revId: 988375
@@ -36121,7 +36126,7 @@ Element TD:
   revId: 940866
 Element TD 2:
   pageId: 160040
-  revId: 963391
+  revId: 1032525
 Element Z:
   pageId: 140834
   revId: 851811
@@ -41397,7 +41402,7 @@ Final Fantasy XIII-2:
 Final Fantasy XV:
   irregularPath: true
   pageId: 68726
-  revId: 1030783
+  revId: 1032562
 Final Fantasy XV Pocket Edition:
   pageId: 97041
   revId: 960685
@@ -44624,7 +44629,7 @@ Future Unfolding:
   revId: 854311
 Future Wars:
   pageId: 147063
-  revId: 978678
+  revId: 1032510
 Future Wars (2010):
   pageId: 51072
   revId: 978681
@@ -45200,7 +45205,7 @@ Galaxy Cannon Rider:
   revId: 854476
 Galaxy Champions TV:
   pageId: 108988
-  revId: 854477
+  revId: 1032517
 Galaxy Combat Wargames:
   pageId: 40118
   revId: 854478
@@ -45908,7 +45913,7 @@ Gemini Lost:
   revId: 854668
 Gemini Rue:
   pageId: 1795
-  revId: 961986
+  revId: 1032586
 Gemini Wars:
   pageId: 40687
   revId: 854670
@@ -48016,7 +48021,7 @@ Grand Theft Auto IV:
   revId: 1032012
 Grand Theft Auto V:
   pageId: 17708
-  revId: 1027352
+  revId: 1032669
 'Grand Theft Auto: Episodes from Liberty City':
   pageId: 1518
   revId: 1016557
@@ -53213,7 +53218,7 @@ Hiveswap Friendsim:
   revId: 976866
 'Hiveswap: Act 2':
   pageId: 154109
-  revId: 1032499
+  revId: 1032663
 'Ho Tu Lo Shu: The Books of Dragon':
   pageId: 121371
   revId: 893762
@@ -55513,7 +55518,7 @@ Icarus Starship Command Simulator:
   revId: 857356
 'Ice Age 2: The Meltdown':
   pageId: 89758
-  revId: 1031550
+  revId: 1032574
 'Ice Age: Continental Drift - Arctic Games':
   pageId: 89762
   revId: 935269
@@ -57031,7 +57036,7 @@ Insert Paper:
   revId: 857775
 Inside:
   pageId: 34153
-  revId: 1013560
+  revId: 1032667
 Inside (2018):
   pageId: 137358
   revId: 857777
@@ -63471,7 +63476,7 @@ Lego Rock Raiders:
   revId: 1014111
 'Lego Star Wars: The Complete Saga':
   pageId: 21618
-  revId: 1029637
+  revId: 1032534
 'Lego Star Wars: The Force Awakens':
   pageId: 31616
   revId: 1014112
@@ -67927,7 +67932,7 @@ Man of Honor:
   revId: 860820
 Man of Medan:
   pageId: 137516
-  revId: 1031897
+  revId: 1032637
 Man of the House:
   pageId: 149273
   revId: 900962
@@ -68036,9 +68041,6 @@ Mansion of Horrors:
 Mansions of Madness:
   pageId: 41928
   revId: 914336
-'Mansions of Madness: Mother''s Embrace':
-  pageId: 93355
-  revId: 887742
 Mantis Burn Racing:
   pageId: 42591
   revId: 860851
@@ -70187,7 +70189,7 @@ Metro 2033 Redux:
 Metro Exodus:
   irregularPath: true
   pageId: 63660
-  revId: 1029725
+  revId: 1032533
   tooBroad: true
 Metro Explosion Simulator:
   pageId: 140875
@@ -71835,7 +71837,7 @@ Momodora III:
   revId: 996555
 'Momodora: Reverie Under the Moonlight':
   pageId: 34172
-  revId: 996556
+  revId: 1032632
 Momoiro Closet:
   pageId: 90594
   revId: 888317
@@ -77336,12 +77338,16 @@ Nostalgiarian:
 Nostalgic Train:
   pageId: 95103
   revId: 896622
-Nostos:
+Nostoi:
   pageId: 105169
-  revId: 896623
-Nostos (NetEase Games):
+  renamedFrom:
+    - Nostos
+  revId: 1032548
+Nostos:
   pageId: 137348
-  revId: 863374
+  renamedFrom:
+    - Nostos (NetEase Games)
+  revId: 1032554
 Nostradamus - The Four Horsemen of the Apocalypse:
   pageId: 80418
   revId: 863375
@@ -77969,14 +77975,13 @@ ObserVRtarium:
   revId: 896716
 Observation:
   pageId: 122734
-  revId: 1012820
-  tooBroad: true
+  revId: 1032642
 'Observatory: A VR Variety Pack':
   pageId: 43075
   revId: 863550
 Observer:
   pageId: 63218
-  revId: 1032406
+  revId: 1032563
 'Observer: System Redux':
   pageId: 162917
   revId: 1026043
@@ -80790,7 +80795,7 @@ Pacific Strike:
   revId: 964987
 Pacify:
   pageId: 128012
-  revId: 1009979
+  revId: 1032673
 PackageRun:
   pageId: 103741
   revId: 897150
@@ -82275,10 +82280,10 @@ Perso:
   revId: 897350
 Persona 4 Golden:
   pageId: 160971
-  revId: 1032365
+  revId: 1032505
 Persona 5 Strikers:
   pageId: 165527
-  revId: 1032084
+  revId: 1032523
 Personal Disco VR:
   pageId: 60734
   revId: 897351
@@ -82435,7 +82440,7 @@ Phantasy Star II:
   revId: 963533
 Phantasy Star Online 2:
   pageId: 17793
-  revId: 1031077
+  revId: 1032522
 Phantasy Star Universe:
   pageId: 17795
   revId: 1017236
@@ -88035,7 +88040,7 @@ RAGE:
   revId: 1020472
 RAGE 2:
   pageId: 94227
-  revId: 1031647
+  revId: 1032528
 'RAID: World War II':
   pageId: 69709
   revId: 866329
@@ -91213,7 +91218,7 @@ Reventa:
   revId: 898903
 Reventure:
   pageId: 142678
-  revId: 1032233
+  revId: 1032664
 'Reverence: The Ultimate Combat Experience':
   pageId: 38907
   revId: 867194
@@ -100669,7 +100674,7 @@ Sneaky Ninja:
   revId: 869817
 Sneaky Sasquatch:
   pageId: 147769
-  revId: 1012742
+  revId: 1032577
 Sneaky Sneaky:
   pageId: 38093
   revId: 869818
@@ -104556,7 +104561,7 @@ Star Wars Galaxies:
   revId: 1021970
 'Star Wars Jedi: Fallen Order':
   pageId: 133380
-  revId: 1027326
+  revId: 1032656
 'Star Wars: Battlefront':
   pageId: 5267
   revId: 1022560
@@ -104587,7 +104592,7 @@ Star Wars Galaxies:
   revId: 1020730
 'Star Wars: Force Commander':
   pageId: 16420
-  revId: 1032387
+  revId: 1032668
 'Star Wars: Galactic Battlegrounds':
   pageId: 8814
   revId: 1024107
@@ -105244,7 +105249,7 @@ Stay Safe:
   revId: 941604
 Stay Silent:
   pageId: 128431
-  revId: 871173
+  revId: 1032555
 Stay Woke Etheral Edition:
   pageId: 75851
   revId: 871174
@@ -106977,7 +106982,7 @@ Summon of Asmodeus:
   revId: 871667
 Summoner:
   pageId: 23780
-  revId: 1009407
+  revId: 1032675
   tooBroad: true
 Summoner VR:
   pageId: 153806
@@ -111451,7 +111456,7 @@ The Adventure of Magical Girl:
   revId: 872947
 The Adventure of Nayu:
   pageId: 166209
-  revId: 1032191
+  revId: 1032508
 'The Adventurer - Episode 1: Beginning of the End':
   pageId: 66765
   revId: 1010166
@@ -117049,7 +117054,7 @@ The Singularity Wish:
   revId: 874469
 The Sinking City:
   pageId: 97752
-  revId: 1032496
+  revId: 1032633
 The Six Dragons:
   pageId: 113124
   revId: 874471
@@ -118396,7 +118401,7 @@ TheoTown:
   revId: 974554
 Theocracy:
   pageId: 75256
-  revId: 1007326
+  revId: 1032587
 Theorem:
   pageId: 92069
   revId: 988537
@@ -120108,7 +120113,7 @@ Tomb Raider (1996):
   revId: 1030727
 Tomb Raider (2013):
   pageId: 3881
-  revId: 1031240
+  revId: 1032532
 Tomb Raider - The Final Hours Digital Book:
   pageId: 37523
   revId: 875302
@@ -120460,7 +120465,7 @@ Total 15:
   revId: 972069
 Total Alarm:
   pageId: 95091
-  revId: 875394
+  revId: 1032569
 Total Annihilation:
   pageId: 7303
   revId: 990665
@@ -121314,7 +121319,7 @@ Transference:
   revId: 1003470
 'Transformers: The Game':
   pageId: 76686
-  revId: 1032235
+  revId: 1032630
 'Transformers: War for Cybertron':
   pageId: 20
   revId: 1023239
@@ -124234,10 +124239,10 @@ Unrailed!:
   revId: 1024527
 Unravel:
   pageId: 31310
-  revId: 1027331
+  revId: 1032564
 Unravel Two:
   pageId: 97145
-  revId: 995106
+  revId: 1032592
 'Unraveled: Tale of the Shipbreaker''s Daughter':
   pageId: 39474
   revId: 876450
@@ -129731,7 +129736,7 @@ Will of the Gods:
   revId: 979499
 Will to Live Online:
   pageId: 79389
-  revId: 878002
+  revId: 1032674
 'Will: A Wonderful World':
   pageId: 62498
   revId: 1003763
@@ -131777,13 +131782,13 @@ Yakuza 0:
   revId: 1032476
 Yakuza 3 Remastered:
   pageId: 165646
-  revId: 1031796
+  revId: 1032529
 Yakuza 4 Remastered:
   pageId: 165647
-  revId: 1031794
+  revId: 1032530
 Yakuza 5 Remastered:
   pageId: 165648
-  revId: 1031792
+  revId: 1032531
 'Yakuza 6: The Song of Life':
   pageId: 165649
   revId: 1028712
