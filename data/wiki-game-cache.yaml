@@ -3876,7 +3876,7 @@ Age of Empires:
   revId: 1029612
 Age of Empires II (2013):
   pageId: 5441
-  revId: 994942
+  revId: 1034134
 'Age of Empires II: Definitive Edition':
   pageId: 134274
   revId: 1025558
@@ -3885,7 +3885,7 @@ Age of Empires II (2013):
   revId: 1029611
 Age of Empires III:
   pageId: 126
-  revId: 1020565
+  revId: 1034135
 'Age of Empires III: Definitive Edition':
   irregularPath: true
   pageId: 134275
@@ -3957,7 +3957,7 @@ Age of Magic CCG:
   revId: 1022985
 Age of Mythology:
   pageId: 5661
-  revId: 1017677
+  revId: 1034175
 'Age of Mythology: Extended Edition':
   pageId: 16471
   revId: 979283
@@ -6655,7 +6655,7 @@ Another Dawn:
   revId: 843017
 Another Eden:
   pageId: 167093
-  revId: 1033918
+  revId: 1034208
 Another Hardcore Game:
   pageId: 121137
   revId: 977919
@@ -7133,7 +7133,7 @@ Arachnophobia (2016):
   revId: 843159
 Aragami:
   pageId: 39225
-  revId: 1030399
+  revId: 1034226
 'Araha : Curse of Yieun Island':
   pageId: 153533
   revId: 916268
@@ -12988,7 +12988,7 @@ Bionic Battle Mutants:
   revId: 1027295
 Bionic Commando (2009):
   pageId: 20622
-  revId: 938309
+  revId: 1034153
 Bionic Commando Rearmed:
   pageId: 20618
   revId: 1012345
@@ -14477,7 +14477,7 @@ Bloodsports.TV:
   revId: 1001016
 'Bloodstained: Ritual of the Night':
   pageId: 61255
-  revId: 1019885
+  revId: 1034143
 'Bloodstone: An Epic Dwarven Tale':
   pageId: 75370
   revId: 964624
@@ -14660,7 +14660,7 @@ Blue Estate The Game:
   revId: 888908
 Blue Fire:
   pageId: 166442
-  revId: 1034124
+  revId: 1034149
 Blue Force:
   pageId: 147150
   revId: 964627
@@ -18649,7 +18649,7 @@ Carrier:
   revId: 846616
 'Carrier Command: Gaea Mission':
   pageId: 40717
-  revId: 846617
+  revId: 1034233
 Carrier Deck:
   pageId: 63326
   revId: 1015292
@@ -19043,7 +19043,7 @@ Cat Notebook:
   revId: 884077
 Cat Quest:
   pageId: 65118
-  revId: 1024578
+  revId: 1034177
 Cat Quest II:
   pageId: 132805
   revId: 1029745
@@ -23537,7 +23537,7 @@ Cooking Dash:
   revId: 848029
 Cooking Simulator:
   pageId: 63365
-  revId: 993861
+  revId: 1034288
 Cooking Trip:
   pageId: 134538
   revId: 998963
@@ -25293,7 +25293,7 @@ Crypto Quest:
   pageId: 154144
   renamedFrom:
     - Crypto Against All Odds
-  revId: 1034111
+  revId: 1034200
 CryptoFarm:
   pageId: 107788
   revId: 848525
@@ -26123,8 +26123,9 @@ Cyber Sentinel:
   pageId: 41978
   revId: 1026487
 Cyber Shadow:
+  irregularPath: true
   pageId: 132881
-  revId: 1025511
+  revId: 1034285
 Cyber Surf:
   pageId: 87874
   revId: 848750
@@ -31394,7 +31395,7 @@ Disjunction:
   revId: 850290
 'Disney Classic Games: Aladdin and The Lion King':
   pageId: 147702
-  revId: 1033482
+  revId: 1034278
 'Disney Fairies: Tinker Bell''s Adventure':
   pageId: 49552
   revId: 1029630
@@ -32385,7 +32386,7 @@ Doom & Destiny Worlds:
   revId: 1011903
 Doom (1993):
   pageId: 502
-  revId: 1022181
+  revId: 1034259
 Doom (2016):
   pageId: 19349
   revId: 1031895
@@ -32902,7 +32903,7 @@ Dragon Age II:
   revId: 1027671
 'Dragon Age: Inquisition':
   pageId: 16793
-  revId: 1026820
+  revId: 1034205
 'Dragon Age: Origins':
   pageId: 69
   revId: 1030873
@@ -34118,7 +34119,7 @@ Duck Force:
   revId: 851246
 Duck Game:
   pageId: 27815
-  revId: 1025773
+  revId: 1034260
 Duck Hunt Challenge:
   pageId: 122340
   revId: 851248
@@ -39938,7 +39939,7 @@ Fallout:
   revId: 1027679
 Fallout 2:
   pageId: 1352
-  revId: 1025040
+  revId: 1034291
   tooBroad: true
 Fallout 3:
   pageId: 198
@@ -40286,7 +40287,7 @@ Far Cnight:
   revId: 853007
 Far Cry:
   pageId: 3802
-  revId: 1033229
+  revId: 1034276
   tooBroad: true
 Far Cry 2:
   pageId: 1333
@@ -40341,6 +40342,9 @@ Farabel:
 Faraway Islands:
   pageId: 57742
   revId: 853022
+'Faraway: Director''s Cut':
+  pageId: 167108
+  revId: 1034198
 Fare Thee Well:
   pageId: 91032
   revId: 853023
@@ -41289,9 +41293,11 @@ Fightttris VR:
 Figment:
   pageId: 60341
   revId: 1015992
-'Figment: Creed Valley':
+'Figment 2: Creed Valley':
   pageId: 139520
-  revId: 994432
+  renamedFrom:
+    - 'Figment: Creed Valley'
+  revId: 1034277
 Figure Quest:
   pageId: 129627
   revId: 853297
@@ -42155,7 +42161,7 @@ FlatFatCat:
   revId: 853567
 FlatOut:
   pageId: 7101
-  revId: 979814
+  revId: 1034183
 FlatOut 2:
   pageId: 7104
   revId: 1033258
@@ -43419,7 +43425,7 @@ Forza Horizon 3:
   revId: 1028783
 Forza Horizon 4:
   pageId: 97177
-  revId: 1033890
+  revId: 1034290
 Forza Motorsport:
   pageId: 162113
   revId: 1028785
@@ -54849,7 +54855,7 @@ Hyper Rails:
   revId: 881379
 Hyper Scape:
   pageId: 161541
-  revId: 1025406
+  revId: 1034271
 Hyper Scuffle:
   pageId: 125137
   revId: 886481
@@ -65018,7 +65024,7 @@ Lode Runner:
   unsupportedOs: true
 Lode Runner 2:
   pageId: 140090
-  revId: 1034054
+  revId: 1034196
 Lode Runner Legacy:
   pageId: 63185
   revId: 887062
@@ -69322,7 +69328,7 @@ Medal of Honor (2010):
   revId: 1028028
 'Medal of Honor: Airborne':
   pageId: 3605
-  revId: 1028024
+  revId: 1034137
 'Medal of Honor: Allied Assault':
   pageId: 2754
   revId: 1034132
@@ -70163,7 +70169,7 @@ Metamorphic:
   revId: 861428
 Metamorphosis:
   pageId: 130714
-  revId: 1033387
+  revId: 1034140
 Metanet Hunter CD:
   pageId: 57285
   revId: 888071
@@ -72143,7 +72149,7 @@ Monster Energy Supercross 3:
   revId: 1022614
 Monster Energy Supercross 4:
   pageId: 166160
-  revId: 1031911
+  revId: 1034223
 Monster Farm:
   pageId: 107716
   revId: 861948
@@ -72180,6 +72186,9 @@ Monster Hunter Online:
 Monster Hunter Rise:
   pageId: 166929
   revId: 1032106
+'Monster Hunter Stories 2: Wings of Ruin':
+  pageId: 167106
+  revId: 1034176
 'Monster Hunter: Frontier G':
   pageId: 100886
   revId: 888354
@@ -72516,7 +72525,7 @@ Moonbase Alpha:
   revId: 960837
 Moonbase Commander:
   pageId: 8339
-  revId: 1008321
+  revId: 1034293
   tooBroad: true
 Moonbase Down:
   pageId: 95583
@@ -75481,7 +75490,7 @@ Need for Speed Rivals:
   revId: 1024791
 'Need for Speed: Carbon':
   pageId: 6895
-  revId: 1032048
+  revId: 1034214
 'Need for Speed: Edge':
   pageId: 91406
   revId: 923602
@@ -75517,7 +75526,7 @@ Need for Speed Rivals:
   revId: 1017342
 'Need for Speed: Undercover':
   pageId: 6905
-  revId: 1026415
+  revId: 1034254
 'Need for Speed: Underground':
   pageId: 6886
   revId: 1032364
@@ -75589,10 +75598,10 @@ Neighbours back From Hell:
   revId: 1012294
 Neighbours from Hell:
   pageId: 12532
-  revId: 1030840
+  revId: 1034238
 'Neighbours from Hell 2: On Vacation':
   pageId: 12535
-  revId: 1030841
+  revId: 1034239
 Neither Day nor Night:
   pageId: 151289
   revId: 903029
@@ -76029,7 +76038,7 @@ NeuroVoider:
   revId: 986096
 Neurodeck:
   pageId: 166379
-  revId: 1026483
+  revId: 1034224
 Neurowake:
   pageId: 64264
   revId: 896402
@@ -76451,7 +76460,7 @@ NieR Replicant:
   pageId: 158829
   renamedFrom:
     - 'NieR: Replicant'
-  revId: 1030601
+  revId: 1034169
 'NieR: Automata':
   pageId: 53017
   revId: 1028254
@@ -85417,7 +85426,7 @@ Prey:
   revId: 1027920
 Prey (2017):
   pageId: 33371
-  revId: 999327
+  revId: 1034236
 Prey with Gun:
   pageId: 73532
   revId: 897825
@@ -87163,7 +87172,7 @@ Puyo Puyo Tetris:
   revId: 1027148
 Puyo Puyo Tetris 2:
   pageId: 163062
-  revId: 1033438
+  revId: 1034216
 Puzlogic:
   pageId: 103181
   revId: 988235
@@ -89082,7 +89091,7 @@ Rally Racers:
   revId: 866580
 Rally Trophy:
   pageId: 21708
-  revId: 1028781
+  revId: 1034262
 Ram Boe:
   pageId: 43811
   revId: 866581
@@ -89925,7 +89934,7 @@ Record of Lodoss War Online:
   revId: 942800
 Record of Lodoss War-Deedlit in Wonder Labyrinth-:
   pageId: 165353
-  revId: 1031054
+  revId: 1034217
 Recourse:
   pageId: 44387
   revId: 898707
@@ -90913,7 +90922,7 @@ Resident Evil 6:
   revId: 1027630
 'Resident Evil 7: Biohazard':
   pageId: 35030
-  revId: 1028927
+  revId: 1034150
 Resident Evil HD Remaster:
   pageId: 20009
   revId: 1023906
@@ -90937,7 +90946,7 @@ Resident Evil Zero HD Remaster:
   revId: 1011524
 'Resident Evil: Revelations':
   pageId: 5683
-  revId: 1027633
+  revId: 1034206
 'Resident Evil: Revelations 2':
   pageId: 20010
   revId: 1013072
@@ -91909,7 +91918,7 @@ Rise of Man:
   revId: 867359
 Rise of Nations:
   pageId: 4495
-  revId: 1012372
+  revId: 1034138
 'Rise of Nations: Extended Edition':
   pageId: 17559
   revId: 995858
@@ -96347,7 +96356,7 @@ Sea of Solitude:
   revId: 1033503
 Sea of Thieves:
   pageId: 74031
-  revId: 1016355
+  revId: 1034289
 SeaBed:
   pageId: 57864
   revId: 868567
@@ -97913,7 +97922,7 @@ Shelter 2:
   revId: 969052
 Shelter 3:
   pageId: 132940
-  revId: 968487
+  revId: 1034229
 Shelter in Place:
   pageId: 150608
   renamedFrom:
@@ -104049,7 +104058,7 @@ Spyro Reignited Trilogy:
   revId: 1031195
 Squad:
   pageId: 34671
-  revId: 1016477
+  revId: 1034231
 Squad Z:
   pageId: 104243
   revId: 870796
@@ -106162,7 +106171,7 @@ Stranded Alone:
   revId: 871418
 Stranded Deep:
   pageId: 22601
-  revId: 1020137
+  revId: 1034267
 Stranded II:
   pageId: 59719
   revId: 1005925
@@ -106606,16 +106615,16 @@ Stronghold:
   revId: 963956
 Stronghold (2001):
   pageId: 15839
-  revId: 1022485
+  revId: 1034296
 Stronghold 2:
   pageId: 4788
-  revId: 963012
+  revId: 1034295
 Stronghold 3:
   pageId: 23128
   revId: 963047
 Stronghold Crusader:
   pageId: 19755
-  revId: 1022486
+  revId: 1034297
 Stronghold Crusader 2:
   pageId: 20043
   revId: 1022499
@@ -106624,13 +106633,13 @@ Stronghold Kingdoms:
   revId: 1021084
 Stronghold Legends:
   pageId: 40289
-  revId: 963055
+  revId: 1034298
 'Stronghold: A Hero''s Fate':
   pageId: 123743
   revId: 871537
 'Stronghold: Warlords':
   pageId: 139612
-  revId: 1021885
+  revId: 1034257
 Strongmind:
   pageId: 52598
   revId: 871539
@@ -114415,7 +114424,7 @@ The Incredible Adventures of Van Helsing III:
   revId: 989290
 'The Incredible Adventures of Van Helsing: Final Cut':
   pageId: 29716
-  revId: 989291
+  revId: 1034266
 The Incredible Baron:
   pageId: 42862
   revId: 873734
@@ -120129,7 +120138,7 @@ Tom Clancy's Rainbow Six:
   revId: 1031142
 'Tom Clancy''s Rainbow Six 3: Raven Shield':
   pageId: 6307
-  revId: 1031139
+  revId: 1034245
 Tom Clancy's Rainbow Six Quarantine:
   pageId: 138439
   revId: 1020063
@@ -121459,7 +121468,7 @@ Transparent Black:
   revId: 875635
 Transport Defender:
   pageId: 70573
-  revId: 875636
+  revId: 1034292
 Transport Fever:
   pageId: 39021
   revId: 1031577
@@ -128701,7 +128710,7 @@ We Can't Get Through the Zombies:
   revId: 877679
 We Happy Few:
   pageId: 33394
-  revId: 1000192
+  revId: 1034154
 We Know the Devil:
   pageId: 37860
   revId: 877681
@@ -129771,7 +129780,7 @@ Wildest of the Wild:
   revId: 877981
 Wildfire:
   pageId: 52640
-  revId: 1033697
+  revId: 1034280
 Wildfire Worlds:
   pageId: 10046
   revId: 808148
@@ -131303,7 +131312,7 @@ Wrecker:
   revId: 931192
 Wreckfest:
   pageId: 14151
-  revId: 1033107
+  revId: 1034197
 Wreckin' Ball Adventure:
   pageId: 124506
   revId: 878396
@@ -131487,7 +131496,7 @@ X-ray Hospital:
   revId: 967000
 'X2: Wolverine''s Revenge':
   pageId: 79638
-  revId: 1018086
+  revId: 1034171
 X2Roulette:
   pageId: 124986
   revId: 878444
