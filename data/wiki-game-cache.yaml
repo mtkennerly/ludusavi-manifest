@@ -1864,7 +1864,7 @@ A War Story:
   revId: 841626
 A Way Out:
   pageId: 81902
-  revId: 1011609
+  revId: 1034936
 A Week of Circus Terror:
   pageId: 41795
   revId: 841628
@@ -10410,7 +10410,7 @@ Baldur's Gate 3:
   pageId: 138197
   renamedFrom:
     - Baldur's Gate III
-  revId: 1027271
+  revId: 1034965
 'Baldur''s Gate II: Enhanced Edition':
   pageId: 13575
   revId: 1014366
@@ -11620,6 +11620,10 @@ Battleship Lonewolf 2:
 'Battleship: Official Edition':
   pageId: 104015
   revId: 844462
+'Battleship: Surface Thunder':
+  pageId: 167187
+  revId: 1035016
+  tooBroad: true
 Battleships and Carriers - Pacific War:
   pageId: 150545
   revId: 998330
@@ -14459,7 +14463,7 @@ Blooding Runner X:
   revId: 900603
 Bloodline:
   pageId: 120426
-  revId: 990527
+  revId: 1034970
 Bloodline Champions:
   pageId: 38289
   revId: 969110
@@ -18301,7 +18305,7 @@ Captain The Runner:
   revId: 846507
 'Captain Tsubasa: Rise of New Champions':
   pageId: 157564
-  revId: 1034445
+  revId: 1035019
 Captain fly and sexy students:
   pageId: 148964
   revId: 900626
@@ -18980,7 +18984,7 @@ Castlevania Anniversary Collection:
   revId: 1010277
 'Castlevania: Lords of Shadow - Mirror of Fate HD':
   pageId: 16268
-  revId: 963239
+  revId: 1034944
 'Castlevania: Lords of Shadow 2':
   pageId: 14830
   revId: 1027635
@@ -22512,6 +22516,11 @@ Colony Assault:
 Colony Prospector:
   pageId: 92169
   revId: 847722
+'Colony Ship: A Post-Earth Role Playing Game':
+  pageId: 108696
+  renamedFrom:
+    - The New World
+  revId: 1034902
 Colony Siege:
   pageId: 153932
   revId: 916686
@@ -23464,7 +23473,7 @@ Contractors:
   revId: 848009
 'Contradiction: Spot The Liar!':
   pageId: 37120
-  revId: 929840
+  revId: 1034996
 Contraption Maker:
   pageId: 9797
   revId: 1018691
@@ -25899,7 +25908,7 @@ Curse of the dungeon:
   revId: 900111
 'Curse: The Eye of Isis':
   pageId: 49725
-  revId: 1023750
+  revId: 1034960
 Cursed:
   pageId: 33555
   revId: 919445
@@ -31294,7 +31303,7 @@ Disco Destruction:
   revId: 850260
 Disco Elysium:
   pageId: 62755
-  revId: 1034641
+  revId: 1034908
 Disco Time 80s VR:
   pageId: 63258
   revId: 850264
@@ -35138,7 +35147,7 @@ ELECTRONIC STOCK TRADING SYSTEM:
   revId: 851527
 ELEX:
   pageId: 39789
-  revId: 1022082
+  revId: 1034928
 ELON on MARS:
   pageId: 141618
   revId: 851529
@@ -36548,7 +36557,7 @@ Emergency 2017:
   revId: 851921
 'Emergency 4: Global Fighters for Life':
   pageId: 49595
-  revId: 1034685
+  revId: 1034900
 Emergency Robot Simulator:
   pageId: 95431
   revId: 851923
@@ -43247,7 +43256,7 @@ Fork Truck Challenge:
   revId: 853881
 Forklift Simulator 2019:
   pageId: 122052
-  revId: 913576
+  revId: 1035004
 'Forklift: Simulator':
   pageId: 139151
   revId: 853883
@@ -43386,7 +43395,7 @@ Fortix 2:
   revId: 1003095
 Fortnite:
   pageId: 74054
-  revId: 1029794
+  revId: 1034910
 Fortress Forever:
   pageId: 29506
   revId: 1004600
@@ -46202,7 +46211,7 @@ Geometry Rush:
   revId: 854738
 'Geometry Wars 3: Dimensions Evolved':
   pageId: 21084
-  revId: 1031478
+  revId: 1034977
 'Geometry Wars: Retro Evolved':
   pageId: 12400
   revId: 966585
@@ -48996,7 +49005,7 @@ GuJian 2:
   revId: 936567
 GuJian 3:
   pageId: 125506
-  revId: 975238
+  revId: 1034909
 Guacamelee! 2:
   pageId: 91594
   revId: 1028062
@@ -49158,7 +49167,7 @@ Guilty Gear Isuka:
   revId: 989329
 Guilty Gear Strive:
   pageId: 166565
-  revId: 1033688
+  revId: 1034886
 Guilty Gear X2 Reload:
   pageId: 8199
   revId: 1014973
@@ -49974,7 +49983,7 @@ Half-Life:
   revId: 1034859
 Half-Life 2:
   pageId: 94
-  revId: 1034853
+  revId: 1035000
 'Half-Life 2: Deathmatch':
   pageId: 236
   revId: 1034855
@@ -50095,7 +50104,7 @@ Hallway Simulator 2020:
   revId: 839763
 Halo 2:
   pageId: 3537
-  revId: 1034863
+  revId: 1034906
 'Halo 2: Anniversary':
   pageId: 129526
   revId: 1032685
@@ -50116,7 +50125,7 @@ Halo Beats!:
   revId: 931733
 Halo Infinite:
   pageId: 138382
-  revId: 1016334
+  revId: 1034964
 Halo Online:
   pageId: 124844
   revId: 966013
@@ -50608,7 +50617,7 @@ Harry Potter and the Order of the Phoenix:
   revId: 1027461
 Harry Potter and the Philosopher's Stone:
   pageId: 8540
-  revId: 1032337
+  revId: 1035021
 Harry Potter and the Prisoner of Azkaban:
   pageId: 19536
   revId: 1027002
@@ -51185,7 +51194,7 @@ Heavy Dreams:
   revId: 886008
 Heavy Gear:
   pageId: 14181
-  revId: 778995
+  revId: 1035007
 Heavy Gear Assault:
   pageId: 16664
   revId: 886009
@@ -51451,7 +51460,7 @@ Hellbender:
   revId: 1027514
 'Hellblade: Senua''s Sacrifice':
   pageId: 23029
-  revId: 1030508
+  revId: 1034937
 'Hellblade: Senua''s Sacrifice VR Edition':
   pageId: 102469
   revId: 1030509
@@ -52715,7 +52724,7 @@ Hidden & Dangerous 2:
   revId: 1034742
 Hidden & Dangerous Deluxe:
   pageId: 5943
-  revId: 1033294
+  revId: 1034907
 'Hidden Animals : Photo Hunt. Seek and Find Game':
   pageId: 110150
   revId: 856530
@@ -57756,7 +57765,7 @@ Ironlaw:
   revId: 857971
 Ironsight:
   pageId: 139458
-  revId: 941898
+  revId: 1034942
 Ironsight (Pre-OBT ver.):
   pageId: 138960
   revId: 1009548
@@ -63453,7 +63462,7 @@ Lego Alpha Team:
   revId: 1015330
 'Lego Batman 2: DC Super Heroes':
   pageId: 3075
-  revId: 1033297
+  revId: 1035012
 'Lego Batman 3: Beyond Gotham':
   pageId: 20834
   revId: 1026384
@@ -64347,6 +64356,12 @@ Lightning War:
 Lightrise:
   pageId: 45184
   revId: 886953
+Lights:
+  pageId: 167189
+  revId: 1034933
+Lights 3D:
+  pageId: 167192
+  revId: 1034939
 Lights Out:
   pageId: 137392
   revId: 859784
@@ -65036,7 +65051,7 @@ Lode Runner:
   unsupportedOs: true
 Lode Runner 2:
   pageId: 140090
-  revId: 1034368
+  revId: 1034884
 Lode Runner Legacy:
   pageId: 63185
   revId: 887062
@@ -67164,7 +67179,7 @@ Maelstrom:
   revId: 887588
 Mafia:
   pageId: 2311
-  revId: 1028205
+  revId: 1034997
 Mafia Alive:
   pageId: 72320
   revId: 887589
@@ -70275,7 +70290,7 @@ Metro 2033 Redux:
 Metro Exodus:
   irregularPath: true
   pageId: 63660
-  revId: 1032533
+  revId: 1034961
   tooBroad: true
 Metro Explosion Simulator:
   pageId: 140875
@@ -76945,10 +76960,10 @@ Nino's Isekai:
   revId: 906079
 'Nioh 2: The Complete Edition':
   pageId: 165272
-  revId: 1034680
+  revId: 1034957
 'Nioh: Complete Edition':
   pageId: 73165
-  revId: 1034532
+  revId: 1034958
 Niplheim's Hunter - Branded Azel:
   pageId: 124639
   revId: 896534
@@ -79547,7 +79562,7 @@ Oppaidius Tropical Cruise!:
   revId: 998120
 Optica:
   pageId: 120820
-  revId: 863960
+  revId: 1034947
 Optika:
   pageId: 36746
   revId: 863961
@@ -80498,7 +80513,7 @@ Overlord II:
   revId: 927587
 Overpass:
   pageId: 135879
-  revId: 962788
+  revId: 1034903
 Overpass (2019):
   pageId: 128495
   revId: 930234
@@ -81724,7 +81739,7 @@ PartyLine VR:
   revId: 864543
 'Pascal''s Wager: Definitive Edition':
   pageId: 166860
-  revId: 1031585
+  revId: 1034995
 Pass The Time:
   pageId: 72232
   revId: 897269
@@ -86726,7 +86741,7 @@ Psychonauts:
   tooBroad: true
 Psychonauts 2:
   pageId: 57588
-  revId: 1032029
+  revId: 1034972
 Psychonauts in the Rhombus of Ruin:
   pageId: 92518
   revId: 1018768
@@ -90611,7 +90626,7 @@ Remember:
   revId: 916595
 Remember Me:
   pageId: 5391
-  revId: 1034085
+  revId: 1034948
 'Remember, Lights Out':
   pageId: 148878
   revId: 900536
@@ -91229,7 +91244,7 @@ Return of the Obra Dinn:
   revId: 1007069
 Return of the Phantom:
   pageId: 147589
-  revId: 1010704
+  revId: 1034998
 Return of the Triad:
   pageId: 72613
   revId: 920183
@@ -96116,7 +96131,7 @@ Scorn:
   revId: 834185
 'Scott Pilgrim vs. The World: The Game - Complete Edition':
   pageId: 163313
-  revId: 1028169
+  revId: 1034892
 Scott in Space:
   pageId: 47168
   revId: 868493
@@ -101691,7 +101706,8 @@ Sonic Dash:
   revId: 1012693
 Sonic Forces:
   pageId: 57372
-  revId: 1025331
+  revId: 1035020
+  unsupportedOs: true
 Sonic Generations:
   pageId: 2802
   revId: 1033922
@@ -106177,7 +106193,7 @@ Straima:
   revId: 871413
 Straimium Immortaly:
   pageId: 40151
-  revId: 871414
+  revId: 1034891
 Strain Tactics:
   pageId: 61512
   revId: 871415
@@ -107213,7 +107229,7 @@ Sunset Kingdom:
   revId: 930381
 Sunset Overdrive:
   pageId: 120675
-  revId: 1026507
+  revId: 1034968
 Sunset Planet:
   pageId: 128274
   revId: 871700
@@ -108273,7 +108289,7 @@ Superhot VR:
   revId: 1012704
 'Superhot: Mind Control Delete':
   pageId: 78066
-  revId: 1031879
+  revId: 1034956
 Superior Wizards:
   pageId: 113818
   revId: 872007
@@ -108665,7 +108681,7 @@ Survived By:
   revId: 872123
 Surviving Mars:
   pageId: 62372
-  revId: 1033666
+  revId: 1034979
 Surviving Medieval:
   pageId: 136680
   revId: 872124
@@ -110845,7 +110861,7 @@ Teeworlds:
   revId: 1023629
 Tekken 7:
   pageId: 33384
-  revId: 1031251
+  revId: 1034943
 Tekling:
   pageId: 80889
   revId: 872735
@@ -111776,7 +111792,7 @@ The Amazing Shrinking Giraffe:
   revId: 872996
 The Amazing Spider-Man (2012):
   pageId: 4240
-  revId: 1031289
+  revId: 1034890
 The Amazing Spider-Man 2:
   pageId: 16973
   revId: 1031287
@@ -111934,7 +111950,7 @@ The Away Team:
   revId: 873037
 The Awesome Adventures of Captain Spirit:
   pageId: 97245
-  revId: 1021570
+  revId: 1035005
 The Awkward Steve Duology:
   pageId: 64560
   revId: 873040
@@ -113223,13 +113239,13 @@ The Eigengrau Menagerie:
   revId: 963968
 'The Elder Scrolls II: Daggerfall':
   pageId: 1503
-  revId: 1018800
+  revId: 1034949
 'The Elder Scrolls III: Morrowind':
   pageId: 46
-  revId: 1034850
+  revId: 1034976
 'The Elder Scrolls IV: Oblivion':
   pageId: 120
-  revId: 1034700
+  revId: 1035008
 The Elder Scrolls Online:
   pageId: 9001
   revId: 1024949
@@ -115937,9 +115953,6 @@ The New Queen:
 'The New Universes: ~ Eine Neue Reise Beginnt ~ Chapter 1':
   pageId: 141461
   revId: 874121
-The New World:
-  pageId: 108696
-  revId: 1011094
 The Next Big Thing:
   pageId: 23972
   revId: 1021560
@@ -118001,7 +118014,7 @@ The Walking Dead Onslaught:
   revId: 1026551
 'The Walking Dead: The Telltale Definitive Series':
   pageId: 133848
-  revId: 1017829
+  revId: 1034889
 The Walking Evil:
   pageId: 156899
   revId: 932088
@@ -118704,7 +118717,7 @@ Thief Town:
   revId: 963167
 'Thief: Deadly Shadows':
   pageId: 2920
-  revId: 1030755
+  revId: 1034966
 'Thief: The Dark Project':
   pageId: 146
   revId: 1031288
@@ -121465,7 +121478,7 @@ Transference:
   revId: 1003470
 'Transformers: The Game':
   pageId: 76686
-  revId: 1034874
+  revId: 1034951
 'Transformers: War for Cybertron':
   pageId: 20
   revId: 1023239
@@ -125476,7 +125489,7 @@ Valhalla Hills:
   revId: 1021070
 Valheim:
   pageId: 113522
-  revId: 1034882
+  revId: 1034959
 Valiant:
   pageId: 43235
   revId: 876761
@@ -131114,7 +131127,7 @@ World of Tanks:
   revId: 1027418
 World of Tanks Blitz:
   pageId: 51282
-  revId: 878329
+  revId: 1034954
 World of Tea:
   pageId: 95401
   revId: 997096
@@ -133003,7 +133016,7 @@ Zeus vs Monsters:
   revId: 878865
 'Zeus: Master of Olympus':
   pageId: 5741
-  revId: 936920
+  revId: 1034982
   tooBroad: true
 Zezenia Online:
   pageId: 42531
