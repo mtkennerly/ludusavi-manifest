@@ -27224,7 +27224,6 @@
 * [Songs2See](https://www.pcgamingwiki.com/wiki/?curid=40507)
 * [Sonia and the Hypnotic City](https://www.pcgamingwiki.com/wiki/?curid=164481)
 * [Sonic 3D Blast](https://www.pcgamingwiki.com/wiki/?curid=21712)
-* [Sonic Forces](https://www.pcgamingwiki.com/wiki/?curid=57372)
 * [Sonic Hunter VR](https://www.pcgamingwiki.com/wiki/?curid=53884)
 * [Sonic Racing](https://www.pcgamingwiki.com/wiki/?curid=148163)
 * [Sonic's Schoolhouse](https://www.pcgamingwiki.com/wiki/?curid=152293)
