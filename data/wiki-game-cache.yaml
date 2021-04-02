@@ -6665,8 +6665,9 @@ Another Dawn:
   pageId: 139398
   revId: 843017
 Another Eden:
+  irregularPath: true
   pageId: 167093
-  revId: 1039417
+  revId: 1039698
 Another Hardcore Game:
   pageId: 121137
   revId: 977919
@@ -10378,7 +10379,7 @@ Bala na manga:
   revId: 844082
 Balan Wonderworld:
   pageId: 162129
-  revId: 1039203
+  revId: 1039800
 BalanCity:
   pageId: 41545
   revId: 844084
@@ -11038,7 +11039,7 @@ Batla:
   revId: 1032281
 'Batman: Arkham City':
   pageId: 748
-  revId: 1037151
+  revId: 1039673
 'Batman: Arkham Knight':
   pageId: 15767
   revId: 1034612
@@ -12992,7 +12993,7 @@ Biohazard 2 (Sourcenext):
   revId: 1036834
 'Biohazard 3: Last Escape (Sourcenext)':
   pageId: 124708
-  revId: 1021735
+  revId: 1039821
 Biolab:
   pageId: 157780
   revId: 936117
@@ -13313,7 +13314,7 @@ Black & White:
   revId: 1035831
 Black & White 2:
   pageId: 5666
-  revId: 1030777
+  revId: 1039663
 Black & White Bushido:
   pageId: 46180
   revId: 937254
@@ -14377,7 +14378,7 @@ Blood Harvest 3:
   revId: 845230
 'Blood II: The Chosen':
   pageId: 13923
-  revId: 1025059
+  revId: 1039751
   tooBroad: true
 Blood Island:
   pageId: 125655
@@ -16127,7 +16128,7 @@ Breakout Invaders:
   revId: 927138
 Breath of Fire IV:
   pageId: 22583
-  revId: 995512
+  revId: 1039747
   tooBroad: true
 Breath of Warfare:
   pageId: 77279
@@ -27322,7 +27323,7 @@ Dark Mechanism:
   revId: 849049
 Dark Messiah of Might and Magic:
   pageId: 2238
-  revId: 1035946
+  revId: 1039741
 Dark Miasma:
   pageId: 145073
   revId: 840444
@@ -28406,7 +28407,7 @@ Dead Sky:
   revId: 889730
 Dead Space:
   pageId: 65
-  revId: 1036282
+  revId: 1039806
 Dead Space 2:
   pageId: 2841
   revId: 1038865
@@ -30455,7 +30456,7 @@ Detention:
 DethKarz:
   irregularPath: true
   pageId: 154788
-  revId: 1036923
+  revId: 1039670
 Detonation:
   pageId: 139279
   revId: 849990
@@ -31350,7 +31351,7 @@ Disco Destruction:
   revId: 850260
 Disco Elysium:
   pageId: 62755
-  revId: 1039390
+  revId: 1039824
 Disco Time 80s VR:
   pageId: 63258
   revId: 850264
@@ -31502,7 +31503,7 @@ Disney Universe:
   revId: 926151
 Disney's Aladdin:
   pageId: 79097
-  revId: 1036556
+  revId: 1039665
 'Disney''s Animated Storybook: 101 Dalmatians':
   pageId: 55230
   revId: 964752
@@ -34495,7 +34496,7 @@ Dungeon Jump - 地牢跳跃:
   revId: 851330
 Dungeon Keeper:
   pageId: 7396
-  revId: 1023707
+  revId: 1039739
 Dungeon Keeper 2:
   pageId: 1623
   revId: 1035854
@@ -38481,7 +38482,7 @@ Evil Genius:
   revId: 1039554
 'Evil Genius 2: World Domination':
   pageId: 138430
-  revId: 1039568
+  revId: 1039725
 Evil Genome:
   pageId: 66211
   revId: 852452
@@ -41519,7 +41520,7 @@ Final Fantasy XI:
   revId: 1035131
 'Final Fantasy XII: The Zodiac Age':
   pageId: 80152
-  revId: 1037089
+  revId: 1039658
 Final Fantasy XIII:
   pageId: 19980
   revId: 1037591
@@ -45857,7 +45858,7 @@ Gatlin':
   revId: 901790
 Gatling Gears:
   pageId: 40918
-  revId: 1016987
+  revId: 1039779
 Gato Roboto:
   pageId: 130543
   revId: 991227
@@ -48178,7 +48179,7 @@ Grand Theft Auto V:
   revId: 1016557
 'Grand Theft Auto: San Andreas':
   pageId: 1886
-  revId: 1037948
+  revId: 1039697
 'Grand Theft Auto: Vice City':
   pageId: 994
   revId: 1036751
@@ -53908,6 +53909,9 @@ Horde of Plenty:
 'Horde: Zombie Outbreak':
   pageId: 102611
   revId: 886325
+HordeCore:
+  pageId: 167612
+  revId: 1039749
 HordeZ:
   pageId: 34755
   revId: 886326
@@ -56070,6 +56074,9 @@ Immune - True Survival:
 Immunity:
   pageId: 152813
   revId: 915506
+Imp of the Sun:
+  pageId: 167614
+  revId: 1039772
 Impact Winter:
   pageId: 55067
   revId: 857460
@@ -60938,10 +60945,10 @@ Kingdom Elemental:
   revId: 858809
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   pageId: 166570
-  revId: 1039649
+  revId: 1039704
 Kingdom Hearts HD 2.8 Final Chapter Prologue:
   pageId: 166573
-  revId: 1039490
+  revId: 1039825
 Kingdom Hearts III:
   pageId: 166575
   revId: 1039611
@@ -63674,7 +63681,7 @@ Lego Rock Raiders:
   revId: 1030043
 'Lego Star Wars: The Video Game':
   pageId: 3974
-  revId: 1034871
+  revId: 1039720
 Lego Stunt Rally:
   pageId: 25672
   revId: 1006285
@@ -72360,7 +72367,7 @@ Monster Hunter Rise:
   revId: 888354
 'Monster Hunter: World':
   pageId: 100868
-  revId: 1029095
+  revId: 1039668
 Monster Hunting... For Love!:
   pageId: 129859
   revId: 861955
@@ -75576,7 +75583,7 @@ Necro Wars:
   revId: 916626
 NecroVisioN:
   pageId: 3614
-  revId: 1038290
+  revId: 1039737
 'NecroVisioN: Lost Company':
   pageId: 24295
   revId: 1038291
@@ -78360,7 +78367,7 @@ Octonaut - 星のタコ:
   revId: 863578
 Octopath Traveler:
   pageId: 133649
-  revId: 1038997
+  revId: 1039755
 Octopticom:
   pageId: 114504
   revId: 863580
@@ -79567,7 +79574,7 @@ OpenRCT2:
   revId: 1038832
 OpenTTD:
   pageId: 1377
-  revId: 1032714
+  revId: 1039721
 Opencast Mining:
   pageId: 126389
   revId: 1030589
@@ -80479,7 +80486,7 @@ Outrider Mako:
   revId: 1038879
 Outriders:
   pageId: 138437
-  revId: 1037952
+  revId: 1039731
 Outrunner:
   pageId: 60908
   revId: 920058
@@ -87839,7 +87846,7 @@ Quadrilateral Cowboy:
   revId: 1007329
 Quake:
   pageId: 233
-  revId: 1035555
+  revId: 1039656
 Quake 4:
   pageId: 6551
   revId: 1031912
@@ -89532,7 +89539,7 @@ Ravva and the Cyclops Curse:
   revId: 866645
 Raw Data:
   pageId: 38053
-  revId: 898620
+  revId: 1039784
 Raw Footage:
   pageId: 88233
   revId: 898621
@@ -90134,7 +90141,7 @@ Record of Lodoss War Online:
   pageId: 165353
   renamedFrom:
     - Record of Lodoss War-Deedlit in Wonder Labyrinth-
-  revId: 1039178
+  revId: 1039722
 Recourse:
   pageId: 44387
   revId: 898707
@@ -95081,7 +95088,7 @@ Sacrament:
   revId: 868171
 Sacred:
   pageId: 2066
-  revId: 1039511
+  revId: 1039694
 'Sacred 2: Fallen Angel':
   pageId: 2079
   revId: 1039497
@@ -98786,7 +98793,7 @@ Shrek Forever After:
   revId: 1037979
 Shrek SuperSlam:
   pageId: 126540
-  revId: 1037976
+  revId: 1039724
 Shrek the Third:
   pageId: 65796
   revId: 1037981
@@ -99129,7 +99136,7 @@ Silent Hill 3:
   revId: 1036753
 'Silent Hill 4: The Room':
   pageId: 20028
-  revId: 1035451
+  revId: 1039746
 'Silent Hill: Homecoming':
   pageId: 13527
   revId: 1019924
@@ -101076,10 +101083,10 @@ Sniper Zombie Killer:
   revId: 986577
 'Sniper: Ghost Warrior 3':
   pageId: 39592
-  revId: 1023339
+  revId: 1039726
 'Sniper: Ghost Warrior Contracts':
   pageId: 139599
-  revId: 1027738
+  revId: 1039744
 'Sniper: Ghost Warrior Contracts 2':
   pageId: 161332
   revId: 1033293
@@ -104075,6 +104082,9 @@ Sponchies:
 'SpongeBob SquarePants: Employee of the Month':
   pageId: 63566
   revId: 947210
+'SpongeBob SquarePants: Lights, Camera, Pants!':
+  pageId: 167603
+  revId: 1039702
 'SpongeBob SquarePants: Operation Krabby Patty':
   pageId: 152323
   revId: 983421
@@ -110348,7 +110358,7 @@ Tales of the Lumminai:
   revId: 872530
 Tales of the Neon Sea:
   pageId: 92379
-  revId: 1037756
+  revId: 1039730
 'Tales of the Orient: The Rising Sun':
   pageId: 48561
   revId: 872532
@@ -112334,7 +112344,7 @@ The Binding of Isaac:
   revId: 1019505
 'The Binding of Isaac: Rebirth':
   pageId: 20747
-  revId: 1039413
+  revId: 1039766
 The Binding of YOU:
   pageId: 149492
   revId: 901188
@@ -116266,6 +116276,9 @@ The Old Tree:
 The Olivia Saga:
   pageId: 120725
   revId: 874158
+The Omega Syndrome:
+  pageId: 167610
+  revId: 1039735
 The One We Found:
   pageId: 113416
   revId: 874159
@@ -117391,7 +117404,7 @@ The Sims 3:
   revId: 1025325
 The Sims 4:
   pageId: 17715
-  revId: 1036659
+  revId: 1039688
 The Sims Castaway Stories:
   pageId: 16229
   revId: 1032849
@@ -117539,7 +117552,7 @@ The Spirits of Kelley Family:
   revId: 1031467
 The SpongeBob SquarePants Movie:
   pageId: 158908
-  revId: 1037489
+  revId: 1039701
 The Spookening:
   pageId: 52800
   revId: 874501
@@ -120503,7 +120516,7 @@ Tomb Raider II:
   revId: 1030720
 'Tomb Raider: The Angel of Darkness':
   pageId: 7031
-  revId: 1030722
+  revId: 1039732
 'Tomb Raider: The Last Revelation':
   pageId: 7007
   revId: 1030724
@@ -120587,7 +120600,7 @@ Tony Hawk's Pro Skater 1 + 2:
   revId: 1032091
 Tony Hawk's Pro Skater 2:
   pageId: 804
-  revId: 1038783
+  revId: 1039742
 Tony Hawk's Pro Skater 3:
   pageId: 18774
   revId: 1038770
@@ -120941,7 +120954,7 @@ Total Tank Simulator:
   revId: 1026676
 Totally Accurate Battle Simulator:
   pageId: 39747
-  revId: 1034417
+  revId: 1039780
 Totally Accurate Battlegrounds:
   pageId: 97029
   revId: 962301
@@ -120956,7 +120969,7 @@ Totally Realistic Sledding VR:
   revId: 875423
 Totally Reliable Delivery Service:
   pageId: 128639
-  revId: 1028323
+  revId: 1039752
 Totally Spies! Totally Party:
   pageId: 122921
   revId: 942154
@@ -125581,7 +125594,7 @@ VVVVV:
   revId: 925632
 VVVVVV:
   pageId: 800
-  revId: 1039426
+  revId: 1039664
 Vacant:
   pageId: 68573
   revId: 876729
@@ -132174,7 +132187,7 @@ Yakuza 5 Remastered:
   revId: 1038776
 'Yakuza 6: The Song of Life':
   pageId: 165649
-  revId: 1039537
+  revId: 1039672
 Yakuza Kiss:
   pageId: 96239
   revId: 878561
@@ -132599,7 +132612,7 @@ Your Friend Hana:
   revId: 878689
 Your Future Self:
   pageId: 129687
-  revId: 1039407
+  revId: 1039716
 Your Home:
   pageId: 128304
   revId: 978069
@@ -134032,7 +134045,7 @@ Zzzzz:
   revId: 975764
 Černaja Metka:
   pageId: 139919
-  revId: 1029927
+  revId: 1039740
 'ΔV: Rings of Saturn':
   pageId: 109004
   revId: 879097
