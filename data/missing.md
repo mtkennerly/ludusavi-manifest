@@ -14269,7 +14269,6 @@
 * [Hit&Run VR baseball](https://www.pcgamingwiki.com/wiki/?curid=132226)
 * [HitBox](https://www.pcgamingwiki.com/wiki/?curid=39286)
 * [Hitchhiker](https://www.pcgamingwiki.com/wiki/?curid=134468)
-* [Hitchhiker - A Mystery Game](https://www.pcgamingwiki.com/wiki/?curid=139600)
 * [Hitori](https://www.pcgamingwiki.com/wiki/?curid=79234)
 * [HITOTSU NO MORI](https://www.pcgamingwiki.com/wiki/?curid=142115)
 * [Hive](https://www.pcgamingwiki.com/wiki/?curid=37732)

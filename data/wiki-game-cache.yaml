@@ -671,7 +671,7 @@ $1 Ride:
   revId: 841283
 30XX:
   pageId: 162110
-  revId: 1032930
+  revId: 1040105
 '30km survival zone: Chernobyl':
   pageId: 152821
   revId: 997360
@@ -4545,7 +4545,7 @@ Alaloth - Champions of The Four Kingdoms:
   revId: 973609
 Alan Wake:
   pageId: 536
-  revId: 1036434
+  revId: 1040200
 Alan Wake's American Nightmare:
   pageId: 7197
   revId: 1002900
@@ -7128,9 +7128,12 @@ Aquatica:
 Aquila Bird Flight Simulator:
   pageId: 56768
   revId: 843157
+'Ar Nosurge: Ode to an Unborn Star DX':
+  pageId: 167659
+  revId: 1040214
 'Ar nosurge: Ode to an Unborn Star Deluxe':
   pageId: 167379
-  revId: 1037512
+  revId: 1040146
 'Ar:piel':
   pageId: 152240
   revId: 1021559
@@ -7752,7 +7755,7 @@ Armies of Riddle E.X. (Extreme):
   revId: 932589
 Armikrog:
   pageId: 25692
-  revId: 843327
+  revId: 1040176
 Armor Clash:
   pageId: 51033
   revId: 843328
@@ -8320,7 +8323,7 @@ Asphyxia:
   revId: 843471
 Assassin's Creed:
   pageId: 84
-  revId: 1036447
+  revId: 1040204
 'Assassin''s Creed Chronicles: China':
   pageId: 24032
   revId: 1026516
@@ -11539,7 +11542,7 @@ Battlefield 1942:
   revId: 1035404
 Battlefield 2:
   pageId: 225
-  revId: 1032597
+  revId: 1040233
 Battlefield 2142:
   pageId: 4478
   revId: 1032603
@@ -11557,13 +11560,13 @@ Battlefield Armor:
   revId: 844435
 Battlefield Hardline:
   pageId: 17778
-  revId: 1034775
+  revId: 1040123
 Battlefield Heroes:
   pageId: 73080
-  revId: 1039903
+  revId: 1040232
 Battlefield Play4Free:
   pageId: 22444
-  revId: 1039905
+  revId: 1040231
 Battlefield Supremacy:
   pageId: 109842
   revId: 844437
@@ -11575,7 +11578,7 @@ Battlefield Vietnam:
   revId: 1032595
 'Battlefield: Bad Company 2':
   pageId: 59
-  revId: 1032455
+  revId: 1040210
 Battlefleet Engineer:
   pageId: 67225
   revId: 844440
@@ -21090,7 +21093,10 @@ Ciel Nosurge -Ushinawareta Hoshi e Sasagu Uta- DX:
   pageId: 165055
   renamedFrom:
     - Surge Concerto DX
-  revId: 1037511
+  revId: 1040145
+'Ciel Nosurge: Requiem for a Lost Star DX':
+  pageId: 167657
+  revId: 1040215
 Cinderella Dollhouse 2:
   pageId: 166682
   revId: 1029648
@@ -21983,7 +21989,7 @@ Cloudlands 2:
   revId: 995818
 Cloudphobia:
   pageId: 54770
-  revId: 847550
+  revId: 1040197
 Cloudpunk:
   pageId: 122480
   revId: 1032699
@@ -23555,7 +23561,7 @@ Contrasted:
   revId: 848016
 Control:
   pageId: 97395
-  revId: 1039055
+  revId: 1040175
 Control Craft 2:
   pageId: 44609
   revId: 848018
@@ -24314,7 +24320,7 @@ Crash And Burn Racing:
   revId: 1039504
 Crash Bandicoot N. Sane Trilogy:
   pageId: 89119
-  revId: 1040101
+  revId: 1040104
 Crash Dive:
   pageId: 47379
   revId: 848232
@@ -28416,7 +28422,7 @@ Dead Sky:
   revId: 889730
 Dead Space:
   pageId: 65
-  revId: 1039806
+  revId: 1040126
 Dead Space 2:
   pageId: 2841
   revId: 1038865
@@ -30341,7 +30347,7 @@ Destle Strike:
   revId: 849956
 Destroy All Humans!:
   pageId: 138254
-  revId: 1020658
+  revId: 1040168
 Destroy Space Aliens:
   pageId: 76947
   revId: 849957
@@ -32473,7 +32479,7 @@ Doom (1993):
   revId: 1034259
 Doom (2016):
   pageId: 19349
-  revId: 1031895
+  revId: 1040218
 Doom 3:
   pageId: 157
   revId: 1036160
@@ -32491,7 +32497,7 @@ Doom Classic:
   revId: 1036669
 Doom Eternal:
   pageId: 97499
-  revId: 1036971
+  revId: 1040230
 Doom II Classic:
   pageId: 155160
   revId: 1036166
@@ -36076,7 +36082,7 @@ El Hincha Rusia 2018:
   revId: 851762
 El Matador:
   pageId: 50488
-  revId: 1037331
+  revId: 1040102
 'El Ministerio del Tiempo VR: El tiempo en tus manos':
   pageId: 72668
   revId: 851764
@@ -46174,7 +46180,7 @@ Genesis Alpha One:
   revId: 1012602
 Genesis Noir:
   pageId: 92411
-  revId: 1038398
+  revId: 1040111
 Genesis Online:
   pageId: 45672
   revId: 854705
@@ -48185,7 +48191,7 @@ Grand Theft Auto IV:
   revId: 1036755
 'Grand Theft Auto Re: Liberty City Stories':
   pageId: 167582
-  revId: 1039941
+  revId: 1040213
 Grand Theft Auto V:
   pageId: 17708
   revId: 1036229
@@ -53330,7 +53336,7 @@ Hitchhiker:
   revId: 940460
 Hitchhiker - A Mystery Game:
   pageId: 139600
-  revId: 1038150
+  revId: 1040167
 Hitman:
   pageId: 25689
   revId: 1032192
@@ -54254,7 +54260,7 @@ Hotline Miami:
   revId: 996513
 Hotshot Racing:
   pageId: 163232
-  revId: 1034091
+  revId: 1040162
 Houdini Redux:
   pageId: 136873
   revId: 856999
@@ -55297,7 +55303,7 @@ I Walk Among Zombies Vol. 2:
   revId: 1002968
 I Wanna Be The Guy:
   pageId: 164183
-  revId: 1004118
+  revId: 1040117
 I Wanna Be the Cat:
   pageId: 77934
   revId: 857261
@@ -58535,7 +58541,7 @@ Jambo's Adventure:
   revId: 1036359
 'James Cameron''s Avatar: The Game':
   pageId: 4228
-  revId: 1035111
+  revId: 1040208
 James Town Courier Frog MD:
   pageId: 156065
   revId: 931139
@@ -60951,7 +60957,7 @@ Kingdom Clicker:
   revId: 858805
 'Kingdom Come: Deliverance':
   pageId: 20535
-  revId: 1024864
+  revId: 1040173
 Kingdom Defense:
   pageId: 77028
   revId: 858808
@@ -60960,16 +60966,16 @@ Kingdom Elemental:
   revId: 858809
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   pageId: 166570
-  revId: 1040100
+  revId: 1040124
 Kingdom Hearts HD 2.8 Final Chapter Prologue:
   pageId: 166573
-  revId: 1040091
+  revId: 1040180
 Kingdom Hearts III:
   pageId: 166575
-  revId: 1040090
+  revId: 1040151
 Kingdom Hearts Melody of Memory:
   pageId: 166577
-  revId: 1039610
+  revId: 1040108
 Kingdom Heroes 2:
   pageId: 141954
   revId: 858811
@@ -67206,7 +67212,7 @@ Mad Restaurant People:
   revId: 887573
 Mad Riders:
   pageId: 5821
-  revId: 1039443
+  revId: 1040195
 Mad Snowboarding:
   pageId: 46516
   revId: 887574
@@ -68746,7 +68752,7 @@ Masha Rescues Grandma:
   revId: 860979
 Mashed:
   pageId: 17965
-  revId: 1016263
+  revId: 1040138
 Mashinky:
   irregularPath: true
   pageId: 69030
@@ -68813,7 +68819,7 @@ Mass Effect 2:
   revId: 1036277
 Mass Effect 3:
   pageId: 1300
-  revId: 1033636
+  revId: 1040220
 Mass Effect Legendary Edition:
   pageId: 165160
   revId: 1031134
@@ -69496,13 +69502,13 @@ Mechstermination Force:
   revId: 1034628
 Medal of Honor (2010):
   pageId: 2746
-  revId: 1028025
+  revId: 1040209
 'Medal of Honor: Above and Beyond':
   pageId: 147268
   revId: 1028028
 'Medal of Honor: Airborne':
   pageId: 3605
-  revId: 1037214
+  revId: 1040199
 'Medal of Honor: Allied Assault':
   pageId: 2754
   revId: 1036303
@@ -69511,7 +69517,7 @@ Medal of Honor (2010):
   revId: 1034743
 'Medal of Honor: Warfighter':
   pageId: 3453
-  revId: 1028027
+  revId: 1040203
 Medical verdict:
   pageId: 109300
   revId: 1004533
@@ -75036,7 +75042,7 @@ Naev:
   revId: 1021744
 Nail'd:
   pageId: 26407
-  revId: 862653
+  revId: 1040196
 'Nairi: Tower of Shirin':
   pageId: 96081
   revId: 862654
@@ -77016,7 +77022,7 @@ Ninja Code:
   revId: 896512
 'Ninja Gaiden: Master Collection':
   pageId: 166724
-  revId: 1036505
+  revId: 1040226
 Ninja Gainyk:
   pageId: 65015
   revId: 896513
@@ -77208,7 +77214,7 @@ No Man's Land:
   revId: 905402
 No Man's Sky:
   pageId: 25679
-  revId: 1025992
+  revId: 1040127
 No Mans Land:
   pageId: 69663
   revId: 979661
@@ -79992,10 +79998,10 @@ Organosphere:
   revId: 897006
 Ori and the Blind Forest:
   pageId: 22815
-  revId: 1025825
+  revId: 1040156
 'Ori and the Blind Forest: Definitive Edition':
   pageId: 32520
-  revId: 1038758
+  revId: 1040155
 Ori and the Will of the Wisps:
   pageId: 137485
   revId: 1039179
@@ -80501,7 +80507,7 @@ Outrider Mako:
   revId: 1038879
 Outriders:
   pageId: 138437
-  revId: 1039731
+  revId: 1040229
 Outrunner:
   pageId: 60908
   revId: 920058
@@ -87897,7 +87903,7 @@ Quantized:
   revId: 898406
 Quantum Break:
   pageId: 31276
-  revId: 1029483
+  revId: 1040181
 Quantum Chess:
   pageId: 54505
   revId: 866196
@@ -91112,7 +91118,7 @@ Resfort:
   revId: 898843
 Resident Evil:
   pageId: 218
-  revId: 1037101
+  revId: 1040113
 Resident Evil 2:
   pageId: 21579
   revId: 1031932
@@ -91168,7 +91174,7 @@ Resident Evil Zero HD Remaster:
   revId: 1011524
 'Resident Evil: Revelations':
   pageId: 5683
-  revId: 1035264
+  revId: 1040178
 'Resident Evil: Revelations 2':
   pageId: 20010
   revId: 1035262
@@ -95139,7 +95145,7 @@ Sacred Sword Princesses:
   revId: 1030566
 Sacrifice:
   pageId: 4180
-  revId: 1039302
+  revId: 1040207
 Sacrifice Dungeon:
   pageId: 80891
   revId: 868183
@@ -96590,7 +96596,7 @@ Sea of Solitude:
   revId: 1033503
 Sea of Thieves:
   pageId: 74031
-  revId: 1034289
+  revId: 1040183
 SeaBed:
   pageId: 57864
   revId: 868567
@@ -99202,7 +99208,7 @@ Silicomrades:
   revId: 903096
 Silicon City:
   pageId: 144289
-  revId: 839633
+  revId: 1040169
 Silicon Zeroes:
   pageId: 68192
   revId: 932944
@@ -101996,7 +102002,7 @@ Sopwith VR:
   revId: 870101
 Sora:
   pageId: 31204
-  revId: 1009971
+  revId: 1040193
 Sorcerer King:
   pageId: 34298
   revId: 989644
@@ -111564,7 +111570,7 @@ Test Drive Le Mans:
   revId: 1021986
 Test Drive Unlimited:
   pageId: 10891
-  revId: 1029744
+  revId: 1040185
 Test Drive Unlimited 2:
   pageId: 10902
   revId: 1029752
@@ -112365,7 +112371,7 @@ The Binding of Isaac:
   revId: 1019505
 'The Binding of Isaac: Rebirth':
   pageId: 20747
-  revId: 1039766
+  revId: 1040188
 The Binding of YOU:
   pageId: 149492
   revId: 901188
@@ -124647,7 +124653,7 @@ Unrailed!:
   revId: 1024527
 Unravel:
   pageId: 31310
-  revId: 1032564
+  revId: 1040153
 Unravel Two:
   pageId: 97145
   revId: 1032592
@@ -125043,7 +125049,7 @@ V-Racer Hoverbike:
   revId: 876554
 V-Rally 2 Expert Edition:
   pageId: 22617
-  revId: 1004499
+  revId: 1040184
   tooBroad: true
 V-Rally 3:
   pageId: 59561
@@ -130989,7 +130995,7 @@ WonderCat Adventures:
   revId: 878220
 'Wonderbox: The Adventure Maker':
   pageId: 163898
-  revId: 1001500
+  revId: 1040224
 Wonderful Everyday Down the Rabbit-Hole:
   pageId: 66832
   revId: 987816
@@ -132636,7 +132642,7 @@ Your Friend Hana:
   revId: 878689
 Your Future Self:
   pageId: 129687
-  revId: 1039716
+  revId: 1040125
 Your Home:
   pageId: 128304
   revId: 978069
