@@ -10864,7 +10864,7 @@
 * [Faucet VR](https://www.pcgamingwiki.com/wiki/?curid=87479)
 * [Fault - Silence the Pedant](https://www.pcgamingwiki.com/wiki/?curid=64341)
 * [Fault & Fragment](https://www.pcgamingwiki.com/wiki/?curid=151647)
-* [Faulty Apprentice - Fantasy visual novel](https://www.pcgamingwiki.com/wiki/?curid=126395)
+* [Faulty Apprentice](https://www.pcgamingwiki.com/wiki/?curid=126395)
 * [Faust: The Seven Games of the Soul](https://www.pcgamingwiki.com/wiki/?curid=165380)
 * [Fausts Alptraum](https://www.pcgamingwiki.com/wiki/?curid=56392)
 * [Faux](https://www.pcgamingwiki.com/wiki/?curid=129981)

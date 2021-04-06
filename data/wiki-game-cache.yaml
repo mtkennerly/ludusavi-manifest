@@ -1499,7 +1499,7 @@ A Handful of Keflings:
   revId: 994857
 A Hat in Time:
   pageId: 39610
-  revId: 1036768
+  revId: 1040419
 'A Haunting: Witching Hour':
   pageId: 72712
   revId: 841516
@@ -2562,7 +2562,7 @@ Abomination Tower:
   revId: 1029575
 Aboo:
   pageId: 167427
-  revId: 1038138
+  revId: 1040474
 Aborigenus:
   pageId: 113008
   revId: 841827
@@ -3031,7 +3031,7 @@ Acro Storm:
   revId: 841979
 'Acron: Attack of the Squirrels!':
   pageId: 139406
-  revId: 841980
+  revId: 1040558
 Acrophobia:
   pageId: 129819
   revId: 841981
@@ -5055,7 +5055,7 @@ Aliens versus Predator:
   revId: 1038043
 Aliens versus Predator 2:
   pageId: 754
-  revId: 1017680
+  revId: 1040445
 Aliens vs. Predator (2010):
   pageId: 4437
   revId: 1032449
@@ -7852,7 +7852,7 @@ Army Craft:
   revId: 992072
 Army Gals:
   pageId: 39711
-  revId: 1036246
+  revId: 1040513
 Army General:
   pageId: 59659
   revId: 843355
@@ -11818,7 +11818,7 @@ BeamNG.drive:
   pageId: 9256
   renamedFrom:
     - BeamNG Drive
-  revId: 1020311
+  revId: 1040508
 Bean Battles:
   pageId: 104837
   revId: 844506
@@ -16952,7 +16952,7 @@ Bulletstorm:
   revId: 1038563
 'Bulletstorm: Full Clip Edition':
   pageId: 54255
-  revId: 1027624
+  revId: 1040490
 Bulls town:
   pageId: 124239
   revId: 846083
@@ -18519,7 +18519,7 @@ Card story:
   revId: 1022971
 'CardLife: Cardboard Survival':
   pageId: 113734
-  revId: 909895
+  revId: 1040608
 Cardaclysm:
   pageId: 166941
   revId: 1036749
@@ -21602,7 +21602,7 @@ Classic Hentai Logic Puzzle:
   revId: 931249
 Classic Racers:
   pageId: 129979
-  revId: 1025188
+  revId: 1040499
 Classic Rodeo Play:
   pageId: 90086
   revId: 847434
@@ -22478,7 +22478,7 @@ Colette's Sugar Madness:
   revId: 847694
 Colin McRae Rally:
   pageId: 22760
-  revId: 1028719
+  revId: 1040395
 Colin McRae Rally (2014):
   pageId: 18733
   revId: 1038836
@@ -26976,7 +26976,7 @@ Dandy Dungeon - Legend of Brave Yamada -:
   revId: 1025010
 'Danganronpa: Trigger Happy Havoc':
   pageId: 30929
-  revId: 1033059
+  revId: 1040578
 Danger City:
   pageId: 152763
   revId: 915454
@@ -28569,7 +28569,7 @@ Deadlight:
   revId: 1021274
 'Deadlight: Director''s Cut':
   pageId: 33389
-  revId: 1040374
+  revId: 1040488
 Deadliners:
   pageId: 65325
   revId: 849426
@@ -30489,7 +30489,7 @@ Deus:
   revId: 964038
 Deus Ex:
   pageId: 47
-  revId: 1032348
+  revId: 1040461
 Deus Ex GO:
   pageId: 62121
   revId: 1018684
@@ -30519,7 +30519,7 @@ Deus Ex Machina 2:
   revId: 850003
 'Deus Ex: Revision':
   pageId: 29086
-  revId: 1030770
+  revId: 1040486
 'Deus Ex: The Fall':
   pageId: 15919
   revId: 968126
@@ -31345,7 +31345,7 @@ Dischord:
   revId: 850252
 'Disciples II: Dark Prophecy':
   pageId: 16432
-  revId: 1000541
+  revId: 1040459
 'Disciples III: Reincarnation':
   pageId: 51059
   revId: 850255
@@ -31452,7 +31452,7 @@ Dishonored:
   revId: 1034814
 Dishonored 2:
   pageId: 25753
-  revId: 1036494
+  revId: 1040468
 'Dishonored: Death of the Outsider':
   pageId: 63518
   revId: 969042
@@ -32993,7 +32993,7 @@ Dragon Age II:
   revId: 1027671
 'Dragon Age: Inquisition':
   pageId: 16793
-  revId: 1040326
+  revId: 1040470
 'Dragon Age: Origins':
   pageId: 69
   revId: 1030873
@@ -39090,7 +39090,7 @@ Extreme-G 2:
   revId: 852645
 Extremely Goofy Skateboarding:
   pageId: 66366
-  revId: 1036507
+  revId: 1040414
 Extricate:
   pageId: 130682
   revId: 852646
@@ -40032,10 +40032,10 @@ Fallingcers:
   revId: 1035351
 Fallout:
   pageId: 1892
-  revId: 1039969
+  revId: 1040507
 Fallout 2:
   pageId: 1352
-  revId: 1039980
+  revId: 1040506
   tooBroad: true
 Fallout 3:
   pageId: 198
@@ -40057,7 +40057,7 @@ Fallout Shelter:
   revId: 1039972
 'Fallout: New Vegas':
   pageId: 573
-  revId: 1035973
+  revId: 1040521
 Fallstreak:
   pageId: 121460
   revId: 1010218
@@ -40891,9 +40891,11 @@ Fault - Milestone Two:
 Fault - Silence the Pedant:
   pageId: 64341
   revId: 853150
-Faulty Apprentice - Fantasy visual novel:
+Faulty Apprentice:
   pageId: 126395
-  revId: 853151
+  renamedFrom:
+    - Faulty Apprentice - Fantasy visual novel
+  revId: 1040555
 'Faust: The Seven Games of the Soul':
   pageId: 165380
   revId: 1013787
@@ -45366,7 +45368,7 @@ Galaxy Cannon Rider:
   revId: 854476
 Galaxy Champions TV:
   pageId: 108988
-  revId: 1032517
+  revId: 1040500
 Galaxy Combat Wargames:
   pageId: 40118
   revId: 854478
@@ -45993,7 +45995,7 @@ Gears of War 4:
   revId: 1013047
 'Gears of War: Ultimate Edition':
   pageId: 31450
-  revId: 1010047
+  revId: 1040427
 Gearwars:
   pageId: 145534
   revId: 840909
@@ -46534,7 +46536,7 @@ GhostGame:
   revId: 854804
 'GhostWire: Tokyo':
   pageId: 161009
-  revId: 1003388
+  revId: 1040463
 Ghostball:
   pageId: 151497
   revId: 903246
@@ -50128,7 +50130,7 @@ Half-Life 2:
   revId: 1024719
 'Half-Life: Decay':
   pageId: 11495
-  revId: 1034862
+  revId: 1040465
 'Half-Life: Opposing Force':
   pageId: 179
   revId: 1034860
@@ -50713,7 +50715,7 @@ Harpoon Cat:
   revId: 855979
 Harry Potter and the Chamber of Secrets:
   pageId: 8846
-  revId: 1035100
+  revId: 1040471
 Harry Potter and the Deathly Hallows Part 1:
   pageId: 19544
   revId: 1009227
@@ -50725,13 +50727,13 @@ Harry Potter and the Goblet of Fire:
   revId: 1008311
 Harry Potter and the Half-Blood Prince:
   pageId: 19542
-  revId: 1032341
+  revId: 1040479
 Harry Potter and the Order of the Phoenix:
   pageId: 19540
   revId: 1027461
 Harry Potter and the Philosopher's Stone:
   pageId: 8540
-  revId: 1040308
+  revId: 1040455
 Harry Potter and the Prisoner of Azkaban:
   pageId: 19536
   revId: 1027002
@@ -52528,7 +52530,7 @@ Heroes of Maidan 2:
   revId: 886122
 Heroes of Might and Magic II:
   pageId: 6518
-  revId: 1036436
+  revId: 1040549
 Heroes of Might and Magic III:
   pageId: 4634
   revId: 1033272
@@ -53348,7 +53350,7 @@ Hitman 2:
   revId: 1028211
 Hitman 3:
   pageId: 58966
-  revId: 1033130
+  revId: 1040422
 Hitman GO:
   pageId: 30357
   revId: 1018683
@@ -53968,7 +53970,7 @@ Horizon Vanguard:
   revId: 886332
 Horizon Zero Dawn:
   pageId: 158338
-  revId: 1024499
+  revId: 1040610
 Horizon of History:
   pageId: 53389
   revId: 886333
@@ -59307,7 +59309,7 @@ Juice Girl:
   revId: 858345
 Juiced:
   pageId: 21290
-  revId: 1040353
+  revId: 1040425
 'Juiced 2: Hot Import Nights':
   pageId: 21286
   revId: 955706
@@ -60966,13 +60968,13 @@ Kingdom Elemental:
   revId: 858809
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   pageId: 166570
-  revId: 1040362
+  revId: 1040604
 Kingdom Hearts HD 2.8 Final Chapter Prologue:
   pageId: 166573
   revId: 1040180
 Kingdom Hearts III:
   pageId: 166575
-  revId: 1040151
+  revId: 1040603
 Kingdom Hearts Melody of Memory:
   pageId: 166577
   revId: 1040108
@@ -63817,7 +63819,7 @@ Lemuria:
   revId: 859576
 'Lemuria: Lost in Space':
   pageId: 54035
-  revId: 886647
+  revId: 1040398
 'Lemuria: Lost in Space - VR Edition':
   pageId: 66157
   revId: 886651
@@ -66984,7 +66986,7 @@ MX vs. ATV All Out:
   revId: 860481
 MX vs. ATV Reflex:
   pageId: 11931
-  revId: 1000301
+  revId: 1040485
 MX vs. ATV Supercross Encore:
   pageId: 45880
   revId: 860483
@@ -71886,7 +71888,7 @@ Mob War:
   revId: 888287
 Mobil 1 Rally Championship:
   pageId: 22679
-  revId: 1002676
+  revId: 1040546
 Mobile Astro:
   pageId: 54810
   revId: 888288
@@ -73599,7 +73601,7 @@ Munchies:
   revId: 892890
 'Munchkin: Quacked Quest':
   pageId: 150623
-  revId: 1016370
+  revId: 1040418
 Mundaun:
   pageId: 95047
   revId: 1039555
@@ -75320,7 +75322,7 @@ Nark the Dragon:
   revId: 945544
 'Naruto Shippuden: Ultimate Ninja Storm 4':
   pageId: 23068
-  revId: 978763
+  revId: 1040543
 'Naruto Shippuden: Ultimate Ninja Storm Revolution':
   pageId: 19901
   revId: 927263
@@ -75684,7 +75686,7 @@ Need for Speed II:
   revId: 1030591
 'Need for Speed III: Hot Pursuit':
   pageId: 6761
-  revId: 1040373
+  revId: 1040449
 Need for Speed Payback:
   pageId: 63244
   revId: 1035564
@@ -79598,7 +79600,7 @@ OpenRCT2:
   revId: 1038832
 OpenTTD:
   pageId: 1377
-  revId: 1039940
+  revId: 1040487
 Opencast Mining:
   pageId: 126389
   revId: 1030589
@@ -83229,7 +83231,7 @@ Pinball Dreams 2:
   revId: 983410
 Pinball Dreams Deluxe:
   pageId: 154686
-  revId: 983411
+  revId: 1040405
 Pinball Dreams HD:
   pageId: 147647
   revId: 891890
@@ -83244,19 +83246,19 @@ Pinball FX3:
   revId: 1015747
 Pinball Fantasies:
   pageId: 26166
-  revId: 983412
+  revId: 1040400
 Pinball HD Collection:
   pageId: 41876
   revId: 897443
 Pinball Illusions:
   pageId: 131957
-  revId: 965002
+  revId: 1040404
 'Pinball Inside: A VR Arcade Game':
   pageId: 58991
   revId: 897444
 Pinball Mania:
   pageId: 131959
-  revId: 983413
+  revId: 1040401
 Pinball Parlor:
   pageId: 55720
   revId: 897445
@@ -84560,7 +84562,7 @@ Plumbers Don't Wear Ties:
   revId: 1036624
 'Plumeboom: The First Chapter':
   pageId: 167591
-  revId: 1039624
+  revId: 1040484
 Plunder:
   pageId: 125167
   revId: 897664
@@ -91177,7 +91179,7 @@ Resident Evil Zero HD Remaster:
   revId: 1011524
 'Resident Evil: Revelations':
   pageId: 5683
-  revId: 1040178
+  revId: 1040426
 'Resident Evil: Revelations 2':
   pageId: 20010
   revId: 1035262
@@ -93612,7 +93614,7 @@ Roommates:
   revId: 867763
 'Rooms: The Unsolvable Puzzle':
   pageId: 38019
-  revId: 867764
+  revId: 1040396
 Roomscale Coaster:
   pageId: 58334
   revId: 867765
@@ -95016,7 +95018,7 @@ SWAM:
   revId: 1030958
 SWAT 4:
   pageId: 685
-  revId: 1033948
+  revId: 1040587
 SWEATER? OK! - The Dilogy:
   pageId: 153758
   revId: 1022320
@@ -95495,7 +95497,7 @@ Sam & Max Save the World:
   revId: 1031302
 Sam & Max Save the World (2020):
   pageId: 165176
-  revId: 1031304
+  revId: 1040577
 'Sam & Max: The Devil''s Playhouse':
   pageId: 7783
   revId: 998744
@@ -97312,7 +97314,7 @@ Serious Sam 2:
   revId: 1029040
 Serious Sam 4:
   pageId: 92526
-  revId: 1035273
+  revId: 1040424
 'Serious Sam Classics: Revolution':
   pageId: 19189
   revId: 996134
@@ -97327,7 +97329,7 @@ Serious Sam Fusion 2017:
   revId: 1026007
 'Serious Sam HD: The Second Encounter':
   pageId: 7909
-  revId: 1026008
+  revId: 1040528
 'Serious Sam VR: The First Encounter':
   pageId: 55267
   revId: 1006466
@@ -97345,7 +97347,7 @@ Serious Sam's Bogus Detour:
   revId: 926545
 'Serious Sam: The First Encounter':
   pageId: 3812
-  revId: 1033818
+  revId: 1040504
 'Serious Sam: The Random Encounter':
   pageId: 8032
   revId: 960946
@@ -97695,7 +97697,7 @@ Shadow of the Road:
   revId: 903395
 Shadow of the Tomb Raider:
   pageId: 89875
-  revId: 1014549
+  revId: 1040510
 'Shadow: Treachery Cannot Be Tolerated':
   pageId: 87281
   revId: 868858
@@ -105698,7 +105700,7 @@ SteamWorld Dig 2:
   revId: 979738
 SteamWorld Heist:
   pageId: 33127
-  revId: 1028725
+  revId: 1040589
 'SteamWorld Quest: Hand of Gilgamech':
   irregularPath: true
   pageId: 136286
@@ -106768,7 +106770,7 @@ Strife (MOBA):
   revId: 1024884
 'Strife: Veteran Edition':
   pageId: 21451
-  revId: 1008014
+  revId: 1040512
 Strike Cars:
   pageId: 109494
   revId: 871503
@@ -111087,7 +111089,7 @@ Teeworlds:
   revId: 1023629
 Tekken 7:
   pageId: 33384
-  revId: 1038559
+  revId: 1040584
 Tekling:
   pageId: 80889
   revId: 872735
@@ -114215,7 +114217,7 @@ The Golf Club:
   revId: 989136
 The Golf Club 2:
   pageId: 63030
-  revId: 989135
+  revId: 1040421
 The Golf Club 2019 featuring PGA Tour:
   pageId: 108024
   revId: 989134
@@ -114269,13 +114271,13 @@ The Great Art Race:
   revId: 983626
 The Great Battles of Alexander:
   pageId: 131898
-  revId: 928358
+  revId: 1040408
 The Great Battles of Caesar:
   pageId: 131902
-  revId: 928360
+  revId: 1040410
 The Great Battles of Hannibal:
   pageId: 131900
-  revId: 928359
+  revId: 1040409
 The Great C:
   pageId: 108976
   revId: 873618
@@ -114395,7 +114397,7 @@ The Gun Knight:
   revId: 873653
 The Gunk:
   pageId: 162119
-  revId: 985896
+  revId: 1040561
 The Guy Game:
   pageId: 167386
   revId: 1037255
@@ -116269,7 +116271,7 @@ The Occupant:
   revId: 874145
 The Occupation:
   pageId: 78790
-  revId: 1024835
+  revId: 1040469
 The Odd Battle:
   pageId: 108196
   revId: 874147
@@ -118402,7 +118404,7 @@ The Westport Independent:
   revId: 933139
 The Wheel of Time:
   pageId: 26844
-  revId: 1035380
+  revId: 1040529
 The Whispered World:
   pageId: 14280
   revId: 967193
@@ -120466,7 +120468,7 @@ Tom Clancy's Rainbow Six Siege:
   revId: 1031137
 Tom Clancy's Splinter Cell:
   pageId: 8580
-  revId: 1037058
+  revId: 1040516
 'Tom Clancy''s Splinter Cell: Blacklist':
   pageId: 8950
   revId: 1039412
@@ -120534,13 +120536,13 @@ Tomb Raider Chronicles:
   tooBroad: true
 Tomb Raider II:
   pageId: 7003
-  revId: 1032698
+  revId: 1040420
 'Tomb Raider III: Adventures of Lara Croft':
   pageId: 4286
   revId: 1030725
 'Tomb Raider: Anniversary':
   pageId: 7005
-  revId: 1030719
+  revId: 1040432
 'Tomb Raider: Legend':
   pageId: 3886
   revId: 1030720
@@ -121436,7 +121438,7 @@ TrackMania Nations:
   revId: 925455
 TrackMania Nations Forever:
   pageId: 37794
-  revId: 1023003
+  revId: 1040406
 TrackMania Sunrise:
   pageId: 32879
   revId: 1018877
@@ -121445,7 +121447,7 @@ TrackMania United:
   revId: 1018875
 TrackMania United Forever:
   pageId: 29944
-  revId: 1023023
+  revId: 1040403
 Trackday Manager:
   pageId: 43853
   revId: 875537
@@ -126773,7 +126775,7 @@ Virtua Tennis:
   revId: 1038958
 Virtua Tennis 2009:
   pageId: 162909
-  revId: 1038984
+  revId: 1040423
 Virtua Tennis 3:
   pageId: 161973
   revId: 1033717
@@ -128170,7 +128172,7 @@ WarForwards:
   revId: 877441
 WarGames:
   pageId: 72119
-  revId: 935288
+  revId: 1040503
 WarGames (2018):
   pageId: 137253
   revId: 877442
@@ -128699,7 +128701,7 @@ Wartune:
   revId: 877580
 Warzone 2100:
   pageId: 6600
-  revId: 1040375
+  revId: 1040536
 Warzone VR:
   pageId: 125355
   revId: 877583
@@ -131747,7 +131749,7 @@ X-Blades:
   revId: 1032360
 'X-COM: Apocalypse':
   pageId: 8268
-  revId: 964175
+  revId: 1040435
   tooBroad: true
 'X-COM: Enforcer':
   pageId: 17609
@@ -131851,7 +131853,7 @@ XCOM 2:
   revId: 1018531
 'XCOM: Enemy Unknown':
   pageId: 3709
-  revId: 1033851
+  revId: 1040441
 XCavalypse:
   pageId: 42670
   revId: 878458
@@ -132217,7 +132219,7 @@ Yakuza 4 Remastered:
   revId: 1038734
 Yakuza 5 Remastered:
   pageId: 165648
-  revId: 1040357
+  revId: 1040447
 'Yakuza 6: The Song of Life':
   pageId: 165649
   revId: 1039672
