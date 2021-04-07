@@ -20967,7 +20967,6 @@
 * [OddBallers](https://www.pcgamingwiki.com/wiki/?curid=139752)
 * [Oddity](https://www.pcgamingwiki.com/wiki/?curid=159218)
 * [OddPlanet](https://www.pcgamingwiki.com/wiki/?curid=34448)
-* [Oddworld: Soulstorm](https://www.pcgamingwiki.com/wiki/?curid=131251)
 * [Ode to a Moon](https://www.pcgamingwiki.com/wiki/?curid=142093)
 * [Odium to the Core](https://www.pcgamingwiki.com/wiki/?curid=93108)
 * [Odyssee](https://www.pcgamingwiki.com/wiki/?curid=93353)
