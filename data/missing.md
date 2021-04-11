@@ -28494,6 +28494,7 @@
 * [Strategic Command WWII: War in Europe](https://www.pcgamingwiki.com/wiki/?curid=62741)
 * [Strategic Command WWII: World at War](https://www.pcgamingwiki.com/wiki/?curid=123427)
 * [Strategic Mind: Blitzkrieg](https://www.pcgamingwiki.com/wiki/?curid=159358)
+* [Strategic Mind: Fight for Freedom](https://www.pcgamingwiki.com/wiki/?curid=167783)
 * [Strategic Mind: Spectre of Communism](https://www.pcgamingwiki.com/wiki/?curid=165254)
 * [Strategic Mind: The Pacific](https://www.pcgamingwiki.com/wiki/?curid=124476)
 * [Strategist](https://www.pcgamingwiki.com/wiki/?curid=107910)
