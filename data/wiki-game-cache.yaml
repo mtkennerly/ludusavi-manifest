@@ -941,6 +941,9 @@ $1 Ride:
 '5089':
   pageId: 33969
   revId: 841350
+5D Chess With Multiverse Time Travel:
+  pageId: 167846
+  revId: 1041771
 5Leaps (Space Tower Defense):
   pageId: 135244
   revId: 841351
@@ -2179,9 +2182,11 @@ AIRA VR:
 AIdol:
   pageId: 92147
   revId: 987939
-AI＊Shoujo/AI＊少女:
+AI＊Shoujo:
   pageId: 166213
-  revId: 1024179
+  renamedFrom:
+    - AI＊Shoujo/AI＊少女
+  revId: 1041814
 AKAI NOROI:
   pageId: 150600
   revId: 902322
@@ -5746,7 +5751,7 @@ American Fugitive:
   revId: 1035747
 American McGee's Alice:
   pageId: 17504
-  revId: 1041739
+  revId: 1041890
 American McGee's Alice (2011):
   pageId: 79639
   revId: 1032986
@@ -5809,7 +5814,7 @@ Amira:
   revId: 842757
 'Amnesia: A Machine for Pigs':
   pageId: 557
-  revId: 1040863
+  revId: 1041752
 'Amnesia: Memories':
   pageId: 30504
   revId: 971818
@@ -5818,7 +5823,7 @@ Amira:
   revId: 1039533
 'Amnesia: The Dark Descent':
   pageId: 693
-  revId: 1040865
+  revId: 1041751
 Amok:
   pageId: 44042
   revId: 842763
@@ -11072,7 +11077,7 @@ Batla:
   revId: 1039673
 'Batman: Arkham Knight':
   pageId: 15767
-  revId: 1034612
+  revId: 1041783
 'Batman: Arkham Origins':
   pageId: 10725
   revId: 1035480
@@ -15180,7 +15185,7 @@ BoneBone:
   revId: 845429
 BoneCraft:
   pageId: 94161
-  revId: 935253
+  revId: 1041800
 BoneTown:
   pageId: 93539
   revId: 944943
@@ -18381,7 +18386,7 @@ Captain The Runner:
   revId: 846507
 'Captain Tsubasa: Rise of New Champions':
   pageId: 157564
-  revId: 1035019
+  revId: 1041749
 Captain fly and sexy students:
   pageId: 148964
   revId: 900626
@@ -22990,13 +22995,13 @@ Command & Conquer:
 'Command & Conquer 3: Tiberium Wars':
   irregularPath: true
   pageId: 484
-  revId: 998676
+  revId: 1041860
 'Command & Conquer 4: Tiberian Twilight':
   pageId: 4292
-  revId: 1016978
+  revId: 1041859
 Command & Conquer Remastered Collection:
   pageId: 138289
-  revId: 1034348
+  revId: 1041855
 'Command & Conquer: Generals':
   pageId: 2101
   revId: 988621
@@ -23005,14 +23010,14 @@ Command & Conquer Remastered Collection:
   revId: 1027016
 'Command & Conquer: Red Alert 2':
   pageId: 459
-  revId: 1027014
+  revId: 1041853
 'Command & Conquer: Red Alert 3':
   pageId: 3140
-  revId: 1016977
+  revId: 1041861
 'Command & Conquer: Red Alert 3 - Uprising':
   irregularPath: true
   pageId: 13416
-  revId: 1023947
+  revId: 1041862
 'Command & Conquer: Renegade':
   pageId: 1078
   revId: 990979
@@ -23097,7 +23102,7 @@ Commando Jack:
   revId: 911843
 Commandos 2 HD Remaster:
   pageId: 138529
-  revId: 972120
+  revId: 1041870
 'Commandos 2: Men of Courage':
   pageId: 7591
   revId: 1038134
@@ -28536,7 +28541,7 @@ Dead or Alive 6:
   revId: 1022520
 Dead or School:
   pageId: 103401
-  revId: 1041430
+  revId: 1041891
 Dead territory:
   pageId: 153738
   revId: 916485
@@ -30753,7 +30758,7 @@ DiRT Showdown:
   revId: 1038835
 Diablo:
   pageId: 2982
-  revId: 1041731
+  revId: 1041882
 Diablo II:
   pageId: 595
   revId: 1035165
@@ -35797,7 +35802,7 @@ Eclipsed:
   revId: 851680
 Eco:
   pageId: 37074
-  revId: 1029319
+  revId: 1041883
 'EcoQuest: The Search for Cetus':
   pageId: 147102
   revId: 1036603
@@ -38548,7 +38553,7 @@ Evil Genius:
   revId: 1039554
 'Evil Genius 2: World Domination':
   pageId: 138430
-  revId: 1040299
+  revId: 1041779
 Evil Genome:
   pageId: 66211
   revId: 852452
@@ -50147,7 +50152,7 @@ Half Past Impossible:
   revId: 855810
 Half-Life:
   pageId: 467
-  revId: 1041346
+  revId: 1041852
 Half-Life 2:
   pageId: 94
   revId: 1041352
@@ -50513,6 +50518,9 @@ Happy Engine:
 Happy Feet:
   pageId: 89006
   revId: 973692
+Happy Game:
+  pageId: 167849
+  revId: 1041801
 Happy Grumps:
   pageId: 142313
   revId: 855903
@@ -53768,7 +53776,7 @@ Homefront:
   revId: 1027741
 'Homefront: The Revolution':
   pageId: 17578
-  revId: 1041721
+  revId: 1041869
 Homeless Simulator:
   pageId: 132526
   revId: 886283
@@ -58735,7 +58743,7 @@ Jazz Jackrabbit:
   revId: 964874
 Jazz Jackrabbit 2:
   pageId: 20241
-  revId: 1041397
+  revId: 1041888
 'Jazz Lightning : Castle Dungeons':
   pageId: 151397
   revId: 997491
@@ -61037,7 +61045,7 @@ Kingdom Hearts III:
   revId: 1041647
 Kingdom Hearts Melody of Memory:
   pageId: 166577
-  revId: 1041648
+  revId: 1041777
 Kingdom Heroes 2:
   pageId: 141954
   revId: 858811
@@ -61654,6 +61662,11 @@ Koihime Enbu:
 Koihime Enbu RyoRaiRai:
   pageId: 99922
   revId: 1022815
+Koikatsu Party:
+  pageId: 166215
+  renamedFrom:
+    - コイカツ！ / Koikatsu Party
+  revId: 1041819
 Koikoi:
   pageId: 100190
   revId: 858972
@@ -63870,7 +63883,7 @@ Lemnis Gate:
   revId: 859573
 Lemon Cake:
   pageId: 166951
-  revId: 1032265
+  revId: 1041772
 Lemons Must Die:
   pageId: 73023
   revId: 859574
@@ -65941,7 +65954,7 @@ Lost Wing:
   revId: 860167
 'Lost Words: Beyond the Page':
   pageId: 122798
-  revId: 1041675
+  revId: 1041889
 Lost and Found RPG:
   pageId: 121343
   revId: 887159
@@ -68191,6 +68204,9 @@ Mall Craze:
 Mall Empire:
   pageId: 57776
   revId: 887722
+Mall Maniacs:
+  pageId: 167851
+  revId: 1041868
 Mall Mayhem:
   pageId: 73446
   revId: 887723
@@ -70109,7 +70125,7 @@ Merchant:
   revId: 888024
 Merchant of the Skies:
   pageId: 130585
-  revId: 882625
+  revId: 1041808
 Merchants & Mercenaries:
   pageId: 52816
   revId: 888026
@@ -70508,7 +70524,7 @@ Metro 2033 Redux:
 Metro Exodus:
   irregularPath: true
   pageId: 63660
-  revId: 1038662
+  revId: 1041782
   tooBroad: true
 Metro Explosion Simulator:
   pageId: 140875
@@ -73492,7 +73508,7 @@ Mr. Parkour 3:
   revId: 1010161
 Mr. Prepper:
   pageId: 79448
-  revId: 1029313
+  revId: 1041838
 'Mr. Pumpkin 2: Kowloon walled city':
   pageId: 153282
   revId: 996691
@@ -75331,7 +75347,7 @@ Nanoswarm:
   revId: 896246
 Nanotale - Typing Chronicles:
   pageId: 124599
-  revId: 1041671
+  revId: 1041887
 Nanotris:
   pageId: 41934
   revId: 896248
@@ -78520,7 +78536,7 @@ Oddity:
   revId: 1038583
 'Oddworld: Soulstorm':
   pageId: 131251
-  revId: 1041517
+  revId: 1041787
 'Oddworld: Stranger''s Wrath':
   pageId: 4960
   revId: 1038309
@@ -86926,7 +86942,7 @@ Psi Project 2:
   revId: 898035
 'Psi-Ops: The Mindgate Conspiracy':
   pageId: 32686
-  revId: 1022705
+  revId: 1041768
 'PsiSyn: The Game':
   pageId: 125402
   revId: 898036
@@ -91254,7 +91270,7 @@ Resident Evil Zero HD Remaster:
   revId: 1011524
 'Resident Evil: Revelations':
   pageId: 5683
-  revId: 1041726
+  revId: 1041750
 'Resident Evil: Revelations 2':
   pageId: 20010
   revId: 1035262
@@ -92079,7 +92095,7 @@ Rikki & Vikki:
   revId: 898974
 RimWorld:
   pageId: 13368
-  revId: 1016460
+  revId: 1041844
 Rime:
   pageId: 56039
   revId: 988200
@@ -95958,7 +95974,7 @@ Satellite Rush:
   revId: 868370
 Satisfactory:
   pageId: 97365
-  revId: 1041723
+  revId: 1041839
 Saturated Outer Space:
   pageId: 132844
   revId: 868372
@@ -100516,7 +100532,7 @@ Slender's Woods:
   revId: 801777
 'Slender: The Arrival':
   pageId: 5440
-  revId: 1033832
+  revId: 1041762
 'Slender: The Eight Pages':
   pageId: 5902
   revId: 1023094
@@ -101986,7 +102002,7 @@ Sonic 3D Blast (2010):
   revId: 1004408
 Sonic Adventure 2:
   pageId: 5774
-  revId: 1039087
+  revId: 1041836
 Sonic Adventure DX:
   pageId: 21737
   revId: 1035471
@@ -102010,7 +102026,7 @@ Sonic Forces:
   revId: 1035028
 Sonic Generations:
   pageId: 2802
-  revId: 1041077
+  revId: 1041837
 Sonic Heroes:
   pageId: 19831
   revId: 1041147
@@ -102022,7 +102038,7 @@ Sonic Lost World:
   revId: 1024800
 Sonic Mania:
   pageId: 57370
-  revId: 1031284
+  revId: 1041830
 Sonic Mega Collection Plus:
   pageId: 72161
   revId: 1033267
@@ -104952,6 +104968,9 @@ Star Trek Timelines:
 'Star Trek: Bridge Crew':
   pageId: 56509
   revId: 926330
+'Star Trek: Deep Space Nine - Dominion Wars':
+  pageId: 167844
+  revId: 1041769
 'Star Trek: Deep Space Nine - Harbinger':
   pageId: 157515
   revId: 965155
@@ -109597,7 +109616,7 @@ Synthetic Love:
   revId: 880017
 'Synthetik: Legion Uprising':
   pageId: 81934
-  revId: 989279
+  revId: 1041872
 Synthrally:
   pageId: 91224
   revId: 872290
@@ -109756,7 +109775,7 @@ TEOT - The End OF Tomorrow:
   revId: 872330
 TERA:
   pageId: 1989
-  revId: 1039185
+  revId: 1041885
 TERMINAL:
   pageId: 153740
   revId: 916488
@@ -110342,7 +110361,7 @@ Tale of the Gallant Jiraiya:
   revId: 931117
 TaleSpire:
   pageId: 159134
-  revId: 1040775
+  revId: 1041879
 Talent Not Included:
   pageId: 36624
   revId: 872487
@@ -111042,6 +111061,9 @@ Team Sonic Racing:
 Team Up VR (Beta):
   pageId: 108384
   revId: 872698
+Teamfight Manager:
+  pageId: 167847
+  revId: 1041790
 Tear and the Library of Labyrinths:
   pageId: 164471
   revId: 1008004
@@ -115475,7 +115497,7 @@ The Legend of Excalipurr:
   revId: 1036444
 'The Legend of Heroes: Trails of Cold Steel III':
   pageId: 155285
-  revId: 1038999
+  revId: 1041798
 'The Legend of Heroes: Trails of Cold Steel IV':
   pageId: 158900
   revId: 1041296
@@ -115727,10 +115749,10 @@ The Lord of the Rings Online:
   revId: 914760
 'The Lord of the Rings: The Battle for Middle-earth':
   pageId: 22941
-  revId: 1010955
+  revId: 1041864
 'The Lord of the Rings: The Battle for Middle-earth II':
   pageId: 22966
-  revId: 1027912
+  revId: 1041863
 'The Lord of the Rings: The Fellowship of the Ring (2002)':
   pageId: 22963
   revId: 1013275
@@ -118191,7 +118213,7 @@ The Unbreakable Gumball:
   revId: 874632
 'The Uncertain: Last Quiet Day':
   pageId: 39079
-  revId: 1004024
+  revId: 1041797
 'The Uncertain: Light at the End':
   pageId: 113794
   revId: 1021826
@@ -121085,7 +121107,7 @@ Total Tank Simulator:
   revId: 1026681
 'Total War: Warhammer II':
   pageId: 60343
-  revId: 1031770
+  revId: 1041766
 'Total War: Warhammer III':
   pageId: 166393
   revId: 1026676
@@ -121106,7 +121128,7 @@ Totally Realistic Sledding VR:
   revId: 875423
 Totally Reliable Delivery Service:
   pageId: 128639
-  revId: 1040067
+  revId: 1041822
 Totally Spies! Totally Party:
   pageId: 122921
   revId: 942154
@@ -127503,7 +127525,7 @@ Voxel Turf:
   revId: 913599
 Voxel Tycoon:
   pageId: 81786
-  revId: 941429
+  revId: 1041881
 VoxelWorld:
   pageId: 87047
   revId: 877235
@@ -132000,7 +132022,7 @@ XIII (2020):
   revId: 1038041
 XIII - Lost Identity:
   pageId: 89210
-  revId: 1011937
+  revId: 1041795
 'XIII Century: Blood of Europe':
   pageId: 51253
   revId: 1038505
@@ -134306,9 +134328,6 @@ Zzzzz:
 エルソード (ELSWORD):
   pageId: 129577
   revId: 879129
-コイカツ！ / Koikatsu Party:
-  pageId: 166215
-  revId: 1034511
 シニサギ:
   pageId: 141352
   revId: 879130
