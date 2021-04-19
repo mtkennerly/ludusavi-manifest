@@ -28133,7 +28133,6 @@
 * [Starcatcher](https://www.pcgamingwiki.com/wiki/?curid=82916)
 * [Starcats](https://www.pcgamingwiki.com/wiki/?curid=93657)
 * [Starchaser: Priestess of the Night Sky](https://www.pcgamingwiki.com/wiki/?curid=47131)
-* [Starcom: Nexus](https://www.pcgamingwiki.com/wiki/?curid=109088)
 * [Starcross Arena](https://www.pcgamingwiki.com/wiki/?curid=122142)
 * [StarCrossed](https://www.pcgamingwiki.com/wiki/?curid=128722)
 * [Stardrift Nomads](https://www.pcgamingwiki.com/wiki/?curid=59093)
