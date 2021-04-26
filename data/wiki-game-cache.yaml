@@ -8737,6 +8737,9 @@ Astrox Imperium:
 'Astrox: Hostile Space Excavation':
   pageId: 37975
   revId: 960491
+Asuka 120% Return BURNING Fest.:
+  pageId: 168106
+  revId: 1044498
 Asura:
   pageId: 54435
   revId: 843598
@@ -13771,7 +13774,7 @@ Blades of Orterra:
   revId: 845043
 Blades of Time:
   pageId: 40791
-  revId: 1030194
+  revId: 1044518
 Blades of Worlds:
   pageId: 113420
   revId: 845045
@@ -13849,7 +13852,7 @@ Blast Out:
   revId: 845065
 Blast Thru:
   pageId: 151776
-  revId: 973704
+  revId: 1044522
 Blast Zone! Tournament:
   pageId: 89706
   revId: 845066
@@ -14857,7 +14860,7 @@ Blunt Force:
   revId: 925472
 Blur:
   pageId: 2015
-  revId: 1035560
+  revId: 1044467
 Blush Blush:
   pageId: 128393
   revId: 973907
@@ -17945,7 +17948,7 @@ Call of Booty:
   revId: 846356
 'Call of Cthulhu: Dark Corners of the Earth':
   pageId: 2099
-  revId: 1043982
+  revId: 1044464
 'Call of Cthulhu: Prisoner of Ice':
   pageId: 34340
   revId: 964650
@@ -20570,7 +20573,7 @@ Chishiki Runner:
   revId: 847120
 Chivalry 2:
   pageId: 138420
-  revId: 1042955
+  revId: 1044441
 Chivalry Is Not Dead:
   pageId: 147229
   revId: 1036599
@@ -20762,7 +20765,7 @@ Chop is dish:
   revId: 847176
 Choplifter HD:
   pageId: 38502
-  revId: 847177
+  revId: 1044508
 Choppa:
   pageId: 57912
   revId: 847178
@@ -21501,7 +21504,7 @@ Civilization V:
   revId: 1032431
 Civilization VI:
   pageId: 32739
-  revId: 1039578
+  revId: 1044492
 'Civilization: Beyond Earth':
   pageId: 16589
   revId: 1032436
@@ -25274,7 +25277,7 @@ Cruise for a Corpse:
   revId: 1036358
 Crumble:
   pageId: 135771
-  revId: 1044242
+  revId: 1044454
 Crumbled World:
   pageId: 53936
   revId: 848481
@@ -25451,10 +25454,10 @@ Crysis:
   revId: 1039947
 Crysis 2:
   pageId: 1505
-  revId: 1041144
+  revId: 1044520
 Crysis 3:
   pageId: 3746
-  revId: 1041263
+  revId: 1044521
 Crysis Remastered:
   pageId: 159272
   revId: 1043564
@@ -26351,7 +26354,7 @@ Cyberprank Girls 2077:
   revId: 993968
 Cyberpunk 2077:
   pageId: 97605
-  revId: 1043538
+  revId: 1044515
 Cyberpunk 3776:
   pageId: 48403
   revId: 848774
@@ -29692,7 +29695,7 @@ Delirium VR:
   revId: 849754
 Deliver Us The Moon:
   pageId: 108640
-  revId: 1043451
+  revId: 1044461
 Deliverace:
   pageId: 91470
   revId: 849756
@@ -36931,7 +36934,7 @@ EnchantedGirl - 纯情房东俏房客:
   revId: 851988
 Enclave:
   pageId: 9333
-  revId: 1039524
+  revId: 1044511
 Encodya:
   pageId: 145520
   revId: 1043671
@@ -37418,7 +37421,7 @@ Epic Clicker Journey:
   revId: 852130
 Epic Conquest 2:
   pageId: 166453
-  revId: 1031579
+  revId: 1044512
 'Epic Dumpster Bear: Dumpster Fire Redux':
   pageId: 90540
   revId: 852131
@@ -37613,9 +37616,11 @@ EreaDrone Simulator:
 Erefia:
   pageId: 65255
   revId: 852191
-Ergastulum:
+'Ergastulum: Dungeon Nightmares III':
   pageId: 76384
-  revId: 852192
+  renamedFrom:
+    - Ergastulum
+  revId: 1044505
 Eric the Unready:
   pageId: 131628
   revId: 1012592
@@ -40831,7 +40836,7 @@ Fatal Fury 2:
   revId: 927359
 'Fatal Fury 3: Road to the Final Victory':
   pageId: 133153
-  revId: 1008989
+  revId: 1044495
 Fatal Fury Special:
   pageId: 131734
   revId: 1025310
@@ -50312,7 +50317,7 @@ Hallway Simulator 2020:
   revId: 839763
 Halo 2:
   pageId: 3537
-  revId: 1034906
+  revId: 1044525
 'Halo 2: Anniversary':
   pageId: 129526
   revId: 1040644
@@ -57159,7 +57164,7 @@ Injustice 2:
   revId: 1040994
 'Injustice: Gods Among Us':
   pageId: 11108
-  revId: 1040954
+  revId: 1044470
 Ink Cipher:
   pageId: 95587
   revId: 857724
@@ -57731,7 +57736,7 @@ Inventioneers:
   revId: 857891
 Inversion:
   pageId: 15950
-  revId: 903862
+  revId: 1044463
 Inversus:
   pageId: 41587
   revId: 932728
@@ -58562,7 +58567,7 @@ Jacob:
   revId: 858126
 'Jade Empire: Special Edition':
   pageId: 3230
-  revId: 1044288
+  revId: 1044445
 Jade's Ascension:
   pageId: 142307
   revId: 858128
@@ -61601,7 +61606,7 @@ Knights of the Temple II:
   revId: 1040284
 'Knights of the Temple: Infernal Crusade':
   pageId: 126725
-  revId: 1042206
+  revId: 1044513
 Knighty Night:
   pageId: 138785
   revId: 858944
@@ -63732,7 +63737,7 @@ Legions of Tyrandel:
   revId: 859531
 Lego Alpha Team:
   pageId: 64378
-  revId: 1015330
+  revId: 1044436
 'Lego Batman 2: DC Super Heroes':
   pageId: 3075
   revId: 1035012
@@ -65950,7 +65955,7 @@ Lost Planet 2:
   revId: 1040261
 Lost Planet 3:
   pageId: 9068
-  revId: 1040262
+  revId: 1044440
 'Lost Planet: Extreme Condition':
   pageId: 19815
   revId: 1026636
@@ -68587,7 +68592,7 @@ March to Glory:
   revId: 1003504
 March! Offworld Recon:
   pageId: 168022
-  revId: 1044086
+  revId: 1044444
 Marching Simulator:
   pageId: 93293
   revId: 887763
@@ -69256,7 +69261,7 @@ Max Payne:
   revId: 1031168
 Max Payne 3:
   pageId: 2846
-  revId: 1043229
+  revId: 1044485
 Max Stern:
   pageId: 51873
   revId: 861091
@@ -76828,7 +76833,7 @@ NieR Replicant:
   pageId: 158829
   renamedFrom:
     - 'NieR: Replicant'
-  revId: 1044413
+  revId: 1044488
 'NieR: Automata':
   pageId: 53017
   revId: 1043992
@@ -81341,7 +81346,7 @@ Painkiller:
   revId: 1032422
 'Painkiller: Resurrection':
   pageId: 41215
-  revId: 1032419
+  revId: 1044425
 Paint It Black:
   pageId: 88142
   revId: 864343
@@ -82766,7 +82771,7 @@ Persona 4 Golden:
   revId: 1037364
 Persona 5 Strikers:
   pageId: 165527
-  revId: 1043443
+  revId: 1044457
 Personal Disco VR:
   pageId: 60734
   revId: 897351
@@ -91363,7 +91368,7 @@ Resident Evil Zero HD Remaster:
   revId: 1011524
 'Resident Evil: Revelations':
   pageId: 5683
-  revId: 1041750
+  revId: 1044506
 'Resident Evil: Revelations 2':
   pageId: 20010
   revId: 1035262
@@ -93528,7 +93533,7 @@ RollerCoaster Tycoon:
   revId: 1031189
 RollerCoaster Tycoon 2:
   pageId: 7688
-  revId: 1031181
+  revId: 1044422
 RollerCoaster Tycoon 3:
   pageId: 327
   revId: 1031183
@@ -95046,7 +95051,7 @@ SNK 40th Anniversary Collection:
   revId: 1043979
 'SNK Heroines: Tag Team Frenzy':
   pageId: 128902
-  revId: 999810
+  revId: 1044478
 SNUSE 221:
   pageId: 131988
   revId: 868103
@@ -95768,7 +95773,7 @@ Samurai Shodown (2020):
   revId: 1006321
 Samurai Shodown II:
   pageId: 131708
-  revId: 1043169
+  revId: 1044494
 Samurai Shodown II (2015):
   pageId: 161029
   revId: 1012318
@@ -96800,7 +96805,7 @@ SeaBed:
   revId: 868567
 SeaWorld Adventure Parks Tycoon:
   pageId: 111228
-  revId: 1003129
+  revId: 1044431
 Seabed Prelude:
   pageId: 57914
   revId: 868568
@@ -97794,7 +97799,7 @@ Shadow Man:
   revId: 1043166
 Shadow Man Remastered:
   pageId: 158581
-  revId: 1044346
+  revId: 1044482
 Shadow Mist:
   pageId: 61768
   revId: 868827
@@ -99361,7 +99366,7 @@ Silent Gentleman:
   tooBroad: true
 Silent Hill 3:
   pageId: 5271
-  revId: 1036753
+  revId: 1044456
 'Silent Hill 4: The Room':
   pageId: 20028
   revId: 1042625
@@ -102110,7 +102115,7 @@ Sonic 3D Blast (2010):
   revId: 1004408
 Sonic Adventure 2:
   pageId: 5774
-  revId: 1041836
+  revId: 1044523
 Sonic Adventure DX:
   pageId: 21737
   revId: 1035471
@@ -104027,7 +104032,7 @@ Spider-Man 3:
   revId: 1043669
 'Spider-Man: The Movie':
   pageId: 21420
-  revId: 1031296
+  revId: 1044526
 'Spider-Man: Web of Shadows':
   pageId: 21074
   revId: 1034479
@@ -104309,7 +104314,7 @@ Sponchies:
   revId: 870738
 'SpongeBob SquarePants: Battle for Bikini Bottom':
   pageId: 16581
-  revId: 1033591
+  revId: 1044453
   tooBroad: true
 'SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated':
   pageId: 138112
@@ -107155,7 +107160,7 @@ Stunt Corgi VR:
   revId: 871550
 Stunt GP:
   pageId: 26609
-  revId: 1043786
+  revId: 1044493
 Stunt Hill:
   pageId: 89533
   revId: 871551
@@ -112126,7 +112131,7 @@ The Adventures of Kusoge:
   revId: 872962
 The Adventures of Lomax:
   pageId: 59149
-  revId: 996575
+  revId: 1044473
 The Adventures of Looppy:
   pageId: 154148
   revId: 916912
@@ -112258,7 +112263,7 @@ The Amazing Shrinking Giraffe:
   revId: 872996
 The Amazing Spider-Man (2012):
   pageId: 4240
-  revId: 1043658
+  revId: 1044496
 The Amazing Spider-Man 2:
   pageId: 16973
   revId: 1035464
@@ -113022,10 +113027,10 @@ The Chronicles of Quiver Dick:
   revId: 873208
 'The Chronicles of Riddick: Assault on Dark Athena':
   pageId: 2134
-  revId: 1032394
+  revId: 1044509
 'The Chronicles of Riddick: Escape from Butcher Bay':
   pageId: 5167
-  revId: 1042269
+  revId: 1044510
 The Church in the Darkness:
   pageId: 39582
   revId: 1020261
@@ -113223,7 +113228,7 @@ The Crowded Party Game Collection:
   revId: 873263
 The Crown of Leaves:
   pageId: 64648
-  revId: 873264
+  revId: 1044490
 The Cruxis Sword:
   pageId: 153052
   revId: 915756
@@ -115617,7 +115622,7 @@ The Legend of Excalipurr:
   revId: 1043807
 'The Legend of Heroes: Trails of Cold Steel IV':
   pageId: 158900
-  revId: 1044415
+  revId: 1044437
 'The Legend of Heroes: Zero no Kiseki':
   pageId: 159003
   revId: 1023195
@@ -116317,7 +116322,7 @@ The Multidimensional Underwear Drawer:
   revId: 941946
 The Mummy:
   pageId: 158914
-  revId: 1021537
+  revId: 1044516
 The Mummy Demastered:
   pageId: 72571
   revId: 950863
@@ -120377,7 +120382,7 @@ Titanfall:
   revId: 1013409
 Titanfall 2:
   pageId: 33292
-  revId: 1041169
+  revId: 1044483
 Titanic:
   pageId: 73691
   revId: 875192
@@ -120706,10 +120711,10 @@ Tom Clancy's Rainbow Six Siege:
   revId: 1027593
 'Tom Clancy''s Rainbow Six: Vegas':
   pageId: 7721
-  revId: 1037006
+  revId: 1044451
 'Tom Clancy''s Rainbow Six: Vegas 2':
   pageId: 5812
-  revId: 1031137
+  revId: 1044452
 Tom Clancy's Splinter Cell:
   pageId: 8580
   revId: 1040516
@@ -123300,7 +123305,7 @@ Turner:
   revId: 1000684
 Turnip Boy Commits Tax Evasion:
   pageId: 156957
-  revId: 1043855
+  revId: 1044491
 Turnover:
   pageId: 45280
   revId: 916955
@@ -132485,7 +132490,7 @@ Yahrit!:
   revId: 878558
 'Yaiba: Ninja Gaiden Z':
   pageId: 16058
-  revId: 1030270
+  revId: 1044519
 Yakuza 0:
   pageId: 97277
   revId: 1038795
@@ -134358,7 +134363,7 @@ Zzzzz:
   revId: 975764
 Černaja Metka:
   pageId: 139919
-  revId: 1040748
+  revId: 1044465
 'ΔV: Rings of Saturn':
   pageId: 109004
   revId: 1044305
