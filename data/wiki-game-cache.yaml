@@ -7286,9 +7286,11 @@ Arcadian Atlas:
 Arcana Heart 3 LOVE MAX!!!!!:
   pageId: 29107
   revId: 1022811
-Arcana Heart 3 LOVEMAX SIXSTARS!!!!!!:
+Arcana Heart 3 LOVEMAX SIXSTARS!!!!!! XTEND:
   pageId: 73304
-  revId: 1045435
+  renamedFrom:
+    - Arcana Heart 3 LOVEMAX SIXSTARS!!!!!!
+  revId: 1048553
 Arcana Ritter:
   pageId: 75119
   revId: 843193
@@ -18014,7 +18016,7 @@ Call of Duty 2:
   revId: 972106
 'Call of Duty: Infinite Warfare':
   pageId: 32597
-  revId: 1045155
+  revId: 1048587
 'Call of Duty: Modern Warfare':
   pageId: 137772
   revId: 1043845
@@ -28195,7 +28197,7 @@ Daylight:
   revId: 1019684
 Days Gone:
   pageId: 166851
-  revId: 1047908
+  revId: 1048580
 Days Gone By:
   pageId: 153420
   revId: 916149
@@ -28998,10 +29000,10 @@ Death by Game Show:
   revId: 849527
 Death end re;Quest:
   pageId: 130527
-  revId: 1047838
+  revId: 1048429
 Death end re;Quest 2:
   pageId: 161908
-  revId: 1047837
+  revId: 1048428
 'Death from Unknown: Survival':
   pageId: 90324
   revId: 849529
@@ -29905,13 +29907,13 @@ Demon Hunter:
   revId: 1047974
 'Demon Hunter 3: Revelation':
   pageId: 53932
-  revId: 899204
+  revId: 1048524
 'Demon Hunter 4: Riddles of Light':
   pageId: 87003
-  revId: 1033305
+  revId: 1048525
 'Demon Hunter 5: Ascendance':
   pageId: 131645
-  revId: 899203
+  revId: 1048526
 'Demon Hunter: Chronicles from Beyond':
   pageId: 49193
   revId: 899206
@@ -29959,7 +29961,7 @@ Demon's Rise - War for the Deep:
   revId: 849823
 Demon's Tilt:
   pageId: 105085
-  revId: 1045856
+  revId: 1048522
 'Demon: Hell Keeper':
   pageId: 144291
   revId: 839635
@@ -31544,7 +31546,7 @@ Disgraced:
   revId: 850282
 Dishonored:
   pageId: 3440
-  revId: 1047707
+  revId: 1048533
 Dishonored 2:
   pageId: 25753
   revId: 1041668
@@ -31881,7 +31883,7 @@ Diving Trunks:
   revId: 1048265
 'Divinity: Original Sin II':
   pageId: 38947
-  revId: 1017093
+  revId: 1048465
 'Divinity: Original Sin II - Definitive Edition':
   irregularPath: true
   pageId: 124876
@@ -39473,7 +39475,7 @@ FIFA 2001:
   revId: 979409
 FIFA 21:
   pageId: 161243
-  revId: 1033132
+  revId: 1048544
 FIFA 97:
   pageId: 133141
   revId: 1025641
@@ -40166,7 +40168,7 @@ Fallout 4:
   revId: 1035288
 Fallout 4 VR:
   pageId: 63527
-  revId: 1048425
+  revId: 1048459
 Fallout 76:
   pageId: 95739
   revId: 1045147
@@ -40226,7 +40228,7 @@ Family Jewels:
   revId: 852923
 Family Man:
   pageId: 109446
-  revId: 1046929
+  revId: 1048444
 Family Secret:
   pageId: 75039
   revId: 852925
@@ -40612,7 +40614,7 @@ Farm Frenzy 2:
   revId: 1048176
 Farm Frenzy 3:
   pageId: 41177
-  revId: 939131
+  revId: 1048527
 'Farm Frenzy 3: American Pie':
   pageId: 41178
   revId: 853038
@@ -41493,7 +41495,7 @@ Fighting Box:
   revId: 853285
 Fighting EX Layer:
   pageId: 111844
-  revId: 999809
+  revId: 1048564
 Fighting Fantasy Classics:
   pageId: 95256
   revId: 928138
@@ -41908,7 +41910,7 @@ Fire Place:
   revId: 853411
 Fire Pro Wrestling World:
   pageId: 58848
-  revId: 1042485
+  revId: 1048586
 Fire With Fire Tower Attack and Defense:
   pageId: 43897
   revId: 853413
@@ -46136,7 +46138,7 @@ Gears of War 4:
   revId: 1047295
 'Gears of War: Ultimate Edition':
   pageId: 31450
-  revId: 1045121
+  revId: 1048581
 Gearwars:
   pageId: 145534
   revId: 840909
@@ -48340,7 +48342,7 @@ Grand Theft Auto III:
   revId: 1037037
 Grand Theft Auto IV:
   pageId: 299
-  revId: 1047251
+  revId: 1048432
 'Grand Theft Auto Re: Liberty City Stories':
   pageId: 167582
   revId: 1042697
@@ -49403,7 +49405,7 @@ Guild Wars Nightfall:
   revId: 855576
 Guild of Ascension:
   pageId: 151483
-  revId: 903232
+  revId: 1048478
 Guild of Darksteel:
   pageId: 165713
   revId: 1017577
@@ -50246,10 +50248,10 @@ Half Past Impossible:
   revId: 855810
 Half-Life:
   pageId: 467
-  revId: 1048346
+  revId: 1048540
 Half-Life 2:
   pageId: 94
-  revId: 1045967
+  revId: 1048462
 'Half-Life 2: Deathmatch':
   pageId: 236
   revId: 1041354
@@ -59417,7 +59419,7 @@ Journey to the Center of Hawkthorne:
   revId: 1034880
 Journey to the Center of the Earth:
   pageId: 21631
-  revId: 979730
+  revId: 1048510
 Journey to the Center of the Earth (2014):
   pageId: 46276
   revId: 943485
@@ -59501,10 +59503,10 @@ Juice Girl:
   revId: 858345
 Juiced:
   pageId: 21290
-  revId: 1040425
+  revId: 1048456
 'Juiced 2: Hot Import Nights':
   pageId: 21286
-  revId: 955706
+  revId: 1048458
 Juicy Army:
   pageId: 157174
   revId: 932387
@@ -61800,7 +61802,7 @@ Koihime Enbu:
   revId: 1043833
 Koihime Enbu RyoRaiRai:
   pageId: 99922
-  revId: 1043834
+  revId: 1048554
 Koikatsu Party:
   pageId: 166215
   renamedFrom:
@@ -66351,7 +66353,7 @@ Love wish:
   revId: 989489
 Love's Sweet Garnish:
   pageId: 109304
-  revId: 1001869
+  revId: 1048436
 'Love, Guitars, and the Nashville Skyline':
   pageId: 53433
   revId: 887198
@@ -71056,7 +71058,7 @@ Midsummer Night:
   revId: 993389
 Midtown Madness:
   pageId: 30269
-  revId: 1041347
+  revId: 1048542
 Midtown Madness 2:
   pageId: 30293
   revId: 1031104
@@ -72141,7 +72143,7 @@ Mobile Forces:
   revId: 1038284
 Mobile Light Force:
   pageId: 47205
-  revId: 983696
+  revId: 1048433
 Mobile Wars X:
   pageId: 125367
   revId: 888291
@@ -75984,7 +75986,7 @@ Need for Speed Rivals:
   revId: 1045192
 'Need for Speed: Undercover':
   pageId: 6905
-  revId: 1045188
+  revId: 1048441
 'Need for Speed: Underground':
   pageId: 6886
   revId: 1045182
@@ -76424,7 +76426,7 @@ Neptunia Shooter:
   revId: 988082
 Neptunia Virtual Stars:
   pageId: 167342
-  revId: 1047833
+  revId: 1048427
 Neptunian Donut:
   pageId: 72853
   revId: 896392
@@ -79870,10 +79872,10 @@ OpenRA:
   revId: 1047920
 OpenRCT2:
   pageId: 35535
-  revId: 1047902
+  revId: 1048492
 OpenTTD:
   pageId: 1377
-  revId: 1047688
+  revId: 1048481
 Opencast Mining:
   pageId: 126389
   revId: 1030589
@@ -80228,7 +80230,7 @@ Order of War:
   revId: 1038316
 'Order of War: Challenge':
   pageId: 160883
-  revId: 998462
+  revId: 1048529
 Order of the Assassin:
   pageId: 94515
   revId: 896997
@@ -83552,7 +83554,7 @@ Pinball universe:
   revId: 930639
 Pine:
   pageId: 132858
-  revId: 1047427
+  revId: 1048571
 Pine Seekers:
   pageId: 64323
   revId: 897447
@@ -89225,7 +89227,7 @@ Radiis:
   revId: 866486
 Radio Commander:
   pageId: 109124
-  revId: 997051
+  revId: 1048469
 Radio General:
   pageId: 135447
   revId: 947246
@@ -90657,7 +90659,7 @@ Red Ocean:
   revId: 1008087
 'Red Orchestra 2: Heroes of Stalingrad':
   pageId: 1089
-  revId: 1020411
+  revId: 1048562
 'Red Orchestra: Ostfront 41-45':
   pageId: 1380
   revId: 1037289
@@ -91075,7 +91077,7 @@ RelicMerge:
   revId: 840755
 Relicta:
   pageId: 114424
-  revId: 1005626
+  revId: 1048558
 Reliefs:
   pageId: 90620
   revId: 866987
@@ -91467,7 +91469,7 @@ Resident Evil Survivor:
   revId: 1046076
 Resident Evil Village:
   pageId: 161027
-  revId: 1048386
+  revId: 1048574
 Resident Evil Zero HD Remaster:
   pageId: 30085
   revId: 1046101
@@ -92556,7 +92558,7 @@ Rising Runner:
   revId: 953801
 Rising Storm:
   pageId: 7832
-  revId: 867391
+  revId: 1048579
 'Rising Storm 2: Vietnam':
   pageId: 61790
   revId: 1024064
@@ -95880,7 +95882,7 @@ Samurai Shodown:
   revId: 1044646
 Samurai Shodown (2020):
   pageId: 131773
-  revId: 1006321
+  revId: 1048566
 Samurai Shodown II:
   pageId: 131708
   revId: 1044494
@@ -97954,7 +97956,7 @@ Shadow Warrior (1997):
   revId: 1048377
 Shadow Warrior (2013):
   pageId: 10160
-  revId: 1020678
+  revId: 1048431
 Shadow Warrior 2:
   pageId: 26259
   revId: 922544
@@ -100002,7 +100004,7 @@ Sixtieth Kilometer:
   revId: 971871
 Size Matters:
   pageId: 123784
-  revId: 1046843
+  revId: 1048557
 SizeBlock:
   pageId: 36710
   revId: 992121
@@ -101597,7 +101599,7 @@ Snuggle Truck:
   revId: 869883
 So Blonde:
   pageId: 35262
-  revId: 801787
+  revId: 1048518
 So Long Earth:
   pageId: 43302
   revId: 979490
@@ -102267,7 +102269,7 @@ Sonic Generations:
   revId: 1045209
 Sonic Heroes:
   pageId: 19831
-  revId: 1048225
+  revId: 1048464
 Sonic Hunter VR:
   pageId: 53884
   revId: 870083
@@ -102516,7 +102518,7 @@ Soulbringer:
   revId: 1038456
 Soulcalibur VI:
   pageId: 89926
-  revId: 1043172
+  revId: 1048577
 Soulcaster:
   pageId: 9203
   revId: 870157
@@ -103977,7 +103979,7 @@ Spellcrafter:
   revId: 870599
 Spelldrifter:
   pageId: 147809
-  revId: 1043403
+  revId: 1048531
 Spellforge:
   pageId: 40341
   revId: 870601
@@ -106997,7 +106999,7 @@ Street Fighter IV:
   revId: 1043048
 Street Fighter V:
   pageId: 29367
-  revId: 1043049
+  revId: 1048585
 Street Fighter X Mega Man:
   pageId: 4187
   revId: 985353
@@ -108829,7 +108831,7 @@ SuperTrucks Offroad:
   revId: 871989
 SuperTuxKart:
   pageId: 59155
-  revId: 1047929
+  revId: 1048500
 SuperWurfels:
   pageId: 70094
   revId: 871990
@@ -111470,7 +111472,7 @@ Teeworlds:
   revId: 1048072
 Tekken 7:
   pageId: 33384
-  revId: 1040584
+  revId: 1048584
 Tekling:
   pageId: 80889
   revId: 872735
@@ -112627,7 +112629,7 @@ The Bard's Tale:
   revId: 964144
 The Bard's Tale (2005):
   pageId: 11714
-  revId: 980264
+  revId: 1048514
 'The Bard''s Tale II: The Destiny Knight':
   pageId: 13695
   revId: 965196
@@ -113746,7 +113748,7 @@ The Dream Collector:
   revId: 873365
 The Dream Machine:
   pageId: 28636
-  revId: 1014740
+  revId: 1048546
 The Dreamatorium of Dr. Magnus 2:
   pageId: 46514
   revId: 873367
@@ -114407,7 +114409,7 @@ The Forgotten:
   revId: 931583
 The Forgotten City:
   pageId: 97281
-  revId: 1039502
+  revId: 1048508
 The Forgotten Forest:
   pageId: 45669
   revId: 873544
@@ -114915,7 +114917,7 @@ The HinterLands:
   revId: 873687
 'The History Channel: Battle for the Pacific':
   pageId: 143488
-  revId: 980319
+  revId: 1048438
 'The History Channel: Civil War - A Nation Divided':
   pageId: 143485
   revId: 837208
@@ -114990,7 +114992,7 @@ The House of Da Vinci 2:
   revId: 971924
 The House of the Dead:
   pageId: 23508
-  revId: 1038960
+  revId: 1048543
 The House of the Dead 2:
   pageId: 80222
   revId: 1035390
@@ -115656,7 +115658,7 @@ The Last Sphinx ARG:
   revId: 873888
 'The Last Stand: Aftermath':
   pageId: 160168
-  revId: 1042440
+  revId: 1048499
 The Last Strategist:
   pageId: 74481
   revId: 873889
@@ -127380,7 +127382,7 @@ Viscera Cleanup Detail:
   revId: 1024150
 Viscerafest:
   pageId: 165463
-  revId: 1026710
+  revId: 1048493
 Visceral Cubes:
   pageId: 92746
   revId: 877118
@@ -128725,7 +128727,7 @@ Warhalla:
   revId: 967983
 'Warhammer 40,000: Battlesector':
   pageId: 167145
-  revId: 1034643
+  revId: 1048521
 'Warhammer 40,000: Carnage Champions':
   pageId: 43089
   revId: 968493
@@ -128779,7 +128781,7 @@ Warhalla:
   revId: 1039967
 'Warhammer 40,000: Kill Team':
   pageId: 50224
-  revId: 987069
+  revId: 1048446
 'Warhammer 40,000: Mechanicus':
   pageId: 87599
   revId: 1032485
@@ -131353,7 +131355,7 @@ Wolfenstein 3D:
   revId: 1048296
 'Wolfenstein: Youngblood':
   pageId: 107394
-  revId: 1048287
+  revId: 1048537
 Wolfgate:
   pageId: 136430
   revId: 878206
