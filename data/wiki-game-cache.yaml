@@ -4341,7 +4341,7 @@ Aircraft War X:
   revId: 842335
 Airfix Dogfighter:
   pageId: 54891
-  revId: 1048615
+  revId: 1051502
 Airglow:
   pageId: 139693
   revId: 842336
@@ -8215,7 +8215,7 @@ Asemblance:
   revId: 843437
 Asgard's Wrath:
   pageId: 165491
-  revId: 1040341
+  revId: 1051400
 Asguaard:
   pageId: 37874
   revId: 843438
@@ -8818,7 +8818,7 @@ Atari Vault:
   revId: 1043928
 'Atelier Firis: The Alchemist and the Mysterious Journey DX':
   pageId: 167818
-  revId: 1044996
+  revId: 1051381
 'Atelier Lulua: The Scion of Arland':
   pageId: 134221
   revId: 1042121
@@ -8851,7 +8851,7 @@ Atari Vault:
   revId: 1043926
 'Atelier Sophie: The Alchemist of the Mysterious Book DX':
   pageId: 167816
-  revId: 1045139
+  revId: 1051380
 'Atelier Totori: The Adventurer of Arland DX':
   pageId: 123263
   revId: 929636
@@ -10481,7 +10481,7 @@ Baldr Sky:
   revId: 1044321
 Baldur's Gate:
   pageId: 359
-  revId: 1043247
+  revId: 1051404
 Baldur's Gate 3:
   pageId: 138197
   renamedFrom:
@@ -10492,7 +10492,7 @@ Baldur's Gate 3:
   revId: 1043372
 'Baldur''s Gate II: Shadows of Amn':
   pageId: 52
-  revId: 1045953
+  revId: 1051405
   tooBroad: true
 'Baldur''s Gate: Enhanced Edition':
   pageId: 4009
@@ -13724,7 +13724,7 @@ Blade & Soul:
   revId: 911511
 'Blade Arcus from Shining: Battle Arena':
   pageId: 41994
-  revId: 971848
+  revId: 1051507
 Blade Ballet:
   pageId: 41725
   revId: 845027
@@ -13782,6 +13782,10 @@ Bladequest:
 Blades of Avernum:
   pageId: 8811
   revId: 1024131
+  tooBroad: true
+Blades of Exile:
+  pageId: 168563
+  revId: 1051521
   tooBroad: true
 Blades of Gory:
   pageId: 152713
@@ -15499,10 +15503,10 @@ Borderlands 2 VR:
   revId: 1043163
 Borderlands 3:
   pageId: 131630
-  revId: 1049166
+  revId: 1051486
 'Borderlands: Game of the Year Enhanced':
   pageId: 133055
-  revId: 1041612
+  revId: 1051423
 'Borderlands: The Pre-Sequel':
   pageId: 17722
   revId: 1012941
@@ -20380,7 +20384,7 @@ Chicken Labyrinth Puzzles:
   revId: 847047
 Chicken Police:
   pageId: 139653
-  revId: 1051292
+  revId: 1051396
 Chicken Rider:
   pageId: 98482
   revId: 847049
@@ -22505,7 +22509,7 @@ Cold Dreams (2015):
   revId: 847681
 Cold Fear:
   pageId: 26840
-  revId: 1051182
+  revId: 1051519
 Cold Hearts:
   pageId: 130668
   revId: 909262
@@ -28065,7 +28069,7 @@ Dave Goes Nutz!:
   revId: 964735
 Dave Mirra Freestyle BMX:
   pageId: 143303
-  revId: 835935
+  revId: 1051451
 Dave-Man:
   pageId: 154273
   revId: 917049
@@ -28215,7 +28219,7 @@ Daylight:
   revId: 1019684
 Days Gone:
   pageId: 166851
-  revId: 1051161
+  revId: 1051518
 Days Gone By:
   pageId: 153420
   revId: 916149
@@ -28521,13 +28525,13 @@ Dead Sky:
   revId: 889730
 Dead Space:
   pageId: 65
-  revId: 1051196
+  revId: 1051419
 Dead Space 2:
   pageId: 2841
   revId: 1051190
 Dead Space 3:
   pageId: 4510
-  revId: 1038867
+  revId: 1051417
 Dead Spawn:
   pageId: 144831
   revId: 840198
@@ -30617,7 +30621,7 @@ Deus Ex Machina 2:
   revId: 1048233
 'Deus Ex: Invisible War':
   pageId: 3063
-  revId: 1050099
+  revId: 1051485
 'Deus Ex: Mankind Divided':
   pageId: 24132
   revId: 1050355
@@ -30688,7 +30692,7 @@ Devil May Cry 4:
   pageId: 25665
   renamedFrom:
     - Devil May Cry 4 Special Edition
-  revId: 1043239
+  revId: 1051430
 Devil May Cry 5:
   pageId: 97185
   revId: 1049621
@@ -36782,7 +36786,7 @@ Emergency Water Landing:
   revId: 851924
 'Emergency: Fighters for Life':
   pageId: 32547
-  revId: 779034
+  revId: 1051371
 'Emerland Solitaire: Endless Journey':
   pageId: 42287
   revId: 851925
@@ -38870,6 +38874,14 @@ Exercise Book Epic:
 Exertus:
   pageId: 141078
   revId: 852519
+'Exile II: Crystal Souls':
+  pageId: 168561
+  revId: 1051524
+  tooBroad: true
+'Exile III: Ruined World':
+  pageId: 168562
+  revId: 1051522
+  tooBroad: true
 Exile Squadron:
   pageId: 150478
   revId: 908131
@@ -38882,6 +38894,10 @@ Exile to Death:
 Exile's End:
   pageId: 46614
   revId: 852540
+'Exile: Escape From the Pit':
+  pageId: 168560
+  revId: 1051509
+  tooBroad: true
 Exiled Kingdoms:
   pageId: 82792
   revId: 986828
@@ -39916,7 +39932,7 @@ Fairune Collection:
   revId: 940940
 Fairy Bloom Freesia:
   pageId: 23884
-  revId: 1028706
+  revId: 1051447
 Fairy Escape:
   pageId: 92775
   revId: 852814
@@ -40565,7 +40581,7 @@ Far Cry 4:
   revId: 1046146
 Far Cry 5:
   pageId: 62697
-  revId: 1047267
+  revId: 1051441
 Far Cry 6:
   pageId: 161767
   revId: 1009042
@@ -40957,7 +40973,7 @@ Fate Hunters:
   revId: 1013012
 Fate Seeker:
   pageId: 100446
-  revId: 980683
+  revId: 1051503
 Fate Tectonics:
   pageId: 38279
   revId: 853125
@@ -43663,7 +43679,7 @@ Fortix 2:
   revId: 1003095
 Fortnite:
   pageId: 74054
-  revId: 1051315
+  revId: 1051526
 Fortress Forever:
   pageId: 29506
   revId: 1004600
@@ -48174,7 +48190,7 @@ Goro 2:
   revId: 855220
 Gorogoa:
   pageId: 57238
-  revId: 1017613
+  revId: 1051448
 Goroons:
   pageId: 93716
   revId: 855222
@@ -50458,7 +50474,7 @@ Halo Wars 2:
   revId: 1041182
 'Halo: Reach':
   pageId: 129520
-  revId: 1040642
+  revId: 1051457
 'Halo: Spartan Assault':
   pageId: 8119
   revId: 1047690
@@ -50929,7 +50945,7 @@ Harry Potter and the Goblet of Fire:
   revId: 1008311
 Harry Potter and the Half-Blood Prince:
   pageId: 19542
-  revId: 1040479
+  revId: 1051505
 Harry Potter and the Order of the Phoenix:
   pageId: 19540
   revId: 1042393
@@ -50938,7 +50954,7 @@ Harry Potter and the Philosopher's Stone:
   revId: 1049761
 Harry Potter and the Prisoner of Azkaban:
   pageId: 19536
-  revId: 1027002
+  revId: 1051506
 'Harry Potter: Quidditch World Cup':
   pageId: 19551
   revId: 1050873
@@ -53561,13 +53577,13 @@ Hitman:
   revId: 1049456
 Hitman 2:
   pageId: 97053
-  revId: 1049482
+  revId: 1051517
 'Hitman 2: Silent Assassin':
   pageId: 2838
   revId: 1049475
 Hitman 3:
   pageId: 58966
-  revId: 1049452
+  revId: 1051516
 Hitman GO:
   pageId: 30357
   revId: 1049458
@@ -53700,6 +53716,9 @@ Hogwash:
 'Hokan: Monster Slayer':
   pageId: 94072
   revId: 886257
+Hokko Life:
+  pageId: 168558
+  revId: 1051481
 Hold My Beer:
   pageId: 66154
   revId: 886258
@@ -55979,10 +55998,10 @@ Icesolation:
   revId: 857366
 Icewind Dale:
   pageId: 161
-  revId: 1029941
+  revId: 1051403
 Icewind Dale II:
   pageId: 200
-  revId: 1029938
+  revId: 1051402
 'Icewind Dale: Enhanced Edition':
   pageId: 34380
   revId: 1043371
@@ -59618,7 +59637,7 @@ Jump Jumpz:
   revId: 858363
 Jump King:
   pageId: 134456
-  revId: 1043220
+  revId: 1051456
 Jump Like A Pirate:
   pageId: 56570
   revId: 992168
@@ -61217,7 +61236,7 @@ Kingdom Clicker:
   revId: 858805
 'Kingdom Come: Deliverance':
   pageId: 20535
-  revId: 1050518
+  revId: 1051440
 Kingdom Defense:
   pageId: 77028
   revId: 858808
@@ -61765,7 +61784,7 @@ Knockout Bowling VR:
   revId: 1024345
 Knockout City:
   pageId: 166797
-  revId: 1051308
+  revId: 1051496
 Knockout League:
   pageId: 56832
   revId: 858950
@@ -67736,7 +67755,7 @@ Magic Combat VR:
   revId: 887604
 Magic Duels:
   pageId: 47083
-  revId: 1044679
+  revId: 1051453
 'Magic Encyclopedia: Moon Light':
   pageId: 135157
   revId: 887605
@@ -70526,7 +70545,7 @@ Metal Gear (2020):
   revId: 1040693
 'Metal Gear Solid 2: Substance':
   pageId: 1508
-  revId: 1045622
+  revId: 1051450
 'Metal Gear Solid V: Ground Zeroes':
   pageId: 19092
   revId: 1026608
@@ -70735,11 +70754,11 @@ Metro 2033 Redux:
 Metro Exodus:
   irregularPath: true
   pageId: 63660
-  revId: 1047759
+  revId: 1051445
   tooBroad: true
 Metro Exodus Enhanced Edition:
   pageId: 168317
-  revId: 1048872
+  revId: 1051377
 Metro Explosion Simulator:
   pageId: 140875
   revId: 861454
@@ -70760,7 +70779,7 @@ Metro Warp:
   revId: 1046136
 'Metro: Last Light Redux':
   pageId: 17420
-  revId: 1048839
+  revId: 1051444
 Metrocide:
   pageId: 21957
   revId: 929580
@@ -74392,16 +74411,16 @@ My Little Kitties:
   revId: 892969
 'My Little Pony: Best Friends Ball':
   pageId: 166205
-  revId: 1024099
+  revId: 1051475
 'My Little Pony: Crystal Princess - The Runaway Rainbow':
   pageId: 138315
-  revId: 1024103
+  revId: 1051476
 'My Little Pony: Friendship Gardens':
   pageId: 138065
   revId: 1024094
 'My Little Pony: Pinkie Pie''s Party Parade':
   pageId: 138320
-  revId: 1024105
+  revId: 1051472
 My Little Riding Champion:
   pageId: 113212
   revId: 892970
@@ -78819,7 +78838,7 @@ Oedipus Dating Sim:
   revId: 896742
 Of Bird and Cage:
   pageId: 136008
-  revId: 936165
+  revId: 1051375
 Of Carrots and Blood:
   pageId: 43961
   revId: 863611
@@ -79990,7 +80009,7 @@ Operation Desert Road:
   revId: 896952
 'Operation Flashpoint: Dragon Rising':
   pageId: 11845
-  revId: 1044593
+  revId: 1051508
 'Operation Flashpoint: Red River':
   pageId: 11846
   revId: 1021950
@@ -84395,7 +84414,7 @@ Planes Attack:
   revId: 1020692
 'Planescape: Torment':
   pageId: 143
-  revId: 1051351
+  revId: 1051401
   tooBroad: true
 'Planescape: Torment Enhanced Edition':
   pageId: 60117
@@ -90631,7 +90650,7 @@ Red Dead Pixel Man:
   revId: 898723
 Red Dead Redemption 2:
   pageId: 147599
-  revId: 1050250
+  revId: 1051500
 Red Death:
   pageId: 59363
   revId: 898724
@@ -90752,6 +90771,11 @@ Red Rover:
 Red Ruin:
   pageId: 141330
   revId: 866870
+'Red Solstice 2: Survivors':
+  pageId: 82199
+  renamedFrom:
+    - 'Solstice Chronicles: Survivors'
+  revId: 1051390
 'Red Spider Anecdote: Triangle':
   pageId: 93913
   revId: 866871
@@ -91534,7 +91558,7 @@ Resident Evil Survivor:
   revId: 1046076
 Resident Evil Village:
   pageId: 161027
-  revId: 1050768
+  revId: 1051491
 Resident Evil Zero HD Remaster:
   pageId: 30085
   revId: 1049373
@@ -92239,10 +92263,10 @@ Ride 2:
   revId: 1051222
 Ride 3:
   pageId: 94809
-  revId: 1051217
+  revId: 1051379
 Ride 4:
   pageId: 160405
-  revId: 1051212
+  revId: 1051461
 Ride the Bullet:
   pageId: 47809
   revId: 867280
@@ -94004,7 +94028,7 @@ Root Double -Before Crime * After Days-:
   revId: 867770
 Root Letter:
   pageId: 64032
-  revId: 1017907
+  revId: 1051466
 'Root Letter: Last Answer':
   pageId: 141989
   revId: 1017909
@@ -95636,7 +95660,7 @@ Saints Row IV:
   revId: 1050072
 'Saints Row: The Third Remastered':
   pageId: 159014
-  revId: 1051350
+  revId: 1051463
 Saints of Virtue:
   pageId: 91639
   revId: 951465
@@ -96484,7 +96508,7 @@ Scarlet Hood and the Wicked Wood:
   revId: 1041064
 Scarlet Nexus:
   pageId: 164042
-  revId: 1047213
+  revId: 1051464
 Scarlet Smiling Skull:
   pageId: 110652
   revId: 868439
@@ -97941,7 +97965,7 @@ Shadow Circuit:
   revId: 779074
 Shadow Complex Remastered:
   pageId: 30035
-  revId: 1051328
+  revId: 1051395
 Shadow Corps:
   pageId: 108628
   revId: 868814
@@ -98702,7 +98726,7 @@ Shimmer:
   revId: 1044874
 Shin Megami Tensei III Nocturne HD Remaster:
   pageId: 167287
-  revId: 1051283
+  revId: 1051449
 'Shin Megami Tensei: Synchronicity Prologue':
   pageId: 74785
   revId: 1019186
@@ -100228,7 +100252,7 @@ SkiJump:
   revId: 869466
 Skidlocked:
   pageId: 155363
-  revId: 930430
+  revId: 1051478
 Skill Master VR -- Learn Meditation:
   pageId: 53900
   revId: 869467
@@ -100930,7 +100954,7 @@ Slime Quest:
   revId: 869656
 Slime Rancher:
   pageId: 34675
-  revId: 1043949
+  revId: 1051442
 Slime Research:
   pageId: 125272
   revId: 869658
@@ -102156,9 +102180,6 @@ Solstice Arena:
 'Solstice Chronicles: MIA':
   pageId: 52960
   revId: 870035
-'Solstice Chronicles: Survivors':
-  pageId: 82199
-  revId: 870036
 'Soma Spirits: Rebalance':
   pageId: 60464
   revId: 988277
@@ -102349,7 +102370,7 @@ Sonic Generations:
   revId: 1049268
 Sonic Heroes:
   pageId: 19831
-  revId: 1050827
+  revId: 1051382
 Sonic Hunter VR:
   pageId: 53884
   revId: 870083
@@ -107181,7 +107202,7 @@ Streets of Rage Remake:
   revId: 928574
 Streets of Rogue:
   pageId: 51523
-  revId: 1047592
+  revId: 1051433
 Streets of SimCity:
   pageId: 88376
   revId: 925898
@@ -111612,7 +111633,7 @@ Telltale Texas Hold 'Em:
   revId: 1016295
 Telophase:
   pageId: 91809
-  revId: 872752
+  revId: 1051455
 Tembo the Badass Elephant:
   pageId: 30120
   revId: 969021
@@ -112296,7 +112317,7 @@ The Admin:
   revId: 872943
 The Adventure Pals:
   pageId: 68220
-  revId: 1043419
+  revId: 1051443
 The Adventure of Kroos:
   pageId: 77130
   revId: 872945
@@ -114127,7 +114148,7 @@ The Evil Party:
   revId: 873444
 The Evil Within:
   pageId: 17739
-  revId: 1048849
+  revId: 1051480
 The Evil Within 2:
   pageId: 63523
   revId: 1048731
@@ -117101,7 +117122,7 @@ The Political Machine 2012:
   revId: 934851
 The Political Machine 2016:
   pageId: 44693
-  revId: 934852
+  revId: 1051432
 The Political Machine 2020:
   pageId: 156662
   revId: 1031468
@@ -117377,7 +117398,7 @@ The Red Reactor:
   revId: 874314
 The Red Solstice:
   pageId: 18494
-  revId: 874315
+  revId: 1051385
 The Red Stare:
   pageId: 62209
   revId: 874316
@@ -121476,7 +121497,7 @@ Total Tank Simulator:
   revId: 1049305
 'Total War: Warhammer III':
   pageId: 166393
-  revId: 1049284
+  revId: 1051437
 Totally Accurate Battle Simulator:
   pageId: 39747
   revId: 1040626
@@ -123185,7 +123206,7 @@ Trover Saves the Universe:
   revId: 1021232
 Truck Driver:
   pageId: 105331
-  revId: 1051164
+  revId: 1051394
 Truck Life:
   pageId: 150531
   revId: 902252
@@ -124789,7 +124810,7 @@ Underspace:
   revId: 876337
 Undertale:
   pageId: 28770
-  revId: 1047813
+  revId: 1051458
 Underture:
   pageId: 141035
   revId: 876339
@@ -127475,7 +127496,7 @@ Viscera Cleanup Detail:
   revId: 1024150
 Viscerafest:
   pageId: 165463
-  revId: 1051174
+  revId: 1051434
 Visceral Cubes:
   pageId: 92746
   revId: 877118
@@ -129127,7 +129148,7 @@ Warriors Orochi:
   revId: 1051245
 Warriors Orochi 4:
   pageId: 97379
-  revId: 1051249
+  revId: 1051378
 Warriors of Legend:
   pageId: 61583
   revId: 965294
@@ -134376,7 +134397,7 @@ Zone of Lacryma:
   revId: 879026
 'Zone of the Enders: The 2nd Runner MARS':
   pageId: 90671
-  revId: 1050329
+  revId: 1051465
 Zone4:
   pageId: 51887
   revId: 879028
@@ -136158,7 +136179,7 @@ Zzzzz:
   revId: 879452
 赛博司机 Cyber Driver:
   pageId: 135533
-  revId: 879453
+  revId: 1051431
 赫炎的印加诺克 Fullvoice ReBORN:
   pageId: 127946
   revId: 879454
