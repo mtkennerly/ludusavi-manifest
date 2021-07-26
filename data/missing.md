@@ -21218,7 +21218,6 @@
 * [OlliOlli World](https://www.pcgamingwiki.com/wiki/?curid=167886)
 * [Olorun: Theocracy](https://www.pcgamingwiki.com/wiki/?curid=108446)
 * [Olson's Boxing Challenge](https://www.pcgamingwiki.com/wiki/?curid=76047)
-* [Olympic Games Tokyo 2020 – The Official Video Game](https://www.pcgamingwiki.com/wiki/?curid=170245)
 * [Olympic Team](https://www.pcgamingwiki.com/wiki/?curid=80931)
 * [OlympicVR](https://www.pcgamingwiki.com/wiki/?curid=76931)
 * [Omae Wa Mou Shindeiru](https://www.pcgamingwiki.com/wiki/?curid=93005)
