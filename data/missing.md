@@ -3571,7 +3571,6 @@
 * [Black Baron](https://www.pcgamingwiki.com/wiki/?curid=136658)
 * [Black Bart](https://www.pcgamingwiki.com/wiki/?curid=94613)
 * [BLACK BIRD](https://www.pcgamingwiki.com/wiki/?curid=121176)
-* [Black Book](https://www.pcgamingwiki.com/wiki/?curid=145477)
 * [Black Box Alpha](https://www.pcgamingwiki.com/wiki/?curid=126193)
 * [Black Butterfly](https://www.pcgamingwiki.com/wiki/?curid=144238)
 * [Black Chapter](https://www.pcgamingwiki.com/wiki/?curid=164514)
