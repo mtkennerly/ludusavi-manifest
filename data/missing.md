@@ -29485,7 +29485,6 @@
 * [Synced Warriors](https://www.pcgamingwiki.com/wiki/?curid=79730)
 * [Synch](https://www.pcgamingwiki.com/wiki/?curid=61122)
 * [Synchrom](https://www.pcgamingwiki.com/wiki/?curid=46741)
-* [Synergia](https://www.pcgamingwiki.com/wiki/?curid=132818)
 * [Synnergist](https://www.pcgamingwiki.com/wiki/?curid=147567)
 * [Synonymy](https://www.pcgamingwiki.com/wiki/?curid=48505)
 * [Synstasis](https://www.pcgamingwiki.com/wiki/?curid=91110)
