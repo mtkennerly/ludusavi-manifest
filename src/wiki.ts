@@ -124,6 +124,12 @@ const PATH_ARGS: { [arg: string]: { mapped: string, when?: Constraint, registry?
             store: "uplay"
         },
     },
+    ubisoftconnect: {
+        mapped: "<root>",
+        when: {
+            store: "uplay"
+        },
+    },
     hkcu: {
         mapped: "HKEY_CURRENT_USER",
         when: { os: "windows" },
@@ -400,7 +406,11 @@ function getConstraintFromSystem(system: string, path: string): Constraint {
         constraint.store = "origin";
     } else {
         constraint.os = parseOs(system);
-        constraint.store = getStoreConstraintFromPath(path);
+    }
+
+    const storeFromPath = getStoreConstraintFromPath(path);
+    if (storeFromPath !== undefined) {
+        constraint.store  = storeFromPath;
     }
 
     return constraint;
