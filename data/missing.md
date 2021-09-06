@@ -14830,6 +14830,7 @@
 * [Hyakki Castle](https://www.pcgamingwiki.com/wiki/?curid=71936)
 * [Hybrid Animals](https://www.pcgamingwiki.com/wiki/?curid=36656)
 * [HYBRIS - Pulse of Ruin](https://www.pcgamingwiki.com/wiki/?curid=98100)
+* [Hydlide 1•2•3](https://www.pcgamingwiki.com/wiki/?curid=171269)
 * [Hydra Slayer](https://www.pcgamingwiki.com/wiki/?curid=43995)
 * [Hydraulic Empire](https://www.pcgamingwiki.com/wiki/?curid=47025)
 * [Hydro Thunder Hurricane](https://www.pcgamingwiki.com/wiki/?curid=138413)
