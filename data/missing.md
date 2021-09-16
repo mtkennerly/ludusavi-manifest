@@ -28661,7 +28661,6 @@
 * [Story of Eve - A Hero's Study](https://www.pcgamingwiki.com/wiki/?curid=113846)
 * [Story of Monster](https://www.pcgamingwiki.com/wiki/?curid=136436)
 * [Story of one Night](https://www.pcgamingwiki.com/wiki/?curid=136956)
-* [Story of Seasons: Pioneers of Olive Town](https://www.pcgamingwiki.com/wiki/?curid=171113)
 * [Story of the Green Dragon](https://www.pcgamingwiki.com/wiki/?curid=114066)
 * [Story of the Survivor](https://www.pcgamingwiki.com/wiki/?curid=44586)
 * [Story of the Survivor: Prisoner](https://www.pcgamingwiki.com/wiki/?curid=70156)
