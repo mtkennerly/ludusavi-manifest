@@ -26475,6 +26475,7 @@
 * [Sheaf - Together EP](https://www.pcgamingwiki.com/wiki/?curid=144390)
 * [Sheep Collision](https://www.pcgamingwiki.com/wiki/?curid=130199)
 * [Sheep Game](https://www.pcgamingwiki.com/wiki/?curid=92131)
+* [Sheep Love](https://www.pcgamingwiki.com/wiki/?curid=172833)
 * [SHEEP SLING](https://www.pcgamingwiki.com/wiki/?curid=112212)
 * [SHEEP.IO](https://www.pcgamingwiki.com/wiki/?curid=138894)
 * [Sheepageddon](https://www.pcgamingwiki.com/wiki/?curid=108246)
