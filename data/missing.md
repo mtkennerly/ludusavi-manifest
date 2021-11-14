@@ -25149,6 +25149,7 @@
 * [Rockochet](https://www.pcgamingwiki.com/wiki/?curid=90152)
 * [Rocks and Rockets](https://www.pcgamingwiki.com/wiki/?curid=71836)
 * [RockShot](https://www.pcgamingwiki.com/wiki/?curid=94286)
+* [Rocksmith+](https://www.pcgamingwiki.com/wiki/?curid=169311)
 * [Rocwood Academy](https://www.pcgamingwiki.com/wiki/?curid=128203)
 * [Rod](https://www.pcgamingwiki.com/wiki/?curid=36546)
 * [ROD](https://www.pcgamingwiki.com/wiki/?curid=144697)

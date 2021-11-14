@@ -337,6 +337,8 @@ export function pathIsTooBroad(path: string): boolean {
         "<home>/AppData/Local/Packages",
         "<home>/AppData/LocalLow",
         "<home>/AppData/Roaming",
+        "<home>/Documents/My Games",
+        "<winDocuments>/My Games",
     ].includes(path)) {
         return true;
     }
