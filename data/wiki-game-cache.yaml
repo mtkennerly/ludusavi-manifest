@@ -995,6 +995,9 @@ $1 Ride:
 '64.0':
   pageId: 58551
   revId: 1191810
+688 Attack Sub:
+  pageId: 173773
+  revId: 1197507
 688(I) Hunter/Killer:
   pageId: 41397
   revId: 1193654
@@ -3965,7 +3968,7 @@ Age of Empires III:
 'Age of Empires III: Definitive Edition':
   irregularPath: true
   pageId: 134275
-  revId: 1190561
+  revId: 1197417
 Age of Empires IV:
   pageId: 127093
   revId: 1170840
@@ -3977,7 +3980,7 @@ Age of Empires Online:
   revId: 1136859
 'Age of Empires: Definitive Edition':
   pageId: 68766
-  revId: 1179932
+  revId: 1197416
 'Age of Enigma: The Secret of the Sixth Ghost':
   pageId: 47949
   revId: 1177697
@@ -4036,7 +4039,7 @@ Age of Mythology:
   revId: 1190383
 'Age of Mythology: Extended Edition':
   pageId: 16471
-  revId: 1150459
+  revId: 1197415
 Age of Omens:
   pageId: 132668
   revId: 1153176
@@ -4763,6 +4766,9 @@ Aleesha's Tower:
 Alekhine's Gun:
   pageId: 31594
   revId: 1194961
+Alekon:
+  pageId: 173784
+  revId: 1197533
 Aleph Null:
   pageId: 41607
   revId: 1090569
@@ -4983,7 +4989,7 @@ Alien Hostage:
   revId: 1180830
 Alien Hunt 3D:
   pageId: 102445
-  revId: 1180831
+  revId: 1197534
 Alien Infection:
   pageId: 141457
   revId: 1173693
@@ -7302,7 +7308,7 @@ Arachnophobia (2016):
   revId: 1090872
 Aragami:
   pageId: 39225
-  revId: 1146572
+  revId: 1197373
 Aragami 2:
   pageId: 169179
   revId: 1194288
@@ -8518,6 +8524,9 @@ Asphalt Xtreme:
 Asphyxia:
   pageId: 33642
   revId: 1192075
+'Aspire: Ina''s Tale':
+  pageId: 173772
+  revId: 1197436
 Assassin's Creed:
   pageId: 84
   revId: 1153793
@@ -8538,7 +8547,7 @@ Assassin's Creed III:
   revId: 1130540
 Assassin's Creed III Remastered:
   pageId: 124755
-  revId: 1173066
+  revId: 1197510
 'Assassin''s Creed III: Liberation Remastered':
   pageId: 143155
   revId: 1175172
@@ -8664,7 +8673,7 @@ Astellia:
   revId: 1172658
 Aster:
   pageId: 156674
-  revId: 1181366
+  revId: 1197429
 Asteria:
   pageId: 50007
   revId: 1181368
@@ -9798,7 +9807,7 @@ Away from beauty 色即是空:
   pageId: 127120
   renamedFrom:
     - 'AWAY: Journey to the Unexpected'
-  revId: 1173050
+  revId: 1197524
 'Away: The Survival Series':
   pageId: 78768
   revId: 1170146
@@ -10331,7 +10340,7 @@ Babylon 2055 Pinball:
   revId: 1184720
 Babylon's Fall:
   pageId: 154516
-  revId: 1197069
+  revId: 1197356
 Babylonia:
   pageId: 141622
   revId: 1176563
@@ -10728,8 +10737,9 @@ Baldur's Gate 3:
   revId: 1147680
   tooBroad: true
 'Baldur''s Gate: Dark Alliance':
+  irregularPath: true
   pageId: 173748
-  revId: 1197213
+  revId: 1197571
 'Baldur''s Gate: Enhanced Edition':
   pageId: 4009
   revId: 1149642
@@ -11365,7 +11375,7 @@ Batla:
   revId: 1184541
 'Batman: Arkham City':
   pageId: 748
-  revId: 1184540
+  revId: 1197386
 'Batman: Arkham Knight':
   pageId: 15767
   revId: 1130603
@@ -16965,7 +16975,7 @@ Broken Spell 2:
   revId: 1146641
 'Broken Sword II: The Smoking Mirror - Remastered':
   pageId: 17518
-  revId: 1138021
+  revId: 1197536
 'Broken Sword: Shadow of the Templars: Director''s Cut':
   pageId: 8242
   revId: 1133086
@@ -18485,7 +18495,7 @@ Call of Duty 2:
   revId: 1145667
 'Call of Duty: Vanguard':
   pageId: 170793
-  revId: 1179156
+  revId: 1197357
 'Call of Duty: WWII':
   pageId: 61703
   revId: 1168375
@@ -25785,7 +25795,7 @@ Cross Princess:
   revId: 1152004
 Cross Racing Championship 2005:
   pageId: 22671
-  revId: 1151158
+  revId: 1197387
 Cross Set:
   pageId: 38390
   revId: 1125908
@@ -28296,7 +28306,7 @@ Dark Souls III:
   revId: 1177567
 Dark Souls Remastered:
   pageId: 80167
-  revId: 1197294
+  revId: 1197542
 'Dark Souls: Prepare to Die Edition':
   pageId: 3367
   revId: 1193945
@@ -28985,7 +28995,7 @@ Dead Castle:
   revId: 1174892
 Dead Cells:
   pageId: 58168
-  revId: 1194440
+  revId: 1197366
 Dead Climb:
   pageId: 89648
   revId: 1126308
@@ -29198,16 +29208,16 @@ Dead Sky:
   revId: 1108579
 Dead Space:
   pageId: 65
-  revId: 1196263
+  revId: 1197556
 Dead Space (remake):
   pageId: 170236
   revId: 1132362
 Dead Space 2:
   pageId: 2841
-  revId: 1196262
+  revId: 1197560
 Dead Space 3:
   pageId: 4510
-  revId: 1179263
+  revId: 1197561
 Dead Spawn:
   pageId: 144831
   revId: 1175717
@@ -29719,7 +29729,7 @@ Death or Cress:
   revId: 1193187
 Death to Spies:
   pageId: 21017
-  revId: 1196613
+  revId: 1197372
 'Death to Spies: Moment of Truth':
   pageId: 34311
   revId: 1195204
@@ -31079,7 +31089,7 @@ Desperados III:
   revId: 1168676
 'Desperados: Wanted Dead or Alive':
   pageId: 13157
-  revId: 1197203
+  revId: 1197523
 Desperate Game:
   pageId: 82649
   revId: 1126697
@@ -41802,7 +41812,7 @@ Fast & Furious Crossroads:
   revId: 1164789
 'Fast & Furious: Spy Racers Rise of SH1FT3R':
   pageId: 172808
-  revId: 1153849
+  revId: 1197450
 Fast Action Hero:
   pageId: 51361
   revId: 1093452
@@ -42739,7 +42749,7 @@ Final Fantasy VII (2012):
 Final Fantasy VII Remake Intergrade:
   irregularPath: true
   pageId: 173585
-  revId: 1197323
+  revId: 1197549
 Final Fantasy VIII:
   pageId: 583
   revId: 1165629
@@ -43348,7 +43358,7 @@ Five Nights at Freddy's 4:
   revId: 1196667
 'Five Nights at Freddy''s: Security Breach':
   pageId: 166451
-  revId: 1197134
+  revId: 1197362
 'Five Nights at Freddy''s: Sister Location':
   pageId: 39245
   revId: 1185727
@@ -47176,10 +47186,10 @@ Gary the Gull:
   revId: 1093940
 Gas Guzzlers Extreme:
   pageId: 14152
-  revId: 1186621
+  revId: 1197494
 'Gas Guzzlers: Combat Carnage':
   pageId: 59019
-  revId: 1150384
+  revId: 1197493
 Gas Station Simulator:
   pageId: 151359
   revId: 1170184
@@ -48234,7 +48244,7 @@ Glacial:
   revId: 1177374
 Glacier:
   pageId: 88300
-  revId: 1195125
+  revId: 1197486
 'Glacier 3: The Meltdown':
   pageId: 50715
   revId: 1195126
@@ -49640,7 +49650,7 @@ Grand Theft Auto V:
   revId: 1194691
 'Grand Theft Auto: Vice City':
   pageId: 994
-  revId: 1195881
+  revId: 1197512
 'Grand Theft Auto: Vice City – The Definitive Edition':
   pageId: 172281
   revId: 1194693
@@ -52236,7 +52246,7 @@ Harry Potter and the Prisoner of Azkaban:
   revId: 1195254
 'Harry Potter: Quidditch World Cup':
   pageId: 19551
-  revId: 1151048
+  revId: 1197424
 Harry's Burgers:
   pageId: 82440
   revId: 1183631
@@ -65117,7 +65127,7 @@ LeftWay:
   revId: 1196160
 'Legacy of Kain: Soul Reaver 2':
   pageId: 23452
-  revId: 1185213
+  revId: 1197570
 Legacy of Lina:
   pageId: 114388
   revId: 1183298
@@ -65464,7 +65474,7 @@ Lego Brawls:
   revId: 1174765
 Lego Builder's Journey:
   pageId: 154806
-  revId: 1153110
+  revId: 1197551
 Lego Chess:
   pageId: 8343
   revId: 1142286
@@ -65568,7 +65578,7 @@ Lego Star Wars Battles:
   revId: 1132933
 Lego Stunt Rally:
   pageId: 25672
-  revId: 1194156
+  revId: 1197389
 Lego The Hobbit:
   pageId: 20852
   revId: 1197283
@@ -70753,9 +70763,12 @@ Marwin and The Evolution Stone:
 Mary Le Chef - Cooking Passion:
   pageId: 63986
   revId: 1178469
+Mary Skelter 2:
+  pageId: 173788
+  revId: 1197569
 'Mary Skelter: Nightmares':
   pageId: 103273
-  revId: 1171173
+  revId: 1197565
 'Mary-Kate and Ashley: Crush Course':
   pageId: 92589
   revId: 1186882
@@ -72490,7 +72503,7 @@ Metro Exodus:
   tooBroad: true
 Metro Exodus Enhanced Edition:
   pageId: 168317
-  revId: 1179133
+  revId: 1197526
 Metro Explosion Simulator:
   pageId: 140875
   revId: 1176552
@@ -72684,7 +72697,7 @@ Microsoft Flight:
   revId: 1145945
 Microsoft Flight Simulator:
   pageId: 172712
-  revId: 1149569
+  revId: 1197419
 Microsoft Flight Simulator (2020):
   pageId: 138499
   revId: 1180161
@@ -73716,7 +73729,7 @@ Mirror Mysteries 2:
   revId: 1189595
 Mirror's Edge:
   pageId: 45
-  revId: 1188894
+  revId: 1197363
 Mirror's Edge Catalyst:
   pageId: 25629
   revId: 1189756
@@ -76145,7 +76158,7 @@ My Friend Pedro:
   revId: 1188991
 My Friend Peppa Pig:
   pageId: 172536
-  revId: 1170774
+  revId: 1197401
 My Friend is a Raven:
   pageId: 155791
   revId: 1176391
@@ -78785,7 +78798,7 @@ Nexus:
   revId: 1181507
 'Nexus: The Jupiter Incident':
   pageId: 6975
-  revId: 1147157
+  revId: 1197540
 'Ni no Kuni II: Revenant Kingdom':
   pageId: 57039
   revId: 1172206
@@ -88815,7 +88828,7 @@ Project Abyss:
   revId: 1155974
 Project Aftermath:
   pageId: 41338
-  revId: 1186763
+  revId: 1197350
 Project Almighty:
   pageId: 75650
   revId: 1157716
@@ -90639,7 +90652,7 @@ Quest for Conquest:
   tooBroad: true
 'Quest for Glory V: Dragon Fire':
   pageId: 32471
-  revId: 1147246
+  revId: 1197485
   tooBroad: true
 'Quest for Glory: Shadows of Darkness':
   pageId: 24434
@@ -91487,7 +91500,7 @@ Radio Commander:
   revId: 1171089
 Radio General:
   pageId: 135447
-  revId: 1171854
+  revId: 1197428
 Radio Violence:
   pageId: 121223
   revId: 1160557
@@ -91719,10 +91732,10 @@ Railroad Tracks:
   revId: 1159539
 Railroad Tycoon 3:
   pageId: 3865
-  revId: 1196392
+  revId: 1197414
 Railroad Tycoon II:
   pageId: 8887
-  revId: 1196664
+  revId: 1197413
 Railroad X:
   pageId: 50097
   revId: 1155719
@@ -92886,7 +92899,7 @@ Red Embrace:
   revId: 1173626
 Red Faction:
   pageId: 3280
-  revId: 1196561
+  revId: 1197457
   unsupportedOs: true
 Red Faction Guerrilla Re-Mars-tered:
   pageId: 91325
@@ -97301,16 +97314,16 @@ S.P.I.C.E Arena:
   revId: 1194547
 'S.T.A.L.K.E.R.: Call of Pripyat':
   pageId: 3499
-  revId: 1196744
+  revId: 1197455
 'S.T.A.L.K.E.R.: Clear Sky':
   pageId: 5510
   revId: 1196493
 'S.T.A.L.K.E.R.: Lost Alpha':
   pageId: 16928
-  revId: 1196492
+  revId: 1197501
 'S.T.A.L.K.E.R.: Shadow of Chernobyl':
   pageId: 72
-  revId: 1196155
+  revId: 1197453
 S.T.R.E.T.C.H.:
   pageId: 93867
   revId: 1159163
@@ -98000,7 +98013,7 @@ Saints Row:
   revId: 1179842
 Saints Row 2:
   pageId: 3315
-  revId: 1190716
+  revId: 1197364
 Saints Row IV:
   pageId: 7985
   revId: 1191051
@@ -98865,7 +98878,7 @@ Scarab Tales:
   revId: 1155437
 Scarf:
   pageId: 108688
-  revId: 1196998
+  revId: 1197380
 'Scarface: The World Is Yours':
   pageId: 22057
   revId: 1196916
@@ -98935,7 +98948,7 @@ Scavenger SV-4:
   revId: 1159654
 Scavengers:
   pageId: 167992
-  revId: 1105410
+  revId: 1197532
 Scenner:
   pageId: 138607
   revId: 1161991
@@ -99574,7 +99587,7 @@ Secret Santa:
   revId: 1149374
 Secret Service:
   pageId: 126713
-  revId: 1196086
+  revId: 1197370
 'Secret Service: In Harm''s Way':
   pageId: 126715
   revId: 1167622
@@ -100674,7 +100687,7 @@ Shakedown Racing One:
   revId: 1141655
 Shakes and Fidget:
   pageId: 38559
-  revId: 1135607
+  revId: 1197404
 Shakes and Fidget Remastered:
   pageId: 123725
   revId: 1179630
@@ -106492,6 +106505,9 @@ SpedV:
 Speebot:
   pageId: 73780
   revId: 1150068
+'Speed 3: Grand Prix':
+  pageId: 173764
+  revId: 1197522
 Speed Box:
   pageId: 103085
   revId: 1159738
@@ -106982,7 +106998,7 @@ Spirited Heart Deluxe:
   revId: 1166058
 Spiritfarer:
   pageId: 139736
-  revId: 1170334
+  revId: 1197451
 Spiritlands:
   pageId: 61590
   revId: 1156531
@@ -107936,7 +107952,7 @@ Star Trek Timelines:
   revId: 1191003
 'Star Trek: Elite Force II':
   pageId: 6375
-  revId: 1189882
+  revId: 1197369
 'Star Trek: En Territoire Alien':
   pageId: 114528
   revId: 1151746
@@ -108075,10 +108091,10 @@ Star Wars Galaxies:
   revId: 1174020
 'Star Wars: Jedi Knight - Dark Forces II':
   pageId: 841
-  revId: 1197317
+  revId: 1197538
 'Star Wars: Jedi Knight - Jedi Academy':
   pageId: 1068
-  revId: 1197241
+  revId: 1197434
 'Star Wars: Jedi Knight - Mysteries of the Sith':
   pageId: 24475
   revId: 1197322
@@ -108121,7 +108137,7 @@ Star Wars Galaxies:
   revId: 1188004
 'Star Wars: Starfighter':
   pageId: 19464
-  revId: 1140261
+  revId: 1197508
 'Star Wars: TIE Fighter':
   pageId: 641
   revId: 1151304
@@ -109723,7 +109739,7 @@ Stratoscape:
   revId: 1156019
 Strawberry Shortcake and Her Berry Best Friends:
   pageId: 166218
-  revId: 1024267
+  revId: 1197472
 'Strawberry Shortcake: Amazing Cookie Party':
   pageId: 166221
   revId: 1024272
@@ -109829,9 +109845,12 @@ Street Legal:
 'Street Level: Windows Edition':
   pageId: 94733
   revId: 1159270
+'Street Outlaws 2: Winner Takes All':
+  pageId: 173767
+  revId: 1197519
 'Street Outlaws: The List':
   pageId: 150739
-  revId: 1195133
+  revId: 1197520
 Street Posse Showdown:
   pageId: 53447
   revId: 1187152
@@ -114200,7 +114219,7 @@ Taxi (2016):
   revId: 1196261
 Taxi Chaos:
   pageId: 172107
-  revId: 1195137
+  revId: 1197468
 Taxi Raser:
   pageId: 88298
   revId: 1195138
@@ -120938,7 +120957,7 @@ The Simpsons Arcade Game:
   revId: 1191013
 'The Simpsons: Hit & Run':
   pageId: 2062
-  revId: 1170272
+  revId: 1197430
 'The Simpsons: Virtual Springfield':
   pageId: 89975
   revId: 1137983
@@ -121713,10 +121732,10 @@ The Vanished Dragon:
   revId: 1162599
 The Vanishing of Ethan Carter:
   pageId: 19722
-  revId: 1138275
+  revId: 1197543
 The Vanishing of Ethan Carter Redux:
   pageId: 28603
-  revId: 1147516
+  revId: 1197544
 The Vanishing of Ethan Carter VR:
   pageId: 172631
   revId: 1145379
@@ -122536,7 +122555,7 @@ Thief Town:
   revId: 1170919
 'Thief: Deadly Shadows':
   pageId: 2920
-  revId: 1173332
+  revId: 1197388
 'Thief: The Dark Project':
   pageId: 146
   revId: 1164418
@@ -123200,7 +123219,7 @@ Timber! The Logging Experts:
   revId: 1185541
 Timberborn:
   pageId: 151436
-  revId: 1194177
+  revId: 1197530
 Timberman:
   pageId: 37443
   revId: 1137015
@@ -124088,7 +124107,7 @@ Tom Clancy's Splinter Cell:
   revId: 1195517
 'Tom Clancy''s Splinter Cell: Chaos Theory':
   pageId: 1391
-  revId: 1196320
+  revId: 1197547
 'Tom Clancy''s Splinter Cell: Conviction':
   pageId: 9430
   revId: 1179366
@@ -124172,7 +124191,7 @@ Tomb Raider II:
   revId: 1179080
 'Tomb Raider: The Angel of Darkness':
   pageId: 7031
-  revId: 1180372
+  revId: 1197553
 'Tomb Raider: The Last Revelation':
   pageId: 7007
   revId: 1144653
@@ -127775,7 +127794,7 @@ Uncharted Waters Online:
   renamedFrom:
     - 'Uncharted: Legacy of Thieves Collection'
     - 'Uncharted: The Naughty Dog PC Collection'
-  revId: 1194794
+  revId: 1197353
 Unclaimed World:
   pageId: 16266
   revId: 1191611
@@ -129594,7 +129613,7 @@ Vampire of the Sands:
   revId: 1169150
 'Vampire: The Masquerade - Swansong':
   pageId: 148254
-  revId: 1167822
+  revId: 1197440
 Vampires!:
   pageId: 70497
   revId: 1157319
