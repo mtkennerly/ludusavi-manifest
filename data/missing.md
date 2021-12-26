@@ -20588,6 +20588,7 @@
 * [NeptuneGL](https://www.pcgamingwiki.com/wiki/?curid=80980)
 * [Neptunian Donut](https://www.pcgamingwiki.com/wiki/?curid=72853)
 * [Nerepis](https://www.pcgamingwiki.com/wiki/?curid=76390)
+* [Nerf Legends](https://www.pcgamingwiki.com/wiki/?curid=173876)
 * [Nerved](https://www.pcgamingwiki.com/wiki/?curid=105115)
 * [Nerves of Steel](https://www.pcgamingwiki.com/wiki/?curid=145655)
 * [NEStalgia](https://www.pcgamingwiki.com/wiki/?curid=50448)
