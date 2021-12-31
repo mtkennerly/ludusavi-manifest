@@ -20000,7 +20000,6 @@
 * [Mutiny Island](https://www.pcgamingwiki.com/wiki/?curid=141238)
 * [Mutiny!!](https://www.pcgamingwiki.com/wiki/?curid=73266)
 * [Mutland](https://www.pcgamingwiki.com/wiki/?curid=124108)
-* [Mutropolis](https://www.pcgamingwiki.com/wiki/?curid=130692)
 * [Mutual Secret](https://www.pcgamingwiki.com/wiki/?curid=108884)
 * [Muv-Luv Alternative](https://www.pcgamingwiki.com/wiki/?curid=69000)
 * [Muv-Luv photonflowers*](https://www.pcgamingwiki.com/wiki/?curid=140717)
