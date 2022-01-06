@@ -2432,7 +2432,7 @@ ATTACK OF THE EVIL POOP:
   revId: 1175637
 ATV Drift & Tricks:
   pageId: 75053
-  revId: 1177675
+  revId: 1201256
 ATV GP:
   pageId: 47321
   revId: 1167049
@@ -3178,7 +3178,7 @@ Actua Golf 3:
   revId: 1145520
 Actua Ice Hockey 2:
   pageId: 77733
-  revId: 1200450
+  revId: 1201398
 Actua Pool:
   pageId: 167625
   revId: 1200449
@@ -6732,7 +6732,7 @@ Anno 1800:
   revId: 1201151
 Anno 2070:
   pageId: 1719
-  revId: 1201150
+  revId: 1201468
 Anno 2205:
   pageId: 25853
   revId: 1153955
@@ -11918,7 +11918,7 @@ Battlefield Armor:
   revId: 1167068
 Battlefield Hardline:
   pageId: 17778
-  revId: 1179308
+  revId: 1201274
 Battlefield Heroes:
   pageId: 73080
   revId: 1137281
@@ -15165,7 +15165,8 @@ Blue Estate The Game:
   revId: 1130808
 Blue Fire:
   pageId: 166442
-  revId: 1114077
+  revId: 1201406
+  unsupportedOs: true
 Blue Force:
   pageId: 147150
   revId: 1148237
@@ -19166,7 +19167,7 @@ Carly and the Reaperman - Escape from the Underworld:
   revId: 1190064
 Carmageddon:
   pageId: 13419
-  revId: 1194951
+  revId: 1201433
 'Carmageddon II: Carpocalypse Now':
   pageId: 13423
   revId: 1151230
@@ -19551,10 +19552,10 @@ Castle of Illusion:
   revId: 1136956
 Castle of Shikigami:
   pageId: 62821
-  revId: 1183915
+  revId: 1201337
 Castle of Shikigami 2:
   pageId: 173570
-  revId: 1195253
+  revId: 1201336
 Castle of Venia:
   pageId: 108340
   revId: 1183917
@@ -20547,10 +20548,10 @@ Chaos on Deponia:
   revId: 1199065
 Chaos;Child:
   pageId: 99067
-  revId: 1190864
+  revId: 1201320
 Chaos;Head:
   pageId: 126659
-  revId: 1191315
+  revId: 1201294
 ChaosTower:
   pageId: 44483
   revId: 1184090
@@ -22538,7 +22539,7 @@ Close Combat:
   revId: 1136113
 'Close Combat: Last Stand Arnhem':
   pageId: 123621
-  revId: 1137984
+  revId: 1201403
 'Close Combat: Modern Tactics':
   pageId: 131875
   revId: 1137455
@@ -22553,10 +22554,10 @@ Close Combat:
   revId: 1170859
 'Close Combat: The Longest Day':
   pageId: 160806
-  revId: 1090894
+  revId: 1201401
 'Close Combat: Wacht am Rhein':
   pageId: 160113
-  revId: 1091049
+  revId: 1201404
 Close Me:
   pageId: 66201
   revId: 1119532
@@ -23633,7 +23634,7 @@ Command & Conquer Remastered Collection:
   revId: 1153872
 'Command & Conquer: Generals':
   pageId: 2101
-  revId: 1200906
+  revId: 1201295
 'Command & Conquer: Red Alert':
   pageId: 3188
   revId: 1153862
@@ -25677,7 +25678,7 @@ Crimzon Clover:
   revId: 1201236
 Crimzon Clover World EXplosion:
   pageId: 171947
-  revId: 1201240
+  revId: 1201338
 'Crimzon Clover: World Ignition':
   pageId: 22373
   revId: 1201239
@@ -27155,7 +27156,7 @@ Cyclemania:
   revId: 1125938
 Cycling Manager:
   pageId: 126735
-  revId: 1137773
+  revId: 1201436
 Cycling Manager 2:
   pageId: 126736
   revId: 1137769
@@ -27164,7 +27165,7 @@ Cycling Manager 3:
   revId: 1137767
 Cycling Manager 4:
   pageId: 126738
-  revId: 1137764
+  revId: 1201435
 Cyclones Playground:
   pageId: 107850
   revId: 1112773
@@ -27921,7 +27922,7 @@ Dare Course:
   revId: 1125979
 Darius Cozmic Collection Arcade:
   pageId: 171903
-  revId: 1188221
+  revId: 1201504
 Darius Gaiden:
   pageId: 30332
   revId: 1189289
@@ -28054,7 +28055,7 @@ Dark Fairy Fantasy:
   revId: 1165687
 'Dark Fall: Ghost Vigil':
   pageId: 148537
-  revId: 1172186
+  revId: 1201502
 'Dark Fall: The Journal':
   pageId: 13954
   revId: 1196611
@@ -28602,7 +28603,7 @@ Darkspore:
   revId: 1138138
 Darkstar One:
   pageId: 276
-  revId: 1165693
+  revId: 1201284
 Darkstone:
   pageId: 7272
   revId: 1146752
@@ -29020,7 +29021,7 @@ Dead Castle:
   revId: 1174892
 Dead Cells:
   pageId: 58168
-  revId: 1197366
+  revId: 1201475
 Dead Climb:
   pageId: 89648
   revId: 1126308
@@ -29693,7 +29694,10 @@ Death Stair:
   revId: 1102239
 Death Stranding:
   pageId: 151674
-  revId: 1180391
+  revId: 1201260
+'Death Stranding: Director''s Cut':
+  pageId: 174019
+  revId: 1201272
 Death Sword:
   pageId: 76506
   revId: 1184622
@@ -30064,7 +30068,7 @@ Deep Sixed:
   revId: 1108673
 Deep Sky Derelicts:
   pageId: 68713
-  revId: 1172025
+  revId: 1201299
 Deep Sleep Trilogy:
   pageId: 148475
   revId: 1186424
@@ -32365,7 +32369,7 @@ Disgraced:
   revId: 1126925
 Dishonored:
   pageId: 3440
-  revId: 1197341
+  revId: 1201413
 Dishonored 2:
   pageId: 25753
   revId: 1177572
@@ -35555,7 +35559,7 @@ Dungeon Lord:
   revId: 1173026
 Dungeon Lords:
   pageId: 35267
-  revId: 1149988
+  revId: 1201314
 'Dungeon Lurk II: Leona':
   pageId: 49438
   revId: 1134170
@@ -36325,7 +36329,7 @@ ERTX 2080TI Mining clicker:
   revId: 1127695
 ERacer:
   pageId: 162449
-  revId: 1127946
+  revId: 1201442
 ES Games:
   pageId: 87297
   revId: 1127696
@@ -36473,7 +36477,7 @@ Earth 2140:
   revId: 1141612
 Earth 2150:
   pageId: 13717
-  revId: 1198877
+  revId: 1201437
 Earth 2160:
   pageId: 15546
   revId: 1192216
@@ -38485,7 +38489,7 @@ Epic Mayhem:
   revId: 1192068
 'Epic Mickey 2: The Power of Two':
   pageId: 31500
-  revId: 1190987
+  revId: 1201317
 Epic PVP Castles:
   pageId: 74544
   revId: 1167269
@@ -38611,7 +38615,7 @@ Era Of Newborns:
   revId: 1123684
 Era of Majesty:
   pageId: 44411
-  revId: 1177369
+  revId: 1201300
 Era of Miracles:
   pageId: 149250
   revId: 1177368
@@ -40054,7 +40058,7 @@ Expedition Oregon:
   revId: 1146851
 'Expeditions: Rome':
   pageId: 169379
-  revId: 1197030
+  revId: 1201346
 'Expeditions: Viking':
   pageId: 39636
   revId: 1146852
@@ -40521,7 +40525,7 @@ FIFA 21:
   revId: 1149723
 FIFA 22:
   pageId: 169981
-  revId: 1199478
+  revId: 1201324
 FIFA 97:
   pageId: 133141
   revId: 1152093
@@ -40572,7 +40576,7 @@ FIFA World Cup 98:
   revId: 1164859
 'FIFA: Road to World Cup 98':
   pageId: 14547
-  revId: 1100990
+  revId: 1201444
 FIGHTBALL - BOXING VR:
   pageId: 141730
   revId: 1175359
@@ -40786,7 +40790,7 @@ Facewound:
   revId: 1167288
 Factorio:
   pageId: 31648
-  revId: 1171094
+  revId: 1201390
 Factory Balls:
   pageId: 132694
   revId: 1174924
@@ -40873,13 +40877,14 @@ Faerie Solitaire Remastered:
   revId: 1174021
 'Faery: Legends of Avalon':
   pageId: 50053
-  revId: 1192785
+  revId: 1201443
 Fahrenheit:
   pageId: 4137
   revId: 1136323
 'Fahrenheit: Indigo Prophecy Remastered':
   pageId: 22434
-  revId: 1196177
+  revId: 1201375
+  unsupportedOs: true
 Fail to Win:
   pageId: 154375
   revId: 1171482
@@ -42788,7 +42793,7 @@ Final Fantasy VII (2012):
 Final Fantasy VII Remake Intergrade:
   irregularPath: true
   pageId: 173585
-  revId: 1201234
+  revId: 1201506
 Final Fantasy VIII:
   pageId: 583
   revId: 1165629
@@ -43397,7 +43402,7 @@ Five Nights at Freddy's 4:
   revId: 1196667
 'Five Nights at Freddy''s: Security Breach':
   pageId: 166451
-  revId: 1199938
+  revId: 1201327
 'Five Nights at Freddy''s: Sister Location':
   pageId: 39245
   revId: 1185727
@@ -44109,7 +44114,7 @@ Fold:
   revId: 1176984
 Folk Tale:
   pageId: 40620
-  revId: 1166946
+  revId: 1201301
 Folklore Hunter:
   pageId: 156426
   revId: 1184935
@@ -44851,7 +44856,7 @@ Forward to the Sky:
   revId: 1150048
 Forza Horizon 3:
   pageId: 39904
-  revId: 1099021
+  revId: 1201402
 Forza Horizon 4:
   pageId: 97177
   revId: 1179583
@@ -47389,7 +47394,7 @@ Gearend:
   revId: 1122916
 Gears 5:
   pageId: 129518
-  revId: 1193954
+  revId: 1201484
 Gears POP!:
   pageId: 143617
   revId: 1189539
@@ -49005,7 +49010,7 @@ Godstrike:
   revId: 1196102
 Godus:
   pageId: 10077
-  revId: 1136970
+  revId: 1201306
 Godus Wars:
   pageId: 44710
   revId: 1137772
@@ -49449,7 +49454,7 @@ Goro 2:
   revId: 1133466
 Gorogoa:
   pageId: 57238
-  revId: 1175202
+  revId: 1201485
 Goroons:
   pageId: 93716
   revId: 1182978
@@ -49877,7 +49882,7 @@ Graveyard Smash:
   revId: 1113119
 Gravi:
   pageId: 38776
-  revId: 1150386
+  revId: 1201307
 GraviSound:
   pageId: 112416
   revId: 1183080
@@ -50128,7 +50133,7 @@ Greed Corp:
 GreedFall:
   irregularPath: true
   pageId: 137032
-  revId: 1200554
+  revId: 1201276
 Greedy Crush:
   pageId: 123507
   revId: 1183110
@@ -51134,7 +51139,7 @@ Gunship Recon:
   revId: 1152777
 Gunship!:
   pageId: 49953
-  revId: 1139669
+  revId: 1201452
 Gunsister:
   pageId: 164958
   revId: 1165959
@@ -51572,7 +51577,7 @@ Hades' Star:
   revId: 1174470
 'Haegemonia: Legions of Iron':
   pageId: 17497
-  revId: 1196626
+  revId: 1201281
 'Haegemonia: The Solon Heritage':
   pageId: 17499
   revId: 1167578
@@ -53241,7 +53246,7 @@ Hello Lady! -New Division-:
   revId: 1151837
 Hello Neighbor:
   pageId: 50971
-  revId: 1194507
+  revId: 1201288
 Hello Neighbor 2:
   pageId: 162221
   revId: 1170455
@@ -55392,13 +55397,13 @@ Homeward Duck:
   revId: 1175511
 Homeworld:
   pageId: 1231
-  revId: 1132854
+  revId: 1201279
 Homeworld 2:
   pageId: 777
-  revId: 1139347
+  revId: 1201280
 Homeworld 2 Remastered Edition:
   pageId: 22806
-  revId: 1151272
+  revId: 1201277
 Homeworld 3:
   pageId: 173575
   revId: 1195679
@@ -55407,7 +55412,7 @@ Homeworld Defense:
   revId: 1184346
 Homeworld Remastered Edition:
   pageId: 22805
-  revId: 1151273
+  revId: 1201278
 'Homeworld: Cataclysm':
   pageId: 25776
   revId: 1196541
@@ -57160,7 +57165,7 @@ I.F.O:
   revId: 1178959
 'I.G.I.-2: Covert Strike':
   pageId: 12346
-  revId: 1137257
+  revId: 1201393
 IACTURA:
   pageId: 36808
   revId: 1124356
@@ -58283,7 +58288,7 @@ Independence War:
   revId: 1197838
 'Independence War 2: Edge of Chaos':
   pageId: 23180
-  revId: 1193735
+  revId: 1201282
 India Garden:
   pageId: 62737
   revId: 1184407
@@ -58888,7 +58893,7 @@ Inori's House:
   revId: 1184243
 Inquisitor:
   pageId: 23786
-  revId: 1180247
+  revId: 1201462
 'Inquisitor: The Hammer of Witches':
   pageId: 135135
   revId: 1169648
@@ -58942,7 +58947,7 @@ Insatia:
   revId: 1178899
 Inscryption:
   pageId: 171859
-  revId: 1193892
+  revId: 1201427
 Insect Revolution VR:
   pageId: 134735
   revId: 1175548
@@ -59583,7 +59588,7 @@ Iron Tides:
   revId: 1178869
 'Iron Warriors: T - 72 Tank Command':
   pageId: 41400
-  revId: 1164990
+  revId: 1201463
 Iron Wings:
   pageId: 61794
   revId: 1184111
@@ -60983,7 +60988,7 @@ Journalism class:
   revId: 1123431
 Journey:
   pageId: 123314
-  revId: 1193941
+  revId: 1201497
 Journey For Elysium:
   pageId: 142121
   revId: 1175522
@@ -61526,7 +61531,7 @@ Just a Jumping Square:
   revId: 1178800
 Justice:
   pageId: 124514
-  revId: 1169732
+  revId: 1201426
 Justice League VR:
   pageId: 77586
   revId: 1094929
@@ -64399,7 +64404,7 @@ LandTraveller:
   revId: 1187649
 Lander:
   pageId: 53730
-  revId: 1166246
+  revId: 1201474
 Lander 8009 VR:
   pageId: 63165
   revId: 1094640
@@ -65637,7 +65642,7 @@ Lego Star Wars Battles:
   revId: 1142021
 'Lego Star Wars: The Complete Saga':
   pageId: 21618
-  revId: 1165726
+  revId: 1201361
 'Lego Star Wars: The Force Awakens':
   pageId: 31616
   revId: 1176092
@@ -67241,7 +67246,7 @@ Lonath Online:
   revId: 1183786
 London 2012:
   pageId: 89767
-  revId: 1195301
+  revId: 1201412
 London Detective Mysteria:
   pageId: 140574
   revId: 1147063
@@ -69668,7 +69673,7 @@ Magical Drop II:
   revId: 1189900
 Magical Drop III:
   pageId: 133169
-  revId: 1185515
+  revId: 1201311
 Magical Drop V:
   pageId: 40683
   revId: 1171008
@@ -72893,7 +72898,7 @@ Midnight Feast:
   revId: 1176536
 'Midnight GT: Primary Racer':
   pageId: 167593
-  revId: 1144719
+  revId: 1201441
 Midnight Ghost Hunt:
   pageId: 109814
   revId: 1170138
@@ -74337,7 +74342,7 @@ Money Master:
   revId: 1181927
 Money Puzzle Exchanger:
   pageId: 168861
-  revId: 1194261
+  revId: 1201312
 Mongrel:
   pageId: 136047
   revId: 1172301
@@ -74953,7 +74958,7 @@ Moonlight thief:
   revId: 1176450
 Moonlighter:
   pageId: 61691
-  revId: 1174797
+  revId: 1201476
 Moonlit Mayhem:
   pageId: 51342
   revId: 1178043
@@ -77591,7 +77596,7 @@ Narcosis:
   revId: 1185724
 Narita Boy:
   pageId: 167216
-  revId: 1148377
+  revId: 1201505
 Nark the Dragon:
   pageId: 79155
   revId: 1158058
@@ -78033,7 +78038,7 @@ Need for Speed Rivals:
   revId: 1200275
 'Need for Speed: Underground 2':
   pageId: 5577
-  revId: 1200276
+  revId: 1201494
 'Need for Speed: World':
   pageId: 6921
   revId: 1133032
@@ -79256,7 +79261,7 @@ Nightshade:
   revId: 1156033
 Nightshade (2019):
   pageId: 137422
-  revId: 1175034
+  revId: 1201473
 'Nightshift Legacy: The Jaguar''s Eye':
   pageId: 41122
   revId: 1169933
@@ -80981,7 +80986,7 @@ Office lovers:
   revId: 1095063
 Official Formula 1 Racing:
   pageId: 24655
-  revId: 1197257
+  revId: 1201397
 Offroad Mania:
   pageId: 156714
   revId: 1172169
@@ -81241,7 +81246,7 @@ Oligopoly:
   revId: 1159668
 Olija:
   pageId: 166273
-  revId: 1128672
+  revId: 1201510
 Olimdal:
   pageId: 125603
   revId: 1161133
@@ -81340,7 +81345,7 @@ Omicroid:
   revId: 1160093
 'Omikron: The Nomad Soul':
   pageId: 654
-  revId: 1195845
+  revId: 1201425
 Omina Mortis:
   pageId: 63028
   revId: 1156654
@@ -82010,7 +82015,7 @@ Open Surge:
   revId: 1200788
 Open Wheel Manager:
   pageId: 135279
-  revId: 1152661
+  revId: 1201333
 'Open World Game: the Open World Game':
   pageId: 153137
   revId: 1174397
@@ -83157,10 +83162,10 @@ Overloop:
   revId: 1169760
 Overlord (2007):
   pageId: 4565
-  revId: 1188088
+  revId: 1201486
 Overlord II:
   pageId: 14880
-  revId: 1168510
+  revId: 1201487
 'Overlord: Fellowship of Evil':
   pageId: 35314
   revId: 1136439
@@ -83244,7 +83249,7 @@ Owys:
   revId: 1102613
 Oxenfree:
   pageId: 30912
-  revId: 1194623
+  revId: 1201447
 'Oxenfree II: Lost Signals':
   pageId: 167888
   revId: 1104132
@@ -84531,7 +84536,7 @@ Pathfinder Adventures:
   revId: 1200684
 'Pathfinder: Wrath of the Righteous':
   pageId: 167275
-  revId: 1199172
+  revId: 1201381
 Pathogen-病原体:
   pageId: 128205
   revId: 1161474
@@ -85183,10 +85188,10 @@ Pets Sniper Shooting:
   revId: 1171662
 Petz Catz 2:
   pageId: 88534
-  revId: 1193773
+  revId: 1201490
 Petz Dogz 2:
   pageId: 88535
-  revId: 1199975
+  revId: 1201491
 Petz Horse Club:
   pageId: 172684
   revId: 1193776
@@ -87585,7 +87590,7 @@ Pool Shark:
   revId: 1101030
 Pool Shark 2:
   pageId: 173930
-  revId: 1200446
+  revId: 1201384
 Pool of Death:
   pageId: 39570
   revId: 1154615
@@ -87784,10 +87789,10 @@ PostCollapse:
   revId: 1155826
 Postal:
   pageId: 6136
-  revId: 1179219
+  revId: 1201496
 Postal 2:
   pageId: 469
-  revId: 1194259
+  revId: 1201495
 'Postal 4: No Regerts':
   pageId: 148063
   revId: 1190710
@@ -89550,7 +89555,7 @@ Psycho on the loose:
   revId: 1193407
 'Psycho-Pass: Mandatory Happiness':
   pageId: 40183
-  revId: 1175953
+  revId: 1201248
 Psychoballs:
   pageId: 87898
   revId: 1158550
@@ -92154,10 +92159,10 @@ Raptor Valley:
   revId: 1093697
 'Raptor: Call of the Shadows':
   pageId: 20530
-  revId: 1138370
+  revId: 1201271
 'Raptor: Call of the Shadows 2010 Edition':
   pageId: 13092
-  revId: 1137351
+  revId: 1201273
 'Raptor: Cretaceous Island':
   pageId: 122150
   revId: 1186434
@@ -93004,7 +93009,7 @@ Red Dead Pixel Man:
   revId: 1160914
 Red Dead Redemption 2:
   pageId: 147599
-  revId: 1197577
+  revId: 1201357
 Red Death:
   pageId: 59363
   revId: 1156392
@@ -93910,7 +93915,7 @@ Resident Evil 6:
   revId: 1194090
 'Resident Evil 7: Biohazard':
   pageId: 35030
-  revId: 1200229
+  revId: 1201508
 Resident Evil HD Remaster:
   pageId: 20009
   revId: 1199208
@@ -97986,10 +97991,10 @@ Sacrament:
   revId: 1157584
 Sacred:
   pageId: 2066
-  revId: 1196485
+  revId: 1201416
 'Sacred 2: Fallen Angel':
   pageId: 2079
-  revId: 1201176
+  revId: 1201296
 Sacred 3:
   pageId: 16062
   revId: 1149834
@@ -98166,7 +98171,7 @@ Sairento VR:
   revId: 1157430
 'Sakuna: Of Rice and Ruin':
   pageId: 165213
-  revId: 1198276
+  revId: 1201261
 Sakura Agent:
   pageId: 56790
   revId: 1191763
@@ -99270,7 +99275,7 @@ Scott in Space:
   revId: 1199188
 ScourgeBringer:
   pageId: 129373
-  revId: 1201034
+  revId: 1201472
 Scout's Honor:
   pageId: 122818
   revId: 1174968
@@ -100505,7 +100510,7 @@ Shadow Circuit:
   revId: 1095518
 'Shadow Company: Left For Dead':
   pageId: 23928
-  revId: 1154292
+  revId: 1201507
 Shadow Complex Remastered:
   pageId: 30035
   revId: 1194417
@@ -101756,10 +101761,10 @@ Shovel Knight Showdown:
   revId: 1140128
 'Shovel Knight: Specter of Torment':
   pageId: 60275
-  revId: 1196504
+  revId: 1201371
 'Shovel Knight: Treasure Trove':
   pageId: 15481
-  revId: 1194381
+  revId: 1201370
 Show It 2 Me:
   pageId: 77910
   revId: 1095576
@@ -102811,10 +102816,10 @@ Ski Jumping Pro VR:
   revId: 1166658
 Ski Park Manager:
   pageId: 167706
-  revId: 1198387
+  revId: 1201394
 Ski Park Tycoon:
   pageId: 48793
-  revId: 1155599
+  revId: 1201391
 Ski Region Simulator:
   pageId: 50703
   revId: 1167678
@@ -103455,7 +103460,7 @@ Sleeping Valley:
   revId: 1155815
 Sleepwalker:
   pageId: 91498
-  revId: 1152179
+  revId: 1201509
 Sleepwalker's Journey:
   pageId: 8035
   revId: 1104416
@@ -104171,7 +104176,7 @@ Sniper Zombie Killer:
   revId: 1108662
 'Sniper: Path of Vengeance':
   pageId: 69924
-  revId: 1196950
+  revId: 1201360
 Snipiyo / スナイピヨ:
   pageId: 132192
   revId: 1153376
@@ -106976,7 +106981,7 @@ Spider-Man (2002):
   revId: 1199564
 Spider-Man 3:
   pageId: 21076
-  revId: 1200231
+  revId: 1201275
 'Spider-Man: Far From Home Virtual Reality':
   pageId: 141218
   revId: 1193796
@@ -108240,7 +108245,7 @@ Star Wars Galaxies:
   revId: 1174020
 'Star Wars: Jedi Knight - Dark Forces II':
   pageId: 841
-  revId: 1200817
+  revId: 1201293
 'Star Wars: Jedi Knight - Jedi Academy':
   pageId: 1068
   revId: 1198170
@@ -108403,7 +108408,7 @@ StarForge:
   revId: 1154984
 StarLancer:
   pageId: 19079
-  revId: 1148090
+  revId: 1201285
 'StarLightRiders: HyperJump':
   pageId: 128475
   revId: 1161531
@@ -108753,7 +108758,7 @@ Startup Freak:
   revId: 1157554
 Startup Panic:
   pageId: 163354
-  revId: 1105469
+  revId: 1201421
 Startup Valley Adventure - Episode 1:
   pageId: 128441
   revId: 1161525
@@ -109144,10 +109149,10 @@ Stein.world:
   revId: 1153186
 Steins;Gate:
   pageId: 18608
-  revId: 1190448
+  revId: 1201318
 Steins;Gate 0:
   pageId: 58201
-  revId: 1190450
+  revId: 1201344
 Steins;Gate Elite:
   pageId: 91272
   revId: 1191030
@@ -111920,7 +111925,7 @@ Superhero League of Hoboken:
   revId: 1171231
 Superhot:
   pageId: 10578
-  revId: 1194079
+  revId: 1201478
 Superhot VR:
   pageId: 62544
   revId: 1194080
@@ -112889,7 +112894,7 @@ Synchrom:
   revId: 1103036
 Syndicate:
   pageId: 996
-  revId: 1140345
+  revId: 1201479
 Syndicate (2012):
   pageId: 916
   revId: 1193999
@@ -113404,7 +113409,7 @@ Tachyon Project:
   revId: 1164456
 'Tachyon: The Fringe':
   pageId: 26063
-  revId: 1145946
+  revId: 1201283
 Taco Gun:
   pageId: 93802
   revId: 1159152
@@ -113419,7 +113424,7 @@ TacoFace:
   revId: 1095406
 Tacoma:
   pageId: 63624
-  revId: 1140361
+  revId: 1201480
 Tacopocalypse:
   pageId: 44980
   revId: 1102001
@@ -117062,7 +117067,7 @@ The Elder Scrolls Online - Greymoor:
   revId: 1197197
 'The Elder Scrolls V: Skyrim Special Edition':
   pageId: 33359
-  revId: 1200244
+  revId: 1201498
 'The Elder Scrolls V: Skyrim VR':
   pageId: 89839
   revId: 1095289
@@ -117198,10 +117203,10 @@ The Escapist:
   revId: 1175986
 The Escapists:
   pageId: 19371
-  revId: 1195806
+  revId: 1201481
 The Escapists 2:
   pageId: 65486
-  revId: 1195814
+  revId: 1201482
 'The Escapists: The Walking Dead':
   pageId: 34316
   revId: 1195813
@@ -117974,7 +117979,7 @@ The Guild 3:
   revId: 1174018
 The Guild II:
   pageId: 11439
-  revId: 1165746
+  revId: 1201511
 'The Guild II: Pirates of the European Seas':
   pageId: 24021
   revId: 1165747
@@ -118076,7 +118081,7 @@ The Heist:
   revId: 1168517
 The Henry Stickmin Collection:
   pageId: 142315
-  revId: 1149402
+  revId: 1201356
 The Herbalist:
   pageId: 52846
   revId: 1155949
@@ -120141,7 +120146,7 @@ The Patrician:
   revId: 1137438
 The Pedestrian:
   pageId: 54455
-  revId: 1170438
+  revId: 1201423
 The Penguin Factory:
   pageId: 136830
   revId: 1174216
@@ -120899,7 +120904,7 @@ The Secret of Middle City:
   revId: 1185780
 The Secret of Monkey Island:
   pageId: 18
-  revId: 1132790
+  revId: 1201268
 'The Secret of Monkey Island: Special Edition':
   pageId: 10051
   revId: 1198945
@@ -123829,7 +123834,7 @@ Tiny Troopers 2:
   revId: 1164453
 'Tiny Troopers: Global Ops':
   pageId: 171605
-  revId: 1164206
+  revId: 1201347
 'Tiny Troopers: Joint Ops':
   pageId: 163115
   revId: 1199983
@@ -124238,10 +124243,10 @@ Tom Clancy's Rainbow Six Extraction:
   pageId: 138439
   renamedFrom:
     - Tom Clancy's Rainbow Six Quarantine
-  revId: 1179805
+  revId: 1201388
 Tom Clancy's Rainbow Six Siege:
   pageId: 23053
-  revId: 1200279
+  revId: 1201431
 'Tom Clancy''s Rainbow Six: Covert Operations Essentials':
   pageId: 25831
   revId: 1169322
@@ -129538,7 +129543,7 @@ VVVVV:
   revId: 1188690
 VVVVVV:
   pageId: 800
-  revId: 1189180
+  revId: 1201366
 Vacant:
   pageId: 68573
   revId: 1157124
@@ -129730,7 +129735,7 @@ Valzar:
   revId: 1155158
 'Vambrace: Cold Soul':
   pageId: 122620
-  revId: 1173561
+  revId: 1201483
 'Vampire & Monsters: Hidden Object Games':
   pageId: 130575
   revId: 1175017
@@ -129792,7 +129797,7 @@ Vampirina's Nails:
   revId: 1159760
 Vampyr:
   pageId: 63506
-  revId: 1198380
+  revId: 1201500
 'Vampyr: Talisman of Invocation':
   pageId: 76497
   revId: 1152231
@@ -132338,7 +132343,7 @@ Warhalla:
   revId: 1149968
 'Warhammer 40,000: Fire Warrior':
   pageId: 58401
-  revId: 1190625
+  revId: 1201488
 'Warhammer 40,000: Gladius - Relics of War':
   pageId: 77379
   revId: 1170663
@@ -132497,7 +132502,7 @@ Warlords.IO:
   revId: 1160674
 Warm Up!:
   pageId: 22682
-  revId: 1185678
+  revId: 1201396
 Warm Village:
   pageId: 78316
   revId: 1157977
@@ -136322,7 +136327,7 @@ YOU - The Untold Stories:
   revId: 1139983
 'YU-NO: A Girl Who Chants Love at the Bound of this World':
   pageId: 134145
-  revId: 1201185
+  revId: 1201386
 'YUNA: Sugar hearts and Love':
   pageId: 122574
   revId: 1160797
@@ -136601,7 +136606,7 @@ Yono and the Celestial Elephants:
   revId: 1147643
 Yooka-Laylee:
   pageId: 33353
-  revId: 1201098
+  revId: 1201499
 Yooka-Laylee and the Impossible Lair:
   pageId: 139472
   revId: 1196756
