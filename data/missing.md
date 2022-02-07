@@ -19532,6 +19532,7 @@
 * [Monaco Grand Prix Racing Simulation 2](https://www.pcgamingwiki.com/wiki/?curid=26191)
 * [Monads](https://www.pcgamingwiki.com/wiki/?curid=113272)
 * [Monarch of Greed - Act 1](https://www.pcgamingwiki.com/wiki/?curid=76245)
+* [Monark](https://www.pcgamingwiki.com/wiki/?curid=174983)
 * [Moncage](https://www.pcgamingwiki.com/wiki/?curid=157175)
 * [Mondealy](https://www.pcgamingwiki.com/wiki/?curid=174835)
 * [Mondly: Learn Languages in VR](https://www.pcgamingwiki.com/wiki/?curid=149511)
