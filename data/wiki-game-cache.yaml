@@ -2167,9 +2167,11 @@ AGON - The Mysterious Codex (Trilogy):
 'AGON: The Lost Sword of Toledo':
   pageId: 45565
   revId: 1202361
-'AGOS: A Game Of Space':
+'AGOS: A Game of Space':
   pageId: 164802
-  revId: 1173040
+  renamedFrom:
+    - 'AGOS: A Game Of Space'
+  revId: 1229784
 AHTS Ship Simulator:
   pageId: 65285
   revId: 1180511
@@ -2812,7 +2814,7 @@ Accurate Segmentation 3:
   revId: 1225444
 'Ace Combat: Assault Horizon - Enhanced Edition':
   pageId: 8889
-  revId: 1136868
+  revId: 1229803
 Ace In Space:
   pageId: 156742
   revId: 1171824
@@ -3816,7 +3818,7 @@ After the Empire:
   revId: 1180714
 After the End:
   pageId: 174387
-  revId: 1226786
+  revId: 1229746
 'After the End: The Harvest':
   pageId: 47297
   revId: 1207336
@@ -4850,7 +4852,7 @@ Alfonzo's Arctic Adventure:
   revId: 1176361
 'Alfred Hitchcock: Vertigo':
   pageId: 169967
-  revId: 1198360
+  revId: 1229809
 Algae:
   pageId: 104785
   revId: 1168041
@@ -7140,7 +7142,7 @@ Apex Hunters:
   revId: 1181173
 Apex Legends:
   pageId: 126989
-  revId: 1197172
+  revId: 1229824
 Apex Tournament:
   pageId: 77198
   revId: 1219482
@@ -8948,7 +8950,7 @@ Astrobase Command:
   revId: 1168108
 Astrobatics:
   pageId: 174383
-  revId: 1225374
+  revId: 1229749
 Astroderps:
   pageId: 35246
   revId: 1209090
@@ -9364,7 +9366,7 @@ Attack on Pearl Harbor:
   revId: 1164444
 Attack on Titan:
   pageId: 32119
-  revId: 1150499
+  revId: 1229752
 Attack on Titan 2:
   pageId: 83007
   revId: 1170592
@@ -10772,7 +10774,7 @@ Baldi's Basics - Field Trip:
   revId: 1203031
 Baldi's Basics Plus:
   pageId: 160300
-  revId: 1202872
+  revId: 1229881
 Baldi's Basics in Education & Learning:
   pageId: 126630
   revId: 1215926
@@ -14161,7 +14163,7 @@ Blade & Soul:
   revId: 1186172
 Blade Assault:
   pageId: 174442
-  revId: 1207794
+  revId: 1229826
 Blade Ballet:
   pageId: 41725
   revId: 1219700
@@ -17132,7 +17134,7 @@ Brotherhood United:
   revId: 1137177
 'Brothers: A Tale of Two Sons':
   pageId: 10047
-  revId: 1228255
+  revId: 1229835
 'Brrrainz: Feed your Hunger':
   pageId: 130255
   revId: 1177186
@@ -18649,7 +18651,7 @@ Call of the Ocean:
   revId: 1205850
 Call of the Sea:
   pageId: 160502
-  revId: 1218342
+  revId: 1229801
 Call of the Void:
   pageId: 136971
   revId: 1174584
@@ -23751,7 +23753,7 @@ Command & Conquer Remastered Collection:
 'Command & Conquer: Red Alert 3 - Uprising':
   irregularPath: true
   pageId: 13416
-  revId: 1208177
+  revId: 1229776
 'Command & Conquer: Renegade':
   pageId: 1078
   revId: 1204235
@@ -25534,7 +25536,7 @@ Creature in the Well:
   revId: 1194853
 Creatures:
   pageId: 1602
-  revId: 1202763
+  revId: 1229825
 Creatures 2:
   pageId: 1613
   revId: 1202762
@@ -26279,7 +26281,7 @@ Cryptrunner:
   revId: 1216944
 Crysis:
   pageId: 1629
-  revId: 1206186
+  revId: 1229831
 Crysis 2:
   pageId: 1505
   revId: 1206643
@@ -28736,7 +28738,7 @@ Darksiders III:
   revId: 1201918
 Darksiders Warmastered Edition:
   pageId: 53723
-  revId: 1194047
+  revId: 1229877
 Darkspore:
   pageId: 18543
   revId: 1226712
@@ -30862,7 +30864,7 @@ Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles:
     - 'Demon Slayer: Kimetsu no Yaiba – Hinokami Kepputan'
     - Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles
     - 'Demon Slayer: Kimetsu no Yaiba – Hinokami Kepputan'
-  revId: 1228628
+  revId: 1229750
 Demon Truck:
   pageId: 41495
   revId: 1220704
@@ -32316,7 +32318,7 @@ Diorama Worlds:
   revId: 1220849
 Diplomacy Is Not an Option:
   pageId: 174890
-  revId: 1228791
+  revId: 1229861
 Direct:
   pageId: 67227
   revId: 1191873
@@ -34820,7 +34822,7 @@ Dreamcage Escape:
   revId: 1221080
 Dreamfall Chapters:
   pageId: 20643
-  revId: 1146803
+  revId: 1229843
 'Dreamfall: The Longest Journey':
   pageId: 12158
   revId: 1199739
@@ -36213,7 +36215,7 @@ Dying Light 2 Stay Human:
   renamedFrom:
     - Dying Light 2
     - 'Dying Light 2: Stay Human'
-  revId: 1229115
+  revId: 1229770
 'Dying Light: Bad Blood':
   pageId: 108804
   revId: 1173025
@@ -36279,10 +36281,10 @@ Dynasty Warriors 7 with Xtreme Legends:
   revId: 1227423
 Dynasty Warriors 9:
   pageId: 83036
-  revId: 1227426
+  revId: 1229793
 'Dynasty Warriors 9: Empires':
   pageId: 163897
-  revId: 1229621
+  revId: 1229790
 Dynasty Warriors Online Z:
   irregularPath: true
   pageId: 173708
@@ -39906,6 +39908,9 @@ Evil Tag:
 Evil West:
   pageId: 165656
   revId: 1217804
+Evil Wizard:
+  pageId: 175251
+  revId: 1229775
 EvilMorph:
   pageId: 56998
   revId: 1205413
@@ -40634,7 +40639,7 @@ FAN CLUB:
   revId: 1175349
 'FAR: Changing Tides':
   pageId: 169285
-  revId: 1227050
+  revId: 1229794
 'FAR: Lone Sails':
   pageId: 61570
   revId: 1207777
@@ -41279,7 +41284,7 @@ Fall Fear Fly Redemption:
   revId: 1188296
 'Fall Guys: Ultimate Knockout':
   pageId: 139641
-  revId: 1224857
+  revId: 1229718
 Fall In Love - My Billionaire Boss:
   pageId: 140783
   revId: 1173900
@@ -44987,7 +44992,7 @@ Forsaken World:
   revId: 1184947
 Forspoken:
   pageId: 167289
-  revId: 1195474
+  revId: 1229879
 Fort:
   pageId: 104977
   revId: 1218729
@@ -52058,7 +52063,7 @@ Halo Beats!:
   revId: 1217747
 Halo Infinite:
   pageId: 138382
-  revId: 1229697
+  revId: 1229773
 Halo Online:
   pageId: 124844
   revId: 1217746
@@ -53245,7 +53250,7 @@ Hedgewars:
   revId: 1166472
 Hedon:
   pageId: 133242
-  revId: 1229094
+  revId: 1229854
 'Heebie Jeebies: The Roller Coaster':
   pageId: 153127
   revId: 1175487
@@ -53640,7 +53645,7 @@ HenTris:
   revId: 1183907
 Henchman Story:
   pageId: 173371
-  revId: 1229287
+  revId: 1229819
 Henri's Secret:
   pageId: 99352
   revId: 1183908
@@ -55290,7 +55295,7 @@ Hitman GO:
   revId: 1203968
 'Hitman: Codename 47':
   pageId: 3615
-  revId: 1228018
+  revId: 1229804
 'Hitman: Contracts':
   pageId: 491
   revId: 1202955
@@ -58122,7 +58127,7 @@ Immortals Fenyx Rising:
   pageId: 138457
   renamedFrom:
     - Gods & Monsters
-  revId: 1191176
+  revId: 1229754
 Immune - True Survival:
   pageId: 48391
   revId: 1178921
@@ -65539,16 +65544,16 @@ LeftWay:
   revId: 1164817
 'Legacy of Kain: Blood Omen 2':
   pageId: 36394
-  revId: 1229571
+  revId: 1229829
 'Legacy of Kain: Defiance':
   pageId: 36392
-  revId: 1229573
+  revId: 1229827
 'Legacy of Kain: Soul Reaver':
   pageId: 10198
   revId: 1225493
 'Legacy of Kain: Soul Reaver 2':
   pageId: 23452
-  revId: 1229572
+  revId: 1229830
 Legacy of Lina:
   pageId: 114388
   revId: 1183298
@@ -70761,13 +70766,13 @@ Maquette:
   revId: 1205454
 Marathon:
   pageId: 6941
-  revId: 1198157
+  revId: 1229850
 'Marathon 2: Durandal':
   pageId: 6955
-  revId: 1207149
+  revId: 1229851
 Marathon Infinity:
   pageId: 6963
-  revId: 1198159
+  revId: 1229852
 Marauder:
   pageId: 50480
   revId: 1148244
@@ -71576,7 +71581,7 @@ Max Payne:
   revId: 1224975
 Max Payne 3:
   pageId: 2846
-  revId: 1227365
+  revId: 1229768
 Max Stern:
   pageId: 51873
   revId: 1224815
@@ -73036,7 +73041,7 @@ Michael Owen's World League Soccer 99:
   revId: 1202066
 'Michael Schumacher: World Tour Kart 2004':
   pageId: 88388
-  revId: 1202067
+  revId: 1229857
 'Michelin Rally Masters: Race of Champions':
   pageId: 14465
   revId: 1199397
@@ -73415,7 +73420,7 @@ Mighty Dungeons:
   revId: 1177961
 Mighty Fight Federation:
   pageId: 145113
-  revId: 1229688
+  revId: 1229771
 Mighty Gemstones:
   pageId: 79734
   revId: 1182276
@@ -80405,7 +80410,7 @@ Northern Tales:
   revId: 1204880
 Northgard:
   pageId: 38953
-  revId: 1229685
+  revId: 1229836
   tooBroad: true
 Northland:
   pageId: 21892
@@ -82164,11 +82169,14 @@ One Star:
 One Step Beyond:
   pageId: 143887
   revId: 1136983
-One Step From Eden:
+One Step from Eden:
   pageId: 122848
   renamedFrom:
     - One Step from Eden
-  revId: 1179773
+    - One Step From Eden
+    - One Step from Eden
+    - One Step From Eden
+  revId: 1229873
 One Strike:
   pageId: 74195
   revId: 1196213
@@ -83430,7 +83438,7 @@ Outrider Mako:
   revId: 1169763
 Outriders:
   pageId: 138437
-  revId: 1190124
+  revId: 1229772
 Outrunner:
   pageId: 60908
   revId: 1181406
@@ -90532,6 +90540,12 @@ Putty Pals:
 Puttyface:
   pageId: 59361
   revId: 1223589
+Puyo Puyo:
+  pageId: 175260
+  revId: 1229871
+Puyo Puyo 2:
+  pageId: 175257
+  revId: 1229869
 Puyo Puyo Champions:
   pageId: 134021
   revId: 1149848
@@ -92469,7 +92483,7 @@ Raining Coins:
   revId: 1214317
 Rainswept:
   pageId: 79962
-  revId: 1173674
+  revId: 1229811
 Rainy Day Racer:
   pageId: 96345
   revId: 1214316
@@ -94442,7 +94456,7 @@ Resident Evil 6:
   revId: 1229650
 Resident Evil HD Remaster:
   pageId: 20009
-  revId: 1228222
+  revId: 1229862
 'Resident Evil Re:Verse':
   pageId: 166166
   revId: 1107730
@@ -96425,12 +96439,18 @@ Rockland VR:
 Rockman Dash 2:
   pageId: 140017
   revId: 1148512
+Rockman IQ Whirlwind:
+  pageId: 175246
+  revId: 1229722
 Rockman Strategy:
   pageId: 171442
   revId: 1088921
 Rockman X Dive:
   pageId: 171440
   revId: 1218156
+Rockman X Math Whirlwind:
+  pageId: 175248
+  revId: 1229724
 Rockman X7:
   pageId: 73411
   revId: 1150061
@@ -97945,7 +97965,7 @@ Rymdkapsel:
   revId: 1186472
 'Ryse: Son of Rome':
   pageId: 19353
-  revId: 1229662
+  revId: 1229766
 Rysen:
   pageId: 81691
   revId: 1209615
@@ -100880,7 +100900,7 @@ Servo:
   revId: 1186850
 Session:
   pageId: 95665
-  revId: 1170248
+  revId: 1229807
 Session Seven:
   pageId: 128258
   revId: 1210156
@@ -108886,7 +108906,7 @@ Star Wars Galaxies:
   revId: 1226850
 'Star Wars: The Old Republic':
   pageId: 124
-  revId: 1132802
+  revId: 1229767
 'Star Wars: Trials on Tatooine':
   pageId: 35561
   revId: 1186266
@@ -110379,7 +110399,7 @@ Stranger Things - Will's Side Quest:
   revId: 1177582
 'Stranger of Paradise: Final Fantasy Origin':
   pageId: 169276
-  revId: 1112630
+  revId: 1229719
 Stranger of Sword City:
   pageId: 33183
   revId: 1208014
@@ -110547,7 +110567,7 @@ Street Fighter 30th Anniversary Collection:
   revId: 1185773
 Street Fighter Alpha 2:
   pageId: 19767
-  revId: 1147408
+  revId: 1229769
 Street Fighter IV:
   pageId: 6353
   revId: 1185312
@@ -110986,10 +111006,10 @@ SubmarineCraft:
   revId: 1212152
 Submerged:
   pageId: 32056
-  revId: 1131072
+  revId: 1229814
 'Submerged: Hidden Depths':
   pageId: 170277
-  revId: 1100117
+  revId: 1229818
 'Submerged: VR Escape the Room':
   pageId: 109970
   revId: 1181033
@@ -118969,7 +118989,7 @@ The Incredible VR Game Show:
   revId: 1193307
 The Incredibles:
   pageId: 80154
-  revId: 1223667
+  revId: 1229785
 'The Incredibles: Rise of the Underminer':
   pageId: 101807
   revId: 1223668
@@ -119234,10 +119254,10 @@ The King of Fighters XIII:
   revId: 1133125
 The King of Fighters XIV:
   pageId: 62131
-  revId: 1147487
+  revId: 1229848
 The King of Fighters XV:
   pageId: 169779
-  revId: 1229642
+  revId: 1229860
 The King's Bird:
   pageId: 92367
   revId: 1175977
@@ -121778,7 +121798,7 @@ The Simpsons Arcade Game:
   revId: 1137983
 The Sims:
   pageId: 1426
-  revId: 1226361
+  revId: 1229733
 The Sims 2:
   pageId: 281
   revId: 1225056
@@ -125471,7 +125491,7 @@ Total Tank Simulator:
   revId: 1226500
 'Total War: Warhammer III':
   pageId: 166393
-  revId: 1225393
+  revId: 1229780
 Totally Accurate Battle Simulator:
   pageId: 39747
   revId: 1137263
@@ -129494,7 +129514,7 @@ Urban Cards:
   revId: 1188883
 Urban Chaos:
   pageId: 19490
-  revId: 1196676
+  revId: 1229739
 Urban Empire:
   pageId: 35573
   revId: 1147586
@@ -137053,7 +137073,10 @@ YORG.io 3:
   revId: 1139983
 'YU-NO: A Girl Who Chants Love at the Bound of this World':
   pageId: 134145
-  revId: 1202856
+  revId: 1229838
+'YU-NO: A Girl Who Chants Love at the Bound of this World (2000)':
+  pageId: 175255
+  revId: 1229841
 'YUNA: Sugar hearts and Love':
   pageId: 122574
   revId: 1205889
@@ -138543,7 +138566,7 @@ Zombie Rollerz:
   revId: 1170153
 'Zombie Rollerz: Pinball Heroes':
   pageId: 165579
-  revId: 1207388
+  revId: 1229813
 'Zombie Rush : Extinction':
   pageId: 141152
   revId: 1210212
