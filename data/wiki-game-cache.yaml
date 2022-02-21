@@ -3818,7 +3818,7 @@ After the Empire:
   revId: 1180714
 After the End:
   pageId: 174387
-  revId: 1229746
+  revId: 1230339
 'After the End: The Harvest':
   pageId: 47297
   revId: 1207336
@@ -4696,7 +4696,7 @@ Alaskan Truck Simulator:
   revId: 1195829
 'Alba: A Wildlife Adventure':
   pageId: 165256
-  revId: 1169115
+  revId: 1230347
 'Albedo: Eyes from Outer Space':
   pageId: 24330
   revId: 1187724
@@ -12353,7 +12353,7 @@ Beasts of Bermuda:
   revId: 1181903
 Beasts of Maravilla Island:
   pageId: 169269
-  revId: 1218293
+  revId: 1230416
 Beasts&Chests:
   pageId: 100086
   revId: 1181907
@@ -13471,10 +13471,10 @@ Biodrone Battle:
   revId: 1205317
 Biohazard 2 (Sourcenext):
   pageId: 124707
-  revId: 1229557
+  revId: 1230400
 'Biohazard 3: Last Escape (Sourcenext)':
   pageId: 124708
-  revId: 1228412
+  revId: 1230401
 Biolab:
   pageId: 157780
   revId: 1216144
@@ -21048,7 +21048,7 @@ Chico:
   revId: 1184257
 'Chicory: A Colorful Tale':
   pageId: 145574
-  revId: 1215324
+  revId: 1230362
 Chief's Quest:
   pageId: 121821
   revId: 1184260
@@ -21690,7 +21690,7 @@ Chrono Ark:
   revId: 1219959
 'Chrono Cross: The Radical Dreamers Edition':
   pageId: 175100
-  revId: 1228349
+  revId: 1230274
 Chrono Ghost:
   pageId: 125211
   revId: 1176972
@@ -26293,13 +26293,13 @@ Crysis 2:
   revId: 1206643
 Crysis 2 Remastered:
   pageId: 172186
-  revId: 1228830
+  revId: 1230301
 Crysis 3:
   pageId: 3746
   revId: 1226060
 Crysis 3 Remastered:
   pageId: 172190
-  revId: 1228792
+  revId: 1230410
 Crysis 4:
   pageId: 174718
   revId: 1224548
@@ -30045,7 +30045,7 @@ Deathwave:
   revId: 1220623
 Debris:
   pageId: 66709
-  revId: 1187534
+  revId: 1230284
 Debris Field:
   pageId: 124274
   revId: 1168777
@@ -33222,7 +33222,7 @@ Dolmen:
   revId: 1198949
 Dolphin:
   pageId: 169216
-  revId: 1201637
+  revId: 1230419
 Dolphin Defense:
   pageId: 43035
   revId: 1220933
@@ -36290,7 +36290,7 @@ Dynasty Warriors 9:
   revId: 1229793
 'Dynasty Warriors 9: Empires':
   pageId: 163897
-  revId: 1229790
+  revId: 1230296
 Dynasty Warriors Online Z:
   irregularPath: true
   pageId: 173708
@@ -41500,7 +41500,7 @@ Family Cobweb:
   revId: 1221649
 'Family Guy: Back to the Multiverse':
   pageId: 21821
-  revId: 1227347
+  revId: 1230405
 Family Hidden Secret:
   pageId: 132680
   revId: 1217512
@@ -41797,7 +41797,7 @@ Far Cry:
   tooBroad: true
 Far Cry 2:
   pageId: 1333
-  revId: 1229680
+  revId: 1230327
 Far Cry 3:
   pageId: 3763
   revId: 1225771
@@ -45097,7 +45097,7 @@ Forza Horizon 4:
   revId: 1179583
 Forza Horizon 5:
   pageId: 169274
-  revId: 1225024
+  revId: 1230424
 Forza Motorsport:
   pageId: 162113
   revId: 1190681
@@ -45532,7 +45532,7 @@ Freedom Fighter:
   revId: 1221964
 Freedom Fighters:
   pageId: 11918
-  revId: 1215295
+  revId: 1230402
 Freedom Fighters (2020):
   pageId: 163712
   revId: 1000469
@@ -55760,7 +55760,7 @@ Honkai Impact 3rd:
   pageId: 157677
   renamedFrom:
     - Houkai 3rd
-  revId: 1223529
+  revId: 1230422
 'Honor Cry: Aftermath':
   pageId: 95483
   revId: 1178993
@@ -55922,7 +55922,7 @@ Horde of Plenty:
   revId: 1184397
 HordeCore:
   pageId: 167612
-  revId: 1103640
+  revId: 1230375
 HordeZ:
   pageId: 34755
   revId: 1224135
@@ -56638,7 +56638,7 @@ Human Factory:
   revId: 1184618
 Human Resource Machine:
   pageId: 29132
-  revId: 1130256
+  revId: 1230361
 Human Rights:
   pageId: 130402
   revId: 1174660
@@ -59276,7 +59276,7 @@ Insatia:
   revId: 1178899
 Inscryption:
   pageId: 171859
-  revId: 1227510
+  revId: 1230311
 Insect Revolution VR:
   pageId: 134735
   revId: 1175548
@@ -64468,6 +64468,9 @@ LSDriver:
 LSDriver 2:
   pageId: 63781
   revId: 1182955
+'LURE: FREE':
+  pageId: 175353
+  revId: 1230281
 LUXAR:
   pageId: 155723
   revId: 1172589
@@ -65559,16 +65562,16 @@ LeftWay:
   revId: 1164817
 'Legacy of Kain: Blood Omen 2':
   pageId: 36394
-  revId: 1230116
+  revId: 1230318
 'Legacy of Kain: Defiance':
   pageId: 36392
-  revId: 1230115
+  revId: 1230320
 'Legacy of Kain: Soul Reaver':
   pageId: 10198
   revId: 1225493
 'Legacy of Kain: Soul Reaver 2':
   pageId: 23452
-  revId: 1230117
+  revId: 1230319
 Legacy of Lina:
   pageId: 114388
   revId: 1183298
@@ -76480,7 +76483,7 @@ Mutant Ops:
   revId: 1187433
 'Mutant Year Zero: Road to Eden':
   pageId: 88920
-  revId: 1197800
+  revId: 1230391
 Mutants Must Die!:
   pageId: 93810
   revId: 1181677
@@ -76525,7 +76528,7 @@ Mutual Secret:
   revId: 1181669
 Muv-Luv:
   pageId: 37237
-  revId: 1228785
+  revId: 1230323
 Muv-Luv Alternative:
   pageId: 69000
   revId: 1217930
@@ -78436,7 +78439,7 @@ Need for Speed Rivals:
   revId: 1208073
 'Need for Speed: Most Wanted':
   pageId: 2119
-  revId: 1230079
+  revId: 1230322
 'Need for Speed: Most Wanted (2012)':
   pageId: 3863
   revId: 1197924
@@ -78457,7 +78460,7 @@ Need for Speed Rivals:
   revId: 1133031
 'Need for Speed: Underground':
   pageId: 6886
-  revId: 1229663
+  revId: 1230367
 'Need for Speed: Underground 2':
   pageId: 5577
   revId: 1229354
@@ -84286,7 +84289,7 @@ Pan-Dimensional Conga Combat:
   revId: 1193447
 Pan-Pan:
   pageId: 36437
-  revId: 1209140
+  revId: 1230398
 PanGEMic:
   pageId: 55692
   revId: 1187215
@@ -84367,7 +84370,7 @@ Panic at Multiverse High!:
   revId: 1175930
 Pankapu:
   pageId: 39053
-  revId: 1172071
+  revId: 1230426
 Panoptes:
   pageId: 37213
   revId: 1215827
@@ -85512,6 +85515,9 @@ Perfect Plan:
 Perfect Round Disc Golf:
   pageId: 137088
   revId: 1181392
+Perfect Tides:
+  pageId: 175371
+  revId: 1230377
 Perfect Universe:
   pageId: 44425
   revId: 1223700
@@ -85779,7 +85785,7 @@ Phantasy Star Online 2 New Genesis:
   pageId: 17793
   renamedFrom:
     - Phantasy Star Online 2
-  revId: 1195626
+  revId: 1230326
 Phantasy Star Universe:
   pageId: 17795
   revId: 1208775
@@ -88630,7 +88636,7 @@ Prehistoric Isle 2:
   revId: 1194270
 Prehistoric Kingdom:
   pageId: 67313
-  revId: 1217828
+  revId: 1230376
 Prehistoric Tales:
   pageId: 42906
   revId: 1214839
@@ -90566,10 +90572,10 @@ Puttyface:
   revId: 1223589
 Puyo Puyo:
   pageId: 175260
-  revId: 1229871
+  revId: 1230420
 Puyo Puyo 2:
   pageId: 175257
-  revId: 1229869
+  revId: 1230421
 Puyo Puyo Champions:
   pageId: 134021
   revId: 1149848
@@ -93568,7 +93574,7 @@ Red Dead Pixel Man:
   revId: 1214227
 Red Dead Redemption 2:
   pageId: 147599
-  revId: 1230077
+  revId: 1230428
 Red Death:
   pageId: 59363
   revId: 1214226
@@ -94459,10 +94465,10 @@ Resident Evil 3 (2020):
   tooBroad: true
 Resident Evil 4:
   pageId: 690
-  revId: 1227043
+  revId: 1230409
 Resident Evil 4 Ultimate HD Edition:
   pageId: 14546
-  revId: 1227326
+  revId: 1230427
 Resident Evil 4 VR:
   pageId: 171783
   revId: 1139372
@@ -95178,19 +95184,19 @@ Ricochet:
   revId: 1179189
 Ricochet Infinity:
   pageId: 29499
-  revId: 1139984
+  revId: 1230366
 'Ricochet Kills: Noir':
   pageId: 58648
   revId: 1214072
 'Ricochet Lost Worlds: Recharged':
   pageId: 175334
-  revId: 1230219
+  revId: 1230389
 Ricochet Xtreme:
   pageId: 175333
-  revId: 1230218
+  revId: 1230388
 'Ricochet: Lost Worlds':
   pageId: 154851
-  revId: 1230214
+  revId: 1230390
 Riddle Joker:
   pageId: 164860
   revId: 1214071
@@ -104821,7 +104827,7 @@ Snoopy vs. the Red Baron:
   revId: 1148561
 Snoot Game:
   pageId: 169676
-  revId: 1087777
+  revId: 1230285
 Snow:
   pageId: 15326
   revId: 1175193
@@ -106154,7 +106160,7 @@ Space Bugs:
   revId: 1211277
 Space Bunnies Must Die!:
   pageId: 14474
-  revId: 1230169
+  revId: 1230382
 Space Candy:
   pageId: 149979
   revId: 1188798
@@ -106999,6 +107005,9 @@ Spacelair:
 Spaceland:
   pageId: 135715
   revId: 1170571
+Spacelines from the Far Out:
+  pageId: 175373
+  revId: 1230380
 Spacelords:
   pageId: 69008
   revId: 1219108
@@ -109334,7 +109343,7 @@ Starship Traveller:
   revId: 1164711
 Starship Troopers:
   pageId: 20485
-  revId: 1131099
+  revId: 1230399
 Starship Troopers - Terran Command:
   pageId: 152633
   revId: 1167827
@@ -113876,7 +113885,7 @@ TOCA Touring Car Championship:
   revId: 1215482
 TOEM:
   pageId: 171136
-  revId: 1206501
+  revId: 1230378
 TOGETHER - TO GET HER:
   pageId: 145127
   revId: 1175705
@@ -113927,7 +113936,7 @@ TRACKER《追踪者》:
   revId: 1188485
 TRAIL OUT:
   pageId: 175350
-  revId: 1230268
+  revId: 1230392
 TRANCE VR:
   pageId: 58852
   revId: 1222851
@@ -116201,7 +116210,7 @@ The Alchemist's House:
   revId: 1213229
 The Alien Cube:
   pageId: 151459
-  revId: 1170609
+  revId: 1230417
 The Alliance Alive HD Remastered:
   pageId: 130723
   revId: 1179097
@@ -119392,7 +119401,7 @@ The Last Birdling:
   revId: 1213758
 The Last Blade:
   pageId: 36604
-  revId: 1195567
+  revId: 1230275
 The Last Blade 2:
   pageId: 76901
   revId: 1140293
@@ -121101,7 +121110,7 @@ The Psychic:
   revId: 1203616
 The Punisher (2005):
   pageId: 31295
-  revId: 1226615
+  revId: 1230384
 The Puppet Master:
   pageId: 51961
   revId: 1213400
@@ -124402,7 +124411,7 @@ Tin Star:
   revId: 1212769
 Tinboy:
   pageId: 46643
-  revId: 1175954
+  revId: 1230425
 Tinertia:
   pageId: 19367
   revId: 1187047
@@ -125530,7 +125539,7 @@ Total Tank Simulator:
   revId: 1226500
 'Total War: Warhammer III':
   pageId: 166393
-  revId: 1230257
+  revId: 1230418
 Totally Accurate Battle Simulator:
   pageId: 39747
   revId: 1137263
@@ -128443,7 +128452,7 @@ Ultimate Spider Hero:
   revId: 1203659
 Ultimate Spider-Man:
   pageId: 5617
-  revId: 1228370
+  revId: 1230408
 Ultimate Spinner Simulator - Unstress Yourself:
   pageId: 74173
   revId: 1212091
@@ -134296,7 +134305,7 @@ What Is Love?:
   revId: 1210977
 What Lies in the Multiverse:
   pageId: 174437
-  revId: 1207761
+  revId: 1230373
 What Never Was:
   pageId: 125042
   revId: 1195202
@@ -136245,7 +136254,7 @@ World of Goo (2008):
   revId: 1144700
 'World of Guns: Gun Disassembly':
   pageId: 31746
-  revId: 1170516
+  revId: 1230325
 'World of Guns: VR':
   pageId: 144341
   revId: 1180688
@@ -136329,7 +136338,7 @@ World of Warplanes:
   revId: 1180687
 World of Warships:
   pageId: 32977
-  revId: 1198087
+  revId: 1230363
   tooBroad: true
 World of Zombies:
   pageId: 125605
@@ -136538,7 +136547,7 @@ Wreck-it Ralph:
   revId: 1195832
 Wrecked Destruction Simulator:
   pageId: 127685
-  revId: 1180228
+  revId: 1230282
 'Wrecked: Get Your Ship Together':
   pageId: 61134
   revId: 1218594
@@ -137174,7 +137183,7 @@ Yakuza Kiss:
   revId: 1210462
 Yakuza Kiwami:
   pageId: 97273
-  revId: 1226593
+  revId: 1230381
 Yakuza Kiwami 2:
   pageId: 133468
   revId: 1226395
