@@ -22888,7 +22888,6 @@
 * [Plumbers Don't Wear Ties](https://www.pcgamingwiki.com/wiki/?curid=143598)
 * [Plumeboom: The First Chapter](https://www.pcgamingwiki.com/wiki/?curid=167591)
 * [Plunder](https://www.pcgamingwiki.com/wiki/?curid=125167)
-* [Plunder Panic](https://www.pcgamingwiki.com/wiki/?curid=175499)
 * [Plunder Squad](https://www.pcgamingwiki.com/wiki/?curid=110178)
 * [Plunger Knight - Washers of Truth](https://www.pcgamingwiki.com/wiki/?curid=132456)
 * [Plunker](https://www.pcgamingwiki.com/wiki/?curid=156873)
