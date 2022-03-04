@@ -20857,6 +20857,7 @@
 * [Ninja Goemon and Immortal Jewels](https://www.pcgamingwiki.com/wiki/?curid=73534)
 * [Ninja Guy](https://www.pcgamingwiki.com/wiki/?curid=49033)
 * [Ninja in Training](https://www.pcgamingwiki.com/wiki/?curid=73917)
+* [Ninja JaJaMaru: The Great Yokai Battle Hell](https://www.pcgamingwiki.com/wiki/?curid=175569)
 * [Ninja Jump](https://www.pcgamingwiki.com/wiki/?curid=87133)
 * [Ninja Kiwi Archive](https://www.pcgamingwiki.com/wiki/?curid=163886)
 * [Ninja Legends](https://www.pcgamingwiki.com/wiki/?curid=132754)
