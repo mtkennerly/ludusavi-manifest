@@ -33020,7 +33020,7 @@ Diving Trunks:
 'Divinity: Original Sin II - Definitive Edition':
   irregularPath: true
   pageId: 124876
-  revId: 1169184
+  revId: 1235489
 Divinoids:
   pageId: 159902
   revId: 1150563
@@ -36374,11 +36374,11 @@ Dynasty Feud:
 'Dynasty Warriors 4: Hyper':
   irregularPath: true
   pageId: 16672
-  revId: 1221065
+  revId: 1235210
 Dynasty Warriors 5 Special:
   irregularPath: true
   pageId: 111468
-  revId: 1235171
+  revId: 1235342
 Dynasty Warriors 6:
   irregularPath: true
   pageId: 5157
@@ -36407,7 +36407,7 @@ Dynasty Warriors 9:
 Dynasty Warriors Online Z:
   irregularPath: true
   pageId: 173708
-  revId: 1231014
+  revId: 1235237
 Dynetzzle Extended:
   pageId: 44144
   revId: 1221244
@@ -66335,6 +66335,7 @@ Lemony Snicket's A Series of Unfortunate Events:
   irregularPath: true
   pageId: 166672
   revId: 1232586
+  tooBroad: true
 Lems:
   pageId: 96599
   revId: 1205197
@@ -80070,9 +80071,8 @@ Ninja Gaiden Σ2:
   pageId: 168001
   revId: 1206241
 'Ninja Gaiden: Master Collection':
-  irregularPath: true
   pageId: 166724
-  revId: 1056477
+  revId: 1057153
 Ninja Gainyk:
   pageId: 65015
   revId: 1216450

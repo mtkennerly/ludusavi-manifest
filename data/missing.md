@@ -20888,6 +20888,7 @@
 * [Ninja Combat](https://www.pcgamingwiki.com/wiki/?curid=168785)
 * [Ninja Commando](https://www.pcgamingwiki.com/wiki/?curid=168745)
 * [Ninja from Hell vs. Reptiloids](https://www.pcgamingwiki.com/wiki/?curid=99554)
+* [Ninja Gaiden: Master Collection](https://www.pcgamingwiki.com/wiki/?curid=166724)
 * [Ninja Gainyk](https://www.pcgamingwiki.com/wiki/?curid=65015)
 * [Ninja Gainyk 2](https://www.pcgamingwiki.com/wiki/?curid=65261)
 * [Ninja Girl and the Mysterious Army of Urban Legend Monsters! ~Hunt of the Headless Horseman~](https://www.pcgamingwiki.com/wiki/?curid=139171)
