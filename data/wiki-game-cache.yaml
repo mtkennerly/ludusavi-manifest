@@ -63,7 +63,7 @@ $1 Ride:
   revId: 1205881
 .hack//G.U. Last Recode:
   pageId: 70532
-  revId: 1131280
+  revId: 1242414
 .kkrieger:
   pageId: 18872
   revId: 1167765
@@ -1234,7 +1234,7 @@ $1 Ride:
   revId: 1177645
 9 Monkeys of Shaolin:
   pageId: 90419
-  revId: 1179178
+  revId: 1242409
 '9-nine-:Episode 1':
   pageId: 127539
   revId: 1180447
@@ -4042,7 +4042,7 @@ Age of Empires III:
   revId: 1239930
 Age of Empires IV:
   pageId: 127093
-  revId: 1225891
+  revId: 1242369
 Age of Empires Online:
   pageId: 1952
   revId: 1132874
@@ -5961,13 +5961,13 @@ American Civil War - The Blue and the Gray:
   revId: 1127882
 American Conquest:
   pageId: 1494
-  revId: 1208469
+  revId: 1242404
 'American Conquest: Divided Nation':
   pageId: 7826
   revId: 1208471
 'American Conquest: Fight Back':
   pageId: 7501
-  revId: 1208470
+  revId: 1242405
 American Farmer:
   pageId: 90995
   revId: 1219440
@@ -7210,7 +7210,7 @@ Apex Hunters:
   revId: 1181173
 Apex Legends:
   pageId: 126989
-  revId: 1240921
+  revId: 1242401
 Apex Tournament:
   pageId: 77198
   revId: 1219482
@@ -11560,7 +11560,7 @@ Batman Returns:
   revId: 1239952
 'Batman: Arkham Asylum':
   pageId: 638
-  revId: 1239538
+  revId: 1242357
 'Batman: Arkham City':
   pageId: 748
   revId: 1239048
@@ -21359,7 +21359,7 @@ China vs Roman:
   revId: 1173568
 Chinatown Detective Agency:
   pageId: 151475
-  revId: 1241555
+  revId: 1242368
 Chinbu's Adventure:
   pageId: 78278
   revId: 1184309
@@ -23458,7 +23458,7 @@ Colette's Sugar Madness:
   revId: 1187671
 Colin McRae Rally:
   pageId: 22760
-  revId: 1218004
+  revId: 1242399
 Colin McRae Rally (2014):
   pageId: 18733
   revId: 1208783
@@ -24452,15 +24452,17 @@ Consumed Awakening:
 'Consummate: Missing World':
   pageId: 65981
   revId: 1219037
-'Contact : Last Defence':
-  pageId: 127979
-  revId: 1242315
 'Contact Draw: Bowling':
   pageId: 98584
   revId: 1184494
 'Contact Draw: Football':
   pageId: 96315
   revId: 1184497
+'Contact: Last Defence':
+  pageId: 127979
+  renamedFrom:
+    - 'Contact : Last Defence'
+  revId: 1242330
 Contagion:
   pageId: 11618
   revId: 1231796
@@ -28133,7 +28135,7 @@ Dandy Dungeon - Legend of Brave Yamada -:
   revId: 1206627
 'Danganronpa: Trigger Happy Havoc':
   pageId: 30929
-  revId: 1239859
+  revId: 1242412
 Danger City:
   pageId: 152763
   revId: 1205186
@@ -28714,7 +28716,7 @@ Dark Souls II:
   revId: 1231673
 Dark Souls III:
   pageId: 30153
-  revId: 1232876
+  revId: 1242386
 Dark Souls Remastered:
   pageId: 80167
   revId: 1237821
@@ -28913,7 +28915,7 @@ Darkfall Unholy Wars:
   revId: 1178466
 Darklands:
   pageId: 4812
-  revId: 1218736
+  revId: 1242426
 Darkness Ahead:
   pageId: 52584
   revId: 1185402
@@ -29684,7 +29686,7 @@ Dead and Buried:
   revId: 1209478
 Dead by Daylight:
   pageId: 33405
-  revId: 1202055
+  revId: 1242383
 Dead by Death:
   pageId: 103305
   revId: 1220542
@@ -30097,7 +30099,7 @@ Death Stranding:
   revId: 1241466
 'Death Stranding: Director''s Cut':
   pageId: 174019
-  revId: 1242260
+  revId: 1242391
 Death Sword:
   pageId: 76506
   revId: 1184622
@@ -36501,7 +36503,7 @@ Dying Light 2 Stay Human:
   renamedFrom:
     - Dying Light 2
     - 'Dying Light 2: Stay Human'
-  revId: 1237136
+  revId: 1242358
 'Dying Light: Bad Blood':
   pageId: 108804
   revId: 1238646
@@ -37703,7 +37705,7 @@ Elbub:
   revId: 1203085
 Elden Ring:
   pageId: 146683
-  revId: 1241596
+  revId: 1242371
 'Elden: Path of the Forgotten':
   pageId: 90614
   revId: 1218301
@@ -42568,7 +42570,7 @@ Fate/stay night:
   revId: 1109133
 Fate/stay night (Realta Nua):
   pageId: 164662
-  revId: 1240780
+  revId: 1242387
 Fated Era:
   pageId: 127273
   revId: 1191280
@@ -49596,7 +49598,7 @@ Goddess of Math 数学女神:
   revId: 1174626
 Godfall:
   pageId: 154613
-  revId: 1241657
+  revId: 1242392
 Godhood:
   pageId: 109878
   revId: 1172857
@@ -49674,7 +49676,7 @@ Going Medieval:
   revId: 1187005
 Going Under:
   pageId: 151567
-  revId: 1239587
+  revId: 1242425
 Going Up:
   pageId: 41906
   revId: 1187427
@@ -51838,7 +51840,7 @@ Guntech:
   revId: 1178801
 'Gunvolt Chronicles: Luminous Avenger iX':
   pageId: 139838
-  revId: 1215350
+  revId: 1242335
 'Gunvolt Chronicles: Luminous Avenger iX 2':
   pageId: 174729
   revId: 1228854
@@ -55714,7 +55716,7 @@ Hitman 2:
   revId: 1235766
 Hitman 3:
   pageId: 58966
-  revId: 1239593
+  revId: 1242410
 Hitman GO:
   pageId: 30357
   revId: 1240397
@@ -62465,7 +62467,7 @@ Kabounce:
   revId: 1191769
 Kabus 22:
   pageId: 168197
-  revId: 1242323
+  revId: 1242367
 Kadath:
   pageId: 127417
   revId: 1182336
@@ -66518,7 +66520,7 @@ Lego Star Wars Battles:
   revId: 1176092
 'Lego Star Wars: The Skywalker Saga':
   pageId: 138380
-  revId: 1242191
+  revId: 1242402
 'Lego Star Wars: The Video Game':
   pageId: 3974
   revId: 1232376
@@ -68682,7 +68684,7 @@ Lost Planet 2:
   revId: 1225623
 Lost Planet 3:
   pageId: 9068
-  revId: 1202769
+  revId: 1242355
 'Lost Planet: Extreme Condition':
   pageId: 19815
   revId: 1173326
@@ -68850,7 +68852,7 @@ Lotus Challenge:
   revId: 1202792
 'Loud House: Outta Control':
   pageId: 157979
-  revId: 1231950
+  revId: 1242347
 Loud on Planet X:
   pageId: 43528
   revId: 1178548
@@ -69727,7 +69729,7 @@ MDK:
   revId: 1208422
 MDK 2:
   pageId: 13197
-  revId: 1208423
+  revId: 1242360
 MDK 2 HD:
   pageId: 40759
   revId: 1208593
@@ -73680,7 +73682,7 @@ Microsoft Flight Simulator:
   revId: 1230924
 Microsoft Flight Simulator (2020):
   pageId: 138499
-  revId: 1208159
+  revId: 1242411
 Microsoft Flight Simulator 2000:
   pageId: 173447
   revId: 1240508
@@ -83434,10 +83436,10 @@ Orcish Inn:
   revId: 1169789
 Orcs Must Die!:
   pageId: 1717
-  revId: 1200223
+  revId: 1242341
 Orcs Must Die! 2:
   pageId: 3339
-  revId: 1231792
+  revId: 1242342
 Orcs Must Die! 3:
   pageId: 169390
   revId: 1218442
@@ -87693,7 +87695,7 @@ Plague Inc.:
   revId: 1241774
 'Plague Inc: Evolved':
   pageId: 15279
-  revId: 1234387
+  revId: 1242331
 Plague Road:
   pageId: 62548
   revId: 1196184
@@ -87750,7 +87752,7 @@ Planes Attack:
   revId: 1166340
 'Planescape: Torment':
   pageId: 143
-  revId: 1228020
+  revId: 1242365
   tooBroad: true
 'Planescape: Torment Enhanced Edition':
   pageId: 60117
@@ -91113,7 +91115,7 @@ Pushy and Pully in Blockland:
   revId: 1214581
 Puss!:
   pageId: 79953
-  revId: 1236998
+  revId: 1242388
 Pussy 2:
   pageId: 145953
   renamedFrom:
@@ -93738,13 +93740,13 @@ Reactivated:
   revId: 1167799
 Reader Rabbit Math Ages 6-9:
   pageId: 174772
-  revId: 1227650
+  revId: 1242354
 'Reader Rabbit: 1st Grade':
   pageId: 174782
-  revId: 1225310
+  revId: 1242349
 'Reader Rabbit: 2nd Grade':
   pageId: 175011
-  revId: 1227568
+  revId: 1242350
 Reading Simulator:
   pageId: 78483
   revId: 1191812
@@ -95447,7 +95449,7 @@ Return of the Triad:
   revId: 1178394
 Return to Castle Wolfenstein:
   pageId: 5849
-  revId: 1237205
+  revId: 1242333
 Return to Cube Planet:
   pageId: 136562
   revId: 1186840
@@ -106790,7 +106792,7 @@ South Park Rally:
   revId: 1230692
 'South Park: The Fractured But Whole':
   pageId: 25846
-  revId: 1241592
+  revId: 1242406
 'South Park: The Stick of Truth':
   pageId: 4533
   revId: 1207018
@@ -109537,7 +109539,7 @@ Star Trek Timelines:
   revId: 1232812
 'Star Trek: Legacy':
   pageId: 170416
-  revId: 1232810
+  revId: 1242370
 'Star Trek: Legends':
   pageId: 167742
   revId: 1239144
@@ -109667,7 +109669,7 @@ Star Wars Galaxies:
   revId: 1236675
 'Star Wars: Jedi Knight II - Jedi Outcast':
   pageId: 1046
-  revId: 1236677
+  revId: 1242343
 'Star Wars: Knights of the Old Republic':
   pageId: 419
   revId: 1225378
@@ -122701,7 +122703,7 @@ The Simpsons Arcade Game:
   revId: 1239279
 'The Simpsons: Hit & Run':
   pageId: 2062
-  revId: 1240341
+  revId: 1242419
 'The Simpsons: Virtual Springfield':
   pageId: 89975
   revId: 1137983
@@ -130240,7 +130242,7 @@ Unreal Tournament:
   revId: 1238621
 Unreal Tournament 2003:
   pageId: 1550
-  revId: 1199533
+  revId: 1242361
 Unreal Tournament 2004:
   pageId: 1551
   revId: 1241825
@@ -135560,7 +135562,7 @@ White Pearl:
   revId: 1210865
 White Shadows:
   pageId: 173397
-  revId: 1241896
+  revId: 1242415
 White Wings:
   pageId: 154408
   renamedFrom:
