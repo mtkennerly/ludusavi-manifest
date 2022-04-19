@@ -1881,7 +1881,7 @@ A Tractor:
   revId: 1180490
 'A Trip to Yugoslavia: Director''s Cut':
   pageId: 58001
-  revId: 1187128
+  revId: 1243740
 A Turd's Life:
   pageId: 88714
   revId: 1180491
@@ -10393,7 +10393,7 @@ BOT-NET:
   revId: 1175253
 BOTOLO:
   pageId: 54637
-  revId: 1192233
+  revId: 1243707
 BOTS:
   pageId: 152667
   revId: 1175657
@@ -10504,7 +10504,7 @@ Babylon 2055 Pinball:
   revId: 1200844
 Babylon's Fall:
   pageId: 154516
-  revId: 1237871
+  revId: 1243721
 Babylonia:
   pageId: 141622
   revId: 1176563
@@ -12271,7 +12271,7 @@ Bayla Bunny:
   revId: 1208988
 Bayonetta:
   pageId: 61081
-  revId: 1239863
+  revId: 1243758
 Bayou Island:
   pageId: 58140
   revId: 1181799
@@ -16261,9 +16261,11 @@ Bottle Shooter:
 Bottle of truth:
   pageId: 104491
   revId: 1216344
-'Bottle: Pilgrim':
+'Bottle: Pilgrim Redux':
   pageId: 74257
-  revId: 1216346
+  renamedFrom:
+    - 'Bottle: Pilgrim'
+  revId: 1243732
 Bottler3000:
   pageId: 153679
   revId: 1177283
@@ -17784,7 +17786,7 @@ Bunker Constructor:
   revId: 1219840
 Bunker Punks:
   pageId: 37507
-  revId: 1189046
+  revId: 1243775
 Bunker Rush:
   pageId: 93921
   revId: 1183178
@@ -18801,7 +18803,7 @@ Call of Juarez:
   revId: 1241931
 'Call of Juarez: Gunslinger':
   pageId: 6971
-  revId: 1241933
+  revId: 1243804
 'Call of Juarez: The Cartel':
   pageId: 7404
   revId: 1136628
@@ -20934,7 +20936,7 @@ Chasing Nebula:
   revId: 1184167
 Chasing Static:
   pageId: 174065
-  revId: 1202469
+  revId: 1243727
 Chasing Styx:
   pageId: 60087
   revId: 1219917
@@ -21371,7 +21373,7 @@ China vs Roman:
   revId: 1173568
 Chinatown Detective Agency:
   pageId: 151475
-  revId: 1243177
+  revId: 1243709
 Chinbu's Adventure:
   pageId: 78278
   revId: 1184309
@@ -21419,7 +21421,7 @@ Chio Hero:
   revId: 1192856
 Chionophile:
   pageId: 164539
-  revId: 1171417
+  revId: 1243808
 Chip:
   pageId: 38567
   revId: 1219936
@@ -25123,7 +25125,7 @@ Counter-Fall:
   revId: 1220222
 Counter-Strike:
   pageId: 111
-  revId: 1242814
+  revId: 1243754
 Counter-Strike NEO -White Memories-:
   pageId: 175681
   revId: 1233377
@@ -25952,7 +25954,7 @@ Criminal Bundle:
   revId: 1205280
 'Criminal Girls: Invite Only':
   pageId: 51623
-  revId: 1220299
+  revId: 1243831
 Criminal Minds:
   pageId: 90695
   revId: 1178447
@@ -26599,7 +26601,7 @@ Crystal Picnic:
   revId: 1178452
 Crystal Project:
   pageId: 176787
-  revId: 1242801
+  revId: 1243790
 Crystal Quest Classic:
   pageId: 53860
   revId: 1220351
@@ -27717,7 +27719,7 @@ DEEEER Simulator:
   revId: 1191188
 DEFCON:
   pageId: 1357
-  revId: 1243672
+  revId: 1243734
   tooBroad: true
 DEFCON VR:
   pageId: 57950
@@ -28814,7 +28816,7 @@ Dark Visit:
   revId: 1220501
 Dark Void:
   pageId: 27558
-  revId: 1237699
+  revId: 1243750
 Dark Void Zero:
   pageId: 41159
   revId: 1137482
@@ -29041,7 +29043,7 @@ Darwin's Test:
   revId: 1205327
 Darwinia:
   pageId: 4824
-  revId: 1243671
+  revId: 1243781
 Das Boot:
   pageId: 172789
   revId: 1150785
@@ -30285,7 +30287,7 @@ Deathsmiles:
   revId: 1240470
 Deathsmiles I・II:
   pageId: 176784
-  revId: 1240474
+  revId: 1243703
 Deathstate:
   pageId: 38376
   revId: 1220620
@@ -36380,7 +36382,7 @@ Duralumin Wind:
   revId: 1186232
 Dusk:
   pageId: 50963
-  revId: 1208040
+  revId: 1243789
 Dusk '82:
   pageId: 170022
   revId: 1209251
@@ -39400,7 +39402,7 @@ Escape Rosecliff Island:
   revId: 1104413
 Escape Simulator:
   pageId: 168266
-  revId: 1241715
+  revId: 1243773
 Escape Station:
   pageId: 40424
   revId: 1205844
@@ -40604,7 +40606,7 @@ Expedition Oregon:
   revId: 1186188
 Expedition Zero:
   pageId: 175857
-  revId: 1237974
+  revId: 1243827
 'Expeditions: Conquistador':
   pageId: 13457
   revId: 1146851
@@ -48622,7 +48624,7 @@ GhostGame:
   revId: 1177350
 'GhostWire: Tokyo':
   pageId: 161009
-  revId: 1239086
+  revId: 1243782
 Ghostball:
   pageId: 151497
   revId: 1169358
@@ -50162,7 +50164,7 @@ Gotham Knights:
   revId: 1233397
 Gothic:
   pageId: 2071
-  revId: 1242901
+  revId: 1243801
 Gothic 1 Remake:
   pageId: 167207
   revId: 1239382
@@ -50174,7 +50176,7 @@ Gothic 3:
   revId: 1241977
 Gothic II:
   pageId: 4285
-  revId: 1243199
+  revId: 1243800
 Gothic Playable Teaser:
   pageId: 154630
   revId: 1174034
@@ -52336,7 +52338,7 @@ Half Past Impossible:
   revId: 1183457
 Half-Life:
   pageId: 467
-  revId: 1242882
+  revId: 1243744
 Half-Life (SteamPipe):
   pageId: 176027
   revId: 1235649
@@ -52591,7 +52593,7 @@ Hamsterball:
   revId: 1241176
 Hamsterdam:
   pageId: 122750
-  revId: 1150240
+  revId: 1243737
 Hanaby the Witch:
   pageId: 145043
   revId: 1174719
@@ -57572,7 +57574,7 @@ Hyperborean Charter:
   revId: 1138692
 Hyperdimension Neptunia Re;Birth 1:
   pageId: 22448
-  revId: 1241983
+  revId: 1243724
 'Hyperdimension Neptunia Re;Birth 2: Sisters Generation':
   pageId: 23033
   revId: 1241984
@@ -58168,7 +58170,7 @@ IRON REBELLION:
   revId: 1172254
 IRacing:
   pageId: 28801
-  revId: 1239598
+  revId: 1243770
 IS -Infinite Stratos- Versus Colors:
   pageId: 144339
   revId: 1184787
@@ -58237,7 +58239,7 @@ Ice Age Adventures:
   revId: 1206438
 'Ice Age: Scrat''s Nutty Adventure':
   pageId: 148167
-  revId: 1241755
+  revId: 1243779
 Ice Caves of Europa:
   pageId: 91218
   revId: 1184794
@@ -59889,7 +59891,7 @@ Insurgency:
   revId: 1230849
 Insurmountable:
   pageId: 175695
-  revId: 1243251
+  revId: 1243752
 Intake:
   pageId: 12108
   revId: 1224275
@@ -66486,7 +66488,8 @@ Lego DC Super-Villains:
   revId: 1234645
 Lego Friends:
   pageId: 106754
-  revId: 1165717
+  revId: 1243834
+  tooBroad: true
 'Lego Harry Potter: Years 1-4':
   pageId: 11791
   revId: 1199520
@@ -66566,7 +66569,7 @@ Lego Star Wars Battles:
   revId: 1176092
 'Lego Star Wars: The Skywalker Saga':
   pageId: 138380
-  revId: 1243587
+  revId: 1243803
 'Lego Star Wars: The Video Game':
   pageId: 3974
   revId: 1232376
@@ -70271,6 +70274,9 @@ Maddening Euphoria:
 Made Man:
   pageId: 158322
   revId: 1148640
+'Made in Abyss: Binary Star Falling into Darkness':
+  pageId: 177147
+  revId: 1243813
 Made to Order:
   pageId: 96331
   revId: 1170032
@@ -73306,7 +73312,7 @@ Metal Gear (2020):
   revId: 1195623
 'Metal Gear Rising: Revengeance':
   pageId: 13522
-  revId: 1241643
+  revId: 1243741
 'Metal Gear Solid 2: Substance':
   pageId: 1508
   revId: 1241649
@@ -73660,7 +73666,7 @@ Micro Machines V4:
   tooBroad: true
 Micro Machines World Series:
   pageId: 56710
-  revId: 1144040
+  revId: 1243802
 Micro Mages:
   pageId: 134540
   revId: 1216963
@@ -74368,7 +74374,7 @@ Minecraft Dungeons:
   pageId: 26177
   renamedFrom:
     - 'Minecraft: Windows 10 Edition'
-  revId: 1232279
+  revId: 1243761
 'Minecraft: Education Edition':
   pageId: 168195
   revId: 1105206
@@ -76788,7 +76794,7 @@ Multishop Tycoon Deluxe:
   revId: 1181729
 Multiwinia:
   pageId: 5148
-  revId: 1243674
+  revId: 1243735
   tooBroad: true
 Mummy Contact:
   pageId: 143799
@@ -79029,7 +79035,7 @@ Need for Speed Rivals:
   revId: 1232731
 'Need for Speed: Carbon':
   pageId: 6895
-  revId: 1231637
+  revId: 1243695
 'Need for Speed: Edge':
   pageId: 91406
   revId: 1198150
@@ -79062,7 +79068,7 @@ Need for Speed Rivals:
   revId: 1240579
 'Need for Speed: The Run':
   pageId: 6890
-  revId: 1195358
+  revId: 1243710
 'Need for Speed: Undercover':
   pageId: 6905
   revId: 1230957
@@ -88353,7 +88359,7 @@ Plutonium Pirates:
   revId: 1206010
 Pluviophile:
   pageId: 164541
-  revId: 1171412
+  revId: 1243811
 'Pneuma: Breath of Life':
   pageId: 48581
   revId: 1155579
@@ -89490,7 +89496,7 @@ Prey:
   revId: 1200240
 Prey (2017):
   pageId: 33371
-  revId: 1202842
+  revId: 1243778
 Prey with Gun:
   pageId: 73532
   revId: 1193509
@@ -90031,6 +90037,9 @@ Pro Rugby Manager 2015:
 Pro Skater 2D:
   pageId: 52794
   revId: 1214768
+Pro Snooker & Pool 2022­:
+  pageId: 177141
+  revId: 1243786
 Pro Strategy Football 2016:
   pageId: 38767
   revId: 1205811
@@ -99768,7 +99777,7 @@ Sam & Max Save the World:
   revId: 1240684
 Sam & Max Save the World (2020):
   pageId: 165176
-  revId: 1239869
+  revId: 1243733
 'Sam & Max: Beyond Time and Space':
   pageId: 10632
   renamedFrom:
@@ -111302,7 +111311,7 @@ Stranger Things - Will's Side Quest:
   revId: 1177582
 'Stranger of Paradise: Final Fantasy Origin':
   pageId: 169276
-  revId: 1243264
+  revId: 1243814
 Stranger of Sword City:
   pageId: 33183
   revId: 1208014
@@ -114548,7 +114557,7 @@ System Shock 3:
   revId: 1168672
 'System Shock: Enhanced Edition':
   pageId: 29309
-  revId: 1208248
+  revId: 1243795
 System Siege:
   pageId: 87525
   revId: 1192199
@@ -116712,7 +116721,7 @@ Test Drive Unlimited:
   revId: 1243576
 Test Drive Unlimited 2:
   pageId: 10902
-  revId: 1243571
+  revId: 1243712
   tooBroad: true
 Test Drive Unlimited Solar Crown:
   pageId: 161699
@@ -118159,7 +118168,7 @@ The Cross Horror Game:
   revId: 1188350
 The Crow's Eye:
   pageId: 56940
-  revId: 1226457
+  revId: 1243777
 'The Crow: City of Angels':
   pageId: 131096
   revId: 1161796
@@ -120766,7 +120775,7 @@ The Legions of Rome:
   revId: 1213684
 The Lego Movie 2 Videogame:
   pageId: 128961
-  revId: 1234676
+  revId: 1243771
 The Lego Movie Videogame:
   pageId: 20880
   revId: 1240638
@@ -122573,7 +122582,7 @@ The Secret of Monkey Island:
   revId: 1201268
 'The Secret of Monkey Island: Special Edition':
   pageId: 10051
-  revId: 1201758
+  revId: 1243722
 The Secret of Pineview Forest:
   pageId: 52662
   revId: 1177932
@@ -123273,7 +123282,7 @@ The Thin Silence:
   revId: 1187241
 The Thing:
   pageId: 54187
-  revId: 1198296
+  revId: 1243757
 The Thing (1988):
   pageId: 158681
   revId: 1152212
@@ -125495,7 +125504,7 @@ Tiny Thor:
   revId: 1239765
 Tiny Tina's Wonderlands:
   pageId: 169166
-  revId: 1240908
+  revId: 1243783
 Tiny Toast:
   pageId: 57420
   revId: 1205334
@@ -126745,7 +126754,7 @@ Tower and Guardian:
   revId: 1212558
 Tower and Sword of Succubus:
   pageId: 164435
-  revId: 1234203
+  revId: 1243822
 'Tower in the Sky: Tactics Edition':
   pageId: 61632
   revId: 1212557
@@ -127517,7 +127526,7 @@ Travildorn:
   revId: 1212410
 'Travis Strikes Again: No More Heroes':
   pageId: 137572
-  revId: 1173416
+  revId: 1243704
 Trawel:
   pageId: 124585
   revId: 1212409
@@ -128183,7 +128192,7 @@ Tron Hockey:
   revId: 1186705
 'Tron: Evolution':
   pageId: 928
-  revId: 1138995
+  revId: 1243762
 Tronix Defender:
   pageId: 75494
   revId: 1206105
@@ -130490,6 +130499,9 @@ UpBreakers:
 UpMove:
   pageId: 150509
   revId: 1211856
+'Upaon: A Snake''s Journey':
+  pageId: 177143
+  revId: 1243792
 Uphill Skiing:
   pageId: 64478
   revId: 1222916
@@ -135019,7 +135031,7 @@ Weird Park Trilogy:
   revId: 1211042
 Weird West:
   pageId: 157436
-  revId: 1240376
+  revId: 1243784
 'Weird Worlds: Return to Infinite Space':
   pageId: 40642
   revId: 1170626
