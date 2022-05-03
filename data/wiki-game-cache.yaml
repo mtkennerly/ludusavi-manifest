@@ -1247,9 +1247,11 @@ $1 Ride:
 9.03m:
   pageId: 15101
   revId: 1219307
-90 Days To Defence:
+90 Days to Defence:
   pageId: 149525
-  revId: 1229374
+  renamedFrom:
+    - 90 Days To Defence
+  revId: 1229617
 90 Minute Fever:
   pageId: 42412
   revId: 1177646
@@ -3300,9 +3302,11 @@ Adam's Ascending:
 Adam's Venture Chronicles:
   pageId: 47007
   revId: 1145305
-Adam's Venture Origins:
+'Adam''s Venture: Origins':
   pageId: 43835
-  revId: 1145304
+  renamedFrom:
+    - Adam's Venture Origins
+  revId: 1203851
 'Adam: Robot World':
   pageId: 153129
   revId: 1180640
@@ -4720,9 +4724,11 @@ Alaloth - Champions of The Four Kingdoms:
 Alan Wake:
   pageId: 536
   revId: 1239527
-Alan Wake 2:
+Alan Wake II:
   pageId: 173571
-  revId: 1195708
+  renamedFrom:
+    - Alan Wake 2
+  revId: 1195783
 Alan Wake Remastered:
   pageId: 171319
   revId: 1205393
@@ -7306,9 +7312,11 @@ Apostle:
 'Apostle: Rebellion':
   pageId: 165074
   revId: 1241827
-'Apothecarium: The Renaissance of Evil - Premium Edition':
+'Apothecarium: The Renaissance of Evil':
   pageId: 47749
-  revId: 1181201
+  renamedFrom:
+    - 'Apothecarium: The Renaissance of Evil - Premium Edition'
+  revId: 1240082
 Apotheon:
   pageId: 17729
   revId: 1207957
@@ -10361,9 +10369,6 @@ BIOSZARD Corporation:
 BL00:
   pageId: 135065
   revId: 1174900
-BLACK BIRD:
-  pageId: 121176
-  revId: 1177855
 BLARP!:
   pageId: 37405
   revId: 1219705
@@ -13984,6 +13989,11 @@ Black Baron:
 Black Bart:
   pageId: 94613
   revId: 1182174
+Black Bird:
+  pageId: 121176
+  renamedFrom:
+    - BLACK BIRD
+  revId: 1196855
 Black Book:
   pageId: 145477
   revId: 1206180
@@ -16258,9 +16268,11 @@ Bot Vice:
 Bot War:
   pageId: 128234
   revId: 1173523
-'Botanica: Earthbound Collector''s Edition':
+'Botanica: Earthbound':
   pageId: 78581
-  revId: 1182646
+  renamedFrom:
+    - 'Botanica: Earthbound Collector''s Edition'
+  revId: 1204284
 'Botanica: Into the Unknown':
   pageId: 61482
   revId: 1167109
@@ -17048,12 +17060,16 @@ Bridge Project:
 Bridge Trek:
   pageId: 88033
   revId: 1192541
-'Bridge to Another World: Burnt Dreams Collector''s Edition':
+'Bridge to Another World: Burnt Dreams':
   pageId: 60904
-  revId: 1182917
-'Bridge to Another World: The Others Collector''s Edition':
+  renamedFrom:
+    - 'Bridge to Another World: Burnt Dreams Collector''s Edition'
+  revId: 1204286
+'Bridge to Another World: The Others':
   pageId: 76032
-  revId: 1178169
+  renamedFrom:
+    - 'Bridge to Another World: The Others Collector''s Edition'
+  revId: 1204288
 Bridge to Nowhere:
   pageId: 51350
   revId: 1219814
@@ -18596,12 +18612,16 @@ Cactus Jumper:
 Cadence:
   pageId: 39057
   revId: 1178217
-'Cadenza: Music, Betrayal and Death Collector''s Edition':
+'Cadenza: Music, Betrayal and Death':
   pageId: 61638
-  revId: 1183572
-'Cadenza: The Kiss of Death Collector''s Edition':
+  renamedFrom:
+    - 'Cadenza: Music, Betrayal and Death Collector''s Edition'
+  revId: 1204290
+'Cadenza: The Kiss of Death':
   pageId: 77879
-  revId: 1183576
+  renamedFrom:
+    - 'Cadenza: The Kiss of Death Collector''s Edition'
+  revId: 1204292
 Cadria Item Shop:
   pageId: 107602
   revId: 1183581
@@ -18679,9 +18699,11 @@ Caladrius Blaze:
 Calamari Clash:
   pageId: 155416
   revId: 1172804
-'Calavera: Day of the Dead Collector''s Edition':
+'Calavera: Day of the Dead':
   pageId: 62407
-  revId: 1191508
+  renamedFrom:
+    - 'Calavera: Day of the Dead Collector''s Edition'
+  revId: 1204294
 Calcu-Late:
   pageId: 35275
   revId: 1209094
@@ -20188,6 +20210,9 @@ Catechumen:
 'Category:Local multiplayer games':
   pageId: 80284
   revId: 470477
+'Category:Non-updated early access games':
+  pageId: 137687
+  revId: null
 'Category:Released games under active development':
   pageId: 9552
   revId: 802309
@@ -21384,9 +21409,11 @@ Chimera of Tactics:
 Chimera of Tactics 2:
   pageId: 94717
   revId: 1184301
-'Chimeras: The Signs of Prophecy Collector''s Edition':
+'Chimeras: The Signs of Prophecy':
   pageId: 65636
-  revId: 1184303
+  renamedFrom:
+    - 'Chimeras: The Signs of Prophecy Collector''s Edition'
+  revId: 1204296
 'Chimeras: Tune of Revenge':
   pageId: 54993
   renamedFrom:
@@ -24140,9 +24167,11 @@ Commandos 2 HD Remaster:
 Commercium:
   pageId: 53101
   revId: 1220138
-'Committed: Mystery at Shady Pines - Premium Edition':
+'Committed: Mystery at Shady Pines':
   pageId: 81611
-  revId: 1186521
+  renamedFrom:
+    - 'Committed: Mystery at Shady Pines - Premium Edition'
+  revId: 1240079
 Common Hanzi Quiz:
   pageId: 94649
   revId: 1220139
@@ -25889,6 +25918,9 @@ Creepy Tale:
 Creepy Tale 2:
   pageId: 173208
   revId: 1230842
+'Creepy Tale 3: Ingrid Penance':
+  pageId: 173210
+  revId: null
 Creepy Vision:
   pageId: 127718
   revId: 1185413
@@ -28309,9 +28341,11 @@ Danmaku Unlimited 3:
 Danny's War:
   pageId: 53858
   revId: 1193539
-'Danse Macabre: Crimson Cabaret Collector''s Edition':
+'Danse Macabre: Crimson Cabaret':
   pageId: 63336
-  revId: 1188280
+  renamedFrom:
+    - 'Danse Macabre: Crimson Cabaret Collector''s Edition'
+  revId: 1204300
 'Danse Macabre: Deadly Deception':
   pageId: 82310
   renamedFrom:
@@ -28392,12 +28426,16 @@ Dark Burial:
 'Dark Canvas: A Murder Exposed':
   pageId: 90146
   revId: 1217010
-'Dark Canvas: Blood and Stone Collector''s Edition':
+'Dark Canvas: Blood and Stone':
   pageId: 72708
-  revId: 1178462
-'Dark Cases: The Blood Ruby Collector''s Edition':
+  renamedFrom:
+    - 'Dark Canvas: Blood and Stone Collector''s Edition'
+  revId: 1204308
+'Dark Cases: The Blood Ruby':
   pageId: 55291
-  revId: 1185802
+  renamedFrom:
+    - 'Dark Cases: The Blood Ruby Collector''s Edition'
+  revId: 1204310
 Dark Chess:
   pageId: 151185
   revId: 1172316
@@ -28432,9 +28470,11 @@ Dark Devotion:
   irregularPath: true
   pageId: 72425
   revId: 1148771
-'Dark Dimensions: City of Ash Collector''s Edition':
+'Dark Dimensions: City of Ash':
   pageId: 73817
-  revId: 1185809
+  renamedFrom:
+    - 'Dark Dimensions: City of Ash Collector''s Edition'
+  revId: 1204312
 'Dark Dimensions: City of Fog':
   pageId: 56762
   renamedFrom:
@@ -28676,9 +28716,11 @@ Dark Raid:
 Dark Raider:
   pageId: 154032
   revId: 1172928
-'Dark Realm: Princess of Ice Collector''s Edition':
+'Dark Realm: Princess of Ice':
   pageId: 70202
-  revId: 1184595
+  renamedFrom:
+    - 'Dark Realm: Princess of Ice Collector''s Edition'
+  revId: 1204318
 'Dark Realm: Queen of Flames':
   pageId: 57993
   renamedFrom:
@@ -29698,11 +29740,12 @@ Dead Sky:
 Dead Space:
   pageId: 65
   revId: 1241935
-Dead Space (2022):
+Dead Space (2023):
   pageId: 170236
   renamedFrom:
     - Dead Space (remake)
-  revId: 1233945
+    - Dead Space (2022)
+  revId: 1234162
 Dead Space 2:
   pageId: 2841
   revId: 1233360
@@ -36321,9 +36364,6 @@ Dungeons & Treasure VR:
 Dungeons & Vampires:
   pageId: 77242
   revId: 1221203
-Dungeons - The Dark Lord:
-  pageId: 40903
-  revId: 1153424
 Dungeons 2:
   pageId: 34320
   revId: 1245768
@@ -36381,6 +36421,11 @@ Dungeons of the Dead:
 Dungeons of the Fallen:
   pageId: 105591
   revId: 1219090
+'Dungeons: The Dark Lord':
+  pageId: 40903
+  renamedFrom:
+    - Dungeons - The Dark Lord
+  revId: 1164924
 'Dungeons: The Eye of Draconus':
   pageId: 49775
   revId: 1221213
@@ -39267,6 +39312,11 @@ Erolyn Chan Fight:
 Eron:
   pageId: 48447
   revId: 1221472
+Erotic Girls Match 3:
+  pageId: 128089
+  renamedFrom:
+    - Erotic girls match 3
+  revId: 1246135
 Erotic Jigsaw Challenge Vol. 1:
   pageId: 94655
   revId: 1184875
@@ -39276,9 +39326,6 @@ Erotic Jigsaw Challenge Vol. 2:
 Erotic Winter Sports:
   pageId: 125478
   revId: 1177365
-Erotic girls match 3:
-  pageId: 128089
-  revId: 1246285
 Erotica Island:
   pageId: 90794
   revId: 1165961
@@ -39987,15 +40034,21 @@ European Air War:
 European Fishing:
   pageId: 49289
   revId: 1221533
-'European Mystery: Flowers of Death Collector''s Edition':
+'European Mystery: Flowers of Death':
   pageId: 87920
-  revId: 1184885
-'European Mystery: Scent of Desire Collector''s Edition':
+  renamedFrom:
+    - 'European Mystery: Flowers of Death Collector''s Edition'
+  revId: 1204324
+'European Mystery: Scent of Desire':
   pageId: 56906
-  revId: 1203769
-'European Mystery: The Face of Envy Collector''s Edition':
+  renamedFrom:
+    - 'European Mystery: Scent of Desire Collector''s Edition'
+  revId: 1204326
+'European Mystery: The Face of Envy':
   pageId: 68875
-  revId: 1184886
+  renamedFrom:
+    - 'European Mystery: The Face of Envy Collector''s Edition'
+  revId: 1204328
 European Ship Simulator:
   pageId: 48657
   revId: 1221534
@@ -43122,9 +43175,11 @@ Fiends of Imprisonment:
 'Fierce Tales: Marcus'' Memory':
   pageId: 65640
   revId: 1217580
-'Fierce Tales: The Dog''s Heart Collector''s Edition':
+'Fierce Tales: The Dog''s Heart':
   pageId: 54594
-  revId: 1178617
+  renamedFrom:
+    - 'Fierce Tales: The Dog''s Heart Collector''s Edition'
+  revId: 1179643
 FierceWind Decay:
   pageId: 164288
   revId: 1172792
@@ -43340,18 +43395,24 @@ Final Core:
 Final Crash Demo:
   pageId: 141712
   revId: 1169178
-'Final Cut: Death on the Silver Screen Collector''s Edition':
+'Final Cut: Death on the Silver Screen':
   pageId: 36230
-  revId: 1192169
-'Final Cut: Encore Collector''s Edition':
+  renamedFrom:
+    - 'Final Cut: Death on the Silver Screen Collector''s Edition'
+  revId: 1204330
+'Final Cut: Encore':
   pageId: 61026
-  revId: 1184925
+  renamedFrom:
+    - 'Final Cut: Encore Collector''s Edition'
+  revId: 1204332
 'Final Cut: Fame Fatale':
   pageId: 121982
   revId: 1217584
-'Final Cut: Homage Collector''s Edition':
+'Final Cut: Homage':
   pageId: 76057
-  revId: 1178620
+  renamedFrom:
+    - 'Final Cut: Homage Collector''s Edition'
+  revId: 1204334
 'Final Cut: The True Escapade':
   pageId: 91839
   revId: 1217585
@@ -46089,9 +46150,11 @@ FriendZoned Archer:
 Friends For The Apocalypse:
   pageId: 151262
   revId: 1169281
-Friends world:
+Friends World:
   pageId: 127742
-  revId: 1246310
+  renamedFrom:
+    - Friends world
+  revId: 1246109
 Friendship Club:
   pageId: 48399
   revId: 1221975
@@ -46256,9 +46319,6 @@ From Shadows:
 From The Earth (프롬 더 어스):
   pageId: 149787
   revId: 1175388
-From The Sky:
-  pageId: 102299
-  revId: 1221982
 From Village to Empire:
   pageId: 94362
   revId: 1221983
@@ -46268,6 +46328,11 @@ From lamer to guru:
 From the Depths:
   pageId: 38175
   revId: 1171267
+From the Sky:
+  pageId: 102299
+  renamedFrom:
+    - From The Sky
+  revId: 1234784
 Front Defense:
   pageId: 65212
   revId: 1187380
@@ -48276,11 +48341,12 @@ Gene Rain:
 Gene Troopers:
   pageId: 31696
   revId: 1098364
-Geneforge 1:
+Geneforge:
   pageId: 10284
   renamedFrom:
     - Geneforge
-  revId: 1137004
+    - Geneforge 1
+  revId: 1143074
 Geneforge 1 - Mutagen:
   pageId: 166803
   revId: 1239583
@@ -48537,9 +48603,6 @@ Get Over Here:
 Get Rich or Die Gaming:
   pageId: 46584
   revId: 1182558
-Get To A Gun:
-  pageId: 112536
-  revId: 1182560
 Get Wrecked:
   pageId: 88896
   revId: 1222094
@@ -48557,6 +48620,14 @@ Get the Gems:
 Get to Amkonius:
   pageId: 73523
   revId: 1182566
+'Get to Work, Succubus-Chan!':
+  pageId: 173507
+  revId: null
+Get to a Gun:
+  pageId: 112536
+  renamedFrom:
+    - Get To A Gun
+  revId: 1189866
 Get'em Gary:
   pageId: 59181
   revId: 1182569
@@ -49985,9 +50056,11 @@ Golf98:
 GolfTopia:
   pageId: 151119
   revId: 1235314
-Golfing Over It with Alva Majo:
+Golfing over It with Alva Majo:
   pageId: 90100
-  revId: 1170600
+  renamedFrom:
+    - Golfing Over It with Alva Majo
+  revId: 1238200
 Golfy Golf:
   pageId: 92281
   revId: 1169382
@@ -53261,9 +53334,11 @@ Haunted Dream House:
 Haunted Gas Station:
   pageId: 148858
   revId: 1177168
-'Haunted Halls: Fears from Childhood Collector''s Edition':
+'Haunted Halls: Fears from Childhood':
   pageId: 82332
-  revId: 1183680
+  renamedFrom:
+    - 'Haunted Halls: Fears from Childhood Collector''s Edition'
+  revId: 1204336
 'Haunted Halls: Green Hills Sanitarium':
   pageId: 63010
   renamedFrom:
@@ -53311,9 +53386,11 @@ Haunted House Renovator:
 'Haunted Legends: The Dark Wishes':
   pageId: 123351
   revId: 1183704
-'Haunted Legends: The Queen of Spades Collector''s Edition':
+'Haunted Legends: The Queen of Spades':
   pageId: 50851
-  revId: 1178862
+  renamedFrom:
+    - 'Haunted Legends: The Queen of Spades Collector''s Edition'
+  revId: 1204342
 'Haunted Legends: The Scars of Lamia':
   pageId: 144047
   revId: 1197642
@@ -53331,9 +53408,11 @@ Haunted House Renovator:
 'Haunted Manor: Painted Beauties':
   pageId: 90182
   revId: 1183716
-'Haunted Manor: Queen of Death Collector''s Edition':
+'Haunted Manor: Queen of Death':
   pageId: 72754
-  revId: 1178866
+  renamedFrom:
+    - 'Haunted Manor: Queen of Death Collector''s Edition'
+  revId: 1204346
 Haunted Memories:
   pageId: 106435
   revId: 1178868
@@ -53343,9 +53422,11 @@ Haunted Memories:
 Haunted Showers:
   pageId: 107780
   revId: 1183724
-'Haunted Train: Frozen in Time Collector''s Edition':
+'Haunted Train: Frozen in Time':
   pageId: 78208
-  revId: 1178870
+  renamedFrom:
+    - 'Haunted Train: Frozen in Time Collector''s Edition'
+  revId: 1204348
 'Haunted Train: Spirits of Charon':
   pageId: 62018
   renamedFrom:
@@ -55713,9 +55794,11 @@ Himiko:
 Himno:
   pageId: 132438
   revId: 1173654
-Himno - The Silent Melody:
+'Himno: The Silent Melody':
   pageId: 142087
-  revId: 1227494
+  renamedFrom:
+    - Himno - The Silent Melody
+  revId: 1246746
 Hind:
   pageId: 131858
   revId: 1146953
@@ -61876,9 +61959,11 @@ Jolly Riot:
 Jolly Rover:
   pageId: 38351
   revId: 1178823
-Jomp The Jumper:
+Jomp the Jumper:
   pageId: 140987
-  revId: 1174330
+  renamedFrom:
+    - Jomp The Jumper
+  revId: 1188276
 Jon Shafer's At the Gates:
   pageId: 125859
   revId: 1173763
@@ -63223,12 +63308,16 @@ Khufu's Delivery Service:
 KiKi's adventure:
   pageId: 148663
   revId: 1240576
-KiKiMiMi / 听能力搜查官:
+KiKiMiMi:
   pageId: 141020
-  revId: 1177217
-KiKiMiMi2 / 听能力搜查官2:
+  renamedFrom:
+    - KiKiMiMi / 听能力搜查官
+  revId: 1239771
+KiKiMiMi2:
   pageId: 148971
-  revId: 1177215
+  renamedFrom:
+    - KiKiMiMi2 / 听能力搜查官2
+  revId: 1239773
 Kiai Resonance:
   pageId: 48116
   revId: 1182461
@@ -67185,6 +67274,12 @@ Life Is Strange Remastered:
   irregularPath: true
   pageId: 63562
   revId: 1218160
+'Life Is Strange: Before the Storm Remastered':
+  irregularPath: true
+  pageId: 167270
+  renamedFrom:
+    - 'Life is Strange: Before the Storm Remastered'
+  revId: 1241138
 'Life Is Strange: True Colors':
   pageId: 167258
   revId: 1246110
@@ -67230,9 +67325,6 @@ Life is Pain:
 Life is Pointless:
   pageId: 126074
   revId: 1176222
-'Life is Strange: Before the Storm Remastered':
-  pageId: 167270
-  revId: 1241139
 'Life of Lon: Chapter 1':
   pageId: 62910
   revId: 1186005
@@ -68165,9 +68257,11 @@ Locked In VR:
 Locked Up:
   pageId: 173144
   revId: 1180138
-Locked-in syndrome:
+Locked-in Syndrome:
   pageId: 45057
-  revId: 1183778
+  renamedFrom:
+    - Locked-in syndrome
+  revId: 1239024
 Loco Dojo:
   pageId: 65313
   revId: 1224672
@@ -69035,12 +69129,16 @@ Love Chan:
 'Love Chronicles: A Winter''s Spell':
   pageId: 102555
   revId: 1183645
-'Love Chronicles: Salvation Collector''s Edition':
+'Love Chronicles: Salvation':
   pageId: 87906
-  revId: 1183641
-'Love Chronicles: The Spell Collector''s Edition':
+  renamedFrom:
+    - 'Love Chronicles: Salvation Collector''s Edition'
+  revId: 1204359
+'Love Chronicles: The Spell':
   pageId: 56965
-  revId: 1186642
+  renamedFrom:
+    - 'Love Chronicles: The Spell Collector''s Edition'
+  revId: 1204361
 'Love Chronicles: The Sword and the Rose':
   pageId: 68384
   revId: 1166266
@@ -70020,9 +70118,6 @@ MONEY LOVES SILENCE:
 MONOBOT:
   pageId: 157269
   revId: 1172454
-'MONSTERS:SURVIVAL':
-  pageId: 128627
-  revId: 1118335
 MOP Operation Cleanup:
   pageId: 43221
   revId: 1178529
@@ -75869,6 +75964,11 @@ Monsters' Den Chronicles:
 'Monsters, Inc. Scream Team':
   pageId: 165710
   revId: 1224473
+'Monsters: Survival':
+  pageId: 128627
+  renamedFrom:
+    - 'MONSTERS:SURVIVAL'
+  revId: 1167856
 'MonsterxMan: Inheritence To Lust':
   pageId: 92067
   revId: 1216865
@@ -78158,9 +78258,6 @@ NAMELESS:
 NAR - Not Another Royale:
   pageId: 125550
   revId: 1216755
-NARC:
-  pageId: 97157
-  revId: 1159442
 NARWHAR Project Hornwhale:
   pageId: 153370
   revId: 1188638
@@ -78736,6 +78833,11 @@ Narazumono:
 Narborion Saga:
   pageId: 56942
   revId: 1216691
+Narc:
+  pageId: 97157
+  renamedFrom:
+    - NARC
+  revId: 1235924
 Narcissu:
   pageId: 29927
   revId: 1201931
@@ -79820,17 +79922,21 @@ Neverout:
 Neversong:
   pageId: 74712
   revId: 1233490
-'Nevertales: Legends Collector''s Edition':
+'Nevertales: Legends':
   pageId: 78120
-  revId: 1181526
+  renamedFrom:
+    - 'Nevertales: Legends Collector''s Edition'
+  revId: 1204350
 'Nevertales: Shattered Image':
   pageId: 40263
   renamedFrom:
     - 'Nevertales: Shattered Image Collector''s Edition'
   revId: 1204796
-'Nevertales: Smoke and Mirrors Collector''s Edition':
+'Nevertales: Smoke and Mirrors':
   pageId: 61760
-  revId: 1181524
+  renamedFrom:
+    - 'Nevertales: Smoke and Mirrors Collector''s Edition'
+  revId: 1204354
 'Nevertales: The Beauty Within':
   pageId: 43023
   renamedFrom:
@@ -82161,18 +82267,24 @@ Off Grid:
   renamedFrom:
     - 'Off The Record: The Art of Deception Collector''s Edition'
   revId: 1204794
-'Off the Record: Liberty Stone Collector''s Edition':
+'Off the Record: Liberty Stone':
   pageId: 79300
-  revId: 1181455
+  renamedFrom:
+    - 'Off the Record: Liberty Stone Collector''s Edition'
+  revId: 1204363
 'Off the Record: The Final Interview':
   pageId: 95453
   revId: 1181453
-'Off the Record: The Italian Affair Collector''s Edition':
+'Off the Record: The Italian Affair':
   pageId: 41819
-  revId: 1203188
-'Off the Record: The Linden Shades Collector''s Edition':
+  renamedFrom:
+    - 'Off the Record: The Italian Affair Collector''s Edition'
+  revId: 1204367
+'Off the Record: The Linden Shades':
   pageId: 42930
-  revId: 1192967
+  renamedFrom:
+    - 'Off the Record: The Linden Shades Collector''s Edition'
+  revId: 1204369
 Off-Peak:
   pageId: 52085
   revId: 1130239
@@ -82951,9 +83063,6 @@ One Ping Only:
 One Piu Day:
   pageId: 109510
   revId: 1187597
-'One Punch Man: A Hero Nobody Knows':
-  pageId: 146753
-  revId: 1172140
 One Ship Two Ship Redshift Blueshift:
   pageId: 46324
   revId: 1223763
@@ -83040,6 +83149,11 @@ One on One:
 One-Eyed Lee and the Dinner Party:
   pageId: 153812
   revId: 1174252
+'One-Punch Man: A Hero Nobody Knows':
+  pageId: 146753
+  renamedFrom:
+    - 'One Punch Man: A Hero Nobody Knows'
+  revId: 1234409
 One-Way Ticket:
   pageId: 94035
   revId: 1216116
@@ -83924,9 +84038,11 @@ Otherland:
   renamedFrom:
     - 'Otherworld: Omens of Summer Collector''s Edition'
   revId: 1204793
-'Otherworld: Shades of Fall Collector''s Edition':
+'Otherworld: Shades of Fall':
   pageId: 68839
-  revId: 1181414
+  renamedFrom:
+    - 'Otherworld: Shades of Fall Collector''s Edition'
+  revId: 1204373
 'Otherworld: Spring of Shadows':
   pageId: 42698
   renamedFrom:
@@ -84747,6 +84863,11 @@ PSI Magic:
 PUBG Lite:
   pageId: 147904
   revId: 1209329
+PUBG Training Camp:
+  pageId: 80843
+  renamedFrom:
+    - Pubg Training Camp
+  revId: 1208435
 'PUBG: Battlegrounds':
   pageId: 58561
   renamedFrom:
@@ -85588,9 +85709,11 @@ Park Bound:
 Park assault:
   pageId: 136763
   revId: 1215782
-Park the car:
+Park the Car:
   pageId: 112556
-  revId: 1229495
+  renamedFrom:
+    - Park the car
+  revId: 1229717
 Parkan II:
   pageId: 31380
   revId: 1143992
@@ -89893,9 +90016,11 @@ Princess Sahirah is a Spoiled Brat!:
 Princess and Knight:
   pageId: 149819
   revId: 1187569
-Princess of Tavern Collector's Edition:
+Princess of Tavern:
   pageId: 74141
-  revId: 1157561
+  renamedFrom:
+    - Princess of Tavern Collector's Edition
+  revId: 1240092
 Princess of Zeven:
   pageId: 130652
   revId: 1169566
@@ -91007,9 +91132,6 @@ Pub Encounter:
 Pub Simulator:
   pageId: 155767
   revId: 1175412
-Pubg Training Camp:
-  pageId: 80843
-  revId: 1209387
 Public Defense Corp:
   pageId: 137086
   revId: 1169534
@@ -91404,9 +91526,11 @@ Putt-Putt Joins the Parade:
 Putt-Putt Saves the Zoo:
   pageId: 37291
   revId: 1136999
-Putt-Putt Travels Through Time:
+Putt-Putt Travels through Time:
   pageId: 32018
-  revId: 1202498
+  renamedFrom:
+    - Putt-Putt Travels Through Time
+  revId: 1202634
 Putt-Putt and Fatty Bear's Activity Pack:
   pageId: 50264
   revId: 1139377
@@ -96636,9 +96760,11 @@ Rite of Life:
 'Rite of Passage: The Lost Tides':
   pageId: 99590
   revId: 1185499
-'Rite of Passage: The Perfect Show Collector''s Edition':
+'Rite of Passage: The Perfect Show':
   pageId: 52836
-  revId: 1178398
+  renamedFrom:
+    - 'Rite of Passage: The Perfect Show Collector''s Edition'
+  revId: 1204375
 Ritter:
   pageId: 104375
   revId: 1214032
@@ -97533,9 +97659,6 @@ Rogue Hero:
 'Rogue Heroes: Ruins of Tasos':
   pageId: 163668
   revId: 1241392
-Rogue In The Void:
-  pageId: 135866
-  revId: 1191782
 Rogue Invader:
   pageId: 176292
   revId: 1237925
@@ -97623,6 +97746,11 @@ Rogue Wizards:
 Rogue Zillion:
   pageId: 76261
   revId: 1213927
+Rogue in the Void:
+  pageId: 135866
+  renamedFrom:
+    - Rogue In The Void
+  revId: 1236224
 Rogue'n Roll:
   pageId: 58437
   revId: 1213926
@@ -98211,9 +98339,11 @@ Royal Crown:
 Royal Defense:
   pageId: 49359
   revId: 1150411
-'Royal Detective: Queen of Shadows Collector''s Edition':
+'Royal Detective: Queen of Shadows':
   pageId: 63314
-  revId: 1166575
+  renamedFrom:
+    - 'Royal Detective: Queen of Shadows Collector''s Edition'
+  revId: 1204282
 'Royal Detective: The Last Charm':
   pageId: 153228
   revId: 1197970
@@ -98896,9 +99026,11 @@ Rust:
 Rustbucket Rumble:
   pageId: 48018
   revId: 1213782
-Rusted Warfare - RTS:
+Rusted Warfare:
   pageId: 63813
-  revId: 1156714
+  renamedFrom:
+    - Rusted Warfare - RTS
+  revId: 1209612
 Rustler:
   pageId: 94152
   revId: 1168985
@@ -99485,12 +99617,16 @@ Sable:
 'Sable Maze: Forbidden Garden':
   pageId: 90255
   revId: 1185739
-'Sable Maze: Norwich Caves Collector''s Edition':
+'Sable Maze: Norwich Caves':
   pageId: 73800
-  revId: 1181191
-'Sable Maze: Sullivan River Collector''s Edition':
+  renamedFrom:
+    - 'Sable Maze: Norwich Caves Collector''s Edition'
+  revId: 1204377
+'Sable Maze: Sullivan River':
   pageId: 55297
-  revId: 1166586
+  renamedFrom:
+    - 'Sable Maze: Sullivan River Collector''s Edition'
+  revId: 1204379
 'Sable Maze: Twelve Fears':
   pageId: 114400
   revId: 1204079
@@ -101089,9 +101225,11 @@ Sea of Fatness:
 'Sea of Lies: Burning Coast':
   pageId: 80867
   revId: 1186029
-'Sea of Lies: Mutiny of the Heart Collector''s Edition':
+'Sea of Lies: Mutiny of the Heart':
   pageId: 52694
-  revId: 1178444
+  renamedFrom:
+    - 'Sea of Lies: Mutiny of the Heart Collector''s Edition'
+  revId: 1204381
 'Sea of Lies: Nemesis':
   pageId: 62330
   revId: 1210036
@@ -101802,9 +101940,11 @@ Sepia Tears:
 Septic Savages:
   pageId: 52574
   revId: 1185586
-Sequence - Robot programming simulator:
+'Sequence: Robot Programming Simulator':
   pageId: 110776
-  revId: 1229513
+  renamedFrom:
+    - Sequence - Robot programming simulator
+  revId: 1229716
 Serafina's Crown:
   pageId: 44148
   revId: 1205041
@@ -108808,9 +108948,11 @@ Spirit of Maya:
 Spirit of Midnight:
   pageId: 145489
   revId: 1171379
-'Spirit of Revenge: Cursed Castle Collector''s Edition':
+'Spirit of Revenge: Cursed Castle':
   pageId: 52686
-  revId: 1178341
+  renamedFrom:
+    - 'Spirit of Revenge: Cursed Castle Collector''s Edition'
+  revId: 1204383
 Spirit of Speed 1937:
   pageId: 89145
   revId: 1237503
@@ -113843,9 +113985,11 @@ Surf's Up:
   renamedFrom:
     - 'Surface: Game of Gods Collector''s Edition'
   revId: 1204806
-'Surface: Reel Life Collector''s Edition':
+'Surface: Reel Life':
   pageId: 57319
-  revId: 1192053
+  renamedFrom:
+    - 'Surface: Reel Life Collector''s Edition'
+  revId: 1204385
 'Surface: Return to Another World':
   pageId: 102359
   revId: 1179944
@@ -114152,12 +114296,16 @@ Suzy Cube:
 Sven Co-op:
   pageId: 30946
   revId: 1242991
-Sven-Goran Eriksson's World Challenge:
+Sven-Göran Eriksson's World Challenge:
   pageId: 155217
-  revId: 1136402
-Sven-Goran Eriksson's World Manager:
+  renamedFrom:
+    - Sven-Goran Eriksson's World Challenge
+  revId: 1143029
+Sven-Göran Eriksson's World Manager:
   pageId: 155215
-  revId: 1136399
+  renamedFrom:
+    - Sven-Goran Eriksson's World Manager
+  revId: 1143031
 Svoboda:
   pageId: 92791
   revId: 1245933
@@ -114365,6 +114513,9 @@ Switch - Black & White:
 Switch Galaxy Ultra:
   pageId: 45537
   revId: 1205395
+Switchblade:
+  pageId: 174482
+  revId: null
 Switchblade (Lucid Games):
   pageId: 107984
   renamedFrom:
@@ -115600,9 +115751,11 @@ Tales of Symphonia:
 'Tales of Terror: Crimson Dawn':
   pageId: 58356
   revId: 1212846
-'Tales of Terror: House on the Hill Collector''s Edition':
+'Tales of Terror: House on the Hill':
   pageId: 73829
-  revId: 1166567
+  renamedFrom:
+    - 'Tales of Terror: House on the Hill Collector''s Edition'
+  revId: 1179709
 'Tales of Tomorrow: Experiment':
   pageId: 157213
   revId: 1171179
@@ -116671,15 +116824,17 @@ Terminal Hacker - Into the Deep:
 Terminal Protocol:
   pageId: 151415
   revId: 1171157
+'Terminal Squad: Swarmites':
+  pageId: 156511
+  renamedFrom:
+    - 'Terminal squad: Swarmites'
+  revId: 1188372
 Terminal Velocity:
   pageId: 13600
   revId: 1147442
 'Terminal squad: Sentinel':
   pageId: 144264
   revId: 1188541
-'Terminal squad: Swarmites':
-  pageId: 156511
-  revId: 1171156
 'Terminator 3: War of the Machines':
   pageId: 146929
   revId: 1180268
@@ -117311,9 +117466,11 @@ The Afterwoods:
 The Age of Decadence:
   pageId: 12507
   revId: 1196407
-'The Agency of Anomalies: Cinderstone Orphanage Collector''s Edition':
+'The Agency of Anomalies: Cinderstone Orphanage':
   pageId: 53660
-  revId: 1178050
+  renamedFrom:
+    - 'The Agency of Anomalies: Cinderstone Orphanage Collector''s Edition'
+  revId: 1204389
 'The Agency of Anomalies: Mind Invasion':
   pageId: 81960
   revId: 1213218
@@ -120177,6 +120334,11 @@ The Incredible Adventures of Van Helsing III:
 The Incredible Baron:
   pageId: 42862
   revId: 1213718
+The Incredible Friends:
+  pageId: 152705
+  renamedFrom:
+    - The incredible friends
+  revId: 1189085
 The Incredible Hulk:
   pageId: 80170
   revId: 1234007
@@ -124306,9 +124468,6 @@ The fairytale of DEATH:
 The fall of gods:
   pageId: 45216
   revId: 1185346
-The incredible friends:
-  pageId: 152705
-  revId: 1188882
 The inside of a drawer:
   pageId: 155474
   revId: 1170925
@@ -128971,9 +129130,11 @@ Twickles:
 Twilight Path:
   pageId: 113176
   revId: 1186549
-'Twilight Phenomena: Strange Menagerie Collector''s Edition':
+'Twilight Phenomena: Strange Menagerie':
   pageId: 73221
-  revId: 1185973
+  renamedFrom:
+    - 'Twilight Phenomena: Strange Menagerie Collector''s Edition'
+  revId: 1204387
 'Twilight Phenomena: The Incredible Show':
   pageId: 90239
   revId: 1203430
@@ -133257,6 +133418,9 @@ Vomitoreum:
 'Voodoo Chronicles: The First Sign HD - Director''s Cut Edition':
   pageId: 47743
   revId: 1211464
+Voodoo Detective:
+  pageId: 177446
+  revId: null
 Voodoo Dice:
   pageId: 51070
   revId: 1211462
@@ -135158,9 +135322,11 @@ Weather Lord:
 'Weather Lord: In Search of the Shaman':
   pageId: 63430
   revId: 1211093
-'Weather Lord: Legendary Hero Collector''s Edition':
+'Weather Lord: Legendary Hero':
   pageId: 41838
-  revId: 1166364
+  renamedFrom:
+    - 'Weather Lord: Legendary Hero Collector''s Edition'
+  revId: 1204280
 'Weather Lord: Royal Holidays':
   pageId: 57074
   renamedFrom:
@@ -135187,12 +135353,16 @@ Web Spice:
 Web Spice Purple World:
   pageId: 155302
   revId: 1170628
-'Web of Deceit: Black Widow Collector''s Edition':
+'Web of Deceit: Black Widow':
   pageId: 59037
-  revId: 1180731
-'Web of Deceit: Deadly Sands Collector''s Edition':
+  renamedFrom:
+    - 'Web of Deceit: Black Widow Collector''s Edition'
+  revId: 1204391
+'Web of Deceit: Deadly Sands':
   pageId: 79312
-  revId: 1180729
+  renamedFrom:
+    - 'Web of Deceit: Deadly Sands Collector''s Edition'
+  revId: 1204393
 'WebbVR: The James Webb Space Telescope Virtual Experience':
   pageId: 121143
   revId: 1223075
@@ -135848,9 +136018,11 @@ Whisper of a Rose:
 'Whispered Secrets: Into the Wind':
   pageId: 86959
   revId: 1177782
-'Whispered Secrets: The Story of Tideville Collector''s Edition':
+'Whispered Secrets: The Story of Tideville':
   pageId: 54614
-  revId: 1177781
+  renamedFrom:
+    - 'Whispered Secrets: The Story of Tideville Collector''s Edition'
+  revId: 1204395
 Whispering Flames:
   pageId: 109380
   revId: 1210876
@@ -136010,6 +136182,9 @@ Why Am I Dead At Sea:
 Why Chicken? Why?:
   pageId: 127377
   revId: 1210852
+Why Is There a Girl in My House?!:
+  pageId: 176532
+  revId: null
 Why Neon Lights Again?:
   pageId: 156995
   revId: 1170579
@@ -136683,9 +136858,11 @@ Witch Halloween:
 Witch Hunt:
   pageId: 69100
   revId: 1106199
-'Witch Hunters: Full Moon Ceremony Collector''s Edition':
+'Witch Hunters: Full Moon Ceremony':
   pageId: 73887
-  revId: 1180718
+  renamedFrom:
+    - 'Witch Hunters: Full Moon Ceremony Collector''s Edition'
+  revId: 1204397
 'Witch Hunters: Stolen Beauty':
   pageId: 58366
   renamedFrom:
@@ -138096,15 +138273,17 @@ XIII:
 XIII (2020):
   pageId: 133767
   revId: 1170488
-XIII - Lost Identity:
-  pageId: 89210
-  revId: 1139009
 'XIII Century: Blood of Europe':
   pageId: 51253
   revId: 1210523
 'XIII Century: Death or Glory':
   pageId: 41242
   revId: 1140757
+'XIII: Lost Identity':
+  pageId: 89210
+  renamedFrom:
+    - XIII - Lost Identity
+  revId: 1164827
 XIIZEAL:
   pageId: 47603
   revId: 1223137

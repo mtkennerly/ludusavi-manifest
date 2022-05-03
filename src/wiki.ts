@@ -33,6 +33,22 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
         const pages: Array<{ pageid: number, title: string }> = JSON.parse(JSON.stringify(await wiki.categorymembers("Games")));
         for (const page of pages) {
             if (!this.data.hasOwnProperty(page.title)) {
+                let newGame = true;
+                for (const [k, v] of Object.entries(this.data)) {
+                    if (v.pageId === page.pageid) {
+                        newGame = false;
+                        this.data[page.title] = v;
+                        this.data[page.title].recentlyChanged = true;
+                        if (!(v.renamedFrom ?? []).includes(k)) {
+                            this.data[page.title].renamedFrom = [...(v.renamedFrom ?? []), k];
+                        }
+                        delete this.data[k];
+                        break;
+                    }
+                }
+                if (!newGame) {
+                    continue;
+                }
                 this.data[page.title] = {
                     pageId: page.pageid,
                     revId: null,
