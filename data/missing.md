@@ -17497,6 +17497,7 @@
 * [Life is Hard](https://www.pcgamingwiki.com/wiki/?curid=45781)
 * [Life is Pain](https://www.pcgamingwiki.com/wiki/?curid=38905)
 * [Life is Pointless](https://www.pcgamingwiki.com/wiki/?curid=126074)
+* [Life is Strange: Before the Storm Remastered](https://www.pcgamingwiki.com/wiki/?curid=167270)
 * [Life Lessons](https://www.pcgamingwiki.com/wiki/?curid=93084)
 * [Life of a Capitalist](https://www.pcgamingwiki.com/wiki/?curid=136917)
 * [Life of a Caveman](https://www.pcgamingwiki.com/wiki/?curid=53309)
