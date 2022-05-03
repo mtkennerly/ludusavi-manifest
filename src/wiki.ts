@@ -257,6 +257,9 @@ function getRawPathFromCell(cell: string | PathCell): [string, boolean] {
     let regular = true;
 
     if (typeof cell === "string") {
+        if (/<br\s*\/?>/.test(cell)) {
+            regular = false;
+        }
         composite += cell;
     } else if (cell.type === "transclusion") {
         const [stringified, segmentRegular] = stringifyTransclusionCell(cell);
