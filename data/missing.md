@@ -10275,7 +10275,6 @@
 * [Escape Room VR](https://www.pcgamingwiki.com/wiki/?curid=155923)
 * [Escape Room VR: Stories](https://www.pcgamingwiki.com/wiki/?curid=87023)
 * [Escape Room: Reality](https://www.pcgamingwiki.com/wiki/?curid=63960)
-* [Escape Simulator](https://www.pcgamingwiki.com/wiki/?curid=168266)
 * [Escape Station](https://www.pcgamingwiki.com/wiki/?curid=40424)
 * [Escape the Ayuwoki](https://www.pcgamingwiki.com/wiki/?curid=152979)
 * [Escape the Bunker](https://www.pcgamingwiki.com/wiki/?curid=55177)
