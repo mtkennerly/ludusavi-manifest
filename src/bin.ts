@@ -23,6 +23,7 @@ interface Cli {
     skipUntil?: string,
     recent?: boolean,
     limit?: number,
+    steam?: boolean,
 }
 
 async function main() {
@@ -41,7 +42,11 @@ async function main() {
             "irregularPathUntagged",
             "tooBroad",
             "tooBroadUntagged",
-        ]
+            "steam",
+        ],
+        string: [
+            "skipUntil",
+        ],
     });
 
     const wikiCache = new WikiGameCacheFile();
@@ -68,6 +73,15 @@ async function main() {
             } else {
                 await wikiCache.addNewGames();
             }
+        }
+
+        if (args.steam) {
+            await steamCache.refresh(
+                {
+                    skipUntil: args.skipUntil,
+                },
+                args.limit ?? 25,
+            );
         }
 
         if (args.manifest) {

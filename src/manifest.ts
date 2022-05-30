@@ -148,12 +148,12 @@ export class ManifestFile extends YamlFile<Manifest> {
                 continue;
             }
             if (game.steam?.id !== undefined) {
-                const installDir = await steamCache.getAppInstallDir(game.steam.id);
-                if (installDir !== undefined) {
+                const appInfo = await steamCache.getAppInfo(game.steam.id);
+                if (appInfo.installDir !== undefined) {
                     if (game.installDir === undefined) {
                         game.installDir = {}
                     }
-                    game.installDir[installDir] = {}
+                    game.installDir[appInfo.installDir] = {}
                 }
             }
             this.data[verifiedTitle] = game;

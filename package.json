@@ -11,7 +11,8 @@
     "schema": "npm run schema:normal && npm run schema:strict",
     "schema:normal": "ajv validate -s ./data/schema.yaml -d ./data/manifest.yaml",
     "schema:strict": "ajv validate -s ./data/schema.strict.yaml -d ./data/manifest.yaml",
-    "stats": "ts-node ./src/bin.ts --stats"
+    "stats": "ts-node ./src/bin.ts --stats",
+    "steam": "ts-node ./src/bin.ts --steam"
   },
   "devDependencies": {
     "@types/js-yaml": "^3.12.4",
