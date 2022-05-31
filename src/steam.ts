@@ -43,8 +43,13 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
         this.data[key] = {};
 
         const installDir = info.apps[key].appinfo.config?.installdir;
-        if (installDir !== undefined && !this.isIrregularString(installDir)) {
-            this.data[key].installDir = installDir;
+        if (installDir !== undefined) {
+            if (!this.isIrregularString(installDir)) {
+                // Avoid: https://github.com/DoctorMcKay/node-steam-user/issues/397
+                this.data[key].installDir = installDir;
+            } else {
+                this.data[key].irregular = true;
+            }
         }
 
         const nameLocalized = info.apps[key].appinfo.common?.name_localized;
