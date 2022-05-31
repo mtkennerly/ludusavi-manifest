@@ -78,7 +78,9 @@ async function main() {
         if (args.steam) {
             await steamCache.refresh(
                 {
+                    all: args.all,
                     skipUntil: args.skipUntil,
+                    irregularUntagged: args.irregularPathUntagged,
                 },
                 args.limit ?? 25,
             );

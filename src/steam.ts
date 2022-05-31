@@ -6,7 +6,8 @@ type SteamGameCache = {
         installDir?: string,
         unknown?: boolean,
         nameLocalized?: Map<string, string>;
-        launch?: object;
+        launch?: Array<object>;
+        irregular?: boolean;
     };
 };
 
@@ -16,6 +17,14 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
 
     constructor(public steamClient: SteamUser) {
         super();
+    }
+
+    hasIrregularKeys(info: object): boolean {
+        return Object.keys(info).some(x => x.endsWith('"'));
+    }
+
+    isIrregularString(info: string): boolean {
+        return info.includes('"\n\t');
     }
 
     async getAppInfo(appId: number, update: boolean = false): Promise<SteamGameCache[""] | undefined> {
@@ -34,7 +43,7 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
         this.data[key] = {};
 
         const installDir = info.apps[key].appinfo.config?.installdir;
-        if (installDir !== undefined) {
+        if (installDir !== undefined && !this.isIrregularString(installDir)) {
             this.data[key].installDir = installDir;
         }
 
@@ -46,13 +55,19 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
         const launch = info.apps[key].appinfo.config?.launch;
         if (launch !== undefined) {
             const keys = Object.keys(launch).sort((x, y) => parseInt(x) - parseInt(y));
-            this.data[key].launch = keys.map(x => launch[x]);
+            const launchArray = keys.map(x => launch[x]);
+            if (launchArray.every(x => !this.hasIrregularKeys(x))) {
+                // Avoid: https://github.com/DoctorMcKay/node-steam-user/issues/397
+                this.data[key].launch = launchArray;
+            } else {
+                this.data[key].irregular = true;
+            }
         }
 
         return this.data[key];
     }
 
-    async refresh(filter: {skipUntil: string | undefined}, limit: number): Promise<void> {
+    async refresh(filter: {all: boolean, skipUntil: string | undefined, irregularUntagged: boolean}, limit: number): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
         for (const appId of Object.keys(this.data)) {
@@ -62,6 +77,24 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
                 } else {
                     continue;
                 }
+            }
+
+            let check = false;
+            if (filter.all) {
+                check = true;
+            }
+            if (
+                filter.irregularUntagged &&
+                !this.data[appId].irregular &&
+                (
+                    (this.data[appId].launch ?? []).some(x => this.hasIrregularKeys(x)) ||
+                    this.isIrregularString(this.data[appId].installDir ?? "")
+                )
+            ) {
+                check = true;
+            }
+            if (!check) {
+                continue;
             }
 
             console.log(`Refreshing Steam app ${appId}`)
