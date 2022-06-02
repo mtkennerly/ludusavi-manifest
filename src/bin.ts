@@ -43,6 +43,7 @@ async function main() {
             "tooBroad",
             "tooBroadUntagged",
             "steam",
+            "local",
         ],
         string: [
             "skipUntil",
@@ -53,7 +54,7 @@ async function main() {
     wikiCache.load();
     const wikiMetaCache = new WikiMetaCacheFile();
     wikiMetaCache.load();
-    const steamCache = new SteamGameCacheFile(await getSteamClient());
+    const steamCache = new SteamGameCacheFile(getSteamClient);
     steamCache.load();
     const manifest = new ManifestFile();
     manifest.load();
@@ -107,6 +108,7 @@ async function main() {
                 },
                 args.limit ?? 25,
                 steamCache,
+                args.local,
             );
         }
 
@@ -115,7 +117,9 @@ async function main() {
         steamCache.save();
         manifest.save();
         saveMissingGames(wikiCache.data, manifest.data);
-        steamCache.steamClient.logOff();
+        if (steamCache.steamClient) {
+            steamCache.steamClient.logOff();
+        }
         process.exit(0);
     } catch (e) {
         wikiCache.save();
@@ -123,7 +127,9 @@ async function main() {
         steamCache.save();
         manifest.save();
         saveMissingGames(wikiCache.data, manifest.data);
-        steamCache.steamClient.logOff();
+        if (steamCache.steamClient) {
+            steamCache.steamClient.logOff();
+        }
         throw e;
     }
 }

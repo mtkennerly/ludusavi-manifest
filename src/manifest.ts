@@ -1,8 +1,10 @@
 import { DELAY_BETWEEN_GAMES_MS, REPO, YamlFile } from ".";
-import { SteamGameCacheFile } from "./steam";
+import { SteamGameCache, SteamGameCacheFile } from "./steam";
 import { WikiGameCache, getGame, pathIsTooBroad } from "./wiki";
 
 export type Os = "dos" | "linux" | "mac" | "windows";
+
+export type Bit = 32 | 64;
 
 export type Store = "epic" | "gog" | "microsoft" | "steam" | "uplay" | "origin";
 
@@ -15,16 +17,23 @@ export interface Manifest {
 export interface Game {
     files?: {
         [path: string]: {
-            when?: Array<Constraint>,
+            when?: Array<Omit<Constraint, "bit">>,
             tags?: Array<Tag>,
         }
     };
     installDir?: {
         [name: string]: {}
     };
+    launch?: {
+        [path: string]: Array<{
+            arguments?: string;
+            workingDir?: string;
+            when?: Array<Constraint>,
+        }>
+    },
     registry?: {
         [path: string]: {
-            when?: Array<Omit<Constraint, "os">>,
+            when?: Array<Omit<Constraint, "bit" | "os">>,
             tags?: Array<Tag>,
         }
     };
@@ -35,7 +44,118 @@ export interface Game {
 
 export interface Constraint {
     os?: Os;
+    bit?: Bit;
     store?: Store;
+}
+
+function normalizeLaunchPath(raw: string): string | undefined {
+    if (raw.includes("://")) {
+        return raw;
+    }
+    const standardized = raw
+        .replace(/\\/g, "/")
+        .replace(/\/\//g, "/")
+        .replace(/\/(?=$)/g, "")
+        .replace(/^.\//, "")
+        .replace(/^\/+/, "")
+        .trim();
+    if (standardized.length === 0 || standardized === ".") {
+        return undefined;
+    }
+    return `<base>/${standardized}`;
+}
+
+function doLaunchPathsMatch(fromSteam: string | undefined, fromManifest: string | undefined): boolean {
+    if (fromSteam === undefined) {
+        return fromManifest === undefined;
+    } else {
+        return normalizeLaunchPath(fromSteam) === fromManifest;
+    }
+}
+
+function integrateSteamData(game: Game, appInfo: SteamGameCache[""]) {
+    if (appInfo.installDir !== undefined) {
+        game.installDir = {[appInfo.installDir]: {}};
+    }
+    if (appInfo.launch !== undefined) {
+        delete game.launch;
+        for (const incoming of appInfo.launch) {
+            if (
+                incoming.executable === undefined ||
+                incoming.executable.includes("://") ||
+                ![undefined, "default", "none"].includes(incoming.type) ||
+                incoming.config?.betakey !== undefined ||
+                incoming.config?.ownsdlc !== undefined
+            ) {
+                continue;
+            }
+
+            const os: Os | undefined = {
+                "windows": "windows",
+                "macos": "mac",
+                "macosx": "mac",
+                "linux": "linux",
+            }[incoming.config?.oslist] as Os;
+            const bit: Bit | undefined = {
+                "32": 32,
+                "64": 64,
+            }[incoming.config?.osarch] as Bit;
+            const when: Constraint = {os, bit, store: "steam"};
+            if (when.os === undefined) {
+                delete when.os;
+            }
+            if (when.bit === undefined) {
+                delete when.bit;
+            }
+
+            let foundExisting = false;
+            for (const [existingExecutable, existingOptions] of Object.entries(game.launch ?? {})) {
+                for (const existing of existingOptions) {
+                    if (
+                        incoming.arguments === existing.arguments &&
+                        doLaunchPathsMatch(incoming.executable, existingExecutable) &&
+                        doLaunchPathsMatch(incoming.workingdir, existing.workingDir)
+                    ) {
+                        foundExisting = true;
+                        if (existing.when === undefined) {
+                            existing.when = [];
+                        }
+                        if (existing.when.every(x => x.os !== os && x.bit !== bit && x.store !== "steam")) {
+                            existing.when.push(when);
+                        }
+                        if (existing.when.length === 0) {
+                            delete existing.when;
+                        }
+                    }
+                }
+            }
+            if (!foundExisting) {
+                const key = normalizeLaunchPath(incoming.executable);
+                if (key === undefined) {
+                    continue;
+                }
+
+                const candidate: Game["launch"][""][0] = {when: [when]};
+                if (incoming.arguments !== undefined) {
+                    candidate.arguments = incoming.arguments;
+                }
+                if (incoming.workingdir !== undefined) {
+                    const workingDir = normalizeLaunchPath(incoming.workingdir);
+                    if (workingDir !== undefined) {
+                        candidate.workingDir = workingDir;
+                    }
+                }
+
+                if (game.launch === undefined) {
+                    game.launch = {};
+                }
+                if (game.launch[key] === undefined) {
+                    game.launch[key] = [];
+                }
+                game.launch[key].push(candidate);
+            }
+        }
+    }
 }
 
 export class ManifestFile extends YamlFile<Manifest> {
@@ -62,6 +182,7 @@ export class ManifestFile extends YamlFile<Manifest> {
         },
         limit: number | undefined,
         steamCache: SteamGameCacheFile,
+        local: boolean,
     ): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
@@ -125,18 +246,20 @@ export class ManifestFile extends YamlFile<Manifest> {
                 continue;
             }
 
-            i++;
-            if (limit > 0 && i > limit) {
-                break;
-            }
-
             if (info.renamedFrom) {
                 for (const oldName of info.renamedFrom) {
                     delete this.data[oldName];
                 }
             }
 
-            const [verifiedTitle, game] = await getGame(title, wikiCache);
+            let verifiedTitle: string;
+            let game: Game;
+            if (local) {
+                [verifiedTitle, game] = [title, this.data[title] ?? {}];
+            } else {
+                [verifiedTitle, game] = await getGame(title, wikiCache);
+            }
+
             delete wikiCache[verifiedTitle].recentlyChanged;
 
             if (verifiedTitle !== title) {
@@ -149,16 +272,18 @@ export class ManifestFile extends YamlFile<Manifest> {
             }
             if (game.steam?.id !== undefined) {
                 const appInfo = await steamCache.getAppInfo(game.steam.id);
-                if (appInfo.installDir !== undefined) {
-                    if (game.installDir === undefined) {
-                        game.installDir = {}
-                    }
-                    game.installDir[appInfo.installDir] = {}
-                }
+                integrateSteamData(game, appInfo);
             }
             this.data[verifiedTitle] = game;
 
-            await new Promise(resolve => setTimeout(resolve, DELAY_BETWEEN_GAMES_MS));
+            if (!local) {
+                await new Promise(resolve => setTimeout(resolve, DELAY_BETWEEN_GAMES_MS));
+            }
+
+            i++;
+            if (limit > 0 && i > limit) {
+                break;
+            }
         }
     }
 }

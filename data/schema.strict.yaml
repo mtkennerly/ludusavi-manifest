@@ -6,11 +6,25 @@ definitions:
         $ref: "#/definitions/Os"
       store:
         $ref: "#/definitions/Store"
+  LaunchConstraint:
+    type: object
+    properties:
+      bit:
+        $ref: "#/definitions/Bit"
+      os:
+        $ref: "#/definitions/Os"
+      store:
+        $ref: "#/definitions/Store"
   RegistryConstraint:
     type: object
     properties:
       store:
         $ref: "#/definitions/Store"
+  Bit:
+    type: integer
+    enum:
+      - 32
+      - 64
   Os:
     type: string
     enum:
@@ -53,6 +67,21 @@ additionalProperties:
               $ref: "#/definitions/FileConstraint"
     installDir:
       type: object
+    launch:
+      type: object
+      additionalProperties:
+        type: array
+        items:
+          type: object
+          properties:
+            arguments:
+              type: string
+            workingDir:
+              type: string
+            when:
+              type: array
+              items:
+                $ref: "#/definitions/LaunchConstraint"
     registry:
       type: object
       additionalProperties:

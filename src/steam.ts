@@ -1,12 +1,23 @@
 import { DELAY_BETWEEN_GAMES_MS, REPO, YamlFile } from ".";
 import * as SteamUser from "steam-user";
 
-type SteamGameCache = {
+export type SteamGameCache = {
     [appId: string]: {
         installDir?: string,
         unknown?: boolean,
         nameLocalized?: Map<string, string>;
-        launch?: Array<object>;
+        launch?: Array<{
+            executable?: string;
+            arguments?: string;
+            workingdir?: string;
+            type?: string;
+            config?: {
+                betakey?: string;
+                osarch?: string;
+                oslist?: string;
+                ownsdlc?: string;
+            },
+        }>;
         irregular?: boolean;
     };
 };
@@ -14,8 +25,9 @@ type SteamGameCache = {
 export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
     path = `${REPO}/data/steam-game-cache.yaml`;
     defaultData = {};
+    steamClient: SteamUser | null = null;
 
-    constructor(public steamClient: SteamUser) {
+    constructor(private makeSteamClient: () => Promise<SteamUser>) {
         super();
     }
 
@@ -31,6 +43,10 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
         const key = appId.toString();
         if (!update && this.data.hasOwnProperty(key)) {
             return this.data[key];
+        }
+
+        if (this.steamClient === null) {
+            this.steamClient = await this.makeSteamClient();
         }
 
         const info: SteamProductInfoResponse = await this.steamClient.getProductInfo([appId], []);
