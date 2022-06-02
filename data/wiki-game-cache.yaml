@@ -7217,7 +7217,7 @@ Ape Hit:
   revId: 1219481
 Ape Out:
   pageId: 59129
-  revId: 1245585
+  revId: 1253868
 Aperion Cyberstorm:
   pageId: 58928
   revId: 1181170
@@ -16218,7 +16218,7 @@ Borderlands 3:
   revId: 1251415
 'Borderlands: Game of the Year Enhanced':
   pageId: 133055
-  revId: 1227189
+  revId: 1253898
 'Borderlands: The Pre-Sequel':
   pageId: 17722
   revId: 1249055
@@ -21252,6 +21252,9 @@ Chewbrick:
 Chewing:
   pageId: 125091
   revId: 1184222
+'Chewy: Esc from F5':
+  pageId: 177994
+  revId: 1253909
 Chex Quest:
   pageId: 124683
   revId: 1149607
@@ -24339,7 +24342,7 @@ Conclusion:
   revId: 1220144
 'Concordia: Digital Edition':
   pageId: 171812
-  revId: 1109813
+  revId: 1253844
 Concrete Jungle:
   pageId: 37711
   revId: 1150539
@@ -24652,7 +24655,7 @@ Contract J.A.C.K.:
   revId: 1250986
 Contract Wars Client:
   pageId: 77674
-  revId: 1249222
+  revId: 1253870
 Contract With the Devil:
   irregularPath: true
   pageId: 45326
@@ -30423,6 +30426,9 @@ Deathopolis:
 Deathpit 3000:
   pageId: 74578
   revId: 1220619
+Deathrun TV:
+  pageId: 177992
+  revId: 1253902
 Deathsmiles:
   pageId: 37251
   revId: 1240470
@@ -30739,7 +30745,7 @@ Default Dan:
   revId: 1203692
 Default Unreal Physics and Assets AKA DUPA Project:
   pageId: 176187
-  revId: 1251117
+  revId: 1253819
 Defeat the Beat:
   pageId: 122294
   revId: 1192361
@@ -31301,7 +31307,7 @@ Demon Turf:
   revId: 1250340
 'Demon Turf: Neon Splash':
   pageId: 177760
-  revId: 1250348
+  revId: 1253811
 Demon and Fairy:
   pageId: 75843
   revId: 1220701
@@ -31809,7 +31815,7 @@ Destroy All Humans!:
   revId: 1189001
 Destroy All Humans! - Clone Carnage:
   pageId: 177973
-  revId: 1253770
+  revId: 1253851
 Destroy All Humans! 2 - Reprobed:
   pageId: 171522
   revId: 1253743
@@ -31965,7 +31971,7 @@ Detrita Battlegrounds:
   revId: 1220771
 'Detroit: Become Human':
   pageId: 131302
-  revId: 1238417
+  revId: 1253900
 Deus:
   pageId: 62883
   revId: 1135249
@@ -32208,7 +32214,7 @@ DiRT Showdown:
   revId: 1132700
 Diablo:
   pageId: 2982
-  revId: 1244494
+  revId: 1253895
 Diablo II:
   pageId: 595
   revId: 1248313
@@ -34153,7 +34159,7 @@ Door Kickers:
   revId: 1249638
 'Door Kickers: Action Squad':
   pageId: 69054
-  revId: 1249640
+  revId: 1253828
 Door To Door:
   pageId: 41904
   revId: 1203787
@@ -41438,9 +41444,6 @@ FSX SpacePort:
 FUBAR:
   pageId: 138817
   revId: 1184895
-FUCK PUTIN:
-  pageId: 177058
-  revId: 1251125
 FULFILLMENT:
   pageId: 150287
   revId: 1169108
@@ -46656,6 +46659,11 @@ Frustrate-a-ball:
 Frutakia 2:
   pageId: 76959
   revId: 1192239
+Fuck Putin:
+  pageId: 177058
+  renamedFrom:
+    - FUCK PUTIN
+  revId: 1253848
 Fuego!:
   pageId: 45621
   revId: 1221999
@@ -48679,7 +48687,7 @@ Gerty:
   revId: 1195556
 Get Achievements for Achievements:
   pageId: 175033
-  revId: 1227722
+  revId: 1253823
 Get Carnage!!!:
   pageId: 59411
   revId: 1182554
@@ -49857,7 +49865,7 @@ God of Thunder:
   revId: 1152102
 God of War:
   pageId: 172360
-  revId: 1247848
+  revId: 1253842
 God of Word:
   pageId: 39171
   revId: 1178751
@@ -52675,7 +52683,7 @@ Halfquake Trilogy:
   revId: 1242978
 Halfway:
   pageId: 34384
-  revId: 1250361
+  revId: 1253827
 Halfway Home:
   pageId: 121002
   revId: 1183460
@@ -53164,7 +53172,7 @@ Hard to Be a God:
   revId: 1246946
 Hard-Life:
   pageId: 176540
-  revId: 1239325
+  revId: 1253817
 HardBall:
   pageId: 67873
   revId: 1185833
@@ -59020,7 +59028,7 @@ Impixable:
   revId: 1184504
 Implements of Hell:
   pageId: 175606
-  revId: 1251132
+  revId: 1253820
 Impossamole:
   pageId: 143975
   revId: 1184501
@@ -59441,7 +59449,7 @@ Indiana Jones and His Desktop Adventures:
   revId: 1236043
 Indiana Jones and the Emperor's Tomb:
   pageId: 24790
-  revId: 1243475
+  revId: 1253794
 Indiana Jones and the Fate of Atlantis:
   pageId: 28781
   revId: 1165632
@@ -61546,7 +61554,7 @@ Janga:
   revId: 1169699
 Janitor Bleeds:
   pageId: 176917
-  revId: 1241545
+  revId: 1253887
 Janken Cards:
   pageId: 51841
   revId: 1224328
@@ -63996,7 +64004,7 @@ King's Quest (2015):
   tooBroad: true
 'King''s Quest: Mask of Eternity':
   pageId: 10994
-  revId: 1246747
+  revId: 1253852
 'King''s Quest: Quest for the Crown':
   pageId: 7977
   revId: 1144819
@@ -64030,7 +64038,7 @@ Kingdom Elemental:
   revId: 1182579
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   pageId: 166570
-  revId: 1253721
+  revId: 1253834
 Kingdom Hearts HD 2.8 Final Chapter Prologue:
   pageId: 166573
   revId: 1251170
@@ -64598,7 +64606,7 @@ Knockout Bowling VR:
   revId: 1224423
 Knockout City:
   pageId: 166797
-  revId: 1239607
+  revId: 1253899
 Knockout League:
   pageId: 56832
   revId: 1205185
@@ -66903,7 +66911,7 @@ Lego Star Wars Battles:
   revId: 1245186
 'Lego Star Wars: The Skywalker Saga':
   pageId: 138380
-  revId: 1248923
+  revId: 1253833
 'Lego Star Wars: The Video Game':
   pageId: 3974
   revId: 1232376
@@ -67416,7 +67424,7 @@ Life Is Strange 2:
   revId: 1237452
 Life Is Strange Remastered:
   pageId: 167268
-  revId: 1252565
+  revId: 1253894
 'Life Is Strange: Before the Storm':
   irregularPath: true
   pageId: 63562
@@ -68074,13 +68082,13 @@ Little Awesome Dudes:
   revId: 1176268
 Little Big Adventure:
   pageId: 11335
-  revId: 1227985
+  revId: 1253907
 Little Big Adventure 2:
   pageId: 11341
-  revId: 1227994
+  revId: 1253905
 'Little Big Adventure: Enhanced Edition':
   pageId: 135329
-  revId: 1137285
+  revId: 1253906
 Little Big Workshop:
   pageId: 148148
   revId: 1171313
@@ -70998,7 +71006,7 @@ Magical Girl Celesphonia:
   revId: 1247836
 Magical Girl D - Futanari RPG:
   pageId: 172914
-  revId: 1170043
+  revId: 1253825
 Magical MILFs:
   pageId: 148635
   revId: 1174540
@@ -71826,7 +71834,7 @@ Marburgh:
   revId: 1172406
 'Marc Eckō''s Getting Up: Contents Under Pressure':
   pageId: 15815
-  revId: 1239761
+  revId: 1253793
 March Forward:
   pageId: 148929
   revId: 1182938
@@ -74168,7 +74176,7 @@ Microsoft Soccer:
   revId: 1197940
 Microsoft Solitaire Collection:
   pageId: 26915
-  revId: 1253783
+  revId: 1253897
 Microsoft Sudoku:
   pageId: 161998
   revId: 1241761
@@ -75170,7 +75178,7 @@ Mirror Mysteries 2:
   revId: 1189595
 Mirror Party:
   pageId: 174373
-  revId: 1207511
+  revId: 1253824
 Mirror's Edge:
   pageId: 45
   revId: 1252583
@@ -77171,7 +77179,7 @@ MultiTaskMaster:
   revId: 1205245
 MultiVersus:
   pageId: 177754
-  revId: 1251055
+  revId: 1253812
 Multibombers:
   pageId: 110688
   revId: 1218911
@@ -77835,7 +77843,7 @@ My Pet Rock:
   revId: 1181617
 My Pet Sitter is a Futanari:
   pageId: 177925
-  revId: 1252274
+  revId: 1253869
 My RC Buggy! VR:
   pageId: 95945
   revId: 1223861
@@ -79080,7 +79088,7 @@ Naruto Online:
   revId: 1154037
 'Naruto to Boruto: Shinobi Striker':
   pageId: 80061
-  revId: 1197829
+  revId: 1253896
 'Naruto: Ultimate Ninja Storm':
   pageId: 68800
   revId: 1239332
@@ -79477,7 +79485,7 @@ Need for Speed Rivals:
   revId: 1208073
 'Need for Speed: Most Wanted':
   pageId: 2119
-  revId: 1247079
+  revId: 1253850
 'Need for Speed: Most Wanted (2012)':
   pageId: 3863
   revId: 1197924
@@ -82745,6 +82753,9 @@ Old School Musical:
 Old School RuneScape:
   pageId: 126871
   revId: 1251604
+Old Skies:
+  pageId: 177985
+  revId: 1253903
 Old Time Hockey:
   pageId: 59369
   revId: 1223778
@@ -84151,7 +84162,7 @@ Oscar Mike VR:
   revId: 1215996
 'Osiris: New Dawn':
   pageId: 40114
-  revId: 1169775
+  revId: 1253866
 Osmorrow:
   pageId: 78416
   revId: 1186180
@@ -88306,10 +88317,10 @@ Planet 2117:
   revId: 1215034
 Planet Alcatraz:
   pageId: 50436
-  revId: 1209607
+  revId: 1253835
 Planet Alcatraz 2:
   pageId: 46907
-  revId: 1209619
+  revId: 1253838
 Planet Alpha:
   pageId: 90400
   revId: 1146390
@@ -92490,7 +92501,7 @@ Queen of Thieves:
   revId: 1179992
 'Queen''s Wish: The Conqueror':
   pageId: 135839
-  revId: 1174800
+  revId: 1253876
 'Queen: The eYe':
   pageId: 172458
   revId: 1200289
@@ -100416,7 +100427,7 @@ Samurai Jazz:
   revId: 1209793
 Samurai Riot:
   pageId: 66836
-  revId: 1251869
+  revId: 1253847
 Samurai Shodown:
   pageId: 133125
   revId: 1236715
@@ -100825,7 +100836,7 @@ Save President From Rebels:
   revId: 1205391
 Save Room - Organization Puzzle:
   pageId: 177384
-  revId: 1246333
+  revId: 1253813
 Save Snegurochka!:
   pageId: 92607
   revId: 1223401
@@ -100965,6 +100976,9 @@ Scarf:
 Scarlet Fantasy:
   pageId: 122506
   revId: 1209934
+Scarlet Hollow:
+  pageId: 177982
+  revId: 1253846
 Scarlet Hood and the Wicked Wood:
   pageId: 167331
   revId: 1239640
@@ -104241,7 +104255,7 @@ Silk:
   revId: 1111193
 Silt:
   pageId: 173383
-  revId: 1250661
+  revId: 1253840
 Siluman Fantasy - First Half -:
   pageId: 145939
   revId: 1210509
@@ -107121,7 +107135,7 @@ Sonic the Hedgehog:
   revId: 1252576
 Sonic the Hedgehog (Mobile Decompilation):
   pageId: 171822
-  revId: 1253766
+  revId: 1253867
 Sonic the Hedgehog 2:
   pageId: 8551
   revId: 1250527
@@ -118906,7 +118920,7 @@ The D.R.G. Initiative:
   revId: 1186741
 The Da Vinci Code:
   pageId: 165864
-  revId: 1253719
+  revId: 1253832
 The Dagger of Amon Ra:
   pageId: 131642
   revId: 1144844
@@ -119001,7 +119015,7 @@ The Darkside Detective:
   revId: 1253138
 'The Dawn: Sniper''s Way':
   pageId: 175076
-  revId: 1227951
+  revId: 1253821
 'The Day After: Origins':
   pageId: 77108
   revId: 1253139
@@ -120292,7 +120306,7 @@ The Gun Knight:
   revId: 1188388
 The Gunk:
   pageId: 162119
-  revId: 1248273
+  revId: 1253814
 The Guy Game:
   pageId: 167386
   revId: 1222696
@@ -120511,7 +120525,7 @@ The House of the Dead 2:
   revId: 1158146
 The House of the Dead III:
   pageId: 63390
-  revId: 1252679
+  revId: 1253841
 'The House of the Dead: Remake':
   pageId: 177194
   revId: 1252380
@@ -121353,7 +121367,7 @@ The Legend of Monster Mountain:
   revId: 1186031
 'The Legend of Nayuta: Boundless Trails':
   pageId: 170939
-  revId: 1230984
+  revId: 1253802
 The Legend of Protey:
   pageId: 104611
   revId: 1187639
@@ -123812,7 +123826,7 @@ The Supper:
   revId: 1170949
 The Surge:
   pageId: 58850
-  revId: 1245476
+  revId: 1253843
 The Surge 2:
   pageId: 133601
   revId: 1170948
@@ -128322,7 +128336,7 @@ Treis Zoes:
   revId: 1170863
 Trek to Yomi:
   pageId: 171292
-  revId: 1250921
+  revId: 1253803
 'Trek: Travel Around the World':
   pageId: 103349
   revId: 1193419
@@ -132679,7 +132693,7 @@ Vernon's Legacy:
   revId: 1211654
 Versailles 1685:
   pageId: 145813
-  revId: 1189984
+  revId: 1253916
 Versus Game:
   pageId: 52233
   revId: 1192348
@@ -134813,7 +134827,7 @@ Warhalla:
   revId: 1111257
 'Warhammer 40,000: Darktide':
   pageId: 162118
-  revId: 1247255
+  revId: 1253874
 'Warhammer 40,000: Dawn of War':
   pageId: 3749
   revId: 1195466
@@ -141121,7 +141135,7 @@ Zzzzz:
   revId: 1204035
 东方远空界 ~ Ultimate Vitality of Imagination:
   pageId: 175038
-  revId: 1227733
+  revId: 1253822
 中世纪领主 Medieval Lords:
   pageId: 132903
   revId: 1210023
