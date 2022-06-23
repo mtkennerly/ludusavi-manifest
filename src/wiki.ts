@@ -241,7 +241,7 @@ interface PathCell {
 }
 
 function stringifyTransclusionCell(cell: PathCell): [string, boolean] {
-    const templateName = cell[0][0] as string;
+    const templateName = cell[0] as string;
     switch (templateName.toLowerCase()) {
         case "p":
         case "path":
