@@ -158,6 +158,11 @@ function integrateSteamData(game: Game, appInfo: SteamGameCache[""]) {
     }
 }
 
+function isPathRegular(path: string): boolean {
+    const irregular = ["{{", "</", "/>", "<br>", "//"];
+    return !irregular.some(x => path.includes(x))
+}
+
 export class ManifestFile extends YamlFile<Manifest> {
     path = `${REPO}/data/manifest.yaml`;
     defaultData = {};
@@ -224,8 +229,8 @@ export class ManifestFile extends YamlFile<Manifest> {
                 filter.irregularPathUntagged &&
                 !wikiCache[title].irregularPath &&
                 (
-                    Object.keys(this.data[title]?.files ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("/>") || x.includes("<br>")) ||
-                    Object.keys(this.data[title]?.registry ?? []).some(x => x.includes("{{") || x.includes("</") || x.includes("/>") || x.includes("<br>"))
+                    Object.keys(this.data[title]?.files ?? []).some(x => !isPathRegular(x)) ||
+                    Object.keys(this.data[title]?.registry ?? []).some(x => !isPathRegular(x))
                 )
             ) {
                 check = true;
