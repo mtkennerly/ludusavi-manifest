@@ -4,6 +4,7 @@ import * as yaml from "js-yaml";
 
 export const REPO = pathMod.dirname(__dirname);
 export const DELAY_BETWEEN_GAMES_MS = 250;
+export const DEFAULT_GAME_LIMIT = 25;
 
 export class UnsupportedError extends Error {
     constructor(message?: string) {

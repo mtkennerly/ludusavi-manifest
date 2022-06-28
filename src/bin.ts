@@ -1,5 +1,6 @@
 import * as minimist from "minimist";
 
+import { DEFAULT_GAME_LIMIT } from ".";
 import { ManifestFile } from "./manifest";
 import { SteamGameCacheFile, getSteamClient } from "./steam";
 import { WikiGameCacheFile, WikiMetaCacheFile } from "./wiki";
@@ -73,17 +74,18 @@ async function main() {
                 await wikiCache.flagRecentChanges(wikiMetaCache);
             } else {
                 await wikiCache.addNewGames();
+                await wikiCache.refresh(
+                    args.skipUntil,
+                    args.limit ?? DEFAULT_GAME_LIMIT,
+                );
             }
         }
 
         if (args.steam) {
             await steamCache.refresh(
-                {
-                    all: args.all,
-                    skipUntil: args.skipUntil,
-                    irregularUntagged: args.irregularPathUntagged,
-                },
-                args.limit ?? 25,
+                args.skipUntil,
+                args.irregularPathUntagged,
+                args.limit ?? DEFAULT_GAME_LIMIT,
             );
         }
 
@@ -106,7 +108,7 @@ async function main() {
                     games: args._,
                     recent: args.recent,
                 },
-                args.limit ?? 25,
+                args.limit ?? DEFAULT_GAME_LIMIT,
                 steamCache,
                 args.local,
             );

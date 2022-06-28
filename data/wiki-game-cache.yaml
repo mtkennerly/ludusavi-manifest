@@ -20563,6 +20563,19 @@ Celaria:
 Celeste:
   pageId: 61156
   revId: 1246544
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\Saves\settings.celeste}}'
+    - >-
+      {{Game data/config|Microsoft
+      Store|{{p|localappdata}}\Packages\MattMakesGamesInc.Celeste_79daxvg0dq3v6\SystemAppData\wgs\|{{P|localappdata}}\Packages\MattMakesGamesInc.Celeste_79daxvg0dq3v6\Settings\settings.dat}}
+    - '{{Game data/config|OS X|~/Library/Application Support/Celeste/Saves/settings.celeste}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Celeste/Saves/settings.celeste}}'
+    - '{{Game data/saves|Windows|{{P|game}}\Saves\*.celeste|{{P|game}}\Saves\debug.celeste}}'
+    - >-
+      {{Game data/saves|Microsoft
+      Store|{{p|localappdata}}\Packages\MattMakesGamesInc.Celeste_79daxvg0dq3v6\SystemAppData\wgs\}}
+    - '{{Game data/saves|OS X|~/Library/Application Support/Celeste/Saves}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Celeste/Saves}}'
 Celestial:
   pageId: 144911
   revId: 1176987

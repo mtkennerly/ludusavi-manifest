@@ -75,7 +75,7 @@ function doLaunchPathsMatch(fromSteam: string | undefined, fromManifest: string 
 
 function integrateSteamData(game: Game, appInfo: SteamGameCache[""]) {
     if (appInfo.installDir !== undefined) {
-        game.installDir = {[appInfo.installDir]: {}};
+        game.installDir = { [appInfo.installDir]: {} };
     }
     if (appInfo.launch !== undefined) {
         delete game.launch;
@@ -100,7 +100,7 @@ function integrateSteamData(game: Game, appInfo: SteamGameCache[""]) {
                 "32": 32,
                 "64": 64,
             }[incoming.config?.osarch] as Bit;
-            const when: Constraint = {os, bit, store: "steam"};
+            const when: Constraint = { os, bit, store: "steam" };
             if (when.os === undefined) {
                 delete when.os;
             }
@@ -135,7 +135,7 @@ function integrateSteamData(game: Game, appInfo: SteamGameCache[""]) {
                     continue;
                 }
 
-                const candidate: Game["launch"][""][0] = {when: [when]};
+                const candidate: Game["launch"][""][0] = { when: [when] };
                 if (incoming.arguments !== undefined) {
                     candidate.arguments = incoming.arguments;
                 }

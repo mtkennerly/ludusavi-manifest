@@ -28,6 +28,7 @@
     "moment": "^2.27.0",
     "nodemw": "^0.13.0",
     "steam-user": "^4.24.3",
-    "wikiapi": "^1.10.0"
+    "wikiapi": "^1.10.0",
+    "wikiparse": "^1.0.27"
   }
 }

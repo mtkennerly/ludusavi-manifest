@@ -1,8 +1,16 @@
-import { REPO, PathType, UnsupportedOsError, UnsupportedPathError, YamlFile } from ".";
+import { DELAY_BETWEEN_GAMES_MS, REPO, PathType, UnsupportedOsError, UnsupportedPathError, YamlFile } from ".";
 import { Constraint, Game, Store, Tag, Os } from "./manifest";
 import * as moment from "moment";
 import * as NodeMw from "nodemw";
 import * as Wikiapi from "wikiapi";
+import { parse as parseWiki } from 'wikiparse';
+
+type Template = {
+    type: "template",
+    name: string,
+    parameters: {},
+    positionalParameters: Array<Template | string>,
+};
 
 export type WikiGameCache = {
     [title: string]: {
@@ -17,6 +25,7 @@ export type WikiGameCache = {
         recentlyChanged?: boolean,
         renamedFrom?: Array<string>,
         irregularPath?: boolean,
+        templates?: Array<string>,
     };
 };
 
@@ -55,6 +64,37 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                 };
             }
         };
+    }
+
+    async refresh(skipUntil: string | undefined, limit: number): Promise<void> {
+        let i = 0;
+        let foundSkipUntil = false;
+        for (const pageTitle of Object.keys(this.data)) {
+            if (skipUntil && !foundSkipUntil) {
+                if (pageTitle === skipUntil) {
+                    foundSkipUntil = true;
+                } else {
+                    continue;
+                }
+            }
+
+            console.log(`Refreshing wiki page ${pageTitle}`)
+            await getGame(pageTitle, this.data);
+
+            i++;
+            if (limit > 0 && i >= limit) {
+                break;
+            }
+
+            // main() will save at the end, but we do a periodic save as well
+            // in case something goes wrong or the script gets cancelled:
+            if (i % 250 === 0) {
+                this.save();
+                console.log(":: saved");
+            }
+
+            await new Promise(resolve => setTimeout(resolve, DELAY_BETWEEN_GAMES_MS));
+        }
     }
 
     async flagRecentChanges(metaCache: WikiMetaCacheFile): Promise<void> {
@@ -431,7 +471,7 @@ function getConstraintFromSystem(system: string, path: string): Constraint {
 
     const storeFromPath = getStoreConstraintFromPath(path);
     if (storeFromPath !== undefined) {
-        constraint.store  = storeFromPath;
+        constraint.store = storeFromPath;
     }
 
     return constraint;
@@ -588,6 +628,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<
     let unsupportedPath = 0;
     let tooBroad = 0;
     let irregularPath = 0;
+    delete cache[pageTitle].templates;
     page.parse().each("template", template => {
         if (template.name === "Infobox game") {
             const steamId = Number(template.parameters["steam appid"]);
@@ -595,6 +636,10 @@ export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<
                 game.steam = { id: steamId };
             }
         } else if (template.name === "Game data/saves" || template.name === "Game data/config") {
+            if (cache[pageTitle].templates === undefined) {
+                cache[pageTitle].templates = [];
+            }
+            cache[pageTitle].templates.push(template.toString());
             // console.log("\n\n\n\n\n\n--------------------------------------------------------------------------")
             // console.log(template);
             for (const cellKey of Object.getOwnPropertyNames(template.parameters)) {

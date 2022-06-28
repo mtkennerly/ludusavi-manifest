@@ -88,34 +88,24 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
         return this.data[key];
     }
 
-    async refresh(filter: {all: boolean, skipUntil: string | undefined, irregularUntagged: boolean}, limit: number): Promise<void> {
+    async refresh(skipUntil: string | undefined, irregularUntagged: boolean, limit: number): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
         for (const appId of Object.keys(this.data)) {
-            if (filter.skipUntil && !foundSkipUntil) {
-                if (appId === filter.skipUntil) {
+            if (skipUntil && !foundSkipUntil) {
+                if (appId === skipUntil) {
                     foundSkipUntil = true;
                 } else {
                     continue;
                 }
             }
 
-            let check = false;
-            if (filter.all) {
-                check = true;
-            }
-            if (
-                filter.irregularUntagged &&
-                !this.data[appId].irregular &&
-                (
-                    (this.data[appId].launch ?? []).some(x => this.hasIrregularKeys(x)) ||
-                    this.isIrregularString(this.data[appId].installDir ?? "")
-                )
-            ) {
-                check = true;
-            }
-            if (!check) {
-                continue;
+            if (irregularUntagged) {
+                const irregular = (this.data[appId].launch ?? []).some(x => this.hasIrregularKeys(x)) ||
+                    this.isIrregularString(this.data[appId].installDir ?? "");
+                if (this.data[appId].irregular || !irregular) {
+                    continue;
+                }
             }
 
             console.log(`Refreshing Steam app ${appId}`)
@@ -126,7 +116,7 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
                 break;
             }
 
-            // main() will save at the end, but we do a period save as well
+            // main() will save at the end, but we do a periodic save as well
             // in case something goes wrong or the script gets cancelled:
             if (i % 250 === 0) {
                 this.save();
