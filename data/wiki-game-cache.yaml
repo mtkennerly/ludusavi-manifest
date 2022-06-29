@@ -128263,6 +128263,9 @@ Shades of Black:
 'Shadow Blade: Reload':
   pageId: 18701
   revId: 1235509
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Dead Mage\Shadow Blade Reload\}}'
+    - '{{Game data/saves|Windows|{{p|steam}}\userdata\{{p|uid}}\272330\}}'
 Shadow Blood VR:
   pageId: 102939
   revId: 1219247
@@ -128272,15 +128275,26 @@ Shadow Brawlers:
 Shadow Bug:
   pageId: 64586
   revId: 1178435
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Muro Studios\Shadow Bug\}}'
+    - '{{Game data/saves|Windows|{{P|hkcu}}\Software\Muro Studios\Shadow Bug\}}'
 Shadow Circuit:
   pageId: 59595
   revId: 1205059
 'Shadow Company: Left For Dead':
   pageId: 23928
   revId: 1257116
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\SOFTWARE\Sinister Games\Shadow Company}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save\}}'
 Shadow Complex Remastered:
   pageId: 30035
   revId: 1235510
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Shadow Complex\EmpireGame\Config\}}'
+    - '{{Game data/config|Steam|{{p|steam}}\userdata\{{p|uid}}\385560\remote\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Shadow Complex\EmpireGame\{{P|uid}}\}}'
+    - '{{Game data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\385560\remote\}}'
 Shadow Corps:
   pageId: 108628
   revId: 1210186
@@ -128290,6 +128304,13 @@ Shadow Corps:
 'Shadow Dancer: The Secret of Shinobi':
   pageId: 30895
   revId: 1238443
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0006\|{{p|userprofile\Documents}}\SEGA Genesis Classics\0006\}}
 Shadow Empire:
   pageId: 151137
   revId: 1171594
@@ -128310,6 +128331,11 @@ Shadow Gangs:
 'Shadow Harvest: Phantom Ops':
   pageId: 40999
   revId: 1219207
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\Shadow
+      Harvest\Controls.ini|{{p|userprofile\Documents}}\Shadow Harvest\Shadow Harvest.ini}}
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Shadow Harvest\SavedGames\}}'
 'Shadow Heroes: Vengeance In Flames':
   pageId: 34781
   revId: 1209057
@@ -128325,9 +128351,15 @@ Shadow Madness:
 Shadow Man:
   pageId: 19112
   revId: 1239023
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Grafix.Cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Saves\}}'
 Shadow Man Remastered:
   pageId: 158581
   revId: 1206565
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile}}\Saved Games\Nightdive Studios\Shadowman EX\kexengine.cfg}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\Saved Games\Nightdive Studios\Shadowman EX\saves}}'
 Shadow Mist:
   pageId: 61768
   revId: 1186798
@@ -128337,6 +128369,8 @@ Shadow Mist:
 'Shadow Ops: Red Mercury':
   pageId: 27083
   revId: 1255394
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Shadow Ops Profiles\PLAYER|{{p|game}}\System\}}'
 Shadow Over Isolation:
   pageId: 39693
   revId: 1169174
@@ -128346,6 +128380,8 @@ Shadow Play:
 Shadow Puppeteer:
   pageId: 49591
   revId: 1166601
+  templates:
+    - '{{Game data/saves|Windows|{{p|hkcu}}\SOFTWARE\Sarepta Studio\Shadow Puppeteer}}'
 Shadow Run:
   pageId: 132242
   revId: 1191996
@@ -128355,12 +128391,36 @@ Shadow Runner:
 Shadow Sorcerer:
   pageId: 72450
   revId: 1152175
+  templates:
+    - '{{Game data/saves|DOS|{{p|game}}\SAVEGAME._*_|{{p|game}}\SAVEGAME.DIR}}'
 'Shadow Tactics: Blades of the Shogun':
   pageId: 39428
   revId: 1258942
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|localappdata}}\Daedalic Entertainment GmbH\Shadow Tactics Blades of the
+      Shogun\{{p|uid}}\}}
+    - '{{Game data/config|OS X|~/Library/Application Support/Daedalic Entertainment GmbH/{{p|uid}}/}}'
+    - >-
+      {{Game data/config|Linux|{{P|xdgdatahome}}/Daedalic Entertainment GmbH/Shadow Tactics Blades of the
+      Shogun/{{p|uid}}/}}
+    - >-
+      {{Game data/saves|Windows|{{p|localappdata}}\Daedalic Entertainment GmbH\Shadow Tactics Blades of the
+      Shogun\{{p|uid}}\gameState_00\}}
+    - '{{Game data/saves|OS X|~/Library/Application Support/Daedalic Entertainment GmbH/{{p|uid}}/gameState_00/}}'
+    - >-
+      {{Game data/saves|Linux|{{P|xdgdatahome}}/Daedalic Entertainment GmbH/Shadow Tactics Blades of the
+      Shogun/{{p|uid}}/gameState_00/}}
 'Shadow Tactics: Blades of the Shogun - Aiko''s Choice':
   pageId: 173238
   revId: 1240608
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|localappdata}}\Daedalic Entertainment GmbH\Shadow Tactics Blades of the Shogun
+      Aikos Choice\user\}}
+    - >-
+      {{Game data/saves|Windows|{{p|localappdata}}\Daedalic Entertainment GmbH\Shadow Tactics Blades of the Shogun Aikos
+      Choice\user\gameState_00\}}
 Shadow Unit:
   pageId: 113626
   revId: 1210196
@@ -128370,21 +128430,54 @@ Shadow Uprising:
 Shadow Warrior (1997):
   pageId: 9487
   revId: 1242028
+  templates:
+    - '{{Game data/config|DOS|{{p|game}}\SW.CFG}}'
+    - '{{Game data/saves|DOS|{{p|game}}\GAME*.SAV}}'
 Shadow Warrior (2013):
   pageId: 10160
   revId: 1251155
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\Shadow Warrior\profiles\|{{p|userprofile\Documents}}\Shadow
+      Warrior DX11\profiles\}}
+    - '{{Game data/config|OS X|~/Library/Application Support/Flying Wild Hog/Shadow Warrior/}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Flying Wild Hog/Shadow Warrior/}}'
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\Shadow Warrior\profiles\|{{p|userprofile\Documents}}\Shadow
+      Warrior DX11\profiles\}}
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Flying Wild Hog/Shadow Warrior/}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/233130/}}'
 Shadow Warrior 2:
   pageId: 26259
   revId: 1232499
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile}}\Saved Games\Flying Wild Hog\Shadow Warrior
+      2\profiles\{{p|uid}}\config.cfg}}
+    - >-
+      {{Game data/config|Microsoft Store|{{p|userprofile}}\Saved Games\Flying Wild Hog\Shadow Warrior
+      2\profiles\{{p|uid}}\config.cfg}}
+    - '{{Game data/saves|Windows|{{p|userprofile}}\Saved Games\Flying Wild Hog\Shadow Warrior 2\profiles\}}'
+    - '{{Game data/saves|Microsoft Store|{{p|userprofile}}\Saved Games\Flying Wild Hog\Shadow Warrior 2\profiles\}}'
 Shadow Warrior 3:
   pageId: 161666
   revId: 1251137
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\SW3\Saved\Config\WindowsNoEditor\}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\SW3\Saved\SaveGames\}}'
 Shadow Warrior Classic Redux:
   pageId: 8596
   revId: 1246888
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\gameroot\sw-redux.cfg|{{p|game}}\gameroot\sw-redux-local.cfg}}'
+    - '{{Game data/config|Linux|{{p|game}}/gameroot/sw-redux.cfg|{{p|game}}/gameroot/sw-redux-local.cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\gameroot\game0_#.sav}}'
 Shadow Watch:
   pageId: 131835
   revId: 1250870
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\cfg\*.txt}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save}}'
 'Shadow Wolf Mysteries: Bane of the Family':
   pageId: 77970
   renamedFrom:
@@ -128409,6 +128502,9 @@ Shadow of Conquest:
 Shadow of Destiny:
   pageId: 31089
   revId: 1231583
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\works\conv\SaveData}}'
+    - '{{Game data/saves|Windows|{{P|game}}\works\conv\SaveData}}'
 Shadow of Kingdoms:
   pageId: 46909
   revId: 1204955
@@ -128436,6 +128532,12 @@ Shadow of the Road:
 Shadow of the Tomb Raider:
   pageId: 89875
   revId: 1259010
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Eidos Montreal\Shadow of the Tomb Raider\}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/Feral Interactive/Shadow of the Tomb Raider/}}'
+    - '{{Game data/config|Linux|{{p|xdgdatahome}}/feral-interactive/Shadow of the Tomb Raider}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Shadow of the Tomb Raider\{{p|uid}}\}}'
+    - '{{Game data/saves|Linux|{{p|xdgdatahome}}/feral-interactive/Shadow of the Tomb Raider/SaveData/{{p|uid}}/}}'
 'Shadow: Treachery Cannot Be Tolerated':
   pageId: 87281
   revId: 1210201
@@ -128445,6 +128547,9 @@ ShadowCalls:
 ShadowCaster:
   pageId: 25071
   revId: 1215217
+  templates:
+    - '{{Game data/config|DOS|{{p|game}}\DRIVERS.CFG}}'
+    - '{{Game data/saves|DOS|{{p|game}}\S1\|{{p|game}}\S2\|{{p|game}}\S3\|{{p|game}}\S4\}}'
 ShadowCore VR:
   pageId: 74868
   revId: 1223371
@@ -128460,18 +128565,39 @@ Shadowcrypt:
 Shadowgate:
   pageId: 21864
   revId: 1138957
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\zojoi}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\zojoi}}'
 Shadowgate (2014):
   pageId: 19397
   revId: 1258848
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Zojoi\Shadowgate\Settings.xml}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/.config/unity3d/Zojoi/Shadowgate}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Zojoi\Shadowgate\}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/.local/share/Zojoi/Shadowgate}}'
 Shadowgrounds:
   pageId: 1578
   revId: 1258849
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Config\options.txt}}'
+    - '{{Game data/config|Linux|~/.frozenbyte/shadowgrounds/}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Profiles\{{p|uid}}}}'
+    - '{{Game data/saves|Linux|~/.frozenbyte/shadowgrounds/}}'
 'Shadowgrounds: Survivor':
   pageId: 1073
   revId: 1258850
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Config\}}'
+    - '{{Game data/config|Linux|~/.frozenbyte/survivor/}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Profiles\}}'
+    - '{{Game data/saves|Linux|~/.frozenbyte/survivor/}}'
 Shadowhand:
   pageId: 58567
   revId: 1147324
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Grey Alien Games\Shadowhand\Shadowhand.ini}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Grey Alien Games\Shadowhand\profiles\}}'
 Shadowland:
   pageId: 139246
   revId: 1186614
@@ -128480,7 +128606,7 @@ Shadowlings:
   revId: 1210211
 Shadoworlds:
   pageId: 168919
-  revId: 1090398
+  revId: 1099940
 'Shadowplay: Metropolis Foe':
   pageId: 151211
   revId: 1169168
@@ -128493,18 +128619,42 @@ Shadowrun:
 Shadowrun Chronicles - Boston Lockdown:
   pageId: 24773
   revId: 1149777
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\SOFTWARE\Cliffhanger\Shadowrun Chronicles\}}'
+    - '{{Game data/config|OS X|~/Library/Preferences/unity.Cliffhanger.Shadowrun Chronicles.plist}}'
 'Shadowrun Chronicles: INFECTED Director''s Cut':
   pageId: 45342
   revId: 1191772
 Shadowrun Returns:
   pageId: 7923
   revId: 1239644
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Harebrained Schemes\Shadowrun\}}'
+    - '{{Game data/config|OS X|~/Library/Preferences/unity.Harebrained Schemes.Shadowrun.plist}}'
+    - '{{Game data/config|Linux|~/.config/unity3d/Harebrained Schemes/Shadowrun/prefs}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Harebrained Schemes\Shadowrun Returns\Saves\}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/Harebrained Schemes/Shadowrun Returns/Saves/}}'
+    - '{{Game data/saves|Linux|~/.config/Harebrained Schemes/Shadowrun Returns/Saves/}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/234650/remote/saves/}}'
 'Shadowrun: Dragonfall - Director''s Cut':
   pageId: 21152
-  revId: 1234316
+  revId: 1260025
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\SOFTWARE\Harebrained Schemes\Dragonfall}}'
+    - '{{Game data/config|OS X|~/Library/Preferences/unity.Harebrained Schemes.Dragonfall.plist}}'
+    - '{{Game data/config|Linux|~/.config/unity3d/Harebrained Schemes/Dragonfall}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Harebrained Schemes\Shadowrun Dragonfall\Saves}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/Steam/userdata/{{p|uid}}/300550/remote/saves/}}'
+    - '{{Game data/saves|Linux|~/.config/Harebrained Schemes/Shadowrun Dragonfall/Saves/}}'
+    - '{{Game data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\300550\remote\saves\}}'
 'Shadowrun: Hong Kong':
   pageId: 27735
   revId: 1146408
+  templates:
+    - '{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Harebrained Schemes/SRHK}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Harebrained Schemes\Shadowrun Hong Kong\Saves}}'
+    - '{{Game data/saves|Linux|{{p|linuxhome}}/.config/Harebrained Schemes/Shadowrun Hong Kong/Saves}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/346940/remote/saves}}'
 Shadows:
   pageId: 55470
   revId: 1210214
@@ -128529,6 +128679,9 @@ Shadows in the Darkness:
 Shadows of Adam:
   pageId: 51501
   revId: 1210218
+  templates:
+    - '{{Game data/saves|Windows|{{p|appdata}}\Shadows of Adam\Local Storage\}}'
+    - '{{Game data/saves|Linux|{{p|xdgconfighome}}/Shadows of Adam/Local Storage/}}'
 Shadows of Doubt:
   pageId: 139748
   revId: 1169166
@@ -128538,6 +128691,8 @@ Shadows of Kepler:
 Shadows of Kurgansk:
   pageId: 42362
   revId: 1223368
+  templates:
+    - '{{Game data/saves|Windows|{{p|appdata}}\Gaijin InCubator\Shadows of Kurgansk\}}'
 Shadows of Larth:
   pageId: 145391
   revId: 1171574
@@ -128550,15 +128705,34 @@ Shadows of time:
 'Shadows on the Vatican - Act I: Greed':
   pageId: 22511
   revId: 1208808
+  templates:
+    - >-
+      {{Game data/config|Windows|{{P|hkcu}}\Software\Adventure Productions\SotV1 (SD
+      version)|{{P|hkcu}}\Software\Adventure Productions\SotV1_HD (HD version)}}
+    - >-
+      {{Game data/saves|Windows|{{P|userprofile}}\Saved Games\Shadows on the Vatican Act I\ (SD
+      version)|{{P|userprofile}}\Saved Games\Shadows on the Vatican Act I HD\ (HD version)}}
 'Shadows on the Vatican - Act II: Wrath':
   pageId: 45902
   revId: 1210221
+  templates:
+    - >-
+      {{Game data/config|Windows|{{P|hkcu}}\Software\Adventure Productions\SotV2 (SD
+      version)|{{P|hkcu}}\Software\Adventure Productions\SotV2_HD (HD version)}}
+    - >-
+      {{Game data/saves|Windows|{{P|userprofile}}\Saved Games\Shadows on the Vatican Act II\ (SD
+      version)|{{P|userprofile}}\Saved Games\Shadows on the Vatican Act II HD\ (HD version)}}
 'Shadows: Awakening':
   pageId: 68520
   revId: 1232901
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Games Farm\Shadows_ Awakening\saves}}'
 'Shadows: Heretic Kingdoms':
   pageId: 20943
   revId: 1209393
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save}}'
   tooBroad: true
 'Shadows: Price for Our Sins':
   pageId: 40566
@@ -128572,18 +128746,31 @@ Shadowy Contracts:
 Shadwen:
   pageId: 31557
   revId: 1234595
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Shadwen\}}'
+    - '{{Game data/config|Linux|$HOME/.local/share/frozenbyte/Shadwen/}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Shadwen\}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/425210/remote/}}'
 'Shady Brook: A Dark Mystery Text Adventure':
   pageId: 52089
   revId: 1192160
 Shady Knight:
   pageId: 151852
   revId: 1253610
+  templates:
+    - >-
+      {{Game data/config|Windows|{{Path|userprofile}}\AppData\LocalLow\cptnsigh\Shady
+      Knight|{{Path|hkcu}}\SOFTWARE\cptnsigh\Shady Knight}}
+    - '{{Game data/saves|Windows|{{Path|userprofile}}\AppData\LocalLow\cptnsigh\Shady Knight\savefile}}'
 Shady Lewd Kart:
   pageId: 176348
   revId: 1238515
 Shady Part of Me:
   pageId: 145441
   revId: 1255024
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Shady Part of Me\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Shady Part of Me\(number folder)\}}'
 Shahrzad - The Storyteller:
   pageId: 108490
   revId: 1185944
@@ -128602,6 +128789,9 @@ Shakedown Racing One:
 'Shakedown: Hawaii':
   pageId: 65550
   revId: 1239645
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\ShakedownHawaii\}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\ShakedownHawaii\}}'
 Shakes and Fidget:
   pageId: 38559
   revId: 1197996
@@ -128626,17 +128816,35 @@ Shamus:
 Shan Gui:
   pageId: 49745
   revId: 1166055
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\saves\persistent}}'
+    - '{{Game data/saves|Windows|{{P|game}}\saves\*.save}}'
 'Shan Gui II: Sweet Osmanthus II':
   pageId: 114976
   renamedFrom:
     - Shan Gui 2 山桂贰
   revId: 1187726
+  templates:
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\MagentaFactory\ShanGui2\Utage\Saveshangui2\* |
+      {{p|userprofile}}\AppData\LocalLow\MagentaFactory\ShanGui22\Utage\Saveshangui2\* |
+      {{p|game}}\ShanGuiDE\game\saves\*}}
 Shank:
   pageId: 4733
   revId: 1136448
+  templates:
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Shank/}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Shank/}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/6120/remote/}}'
 Shank 2:
   pageId: 26
   revId: 1255089
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Shank 2\}}'
+    - '{{Game data/config|Linux|~/.klei/shank2/}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Shank 2\}}'
+    - '{{Game data/saves|Linux|~/.klei/shank2/}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/102840/}}'
 Shank n' Bake:
   pageId: 65132
   revId: 1210232
@@ -128646,15 +128854,36 @@ Shannon Tweed's Attack of the Groupies:
 Shantae and the Pirate's Curse:
   pageId: 25953
   revId: 1259301
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\options.txt}}'
+    - '{{Game data/saves|GOG.com|{{p|game}}\Shantae and the Pirate''s Curse.save}}'
+    - '{{Game data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\345820\remote\save}}'
 Shantae and the Seven Sirens:
   pageId: 140301
   revId: 1259308
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Wayforward\ShantaeSiren\wfEngine.ini}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Wayforward\ShantaeSiren\save*.sav}}'
+    - '{{Game data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\1191630\remote\}}'
+    - >-
+      {{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/com.wayforward.shantae.sirens.Mac/Data/Library/Application
+      Support/com.wayforward.shantae.sirens.Mac/}}
 'Shantae: Half-Genie Hero':
   pageId: 55265
   revId: 1259306
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Wayforward\ShantaeHero\|{{p|appdata}}\Wayforward\ShantaeHeroUltimate\}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Wayforward\ShantaeHero\|{{p|appdata}}\Wayforward\ShantaeHeroUltimate\}}'
+    - >-
+      {{Game
+      data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\253840\remote\|{{p|steam}}\userdata\{{p|uid}}\764300\remote\}}
 'Shantae: Risky''s Revenge - Director''s Cut':
   pageId: 18434
   revId: 1259303
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Wayforward\riskysrevenge\wfEngine.ini}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Wayforward\riskysrevenge\}}'
+    - '{{Game data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\277890\remote\}}'
 Shaolin vs Wutang:
   pageId: 38408
   revId: 1210234
@@ -128723,6 +128952,9 @@ Shapestorm:
 Shapez.io:
   pageId: 161409
   revId: 1171564
+  templates:
+    - '{{Game data/saves|Windows|{{P|appdata}}\shapez.io\saves\}}'
+    - '{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/shapez.io/}}'
 'Shapik: the moon quest':
   pageId: 142188
   revId: 1175082
@@ -128746,7 +128978,12 @@ Shardhunters:
   revId: 1171562
 Shardlight:
   pageId: 34244
-  revId: 1248552
+  revId: 1260399
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile}}\Saved Games\Shardlight\acsetup.cfg}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/ags/Shardlight/}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\Saved Games\Shardlight\}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/ags/Shardlight/}}'
 'Shardpunk: Verminfall':
   pageId: 157503
   revId: 1167987
@@ -128801,12 +129038,21 @@ Sharp X Mind:
 SharpShooter3D:
   pageId: 96729
   revId: 1202172
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\gzdoom-*.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\*.zds}}'
 'Sharpe Investigations: Death on the Seine':
   pageId: 49931
   revId: 1218996
 Shatter:
   pageId: 4686
   revId: 1249717
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Sidhe\SH\application_parameters.xml}}'
+    - '{{Game data/config|Linux|{{P|linuxhome}}/.sidhe/Shatter/application_parameters.xml}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Sidhe\SH\data\profiles\default_plr_profile.xml}}'
+    - '{{Game data/saves|Linux|{{P|linuxhome}}/.sidhe/Shatter/data/profiles/default_plr_profile.xml}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/20820/remote/default_plr_profile}}'
 Shatter Everything:
   pageId: 91100
   revId: 1192947
@@ -128825,9 +129071,18 @@ Shattered - Tale of the Forgotten King:
 Shattered God - Quest for the Divine Relic:
   pageId: 64216
   revId: 1181174
+  templates:
+    - '{{Game data/saves|Windows|{{p|appdata}}\Shattered_God}}'
 Shattered Haven:
   pageId: 10467
   revId: 1258602
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\RuntimeData\}}'
+    - '{{Game data/config|OS X|{{P|game}}/RuntimeData/}}'
+    - '{{Game data/config|Linux|{{P|game}}/RuntimeData/}}'
+    - '{{Game data/saves|Windows|{{P|game}}\RuntimeData\}}'
+    - '{{Game data/saves|OS X|{{P|game}}/RuntimeData/}}'
+    - '{{Game data/saves|Linux|{{P|game}}/RuntimeData/}}'
 Shattered Horizon:
   pageId: 12213
   revId: 1206154
@@ -128840,12 +129095,18 @@ Shattered Pixel Dungeon:
 Shattered Planet:
   pageId: 18339
   revId: 1233228
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\DefaultCompany\Shattered Planet}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Shattered Planet\.sav}}'
 Shattered Skies:
   pageId: 34093
   revId: 1209007
 Shattered Steel:
   pageId: 10108
   revId: 1209434
+  templates:
+    - '{{Game data/config|DOS|{{p|game}}\OPTIONS.CFG}}'
+    - '{{Game data/saves|DOS|{{p|game}}\PLAYER.CFG}}'
 Shattered Throne:
   pageId: 42655
   revId: 1210265
@@ -128858,10 +129119,18 @@ Shattered Universe:
 Shaun White Skateboarding:
   pageId: 160759
   revId: 1108406
+  templates:
+    - '{{Game data/config|Windows|{{p|uplay}}\games\Shaun White Skateboarding\gamesettings.ini}}'
+    - '{{Game data/saves|Windows|{{p|uplay}}\savegames\{{p|uid}}\20\}}'
 Shaun White Snowboarding:
   irregularPath: true
   pageId: 79496
   revId: 1198130
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{p|hkcu}}\SOFTWARE\Ubisoft\ShaunWhiteSnowboarding\1.0\Engine<br>{{p|hkcu}}\SOFTWARE\Ubisoft\ShaunWhiteSnowboarding\1.0\Launcher}}
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Ubisoft\SWSnow\saves\}}'
 'Shaverma: Ravshan Edition':
   pageId: 123934
   revId: 1210267
@@ -128874,27 +129143,43 @@ She Dreams Elsewhere:
 She Remembered Caterpillars:
   pageId: 38973
   revId: 1258237
+  templates:
+    - >-
+      {{Game data/config|Windows|{{P|hkcu}}\Software\Jumpsuit Entertainment UG (haftungsbeschraenkt)\She Remembered
+      Caterpillars\}}
+    - >-
+      {{Game data/saves|Windows|{{P|hkcu}}\Software\Jumpsuit Entertainment UG (haftungsbeschraenkt)\She Remembered
+      Caterpillars\}}
 She Save:
   pageId: 65582
   revId: 1210269
 She Sees Red:
   pageId: 136664
   revId: 1174801
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\SavesDir\}}'
 She Wants Me Dead:
   pageId: 43047
   revId: 1176001
 She Will Punish Them:
   pageId: 156993
   revId: 1251917
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\appdata\locallow}}\L2 Games\She Will Punish Them\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\appdata\locallow}}\L2 Games\She Will Punish Them\}}'
 She and the Light Bearer:
   pageId: 92680
-  revId: 1199440
+  revId: 1260016
+  templates:
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\Mojiken\She and the Light Bearer\{{P|uid}}}}'
 Sheaf - Together EP:
   pageId: 144390
   revId: 1175591
 Sheep:
   pageId: 146181
   revId: 1201995
+  templates:
+    - '{{Game data/saves|Windows|{{P|game}}\Saves\}}'
 Sheep Collision:
   pageId: 130199
   revId: 1210271
@@ -128907,6 +129192,9 @@ Sheep Love:
 'Sheep, Dog, ''n'' Wolf':
   pageId: 87717
   revId: 1150063
+  templates:
+    - '{{Game data/config|Windows|{{p|hklm}}\Infogrames\Sheep, Dog''n Wolf DX7\CfgGame}}'
+    - '{{Game data/saves|Windows|{{p|hklm}}\Infogrames\Sheep, Dog''n Wolf DX7\Progress}}'
 Sheepageddon:
   pageId: 108246
   revId: 1210273
@@ -128922,15 +129210,31 @@ ShellShock Live:
 'Shellshock 2: Blood Trails':
   pageId: 63375
   revId: 1248707
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Eidos\Shellshock2\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Eidos\Shellshock2\}}'
 'Shellshock: Nam ''67':
   pageId: 69897
   revId: 1137185
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{p|userprofile\Documents}}\SHELLSHOCK_NAM67\Input_PC.ini|{{p|userprofile\Documents}}\SHELLSHOCK_NAM67\TOD_PC.ini}}
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SHELLSHOCK_NAM67\profile{{p|uid}}\}}'
 Shelter:
   pageId: 9537
   revId: 1133121
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Might and Delight\Shelter\}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Might and Delight\Shelter\}}'
+    - '{{Game data/saves|OS X|~/.config/Might and Delight/Shelter}}'
 Shelter 2:
   pageId: 23153
   revId: 1138516
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Might and Delight\Shelter 2\}}'
+    - '{{Game data/saves|Windows|{{P|hkcu}}\Software\Might and Delight\Shelter 2\}}'
+    - '{{Game data/saves|Steam|{{P|game}}\Shelter2_Data\shelter2.shelter2}}'
 Shelter 3:
   pageId: 132940
   revId: 1168858
@@ -128942,21 +129246,53 @@ Shelter in Place:
 Sheltered:
   pageId: 34238
   revId: 1226489
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\saves\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\saves\}}'
 Sheltered 2:
   pageId: 168462
   revId: 1129033
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile\AppData\LocalLow}}\Unicube\Sheltered2}}'
 Shenmue I & II:
   pageId: 92451
   revId: 1259449
+  templates:
+    - >-
+      {{Game data/config|Microsoft
+      Store|{{p|localappdata}}\Packages\7904SEGAEuropeLtd.Shenmue-GamePass_zs7esxpzd8d5c\SystemAppData\wgs\}}
+    - >-
+      {{Game
+      data/config|Steam|{{P|steam}}\userdata\{{P|uid}}\758330\remote\sm1saves\Settings\|{{P|steam}}\userdata\{{P|uid}}\758330\remote\sm2saves\Settings\}}
+    - >-
+      {{Game data/saves|Microsoft
+      Store|{{P|localappdata}}\Packages\7904SEGAEuropeLtd.Shenmue-GamePass_zs7esxpzd8d5c\SystemAppData\wgs\}}
+    - >-
+      {{Game
+      data/saves|Steam|{{P|steam}}\userdata\{{P|uid}}\758330\remote\sm1saves\|{{P|steam}}\userdata\{{P|uid}}\758330\remote\sm2saves\}}
 Shenmue III:
   pageId: 91411
   revId: 1197023
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{p|localappdata}}\Shenmue3\Saved\SaveGames\Systemaa{{p|uid}}.sav|{{p|localappdata}}\Shenmue3\Saved\Config\WindowsNoEditor\}}
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Shenmue3\Saved\SaveGames\}}'
 Shenzhen I/O:
   pageId: 40145
   revId: 1092783
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile\Documents}}\My Games\SHENZHEN IO\{{P|uid}}\config.cfg}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/SHENZHEN IO/}}'
+    - '{{Game data/config|Linux|{{p|linuxhome}}/.local/share/SHENZHEN IO/{{P|uid}}/}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\SHENZHEN IO\{{P|uid}}\}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/SHENZHEN IO/}}'
+    - '{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/SHENZHEN IO/{{P|uid}}/}}'
 Shenzhen Solitaire:
   pageId: 55135
   revId: 1190352
+  templates:
+    - '{{Game data/config|Linux|{{p|xdgdatahome}}/SHENZHEN SOLITAIRE/{{P|uid}}/}}'
 Sheol:
   pageId: 155755
   revId: 1188363
@@ -128966,6 +129302,11 @@ Shepard Fairey VR - DAMAGED:
 Shepherd of Light:
   pageId: 144681
   revId: 1173756
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{P|localappdata}}\ShepherdOfLight\Saved\SaveGames\SoLGameSettingsSlot.sav|{{P|localappdata}}\ShepherdOfLight\Saved\Config\WindowsNoEditor\}}
+    - '{{Game data/saves|Windows|{{P|localappdata}}\ShepherdOfLight\Saved\SaveGames\SoLGameDataSlot.sav}}'
 Shepherds of the Abyss:
   pageId: 35148
   revId: 1186359
@@ -128981,6 +129322,10 @@ Shera and the Three Treasures:
 'Sherlock Holmes Consulting Detective: The Case of the Mystified Murderess':
   pageId: 47581
   revId: 1138099
+  templates:
+    - >-
+      {{Game data/saves|Windows|{{p|APPDATA}}\Zojoi.Murderess\Local
+      Store\#SharedObjects\SherlockMain.swf\SherLockMurderess.sol}}
 'Sherlock Holmes Consulting Detective: The Case of the Tin Soldier':
   pageId: 47579
   revId: 1178430
@@ -128988,24 +129333,49 @@ Sherlock Holmes and the Hound of the Baskervilles:
   irregularPath: true
   pageId: 123061
   revId: 1147333
+  templates:
+    - >-
+      {{Game data/config|Windows|{{P|appdata}}\Frogwares\{{LocalizedPath|Sherlock Holmes and The Hound of the
+      Baskervilles}}\setup.ini}}
+    - >-
+      {{Game data/saves|Windows|{{P|appdata}}\Frogwares\{{LocalizedPath|Sherlock Holmes and The Hound of the
+      Baskervilles}}\save\}}
 Sherlock Holmes versus Jack the Ripper:
   pageId: 34193
   revId: 1138870
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\Games\sherlock holmes versus jack the ripper\setup.ini}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\Games\sherlock holmes versus jack the ripper\save\}}'
 'Sherlock Holmes: Chapter One':
   pageId: 160644
   revId: 1248533
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{P|localappdata}}\SH9\Saved\Config\WindowsNoEditor\GameUserSettings.ini|{{P|localappdata}}\SH9\Saved\SaveGames\Settings.sav}}
+    - '{{Game data/saves|Windows|{{P|localappdata}}\SH9\Saved\SaveGames\}}'
 'Sherlock Holmes: Crimes & Punishments':
   pageId: 37662
   revId: 1180221
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Sherlock Holmes - Crimes and
+      Punishments\SH7Game\Config\}}
+    - '{{Game data/saves|Windows|{{P|userprofile\Documents}}\My Games\Sherlock Holmes - Crimes and Punishments\SH7Game\}}'
 'Sherlock Holmes: Nemesis':
   pageId: 147448
   revId: 1249611
 'Sherlock Holmes: Nemesis - Remastered':
   pageId: 32552
   revId: 1138700
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\Games\sherlock holmes versus arsene lupin\setup.ini}}'
 'Sherlock Holmes: Secret of the Silver Earring':
   pageId: 21238
   revId: 1138442
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\setup.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save\|{{p|game}}\game.log}}'
 'Sherlock Holmes: The Awakened':
   pageId: 147443
   revId: 1145508
@@ -129013,12 +129383,26 @@ Sherlock Holmes versus Jack the Ripper:
   irregularPath: true
   pageId: 31369
   revId: 1145506
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|game}}\game.ini|{{p|appdata}}\Games\{{LocalizedPath|sherlock holmes - the awakened
+      - remastered}}\setup.ini }}
+    - >-
+      {{Game data/saves|Windows|{{p|appdata}}\Games\{{LocalizedPath|sherlock holmes - the awakened -
+      remastered}}\save\}}
 'Sherlock Holmes: The Devil''s Daughter':
   pageId: 33302
   revId: 1199231
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Sherlock Holmes - The Devil's
+      Daughter\SH8GAME\Config\}}
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Sherlock Holmes - The Devil''s Daughter\}}'
 'Sherlock Holmes: The Mystery of the Mummy':
   pageId: 31368
   revId: 1251009
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\data}}'
 'Sherlock Holmes: The Mystery of the Persian Carpet':
   pageId: 61180
   revId: 1181172
@@ -129049,6 +129433,9 @@ Shift:
 Shift 2 Unleashed:
   pageId: 5949
   revId: 1255291
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\SHIFT 2 UNLEASHED\graphicsconfig.xml}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SHIFT 2 UNLEASHED\profiles\default.sav}}'
 Shift Happens:
   pageId: 37349
   revId: 1223357
@@ -129058,12 +129445,17 @@ Shift Orb:
 Shift Quantum:
   pageId: 69753
   revId: 1174381
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\ShiftQuantum\Saved\Config\WindowsNoEditor\}}'
+    - '{{Game data/saves|Windows|{{P|localappdata}}\ShiftQuantum\Saved\SaveGames\}}'
 Shift Shaft:
   pageId: 129761
   revId: 1175662
 Shiftlings:
   pageId: 23073
   revId: 1223356
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Rock Pocket Games\Shiftlings\}}'
 Shigatari:
   pageId: 69200
   revId: 1210290
@@ -129079,9 +129471,15 @@ Shimmer:
 Shin Megami Tensei III Nocturne HD Remaster:
   pageId: 167287
   revId: 1228997
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\SEGA\smt3hd\{{P|uid}}\SMT3HDCONFIG}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\SEGA\smt3hd\{{P|uid}}\SMT3HDDATA.sav}}'
 'Shin Megami Tensei: Synchronicity Prologue':
   pageId: 74785
   revId: 1254869
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\config\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\config\}}'
 Shin Samurai Jazz:
   pageId: 48459
   revId: 1166635
@@ -129109,30 +129507,53 @@ ShineG In Bumpercat:
 ShineG In The Bullethell:
   pageId: 62227
   revId: 1166643
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile}}\AppData\LocalLow\DefaultCompany\ShineG_IB}}'
 ShineG In The SeaFight:
   pageId: 74407
   revId: 1210301
 ShineG In The Zombies:
   pageId: 66163
   revId: 1166647
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\DefaultCompany\ShineGInTheZombies}}'
 ShineG in Future Factory:
   pageId: 89571
   revId: 1205565
 'Shiness: The Lightning Kingdom':
   pageId: 26322
   revId: 1251177
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile\Documents}}\My Games\Shiness\ShinessGame\Config\}}'
+    - '{{Game data/saves|Windows|{{P|userprofile\Documents}}\My Games\Shiness\Binaries\Savegame\}}'
 Shing!:
   pageId: 142265
   revId: 1202754
+  templates:
+    - '{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/MassCreation/Shing!/prefs}}'
 Shining City:
   pageId: 144700
   revId: 1175107
 Shining Force:
   pageId: 30907
   revId: 1228906
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0038\|{{p|userprofile\Documents}}\SEGA Genesis Classics\0038\}}
 Shining Force II:
   pageId: 30909
   revId: 1228905
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0039\|{{p|userprofile\Documents}}\SEGA Genesis Classics\0039\}}
 'Shining Hotel: Lost in Nowhere':
   pageId: 94713
   revId: 1178429
@@ -129148,9 +129569,14 @@ Shining Plume 2:
 Shining Resonance Refrain:
   pageId: 87591
   revId: 1171555
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\configdata\GRAPHICCFG.DAT}}'
+    - '{{Game data/saves|Steam|{{P|steam}}\userdata\{{p|uid}}\809890\remote\PLAYDATA0.DAT}}'
 Shining Song Starnova:
   pageId: 66725
   revId: 1210309
+  templates:
+    - '{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/ShiningSongStarnova-SaveData/}}'
 'Shining Song Starnova: Idol Empire':
   pageId: 160955
   revId: 1171554
@@ -129160,6 +129586,13 @@ Shining Souls:
 Shining in the Darkness:
   pageId: 30905
   revId: 1228615
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0040\|{{p|userprofile\Documents}}\SEGA Genesis Classics\0040\}}
 Shinobi:
   pageId: 176341
   revId: 1238452
@@ -129169,6 +129602,13 @@ Shinobi Bad Buddies:
 'Shinobi III: Return of the Ninja Master':
   pageId: 30898
   revId: 1238444
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0007\|{{p|userprofile\Documents}}\SEGA Genesis Classics\0007\}}
 Shinobi Spirits S Legend of Heroes/忍スピリッツS 真田獣勇士伝:
   pageId: 141878
   revId: 1210770
@@ -129193,6 +129633,9 @@ Shiny the Firefly:
 Shio:
   pageId: 55624
   revId: 1238531
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\CoconutIslandStudio\SHIO\}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\CoconutIslandStudio\SHIO\savedata.dat}}'
 Ship Ahoy:
   pageId: 79700
   revId: 1223354
@@ -129220,6 +129663,9 @@ Ship Simulator Extremes:
 ShipLord:
   pageId: 32902
   revId: 1258628
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\ShipLord\{{p|uid}}\}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\ShipLord\{{p|uid}}\}}'
 Shipbreakers:
   pageId: 108780
   revId: 1169158
@@ -129235,6 +129681,13 @@ Ships 2017:
 Shipwreck:
   pageId: 16328
   revId: 1258238
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Shipwreck\}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/Brushfire Games/Shipwreck/}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Brushfire Games/Shipwreck/}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Shipwreck\}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/Brushfire Games/Shipwreck/}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Brushfire Games/Shipwreck/}}'
 'Shiren the Wanderer: The Tower of Fortune and the Dice of Fate':
   pageId: 168163
   revId: 1225610
@@ -129256,6 +129709,11 @@ Shit Storm:
 Shiver:
   pageId: 73855
   revId: 1175839
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Kowai Sugoi Studios\Shiver}}'
+    - '{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Kowai Sugoi Studios/Shiver/prefs}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\Kowai Sugoi Studios\Shiver\*.save}}'
+    - '{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/Kowai Sugoi Studios/Shiver/*.save}}'
 'Shiver: Poltergeist':
   pageId: 52532
   revId: 1166652
@@ -129301,9 +129759,13 @@ Shock Tactics:
 Shock Troopers:
   pageId: 43011
   revId: 1201721
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\shocktro\}}'
 'Shock Troopers: 2nd Squad':
   pageId: 50783
   revId: 1201722
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\shocktr2\}}'
 ShockRods:
   pageId: 132729
   revId: 1171550
@@ -129316,12 +129778,19 @@ Shofer Race Driver:
 'Shogo: Mobile Armor Division':
   pageId: 21492
   revId: 1251331
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\autoexec.cfg}}'
+    - '{{Game data/config|Linux|{{p|game}}/autoexec.cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Save}}'
+    - '{{Game data/saves|Linux|{{p|game}}/Save}}'
 'Shogun''s Empire: Hex Commander':
   pageId: 139049
   revId: 1173737
 'Shogun: Total War':
   pageId: 4470
   revId: 1247760
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\savegames\}}'
 Shonen Idle Z:
   pageId: 42129
   revId: 1210339
@@ -129354,13 +129823,20 @@ Shoot Shoot Mega Pack:
   revId: 1238021
 Shoot Shoot My Waifu:
   pageId: 166687
-  revId: 1030149
+  revId: 1099946
+  templates:
+    - '{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/ZaiStudio/7SexySins Tadaima/prefs}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\appdata\locallow}}\ZaiStudio\7SexySins Tadaima\PlayerData.dat}}'
+    - '{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/ZaiStudio/7SexySins Tadaima/PlayerData.dat}}'
 Shoot The Zombirds VR:
   pageId: 132604
   revId: 1175594
 Shoot the Bullet:
   pageId: 30993
   revId: 1204027
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\}}'
   tooBroad: true
 Shoot the ball:
   pageId: 128169
@@ -129380,6 +129856,8 @@ Shoot-No-Shoot:
 'ShootMania: Storm':
   pageId: 5439
   revId: 1258851
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\ManiaPlanet\Config\}}'
 Shooter Game:
   pageId: 109068
   revId: 1210350
@@ -129409,6 +129887,9 @@ Shooting Star:
 Shooting Stars!:
   pageId: 38129
   revId: 1176006
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Daedalic Entertainment GmbH\ShootingStars\}}'
+    - '{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\Daedalic Entertainment GmbH\ShootingStars\}}'
 Shootout on Cash Island:
   pageId: 62199
   revId: 1210357
@@ -129427,6 +129908,8 @@ Shooty Mine:
 Shooty Skies:
   pageId: 87894
   revId: 1176002
+  templates:
+    - '{{Game data/saves|Steam|{{p|Steam}}\userdata\{{p|uid}}\702810\remote\playerSave.txt}}'
 Shooty Squad:
   pageId: 67573
   revId: 1210359
@@ -129457,9 +129940,14 @@ Shopkeepers Tale:
 Shoppe Keep:
   pageId: 42966
   revId: 1210368
+  templates:
+    - '{{Game data/config|Steam|{{p|game}}\Shoppe Keep_Data\*.sk}}'
 Shoppe Keep 2:
   pageId: 72407
   revId: 1171171
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Strange Fire\Shoppe Keep 2}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Strange Fire\Shoppe Keep 2\Saves}}'
 'Shopping Clutter 2: Christmas Square':
   pageId: 123527
   revId: 1204853
@@ -129493,6 +129981,8 @@ Short Stories Collection of Class Tangerine:
 Shortest Trip to Earth:
   pageId: 105129
   revId: 1193135
+  templates:
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\Interactive Fate\Shortest Trip To Earth\}}'
 Shot In The Dark:
   pageId: 47569
   revId: 1210381
@@ -129535,15 +130025,27 @@ Shovel Knight Showdown:
 'Shovel Knight: King of Cards':
   pageId: 153478
   revId: 1196502
+  templates:
+    - '{{Game data/saves|Windows|{{p|appdata}}\Yacht Club Games\Shovel Knight - King of Cards\}}'
 'Shovel Knight: Shovel of Hope':
   pageId: 153480
   revId: 1140128
 'Shovel Knight: Specter of Torment':
   pageId: 60275
   revId: 1242035
+  templates:
+    - '{{Game data/saves|Windows|{{p|appdata}}\Yacht Club Games\Shovel Knight - Specter of Torment\}}'
 'Shovel Knight: Treasure Trove':
   pageId: 15481
   revId: 1241783
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Yacht Club Games\Shovel Knight\*.bin}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/Yacht Club Games/Shovel Knight/}}'
+    - '{{Game data/config|Linux|~/.local/share/Yacht Club Games/Shovel Knight/}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Yacht Club Games\Shovel Knight\saveData.bin}}'
+    - '{{Game data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\250760\remote\saveData.bin}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/Yacht Club Games/Shovel Knight/}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Yacht Club Games/Shovel Knight/}}'
 Show It 2 Me:
   pageId: 77910
   revId: 1205003
@@ -129571,6 +130073,8 @@ ShowdownVR:
 'Shower With Your Dad Simulator 2015: Do You Still Shower With Your Dad':
   pageId: 37142
   revId: 1154455
+  templates:
+    - '{{Game data/config|Windows|{{p|APPDATA}}\MMFApplications\SHOWERDAD.ini}}'
 'Showing Tonight: Mindhunters Incident':
   pageId: 45649
   revId: 1187713
@@ -129598,21 +130102,44 @@ Shred! 2:
 Shredders:
   pageId: 176181
   revId: 1242449
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Foampunch\Shredders\}}'
+    - >-
+      {{Game data/config|Microsoft
+      Store|{{p|localappdata}}\Packages\FoamPunch.Shredders_6gtbvqvkrbpn2\SystemAppData\wgs\}}
+    - >-
+      {{Game data/saves|Microsoft
+      Store|{{p|localappdata}}\Packages\FoamPunch.Shredders_6gtbvqvkrbpn2\SystemAppData\wgs\}}
 'Shrek 2: Team Action':
   pageId: 25043
   revId: 1240950
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Activision\Shrek 2 Team Action\Settings}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Game\Save\}}'
 'Shrek 2: The Game':
   pageId: 101819
   revId: 1138409
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Shrek 2\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Shrek 2\Save\}}'
 Shrek Forever After:
   pageId: 32789
   revId: 1241417
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Activision\Shrek Forever After\user.cfg}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Activision\Shrek Forever After\savegames\}}'
 Shrek SuperSlam:
   pageId: 126540
   revId: 1223573
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}/config.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}/data/saves/(username)-ShrekSuperSlam.sav}}'
 Shrek the Third:
   pageId: 65796
   revId: 1140685
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Activision\SHReK the THiRD\SHReK the THiRD.ini}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Activision\SHReK the THiRD\SHReK the THiRD.s3b}}'
 Shrek's Carnival Craze:
   pageId: 101873
   revId: 1206314
@@ -129634,9 +130161,15 @@ Shrooms:
 Shroomscape Zone:
   pageId: 174706
   revId: 1224471
+  templates:
+    - '{{Game data/config|Linux|{{P|linuxhome}}/.config/Epic/Shroomtopia/Saved/Config}}'
+    - '{{Game data/saves|Linux|{{P|linuxhome}}/.config/Epic/Shroomtopia/Saved/SaveGames}}'
 'Shroud of the Avatar: Forsaken Virtues':
   pageId: 23075
   revId: 1208819
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Portalarium\Shroud of the Avatar}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\Portalarium\Shroud of the Avatar\SavedGames}}'
 'Shrouded Tales: Revenge of Shadows':
   pageId: 63183
   revId: 1210454
@@ -129651,6 +130184,9 @@ Shrouded in Sanity:
 'Shrouded in Sanity: Freebirth':
   pageId: 89480
   revId: 1210456
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Shrouded_in_Sanity_Freebirth\settings.sav}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Shrouded_in_Sanity_Freebirth}}'
 'Shrug Island: The Meeting':
   pageId: 43231
   revId: 1203242
@@ -129675,6 +130211,8 @@ Shuffle World:
 Shuffle!:
   pageId: 52117
   revId: 1192357
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\YumeHaven\Shuffle!\save\}}'
 Shufflepuck Cantina Deluxe VR:
   pageId: 15985
   revId: 1175601
@@ -129690,12 +130228,16 @@ Shut Up And Dig:
 Shutshimi:
   pageId: 46727
   revId: 1171537
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Neon Deity Games\Shutshimi\}}'
 Shutter:
   pageId: 48298
   revId: 1155548
 Shuttle Siege:
   pageId: 55803
   revId: 1187347
+  templates:
+    - '{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\ShuttleSiege\}}'
 Shuttlecock-H:
   pageId: 132316
   revId: 1191397
@@ -129705,6 +130247,8 @@ Shuttlecock-H:
 Shuyan Saga:
   pageId: 67526
   revId: 1193468
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Lofty Sky Entertainment\Shuyan}}'
 Shwip:
   pageId: 89341
   revId: 1169144
@@ -129717,15 +130261,24 @@ ShyChess:
 SiN:
   pageId: 3988
   revId: 1227052
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\base\players\{{p|uid}}\config.cfg}}'
+    - '{{Game data/config|Linux|~/.hyperion/Sin/players/{{p|uid}}/config.cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\base\players\{{p|uid}}\save\}}'
 'SiN Episodes: Emergence':
   pageId: 4072
   revId: 1208239
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\SE1\cfg\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\SE1\SAVE\}}'
 'SiN: Reloaded':
   pageId: 163180
   revId: 1199727
 SiNKR:
   pageId: 68498
   revId: 1257007
+  templates:
+    - '{{Game data/saves|Windows| HKEY_CURRENT_USER\SOFTWARE\Wahler Digital\Sinkr}}'
 SiNKR 2:
   pageId: 122600
   revId: 1230444
@@ -129759,6 +130312,9 @@ Sickness:
 Sid & Al's Incredible Toons:
   pageId: 66560
   revId: 1141881
+  templates:
+    - '{{Game data/config|DOS|{{p|game}}\RESOURCE.CFG}}'
+    - '{{Game data/saves|DOS|{{p|game}}\TOONS.SAV|{{p|game}}\*.ITL}}'
 Sid Meier's Ace Patrol:
   pageId: 40600
   revId: 1209280
@@ -129768,38 +130324,68 @@ Sid Meier's Ace Patrol:
 Sid Meier's Alpha Centauri:
   pageId: 735
   revId: 1243351
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}/Alpha Centauri.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\saves}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/GOG.com/Sid Meier''s Alpha Centauri/saves}}'
 Sid Meier's Antietam!:
   pageId: 8721
   revId: 1251305
 Sid Meier's Colonization:
   pageId: 16306
   revId: 1258699
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\MPS\COLONIZE}}'
+    - '{{Game data/saves|Windows|{{p|game}}\MPS\COLONIZE\COLONY0*.SAV}}'
 Sid Meier's Covert Action:
   pageId: 21484
   revId: 1215211
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\Covert\CV*.SVE}}'
 Sid Meier's Gettysburg!:
   pageId: 8716
   revId: 1251304
 Sid Meier's Pirates!:
   pageId: 4460
   revId: 1208293
+  templates:
+    - '{{Game data/saves|PC booter|A:\|B:\}}'
+    - '{{Game data/saves|DOS|{{p|game}}\disks}}'
   tooBroad: true
 Sid Meier's Pirates! (2004):
   pageId: 2133
   revId: 1208292
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Sid Meier''s Pirates!\Config.ini}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Sid Meier''s Pirates!\}}'
 Sid Meier's Railroad Tycoon:
   pageId: 12625
   revId: 1258239
+  templates:
+    - '{{Game data/config|DOS|{{p|game}}\CONFIG.RRD}}'
+    - '{{Game data/saves|DOS|{{p|game}}\}}'
   tooBroad: true
 Sid Meier's Railroads!:
   pageId: 3525
   revId: 1255720
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Sid Meier''s Railroads\}}'
+    - >-
+      {{Game data/config|OS X|~/Library/Containers/com.feralinteractive/Data/Library/Application Support/Feral
+      Interactive/Sid Meier's Railroads!/}}
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Sid Meier''s Railroads\Saves}}'
+    - >-
+      {{Game data/saves|OS X|~/Library/Containers/com.feralinteractive/Data/Library/Application Support/Feral
+      Interactive/Sid Meier's Railroads!/Saves/}}
 Sid Meier's SimGolf:
   pageId: 8459
   revId: 1243357
 Sid Meier's Starships:
   pageId: 23418
   revId: 1209279
+  templates:
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Sid Meier''s Starships\}}'
+    - '{{Game data/saves|OS X|~/Library/Containers/com.2k.starshipsmac/Data/Documents}}'
 Side Decide:
   pageId: 151052
   revId: 1171534
@@ -129811,7 +130397,7 @@ Sideral:
   revId: 1210493
 Sidetrack:
   pageId: 171386
-  revId: 1087556
+  revId: 1099948
 Sideway New York:
   pageId: 40861
   revId: 1205962
@@ -129845,6 +130431,9 @@ Siege and Destroy:
 Siege of Avalon:
   pageId: 157887
   revId: 1097624
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\games\}}'
   tooBroad: true
 Siege of Centauri:
   pageId: 134898
@@ -129870,6 +130459,9 @@ Sierra Ops:
 Sifu:
   pageId: 166919
   revId: 1251983
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\Sifu\Saved\Config\WindowsNoEditor\}}'
+    - '{{Game data/saves|Windows|{{P|localappdata}}\Sifu\Saved\SaveGames\{{P|uid}}\}}'
 Sig.Null:
   pageId: 36606
   revId: 1203055
@@ -129885,9 +130477,17 @@ Sigil:
 Sigils of Elohim:
   pageId: 20405
   revId: 1192924
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Croteam\Sigils of Elohim\}}'
+    - '{{Game data/saves|Windows|{{p|hkcu}}\Software\Croteam\Sigils of Elohim\}}'
 'Sigma Theory: Global Cold War':
   pageId: 90376
   revId: 1173661
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{p|HKCU}}\Software\MiClosStudio\sigma|{{p|USERPROFILE}}\AppData\LocalLow\MiClosStudio\sigma\settings.json}}
+    - '{{Game data/saves|Windows|{{p|USERPROFILE}}\AppData\LocalLow\MiClosStudio\sigma\}}'
 'Sign Here:':
   pageId: 92749
   revId: 1223337
@@ -129900,9 +130500,18 @@ Signal Decay:
 Signal Ops:
   pageId: 10050
   revId: 1207964
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Signal Ops}}'
+    - '{{Game data/config|Linux|~/.signalops/}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Signal Ops}}'
+    - '{{Game data/saves|Linux|~/.signalops/}}'
 Signal Simulator:
   pageId: 92740
   revId: 1192299
+  templates:
+    - '{{Game data/config|Linux|~/.config/unity3d/SOL Games/Signal Simulator}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\SOL Games\Signal Simulator}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/SOL Games/Signal Simulator}}'
 Signal to Noise:
   pageId: 45551
   revId: 1210497
@@ -129915,15 +130524,26 @@ Signs of Darkness:
 Signs of Life:
   pageId: 18361
   revId: 1194611
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Signs of Life\Saves\}}'
+    - '{{Game data/config|Linux|{{P|linuxhome}}/My Games/Signs of Life/Saves}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Signs of Life\Saves\}}'
 Signs of the Sojourner:
   pageId: 137070
   revId: 1171532
+  templates:
+    - '{{Game data/saves|Windows|{{P|userprofile\appdata\locallow}}\Echodog Games\Signs of the Sojourner}}'
 Sikanda:
   pageId: 110090
   revId: 1171530
 Silence - The Whispered World 2:
   pageId: 23077
   revId: 1248529
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\Daedalic Entertainment GmbH\Silence\Settings\}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Daedalic Entertainment GmbH/Silence/Settings/}}'
+    - '{{Game data/saves|Windows|{{P|localappdata}}\Daedalic Entertainment GmbH\Silence\Savegames\}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Daedalic Entertainment GmbH/Silence/Savegames/}}'
 Silence Notes:
   pageId: 114674
   revId: 1186847
@@ -129933,6 +130553,11 @@ Silence in Space - Season One:
 Silence of the Sleep:
   pageId: 49586
   revId: 1174421
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{p|appdata}}\silenceofthesleep\controls.ini|{{p|appdata}}\silenceofthesleep\settings.ini}}
+    - '{{Game data/saves|Windows|{{p|appdata}}\silenceofthesleep\savedata.ini}}'
 Silenced:
   pageId: 142281
   revId: 1169100
@@ -129945,6 +130570,8 @@ Silent Depth 3D Submarine Simulation:
 Silent Descent:
   pageId: 75496
   revId: 1210501
+  templates:
+    - '{{Game data/saves|Windows|{{p|hkcu}}\Software\Deceptive Games Ltd.\Silent Descent}}'
 Silent Footsteps:
   pageId: 103003
   revId: 1210503
@@ -129954,22 +130581,41 @@ Silent Gentleman:
 'Silent Heroes: Elite Troops of WWII':
   pageId: 126542
   revId: 1151162
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\profiles\<game-profile-name>\settings}}'
+    - '{{Game data/saves|Windows|{{p|game}}\profiles\<game-profile-name>\save\}}'
 'Silent Hill 2: Director''s Cut':
   pageId: 4803
-  revId: 1256965
+  revId: 1260202
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\data\save\}}'
   tooBroad: true
 Silent Hill 3:
   pageId: 5271
   revId: 1228789
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\savedata\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\savedata\}}'
 'Silent Hill 4: The Room':
   pageId: 20028
   revId: 1259318
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\input.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\saves\}}'
 'Silent Hill: Homecoming':
   pageId: 13527
   revId: 1256763
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{p|game}}\Engine\default_pc.cfg|{{p|game}}\Engine\vars_pc.cfg|{{p|game}}\Engine\binds_pc_mjs.cfg}}
+    - '{{Game data/saves|Windows|{{p|public}}\Public Documents\Silent Hill Homecoming\shv_save.bin}}'
 Silent Hunter 2:
   pageId: 21224
   revId: 1249912
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\Save\}}'
 'Silent Hunter 4: Wolves of the Pacific':
   pageId: 41362
   revId: 1232946
@@ -129979,6 +130625,9 @@ Silent Hunter 2:
 Silent Hunter III:
   pageId: 1241
   revId: 1243132
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\SH3\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SH3\}}'
 Silent Night:
   pageId: 113526
   revId: 1190034
@@ -129988,12 +130637,18 @@ Silent Service:
 Silent Service II:
   pageId: 21295
   revId: 1209430
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\SILENT}}'
+    - '{{Game data/saves|Windows|{{p|game}}\SILENT}}'
 Silent Space VR:
   pageId: 76169
   revId: 1210505
 Silent Storm:
   pageId: 1670
   revId: 1252714
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\cfg\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save\}}'
 Silent Tweets:
   pageId: 87189
   revId: 1203585
@@ -130012,6 +130667,8 @@ Silicon City:
 Silicon Zeroes:
   pageId: 68192
   revId: 1157103
+  templates:
+    - '{{Game data/saves|Windows|{{P|game}}\profiles\}}'
 Silicone-2:
   pageId: 47643
   revId: 1210508
@@ -130030,6 +130687,11 @@ Siluman Fantasy - First Half -:
 Silver:
   pageId: 32108
   revId: 1249522
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\SAVEGAME\SILVER.OPT|{{P|appdata}}\THQNordic\Silver\SAVEGAME\SILVER.OPT}}'
+    - '{{Game data/config|Linux|{{p|xdgdatahome}}/THQNordic/Silver/silver.opt}}'
+    - '{{Game data/saves|Windows|{{p|game}}\SAVEGAME|{{P|appdata}}\THQNordic\Silver}}'
+    - '{{Game data/saves|Linux|{{p|xdgdatahome}}/THQNordic/Silver/*.sav}}'
 'Silver Bullet: Prometheus':
   pageId: 43688
   revId: 1181160
@@ -130069,6 +130731,9 @@ SilverFrame(纯白星原):
 Silverball:
   pageId: 154872
   revId: 1152178
+  templates:
+    - '{{Game data/config|DOS|{{Path|Game}}\CONFIG.PIN}}'
+    - '{{Game data/saves|DOS|{{Path|Game}}\HISCORE.PIN}}'
 Silverfall:
   pageId: 41393
   revId: 1249913
@@ -130084,34 +130749,60 @@ Sim Junta:
 SimAirport:
   pageId: 58652
   revId: 1171271
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\LVGameDev LLC\SimAirport\SavesDir\}}'
+    - '{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.LVGameDev LLC.SimAirport/SavesDir}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/LVGameDev LLC/SimAirport/SavesDir}}'
 SimAnt:
   pageId: 19802
   revId: 1236034
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\*.ant}}'
 SimCity (1989):
   pageId: 8440
   revId: 1251383
 SimCity (2013):
   pageId: 4442
   revId: 1235512
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SimCity\Games\}}'
+    - '{{Game data/saves|OS X|~/Documents/SimCity/Games/}}'
 SimCity 2000:
   pageId: 2901
   revId: 1257747
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\SC2000.CFG}}'
+    - '{{Game data/saves|DOS|{{p|game}}\Cities\*.sc2}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Cities\*.sc2}}'
 SimCity 2000 Network Edition:
   pageId: 17526
   revId: 1140151
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\2KCLIENT.ini}}'
+    - '{{Game data/saves|Windows|*.scx}}'
   tooBroad: true
 SimCity 3000:
   pageId: 14440
   revId: 1243358
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Game\SC3.cfg|{{p|game}}\Game\sc3.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Cities\}}'
 SimCity 4:
   pageId: 1132
   revId: 1247443
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\SimCity 4\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SimCity 4\Regions\}}'
+    - '{{Game data/saves|OS X|~/Documents/SimCity 4/Regions/}}'
 SimCity Societies:
   pageId: 6845
   revId: 1243363
 SimCopter:
   pageId: 14439
   revId: 1209275
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\My Saved Cities\*.sc2}}'
   tooBroad: true
 SimEarth:
   pageId: 175960
@@ -130119,12 +130810,17 @@ SimEarth:
 SimFarm:
   pageId: 19808
   revId: 1224966
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\*.sfm}}'
 SimHealth:
   pageId: 176759
   revId: 1240366
 'SimIsle: Missions in the Rainforest':
   pageId: 176765
   revId: 1251093
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}}}'
+    - '{{Game data/saves|Windows|{{p|game}}\savegame}}'
   tooBroad: true
 SimLife:
   pageId: 176762
@@ -130132,18 +130828,28 @@ SimLife:
 SimPark:
   pageId: 19605
   revId: 1225049
+  templates:
+    - '{{Game data/config|Windows|{{p|windir}}\SimPark.ini|{{p|game}}\SimPark.ini}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\*.prk}}'
 SimSafari:
   pageId: 19645
   revId: 1224968
+  templates:
+    - '{{Game data/config|Windows|{{p|windir}}\smsafari.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Savegame\*.saf}}'
 SimTower:
   pageId: 51200
   revId: 1250269
 SimTown:
   pageId: 19817
   revId: 1225050
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\*.twn}}'
 SimTunes:
   pageId: 19716
   revId: 1139441
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\Tunes}}'
 'Simgirls: Lovemore College RPG':
   pageId: 141706
   revId: 1188360
@@ -130159,6 +130865,8 @@ Simian.interface++:
 Simmiland:
   pageId: 122233
   revId: 1250652
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\options.ini}}'
 Simon the Sorcerer:
   pageId: 14137
   revId: 1142452
@@ -130168,9 +130876,13 @@ Simon the Sorcerer:
 Simon the Sorcerer 3D:
   pageId: 14144
   revId: 1200186
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\Data\}}'
 'Simon the Sorcerer 4: Chaos Happens':
   pageId: 131767
   revId: 1142458
+  templates:
+    - '{{Game data/config|Windows|C:\Program Files\Simon the Sorcerer - Chaos happens\}}'
 'Simon the Sorcerer II: The Lion, the Wizard and the Wardrobe':
   pageId: 14140
   revId: 1198050
@@ -130225,12 +130937,22 @@ SimpleMovie:
 SimplePlanes:
   pageId: 34170
   revId: 1197280
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{P|userprofile}}\AppData\LocalLow\Jundroo\SimplePlanes\Settings.xml|{{P|hkcu}}\Software\Jundroo\SimplePlanes\}}
 SimpleRockets:
   pageId: 38486
   revId: 1210563
 SimpleRockets 2:
   pageId: 96611
   revId: 1187938
+  templates:
+    - >-
+      {{Game data/config|Windows|{{P|userprofile\appdata\locallow}}\Jundroo\SimpleRockets
+      2\Settings.xml|{{P|userprofile\appdata\locallow}}\Jundroo\SimpleRockets
+      2\ControlInputData.xml|{{P|hkcu}}\SOFTWARE\Jundroo\SimpleRockets 2\}}
+    - '{{Game data/saves|Windows|{{P|userprofile\appdata\locallow}}\Jundroo\SimpleRockets 2\}}'
 Simplefield:
   pageId: 65305
   revId: 1210565
@@ -130240,6 +130962,8 @@ Simplex Mundi:
 Simply Chess:
   pageId: 46480
   revId: 1208027
+  templates:
+    - '{{Game data/config|Linux|{{p|game}}/}}'
   tooBroad: true
 SimplyTrivia:
   pageId: 91544
@@ -130250,12 +130974,20 @@ Simson Tuningwerkstatt 3D:
 Simulacra:
   pageId: 73865
   revId: 1140155
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\Saved Games\Kaigan Games\SIMULACRA\}}'
+    - '{{Game data/saves|Steam|{{P|steam}}\userdata\{{P|uid}}\712730\remote\}}'
 Simulacra 2:
   pageId: 150858
   revId: 1168481
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\SOFTWARE\Kaigan Games\SIMULACRA 2\}}'
+    - '{{Game data/saves|Windows|{{P|userprofile\appdata\locallow}}\Kaigan Games\SIMULACRA 2\}}'
 'Simulacra: Pipe Dreams':
   pageId: 121307
   revId: 1210570
+  templates:
+    - '{{Game data/saves|Windows|{{P|steam}}\userdata\{{P|uid}}\878320\remote\}}'
 Simulator Gas Station:
   pageId: 65831
   revId: 1210572
@@ -130265,6 +130997,9 @@ Simulator Hipstera 2k17:
 Simutrans:
   pageId: 42928
   revId: 1237331
+  templates:
+    - '{{Game data/config|Windows|%USERPROFILE%\Documents\Simutrans\settings.xml}}'
+    - '{{Game data/saves|Windows|%USERPROFILE%\Documents\Simutrans\save}}'
 Sin Castle:
   pageId: 58360
   revId: 1210605
@@ -130289,9 +131024,16 @@ SincereMen:
 Sine Mora:
   pageId: 12562
   revId: 1191473
+  templates:
+    - '{{Game data/config|Steam|{{P|steam}}/userdata/{{P|uid}}/207040/remote/Sine Mora.cfg}}'
+    - '{{Game data/saves|Steam|{{P|steam}}/userdata/{{P|uid}}/207040/remote/Sine Mora.cfg}}'
 Sine Mora EX:
   pageId: 65966
   revId: 1136986
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sinemoraex.settings}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\SineMoraEX.dat}}'
+    - '{{Game data/saves|Steam|{{P|steam}}/userdata/{{P|uid}}/606730/remote/Sine Mora.cfg}}'
 'Sine Requie: Snake Eyes':
   pageId: 78828
   revId: 1169097
@@ -130319,12 +131061,21 @@ Singled Out:
 'Singles 2: Triple Trouble':
   pageId: 53788
   revId: 1136400
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Config\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Savegame\}}'
 'Singles: Flirt Up Your Life!':
   pageId: 75334
   revId: 1256045
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Config}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Savegame}}'
 Singularity:
   pageId: 6458
   revId: 1254718
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Activision\Singularity}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Singularity\RvGame\SaveData\}}'
 Singularity 5:
   pageId: 124189
   revId: 1223330
@@ -130337,10 +131088,16 @@ Singularity Roller:
 'Sinistar: Unleashed':
   pageId: 14202
   revId: 1207856
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save}}'
   tooBroad: true
 Sinister City:
   pageId: 49480
   revId: 1203255
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\Jetdogs Studios\Sinister City\options.cfg}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\Jetdogs Studios\Sinister City\*.sav*}}'
 Sinister Halloween:
   pageId: 121133
   revId: 1223329
@@ -130353,6 +131110,9 @@ Sink or Skim:
 Sinking Island:
   pageId: 49169
   revId: 1210615
+  templates:
+    - '{{Game data/config|Windows|%userprofile%\Documents\Sinking Island}}'
+    - '{{Game data/saves|Windows|%userprofile%\Documents\Sinking Island}}'
 Sinking Simulator:
   pageId: 148607
   revId: 1204123
@@ -130365,16 +131125,34 @@ Sinner:
 'Sinner: Sacrifice for Redemption':
   pageId: 69755
   revId: 1238535
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\blackstar_uproject\Saved\Config\WindowsNoEditor\}}'
+    - >-
+      {{Game data/config|Microsoft
+      Store|{{P|localappdata}}\Packages\AnotherIndie.SINNERforWindows10_zrgg4v79ydekg\LocalCache\Local\blackstar_uproject\Saved\Config\WindowsNoEditor\}}
+    - '{{Game data/saves|Windows|{{P|localappdata}}\blackstar_uproject\Saved\SaveGames\}}'
+    - >-
+      {{Game data/saves|Microsoft
+      Store|{{P|localappdata}}\Packages\AnotherIndie.SINNERforWindows10_zrgg4v79ydekg\LocalCache\Local\blackstar_uproject\Saved\SaveGames\}}
 Sins of The Demon RPG:
   irregularPath: true
   pageId: 34966
   revId: 1186491
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\Game.ini}}'
+    - '{{Game data/saves|Windows|{{P|game}}\Save{{code|##}}.rvdata2}}'
 Sins of a Solar Empire:
   pageId: 2936
   revId: 1258341
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Ironclad Games\Sins of a Solar Empire}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Ironclad Games\Sins of a Solar Empire}}'
 'Sins of a Solar Empire: Rebellion':
   pageId: 2923
   revId: 1258342
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\}}'
 Sio And Mysterious Forest:
   pageId: 144829
   revId: 1169095
@@ -130393,12 +131171,24 @@ Sir! I'd Like To Report A Bug!:
 'Sir, You Are Being Hunted':
   pageId: 9584
   revId: 1231841
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|game}}\x64\s\SaveGames\|{{p|game}}\x86\s\SaveGames\|{{p|hkcu}}\SOFTWARE\Big
+      Robot\SirYouAreBeingHunted\}}
+    - '{{Game data/config|Linux|{{p|game}}/s/SaveGames/}}'
+    - '{{Game data/saves|Windows|{{p|game}}\x64\s\SaveGames\World*\|{{p|game}}\x86\s\SaveGames\World*\}}'
+    - '{{Game data/saves|Linux|{{p|game}}/s/SaveGames/World*/}}'
 Siralim:
   pageId: 30008
   revId: 1187601
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Siralim\config.ini}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Siralim\siralim*.ini}}'
 Siralim 2:
   pageId: 35982
   revId: 1197955
+  templates:
+    - '{{Game data/saves|Windows|{{P|appdata}}\Siralim\save\config.sav}}'
 Siralim 3:
   pageId: 93956
   revId: 1181156
@@ -130462,6 +131252,9 @@ Six Days in Fallujah:
 Six Days of Snow:
   pageId: 79224
   revId: 1169799
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\renpy\config.py}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\renpy\Six Days of Snow-1474192931\|{{p|game}}\game\saves\}}'
 Six Degrees of Damnation:
   pageId: 138679
   revId: 1191992
@@ -130503,7 +131296,7 @@ SizeBlock:
   revId: 1209157
 'Skald: Against the Black Priory':
   pageId: 167908
-  revId: 1090698
+  revId: 1099951
 Skara - The Blade Remains:
   pageId: 61199
   revId: 1171518
@@ -130525,6 +131318,11 @@ Skate City:
 SkateBIRD:
   pageId: 122422
   revId: 1239021
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile}}\AppData\LocalLow\Glass Bottom Games\SkateBIRD\}}'
+    - '{{Game data/config|Linux|$HOME/.config/unity3d/Glass Bottom Games/SkateBIRD/prefs}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Glass Bottom Games\SkateBIRD\}}'
+    - '{{Game data/saves|Linux|$HOME/.config/unity3d/Glass Bottom Games/SkateBIRD/}}'
 Skateboarding pro:
   pageId: 104091
   revId: 1210648
@@ -130543,6 +131341,9 @@ Skater XL:
 Skaut Kwatermaster:
   pageId: 76724
   revId: 1147349
+  templates:
+    - '{{Game data/config|DOS|{{p|game}}\SOUND.CFG|{{p|game}}\AVALON.INI}}'
+    - '{{Game data/saves|DOS|{{p|game}}\SAVEGAME\SAVEGAME.*|{{p|game}}\FDD\SAVEGAME\SAVEGAME.*}}'
 'Skautfold: Moonless Knight':
   pageId: 135762
   revId: 1210650
@@ -130561,6 +131362,8 @@ Skeletal Avenger:
 Skeletal Dance Party:
   pageId: 100590
   revId: 1176011
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Catalope Games\Skeletal Dance Party\}}'
 Skeleton Boomerang:
   pageId: 65321
   revId: 1210651
@@ -130623,9 +131426,15 @@ Ski Jumping Pro VR:
 Ski Park Manager:
   pageId: 167706
   revId: 1240028
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\simski.cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Saved Games\}}'
 Ski Park Tycoon:
   pageId: 48793
   revId: 1201391
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\data.params.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save}}'
 Ski Region Simulator:
   pageId: 50703
   revId: 1167678
@@ -130641,6 +131450,8 @@ Ski Safari 2:
 Ski Sniper:
   pageId: 62594
   revId: 1210665
+  templates:
+    - '{{Game data/saves|Windows|{{p|hkcu}}\Software\CrazyRock\SkiSniper\}}'
 'Ski Sport: Jumping VR':
   pageId: 57190
   revId: 1186780
@@ -130650,6 +131461,8 @@ Ski-World Simulator:
 SkiFree:
   pageId: 7947
   revId: 1148091
+  templates:
+    - '{{Game data/saves|Windows|{{p|windir}}\entpack.ini}}'
 SkiFy:
   pageId: 74652
   revId: 1185989
@@ -130716,12 +131529,16 @@ Skipper:
 'Skipper & Skeeto: Tales from Paradise Park':
   pageId: 80794
   revId: 1255524
+  templates:
+    - '{{Game data/saves|Windows|{{P|game}}\MAGNUS.INI}}'
 'Skipper & Skeeto: The Alphabetic Games':
   pageId: 131398
   revId: 1181139
 'Skipper & Skeeto: The Great Treasure Hunt':
   pageId: 106273
   revId: 1255525
+  templates:
+    - '{{Game data/saves|Windows|{{P|game}}}}'
   tooBroad: true
 'Skipper & Skeeto: The Midnight Mystery':
   pageId: 122992
@@ -130735,10 +131552,15 @@ Skipper:
 'Skipper & Skeeto: The Revenge of Mr. Shade':
   pageId: 126651
   revId: 1255526
+  templates:
+    - '{{Game data/saves|Windows|{{P|game}}}}'
   tooBroad: true
 'Skipper & Skeeto: The Shadow of Mr. Shade':
   pageId: 126568
   revId: 1255528
+  templates:
+    - '{{Game data/config|Windows|{{p|hklm}}\SOFTWARE\{{p|wow64}}\IVANOFF InterActive\MM4}}'
+    - '{{Game data/saves|Windows|{{P|game}}\Save Games}}'
 'Skipper & Skeeto: Treasure Quiz':
   pageId: 122980
   revId: 1181133
@@ -130760,6 +131582,8 @@ Skript:
 'Skul: The Hero Slayer':
   pageId: 154111
   revId: 1248400
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile\appdata\locallow}}\Southpaw Games\Skul\}}'
 Skull & Bones:
   pageId: 63656
   revId: 1169086
@@ -130780,12 +131604,24 @@ Skullgirls 2nd Encore:
   renamedFrom:
     - Skullgirls
   revId: 1149108
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Skullgirls\}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Skullgirls}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Skullgirls\Save Data}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Skullgirls/SaveData}}'
 Skulls of the Shogun:
   pageId: 8185
   revId: 1258343
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Saved Games\SkullsOfTheShogun\}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/SkullsOfTheShogun/}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Saved Games\SkullsOfTheShogun\}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/SkullsOfTheShogun/}}'
 Skully:
   pageId: 160426
   revId: 1108573
+  templates:
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Skully\Saved\SaveGames}}'
 Skully Pinball:
   pageId: 132410
   revId: 1210718
@@ -130804,6 +131640,9 @@ Sky Brawl:
 Sky Break:
   pageId: 45946
   revId: 1223319
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile}}\AppData\LocalLow\Farsky Interactive\Sky Break}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\Farsky Interactive\Sky Break}}'
 Sky Cannoneer:
   pageId: 154170
   revId: 1171505
@@ -130828,12 +131667,22 @@ Sky Flight:
 Sky Force Anniversary:
   pageId: 37680
   revId: 1202962
+  templates:
+    - '{{Game data/config|Windows|SteamInstallFolder/UserData/<SteamUserNumber>/355050/remote/CloudData.dat}}'
+    - '{{Game data/saves|Windows|SteamInstallFolder/UserData/<SteamUserNumber>/355050/remote/CloudData.dat}}'
 Sky Force Reloaded:
   pageId: 66482
   revId: 1178415
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\Save}}'
+    - '{{Game data/saves|Windows|{{P|game}}\Save}}'
+    - '{{Game data/saves|Linux|{{P|steam}}/steamapps/common/Sky Force Reloaded/Save}}'
 'Sky Gamblers: Storm Raiders':
   pageId: 49015
   revId: 1202970
+  templates:
+    - '{{Game data/config|Windows|<steam folder>\steamapps\common\SGSR\save}}'
+    - '{{Game data/saves|Windows|<steam folder>\steamapps\common\SGSR\save}}'
 Sky Haven:
   pageId: 81167
   revId: 1210729
@@ -130890,6 +131739,9 @@ Sky Road:
 Sky Rogue:
   pageId: 37695
   revId: 1165284
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Save\GameOptions.sav}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Save\}}'
 Sky Sanctuary:
   pageId: 55614
   revId: 1193094
@@ -130943,9 +131795,13 @@ SkyKeepers:
 SkyRoads:
   pageId: 140267
   revId: 1137124
+  templates:
+    - '{{Game data/saves|DOS|{{p|game}}\SKYROADS.CFG}}'
 'SkyRoads: Xmas Special':
   pageId: 140269
   revId: 1137122
+  templates:
+    - '{{Game data/saves|DOS|{{p|game}}\SKYROADS.CFG}}'
 SkyScrappers:
   pageId: 46060
   revId: 1175669
@@ -130958,6 +131814,10 @@ Skybolt Zack:
 Skyborn:
   pageId: 38291
   revId: 1165496
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\Game.ini}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\Skyborn\}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/dancingdragon/skyborn/}}'
 SkydiVeR:
   pageId: 128187
   revId: 1175606
@@ -130997,15 +131857,26 @@ Skyland Defense:
 'Skyland: Heart of the Mountain':
   pageId: 125635
   revId: 1170228
+  templates:
+    - '{{Game data/config|Windows|{{p|steam}}/userdata/{{p|uid}}/949800/remote/profile}}'
+    - '{{Game data/saves|Windows|{{p|steam}}/userdata/{{p|uid}}/949800/remote/profile}}'
 'Skylanders: Spyro''s Adventure':
   pageId: 140366
   revId: 1241418
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Spyro\Save\global.dat}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Spyro\Save\slot#}}'
 Skylands:
   pageId: 68170
   revId: 1210752
 'Skylar & Plux: Adventure On Clover Island':
   pageId: 52864
   revId: 1148216
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{P|localappdata}}\CloverIsland\Saved\Config\WindowsNoEditor|{{P|localappdata}}\CloverIsland\Saved\SaveGames\SETTINGS.sav}}
+    - '{{Game data/saves|Windows|{{P|localappdata}}\CloverIsland\Saved\SaveGames}}'
 Skylight:
   pageId: 78443
   revId: 1223313
@@ -131054,6 +131925,12 @@ Skyward:
 Skyward Collapse:
   pageId: 10723
   revId: 1258240
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\SOFTWARE\Arcen Games, LLC\Skyward Collapse\}}'
+    - '{{Game data/config|OS X|~/Library/Preferences/unity.Arcen Games, LLC.Skyward Collapse.plist}}'
+    - '{{Game data/config|Linux|~/.config/Arcen Games, LLC/Skyward Collapse/}}'
+    - '{{Game data/saves|Windows|{{p|game}}\RuntimeData\Save\}}'
+    - '{{Game data/saves|OS X|{{p|game}}/RuntimeData/Save/}}'
 Skyway:
   pageId: 53560
   revId: 1210762
@@ -131083,6 +131960,11 @@ Slabs:
 'Slain: Back from Hell':
   pageId: 34222
   revId: 1243012
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Wolfbrew Games\Slain\}}'
+    - '{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Wolfbrew Games/Slain/prefs}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Wolfbrew Games\Slain\}}'
+    - '{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/Wolfbrew Games/Slain/*.dat}}'
 Slam:
   pageId: 42451
   revId: 1193454
@@ -131110,6 +131992,9 @@ Slamoids!:
 Slap City:
   pageId: 87179
   revId: 1170303
+  templates:
+    - '{{Game data/config|Windows|{{p|USERPROFILE}}\AppData\LocalLow\Ludosity\Slap City}}'
+    - '{{Game data/saves|Windows|{{p|USERPROFILE}}\AppData\LocalLow\Ludosity\Slap City\}}'
 Slap The Fly:
   pageId: 52586
   revId: 1210777
@@ -131131,9 +132016,15 @@ Slapshot:
 Slash It:
   pageId: 55257
   revId: 1178407
+  templates:
+    - '{{Game data/saves|Windows|{{p|hkcu}}\SOFTWARE\KupiKey\Slash It}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/KupiKey/Slash It/}}'
 Slash It 2:
   pageId: 56976
   revId: 1178405
+  templates:
+    - '{{Game data/saves|Windows|{{p|hkcu}}\SOFTWARE\KupiKey\Slash It 2}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/KupiKey/Slash It 2/}}'
 Slash It Ultimate:
   pageId: 64046
   revId: 1171501
@@ -131155,6 +132046,8 @@ Slasher VR:
 Slasher's Keep:
   pageId: 78595
   revId: 1170039
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile\appdata\locallow}}\Games Damian made\Slasher_s Keep}}'
 'Slashers: The Power Battle':
   pageId: 73821
   revId: 1186523
@@ -131170,6 +132063,9 @@ Slater & Charlie Go Camping:
 'Slaughter 3: The Rebels':
   pageId: 171477
   revId: 1242541
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Venomized Art\Slaughter 3 The Rebels}}'
+    - '{{Game data/saves|Windows|{{P|hkcu}}\Venomized Art\Slaughter 3 The Rebels}}'
 Slave Ghost:
   pageId: 123615
   revId: 1210789
@@ -131188,6 +132084,9 @@ Slave Story:
 Slave Zero:
   pageId: 17952
   revId: 1257807
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\savegame}}'
   tooBroad: true
 Slave Zero X:
   pageId: 178426
@@ -131225,12 +132124,29 @@ Slay the Bigies:
 Slay the Spire:
   pageId: 63498
   revId: 1255584
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\preferences\|{{P|game}}\info.displayconfig|{{P|game}}\twitchconfig.txt}}'
+    - >-
+      {{Game data/config|Microsoft
+      Store|{{P|localappdata}}\Packages\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\LocalCache\Local\Microsoft\WritablePackageRoot\preferences\|{{P|localappdata}}\Packages\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\LocalCache\Local\Microsoft\WritablePackageRoot\info.displayconfig|{{P|localappdata}}\Packages\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\LocalCache\Local\Microsoft\WritablePackageRoot\twitchconfig.txt}}
+    - '{{Game data/config|OS X|{{P|game}}/SlayTheSpire.app/Contents/Resources/preferences/STSGameplaySettings}}'
+    - '{{Game data/config|Linux|{{p|game}}/betaPreferences/|{{P|game}}/info.displayconfig|{{P|game}}/twitchconfig.txt}}'
+    - '{{Game data/saves|Windows|{{p|game}}\saves\}}'
+    - >-
+      {{Game data/saves|Microsoft
+      Store|{{P|localappdata}}\Packages\HumbleBundle.SlayTheSpire_q2mcdwmzx4qja\LocalCache\Local\Microsoft\WritablePackageRoot\saves}}
+    - '{{Game data/saves|OS X|{{P|game}}/SlayTheSpire.app/Contents/Resources/preferences}}'
+    - '{{Game data/saves|Linux|{{p|game}}/saves/}}'
 Slay.one:
   pageId: 80677
   revId: 1178403
 Slayaway Camp:
   pageId: 40357
   revId: 1176014
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Blue Wizard\slayaway camp\}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\Blue Wizard\slayaway camp\}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/Blue Wizard/slayaway camp}}'
 Slayer Shock:
   pageId: 39141
   revId: 1210801
@@ -131270,9 +132186,21 @@ Sleeping Dawn VR:
 Sleeping Dogs:
   pageId: 3414
   revId: 1240821
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Data\DisplaySettings.xml|{{p|game}}\Data\HK Options}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Data\HK*Slot*}}'
 'Sleeping Dogs: Definitive Edition':
   pageId: 20264
   revId: 1243157
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Data\HK Options|{{p|game}}\Data\DisplaySettings.xml}}'
+    - >-
+      {{Game data/config|OS X|~/Library/Application Support/Feral Interactive/Sleeping Dogs Definitive
+      Edition/VFS/Local/Settings/}}
+    - '{{Game data/saves|Windows|{{p|game}}\Data\HK Autosave*|{{p|game}}\Data\HK GameSlot*}}'
+    - >-
+      {{Game data/saves|OS X|~/Library/Application Support/Feral Interactive/Sleeping Dogs Definitive
+      Edition/VFS/Local/Saves/}}
 Sleeping Valley:
   pageId: 51284
   revId: 1210807
@@ -131282,6 +132210,9 @@ Sleepwalker:
 Sleepwalker's Journey:
   pageId: 8035
   revId: 1223307
+  templates:
+    - '{{Game data/config|Windows|{{Path|appdata}}\11bitstudios\Sleepwalker`s Journey\config.bin}}'
+    - '{{Game data/saves|Windows|{{Path|appdata}}\11bitstudios\Sleepwalker`s Journey\iPhoneDefUser}}'
 Sleigh Runner:
   pageId: 124046
   revId: 1223306
@@ -131300,12 +132231,19 @@ Slender's Woods:
 'Slender: The Arrival':
   pageId: 5440
   revId: 1253304
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Blue Isle Studios\Slender - The Arrival}}'
 'Slender: The Eight Pages':
   pageId: 5902
   revId: 1142350
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Parsec Productions\Slender\}}'
 Slenderman's Shadow:
   pageId: 107082
   revId: 1169511
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Dark Pathogen Studios\Slenderman''s Shadow v1.3}}'
+    - '{{Game data/saves|Windows|{{P|game}}\player\}}'
 Slice:
   pageId: 92783
   revId: 1203687
@@ -131323,7 +132261,7 @@ Slice&Dice (VR):
   revId: 1210809
 'Slice, Dice & Rice':
   pageId: 58698
-  revId: 1223305
+  revId: 1260303
 Slide Ride Arcade:
   pageId: 33783
   revId: 1208984
@@ -131393,6 +132331,16 @@ Slime Quest:
 Slime Rancher:
   pageId: 34675
   revId: 1245089
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile\appdata\locallow}}\Monomi Park\Slime Rancher\}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/Monomi Park/Slime Rancher/}}'
+    - '{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Monomi Park/Slime Rancher/}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\appdata\locallow}}\Monomi Park\Slime Rancher\}}'
+    - >-
+      {{Game data/saves|Microsoft Store|
+      {{P|localappdata}}\Packages\MonomiPark.SlimeRancher_9ahw7gx0g86p2\SystemAppData\wgs\}}
+    - '{{Game data/saves|OS X|~/Library/Application Support/Monomi Park/Slime Rancher/}}'
+    - '{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Monomi Park/Slime Rancher/}}'
 Slime Rancher 2:
   pageId: 169364
   revId: 1105429
@@ -131495,12 +132443,21 @@ Slippy Slug:
 Slipstream:
   pageId: 75630
   revId: 1242737
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\ansdorGames\Slipstream\}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\ansdorGames\Slipstream\saves\}}'
 Slipstream 5000:
   pageId: 21284
   revId: 1147355
+  templates:
+    - '{{Game data/config|DOS|{{p|game}}\SLIPSTRM.CFG|{{p|game}}\CONFIG.INI}}'
+    - '{{Game data/saves|DOS|{{p|game}}\SLIPSTRM.SAV}}'
 Slipways:
   pageId: 166407
   revId: 1239647
+  templates:
+    - '{{Game data/saves|Windows|{{P|userprofile\appdata\locallow}}\Beetlewing\Slipways\saves\}}'
+    - '{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Beetlewing/Slipways/saves}}'
 Slither Link:
   pageId: 110664
   revId: 1210869
@@ -131534,6 +132491,9 @@ Slowdrive:
 Sludge Life:
   pageId: 158159
   revId: 1206270
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\TerriVellmann\SludgeLife\}}'
+    - '{{Game data/saves|Windows|{{P|game}}\save.txt}}'
 Slug Blast:
   pageId: 60896
   revId: 1191567
@@ -131593,6 +132553,9 @@ Small World:
   renamedFrom:
     - Small World 2
   revId: 1164433
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Days of Wonder\SmallWorld\UserDefault.xml}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Days of Wonder\SmallWorld\*_SavedGame.pbbin}}'
 Small person:
   pageId: 95284
   revId: 1210887
@@ -131686,6 +132649,8 @@ Smasher:
 Smashing the Battle:
   pageId: 43041
   revId: 1181129
+  templates:
+    - '{{Game data/saves|Windows|{{p|hkcu}}\Software\Studio HG\Smashing The Battle}}'
 Smashing the Battle VR:
   pageId: 63713
   revId: 1210914
@@ -131701,6 +132666,10 @@ Smelter:
 Smile For Me:
   pageId: 132747
   revId: 1171490
+  templates:
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\LimboLane\Smile For
+      Me\*.dat|{{p|userprofile}}\AppData\LocalLow\LimboLane\Smile For Me\MetaSave\*.dat}}
 Smile To Fly:
   pageId: 148903
   revId: 1192340
@@ -131713,9 +132682,14 @@ Smisl 2 gravity:
 Smite:
   pageId: 21384
   revId: 1200274
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Smite\BattleGame\Config\}}'
 Smith and Winston:
   pageId: 122714
   revId: 1251264
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\data\settings.ini}}'
+    - '{{Game data/config|Linux|{{P|game}}/data/settings.ini}}'
 Smithy:
   pageId: 42704
   revId: 1203389
@@ -131728,6 +132702,8 @@ Smogpunk 湮霾之地:
 Smoke and Sacrifice:
   pageId: 86993
   revId: 1195838
+  templates:
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\Solar Sail Games\Smoke and Sacrifice\}}'
 Smoker The Car Game:
   pageId: 110492
   revId: 1210920
@@ -131737,6 +132713,9 @@ Smooth Mover:
 'Smooth Operators: Call Center Chaos':
   pageId: 10379
   revId: 1223296
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\SOCCC\settings}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\SOCCC\SaveGames\}}'
 Smoots Tennis Survival Zombie:
   pageId: 55526
   revId: 1210921
@@ -131770,6 +132749,9 @@ Snail Racer Extreme:
 'Snail Trek - Chapter 1: Intershellar':
   pageId: 76561
   revId: 1173641
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Phil Fortier\Snail Trek - Chapter 1\}}'
+    - '{{Game data/saves|Windows|{{P|hkcu}}\Software\Phil Fortier\Snail Trek - Chapter 1\}}'
 'Snail Trek - Chapter 2: A Snail of Two Worlds':
   pageId: 78026
   revId: 1166668
@@ -131790,7 +132772,7 @@ SnakEscape:
   revId: 1223291
 'SnakEscape: Remastered':
   pageId: 153620
-  revId: 1022319
+  revId: 1078823
 Snake 3D Adventures:
   pageId: 66599
   revId: 1203745
@@ -131818,6 +132800,15 @@ Snake Party:
 Snake Pass:
   pageId: 52636
   revId: 1204460
+  templates:
+    - >-
+      {{Game data/config|Microsoft
+      Store|{{p|localappdata}}\Packages\SumoDigitalLtd.48576635C2674_fxgztw5m4nn00\LocalState\}}
+    - '{{Game data/config|Windows|{{p|localappdata}}\SnakeSimulator\Saved\Config\WindowsNoEditor\}}'
+    - >-
+      {{Game data/saves|Microsoft
+      Store|{{p|localappdata}}\Packages\SumoDigitalLtd.48576635C2674_fxgztw5m4nn00\SystemAppData\wgs\}}
+    - '{{Game data/saves|Windows|{{p|localappdata}}\SnakeSimulator\Saved\SaveGames\}}'
 Snake Treasure Chest:
   pageId: 72956
   revId: 1210932
@@ -131842,9 +132833,16 @@ Snake vs Snake:
 Snakebird:
   pageId: 33243
   revId: 1208931
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\SOFTWARE\Noumenon Games\Snakebird\|{{p|game}}\SavesDir\*.dat}}'
+    - '{{Game data/config|Linux|~/.config/unity3d/Noumenon Games}}'
+    - '{{Game data/saves|Windows|{{p|game}}\SavesDir\*.sav}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/Noumenon Games/SavesDir}}'
 Snakebird Primer:
   pageId: 127779
   revId: 1174023
+  templates:
+    - '{{Game data/saves|Windows|{{P|game}}\SavesDir}}'
 Snakeez:
   pageId: 72077
   revId: 1210935
@@ -131863,9 +132861,14 @@ Snakest:
 Snakeybus:
   pageId: 128348
   revId: 1175006
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Snakeybus}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Snakeybus\saves}}'
 Snaliens:
   pageId: 156847
   revId: 1169013
+  templates:
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\JFerreira\Snaliens\}}'
 SnappleNoid:
   pageId: 70373
   revId: 1253074
@@ -131875,6 +132878,11 @@ Snappy Turtle Ultimate:
 Snapshot:
   pageId: 4797
   revId: 1193122
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile}}\Documents\Snapshot\}}'
+    - '{{Game data/config|Linux|{{P|xdgconfighome}}/Snapshot/}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\Documents\Snapshot\}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Snapshot/}}'
 Snares of Ruin:
   pageId: 79292
   revId: 1210940
@@ -131896,6 +132904,8 @@ Sneak In:
 Sneak Thief:
   pageId: 41797
   revId: 1210943
+  templates:
+    - '{{Game data/config|Windows|{{p|HKCU}}\Software\Dominion Interactive\Sneak Thief}}'
 Sneaker:
   pageId: 148426
   revId: 1186306
@@ -131911,9 +132921,15 @@ Sneaky Ninja:
 Sneaky Sasquatch:
   pageId: 147769
   revId: 1239093
+  templates:
+    - >-
+      {{Game data/saves|OS
+      X|~/Library/Containers/Sasquatch/data/Library/SyncedPreferences/com.rac7.SneakSasquatchMac.plist}}
 Sneaky Sneaky:
   pageId: 38093
   revId: 1210944
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Naiad Entertainment\Sneaky\}}'
 Snik:
   pageId: 46548
   revId: 1210945
@@ -131932,18 +132948,36 @@ Sniper Commando Attack:
 Sniper Elite:
   pageId: 17836
   revId: 1254129
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Prof\{{p|uid}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Prof\{{p|uid}}\}}'
 Sniper Elite 4:
   pageId: 31703
   revId: 1201516
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\SniperElite4\}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\SniperElite4\PC_ProfileSaves\}}'
 Sniper Elite 5:
   pageId: 133544
   revId: 1259733
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Sniper Elite 5\}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Sniper Elite 5\PC_ProfileSaves\}}'
+    - >-
+      {{Game data/saves|Microsoft
+      Store|{{p|localappdata}}\Packages\Rebellion.52602B995C00E_2vbwqmt31j4mr\SystemAppData\wgs\}}
 Sniper Elite III:
   pageId: 17837
   revId: 1231789
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Sniper3\settings.ini}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Sniper3\PC_ProfileSaves\}}'
 Sniper Elite V2:
   pageId: 2244
   revId: 1254122
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\SniperV2\settings.ini}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\SniperV2\PC_ProfileSaves}}'
 Sniper Elite V2 Remastered:
   pageId: 130819
   revId: 1254123
@@ -131953,9 +132987,15 @@ Sniper Elite VR:
 'Sniper Elite: Nazi Zombie Army':
   pageId: 5339
   revId: 1208632
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Sniper Elite Nazi Zombie Army\settings.ini}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Sniper Elite Nazi Zombie\PC_ProfileSaves}}'
 'Sniper Elite: Nazi Zombie Army 2':
   pageId: 11747
   revId: 1234362
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Sniper Elite Nazi Zombie Army 2\settings.ini}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Sniper Elite Nazi Zombie Army 2\PC_ProfileSaves}}'
 Sniper Fodder:
   pageId: 97940
   revId: 1210950
@@ -131986,30 +133026,56 @@ Sniper Zombie Killer:
 'Sniper: Art of Victory':
   pageId: 50701
   revId: 1237401
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\Data}}'
 'Sniper: Ghost Warrior':
   pageId: 6618
   revId: 1238976
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\Sniper - Ghost
+      Warrior\out\Settings\|{{p|game}}\Game\out\Settings\}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\Sniper - Ghost
+      Warrior\out\save\|{{p|game}}\Game\out\profiles\}}
 'Sniper: Ghost Warrior 2':
   pageId: 3420
   revId: 1247945
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\system.cfg}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\Saved Games\SniperGhostWarrior2}}'
 'Sniper: Ghost Warrior 3':
   pageId: 39592
   revId: 1207242
+  templates:
+    - '{{Game data/config|Steam|{{P|Steam}}\userdata\{{p|uid}}\368070\remote\profiles\default\}}'
+    - '{{Game data/saves|Steam|{{P|Steam}}\userdata\{{p|uid}}\368070\remote\savegames\}}'
 'Sniper: Ghost Warrior Contracts':
   pageId: 139599
   revId: 1225185
+  templates:
+    - '{{Game data/config|Windows|{{p|USERPROFILE}}\Saved Games\Sniper Ghost Warrior Contracts\Profiles\default\}}'
+    - '{{Game data/config|Steam|{{P|Steam}}\userdata\{{p|uid}}\973580\remote\profiles\default\}}'
+    - '{{Game data/saves|Windows|{{p|USERPROFILE}}\Saved Games\Sniper Ghost Warrior Contracts\SaveGames\}}'
+    - '{{Game data/saves|Steam|{{P|Steam}}\userdata\{{p|uid}}\973580\remote\savegames\}}'
 'Sniper: Ghost Warrior Contracts 2':
   pageId: 161332
   revId: 1257612
 'Sniper: Path of Vengeance':
   pageId: 69924
   revId: 1201360
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\autoexec.cfg|{{p|game}}\lanuchp.txt}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save\}}'
 Snipiyo / スナイピヨ:
   pageId: 132192
   revId: 1204908
 Sno-Cross Extreme:
   pageId: 164310
   revId: 1005234
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\snow.cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\snowkarp.cfg}}'
 Snoobli:
   pageId: 94346
   revId: 1223289
@@ -132019,9 +133085,15 @@ Snood:
 Snooker 19:
   pageId: 134892
   revId: 1203441
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile}}\AppData\Local\Unreal\Saved\Config\WindowsNoEditor}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\Local\Unreal\Saved\SaveGames}}'
 Snooker Nation Championship:
   pageId: 43362
   revId: 1170041
+  templates:
+    - '{{Game data/config|Windows|{{p|LOCALAPPDATA}}\SnookerNation\Saved\Config\WindowsNoEditor\}}'
+    - '{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\SnookerNation\Saved\SaveGames\}}'
 SnookerWorld-Best online multiplayer snooker game!:
   pageId: 40283
   revId: 1205470
@@ -132031,9 +133103,18 @@ Snoopy vs. the Red Baron:
 Snoot Game:
   pageId: 169676
   revId: 1230285
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\RenPy\CavemanonSnootGame\persistent}}'
+    - '{{Game data/config|OS X|{{p|osxhome}}/Library/RenPy/CavemanonSnootGame/persistent}}'
+    - '{{Game data/config|Linux|{{p|linuxhome}}/.renpy/CavemanonSnootGame/persistent}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\RenPy\CavemanonSnootGame\*.save}}'
+    - '{{Game data/saves|OS X|{{p|osxhome}}/Library/RenPy/CavemanonSnootGame/*.save}}'
+    - '{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/CavemanonSnootGame/*.save}}'
 Snow:
   pageId: 15326
   revId: 1242476
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\system.cfg}}'
 Snow Arena:
   pageId: 139131
   revId: 1210964
@@ -132045,12 +133126,17 @@ Snow Battle Princess Sayuki:
   renamedFrom:
     - Snow Battle Princess SAYUKI
   revId: 1173422
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile}}\AppData\LocalLow\DefaultCompany\Snow_Battle_Princess_SAYUKI\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\DefaultCompany\Snow_Battle_Princess_SAYUKI\}}'
 Snow Clearing Driving Simulator:
   pageId: 149559
   revId: 1210966
 'Snow Daze: The Music of Winter Special Edition':
   pageId: 113356
   revId: 1198051
+  templates:
+    - '{{Game data/saves|Linux|{{p|game}}/game/saves/}}'
 Snow Fall:
   pageId: 79742
   revId: 1195840
@@ -132093,6 +133179,9 @@ SnowNight:
 SnowRunner:
   pageId: 143572
   revId: 1254196
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile\Documents}}\My Games\SnowRunner\base\storage\}}'
+    - '{{Game data/saves|Windows|{{P|userprofile\Documents}}\My Games\SnowRunner\base\storage\}}'
 Snowball Rush:
   pageId: 132258
   revId: 1211005
@@ -132102,6 +133191,8 @@ Snowball Saves Summer:
 Snowball!:
   pageId: 52420
   revId: 1234220
+  templates:
+    - '{{Game data/saves|Windows|{{P|appdata}}\com.pixeljam.snowball\Local Store\#SharedObjects\}}'
 'Snowballed: Crazy Downhill':
   pageId: 122504
   revId: 1211008
@@ -132143,15 +133234,27 @@ Snowtopia:
   renamedFrom:
     - 'Snowtopia: Ski Resort Tycoon'
   revId: 1170725
+  templates:
+    - >-
+      {{Game data/config|Windows|{{P|userprofile\appdata\locallow}}\Tea For
+      Two\Snowtopia\Config\user_config.json|{{P|hkcu}}\SOFTWARE\Tea for Two\Snowtopia\}}
 Snuffles and Co.:
   pageId: 113104
   revId: 1211018
 Snuggle Truck:
   pageId: 4660
   revId: 1258344
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\Software\Owlchemy Labs\SnuggleTruck\}}'
+    - '{{Game data/config|Linux|~/.config/unity3d/Owlchemy Labs/Snuggle Truck/}}'
+    - '{{Game data/saves|Windows|{{p|hkcu}}\Software\Owlchemy Labs\SnuggleTruck\}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/Owlchemy Labs/Snuggle Truck/}}'
 So Blonde:
   pageId: 35262
   revId: 1154102
+  templates:
+    - '{{Game data/config|Windows|{{p|hklm}}\SOFTWARE\{{p|wow64}}\Anaconda\So Blonde}}'
+    - '{{Game data/saves|Windows|{{p|game}}\saves\}}'
 So Long Earth:
   pageId: 43302
   revId: 1185626
@@ -132217,6 +133320,8 @@ Soccer Manager 2019:
 Soccer Manager 2020:
   pageId: 150774
   revId: 1171342
+  templates:
+    - '{{Game data/saves|Windows|{{P|userprofile\appdata\locallow}}\Soccer Manager Ltd\SM20}}'
 Soccer Manager 2021:
   pageId: 164811
   revId: 1170686
@@ -132226,6 +133331,8 @@ Soccer Manager Arena:
 Soccer Mania:
   pageId: 142390
   revId: 1201725
+  templates:
+    - '{{Game data/saves|Windows|C:\Users\Username\AppData\Roaming\LEGO Media\Soccer Mania\Dev0}}'
 Soccer Nations Battle:
   pageId: 93800
   revId: 1178353
@@ -132277,6 +133384,8 @@ Soda Drinker Pro:
 Soda Dungeon:
   pageId: 55059
   revId: 1179359
+  templates:
+    - '{{Game data/saves|Windows|{{p|appdata}}\dungeon\POX_DUNGEON.sol}}'
 Soda Dungeon 2:
   pageId: 151287
   revId: 1171456
@@ -132295,6 +133404,8 @@ SodaCity:
 Soft Body:
   pageId: 43029
   revId: 1176017
+  templates:
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Soft_Body\asyncsavegroup\softbodysave.sav}}'
 Softened Cookie:
   pageId: 74477
   revId: 1253080
@@ -132304,6 +133415,8 @@ Softporn Adventure:
 Software Inc.:
   pageId: 37557
   revId: 1242819
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}/Saves}}'
 SojournVR:
   pageId: 73634
   revId: 1185803
@@ -132347,6 +133460,12 @@ Sokoban Land DX:
 Sokobond:
   pageId: 23643
   revId: 1153656
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\com.sokobond\Local Store\#SharedObjects\sokobond.sol}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/com.sokobond/Local Store/#SharedObjects/sokobond.sol}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\com.sokobond\Local Store\#SharedObjects\sokobond.sol}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/com.sokobond/Local Store/#SharedObjects/sokobond.sol}}'
+    - '{{Game data/saves|Linux|{{p|linuxhome}}/.appdata/com.sokobond/Local Store/#SharedObjects/sokobond.sol}}'
 Sokos:
   pageId: 35154
   revId: 1169002
@@ -132356,6 +133475,9 @@ Sokos:
 Sol Cresta:
   pageId: 170587
   revId: 1244829
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\SOFTWARE\PlatinumGames\SolCresta}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\PlatinumGames\SolCresta\}}'
 Sol Divide:
   pageId: 47291
   revId: 1231520
@@ -132368,6 +133490,10 @@ Sol Galaxy Defender:
 Sol Survivor:
   pageId: 14806
   revId: 1207873
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{p|localappdata}}\Cadenza\SolSurvivor.exe_Url_kk2kolf32br34iyn2nvxhiojvswfgh4i\1.0.0.0}}
 Sol Trader:
   pageId: 42684
   revId: 1191834
@@ -132380,6 +133506,9 @@ SolForge:
 SolSeraph:
   pageId: 140326
   revId: 1205300
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\Empyrean\Saved\Config\WindowsNoEditor}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Empyrean\Saved\SaveGames\}}'
 Solace Crafting:
   pageId: 65359
   revId: 1211075
@@ -132389,6 +133518,10 @@ Solace State:
 Solar 2:
   pageId: 4774
   revId: 1150419
+  templates:
+    - '{{Game data/config|Linux|~/.solar2/}}'
+    - '{{Game data/saves|Linux|~/.solar2/}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/97000/}}'
 Solar Ash:
   pageId: 138453
   renamedFrom:
@@ -132418,6 +133551,9 @@ Solar Fighters:
 Solar Flux:
   pageId: 11599
   revId: 1193324
+  templates:
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Firebrand Games/Solar Flux/save.bin}}'
+    - '{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/251910/remote/save.bin}}'
 Solar Lander:
   pageId: 73227
   revId: 1211078
@@ -132469,6 +133605,9 @@ Solarium:
 Solarix:
   pageId: 25262
   revId: 1187372
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\UDKGame\Config\UDKSystemSettings.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\UDKGame\Saves\}}'
 'Solaroids: Prologue':
   pageId: 60119
   revId: 1223278
@@ -132482,6 +133621,11 @@ Solas and the White Winter:
   irregularPath: true
   pageId: 142355
   revId: 1226950
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile}}\AppData\LocalLow\Tactical Adventures\Solasta\UserPreferences.xml}}'
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Tactical Adventures\Solasta\Saves{{note|note=Previous
+      location was ''\Save Files'' instead of ''\Saves''}}}}
 Soldat:
   pageId: 113020
   revId: 1171446
@@ -132503,12 +133647,22 @@ Soldier of Failure 2:
 Soldier of Fortune:
   pageId: 4293
   revId: 1256966
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\user\config.cfg}}'
+    - '{{Game data/config|Linux|~/.loki/sof/config.cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\user\save}}'
+    - '{{Game data/saves|Linux|~/.loki/sof/save}}'
 'Soldier of Fortune II: Double Helix':
   pageId: 6653
   revId: 1251321
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\base\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\base\save}}'
 'Soldier of Fortune: Payback':
   pageId: 31897
   revId: 1256641
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Save\profile.dat|{{p|game}}\Config\key_binding.txt}}'
 Soldiers Lost Forever (1914-1918):
   pageId: 99510
   revId: 1205770
@@ -132524,6 +133678,9 @@ Soldiers of the Universe:
 'Soldiers: Heroes of World War II':
   pageId: 3707
   revId: 1201970
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\profiles\<game-profile-name>\settings}}'
+    - '{{Game data/saves|Windows|{{p|game}}\profiles\<game-profile-name>\save\}}'
 Sole:
   pageId: 69082
   revId: 1168991
@@ -132542,6 +133699,9 @@ Solid Aether:
 Solitaire:
   pageId: 26913
   revId: 1206617
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Microsoft Games\Solitaire\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile}}\Saved Games\Microsoft Games\Solitaire\}}'
 Solitaire (Sanuk Games):
   pageId: 72599
   revId: 1193039
@@ -132620,6 +133780,11 @@ Solitaire. Dragon Light:
 Solitairica:
   pageId: 37778
   revId: 1195018
+  templates:
+    - >-
+      {{Game
+      data/config|Windows|{{P|localappdata}}\Solitairica\Saved\Config\WindowsNoEditor\|{{P|localappdata}}\Solitairica\Saved\SaveGames\Settings.sav}}
+    - '{{Game data/saves|Windows|{{P|localappdata}}\Solitairica\Saved\SaveGames\}}'
 Solitude - Escape of Head:
   pageId: 96445
   revId: 1211104
@@ -132638,6 +133803,9 @@ Solitune:
 Solo:
   pageId: 88882
   revId: 1205600
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile}}\AppData\LocalLow\Team Gotham\Solo\OptionsData.solo}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\Team Gotham\Solo\SaveData\}}'
 Solo Flight:
   pageId: 177422
   revId: 1246590
@@ -132650,6 +133818,9 @@ Solraven:
 Solstice:
   pageId: 44014
   revId: 1147361
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\Solstice\settings.sav}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\Solstice\}}'
 Solstice (2019):
   pageId: 137440
   revId: 1211110
@@ -132659,6 +133830,9 @@ Solstice Arena:
 'Solstice Chronicles: MIA':
   pageId: 52960
   revId: 1223276
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\TwinStick\Config\WindowsNoEditor\}}'
+    - '{{Game data/saves|Windows|{{P|localappdata}}\TwinStick\Saved\SaveGames\}}'
 'Soma Spirits: Rebalance':
   pageId: 60464
   revId: 1169328
@@ -132683,6 +133857,13 @@ Someone Cloned The President:
 Something Ate My Alien:
   pageId: 132846
   revId: 1171272
+  templates:
+    - '{{Game data/config|Windows|%USERPROFILE%\Documents\My Games\Something Ate My Alien\GameData}}'
+    - '{{Game data/config|Linux|~/.local/share/Something-Ate-My-Alien\GameData}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/Something-Ate-My-Alien\GameData}}'
+    - '{{Game data/saves|Windows|%USERPROFILE%\Documents\My Games\Something Ate My Alien\GameSaves}}'
+    - '{{Game data/saves|Linux|~/.local/share/Something-Ate-My-Alien\GameSaves}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/Something-Ate-My-Alien\GameSaves}}'
 Something To Do With Love:
   pageId: 67663
   revId: 1187244
@@ -132749,15 +133930,28 @@ Song Samurai:
 Song of Farca:
   pageId: 167947
   revId: 1239649
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Wooden Monkeys\Song of Farca}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/com.WoodenMonkeys.SongofFarca}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/Wooden Monkeys/Song of Farca}}'
 Song of Horror:
   pageId: 144865
   revId: 1233552
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\SongOfHorror\Saved\Config\WindowsNoEditor\}}'
+    - '{{Game data/saves|Windows|{{P|localappdata}}\SongOfHorror\Saved\SaveGames\}}'
 Song of Iron:
   pageId: 171104
   revId: 1231420
+  templates:
+    - '{{Game data/config|Windows|$USER/AppData/Local/SONG_of_IRON/Saved/Config/}}'
+    - '{{Game data/saves|Windows|$USER/AppData/Local/SONG_of_IRON/Saved/SaveGames/}}'
 Song of Memories:
   pageId: 78210
   revId: 1203090
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Song of Memories}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Song of Memories}}'
 'Song of Nunu: A League of Legends Story':
   pageId: 173058
   revId: 1193744
@@ -132767,15 +133961,25 @@ Song of a Spirit:
 Song of the Deep:
   pageId: 42438
   revId: 1176020
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Insomniac Games\Song of the Deep\}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\Insomniac Games\Song of the Deep\*.sav}}'
 'Song of the Myrne: What Lies Beneath':
   pageId: 48967
   revId: 1164943
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Beldarak Games\Song of the Myrne - What Lies Beneath\}}'
+    - '{{Game data/saves|Windows|{{P|game}}\Saves\}}'
 SongPop 2:
   pageId: 168545
   revId: 1194299
 SongPop Party:
   pageId: 168541
   revId: 1239135
+  templates:
+    - >-
+      {{Game data/saves|OS X|~/Library/Containers/SongPop
+      Party/Data/Library/Preferences/com.gameloft.SongPopParty.plist}}
 Songbird Symphony:
   pageId: 109568
   revId: 1175149
@@ -132790,141 +133994,278 @@ Songs for a Hero:
   renamedFrom:
     - A Lenda do Herói
   revId: 1252455
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\SongsForAHero\}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\SongsForAHero\}}'
+    - '{{Game data/saves|Linux|~/.config/SongsForAHero/}}'
 'Songs of Araiah: Re-Mastered Edition':
   pageId: 73219
   revId: 1253084
 Songs of Conquest:
   pageId: 169295
-  revId: 1259316
+  revId: 1260282
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Lavapotion\SongsOfConquest\Savegames}}'
 Songs of Skydale:
   pageId: 139324
   revId: 1176022
 Songs of Syx:
   pageId: 151591
   revId: 1202922
+  templates:
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/songsofsyx/settings/}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\songsofsyx\saves\}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/songsofsyx/saves/}}'
 Songs2See:
   pageId: 40507
   revId: 1186288
 'SoniComi: Communication with Sonico':
   pageId: 35110
   revId: 1206996
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Nitroplus\SONICOMI_en\}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Nitroplus\SONICOMI_en\}}'
 Sonia and the Hypnotic City:
   pageId: 164481
   revId: 1215246
 Sonic & All-Stars Racing Transformed:
   pageId: 4690
   revId: 1233516
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\SART\}}'
+    - '{{Game data/saves|Windows|{{p|steam}}\userdata\{{p|uid}}\212480\remote\}}'
 Sonic & Knuckles Collection:
   pageId: 6646
   revId: 1244380
+  templates:
+    - '{{Game data/config|Windows|{{p|hklm}}\Software\Sonic3K\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\SONIC3K.BIN}}'
 Sonic & Sega All-Stars Racing:
   pageId: 4809
   revId: 1254140
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\settings.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\ssr_save.bin}}'
 Sonic 3 & Knuckles:
   pageId: 8573
-  revId: 1252417
+  revId: 1260192
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0042|{{p|userprofile\Documents}}\SEGA Genesis Classics\0042}}
+    - '{{Game data/saves|OS X|{{P|linuxhome}}/SEGA Mega Drive Classics/user_{{P|uid}}/Sonic 3 & Knuckles}}'
+    - '{{Game data/saves|Linux|{{P|linuxhome}}/SEGA Mega Drive Classics/user_{{P|uid}}/Sonic 3 & Knuckles}}'
 Sonic 3D Blast:
   pageId: 21712
   revId: 1138463
 Sonic 3D Blast (2010):
   pageId: 8567
   revId: 1238927
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0008|{{p|userprofile\Documents}}\SEGA Genesis Classics\0008}}
 Sonic Adventure 2:
   pageId: 5774
   revId: 1258613
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Config\Keyboard.cfg|{{p|game}}\Config\UserConfig.cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\resource\gd_PC\SAVEDATA\}}'
 Sonic Adventure DX:
   pageId: 21737
   revId: 1257608
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sonicDX.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\savedata}}'
 Sonic Adventure DX (2011):
   pageId: 4375
   revId: 1246852
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA\Sonic Adventure
+      DX\config.ini|{{p|userprofile\Documents}}\SEGA\Dreamcast Collection\Sonic Adventure DX\config.ini}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA\Sonic Adventure
+      DX\SAVEDATA|{{p|userprofile\Documents}}\SEGA\Dreamcast Collection\Sonic Adventure DX\SAVEDATA}}
 Sonic Adventure DX (Steam):
   pageId: 20005
   revId: 1206948
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\input_config.xml|{{p|game}}\keycap_config.xml|{{p|game}}\system_config.xml}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA\Sonic Adventure DX\SAVEDATA}}'
 Sonic CD (1996):
   pageId: 72163
   revId: 1206515
+  templates:
+    - '{{Game data/config|Windows|{{p|hklm}}\Software\SonicCD\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\S_SCORE.DAT}}'
 Sonic CD (2012):
   pageId: 8796
   revId: 1259038
+  templates:
+    - '{{Game data/config|Windows|{{p|steam}}\userdata\{{p|uid}}\200940\}}'
+    - '{{Game data/saves|Windows|{{p|steam}}\userdata\{{p|uid}}\200940\}}'
 'Sonic Colors: Ultimate':
   pageId: 168652
   revId: 1257345
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Sonic Colors\app_userdata\Sonic Colors- Ultimate\savedData}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Sonic Colors\app_userdata\Sonic Colors- Ultimate\savedData}}'
 Sonic Dash:
   pageId: 62420
   revId: 1165218
+  templates:
+    - '{{Game data/config|Microsoft Store|{{p|localappdata}}\Packages\SegaNetworksInc.56538047DFC80_as33fap47kd3c}}'
+    - '{{Game data/saves|Microsoft Store|{{p|localappdata}}\Packages\SegaNetworksInc.56538047DFC80_as33fap47kd3c}}'
 Sonic Forces:
   pageId: 57372
   revId: 1257344
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\savedata\GraphicsConfig.txt}}'
+    - '{{Game data/saves|Windows|{{P|game}}\savedata\{{P|uid}}\savedata.xml}}'
 Sonic Frontiers:
   pageId: 173573
   revId: 1252254
 Sonic Generations:
   pageId: 2802
   revId: 1256627
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\*.cfg}}'
+    - '{{Game data/saves|Windows|{{p|steam}}\userdata\{{p|uid}}\71340\}}'
 Sonic Heroes:
   pageId: 19831
   revId: 1249338
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\Sega\SONICHEROES\sonic_h.ini}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Sega\SONICHEROES\SONICHEROES_##}}'
 Sonic Hunter VR:
   pageId: 53884
   revId: 1223274
 Sonic Lost World:
   pageId: 28950
   revId: 1257343
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\SOFTWARE\SEGA\SLW\}}'
+    - '{{Game data/saves|Windows|{{P|game}}\{{P|uid}}.sdat}}'
 Sonic Mania:
   pageId: 57370
   revId: 1259493
+  templates:
+    - '{{Game data/config|Epic Games Launcher|{{p|localappdata}}\Sega\SonicMania\Settings.ini}}'
+    - '{{Game data/config|Steam|{{p|game}}\Settings.ini}}'
+    - '{{Game data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\584400\remote\}}'
 Sonic Mega Collection Plus:
   pageId: 72161
   revId: 1202299
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\SEGA\MegaCollectionPlus\SETTING.INI}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\SEGA\MegaCollectionPlus\SAVEDATA}}'
 Sonic Nexus:
   pageId: 177182
   revId: 1244137
 Sonic Origins:
   pageId: 177168
-  revId: 1259128
+  revId: 1260509
+  templates:
+    - |-
+      {{Game data/config|Steam|{{p|appdata}}\Sega\SonicOrigins\steam\{{p|uid}}\option\data.dat | 
+      {{p|appdata}}\Sega\SonicOrigins\steam\x64\screen_setting.xml}}
+    - '{{Game data/saves|Steam|{{p|appdata}}\Sega\SonicOrigins\steam\{{p|uid}}\game\data.dat}}'
 Sonic P-06:
   pageId: 175664
   revId: 1256871
 Sonic R (1998):
   pageId: 25000
   revId: 1171431
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sonicr.inf}}'
 Sonic R (2004):
   pageId: 76705
   revId: 1171207
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sonicr.inf|{{p|game}}\keys.bin|{{p|game}}\joystick.inf}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save\|{{p|game}}\ghost|{{p|game}}\bin\demos}}'
 Sonic Racing:
   pageId: 148163
   revId: 1233452
 Sonic Riders:
   pageId: 57527
   revId: 1255991
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Save\Config.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Save\Game Data##\save.dat}}'
 Sonic Robo Blast 2:
   pageId: 169752
   revId: 1245269
+  templates:
+    - '{{Game data/config|Windows|Sonic Robo Blast 2\config.cfg}}'
+    - '{{Game data/saves|Windows|Sonic Robo Blast 2\gamedata.dat}}'
 Sonic Robo Blast 2 Kart:
   pageId: 171307
   revId: 1257257
+  templates:
+    - '{{Game data/config|Windows|Sonic Robo Blast 2 Kart/kartconfig.cfg}}'
+    - '{{Game data/saves|Windows|Sonic Robo Blast 2 Kart/kartdata.dat}}'
 Sonic Spinball:
   pageId: 8549
   revId: 1238930
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0021|{{p|userprofile\Documents}}\SEGA Genesis Classics\0021}}
 Sonic the Hedgehog:
   pageId: 8547
   revId: 1258494
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0031|{{p|userprofile\Documents}}\SEGA Genesis Classics\0031}}
 Sonic the Hedgehog (Mobile Decompilation):
   pageId: 171822
   revId: 1258603
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\settings.ini|{{p|game}}\mods\modconfig.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\SData.bin|{{p|game}}\UData.bin}}'
 Sonic the Hedgehog 2:
   pageId: 8551
   revId: 1258495
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0041|{{p|userprofile\Documents}}\SEGA Genesis Classics\0041}}
 Sonic the Hedgehog 2 (Mobile Decompilation):
   pageId: 171823
   revId: 1258604
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\settings.ini|{{p|game}}\mods\modconfig.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\SData.bin|{{p|game}}\UData.bin}}'
 'Sonic the Hedgehog 4: Episode I':
   pageId: 10336
   revId: 1137028
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\main.conf}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Sonic_vis_save.dat|{{p|game}}\data.txt}}'
 'Sonic the Hedgehog 4: Episode II':
   pageId: 2905
   revId: 1136094
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Config\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Sonic_save.dat}}'
 Sonic's Schoolhouse:
   pageId: 152293
   revId: 1136306
@@ -132946,6 +134287,9 @@ Sons of the Forest:
 'Sonya: The Great Adventure':
   pageId: 60454
   revId: 1175847
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\Sonya\}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\Sonya\}}'
 Sophica - Temples Of Mystery:
   pageId: 127439
   revId: 1211150
@@ -132967,12 +134311,22 @@ Sopwith VR:
 Sora:
   pageId: 31204
   revId: 1258560
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Fruitbat Factory\Sora\game.cfg}}'
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\Fruitbat
+      Factory\Sora\game.sys|{{p|userprofile\Documents}}\Fruitbat Factory\Sora\game.rkg}}
 Sorcerer King:
   pageId: 34298
   revId: 1136336
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\SorcererKing\}}'
 'Sorcerer King: Rivals':
   pageId: 38951
   revId: 1137197
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile\Documents}}\My Games\SorcererKingRivals\Prefs.ini}}'
+    - '{{Game data/saves|Windows|{{P|userprofile\Documents}}\My Games\SorcererKingRivals\Saves\}}'
 Sorcerer Lord:
   pageId: 149438
   revId: 1250650
@@ -132994,6 +134348,9 @@ Sorcery Jokers All Ages Version:
 'Sorcery Saga: Curse of the Great Curry God':
   pageId: 96155
   revId: 1187912
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\SorcerySaga.ini}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Ghostlight Ltd\Sorcery Saga\}}'
 Sorcery! Part 3:
   pageId: 43738
   revId: 1178348
@@ -133003,6 +134360,8 @@ Sorcery! Part 4:
 Sorcery! Parts 1 and 2:
   pageId: 44722
   revId: 1137780
+  templates:
+    - '{{Game data/saves|Windows|{{p|localappdata}}\inkle\Sorcery}}'
 'Sordwin: The Evertree Saga':
   pageId: 128338
   revId: 1174191
@@ -133042,12 +134401,18 @@ SosSurvival:
 Soul Axiom:
   pageId: 33978
   revId: 1258853
+  templates:
+    - '{{Game data/config|Windows|{{p|hkcu}}\SOFTWARE\Wales Interactive\SoulAxiom\}}'
+    - '{{Game data/config|Steam|{{p|steam}}\userdata\{{p|uid}}\279900\remote\OptionsData<!--File, not a folder-->}}'
+    - '{{Game data/saves|Steam|{{p|steam}}\userdata\{{p|uid}}\279900\remote\GameData<!--File, not a folder-->}}'
 Soul Eater:
   pageId: 72818
   revId: 1211180
 Soul Gambler:
   pageId: 38287
   revId: 1258064
+  templates:
+    - '{{Game data/saves|Windows|{{P|localappdata}}\Soul Gambler\Local Storage\}}'
 Soul Grabber:
   pageId: 80863
   revId: 1204859
@@ -133078,6 +134443,8 @@ Soul Rebellion:
 Soul Saber 2:
   pageId: 57127
   revId: 1171427
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}\save}}'
 Soul Saga:
   pageId: 36608
   revId: 1187430
@@ -133144,24 +134511,49 @@ Soulash:
 Soulblight:
   pageId: 40373
   revId: 1255626
+  templates:
+    - '{{Game data/saves|Windows|{{P|localappdata}}\Soulblight_Saves}}'
 Soulbringer:
   pageId: 21198
   revId: 1249871
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\soul.opt|{{p|appdata}}\GOG\SoulBringer\LauncherConfig.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\data\save\}}'
 Soulcalibur VI:
   pageId: 89926
   revId: 1170838
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\SoulcaliburVI\Saved\Config\}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\SoulcaliburVI\Saved\SaveGames\}}'
 Soulcaster:
   pageId: 9203
   revId: 1258854
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\SavedGames\Soulcaster\Soulcaster\AllPlayers}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/Soulcaster/}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Soulcaster/}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/Soulcaster/}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Soulcaster/}}'
 Soulcaster II:
   pageId: 9202
   revId: 1258855
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\SavedGames\Soulcaster2\Soulcaster2\AllPlayers}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/Soulcaster2/}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Soulcaster2/}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SavedGames\Soulcaster2\Soulcaster2\AllPlayers}}'
+    - '{{Game data/saves|OS X|~/Library/Application Support/Soulcaster2/}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Soulcaster2/}}'
 Souldiers:
   pageId: 174328
   revId: 1257046
+  templates:
+    - '{{Game data/saves|Windows|C:\Users\”your_user_name”\AppData\LocalLow\RetroForgeGames\Souldiers}}'
 Soulfire:
   pageId: 90370
   revId: 1171426
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\AyDream\Soulfire\}}'
 SoulfulLand:
   pageId: 153826
   revId: 1188529
@@ -133201,6 +134593,9 @@ Sound Soarer:
 Sound of Drop - fall into poison -:
   pageId: 33638
   revId: 1208965
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\renpy\config.py}}'
+    - '{{Game data/saves|Windows|{{P|appdata}}\renpy\Sound_of_Drop_FIP\|{{p|game}}\game\saves\}}'
 SoundLites:
   pageId: 64266
   revId: 1223265
@@ -133216,9 +134611,17 @@ Soundboxing:
 Soundfall:
   pageId: 172762
   revId: 1250333
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\BeatShooter\Saved\Config\WindowsNoEditor\GameUserSettings.ini}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\BeatShooter\Saved\SaveGames\{{p|uid}}\Autosave.sav}}'
 Soundodger+:
   pageId: 20368
   revId: 1208796
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\com.onemrbean.soundodgerplus\Local Store\}}'
+    - >-
+      {{Game data/saves|Windows|{{p|appdata}}\com.onemrbean.soundodgerplus\Local
+      Store\|{{p|userprofile\Documents}}\soundodger\}}
 Sounds of Her Love:
   pageId: 59201
   revId: 1223264
@@ -133246,24 +134649,39 @@ Souno's Curse:
 Source of Madness:
   pageId: 172836
   revId: 1251965
+  templates:
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Carry Castle\Source of
+      Madness\saveslots\{{p|uid}}\saveslot_*.sav}}
 'Source: Beginning':
   pageId: 120897
   revId: 1187468
 South Park:
   pageId: 124925
   revId: 1249225
+  templates:
+    - '{{Game data/saves|Windows|{{p|game}}/savegame.008}}'
 South Park Rally:
   pageId: 74365
   revId: 1249226
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\debug.log}}'
+    - '{{Game data/saves|Windows|{{p|game}}\sprally2.dat}}'
 'South Park: Chef''s Luv Shack':
   pageId: 145857
   revId: 1230692
 'South Park: The Fractured But Whole':
   pageId: 25846
   revId: 1256349
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\SouthPark - The Fractured but Whole\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\uPlay\{{p|uid}}\Saves\SouthParkTFBW\}}'
 'South Park: The Stick of Truth':
   pageId: 4533
   revId: 1249229
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\South Park - The Stick of Truth\|{{P|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\South Park - The Stick of Truth\save\}}'
   tooBroad: true
 South of the Circle:
   pageId: 164173
@@ -133303,6 +134721,11 @@ Soyuz Constructors:
 Sołtys:
   pageId: 75940
   revId: 1147362
+  templates:
+    - '{{Game data/config|DOS|{{p|game}}\CGE.CFG}}'
+    - '{{Game data/config|Windows|{{p|game}}\soltys.ini}}'
+    - '{{Game data/saves|DOS|{{p|game}}\*.SVG}}'
+    - '{{Game data/saves|Windows|{{p|game}}\soltys.00*}}'
 Sp!ng:
   pageId: 167081
   revId: 1239174
@@ -133357,6 +134780,8 @@ Space Battlecruiser:
 Space Beast Terror Fright:
   pageId: 37371
   revId: 1254924
+  templates:
+    - '{{Game data/saves|Windows|{{p|appdata}}\nornware\sbtf\}}'
 Space Beret:
   pageId: 52159
   revId: 1211258
@@ -133417,9 +134842,17 @@ Space Challenge:
 'Space Channel 5: Part 2':
   pageId: 17088
   revId: 1166003
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA\Space Channel 5 Part 2\config.ini}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA\Space Channel 5 Part 2\SC5PART2_DAT}}'
 'Space Channel 5: Part 2 (Steam)':
   pageId: 19935
   revId: 1148603
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\*.xml}}'
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA\Dreamcast Collection\Space Channel 5 Part
+      2\SC5PART2_DAT}}
 Space Chaos:
   pageId: 74449
   revId: 1211282
@@ -133443,6 +134876,9 @@ Space Colony:
   renamedFrom:
     - Space Colony HD
   revId: 1254316
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\Space Colony\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\Space Colony\users}}'
 Space Commander 9:
   pageId: 72031
   revId: 1211287
@@ -133464,6 +134900,11 @@ Space Crawl:
 Space Crew:
   pageId: 164168
   revId: 1173366
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Runner Duck\Space Crew\}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\appdata\locallow}}\Runner Duck\Space Crew\}}'
+    - '{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Runner Duck/Space Crew}}'
+    - '{{Game data/saves|Linux|~/.config/unity3d/Runner Duck/Space Crew}}'
 Space Cruise:
   pageId: 125649
   revId: 1211293
@@ -133518,15 +134959,24 @@ Space Empires III:
 Space Empires IV:
   pageId: 16087
   revId: 1141832
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\data}}'
+    - '{{Game data/saves|Windows|{{p|game}}\savegame}}'
 Space Empires V:
   pageId: 16089
   revId: 1141833
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\data}}'
+    - '{{Game data/saves|Windows|{{p|game}}\savegame}}'
 'Space Empires: Starfury':
   pageId: 169331
   revId: 1234317
 Space Engineers:
   pageId: 11300
   revId: 1258345
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\SpaceEngineers\SpaceEngineers.cfg}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\SpaceEngineers\Saves}}'
 Space Epic Untitled - Season 1:
   pageId: 75441
   revId: 1211309
@@ -133548,6 +134998,11 @@ Space Farm:
 Space Farmers:
   pageId: 32660
   revId: 1258241
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|hkcu}}\SOFTWARE\Bumpkin Brothers\Space
+      Farmers|{{p|userprofile}}\AppData\LocalLow\Bumpkin Brothers\Space Farmers\usersettings.xml}}
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Bumpkin Brothers\Space Farmers\usersettings.xml}}'
 Space Fighter:
   pageId: 68956
   revId: 1203189
@@ -133605,6 +135060,9 @@ Space Guard:
 Space Hack:
   pageId: 18903
   revId: 1252689
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\save\config\|{{p|hklm}}\SOFTWARE\{{p|wow64}}\Rebelmind\Space Hack\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\save\}}'
 Space Hamster in Turmoil:
   pageId: 103053
   revId: 1211325
@@ -133614,12 +135072,23 @@ Space Harrier:
 Space Harrier II:
   pageId: 30858
   revId: 1238933
+  templates:
+    - >-
+      {{Game data/config|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\setup.dat|{{p|userprofile\Documents}}\SEGA Genesis Classics\setup.dat}}
+    - >-
+      {{Game data/saves|Windows|{{p|userprofile\Documents}}\SEGA Mega Drive
+      Classics\0009\|{{p|userprofile\Documents}}\SEGA Genesis Classics\0009\}}
 Space Haste 2001:
   pageId: 30416
   revId: 1208880
 Space Haven:
   pageId: 126436
   revId: 1171409
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\settings.xml}}'
+    - '{{Game data/config|OS X|~/Library/Application Support/SpaceHaven/settings.xml}}'
+    - '{{Game data/saves|Windows|{{P|game}}\savegames}}'
 Space Hero Line:
   pageId: 63835
   revId: 1211326
@@ -133635,6 +135104,8 @@ Space Hodsola 2:
 Space Hole:
   pageId: 37010
   revId: 1170112
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\SOFTWARE\SamAtlas\SpaceHole\}}'
 Space Hole 2018:
   pageId: 96101
   revId: 1174449
@@ -133644,15 +135115,27 @@ Space Hotel:
 Space Hulk (2013):
   pageId: 9169
   revId: 1136894
+  templates:
+    - '{{Game data/saves|Windows|{{P|appdata}}\Full Control\SpaceHulk\}}'
+    - '{{Game data/saves|Linux|~/.config/Full Control/SpaceHulk/}}'
 Space Hulk Ascension:
   pageId: 49349
   revId: 1171263
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\Full Control\Space Hulk Ascension\}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\Full Control\SpaceHulkAscension\}}'
 'Space Hulk: Deathwing':
   pageId: 38783
   revId: 1137183
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\SpaceHulkGame\Saved\Config\WindowsNoEditor\}}'
+    - '{{Game data/saves|Windows|{{P|localappdata}}\SpaceHulkGame\Saved\SaveGames\}}'
 'Space Hulk: Deathwing - Enhanced Edition':
   pageId: 95121
   revId: 1231865
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\SpaceHulkEnhanced\Saved\Config\WindowsNoEditor\}}'
+    - '{{Game data/saves|Windows|{{P|localappdata}}\SpaceHulkEnhanced\Saved\SaveGames\}}'
 'Space Hulk: Tactics':
   pageId: 95887
   revId: 1138324
@@ -133683,6 +135166,9 @@ Space Invaders Anniversary:
 Space Invaders Extreme:
   pageId: 80611
   revId: 1171186
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\TAITO Corporation.\SPACE INVADERS EXTREME\}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\TAITO Corporation_\SPACE INVADERS EXTREME\}}'
 Space Jam:
   pageId: 90815
   revId: 1189293
@@ -133758,6 +135244,9 @@ Space Mega Force Man:
 Space Mercs:
   pageId: 139356
   revId: 1194888
+  templates:
+    - '{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/BeardedGiantGames/SpaceMercs/prefs}}'
+    - '{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/BeardedGiantGames/SpaceMercs/*.data}}'
 Space Mining:
   pageId: 81625
   revId: 1253089
@@ -133767,6 +135256,8 @@ Space Mining Clicker:
 Space Moth DX:
   pageId: 44858
   revId: 1155120
+  templates:
+    - '{{Game data/config|Windows|{{P|appdata}}\Space_Moth_DX\space_moth.ini}}'
 Space Mouse 2:
   pageId: 168230
   revId: 1171406
@@ -133813,6 +135304,9 @@ Space Pilgrim Academy:
   irregularPath: true
   pageId: 37941
   revId: 1154211
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\Game.ini}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Save{{code|XX}}.rvdata2}}'
 'Space Pilgrim Episode II: Epsilon Indi':
   pageId: 38371
   revId: 1165522
@@ -133831,36 +135325,67 @@ Space Pirate Trainer:
 Space Pirates and Zombies:
   pageId: 2068
   revId: 1258856
+  templates:
+    - '{{Game data/config|Windows|{{p|appdata}}\MinMaxGames\SpacePiratesAndZombies\}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/SpacePiratesAndZombies/}}'
+    - '{{Game data/saves|Windows|{{p|appdata}}\MinMaxGames\SpacePiratesAndZombies\}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/SpacePiratesAndZombies/}}'
 Space Pirates and Zombies 2:
   pageId: 43027
   revId: 1154206
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile}}\AppData\LocalLow\MinMax Games\SPAZ 2\Options\Options.opt}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\AppData\LocalLow\MinMax Games\SPAZ 2\Cloud}}'
 Space Punks:
   pageId: 169850
   revId: 1244817
+  templates:
+    - '{{Game data/config|Windows|%LOCALAPPDATA%\K1\Saved\Config\WindowsNoEditor}}'
 'Space Quest 6: Roger Wilco in The Spinal Frontier':
   pageId: 10797
   revId: 1209310
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sq6}}'
+    - '{{Game data/saves|Windows|{{p|game}}\sq6\SQ6SG.***}}'
 'Space Quest I: Roger Wilco in The Sarien Encounter':
   pageId: 120618
   revId: 1209317
 'Space Quest II: Chapter II - Vohaul''s Revenge':
   pageId: 10786
   revId: 1209314
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sq2}}'
+    - '{{Game data/saves|Windows|{{p|game}}\sq2}}'
 'Space Quest II: Roger Wilco in Vohaul''s Revenge':
   pageId: 147355
   revId: 1209315
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\acsetup.cfg|{{P|game}}\sq2.cfg}}'
+    - '{{Game data/saves|Windows|{{P|userprofile}}\Saved Games\Space Quest 2 VGA\}}'
 'Space Quest III: The Pirates of Pestulon':
   pageId: 10788
   revId: 1209313
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sq3}}'
+    - '{{Game data/saves|Windows|{{p|game}}\sq3}}'
 'Space Quest IV: Roger Wilco and the Time Rippers':
   pageId: 10791
   revId: 1209312
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sq4}}'
+    - '{{Game data/saves|Windows|{{p|game}}\sq4\SQ4SG.***}}'
 'Space Quest V: Roger Wilco - The Next Mutation':
   pageId: 10794
   revId: 1209311
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\sq5}}'
+    - '{{Game data/saves|Windows|{{p|game}}\sq5\SQ5SG.***}}'
 'Space Quest: Chapter I - The Sarien Encounter':
   pageId: 10763
   revId: 1209316
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\SQ1SG.***}}'
   tooBroad: true
 Space Quiz:
   pageId: 74169
@@ -133886,12 +135411,21 @@ Space Ranger vs. Reptiloids:
 Space Rangers:
   pageId: 62
   revId: 1249983
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\cfg.txt}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Save\}}'
 'Space Rangers 2: Dominators':
   pageId: 27088
   revId: 1209408
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\cfg.txt}}'
+    - '{{Game data/saves|Windows|{{P|game}}\Save|{{p|game}}\questcomplete.dat|{{p|game}}\robotcomplete.dat}}'
 'Space Rangers HD: A War Apart':
   pageId: 22117
   revId: 1209406
+  templates:
+    - '{{Game data/config|Windows|{{P|userprofile\Documents}}\SpaceRangersHD\CFG.TXT}}'
+    - '{{Game data/saves|Windows|{{P|userprofile\Documents}}\SpaceRangersHD\Save}}'
 'Space Rangers: Quest':
   pageId: 38718
   revId: 1209407
@@ -133919,6 +135453,9 @@ Space Road:
 Space Robinson:
   pageId: 122716
   revId: 1173471
+  templates:
+    - '{{Game data/config|Windows|{{P|localappdata}}\Space_Robinson\steam\{{P|uid}}}}'
+    - '{{Game data/saves|Windows|{{P|localappdata}}\Space_Robinson\steam\{{P|uid}}}}'
 Space Robot Samurai Zombie Slayer:
   pageId: 47833
   revId: 1211376
@@ -133931,12 +135468,19 @@ Space Rocks:
 Space Rogue:
   pageId: 53592
   revId: 1209307
+  templates:
+    - '{{Game data/saves|DOS|{{p|game}}\*.SAV}}'
 Space Rogue (2016):
   pageId: 40010
   revId: 1209308
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\Red Beat LTD\Space Rogue}}'
 Space Run:
   pageId: 17865
   revId: 1234521
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\Save\LocalSettings.sav}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Save\Player}}'
 Space Run Galaxy:
   pageId: 33531
   revId: 1164833
@@ -133967,6 +135511,9 @@ Space Shock 3:
 Space Siege:
   pageId: 26900
   revId: 1248708
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\My Games\Space Siege\SpaceSiege.ini}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\My Games\Space Siege\Save\}}'
 Space Simulator:
   pageId: 74588
   revId: 1211381
@@ -133984,7 +135531,7 @@ Space Space:
   revId: 1188775
 Space Station 13:
   pageId: 16669
-  revId: 1168926
+  revId: 1260488
 Space Station Alpha:
   pageId: 48565
   revId: 1211383
@@ -134024,6 +135571,9 @@ Space Trade Fleet 1.5:
 'Space Trader: Merchant Marine':
   pageId: 26653
   revId: 1259753
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\st\st\stxp.cfg}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\st\st\stxp.cfg}}'
 Space Transfer:
   pageId: 112720
   revId: 1203653
@@ -134039,6 +135589,8 @@ Space Turret Gunner:
 Space Tyrant:
   pageId: 54451
   revId: 1211409
+  templates:
+    - '{{Game data/saves|Windows|{{p|userprofile\appdata\locallow}}\Blue Wizard\Space Tyrant\}}'
 Space Universe:
   pageId: 33751
   revId: 1208980
@@ -134096,6 +135648,8 @@ Space electrician:
 Space of Darkness:
   pageId: 64838
   revId: 1211416
+  templates:
+    - '{{Game data/config|Windows|Computer\HKEY_CURRENT_USER\Software\PilotLumpa Gaming\Space of Darkness}}'
 Space of One Drama:
   pageId: 94521
   revId: 1211417
@@ -134126,6 +135680,13 @@ SpaceBullet:
 SpaceChem:
   pageId: 1479
   revId: 1242038
+  templates:
+    - '{{Game data/config|Windows|{{p|localappdata}}\Zachtronics Industries\SpaceChem\}}'
+    - '{{Game data/config|OS X|~/.local/share/Zachtronics Industries/SpaceChem/}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/Zachtronics Industries/SpaceChem/}}'
+    - '{{Game data/saves|Windows|{{p|localappdata}}\Zachtronics Industries\SpaceChem\}}'
+    - '{{Game data/saves|OS X|~/.local/share/Zachtronics Industries/SpaceChem/}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/Zachtronics Industries/SpaceChem/}}'
 SpaceCoaster VR:
   pageId: 75536
   revId: 1223239
@@ -134138,6 +135699,9 @@ SpaceDweller:
 SpaceEngine:
   pageId: 138635
   revId: 1180009
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\config\}}'
+    - '{{Game data/saves|Windows|{{p|game}}\config\}}'
 SpaceEscapeVR:
   pageId: 142208
   revId: 1168922
@@ -134189,6 +135753,13 @@ Spaceball!:
 Spacebase DF-9:
   pageId: 12406
   revId: 1185711
+  templates:
+    - '{{Game data/config|Windows|{{p|userprofile\Documents}}\SpaceBaseDF9\}}'
+    - '{{Game data/config|OS X|~/Documents/SpaceBaseDF9/}}'
+    - '{{Game data/config|Linux|{{P|xdgdatahome}}/doublefine/spacebasedf9/}}'
+    - '{{Game data/saves|Windows|{{p|userprofile\Documents}}\SpaceBaseDF9\}}'
+    - '{{Game data/saves|OS X|~/Documents/SpaceBaseDF9/}}'
+    - '{{Game data/saves|Linux|{{P|xdgdatahome}}/doublefine/spacebasedf9/}}'
 Spacebase Startopia:
   pageId: 145483
   revId: 1237864
@@ -134201,6 +135772,8 @@ Spacecats with Lasers VR:
 Spacecom:
   pageId: 21185
   revId: 1234620
+  templates:
+    - '{{Game data/config|Windows|{{P|hkcu}}\Software\one2tribe\SPACECOM_*}}'
 Spacecraft:
   pageId: 67885
   revId: 1211457
@@ -134222,6 +135795,9 @@ Spacefarers!:
 'Spaceforce: Rogue Universe':
   pageId: 47769
   revId: 1232863
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\System\Config.cfg}}'
+    - '{{Game data/saves|Windows|{{p|game}}\Profiles}}'
 Spaceguard 80:
   pageId: 98010
   revId: 1211463
@@ -134249,6 +135825,8 @@ Spacelines from the Far Out:
 Spacelords:
   pageId: 69008
   revId: 1219108
+  templates:
+    - '{{Game data/config|Steam|{{p|userprofile\Documents}}\MercurySteam\Raiders of the Broken Planet\{{p|uid}}\}}'
 Spaceman:
   pageId: 150796
   revId: 1174283
@@ -134264,9 +135842,17 @@ Spaceman Sparkles 3:
 Spaceplan:
   pageId: 61640
   revId: 1249476
+  templates:
+    - >-
+      {{Game data/config|Windows|{{P|hkcu}}\Software\That Silly
+      Studio\SPACEPLAN\|{{p|userprofile}}\AppData\LocalLow\That Silly Studio\SPACEPLAN\}}
+    - '{{Game data/saves|Windows|{{p|userprofile}}\AppData\LocalLow\That Silly Studio\SPACEPLAN\}}'
 Spaceport Hope:
   pageId: 35008
   revId: 1223236
+  templates:
+    - '{{Game data/config|Windows|{{p|game}}\resources\files\*.tmp}}'
+    - '{{Game data/saves|Windows|{{p|game}}\resources\files\sve*\}}'
 Spacepowers:
   pageId: 82089
   revId: 1187085
@@ -134315,12 +135901,17 @@ Spaghet:
 'Spakoyno: Back to the USSR 2.0':
   pageId: 34942
   revId: 1245793
+  templates:
+    - '{{Game data/saves|Steam|{{p|game}}/game/saves/}}'
 'Spandex Force: Champion Rising':
   pageId: 47511
   revId: 1205289
 Spanking Runners:
   pageId: 66334
   revId: 1185351
+  templates:
+    - '{{Game data/config|Windows|{{P|game}}\game.ini|{{P|game}}\Resource\Options.ini}}'
+    - '{{Game data/saves|Windows|{{P|game}}\save00.dat}}'
 Sparc:
   pageId: 76014
   revId: 1187432
