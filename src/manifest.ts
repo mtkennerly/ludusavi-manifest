@@ -191,7 +191,7 @@ export class ManifestFile extends YamlFile<Manifest> {
     ): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
-        for (const [title, info] of Object.entries(wikiCache)) {
+        for (const [title, info] of Object.entries(wikiCache).sort()) {
             if (filter.skipUntil && !foundSkipUntil) {
                 if (title === filter.skipUntil) {
                     foundSkipUntil = true;

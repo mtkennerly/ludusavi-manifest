@@ -91,7 +91,7 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
     async refresh(skipUntil: string | undefined, irregularUntagged: boolean, limit: number): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
-        for (const appId of Object.keys(this.data)) {
+        for (const appId of Object.keys(this.data).sort()) {
             if (skipUntil && !foundSkipUntil) {
                 if (appId === skipUntil) {
                     foundSkipUntil = true;
@@ -108,7 +108,7 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
                 }
             }
 
-            console.log(`Refreshing Steam app ${appId}`)
+            console.log(`Refreshing Steam app ${appId}`);
             await this.getAppInfo(parseInt(appId), true);
 
             i++;

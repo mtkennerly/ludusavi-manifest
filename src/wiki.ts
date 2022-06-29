@@ -69,7 +69,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
     async refresh(skipUntil: string | undefined, limit: number): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
-        for (const pageTitle of Object.keys(this.data)) {
+        for (const pageTitle of Object.keys(this.data).sort()) {
             if (skipUntil && !foundSkipUntil) {
                 if (pageTitle === skipUntil) {
                     foundSkipUntil = true;
@@ -78,7 +78,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                 }
             }
 
-            console.log(`Refreshing wiki page ${pageTitle}`)
+            // console.log(`Refreshing wiki page ${pageTitle}`);
             await getGame(pageTitle, this.data);
 
             i++;
@@ -90,7 +90,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
             // in case something goes wrong or the script gets cancelled:
             if (i % 250 === 0) {
                 this.save();
-                console.log(":: saved");
+                console.log("\n:: saved\n");
             }
 
             await new Promise(resolve => setTimeout(resolve, DELAY_BETWEEN_GAMES_MS));
@@ -507,7 +507,7 @@ function parseOs(os: string): Os {
 // and it's hard to figure out what functionality is available,
 // so we'll probably migrate to nodemw.
 function makeApiClient() {
-    return new Wikiapi("https://www.pcgamingwiki.com/w");
+    return new Wikiapi("https://www.pcgamingwiki.com/w/api.php");
 }
 
 // Used for the Recent Changes page and getting a single page's categories.
@@ -636,10 +636,14 @@ export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<
                 game.steam = { id: steamId };
             }
         } else if (template.name === "Game data/saves" || template.name === "Game data/config") {
-            if (cache[pageTitle].templates === undefined) {
-                cache[pageTitle].templates = [];
+            const reparsed = parseWiki(template.toString());
+            if (reparsed[0].positionalParameters[1]?.length > 0 ?? false) {
+                if (cache[pageTitle].templates === undefined) {
+                    cache[pageTitle].templates = [];
+                }
+                cache[pageTitle].templates.push(template.toString());
             }
-            cache[pageTitle].templates.push(template.toString());
+
             // console.log("\n\n\n\n\n\n--------------------------------------------------------------------------")
             // console.log(template);
             for (const cellKey of Object.getOwnPropertyNames(template.parameters)) {
