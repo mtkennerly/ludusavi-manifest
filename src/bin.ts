@@ -1,4 +1,4 @@
-import * as minimist from "minimist";
+import minimist from "minimist";
 
 import { DEFAULT_GAME_LIMIT } from ".";
 import { ManifestFile } from "./manifest";
@@ -7,20 +7,11 @@ import { WikiGameCacheFile, WikiMetaCacheFile } from "./wiki";
 import { saveMissingGames } from "./missing";
 
 interface Cli {
-    cache?: boolean,
+    wiki?: boolean,
     manifest?: boolean,
     stats?: boolean,
     all?: boolean,
-    existing?: boolean,
-    missing?: boolean,
-    unchecked?: boolean,
-    unsupportedOs?: boolean,
-    unsupportedPath?: boolean,
-    irregularPath?: boolean,
     irregularPathUntagged?: boolean,
-    tooBroad?: boolean,
-    tooBroadUntagged?: boolean,
-    pathContains?: string,
     skipUntil?: string,
     recent?: boolean,
     limit?: number,
@@ -30,21 +21,12 @@ interface Cli {
 async function main() {
     const args = minimist<Cli>(process.argv.slice(2), {
         boolean: [
-            "cache",
+            "wiki",
             "manifest",
             "stats",
             "all",
-            "existing",
-            "missing",
-            "unchecked",
-            "unsupportedOs",
-            "unsupportedPath",
-            "irregularPath",
             "irregularPathUntagged",
-            "tooBroad",
-            "tooBroadUntagged",
             "steam",
-            "local",
         ],
         string: [
             "skipUntil",
@@ -69,16 +51,18 @@ async function main() {
     }
 
     try {
-        if (args.cache) {
+        if (args.wiki) {
             if (args.recent) {
                 await wikiCache.flagRecentChanges(wikiMetaCache);
             } else {
                 await wikiCache.addNewGames();
-                await wikiCache.refresh(
-                    args.skipUntil,
-                    args.limit ?? DEFAULT_GAME_LIMIT,
-                );
             }
+
+            await wikiCache.refresh(
+                args.skipUntil,
+                args.limit ?? DEFAULT_GAME_LIMIT,
+                args.all ?? false,
+            );
         }
 
         if (args.steam) {
@@ -92,25 +76,8 @@ async function main() {
         if (args.manifest) {
             await manifest.updateGames(
                 wikiCache.data,
-                {
-                    all: args.all ?? false,
-                    existing: args.existing ?? false,
-                    missing: args.missing ?? false,
-                    unchecked: args.unchecked ?? false,
-                    unsupportedOs: args.unsupportedOs ?? false,
-                    unsupportedPath: args.unsupportedPath ?? false,
-                    tooBroad: args.tooBroad ?? false,
-                    tooBroadUntagged: args.tooBroadUntagged ?? false,
-                    irregularPath: args.irregularPath ?? false,
-                    irregularPathUntagged: args.irregularPathUntagged ?? false,
-                    pathContains: args.pathContains,
-                    skipUntil: args.skipUntil,
-                    games: args._,
-                    recent: args.recent,
-                },
-                args.limit ?? DEFAULT_GAME_LIMIT,
+                args._,
                 steamCache,
-                args.local,
             );
         }
 

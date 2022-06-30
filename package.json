@@ -5,9 +5,9 @@
   "author": "Matthew T. Kennerly <mtkennerly@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cache": "ts-node ./src/bin.ts --cache",
+    "wiki": "ts-node ./src/bin.ts --wiki",
     "manifest": "ts-node ./src/bin.ts --manifest",
-    "recent": "ts-node ./src/bin.ts --limit 0 --cache --manifest --recent",
+    "recent": "ts-node ./src/bin.ts --limit 0 --wiki --manifest --recent",
     "schema": "npm run schema:normal && npm run schema:strict",
     "schema:normal": "ajv validate -s ./data/schema.yaml -d ./data/manifest.yaml",
     "schema:strict": "ajv validate -s ./data/schema.strict.yaml -d ./data/manifest.yaml",

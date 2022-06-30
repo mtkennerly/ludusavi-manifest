@@ -1,30 +1,41 @@
 import { DELAY_BETWEEN_GAMES_MS, REPO, PathType, UnsupportedOsError, UnsupportedPathError, YamlFile } from ".";
 import { Constraint, Game, Store, Tag, Os } from "./manifest";
-import * as moment from "moment";
+import moment from "moment";
 import * as NodeMw from "nodemw";
 import * as Wikiapi from "wikiapi";
 import { parse as parseWiki } from 'wikiparse';
 
-type Template = {
+interface Template {
     type: "template",
     name: string,
     parameters: {},
-    positionalParameters: Array<Template | string>,
+    positionalParameters: Array<Array<WikiNode>>,
+};
+
+type WikiNode = string | Template | {
+    type: "code" | "pre",
+    content: Array<WikiNode>,
+    attributes: { [key: string]: string },
+} | {
+    type: "comment",
+    content: Array<WikiNode>,
+} | {
+    type: "link",
+    to: string,
+    content: Array<WikiNode>,
+} | {
+    type: "tag",
+    content: Array<WikiNode>,
+    attributes: { [key: string]: string },
+    name: string,
 };
 
 export type WikiGameCache = {
     [title: string]: {
         pageId: number,
         revId: number | null,
-        /** Whether an entry on the page failed because of an unsupported OS. */
-        unsupportedOs?: boolean,
-        /** Whether an entry on the page failed because of an unsupported Path template argument. */
-        unsupportedPath?: boolean,
-        /** Whether an entry has a path that is too broad (e.g., the entirety of %WINDIR%). */
-        tooBroad?: boolean,
         recentlyChanged?: boolean,
         renamedFrom?: Array<string>,
-        irregularPath?: boolean,
         templates?: Array<string>,
         steam?: number,
     };
@@ -67,7 +78,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
         };
     }
 
-    async refresh(skipUntil: string | undefined, limit: number): Promise<void> {
+    async refresh(skipUntil: string | undefined, limit: number, all: boolean | undefined): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
         const client = makeApiClient();
@@ -78,6 +89,9 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                 } else {
                     continue;
                 }
+            }
+            if (!all && (this.data[pageTitle].revId !== null || !this.data[pageTitle].recentlyChanged)) {
+                continue;
             }
 
             // console.log(`Refreshing wiki page ${pageTitle}`);
@@ -274,82 +288,6 @@ function makePathArgRegex(arg: string): RegExp {
     return new RegExp(escaped, "gi");
 }
 
-interface PathCell {
-    [index: number]: string | PathCell;
-    type: "comment" | "transclusion" | "page_title" | "plain" | "tag";
-    parameters: { [key: string]: any }; // keys are numbers as strings
-    tag?: string, // when type=tag
-    toString(): string;
-}
-
-function stringifyTransclusionCell(cell: PathCell): [string, boolean] {
-    const templateName = cell[0] as string;
-    switch (templateName.toLowerCase()) {
-        case "p":
-        case "path":
-            return [`{{${templateName}|${cell[1]}}}`, true];
-        case "code":
-        case "file":
-            return ["*", false];
-        case "localizedpath":
-            return [cell[1] as string, false];
-        default:
-            return ["", false];
-    }
-}
-
-function stringifyTagCell(cell: PathCell): [string, boolean] {
-    if (cell.tag === undefined) {
-        return ["", false];
-    }
-    switch (cell.tag.toLowerCase()) {
-        case "code":
-            return ["*", false];
-        default:
-            return ["", false];
-    }
-}
-
-function getRawPathFromCell(cell: string | PathCell): [string, boolean] {
-    let composite = "";
-    let regular = true;
-
-    if (typeof cell === "string") {
-        if (/<br\s*\/?>/.test(cell)) {
-            regular = false;
-        }
-        composite += cell;
-    } else if (cell.type === "transclusion") {
-        const [stringified, segmentRegular] = stringifyTransclusionCell(cell);
-        if (!segmentRegular) {
-            regular = false;
-        }
-        composite += stringified;
-    } else if (cell.type === "tag") {
-        const [stringified, segmentRegular] = stringifyTagCell(cell);
-        if (!segmentRegular) {
-            regular = false;
-        }
-        composite += stringified;
-    } else if (cell.type === "plain") {
-        for (let i = 0; i < 50; i++) {
-            const segment = cell[i];
-            if (segment === undefined) {
-                break;
-            }
-            const [stringified, segmentRegular] = getRawPathFromCell(segment);
-            if (!segmentRegular) {
-                regular = false;
-            }
-            composite += stringified;
-        }
-    } else if (cell.type !== "comment" && cell.type !== "page_title") {
-        regular = false;
-    }
-
-    return [composite.trim(), regular];
-}
-
 /**
  * https://www.pcgamingwiki.com/wiki/Template:Path
  */
@@ -468,7 +406,9 @@ function getConstraintFromSystem(system: string, path: string): Constraint {
     } else if (system.match(/origin/i)) {
         constraint.store = "origin";
     } else {
-        constraint.os = parseOs(system);
+        try {
+            constraint.os = parseOs(system);
+        } catch {}
     }
 
     const storeFromPath = getStoreConstraintFromPath(path);
@@ -480,10 +420,10 @@ function getConstraintFromSystem(system: string, path: string): Constraint {
 }
 
 function getTagFromTemplate(template: string): Tag | undefined {
-    switch (template) {
-        case "Game data/saves":
+    switch (template.toLowerCase()) {
+        case "game data/saves":
             return "save";
-        case "Game data/config":
+        case "game data/config":
             return "config";
         default:
             return undefined;
@@ -491,6 +431,7 @@ function getTagFromTemplate(template: string): Tag | undefined {
 }
 
 function parseOs(os: string): Os {
+    // Others seen: "Mac OS", "PC booter", "Amazon Games", "Ubisoft Connect"
     switch (os) {
         case "Windows":
             return "windows";
@@ -626,19 +567,16 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
         files: {},
         registry: {},
     };
-    let unsupportedOs = 0;
-    let unsupportedPath = 0;
-    let tooBroad = 0;
-    let irregularPath = 0;
     delete cache[pageTitle].templates;
     page.parse().each("template", template => {
-        if (template.name === "Infobox game") {
+        const templateName = template.name.toLowerCase();
+        if (templateName === "Infobox game") {
             const steamId = Number(template.parameters["steam appid"]);
             if (!isNaN(steamId) && steamId > 0) {
                 game.steam = { id: steamId };
                 cache[pageTitle].steam = steamId;
             }
-        } else if (template.name === "Game data/saves" || template.name === "Game data/config") {
+        } else if (templateName === "game data/saves" || templateName === "game data/config") {
             const reparsed = parseWiki(template.toString());
             if (reparsed[0].positionalParameters[1]?.length > 0 ?? false) {
                 if (cache[pageTitle].templates === undefined) {
@@ -646,93 +584,131 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
                 }
                 cache[pageTitle].templates.push(template.toString());
             }
+        }
+    });
 
-            // console.log("\n\n\n\n\n\n--------------------------------------------------------------------------")
-            // console.log(template);
-            for (const cellKey of Object.getOwnPropertyNames(template.parameters)) {
-                if (cellKey === "0" || cellKey === "1") {
-                    continue;
+    cache[pageTitle].revId = page.revisions?.[0]?.revid ?? 0;
+    delete cache[pageTitle].recentlyChanged;
+    return [pageTitle, game];
+}
+
+function flattenParameter(nodes: Array<WikiNode>): [string, boolean] {
+    let composite = "";
+    let regular =  true;
+
+    for (const node of nodes) {
+        if (typeof node === "string") {
+            composite += node;
+        } else switch (node.type) {
+            case "code":
+            case "pre":
+                composite += "*";
+                break;
+            case "template":
+                switch (node.name.toLowerCase()) {
+                    case "p":
+                    case "path":
+                        const [flatP, regularP] = flattenParameter(node.positionalParameters[0]);
+                        if (!regularP) {
+                            regular = false;
+                        }
+                        composite += `{{${node.name}|${flatP}}}`;
+                        break;
+                    case "code":
+                    case "file":
+                        composite += "*";
+                        break;
+                    case "localizedpath":
+                        const [flatC, regularC] = flattenParameter(node.positionalParameters[0]);
+                        if (!regularC) {
+                            regular = false;
+                        }
+                        composite += flatC;
+                        break;
+                    default:
+                        break;
                 }
-                const cell = template.parameters[cellKey];
-                // console.log("======================================")
-                // console.log(cell)
-                const [rawPath, regular] = getRawPathFromCell(cell);
-                // console.log("-----------------");
-                // console.log(`${regular} :  ${rawPath}`);
+                break;
+            case "comment":
+                break;
+            default:
+                regular = false;
+                break;
+        }
+    }
 
-                if (!regular) {
-                    irregularPath += 1;
+    return [composite.trim(), regular];
+}
+
+export function parseTemplates(templates: Array<string>): Pick<Game, "files" | "registry"> {
+    const game: Pick<Game, "files" | "registry"> = { files: {}, registry: {} };
+
+    for (const template of templates.flatMap(parseWiki) as Array<Template>) {
+        if (template.type !== "template") {
+            console.log(`WARNING: unknown template type '${template.type}' from: '${JSON.stringify(template)}'`);
+            continue;
+        }
+        if (template.positionalParameters.length < 2) {
+            continue;
+        }
+
+        const [system, _] = flattenParameter(template.positionalParameters[0]);
+
+        for (const [rawPath, regular] of template.positionalParameters.slice(1).map(flattenParameter)) {
+            if (rawPath.length === 0 || !regular) {
+                // console.log(`IRREGULAR: ${rawPath}`);
+                continue;
+            }
+
+            const [path, pathType] = parsePath(rawPath);
+            if (pathIsTooBroad(path)) {
+                continue;
+            }
+
+            if (pathType === PathType.FileSystem) {
+                const constraint = getConstraintFromSystem(system, rawPath);
+
+                if (!game.files.hasOwnProperty(path)) {
+                    game.files[path] = {
+                        when: [],
+                        tags: [],
+                    };
                 }
 
-                if (rawPath.length === 0) {
-                    continue;
+                if (!game.files[path].when.some(x => x.os === constraint.os && x.store === constraint.store)) {
+                    if (constraint.os !== undefined && constraint.store !== undefined) {
+                        game.files[path].when.push(constraint);
+                    } else if (constraint.os !== undefined) {
+                        game.files[path].when.push({ os: constraint.os });
+                    } else if (constraint.store !== undefined) {
+                        game.files[path].when.push({ store: constraint.store });
+                    }
                 }
 
-                try {
-                    const [path, pathType] = parsePath(rawPath);
-                    if (pathIsTooBroad(path)) {
-                        tooBroad += 1;
-                        continue;
-                    }
-                    if (pathType === PathType.FileSystem) {
-                        const constraint = getConstraintFromSystem(template.parameters[1], rawPath);
+                const tag = getTagFromTemplate(template.name);
+                if (tag !== undefined && !game.files[path].tags.includes(tag)) {
+                    game.files[path].tags.push(tag);
+                }
+            } else if (pathType === PathType.Registry) {
+                if (!game.registry.hasOwnProperty(path)) {
+                    game.registry[path] = {
+                        when: [],
+                        tags: [],
+                    };
+                }
 
-                        if (!game.files.hasOwnProperty(path)) {
-                            game.files[path] = {
-                                when: [],
-                                tags: [],
-                            };
-                        }
+                const store = getStoreConstraintFromPath(rawPath);
+                if (store !== undefined && !game.registry[path].when.some(x => x.store === store)) {
+                    game.registry[path].when.push({ store });
+                }
 
-                        if (!game.files[path].when.some(x => x.os === constraint.os && x.store === constraint.store)) {
-                            if (constraint.os !== undefined && constraint.store !== undefined) {
-                                game.files[path].when.push(constraint);
-                            } else if (constraint.os !== undefined) {
-                                game.files[path].when.push({ os: constraint.os });
-                            } else if (constraint.store !== undefined) {
-                                game.files[path].when.push({ store: constraint.store });
-                            }
-                        }
-
-                        const tag = getTagFromTemplate(template.name);
-                        if (tag !== undefined && !game.files[path].tags.includes(tag)) {
-                            game.files[path].tags.push(tag);
-                        }
-                    } else if (pathType === PathType.Registry) {
-                        if (!game.registry.hasOwnProperty(path)) {
-                            game.registry[path] = {
-                                when: [],
-                                tags: [],
-                            };
-                        }
-
-                        const store = getStoreConstraintFromPath(rawPath);
-                        if (store !== undefined && !game.registry[path].when.some(x => x.store === store)) {
-                            game.registry[path].when.push({ store });
-                        }
-
-                        const tag = getTagFromTemplate(template.name);
-                        if (tag !== undefined && !game.registry[path].tags.includes(tag)) {
-                            game.registry[path].tags.push(tag);
-                        }
-                    }
-                } catch (e) {
-                    console.log(`  ${template.toString()}`);
-                    console.log(`    ${e}`);
-
-                    if (e instanceof UnsupportedOsError) {
-                        unsupportedOs += 1;
-                        continue;
-                    } else if (e instanceof UnsupportedPathError) {
-                        unsupportedPath += 1;
-                        continue;
-                    } else {
-                        continue;
-                    }
+                const tag = getTagFromTemplate(template.name);
+                if (tag !== undefined && !game.registry[path].tags.includes(tag)) {
+                    game.registry[path].tags.push(tag);
                 }
             }
         }
-    });
+    }
 
     if (Object.keys(game.files).length === 0) {
         delete game.files;
@@ -760,30 +736,5 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
         }
     }
 
-    if (unsupportedOs > 0) {
-        cache[pageTitle].unsupportedOs = true;
-    } else {
-        delete cache[pageTitle].unsupportedOs;
-    }
-
-    if (unsupportedPath > 0) {
-        cache[pageTitle].unsupportedPath = true;
-    } else {
-        delete cache[pageTitle].unsupportedPath;
-    }
-
-    if (tooBroad > 0) {
-        cache[pageTitle].tooBroad = true;
-    } else {
-        delete cache[pageTitle].tooBroad;
-    }
-
-    if (irregularPath > 0) {
-        cache[pageTitle].irregularPath = true;
-    } else {
-        delete cache[pageTitle].irregularPath;
-    }
-
-    cache[pageTitle].revId = page.revisions?.[0]?.revid ?? 0;
-    return [pageTitle, game];
+    return game;
 }

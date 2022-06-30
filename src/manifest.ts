@@ -1,6 +1,6 @@
-import { DELAY_BETWEEN_GAMES_MS, REPO, YamlFile } from ".";
+import { REPO, YamlFile } from ".";
 import { SteamGameCache, SteamGameCacheFile } from "./steam";
-import { WikiGameCache, getGame, pathIsTooBroad } from "./wiki";
+import { WikiGameCache, parseTemplates } from "./wiki";
 
 export type Os = "dos" | "linux" | "mac" | "windows";
 
@@ -73,7 +73,16 @@ function doLaunchPathsMatch(fromSteam: string | undefined, fromManifest: string 
     }
 }
 
-function integrateSteamData(game: Game, appInfo: SteamGameCache[""]) {
+function integrateWikiData(game: Game, cache: WikiGameCache[""]): void {
+    if (cache.steam !== undefined) {
+        game.steam = { id: cache.steam };
+    }
+    const info = parseTemplates(cache.templates ?? []);
+    game.files = info.files;
+    game.registry = info.registry;
+}
+
+function integrateSteamData(game: Game, appInfo: SteamGameCache[""]): void {
     if (appInfo.installDir !== undefined) {
         game.installDir = { [appInfo.installDir]: {} };
     }
@@ -158,137 +167,33 @@ function integrateSteamData(game: Game, appInfo: SteamGameCache[""]) {
     }
 }
 
-function isPathRegular(path: string): boolean {
-    const irregular = ["{{", "</", "/>", "<br>", "//"];
-    return !irregular.some(x => path.includes(x))
-}
-
 export class ManifestFile extends YamlFile<Manifest> {
     path = `${REPO}/data/manifest.yaml`;
     defaultData = {};
 
     async updateGames(
         wikiCache: WikiGameCache,
-        filter: {
-            all: boolean,
-            existing: boolean,
-            missing: boolean,
-            unchecked: boolean,
-            unsupportedOs: boolean,
-            unsupportedPath: boolean,
-            irregularPath: boolean,
-            irregularPathUntagged: boolean,
-            tooBroad: boolean,
-            tooBroadUntagged: boolean,
-            pathContains: string | undefined,
-            skipUntil: string | undefined,
-            games: Array<string> | undefined,
-            recent: boolean | undefined,
-        },
-        limit: number | undefined,
+        games: Array<string> | undefined,
         steamCache: SteamGameCacheFile,
-        local: boolean,
     ): Promise<void> {
-        let i = 0;
-        let foundSkipUntil = false;
-        for (const [title, info] of Object.entries(wikiCache).sort()) {
-            if (filter.skipUntil && !foundSkipUntil) {
-                if (title === filter.skipUntil) {
-                    foundSkipUntil = true;
-                } else {
-                    continue;
-                }
-            }
+        this.data = {};
 
-            let check = false;
-            if (filter.pathContains && Object.keys(this.data[title]?.files ?? {}).some(x => x.includes(filter.pathContains))) {
-                check = true;
-            }
-            if (filter.all) {
-                check = true;
-            }
-            if (filter.existing && this.data.hasOwnProperty(title)) {
-                check = true;
-            }
-            if (filter.missing && !this.data.hasOwnProperty(title)) {
-                check = true;
-            }
-            if (filter.unchecked && wikiCache[title].revId === null) {
-                check = true;
-            }
-            if (filter.unsupportedOs && info.unsupportedOs) {
-                check = true;
-            }
-            if (filter.unsupportedPath && info.unsupportedPath) {
-                check = true;
-            }
-            if (filter.irregularPath && wikiCache[title].irregularPath) {
-                check = true;
-            }
-            if (
-                filter.irregularPathUntagged &&
-                !wikiCache[title].irregularPath &&
-                (
-                    Object.keys(this.data[title]?.files ?? []).some(x => !isPathRegular(x)) ||
-                    Object.keys(this.data[title]?.registry ?? []).some(x => !isPathRegular(x))
-                )
-            ) {
-                check = true;
-            }
-            if (filter.games && filter.games.includes(title)) {
-                check = true;
-            }
-            if (filter.tooBroad && info.tooBroad) {
-                check = true;
-            }
-            if (filter.tooBroadUntagged && !info.tooBroad && Object.keys(this.data[title]?.files ?? []).some(x => pathIsTooBroad(x))) {
-                check = true;
-            }
-            if (filter.recent && wikiCache[title].recentlyChanged) {
-                check = true;
-            }
-            if (!check) {
+        for (const [title, info] of Object.entries(wikiCache).sort()) {
+            if (games !== undefined && games?.length > 0 && !games.includes(title)) {
                 continue;
             }
 
-            if (info.renamedFrom) {
-                for (const oldName of info.renamedFrom) {
-                    delete this.data[oldName];
-                }
-            }
-
-            let verifiedTitle: string;
-            let game: Game;
-            if (local) {
-                [verifiedTitle, game] = [title, this.data[title] ?? {}];
-            } else {
-                [verifiedTitle, game] = await getGame(title, wikiCache);
-            }
-
-            delete wikiCache[verifiedTitle].recentlyChanged;
-
-            if (verifiedTitle !== title) {
-                delete this.data[title];
-            }
+            const game: Game = {};
+            integrateWikiData(game, info);
 
             if (game.files === undefined && game.registry === undefined && game.steam?.id === undefined) {
-                delete this.data[verifiedTitle];
                 continue;
             }
             if (game.steam?.id !== undefined) {
                 const appInfo = await steamCache.getAppInfo(game.steam.id);
                 integrateSteamData(game, appInfo);
             }
-            this.data[verifiedTitle] = game;
-
-            if (!local) {
-                await new Promise(resolve => setTimeout(resolve, DELAY_BETWEEN_GAMES_MS));
-            }
-
-            i++;
-            if (limit > 0 && i > limit) {
-                break;
-            }
+            this.data[title] = game;
         }
     }
 }
