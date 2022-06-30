@@ -69,6 +69,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
     async refresh(skipUntil: string | undefined, limit: number): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
+        const client = makeApiClient();
         for (const pageTitle of Object.keys(this.data).sort()) {
             if (skipUntil && !foundSkipUntil) {
                 if (pageTitle === skipUntil) {
@@ -79,7 +80,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
             }
 
             // console.log(`Refreshing wiki page ${pageTitle}`);
-            await getGame(pageTitle, this.data);
+            await getGame(pageTitle, this.data, client);
 
             i++;
             if (limit > 0 && i >= limit) {
@@ -582,9 +583,9 @@ export async function getRecentChanges(newest: Date, oldest: Date): Promise<Rece
 /**
  * https://www.pcgamingwiki.com/wiki/Template:Game_data
  */
-export async function getGame(pageTitle: string, cache: WikiGameCache): Promise<[string, Game]> {
+export async function getGame(pageTitle: string, cache: WikiGameCache, client: Wikiapi = null): Promise<[string, Game]> {
     console.log(pageTitle);
-    const wiki = makeApiClient();
+    const wiki = client === null ? makeApiClient() : client;
     let page = await wiki.page(pageTitle, { rvprop: "ids|content" });
     if (page.missing !== undefined) {
         // Couldn't find it by name, so try again by ID.

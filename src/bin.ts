@@ -84,7 +84,7 @@ async function main() {
         if (args.steam) {
             await steamCache.refresh(
                 args.skipUntil,
-                args.irregularPathUntagged,
+                args.irregularPathUntagged ?? false,
                 args.limit ?? DEFAULT_GAME_LIMIT,
             );
         }
