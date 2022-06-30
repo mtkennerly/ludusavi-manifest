@@ -26,6 +26,7 @@ export type WikiGameCache = {
         renamedFrom?: Array<string>,
         irregularPath?: boolean,
         templates?: Array<string>,
+        steam?: number,
     };
 };
 
@@ -635,6 +636,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
             const steamId = Number(template.parameters["steam appid"]);
             if (!isNaN(steamId) && steamId > 0) {
                 game.steam = { id: steamId };
+                cache[pageTitle].steam = steamId;
             }
         } else if (template.name === "Game data/saves" || template.name === "Game data/config") {
             const reparsed = parseWiki(template.toString());
