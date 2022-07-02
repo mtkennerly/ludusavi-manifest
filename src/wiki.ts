@@ -2,7 +2,7 @@ import { DELAY_BETWEEN_GAMES_MS, REPO, PathType, UnsupportedOsError, Unsupported
 import { Constraint, Game, Store, Tag, Os } from "./manifest";
 import moment from "moment";
 import NodeMw from "nodemw";
-import * as Wikiapi from "wikiapi";
+import Wikiapi from "wikiapi";
 import { parse as parseWiki } from 'wikiparse';
 
 interface Template {
