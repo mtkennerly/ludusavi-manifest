@@ -173,13 +173,13 @@ export class ManifestFile extends YamlFile<Manifest> {
 
     async updateGames(
         wikiCache: WikiGameCache,
-        games: Array<string> | undefined,
+        games: Array<string>,
         steamCache: SteamGameCacheFile,
     ): Promise<void> {
         this.data = {};
 
         for (const [title, info] of Object.entries(wikiCache).sort()) {
-            if (games !== undefined && games?.length > 0 && !games.includes(title)) {
+            if (games?.length > 0 && !games.includes(title)) {
                 continue;
             }
 

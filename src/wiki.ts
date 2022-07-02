@@ -78,7 +78,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
         };
     }
 
-    async refresh(skipUntil: string | undefined, limit: number, all: boolean | undefined): Promise<void> {
+    async refresh(skipUntil: string | undefined, limit: number, all: boolean, games: Array<string>): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
         const client = makeApiClient();
@@ -90,7 +90,9 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                     continue;
                 }
             }
-            if (!all && (this.data[pageTitle].revId !== null || !this.data[pageTitle].recentlyChanged)) {
+            if (games.length > 0 && !games.includes(pageTitle)) {
+                continue;
+            } else if (!all && this.data[pageTitle].revId !== null && !this.data[pageTitle].recentlyChanged) {
                 continue;
             }
 
@@ -525,7 +527,7 @@ export async function getRecentChanges(newest: Date, oldest: Date): Promise<Rece
 /**
  * https://www.pcgamingwiki.com/wiki/Template:Game_data
  */
-export async function getGame(pageTitle: string, cache: WikiGameCache, client: Wikiapi = null): Promise<[string, Game]> {
+export async function getGame(pageTitle: string, cache: WikiGameCache, client: Wikiapi = null): Promise<string> {
     console.log(pageTitle);
     const wiki = client === null ? makeApiClient() : client;
     let page = await wiki.page(pageTitle, { rvprop: "ids|content" });
@@ -563,17 +565,12 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
         }
     }
 
-    const game: Game = {
-        files: {},
-        registry: {},
-    };
     delete cache[pageTitle].templates;
     page.parse().each("template", template => {
         const templateName = template.name.toLowerCase();
         if (templateName === "Infobox game") {
             const steamId = Number(template.parameters["steam appid"]);
             if (!isNaN(steamId) && steamId > 0) {
-                game.steam = { id: steamId };
                 cache[pageTitle].steam = steamId;
             }
         } else if (templateName === "game data/saves" || templateName === "game data/config") {
@@ -589,7 +586,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
 
     cache[pageTitle].revId = page.revisions?.[0]?.revid ?? 0;
     delete cache[pageTitle].recentlyChanged;
-    return [pageTitle, game];
+    return pageTitle;
 }
 
 function flattenParameter(nodes: Array<WikiNode>): [string, boolean] {

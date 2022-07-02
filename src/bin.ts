@@ -14,6 +14,7 @@ interface Cli {
     irregularPathUntagged?: boolean,
     skipUntil?: string,
     recent?: boolean,
+    missing?: boolean,
     limit?: number,
     steam?: boolean,
 }
@@ -27,6 +28,7 @@ async function main() {
             "all",
             "irregularPathUntagged",
             "steam",
+            "missing",
         ],
         string: [
             "skipUntil",
@@ -54,7 +56,7 @@ async function main() {
         if (args.wiki) {
             if (args.recent) {
                 await wikiCache.flagRecentChanges(wikiMetaCache);
-            } else {
+            } else if (args.missing) {
                 await wikiCache.addNewGames();
             }
 
@@ -62,6 +64,7 @@ async function main() {
                 args.skipUntil,
                 args.limit ?? DEFAULT_GAME_LIMIT,
                 args.all ?? false,
+                args._ ?? [],
             );
         }
 
@@ -76,7 +79,7 @@ async function main() {
         if (args.manifest) {
             await manifest.updateGames(
                 wikiCache.data,
-                args._,
+                args._ ?? [],
                 steamCache,
             );
         }
