@@ -459,7 +459,7 @@ function makeApiClient2(): any {
     return new NodeMw({
         protocol: "https",
         server: "www.pcgamingwiki.com",
-        path: "/w",
+        path: "/w/api.php",
         debug: false,
         userAgent: "ludusavi-manifest-importer/0.0.0",
         concurrency: 1,
