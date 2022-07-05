@@ -1,5 +1,5 @@
 import { DELAY_BETWEEN_GAMES_MS, REPO, YamlFile } from ".";
-import * as SteamUser from "steam-user";
+import SteamUser from "steam-user";
 
 export type SteamGameCache = {
     [appId: string]: {
@@ -44,6 +44,8 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
         if (!update && this.data.hasOwnProperty(key)) {
             return this.data[key];
         }
+
+        console.log(`Steam: ${appId}`);
 
         if (this.steamClient === null) {
             this.steamClient = await this.makeSteamClient();
@@ -108,7 +110,7 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
                 }
             }
 
-            console.log(`Refreshing Steam app ${appId}`);
+            // console.log(`Refreshing Steam app ${appId}`);
             await this.getAppInfo(parseInt(appId), true);
 
             i++;

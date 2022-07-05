@@ -530,7 +530,7 @@ export async function getRecentChanges(newest: Date, oldest: Date): Promise<Rece
  * https://www.pcgamingwiki.com/wiki/Template:Game_data
  */
 export async function getGame(pageTitle: string, cache: WikiGameCache, client: Wikiapi = null): Promise<string> {
-    console.log(pageTitle);
+    console.log(`Wiki: ${pageTitle}`);
     const wiki = client === null ? makeApiClient() : client;
     let page = await wiki.page(pageTitle, { rvprop: "ids|content" });
     if (page.missing !== undefined) {
