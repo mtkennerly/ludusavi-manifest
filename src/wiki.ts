@@ -90,13 +90,15 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                     continue;
                 }
             }
-            if (games.length > 0 && !games.includes(pageTitle)) {
-                continue;
+            if (games.length > 0) {
+                if (!games.includes(pageTitle)) {
+                    continue;
+                }
             } else if (!all && this.data[pageTitle].revId !== null && !this.data[pageTitle].recentlyChanged) {
                 continue;
             }
 
-            // console.log(`Refreshing wiki page ${pageTitle}`);
+            // console.log(`Refreshing wiki page: ${pageTitle}`);
             await getGame(pageTitle, this.data, client);
 
             i++;
@@ -139,8 +141,8 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                         console.log(`[ M ] ${recentName} <<< ${existingName}`);
                         renamed = true;
                         this.data[recentName] = {
+                            ...existingInfo,
                             pageId: recentInfo.pageId,
-                            revId: existingInfo.revId,
                             recentlyChanged: true,
                             renamedFrom: [...(existingInfo.renamedFrom ?? []), existingName]
                         };
@@ -410,7 +412,7 @@ function getConstraintFromSystem(system: string, path: string): Constraint {
     } else {
         try {
             constraint.os = parseOs(system);
-        } catch {}
+        } catch { }
     }
 
     const storeFromPath = getStoreConstraintFromPath(path);
@@ -568,7 +570,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
     delete cache[pageTitle].templates;
     page.parse().each("template", template => {
         const templateName = template.name.toLowerCase();
-        if (templateName === "Infobox game") {
+        if (templateName === "infobox game") {
             const steamId = Number(template.parameters["steam appid"]);
             if (!isNaN(steamId) && steamId > 0) {
                 cache[pageTitle].steam = steamId;
@@ -591,7 +593,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
 
 function flattenParameter(nodes: Array<WikiNode>): [string, boolean] {
     let composite = "";
-    let regular =  true;
+    let regular = true;
 
     for (const node of nodes) {
         if (typeof node === "string") {
