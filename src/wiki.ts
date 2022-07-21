@@ -317,6 +317,7 @@ function parsePath(path: string): [string, PathType] {
     return [
         path
             .replace(/\\/g, "/")
+            .replace(/\/{2,}/g, "/")
             .replace(/\/(?=$)/g, "")
             .replace(/^~(?=($|\/))/, "<home>"),
         pathType,
@@ -629,6 +630,20 @@ function flattenParameter(nodes: Array<WikiNode>): [string, boolean] {
                 }
                 break;
             case "comment":
+                break;
+            case "tag":
+                const [flatT, regularT] = flattenParameter(node.content);
+                if (!regularT) {
+                    regular = false;
+                }
+                if (flatT.includes("/") || flatT.includes("\\")) {
+                    // This is probably an unclosed tag with more path content after it,
+                    // like `.../<game.version>/...`.
+                    composite += `*/${flatT}`;
+                } else if (flatT.length > 0) {
+                    // This is probably a closed tag, like `.../<sup>user ID</sup>/...`.
+                    composite += "*";
+                }
                 break;
             default:
                 regular = false;
