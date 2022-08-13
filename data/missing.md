@@ -8596,7 +8596,6 @@
 * [Disillusions Manga Horror](https://www.pcgamingwiki.com/wiki/?curid=48939)
 * [Disjoint](https://www.pcgamingwiki.com/wiki/?curid=91823)
 * [Dismantle: Construct Carnage](https://www.pcgamingwiki.com/wiki/?curid=127197)
-* [Disney Classic Games: Aladdin and The Lion King](https://www.pcgamingwiki.com/wiki/?curid=147702)
 * [Disney Crossy Road](https://www.pcgamingwiki.com/wiki/?curid=170960)
 * [Disney Getaway Blast](https://www.pcgamingwiki.com/wiki/?curid=157737)
 * [Disney Girlfriends](https://www.pcgamingwiki.com/wiki/?curid=168377)
