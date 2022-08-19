@@ -314,14 +314,17 @@ function parsePath(path: string): [string, PathType] {
         }
     }
 
-    return [
-        path
-            .replace(/\\/g, "/")
-            .replace(/\/{2,}/g, "/")
-            .replace(/\/(?=$)/g, "")
-            .replace(/^~(?=($|\/))/, "<home>"),
-        pathType,
-    ];
+    path = path
+        .replace(/\\/g, "/")
+        .replace(/\/{2,}/g, "/")
+        .replace(/\/(?=$)/g, "")
+        .replace(/^~(?=($|\/))/, "<home>");
+
+    while (path.endsWith("/*")) {
+        path = path.slice(0, path.length - 2);
+    }
+
+    return [path, pathType];
 }
 
 export function pathIsTooBroad(path: string): boolean {
@@ -343,6 +346,8 @@ export function pathIsTooBroad(path: string): boolean {
         "<home>/AppData/Roaming",
         "<home>/Documents/My Games",
         "<winDocuments>/My Games",
+        "<home>/Library/Application Support",
+        "<home>/Library/Preferences",
     ].includes(path)) {
         return true;
     }
