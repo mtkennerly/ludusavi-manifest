@@ -324,7 +324,7 @@ function parsePath(path: string): [string, PathType] {
         path = path.slice(0, path.length - 2);
     }
 
-    return [path, pathType];
+    return [path.trim(), pathType];
 }
 
 export function pathIsTooBroad(path: string): boolean {
