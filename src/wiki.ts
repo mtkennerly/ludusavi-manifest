@@ -318,7 +318,13 @@ function parsePath(path: string): [string, PathType] {
         .replace(/\\/g, "/")
         .replace(/\/{2,}/g, "/")
         .replace(/\/(?=$)/g, "")
-        .replace(/^~(?=($|\/))/, "<home>");
+        .replace(/^~(?=($|\/))/, "<home>")
+        .replace(/%userprofile%[/\\]AppData[/\\]Roaming/i, "<winAppData>")
+        .replace(/%userprofile%[/\\]AppData[/\\]Local(?!Low)/i, "<winLocalAppData>")
+        .replace(/%userprofile%[/\\]Documents/i, "<winDocuments>")
+        .replace(/%userprofile%/i, "<home>")
+        .replace(/%appdata%/i, "<winAppData>")
+        .replace(/%localappdata%/i, "<winLocalAppData>");
 
     while (path.endsWith("/*")) {
         path = path.slice(0, path.length - 2);
