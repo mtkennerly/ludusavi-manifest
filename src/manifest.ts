@@ -175,10 +175,16 @@ export class ManifestFile extends YamlFile<Manifest> {
         wikiCache: WikiGameCache,
         games: Array<string>,
         steamCache: SteamGameCacheFile,
+        override: ManifestOverrideFile,
     ): Promise<void> {
         this.data = {};
 
         for (const [title, info] of Object.entries(wikiCache).sort()) {
+            const overridden = override.data[title];
+            if (overridden?.omit) {
+                continue;
+            }
+
             if (games?.length > 0 && !games.includes(title)) {
                 continue;
             }
@@ -196,4 +202,15 @@ export class ManifestFile extends YamlFile<Manifest> {
             this.data[title] = game;
         }
     }
+}
+
+export interface ManifestOverride {
+    [game: string]: {
+        omit?: boolean;
+    }
+}
+
+export class ManifestOverrideFile extends YamlFile<ManifestOverride> {
+    path = `${REPO}/data/manifest-override.yaml`;
+    defaultData = {};
 }

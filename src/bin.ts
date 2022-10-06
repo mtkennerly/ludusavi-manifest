@@ -1,7 +1,7 @@
 import minimist from "minimist";
 
 import { DEFAULT_GAME_LIMIT } from ".";
-import { ManifestFile } from "./manifest";
+import { ManifestFile, ManifestOverrideFile } from "./manifest";
 import { SteamGameCacheFile, getSteamClient } from "./steam";
 import { WikiGameCacheFile, WikiMetaCacheFile } from "./wiki";
 import { saveMissingGames } from "./missing";
@@ -44,6 +44,8 @@ async function main() {
     steamCache.load();
     const manifest = new ManifestFile();
     manifest.load();
+    const manifestOverride = new ManifestOverrideFile();
+    manifestOverride.load();
 
     if (args.stats) {
         console.log(`Total games in manifest: ${Object.keys(manifest.data).length}`);
@@ -109,6 +111,7 @@ async function main() {
                 wikiCache.data,
                 args._ ?? [],
                 steamCache,
+                manifestOverride,
             );
         }
 
@@ -116,7 +119,7 @@ async function main() {
         wikiMetaCache.save();
         steamCache.save();
         manifest.save();
-        saveMissingGames(wikiCache.data, manifest.data);
+        saveMissingGames(wikiCache.data, manifest.data, manifestOverride.data);
         if (steamCache.steamClient) {
             steamCache.steamClient.logOff();
         }
@@ -126,7 +129,7 @@ async function main() {
         wikiMetaCache.save();
         steamCache.save();
         manifest.save();
-        saveMissingGames(wikiCache.data, manifest.data);
+        saveMissingGames(wikiCache.data, manifest.data, manifestOverride.data);
         if (steamCache.steamClient) {
             steamCache.steamClient.logOff();
         }

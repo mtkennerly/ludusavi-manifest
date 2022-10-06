@@ -1,0 +1,5 @@
+Overwatch:
+  # The game is no longer playable at all,
+  # and its save locations are identical to Overwatch 2,
+  # leading to duplicate backups.
+  omit: true
