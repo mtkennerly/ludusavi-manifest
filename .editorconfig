@@ -8,3 +8,6 @@ trim_trailing_whitespace = true
 
 [*.{json,md,yaml,yml}]
 indent_size = 2
+
+[data/wiki-game-cache.yaml]
+trim_trailing_whitespace = false

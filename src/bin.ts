@@ -10,6 +10,7 @@ interface Cli {
     wiki?: boolean,
     manifest?: boolean,
     stats?: boolean,
+    duplicates?: boolean,
     all?: boolean,
     irregularPathUntagged?: boolean,
     skipUntil?: string,
@@ -49,6 +50,33 @@ async function main() {
         console.log(`Total games in manifest with files or registry: ${Object.values(manifest.data).filter(x => x.files !== undefined || x.registry !== undefined).length}`);
         console.log(`Total games in manifest without files and registry: ${Object.values(manifest.data).filter(x => x.files === undefined && x.registry === undefined).length}`);
         console.log(`Total games in wiki cache: ${Object.keys(wikiCache.data).length}`);
+        process.exit(0);
+    }
+
+    if (args.duplicates) {
+        const data: {[key: string]: Array<{ name: string; pageId: number }>} = {};
+        for (const [name, info] of Object.entries(manifest.data)) {
+            const key = JSON.stringify(info);
+            let safe = false;
+            for (const file of Object.keys(info.files ?? {})) {
+                if (file.includes("<game>") || file.includes("<base>")) {
+                    safe = true;
+                }
+            }
+            if (safe) {
+                continue;
+            }
+            if (!(key in data)) {
+                data[key] = [];
+            }
+            data[key].push({ name, pageId: wikiCache.data[name]?.pageId ?? 0 });
+        }
+        for (const games of Object.values(data)) {
+            if (games.length > 1) {
+                const lines = games.map(({ name, pageId }) => `[${pageId}] ${name}`);
+                console.log(`\nSame manifest entry:\n  - ${lines.join("\n  - ")}`);
+            }
+        }
         process.exit(0);
     }
 

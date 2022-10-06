@@ -12,6 +12,7 @@
     "schema:normal": "ajv validate -s ./data/schema.yaml -d ./data/manifest.yaml",
     "schema:strict": "ajv validate -s ./data/schema.strict.yaml -d ./data/manifest.yaml",
     "stats": "ts-node ./src/bin.ts --stats",
+    "duplicates": "ts-node ./src/bin.ts --duplicates",
     "steam": "ts-node ./src/bin.ts --steam"
   },
   "devDependencies": {
