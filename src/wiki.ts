@@ -33,8 +33,7 @@ type WikiNode = string | Template | {
 export type WikiGameCache = {
     [title: string]: {
         pageId: number,
-        revId: number | null,
-        recentlyChanged?: boolean,
+        dirty?: boolean,
         renamedFrom?: Array<string>,
         templates?: Array<string>,
         steam?: number,
@@ -59,7 +58,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                     if (v.pageId === page.pageid) {
                         newGame = false;
                         this.data[page.title] = v;
-                        this.data[page.title].recentlyChanged = true;
+                        this.data[page.title].dirty = true;
                         if (!(v.renamedFrom ?? []).includes(k)) {
                             this.data[page.title].renamedFrom = [...(v.renamedFrom ?? []), k];
                         }
@@ -72,7 +71,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                 }
                 this.data[page.title] = {
                     pageId: page.pageid,
-                    revId: null,
+                    dirty: true,
                 };
             }
         };
@@ -94,7 +93,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                 if (!games.includes(pageTitle)) {
                     continue;
                 }
-            } else if (!all && this.data[pageTitle].revId !== null && !this.data[pageTitle].recentlyChanged) {
+            } else if (!all && !this.data[pageTitle].dirty) {
                 continue;
             }
 
@@ -131,7 +130,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
             } else if (this.data[recentName] !== undefined) {
                 // Existing entry has been edited.
                 console.log(`[E  ] ${recentName}`);
-                this.data[recentName].recentlyChanged = true;
+                this.data[recentName].dirty = true;
             } else {
                 // Check for a rename.
                 let renamed = false;
@@ -143,7 +142,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                         this.data[recentName] = {
                             ...existingInfo,
                             pageId: recentInfo.pageId,
-                            recentlyChanged: true,
+                            dirty: true,
                             renamedFrom: [...(existingInfo.renamedFrom ?? []), existingName]
                         };
                         delete this.data[existingName];
@@ -156,7 +155,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
                     if (data.includes("Category:Games")) {
                         // It's a game, so add it to the cache.
                         console.log(`[  C] ${recentName}`);
-                        this.data[recentName] = { pageId: recentInfo.pageId, revId: 0, recentlyChanged: true };
+                        this.data[recentName] = { pageId: recentInfo.pageId, dirty: true };
                     }
                 }
             }
@@ -496,6 +495,7 @@ function callMw<T = any>(client, method: string, ...args: Array<any>): Promise<[
 }
 
 export async function getRecentChanges(newest: Date, oldest: Date): Promise<RecentChanges> {
+    console.log(`Getting recent changes from ${oldest.toISOString()} to ${newest.toISOString()}`);
     const changes: RecentChanges = {};
     const client = makeApiClient2();
     const startTimestamp = newest.toISOString();
@@ -598,8 +598,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
         }
     });
 
-    cache[pageTitle].revId = page.revisions?.[0]?.revid ?? 0;
-    delete cache[pageTitle].recentlyChanged;
+    delete cache[pageTitle].dirty;
     return pageTitle;
 }
 
