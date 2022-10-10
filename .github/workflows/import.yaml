@@ -15,6 +15,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '16'
+      - uses: actions/cache@v3
+        with:
+          path: data/wiki-meta-cache.yaml
+          key: wiki-meta-cache
       - run: |
           npm install
           npm run recent

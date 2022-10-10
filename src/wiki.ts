@@ -168,7 +168,7 @@ export class WikiGameCacheFile extends YamlFile<WikiGameCache> {
 export class WikiMetaCacheFile extends YamlFile<WikiMetaCache> {
     path = `${REPO}/data/wiki-meta-cache.yaml`;
     defaultData = {
-        lastCheckedRecentChanges: moment().subtract(7, "days").toISOString(),
+        lastCheckedRecentChanges: moment().subtract(1, "days").toISOString(),
     };
 }
 
