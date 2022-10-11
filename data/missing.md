@@ -29854,6 +29854,7 @@
 * [Super Novel Collector (Speedrun Edition)](https://www.pcgamingwiki.com/wiki/?curid=150283)
 * [Super Orb Collector](https://www.pcgamingwiki.com/wiki/?curid=128070)
 * [Super Pac-Man](https://www.pcgamingwiki.com/wiki/?curid=162095)
+* [Super People](https://www.pcgamingwiki.com/wiki/?curid=182471)
 * [Super Perspective](https://www.pcgamingwiki.com/wiki/?curid=70589)
 * [Super Phantom Cat](https://www.pcgamingwiki.com/wiki/?curid=128362)
 * [Super Pig](https://www.pcgamingwiki.com/wiki/?curid=140775)
