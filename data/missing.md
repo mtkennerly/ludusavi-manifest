@@ -34228,7 +34228,6 @@
 * [Undead vs Plants](https://www.pcgamingwiki.com/wiki/?curid=44437)
 * [Undead zombies](https://www.pcgamingwiki.com/wiki/?curid=155727)
 * [Undeadz!](https://www.pcgamingwiki.com/wiki/?curid=46284)
-* [UNDECEMBER](https://www.pcgamingwiki.com/wiki/?curid=182506)
 * [Undefeated](https://www.pcgamingwiki.com/wiki/?curid=37750)
 * [Undefined](https://www.pcgamingwiki.com/wiki/?curid=122482)
 * [Undefined Fantastic Object](https://www.pcgamingwiki.com/wiki/?curid=63103)
