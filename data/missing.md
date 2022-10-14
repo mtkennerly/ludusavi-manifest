@@ -7985,6 +7985,7 @@
 * [Deep Eclipse: New Space Odyssey](https://www.pcgamingwiki.com/wiki/?curid=49432)
 * [Deep End](https://www.pcgamingwiki.com/wiki/?curid=59492)
 * [Deep Fear](https://www.pcgamingwiki.com/wiki/?curid=65752)
+* [Deep Fighter](https://www.pcgamingwiki.com/wiki/?curid=182556)
 * [Deep GachiGASM](https://www.pcgamingwiki.com/wiki/?curid=75502)
 * [Deep Hole](https://www.pcgamingwiki.com/wiki/?curid=128217)
 * [Deep Horizon](https://www.pcgamingwiki.com/wiki/?curid=63994)
