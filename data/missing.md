@@ -6336,6 +6336,7 @@
 * [Comit the Astrodian 3](https://www.pcgamingwiki.com/wiki/?curid=70705)
 * [ComixPlay](https://www.pcgamingwiki.com/wiki/?curid=44467)
 * [Commanager Tycoon](https://www.pcgamingwiki.com/wiki/?curid=92819)
+* [Command & Conquer (2013)](https://www.pcgamingwiki.com/wiki/?curid=182598)
 * [Command Ops 2](https://www.pcgamingwiki.com/wiki/?curid=57904)
 * [Command: Chains of War](https://www.pcgamingwiki.com/wiki/?curid=62534)
 * [Command: Desert Storm](https://www.pcgamingwiki.com/wiki/?curid=130109)
