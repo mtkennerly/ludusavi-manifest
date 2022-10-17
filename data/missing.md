@@ -14001,7 +14001,6 @@
 * [Haunted: Poppy's Nightmare](https://www.pcgamingwiki.com/wiki/?curid=150049)
 * [Haunting Hour](https://www.pcgamingwiki.com/wiki/?curid=125420)
 * [Hauntsters](https://www.pcgamingwiki.com/wiki/?curid=45176)
-* [Have a Nice Death](https://www.pcgamingwiki.com/wiki/?curid=173577)
 * [Have A Sticker](https://www.pcgamingwiki.com/wiki/?curid=137272)
 * [Havoc in Heaven](https://www.pcgamingwiki.com/wiki/?curid=91452)
 * [Havocado](https://www.pcgamingwiki.com/wiki/?curid=126258)
