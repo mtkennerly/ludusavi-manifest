@@ -3504,7 +3504,6 @@
 * [Bighead Runner](https://www.pcgamingwiki.com/wiki/?curid=94786)
 * [Biglands: A Game Made By Kids](https://www.pcgamingwiki.com/wiki/?curid=49719)
 * [Bigscreen Beta](https://www.pcgamingwiki.com/wiki/?curid=37701)
-* [Biing!: Sex, Intrigue and Scalpels](https://www.pcgamingwiki.com/wiki/?curid=157970)
 * [Bik - A Space Adventure](https://www.pcgamingwiki.com/wiki/?curid=49516)
 * [Bike Dash Excite!](https://www.pcgamingwiki.com/wiki/?curid=103409)
 * [Bike of the Wild](https://www.pcgamingwiki.com/wiki/?curid=75532)
