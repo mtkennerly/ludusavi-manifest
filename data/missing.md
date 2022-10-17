@@ -36616,7 +36616,6 @@
 * [Yuletide Legends: Who Framed Santa Claus](https://www.pcgamingwiki.com/wiki/?curid=153545)
 * [Yume Puzzle](https://www.pcgamingwiki.com/wiki/?curid=136621)
 * [YumeCore](https://www.pcgamingwiki.com/wiki/?curid=79884)
-* [Yumeutsutsu Re:Master](https://www.pcgamingwiki.com/wiki/?curid=136847)
 * [Yumori Forest](https://www.pcgamingwiki.com/wiki/?curid=109604)
 * [Yumsters 2: Around the World](https://www.pcgamingwiki.com/wiki/?curid=41202)
 * [Yuna and other troubles](https://www.pcgamingwiki.com/wiki/?curid=155697)
