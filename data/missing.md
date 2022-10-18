@@ -455,7 +455,6 @@
 * [A Pirate's Pleasure](https://www.pcgamingwiki.com/wiki/?curid=152783)
 * [A Pixel Story](https://www.pcgamingwiki.com/wiki/?curid=48344)
 * [A Place for the Unwilling](https://www.pcgamingwiki.com/wiki/?curid=135781)
-* [A Plague Tale: Requiem](https://www.pcgamingwiki.com/wiki/?curid=169264)
 * [A Planet of Mine](https://www.pcgamingwiki.com/wiki/?curid=153460)
 * [A Plot Story](https://www.pcgamingwiki.com/wiki/?curid=70105)
 * [A Plunge into Darkness](https://www.pcgamingwiki.com/wiki/?curid=156917)
