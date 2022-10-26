@@ -2376,7 +2376,6 @@
 * [Ataque Marino](https://www.pcgamingwiki.com/wiki/?curid=125306)
 * [Atari 50: The Anniversary Celebration](https://www.pcgamingwiki.com/wiki/?curid=180544)
 * [Atari Anniversary Edition](https://www.pcgamingwiki.com/wiki/?curid=171178)
-* [Atari Mania](https://www.pcgamingwiki.com/wiki/?curid=181793)
 * [Atari: 80 Classic Games in One!](https://www.pcgamingwiki.com/wiki/?curid=87772)
 * [Atelier Ayesha: The Alchemist of Dusk DX](https://www.pcgamingwiki.com/wiki/?curid=155087)
 * [Atelier Elie: The Alchemist of Salburg 2](https://www.pcgamingwiki.com/wiki/?curid=162382)
