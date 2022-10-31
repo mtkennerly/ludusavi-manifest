@@ -21,7 +21,12 @@ jobs:
           key: wiki-meta-cache-${{ github.run_id }}
           restore-keys: |
             wiki-meta-cache
-      - run: |
-          echo "lastCheckedRecentChanges: '$TIMESTAMP'" > data/wiki-meta-cache.yaml
-        env:
-          TIMESTAMP: ${{ inputs.timestamp }}
+      - name: Initial content
+        run: |
+          cat data/wiki-meta-cache.yaml
+      - name: Change content
+        run: |
+          echo "lastCheckedRecentChanges: '${{ inputs.timestamp }}'" > data/wiki-meta-cache.yaml
+      - name: Updated content
+        run: |
+          cat data/wiki-meta-cache.yaml
