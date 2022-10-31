@@ -18,7 +18,9 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: data/wiki-meta-cache.yaml
-          key: wiki-meta-cache
+          key: wiki-meta-cache-${{ github.run_id }}
+          restore-keys: |
+            wiki-meta-cache
       - run: |
           npm install
           npm run recent
