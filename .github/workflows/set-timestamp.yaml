@@ -18,19 +18,15 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: data/wiki-meta-cache.yaml
-          key: wiki-meta-cache-${{ github.run_id }}
+          key: wiki-meta-cache-v2-${{ github.run_id }}
           restore-keys: |
             wiki-meta-cache
       - name: Initial content
         run: |
           cat data/wiki-meta-cache.yaml
-      - name: Change content (dynamic)
-        if: inputs.timestamp == ''
+      - name: Change content
         run: |
-          echo "lastCheckedRecentChanges: '${{ inputs.timestamp }}'" > data/wiki-meta-cache.yaml
-      - name: Change content (static)
-        if: inputs.timestamp != ''
-        run: |
+          # echo "lastCheckedRecentChanges: '${{ inputs.timestamp }}'" > data/wiki-meta-cache.yaml
           echo "lastCheckedRecentChanges: '2022-10-30T19:37:23.138Z'" > data/wiki-meta-cache.yaml
       - name: Updated content
         run: |
