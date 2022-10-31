@@ -9,7 +9,7 @@ on:
 name: Set lastCheckedRecentChanges
 
 jobs:
-  recent:
+  set-timestamp:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -22,4 +22,6 @@ jobs:
           restore-keys: |
             wiki-meta-cache
       - run: |
-          echo "lastCheckedRecentChanges: '${{ inputs.timestamp }}'" > data/wiki-meta-cache.yaml
+          echo "lastCheckedRecentChanges: '$TIMESTAMP'" > data/wiki-meta-cache.yaml
+        env:
+          TIMESTAMP: ${{ inputs.timestamp }}
