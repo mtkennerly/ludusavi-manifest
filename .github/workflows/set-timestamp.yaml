@@ -20,7 +20,7 @@ jobs:
           path: data/wiki-meta-cache.yaml
           key: wiki-meta-cache-v2-${{ github.run_id }}
           restore-keys: |
-            wiki-meta-cache
+            wiki-meta-cache-v2
       - name: Initial content
         run: |
           cat data/wiki-meta-cache.yaml
