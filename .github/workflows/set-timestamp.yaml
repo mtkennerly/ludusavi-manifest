@@ -26,7 +26,7 @@ jobs:
           cat data/wiki-meta-cache.yaml
       - name: Change content
         run: |
-          echo "lastCheckedRecentChanges: '${{ inputs.timestamp }}'" > data/wiki-meta-cache.yaml
+          echo "lastCheckedRecentChanges: '${{ github.events.inputs.timestamp }}'" > data/wiki-meta-cache.yaml
       - name: Updated content
         run: |
           cat data/wiki-meta-cache.yaml
