@@ -18130,6 +18130,7 @@
 * [Lonely Trip](https://www.pcgamingwiki.com/wiki/?curid=81022)
 * [Lonelyland VR](https://www.pcgamingwiki.com/wiki/?curid=52824)
 * [Lonepath](https://www.pcgamingwiki.com/wiki/?curid=143991)
+* [Lonesome Village](https://www.pcgamingwiki.com/wiki/?curid=183079)
 * [Long Arm of the Law](https://www.pcgamingwiki.com/wiki/?curid=121975)
 * [Long Count](https://www.pcgamingwiki.com/wiki/?curid=153832)
 * [Long Live Santa!](https://www.pcgamingwiki.com/wiki/?curid=78156)
