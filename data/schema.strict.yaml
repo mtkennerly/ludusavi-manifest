@@ -100,3 +100,8 @@ additionalProperties:
       properties:
         id:
           type: integer
+    gog:
+      type: object
+      properties:
+        id:
+          type: integer

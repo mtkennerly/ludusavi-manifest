@@ -37,6 +37,8 @@ export type WikiGameCache = {
         renamedFrom?: Array<string>,
         templates?: Array<string>,
         steam?: number,
+        gog?: number
+
     };
 };
 
@@ -586,6 +588,10 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
             const steamId = Number(template.parameters["steam appid"]);
             if (!isNaN(steamId) && steamId > 0) {
                 cache[pageTitle].steam = steamId;
+            }
+            const gogId = Number(template.parameters["gogcom id"]);
+            if (!isNaN(gogId) && gogId > 0) {
+                cache[pageTitle].gog = gogId
             }
         } else if (templateName === "game data/saves" || templateName === "game data/config") {
             const reparsed = parseWiki(template.toString());
