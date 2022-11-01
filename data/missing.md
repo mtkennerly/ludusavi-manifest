@@ -32153,7 +32153,6 @@
 * [The Outbound Ghost](https://www.pcgamingwiki.com/wiki/?curid=180786)
 * [The Outer Rim: Survivor](https://www.pcgamingwiki.com/wiki/?curid=90552)
 * [The Outer Worlds 2](https://www.pcgamingwiki.com/wiki/?curid=169262)
-* [The Outlast Trials](https://www.pcgamingwiki.com/wiki/?curid=152639)
 * [The Outlaw, The Drunk, & The Whore](https://www.pcgamingwiki.com/wiki/?curid=93886)
 * [The Outpost Nine: Episode 1](https://www.pcgamingwiki.com/wiki/?curid=100238)
 * [The Outsiders](https://www.pcgamingwiki.com/wiki/?curid=96521)
