@@ -40,6 +40,9 @@ export interface Game {
     steam?: {
         id?: number
     };
+    gog?: {
+        id?: number,
+    };
 }
 
 export interface Constraint {
@@ -76,6 +79,9 @@ function doLaunchPathsMatch(fromSteam: string | undefined, fromManifest: string 
 function integrateWikiData(game: Game, cache: WikiGameCache[""]): void {
     if (cache.steam !== undefined) {
         game.steam = { id: cache.steam };
+    }
+    if (cache.gog !== undefined) {
+        game.gog = { id: cache.gog };
     }
     const info = parseTemplates(cache.templates ?? []);
     game.files = info.files;
