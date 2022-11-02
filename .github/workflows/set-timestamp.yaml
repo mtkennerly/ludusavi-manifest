@@ -1,0 +1,33 @@
+on:
+  workflow_dispatch: ~
+    # inputs:
+    #   timestamp:
+    #     description: 'Timestamp to inject into wiki-meta-cache.yaml. Example: 2022-10-30T19:37:23.138Z'
+    #     required: true
+    #     type: string
+
+name: Set lastCheckedRecentChanges
+
+jobs:
+  set-timestamp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/cache@v3
+        with:
+          path: data/wiki-meta-cache.yaml
+          key: wiki-meta-cache-v2-${{ github.run_id }}
+          restore-keys: |
+            wiki-meta-cache-v2
+      - name: Initial content
+        run: |
+          cat data/wiki-meta-cache.yaml
+      - name: Change content
+        run: |
+          # echo "lastCheckedRecentChanges: '${{ inputs.timestamp }}'" > data/wiki-meta-cache.yaml
+          echo "lastCheckedRecentChanges: '2022-10-30T19:37:23.138Z'" > data/wiki-meta-cache.yaml
+      - name: Updated content
+        run: |
+          cat data/wiki-meta-cache.yaml

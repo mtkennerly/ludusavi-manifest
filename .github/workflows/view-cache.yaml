@@ -1,0 +1,21 @@
+on:
+  workflow_dispatch: ~
+
+name: View cache
+
+jobs:
+  view-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/cache@v3
+        with:
+          path: data/wiki-meta-cache.yaml
+          key: wiki-meta-cache-v2-${{ github.run_id }}
+          restore-keys: |
+            wiki-meta-cache-v2
+      - name: View cache content
+        run: |
+          cat data/wiki-meta-cache.yaml
