@@ -34419,7 +34419,6 @@
 * [Unlucky Seven](https://www.pcgamingwiki.com/wiki/?curid=57020)
 * [Unmanned Helicopter](https://www.pcgamingwiki.com/wiki/?curid=100102)
 * [Unmemory](https://www.pcgamingwiki.com/wiki/?curid=181352)
-* [UnMetal](https://www.pcgamingwiki.com/wiki/?curid=161476)
 * [Unmoor](https://www.pcgamingwiki.com/wiki/?curid=88185)
 * [Unnamed Fiasco](https://www.pcgamingwiki.com/wiki/?curid=36232)
 * [Unnatural](https://www.pcgamingwiki.com/wiki/?curid=98808)
