@@ -45,6 +45,8 @@ export interface Game {
     };
 }
 
+type OverriddenGame = Game & { omit?: boolean };
+
 export interface Constraint {
     os?: Os;
     bit?: Bit;
@@ -173,6 +175,16 @@ function integrateSteamData(game: Game, appInfo: SteamGameCache[""]): void {
     }
 }
 
+function integrateOverriddenData(game: Game, override?: OverriddenGame) {
+    if (override?.gog?.id) {
+        game.gog = { id: override?.gog?.id };
+    }
+}
+
+function hasAnyData(game: Game): boolean {
+    return game.files !== undefined || game.registry !== undefined || game.steam?.id !== undefined || game.gog?.id !== undefined;
+}
+
 export class ManifestFile extends YamlFile<Manifest> {
     path = `${REPO}/data/manifest.yaml`;
     defaultData = {};
@@ -197,8 +209,9 @@ export class ManifestFile extends YamlFile<Manifest> {
 
             const game: Game = {};
             integrateWikiData(game, info);
+            integrateOverriddenData(game, overridden);
 
-            if (game.files === undefined && game.registry === undefined && game.steam?.id === undefined) {
+            if (!hasAnyData(game)) {
                 continue;
             }
             if (game.steam?.id !== undefined) {
@@ -211,9 +224,7 @@ export class ManifestFile extends YamlFile<Manifest> {
 }
 
 export interface ManifestOverride {
-    [game: string]: {
-        omit?: boolean;
-    }
+    [game: string]: OverriddenGame
 }
 
 export class ManifestOverrideFile extends YamlFile<ManifestOverride> {
