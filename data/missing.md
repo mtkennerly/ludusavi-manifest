@@ -22478,7 +22478,6 @@
 * [Pandas Die](https://www.pcgamingwiki.com/wiki/?curid=113766)
 * [Pandemic Express](https://www.pcgamingwiki.com/wiki/?curid=128224)
 * [Pandemic: The Board Game](https://www.pcgamingwiki.com/wiki/?curid=62336)
-* [Pandemonium 2](https://www.pcgamingwiki.com/wiki/?curid=131776)
 * [Pandora](https://www.pcgamingwiki.com/wiki/?curid=89695)
 * [Pandora's Room](https://www.pcgamingwiki.com/wiki/?curid=43895)
 * [Pandum online](https://www.pcgamingwiki.com/wiki/?curid=40050)
