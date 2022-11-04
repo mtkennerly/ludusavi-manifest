@@ -28483,6 +28483,7 @@
 * [Space Struck Run](https://www.pcgamingwiki.com/wiki/?curid=124111)
 * [Space Survival](https://www.pcgamingwiki.com/wiki/?curid=35218)
 * [Space Survivors Shooter](https://www.pcgamingwiki.com/wiki/?curid=95035)
+* [Space Tail: Every Journey Leads Home](https://www.pcgamingwiki.com/wiki/?curid=183201)
 * [Space Takeover](https://www.pcgamingwiki.com/wiki/?curid=126300)
 * [Space Thinger](https://www.pcgamingwiki.com/wiki/?curid=46296)
 * [Space Toads Mayhem](https://www.pcgamingwiki.com/wiki/?curid=95443)
