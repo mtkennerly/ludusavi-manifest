@@ -126,7 +126,6 @@ async function main() {
         process.exit(0);
     } catch (e) {
         wikiCache.save();
-        wikiMetaCache.save();
         steamCache.save();
         manifest.save();
         saveMissingGames(wikiCache.data, manifest.data, manifestOverride.data);
