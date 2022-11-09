@@ -36323,6 +36323,7 @@
 * [World of Zombies](https://www.pcgamingwiki.com/wiki/?curid=125605)
 * [World of Zoo](https://www.pcgamingwiki.com/wiki/?curid=18845)
 * [World Peace Simulator 2019](https://www.pcgamingwiki.com/wiki/?curid=127860)
+* [World Racing 2: Champion Edition](https://www.pcgamingwiki.com/wiki/?curid=182788)
 * [World Rally Fever: Born on the Road](https://www.pcgamingwiki.com/wiki/?curid=14274)
 * [World Series Baseball '96](https://www.pcgamingwiki.com/wiki/?curid=171006)
 * [World Series of Poker: Full House Pro](https://www.pcgamingwiki.com/wiki/?curid=178671)
