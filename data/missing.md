@@ -21897,6 +21897,7 @@
 * [Once Upon A Death](https://www.pcgamingwiki.com/wiki/?curid=130563)
 * [Once upon a Dungeon](https://www.pcgamingwiki.com/wiki/?curid=79824)
 * [Once upon a Forest](https://www.pcgamingwiki.com/wiki/?curid=147593)
+* [Once upon a Jester](https://www.pcgamingwiki.com/wiki/?curid=182832)
 * [Once upon a time](https://www.pcgamingwiki.com/wiki/?curid=72509)
 * [Once Upon a Time in Roswell](https://www.pcgamingwiki.com/wiki/?curid=145789)
 * [Once Upon a Time: Little Red Riding Hood](https://www.pcgamingwiki.com/wiki/?curid=147181)
