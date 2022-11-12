@@ -30258,6 +30258,7 @@
 * [Switcher](https://www.pcgamingwiki.com/wiki/?curid=102325)
 * [Sword 'N' Board](https://www.pcgamingwiki.com/wiki/?curid=44766)
 * [Sword and Shield](https://www.pcgamingwiki.com/wiki/?curid=52866)
+* [Sword Art Online: Last Recollection](https://www.pcgamingwiki.com/wiki/?curid=182888)
 * [Sword Bros](https://www.pcgamingwiki.com/wiki/?curid=74999)
 * [Sword Defense](https://www.pcgamingwiki.com/wiki/?curid=130026)
 * [Sword Mans](https://www.pcgamingwiki.com/wiki/?curid=88862)
