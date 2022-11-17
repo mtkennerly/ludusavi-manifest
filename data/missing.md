@@ -5067,7 +5067,6 @@
 * [Cardboard Ground](https://www.pcgamingwiki.com/wiki/?curid=139620)
 * [Cardboard Wars](https://www.pcgamingwiki.com/wiki/?curid=99460)
 * [CARDCORE](https://www.pcgamingwiki.com/wiki/?curid=123711)
-* [Cardfight!! Vanguard Dear Days](https://www.pcgamingwiki.com/wiki/?curid=180606)
 * [Cardiganical](https://www.pcgamingwiki.com/wiki/?curid=108304)
 * [Cardinal Cross](https://www.pcgamingwiki.com/wiki/?curid=89452)
 * [Cardinal Quest 2](https://www.pcgamingwiki.com/wiki/?curid=45519)
