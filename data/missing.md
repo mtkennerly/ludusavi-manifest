@@ -35483,6 +35483,7 @@
 * [Warhammer 40,000: Dakka Squadron - Flyboyz Edition](https://www.pcgamingwiki.com/wiki/?curid=166719)
 * [Warhammer 40,000: Darktide](https://www.pcgamingwiki.com/wiki/?curid=162118)
 * [Warhammer 40,000: Regicide](https://www.pcgamingwiki.com/wiki/?curid=46518)
+* [Warhammer 40,000: Rogue Trader](https://www.pcgamingwiki.com/wiki/?curid=183072)
 * [Warhammer 40,000: Shootas, Blood & Teef](https://www.pcgamingwiki.com/wiki/?curid=169194)
 * [Warhammer 40,000: Space Marine II](https://www.pcgamingwiki.com/wiki/?curid=173579)
 * [Warhammer 40,000: Storm of Vengeance](https://www.pcgamingwiki.com/wiki/?curid=16381)
