@@ -31340,7 +31340,6 @@
 * [The Desolate Room](https://www.pcgamingwiki.com/wiki/?curid=167458)
 * [The Detective Chapters: Part One](https://www.pcgamingwiki.com/wiki/?curid=124528)
 * [The detective ChuLin](https://www.pcgamingwiki.com/wiki/?curid=112828)
-* [The Devil in Me](https://www.pcgamingwiki.com/wiki/?curid=182216)
 * [The Devil's Calculator](https://www.pcgamingwiki.com/wiki/?curid=127768)
 * [The Devil's Garden](https://www.pcgamingwiki.com/wiki/?curid=100226)
 * [The Devil's Womb](https://www.pcgamingwiki.com/wiki/?curid=149841)
