@@ -24191,6 +24191,7 @@
 * [Purple Hills](https://www.pcgamingwiki.com/wiki/?curid=57202)
 * [Purple Noise Echo](https://www.pcgamingwiki.com/wiki/?curid=142003)
 * [Purple Saturn Day](https://www.pcgamingwiki.com/wiki/?curid=165150)
+* [Purple War](https://www.pcgamingwiki.com/wiki/?curid=183101)
 * [Purpul Bandana](https://www.pcgamingwiki.com/wiki/?curid=71714)
 * [Purrfect Spirits](https://www.pcgamingwiki.com/wiki/?curid=181195)
 * [Pursuer](https://www.pcgamingwiki.com/wiki/?curid=129621)
