@@ -34741,7 +34741,6 @@
 * [Vengeful Bat Dungeon Crawler](https://www.pcgamingwiki.com/wiki/?curid=132194)
 * [Vengeful Heart](https://www.pcgamingwiki.com/wiki/?curid=139597)
 * [Vengeful Rites](https://www.pcgamingwiki.com/wiki/?curid=96019)
-* [Venineth](https://www.pcgamingwiki.com/wiki/?curid=124500)
 * [Ventura Inc](https://www.pcgamingwiki.com/wiki/?curid=94007)
 * [Venture Arctic](https://www.pcgamingwiki.com/wiki/?curid=92851)
 * [Venture Forth](https://www.pcgamingwiki.com/wiki/?curid=42171)
