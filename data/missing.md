@@ -19019,7 +19019,6 @@
 * [Marvel End Time Arena](https://www.pcgamingwiki.com/wiki/?curid=87509)
 * [Marvel Powers United VR](https://www.pcgamingwiki.com/wiki/?curid=165488)
 * [Marvel's Midnight Suns](https://www.pcgamingwiki.com/wiki/?curid=171007)
-* [Marvel's Spider-Man: Miles Morales](https://www.pcgamingwiki.com/wiki/?curid=178032)
 * [Marvel’s Spider-Man](https://www.pcgamingwiki.com/wiki/?curid=178019)
 * [Marvellous Inc.](https://www.pcgamingwiki.com/wiki/?curid=91572)
 * [Marvin the Hatter](https://www.pcgamingwiki.com/wiki/?curid=132619)
