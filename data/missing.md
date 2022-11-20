@@ -13064,7 +13064,6 @@
 * [Goaltender VR](https://www.pcgamingwiki.com/wiki/?curid=62162)
 * [Goalunited PRO - football manager for experts](https://www.pcgamingwiki.com/wiki/?curid=58650)
 * [Goat Life](https://www.pcgamingwiki.com/wiki/?curid=94675)
-* [Goat Simulator 3](https://www.pcgamingwiki.com/wiki/?curid=182341)
 * [Goats on a Bridge](https://www.pcgamingwiki.com/wiki/?curid=48757)
 * [Gobernators](https://www.pcgamingwiki.com/wiki/?curid=51368)
 * [Goblet of Maya](https://www.pcgamingwiki.com/wiki/?curid=54999)
