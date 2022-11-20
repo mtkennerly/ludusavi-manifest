@@ -3752,6 +3752,7 @@
 * [Blast](https://www.pcgamingwiki.com/wiki/?curid=69450)
 * [Blast Brawl 2: Bloody Boogaloo](https://www.pcgamingwiki.com/wiki/?curid=39025)
 * [Blast Brigade vs. the Evil Legion of Dr. Cread](https://www.pcgamingwiki.com/wiki/?curid=170990)
+* [Blast Cats](https://www.pcgamingwiki.com/wiki/?curid=183156)
 * [Blast Em!](https://www.pcgamingwiki.com/wiki/?curid=50717)
 * [Blast Lander](https://www.pcgamingwiki.com/wiki/?curid=73669)
 * [Blast Off Far Away](https://www.pcgamingwiki.com/wiki/?curid=179968)
