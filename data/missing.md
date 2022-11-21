@@ -6492,6 +6492,7 @@
 * [Cooking Academy Fire and Knives](https://www.pcgamingwiki.com/wiki/?curid=49460)
 * [Cooking Championship](https://www.pcgamingwiki.com/wiki/?curid=145502)
 * [Cooking Dash](https://www.pcgamingwiki.com/wiki/?curid=41254)
+* [Cooking Live](https://www.pcgamingwiki.com/wiki/?curid=183181)
 * [Cooking Mama: Cuisine!](https://www.pcgamingwiki.com/wiki/?curid=178063)
 * [Cooking Simulator](https://www.pcgamingwiki.com/wiki/?curid=63365)
 * [Cooking Simulator VR](https://www.pcgamingwiki.com/wiki/?curid=169409)
