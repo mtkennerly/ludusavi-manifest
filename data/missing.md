@@ -29429,7 +29429,6 @@
 * [Stormrise](https://www.pcgamingwiki.com/wiki/?curid=57729)
 * [Storms](https://www.pcgamingwiki.com/wiki/?curid=153406)
 * [Storms of Shambhala](https://www.pcgamingwiki.com/wiki/?curid=72799)
-* [Stormworks: Build and Rescue](https://www.pcgamingwiki.com/wiki/?curid=62491)
 * [Stormworm+](https://www.pcgamingwiki.com/wiki/?curid=42956)
 * [Story About Times](https://www.pcgamingwiki.com/wiki/?curid=124254)
 * [Story in the Dream World -Volcano and Possession-](https://www.pcgamingwiki.com/wiki/?curid=155801)
