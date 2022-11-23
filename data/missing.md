@@ -13660,7 +13660,6 @@
 * [GunFleet](https://www.pcgamingwiki.com/wiki/?curid=55736)
 * [GunFu Heroes](https://www.pcgamingwiki.com/wiki/?curid=144400)
 * [GunGirl 2](https://www.pcgamingwiki.com/wiki/?curid=37032)
-* [Gungrave G.O.R.E](https://www.pcgamingwiki.com/wiki/?curid=181655)
 * [Gungrave VR](https://www.pcgamingwiki.com/wiki/?curid=129737)
 * [Gungrave VR U.N](https://www.pcgamingwiki.com/wiki/?curid=129735)
 * [GUNGUNGUN](https://www.pcgamingwiki.com/wiki/?curid=59189)
