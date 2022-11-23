@@ -24644,6 +24644,7 @@
 * [Railroad X](https://www.pcgamingwiki.com/wiki/?curid=50097)
 * [Railroads](https://www.pcgamingwiki.com/wiki/?curid=144429)
 * [RailRoadVR](https://www.pcgamingwiki.com/wiki/?curid=140832)
+* [Railway Islands - Puzzle](https://www.pcgamingwiki.com/wiki/?curid=183229)
 * [Railway Saga: Land King](https://www.pcgamingwiki.com/wiki/?curid=136391)
 * [Rain of Fire](https://www.pcgamingwiki.com/wiki/?curid=149947)
 * [Rain of Pumpkins](https://www.pcgamingwiki.com/wiki/?curid=74862)
