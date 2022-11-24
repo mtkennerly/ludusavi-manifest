@@ -3428,6 +3428,7 @@
 * [Beyond Senses](https://www.pcgamingwiki.com/wiki/?curid=150876)
 * [Beyond Shattered Isles](https://www.pcgamingwiki.com/wiki/?curid=153296)
 * [Beyond Space](https://www.pcgamingwiki.com/wiki/?curid=50037)
+* [Beyond Sunset](https://www.pcgamingwiki.com/wiki/?curid=183245)
 * [Beyond the City VR](https://www.pcgamingwiki.com/wiki/?curid=57647)
 * [Beyond the Dawn 晨曦下の终点](https://www.pcgamingwiki.com/wiki/?curid=136919)
 * [Beyond the Destiny](https://www.pcgamingwiki.com/wiki/?curid=43658)
