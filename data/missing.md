@@ -16911,7 +16911,6 @@
 * [King of Peasants](https://www.pcgamingwiki.com/wiki/?curid=124575)
 * [King of Phoenix](https://www.pcgamingwiki.com/wiki/?curid=102329)
 * [King of Queendoms](https://www.pcgamingwiki.com/wiki/?curid=121024)
-* [King of Retail](https://www.pcgamingwiki.com/wiki/?curid=124589)
 * [King of Spin VR](https://www.pcgamingwiki.com/wiki/?curid=38694)
 * [King of Texas](https://www.pcgamingwiki.com/wiki/?curid=127961)
 * [King of the Couch: Zoovival](https://www.pcgamingwiki.com/wiki/?curid=76095)
