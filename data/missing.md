@@ -29709,7 +29709,6 @@
 * [SunAge: Battle for Elysium](https://www.pcgamingwiki.com/wiki/?curid=49121)
 * [Sunburnt](https://www.pcgamingwiki.com/wiki/?curid=82434)
 * [Suncore Chronicles: The Tower](https://www.pcgamingwiki.com/wiki/?curid=89618)
-* [Sunday Gold](https://www.pcgamingwiki.com/wiki/?curid=180915)
 * [Sundown Refusal](https://www.pcgamingwiki.com/wiki/?curid=137130)
 * [Sune och hans Värld - Pussjakten](https://www.pcgamingwiki.com/wiki/?curid=80200)
 * [Sunflower](https://www.pcgamingwiki.com/wiki/?curid=142167)
