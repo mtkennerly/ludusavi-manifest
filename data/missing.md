@@ -32634,7 +32634,6 @@
 * [THE UNCLEARNESS](https://www.pcgamingwiki.com/wiki/?curid=144222)
 * [The Unclogging: An Unsanitary Saga](https://www.pcgamingwiki.com/wiki/?curid=66069)
 * [The Under](https://www.pcgamingwiki.com/wiki/?curid=76537)
-* [The UnderGarden](https://www.pcgamingwiki.com/wiki/?curid=41044)
 * [The Underground Man](https://www.pcgamingwiki.com/wiki/?curid=37062)
 * [The Underground Watcher/地下监察员](https://www.pcgamingwiki.com/wiki/?curid=134796)
 * [The Undying Plague](https://www.pcgamingwiki.com/wiki/?curid=48236)
