@@ -13822,7 +13822,6 @@
 * [Hamlet](https://www.pcgamingwiki.com/wiki/?curid=121290)
 * [Hammer & Anvil VR](https://www.pcgamingwiki.com/wiki/?curid=127205)
 * [Hammer & Sickle](https://www.pcgamingwiki.com/wiki/?curid=97543)
-* [Hammer 2](https://www.pcgamingwiki.com/wiki/?curid=74203)
 * [Hammer of the Gods](https://www.pcgamingwiki.com/wiki/?curid=174485)
 * [HAMMER WORLD: DIMENSION TRAVELER](https://www.pcgamingwiki.com/wiki/?curid=113288)
 * [HammerHelm](https://www.pcgamingwiki.com/wiki/?curid=65461)
