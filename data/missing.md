@@ -26316,7 +26316,6 @@
 * [Saint Emiliana](https://www.pcgamingwiki.com/wiki/?curid=164461)
 * [Saint George](https://www.pcgamingwiki.com/wiki/?curid=73312)
 * [Saint Hazel's Horsepital](https://www.pcgamingwiki.com/wiki/?curid=132627)
-* [Saint Kotar](https://www.pcgamingwiki.com/wiki/?curid=162655)
 * [Saint Kotar: The Yellow Mask](https://www.pcgamingwiki.com/wiki/?curid=102485)
 * [Saint Paul Pre-Alpha](https://www.pcgamingwiki.com/wiki/?curid=127463)
 * [Saint Slaughter X Days](https://www.pcgamingwiki.com/wiki/?curid=98332)
