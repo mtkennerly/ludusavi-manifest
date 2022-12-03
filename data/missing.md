@@ -23850,7 +23850,6 @@
 * [Pro Pinball: Big Race USA](https://www.pcgamingwiki.com/wiki/?curid=131761)
 * [Pro Pinball: Fantastic Journey](https://www.pcgamingwiki.com/wiki/?curid=131763)
 * [Pro Pinball: Timeshock!](https://www.pcgamingwiki.com/wiki/?curid=131759)
-* [Pro Rally 2001](https://www.pcgamingwiki.com/wiki/?curid=173624)
 * [Pro Rugby Manager 2015](https://www.pcgamingwiki.com/wiki/?curid=49621)
 * [Pro Skater 2D](https://www.pcgamingwiki.com/wiki/?curid=52794)
 * [Pro Snooker & Pool 2022­](https://www.pcgamingwiki.com/wiki/?curid=177141)
