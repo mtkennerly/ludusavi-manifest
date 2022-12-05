@@ -28526,7 +28526,6 @@
 * [Space Way](https://www.pcgamingwiki.com/wiki/?curid=72925)
 * [Space Whip](https://www.pcgamingwiki.com/wiki/?curid=134798)
 * [Space Wrangler](https://www.pcgamingwiki.com/wiki/?curid=70180)
-* [Space Wreck](https://www.pcgamingwiki.com/wiki/?curid=151209)
 * [Space Xonix](https://www.pcgamingwiki.com/wiki/?curid=46428)
 * [Space Zombies Invasion](https://www.pcgamingwiki.com/wiki/?curid=87245)
 * [Space zone defender](https://www.pcgamingwiki.com/wiki/?curid=153226)
