@@ -15028,7 +15028,6 @@
 * [Hourglass of Summer](https://www.pcgamingwiki.com/wiki/?curid=164703)
 * [House Dating VR: Cute Korean Girl, Sehyun](https://www.pcgamingwiki.com/wiki/?curid=73849)
 * [House Flipper City](https://www.pcgamingwiki.com/wiki/?curid=151541)
-* [House Guest](https://www.pcgamingwiki.com/wiki/?curid=178934)
 * [House Number 666](https://www.pcgamingwiki.com/wiki/?curid=148763)
 * [House of 1000 Doors: Evil Inside](https://www.pcgamingwiki.com/wiki/?curid=129631)
 * [House of 1000 Doors: Family Secrets](https://www.pcgamingwiki.com/wiki/?curid=37493)
