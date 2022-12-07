@@ -17063,7 +17063,6 @@
 * [KnightOut](https://www.pcgamingwiki.com/wiki/?curid=77355)
 * [Knights Hunt](https://www.pcgamingwiki.com/wiki/?curid=72995)
 * [Knights of Hearts](https://www.pcgamingwiki.com/wiki/?curid=82051)
-* [Knights of Honor II: Sovereign](https://www.pcgamingwiki.com/wiki/?curid=143549)
 * [Knights of Light: The Prologue](https://www.pcgamingwiki.com/wiki/?curid=154134)
 * [Knights of Messiah](https://www.pcgamingwiki.com/wiki/?curid=145437)
 * [Knights of Tartarus](https://www.pcgamingwiki.com/wiki/?curid=110166)
