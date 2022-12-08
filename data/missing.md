@@ -761,6 +761,7 @@
 * [Active Neurons - Puzzle game](https://www.pcgamingwiki.com/wiki/?curid=148892)
 * [Actua Golf 2](https://www.pcgamingwiki.com/wiki/?curid=167520)
 * [Actua Golf 3](https://www.pcgamingwiki.com/wiki/?curid=46621)
+* [Actua Ice Hockey](https://www.pcgamingwiki.com/wiki/?curid=183609)
 * [Actua Pool](https://www.pcgamingwiki.com/wiki/?curid=167625)
 * [Actua Soccer](https://www.pcgamingwiki.com/wiki/?curid=154914)
 * [Actua Soccer 2](https://www.pcgamingwiki.com/wiki/?curid=154921)
