@@ -5088,6 +5088,7 @@
 * [Carlos III y la difusión de la antigüedad](https://www.pcgamingwiki.com/wiki/?curid=59271)
 * [Carly and the Reaperman - Escape from the Underworld](https://www.pcgamingwiki.com/wiki/?curid=92321)
 * [Carmen Sandiego Math Detective](https://www.pcgamingwiki.com/wiki/?curid=123146)
+* [Carmen Sandiego Returns](https://www.pcgamingwiki.com/wiki/?curid=183616)
 * [Carmen Sandiego's Great Chase Through Time](https://www.pcgamingwiki.com/wiki/?curid=27367)
 * [Carmen Sandiego's ThinkQuick Challenge](https://www.pcgamingwiki.com/wiki/?curid=111324)
 * [Carnage in Space: Ignition](https://www.pcgamingwiki.com/wiki/?curid=78473)
