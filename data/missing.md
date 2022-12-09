@@ -36992,6 +36992,7 @@
 * [ZombieHunterZ](https://www.pcgamingwiki.com/wiki/?curid=94581)
 * [Zombieland: Double Tap - Road Trip](https://www.pcgamingwiki.com/wiki/?curid=148905)
 * [Zombien](https://www.pcgamingwiki.com/wiki/?curid=143869)
+* [ZombieRun](https://www.pcgamingwiki.com/wiki/?curid=47651)
 * [ZombieRush](https://www.pcgamingwiki.com/wiki/?curid=37699)
 * [Zombies Ate My Neighbors and Ghoul Patrol](https://www.pcgamingwiki.com/wiki/?curid=168349)
 * [Zombies Berserk](https://www.pcgamingwiki.com/wiki/?curid=68502)
