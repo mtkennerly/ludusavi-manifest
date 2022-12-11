@@ -30629,7 +30629,6 @@
 * [Tasty Planet: Back for Seconds](https://www.pcgamingwiki.com/wiki/?curid=38121)
 * [Tasty Shame in Silver Soul!](https://www.pcgamingwiki.com/wiki/?curid=110190)
 * [Tatsu](https://www.pcgamingwiki.com/wiki/?curid=36684)
-* [Tattletail](https://www.pcgamingwiki.com/wiki/?curid=55698)
 * [Tau Defense](https://www.pcgamingwiki.com/wiki/?curid=142163)
 * [Taur](https://www.pcgamingwiki.com/wiki/?curid=156787)
 * [Tauronos](https://www.pcgamingwiki.com/wiki/?curid=65690)
