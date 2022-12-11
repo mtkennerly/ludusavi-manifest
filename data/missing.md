@@ -13290,6 +13290,7 @@
 * [Grand Prix 2](https://www.pcgamingwiki.com/wiki/?curid=26486)
 * [Grand Prix 3](https://www.pcgamingwiki.com/wiki/?curid=14702)
 * [Grand Prix 4](https://www.pcgamingwiki.com/wiki/?curid=14210)
+* [Grand Prix Legends](https://www.pcgamingwiki.com/wiki/?curid=183710)
 * [Grand Pskov Story](https://www.pcgamingwiki.com/wiki/?curid=74488)
 * [Grand Strategy](https://www.pcgamingwiki.com/wiki/?curid=121391)
 * [Grand Tactician: The Civil War (1861-1865)](https://www.pcgamingwiki.com/wiki/?curid=105701)
