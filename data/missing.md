@@ -12190,7 +12190,6 @@
 * [Front Wars](https://www.pcgamingwiki.com/wiki/?curid=46855)
 * [Frontier](https://www.pcgamingwiki.com/wiki/?curid=44271)
 * [Frontier - TRS](https://www.pcgamingwiki.com/wiki/?curid=155550)
-* [Frontier Hunter: Erza's Wheel of Fortune](https://www.pcgamingwiki.com/wiki/?curid=171191)
 * [Frontier Runner](https://www.pcgamingwiki.com/wiki/?curid=78102)
 * [Frontier VR](https://www.pcgamingwiki.com/wiki/?curid=59458)
 * [Frontier: Elite II](https://www.pcgamingwiki.com/wiki/?curid=177294)
