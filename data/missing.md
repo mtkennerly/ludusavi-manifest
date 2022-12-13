@@ -14664,7 +14664,6 @@
 * [High Noon](https://www.pcgamingwiki.com/wiki/?curid=74898)
 * [High Noon VR](https://www.pcgamingwiki.com/wiki/?curid=75514)
 * [High Octane Drift](https://www.pcgamingwiki.com/wiki/?curid=51390)
-* [High on Life](https://www.pcgamingwiki.com/wiki/?curid=181153)
 * [High On Racing](https://www.pcgamingwiki.com/wiki/?curid=47801)
 * [High Profits](https://www.pcgamingwiki.com/wiki/?curid=56276)
 * [High School Musical 3: Senior Year Dance](https://www.pcgamingwiki.com/wiki/?curid=48623)
