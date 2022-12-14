@@ -25183,6 +25183,7 @@
 * [Rescue Team 6](https://www.pcgamingwiki.com/wiki/?curid=54967)
 * [Rescue Team 7](https://www.pcgamingwiki.com/wiki/?curid=65257)
 * [Rescue Team: Evil Genius](https://www.pcgamingwiki.com/wiki/?curid=149805)
+* [Rescue Team: Heist of the Century](https://www.pcgamingwiki.com/wiki/?curid=183761)
 * [Rescue the Great Demon 2](https://www.pcgamingwiki.com/wiki/?curid=53415)
 * [Rescue your chickens](https://www.pcgamingwiki.com/wiki/?curid=52818)
 * [Rescue: Everyday Heroes](https://www.pcgamingwiki.com/wiki/?curid=40484)
