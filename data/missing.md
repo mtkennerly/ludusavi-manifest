@@ -23426,6 +23426,7 @@
 * [PokeMMO](https://www.pcgamingwiki.com/wiki/?curid=173661)
 * [Pokémon Play It!](https://www.pcgamingwiki.com/wiki/?curid=81269)
 * [Pokémon Play It! Version 2](https://www.pcgamingwiki.com/wiki/?curid=163935)
+* [Pokémon Trading Card Game Live](https://www.pcgamingwiki.com/wiki/?curid=183824)
 * [Pokémon Trading Card Game Online](https://www.pcgamingwiki.com/wiki/?curid=174612)
 * [Pokémon: Magikarp Jump](https://www.pcgamingwiki.com/wiki/?curid=168131)
 * [Poker Championship](https://www.pcgamingwiki.com/wiki/?curid=149507)
