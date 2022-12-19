@@ -27545,6 +27545,7 @@
 * [Skate](https://www.pcgamingwiki.com/wiki/?curid=171035)
 * [Skate & Date](https://www.pcgamingwiki.com/wiki/?curid=132468)
 * [Skate City](https://www.pcgamingwiki.com/wiki/?curid=147755)
+* [Skateboard Park Tycoon 2004: Back in the USA](https://www.pcgamingwiki.com/wiki/?curid=183847)
 * [Skateboard Park Tycoon: World Tour 2003](https://www.pcgamingwiki.com/wiki/?curid=183846)
 * [Skateboarding pro](https://www.pcgamingwiki.com/wiki/?curid=104091)
 * [Skatemasta Tcheco](https://www.pcgamingwiki.com/wiki/?curid=137100)
