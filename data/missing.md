@@ -22081,6 +22081,7 @@
 * [Operation: Cheek Clapper](https://www.pcgamingwiki.com/wiki/?curid=149642)
 * [Operation: Global Shield](https://www.pcgamingwiki.com/wiki/?curid=38655)
 * [Operation: Harsh Doorstop](https://www.pcgamingwiki.com/wiki/?curid=168992)
+* [Operation: Inner Space](https://www.pcgamingwiki.com/wiki/?curid=183828)
 * [Operation: New Earth](https://www.pcgamingwiki.com/wiki/?curid=53481)
 * [Operation: Polarity Hook](https://www.pcgamingwiki.com/wiki/?curid=76020)
 * [Operation: Valor](https://www.pcgamingwiki.com/wiki/?curid=145431)
