@@ -32501,7 +32501,6 @@
 * [The Spatials](https://www.pcgamingwiki.com/wiki/?curid=48340)
 * [The Spell - A Kinetic Novel](https://www.pcgamingwiki.com/wiki/?curid=125573)
 * [The Sphere of Abyss](https://www.pcgamingwiki.com/wiki/?curid=150713)
-* [The Spirit and the Mouse](https://www.pcgamingwiki.com/wiki/?curid=180342)
 * [The Spirit Master of Retarnia -Conqueror of the Labyrinth-](https://www.pcgamingwiki.com/wiki/?curid=146028)
 * [The Spirit of Twelve](https://www.pcgamingwiki.com/wiki/?curid=88235)
 * [The Spirit Underneath](https://www.pcgamingwiki.com/wiki/?curid=53966)
