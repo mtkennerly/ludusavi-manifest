@@ -19312,6 +19312,7 @@
 * [Mekabolt](https://www.pcgamingwiki.com/wiki/?curid=141019)
 * [Mekside VR](https://www.pcgamingwiki.com/wiki/?curid=60067)
 * [Melancholy Republic](https://www.pcgamingwiki.com/wiki/?curid=39490)
+* [Melatonin](https://www.pcgamingwiki.com/wiki/?curid=183902)
 * [Melbits World](https://www.pcgamingwiki.com/wiki/?curid=154721)
 * [Meld](https://www.pcgamingwiki.com/wiki/?curid=43091)
 * [Melee](https://www.pcgamingwiki.com/wiki/?curid=125581)
