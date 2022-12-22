@@ -4759,7 +4759,6 @@
 * [Bury Me, My Love](https://www.pcgamingwiki.com/wiki/?curid=124305)
 * [Bus Controller Simulator](https://www.pcgamingwiki.com/wiki/?curid=135953)
 * [Bus Driver Simulator](https://www.pcgamingwiki.com/wiki/?curid=75656)
-* [Bus Mechanic Simulator](https://www.pcgamingwiki.com/wiki/?curid=151269)
 * [BUS SIMULATOR](https://www.pcgamingwiki.com/wiki/?curid=150285)
 * [Bus Simulator 16](https://www.pcgamingwiki.com/wiki/?curid=44357)
 * [Bus Simulator 2012](https://www.pcgamingwiki.com/wiki/?curid=40510)
