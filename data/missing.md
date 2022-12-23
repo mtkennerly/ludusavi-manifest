@@ -8165,7 +8165,6 @@
 * [Demise of Nations](https://www.pcgamingwiki.com/wiki/?curid=48150)
 * [Demise: Rise of the Ku'tan](https://www.pcgamingwiki.com/wiki/?curid=183322)
 * [Democracy](https://www.pcgamingwiki.com/wiki/?curid=91740)
-* [Democracy 4](https://www.pcgamingwiki.com/wiki/?curid=163993)
 * [Demolish & Build 2017](https://www.pcgamingwiki.com/wiki/?curid=39137)
 * [Demolish & Build 2018](https://www.pcgamingwiki.com/wiki/?curid=65734)
 * [Demolition](https://www.pcgamingwiki.com/wiki/?curid=139196)
