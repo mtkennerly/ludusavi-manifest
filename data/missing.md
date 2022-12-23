@@ -13484,6 +13484,7 @@
 * [Grim Facade: Mystery of Venice](https://www.pcgamingwiki.com/wiki/?curid=53636)
 * [Grim Facade: Sinister Obsession](https://www.pcgamingwiki.com/wiki/?curid=62344)
 * [Grim Facade: The Artist and The Pretender](https://www.pcgamingwiki.com/wiki/?curid=112816)
+* [Grim Guardians: Demon Purge](https://www.pcgamingwiki.com/wiki/?curid=183934)
 * [Grim Nights](https://www.pcgamingwiki.com/wiki/?curid=114734)
 * [Grim Seventh](https://www.pcgamingwiki.com/wiki/?curid=55606)
 * [Grim Tales: Bloody Mary](https://www.pcgamingwiki.com/wiki/?curid=122068)
