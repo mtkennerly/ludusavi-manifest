@@ -20139,6 +20139,7 @@
 * [Moonlight thief](https://www.pcgamingwiki.com/wiki/?curid=130474)
 * [Moonlight Warrior](https://www.pcgamingwiki.com/wiki/?curid=132534)
 * [Moonlit Mayhem](https://www.pcgamingwiki.com/wiki/?curid=51342)
+* [MOONPONG: Tales of Epic Lunacy](https://www.pcgamingwiki.com/wiki/?curid=183952)
 * [MoonQuest](https://www.pcgamingwiki.com/wiki/?curid=103341)
 * [Moons of Ventocia](https://www.pcgamingwiki.com/wiki/?curid=149637)
 * [Moonshiners Simulator](https://www.pcgamingwiki.com/wiki/?curid=139568)
