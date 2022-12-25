@@ -35473,6 +35473,7 @@
 * [Warhammer 40,000: Boltgun](https://www.pcgamingwiki.com/wiki/?curid=178007)
 * [Warhammer 40,000: Carnage Champions](https://www.pcgamingwiki.com/wiki/?curid=43089)
 * [Warhammer 40,000: Dakka Squadron - Flyboyz Edition](https://www.pcgamingwiki.com/wiki/?curid=166719)
+* [Warhammer 40,000: Freeblade](https://www.pcgamingwiki.com/wiki/?curid=183981)
 * [Warhammer 40,000: Regicide](https://www.pcgamingwiki.com/wiki/?curid=46518)
 * [Warhammer 40,000: Rogue Trader](https://www.pcgamingwiki.com/wiki/?curid=183072)
 * [Warhammer 40,000: Shootas, Blood & Teef](https://www.pcgamingwiki.com/wiki/?curid=169194)
