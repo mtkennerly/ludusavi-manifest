@@ -13556,6 +13556,7 @@
 * [Grow: Song of the Evertree](https://www.pcgamingwiki.com/wiki/?curid=172897)
 * [Grow: Wild West](https://www.pcgamingwiki.com/wiki/?curid=94475)
 * [Growbot](https://www.pcgamingwiki.com/wiki/?curid=64926)
+* [Growlanser](https://www.pcgamingwiki.com/wiki/?curid=183995)
 * [GrowRilla](https://www.pcgamingwiki.com/wiki/?curid=141626)
 * [Grudge TV](https://www.pcgamingwiki.com/wiki/?curid=153022)
 * [Grumpy Witch](https://www.pcgamingwiki.com/wiki/?curid=128694)
