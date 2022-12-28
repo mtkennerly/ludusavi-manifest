@@ -2175,6 +2175,7 @@
 * [As We Know It](https://www.pcgamingwiki.com/wiki/?curid=93357)
 * [AS+CEND](https://www.pcgamingwiki.com/wiki/?curid=100298)
 * [ASA: A Space Adventure - Remastered Edition](https://www.pcgamingwiki.com/wiki/?curid=48529)
+* [Ascend](https://www.pcgamingwiki.com/wiki/?curid=139349)
 * [Ascend: Reborn](https://www.pcgamingwiki.com/wiki/?curid=89819)
 * [Ascendance](https://www.pcgamingwiki.com/wiki/?curid=89601)
 * [Ascendant Hearts](https://www.pcgamingwiki.com/wiki/?curid=76337)
