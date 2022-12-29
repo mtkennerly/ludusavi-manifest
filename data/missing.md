@@ -1530,6 +1530,7 @@
 * [Amiss 13: The Curse](https://www.pcgamingwiki.com/wiki/?curid=72090)
 * [Ammo Pigs: Armed and Delicious](https://www.pcgamingwiki.com/wiki/?curid=108080)
 * [Amnesia](https://www.pcgamingwiki.com/wiki/?curid=175950)
+* [Amnesia: The Bunker](https://www.pcgamingwiki.com/wiki/?curid=184168)
 * [Amok](https://www.pcgamingwiki.com/wiki/?curid=44042)
 * [Amon](https://www.pcgamingwiki.com/wiki/?curid=76531)
 * [Among Ripples](https://www.pcgamingwiki.com/wiki/?curid=48901)
