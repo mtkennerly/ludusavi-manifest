@@ -24516,6 +24516,7 @@
 * [R42](https://www.pcgamingwiki.com/wiki/?curid=144574)
 * [Ra²](https://www.pcgamingwiki.com/wiki/?curid=54443)
 * [Raatihuone](https://www.pcgamingwiki.com/wiki/?curid=130195)
+* [Rabbids: Party of Legends](https://www.pcgamingwiki.com/wiki/?curid=184167)
 * [RabbiruN](https://www.pcgamingwiki.com/wiki/?curid=90192)
 * [Rabbit and the moon](https://www.pcgamingwiki.com/wiki/?curid=98384)
 * [Rabbit BoBo](https://www.pcgamingwiki.com/wiki/?curid=123824)
