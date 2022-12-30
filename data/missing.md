@@ -5051,6 +5051,7 @@
 * [Caracoland](https://www.pcgamingwiki.com/wiki/?curid=123950)
 * [Caramba!](https://www.pcgamingwiki.com/wiki/?curid=104603)
 * [Caramel Port](https://www.pcgamingwiki.com/wiki/?curid=127730)
+* [Caravaneer 2](https://www.pcgamingwiki.com/wiki/?curid=184178)
 * [Caravanserail](https://www.pcgamingwiki.com/wiki/?curid=44197)
 * [Card Adventures](https://www.pcgamingwiki.com/wiki/?curid=127547)
 * [Card Battle Spirit Link](https://www.pcgamingwiki.com/wiki/?curid=109438)
