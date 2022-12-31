@@ -20718,7 +20718,6 @@
 * [Myth Makers: Trixie in Toyland](https://www.pcgamingwiki.com/wiki/?curid=88422)
 * [Myth of Empires](https://www.pcgamingwiki.com/wiki/?curid=181813)
 * [Myth: The Fallen Lords](https://www.pcgamingwiki.com/wiki/?curid=24594)
-* [MythBusters: The Game](https://www.pcgamingwiki.com/wiki/?curid=137108)
 * [Mytheon](https://www.pcgamingwiki.com/wiki/?curid=45361)
 * [Mythgard](https://www.pcgamingwiki.com/wiki/?curid=149672)
 * [Mythic Ocean](https://www.pcgamingwiki.com/wiki/?curid=90451)
