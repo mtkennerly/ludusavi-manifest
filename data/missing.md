@@ -27124,7 +27124,6 @@
 * [Shattered](https://www.pcgamingwiki.com/wiki/?curid=70683)
 * [Shattered - Tale of the Forgotten King](https://www.pcgamingwiki.com/wiki/?curid=135404)
 * [Shattered Horizon](https://www.pcgamingwiki.com/wiki/?curid=12213)
-* [Shattered Light](https://www.pcgamingwiki.com/wiki/?curid=183525)
 * [Shattered Lights](https://www.pcgamingwiki.com/wiki/?curid=136814)
 * [Shattered Pixel Dungeon](https://www.pcgamingwiki.com/wiki/?curid=171479)
 * [Shattered Skies](https://www.pcgamingwiki.com/wiki/?curid=34093)
