@@ -14886,7 +14886,6 @@
 * [Hoo-Boy](https://www.pcgamingwiki.com/wiki/?curid=69725)
 * [Hoodo](https://www.pcgamingwiki.com/wiki/?curid=144759)
 * [Hook](https://www.pcgamingwiki.com/wiki/?curid=177276)
-* [Hook 2](https://www.pcgamingwiki.com/wiki/?curid=174769)
 * [Hooked on You: A Dead by Daylight Dating Sim](https://www.pcgamingwiki.com/wiki/?curid=180422)
 * [Hooklings](https://www.pcgamingwiki.com/wiki/?curid=144667)
 * [Hooks And Shotguns](https://www.pcgamingwiki.com/wiki/?curid=148719)
