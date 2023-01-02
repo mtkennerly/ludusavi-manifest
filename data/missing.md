@@ -1169,7 +1169,6 @@
 * [Aivolution](https://www.pcgamingwiki.com/wiki/?curid=127579)
 * [Akabeth Tactics](https://www.pcgamingwiki.com/wiki/?curid=130432)
 * [AKAI NOROI](https://www.pcgamingwiki.com/wiki/?curid=150600)
-* [Akane](https://www.pcgamingwiki.com/wiki/?curid=98804)
 * [Akash: Path of the Five](https://www.pcgamingwiki.com/wiki/?curid=145013)
 * [Akda](https://www.pcgamingwiki.com/wiki/?curid=78422)
 * [Akhenaten: Rule as Pharaoh](https://www.pcgamingwiki.com/wiki/?curid=75117)
