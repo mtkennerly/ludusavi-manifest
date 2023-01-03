@@ -6662,6 +6662,7 @@
 * [CPU Architecture Sim](https://www.pcgamingwiki.com/wiki/?curid=132270)
 * [CPU Invaders](https://www.pcgamingwiki.com/wiki/?curid=58223)
 * [Crab Cakes Rescue](https://www.pcgamingwiki.com/wiki/?curid=49321)
+* [Crab Champions](https://www.pcgamingwiki.com/wiki/?curid=184222)
 * [Crab Dub](https://www.pcgamingwiki.com/wiki/?curid=56364)
 * [Crackhead](https://www.pcgamingwiki.com/wiki/?curid=53200)
 * [Crackpot Despot: Trump Warfare](https://www.pcgamingwiki.com/wiki/?curid=108096)
