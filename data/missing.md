@@ -35023,7 +35023,6 @@
 * [Void Raiders](https://www.pcgamingwiki.com/wiki/?curid=33804)
 * [Void Rangers](https://www.pcgamingwiki.com/wiki/?curid=54983)
 * [Void Source](https://www.pcgamingwiki.com/wiki/?curid=63990)
-* [Void Tyrant](https://www.pcgamingwiki.com/wiki/?curid=172172)
 * [Void Vikings](https://www.pcgamingwiki.com/wiki/?curid=50921)
 * [Void Wisp](https://www.pcgamingwiki.com/wiki/?curid=64494)
 * [Void's Calling ep.1](https://www.pcgamingwiki.com/wiki/?curid=157019)
