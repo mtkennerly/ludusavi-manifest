@@ -17754,6 +17754,7 @@
 * [Lgnorant girl doll](https://www.pcgamingwiki.com/wiki/?curid=127787)
 * [Liam Finds a Story](https://www.pcgamingwiki.com/wiki/?curid=147472)
 * [Liberator TD](https://www.pcgamingwiki.com/wiki/?curid=73021)
+* [Liberté](https://www.pcgamingwiki.com/wiki/?curid=184259)
 * [Liberty Prime](https://www.pcgamingwiki.com/wiki/?curid=110114)
 * [Liberty VR](https://www.pcgamingwiki.com/wiki/?curid=64765)
 * [Libra of the Vampire Princess](https://www.pcgamingwiki.com/wiki/?curid=63747)
