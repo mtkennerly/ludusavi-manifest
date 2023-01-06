@@ -8216,6 +8216,7 @@
 * [DemonsTier](https://www.pcgamingwiki.com/wiki/?curid=70381)
 * [Den vänstra handens stig](https://www.pcgamingwiki.com/wiki/?curid=56948)
 * [Denki Gaka's Bombshell](https://www.pcgamingwiki.com/wiki/?curid=69092)
+* [Densha de Go! Final](https://www.pcgamingwiki.com/wiki/?curid=184145)
 * [Deorum Online](https://www.pcgamingwiki.com/wiki/?curid=145138)
 * [Departure](https://www.pcgamingwiki.com/wiki/?curid=91585)
 * [Departure Dash](https://www.pcgamingwiki.com/wiki/?curid=144653)
