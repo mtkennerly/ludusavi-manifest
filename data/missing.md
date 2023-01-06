@@ -18126,6 +18126,7 @@
 * [Loki](https://www.pcgamingwiki.com/wiki/?curid=41385)
 * [LoliTower](https://www.pcgamingwiki.com/wiki/?curid=148414)
 * [Lolly Pang VR](https://www.pcgamingwiki.com/wiki/?curid=114488)
+* [Lollypop](https://www.pcgamingwiki.com/wiki/?curid=184306)
 * [Lonath Online](https://www.pcgamingwiki.com/wiki/?curid=46020)
 * [London 2012](https://www.pcgamingwiki.com/wiki/?curid=89767)
 * [London Detective Mysteria](https://www.pcgamingwiki.com/wiki/?curid=140574)
