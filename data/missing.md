@@ -36313,6 +36313,7 @@
 * [World Boxing Manager](https://www.pcgamingwiki.com/wiki/?curid=54772)
 * [World Builder](https://www.pcgamingwiki.com/wiki/?curid=58630)
 * [World Championship Boxing Manager](https://www.pcgamingwiki.com/wiki/?curid=165148)
+* [World Championship Boxing Manager 2](https://www.pcgamingwiki.com/wiki/?curid=184405)
 * [World Championship Rugby](https://www.pcgamingwiki.com/wiki/?curid=92586)
 * [World Circuit Boxing](https://www.pcgamingwiki.com/wiki/?curid=79652)
 * [World Defense: A Fragmented Reality Game](https://www.pcgamingwiki.com/wiki/?curid=44249)
