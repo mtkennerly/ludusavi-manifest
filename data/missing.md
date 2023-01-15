@@ -26648,7 +26648,6 @@
 * [Scott in Space](https://www.pcgamingwiki.com/wiki/?curid=47168)
 * [Scourge of War: Waterloo](https://www.pcgamingwiki.com/wiki/?curid=38547)
 * [Scourge: Outbreak](https://www.pcgamingwiki.com/wiki/?curid=50494)
-* [ScourgeBringer](https://www.pcgamingwiki.com/wiki/?curid=129373)
 * [Scout's Honor](https://www.pcgamingwiki.com/wiki/?curid=122818)
 * [SCP - Wandering Around: The Will of a Single Tale, Part 1](https://www.pcgamingwiki.com/wiki/?curid=127750)
 * [SCP 087. Re](https://www.pcgamingwiki.com/wiki/?curid=36207)
