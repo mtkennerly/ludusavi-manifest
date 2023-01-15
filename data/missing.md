@@ -8950,7 +8950,6 @@
 * [Dooors VR](https://www.pcgamingwiki.com/wiki/?curid=55722)
 * [Door](https://www.pcgamingwiki.com/wiki/?curid=99364)
 * [Door in the Woods](https://www.pcgamingwiki.com/wiki/?curid=152707)
-* [Door Kickers 2: Task Force North](https://www.pcgamingwiki.com/wiki/?curid=167984)
 * [Door To Door](https://www.pcgamingwiki.com/wiki/?curid=41904)
 * [Door2:Key](https://www.pcgamingwiki.com/wiki/?curid=150938)
 * [Doors](https://www.pcgamingwiki.com/wiki/?curid=44639)
