@@ -17216,6 +17216,7 @@
 * [Kunoichi Botan](https://www.pcgamingwiki.com/wiki/?curid=124325)
 * [Kunoichi Ninja](https://www.pcgamingwiki.com/wiki/?curid=149797)
 * [Kunoichi Rush](https://www.pcgamingwiki.com/wiki/?curid=80938)
+* [KUR](https://www.pcgamingwiki.com/wiki/?curid=184493)
 * [Kuraburo Kai](https://www.pcgamingwiki.com/wiki/?curid=41619)
 * [Kuro Survival](https://www.pcgamingwiki.com/wiki/?curid=63912)
 * [Kurokami-sama's Feast](https://www.pcgamingwiki.com/wiki/?curid=174571)
