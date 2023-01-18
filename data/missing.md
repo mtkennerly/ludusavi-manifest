@@ -15302,7 +15302,6 @@
 * [Hytale](https://www.pcgamingwiki.com/wiki/?curid=164963)
 * [I (Don't) Hate Hentai Puzzles](https://www.pcgamingwiki.com/wiki/?curid=148525)
 * [I ♥ You!](https://www.pcgamingwiki.com/wiki/?curid=110038)
-* [I am an Air Traffic Controller 4](https://www.pcgamingwiki.com/wiki/?curid=171738)
 * [I Am Caligula](https://www.pcgamingwiki.com/wiki/?curid=43959)
 * [I Am Data](https://www.pcgamingwiki.com/wiki/?curid=144606)
 * [I Am Fish](https://www.pcgamingwiki.com/wiki/?curid=171602)
