@@ -36185,6 +36185,7 @@
 * [Wobbledogs](https://www.pcgamingwiki.com/wiki/?curid=177804)
 * [Wobbly Jungle](https://www.pcgamingwiki.com/wiki/?curid=43612)
 * [Woeful Woebots](https://www.pcgamingwiki.com/wiki/?curid=62902)
+* [Wojak Rush](https://www.pcgamingwiki.com/wiki/?curid=184505)
 * [Wojdan](https://www.pcgamingwiki.com/wiki/?curid=56348)
 * [Wolf & Pigs](https://www.pcgamingwiki.com/wiki/?curid=153720)
 * [Wolf & Rabbit](https://www.pcgamingwiki.com/wiki/?curid=88686)
