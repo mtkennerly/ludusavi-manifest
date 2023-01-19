@@ -22850,7 +22850,6 @@
 * [Persian Nights: Sands of Wonders](https://www.pcgamingwiki.com/wiki/?curid=63916)
 * [Persian: The Great Lamp Heist](https://www.pcgamingwiki.com/wiki/?curid=65843)
 * [Perso](https://www.pcgamingwiki.com/wiki/?curid=59663)
-* [Persona 3 Portable](https://www.pcgamingwiki.com/wiki/?curid=178254)
 * [Personal Disco VR](https://www.pcgamingwiki.com/wiki/?curid=60734)
 * [Personal Nightmare](https://www.pcgamingwiki.com/wiki/?curid=131669)
 * [Perspectives: Aleppo-Helsinki](https://www.pcgamingwiki.com/wiki/?curid=75562)
