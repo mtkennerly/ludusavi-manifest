@@ -24637,6 +24637,7 @@
 * [Raid On Coasts](https://www.pcgamingwiki.com/wiki/?curid=66223)
 * [Raid on the Ruhr](https://www.pcgamingwiki.com/wiki/?curid=130263)
 * [Raiden](https://www.pcgamingwiki.com/wiki/?curid=176745)
+* [Raiden III x MIKADO MANIAX](https://www.pcgamingwiki.com/wiki/?curid=184513)
 * [Raiden IV x MIKADO remix](https://www.pcgamingwiki.com/wiki/?curid=179898)
 * [Raiden V: Director's Cut](https://www.pcgamingwiki.com/wiki/?curid=72588)
 * [Raiders of Chanyu](https://www.pcgamingwiki.com/wiki/?curid=145475)
