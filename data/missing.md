@@ -28356,6 +28356,7 @@
 * [Space Chaos](https://www.pcgamingwiki.com/wiki/?curid=74449)
 * [Space Chimps](https://www.pcgamingwiki.com/wiki/?curid=88498)
 * [Space Chip](https://www.pcgamingwiki.com/wiki/?curid=93814)
+* [Space Clash: The Last Frontier](https://www.pcgamingwiki.com/wiki/?curid=182675)
 * [Space Climber](https://www.pcgamingwiki.com/wiki/?curid=152889)
 * [Space Codex](https://www.pcgamingwiki.com/wiki/?curid=34131)
 * [Space Colonizers](https://www.pcgamingwiki.com/wiki/?curid=94501)
