@@ -342,19 +342,20 @@ export function pathIsTooBroad(path: string): boolean {
     // These paths are present whether or not the game is installed.
     // If possible, they should be narrowed down on the wiki.
     if ([
+        "<base>/<storeUserId>", // because `<storeUserId>` is handled as `*`
         "<home>/Documents",
         "<home>/Saved Games",
-        "<root>/config",
-        "<winDir>/win.ini",
         "<home>/AppData",
         "<home>/AppData/Local",
         "<home>/AppData/Local/Packages",
         "<home>/AppData/LocalLow",
         "<home>/AppData/Roaming",
         "<home>/Documents/My Games",
-        "<winDocuments>/My Games",
         "<home>/Library/Application Support",
         "<home>/Library/Preferences",
+        "<root>/config",
+        "<winDir>/win.ini",
+        "<winDocuments>/My Games",
     ].includes(path)) {
         return true;
     }

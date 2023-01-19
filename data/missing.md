@@ -36857,6 +36857,7 @@
 * [Zeus Begins](https://www.pcgamingwiki.com/wiki/?curid=141882)
 * [Zeus Quest Remastered](https://www.pcgamingwiki.com/wiki/?curid=35238)
 * [Zeus vs Monsters](https://www.pcgamingwiki.com/wiki/?curid=44551)
+* [Zeus: Master of Olympus](https://www.pcgamingwiki.com/wiki/?curid=5741)
 * [Zezenia Online](https://www.pcgamingwiki.com/wiki/?curid=42531)
 * [ZhanDou](https://www.pcgamingwiki.com/wiki/?curid=73782)
 * [Zhed](https://www.pcgamingwiki.com/wiki/?curid=148838)
