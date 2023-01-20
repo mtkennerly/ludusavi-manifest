@@ -32786,7 +32786,6 @@
 * [Theatre of War 2: Africa 1943](https://www.pcgamingwiki.com/wiki/?curid=51080)
 * [Theatre of War 2: Kursk 1943](https://www.pcgamingwiki.com/wiki/?curid=51078)
 * [Theatre of War 3: Korea](https://www.pcgamingwiki.com/wiki/?curid=41001)
-* [TheBlu](https://www.pcgamingwiki.com/wiki/?curid=37933)
 * [TheFisher Online](https://www.pcgamingwiki.com/wiki/?curid=142125)
 * [TheGunRunner](https://www.pcgamingwiki.com/wiki/?curid=88858)
 * [TheLooppy](https://www.pcgamingwiki.com/wiki/?curid=80990)
