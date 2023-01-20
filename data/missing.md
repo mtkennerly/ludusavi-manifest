@@ -32218,6 +32218,7 @@
 * [The Pillage](https://www.pcgamingwiki.com/wiki/?curid=94306)
 * [The Pillar](https://www.pcgamingwiki.com/wiki/?curid=151175)
 * [The Pinball Wizard](https://www.pcgamingwiki.com/wiki/?curid=147968)
+* [The Pioneers: Surviving Desolation](https://www.pcgamingwiki.com/wiki/?curid=184527)
 * [The Pirate Queen](https://www.pcgamingwiki.com/wiki/?curid=156110)
 * [The Pirate: Plague of the Dead](https://www.pcgamingwiki.com/wiki/?curid=72883)
 * [The Pirates of Sector 7](https://www.pcgamingwiki.com/wiki/?curid=98572)
