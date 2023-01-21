@@ -11315,7 +11315,6 @@
 * [FIFA Manager 07](https://www.pcgamingwiki.com/wiki/?curid=124916)
 * [FIFA Manager 08](https://www.pcgamingwiki.com/wiki/?curid=124892)
 * [FIFA Manager 09](https://www.pcgamingwiki.com/wiki/?curid=124889)
-* [FIFA Manager 10](https://www.pcgamingwiki.com/wiki/?curid=124790)
 * [FIFA Manager 11](https://www.pcgamingwiki.com/wiki/?curid=124787)
 * [FIFA Mobile Football](https://www.pcgamingwiki.com/wiki/?curid=174657)
 * [FIFA Online 4](https://www.pcgamingwiki.com/wiki/?curid=174654)
