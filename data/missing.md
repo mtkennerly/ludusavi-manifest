@@ -7033,7 +7033,6 @@
 * [Cube - The Jumper](https://www.pcgamingwiki.com/wiki/?curid=93712)
 * [CuBe (2019)](https://www.pcgamingwiki.com/wiki/?curid=149412)
 * [CUBE 332](https://www.pcgamingwiki.com/wiki/?curid=112760)
-* [Cube Attack](https://www.pcgamingwiki.com/wiki/?curid=149188)
 * [Cube Color](https://www.pcgamingwiki.com/wiki/?curid=76012)
 * [Cube Creator X](https://www.pcgamingwiki.com/wiki/?curid=153272)
 * [Cube Creatures](https://www.pcgamingwiki.com/wiki/?curid=66418)
