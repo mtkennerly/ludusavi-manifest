@@ -1570,7 +1570,6 @@
 * [Anathema](https://www.pcgamingwiki.com/wiki/?curid=65770)
 * [Anceder](https://www.pcgamingwiki.com/wiki/?curid=102867)
 * [Ancestory](https://www.pcgamingwiki.com/wiki/?curid=46080)
-* [Anchorhead](https://www.pcgamingwiki.com/wiki/?curid=80551)
 * [Ancient Abyss](https://www.pcgamingwiki.com/wiki/?curid=122660)
 * [Ancient Amuletor VR](https://www.pcgamingwiki.com/wiki/?curid=64592)
 * [Ancient Anathema](https://www.pcgamingwiki.com/wiki/?curid=125920)
