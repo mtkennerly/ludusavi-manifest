@@ -36434,6 +36434,7 @@
 * [WW Fantasy](https://www.pcgamingwiki.com/wiki/?curid=92277)
 * [WW2 Zombie Range VR](https://www.pcgamingwiki.com/wiki/?curid=141236)
 * [WW2: Bunker Simulator](https://www.pcgamingwiki.com/wiki/?curid=151553)
+* [WWE 2K23](https://www.pcgamingwiki.com/wiki/?curid=184565)
 * [WWF Raw](https://www.pcgamingwiki.com/wiki/?curid=35829)
 * [WWII - TD](https://www.pcgamingwiki.com/wiki/?curid=104483)
 * [WWII英雄列伝 最強の虎 クルト・クニスペル](https://www.pcgamingwiki.com/wiki/?curid=77247)
