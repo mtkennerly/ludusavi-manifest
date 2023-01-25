@@ -11958,7 +11958,6 @@
 * [Forsaken Uprising](https://www.pcgamingwiki.com/wiki/?curid=60625)
 * [Forsaken World](https://www.pcgamingwiki.com/wiki/?curid=40959)
 * [Forsekir:First Invasion](https://www.pcgamingwiki.com/wiki/?curid=144947)
-* [Forspoken](https://www.pcgamingwiki.com/wiki/?curid=167289)
 * [Fort](https://www.pcgamingwiki.com/wiki/?curid=104977)
 * [FORT](https://www.pcgamingwiki.com/wiki/?curid=139320)
 * [Fort Awesome](https://www.pcgamingwiki.com/wiki/?curid=58449)
