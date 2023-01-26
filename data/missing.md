@@ -35486,6 +35486,7 @@
 * [Warium](https://www.pcgamingwiki.com/wiki/?curid=87201)
 * [Warka Flarka Flim Flam](https://www.pcgamingwiki.com/wiki/?curid=55464)
 * [Warlander](https://www.pcgamingwiki.com/wiki/?curid=132850)
+* [Warlander (2023)](https://www.pcgamingwiki.com/wiki/?curid=184642)
 * [Warlock 2: The Exiled](https://www.pcgamingwiki.com/wiki/?curid=16570)
 * [Warlock Revenge](https://www.pcgamingwiki.com/wiki/?curid=73677)
 * [Warlock: Master of the Arcane](https://www.pcgamingwiki.com/wiki/?curid=2203)
