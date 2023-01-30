@@ -23146,7 +23146,6 @@
 * [Pixel Privateers](https://www.pcgamingwiki.com/wiki/?curid=39181)
 * [Pixel Pursuit](https://www.pcgamingwiki.com/wiki/?curid=64773)
 * [Pixel Puzzle Picross](https://www.pcgamingwiki.com/wiki/?curid=69210)
-* [Pixel Puzzles 2: Anime](https://www.pcgamingwiki.com/wiki/?curid=48353)
 * [Pixel Puzzles 2: Christmas](https://www.pcgamingwiki.com/wiki/?curid=123671)
 * [Pixel Puzzles 2: Halloween](https://www.pcgamingwiki.com/wiki/?curid=148703)
 * [Pixel Puzzles 2: Paintings](https://www.pcgamingwiki.com/wiki/?curid=132375)
