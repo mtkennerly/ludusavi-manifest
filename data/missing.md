@@ -25384,7 +25384,6 @@
 * [RGBverse](https://www.pcgamingwiki.com/wiki/?curid=60872)
 * [Rhapsody II: Ballad of the Little Princess](https://www.pcgamingwiki.com/wiki/?curid=184790)
 * [Rhapsody III: Memories of Marl Kingdom](https://www.pcgamingwiki.com/wiki/?curid=184791)
-* [Rhapsody: A Musical Adventure](https://www.pcgamingwiki.com/wiki/?curid=176751)
 * [RHCs StretchingVr](https://www.pcgamingwiki.com/wiki/?curid=92666)
 * [Rheksetor: Waves of Fury](https://www.pcgamingwiki.com/wiki/?curid=79129)
 * [RHEM 2: The Cave](https://www.pcgamingwiki.com/wiki/?curid=131268)
