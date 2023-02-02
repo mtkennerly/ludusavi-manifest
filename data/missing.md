@@ -25403,7 +25403,6 @@
 * [Rhythm Nights](https://www.pcgamingwiki.com/wiki/?curid=128147)
 * [Rhythm Overdrive](https://www.pcgamingwiki.com/wiki/?curid=127203)
 * [Rhythm Rush!](https://www.pcgamingwiki.com/wiki/?curid=60886)
-* [Rhythm Sprout](https://www.pcgamingwiki.com/wiki/?curid=172110)
 * [Rhythm World - Master Project](https://www.pcgamingwiki.com/wiki/?curid=77305)
 * [RhythmDanceVR](https://www.pcgamingwiki.com/wiki/?curid=156631)
 * [Rhythmic Village](https://www.pcgamingwiki.com/wiki/?curid=175488)
