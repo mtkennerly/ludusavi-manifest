@@ -18513,7 +18513,6 @@
 * [Lurk in the Dark : Prologue](https://www.pcgamingwiki.com/wiki/?curid=150452)
 * [Lust Academy - Season 1](https://www.pcgamingwiki.com/wiki/?curid=174788)
 * [Lust from Beyond: Prologue](https://www.pcgamingwiki.com/wiki/?curid=153344)
-* [Lust Theory - Season 1](https://www.pcgamingwiki.com/wiki/?curid=172942)
 * [Lustful Survival](https://www.pcgamingwiki.com/wiki/?curid=149961)
 * [Luvocious](https://www.pcgamingwiki.com/wiki/?curid=75693)
 * [Lux Alliance](https://www.pcgamingwiki.com/wiki/?curid=63008)
