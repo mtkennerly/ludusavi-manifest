@@ -5693,6 +5693,7 @@
 * [Chop](https://www.pcgamingwiki.com/wiki/?curid=88217)
 * [Chop and Drop VR](https://www.pcgamingwiki.com/wiki/?curid=68835)
 * [Chop Chop Princess!](https://www.pcgamingwiki.com/wiki/?curid=74948)
+* [Chop Goblins](https://www.pcgamingwiki.com/wiki/?curid=184926)
 * [Chop is dish](https://www.pcgamingwiki.com/wiki/?curid=123649)
 * [Chop It](https://www.pcgamingwiki.com/wiki/?curid=105093)
 * [Chop Suey](https://www.pcgamingwiki.com/wiki/?curid=184697)
