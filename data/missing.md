@@ -8132,6 +8132,7 @@
 * [Delicious! Pretty Girls Mahjong Solitaire](https://www.pcgamingwiki.com/wiki/?curid=51425)
 * [Delila's Gift](https://www.pcgamingwiki.com/wiki/?curid=62326)
 * [Delirium](https://www.pcgamingwiki.com/wiki/?curid=68362)
+* [Delirium (2023)](https://www.pcgamingwiki.com/wiki/?curid=184929)
 * [Delirium VR](https://www.pcgamingwiki.com/wiki/?curid=130125)
 * [Delirium: Bad Trip Edition](https://www.pcgamingwiki.com/wiki/?curid=82700)
 * [Deliverace](https://www.pcgamingwiki.com/wiki/?curid=91470)
