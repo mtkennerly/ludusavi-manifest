@@ -1547,7 +1547,6 @@
 * [Amulet Zero 零物语 - Optimize](https://www.pcgamingwiki.com/wiki/?curid=103919)
 * [Amygdala](https://www.pcgamingwiki.com/wiki/?curid=47261)
 * [An Adventurer's Tale](https://www.pcgamingwiki.com/wiki/?curid=124372)
-* [An Airport for Aliens Currently Run by Dogs](https://www.pcgamingwiki.com/wiki/?curid=168680)
 * [An Alien with a Magnet](https://www.pcgamingwiki.com/wiki/?curid=59502)
 * [An Aspie Life](https://www.pcgamingwiki.com/wiki/?curid=81460)
 * [An Egg Can Dream](https://www.pcgamingwiki.com/wiki/?curid=150760)
