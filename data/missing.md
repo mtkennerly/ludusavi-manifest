@@ -28656,7 +28656,6 @@
 * [Special Delivery](https://www.pcgamingwiki.com/wiki/?curid=54517)
 * [Special Force VR](https://www.pcgamingwiki.com/wiki/?curid=65684)
 * [Special Force VR: Infinity War](https://www.pcgamingwiki.com/wiki/?curid=141578)
-* [Special Forces: Team X](https://www.pcgamingwiki.com/wiki/?curid=40662)
 * [Special Tactics](https://www.pcgamingwiki.com/wiki/?curid=43382)
 * [Special Warfare](https://www.pcgamingwiki.com/wiki/?curid=107946)
 * [Species: Artificial Life, Real Evolution](https://www.pcgamingwiki.com/wiki/?curid=105201)
