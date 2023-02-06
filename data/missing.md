@@ -11417,7 +11417,6 @@
 * [Final Warrior Quest](https://www.pcgamingwiki.com/wiki/?curid=91803)
 * [Final World](https://www.pcgamingwiki.com/wiki/?curid=62927)
 * [FinalAdventure](https://www.pcgamingwiki.com/wiki/?curid=136826)
-* [FinalBoss](https://www.pcgamingwiki.com/wiki/?curid=88904)
 * [FinalFire](https://www.pcgamingwiki.com/wiki/?curid=93068)
 * [Find & Destroy: Tank Strategy](https://www.pcgamingwiki.com/wiki/?curid=96163)
 * [Find Differences](https://www.pcgamingwiki.com/wiki/?curid=121437)
