@@ -14787,7 +14787,6 @@
 * [Hog Hunter 2021](https://www.pcgamingwiki.com/wiki/?curid=180711)
 * [Hoggy 2](https://www.pcgamingwiki.com/wiki/?curid=62020)
 * [Hogs of War](https://www.pcgamingwiki.com/wiki/?curid=34388)
-* [Hogwarts Legacy](https://www.pcgamingwiki.com/wiki/?curid=163501)
 * [Hogwash](https://www.pcgamingwiki.com/wiki/?curid=148384)
 * [Hokan: Monster Slayer](https://www.pcgamingwiki.com/wiki/?curid=94072)
 * [Hold My Beer](https://www.pcgamingwiki.com/wiki/?curid=66154)
