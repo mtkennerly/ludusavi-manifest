@@ -3017,7 +3017,6 @@
 * [Battle Chess](https://www.pcgamingwiki.com/wiki/?curid=8629)
 * [Battle Chess 4000](https://www.pcgamingwiki.com/wiki/?curid=8634)
 * [Battle Chess II: Chinese Chess](https://www.pcgamingwiki.com/wiki/?curid=8632)
-* [Battle Chess: Game of Kings](https://www.pcgamingwiki.com/wiki/?curid=45308)
 * [Battle Commanders](https://www.pcgamingwiki.com/wiki/?curid=62104)
 * [Battle Crust](https://www.pcgamingwiki.com/wiki/?curid=44439)
 * [Battle Dome](https://www.pcgamingwiki.com/wiki/?curid=33730)
