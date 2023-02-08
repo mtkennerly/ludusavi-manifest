@@ -23421,6 +23421,7 @@
 * [Pocket Tanks](https://www.pcgamingwiki.com/wiki/?curid=181911)
 * [Pocket Universe: Create Your Community](https://www.pcgamingwiki.com/wiki/?curid=69026)
 * [Pocket Waifu](https://www.pcgamingwiki.com/wiki/?curid=146066)
+* [Pocky & Rocky Reshrined](https://www.pcgamingwiki.com/wiki/?curid=185034)
 * [Pocoman](https://www.pcgamingwiki.com/wiki/?curid=128236)
 * [Podium Bash](https://www.pcgamingwiki.com/wiki/?curid=74512)
 * [Poggers](https://www.pcgamingwiki.com/wiki/?curid=129557)
