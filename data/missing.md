@@ -18925,8 +18925,6 @@
 * [MapleStory 2](https://www.pcgamingwiki.com/wiki/?curid=121609)
 * [Mar War: The Evil Awakens](https://www.pcgamingwiki.com/wiki/?curid=80974)
 * [Maraiyum: Rise of the Setting Sun](https://www.pcgamingwiki.com/wiki/?curid=36778)
-* [Marathon 2: Durandal](https://www.pcgamingwiki.com/wiki/?curid=6955)
-* [Marathon Infinity](https://www.pcgamingwiki.com/wiki/?curid=6963)
 * [Marauder](https://www.pcgamingwiki.com/wiki/?curid=50480)
 * [Marble Age](https://www.pcgamingwiki.com/wiki/?curid=38319)
 * [Marble Age: Remastered](https://www.pcgamingwiki.com/wiki/?curid=166995)
