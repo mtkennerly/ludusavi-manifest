@@ -16167,7 +16167,6 @@
 * [Its Simple, SHOOT](https://www.pcgamingwiki.com/wiki/?curid=129863)
 * [Its Your Last Chance in New School](https://www.pcgamingwiki.com/wiki/?curid=55255)
 * [Itsy Blitzy](https://www.pcgamingwiki.com/wiki/?curid=109056)
-* [Itta](https://www.pcgamingwiki.com/wiki/?curid=88253)
 * [ItzaBitza](https://www.pcgamingwiki.com/wiki/?curid=41220)
 * [ItzaZoo](https://www.pcgamingwiki.com/wiki/?curid=41195)
 * [Iubes:2](https://www.pcgamingwiki.com/wiki/?curid=77962)
