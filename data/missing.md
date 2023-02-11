@@ -36509,7 +36509,6 @@
 * [Xenomorph](https://www.pcgamingwiki.com/wiki/?curid=80350)
 * [Xenon 2: Megablast](https://www.pcgamingwiki.com/wiki/?curid=107044)
 * [Xenon Valkyrie](https://www.pcgamingwiki.com/wiki/?curid=55772)
-* [Xenonauts 2](https://www.pcgamingwiki.com/wiki/?curid=91681)
 * [Xenoraid](https://www.pcgamingwiki.com/wiki/?curid=39243)
 * [XenoRaptor](https://www.pcgamingwiki.com/wiki/?curid=37341)
 * [XENOS Defense](https://www.pcgamingwiki.com/wiki/?curid=144061)
