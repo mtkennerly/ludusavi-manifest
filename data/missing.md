@@ -12624,7 +12624,6 @@
 * [Garrison Gauntlet](https://www.pcgamingwiki.com/wiki/?curid=104217)
 * [Garrison: Archangel](https://www.pcgamingwiki.com/wiki/?curid=82422)
 * [Garshasp: Temple of the Dragon](https://www.pcgamingwiki.com/wiki/?curid=40727)
-* [Garten of Banban](https://www.pcgamingwiki.com/wiki/?curid=184341)
 * [Garten of Banban 2](https://www.pcgamingwiki.com/wiki/?curid=184344)
 * [Gary Grigsby's War in the East](https://www.pcgamingwiki.com/wiki/?curid=37211)
 * [Gary Grigsby's War in the East 2](https://www.pcgamingwiki.com/wiki/?curid=172025)
