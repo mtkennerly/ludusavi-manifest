@@ -22023,6 +22023,7 @@
 * [Onii-chan Asobo](https://www.pcgamingwiki.com/wiki/?curid=149418)
 * [Onimod Land](https://www.pcgamingwiki.com/wiki/?curid=75025)
 * [Onion Force](https://www.pcgamingwiki.com/wiki/?curid=44351)
+* [Onirike](https://www.pcgamingwiki.com/wiki/?curid=185118)
 * [Oniris Basket VR](https://www.pcgamingwiki.com/wiki/?curid=40257)
 * [Onirism](https://www.pcgamingwiki.com/wiki/?curid=134685)
 * [Onironauta](https://www.pcgamingwiki.com/wiki/?curid=72783)
