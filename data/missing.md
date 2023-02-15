@@ -35373,7 +35373,6 @@
 * [WannaMine](https://www.pcgamingwiki.com/wiki/?curid=87129)
 * [Wanted Corp.](https://www.pcgamingwiki.com/wiki/?curid=52115)
 * [Wanted Killer VR](https://www.pcgamingwiki.com/wiki/?curid=91831)
-* [Wanted: Dead](https://www.pcgamingwiki.com/wiki/?curid=184374)
 * [War and Peace: 1796-1815](https://www.pcgamingwiki.com/wiki/?curid=167704)
 * [War Battle Royale Battlegrounds](https://www.pcgamingwiki.com/wiki/?curid=149833)
 * [War Birds: WW2 Air strike 1942](https://www.pcgamingwiki.com/wiki/?curid=44090)
