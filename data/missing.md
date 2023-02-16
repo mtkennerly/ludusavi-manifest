@@ -19381,7 +19381,6 @@
 * [Meow-Jong](https://www.pcgamingwiki.com/wiki/?curid=51479)
 * [Meower's Quest: Jasper's Tale](https://www.pcgamingwiki.com/wiki/?curid=98074)
 * [Meowk and Frocco](https://www.pcgamingwiki.com/wiki/?curid=136881)
-* [Mercedes-Benz Truck Racing](https://www.pcgamingwiki.com/wiki/?curid=25061)
 * [Mercenary DungeonS: Hell Warriors](https://www.pcgamingwiki.com/wiki/?curid=153883)
 * [Mercenary Leto](https://www.pcgamingwiki.com/wiki/?curid=104933)
 * [Mercfighter](https://www.pcgamingwiki.com/wiki/?curid=66631)
