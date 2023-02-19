@@ -28342,6 +28342,8 @@
 * [Space - The Return of the Pixxelfrazzer](https://www.pcgamingwiki.com/wiki/?curid=45791)
 * [Space Accident](https://www.pcgamingwiki.com/wiki/?curid=175694)
 * [Space Ace](https://www.pcgamingwiki.com/wiki/?curid=12984)
+* [Space Adventure](https://www.pcgamingwiki.com/wiki/?curid=185368)
+* [Space Adventure II](https://www.pcgamingwiki.com/wiki/?curid=185366)
 * [Space Adventure TD](https://www.pcgamingwiki.com/wiki/?curid=129561)
 * [Space Ark](https://www.pcgamingwiki.com/wiki/?curid=40820)
 * [Space Armor 2](https://www.pcgamingwiki.com/wiki/?curid=94533)
