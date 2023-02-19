@@ -35531,6 +35531,7 @@
 * [Warman](https://www.pcgamingwiki.com/wiki/?curid=105571)
 * [Warmode](https://www.pcgamingwiki.com/wiki/?curid=46719)
 * [Warmonger](https://www.pcgamingwiki.com/wiki/?curid=87333)
+* [Warmonger: Operation Downtown Destruction](https://www.pcgamingwiki.com/wiki/?curid=185360)
 * [Warmord](https://www.pcgamingwiki.com/wiki/?curid=132084)
 * [Warp](https://www.pcgamingwiki.com/wiki/?curid=1914)
 * [Warp Drive](https://www.pcgamingwiki.com/wiki/?curid=164913)
