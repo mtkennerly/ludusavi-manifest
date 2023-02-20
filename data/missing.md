@@ -11147,7 +11147,6 @@
 * [Fatal Burst](https://www.pcgamingwiki.com/wiki/?curid=89626)
 * [Fatal Evidence: Cursed Island](https://www.pcgamingwiki.com/wiki/?curid=138812)
 * [Fatal Fight](https://www.pcgamingwiki.com/wiki/?curid=33868)
-* [Fatal Frame: Mask of the Lunar Eclipse](https://www.pcgamingwiki.com/wiki/?curid=181513)
 * [Fatal Fury](https://www.pcgamingwiki.com/wiki/?curid=133151)
 * [Fatal Fury 2](https://www.pcgamingwiki.com/wiki/?curid=133155)
 * [Fatal Fury Special](https://www.pcgamingwiki.com/wiki/?curid=131734)
