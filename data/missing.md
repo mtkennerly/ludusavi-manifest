@@ -9823,8 +9823,6 @@
 * [EEP TSM Gotthardbahn Nordrampe Modul Erstfeld](https://www.pcgamingwiki.com/wiki/?curid=93604)
 * [Eets](https://www.pcgamingwiki.com/wiki/?curid=8739)
 * [EF Universe: Reclaiming the World](https://www.pcgamingwiki.com/wiki/?curid=130287)
-* [Ef: The First Tale](https://www.pcgamingwiki.com/wiki/?curid=148797)
-* [Ef: The Latter Tale](https://www.pcgamingwiki.com/wiki/?curid=148795)
 * [EF2000](https://www.pcgamingwiki.com/wiki/?curid=22221)
 * [EGE DistantPlanet NonXXX](https://www.pcgamingwiki.com/wiki/?curid=73191)
 * [Egg Escape](https://www.pcgamingwiki.com/wiki/?curid=132418)
