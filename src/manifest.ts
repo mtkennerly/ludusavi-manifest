@@ -90,7 +90,11 @@ function integrateWikiData(game: Game, cache: WikiGameCache[""]): void {
     game.registry = info.registry;
 }
 
-function integrateSteamData(game: Game, appInfo: SteamGameCache[""]): void {
+function integrateSteamData(game: Game, appInfo: SteamGameCache[""] | undefined): void {
+    if (appInfo === undefined) {
+        return;
+    }
+
     if (appInfo.installDir !== undefined) {
         game.installDir = { [appInfo.installDir]: {} };
     }
