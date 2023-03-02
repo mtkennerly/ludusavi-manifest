@@ -17000,6 +17000,7 @@
 * [Kio's Adventure](https://www.pcgamingwiki.com/wiki/?curid=60890)
 * [Kira](https://www.pcgamingwiki.com/wiki/?curid=59586)
 * [Kira's Contract](https://www.pcgamingwiki.com/wiki/?curid=149935)
+* [Kirakira Stars Idol Project: Ai](https://www.pcgamingwiki.com/wiki/?curid=185604)
 * [Kirikou](https://www.pcgamingwiki.com/wiki/?curid=172466)
 * [Kisaragi no Hougyoku](https://www.pcgamingwiki.com/wiki/?curid=51427)
 * [Kismet](https://www.pcgamingwiki.com/wiki/?curid=37879)
