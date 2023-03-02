@@ -24171,6 +24171,7 @@
 * [Puppet Blaster](https://www.pcgamingwiki.com/wiki/?curid=121550)
 * [Puppet Fever](https://www.pcgamingwiki.com/wiki/?curid=91546)
 * [Puppet Kings](https://www.pcgamingwiki.com/wiki/?curid=77086)
+* [Puppet Master: The Game](https://www.pcgamingwiki.com/wiki/?curid=185596)
 * [Puppet Story](https://www.pcgamingwiki.com/wiki/?curid=149134)
 * [PuppetShow: Destiny Undone](https://www.pcgamingwiki.com/wiki/?curid=98906)
 * [PuppetShow: Lightning Strikes](https://www.pcgamingwiki.com/wiki/?curid=127728)
