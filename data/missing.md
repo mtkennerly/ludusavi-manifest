@@ -26597,7 +26597,6 @@
 * [Scarlet Weather Rhapsody](https://www.pcgamingwiki.com/wiki/?curid=31029)
 * [Scarlett Mysteries: Cursed Child](https://www.pcgamingwiki.com/wiki/?curid=63155)
 * [Scarlett's Dungeon](https://www.pcgamingwiki.com/wiki/?curid=69498)
-* [Scars Above](https://www.pcgamingwiki.com/wiki/?curid=185471)
 * [Scars of Summer](https://www.pcgamingwiki.com/wiki/?curid=164473)
 * [Scary Defense](https://www.pcgamingwiki.com/wiki/?curid=90028)
 * [Scary House](https://www.pcgamingwiki.com/wiki/?curid=78512)
