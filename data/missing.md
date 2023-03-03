@@ -18986,6 +18986,7 @@
 * [Mark After Dark](https://www.pcgamingwiki.com/wiki/?curid=71946)
 * [Market Dominion](https://www.pcgamingwiki.com/wiki/?curid=126222)
 * [Market Tycoon](https://www.pcgamingwiki.com/wiki/?curid=62164)
+* [Marko: Beyond Brave](https://www.pcgamingwiki.com/wiki/?curid=185630)
 * [Markov Alg](https://www.pcgamingwiki.com/wiki/?curid=150309)
 * [MarksmanVR](https://www.pcgamingwiki.com/wiki/?curid=62606)
 * [Marle: The Labyrinth of the Black Sea](https://www.pcgamingwiki.com/wiki/?curid=124478)
