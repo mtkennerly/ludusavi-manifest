@@ -22579,6 +22579,7 @@
 * [Paper Shakespeare: To Date or Not To Date? 2](https://www.pcgamingwiki.com/wiki/?curid=154353)
 * [PAPER TANKS](https://www.pcgamingwiki.com/wiki/?curid=156927)
 * [Paper Toss VR](https://www.pcgamingwiki.com/wiki/?curid=58983)
+* [Paper Trail](https://www.pcgamingwiki.com/wiki/?curid=185636)
 * [Paper Valley](https://www.pcgamingwiki.com/wiki/?curid=95317)
 * [Paperback: The Game](https://www.pcgamingwiki.com/wiki/?curid=76189)
 * [Paperbark](https://www.pcgamingwiki.com/wiki/?curid=122308)
