@@ -1267,6 +1267,7 @@
 * [Alien Arena: Warriors of Mars](https://www.pcgamingwiki.com/wiki/?curid=66291)
 * [Alien Attack in Space](https://www.pcgamingwiki.com/wiki/?curid=34944)
 * [Alien Attack: Pocket Edition](https://www.pcgamingwiki.com/wiki/?curid=102343)
+* [Alien Blast: The Encounter](https://www.pcgamingwiki.com/wiki/?curid=185651)
 * [Alien Blitz](https://www.pcgamingwiki.com/wiki/?curid=43119)
 * [Alien Breed](https://www.pcgamingwiki.com/wiki/?curid=7237)
 * [Alien Bubble Destroyer](https://www.pcgamingwiki.com/wiki/?curid=79830)
