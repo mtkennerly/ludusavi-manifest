@@ -5849,6 +5849,7 @@
 * [Cities XL 2011](https://www.pcgamingwiki.com/wiki/?curid=6177)
 * [Cities XL 2012](https://www.pcgamingwiki.com/wiki/?curid=6179)
 * [Cities XXL](https://www.pcgamingwiki.com/wiki/?curid=29557)
+* [Cities: Skylines II](https://www.pcgamingwiki.com/wiki/?curid=185663)
 * [CitiesCorp Concept - Build Everything on Your Own](https://www.pcgamingwiki.com/wiki/?curid=43265)
 * [Citizen of Rome - Dynasty Ascendant](https://www.pcgamingwiki.com/wiki/?curid=135467)
 * [Citizens: Far Lands](https://www.pcgamingwiki.com/wiki/?curid=182681)
