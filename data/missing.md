@@ -35655,7 +35655,6 @@
 * [Waves of the Atlantide](https://www.pcgamingwiki.com/wiki/?curid=130213)
 * [Waves²](https://www.pcgamingwiki.com/wiki/?curid=45254)
 * [Waveshaper](https://www.pcgamingwiki.com/wiki/?curid=58690)
-* [Wavetale](https://www.pcgamingwiki.com/wiki/?curid=184241)
 * [Wavey the Rocket](https://www.pcgamingwiki.com/wiki/?curid=157037)
 * [Wavy Trip](https://www.pcgamingwiki.com/wiki/?curid=88099)
 * [Waxworks](https://www.pcgamingwiki.com/wiki/?curid=14276)
