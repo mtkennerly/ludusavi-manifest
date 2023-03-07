@@ -17772,7 +17772,6 @@
 * [Libra of the Vampire Princess](https://www.pcgamingwiki.com/wiki/?curid=63747)
 * [Libra of the Vampire Princess: Lycoris & Aoi in "The Promise" PLUS Iris in "Homeworld"](https://www.pcgamingwiki.com/wiki/?curid=64781)
 * [Library](https://www.pcgamingwiki.com/wiki/?curid=104239)
-* [Library of Ruina](https://www.pcgamingwiki.com/wiki/?curid=166331)
 * [Lichtspeer](https://www.pcgamingwiki.com/wiki/?curid=38925)
 * [Lie In My Heart](https://www.pcgamingwiki.com/wiki/?curid=149190)
 * [Lies of P](https://www.pcgamingwiki.com/wiki/?curid=181215)
