@@ -31520,7 +31520,6 @@
 * [The Final Stand](https://www.pcgamingwiki.com/wiki/?curid=50314)
 * [The Final Stand: Breakout](https://www.pcgamingwiki.com/wiki/?curid=156849)
 * [The Final Take](https://www.pcgamingwiki.com/wiki/?curid=33508)
-* [The Finals](https://www.pcgamingwiki.com/wiki/?curid=181915)
 * [The Finnish Virtual Art Gallery](https://www.pcgamingwiki.com/wiki/?curid=121521)
 * [The Firlyn Stones](https://www.pcgamingwiki.com/wiki/?curid=92243)
 * [The First Class VR](https://www.pcgamingwiki.com/wiki/?curid=73762)
