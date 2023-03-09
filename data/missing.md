@@ -30289,6 +30289,7 @@
 * [Sword of Fargoal](https://www.pcgamingwiki.com/wiki/?curid=30585)
 * [Sword of Fireheart - The Awakening Element](https://www.pcgamingwiki.com/wiki/?curid=50956)
 * [Sword of Legends Online](https://www.pcgamingwiki.com/wiki/?curid=170012)
+* [Sword of Moonlight: King’s Field Making Tool](https://www.pcgamingwiki.com/wiki/?curid=185682)
 * [Sword of Rapier](https://www.pcgamingwiki.com/wiki/?curid=121940)
 * [Sword of the Black Stone](https://www.pcgamingwiki.com/wiki/?curid=94050)
 * [Sword of the Guardian](https://www.pcgamingwiki.com/wiki/?curid=94068)
