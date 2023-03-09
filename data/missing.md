@@ -7962,6 +7962,7 @@
 * [Debuff](https://www.pcgamingwiki.com/wiki/?curid=77932)
 * [Debugger 3.16: 100% bugged](https://www.pcgamingwiki.com/wiki/?curid=39797)
 * [Decaying West](https://www.pcgamingwiki.com/wiki/?curid=137268)
+* [Deceit 2](https://www.pcgamingwiki.com/wiki/?curid=185719)
 * [Deceiver](https://www.pcgamingwiki.com/wiki/?curid=81808)
 * [Decisions](https://www.pcgamingwiki.com/wiki/?curid=126211)
 * [Decisive Campaigns: Barbarossa](https://www.pcgamingwiki.com/wiki/?curid=43296)
