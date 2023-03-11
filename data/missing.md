@@ -21396,7 +21396,6 @@
 * [Nino's Isekai](https://www.pcgamingwiki.com/wiki/?curid=140910)
 * [Niplheim's Hunter - Branded Azel](https://www.pcgamingwiki.com/wiki/?curid=124639)
 * [Nippon Ecchi Jigsaw](https://www.pcgamingwiki.com/wiki/?curid=149027)
-* [Nippon Marathon](https://www.pcgamingwiki.com/wiki/?curid=86977)
 * [Nirvana Pilot Yume](https://www.pcgamingwiki.com/wiki/?curid=77950)
 * [Nirvana: The First Travel](https://www.pcgamingwiki.com/wiki/?curid=47027)
 * [NITE Team 4](https://www.pcgamingwiki.com/wiki/?curid=55616)
