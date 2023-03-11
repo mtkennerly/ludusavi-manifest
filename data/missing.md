@@ -13249,6 +13249,7 @@
 * [GORILLA TOWN](https://www.pcgamingwiki.com/wiki/?curid=156981)
 * [Gorilla Unko](https://www.pcgamingwiki.com/wiki/?curid=132337)
 * [Gorky 02: Aurora Watching](https://www.pcgamingwiki.com/wiki/?curid=72441)
+* [Gorky Zero: Beyond Honor](https://www.pcgamingwiki.com/wiki/?curid=185759)
 * [Gorn](https://www.pcgamingwiki.com/wiki/?curid=64516)
 * [Goro](https://www.pcgamingwiki.com/wiki/?curid=70168)
 * [Goro 2](https://www.pcgamingwiki.com/wiki/?curid=74455)
