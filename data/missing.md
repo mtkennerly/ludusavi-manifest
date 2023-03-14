@@ -17546,6 +17546,7 @@
 * [League of Pixels](https://www.pcgamingwiki.com/wiki/?curid=156035)
 * [League of Survivors](https://www.pcgamingwiki.com/wiki/?curid=87593)
 * [Leanna's Slice of Life](https://www.pcgamingwiki.com/wiki/?curid=128350)
+* [LEAP](https://www.pcgamingwiki.com/wiki/?curid=185638)
 * [Leap 2](https://www.pcgamingwiki.com/wiki/?curid=97950)
 * [Leap Up no jutsu](https://www.pcgamingwiki.com/wiki/?curid=55562)
 * [Leapoid](https://www.pcgamingwiki.com/wiki/?curid=150743)
