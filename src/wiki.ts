@@ -364,6 +364,11 @@ export function pathIsTooBroad(path: string): boolean {
         return true;
     }
 
+    // Several games/episodes are grouped together here.
+    if (path.startsWith("<winDocuments>/Telltale Games/*/")) {
+        return true;
+    }
+
     // Drive letters:
     if (path.match(/^[a-zA-Z]:$/)) {
         return true;
