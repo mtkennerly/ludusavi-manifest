@@ -35435,6 +35435,7 @@
 * [War of the Human Tanks - ALTeR](https://www.pcgamingwiki.com/wiki/?curid=34045)
 * [War of the Human Tanks - Limited Operations](https://www.pcgamingwiki.com/wiki/?curid=33832)
 * [War of the Immortals](https://www.pcgamingwiki.com/wiki/?curid=40741)
+* [War of the Lance](https://www.pcgamingwiki.com/wiki/?curid=185828)
 * [War of the Roses](https://www.pcgamingwiki.com/wiki/?curid=10082)
 * [War of the Seraphim](https://www.pcgamingwiki.com/wiki/?curid=135363)
 * [War of the Vikings](https://www.pcgamingwiki.com/wiki/?curid=50450)
