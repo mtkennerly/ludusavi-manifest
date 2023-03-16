@@ -30647,7 +30647,6 @@
 * [Taptiles](https://www.pcgamingwiki.com/wiki/?curid=125623)
 * [Taras Bulba and platforms of Hoolion](https://www.pcgamingwiki.com/wiki/?curid=68070)
 * [Target](https://www.pcgamingwiki.com/wiki/?curid=87095)
-* [Target (1998)](https://www.pcgamingwiki.com/wiki/?curid=185821)
 * [Target Speed](https://www.pcgamingwiki.com/wiki/?curid=80314)
 * [Tarim](https://www.pcgamingwiki.com/wiki/?curid=69254)
 * [Taro: a fluffy visual novel](https://www.pcgamingwiki.com/wiki/?curid=157295)
