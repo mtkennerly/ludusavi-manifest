@@ -293,6 +293,14 @@ function makePathArgRegex(arg: string): RegExp {
     return new RegExp(escaped, "gi");
 }
 
+function normalizePath(path: string): string {
+    return path
+        .replace(/\\/g, "/")
+        .replace(/\/{2,}/g, "/")
+        .replace(/\/(?=$)/g, "")
+        .replace(/^~(?=($|\/))/, "<home>");
+}
+
 /**
  * https://www.pcgamingwiki.com/wiki/Template:Path
  */
@@ -315,11 +323,7 @@ function parsePath(path: string): [string, PathType] {
         }
     }
 
-    path = path
-        .replace(/\\/g, "/")
-        .replace(/\/{2,}/g, "/")
-        .replace(/\/(?=$)/g, "")
-        .replace(/^~(?=($|\/))/, "<home>")
+    path = normalizePath(path)
         .replace(/%userprofile%\/AppData\/Roaming/i, "<winAppData>")
         .replace(/%userprofile%\/AppData\/Local(?!Low)/i, "<winLocalAppData>")
         .replace(/%userprofile%\/Documents/i, "<winDocuments>")
@@ -691,51 +695,56 @@ export function parseTemplates(templates: Array<string>): Pick<Game, "files" | "
                 continue;
             }
 
-            const [path, pathType] = parsePath(rawPath);
-            if (pathIsTooBroad(path)) {
+            const [pathUnsplit, pathType] = parsePath(rawPath);
+            if (pathUnsplit.includes("{{")) {
                 continue;
             }
-
-            if (pathType === PathType.FileSystem) {
-                const constraint = getConstraintFromSystem(system, rawPath);
-
-                if (!game.files.hasOwnProperty(path)) {
-                    game.files[path] = {
-                        when: [],
-                        tags: [],
-                    };
+            for (const path of pathUnsplit.split("|").map(normalizePath)) {
+                if (pathIsTooBroad(path)) {
+                    continue;
                 }
 
-                if (!game.files[path].when.some(x => x.os === constraint.os && x.store === constraint.store)) {
-                    if (constraint.os !== undefined && constraint.store !== undefined) {
-                        game.files[path].when.push(constraint);
-                    } else if (constraint.os !== undefined) {
-                        game.files[path].when.push({ os: constraint.os });
-                    } else if (constraint.store !== undefined) {
-                        game.files[path].when.push({ store: constraint.store });
+                if (pathType === PathType.FileSystem) {
+                    const constraint = getConstraintFromSystem(system, rawPath);
+
+                    if (!game.files.hasOwnProperty(path)) {
+                        game.files[path] = {
+                            when: [],
+                            tags: [],
+                        };
                     }
-                }
 
-                const tag = getTagFromTemplate(template.name);
-                if (tag !== undefined && !game.files[path].tags.includes(tag)) {
-                    game.files[path].tags.push(tag);
-                }
-            } else if (pathType === PathType.Registry) {
-                if (!game.registry.hasOwnProperty(path)) {
-                    game.registry[path] = {
-                        when: [],
-                        tags: [],
-                    };
-                }
+                    if (!game.files[path].when.some(x => x.os === constraint.os && x.store === constraint.store)) {
+                        if (constraint.os !== undefined && constraint.store !== undefined) {
+                            game.files[path].when.push(constraint);
+                        } else if (constraint.os !== undefined) {
+                            game.files[path].when.push({ os: constraint.os });
+                        } else if (constraint.store !== undefined) {
+                            game.files[path].when.push({ store: constraint.store });
+                        }
+                    }
 
-                const store = getStoreConstraintFromPath(rawPath);
-                if (store !== undefined && !game.registry[path].when.some(x => x.store === store)) {
-                    game.registry[path].when.push({ store });
-                }
+                    const tag = getTagFromTemplate(template.name);
+                    if (tag !== undefined && !game.files[path].tags.includes(tag)) {
+                        game.files[path].tags.push(tag);
+                    }
+                } else if (pathType === PathType.Registry) {
+                    if (!game.registry.hasOwnProperty(path)) {
+                        game.registry[path] = {
+                            when: [],
+                            tags: [],
+                        };
+                    }
 
-                const tag = getTagFromTemplate(template.name);
-                if (tag !== undefined && !game.registry[path].tags.includes(tag)) {
-                    game.registry[path].tags.push(tag);
+                    const store = getStoreConstraintFromPath(rawPath);
+                    if (store !== undefined && !game.registry[path].when.some(x => x.store === store)) {
+                        game.registry[path].when.push({ store });
+                    }
+
+                    const tag = getTagFromTemplate(template.name);
+                    if (tag !== undefined && !game.registry[path].tags.includes(tag)) {
+                        game.registry[path].tags.push(tag);
+                    }
                 }
             }
         }
