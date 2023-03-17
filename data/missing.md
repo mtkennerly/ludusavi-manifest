@@ -7392,6 +7392,7 @@
 * [DanceDanceRevolution Grand Prix](https://www.pcgamingwiki.com/wiki/?curid=181667)
 * [DanceGirl-Swimwear](https://www.pcgamingwiki.com/wiki/?curid=144643)
 * [Dances with Butterflies VR](https://www.pcgamingwiki.com/wiki/?curid=134869)
+* [Dancin Divas](https://www.pcgamingwiki.com/wiki/?curid=185838)
 * [Dancing Arrow : Beat Smash](https://www.pcgamingwiki.com/wiki/?curid=156055)
 * [Dancing Girl](https://www.pcgamingwiki.com/wiki/?curid=139029)
 * [Dancing Queen](https://www.pcgamingwiki.com/wiki/?curid=148597)
