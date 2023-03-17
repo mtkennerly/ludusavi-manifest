@@ -2992,7 +2992,6 @@
 * [Batman Returns](https://www.pcgamingwiki.com/wiki/?curid=176691)
 * [BatMUD](https://www.pcgamingwiki.com/wiki/?curid=153141)
 * [Bato: Treasures of Tibet](https://www.pcgamingwiki.com/wiki/?curid=155454)
-* [Batora: Lost Haven](https://www.pcgamingwiki.com/wiki/?curid=182896)
 * [BATS: Bloodsucker Anti-Terror Squad](https://www.pcgamingwiki.com/wiki/?curid=184510)
 * [Batta Batta: Kampen mod Ultra](https://www.pcgamingwiki.com/wiki/?curid=81207)
 * [Batta Batta: Kejserens Gave](https://www.pcgamingwiki.com/wiki/?curid=81204)
