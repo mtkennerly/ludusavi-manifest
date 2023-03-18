@@ -357,9 +357,11 @@ export function pathIsTooBroad(path: string): boolean {
         "<home>/Documents/My Games",
         "<home>/Library/Application Support",
         "<home>/Library/Preferences",
+        "<home>/Telltale Games",
         "<root>/config",
         "<winDir>/win.ini",
         "<winDocuments>/My Games",
+        "<winDocuments>/Telltale Games",
     ].includes(path)) {
         return true;
     }

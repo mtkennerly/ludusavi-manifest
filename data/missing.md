@@ -26417,6 +26417,7 @@
 * [Salvator](https://www.pcgamingwiki.com/wiki/?curid=82292)
 * [Sam & Dan: Floaty Flatmates](https://www.pcgamingwiki.com/wiki/?curid=123878)
 * [Sam & Max: Beyond Time and Space (2021)](https://www.pcgamingwiki.com/wiki/?curid=173114)
+* [Sam & Max: The Devil's Playhouse](https://www.pcgamingwiki.com/wiki/?curid=7783)
 * [Sam & Max: This Time It's Virtual!](https://www.pcgamingwiki.com/wiki/?curid=165186)
 * [Sam Glyph: Private Eye!](https://www.pcgamingwiki.com/wiki/?curid=49534)
 * [Samael](https://www.pcgamingwiki.com/wiki/?curid=135895)
