@@ -8428,7 +8428,6 @@
 * [DGU: Death God University](https://www.pcgamingwiki.com/wiki/?curid=47275)
 * [Dhalang MG](https://www.pcgamingwiki.com/wiki/?curid=86788)
 * [DHARMA: THE SWAN](https://www.pcgamingwiki.com/wiki/?curid=128326)
-* [Diablo IV](https://www.pcgamingwiki.com/wiki/?curid=151763)
 * [Diabolic](https://www.pcgamingwiki.com/wiki/?curid=82898)
 * [Diabolical](https://www.pcgamingwiki.com/wiki/?curid=45719)
 * [Diacrisis](https://www.pcgamingwiki.com/wiki/?curid=134654)
