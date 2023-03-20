@@ -29673,7 +29673,6 @@
 * [Succubus x Saint](https://www.pcgamingwiki.com/wiki/?curid=142242)
 * [Succumate](https://www.pcgamingwiki.com/wiki/?curid=164477)
 * [Suchawira World Traveler](https://www.pcgamingwiki.com/wiki/?curid=126249)
-* [Sudden Strike 3: Arms for Victory](https://www.pcgamingwiki.com/wiki/?curid=62655)
 * [Sudoku](https://www.pcgamingwiki.com/wiki/?curid=65979)
 * [Sudoku (2018)](https://www.pcgamingwiki.com/wiki/?curid=137278)
 * [Sudoku 9X16X25](https://www.pcgamingwiki.com/wiki/?curid=139011)
