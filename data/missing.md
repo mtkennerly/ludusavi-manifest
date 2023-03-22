@@ -2700,7 +2700,6 @@
 * [Back to Life 3](https://www.pcgamingwiki.com/wiki/?curid=49109)
 * [Back to the Egg!](https://www.pcgamingwiki.com/wiki/?curid=69591)
 * [Backfire](https://www.pcgamingwiki.com/wiki/?curid=62483)
-* [Backfirewall](https://www.pcgamingwiki.com/wiki/?curid=184906)
 * [Backgammon](https://www.pcgamingwiki.com/wiki/?curid=68382)
 * [Backgammon Blitz](https://www.pcgamingwiki.com/wiki/?curid=45659)
 * [Backgammon, Chess & Checkers](https://www.pcgamingwiki.com/wiki/?curid=121241)
