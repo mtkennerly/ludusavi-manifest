@@ -23693,7 +23693,6 @@
 * [Predator 2](https://www.pcgamingwiki.com/wiki/?curid=154535)
 * [Predator Simulator](https://www.pcgamingwiki.com/wiki/?curid=47881)
 * [Predator VR](https://www.pcgamingwiki.com/wiki/?curid=151583)
-* [Predecessor](https://www.pcgamingwiki.com/wiki/?curid=128457)
 * [Predicate](https://www.pcgamingwiki.com/wiki/?curid=121949)
 * [Predimension](https://www.pcgamingwiki.com/wiki/?curid=150685)
 * [Pregnancy](https://www.pcgamingwiki.com/wiki/?curid=48549)
