@@ -14890,6 +14890,7 @@
 * [Honey Rose: Underdog Fighter Extraordinaire](https://www.pcgamingwiki.com/wiki/?curid=40136)
 * [Honeycomb Clash](https://www.pcgamingwiki.com/wiki/?curid=129665)
 * [Honeypot Espionage](https://www.pcgamingwiki.com/wiki/?curid=72419)
+* [Honkai: Star Rail](https://www.pcgamingwiki.com/wiki/?curid=186015)
 * [Honor Cry: Aftermath](https://www.pcgamingwiki.com/wiki/?curid=95483)
 * [Hoo-Boy](https://www.pcgamingwiki.com/wiki/?curid=69725)
 * [Hoodo](https://www.pcgamingwiki.com/wiki/?curid=144759)
