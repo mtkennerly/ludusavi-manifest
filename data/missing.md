@@ -27887,6 +27887,7 @@
 * [Slow Down, Bull](https://www.pcgamingwiki.com/wiki/?curid=48168)
 * [Slow.Bullet VR](https://www.pcgamingwiki.com/wiki/?curid=132544)
 * [Slowdrive](https://www.pcgamingwiki.com/wiki/?curid=61618)
+* [Sludge Life 2](https://www.pcgamingwiki.com/wiki/?curid=186011)
 * [Slug Blast](https://www.pcgamingwiki.com/wiki/?curid=60896)
 * [Slug Slasher](https://www.pcgamingwiki.com/wiki/?curid=90386)
 * [Sluggish Morss: Days of the Purple Sun](https://www.pcgamingwiki.com/wiki/?curid=52087)
