@@ -92,8 +92,8 @@ Tools must implement the following in addition to respecting the schema:
   This is important for secondary manifests to work correctly without
   hard-coding their location.
 * If a tool supports secondary manifests, they must be automatically detected
-  when they are named `.ludusavi.yaml` and exist anywhere within a configured
-  root.
+  when they are named `.ludusavi.yaml` and located directly in `<base>`.
+  For example, a Steam game's secondary manifest would be `<root>/steamapps/common/<game>/.ludusavi.yaml`.
 
 Tools may also:
 
