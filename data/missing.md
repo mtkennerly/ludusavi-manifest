@@ -36233,7 +36233,6 @@
 * [WizardCraft Colonies](https://www.pcgamingwiki.com/wiki/?curid=141973)
 * [Wizardians: In Defence of Magic](https://www.pcgamingwiki.com/wiki/?curid=157434)
 * [Wizardpunk](https://www.pcgamingwiki.com/wiki/?curid=157414)
-* [Wizardry: The Five Ordeals](https://www.pcgamingwiki.com/wiki/?curid=173714)
 * [Wizards](https://www.pcgamingwiki.com/wiki/?curid=157061)
 * [Wizards and Warlords](https://www.pcgamingwiki.com/wiki/?curid=58330)
 * [Wizards of Brandel](https://www.pcgamingwiki.com/wiki/?curid=150365)
