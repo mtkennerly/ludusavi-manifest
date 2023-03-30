@@ -9290,6 +9290,7 @@
 * [DreamWorks Dragons: Dawn of New Riders](https://www.pcgamingwiki.com/wiki/?curid=124444)
 * [Dreamworks Spirit Lucky's Big Adventure](https://www.pcgamingwiki.com/wiki/?curid=176848)
 * [DreamWorks Voltron VR Chronicles](https://www.pcgamingwiki.com/wiki/?curid=70200)
+* [DREDGE](https://www.pcgamingwiki.com/wiki/?curid=186229)
 * [Dredgers](https://www.pcgamingwiki.com/wiki/?curid=148605)
 * [Dreii](https://www.pcgamingwiki.com/wiki/?curid=44724)
 * [Dresden Files Cooperative Card Game](https://www.pcgamingwiki.com/wiki/?curid=72971)
