@@ -18154,7 +18154,6 @@
 * [London Racer: World Challenge](https://www.pcgamingwiki.com/wiki/?curid=88278)
 * [London Taxi: Rush Hour](https://www.pcgamingwiki.com/wiki/?curid=88324)
 * [Lone Echo](https://www.pcgamingwiki.com/wiki/?curid=128780)
-* [Lone Echo II](https://www.pcgamingwiki.com/wiki/?curid=172541)
 * [Lone Leader](https://www.pcgamingwiki.com/wiki/?curid=52107)
 * [Lone Pirate VR](https://www.pcgamingwiki.com/wiki/?curid=62951)
 * [Lone Vessel](https://www.pcgamingwiki.com/wiki/?curid=71723)
