@@ -23572,6 +23572,7 @@
 * [Poor Stickman](https://www.pcgamingwiki.com/wiki/?curid=127237)
 * [PooShooter: Toilet Invaders](https://www.pcgamingwiki.com/wiki/?curid=51356)
 * [PooSky](https://www.pcgamingwiki.com/wiki/?curid=88960)
+* [Poostall Royale](https://www.pcgamingwiki.com/wiki/?curid=186280)
 * [Pop Pop Boom Boom VR](https://www.pcgamingwiki.com/wiki/?curid=77010)
 * [POP: Methodology Experiment One](https://www.pcgamingwiki.com/wiki/?curid=49145)
 * [Pop'n Music Lively](https://www.pcgamingwiki.com/wiki/?curid=181713)
