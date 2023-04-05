@@ -8493,7 +8493,6 @@
 * [Dig 4 Destruction](https://www.pcgamingwiki.com/wiki/?curid=37431)
 * [Dig A Boo](https://www.pcgamingwiki.com/wiki/?curid=63440)
 * [Dig and Shoot](https://www.pcgamingwiki.com/wiki/?curid=81464)
-* [Dig Deep](https://www.pcgamingwiki.com/wiki/?curid=129693)
 * [Dig Dug Deeper](https://www.pcgamingwiki.com/wiki/?curid=171123)
 * [Dig It! - A Digger Simulator](https://www.pcgamingwiki.com/wiki/?curid=49510)
 * [Dig or Die](https://www.pcgamingwiki.com/wiki/?curid=37553)
