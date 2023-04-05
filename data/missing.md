@@ -3153,6 +3153,7 @@
 * [BattleSteam](https://www.pcgamingwiki.com/wiki/?curid=145011)
 * [BattleStick](https://www.pcgamingwiki.com/wiki/?curid=43133)
 * [BattleStorm](https://www.pcgamingwiki.com/wiki/?curid=43989)
+* [Battlestrike: Shadow of Stalingrad](https://www.pcgamingwiki.com/wiki/?curid=186339)
 * [Battlestrike: The Road to Berlin](https://www.pcgamingwiki.com/wiki/?curid=176542)
 * [Battlestrike: The Siege](https://www.pcgamingwiki.com/wiki/?curid=176538)
 * [Battletank LOBA](https://www.pcgamingwiki.com/wiki/?curid=48449)
