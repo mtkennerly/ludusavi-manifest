@@ -29497,6 +29497,7 @@
 * [Story Time Plus](https://www.pcgamingwiki.com/wiki/?curid=150535)
 * [Story: Heaven & Hell](https://www.pcgamingwiki.com/wiki/?curid=95192)
 * [StoryMode - A Game About Crafting](https://www.pcgamingwiki.com/wiki/?curid=46524)
+* [Storyteller](https://www.pcgamingwiki.com/wiki/?curid=186356)
 * [Straima](https://www.pcgamingwiki.com/wiki/?curid=46286)
 * [StrainZ-1: Elimination](https://www.pcgamingwiki.com/wiki/?curid=73488)
 * [Stranded](https://www.pcgamingwiki.com/wiki/?curid=50238)
