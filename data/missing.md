@@ -15532,6 +15532,7 @@
 * [Immortal Quest](https://www.pcgamingwiki.com/wiki/?curid=103843)
 * [Immortal Truth](https://www.pcgamingwiki.com/wiki/?curid=58908)
 * [Immortals](https://www.pcgamingwiki.com/wiki/?curid=98776)
+* [Immortals of Aveum](https://www.pcgamingwiki.com/wiki/?curid=186392)
 * [Immune - True Survival](https://www.pcgamingwiki.com/wiki/?curid=48391)
 * [Immunity](https://www.pcgamingwiki.com/wiki/?curid=152813)
 * [IMMURE](https://www.pcgamingwiki.com/wiki/?curid=110736)
