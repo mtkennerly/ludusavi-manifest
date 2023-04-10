@@ -5915,6 +5915,7 @@
 * [Clad in Iron: Gulf of Mexico 1864](https://www.pcgamingwiki.com/wiki/?curid=68937)
 * [Clad in Iron: Philippines 1898](https://www.pcgamingwiki.com/wiki/?curid=75550)
 * [Clad in Iron: Sakhalin 1904](https://www.pcgamingwiki.com/wiki/?curid=120998)
+* [Clad in Iron: War of the Pacific 1879](https://www.pcgamingwiki.com/wiki/?curid=186411)
 * [Cladun Returns: This Is Sengoku!](https://www.pcgamingwiki.com/wiki/?curid=53495)
 * [Cladun X2](https://www.pcgamingwiki.com/wiki/?curid=40751)
 * [Claire de Lune](https://www.pcgamingwiki.com/wiki/?curid=162366)
