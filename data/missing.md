@@ -23394,7 +23394,6 @@
 * [Playing History: The Plague](https://www.pcgamingwiki.com/wiki/?curid=45976)
 * [Playing History: Vikings](https://www.pcgamingwiki.com/wiki/?curid=47425)
 * [Playmobil: The Movie VR Adventures](https://www.pcgamingwiki.com/wiki/?curid=176185)
-* [Playne](https://www.pcgamingwiki.com/wiki/?curid=96439)
 * [PLAYNE VR](https://www.pcgamingwiki.com/wiki/?curid=153081)
 * [Playthings: VR Music Vacation](https://www.pcgamingwiki.com/wiki/?curid=36836)
 * [PlayUSA](https://www.pcgamingwiki.com/wiki/?curid=76225)
