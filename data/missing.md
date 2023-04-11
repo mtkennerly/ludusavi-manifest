@@ -27212,7 +27212,6 @@
 * [Sherlock Holmes Consulting Detective: The Case of the Tin Soldier](https://www.pcgamingwiki.com/wiki/?curid=47579)
 * [Sherlock Holmes: Nemesis](https://www.pcgamingwiki.com/wiki/?curid=147448)
 * [Sherlock Holmes: The Awakened](https://www.pcgamingwiki.com/wiki/?curid=147443)
-* [Sherlock Holmes: The Awakened (2023)](https://www.pcgamingwiki.com/wiki/?curid=180384)
 * [Sherlock Holmes: The Mystery of the Persian Carpet](https://www.pcgamingwiki.com/wiki/?curid=61180)
 * [Sherlock Holmes: Trap for the Hunter](https://www.pcgamingwiki.com/wiki/?curid=88162)
 * [Shi Yang teach you to prevent disaster prevention](https://www.pcgamingwiki.com/wiki/?curid=60720)
