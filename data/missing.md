@@ -8407,7 +8407,6 @@
 * [Devil in the Capital](https://www.pcgamingwiki.com/wiki/?curid=64988)
 * [Devil in the Details](https://www.pcgamingwiki.com/wiki/?curid=98248)
 * [Devil in the Pines](https://www.pcgamingwiki.com/wiki/?curid=71768)
-* [Devil May Cry 3: Special Edition](https://www.pcgamingwiki.com/wiki/?curid=7959)
 * [Devil Sealing Stone](https://www.pcgamingwiki.com/wiki/?curid=43640)
 * [Devil Threats](https://www.pcgamingwiki.com/wiki/?curid=153513)
 * [Devil Under Sun](https://www.pcgamingwiki.com/wiki/?curid=126165)
