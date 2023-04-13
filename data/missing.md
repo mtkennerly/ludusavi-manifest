@@ -13912,7 +13912,6 @@
 * [Happy Stealing with Kirisame Marisa](https://www.pcgamingwiki.com/wiki/?curid=99296)
 * [Happy STG](https://www.pcgamingwiki.com/wiki/?curid=149315)
 * [Happy toys](https://www.pcgamingwiki.com/wiki/?curid=123960)
-* [Happy Tree Friends: False Alarm](https://www.pcgamingwiki.com/wiki/?curid=60043)
 * [Happy Vampire Girl](https://www.pcgamingwiki.com/wiki/?curid=122332)
 * [Happy Wars](https://www.pcgamingwiki.com/wiki/?curid=49863)
 * [Happy Words](https://www.pcgamingwiki.com/wiki/?curid=134534)
