@@ -25488,6 +25488,7 @@
 * [Riddles of Fate: Wild Hunt](https://www.pcgamingwiki.com/wiki/?curid=53087)
 * [Riddlord: The Consequence](https://www.pcgamingwiki.com/wiki/?curid=78485)
 * [Ride 'em Low](https://www.pcgamingwiki.com/wiki/?curid=40552)
+* [Ride 5](https://www.pcgamingwiki.com/wiki/?curid=186548)
 * [Ride the Bullet](https://www.pcgamingwiki.com/wiki/?curid=47809)
 * [Ride to Canada](https://www.pcgamingwiki.com/wiki/?curid=93116)
 * [Ride to Hell: Retribution](https://www.pcgamingwiki.com/wiki/?curid=59785)
