@@ -3755,7 +3755,7 @@
 * [Blankos Block Party](https://www.pcgamingwiki.com/wiki/?curid=181880)
 * [BLARP!](https://www.pcgamingwiki.com/wiki/?curid=37405)
 * [BLASK](https://www.pcgamingwiki.com/wiki/?curid=125562)
-* [Blasphemous II](https://www.pcgamingwiki.com/wiki/?curid=171077)
+* [Blasphemous 2](https://www.pcgamingwiki.com/wiki/?curid=171077)
 * [Blast](https://www.pcgamingwiki.com/wiki/?curid=69450)
 * [Blast Brawl 2: Bloody Boogaloo](https://www.pcgamingwiki.com/wiki/?curid=39025)
 * [Blast Cats](https://www.pcgamingwiki.com/wiki/?curid=183156)
