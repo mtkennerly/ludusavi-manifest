@@ -7883,7 +7883,6 @@
 * [Dear Leader](https://www.pcgamingwiki.com/wiki/?curid=90590)
 * [Dear My Friend](https://www.pcgamingwiki.com/wiki/?curid=139726)
 * [Dear Reader](https://www.pcgamingwiki.com/wiki/?curid=148125)
-* [Dear Red - Extended](https://www.pcgamingwiki.com/wiki/?curid=43636)
 * [DearCraft](https://www.pcgamingwiki.com/wiki/?curid=93359)
 * [Death and Betrayal in Romania: A Dana Knightstone Novel](https://www.pcgamingwiki.com/wiki/?curid=110410)
 * [Death and Progress](https://www.pcgamingwiki.com/wiki/?curid=141659)
