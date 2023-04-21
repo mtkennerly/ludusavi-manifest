@@ -31437,6 +31437,7 @@
 * [The End o,,,o](https://www.pcgamingwiki.com/wiki/?curid=62154)
 * [The End of an Actress](https://www.pcgamingwiki.com/wiki/?curid=153971)
 * [The End of an Age: Fading Remnants](https://www.pcgamingwiki.com/wiki/?curid=39679)
+* [The End of Dyeus](https://www.pcgamingwiki.com/wiki/?curid=186652)
 * [The End of the Sun](https://www.pcgamingwiki.com/wiki/?curid=109680)
 * [The End: Inari's Quest](https://www.pcgamingwiki.com/wiki/?curid=103049)
 * [The Endless Empty](https://www.pcgamingwiki.com/wiki/?curid=121010)
