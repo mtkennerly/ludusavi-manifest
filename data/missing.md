@@ -7778,7 +7778,6 @@
 * [Dead Hunter](https://www.pcgamingwiki.com/wiki/?curid=139173)
 * [Dead in time](https://www.pcgamingwiki.com/wiki/?curid=98542)
 * [Dead Inside](https://www.pcgamingwiki.com/wiki/?curid=59073)
-* [Dead Island 2](https://www.pcgamingwiki.com/wiki/?curid=17727)
 * [Dead Island: Retro Revenge](https://www.pcgamingwiki.com/wiki/?curid=33271)
 * [Dead Line](https://www.pcgamingwiki.com/wiki/?curid=68160)
 * [Dead Link: Pages Torn](https://www.pcgamingwiki.com/wiki/?curid=76043)
