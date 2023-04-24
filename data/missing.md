@@ -10506,6 +10506,7 @@
 * [Euro Fishing](https://www.pcgamingwiki.com/wiki/?curid=45795)
 * [Euro NumismatCy! Coin Collector](https://www.pcgamingwiki.com/wiki/?curid=150645)
 * [Eurobi Racing](https://www.pcgamingwiki.com/wiki/?curid=123958)
+* [EuroCops](https://www.pcgamingwiki.com/wiki/?curid=186724)
 * [Europa Universalis II](https://www.pcgamingwiki.com/wiki/?curid=25667)
 * [Europe Racing](https://www.pcgamingwiki.com/wiki/?curid=88291)
 * [European Air War](https://www.pcgamingwiki.com/wiki/?curid=166594)
