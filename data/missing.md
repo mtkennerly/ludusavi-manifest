@@ -18716,7 +18716,6 @@
 * [Magical Drop DX](https://www.pcgamingwiki.com/wiki/?curid=170904)
 * [Magical Drop II](https://www.pcgamingwiki.com/wiki/?curid=133167)
 * [Magical Drop III](https://www.pcgamingwiki.com/wiki/?curid=133169)
-* [Magical Drop VI](https://www.pcgamingwiki.com/wiki/?curid=183054)
 * [Magical Eyes - Red is for Anguish](https://www.pcgamingwiki.com/wiki/?curid=43883)
 * [Magical Fable: The Princess of Light](https://www.pcgamingwiki.com/wiki/?curid=93946)
 * [Magical Girl Celesphonia](https://www.pcgamingwiki.com/wiki/?curid=177579)
