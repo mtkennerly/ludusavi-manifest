@@ -12425,7 +12425,6 @@
 * [Galactic Bulwark Strike](https://www.pcgamingwiki.com/wiki/?curid=94102)
 * [Galactic Campaign](https://www.pcgamingwiki.com/wiki/?curid=132204)
 * [Galactic Civilizations II: Dread Lords](https://www.pcgamingwiki.com/wiki/?curid=27333)
-* [Galactic Civilizations IV](https://www.pcgamingwiki.com/wiki/?curid=169172)
 * [Galactic Command Echo Squad SE](https://www.pcgamingwiki.com/wiki/?curid=50590)
 * [Galactic Conquerors](https://www.pcgamingwiki.com/wiki/?curid=46767)
 * [Galactic Core: The Lost Fleet](https://www.pcgamingwiki.com/wiki/?curid=55837)
