@@ -18016,7 +18016,6 @@
 * [Littlest Pet Shop](https://www.pcgamingwiki.com/wiki/?curid=178149)
 * [Littlewitch Romanesque: Editio Regia](https://www.pcgamingwiki.com/wiki/?curid=38424)
 * [Live](https://www.pcgamingwiki.com/wiki/?curid=74716)
-* [Live A Live](https://www.pcgamingwiki.com/wiki/?curid=186232)
 * [Live and Learn](https://www.pcgamingwiki.com/wiki/?curid=77883)
 * [Live Armor](https://www.pcgamingwiki.com/wiki/?curid=110552)
 * [Live checkpoint](https://www.pcgamingwiki.com/wiki/?curid=155983)
