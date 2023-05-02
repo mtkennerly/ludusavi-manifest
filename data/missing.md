@@ -36535,7 +36535,6 @@
 * [XField Paintball 3](https://www.pcgamingwiki.com/wiki/?curid=53111)
 * [XGun-Weapon Evolution](https://www.pcgamingwiki.com/wiki/?curid=62294)
 * [XIII Century: Blood of Europe](https://www.pcgamingwiki.com/wiki/?curid=51253)
-* [XIII Century: Death or Glory](https://www.pcgamingwiki.com/wiki/?curid=41242)
 * [XIII: Lost Identity](https://www.pcgamingwiki.com/wiki/?curid=89210)
 * [XIIZEAL](https://www.pcgamingwiki.com/wiki/?curid=47603)
 * [Xilost](https://www.pcgamingwiki.com/wiki/?curid=136055)
