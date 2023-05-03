@@ -19178,7 +19178,6 @@
 * [MCAS Simulation](https://www.pcgamingwiki.com/wiki/?curid=153008)
 * [McDROID](https://www.pcgamingwiki.com/wiki/?curid=49677)
 * [McPixel](https://www.pcgamingwiki.com/wiki/?curid=8303)
-* [McPixel 3](https://www.pcgamingwiki.com/wiki/?curid=176679)
 * [McRogue](https://www.pcgamingwiki.com/wiki/?curid=78324)
 * [Me And Dungeons](https://www.pcgamingwiki.com/wiki/?curid=99542)
 * [Me and myself](https://www.pcgamingwiki.com/wiki/?curid=155781)
