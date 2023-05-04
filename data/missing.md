@@ -25020,7 +25020,6 @@
 * [Redemption: Tyranny of Daetorem](https://www.pcgamingwiki.com/wiki/?curid=82000)
 * [Redemption's Guild](https://www.pcgamingwiki.com/wiki/?curid=145250)
 * [RedEyes](https://www.pcgamingwiki.com/wiki/?curid=95965)
-* [Redfall](https://www.pcgamingwiki.com/wiki/?curid=169282)
 * [Redfoot Bluefoot Dancing](https://www.pcgamingwiki.com/wiki/?curid=63970)
 * [Redie](https://www.pcgamingwiki.com/wiki/?curid=51493)
 * [Redium](https://www.pcgamingwiki.com/wiki/?curid=66961)
