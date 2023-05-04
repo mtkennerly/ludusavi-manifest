@@ -24765,6 +24765,7 @@
 * [Raven: The Last Neko Slayer](https://www.pcgamingwiki.com/wiki/?curid=125831)
 * [Raven's Hike](https://www.pcgamingwiki.com/wiki/?curid=177337)
 * [Ravenland](https://www.pcgamingwiki.com/wiki/?curid=126478)
+* [Ravenlok](https://www.pcgamingwiki.com/wiki/?curid=186893)
 * [Ravenmark: Scourge of Estellion](https://www.pcgamingwiki.com/wiki/?curid=46506)
 * [Ravensgard Arena](https://www.pcgamingwiki.com/wiki/?curid=113594)
 * [Ravesta Racing](https://www.pcgamingwiki.com/wiki/?curid=157261)
