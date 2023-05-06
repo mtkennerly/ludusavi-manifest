@@ -43,6 +43,9 @@ export interface Game {
     gog?: {
         id?: number,
     };
+    id?: {
+        flatpak?: string,
+    };
 }
 
 type OverriddenGame = Game & { omit?: boolean };
@@ -179,14 +182,28 @@ function integrateSteamData(game: Game, appInfo: SteamGameCache[""] | undefined)
     }
 }
 
-function integrateOverriddenData(game: Game, override?: OverriddenGame) {
-    if (override?.gog?.id) {
-        game.gog = { id: override?.gog?.id };
+function integrateOverriddenData(game: Game, override: OverriddenGame) {
+    if (override.steam) {
+        game.steam = override.steam;
+    }
+
+    if (override.gog) {
+        game.gog = override.gog;
+    }
+
+    if (override.id) {
+        if (game.id === undefined) {
+            game.id = {};
+        }
+
+        if (override.id.flatpak) {
+            game.id.flatpak = override.id.flatpak;
+        }
     }
 }
 
 function hasAnyData(game: Game): boolean {
-    return game.files !== undefined || game.registry !== undefined || game.steam?.id !== undefined || game.gog?.id !== undefined;
+    return game.files !== undefined || game.registry !== undefined || game.steam?.id !== undefined || game.gog?.id !== undefined || game.id !== undefined;
 }
 
 export class ManifestFile extends YamlFile<Manifest> {
@@ -213,7 +230,9 @@ export class ManifestFile extends YamlFile<Manifest> {
 
             const game: Game = {};
             integrateWikiData(game, info);
-            integrateOverriddenData(game, overridden);
+            if (overridden) {
+                integrateOverriddenData(game, overridden);
+            }
 
             if (!hasAnyData(game)) {
                 continue;
@@ -223,6 +242,14 @@ export class ManifestFile extends YamlFile<Manifest> {
                 integrateSteamData(game, appInfo);
             }
             this.data[title] = game;
+        }
+
+        for (const [title, info] of Object.entries(override.data).sort()) {
+            if (title in this.data || info.omit) {
+                continue;
+            }
+            delete info.omit;
+            this.data[title] = info;
         }
     }
 }
