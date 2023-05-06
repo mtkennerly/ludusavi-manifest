@@ -86,3 +86,8 @@ additionalProperties:
       properties:
         id:
           type: integer
+    id:
+      type: object
+      properties:
+        flatpak:
+          type: string
