@@ -27067,7 +27067,6 @@
 * [Shadows and Lies](https://www.pcgamingwiki.com/wiki/?curid=130577)
 * [Shadows in the Darkness](https://www.pcgamingwiki.com/wiki/?curid=74129)
 * [Shadows Light RPG](https://www.pcgamingwiki.com/wiki/?curid=121341)
-* [Shadows of Doubt](https://www.pcgamingwiki.com/wiki/?curid=139748)
 * [Shadows of Kepler](https://www.pcgamingwiki.com/wiki/?curid=151589)
 * [Shadows of Larth](https://www.pcgamingwiki.com/wiki/?curid=145391)
 * [Shadows of time](https://www.pcgamingwiki.com/wiki/?curid=150749)
