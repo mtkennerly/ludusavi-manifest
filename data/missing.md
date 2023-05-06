@@ -15424,6 +15424,7 @@
 * [IdleBeer](https://www.pcgamingwiki.com/wiki/?curid=69557)
 * [Idol Hands](https://www.pcgamingwiki.com/wiki/?curid=48669)
 * [Idol Quest VR](https://www.pcgamingwiki.com/wiki/?curid=79814)
+* [Idol Showdown](https://www.pcgamingwiki.com/wiki/?curid=186965)
 * [Idolzzz](https://www.pcgamingwiki.com/wiki/?curid=75612)
 * [Idunn Guardians](https://www.pcgamingwiki.com/wiki/?curid=143901)
 * [If I am AI假如我是人工智能](https://www.pcgamingwiki.com/wiki/?curid=125952)
