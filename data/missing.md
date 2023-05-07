@@ -10892,6 +10892,7 @@
 * [Fake/SuperSonia](https://www.pcgamingwiki.com/wiki/?curid=70110)
 * [Fakespearean: Overdramatic](https://www.pcgamingwiki.com/wiki/?curid=134576)
 * [Falcon](https://www.pcgamingwiki.com/wiki/?curid=23212)
+* [Falcon 4.0: Allied Force](https://www.pcgamingwiki.com/wiki/?curid=186994)
 * [Falcon A.T.](https://www.pcgamingwiki.com/wiki/?curid=34308)
 * [Falcon City](https://www.pcgamingwiki.com/wiki/?curid=161263)
 * [FALL](https://www.pcgamingwiki.com/wiki/?curid=45244)
