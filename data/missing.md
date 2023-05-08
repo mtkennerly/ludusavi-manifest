@@ -22837,6 +22837,7 @@
 * [Perfect Plan](https://www.pcgamingwiki.com/wiki/?curid=60251)
 * [Perfect Round Disc Golf](https://www.pcgamingwiki.com/wiki/?curid=137088)
 * [Perfect Tides](https://www.pcgamingwiki.com/wiki/?curid=175371)
+* [Perfect Weapon](https://www.pcgamingwiki.com/wiki/?curid=187015)
 * [Perfect World International](https://www.pcgamingwiki.com/wiki/?curid=43522)
 * [Perfection of Wisdom](https://www.pcgamingwiki.com/wiki/?curid=48282)
 * [PerfectLover](https://www.pcgamingwiki.com/wiki/?curid=153097)
