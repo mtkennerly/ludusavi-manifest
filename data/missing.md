@@ -36195,6 +36195,7 @@
 * [Wizard's Crown](https://www.pcgamingwiki.com/wiki/?curid=173446)
 * [Wizard101](https://www.pcgamingwiki.com/wiki/?curid=108876)
 * [Wizardas](https://www.pcgamingwiki.com/wiki/?curid=134558)
+* [WizardChess](https://www.pcgamingwiki.com/wiki/?curid=187038)
 * [WizardCraft](https://www.pcgamingwiki.com/wiki/?curid=42872)
 * [WizardCraft Colonies](https://www.pcgamingwiki.com/wiki/?curid=141973)
 * [Wizardians: In Defence of Magic](https://www.pcgamingwiki.com/wiki/?curid=157434)
