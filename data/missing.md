@@ -2149,6 +2149,8 @@
 * [ArtFormer the Game](https://www.pcgamingwiki.com/wiki/?curid=150501)
 * [Arthur and the Revenge of Maltazard](https://www.pcgamingwiki.com/wiki/?curid=172708)
 * [Arthur's Birthday](https://www.pcgamingwiki.com/wiki/?curid=147526)
+* [Arthur's Computer Adventure](https://www.pcgamingwiki.com/wiki/?curid=187049)
+* [Arthur's Reading Race](https://www.pcgamingwiki.com/wiki/?curid=187051)
 * [Arthur's Teacher Trouble](https://www.pcgamingwiki.com/wiki/?curid=186446)
 * [Artifact Adventure](https://www.pcgamingwiki.com/wiki/?curid=47693)
 * [Artifact Adventure Gaiden](https://www.pcgamingwiki.com/wiki/?curid=78593)
