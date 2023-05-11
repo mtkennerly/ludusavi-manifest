@@ -7509,6 +7509,7 @@
 * [Dark Inside](https://www.pcgamingwiki.com/wiki/?curid=112084)
 * [Dark Invasion VR](https://www.pcgamingwiki.com/wiki/?curid=153573)
 * [Dark Legion VR](https://www.pcgamingwiki.com/wiki/?curid=58640)
+* [Dark Legions](https://www.pcgamingwiki.com/wiki/?curid=187069)
 * [Dark Lore Mysteries: The Hunt For Truth](https://www.pcgamingwiki.com/wiki/?curid=50472)
 * [Dark Matter (2015)](https://www.pcgamingwiki.com/wiki/?curid=51104)
 * [Dark Matter (2018)](https://www.pcgamingwiki.com/wiki/?curid=137274)
