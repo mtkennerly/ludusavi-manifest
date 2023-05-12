@@ -33418,6 +33418,7 @@
 * [Toro](https://www.pcgamingwiki.com/wiki/?curid=44818)
 * [Torque: Simulation Begins](https://www.pcgamingwiki.com/wiki/?curid=89516)
 * [TorqueL](https://www.pcgamingwiki.com/wiki/?curid=48899)
+* [Torrente](https://www.pcgamingwiki.com/wiki/?curid=187088)
 * [Torsion](https://www.pcgamingwiki.com/wiki/?curid=36596)
 * [Tortuga: A Pirate's Tale](https://www.pcgamingwiki.com/wiki/?curid=184532)
 * [Tortuga: Pirates of the New World](https://www.pcgamingwiki.com/wiki/?curid=184534)
