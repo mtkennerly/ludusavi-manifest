@@ -35103,7 +35103,6 @@
 * [Voltron: Cubes of Olkarion](https://www.pcgamingwiki.com/wiki/?curid=141385)
 * [Volume Up](https://www.pcgamingwiki.com/wiki/?curid=144470)
 * [Volvox](https://www.pcgamingwiki.com/wiki/?curid=45383)
-* [Vomitoreum](https://www.pcgamingwiki.com/wiki/?curid=176189)
 * [Voodoo Chronicles: The First Sign HD - Director's Cut Edition](https://www.pcgamingwiki.com/wiki/?curid=47743)
 * [Voodoo Detective](https://www.pcgamingwiki.com/wiki/?curid=177446)
 * [Voodoo Dice](https://www.pcgamingwiki.com/wiki/?curid=51070)
