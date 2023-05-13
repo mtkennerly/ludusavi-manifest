@@ -16287,7 +16287,6 @@
 * [Jelly Wants More](https://www.pcgamingwiki.com/wiki/?curid=100350)
 * [Jelly Wrestle](https://www.pcgamingwiki.com/wiki/?curid=102667)
 * [JellyCar 3](https://www.pcgamingwiki.com/wiki/?curid=183346)
-* [JellyCar Worlds](https://www.pcgamingwiki.com/wiki/?curid=183343)
 * [Jellyfish](https://www.pcgamingwiki.com/wiki/?curid=69464)
 * [Jellyfish Season](https://www.pcgamingwiki.com/wiki/?curid=112680)
 * [Jellyfish the Ghost](https://www.pcgamingwiki.com/wiki/?curid=110134)
