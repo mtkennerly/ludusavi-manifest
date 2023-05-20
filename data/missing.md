@@ -29200,6 +29200,7 @@
 * [Starship Inspector](https://www.pcgamingwiki.com/wiki/?curid=157251)
 * [Starship Rubicon](https://www.pcgamingwiki.com/wiki/?curid=47293)
 * [Starship Survivor](https://www.pcgamingwiki.com/wiki/?curid=55450)
+* [Starship Troopers: Extermination](https://www.pcgamingwiki.com/wiki/?curid=187240)
 * [Starship: Nova Strike](https://www.pcgamingwiki.com/wiki/?curid=34948)
 * [StarSmashers](https://www.pcgamingwiki.com/wiki/?curid=61670)
 * [StarsOne](https://www.pcgamingwiki.com/wiki/?curid=43684)
