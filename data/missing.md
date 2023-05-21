@@ -9176,6 +9176,7 @@
 * [DrainLive](https://www.pcgamingwiki.com/wiki/?curid=153652)
 * [Drainus](https://www.pcgamingwiki.com/wiki/?curid=179297)
 * [Drakeling Labs](https://www.pcgamingwiki.com/wiki/?curid=89198)
+* [Drakensang Online](https://www.pcgamingwiki.com/wiki/?curid=187253)
 * [Drakerz - Confrontation](https://www.pcgamingwiki.com/wiki/?curid=50248)
 * [Drakkar Crew](https://www.pcgamingwiki.com/wiki/?curid=109196)
 * [Draoi](https://www.pcgamingwiki.com/wiki/?curid=104733)
