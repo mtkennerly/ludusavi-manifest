@@ -5049,6 +5049,7 @@
 * [Car Transport Simulator](https://www.pcgamingwiki.com/wiki/?curid=138609)
 * [CAR TUNE: Project](https://www.pcgamingwiki.com/wiki/?curid=128735)
 * [Car Tuning Simulator](https://www.pcgamingwiki.com/wiki/?curid=173992)
+* [Car Tycoon](https://www.pcgamingwiki.com/wiki/?curid=187298)
 * [Car Wash Simulator](https://www.pcgamingwiki.com/wiki/?curid=124339)
 * [Car Washer: Summer of the Ninja](https://www.pcgamingwiki.com/wiki/?curid=45757)
 * [Caracoland](https://www.pcgamingwiki.com/wiki/?curid=123950)
