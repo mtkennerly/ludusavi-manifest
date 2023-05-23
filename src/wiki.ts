@@ -17,7 +17,7 @@ type WikiNode = string | Template | {
     content: Array<WikiNode>,
     attributes: { [key: string]: string },
 } | {
-    type: "comment",
+    type: "comment" | "bold" | "italic",
     content: Array<WikiNode>,
 } | {
     type: "link",
@@ -658,6 +658,8 @@ function flattenParameter(nodes: Array<WikiNode>): [string, boolean] {
                 }
                 break;
             case "comment":
+            case "bold":
+            case "italic":
                 break;
             case "tag":
                 const [flatT, regularT] = flattenParameter(node.content);
