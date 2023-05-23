@@ -34027,7 +34027,6 @@
 * [Tuition](https://www.pcgamingwiki.com/wiki/?curid=135196)
 * [Tuk Ruk](https://www.pcgamingwiki.com/wiki/?curid=60621)
 * [Tumbleweed Express](https://www.pcgamingwiki.com/wiki/?curid=33432)
-* [Tunche](https://www.pcgamingwiki.com/wiki/?curid=98886)
 * [Tunche: Arena](https://www.pcgamingwiki.com/wiki/?curid=124315)
 * [Tune the Tone](https://www.pcgamingwiki.com/wiki/?curid=156728)
 * [Tungulus](https://www.pcgamingwiki.com/wiki/?curid=65401)
