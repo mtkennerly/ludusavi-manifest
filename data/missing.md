@@ -22423,7 +22423,6 @@
 * [Oxyd](https://www.pcgamingwiki.com/wiki/?curid=154206)
 * [Ozapell Mystery Text Adventure](https://www.pcgamingwiki.com/wiki/?curid=110282)
 * [OZMAFIA!!](https://www.pcgamingwiki.com/wiki/?curid=37503)
-* [Ozymandias](https://www.pcgamingwiki.com/wiki/?curid=182499)
 * [P-3 Biotic](https://www.pcgamingwiki.com/wiki/?curid=43113)
 * [P-BOT](https://www.pcgamingwiki.com/wiki/?curid=155590)
 * [P-Walker's Simulation](https://www.pcgamingwiki.com/wiki/?curid=62706)
