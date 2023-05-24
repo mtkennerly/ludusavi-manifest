@@ -23290,7 +23290,6 @@
 * [Planet Lander](https://www.pcgamingwiki.com/wiki/?curid=150347)
 * [Planet Modular TD. Sci-Fi Tower Defense](https://www.pcgamingwiki.com/wiki/?curid=153577)
 * [Planet Nine](https://www.pcgamingwiki.com/wiki/?curid=126124)
-* [Planet of Lana](https://www.pcgamingwiki.com/wiki/?curid=187322)
 * [Planet of Mubu](https://www.pcgamingwiki.com/wiki/?curid=60097)
 * [Planet of the Apes](https://www.pcgamingwiki.com/wiki/?curid=87863)
 * [Planet Protector VR](https://www.pcgamingwiki.com/wiki/?curid=71924)
