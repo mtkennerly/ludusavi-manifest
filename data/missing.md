@@ -29101,7 +29101,6 @@
 * [Star Trek: Klingon](https://www.pcgamingwiki.com/wiki/?curid=171546)
 * [Star Trek: Klingon Academy](https://www.pcgamingwiki.com/wiki/?curid=171337)
 * [Star Trek: Legends](https://www.pcgamingwiki.com/wiki/?curid=167742)
-* [Star Trek: Resurgence](https://www.pcgamingwiki.com/wiki/?curid=173594)
 * [Star Trek: Starship Creator](https://www.pcgamingwiki.com/wiki/?curid=171555)
 * [Star Trek: Starship Creator Warp II](https://www.pcgamingwiki.com/wiki/?curid=171557)
 * [Star Trek: The Game Show](https://www.pcgamingwiki.com/wiki/?curid=175178)
