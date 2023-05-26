@@ -10173,7 +10173,6 @@
 * [Energy Invasion](https://www.pcgamingwiki.com/wiki/?curid=57586)
 * [Energy Nodes](https://www.pcgamingwiki.com/wiki/?curid=112524)
 * [Energy Shock](https://www.pcgamingwiki.com/wiki/?curid=122616)
-* [Enforcer: Police Crime Action](https://www.pcgamingwiki.com/wiki/?curid=49448)
 * [Engare](https://www.pcgamingwiki.com/wiki/?curid=56816)
 * [Engineer Arena](https://www.pcgamingwiki.com/wiki/?curid=144141)
 * [England Exchange](https://www.pcgamingwiki.com/wiki/?curid=61748)
