@@ -36028,6 +36028,7 @@
 * [Wildest of the Wild](https://www.pcgamingwiki.com/wiki/?curid=121111)
 * [Wildfire Worlds](https://www.pcgamingwiki.com/wiki/?curid=10046)
 * [Wildfire: Ticket to Rock](https://www.pcgamingwiki.com/wiki/?curid=176314)
+* [Wildfrost](https://www.pcgamingwiki.com/wiki/?curid=187397)
 * [WildIsland](https://www.pcgamingwiki.com/wiki/?curid=155805)
 * [WildKids](https://www.pcgamingwiki.com/wiki/?curid=125607)
 * [Wildland](https://www.pcgamingwiki.com/wiki/?curid=141342)
