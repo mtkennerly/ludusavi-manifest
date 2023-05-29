@@ -30372,7 +30372,6 @@
 * [Syren](https://www.pcgamingwiki.com/wiki/?curid=57792)
 * [System Crash](https://www.pcgamingwiki.com/wiki/?curid=41932)
 * [System Goose Overload](https://www.pcgamingwiki.com/wiki/?curid=65114)
-* [System Shock (2023)](https://www.pcgamingwiki.com/wiki/?curid=35013)
 * [System Shock 2 Enhanced Edition](https://www.pcgamingwiki.com/wiki/?curid=143198)
 * [System Shock 3](https://www.pcgamingwiki.com/wiki/?curid=131235)
 * [System Siege](https://www.pcgamingwiki.com/wiki/?curid=87525)
