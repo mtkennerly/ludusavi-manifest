@@ -18920,6 +18920,7 @@
 * [Manor of the Damned!](https://www.pcgamingwiki.com/wiki/?curid=52542)
 * [Manos: The Hands of Fate](https://www.pcgamingwiki.com/wiki/?curid=47053)
 * [Mansion of Horrors](https://www.pcgamingwiki.com/wiki/?curid=94707)
+* [Manx TT Super Bike](https://www.pcgamingwiki.com/wiki/?curid=187433)
 * [Many Faces](https://www.pcgamingwiki.com/wiki/?curid=155739)
 * [Manygolf](https://www.pcgamingwiki.com/wiki/?curid=62415)
 * [Manyland](https://www.pcgamingwiki.com/wiki/?curid=45375)
