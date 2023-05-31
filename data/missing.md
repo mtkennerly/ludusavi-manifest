@@ -8569,6 +8569,7 @@
 * [Dinotopia: Game Land Activity Center](https://www.pcgamingwiki.com/wiki/?curid=128834)
 * [DinoTrek](https://www.pcgamingwiki.com/wiki/?curid=110338)
 * [Diorama Battle of Ninja](https://www.pcgamingwiki.com/wiki/?curid=40078)
+* [Diorama Builder](https://www.pcgamingwiki.com/wiki/?curid=187459)
 * [Diorama Dungeoncrawl](https://www.pcgamingwiki.com/wiki/?curid=135775)
 * [Diorama No.1: Blocked In](https://www.pcgamingwiki.com/wiki/?curid=43754)
 * [Diorama No.3: The Marchland](https://www.pcgamingwiki.com/wiki/?curid=43756)
