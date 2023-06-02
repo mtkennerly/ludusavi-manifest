@@ -28547,7 +28547,6 @@
 * [Space Slingshot VR](https://www.pcgamingwiki.com/wiki/?curid=90921)
 * [Space Smash](https://www.pcgamingwiki.com/wiki/?curid=129718)
 * [Space Space](https://www.pcgamingwiki.com/wiki/?curid=149927)
-* [Space Station 13](https://www.pcgamingwiki.com/wiki/?curid=16669)
 * [Space Station Alpha](https://www.pcgamingwiki.com/wiki/?curid=48565)
 * [Space Station Continuum](https://www.pcgamingwiki.com/wiki/?curid=90411)
 * [Space Station Invader VR](https://www.pcgamingwiki.com/wiki/?curid=155949)
