@@ -7962,6 +7962,7 @@
 * [Debtor](https://www.pcgamingwiki.com/wiki/?curid=82800)
 * [Debuff](https://www.pcgamingwiki.com/wiki/?curid=77932)
 * [Debugger 3.16: 100% bugged](https://www.pcgamingwiki.com/wiki/?curid=39797)
+* [Decarnation](https://www.pcgamingwiki.com/wiki/?curid=187547)
 * [Decaying West](https://www.pcgamingwiki.com/wiki/?curid=137268)
 * [Deceit 2](https://www.pcgamingwiki.com/wiki/?curid=185719)
 * [Deceive Inc.](https://www.pcgamingwiki.com/wiki/?curid=186726)
