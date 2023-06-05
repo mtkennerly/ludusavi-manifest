@@ -23197,7 +23197,7 @@
 * [Pixel Puzzles Illustrations & Anime](https://www.pcgamingwiki.com/wiki/?curid=173889)
 * [Pixel Puzzles Junior Jigsaw](https://www.pcgamingwiki.com/wiki/?curid=56290)
 * [Pixel Puzzles Ultimate Jigsaw](https://www.pcgamingwiki.com/wiki/?curid=38869)
-* [Pixel Ripped 1989](https://www.pcgamingwiki.com/wiki/?curid=56400)
+* [Pixel Ripped 1978](https://www.pcgamingwiki.com/wiki/?curid=187706)
 * [Pixel Ripped 1995](https://www.pcgamingwiki.com/wiki/?curid=156941)
 * [Pixel Robot Hunter](https://www.pcgamingwiki.com/wiki/?curid=121131)
 * [Pixel Royale](https://www.pcgamingwiki.com/wiki/?curid=110684)
