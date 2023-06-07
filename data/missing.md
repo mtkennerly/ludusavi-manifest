@@ -15755,6 +15755,7 @@
 * [Infinite Game Works Episode 1](https://www.pcgamingwiki.com/wiki/?curid=45896)
 * [Infinite Gateway](https://www.pcgamingwiki.com/wiki/?curid=72272)
 * [Infinite Gravity](https://www.pcgamingwiki.com/wiki/?curid=89456)
+* [Infinite Guitars](https://www.pcgamingwiki.com/wiki/?curid=187728)
 * [Infinite Horizon](https://www.pcgamingwiki.com/wiki/?curid=77333)
 * [Infinite Minigolf](https://www.pcgamingwiki.com/wiki/?curid=51332)
 * [Infinite Rave](https://www.pcgamingwiki.com/wiki/?curid=123448)
