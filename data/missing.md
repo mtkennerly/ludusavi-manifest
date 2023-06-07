@@ -28264,7 +28264,6 @@
 * [Sonic 3D Blast](https://www.pcgamingwiki.com/wiki/?curid=21712)
 * [Sonic Hunter VR](https://www.pcgamingwiki.com/wiki/?curid=53884)
 * [Sonic Nexus](https://www.pcgamingwiki.com/wiki/?curid=177182)
-* [Sonic P-06](https://www.pcgamingwiki.com/wiki/?curid=175664)
 * [Sonic Racing](https://www.pcgamingwiki.com/wiki/?curid=148163)
 * [Sonny](https://www.pcgamingwiki.com/wiki/?curid=60922)
 * [Sonority](https://www.pcgamingwiki.com/wiki/?curid=177488)
