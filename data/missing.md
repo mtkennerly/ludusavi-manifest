@@ -24382,6 +24382,7 @@
 * [Pythagoras' Perpetual Motion Machine](https://www.pcgamingwiki.com/wiki/?curid=121697)
 * [Pythagoria](https://www.pcgamingwiki.com/wiki/?curid=44864)
 * [Q](https://www.pcgamingwiki.com/wiki/?curid=139491)
+* [Q Remastered](https://www.pcgamingwiki.com/wiki/?curid=187761)
 * [Q-YO Blaster](https://www.pcgamingwiki.com/wiki/?curid=79344)
 * [Q.U.I.R.K.](https://www.pcgamingwiki.com/wiki/?curid=58706)
 * [Q*bert (1999)](https://www.pcgamingwiki.com/wiki/?curid=171233)
