@@ -8329,7 +8329,6 @@
 * [Destiny of Ancient Kingdoms](https://www.pcgamingwiki.com/wiki/?curid=36650)
 * [Destiny of Blood](https://www.pcgamingwiki.com/wiki/?curid=68368)
 * [Destiny of Light](https://www.pcgamingwiki.com/wiki/?curid=87175)
-* [Destiny Warriors RPG](https://www.pcgamingwiki.com/wiki/?curid=46476)
 * [Destiny's Princess: A War Story, A Love Story](https://www.pcgamingwiki.com/wiki/?curid=43722)
 * [Destiny's Sword](https://www.pcgamingwiki.com/wiki/?curid=136035)
 * [Destle Strike](https://www.pcgamingwiki.com/wiki/?curid=126446)
