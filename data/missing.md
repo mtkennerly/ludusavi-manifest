@@ -15158,6 +15158,7 @@
 * [Human Simulator](https://www.pcgamingwiki.com/wiki/?curid=155606)
 * [Human-powered Spacecraft](https://www.pcgamingwiki.com/wiki/?curid=92921)
 * [Human, We Have a Problem](https://www.pcgamingwiki.com/wiki/?curid=42577)
+* [Human: Fall Flat 2](https://www.pcgamingwiki.com/wiki/?curid=187812)
 * [Humanity Asset](https://www.pcgamingwiki.com/wiki/?curid=50642)
 * [Humanity Lost](https://www.pcgamingwiki.com/wiki/?curid=150643)
 * [Humanity Must Perish](https://www.pcgamingwiki.com/wiki/?curid=72215)
