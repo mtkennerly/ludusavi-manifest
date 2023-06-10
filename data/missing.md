@@ -19048,7 +19048,6 @@
 * [Masha Rescues Grandma](https://www.pcgamingwiki.com/wiki/?curid=53914)
 * [Mask of Mists](https://www.pcgamingwiki.com/wiki/?curid=156961)
 * [Mask of Sanity](https://www.pcgamingwiki.com/wiki/?curid=145244)
-* [Mask of the Rose](https://www.pcgamingwiki.com/wiki/?curid=178459)
 * [Maska's Masks](https://www.pcgamingwiki.com/wiki/?curid=150792)
 * [MASKED](https://www.pcgamingwiki.com/wiki/?curid=142230)
 * [Masked and Mysterious](https://www.pcgamingwiki.com/wiki/?curid=75077)
