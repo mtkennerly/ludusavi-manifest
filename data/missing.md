@@ -12228,7 +12228,6 @@
 * [Fruit Hoop](https://www.pcgamingwiki.com/wiki/?curid=99356)
 * [Fruit Lockers Reborn! 2](https://www.pcgamingwiki.com/wiki/?curid=125843)
 * [Fruit Mess](https://www.pcgamingwiki.com/wiki/?curid=138681)
-* [Fruit Ninja](https://www.pcgamingwiki.com/wiki/?curid=80734)
 * [Fruit Ninja VR](https://www.pcgamingwiki.com/wiki/?curid=37391)
 * [Fruit Pop Free Edition](https://www.pcgamingwiki.com/wiki/?curid=105315)
 * [Fruit Pop II](https://www.pcgamingwiki.com/wiki/?curid=121945)
