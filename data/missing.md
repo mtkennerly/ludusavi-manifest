@@ -25270,6 +25270,7 @@
 * [Resilience: Wave Survival](https://www.pcgamingwiki.com/wiki/?curid=45152)
 * [Resin](https://www.pcgamingwiki.com/wiki/?curid=52718)
 * [Resistance is Fruitile](https://www.pcgamingwiki.com/wiki/?curid=135759)
+* [Resistor](https://www.pcgamingwiki.com/wiki/?curid=187886)
 * [ReSizE](https://www.pcgamingwiki.com/wiki/?curid=73213)
 * [Resized](https://www.pcgamingwiki.com/wiki/?curid=81673)
 * [Resort Boss: Golf](https://www.pcgamingwiki.com/wiki/?curid=95549)
