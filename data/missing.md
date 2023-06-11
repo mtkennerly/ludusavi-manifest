@@ -30203,6 +30203,7 @@
 * [Survive: The King Killer](https://www.pcgamingwiki.com/wiki/?curid=82726)
 * [Survived](https://www.pcgamingwiki.com/wiki/?curid=150131)
 * [Survived By](https://www.pcgamingwiki.com/wiki/?curid=78673)
+* [Surviving Deponia](https://www.pcgamingwiki.com/wiki/?curid=187877)
 * [Surviving in the Forest](https://www.pcgamingwiki.com/wiki/?curid=69866)
 * [Surviving Medieval](https://www.pcgamingwiki.com/wiki/?curid=136680)
 * [Survivor](https://www.pcgamingwiki.com/wiki/?curid=130480)
