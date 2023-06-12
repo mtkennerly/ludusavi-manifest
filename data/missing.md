@@ -35507,6 +35507,7 @@
 * [Warborn](https://www.pcgamingwiki.com/wiki/?curid=124583)
 * [Warbot](https://www.pcgamingwiki.com/wiki/?curid=82678)
 * [WarBox: Camouflage](https://www.pcgamingwiki.com/wiki/?curid=104563)
+* [WarBreeds](https://www.pcgamingwiki.com/wiki/?curid=187897)
 * [Warbrush](https://www.pcgamingwiki.com/wiki/?curid=148693)
 * [Warchasm](https://www.pcgamingwiki.com/wiki/?curid=154103)
 * [Warcraft Adventures: Lord of the Clans](https://www.pcgamingwiki.com/wiki/?curid=147218)
