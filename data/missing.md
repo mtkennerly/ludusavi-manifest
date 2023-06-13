@@ -17151,6 +17151,7 @@
 * [Kommersant](https://www.pcgamingwiki.com/wiki/?curid=80687)
 * [Kommissar](https://www.pcgamingwiki.com/wiki/?curid=59641)
 * [Kōmori Fruit Rush](https://www.pcgamingwiki.com/wiki/?curid=153594)
+* [KONOSUBA - God's Blessing on this Wonderful World! Love For These Clothes Of Desire!](https://www.pcgamingwiki.com/wiki/?curid=187929)
 * [KonoSuba: In the Life](https://www.pcgamingwiki.com/wiki/?curid=145620)
 * [Konrad the Kitten](https://www.pcgamingwiki.com/wiki/?curid=41809)
 * [Konrad the Rocket](https://www.pcgamingwiki.com/wiki/?curid=89280)
