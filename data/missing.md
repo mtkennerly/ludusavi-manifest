@@ -9440,7 +9440,6 @@
 * [Duck Life: Space](https://www.pcgamingwiki.com/wiki/?curid=61972)
 * [Duck Marines](https://www.pcgamingwiki.com/wiki/?curid=178229)
 * [Duck Paradox](https://www.pcgamingwiki.com/wiki/?curid=180137)
-* [Duck Season](https://www.pcgamingwiki.com/wiki/?curid=69641)
 * [Duck Season PC](https://www.pcgamingwiki.com/wiki/?curid=138845)
 * [Duck Simulator 2](https://www.pcgamingwiki.com/wiki/?curid=175901)
 * [Duck Souls](https://www.pcgamingwiki.com/wiki/?curid=109882)
