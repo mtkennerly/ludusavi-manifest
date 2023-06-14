@@ -1930,6 +1930,8 @@
 * [Arcadia: The Crystal Wars](https://www.pcgamingwiki.com/wiki/?curid=142258)
 * [Arcadian Atlas](https://www.pcgamingwiki.com/wiki/?curid=70391)
 * [Arcana Ritter](https://www.pcgamingwiki.com/wiki/?curid=75119)
+* [Arcana: Heat and Cold. Season 2](https://www.pcgamingwiki.com/wiki/?curid=187938)
+* [Arcana: Heat and Cold. Stories](https://www.pcgamingwiki.com/wiki/?curid=187940)
 * [Arcane](https://www.pcgamingwiki.com/wiki/?curid=55246)
 * [Arcane Domains](https://www.pcgamingwiki.com/wiki/?curid=125837)
 * [Arcane Golf](https://www.pcgamingwiki.com/wiki/?curid=102833)
