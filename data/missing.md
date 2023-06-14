@@ -13697,6 +13697,7 @@
 * [Guns of Icarus Alliance](https://www.pcgamingwiki.com/wiki/?curid=59508)
 * [Guns of Infinity](https://www.pcgamingwiki.com/wiki/?curid=43913)
 * [Guns of Midnight](https://www.pcgamingwiki.com/wiki/?curid=135381)
+* [Guns Undarkness](https://www.pcgamingwiki.com/wiki/?curid=187933)
 * [Guns Up!](https://www.pcgamingwiki.com/wiki/?curid=67984)
 * [Guns'n'Stories: Bulletproof VR](https://www.pcgamingwiki.com/wiki/?curid=67970)
 * [Guns'n'Stories: Preface VR](https://www.pcgamingwiki.com/wiki/?curid=89254)
