@@ -33893,6 +33893,7 @@
 * [Trip Troupe](https://www.pcgamingwiki.com/wiki/?curid=137354)
 * [Trip=true](https://www.pcgamingwiki.com/wiki/?curid=179269)
 * [Triple Otakus Puzzle](https://www.pcgamingwiki.com/wiki/?curid=68964)
+* [Triple Play Baseball](https://www.pcgamingwiki.com/wiki/?curid=187968)
 * [Triple Twenty](https://www.pcgamingwiki.com/wiki/?curid=72535)
 * [Triple X Tycoon](https://www.pcgamingwiki.com/wiki/?curid=57703)
 * [Triplicata](https://www.pcgamingwiki.com/wiki/?curid=72525)
