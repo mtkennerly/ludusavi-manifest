@@ -996,6 +996,7 @@
 * [Agatha Christie: And Then There Were None](https://www.pcgamingwiki.com/wiki/?curid=176856)
 * [Agatha Christie: Evil under the Sun](https://www.pcgamingwiki.com/wiki/?curid=176955)
 * [Agatha Christie: Murder on the Orient Express](https://www.pcgamingwiki.com/wiki/?curid=176953)
+* [Agatha Christie: Murder on the Orient Express (2023)](https://www.pcgamingwiki.com/wiki/?curid=188021)
 * [Agatha Knife](https://www.pcgamingwiki.com/wiki/?curid=61488)
 * [Age of Barbarian](https://www.pcgamingwiki.com/wiki/?curid=35309)
 * [Age of Booty](https://www.pcgamingwiki.com/wiki/?curid=41312)
