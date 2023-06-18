@@ -25296,6 +25296,7 @@
 * [Restless Hero](https://www.pcgamingwiki.com/wiki/?curid=148078)
 * [Restless Soul](https://www.pcgamingwiki.com/wiki/?curid=184644)
 * [Restoration](https://www.pcgamingwiki.com/wiki/?curid=67641)
+* [Restricted Area](https://www.pcgamingwiki.com/wiki/?curid=188029)
 * [Restricted-RPS - All Aboard The Icarus](https://www.pcgamingwiki.com/wiki/?curid=35190)
 * [Resuffer: Down the Rabbit Hole](https://www.pcgamingwiki.com/wiki/?curid=135627)
 * [Resume: The Video Game](https://www.pcgamingwiki.com/wiki/?curid=87211)
