@@ -13818,7 +13818,6 @@
 * [Halloweenistry](https://www.pcgamingwiki.com/wiki/?curid=68950)
 * [Halloweenistry 2](https://www.pcgamingwiki.com/wiki/?curid=69506)
 * [HalloweenStory](https://www.pcgamingwiki.com/wiki/?curid=144520)
-* [Halls of Torment](https://www.pcgamingwiki.com/wiki/?curid=187340)
 * [Hallucination - 幻觉](https://www.pcgamingwiki.com/wiki/?curid=151256)
 * [Hallway Simulator 2020](https://www.pcgamingwiki.com/wiki/?curid=144405)
 * [Halo Beats!](https://www.pcgamingwiki.com/wiki/?curid=156563)
