@@ -1281,6 +1281,7 @@
 * [Alien Food Frenzy](https://www.pcgamingwiki.com/wiki/?curid=81661)
 * [Alien grenadier](https://www.pcgamingwiki.com/wiki/?curid=124382)
 * [Alien Hallway 2](https://www.pcgamingwiki.com/wiki/?curid=72740)
+* [Alien Hominid Invasion](https://www.pcgamingwiki.com/wiki/?curid=188147)
 * [Alien Hostage](https://www.pcgamingwiki.com/wiki/?curid=54295)
 * [Alien Hunt 3D](https://www.pcgamingwiki.com/wiki/?curid=102445)
 * [Alien Infection](https://www.pcgamingwiki.com/wiki/?curid=141457)
