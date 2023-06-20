@@ -29574,6 +29574,7 @@
 * [Street Fighter Alpha: Warriors' Dreams](https://www.pcgamingwiki.com/wiki/?curid=188010)
 * [Street Fighter II](https://www.pcgamingwiki.com/wiki/?curid=188007)
 * [Street Fighter IV](https://www.pcgamingwiki.com/wiki/?curid=6353)
+* [Street Fighter Online: Mouse Generation](https://www.pcgamingwiki.com/wiki/?curid=188170)
 * [Street Heat](https://www.pcgamingwiki.com/wiki/?curid=76983)
 * [Street Hoop](https://www.pcgamingwiki.com/wiki/?curid=155933)
 * [Street Jam: The Rise](https://www.pcgamingwiki.com/wiki/?curid=155705)
