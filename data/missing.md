@@ -29084,6 +29084,7 @@
 * [Star Merchant](https://www.pcgamingwiki.com/wiki/?curid=58654)
 * [Star Nomad](https://www.pcgamingwiki.com/wiki/?curid=49051)
 * [Star Nomad 2](https://www.pcgamingwiki.com/wiki/?curid=45298)
+* [Star Ocean: The Second Story R](https://www.pcgamingwiki.com/wiki/?curid=188191)
 * [Star of Lemutia](https://www.pcgamingwiki.com/wiki/?curid=78110)
 * [Star of Lemutia : Reborn](https://www.pcgamingwiki.com/wiki/?curid=153748)
 * [Star Phoenix](https://www.pcgamingwiki.com/wiki/?curid=53842)
