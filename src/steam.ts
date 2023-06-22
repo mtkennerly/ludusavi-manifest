@@ -62,12 +62,7 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
 
         const installDir = info.apps[key].appinfo.config?.installdir;
         if (installDir !== undefined) {
-            if (!this.isIrregularString(installDir)) {
-                // Avoid: https://github.com/DoctorMcKay/node-steam-user/issues/397
-                this.data[key].installDir = installDir;
-            } else {
-                this.data[key].irregular = true;
-            }
+            this.data[key].installDir = installDir;
         }
 
         const nameLocalized = info.apps[key].appinfo.common?.name_localized;
@@ -79,18 +74,13 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
         if (launch !== undefined) {
             const keys = Object.keys(launch).sort((x, y) => parseInt(x) - parseInt(y));
             const launchArray = keys.map(x => launch[x]);
-            if (launchArray.every(x => !this.hasIrregularKeys(x))) {
-                // Avoid: https://github.com/DoctorMcKay/node-steam-user/issues/397
-                this.data[key].launch = launchArray;
-            } else {
-                this.data[key].irregular = true;
-            }
+            this.data[key].launch = launchArray;
         }
 
         return this.data[key];
     }
 
-    async refresh(skipUntil: string | undefined, irregularUntagged: boolean, limit: number): Promise<void> {
+    async refresh(skipUntil: string | undefined, irregularTagged: boolean, irregularUntagged: boolean, limit: number): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
         for (const appId of Object.keys(this.data).sort()) {
@@ -98,6 +88,12 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
                 if (appId === skipUntil) {
                     foundSkipUntil = true;
                 } else {
+                    continue;
+                }
+            }
+
+            if (irregularTagged) {
+                if (!this.data[appId].irregular) {
                     continue;
                 }
             }

@@ -12,6 +12,7 @@ interface Cli {
     stats?: boolean,
     duplicates?: boolean,
     all?: boolean,
+    irregular?: boolean,
     irregularPathUntagged?: boolean,
     skipUntil?: string,
     recent?: boolean,
@@ -27,6 +28,7 @@ async function main() {
             "manifest",
             "stats",
             "all",
+            "irregular",
             "irregularPathUntagged",
             "steam",
             "missing",
@@ -101,6 +103,7 @@ async function main() {
         if (args.steam) {
             await steamCache.refresh(
                 args.skipUntil,
+                args.irregular ?? false,
                 args.irregularPathUntagged ?? false,
                 args.limit ?? DEFAULT_GAME_LIMIT,
             );
