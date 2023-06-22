@@ -6830,6 +6830,7 @@
 * [Crey](https://www.pcgamingwiki.com/wiki/?curid=158489)
 * [Cricket 19](https://www.pcgamingwiki.com/wiki/?curid=136965)
 * [Cricket 22](https://www.pcgamingwiki.com/wiki/?curid=172405)
+* [Cricket 24](https://www.pcgamingwiki.com/wiki/?curid=188197)
 * [Cricket Captain 2014](https://www.pcgamingwiki.com/wiki/?curid=49795)
 * [Cricket Captain 2015](https://www.pcgamingwiki.com/wiki/?curid=47351)
 * [Cricket Captain 2016](https://www.pcgamingwiki.com/wiki/?curid=42593)
