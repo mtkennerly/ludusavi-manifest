@@ -149,7 +149,7 @@ interface SteamProductInfoResponse {
 
 export async function getSteamClient(): Promise<SteamUser> {
     const client = new SteamUser();
-    client.logOn();
+    client.logOn({ anonymous: true });
     await new Promise<void>(resolve => {
         client.on("loggedOn", () => {
             resolve();

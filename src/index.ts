@@ -39,7 +39,7 @@ export abstract class YamlFile<T = object> {
 
     load(): void {
         if (fs.existsSync(this.path)) {
-            this.data = yaml.safeLoad(fs.readFileSync(this.path, "utf8"));
+            this.data = yaml.safeLoad(fs.readFileSync(this.path, "utf8")) as T;
         } else {
             this.data = this.defaultData;
         }
