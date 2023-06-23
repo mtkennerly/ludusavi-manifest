@@ -45,6 +45,8 @@ export interface Game {
     };
     id?: {
         flatpak?: string,
+        gogExtra?: Array<number>,
+        steamExtra?: Array<number>,
     };
 }
 
@@ -82,15 +84,26 @@ function doLaunchPathsMatch(fromSteam: string | undefined, fromManifest: string 
 }
 
 function integrateWikiData(game: Game, cache: WikiGameCache[""]): void {
+    game.id = {};
     if (cache.steam !== undefined) {
         game.steam = { id: cache.steam };
+    }
+    if (cache.steamSide !== undefined) {
+        game.id.steamExtra = cache.steamSide;
     }
     if (cache.gog !== undefined) {
         game.gog = { id: cache.gog };
     }
+    if (cache.gogSide !== undefined) {
+        game.id.gogExtra = cache.gogSide;
+    }
     const info = parseTemplates(cache.templates ?? []);
     game.files = info.files;
     game.registry = info.registry;
+
+    if (game.id.flatpak === undefined && game.id.gogExtra === undefined && game.id.steamExtra === undefined) {
+        delete game.id;
+    }
 }
 
 function integrateSteamData(game: Game, appInfo: SteamGameCache[""] | undefined): void {

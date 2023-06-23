@@ -110,3 +110,11 @@ additionalProperties:
       properties:
         flatpak:
           type: string
+        gogExtra:
+          type: array
+          items:
+            type: integer
+        steamExtra:
+          type: array
+          items:
+            type: integer
