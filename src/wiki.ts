@@ -37,8 +37,9 @@ export type WikiGameCache = {
         renamedFrom?: Array<string>,
         templates?: Array<string>,
         steam?: number,
+        steamSide?: Array<number>,
         gog?: number
-
+        gogSide?: Array<number>,
     };
 };
 
@@ -601,9 +602,36 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
             if (!isNaN(steamId) && steamId > 0) {
                 cache[pageTitle].steam = steamId;
             }
+
+            cache[pageTitle].steamSide = [];
+            const steamSides = template.parameters["steam appid side"] as string | undefined;
+            if (steamSides !== undefined) {
+                for (const side of steamSides.split(",").map(Number)) {
+                    if (!isNaN(side) && side > 0) {
+                        cache[pageTitle].steamSide.push(side);
+                    }
+                }
+            }
+            if (cache[pageTitle].steamSide.length === 0) {
+                delete cache[pageTitle].steamSide;
+            }
+
             const gogId = Number(template.parameters["gogcom id"]);
             if (!isNaN(gogId) && gogId > 0) {
                 cache[pageTitle].gog = gogId
+            }
+
+            cache[pageTitle].gogSide = [];
+            const gogSides = template.parameters["gogcom id side"] as string | undefined;
+            if (gogSides !== undefined) {
+                for (const side of gogSides.split(",").map(Number)) {
+                    if (!isNaN(side) && side > 0) {
+                        cache[pageTitle].gogSide.push(side);
+                    }
+                }
+            }
+            if (cache[pageTitle].gogSide.length === 0) {
+                delete cache[pageTitle].gogSide;
             }
         } else if (templateName === "game data/saves" || templateName === "game data/config") {
             const reparsed = parseWiki(template.toString());
