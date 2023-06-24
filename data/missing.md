@@ -12629,7 +12629,6 @@
 * [Gate of Ice](https://www.pcgamingwiki.com/wiki/?curid=79370)
 * [Gates Of a Ruined Empire](https://www.pcgamingwiki.com/wiki/?curid=145399)
 * [Gates of Avalon](https://www.pcgamingwiki.com/wiki/?curid=99300)
-* [Gates of Hell](https://www.pcgamingwiki.com/wiki/?curid=39510)
 * [Gates of Horizon](https://www.pcgamingwiki.com/wiki/?curid=49085)
 * [Gates of Horn and Ivory](https://www.pcgamingwiki.com/wiki/?curid=108712)
 * [Gates of Nowhere](https://www.pcgamingwiki.com/wiki/?curid=65612)
