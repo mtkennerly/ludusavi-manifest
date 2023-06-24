@@ -35964,7 +35964,6 @@
 * [Whispers: Last Hope](https://www.pcgamingwiki.com/wiki/?curid=60695)
 * [WhiTaers](https://www.pcgamingwiki.com/wiki/?curid=125721)
 * [WhiTaers: Gongren Edition](https://www.pcgamingwiki.com/wiki/?curid=126096)
-* [White Day 2: The Flower That Tells Lies](https://www.pcgamingwiki.com/wiki/?curid=185261)
 * [White Day VR: The Courage Test](https://www.pcgamingwiki.com/wiki/?curid=174338)
 * [White Dove 白雀](https://www.pcgamingwiki.com/wiki/?curid=115000)
 * [White Haven Mysteries](https://www.pcgamingwiki.com/wiki/?curid=50428)
