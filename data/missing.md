@@ -29497,7 +29497,6 @@
 * [Story of a Gladiator](https://www.pcgamingwiki.com/wiki/?curid=152935)
 * [Story of Monster](https://www.pcgamingwiki.com/wiki/?curid=136436)
 * [Story of one Night](https://www.pcgamingwiki.com/wiki/?curid=136956)
-* [Story of Seasons: A Wonderful Life](https://www.pcgamingwiki.com/wiki/?curid=185328)
 * [Story of the Green Dragon](https://www.pcgamingwiki.com/wiki/?curid=114066)
 * [Story of the Survivor](https://www.pcgamingwiki.com/wiki/?curid=44586)
 * [Story of the Survivor: Prisoner](https://www.pcgamingwiki.com/wiki/?curid=70156)
