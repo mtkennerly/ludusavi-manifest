@@ -33072,6 +33072,7 @@
 * [Tiger Tank 59 Ⅰ Volcano](https://www.pcgamingwiki.com/wiki/?curid=136568)
 * [Tiger Tank 59 Ⅰ Winter Assault](https://www.pcgamingwiki.com/wiki/?curid=134982)
 * [Tiger Woods 99 PGA Tour Golf](https://www.pcgamingwiki.com/wiki/?curid=133134)
+* [Tiger Woods PGA Tour 06](https://www.pcgamingwiki.com/wiki/?curid=188295)
 * [Tiger Woods PGA Tour 08](https://www.pcgamingwiki.com/wiki/?curid=171553)
 * [Tiger Woods PGA Tour 2002](https://www.pcgamingwiki.com/wiki/?curid=183522)
 * [Tiger Woods PGA Tour 2004](https://www.pcgamingwiki.com/wiki/?curid=183524)
