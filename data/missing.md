@@ -25684,6 +25684,7 @@
 * [Robbie Swifthand and the Orb of Mysteries](https://www.pcgamingwiki.com/wiki/?curid=77096)
 * [Robbotto](https://www.pcgamingwiki.com/wiki/?curid=104673)
 * [Robby's Adventure](https://www.pcgamingwiki.com/wiki/?curid=69444)
+* [Robert E. Lee: Civil War General](https://www.pcgamingwiki.com/wiki/?curid=188344)
 * [Robert Mensah's Sins of the Father](https://www.pcgamingwiki.com/wiki/?curid=44219)
 * [Robert Rodriguez's The Limit](https://www.pcgamingwiki.com/wiki/?curid=123727)
 * [Robikon](https://www.pcgamingwiki.com/wiki/?curid=110110)
