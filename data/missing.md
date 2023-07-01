@@ -12179,7 +12179,6 @@
 * [Front Defense](https://www.pcgamingwiki.com/wiki/?curid=65212)
 * [Front Defense: Heroes](https://www.pcgamingwiki.com/wiki/?curid=89232)
 * [Front Lines](https://www.pcgamingwiki.com/wiki/?curid=138927)
-* [Front Mission 1st: Remake](https://www.pcgamingwiki.com/wiki/?curid=187497)
 * [Front Mission Online](https://www.pcgamingwiki.com/wiki/?curid=183216)
 * [Front Office Football Eight](https://www.pcgamingwiki.com/wiki/?curid=53862)
 * [Front Office Football Seven](https://www.pcgamingwiki.com/wiki/?curid=48779)
