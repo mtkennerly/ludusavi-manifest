@@ -20863,6 +20863,7 @@
 * [NASCAR 2000](https://www.pcgamingwiki.com/wiki/?curid=22374)
 * [NASCAR 21: Ignition](https://www.pcgamingwiki.com/wiki/?curid=170800)
 * [Nascar Arcade Rush](https://www.pcgamingwiki.com/wiki/?curid=188237)
+* [NASCAR Arcade Rush](https://www.pcgamingwiki.com/wiki/?curid=188417)
 * [NASCAR Heat](https://www.pcgamingwiki.com/wiki/?curid=24626)
 * [NASCAR Racers](https://www.pcgamingwiki.com/wiki/?curid=22371)
 * [NASCAR Racing](https://www.pcgamingwiki.com/wiki/?curid=180903)
