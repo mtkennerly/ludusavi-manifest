@@ -28597,7 +28597,6 @@
 * [Space, VR!](https://www.pcgamingwiki.com/wiki/?curid=42055)
 * [SpaceBall in Cube](https://www.pcgamingwiki.com/wiki/?curid=108144)
 * [Spaceball!](https://www.pcgamingwiki.com/wiki/?curid=108450)
-* [Spacebase Startopia](https://www.pcgamingwiki.com/wiki/?curid=145483)
 * [SpaceBOUND](https://www.pcgamingwiki.com/wiki/?curid=67506)
 * [SpaceBourne](https://www.pcgamingwiki.com/wiki/?curid=104945)
 * [SpaceBullet](https://www.pcgamingwiki.com/wiki/?curid=130028)
