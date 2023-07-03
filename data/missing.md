@@ -13176,7 +13176,6 @@
 * [Golf Pool VR](https://www.pcgamingwiki.com/wiki/?curid=130605)
 * [Golf Pro VR](https://www.pcgamingwiki.com/wiki/?curid=40446)
 * [Golf Resort Tycoon](https://www.pcgamingwiki.com/wiki/?curid=89876)
-* [Golf Resort Tycoon II](https://www.pcgamingwiki.com/wiki/?curid=90672)
 * [Golf98](https://www.pcgamingwiki.com/wiki/?curid=148820)
 * [Golfy Golf](https://www.pcgamingwiki.com/wiki/?curid=92281)
 * [Goliath](https://www.pcgamingwiki.com/wiki/?curid=34186)
