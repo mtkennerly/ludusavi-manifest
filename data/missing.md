@@ -7815,7 +7815,6 @@
 * [Dead Stop](https://www.pcgamingwiki.com/wiki/?curid=44405)
 * [Dead Target VR: Zombie Intensified](https://www.pcgamingwiki.com/wiki/?curid=78400)
 * [Dead territory](https://www.pcgamingwiki.com/wiki/?curid=153738)
-* [Dead to Rights II](https://www.pcgamingwiki.com/wiki/?curid=61241)
 * [Dead TrailZ](https://www.pcgamingwiki.com/wiki/?curid=45041)
 * [Dead Tropics](https://www.pcgamingwiki.com/wiki/?curid=91979)
 * [Dead Wishes](https://www.pcgamingwiki.com/wiki/?curid=126029)
