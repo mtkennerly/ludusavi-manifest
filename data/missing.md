@@ -11108,7 +11108,6 @@
 * [Farstorm](https://www.pcgamingwiki.com/wiki/?curid=112268)
 * [Fart Fiasco Premium](https://www.pcgamingwiki.com/wiki/?curid=150480)
 * [Fart Simulator 2018](https://www.pcgamingwiki.com/wiki/?curid=75109)
-* [Farthest Frontier](https://www.pcgamingwiki.com/wiki/?curid=166108)
 * [Farworld Pioneers](https://www.pcgamingwiki.com/wiki/?curid=187474)
 * [Fasaria Legacy Collection](https://www.pcgamingwiki.com/wiki/?curid=91853)
 * [Fasaria World Online](https://www.pcgamingwiki.com/wiki/?curid=48639)
