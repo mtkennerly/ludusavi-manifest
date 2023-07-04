@@ -11479,7 +11479,6 @@
 * [Firework (2021)](https://www.pcgamingwiki.com/wiki/?curid=173672)
 * [Fireworks Desert Blast](https://www.pcgamingwiki.com/wiki/?curid=55472)
 * [Fireworks Mania - An Explosive Simulator](https://www.pcgamingwiki.com/wiki/?curid=154390)
-* [Fireworks Simulator](https://www.pcgamingwiki.com/wiki/?curid=49241)
 * [Firezone](https://www.pcgamingwiki.com/wiki/?curid=183885)
 * [FIRMA](https://www.pcgamingwiki.com/wiki/?curid=53419)
 * [Firmament Wars](https://www.pcgamingwiki.com/wiki/?curid=96251)
