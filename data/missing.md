@@ -13961,6 +13961,7 @@
 * [Harry's Burgers](https://www.pcgamingwiki.com/wiki/?curid=82440)
 * [Harsh](https://www.pcgamingwiki.com/wiki/?curid=79864)
 * [Hartacon Tactics](https://www.pcgamingwiki.com/wiki/?curid=64224)
+* [Harukanaru Augusta](https://www.pcgamingwiki.com/wiki/?curid=188508)
 * [Harvest Life](https://www.pcgamingwiki.com/wiki/?curid=74560)
 * [Harvest Moon: Light of Hope](https://www.pcgamingwiki.com/wiki/?curid=75047)
 * [Harvest Moon: Mad Dash](https://www.pcgamingwiki.com/wiki/?curid=153190)
