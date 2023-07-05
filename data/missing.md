@@ -27341,7 +27341,6 @@
 * [Shot Shot Tactic](https://www.pcgamingwiki.com/wiki/?curid=54090)
 * [ShotForge](https://www.pcgamingwiki.com/wiki/?curid=52402)
 * [Shotgun Farmers](https://www.pcgamingwiki.com/wiki/?curid=62058)
-* [Shotgun King: The Final Checkmate](https://www.pcgamingwiki.com/wiki/?curid=180550)
 * [Shotgun Legend](https://www.pcgamingwiki.com/wiki/?curid=62729)
 * [Shotgun Raiders](https://www.pcgamingwiki.com/wiki/?curid=40281)
 * [ShotKill](https://www.pcgamingwiki.com/wiki/?curid=122490)
