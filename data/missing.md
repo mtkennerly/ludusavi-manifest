@@ -4219,6 +4219,7 @@
 * [Boros](https://www.pcgamingwiki.com/wiki/?curid=60452)
 * [Borstal](https://www.pcgamingwiki.com/wiki/?curid=44032)
 * [Bosch's Damnation](https://www.pcgamingwiki.com/wiki/?curid=47190)
+* [Bosorka](https://www.pcgamingwiki.com/wiki/?curid=188542)
 * [Boss 101](https://www.pcgamingwiki.com/wiki/?curid=36590)
 * [Boss Barrage](https://www.pcgamingwiki.com/wiki/?curid=121397)
 * [Boss Crushers](https://www.pcgamingwiki.com/wiki/?curid=82882)
