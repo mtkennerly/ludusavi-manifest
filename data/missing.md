@@ -31948,7 +31948,6 @@
 * [The Legend of Excalipurr](https://www.pcgamingwiki.com/wiki/?curid=60806)
 * [The Legend of Heroes: Kuro no Kiseki](https://www.pcgamingwiki.com/wiki/?curid=177344)
 * [The Legend of Heroes: Kuro no Kiseki II - Crimson Sin](https://www.pcgamingwiki.com/wiki/?curid=188336)
-* [The Legend of Heroes: Trails into Reverie](https://www.pcgamingwiki.com/wiki/?curid=170260)
 * [The Legend of Monster Mountain](https://www.pcgamingwiki.com/wiki/?curid=104539)
 * [The Legend of Nayuta: Boundless Trails](https://www.pcgamingwiki.com/wiki/?curid=170939)
 * [The Legend of Protey](https://www.pcgamingwiki.com/wiki/?curid=104611)
