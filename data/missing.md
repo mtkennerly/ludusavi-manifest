@@ -36144,7 +36144,6 @@
 * [Winter's Symphonies](https://www.pcgamingwiki.com/wiki/?curid=125363)
 * [Wintercearig](https://www.pcgamingwiki.com/wiki/?curid=141760)
 * [Winteristry](https://www.pcgamingwiki.com/wiki/?curid=69737)
-* [Winx Club](https://www.pcgamingwiki.com/wiki/?curid=178792)
 * [Wipe Out VR](https://www.pcgamingwiki.com/wiki/?curid=55151)
 * [Wira & Taksa: Against the Master of Gravity](https://www.pcgamingwiki.com/wiki/?curid=73659)
 * [Wire Lips](https://www.pcgamingwiki.com/wiki/?curid=155418)
