@@ -31762,6 +31762,7 @@
 * [The Housewife](https://www.pcgamingwiki.com/wiki/?curid=36810)
 * [The Humans](https://www.pcgamingwiki.com/wiki/?curid=95969)
 * [The Humans: Meet the Ancestors!](https://www.pcgamingwiki.com/wiki/?curid=184616)
+* [The Hunchback of Notre Dame: Topsy Turvy Games](https://www.pcgamingwiki.com/wiki/?curid=188564)
 * [The Hunt](https://www.pcgamingwiki.com/wiki/?curid=63006)
 * [The Hunt - Rebuilt](https://www.pcgamingwiki.com/wiki/?curid=67309)
 * [The Hunt - Sophie's Journey](https://www.pcgamingwiki.com/wiki/?curid=135030)
