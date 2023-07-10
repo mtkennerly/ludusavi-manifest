@@ -20991,7 +20991,6 @@
 * [Need for Spirit: Drink & Drive Simulator](https://www.pcgamingwiki.com/wiki/?curid=110306)
 * [Need for Spirit: Off-Road Edition](https://www.pcgamingwiki.com/wiki/?curid=128105)
 * [Need for Synthol](https://www.pcgamingwiki.com/wiki/?curid=92781)
-* [Needy Streamer Overload](https://www.pcgamingwiki.com/wiki/?curid=188049)
 * [NEET simulator](https://www.pcgamingwiki.com/wiki/?curid=125179)
 * [Nefarious](https://www.pcgamingwiki.com/wiki/?curid=39588)
 * [Nefertari: Journey to Eternity](https://www.pcgamingwiki.com/wiki/?curid=99404)
