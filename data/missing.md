@@ -36490,6 +36490,7 @@
 * [WW2: Bunker Simulator](https://www.pcgamingwiki.com/wiki/?curid=151553)
 * [WWF in Your House](https://www.pcgamingwiki.com/wiki/?curid=187431)
 * [WWF Raw](https://www.pcgamingwiki.com/wiki/?curid=35829)
+* [WWF WrestleMania: The Arcade Game](https://www.pcgamingwiki.com/wiki/?curid=188586)
 * [WWII - TD](https://www.pcgamingwiki.com/wiki/?curid=104483)
 * [WWII英雄列伝 最強の虎 クルト・クニスペル](https://www.pcgamingwiki.com/wiki/?curid=77247)
 * [WWII英雄列伝 泥の中の虎 オットー・カリウス](https://www.pcgamingwiki.com/wiki/?curid=81607)
