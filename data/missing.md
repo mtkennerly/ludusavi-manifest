@@ -32178,6 +32178,7 @@
 * [The Nightmare from Beyond](https://www.pcgamingwiki.com/wiki/?curid=67948)
 * [The Nightshift Code](https://www.pcgamingwiki.com/wiki/?curid=41120)
 * [The Ninja Path](https://www.pcgamingwiki.com/wiki/?curid=110796)
+* [The Ninja Saviors: Return of the Warriors](https://www.pcgamingwiki.com/wiki/?curid=188600)
 * [The Normal Day](https://www.pcgamingwiki.com/wiki/?curid=63286)
 * [The North Pole](https://www.pcgamingwiki.com/wiki/?curid=153911)
 * [The Nose](https://www.pcgamingwiki.com/wiki/?curid=65128)
