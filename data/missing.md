@@ -35385,7 +35385,6 @@
 * [Wall Street Tycoon](https://www.pcgamingwiki.com/wiki/?curid=128117)
 * [Wall to Wall](https://www.pcgamingwiki.com/wiki/?curid=128173)
 * [Wall Walker](https://www.pcgamingwiki.com/wiki/?curid=105209)
-* [Wallace & Gromit in Project Zoo](https://www.pcgamingwiki.com/wiki/?curid=163714)
 * [Wallenda](https://www.pcgamingwiki.com/wiki/?curid=122746)
 * [Wallrunners](https://www.pcgamingwiki.com/wiki/?curid=91236)
 * [Walls in Dead](https://www.pcgamingwiki.com/wiki/?curid=91939)
