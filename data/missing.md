@@ -2381,7 +2381,6 @@
 * [Atelier Ayesha: The Alchemist of Dusk DX](https://www.pcgamingwiki.com/wiki/?curid=155087)
 * [Atelier Elie: The Alchemist of Salburg 2](https://www.pcgamingwiki.com/wiki/?curid=162382)
 * [Atelier Escha & Logy: Alchemists of the Dusk Sky DX](https://www.pcgamingwiki.com/wiki/?curid=155089)
-* [Atelier Marie Remake: The Alchemist of Salburg](https://www.pcgamingwiki.com/wiki/?curid=185396)
 * [Atelier Marie: The Alchemist of Salburg](https://www.pcgamingwiki.com/wiki/?curid=155193)
 * [Atelier Shallie: Alchemists of the Dusk Sea DX](https://www.pcgamingwiki.com/wiki/?curid=155091)
 * [Atex Brawl](https://www.pcgamingwiki.com/wiki/?curid=94096)
