@@ -36014,7 +36014,6 @@
 * [Wild Game Hunter VR](https://www.pcgamingwiki.com/wiki/?curid=55730)
 * [Wild Glory](https://www.pcgamingwiki.com/wiki/?curid=87966)
 * [Wild Goo Chase](https://www.pcgamingwiki.com/wiki/?curid=65067)
-* [Wild Guns Reloaded](https://www.pcgamingwiki.com/wiki/?curid=62364)
 * [Wild Island Quest](https://www.pcgamingwiki.com/wiki/?curid=46552)
 * [Wild Light](https://www.pcgamingwiki.com/wiki/?curid=74606)
 * [Wild Mage - Phantom Twilight](https://www.pcgamingwiki.com/wiki/?curid=81810)
