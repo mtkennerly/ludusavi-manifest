@@ -31607,7 +31607,6 @@
 * [The Game is Yours](https://www.pcgamingwiki.com/wiki/?curid=134497)
 * [The Game of Life](https://www.pcgamingwiki.com/wiki/?curid=7468)
 * [The Game of Life (2013)](https://www.pcgamingwiki.com/wiki/?curid=51110)
-* [The Game of Life 2](https://www.pcgamingwiki.com/wiki/?curid=182376)
 * [The Game We All Have To Play](https://www.pcgamingwiki.com/wiki/?curid=156637)
 * [The Gamer Challenge](https://www.pcgamingwiki.com/wiki/?curid=66645)
 * [The Gameshow](https://www.pcgamingwiki.com/wiki/?curid=121835)
