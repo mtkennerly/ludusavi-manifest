@@ -21250,7 +21250,6 @@
 * [Nick Reckless in The Curse of the Lost Cause](https://www.pcgamingwiki.com/wiki/?curid=157116)
 * [Nickelodeon Director's Lab](https://www.pcgamingwiki.com/wiki/?curid=183495)
 * [Nickelodeon Extreme Tennis](https://www.pcgamingwiki.com/wiki/?curid=173696)
-* [Nickelodeon Kart Racers 2: Grand Prix](https://www.pcgamingwiki.com/wiki/?curid=170602)
 * [Nickelodeon Party Blast](https://www.pcgamingwiki.com/wiki/?curid=88322)
 * [NickProject](https://www.pcgamingwiki.com/wiki/?curid=87316)
 * [Nicktoons Basketball](https://www.pcgamingwiki.com/wiki/?curid=183499)
