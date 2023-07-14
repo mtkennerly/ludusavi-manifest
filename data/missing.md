@@ -23330,7 +23330,6 @@
 * [Plans for NY?](https://www.pcgamingwiki.com/wiki/?curid=76171)
 * [Plant Fire Department - The Simulation](https://www.pcgamingwiki.com/wiki/?curid=36678)
 * [Plant This](https://www.pcgamingwiki.com/wiki/?curid=76977)
-* [Plant Tycoon](https://www.pcgamingwiki.com/wiki/?curid=41375)
 * [PlanTechtor](https://www.pcgamingwiki.com/wiki/?curid=122658)
 * [Plantera 2: Golden Acorn](https://www.pcgamingwiki.com/wiki/?curid=157043)
 * [Plants](https://www.pcgamingwiki.com/wiki/?curid=94553)
