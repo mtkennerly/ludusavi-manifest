@@ -13554,7 +13554,6 @@
 * [GSpot Master](https://www.pcgamingwiki.com/wiki/?curid=148603)
 * [GSR: German Street Racing](https://www.pcgamingwiki.com/wiki/?curid=88308)
 * [GT-R 400](https://www.pcgamingwiki.com/wiki/?curid=24179)
-* [GTTOD: Get to the Orange Door](https://www.pcgamingwiki.com/wiki/?curid=61679)
 * [Guard of Wonderland](https://www.pcgamingwiki.com/wiki/?curid=113786)
 * [Guard of Wonderland VR](https://www.pcgamingwiki.com/wiki/?curid=87483)
 * [Guardian](https://www.pcgamingwiki.com/wiki/?curid=69423)
