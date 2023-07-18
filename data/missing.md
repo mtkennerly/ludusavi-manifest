@@ -12927,7 +12927,6 @@
 * [GlaiveZ](https://www.pcgamingwiki.com/wiki/?curid=149539)
 * [Glare1more](https://www.pcgamingwiki.com/wiki/?curid=146002)
 * [Glass City: The Dust](https://www.pcgamingwiki.com/wiki/?curid=77244)
-* [Glass Masquerade 3: Honeylines](https://www.pcgamingwiki.com/wiki/?curid=187022)
 * [Glass Painting: Winter Art](https://www.pcgamingwiki.com/wiki/?curid=122468)
 * [Glass Wing](https://www.pcgamingwiki.com/wiki/?curid=47505)
 * [GlassSmash](https://www.pcgamingwiki.com/wiki/?curid=134902)
