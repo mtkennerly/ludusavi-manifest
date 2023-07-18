@@ -18703,6 +18703,7 @@
 * [Magic Wand](https://www.pcgamingwiki.com/wiki/?curid=64468)
 * [Magic Word Alchemist](https://www.pcgamingwiki.com/wiki/?curid=127453)
 * [Magic: Legends](https://www.pcgamingwiki.com/wiki/?curid=166563)
+* [Magic: The Gathering - Battlegrounds](https://www.pcgamingwiki.com/wiki/?curid=188726)
 * [Magic: The Gathering - Duels of the Planeswalkers](https://www.pcgamingwiki.com/wiki/?curid=40973)
 * [Magic: The Gathering - Duels of the Planeswalkers 2013](https://www.pcgamingwiki.com/wiki/?curid=8042)
 * [Magicae Mundi](https://www.pcgamingwiki.com/wiki/?curid=114842)
