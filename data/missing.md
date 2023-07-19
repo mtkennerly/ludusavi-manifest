@@ -7304,7 +7304,6 @@
 * [CYPEST Underground](https://www.pcgamingwiki.com/wiki/?curid=122292)
 * [Cypress Inheritance: The Beginning](https://www.pcgamingwiki.com/wiki/?curid=50592)
 * [Cyto](https://www.pcgamingwiki.com/wiki/?curid=49963)
-* [CyubeVR](https://www.pcgamingwiki.com/wiki/?curid=80871)
 * [D Series Off Road Racing Simulation](https://www.pcgamingwiki.com/wiki/?curid=47865)
 * [D: The Game](https://www.pcgamingwiki.com/wiki/?curid=35367)
 * [D.A.: Pursuit of Justice - The Sunset Boulevard Deuce](https://www.pcgamingwiki.com/wiki/?curid=157902)
