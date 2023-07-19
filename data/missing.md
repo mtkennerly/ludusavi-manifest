@@ -23989,6 +23989,7 @@
 * [Project of the Developer](https://www.pcgamingwiki.com/wiki/?curid=61840)
 * [Project ONe プロジェクト・ワン ～ハロルドはつらいよ～](https://www.pcgamingwiki.com/wiki/?curid=136537)
 * [Project Orion](https://www.pcgamingwiki.com/wiki/?curid=39480)
+* [Project OutFox](https://www.pcgamingwiki.com/wiki/?curid=168143)
 * [Project Pastorate](https://www.pcgamingwiki.com/wiki/?curid=93176)
 * [Project Plainsight](https://www.pcgamingwiki.com/wiki/?curid=149390)
 * [Project Police](https://www.pcgamingwiki.com/wiki/?curid=122860)
