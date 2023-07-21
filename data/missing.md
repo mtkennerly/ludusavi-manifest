@@ -6539,6 +6539,7 @@
 * [Corpo Tale](https://www.pcgamingwiki.com/wiki/?curid=41781)
 * [Corpoct](https://www.pcgamingwiki.com/wiki/?curid=144939)
 * [Corporate Lifestyle Simulator](https://www.pcgamingwiki.com/wiki/?curid=38061)
+* [Corpse Factory](https://www.pcgamingwiki.com/wiki/?curid=188757)
 * [Corpse Killer - 25th Anniversary Edition](https://www.pcgamingwiki.com/wiki/?curid=139347)
 * [Corpse Mob](https://www.pcgamingwiki.com/wiki/?curid=94405)
 * [Corpse of Discovery](https://www.pcgamingwiki.com/wiki/?curid=46713)
