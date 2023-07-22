@@ -35077,6 +35077,7 @@
 * [Void Pyramid](https://www.pcgamingwiki.com/wiki/?curid=54355)
 * [Void Raiders](https://www.pcgamingwiki.com/wiki/?curid=33804)
 * [Void Rangers](https://www.pcgamingwiki.com/wiki/?curid=54983)
+* [Void Scrappers](https://www.pcgamingwiki.com/wiki/?curid=188765)
 * [Void Source](https://www.pcgamingwiki.com/wiki/?curid=63990)
 * [Void Vikings](https://www.pcgamingwiki.com/wiki/?curid=50921)
 * [Void Wisp](https://www.pcgamingwiki.com/wiki/?curid=64494)
