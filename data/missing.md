@@ -9538,7 +9538,6 @@
 * [Dungeon Rats](https://www.pcgamingwiki.com/wiki/?curid=52300)
 * [Dungeon Runner](https://www.pcgamingwiki.com/wiki/?curid=43304)
 * [Dungeon Rush](https://www.pcgamingwiki.com/wiki/?curid=99990)
-* [Dungeon Rushers](https://www.pcgamingwiki.com/wiki/?curid=34787)
 * [Dungeon Rustlers](https://www.pcgamingwiki.com/wiki/?curid=75510)
 * [Dungeon Scavenger](https://www.pcgamingwiki.com/wiki/?curid=134403)
 * [Dungeon Shooter 2](https://www.pcgamingwiki.com/wiki/?curid=49199)
