@@ -29245,6 +29245,7 @@
 * [Steam Heroes](https://www.pcgamingwiki.com/wiki/?curid=48833)
 * [Steam Marines 2](https://www.pcgamingwiki.com/wiki/?curid=139546)
 * [Steam Prison](https://www.pcgamingwiki.com/wiki/?curid=127694)
+* [Steam Slug](https://www.pcgamingwiki.com/wiki/?curid=188836)
 * [Steam Squad](https://www.pcgamingwiki.com/wiki/?curid=17589)
 * [Steam Tactics](https://www.pcgamingwiki.com/wiki/?curid=70293)
 * [Steam: Rails to Riches](https://www.pcgamingwiki.com/wiki/?curid=59494)
