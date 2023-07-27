@@ -30825,6 +30825,7 @@
 * [Terminal Squad: Swarmites](https://www.pcgamingwiki.com/wiki/?curid=156511)
 * [Terminator 3: War of the Machines](https://www.pcgamingwiki.com/wiki/?curid=146929)
 * [Terminator: Dark Fate - Defiance](https://www.pcgamingwiki.com/wiki/?curid=175870)
+* [Terminus](https://www.pcgamingwiki.com/wiki/?curid=188846)
 * [Terminus: Survival](https://www.pcgamingwiki.com/wiki/?curid=141264)
 * [Termite](https://www.pcgamingwiki.com/wiki/?curid=123754)
 * [Terra Alia](https://www.pcgamingwiki.com/wiki/?curid=156120)
