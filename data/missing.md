@@ -36627,7 +36627,6 @@
 * [Yet Another Zombie Defense HD](https://www.pcgamingwiki.com/wiki/?curid=68148)
 * [Yeti Adventure](https://www.pcgamingwiki.com/wiki/?curid=58977)
 * [Yeti's Parole Officer](https://www.pcgamingwiki.com/wiki/?curid=80820)
-* [Yggdra Union](https://www.pcgamingwiki.com/wiki/?curid=184583)
 * [Yggdrasil Jigsaw Puzzle](https://www.pcgamingwiki.com/wiki/?curid=132556)
 * [Yi and the Thousand Moons](https://www.pcgamingwiki.com/wiki/?curid=75105)
 * [Yiki Action RPG](https://www.pcgamingwiki.com/wiki/?curid=134627)
