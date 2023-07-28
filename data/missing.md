@@ -24754,7 +24754,6 @@
 * [Rat Arena](https://www.pcgamingwiki.com/wiki/?curid=103907)
 * [Rat Racer](https://www.pcgamingwiki.com/wiki/?curid=156907)
 * [Rat Simulator](https://www.pcgamingwiki.com/wiki/?curid=61780)
-* [Ratchet & Clank: Rift Apart](https://www.pcgamingwiki.com/wiki/?curid=187437)
 * [Ratergy](https://www.pcgamingwiki.com/wiki/?curid=90176)
 * [Ratings War](https://www.pcgamingwiki.com/wiki/?curid=46176)
 * [Rats for Breakfast](https://www.pcgamingwiki.com/wiki/?curid=157237)
