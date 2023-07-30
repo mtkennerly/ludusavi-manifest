@@ -31197,6 +31197,7 @@
 * [The Charming Empire](https://www.pcgamingwiki.com/wiki/?curid=59389)
 * [The Chasm](https://www.pcgamingwiki.com/wiki/?curid=149130)
 * [The Chemist](https://www.pcgamingwiki.com/wiki/?curid=89234)
+* [The Chickenator](https://www.pcgamingwiki.com/wiki/?curid=188905)
 * [The Childs Sight](https://www.pcgamingwiki.com/wiki/?curid=129944)
 * [The Chills](https://www.pcgamingwiki.com/wiki/?curid=127977)
 * [The Choice of Sand](https://www.pcgamingwiki.com/wiki/?curid=122090)
