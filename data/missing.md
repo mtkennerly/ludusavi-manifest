@@ -36078,6 +36078,7 @@
 * [Wings of Bluestar](https://www.pcgamingwiki.com/wiki/?curid=139595)
 * [Wings of Destiny](https://www.pcgamingwiki.com/wiki/?curid=30425)
 * [Wings of Glass 玻璃の羽](https://www.pcgamingwiki.com/wiki/?curid=127269)
+* [Wings of Honour: Battles of the Red Baron](https://www.pcgamingwiki.com/wiki/?curid=188914)
 * [Wings of Peace VR: DayBreak](https://www.pcgamingwiki.com/wiki/?curid=70090)
 * [Wings of Virtus](https://www.pcgamingwiki.com/wiki/?curid=123529)
 * [Wings over Europe](https://www.pcgamingwiki.com/wiki/?curid=50159)
