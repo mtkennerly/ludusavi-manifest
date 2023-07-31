@@ -34641,6 +34641,7 @@
 * [Valiant: Resurrection](https://www.pcgamingwiki.com/wiki/?curid=47964)
 * [Valknut](https://www.pcgamingwiki.com/wiki/?curid=73839)
 * [Valkyrie Blade VR](https://www.pcgamingwiki.com/wiki/?curid=60930)
+* [Valkyrie no Densetsu](https://www.pcgamingwiki.com/wiki/?curid=188943)
 * [Valley of Decay](https://www.pcgamingwiki.com/wiki/?curid=139215)
 * [Valley of the Foxes](https://www.pcgamingwiki.com/wiki/?curid=82752)
 * [Valley of the Moon](https://www.pcgamingwiki.com/wiki/?curid=132171)
