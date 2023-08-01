@@ -5573,6 +5573,7 @@
 * [Chicken Invaders 5: Cluck of the Dark Side](https://www.pcgamingwiki.com/wiki/?curid=173623)
 * [Chicken Labyrinth Puzzles](https://www.pcgamingwiki.com/wiki/?curid=64202)
 * [Chicken Rider](https://www.pcgamingwiki.com/wiki/?curid=98482)
+* [Chicken Run](https://www.pcgamingwiki.com/wiki/?curid=188967)
 * [Chicken Shoot Gold](https://www.pcgamingwiki.com/wiki/?curid=41403)
 * [Chicken VR](https://www.pcgamingwiki.com/wiki/?curid=107810)
 * [Chicken Wars](https://www.pcgamingwiki.com/wiki/?curid=65600)
