@@ -2040,6 +2040,7 @@
 * [ARK II](https://www.pcgamingwiki.com/wiki/?curid=165677)
 * [Ark Noir](https://www.pcgamingwiki.com/wiki/?curid=103397)
 * [ARK Park](https://www.pcgamingwiki.com/wiki/?curid=55219)
+* [ARK: Survival Ascended](https://www.pcgamingwiki.com/wiki/?curid=188972)
 * [ARK: Survival of the Fittest](https://www.pcgamingwiki.com/wiki/?curid=44136)
 * [Arkady Survive](https://www.pcgamingwiki.com/wiki/?curid=135313)
 * [Arkaia: The Enigmatic Isle](https://www.pcgamingwiki.com/wiki/?curid=72519)
