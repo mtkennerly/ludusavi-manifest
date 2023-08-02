@@ -3094,7 +3094,6 @@
 * [Battle X Arcade](https://www.pcgamingwiki.com/wiki/?curid=121361)
 * [Battle Zombie Shooter: Survival of the Dead](https://www.pcgamingwiki.com/wiki/?curid=93869)
 * [BattleBeasts](https://www.pcgamingwiki.com/wiki/?curid=93078)
-* [BattleBit Remastered](https://www.pcgamingwiki.com/wiki/?curid=65726)
 * [BattleBlade](https://www.pcgamingwiki.com/wiki/?curid=105007)
 * [BattleCON: Online](https://www.pcgamingwiki.com/wiki/?curid=104205)
 * [BattleCore Arena](https://www.pcgamingwiki.com/wiki/?curid=71729)
