@@ -413,7 +413,6 @@
 * [A Legionary's Life](https://www.pcgamingwiki.com/wiki/?curid=134830)
 * [A Little Golf Journey](https://www.pcgamingwiki.com/wiki/?curid=171861)
 * [A Little Rabbit Story](https://www.pcgamingwiki.com/wiki/?curid=80968)
-* [A Long Journey to an Uncertain End](https://www.pcgamingwiki.com/wiki/?curid=188313)
 * [A Long Night For Crazy King](https://www.pcgamingwiki.com/wiki/?curid=150754)
 * [A Long Road Home](https://www.pcgamingwiki.com/wiki/?curid=56912)
 * [A Long Stroll](https://www.pcgamingwiki.com/wiki/?curid=153440)
