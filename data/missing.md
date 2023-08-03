@@ -32580,6 +32580,7 @@
 * [The Tension](https://www.pcgamingwiki.com/wiki/?curid=120717)
 * [The Tenth Line](https://www.pcgamingwiki.com/wiki/?curid=59069)
 * [The Terminal 2](https://www.pcgamingwiki.com/wiki/?curid=49791)
+* [The Terminator](https://www.pcgamingwiki.com/wiki/?curid=188989)
 * [The Terminator 2029](https://www.pcgamingwiki.com/wiki/?curid=165523)
 * [The Testing Floor](https://www.pcgamingwiki.com/wiki/?curid=122776)
 * [The Texas Chain Saw Massacre](https://www.pcgamingwiki.com/wiki/?curid=180529)
