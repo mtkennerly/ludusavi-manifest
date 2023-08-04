@@ -24783,6 +24783,7 @@
 * [Ray of Light](https://www.pcgamingwiki.com/wiki/?curid=99874)
 * [Ray Versus](https://www.pcgamingwiki.com/wiki/?curid=152695)
 * [Ray's The Dead](https://www.pcgamingwiki.com/wiki/?curid=39602)
+* [Ray'z Arcade Chronology](https://www.pcgamingwiki.com/wiki/?curid=189003)
 * [Rayball](https://www.pcgamingwiki.com/wiki/?curid=138556)
 * [Raybeem](https://www.pcgamingwiki.com/wiki/?curid=65870)
 * [Raycatcher](https://www.pcgamingwiki.com/wiki/?curid=41300)
