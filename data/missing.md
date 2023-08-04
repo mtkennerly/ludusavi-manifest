@@ -13290,7 +13290,6 @@
 * [Granny's Grantastic Granventure](https://www.pcgamingwiki.com/wiki/?curid=102619)
 * [Grape Jelly](https://www.pcgamingwiki.com/wiki/?curid=89316)
 * [Grapple](https://www.pcgamingwiki.com/wiki/?curid=37713)
-* [Grapple dog](https://www.pcgamingwiki.com/wiki/?curid=186427)
 * [Grapple Whip](https://www.pcgamingwiki.com/wiki/?curid=141381)
 * [Grappledrome](https://www.pcgamingwiki.com/wiki/?curid=57002)
 * [GrapplingHook](https://www.pcgamingwiki.com/wiki/?curid=149652)
