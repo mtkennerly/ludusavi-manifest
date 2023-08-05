@@ -9979,7 +9979,6 @@
 * [Elly The Jelly](https://www.pcgamingwiki.com/wiki/?curid=66119)
 * [Elmarion: Dragon time](https://www.pcgamingwiki.com/wiki/?curid=150756)
 * [Elmia](https://www.pcgamingwiki.com/wiki/?curid=77209)
-* [Elminage Gothic](https://www.pcgamingwiki.com/wiki/?curid=34372)
 * [Elminage Original: Priestess of Darkness and the Ring of the Gods](https://www.pcgamingwiki.com/wiki/?curid=76939)
 * [Elmo Loves ABCs](https://www.pcgamingwiki.com/wiki/?curid=178129)
 * [Elon Musk Simulator](https://www.pcgamingwiki.com/wiki/?curid=103725)
