@@ -4077,6 +4077,7 @@
 * [Bomb Party](https://www.pcgamingwiki.com/wiki/?curid=93822)
 * [Bomb Riders](https://www.pcgamingwiki.com/wiki/?curid=107980)
 * [Bomb Royale](https://www.pcgamingwiki.com/wiki/?curid=123900)
+* [Bomb Rush Cyberfunk](https://www.pcgamingwiki.com/wiki/?curid=189066)
 * [Bomb Sworders](https://www.pcgamingwiki.com/wiki/?curid=136060)
 * [Bomb the Monsters!](https://www.pcgamingwiki.com/wiki/?curid=45725)
 * [Bomb U!](https://www.pcgamingwiki.com/wiki/?curid=40058)
