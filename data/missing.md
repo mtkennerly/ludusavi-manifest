@@ -2787,6 +2787,8 @@
 * [Balance Roll](https://www.pcgamingwiki.com/wiki/?curid=129953)
 * [Balanced Politics Simulator](https://www.pcgamingwiki.com/wiki/?curid=128525)
 * [Balancelot](https://www.pcgamingwiki.com/wiki/?curid=130555)
+* [Baldi's Basics Birthday Bash](https://www.pcgamingwiki.com/wiki/?curid=189075)
+* [Baldi's Basics Classic Remastered](https://www.pcgamingwiki.com/wiki/?curid=189074)
 * [Baldi's Basics in Education & Learning](https://www.pcgamingwiki.com/wiki/?curid=126630)
 * [Baldi's Basics Plus](https://www.pcgamingwiki.com/wiki/?curid=160300)
 * [Baldina's Basis in Education Literary Grammar](https://www.pcgamingwiki.com/wiki/?curid=141298)
