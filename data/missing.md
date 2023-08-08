@@ -14712,7 +14712,6 @@
 * [HipWitch](https://www.pcgamingwiki.com/wiki/?curid=175027)
 * [Hir Corruption](https://www.pcgamingwiki.com/wiki/?curid=123657)
 * [Hiragana Pixel Party](https://www.pcgamingwiki.com/wiki/?curid=44094)
-* [Hired Guns: The Jagged Edge](https://www.pcgamingwiki.com/wiki/?curid=182198)
 * [Hirilun](https://www.pcgamingwiki.com/wiki/?curid=175437)
 * [Hiro's Forest Rumble](https://www.pcgamingwiki.com/wiki/?curid=80414)
 * [Hiro's Harvest Season](https://www.pcgamingwiki.com/wiki/?curid=78010)
