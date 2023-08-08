@@ -8139,7 +8139,6 @@
 * [Delphinia Chronicle](https://www.pcgamingwiki.com/wiki/?curid=63458)
 * [Delphyq](https://www.pcgamingwiki.com/wiki/?curid=157120)
 * [Delta](https://www.pcgamingwiki.com/wiki/?curid=126098)
-* [Delta Force: Xtreme 2](https://www.pcgamingwiki.com/wiki/?curid=41283)
 * [Delta G](https://www.pcgamingwiki.com/wiki/?curid=126454)
 * [Delta Horizon](https://www.pcgamingwiki.com/wiki/?curid=104047)
 * [Delta Squad](https://www.pcgamingwiki.com/wiki/?curid=130583)
