@@ -17648,6 +17648,7 @@
 * [Lelie Navigation!](https://www.pcgamingwiki.com/wiki/?curid=164495)
 * [Lem-Amaze!](https://www.pcgamingwiki.com/wiki/?curid=153903)
 * [Lemmings](https://www.pcgamingwiki.com/wiki/?curid=57590)
+* [Lemmings 3D](https://www.pcgamingwiki.com/wiki/?curid=189125)
 * [Lemmings Paintball](https://www.pcgamingwiki.com/wiki/?curid=56403)
 * [Lemons Must Die](https://www.pcgamingwiki.com/wiki/?curid=73023)
 * [Lemony Snicket's A Series of Unfortunate Events](https://www.pcgamingwiki.com/wiki/?curid=166672)
