@@ -1295,7 +1295,6 @@
 * [Alien Revival - Episode 1 - Duty Calls](https://www.pcgamingwiki.com/wiki/?curid=103161)
 * [Alien Robot Monsters](https://www.pcgamingwiki.com/wiki/?curid=38275)
 * [Alien Run](https://www.pcgamingwiki.com/wiki/?curid=33553)
-* [Alien Shooter 2: Conscription](https://www.pcgamingwiki.com/wiki/?curid=40777)
 * [Alien Shooter 2: The Legend](https://www.pcgamingwiki.com/wiki/?curid=142056)
 * [Alien Shooter in Space Cradle - Virtual Reality](https://www.pcgamingwiki.com/wiki/?curid=140999)
 * [Alien Shooter TD](https://www.pcgamingwiki.com/wiki/?curid=55760)
