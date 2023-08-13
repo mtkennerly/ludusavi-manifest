@@ -31916,7 +31916,6 @@
 * [The Legend of Dark Witch Renovation](https://www.pcgamingwiki.com/wiki/?curid=153262)
 * [The Legend of Evil](https://www.pcgamingwiki.com/wiki/?curid=121470)
 * [The Legend of Excalipurr](https://www.pcgamingwiki.com/wiki/?curid=60806)
-* [The Legend of Heroes: Kuro no Kiseki](https://www.pcgamingwiki.com/wiki/?curid=177344)
 * [The Legend of Monster Mountain](https://www.pcgamingwiki.com/wiki/?curid=104539)
 * [The Legend of Nayuta: Boundless Trails](https://www.pcgamingwiki.com/wiki/?curid=170939)
 * [The Legend of Protey](https://www.pcgamingwiki.com/wiki/?curid=104611)
