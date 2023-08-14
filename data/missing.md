@@ -33204,6 +33204,7 @@
 * [Titan Arena](https://www.pcgamingwiki.com/wiki/?curid=105447)
 * [TITAN HUNTER](https://www.pcgamingwiki.com/wiki/?curid=121447)
 * [Titan Outpost](https://www.pcgamingwiki.com/wiki/?curid=126228)
+* [Titan Quest II](https://www.pcgamingwiki.com/wiki/?curid=189221)
 * [Titan Saga: Chains of Kronos](https://www.pcgamingwiki.com/wiki/?curid=157495)
 * [Titan Shield](https://www.pcgamingwiki.com/wiki/?curid=135306)
 * [Titan Siege](https://www.pcgamingwiki.com/wiki/?curid=75661)
