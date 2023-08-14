@@ -2,6 +2,9 @@ import { REPO, YamlFile } from ".";
 import { SteamGameCache, SteamGameCacheFile } from "./steam";
 import { WikiGameCache, parseTemplates } from "./wiki";
 
+const U32_MAX = 4_294_967_295;
+const U64_MAX = 18_446_744_073_709_551_615;
+
 export type Os = "dos" | "linux" | "mac" | "windows";
 
 export type Bit = 32 | 64;
@@ -85,17 +88,17 @@ function doLaunchPathsMatch(fromSteam: string | undefined, fromManifest: string 
 
 function integrateWikiData(game: Game, cache: WikiGameCache[""]): void {
     game.id = {};
-    if (cache.steam !== undefined) {
+    if (cache.steam !== undefined && cache.steam <= U32_MAX) {
         game.steam = { id: cache.steam };
     }
     if (cache.steamSide !== undefined) {
-        game.id.steamExtra = cache.steamSide;
+        game.id.steamExtra = cache.steamSide.filter(x => x <= U32_MAX);
     }
-    if (cache.gog !== undefined) {
+    if (cache.gog !== undefined && cache.gog <= U64_MAX) {
         game.gog = { id: cache.gog };
     }
     if (cache.gogSide !== undefined) {
-        game.id.gogExtra = cache.gogSide;
+        game.id.gogExtra = cache.gogSide.filter(x => x <= U64_MAX);
     }
     const info = parseTemplates(cache.templates ?? []);
     game.files = info.files;
