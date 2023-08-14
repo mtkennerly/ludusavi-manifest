@@ -12508,7 +12508,6 @@
 * [Game of Stones](https://www.pcgamingwiki.com/wiki/?curid=88852)
 * [Game of the Forgotten Gods. Wake Up](https://www.pcgamingwiki.com/wiki/?curid=91866)
 * [Game of the Year](https://www.pcgamingwiki.com/wiki/?curid=157390)
-* [Game of Thrones: Tale of Crows](https://www.pcgamingwiki.com/wiki/?curid=162607)
 * [Game of Thrones: Winter Is Coming](https://www.pcgamingwiki.com/wiki/?curid=150369)
 * [GAME QUOTES - THE GAME](https://www.pcgamingwiki.com/wiki/?curid=113730)
 * [Game Royale 2: The Secret of Jannis Island](https://www.pcgamingwiki.com/wiki/?curid=55199)
