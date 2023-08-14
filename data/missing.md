@@ -36372,7 +36372,6 @@
 * [World War 2: Time of Wrath](https://www.pcgamingwiki.com/wiki/?curid=50111)
 * [World War I](https://www.pcgamingwiki.com/wiki/?curid=48256)
 * [World War II Online](https://www.pcgamingwiki.com/wiki/?curid=62464)
-* [World War II: Pacific Heroes](https://www.pcgamingwiki.com/wiki/?curid=188916)
 * [World War II: Panzer Claws](https://www.pcgamingwiki.com/wiki/?curid=9063)
 * [World War II: TCG](https://www.pcgamingwiki.com/wiki/?curid=128034)
 * [World War III: Black Gold](https://www.pcgamingwiki.com/wiki/?curid=40585)
