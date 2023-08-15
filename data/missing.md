@@ -15064,7 +15064,6 @@
 * [How to Make a Floating City / 浮游都市的建成方法](https://www.pcgamingwiki.com/wiki/?curid=130064)
 * [How To Make Your Grandpa Happy](https://www.pcgamingwiki.com/wiki/?curid=52157)
 * [How to Meat People](https://www.pcgamingwiki.com/wiki/?curid=75572)
-* [How to Raise a Wolf Girl](https://www.pcgamingwiki.com/wiki/?curid=148983)
 * [How to Shoot a Criminal](https://www.pcgamingwiki.com/wiki/?curid=52952)
 * [How to Sing to Open Your Heart](https://www.pcgamingwiki.com/wiki/?curid=113782)
 * [How to Survive 2](https://www.pcgamingwiki.com/wiki/?curid=38807)
