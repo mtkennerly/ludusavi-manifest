@@ -13756,6 +13756,7 @@
 * [Hail to the King: Deathbat](https://www.pcgamingwiki.com/wiki/?curid=49414)
 * [Hailey](https://www.pcgamingwiki.com/wiki/?curid=114352)
 * [Hailstorm](https://www.pcgamingwiki.com/wiki/?curid=71847)
+* [Hakan's War Manager](https://www.pcgamingwiki.com/wiki/?curid=189235)
 * [Hakoniwa Explorer Plus](https://www.pcgamingwiki.com/wiki/?curid=94300)
 * [Hakuoki: Edo Blossoms](https://www.pcgamingwiki.com/wiki/?curid=81766)
 * [Hakuoki: Kyoto Winds](https://www.pcgamingwiki.com/wiki/?curid=67910)
