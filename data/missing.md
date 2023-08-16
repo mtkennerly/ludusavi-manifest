@@ -7925,7 +7925,6 @@
 * [Deathbloom: Chapter 2](https://www.pcgamingwiki.com/wiki/?curid=154229)
 * [Deathbound](https://www.pcgamingwiki.com/wiki/?curid=153591)
 * [Deathbringer](https://www.pcgamingwiki.com/wiki/?curid=74804)
-* [Deathbulge: Battle of the Bands](https://www.pcgamingwiki.com/wiki/?curid=142317)
 * [DeathCrank](https://www.pcgamingwiki.com/wiki/?curid=54596)
 * [Deathdays End](https://www.pcgamingwiki.com/wiki/?curid=122516)
 * [Deatherem](https://www.pcgamingwiki.com/wiki/?curid=134772)
