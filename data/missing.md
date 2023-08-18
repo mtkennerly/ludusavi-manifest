@@ -4631,7 +4631,6 @@
 * [Build buildings](https://www.pcgamingwiki.com/wiki/?curid=103389)
 * [Build It](https://www.pcgamingwiki.com/wiki/?curid=108680)
 * [Build Wars](https://www.pcgamingwiki.com/wiki/?curid=91502)
-* [Build-A-Lot](https://www.pcgamingwiki.com/wiki/?curid=41192)
 * [Build-A-Lot 2: Town of the Year](https://www.pcgamingwiki.com/wiki/?curid=41191)
 * [Build-A-Lot 3: Passport to Europe](https://www.pcgamingwiki.com/wiki/?curid=41190)
 * [Build-A-Lot 4: Power Source](https://www.pcgamingwiki.com/wiki/?curid=41189)
