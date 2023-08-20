@@ -27221,7 +27221,6 @@
 * [Ship Ahoy](https://www.pcgamingwiki.com/wiki/?curid=79700)
 * [Ship Builder Simulator](https://www.pcgamingwiki.com/wiki/?curid=132476)
 * [Ship Fight](https://www.pcgamingwiki.com/wiki/?curid=125145)
-* [Ship Graveyard Simulator](https://www.pcgamingwiki.com/wiki/?curid=172787)
 * [Ship It](https://www.pcgamingwiki.com/wiki/?curid=50889)
 * [Ship Rescue](https://www.pcgamingwiki.com/wiki/?curid=93235)
 * [Ship Simulator Extremes](https://www.pcgamingwiki.com/wiki/?curid=41100)
