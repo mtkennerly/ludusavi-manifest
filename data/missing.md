@@ -8349,7 +8349,6 @@
 * [Detective Case and Clown Bot in: The Express Killer](https://www.pcgamingwiki.com/wiki/?curid=73661)
 * [Detective escape1](https://www.pcgamingwiki.com/wiki/?curid=122180)
 * [Detective Failure](https://www.pcgamingwiki.com/wiki/?curid=100386)
-* [Detective From The Crypt](https://www.pcgamingwiki.com/wiki/?curid=189283)
 * [Detective Girl of the Steam City](https://www.pcgamingwiki.com/wiki/?curid=128405)
 * [Detective Hank and the Golden Sneeze](https://www.pcgamingwiki.com/wiki/?curid=41972)
 * [Detective Hayseed - Hollywood](https://www.pcgamingwiki.com/wiki/?curid=51312)
