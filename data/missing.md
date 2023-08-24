@@ -2078,7 +2078,6 @@
 * [Armored Animals: H1N1z](https://www.pcgamingwiki.com/wiki/?curid=82796)
 * [Armored Battle Crew](https://www.pcgamingwiki.com/wiki/?curid=122702)
 * [Armored Brigade](https://www.pcgamingwiki.com/wiki/?curid=139474)
-* [Armored Core VI: Fires of Rubicon](https://www.pcgamingwiki.com/wiki/?curid=183625)
 * [Armored Evolution](https://www.pcgamingwiki.com/wiki/?curid=80583)
 * [Armored Fighter](https://www.pcgamingwiki.com/wiki/?curid=121775)
 * [Armored Freedom](https://www.pcgamingwiki.com/wiki/?curid=59615)
