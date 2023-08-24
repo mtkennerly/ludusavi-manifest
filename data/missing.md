@@ -19552,7 +19552,6 @@
 * [Midnight Carnival](https://www.pcgamingwiki.com/wiki/?curid=53888)
 * [Midnight Evil](https://www.pcgamingwiki.com/wiki/?curid=128332)
 * [Midnight Feast](https://www.pcgamingwiki.com/wiki/?curid=137084)
-* [Midnight Fight Express](https://www.pcgamingwiki.com/wiki/?curid=178191)
 * [Midnight Grub Session](https://www.pcgamingwiki.com/wiki/?curid=141015)
 * [Midnight GT: Primary Racer](https://www.pcgamingwiki.com/wiki/?curid=167593)
 * [Midnight Legends](https://www.pcgamingwiki.com/wiki/?curid=181719)
