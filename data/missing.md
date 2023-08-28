@@ -16516,6 +16516,7 @@
 * [Jumps](https://www.pcgamingwiki.com/wiki/?curid=58688)
 * [JumpSky](https://www.pcgamingwiki.com/wiki/?curid=74243)
 * [JumpStart Kindergarten](https://www.pcgamingwiki.com/wiki/?curid=177104)
+* [JumpStart Preschool](https://www.pcgamingwiki.com/wiki/?curid=189420)
 * [JumpStream](https://www.pcgamingwiki.com/wiki/?curid=109012)
 * [Jumpy Hunt](https://www.pcgamingwiki.com/wiki/?curid=128435)
 * [Jungle Adventure](https://www.pcgamingwiki.com/wiki/?curid=130327)
