@@ -26752,7 +26752,6 @@
 * [Sea of Lies: Nemesis](https://www.pcgamingwiki.com/wiki/?curid=62330)
 * [Sea of Lies: Tide of Treachery](https://www.pcgamingwiki.com/wiki/?curid=95461)
 * [Sea of Memories](https://www.pcgamingwiki.com/wiki/?curid=94788)
-* [Sea of Stars](https://www.pcgamingwiki.com/wiki/?curid=179423)
 * [Sea Salt](https://www.pcgamingwiki.com/wiki/?curid=126265)
 * [SeaBed](https://www.pcgamingwiki.com/wiki/?curid=57864)
 * [Seabed Prelude](https://www.pcgamingwiki.com/wiki/?curid=57914)
