@@ -12856,7 +12856,6 @@
 * [Girl Amazon Survival](https://www.pcgamingwiki.com/wiki/?curid=36240)
 * [Girl Blonde](https://www.pcgamingwiki.com/wiki/?curid=73479)
 * [Girl friend simulator](https://www.pcgamingwiki.com/wiki/?curid=149901)
-* [Girl Genius: Adventures In Castle Heterodyne](https://www.pcgamingwiki.com/wiki/?curid=189516)
 * [Girl Kill Zombies](https://www.pcgamingwiki.com/wiki/?curid=149533)
 * [Girl Rugby Dash](https://www.pcgamingwiki.com/wiki/?curid=114074)
 * [Girl vs Crowd](https://www.pcgamingwiki.com/wiki/?curid=153646)
