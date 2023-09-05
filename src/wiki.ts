@@ -605,7 +605,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
 
             cache[pageTitle].steamSide = [];
             const steamSides = template.parameters["steam appid side"] as string | undefined;
-            if (steamSides !== undefined) {
+            if (steamSides !== undefined && typeof(steamSides) === "string") {
                 for (const side of steamSides.split(",").map(Number)) {
                     if (!isNaN(side) && side > 0) {
                         cache[pageTitle].steamSide.push(side);
@@ -623,7 +623,7 @@ export async function getGame(pageTitle: string, cache: WikiGameCache, client: W
 
             cache[pageTitle].gogSide = [];
             const gogSides = template.parameters["gogcom id side"] as string | undefined;
-            if (gogSides !== undefined) {
+            if (gogSides !== undefined && typeof(gogSides) === "string") {
                 for (const side of gogSides.split(",").map(Number)) {
                     if (!isNaN(side) && side > 0) {
                         cache[pageTitle].gogSide.push(side);
