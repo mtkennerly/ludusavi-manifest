@@ -4532,6 +4532,8 @@
 * [Broken of Darkness](https://www.pcgamingwiki.com/wiki/?curid=153648)
 * [Broken Spell](https://www.pcgamingwiki.com/wiki/?curid=149346)
 * [Broken Spell 2](https://www.pcgamingwiki.com/wiki/?curid=156722)
+* [Broken Sword - Parzival's Stone](https://www.pcgamingwiki.com/wiki/?curid=189613)
+* [Broken Sword - Shadow of the Templars: Reforged](https://www.pcgamingwiki.com/wiki/?curid=189611)
 * [Broken Sword II: The Smoking Mirror](https://www.pcgamingwiki.com/wiki/?curid=16485)
 * [Broken Ties](https://www.pcgamingwiki.com/wiki/?curid=91492)
 * [Bronepoezd](https://www.pcgamingwiki.com/wiki/?curid=103721)
