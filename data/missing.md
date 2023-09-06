@@ -20405,6 +20405,7 @@
 * [Murder In Tehran's Alleys 2016](https://www.pcgamingwiki.com/wiki/?curid=63424)
 * [Murder Is Game Over](https://www.pcgamingwiki.com/wiki/?curid=179300)
 * [Murder Machine Mini](https://www.pcgamingwiki.com/wiki/?curid=128507)
+* [Murder Miners X](https://www.pcgamingwiki.com/wiki/?curid=189601)
 * [Murder Mystery Adventure](https://www.pcgamingwiki.com/wiki/?curid=52171)
 * [Murder Mystery Machine](https://www.pcgamingwiki.com/wiki/?curid=122638)
 * [Murder on the Island](https://www.pcgamingwiki.com/wiki/?curid=131994)
