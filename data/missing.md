@@ -7732,7 +7732,6 @@
 * [Dead](https://www.pcgamingwiki.com/wiki/?curid=63502)
 * [DEAD (2019)](https://www.pcgamingwiki.com/wiki/?curid=137062)
 * [Dead Acres](https://www.pcgamingwiki.com/wiki/?curid=34725)
-* [Dead Age 2](https://www.pcgamingwiki.com/wiki/?curid=154235)
 * [Dead Alliance](https://www.pcgamingwiki.com/wiki/?curid=66089)
 * [Dead and Buried](https://www.pcgamingwiki.com/wiki/?curid=128924)
 * [Dead Army - Radio Frequency](https://www.pcgamingwiki.com/wiki/?curid=40331)
