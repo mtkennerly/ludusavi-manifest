@@ -29547,7 +29547,6 @@
 * [Street Champ VR](https://www.pcgamingwiki.com/wiki/?curid=54373)
 * [Street Fighter](https://www.pcgamingwiki.com/wiki/?curid=188013)
 * [Street Fighter Alpha: Warriors' Dreams](https://www.pcgamingwiki.com/wiki/?curid=188010)
-* [Street Fighter II](https://www.pcgamingwiki.com/wiki/?curid=188007)
 * [Street Fighter IV](https://www.pcgamingwiki.com/wiki/?curid=6353)
 * [Street Fighter Online: Mouse Generation](https://www.pcgamingwiki.com/wiki/?curid=188170)
 * [Street Heat](https://www.pcgamingwiki.com/wiki/?curid=76983)
