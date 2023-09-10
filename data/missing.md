@@ -10869,7 +10869,6 @@
 * [Fairytale Mosaics Beauty and Beast](https://www.pcgamingwiki.com/wiki/?curid=152799)
 * [Fairytale Solitaire: Red Riding Hood](https://www.pcgamingwiki.com/wiki/?curid=141162)
 * [Fairytale Solitaire. Witch Charms](https://www.pcgamingwiki.com/wiki/?curid=156639)
-* [Faith of Danschant](https://www.pcgamingwiki.com/wiki/?curid=107368)
 * [Faith of Danschant: Hereafter](https://www.pcgamingwiki.com/wiki/?curid=178700)
 * [Faith of Fate](https://www.pcgamingwiki.com/wiki/?curid=138578)
 * [FAITH: The Unholy Trinity](https://www.pcgamingwiki.com/wiki/?curid=151868)
