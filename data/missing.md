@@ -19331,6 +19331,7 @@
 * [Melting Hearts: Our Love Will Grow 2](https://www.pcgamingwiki.com/wiki/?curid=43261)
 * [Melting pot.](https://www.pcgamingwiki.com/wiki/?curid=130249)
 * [Melting World Online](https://www.pcgamingwiki.com/wiki/?curid=94784)
+* [Melvor Idle](https://www.pcgamingwiki.com/wiki/?curid=189677)
 * [Meme couple](https://www.pcgamingwiki.com/wiki/?curid=99668)
 * [Meme Dragons](https://www.pcgamingwiki.com/wiki/?curid=78000)
 * [Meme Machine](https://www.pcgamingwiki.com/wiki/?curid=92337)
