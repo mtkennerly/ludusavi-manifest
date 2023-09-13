@@ -12590,6 +12590,7 @@
 * [Garten of Banban 2](https://www.pcgamingwiki.com/wiki/?curid=184344)
 * [Garten of Banban 3](https://www.pcgamingwiki.com/wiki/?curid=185645)
 * [Garten of Banban 4](https://www.pcgamingwiki.com/wiki/?curid=187018)
+* [Garten of Banban 5](https://www.pcgamingwiki.com/wiki/?curid=189705)
 * [Gary Grigsby's War in the East](https://www.pcgamingwiki.com/wiki/?curid=37211)
 * [Gary Grigsby's War in the East 2](https://www.pcgamingwiki.com/wiki/?curid=172025)
 * [Gary Grigsby's War in the West](https://www.pcgamingwiki.com/wiki/?curid=66617)
