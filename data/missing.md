@@ -20494,7 +20494,6 @@
 * [MuX](https://www.pcgamingwiki.com/wiki/?curid=78118)
 * [Muzzleloaded](https://www.pcgamingwiki.com/wiki/?curid=124175)
 * [MVP Baseball 2004](https://www.pcgamingwiki.com/wiki/?curid=176980)
-* [MVP Baseball 2005](https://www.pcgamingwiki.com/wiki/?curid=176982)
 * [MX Nitro](https://www.pcgamingwiki.com/wiki/?curid=56388)
 * [MX vs. ATV Legends](https://www.pcgamingwiki.com/wiki/?curid=180991)
 * [MX vs. ATV Supercross Encore](https://www.pcgamingwiki.com/wiki/?curid=45880)
