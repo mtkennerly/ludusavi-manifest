@@ -29810,7 +29810,6 @@
 * [Super Blue Boy Planet](https://www.pcgamingwiki.com/wiki/?curid=55127)
 * [Super Blue Fighter](https://www.pcgamingwiki.com/wiki/?curid=43163)
 * [Super Bomb Rush!](https://www.pcgamingwiki.com/wiki/?curid=44726)
-* [Super Bomberman R 2](https://www.pcgamingwiki.com/wiki/?curid=181751)
 * [Super BOO Quest](https://www.pcgamingwiki.com/wiki/?curid=114746)
 * [Super Bora Dragon Eyes](https://www.pcgamingwiki.com/wiki/?curid=144873)
 * [Super BoxMan Ultra](https://www.pcgamingwiki.com/wiki/?curid=75498)
