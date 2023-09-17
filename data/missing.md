@@ -14915,7 +14915,6 @@
 * [Hordiaz](https://www.pcgamingwiki.com/wiki/?curid=108756)
 * [Horgihugh](https://www.pcgamingwiki.com/wiki/?curid=136692)
 * [Horizon Beyond](https://www.pcgamingwiki.com/wiki/?curid=144451)
-* [Horizon Chase 2](https://www.pcgamingwiki.com/wiki/?curid=181421)
 * [Horizon of History](https://www.pcgamingwiki.com/wiki/?curid=53389)
 * [Horizon Shift](https://www.pcgamingwiki.com/wiki/?curid=37409)
 * [Horizon Shift '81](https://www.pcgamingwiki.com/wiki/?curid=138637)
