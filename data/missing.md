@@ -31939,7 +31939,6 @@
 * [The Legend of Evil](https://www.pcgamingwiki.com/wiki/?curid=121470)
 * [The Legend of Excalipurr](https://www.pcgamingwiki.com/wiki/?curid=60806)
 * [The Legend of Monster Mountain](https://www.pcgamingwiki.com/wiki/?curid=104539)
-* [The Legend of Nayuta: Boundless Trails](https://www.pcgamingwiki.com/wiki/?curid=170939)
 * [The Legend of Protey](https://www.pcgamingwiki.com/wiki/?curid=104611)
 * [The Legend of Slime](https://www.pcgamingwiki.com/wiki/?curid=71900)
 * [The Legend of Sword and Fairy](https://www.pcgamingwiki.com/wiki/?curid=143379)
