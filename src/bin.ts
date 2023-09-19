@@ -106,6 +106,7 @@ async function main() {
                 args.irregular ?? false,
                 args.irregularPathUntagged ?? false,
                 args.limit ?? DEFAULT_GAME_LIMIT,
+                args._.map(x => x.toString()) ?? [],
             );
         }
 

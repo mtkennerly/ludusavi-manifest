@@ -80,7 +80,7 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
         return this.data[key];
     }
 
-    async refresh(skipUntil: string | undefined, irregularTagged: boolean, irregularUntagged: boolean, limit: number): Promise<void> {
+    async refresh(skipUntil: string | undefined, irregularTagged: boolean, irregularUntagged: boolean, limit: number, appIds: Array<string>): Promise<void> {
         let i = 0;
         let foundSkipUntil = false;
         for (const appId of Object.keys(this.data).sort()) {
@@ -90,6 +90,9 @@ export class SteamGameCacheFile extends YamlFile<SteamGameCache> {
                 } else {
                     continue;
                 }
+            }
+            if (appIds.length > 0 && !appIds.includes(appId)) {
+                continue;
             }
 
             if (irregularTagged) {
