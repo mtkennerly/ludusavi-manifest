@@ -28929,6 +28929,7 @@
 * [SQR 3](https://www.pcgamingwiki.com/wiki/?curid=73827)
 * [SQR 4](https://www.pcgamingwiki.com/wiki/?curid=134678)
 * [Squad Z](https://www.pcgamingwiki.com/wiki/?curid=104243)
+* [Squadron 42](https://www.pcgamingwiki.com/wiki/?curid=189862)
 * [Squadron 51](https://www.pcgamingwiki.com/wiki/?curid=166523)
 * [Squadron: Sky Guardians](https://www.pcgamingwiki.com/wiki/?curid=65578)
 * [Squake](https://www.pcgamingwiki.com/wiki/?curid=53564)
