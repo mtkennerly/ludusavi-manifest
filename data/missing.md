@@ -2391,6 +2391,7 @@
 * [Atlantis Sky Patrol](https://www.pcgamingwiki.com/wiki/?curid=41140)
 * [Atlantis VR](https://www.pcgamingwiki.com/wiki/?curid=75407)
 * [Atlantis: Pearls of the Deep](https://www.pcgamingwiki.com/wiki/?curid=38712)
+* [Atlantis: The Lost Empire – Trial by Fire](https://www.pcgamingwiki.com/wiki/?curid=189868)
 * [Atlas](https://www.pcgamingwiki.com/wiki/?curid=123926)
 * [Atlas Protect Your Planet](https://www.pcgamingwiki.com/wiki/?curid=125653)
 * [Atlas Reactor](https://www.pcgamingwiki.com/wiki/?curid=43065)
