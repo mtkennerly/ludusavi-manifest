@@ -29363,7 +29363,6 @@
 * [Stick Nightmare](https://www.pcgamingwiki.com/wiki/?curid=64081)
 * [Stick Ninja](https://www.pcgamingwiki.com/wiki/?curid=149610)
 * [Stick Royale](https://www.pcgamingwiki.com/wiki/?curid=135546)
-* [Stick RPG 2: Director's Cut](https://www.pcgamingwiki.com/wiki/?curid=50047)
 * [Stick Spartans](https://www.pcgamingwiki.com/wiki/?curid=95513)
 * [Stick to the end](https://www.pcgamingwiki.com/wiki/?curid=120866)
 * [Stick War: Castle Defence](https://www.pcgamingwiki.com/wiki/?curid=88742)
