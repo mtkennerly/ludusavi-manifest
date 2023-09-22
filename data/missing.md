@@ -34273,7 +34273,6 @@
 * [Ultimate Select Hero](https://www.pcgamingwiki.com/wiki/?curid=89604)
 * [Ultimate Shotgun Championship](https://www.pcgamingwiki.com/wiki/?curid=135036)
 * [Ultimate Solid](https://www.pcgamingwiki.com/wiki/?curid=52235)
-* [Ultimate Space Commando](https://www.pcgamingwiki.com/wiki/?curid=47929)
 * [Ultimate Spider Hero](https://www.pcgamingwiki.com/wiki/?curid=80515)
 * [Ultimate Spinner Simulator - Unstress Yourself](https://www.pcgamingwiki.com/wiki/?curid=74173)
 * [Ultimate Sudoku Collection](https://www.pcgamingwiki.com/wiki/?curid=93910)
