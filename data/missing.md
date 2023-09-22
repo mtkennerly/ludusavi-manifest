@@ -35320,7 +35320,6 @@
 * [Vulcan Sacrifice](https://www.pcgamingwiki.com/wiki/?curid=114222)
 * [Vulpine](https://www.pcgamingwiki.com/wiki/?curid=81179)
 * [Vulture](https://www.pcgamingwiki.com/wiki/?curid=68178)
-* [Vulture for NetHack](https://www.pcgamingwiki.com/wiki/?curid=48821)
 * [Vulture Island](https://www.pcgamingwiki.com/wiki/?curid=52386)
 * [Vulture Strike](https://www.pcgamingwiki.com/wiki/?curid=63044)
 * [VVVVV](https://www.pcgamingwiki.com/wiki/?curid=149700)
