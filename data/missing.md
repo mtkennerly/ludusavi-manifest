@@ -1010,6 +1010,7 @@
 * [Age of Fear 4: The Iron Killer](https://www.pcgamingwiki.com/wiki/?curid=137139)
 * [Age of Fear: The Undead King](https://www.pcgamingwiki.com/wiki/?curid=34091)
 * [Age of Fear: The Undead King GOLD](https://www.pcgamingwiki.com/wiki/?curid=121580)
+* [Age of Fear: Total](https://www.pcgamingwiki.com/wiki/?curid=189894)
 * [Age Of Forays](https://www.pcgamingwiki.com/wiki/?curid=108470)
 * [Age of Giants](https://www.pcgamingwiki.com/wiki/?curid=91819)
 * [Age of Gladiators](https://www.pcgamingwiki.com/wiki/?curid=44443)
