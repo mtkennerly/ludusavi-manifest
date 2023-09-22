@@ -35535,6 +35535,7 @@
 * [Warhammer Underworlds: Online](https://www.pcgamingwiki.com/wiki/?curid=135726)
 * [Warhammer: Chaos and Conquest](https://www.pcgamingwiki.com/wiki/?curid=152255)
 * [Warhammer: Vermintide VR - Hero Trials](https://www.pcgamingwiki.com/wiki/?curid=55518)
+* [Warhaven](https://www.pcgamingwiki.com/wiki/?curid=189907)
 * [Warhawks: European Theater](https://www.pcgamingwiki.com/wiki/?curid=42179)
 * [Warhead](https://www.pcgamingwiki.com/wiki/?curid=135935)
 * [Warhead Destined](https://www.pcgamingwiki.com/wiki/?curid=143940)
