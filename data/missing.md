@@ -34607,6 +34607,7 @@
 * [USA 2020](https://www.pcgamingwiki.com/wiki/?curid=94635)
 * [Usagi Yojimbo: Way of the Ronin](https://www.pcgamingwiki.com/wiki/?curid=48847)
 * [USAGIRI](https://www.pcgamingwiki.com/wiki/?curid=151105)
+* [USC: Counterforce](https://www.pcgamingwiki.com/wiki/?curid=189967)
 * [Use Your Brain!](https://www.pcgamingwiki.com/wiki/?curid=144021)
 * [Use Your Words](https://www.pcgamingwiki.com/wiki/?curid=55776)
 * [Useless Box](https://www.pcgamingwiki.com/wiki/?curid=112938)
