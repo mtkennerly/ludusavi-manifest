@@ -14568,6 +14568,7 @@
 * [HexaMon](https://www.pcgamingwiki.com/wiki/?curid=75085)
 * [Hexanome](https://www.pcgamingwiki.com/wiki/?curid=122472)
 * [Hexaverse](https://www.pcgamingwiki.com/wiki/?curid=108494)
+* [HEXCRAFT: Harlequin Fair](https://www.pcgamingwiki.com/wiki/?curid=189987)
 * [Hexcross](https://www.pcgamingwiki.com/wiki/?curid=151117)
 * [Hexed](https://www.pcgamingwiki.com/wiki/?curid=82357)
 * [Hexelectric](https://www.pcgamingwiki.com/wiki/?curid=141216)
