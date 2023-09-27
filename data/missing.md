@@ -4267,7 +4267,6 @@
 * [Bouncy Bob](https://www.pcgamingwiki.com/wiki/?curid=66989)
 * [Bouncy Bob: Episode 2](https://www.pcgamingwiki.com/wiki/?curid=145121)
 * [Bouncy Butter Ball](https://www.pcgamingwiki.com/wiki/?curid=95162)
-* [Bound By Blades](https://www.pcgamingwiki.com/wiki/?curid=122918)
 * [Bound To Light](https://www.pcgamingwiki.com/wiki/?curid=74327)
 * [Bound Up & Squirming!](https://www.pcgamingwiki.com/wiki/?curid=126158)
 * [Boundary](https://www.pcgamingwiki.com/wiki/?curid=132278)
