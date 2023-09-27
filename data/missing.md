@@ -2354,6 +2354,7 @@
 * [Astrox: Hostile Space Excavation](https://www.pcgamingwiki.com/wiki/?curid=37975)
 * [Asuka 120% Return BURNING Fest.](https://www.pcgamingwiki.com/wiki/?curid=168106)
 * [Asura](https://www.pcgamingwiki.com/wiki/?curid=54435)
+* [Asura the Striker](https://www.pcgamingwiki.com/wiki/?curid=190004)
 * [Asura Valley](https://www.pcgamingwiki.com/wiki/?curid=80396)
 * [Asylamba: Influence](https://www.pcgamingwiki.com/wiki/?curid=93932)
 * [Asylopole](https://www.pcgamingwiki.com/wiki/?curid=58714)
