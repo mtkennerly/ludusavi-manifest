@@ -33643,6 +33643,7 @@
 * [Train Mechanic Simulator 2017](https://www.pcgamingwiki.com/wiki/?curid=52340)
 * [Train of Afterlife](https://www.pcgamingwiki.com/wiki/?curid=48965)
 * [Train Runner VR](https://www.pcgamingwiki.com/wiki/?curid=76000)
+* [Train Sim World 4](https://www.pcgamingwiki.com/wiki/?curid=190014)
 * [Train Simulator Railroad Operator](https://www.pcgamingwiki.com/wiki/?curid=87987)
 * [Train Simulator VR](https://www.pcgamingwiki.com/wiki/?curid=73901)
 * [Train Simulator: London Subway](https://www.pcgamingwiki.com/wiki/?curid=98712)
