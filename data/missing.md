@@ -18504,6 +18504,7 @@
 * [Lunar: Silver Star Story](https://www.pcgamingwiki.com/wiki/?curid=170393)
 * [Lunar's Chosen](https://www.pcgamingwiki.com/wiki/?curid=178981)
 * [Lunark](https://www.pcgamingwiki.com/wiki/?curid=139678)
+* [LunarLux](https://www.pcgamingwiki.com/wiki/?curid=190038)
 * [Lunarsea](https://www.pcgamingwiki.com/wiki/?curid=74644)
 * [Lunatic Dawn Legend Pack](https://www.pcgamingwiki.com/wiki/?curid=49005)
 * [Lunatic Dawn: Passage of the Book](https://www.pcgamingwiki.com/wiki/?curid=49007)
