@@ -19932,7 +19932,6 @@
 * [MochiMochi](https://www.pcgamingwiki.com/wiki/?curid=110800)
 * [Mocove Arts VR](https://www.pcgamingwiki.com/wiki/?curid=63767)
 * [Modbox](https://www.pcgamingwiki.com/wiki/?curid=43744)
-* [Model Builder](https://www.pcgamingwiki.com/wiki/?curid=151579)
 * [Model DE Fight](https://www.pcgamingwiki.com/wiki/?curid=99456)
 * [Model Kit Simulator VR](https://www.pcgamingwiki.com/wiki/?curid=156256)
 * [Model Railway Easily](https://www.pcgamingwiki.com/wiki/?curid=155616)
