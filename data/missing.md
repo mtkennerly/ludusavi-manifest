@@ -15771,7 +15771,6 @@
 * [Infinity Racer](https://www.pcgamingwiki.com/wiki/?curid=104291)
 * [Infinity Racer XD](https://www.pcgamingwiki.com/wiki/?curid=153396)
 * [Infinity Saga](https://www.pcgamingwiki.com/wiki/?curid=44393)
-* [Infinity Strash: Dragon Quest The Adventure of Dai](https://www.pcgamingwiki.com/wiki/?curid=187401)
 * [Infinity Trip](https://www.pcgamingwiki.com/wiki/?curid=77020)
 * [Infinity Wars](https://www.pcgamingwiki.com/wiki/?curid=142190)
 * [Infinity Wars 2](https://www.pcgamingwiki.com/wiki/?curid=157468)
