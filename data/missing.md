@@ -22683,7 +22683,6 @@
 * [Particle Wars](https://www.pcgamingwiki.com/wiki/?curid=149271)
 * [Particula](https://www.pcgamingwiki.com/wiki/?curid=48811)
 * [Particulate](https://www.pcgamingwiki.com/wiki/?curid=153675)
-* [Party Animals](https://www.pcgamingwiki.com/wiki/?curid=164205)
 * [PARTY BINGO](https://www.pcgamingwiki.com/wiki/?curid=134488)
 * [Party Crashers](https://www.pcgamingwiki.com/wiki/?curid=74954)
 * [Party Down](https://www.pcgamingwiki.com/wiki/?curid=179405)
