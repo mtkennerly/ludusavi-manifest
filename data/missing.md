@@ -16474,6 +16474,7 @@
 * [Juicy Army](https://www.pcgamingwiki.com/wiki/?curid=157174)
 * [Juicy Futa](https://www.pcgamingwiki.com/wiki/?curid=179123)
 * [Juicy Realm](https://www.pcgamingwiki.com/wiki/?curid=75701)
+* [Jujutsu Kaisen: Cursed Clash](https://www.pcgamingwiki.com/wiki/?curid=190076)
 * [Juke](https://www.pcgamingwiki.com/wiki/?curid=64914)
 * [Julai](https://www.pcgamingwiki.com/wiki/?curid=43652)
 * [Julia: Innocent Eyes](https://www.pcgamingwiki.com/wiki/?curid=35281)
