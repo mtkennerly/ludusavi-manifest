@@ -17671,7 +17671,6 @@
 * [Leisure Town](https://www.pcgamingwiki.com/wiki/?curid=108372)
 * [Lelie Navigation!](https://www.pcgamingwiki.com/wiki/?curid=164495)
 * [Lem-Amaze!](https://www.pcgamingwiki.com/wiki/?curid=153903)
-* [Leman](https://www.pcgamingwiki.com/wiki/?curid=190142)
 * [Lemmings](https://www.pcgamingwiki.com/wiki/?curid=57590)
 * [Lemmings 3D](https://www.pcgamingwiki.com/wiki/?curid=189125)
 * [Lemmings Paintball](https://www.pcgamingwiki.com/wiki/?curid=56403)
