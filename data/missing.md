@@ -16234,6 +16234,7 @@
 * [Jamping](https://www.pcgamingwiki.com/wiki/?curid=94595)
 * [Jamsouls](https://www.pcgamingwiki.com/wiki/?curid=49735)
 * [Jane Angel: Templar Mystery](https://www.pcgamingwiki.com/wiki/?curid=49637)
+* [Jane Austen's 8-bit Adventure](https://www.pcgamingwiki.com/wiki/?curid=190197)
 * [Jane Westlake Adventures - The Mystery Train](https://www.pcgamingwiki.com/wiki/?curid=155654)
 * [Jane's Advanced Strike Fighters](https://www.pcgamingwiki.com/wiki/?curid=1711)
 * [Jane's Attack Squadron](https://www.pcgamingwiki.com/wiki/?curid=187393)
