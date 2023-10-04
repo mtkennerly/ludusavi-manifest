@@ -37130,6 +37130,7 @@
 * [Zorro](https://www.pcgamingwiki.com/wiki/?curid=165822)
 * [Zorro: The Chronicles](https://www.pcgamingwiki.com/wiki/?curid=178410)
 * [ZorroMoro](https://www.pcgamingwiki.com/wiki/?curid=139163)
+* [Zortch](https://www.pcgamingwiki.com/wiki/?curid=190189)
 * [Zorya: The Celestial Sisters](https://www.pcgamingwiki.com/wiki/?curid=174637)
 * [Zotrix](https://www.pcgamingwiki.com/wiki/?curid=47140)
 * [Zotrix - Solar Division](https://www.pcgamingwiki.com/wiki/?curid=43488)
