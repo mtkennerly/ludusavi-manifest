@@ -32475,7 +32475,6 @@
 * [The Sentient](https://www.pcgamingwiki.com/wiki/?curid=44401)
 * [The Sentinel](https://www.pcgamingwiki.com/wiki/?curid=25880)
 * [The Settlers Online](https://www.pcgamingwiki.com/wiki/?curid=46817)
-* [The Settlers: New Allies](https://www.pcgamingwiki.com/wiki/?curid=137813)
 * [The Settlers: Rise of an Empire - History Edition](https://www.pcgamingwiki.com/wiki/?curid=127613)
 * [The Settlers: Rise of Cultures](https://www.pcgamingwiki.com/wiki/?curid=181564)
 * [The Seven](https://www.pcgamingwiki.com/wiki/?curid=144817)
