@@ -8097,7 +8097,6 @@
 * [Deficis](https://www.pcgamingwiki.com/wiki/?curid=47043)
 * [Definitely Sneaky but Not Sneaky](https://www.pcgamingwiki.com/wiki/?curid=124337)
 * [Deflection Dimension](https://www.pcgamingwiki.com/wiki/?curid=94629)
-* [Deflector](https://www.pcgamingwiki.com/wiki/?curid=177968)
 * [Defoliation](https://www.pcgamingwiki.com/wiki/?curid=132654)
 * [Defrain](https://www.pcgamingwiki.com/wiki/?curid=98228)
 * [Defuser VR](https://www.pcgamingwiki.com/wiki/?curid=57740)
