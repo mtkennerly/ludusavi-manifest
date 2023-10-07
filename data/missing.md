@@ -23035,6 +23035,7 @@
 * [Pigsaw](https://www.pcgamingwiki.com/wiki/?curid=189445)
 * [PiiSim](https://www.pcgamingwiki.com/wiki/?curid=130340)
 * [Pike and Shot: Campaigns](https://www.pcgamingwiki.com/wiki/?curid=46893)
+* [Pikmin](https://www.pcgamingwiki.com/wiki/?curid=190252)
 * [Piko Piko](https://www.pcgamingwiki.com/wiki/?curid=139274)
 * [Pilam Sky](https://www.pcgamingwiki.com/wiki/?curid=63171)
 * [Pilfer](https://www.pcgamingwiki.com/wiki/?curid=155330)
