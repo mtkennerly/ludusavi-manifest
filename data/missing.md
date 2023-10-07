@@ -8218,7 +8218,6 @@
 * [Deported 2: Build That Wall](https://www.pcgamingwiki.com/wiki/?curid=123357)
 * [Deported: Drain the Swamp](https://www.pcgamingwiki.com/wiki/?curid=120972)
 * [DepowerBall](https://www.pcgamingwiki.com/wiki/?curid=151260)
-* [Deppart Prototype](https://www.pcgamingwiki.com/wiki/?curid=189911)
 * [Depression](https://www.pcgamingwiki.com/wiki/?curid=53441)
 * [Depression Quest](https://www.pcgamingwiki.com/wiki/?curid=49773)
 * [Depression The Game](https://www.pcgamingwiki.com/wiki/?curid=99962)
