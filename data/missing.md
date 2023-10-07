@@ -12034,6 +12034,7 @@
 * [Frank the Miner](https://www.pcgamingwiki.com/wiki/?curid=87215)
 * [Frank Thomas Big Hurt Baseball](https://www.pcgamingwiki.com/wiki/?curid=91667)
 * [Frankenstein: Beyond the Time](https://www.pcgamingwiki.com/wiki/?curid=97353)
+* [Franklin the Turtle: Clubhouse Adventures](https://www.pcgamingwiki.com/wiki/?curid=190244)
 * [FranknJohn](https://www.pcgamingwiki.com/wiki/?curid=48527)
 * [Franky Lettuce](https://www.pcgamingwiki.com/wiki/?curid=125793)
 * [Franky the Bumwalker](https://www.pcgamingwiki.com/wiki/?curid=78296)
