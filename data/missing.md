@@ -34350,6 +34350,7 @@
 * [Uncharted Waters](https://www.pcgamingwiki.com/wiki/?curid=61442)
 * [Uncharted Waters Online](https://www.pcgamingwiki.com/wiki/?curid=122442)
 * [Uncharted Waters Origin](https://www.pcgamingwiki.com/wiki/?curid=185938)
+* [Unciv](https://www.pcgamingwiki.com/wiki/?curid=190240)
 * [Unclaimed World](https://www.pcgamingwiki.com/wiki/?curid=16266)
 * [Uncle Henry's Playhouse](https://www.pcgamingwiki.com/wiki/?curid=147309)
 * [Uncompromising Trash](https://www.pcgamingwiki.com/wiki/?curid=57896)
