@@ -6119,7 +6119,6 @@
 * [Cocktail for Beauty](https://www.pcgamingwiki.com/wiki/?curid=149913)
 * [Coco VR](https://www.pcgamingwiki.com/wiki/?curid=89880)
 * [Coconut Queen](https://www.pcgamingwiki.com/wiki/?curid=41193)
-* [Cocoon](https://www.pcgamingwiki.com/wiki/?curid=178396)
 * [Code 9](https://www.pcgamingwiki.com/wiki/?curid=71717)
 * [Code Brown](https://www.pcgamingwiki.com/wiki/?curid=120723)
 * [Code Cracker](https://www.pcgamingwiki.com/wiki/?curid=88914)
