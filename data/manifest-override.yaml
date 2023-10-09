@@ -9,3 +9,8 @@ Overwatch:
   # and its save locations are identical to Overwatch 2,
   # leading to duplicate backups.
   omit: true
+'Counter-Strike: Global Offensive':
+  # The game is no longer playable unless selected as CS2 beta
+  # and its save locations are identical to Counter Strike 2,
+  # leading to duplicate backups.
+  omit: true
