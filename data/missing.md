@@ -33789,6 +33789,7 @@
 * [Treasure Hunter Man 2](https://www.pcgamingwiki.com/wiki/?curid=95573)
 * [Treasure Hunter Simulator](https://www.pcgamingwiki.com/wiki/?curid=78818)
 * [Treasure Island (1985)](https://www.pcgamingwiki.com/wiki/?curid=187269)
+* [Treasure Island (2009)](https://www.pcgamingwiki.com/wiki/?curid=190315)
 * [Treasure Masters, Inc.: The Lost City](https://www.pcgamingwiki.com/wiki/?curid=134932)
 * [Treasure of a Blizzard](https://www.pcgamingwiki.com/wiki/?curid=51326)
 * [Treasure Planet: Battle at Procyon](https://www.pcgamingwiki.com/wiki/?curid=48617)
