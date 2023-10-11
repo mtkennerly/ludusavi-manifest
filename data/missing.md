@@ -12347,7 +12347,7 @@
 * [Future City Coaster](https://www.pcgamingwiki.com/wiki/?curid=90030)
 * [Future Futures - Command Z](https://www.pcgamingwiki.com/wiki/?curid=132042)
 * [Future Ghost](https://www.pcgamingwiki.com/wiki/?curid=82205)
-* [FUTURE GPX CYBER FORMULA SIN VIER](https://www.pcgamingwiki.com/wiki/?curid=123862)
+* [Future GPX Cyber Formula Sin Vier](https://www.pcgamingwiki.com/wiki/?curid=123862)
 * [Future Perfect](https://www.pcgamingwiki.com/wiki/?curid=45107)
 * [Future Pool](https://www.pcgamingwiki.com/wiki/?curid=150910)
 * [Future Proof](https://www.pcgamingwiki.com/wiki/?curid=93833)
