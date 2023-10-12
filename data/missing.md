@@ -18057,7 +18057,6 @@
 * [Live In Color](https://www.pcgamingwiki.com/wiki/?curid=39970)
 * [Live Mince](https://www.pcgamingwiki.com/wiki/?curid=127381)
 * [Live the Guitar](https://www.pcgamingwiki.com/wiki/?curid=88005)
-* [Live Wire!](https://www.pcgamingwiki.com/wiki/?curid=175912)
 * [Lives so Sweet](https://www.pcgamingwiki.com/wiki/?curid=150729)
 * [Liveza: Death of the Earth](https://www.pcgamingwiki.com/wiki/?curid=43209)
 * [Living Dark](https://www.pcgamingwiki.com/wiki/?curid=89728)
