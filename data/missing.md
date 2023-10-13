@@ -22575,6 +22575,7 @@
 * [PangYa](https://www.pcgamingwiki.com/wiki/?curid=178313)
 * [Panic at Multiverse High!](https://www.pcgamingwiki.com/wiki/?curid=36222)
 * [Panic Diet!!](https://www.pcgamingwiki.com/wiki/?curid=149103)
+* [Panic in Sweets Land](https://www.pcgamingwiki.com/wiki/?curid=190419)
 * [Panic Pump - Can You Save Them All?](https://www.pcgamingwiki.com/wiki/?curid=77098)
 * [Panic Room 2: Hide and Seek](https://www.pcgamingwiki.com/wiki/?curid=99594)
 * [Panoptes](https://www.pcgamingwiki.com/wiki/?curid=37213)
