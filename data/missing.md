@@ -18241,7 +18241,6 @@
 * [Lords of Kingdoms](https://www.pcgamingwiki.com/wiki/?curid=91088)
 * [Lords of New York](https://www.pcgamingwiki.com/wiki/?curid=52956)
 * [Lords of Strife](https://www.pcgamingwiki.com/wiki/?curid=92297)
-* [Lords of the Fallen (2023)](https://www.pcgamingwiki.com/wiki/?curid=181129)
 * [Lords of the Lockerroom](https://www.pcgamingwiki.com/wiki/?curid=164351)
 * [Lords of War](https://www.pcgamingwiki.com/wiki/?curid=66965)
 * [Lore Finder](https://www.pcgamingwiki.com/wiki/?curid=124613)
