@@ -28284,7 +28284,6 @@
 * [Sonic Hunter VR](https://www.pcgamingwiki.com/wiki/?curid=53884)
 * [Sonic Nexus](https://www.pcgamingwiki.com/wiki/?curid=177182)
 * [Sonic Racing](https://www.pcgamingwiki.com/wiki/?curid=148163)
-* [Sonic Superstars](https://www.pcgamingwiki.com/wiki/?curid=187781)
 * [Sonny](https://www.pcgamingwiki.com/wiki/?curid=60922)
 * [Sonority](https://www.pcgamingwiki.com/wiki/?curid=177488)
 * [Sons of Ra](https://www.pcgamingwiki.com/wiki/?curid=145421)
