@@ -10125,7 +10125,6 @@
 * [Endless Dead](https://www.pcgamingwiki.com/wiki/?curid=39081)
 * [Endless Defence 2](https://www.pcgamingwiki.com/wiki/?curid=140942)
 * [Endless Dream](https://www.pcgamingwiki.com/wiki/?curid=68354)
-* [Endless Dungeon](https://www.pcgamingwiki.com/wiki/?curid=168495)
 * [Endless Fables 2: Frozen Path](https://www.pcgamingwiki.com/wiki/?curid=76010)
 * [Endless Fables 4: Shadow Within](https://www.pcgamingwiki.com/wiki/?curid=149221)
 * [Endless Fables: The Minotaur's Curse](https://www.pcgamingwiki.com/wiki/?curid=54800)
