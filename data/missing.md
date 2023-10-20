@@ -25306,8 +25306,6 @@
 * [Reset 1-1](https://www.pcgamingwiki.com/wiki/?curid=36640)
 * [Resette's Prescription: Book of Memory, Swaying Scale](https://www.pcgamingwiki.com/wiki/?curid=33604)
 * [Resfort](https://www.pcgamingwiki.com/wiki/?curid=62038)
-* [Resident Evil 2](https://www.pcgamingwiki.com/wiki/?curid=21579)
-* [Resident Evil 3: Nemesis](https://www.pcgamingwiki.com/wiki/?curid=21578)
 * [Resident Evil 4 VR](https://www.pcgamingwiki.com/wiki/?curid=171783)
 * [Resident Evil Re:Verse](https://www.pcgamingwiki.com/wiki/?curid=166166)
 * [Residual](https://www.pcgamingwiki.com/wiki/?curid=171338)
