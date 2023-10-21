@@ -21297,6 +21297,7 @@
 * [NGHTMN](https://www.pcgamingwiki.com/wiki/?curid=61994)
 * [NHL 06](https://www.pcgamingwiki.com/wiki/?curid=186791)
 * [NHL 2001](https://www.pcgamingwiki.com/wiki/?curid=181439)
+* [NHL 98](https://www.pcgamingwiki.com/wiki/?curid=190658)
 * [NHL 99](https://www.pcgamingwiki.com/wiki/?curid=24808)
 * [NHRA: Speed for All](https://www.pcgamingwiki.com/wiki/?curid=178428)
 * [Niara: Rebellion of the King](https://www.pcgamingwiki.com/wiki/?curid=136745)
