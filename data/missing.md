@@ -9853,6 +9853,7 @@
 * [Ego Hearts](https://www.pcgamingwiki.com/wiki/?curid=127488)
 * [Ego Protocol](https://www.pcgamingwiki.com/wiki/?curid=44588)
 * [Egress](https://www.pcgamingwiki.com/wiki/?curid=82938)
+* [Egypt 1156 B.C.: Tomb of the Pharaoh](https://www.pcgamingwiki.com/wiki/?curid=190633)
 * [Egypt Solitaire. Match 2 Cards](https://www.pcgamingwiki.com/wiki/?curid=154075)
 * [Egypt: Old Kingdom](https://www.pcgamingwiki.com/wiki/?curid=77335)
 * [Egyptian Senet](https://www.pcgamingwiki.com/wiki/?curid=46789)
