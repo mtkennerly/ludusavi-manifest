@@ -16426,6 +16426,7 @@
 * [Johnny Graves: The Unchosen One](https://www.pcgamingwiki.com/wiki/?curid=33494)
 * [Johns.game](https://www.pcgamingwiki.com/wiki/?curid=58892)
 * [Joint Operations: Typhoon Rising](https://www.pcgamingwiki.com/wiki/?curid=41232)
+* [Joint Strike Fighter](https://www.pcgamingwiki.com/wiki/?curid=190640)
 * [Jolly Battle](https://www.pcgamingwiki.com/wiki/?curid=102777)
 * [Jolly Riot](https://www.pcgamingwiki.com/wiki/?curid=126422)
 * [JOLT: Super Robot Racer](https://www.pcgamingwiki.com/wiki/?curid=52774)
