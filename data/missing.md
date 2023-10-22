@@ -23639,6 +23639,7 @@
 * [Poppy Kart](https://www.pcgamingwiki.com/wiki/?curid=46124)
 * [Poppy Kart 2](https://www.pcgamingwiki.com/wiki/?curid=175303)
 * [Poppy's Nightmare](https://www.pcgamingwiki.com/wiki/?curid=143918)
+* [Poptropica](https://www.pcgamingwiki.com/wiki/?curid=190677)
 * [POPUCOM](https://www.pcgamingwiki.com/wiki/?curid=189692)
 * [Population: One](https://www.pcgamingwiki.com/wiki/?curid=165978)
 * [Populus Run](https://www.pcgamingwiki.com/wiki/?curid=166282)
