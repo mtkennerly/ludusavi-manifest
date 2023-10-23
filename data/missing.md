@@ -35610,6 +35610,7 @@
 * [Warhammer 40,000: Space Marine II](https://www.pcgamingwiki.com/wiki/?curid=173579)
 * [Warhammer 40,000: Storm of Vengeance](https://www.pcgamingwiki.com/wiki/?curid=16381)
 * [Warhammer Age of Sigmar: Champions](https://www.pcgamingwiki.com/wiki/?curid=127823)
+* [Warhammer Age of Sigmar: Realms of Ruin](https://www.pcgamingwiki.com/wiki/?curid=190705)
 * [Warhammer Online: Age of Reckoning](https://www.pcgamingwiki.com/wiki/?curid=178153)
 * [Warhammer Quest 2: The End Times](https://www.pcgamingwiki.com/wiki/?curid=124366)
 * [Warhammer Underworlds: Online](https://www.pcgamingwiki.com/wiki/?curid=135726)
