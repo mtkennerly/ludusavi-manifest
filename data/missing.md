@@ -26593,6 +26593,7 @@
 * [Sapper - Defuse The Bomb Simulator](https://www.pcgamingwiki.com/wiki/?curid=136946)
 * [Sapper Boom!](https://www.pcgamingwiki.com/wiki/?curid=95523)
 * [Sapper's Bad Dream](https://www.pcgamingwiki.com/wiki/?curid=42501)
+* [Sapphire Safari](https://www.pcgamingwiki.com/wiki/?curid=190729)
 * [Sapphire Yours](https://www.pcgamingwiki.com/wiki/?curid=70109)
 * [Sapus Tongue](https://www.pcgamingwiki.com/wiki/?curid=167814)
 * [Sarab: Duji Tower](https://www.pcgamingwiki.com/wiki/?curid=53552)
