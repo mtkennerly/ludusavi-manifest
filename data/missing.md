@@ -19488,8 +19488,6 @@
 * [Metal Force: Tank Games Online](https://www.pcgamingwiki.com/wiki/?curid=180415)
 * [Metal Fury 3000](https://www.pcgamingwiki.com/wiki/?curid=151301)
 * [Metal Gear](https://www.pcgamingwiki.com/wiki/?curid=27727)
-* [Metal Gear Solid - Master Collection Version](https://www.pcgamingwiki.com/wiki/?curid=188382)
-* [Metal Gear Solid 2: Sons of Liberty - Master Collection Version](https://www.pcgamingwiki.com/wiki/?curid=188384)
 * [Metal Gear Solid Δ: Snake Eater](https://www.pcgamingwiki.com/wiki/?curid=187350)
 * [Metal Heads](https://www.pcgamingwiki.com/wiki/?curid=145397)
 * [Metal Marines](https://www.pcgamingwiki.com/wiki/?curid=175456)
