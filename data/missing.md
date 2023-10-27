@@ -4677,6 +4677,7 @@
 * [BulletRage](https://www.pcgamingwiki.com/wiki/?curid=95146)
 * [Bullets and More VR - BAM VR](https://www.pcgamingwiki.com/wiki/?curid=38819)
 * [Bullets in the Space](https://www.pcgamingwiki.com/wiki/?curid=103681)
+* [Bulletstorm VR](https://www.pcgamingwiki.com/wiki/?curid=190818)
 * [Bulls town](https://www.pcgamingwiki.com/wiki/?curid=124239)
 * [Bullseye](https://www.pcgamingwiki.com/wiki/?curid=73292)
 * [Bullshot](https://www.pcgamingwiki.com/wiki/?curid=43702)
