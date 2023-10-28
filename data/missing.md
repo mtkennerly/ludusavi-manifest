@@ -8306,7 +8306,7 @@
 * [Desolation](https://www.pcgamingwiki.com/wiki/?curid=81753)
 * [Desolatium](https://www.pcgamingwiki.com/wiki/?curid=148860)
 * [Desolus](https://www.pcgamingwiki.com/wiki/?curid=126464)
-* [DESORDRE : A Puzzle Game Adventure](https://www.pcgamingwiki.com/wiki/?curid=188369)
+* [Desordre](https://www.pcgamingwiki.com/wiki/?curid=188369)
 * [Despair](https://www.pcgamingwiki.com/wiki/?curid=47923)
 * [Desperate Game](https://www.pcgamingwiki.com/wiki/?curid=82649)
 * [Desperate Times](https://www.pcgamingwiki.com/wiki/?curid=50801)
