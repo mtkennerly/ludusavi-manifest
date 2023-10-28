@@ -32761,7 +32761,6 @@
 * [The Voice in the Void](https://www.pcgamingwiki.com/wiki/?curid=65710)
 * [The Voice Inside](https://www.pcgamingwiki.com/wiki/?curid=130601)
 * [The Void of Desires](https://www.pcgamingwiki.com/wiki/?curid=149095)
-* [The Void Rains upon Her Heart](https://www.pcgamingwiki.com/wiki/?curid=81653)
 * [The Volcano](https://www.pcgamingwiki.com/wiki/?curid=148723)
 * [THE VR CANYON](https://www.pcgamingwiki.com/wiki/?curid=153979)
 * [The VR Museum of Fine Art](https://www.pcgamingwiki.com/wiki/?curid=41567)
