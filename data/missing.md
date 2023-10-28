@@ -11583,6 +11583,7 @@
 * [Flash Point](https://www.pcgamingwiki.com/wiki/?curid=125155)
 * [Flash Point: Fire Rescue](https://www.pcgamingwiki.com/wiki/?curid=66478)
 * [Flash Snooker Game](https://www.pcgamingwiki.com/wiki/?curid=161615)
+* [Flashback 2](https://www.pcgamingwiki.com/wiki/?curid=190856)
 * [Flashback: The Quest for Identity](https://www.pcgamingwiki.com/wiki/?curid=157945)
 * [Flashout 2](https://www.pcgamingwiki.com/wiki/?curid=50101)
 * [Flashout 3D](https://www.pcgamingwiki.com/wiki/?curid=182106)
