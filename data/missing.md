@@ -33484,6 +33484,7 @@
 * [Torino 2006](https://www.pcgamingwiki.com/wiki/?curid=89763)
 * [TORINTO](https://www.pcgamingwiki.com/wiki/?curid=148826)
 * [Tormented 12](https://www.pcgamingwiki.com/wiki/?curid=42549)
+* [Tormented Souls 2](https://www.pcgamingwiki.com/wiki/?curid=190874)
 * [Tormentum II](https://www.pcgamingwiki.com/wiki/?curid=122794)
 * [Torn](https://www.pcgamingwiki.com/wiki/?curid=91184)
 * [Torn Asunder](https://www.pcgamingwiki.com/wiki/?curid=109632)
