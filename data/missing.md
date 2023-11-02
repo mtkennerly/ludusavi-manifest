@@ -24652,7 +24652,6 @@
 * [Radiant Defense](https://www.pcgamingwiki.com/wiki/?curid=49957)
 * [Radiant Melodia](https://www.pcgamingwiki.com/wiki/?curid=82808)
 * [Radiant One](https://www.pcgamingwiki.com/wiki/?curid=102543)
-* [Radiant Silvergun](https://www.pcgamingwiki.com/wiki/?curid=188991)
 * [RadianVR](https://www.pcgamingwiki.com/wiki/?curid=64109)
 * [Radiation Island](https://www.pcgamingwiki.com/wiki/?curid=54331)
 * [Radiator 2](https://www.pcgamingwiki.com/wiki/?curid=33506)
