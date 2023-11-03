@@ -22543,7 +22543,6 @@
 * [Pajama Sam: Games to Play on Any Day](https://www.pcgamingwiki.com/wiki/?curid=36379)
 * [Pajama Sam's Lost & Found](https://www.pcgamingwiki.com/wiki/?curid=36369)
 * [Pakicetus](https://www.pcgamingwiki.com/wiki/?curid=152915)
-* [PAKO - Car Chase Simulator](https://www.pcgamingwiki.com/wiki/?curid=54429)
 * [PAKO 2](https://www.pcgamingwiki.com/wiki/?curid=60115)
 * [Palace of Cards](https://www.pcgamingwiki.com/wiki/?curid=77916)
 * [Palace of sky](https://www.pcgamingwiki.com/wiki/?curid=153965)
