@@ -28283,7 +28283,6 @@
 * [Song Animals](https://www.pcgamingwiki.com/wiki/?curid=130207)
 * [Song Beater: Quite My Tempo!](https://www.pcgamingwiki.com/wiki/?curid=140538)
 * [Song of a Spirit](https://www.pcgamingwiki.com/wiki/?curid=140958)
-* [Song of Nunu: A League of Legends Story](https://www.pcgamingwiki.com/wiki/?curid=173058)
 * [Song of the Prairie](https://www.pcgamingwiki.com/wiki/?curid=187526)
 * [Song Samurai](https://www.pcgamingwiki.com/wiki/?curid=66679)
 * [Songbird Symphony](https://www.pcgamingwiki.com/wiki/?curid=109568)
