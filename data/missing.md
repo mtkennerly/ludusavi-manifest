@@ -11451,6 +11451,7 @@
 * [Firebird - La Peri](https://www.pcgamingwiki.com/wiki/?curid=36145)
 * [Firebird - The Unfinished](https://www.pcgamingwiki.com/wiki/?curid=92187)
 * [Fireboy & Watergirl: Elements](https://www.pcgamingwiki.com/wiki/?curid=125841)
+* [Fireboy & Watergirl: Fairy Tales](https://www.pcgamingwiki.com/wiki/?curid=190991)
 * [Firefight](https://www.pcgamingwiki.com/wiki/?curid=42430)
 * [Firefight!](https://www.pcgamingwiki.com/wiki/?curid=155458)
 * [Firefighters - The Simulation](https://www.pcgamingwiki.com/wiki/?curid=36600)
