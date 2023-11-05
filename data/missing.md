@@ -1572,7 +1572,6 @@
 * [Ancient Battle: Hannibal](https://www.pcgamingwiki.com/wiki/?curid=123377)
 * [Ancient Battle: Rome](https://www.pcgamingwiki.com/wiki/?curid=67833)
 * [Ancient Battle: Successors](https://www.pcgamingwiki.com/wiki/?curid=144661)
-* [Ancient Cities](https://www.pcgamingwiki.com/wiki/?curid=165741)
 * [Ancient Code VR (The Fantasy Egypt Journey)](https://www.pcgamingwiki.com/wiki/?curid=70242)
 * [Ancient Dungeon](https://www.pcgamingwiki.com/wiki/?curid=145326)
 * [Ancient Evil](https://www.pcgamingwiki.com/wiki/?curid=149490)
