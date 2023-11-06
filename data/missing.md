@@ -36721,6 +36721,7 @@
 * [Yoba](https://www.pcgamingwiki.com/wiki/?curid=67538)
 * [Yōdanji](https://www.pcgamingwiki.com/wiki/?curid=77164)
 * [Yoga Lesson VR](https://www.pcgamingwiki.com/wiki/?curid=102387)
+* [Yohane the Parhelion -NUMAZU in the MIRAGE-](https://www.pcgamingwiki.com/wiki/?curid=191040)
 * [Yohjo Simulator](https://www.pcgamingwiki.com/wiki/?curid=33632)
 * [Yokai Mask](https://www.pcgamingwiki.com/wiki/?curid=111960)
 * [Yoke Light](https://www.pcgamingwiki.com/wiki/?curid=99360)
