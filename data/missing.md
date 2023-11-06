@@ -24729,6 +24729,7 @@
 * [Railroad X](https://www.pcgamingwiki.com/wiki/?curid=50097)
 * [Railroads](https://www.pcgamingwiki.com/wiki/?curid=144429)
 * [RailRoadVR](https://www.pcgamingwiki.com/wiki/?curid=140832)
+* [Rails Across America](https://www.pcgamingwiki.com/wiki/?curid=191048)
 * [Railway Empire 2](https://www.pcgamingwiki.com/wiki/?curid=187389)
 * [Railway Islands - Puzzle](https://www.pcgamingwiki.com/wiki/?curid=183229)
 * [Railway Saga: Land King](https://www.pcgamingwiki.com/wiki/?curid=136391)
