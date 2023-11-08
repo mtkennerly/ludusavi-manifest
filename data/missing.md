@@ -29657,7 +29657,6 @@
 * [Stroke Fill](https://www.pcgamingwiki.com/wiki/?curid=136700)
 * [Stronghold Kingdoms](https://www.pcgamingwiki.com/wiki/?curid=40830)
 * [Stronghold: A Hero's Fate](https://www.pcgamingwiki.com/wiki/?curid=123743)
-* [Stronghold: Definitive Edition](https://www.pcgamingwiki.com/wiki/?curid=188643)
 * [Strongmind](https://www.pcgamingwiki.com/wiki/?curid=52598)
 * [StroodleDoodle](https://www.pcgamingwiki.com/wiki/?curid=70084)
 * [Struckd - 3D Game Creator](https://www.pcgamingwiki.com/wiki/?curid=79654)
