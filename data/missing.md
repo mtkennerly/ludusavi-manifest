@@ -17907,7 +17907,6 @@
 * [LightTrack](https://www.pcgamingwiki.com/wiki/?curid=74642)
 * [LightWalk](https://www.pcgamingwiki.com/wiki/?curid=34125)
 * [Lightwire](https://www.pcgamingwiki.com/wiki/?curid=67615)
-* [Like a Dragon Gaiden: The Man Who Erased His Name](https://www.pcgamingwiki.com/wiki/?curid=181531)
 * [Like a Dragon: Infinite Wealth](https://www.pcgamingwiki.com/wiki/?curid=181534)
 * [Like Clay](https://www.pcgamingwiki.com/wiki/?curid=59051)
 * [Lil Big Invasion](https://www.pcgamingwiki.com/wiki/?curid=41831)
