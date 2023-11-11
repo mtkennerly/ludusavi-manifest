@@ -35749,6 +35749,7 @@
 * [Wayblock](https://www.pcgamingwiki.com/wiki/?curid=99636)
 * [WayDown](https://www.pcgamingwiki.com/wiki/?curid=120957)
 * [WAyE](https://www.pcgamingwiki.com/wiki/?curid=100266)
+* [Wayfinder](https://www.pcgamingwiki.com/wiki/?curid=191134)
 * [Wayhaven Chronicles: Book One](https://www.pcgamingwiki.com/wiki/?curid=87157)
 * [WayOut](https://www.pcgamingwiki.com/wiki/?curid=52814)
 * [WayOut 2: Hex](https://www.pcgamingwiki.com/wiki/?curid=57578)
