@@ -28285,6 +28285,7 @@
 * [Songs Of Wuxia](https://www.pcgamingwiki.com/wiki/?curid=156945)
 * [Songs2See](https://www.pcgamingwiki.com/wiki/?curid=40507)
 * [Sonia and the Hypnotic City](https://www.pcgamingwiki.com/wiki/?curid=164481)
+* [Sonic Dream Team](https://www.pcgamingwiki.com/wiki/?curid=191149)
 * [Sonic Hunter VR](https://www.pcgamingwiki.com/wiki/?curid=53884)
 * [Sonic Nexus](https://www.pcgamingwiki.com/wiki/?curid=177182)
 * [Sonic Racing](https://www.pcgamingwiki.com/wiki/?curid=148163)
