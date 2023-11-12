@@ -1738,7 +1738,6 @@
 * [Anonymous Letter: Prowler](https://www.pcgamingwiki.com/wiki/?curid=150136)
 * [Anonymous ME](https://www.pcgamingwiki.com/wiki/?curid=72344)
 * [Anonymous Player](https://www.pcgamingwiki.com/wiki/?curid=150517)
-* [Anonymous;Code](https://www.pcgamingwiki.com/wiki/?curid=178973)
 * [Another Adventure](https://www.pcgamingwiki.com/wiki/?curid=59195)
 * [Another Bad Day in the Future](https://www.pcgamingwiki.com/wiki/?curid=127475)
 * [Another Brick in Space](https://www.pcgamingwiki.com/wiki/?curid=91116)
