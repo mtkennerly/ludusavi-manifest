@@ -13189,7 +13189,6 @@
 * [Good Morning](https://www.pcgamingwiki.com/wiki/?curid=82135)
 * [Good Morning World](https://www.pcgamingwiki.com/wiki/?curid=160054)
 * [Good Mourning](https://www.pcgamingwiki.com/wiki/?curid=164717)
-* [Good Night, Knight](https://www.pcgamingwiki.com/wiki/?curid=145600)
 * [Good Pizza, Great Pizza](https://www.pcgamingwiki.com/wiki/?curid=94340)
 * [Good Robot](https://www.pcgamingwiki.com/wiki/?curid=37401)
 * [Goodbye 2019 (Interactive Movie)](https://www.pcgamingwiki.com/wiki/?curid=155312)
