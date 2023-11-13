@@ -30676,7 +30676,7 @@
 * [TapSonic World Champion VR](https://www.pcgamingwiki.com/wiki/?curid=96159)
 * [Taptiles](https://www.pcgamingwiki.com/wiki/?curid=125623)
 * [Taras Bulba and platforms of Hoolion](https://www.pcgamingwiki.com/wiki/?curid=68070)
-* [Target](https://www.pcgamingwiki.com/wiki/?curid=87095)
+* [Target (2018)](https://www.pcgamingwiki.com/wiki/?curid=87095)
 * [Target Speed](https://www.pcgamingwiki.com/wiki/?curid=80314)
 * [Tarim](https://www.pcgamingwiki.com/wiki/?curid=69254)
 * [Taro: a fluffy visual novel](https://www.pcgamingwiki.com/wiki/?curid=157295)
