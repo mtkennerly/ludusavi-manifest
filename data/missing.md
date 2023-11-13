@@ -501,7 +501,6 @@
 * [A Trip to Yugoslavia: Director's Cut](https://www.pcgamingwiki.com/wiki/?curid=58001)
 * [A Turd's Life](https://www.pcgamingwiki.com/wiki/?curid=88714)
 * [A Typewriter's Story](https://www.pcgamingwiki.com/wiki/?curid=97920)
-* [A Valley Without Wind 2](https://www.pcgamingwiki.com/wiki/?curid=10150)
 * [A Verdant Hue](https://www.pcgamingwiki.com/wiki/?curid=42065)
 * [A Walk Along the Wall](https://www.pcgamingwiki.com/wiki/?curid=79748)
 * [A Walk in the Dark](https://www.pcgamingwiki.com/wiki/?curid=12263)
