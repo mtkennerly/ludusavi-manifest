@@ -14166,7 +14166,6 @@
 * [Hell is Others](https://www.pcgamingwiki.com/wiki/?curid=184667)
 * [Hell Knights](https://www.pcgamingwiki.com/wiki/?curid=103015)
 * [Hell of Men : Blood Brothers](https://www.pcgamingwiki.com/wiki/?curid=144949)
-* [Hell Pie](https://www.pcgamingwiki.com/wiki/?curid=151505)
 * [Hell Quest](https://www.pcgamingwiki.com/wiki/?curid=65041)
 * [Hell Shooter](https://www.pcgamingwiki.com/wiki/?curid=111972)
 * [Hell Space](https://www.pcgamingwiki.com/wiki/?curid=76883)
