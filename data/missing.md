@@ -14975,7 +14975,6 @@
 * [Hot Squat 2: New Glory](https://www.pcgamingwiki.com/wiki/?curid=149644)
 * [Hot Takes](https://www.pcgamingwiki.com/wiki/?curid=149863)
 * [Hot Wheels Stunt Track Driver](https://www.pcgamingwiki.com/wiki/?curid=11206)
-* [Hot Wheels Unleashed 2: Turbocharged](https://www.pcgamingwiki.com/wiki/?curid=188314)
 * [Hot Wheels World's Best Driver](https://www.pcgamingwiki.com/wiki/?curid=40596)
 * [Hot Wheels: Stunt Track Driver 2: Get'n Dirty](https://www.pcgamingwiki.com/wiki/?curid=189506)
 * [Hot Zone](https://www.pcgamingwiki.com/wiki/?curid=135261)
