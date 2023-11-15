@@ -12574,6 +12574,7 @@
 * [Gardenscapes (2009)](https://www.pcgamingwiki.com/wiki/?curid=180970)
 * [Gare Sapphire Mechs](https://www.pcgamingwiki.com/wiki/?curid=48308)
 * [Garenburg Woods](https://www.pcgamingwiki.com/wiki/?curid=76620)
+* [Garfield Lasagna Party](https://www.pcgamingwiki.com/wiki/?curid=191225)
 * [Garfield: A Tail of Two Kitties](https://www.pcgamingwiki.com/wiki/?curid=88443)
 * [Garfield: Caught in the Act](https://www.pcgamingwiki.com/wiki/?curid=88455)
 * [Garfield: It's All About Phonics - Kindergarten](https://www.pcgamingwiki.com/wiki/?curid=90683)
