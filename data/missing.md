@@ -25877,7 +25877,7 @@
 * [Rogue Empire](https://www.pcgamingwiki.com/wiki/?curid=74704)
 * [Rogue Fable III](https://www.pcgamingwiki.com/wiki/?curid=125357)
 * [Rogue Fighter](https://www.pcgamingwiki.com/wiki/?curid=42147)
-* [Rogue Glitch](https://www.pcgamingwiki.com/wiki/?curid=144143)
+* [Rogue Glitch Ultra](https://www.pcgamingwiki.com/wiki/?curid=144143)
 * [Rogue Harvest](https://www.pcgamingwiki.com/wiki/?curid=45729)
 * [Rogue Hero](https://www.pcgamingwiki.com/wiki/?curid=81794)
 * [Rogue in the Void](https://www.pcgamingwiki.com/wiki/?curid=135866)
