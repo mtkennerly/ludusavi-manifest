@@ -16054,6 +16054,7 @@
 * [IScream](https://www.pcgamingwiki.com/wiki/?curid=120933)
 * [ISEE](https://www.pcgamingwiki.com/wiki/?curid=65849)
 * [Ishin no Arashi](https://www.pcgamingwiki.com/wiki/?curid=59589)
+* [Ishin no Arashi: Bakumatsu Shishiden](https://www.pcgamingwiki.com/wiki/?curid=191267)
 * [Ishmael](https://www.pcgamingwiki.com/wiki/?curid=123826)
 * [ISIS Simulator](https://www.pcgamingwiki.com/wiki/?curid=69601)
 * [ISLA test](https://www.pcgamingwiki.com/wiki/?curid=149517)
