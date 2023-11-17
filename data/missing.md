@@ -20877,7 +20877,6 @@
 * [Narcotics Police: Black and White](https://www.pcgamingwiki.com/wiki/?curid=62933)
 * [Nark the Dragon](https://www.pcgamingwiki.com/wiki/?curid=79155)
 * [Naruto Online](https://www.pcgamingwiki.com/wiki/?curid=175632)
-* [Naruto X Boruto: Ultimate Ninja Storm Connections](https://www.pcgamingwiki.com/wiki/?curid=185574)
 * [Narwhal Heist](https://www.pcgamingwiki.com/wiki/?curid=130623)
 * [NARWHAR Project Hornwhale](https://www.pcgamingwiki.com/wiki/?curid=153370)
 * [Nary](https://www.pcgamingwiki.com/wiki/?curid=41892)
