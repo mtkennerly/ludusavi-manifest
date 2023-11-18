@@ -15413,6 +15413,7 @@
 * [Idle Space](https://www.pcgamingwiki.com/wiki/?curid=156801)
 * [Idle Space Raider](https://www.pcgamingwiki.com/wiki/?curid=127423)
 * [IdleBeer](https://www.pcgamingwiki.com/wiki/?curid=69557)
+* [IdleOn - The Idle MMO](https://www.pcgamingwiki.com/wiki/?curid=191309)
 * [Idol Hands](https://www.pcgamingwiki.com/wiki/?curid=48669)
 * [Idol Quest VR](https://www.pcgamingwiki.com/wiki/?curid=79814)
 * [Idolzzz](https://www.pcgamingwiki.com/wiki/?curid=75612)
