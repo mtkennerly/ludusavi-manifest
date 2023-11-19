@@ -28949,7 +28949,6 @@
 * [Spy Fox 3: Operation Ozone](https://www.pcgamingwiki.com/wiki/?curid=50262)
 * [Spy Fox in: Hold the Mustard](https://www.pcgamingwiki.com/wiki/?curid=50107)
 * [Spy Hunter](https://www.pcgamingwiki.com/wiki/?curid=176356)
-* [Spy Hunter: Nowhere to Run](https://www.pcgamingwiki.com/wiki/?curid=89938)
 * [Spy Muppets: License to Croak](https://www.pcgamingwiki.com/wiki/?curid=164312)
 * [Spy of Deimos](https://www.pcgamingwiki.com/wiki/?curid=70343)
 * [Spy Tactics](https://www.pcgamingwiki.com/wiki/?curid=140976)
