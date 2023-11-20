@@ -31299,7 +31299,6 @@
 * [The Concourse](https://www.pcgamingwiki.com/wiki/?curid=42792)
 * [The Confines of the Crown](https://www.pcgamingwiki.com/wiki/?curid=48284)
 * [The Construct](https://www.pcgamingwiki.com/wiki/?curid=39163)
-* [The Consuming Shadow](https://www.pcgamingwiki.com/wiki/?curid=37495)
 * [The Contact](https://www.pcgamingwiki.com/wiki/?curid=43660)
 * [The Contractor](https://www.pcgamingwiki.com/wiki/?curid=71656)
 * [The Convenience Store](https://www.pcgamingwiki.com/wiki/?curid=158362)
