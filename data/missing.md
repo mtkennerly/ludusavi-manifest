@@ -11362,6 +11362,7 @@
 * [Final Days](https://www.pcgamingwiki.com/wiki/?curid=40138)
 * [Final Directive](https://www.pcgamingwiki.com/wiki/?curid=80966)
 * [Final Fantasy Awakening](https://www.pcgamingwiki.com/wiki/?curid=26745)
+* [Final Fantasy VII: Ever Crisis](https://www.pcgamingwiki.com/wiki/?curid=191339)
 * [Final Fantasy XI](https://www.pcgamingwiki.com/wiki/?curid=788)
 * [Final Fantasy XVI](https://www.pcgamingwiki.com/wiki/?curid=189511)
 * [Final Fleet](https://www.pcgamingwiki.com/wiki/?curid=38791)
