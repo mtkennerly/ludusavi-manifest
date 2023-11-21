@@ -2277,7 +2277,6 @@
 * [Asterix & Obelix XXXL: The Ram from Hibernia](https://www.pcgamingwiki.com/wiki/?curid=182974)
 * [Astérix & Obélix: Take on Caesar](https://www.pcgamingwiki.com/wiki/?curid=178386)
 * [Astérix: Caesar's Challenge](https://www.pcgamingwiki.com/wiki/?curid=173305)
-* [Asterix: Mega Madness](https://www.pcgamingwiki.com/wiki/?curid=174308)
 * [Asterix: The Gallic War](https://www.pcgamingwiki.com/wiki/?curid=168583)
 * [Asterlode](https://www.pcgamingwiki.com/wiki/?curid=105133)
 * [Asteroid Babe](https://www.pcgamingwiki.com/wiki/?curid=93267)
