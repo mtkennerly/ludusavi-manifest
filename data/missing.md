@@ -17747,7 +17747,6 @@
 * [Let's Worm](https://www.pcgamingwiki.com/wiki/?curid=129881)
 * [Let's Zig Zag](https://www.pcgamingwiki.com/wiki/?curid=80617)
 * [Lethal Brutal Racing](https://www.pcgamingwiki.com/wiki/?curid=37335)
-* [Lethal Company](https://www.pcgamingwiki.com/wiki/?curid=191262)
 * [Lethal Laser](https://www.pcgamingwiki.com/wiki/?curid=68334)
 * [Lethal Lawns: Competitive Mowing Bloodsport](https://www.pcgamingwiki.com/wiki/?curid=90164)
 * [Lethal RPG: War](https://www.pcgamingwiki.com/wiki/?curid=47219)
