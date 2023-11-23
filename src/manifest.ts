@@ -216,6 +216,15 @@ function integrateOverriddenData(game: Game, override: OverriddenGame) {
             game.id.flatpak = override.id.flatpak;
         }
     }
+
+    if (override.installDir) {
+        if (game.installDir === undefined) {
+            game.installDir = {};
+        }
+        for (const key in override.installDir) {
+            game.installDir[key] = {};
+        }
+    }
 }
 
 function hasAnyData(game: Game): boolean {
@@ -246,6 +255,12 @@ export class ManifestFile extends YamlFile<Manifest> {
 
             const game: Game = {};
             integrateWikiData(game, info);
+
+            if (game.steam?.id !== undefined) {
+                const appInfo = await steamCache.getAppInfo(game.steam.id);
+                integrateSteamData(game, appInfo);
+            }
+
             if (overridden) {
                 integrateOverriddenData(game, overridden);
             }
@@ -253,10 +268,7 @@ export class ManifestFile extends YamlFile<Manifest> {
             if (!hasAnyData(game)) {
                 continue;
             }
-            if (game.steam?.id !== undefined) {
-                const appInfo = await steamCache.getAppInfo(game.steam.id);
-                integrateSteamData(game, appInfo);
-            }
+
             this.data[title] = game;
         }
 
