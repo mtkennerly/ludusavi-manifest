@@ -2699,7 +2699,6 @@
 * [Backgammon](https://www.pcgamingwiki.com/wiki/?curid=68382)
 * [Backgammon Blitz](https://www.pcgamingwiki.com/wiki/?curid=45659)
 * [Backgammon, Chess & Checkers](https://www.pcgamingwiki.com/wiki/?curid=121241)
-* [Backpack Hero](https://www.pcgamingwiki.com/wiki/?curid=191377)
 * [Backpack Twins](https://www.pcgamingwiki.com/wiki/?curid=136010)
 * [Backpacker](https://www.pcgamingwiki.com/wiki/?curid=80041)
 * [Backpacker 2](https://www.pcgamingwiki.com/wiki/?curid=80072)
