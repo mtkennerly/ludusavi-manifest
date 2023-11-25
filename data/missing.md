@@ -15000,7 +15000,6 @@
 * [Hotel Spring](https://www.pcgamingwiki.com/wiki/?curid=89642)
 * [Hotel Transylvania 3: Monsters Overboard](https://www.pcgamingwiki.com/wiki/?curid=99093)
 * [Hotel Transylvania Popstic](https://www.pcgamingwiki.com/wiki/?curid=103309)
-* [Hotel Transylvania: Scary Tale Adventures](https://www.pcgamingwiki.com/wiki/?curid=175445)
 * [HotFloor](https://www.pcgamingwiki.com/wiki/?curid=95409)
 * [HotHead](https://www.pcgamingwiki.com/wiki/?curid=113582)
 * [Hotlap Heroes](https://www.pcgamingwiki.com/wiki/?curid=130299)
