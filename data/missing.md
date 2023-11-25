@@ -15285,7 +15285,6 @@
 * [I ♥ You!](https://www.pcgamingwiki.com/wiki/?curid=110038)
 * [I Am Caligula](https://www.pcgamingwiki.com/wiki/?curid=43959)
 * [I Am Data](https://www.pcgamingwiki.com/wiki/?curid=144606)
-* [I Am Fish](https://www.pcgamingwiki.com/wiki/?curid=171602)
 * [I Am Gooey](https://www.pcgamingwiki.com/wiki/?curid=144411)
 * [I Am Jesus Christ](https://www.pcgamingwiki.com/wiki/?curid=157424)
 * [I Am Overburdened](https://www.pcgamingwiki.com/wiki/?curid=73546)
