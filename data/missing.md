@@ -19303,7 +19303,6 @@
 * [Mega lo Mania](https://www.pcgamingwiki.com/wiki/?curid=175471)
 * [Mega Man](https://www.pcgamingwiki.com/wiki/?curid=73404)
 * [Mega Man 3](https://www.pcgamingwiki.com/wiki/?curid=73406)
-* [Mega Man X Dive Offline](https://www.pcgamingwiki.com/wiki/?curid=189285)
 * [Mega Man X3](https://www.pcgamingwiki.com/wiki/?curid=32054)
 * [Mega Man X5](https://www.pcgamingwiki.com/wiki/?curid=73400)
 * [Mega Maze](https://www.pcgamingwiki.com/wiki/?curid=64000)
