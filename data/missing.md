@@ -30719,7 +30719,6 @@
 * [Tavern Cards](https://www.pcgamingwiki.com/wiki/?curid=156813)
 * [Tavern Guardians: Banquet](https://www.pcgamingwiki.com/wiki/?curid=105173)
 * [Tavern Keep](https://www.pcgamingwiki.com/wiki/?curid=96627)
-* [Tavern Master](https://www.pcgamingwiki.com/wiki/?curid=175670)
 * [Tavern Table Tactics](https://www.pcgamingwiki.com/wiki/?curid=80472)
 * [Tavern Tycoon - Dragon's Hangover](https://www.pcgamingwiki.com/wiki/?curid=55195)
 * [Tavernier](https://www.pcgamingwiki.com/wiki/?curid=36798)
