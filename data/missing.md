@@ -32379,7 +32379,6 @@
 * [The Rainsdowne Players](https://www.pcgamingwiki.com/wiki/?curid=93341)
 * [The Raintime](https://www.pcgamingwiki.com/wiki/?curid=145419)
 * [The Rainy Port Keelung](https://www.pcgamingwiki.com/wiki/?curid=38518)
-* [The Ramp](https://www.pcgamingwiki.com/wiki/?curid=170089)
 * [The Ranch of Rivershine](https://www.pcgamingwiki.com/wiki/?curid=187159)
 * [The Ranger: Lost Tribe](https://www.pcgamingwiki.com/wiki/?curid=66597)
 * [The Rare Nine](https://www.pcgamingwiki.com/wiki/?curid=74223)
