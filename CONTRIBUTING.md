@@ -1,14 +1,14 @@
 ## Development
-Requires Node.js.
+Use the latest version of Rust and Python.
 
 Generally, you just need these commands:
 
-* Add all recent changes (defaults to last 7 days, but then it remembers when you last ran it):
-  * `npm run recent`
-* Validate the manifest against the schema:
-  * `npm run schema`
+* Install script dependencies (one time):
+  * `pip install "steam[client]"`
+* Add all recent changes (defaults to last day, but then it remembers when you last ran it):
+  * `cargo run -- bulk --recent-changes`
 * List some stats about the data set:
-  * `npm run stats`
+  * `cargo run -- stats`
 * Activate pre-commit hooks (requires Python):
   ```
   pip install --user pre-commit
@@ -18,10 +18,9 @@ Generally, you just need these commands:
 There are some lower-level commands for finer control or full imports:
 
 * Add new games to wiki-game-cache.yaml (required in order to add them to the manifest):
-  * `npm run cache`
-* Update the manifest with games from the cache:
-  * All games in cache: `npm run manifest`
-  * Specific games: `npm run manifest -- "Game 1" "Game 2"`
+  * `cargo run -- bulk --missing-pages`
+* Validate schema:
+  * `cargo run -- schema`
 
 ## API etiquette
 When running or modifying the importer script, please be mindful not to
@@ -34,4 +33,4 @@ suggest that:
 > to finish before sending a new request, should result in a safe request rate.
 
 I am not sure about guidelines for the Steam API, but the cache file should mean
-that we only ever need to reach out to Steam once per game.
+that we are not making excessive requests.

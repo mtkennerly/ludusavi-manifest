@@ -8,11 +8,8 @@ repos:
     rev: v1.1.7
     hooks:
       - id: forbid-tabs
-  - repo: local
+  - repo: https://github.com/mtkennerly/pre-commit-hooks
+    rev: v0.3.0
     hooks:
-      - id: schema
-        name: schema
-        language: system
-        entry: npm run schema
-        types: [yaml]
-        pass_filenames: false
+      - id: cargo-fmt
+      - id: cargo-clippy

@@ -12,19 +12,19 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.head_ref }}
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-python@v4
         with:
-          node-version: '16'
+          python-version: '3.10'
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
       - uses: actions/cache@v3
         with:
           path: data/wiki-meta-cache.yaml
           key: wiki-meta-cache-v2-${{ github.run_id }}
           restore-keys: |
             wiki-meta-cache-v2
-      - run: |
-          npm install
-          npm run recent
-          npm run schema
+      - run: cargo build
+      - run: cargo run -- bulk --recent-changes
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Import recent changes from PCGamingWiki
