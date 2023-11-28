@@ -341,7 +341,7 @@ impl WikiCacheEntry {
         let wikitext = wikitext_parser::parse_wikitext(raw_wikitext, article, |_| ());
 
         for template in wikitext.list_double_brace_expressions() {
-            if let wikitext_parser::TextPiece::DoubleBraceExpression { tag, attributes } = &template {
+            if let TextPiece::DoubleBraceExpression { tag, attributes } = &template {
                 match tag.to_string().to_lowercase().trim() {
                     "infobox game" => {
                         for attribute in attributes {
@@ -385,13 +385,20 @@ impl WikiCacheEntry {
                     "game data" => {
                         for attribute in attributes {
                             for template in &attribute.value.pieces {
-                                if let wikitext_parser::TextPiece::DoubleBraceExpression { tag, .. } = &template {
-                                    let is_save = tag.to_string() == "Game data/saves";
-                                    let is_config = tag.to_string() == "Game data/config";
+                                if let TextPiece::DoubleBraceExpression { tag, attributes } = &template {
+                                    let is_save = tag.to_string().to_lowercase() == "game data/saves";
+                                    let is_config = tag.to_string().to_lowercase() == "game data/config";
 
-                                    if is_save || is_config {
-                                        out.templates.push(template.to_string());
+                                    if !is_save && !is_config {
+                                        continue;
                                     }
+
+                                    // Ignore templates with an empty path parameter.
+                                    if attributes.len() > 1 && attributes[1].value.to_string().is_empty() {
+                                        continue;
+                                    }
+
+                                    out.templates.push(template.to_string());
                                 }
                             }
                         }
@@ -427,7 +434,7 @@ impl WikiCacheEntry {
             let preprocessed = Self::preprocess_template(raw);
             let parsed = wikitext_parser::parse_wikitext(&preprocessed, article.clone(), |_| ());
             for template in parsed.list_double_brace_expressions() {
-                if let wikitext_parser::TextPiece::DoubleBraceExpression { tag, attributes } = &template {
+                if let TextPiece::DoubleBraceExpression { tag, attributes } = &template {
                     let is_save = tag.to_string() == "Game data/saves";
                     let is_config = tag.to_string() == "Game data/config";
 
