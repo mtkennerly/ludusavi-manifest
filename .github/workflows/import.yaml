@@ -23,6 +23,8 @@ jobs:
           key: wiki-meta-cache-v2-${{ github.run_id }}
           restore-keys: |
             wiki-meta-cache-v2
+      - name: Python dependencies
+        run: pip install "steam[client]"
       - run: cargo build
       - run: cargo run -- bulk --recent-changes
       - uses: stefanzweifel/git-auto-commit-action@v4
