@@ -5371,7 +5371,6 @@
 * [Centauri Sector](https://www.pcgamingwiki.com/wiki/?curid=47525)
 * [Center of Gravity](https://www.pcgamingwiki.com/wiki/?curid=60063)
 * [Centifeed](https://www.pcgamingwiki.com/wiki/?curid=120753)
-* [Centipede: Recharged](https://www.pcgamingwiki.com/wiki/?curid=171167)
 * [Central Intelligence](https://www.pcgamingwiki.com/wiki/?curid=88834)
 * [Centralia](https://www.pcgamingwiki.com/wiki/?curid=141566)
 * [Centralia: Homecoming](https://www.pcgamingwiki.com/wiki/?curid=148737)
