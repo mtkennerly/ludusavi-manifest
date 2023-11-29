@@ -428,6 +428,13 @@ impl WikiCacheEntry {
     }
 
     pub fn parse_paths(&self, article: String) -> Vec<WikiPath> {
+        self.parse_all_paths(article)
+            .into_iter()
+            .filter(|x| x.usable())
+            .collect()
+    }
+
+    fn parse_all_paths(&self, article: String) -> Vec<WikiPath> {
         let mut out = vec![];
 
         for raw in &self.templates {
@@ -448,15 +455,22 @@ impl WikiCacheEntry {
                             .with_platform(&platform)
                             .with_tags(is_save, is_config)
                             .normalize();
-                        if info.usable() {
-                            out.push(info);
-                        }
+                        out.push(info);
                     }
                 }
             }
         }
 
         out
+    }
+
+    pub fn any_irregular_paths(&self, article: String) -> bool {
+        for path in self.parse_all_paths(article) {
+            if path.irregular() {
+                return true;
+            }
+        }
+        false
     }
 }
 
@@ -712,7 +726,7 @@ pub fn flatten_path(attribute: &Attribute) -> WikiPath {
                         out.incorporate_raw(flat);
                     }
                 }
-                "note" => {
+                "note" | "cn" => {
                     // Ignored.
                 }
                 _ => {

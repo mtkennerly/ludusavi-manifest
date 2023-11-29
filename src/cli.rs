@@ -46,6 +46,8 @@ pub enum Subcommand {
     Stats,
     /// Find duplicate manifest entries.
     Duplicates,
+    /// List games with irregular paths.
+    Irregular,
 }
 
 pub fn parse() -> Cli {
@@ -155,6 +157,13 @@ pub async fn run(
                         .map(|x| format!("[{}] {}", x.page_id, x.name))
                         .collect();
                     println!("\nSame manifest entry:\n  - {}", lines.join("\n  - "));
+                }
+            }
+        }
+        Subcommand::Irregular => {
+            for (game, info) in &wiki_cache.0 {
+                if info.any_irregular_paths(game.to_string()) {
+                    println!("{}", game);
                 }
             }
         }
