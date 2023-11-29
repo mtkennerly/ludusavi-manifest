@@ -35036,6 +35036,8 @@
 * [Virtual Rides 3](https://www.pcgamingwiki.com/wiki/?curid=56511)
 * [Virtual Robots - Robot Programming Simulator](https://www.pcgamingwiki.com/wiki/?curid=73907)
 * [Virtual Rogue](https://www.pcgamingwiki.com/wiki/?curid=43672)
+* [Virtual Skipper 5](https://www.pcgamingwiki.com/wiki/?curid=191472)
+* [Virtual Skipper 5: 32nd America's Cup - The Game](https://www.pcgamingwiki.com/wiki/?curid=191475)
 * [Virtual Skydiving](https://www.pcgamingwiki.com/wiki/?curid=132341)
 * [Virtual SlotCars](https://www.pcgamingwiki.com/wiki/?curid=63290)
 * [Virtual Soccer Zone](https://www.pcgamingwiki.com/wiki/?curid=121047)
