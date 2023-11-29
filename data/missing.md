@@ -13534,6 +13534,7 @@
 * [GSpot Master](https://www.pcgamingwiki.com/wiki/?curid=148603)
 * [GSR: German Street Racing](https://www.pcgamingwiki.com/wiki/?curid=88308)
 * [GT-R 400](https://www.pcgamingwiki.com/wiki/?curid=24179)
+* [Gu-L](https://www.pcgamingwiki.com/wiki/?curid=191464)
 * [Guard of Wonderland](https://www.pcgamingwiki.com/wiki/?curid=113786)
 * [Guard of Wonderland VR](https://www.pcgamingwiki.com/wiki/?curid=87483)
 * [Guardian](https://www.pcgamingwiki.com/wiki/?curid=69423)
