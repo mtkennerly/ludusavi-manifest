@@ -23,7 +23,9 @@ impl SteamCache {
         });
 
         for app_id in app_ids {
-            let latest = SteamCacheEntry::fetch_from_id(app_id)?;
+            let Some(latest) = SteamCacheEntry::fetch_from_id(app_id)? else {
+                continue;
+            };
             self.0.insert(app_id.to_string(), latest);
 
             i += 1;
@@ -167,7 +169,7 @@ mod product_info {
 }
 
 impl SteamCacheEntry {
-    pub fn fetch_from_id(app_id: u32) -> Result<Self, Error> {
+    pub fn fetch_from_id(app_id: u32) -> Result<Option<Self>, Error> {
         println!("Steam: {}", app_id);
 
         let mut cmd = Command::new("python");
@@ -182,11 +184,10 @@ impl SteamCacheEntry {
         let stdout = String::from_utf8_lossy(&output.stdout);
 
         let response = serde_json::from_str::<product_info::Response>(&stdout).map_err(|_| Error::SteamProductInfo)?;
-        let app = response
-            .apps
-            .get(&app_id.to_string())
-            .ok_or(Error::SteamProductInfo)?
-            .clone();
+        let Some(app) = response.apps.get(&app_id.to_string()).cloned() else {
+            eprintln!("No results for Steam ID: {}", app_id);
+            return Ok(None);
+        };
 
         let launch: Vec<_> = app
             .config
@@ -208,11 +209,11 @@ impl SteamCacheEntry {
             .filter(|x| !x.is_empty())
             .collect();
 
-        Ok(Self {
+        Ok(Some(Self {
             state: State::Handled,
             install_dir: app.config.installdir,
             name_localized: app.common.name_localized,
             launch,
-        })
+        }))
     }
 }
