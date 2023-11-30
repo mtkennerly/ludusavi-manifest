@@ -12265,6 +12265,7 @@
 * [Fur Up](https://www.pcgamingwiki.com/wiki/?curid=67899)
 * [Fureraba: Friend to Lover](https://www.pcgamingwiki.com/wiki/?curid=90190)
 * [Furfly](https://www.pcgamingwiki.com/wiki/?curid=45232)
+* [Furi Demake](https://www.pcgamingwiki.com/wiki/?curid=191504)
 * [Furidashi: Drift Cyber Sport](https://www.pcgamingwiki.com/wiki/?curid=74457)
 * [Furion Chronicles](https://www.pcgamingwiki.com/wiki/?curid=165042)
 * [Furion Chronicles II](https://www.pcgamingwiki.com/wiki/?curid=165046)
