@@ -34113,7 +34113,6 @@
 * [Turnip Boy Robs a Bank](https://www.pcgamingwiki.com/wiki/?curid=184635)
 * [TurnTack](https://www.pcgamingwiki.com/wiki/?curid=123866)
 * [Turok 2: Seeds of Evil](https://www.pcgamingwiki.com/wiki/?curid=54178)
-* [Turok 3: Shadow of Oblivion Remastered](https://www.pcgamingwiki.com/wiki/?curid=189323)
 * [Turok: Dinosaur Hunter](https://www.pcgamingwiki.com/wiki/?curid=30285)
 * [Turok: Escape from Lost Valley](https://www.pcgamingwiki.com/wiki/?curid=141387)
 * [Turret Architect](https://www.pcgamingwiki.com/wiki/?curid=54070)
