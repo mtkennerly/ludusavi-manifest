@@ -23,10 +23,14 @@ impl SteamCache {
         });
 
         for app_id in app_ids {
-            let Some(latest) = SteamCacheEntry::fetch_from_id(app_id)? else {
-                continue;
-            };
-            self.0.insert(app_id.to_string(), latest);
+            let latest = SteamCacheEntry::fetch_from_id(app_id)?;
+            self.0.insert(
+                app_id.to_string(),
+                latest.unwrap_or_else(|| SteamCacheEntry {
+                    state: State::Handled,
+                    ..Default::default()
+                }),
+            );
 
             i += 1;
             if i % SAVE_INTERVAL == 0 {
@@ -122,7 +126,6 @@ mod product_info {
     use super::*;
 
     #[derive(Debug, Default, Clone, serde::Deserialize)]
-    #[serde(default)]
     pub struct Response {
         pub apps: BTreeMap<String, App>,
     }
