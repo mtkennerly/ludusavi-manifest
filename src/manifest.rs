@@ -134,7 +134,7 @@ impl Manifest {
             let mut game = Game::default();
             game.integrate_wiki(info, title);
             if let Some(id) = game.steam.id {
-                if let Some(info) = steam_cache.0.get(id.to_string().as_str()) {
+                if let Some(info) = steam_cache.0.get(&id) {
                     game.integrate_steam(info);
                 }
             }

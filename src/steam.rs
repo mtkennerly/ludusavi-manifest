@@ -5,7 +5,7 @@ use crate::{resource::ResourceFile, wiki::WikiCache, Error, State, REPO};
 const SAVE_INTERVAL: u32 = 100;
 
 #[derive(Debug, Default, serde::Serialize, serde::Deserialize)]
-pub struct SteamCache(pub BTreeMap<String, SteamCacheEntry>);
+pub struct SteamCache(pub BTreeMap<u32, SteamCacheEntry>);
 
 impl ResourceFile for SteamCache {
     const FILE_NAME: &'static str = "data/steam-game-cache.yaml";
@@ -18,14 +18,14 @@ impl SteamCache {
             self.0
                 .iter()
                 .filter(|(_, v)| !outdated_only || v.state == State::Outdated)
-                .filter_map(|(k, _)| k.parse::<u32>().ok())
+                .map(|(k, _)| *k)
                 .collect()
         });
 
         for app_id in app_ids {
             let latest = SteamCacheEntry::fetch_from_id(app_id)?;
             self.0.insert(
-                app_id.to_string(),
+                app_id,
                 latest.unwrap_or_else(|| SteamCacheEntry {
                     state: State::Handled,
                     ..Default::default()
@@ -47,7 +47,7 @@ impl SteamCache {
             if wiki.state == State::Updated {
                 if let Some(id) = wiki.steam {
                     self.0
-                        .entry(id.to_string())
+                        .entry(id)
                         .and_modify(|x| {
                             x.state = State::Outdated;
                         })
