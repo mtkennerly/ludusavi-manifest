@@ -25,6 +25,22 @@ impl ResourceFile for WikiCache {
     const FILE_NAME: &'static str = "data/wiki-game-cache.yaml";
 }
 
+/// The parser does not handle HTML tags, so we remove some tags that are only used for annotations.
+/// Others, like `code` and `sup`, are used both for path segments and annotations,
+/// so we can't assume how to replace them properly.
+fn preprocess_text(raw: &str) -> String {
+    let mut out = raw.to_string();
+
+    static HTML_COMMENT: Lazy<Regex> = Lazy::new(|| Regex::new(r"<!--.+?-->").unwrap());
+    static HTML_REF: Lazy<Regex> = Lazy::new(|| Regex::new(r"<ref>.+?</ref>").unwrap());
+
+    for (pattern, replacement) in [(&HTML_COMMENT, ""), (&HTML_REF, "")] {
+        out = pattern.replace_all(&out, replacement).to_string();
+    }
+
+    out
+}
+
 async fn get_page_title(id: u64) -> Result<Option<String>, Error> {
     let wiki = make_client().await?;
     let params = wiki.params_into(&[("action", "query"), ("pageids", id.to_string().as_str())]);
@@ -347,32 +363,28 @@ impl WikiCacheEntry {
                         for attribute in attributes {
                             match attribute.name.as_deref() {
                                 Some("steam appid") => {
-                                    if let Ok(value) = attribute.value.to_string().parse::<u32>() {
+                                    if let Ok(value) = preprocess_text(&attribute.value.to_string()).parse::<u32>() {
                                         if value > 0 {
                                             out.steam = Some(value);
                                         }
                                     }
                                 }
                                 Some("steam appid side") => {
-                                    out.steam_side = attribute
-                                        .value
-                                        .to_string()
+                                    out.steam_side = preprocess_text(&attribute.value.to_string())
                                         .split(',')
                                         .filter_map(|x| x.trim().parse::<u32>().ok())
                                         .filter(|x| *x > 0)
                                         .collect();
                                 }
                                 Some("gogcom id") => {
-                                    if let Ok(value) = attribute.value.to_string().parse::<u64>() {
+                                    if let Ok(value) = preprocess_text(&attribute.value.to_string()).parse::<u64>() {
                                         if value > 0 {
                                             out.gog = Some(value);
                                         }
                                     }
                                 }
                                 Some("gogcom id side") => {
-                                    out.gog_side = attribute
-                                        .value
-                                        .to_string()
+                                    out.gog_side = preprocess_text(&attribute.value.to_string())
                                         .split(',')
                                         .filter_map(|x| x.trim().parse::<u64>().ok())
                                         .filter(|x| *x > 0)
@@ -411,22 +423,6 @@ impl WikiCacheEntry {
         Ok(out)
     }
 
-    /// The parser does not handle HTML tags, so we remove some tags that are only used for annotations.
-    /// Others, like `code` and `sup`, are used both for path segments and annotations,
-    /// so we can't assume how to replace them properly.
-    fn preprocess_template(template: &str) -> String {
-        let mut out = template.to_string();
-
-        static HTML_COMMENT: Lazy<Regex> = Lazy::new(|| Regex::new(r"<!--.+?-->").unwrap());
-        static HTML_REF: Lazy<Regex> = Lazy::new(|| Regex::new(r"<ref>.+?</ref>").unwrap());
-
-        for (pattern, replacement) in [(&HTML_COMMENT, ""), (&HTML_REF, "")] {
-            out = pattern.replace_all(&out, replacement).to_string();
-        }
-
-        out
-    }
-
     pub fn parse_paths(&self, article: String) -> Vec<WikiPath> {
         self.parse_all_paths(article)
             .into_iter()
@@ -438,7 +434,7 @@ impl WikiCacheEntry {
         let mut out = vec![];
 
         for raw in &self.templates {
-            let preprocessed = Self::preprocess_template(raw);
+            let preprocessed = preprocess_text(raw);
             let parsed = wikitext_parser::parse_wikitext(&preprocessed, article.clone(), |_| ());
             for template in parsed.list_double_brace_expressions() {
                 if let TextPiece::DoubleBraceExpression { tag, attributes } = &template {
