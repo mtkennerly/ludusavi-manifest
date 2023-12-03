@@ -30961,7 +30961,6 @@
 * [Tetsumo Party](https://www.pcgamingwiki.com/wiki/?curid=139047)
 * [Teva](https://www.pcgamingwiki.com/wiki/?curid=93124)
 * [Teva 2](https://www.pcgamingwiki.com/wiki/?curid=95371)
-* [TEVI](https://www.pcgamingwiki.com/wiki/?curid=187542)
 * [Tevris](https://www.pcgamingwiki.com/wiki/?curid=76109)
 * [Tex Murphy: Martian Memorandum](https://www.pcgamingwiki.com/wiki/?curid=14035)
 * [Tex Murphy: The Pandora Directive](https://www.pcgamingwiki.com/wiki/?curid=14041)
