@@ -13716,7 +13716,6 @@
 * [H.U.N.T](https://www.pcgamingwiki.com/wiki/?curid=42135)
 * [H0ST](https://www.pcgamingwiki.com/wiki/?curid=87147)
 * [HA/CK](https://www.pcgamingwiki.com/wiki/?curid=126147)
-* [HAAK](https://www.pcgamingwiki.com/wiki/?curid=185848)
 * [HABITKING RPG](https://www.pcgamingwiki.com/wiki/?curid=155989)
 * [Habitus](https://www.pcgamingwiki.com/wiki/?curid=44764)
 * [HACK IT](https://www.pcgamingwiki.com/wiki/?curid=43175)
