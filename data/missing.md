@@ -19564,7 +19564,6 @@
 * [Microsoft Combat Flight Simulator 2: WW II Pacific Theater](https://www.pcgamingwiki.com/wiki/?curid=81346)
 * [Microsoft Flight Simulator](https://www.pcgamingwiki.com/wiki/?curid=172712)
 * [Microsoft Flight Simulator 2000](https://www.pcgamingwiki.com/wiki/?curid=173447)
-* [Microsoft Flight Simulator 2002](https://www.pcgamingwiki.com/wiki/?curid=167355)
 * [Microsoft Flight Simulator 98](https://www.pcgamingwiki.com/wiki/?curid=183021)
 * [Microsoft Maquette](https://www.pcgamingwiki.com/wiki/?curid=127631)
 * [Microsoft Pinball Arcade](https://www.pcgamingwiki.com/wiki/?curid=11227)
