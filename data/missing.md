@@ -29850,7 +29850,6 @@
 * [Super Buckyball Tournament](https://www.pcgamingwiki.com/wiki/?curid=142192)
 * [Super Bugman Extreme Ultra](https://www.pcgamingwiki.com/wiki/?curid=77373)
 * [Super Bunny Laser Spikes](https://www.pcgamingwiki.com/wiki/?curid=180611)
-* [Super Bunny Man](https://www.pcgamingwiki.com/wiki/?curid=68653)
 * [Super BurgerTime](https://www.pcgamingwiki.com/wiki/?curid=166908)
 * [Super Button Soccer](https://www.pcgamingwiki.com/wiki/?curid=42225)
 * [Super C](https://www.pcgamingwiki.com/wiki/?curid=155026)
