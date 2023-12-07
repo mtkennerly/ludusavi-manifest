@@ -32075,7 +32075,6 @@
 * [The Mahjong Huntress](https://www.pcgamingwiki.com/wiki/?curid=42918)
 * [The Maid-san's Caving Adventure](https://www.pcgamingwiki.com/wiki/?curid=63604)
 * [The Majesty of Colors Remastered](https://www.pcgamingwiki.com/wiki/?curid=64079)
-* [The Making of Karateka](https://www.pcgamingwiki.com/wiki/?curid=190001)
 * [The Mammoth: A Cave Painting](https://www.pcgamingwiki.com/wiki/?curid=76139)
 * [The Man in the Cape: Special Edition](https://www.pcgamingwiki.com/wiki/?curid=70685)
 * [The Man with the Dog](https://www.pcgamingwiki.com/wiki/?curid=121159)
