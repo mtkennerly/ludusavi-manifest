@@ -4541,6 +4541,7 @@
 * [Brother Perro](https://www.pcgamingwiki.com/wiki/?curid=92141)
 * [Brother Wings](https://www.pcgamingwiki.com/wiki/?curid=56326)
 * [Brotherhood United](https://www.pcgamingwiki.com/wiki/?curid=96545)
+* [Brothers: A Tale of Two Sons Remake](https://www.pcgamingwiki.com/wiki/?curid=191629)
 * [BrotherZ](https://www.pcgamingwiki.com/wiki/?curid=63002)
 * [Brrrainz: Feed your Hunger](https://www.pcgamingwiki.com/wiki/?curid=130255)
 * [Bruce Jenner's World Class Decathlon](https://www.pcgamingwiki.com/wiki/?curid=106293)
