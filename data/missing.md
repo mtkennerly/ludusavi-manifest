@@ -27166,6 +27166,7 @@
 * [Shapeshooter](https://www.pcgamingwiki.com/wiki/?curid=154267)
 * [ShapeSim](https://www.pcgamingwiki.com/wiki/?curid=102927)
 * [Shapestorm](https://www.pcgamingwiki.com/wiki/?curid=89610)
+* [Shapez 2](https://www.pcgamingwiki.com/wiki/?curid=191649)
 * [Shapik: the moon quest](https://www.pcgamingwiki.com/wiki/?curid=142188)
 * [Shaq Fu: A Legend Reborn](https://www.pcgamingwiki.com/wiki/?curid=95891)
 * [Shard](https://www.pcgamingwiki.com/wiki/?curid=149184)
