@@ -7,7 +7,7 @@ use wikitext_parser::{Attribute, TextPiece};
 use crate::{
     manifest::{placeholder, Os, Store, Tag},
     resource::ResourceFile,
-    Error, State,
+    Error, Regularity, State,
 };
 
 const SAVE_INTERVAL: u32 = 100;
@@ -462,7 +462,7 @@ impl WikiCacheEntry {
 
     pub fn any_irregular_paths(&self, article: String) -> bool {
         for path in self.parse_all_paths(article) {
-            if path.irregular() {
+            if path.irregular() || path.semiregular() {
                 return true;
             }
         }
@@ -479,7 +479,7 @@ pub enum PathKind {
 #[derive(Debug, Default)]
 pub struct WikiPath {
     pub composite: String,
-    pub irregular: bool,
+    pub regularity: Regularity,
     pub kind: Option<PathKind>,
     pub store: Option<Store>,
     pub os: Option<Os>,
@@ -488,9 +488,7 @@ pub struct WikiPath {
 
 impl WikiPath {
     fn incorporate(&mut self, other: Self) {
-        if other.irregular {
-            self.irregular = true;
-        }
+        self.regularity = self.regularity.worst(other.regularity);
 
         if other.kind.is_some() {
             self.kind = other.kind;
@@ -507,7 +505,7 @@ impl WikiPath {
 
     pub fn incorporate_text(&mut self, text: &str) {
         if text.contains(['<', '>']) {
-            self.irregular = true;
+            self.regularity = Regularity::Irregular;
         } else {
             self.composite += text;
         }
@@ -682,7 +680,11 @@ impl WikiPath {
     }
 
     fn irregular(&self) -> bool {
-        self.irregular || self.composite.contains("{{")
+        self.regularity == Regularity::Irregular || self.composite.contains("{{")
+    }
+
+    fn semiregular(&self) -> bool {
+        self.regularity == Regularity::Semiregular
     }
 
     pub fn usable(&self) -> bool {
@@ -714,6 +716,8 @@ pub fn flatten_path(attribute: &Attribute) -> WikiPath {
                     }
                 }
                 "code" | "file" => {
+                    // These could be used for a path segment or for a note, but we assume path segment.
+                    out.regularity = Regularity::Semiregular;
                     out.composite += "*";
                 }
                 "localizedpath" => {
@@ -726,7 +730,7 @@ pub fn flatten_path(attribute: &Attribute) -> WikiPath {
                     // Ignored.
                 }
                 _ => {
-                    out.irregular = true;
+                    out.regularity = Regularity::Irregular;
                 }
             },
             TextPiece::InternalLink { .. } => {}

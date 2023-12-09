@@ -33,6 +33,27 @@ impl State {
     }
 }
 
+#[derive(Debug, Default, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, serde::Serialize, serde::Deserialize)]
+pub enum Regularity {
+    /// Normal and may be included in the data set
+    #[default]
+    Regular,
+    /// Somewhat irregular, but still usable for the data set
+    Semiregular,
+    /// Fully irregular and should be excluded from the data set
+    Irregular,
+}
+
+impl Regularity {
+    pub fn worst(&self, other: Self) -> Self {
+        if other > *self {
+            other
+        } else {
+            *self
+        }
+    }
+}
+
 #[derive(Debug, thiserror::Error)]
 pub enum Error {
     #[error("Wiki client: {0}")]
