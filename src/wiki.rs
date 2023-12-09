@@ -531,6 +531,8 @@ impl WikiPath {
             if mapped.os.is_some() {
                 self.os = mapped.os;
             }
+        } else if !other.composite.is_empty() {
+            self.regularity = Regularity::Irregular;
         }
 
         self.incorporate(other)
