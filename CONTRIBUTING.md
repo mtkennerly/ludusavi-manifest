@@ -23,14 +23,15 @@ There are some lower-level commands for finer control or full imports:
   * `cargo run -- schema`
 
 ## API etiquette
-When running or modifying the importer script, please be mindful not to
-unnecessarily spam the PCGW or Steam APIs.
+When running or modifying the importer script,
+please be mindful not to unnecessarily spam the PCGW or Steam APIs.
 
 The [Mediawiki guidelines](https://www.mediawiki.org/wiki/API:Etiquette)
 suggest that:
 
-> Making your requests in series rather than in parallel, by waiting for one request
-> to finish before sending a new request, should result in a safe request rate.
+> Making your requests in series rather than in parallel,
+> by waiting for one request to finish before sending a new request,
+> should result in a safe request rate.
 
-I am not sure about guidelines for the Steam API, but the cache file should mean
-that we are not making excessive requests.
+I am not sure about guidelines for the Steam API,
+but the cache file should mean that we are not making excessive requests.
