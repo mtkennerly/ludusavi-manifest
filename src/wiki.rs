@@ -796,7 +796,25 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
             },
         ),
         (
+            "hkey_current_user",
+            MappedPath {
+                manifest: "HKEY_CURRENT_USER",
+                os: Some(Os::Windows),
+                kind: Some(PathKind::Registry),
+                ..Default::default()
+            },
+        ),
+        (
             "hklm",
+            MappedPath {
+                manifest: "HKEY_LOCAL_MACHINE",
+                os: Some(Os::Windows),
+                kind: Some(PathKind::Registry),
+                ..Default::default()
+            },
+        ),
+        (
+            "hkey_local_machine",
             MappedPath {
                 manifest: "HKEY_LOCAL_MACHINE",
                 os: Some(Os::Windows),
