@@ -741,8 +741,10 @@ pub fn flatten_path(attribute: &Attribute) -> WikiPath {
     out
 }
 
+/// https://www.pcgamingwiki.com/wiki/Template:Path
 static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
     HashMap::from_iter([
+        // General
         (
             "game",
             MappedPath {
@@ -781,6 +783,7 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
                 ..Default::default()
             },
         ),
+        // Windows registry
         (
             "hkcu",
             MappedPath {
@@ -808,6 +811,7 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
                 ..Default::default()
             },
         ),
+        // Windows filesystem
         (
             "username",
             MappedPath {
@@ -881,6 +885,14 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
             },
         ),
         (
+            "programfiles",
+            MappedPath {
+                manifest: "C:/Program Files",
+                os: Some(Os::Windows),
+                ..Default::default()
+            },
+        ),
+        (
             "windir",
             MappedPath {
                 manifest: placeholder::WIN_DIR,
@@ -896,6 +908,7 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
                 ..Default::default()
             },
         ),
+        // Mac
         (
             "osxhome",
             MappedPath {
@@ -904,6 +917,7 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
                 ..Default::default()
             },
         ),
+        // Linux
         (
             "linuxhome",
             MappedPath {
