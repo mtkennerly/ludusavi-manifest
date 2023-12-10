@@ -34745,6 +34745,7 @@
 * [Vanguard V](https://www.pcgamingwiki.com/wiki/?curid=62791)
 * [Vanguard: Fight For Rudiarius](https://www.pcgamingwiki.com/wiki/?curid=122636)
 * [Vanguard: Normandy 1944](https://www.pcgamingwiki.com/wiki/?curid=128193)
+* [Vanguard: Saga of Heroes](https://www.pcgamingwiki.com/wiki/?curid=191703)
 * [Vanguardian](https://www.pcgamingwiki.com/wiki/?curid=97904)
 * [Vanguards](https://www.pcgamingwiki.com/wiki/?curid=52273)
 * [Vanilla Bagel: The Roguelike](https://www.pcgamingwiki.com/wiki/?curid=33753)
