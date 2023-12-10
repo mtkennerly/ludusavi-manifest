@@ -26904,7 +26904,6 @@
 * [Seed of Evil](https://www.pcgamingwiki.com/wiki/?curid=105241)
 * [Seed of Life](https://www.pcgamingwiki.com/wiki/?curid=136039)
 * [Seed of the Arcane: Episode 1](https://www.pcgamingwiki.com/wiki/?curid=62028)
-* [Seed of the Dead: Sweet Home](https://www.pcgamingwiki.com/wiki/?curid=172283)
 * [Seeds of Chaos](https://www.pcgamingwiki.com/wiki/?curid=156557)
 * [Seeds of Resilience](https://www.pcgamingwiki.com/wiki/?curid=99194)
 * [Seek & Destroy - Steampunk Arcade](https://www.pcgamingwiki.com/wiki/?curid=80923)
