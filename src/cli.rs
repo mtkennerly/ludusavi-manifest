@@ -8,8 +8,18 @@ use crate::{
     Error,
 };
 
+fn styles() -> clap::builder::styling::Styles {
+    use clap::builder::styling::{AnsiColor, Effects, Styles};
+
+    Styles::styled()
+        .header(AnsiColor::Yellow.on_default() | Effects::BOLD)
+        .usage(AnsiColor::Yellow.on_default() | Effects::BOLD)
+        .literal(AnsiColor::Green.on_default() | Effects::BOLD)
+        .placeholder(AnsiColor::Green.on_default())
+}
+
 #[derive(clap::Parser, Clone, Debug, PartialEq, Eq)]
-#[clap(name = "ludusavi", version, term_width = 79)]
+#[clap(name = "ludusavi-manifest", version, max_term_width = 100, next_line_help = true, styles = styles())]
 pub struct Cli {
     #[clap(subcommand)]
     pub sub: Subcommand,
@@ -34,9 +44,11 @@ pub enum Subcommand {
     },
     /// Fetch a named subset of games.
     Solo {
+        /// Only use local data.
         #[clap(long)]
         local: bool,
 
+        /// Games to update, by wiki article title.
         #[clap()]
         games: Vec<String>,
     },
