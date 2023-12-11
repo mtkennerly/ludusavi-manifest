@@ -3958,6 +3958,7 @@
 * [Bloom: Labyrinth](https://www.pcgamingwiki.com/wiki/?curid=124276)
 * [Bloom: Memories](https://www.pcgamingwiki.com/wiki/?curid=145148)
 * [Blooming Nightshade](https://www.pcgamingwiki.com/wiki/?curid=144775)
+* [Bloons Monkey City](https://www.pcgamingwiki.com/wiki/?curid=191723)
 * [Bloons TD 5 Deluxe](https://www.pcgamingwiki.com/wiki/?curid=189646)
 * [Bloonz Toonz](https://www.pcgamingwiki.com/wiki/?curid=44185)
 * [Bloop](https://www.pcgamingwiki.com/wiki/?curid=48943)
