@@ -19574,6 +19574,7 @@
 * [Microsoft Flight Simulator](https://www.pcgamingwiki.com/wiki/?curid=172712)
 * [Microsoft Flight Simulator 2000](https://www.pcgamingwiki.com/wiki/?curid=173447)
 * [Microsoft Flight Simulator 98](https://www.pcgamingwiki.com/wiki/?curid=183021)
+* [Microsoft Flight Simulator Version 5.0](https://www.pcgamingwiki.com/wiki/?curid=191762)
 * [Microsoft Maquette](https://www.pcgamingwiki.com/wiki/?curid=127631)
 * [Microsoft Pinball Arcade](https://www.pcgamingwiki.com/wiki/?curid=11227)
 * [Microsoft Revenge of Arcade](https://www.pcgamingwiki.com/wiki/?curid=13002)
