@@ -16983,7 +16983,7 @@
 * [Kingdom Tales](https://www.pcgamingwiki.com/wiki/?curid=50660)
 * [Kingdom Tales 2](https://www.pcgamingwiki.com/wiki/?curid=49801)
 * [Kingdom Under Fire 2](https://www.pcgamingwiki.com/wiki/?curid=153175)
-* [Kingdom Under Fire: A War of Heroes](https://www.pcgamingwiki.com/wiki/?curid=183205)
+* [Kingdom Under Fire: A War of Heroes](https://www.pcgamingwiki.com/wiki/?curid=182974)
 * [Kingdom Warrior](https://www.pcgamingwiki.com/wiki/?curid=156073)
 * [Kingdom Wars](https://www.pcgamingwiki.com/wiki/?curid=40636)
 * [Kingdom Wars 2: Definitive Edition](https://www.pcgamingwiki.com/wiki/?curid=132332)
