@@ -33700,6 +33700,7 @@
 * [Trainz Railroad Simulator 2019](https://www.pcgamingwiki.com/wiki/?curid=125123)
 * [Trainz Settle and Carlisle](https://www.pcgamingwiki.com/wiki/?curid=41084)
 * [Trainz Simulator 12](https://www.pcgamingwiki.com/wiki/?curid=40964)
+* [Trainz Simulator 2009: World Builder Edition](https://www.pcgamingwiki.com/wiki/?curid=191811)
 * [Trainz Simulator 2010: Engineers Edition](https://www.pcgamingwiki.com/wiki/?curid=180899)
 * [Trainz Trouble](https://www.pcgamingwiki.com/wiki/?curid=49713)
 * [Trainz: A New Era](https://www.pcgamingwiki.com/wiki/?curid=47897)
