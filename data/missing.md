@@ -7689,6 +7689,7 @@
 * [Day of Destruction](https://www.pcgamingwiki.com/wiki/?curid=79238)
 * [Day of the Dead: Solitaire Collection](https://www.pcgamingwiki.com/wiki/?curid=172209)
 * [Day of the Trumplings](https://www.pcgamingwiki.com/wiki/?curid=37080)
+* [Day Watch](https://www.pcgamingwiki.com/wiki/?curid=191809)
 * [Day Zero](https://www.pcgamingwiki.com/wiki/?curid=139033)
 * [Day: 40](https://www.pcgamingwiki.com/wiki/?curid=132658)
 * [DayBreak Online](https://www.pcgamingwiki.com/wiki/?curid=123735)
