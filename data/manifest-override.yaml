@@ -4,6 +4,9 @@ BioShock 2:
 BioShock 2 Remastered:
   gog:
     id: 1482265668
+"Death Stranding Director's Cut":
+  installDir:
+    DeathStrandingDC: {}
 Overwatch:
   # The game is no longer playable at all,
   # and its save locations are identical to Overwatch 2,
