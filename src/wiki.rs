@@ -267,18 +267,16 @@ impl WikiCache {
         let solo = titles.is_some();
         let titles: Vec<_> = titles.unwrap_or_else(|| {
             self.0
-                .keys()
-                .skip_while(|x| from.as_ref().is_some_and(|from| from != *x))
+                .iter()
+                .filter(|(_, v)| !outdated_only || v.state == State::Outdated)
+                .skip_while(|(k, _)| from.as_ref().is_some_and(|from| from != *k))
                 .take(limit.unwrap_or(usize::MAX))
-                .cloned()
+                .map(|(k, _)| k.to_string())
                 .collect()
         });
 
         for title in &titles {
             let cached = self.0.get(title).cloned().unwrap_or_default();
-            if outdated_only && cached.state != State::Outdated {
-                continue;
-            }
 
             println!("Wiki: {}", title);
             let latest = WikiCacheEntry::fetch_from_page(title.clone()).await;
