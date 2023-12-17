@@ -256,10 +256,23 @@ impl WikiCache {
         Ok(())
     }
 
-    pub async fn refresh(&mut self, outdated_only: bool, titles: Option<Vec<String>>) -> Result<(), Error> {
+    pub async fn refresh(
+        &mut self,
+        outdated_only: bool,
+        titles: Option<Vec<String>>,
+        limit: Option<usize>,
+        from: Option<String>,
+    ) -> Result<(), Error> {
         let mut i = 0;
         let solo = titles.is_some();
-        let titles: Vec<_> = titles.unwrap_or_else(|| self.0.keys().cloned().collect());
+        let titles: Vec<_> = titles.unwrap_or_else(|| {
+            self.0
+                .keys()
+                .skip_while(|x| from.as_ref().is_some_and(|from| from != *x))
+                .take(limit.unwrap_or(usize::MAX))
+                .cloned()
+                .collect()
+        });
 
         for title in &titles {
             let cached = self.0.get(title).cloned().unwrap_or_default();

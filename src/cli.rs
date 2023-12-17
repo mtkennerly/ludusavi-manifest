@@ -34,6 +34,10 @@ pub enum Subcommand {
         #[clap(long)]
         full: bool,
 
+        /// Only refresh this many entries.
+        #[clap(long)]
+        limit: Option<usize>,
+
         /// Do a partial update based on the wiki's recent changes.
         #[clap(long)]
         recent_changes: bool,
@@ -41,6 +45,16 @@ pub enum Subcommand {
         /// Do a partial update based on the wiki's game pages that are not yet cached.
         #[clap(long)]
         missing_pages: bool,
+
+        /// Refresh wiki entries starting from this article title.
+        /// This will enable full mode for wiki entries.
+        #[clap(long)]
+        wiki_from: Option<String>,
+
+        /// Refresh Steam entries starting from this app ID.
+        /// This will enable full mode for Steam entries.
+        #[clap(long)]
+        steam_from: Option<u32>,
     },
     /// Fetch a named subset of games.
     Solo {
@@ -78,23 +92,24 @@ pub async fn run(
     match sub {
         Subcommand::Bulk {
             full,
+            limit,
             recent_changes,
             missing_pages,
+            wiki_from,
+            steam_from,
         } => {
-            let outdated_only = !full;
-
+            let outdated_only = !full && wiki_from.is_none();
             if recent_changes {
                 wiki_cache.flag_recent_changes(wiki_meta_cache).await?;
             }
-
             if missing_pages {
                 wiki_cache.add_new_games().await?;
             }
+            wiki_cache.refresh(outdated_only, None, limit, wiki_from).await?;
 
-            wiki_cache.refresh(outdated_only, None).await?;
-
+            let outdated_only = !full && steam_from.is_none();
             steam_cache.transition_states_from(wiki_cache);
-            steam_cache.refresh(outdated_only, None)?;
+            steam_cache.refresh(outdated_only, None, limit, steam_from)?;
 
             manifest.refresh(manifest_override, wiki_cache, steam_cache, None)?;
             schema::validate_manifest(manifest)?;
@@ -103,7 +118,9 @@ pub async fn run(
             let outdated_only = false;
 
             if !local {
-                wiki_cache.refresh(outdated_only, Some(games.clone())).await?;
+                wiki_cache
+                    .refresh(outdated_only, Some(games.clone()), None, None)
+                    .await?;
 
                 let steam_ids: Vec<_> = games
                     .iter()
@@ -111,7 +128,7 @@ pub async fn run(
                     .collect();
 
                 steam_cache.transition_states_from(wiki_cache);
-                steam_cache.refresh(outdated_only, Some(steam_ids))?;
+                steam_cache.refresh(outdated_only, Some(steam_ids), None, None)?;
             }
 
             manifest.refresh(manifest_override, wiki_cache, steam_cache, Some(games))?;

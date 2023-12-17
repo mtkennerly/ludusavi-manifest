@@ -12,12 +12,20 @@ impl ResourceFile for SteamCache {
 }
 
 impl SteamCache {
-    pub fn refresh(&mut self, outdated_only: bool, app_ids: Option<Vec<u32>>) -> Result<(), Error> {
+    pub fn refresh(
+        &mut self,
+        outdated_only: bool,
+        app_ids: Option<Vec<u32>>,
+        limit: Option<usize>,
+        from: Option<u32>,
+    ) -> Result<(), Error> {
         let mut i = 0;
         let app_ids: Vec<_> = app_ids.unwrap_or_else(|| {
             self.0
                 .iter()
                 .filter(|(_, v)| !outdated_only || v.state == State::Outdated)
+                .skip_while(|(k, _)| from.is_some_and(|from| &from != *k))
+                .take(limit.unwrap_or(usize::MAX))
                 .map(|(k, _)| *k)
                 .collect()
         });
