@@ -4332,7 +4332,6 @@
 * [Brain 43°C](https://www.pcgamingwiki.com/wiki/?curid=96379)
 * [Brain Booster](https://www.pcgamingwiki.com/wiki/?curid=55548)
 * [Brain Crush](https://www.pcgamingwiki.com/wiki/?curid=67861)
-* [Brain Exercise with Dr. Kawashima](https://www.pcgamingwiki.com/wiki/?curid=171225)
 * [Brain Guzzler](https://www.pcgamingwiki.com/wiki/?curid=47909)
 * [Brain in a Vat Lies](https://www.pcgamingwiki.com/wiki/?curid=149775)
 * [Brain In My Head](https://www.pcgamingwiki.com/wiki/?curid=54788)
