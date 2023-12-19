@@ -35688,6 +35688,7 @@
 * [Warships on the Halloween Night](https://www.pcgamingwiki.com/wiki/?curid=144855)
 * [Warshmallows](https://www.pcgamingwiki.com/wiki/?curid=174051)
 * [Warside](https://www.pcgamingwiki.com/wiki/?curid=48006)
+* [Warside (2024)](https://www.pcgamingwiki.com/wiki/?curid=191963)
 * [Warsim: The Realm of Aslona](https://www.pcgamingwiki.com/wiki/?curid=64445)
 * [Warspear Online](https://www.pcgamingwiki.com/wiki/?curid=73606)
 * [Warstone TD](https://www.pcgamingwiki.com/wiki/?curid=54031)
