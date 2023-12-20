@@ -13282,6 +13282,7 @@
 * [Grand Tactician: The Civil War (1861-1865)](https://www.pcgamingwiki.com/wiki/?curid=105701)
 * [Grand Theft Auto: Chinatown Wars](https://www.pcgamingwiki.com/wiki/?curid=168124)
 * [Grand Theft Auto: iFruit](https://www.pcgamingwiki.com/wiki/?curid=169308)
+* [Grand Touring](https://www.pcgamingwiki.com/wiki/?curid=192002)
 * [Grandmaster Chess](https://www.pcgamingwiki.com/wiki/?curid=171214)
 * [GrandNarr!](https://www.pcgamingwiki.com/wiki/?curid=145457)
 * [Grandpa](https://www.pcgamingwiki.com/wiki/?curid=91815)
