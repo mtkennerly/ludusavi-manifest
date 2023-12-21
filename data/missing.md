@@ -13069,7 +13069,6 @@
 * [Gochi-Show! for Girls -How To Learn Japanese Cooking Game-](https://www.pcgamingwiki.com/wiki/?curid=38823)
 * [God and Nemesis: of Ghosts from Dragons](https://www.pcgamingwiki.com/wiki/?curid=57345)
 * [God Awe-full Clicker](https://www.pcgamingwiki.com/wiki/?curid=111934)
-* [God Eater 3](https://www.pcgamingwiki.com/wiki/?curid=127349)
 * [GoD Factory: Wingmen](https://www.pcgamingwiki.com/wiki/?curid=19578)
 * [God Hand](https://www.pcgamingwiki.com/wiki/?curid=127291)
 * [God is a Cube: Programming Robot Cubes](https://www.pcgamingwiki.com/wiki/?curid=113340)
