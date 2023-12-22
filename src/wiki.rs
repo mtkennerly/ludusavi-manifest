@@ -182,11 +182,12 @@ impl WikiCache {
                         }
                     }
                     Some(old_name) => {
-                        self.0.entry(title.to_string()).and_modify(|x| {
-                            x.page_id = page_id;
-                            x.state = State::Outdated;
-                            x.renamed_from.push(old_name);
-                        });
+                        if let Some(mut info) = self.0.remove(&old_name) {
+                            info.page_id = page_id;
+                            info.state = State::Outdated;
+                            info.renamed_from.push(old_name);
+                            self.0.insert(title, info);
+                        }
                     }
                 }
             }
