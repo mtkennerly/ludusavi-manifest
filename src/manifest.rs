@@ -118,17 +118,10 @@ impl Manifest {
         overrides: &ManifestOverride,
         wiki_cache: &WikiCache,
         steam_cache: &SteamCache,
-        games: Option<Vec<String>>,
     ) -> Result<(), Error> {
         self.0.clear();
 
         for (title, info) in &wiki_cache.0 {
-            if let Some(games) = &games {
-                if !games.contains(title) {
-                    continue;
-                }
-            }
-
             if overrides.0.get(title).map(|x| x.omit).unwrap_or(false) {
                 continue;
             }

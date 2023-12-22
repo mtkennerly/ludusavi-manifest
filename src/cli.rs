@@ -111,7 +111,7 @@ pub async fn run(
             steam_cache.transition_states_from(wiki_cache);
             steam_cache.refresh(outdated_only, None, limit, steam_from)?;
 
-            manifest.refresh(manifest_override, wiki_cache, steam_cache, None)?;
+            manifest.refresh(manifest_override, wiki_cache, steam_cache)?;
             schema::validate_manifest(manifest)?;
         }
         Subcommand::Solo { local, games } => {
@@ -131,7 +131,7 @@ pub async fn run(
                 steam_cache.refresh(outdated_only, Some(steam_ids), None, None)?;
             }
 
-            manifest.refresh(manifest_override, wiki_cache, steam_cache, Some(games))?;
+            manifest.refresh(manifest_override, wiki_cache, steam_cache)?;
             schema::validate_manifest(manifest)?;
         }
         Subcommand::Schema => {

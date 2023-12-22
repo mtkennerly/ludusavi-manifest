@@ -28979,7 +28979,6 @@
 * [SQR 2](https://www.pcgamingwiki.com/wiki/?curid=64050)
 * [SQR 3](https://www.pcgamingwiki.com/wiki/?curid=73827)
 * [SQR 4](https://www.pcgamingwiki.com/wiki/?curid=134678)
-* [Squad 51 vs. the Flying Saucers](https://www.pcgamingwiki.com/wiki/?curid=166523)
 * [Squad Z](https://www.pcgamingwiki.com/wiki/?curid=104243)
 * [Squadron 42](https://www.pcgamingwiki.com/wiki/?curid=189862)
 * [Squadron: Sky Guardians](https://www.pcgamingwiki.com/wiki/?curid=65578)
