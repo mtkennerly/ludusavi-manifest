@@ -120,6 +120,8 @@ impl Manifest {
         steam_cache: &SteamCache,
         games: Option<Vec<String>>,
     ) -> Result<(), Error> {
+        self.0.clear();
+
         for (title, info) in &wiki_cache.0 {
             if let Some(games) = &games {
                 if !games.contains(title) {
