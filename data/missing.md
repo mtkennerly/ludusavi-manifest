@@ -29386,7 +29386,6 @@
 * [Stellar Valkyrie](https://www.pcgamingwiki.com/wiki/?curid=181624)
 * [Stellar Warrior](https://www.pcgamingwiki.com/wiki/?curid=80958)
 * [StellarHub](https://www.pcgamingwiki.com/wiki/?curid=67571)
-* [Stellaris Nexus](https://www.pcgamingwiki.com/wiki/?curid=188004)
 * [Stellatum](https://www.pcgamingwiki.com/wiki/?curid=68641)
 * [Steno Arcade](https://www.pcgamingwiki.com/wiki/?curid=43891)
 * [Step by Step](https://www.pcgamingwiki.com/wiki/?curid=113658)
