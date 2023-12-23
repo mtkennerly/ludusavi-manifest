@@ -22472,7 +22472,7 @@
 * [Owyn's Adventure](https://www.pcgamingwiki.com/wiki/?curid=132200)
 * [Owys](https://www.pcgamingwiki.com/wiki/?curid=46733)
 * [OXXO](https://www.pcgamingwiki.com/wiki/?curid=141788)
-* [Oxyd](https://www.pcgamingwiki.com/wiki/?curid=154206)
+* [Oxyd (2019)](https://www.pcgamingwiki.com/wiki/?curid=154206)
 * [Ozapell Mystery Text Adventure](https://www.pcgamingwiki.com/wiki/?curid=110282)
 * [OZMAFIA!!](https://www.pcgamingwiki.com/wiki/?curid=37503)
 * [P-3 Biotic](https://www.pcgamingwiki.com/wiki/?curid=43113)
