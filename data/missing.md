@@ -12224,6 +12224,7 @@
 * [Fucking Hell](https://www.pcgamingwiki.com/wiki/?curid=191616)
 * [Fuego!](https://www.pcgamingwiki.com/wiki/?curid=45621)
 * [Fuel Renegades](https://www.pcgamingwiki.com/wiki/?curid=102473)
+* [Fueled Up](https://www.pcgamingwiki.com/wiki/?curid=192060)
 * [Fuga: Melodies of Steel 2](https://www.pcgamingwiki.com/wiki/?curid=187195)
 * [Fugl](https://www.pcgamingwiki.com/wiki/?curid=66729)
 * [Fugue](https://www.pcgamingwiki.com/wiki/?curid=96619)
