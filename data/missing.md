@@ -10020,7 +10020,6 @@
 * [Emerald City Confidential](https://www.pcgamingwiki.com/wiki/?curid=41247)
 * [Emerald Shores](https://www.pcgamingwiki.com/wiki/?curid=122054)
 * [Emerge: Cities of the Apocalypse](https://www.pcgamingwiki.com/wiki/?curid=43358)
-* [Emergency 20](https://www.pcgamingwiki.com/wiki/?curid=74421)
 * [Emergency 2016](https://www.pcgamingwiki.com/wiki/?curid=46056)
 * [Emergency 2017](https://www.pcgamingwiki.com/wiki/?curid=52388)
 * [Emergency Robot Simulator](https://www.pcgamingwiki.com/wiki/?curid=95431)
