@@ -104,6 +104,8 @@ Tools may also:
   then ideally a tool should only need to check that entry when running on Windows;
   however, it is a reality of the data set that it may simply be the only confirmed occurrence of the file,
   and it may in fact occur on other operating systems as well.
+* Reject/ignore recursive aliases or set a recursion limit.
+  The primary manifest will never contain a recursive alias.
 
 For authors of secondary manifests bundled with games:
 

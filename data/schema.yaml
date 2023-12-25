@@ -99,3 +99,9 @@ additionalProperties:
           type: array
           items:
             type: integer
+    alias:
+      description: |
+        When this field is populated with another game's title,
+        the current entry's title can be used as a nickname to look up the other game.
+        The other fields in the current entry should be ignored.
+      type: string

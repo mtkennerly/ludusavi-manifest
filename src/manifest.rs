@@ -128,6 +128,18 @@ impl Manifest {
 
             let mut game = Game::default();
             game.integrate_wiki(info, title);
+            for rename in &info.renamed_from {
+                if rename.to_lowercase() == title.to_lowercase() || self.0.contains_key(rename) {
+                    continue;
+                }
+                self.0.insert(
+                    rename.to_string(),
+                    Game {
+                        alias: Some(title.to_string()),
+                        ..Default::default()
+                    },
+                );
+            }
             if let Some(id) = game.steam.id {
                 if let Some(info) = steam_cache.0.get(&id) {
                     game.integrate_steam(info);
@@ -150,6 +162,8 @@ impl Manifest {
 #[derive(Clone, Debug, Default, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
 #[serde(default, rename_all = "camelCase")]
 pub struct Game {
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub alias: Option<String>,
     #[serde(skip_serializing_if = "BTreeMap::is_empty")]
     pub files: BTreeMap<String, GameFileEntry>,
     #[serde(skip_serializing_if = "GogMetadata::is_empty")]

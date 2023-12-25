@@ -118,3 +118,5 @@ additionalProperties:
           type: array
           items:
             type: integer
+    alias:
+      type: string
