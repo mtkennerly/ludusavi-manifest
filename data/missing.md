@@ -2959,6 +2959,7 @@
 * [Baskhead Training](https://www.pcgamingwiki.com/wiki/?curid=61416)
 * [Basment Dwellers](https://www.pcgamingwiki.com/wiki/?curid=53461)
 * [Bass Blocks](https://www.pcgamingwiki.com/wiki/?curid=46460)
+* [Bass Pro Shops: Trophy Hunter 2007](https://www.pcgamingwiki.com/wiki/?curid=192139)
 * [Bassline Sinker](https://www.pcgamingwiki.com/wiki/?curid=114614)
 * [Bassmaster Fishing 2022](https://www.pcgamingwiki.com/wiki/?curid=176599)
 * [Bastard](https://www.pcgamingwiki.com/wiki/?curid=94467)
