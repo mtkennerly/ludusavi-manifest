@@ -35045,6 +35045,7 @@
 * [VireFit](https://www.pcgamingwiki.com/wiki/?curid=130191)
 * [VIRO MOVE](https://www.pcgamingwiki.com/wiki/?curid=136997)
 * [ViRo Playspace](https://www.pcgamingwiki.com/wiki/?curid=149738)
+* [Virtua Cop](https://www.pcgamingwiki.com/wiki/?curid=158659)
 * [Virtua Tennis 2009](https://www.pcgamingwiki.com/wiki/?curid=162909)
 * [VirtuaCreature](https://www.pcgamingwiki.com/wiki/?curid=104027)
 * [Virtual Arctic Expedition](https://www.pcgamingwiki.com/wiki/?curid=132294)
