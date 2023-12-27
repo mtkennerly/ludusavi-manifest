@@ -24588,7 +24588,6 @@
 * [R.B.I. Baseball 21](https://www.pcgamingwiki.com/wiki/?curid=166333)
 * [R.C. Bot Inc.](https://www.pcgamingwiki.com/wiki/?curid=41954)
 * [R.I.C.A](https://www.pcgamingwiki.com/wiki/?curid=127748)
-* [R.I.P.D.: The Game](https://www.pcgamingwiki.com/wiki/?curid=40606)
 * [R.O.M. Gold: Rings of Medusa](https://www.pcgamingwiki.com/wiki/?curid=186729)
 * [R.O.O.T.S](https://www.pcgamingwiki.com/wiki/?curid=48306)
 * [R.O.V.E.R.](https://www.pcgamingwiki.com/wiki/?curid=95577)
