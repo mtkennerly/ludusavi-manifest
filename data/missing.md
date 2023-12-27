@@ -24733,6 +24733,7 @@
 * [Rail World](https://www.pcgamingwiki.com/wiki/?curid=122105)
 * [Railed](https://www.pcgamingwiki.com/wiki/?curid=124348)
 * [Railgunners](https://www.pcgamingwiki.com/wiki/?curid=73981)
+* [RailKings Model Railroad Simulator](https://www.pcgamingwiki.com/wiki/?curid=192177)
 * [Railroad Corporation 2](https://www.pcgamingwiki.com/wiki/?curid=187615)
 * [Railroad Ink Challenge](https://www.pcgamingwiki.com/wiki/?curid=182466)
 * [Railroad Lines](https://www.pcgamingwiki.com/wiki/?curid=47319)
