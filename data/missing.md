@@ -22953,6 +22953,8 @@
 * [PGA Tour 2K23](https://www.pcgamingwiki.com/wiki/?curid=181319)
 * [PHAGEBORN Online Card Game](https://www.pcgamingwiki.com/wiki/?curid=130642)
 * [Phageborn Online Card Game PUBLIC BETA](https://www.pcgamingwiki.com/wiki/?curid=156507)
+* [Phantasie](https://www.pcgamingwiki.com/wiki/?curid=192232)
+* [Phantasie III: The Wrath of Nikademus](https://www.pcgamingwiki.com/wiki/?curid=192233)
 * [Phantasma VR](https://www.pcgamingwiki.com/wiki/?curid=63446)
 * [Phantasmat: Crucible Peak](https://www.pcgamingwiki.com/wiki/?curid=51608)
 * [Phantasmat: The Dread of Oakville](https://www.pcgamingwiki.com/wiki/?curid=112812)
