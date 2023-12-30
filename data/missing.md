@@ -28946,6 +28946,7 @@
 * [Spot The Oddity](https://www.pcgamingwiki.com/wiki/?curid=120855)
 * [Spotter](https://www.pcgamingwiki.com/wiki/?curid=112920)
 * [Spoxel](https://www.pcgamingwiki.com/wiki/?curid=77397)
+* [Sprawl](https://www.pcgamingwiki.com/wiki/?curid=192241)
 * [Spray Dynamite X Radioactive Insects](https://www.pcgamingwiki.com/wiki/?curid=122400)
 * [Spray Girl](https://www.pcgamingwiki.com/wiki/?curid=121769)
 * [Spreadstorm](https://www.pcgamingwiki.com/wiki/?curid=78252)
