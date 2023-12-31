@@ -6299,7 +6299,6 @@
 * [Combat Force](https://www.pcgamingwiki.com/wiki/?curid=150832)
 * [Combat Helicopter VR - Surgical Strike](https://www.pcgamingwiki.com/wiki/?curid=136502)
 * [Combat Instinct](https://www.pcgamingwiki.com/wiki/?curid=73465)
-* [Combat master](https://www.pcgamingwiki.com/wiki/?curid=188279)
 * [Combat Medic: Special Ops](https://www.pcgamingwiki.com/wiki/?curid=94987)
 * [Combat Mission 3: Afrika Korps](https://www.pcgamingwiki.com/wiki/?curid=138118)
 * [Combat Mission Cold War](https://www.pcgamingwiki.com/wiki/?curid=173027)
