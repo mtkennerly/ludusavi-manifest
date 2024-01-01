@@ -13761,6 +13761,7 @@
 * [Hags Castle](https://www.pcgamingwiki.com/wiki/?curid=102295)
 * [Hail To The King](https://www.pcgamingwiki.com/wiki/?curid=125217)
 * [Hail to the King: Deathbat](https://www.pcgamingwiki.com/wiki/?curid=49414)
+* [Hail to the Rainbow](https://www.pcgamingwiki.com/wiki/?curid=192285)
 * [Hailey](https://www.pcgamingwiki.com/wiki/?curid=114352)
 * [Hailstorm](https://www.pcgamingwiki.com/wiki/?curid=71847)
 * [Hakan's War Manager](https://www.pcgamingwiki.com/wiki/?curid=189235)
