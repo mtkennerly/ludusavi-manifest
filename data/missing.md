@@ -27149,7 +27149,6 @@
 * [Shadows of Larth](https://www.pcgamingwiki.com/wiki/?curid=145391)
 * [Shadows of time](https://www.pcgamingwiki.com/wiki/?curid=150749)
 * [Shadows of War](https://www.pcgamingwiki.com/wiki/?curid=49043)
-* [Shadows Peak](https://www.pcgamingwiki.com/wiki/?curid=44074)
 * [ShadowSide](https://www.pcgamingwiki.com/wiki/?curid=79934)
 * [Shadowverse](https://www.pcgamingwiki.com/wiki/?curid=52245)
 * [Shadowy Contracts](https://www.pcgamingwiki.com/wiki/?curid=132723)
