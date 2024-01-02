@@ -25668,7 +25668,6 @@
 * [Rival Megagun](https://www.pcgamingwiki.com/wiki/?curid=89698)
 * [Rival Nation Wars](https://www.pcgamingwiki.com/wiki/?curid=128481)
 * [Rival Rampage](https://www.pcgamingwiki.com/wiki/?curid=75453)
-* [Rival Realms](https://www.pcgamingwiki.com/wiki/?curid=165804)
 * [Rivalry](https://www.pcgamingwiki.com/wiki/?curid=44850)
 * [River City Girls 2](https://www.pcgamingwiki.com/wiki/?curid=183006)
 * [River City Girls Zero](https://www.pcgamingwiki.com/wiki/?curid=177550)
