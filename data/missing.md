@@ -1213,6 +1213,7 @@
 * [Aleph Null](https://www.pcgamingwiki.com/wiki/?curid=41607)
 * [Ales Dash](https://www.pcgamingwiki.com/wiki/?curid=95403)
 * [Alex Hunter: Lord of the Mind](https://www.pcgamingwiki.com/wiki/?curid=40503)
+* [Alex Jones: NWO Wars](https://www.pcgamingwiki.com/wiki/?curid=192384)
 * [Alexa's Wild Night](https://www.pcgamingwiki.com/wiki/?curid=76299)
 * [Alexander](https://www.pcgamingwiki.com/wiki/?curid=89017)
 * [Alexia Crow and the Cave of Heroes](https://www.pcgamingwiki.com/wiki/?curid=48012)
