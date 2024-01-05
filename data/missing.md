@@ -31877,7 +31877,6 @@
 * [The Island: In To The Mist 그 섬](https://www.pcgamingwiki.com/wiki/?curid=114428)
 * [The Islander: Landscape Designer](https://www.pcgamingwiki.com/wiki/?curid=136397)
 * [The Isle of the Dead](https://www.pcgamingwiki.com/wiki/?curid=135463)
-* [The Jackbox Party Pack 8](https://www.pcgamingwiki.com/wiki/?curid=172246)
 * [The Jackbox Party Starter](https://www.pcgamingwiki.com/wiki/?curid=178634)
 * [The Janitor](https://www.pcgamingwiki.com/wiki/?curid=42269)
 * [The Jekoos](https://www.pcgamingwiki.com/wiki/?curid=125529)
