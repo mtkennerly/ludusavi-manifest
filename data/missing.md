@@ -15163,6 +15163,7 @@
 * [Hungry Planet](https://www.pcgamingwiki.com/wiki/?curid=108044)
 * [Hungry Shadows](https://www.pcgamingwiki.com/wiki/?curid=104379)
 * [Hungry Shark World](https://www.pcgamingwiki.com/wiki/?curid=191754)
+* [Hunkenstein](https://www.pcgamingwiki.com/wiki/?curid=192396)
 * [Hunt 'n Sneak](https://www.pcgamingwiki.com/wiki/?curid=122692)
 * [Hunt For Gods](https://www.pcgamingwiki.com/wiki/?curid=69417)
 * [Hunt for Junk](https://www.pcgamingwiki.com/wiki/?curid=180373)
