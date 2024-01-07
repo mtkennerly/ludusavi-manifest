@@ -32235,6 +32235,7 @@
 * [The Next World](https://www.pcgamingwiki.com/wiki/?curid=44243)
 * [The Night Cafe: A VR Tribute to Vincent Van Gogh](https://www.pcgamingwiki.com/wiki/?curid=37407)
 * [The Night Christmas Ended](https://www.pcgamingwiki.com/wiki/?curid=54487)
+* [The Night is Grey](https://www.pcgamingwiki.com/wiki/?curid=192415)
 * [The Night of Fire Stealing](https://www.pcgamingwiki.com/wiki/?curid=105073)
 * [The Night The Carsons Disappeared](https://www.pcgamingwiki.com/wiki/?curid=52193)
 * [The Nightmare Catcher](https://www.pcgamingwiki.com/wiki/?curid=180317)
