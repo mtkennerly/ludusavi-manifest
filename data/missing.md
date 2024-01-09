@@ -32858,6 +32858,7 @@
 * [The Wizards - Dark Times](https://www.pcgamingwiki.com/wiki/?curid=139634)
 * [The Wizards Who Fell in a Hole](https://www.pcgamingwiki.com/wiki/?curid=54774)
 * [The Wolf Among Us 2](https://www.pcgamingwiki.com/wiki/?curid=154605)
+* [The Wonderful One: After School Hero](https://www.pcgamingwiki.com/wiki/?curid=192458)
 * [The Woods](https://www.pcgamingwiki.com/wiki/?curid=91038)
 * [The Woods: VR Escape the Room](https://www.pcgamingwiki.com/wiki/?curid=128342)
 * [The Word Is Not the Thing](https://www.pcgamingwiki.com/wiki/?curid=73957)
