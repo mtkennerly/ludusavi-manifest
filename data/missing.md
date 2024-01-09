@@ -14464,8 +14464,6 @@
 * [Hero Of The Forest](https://www.pcgamingwiki.com/wiki/?curid=149225)
 * [Hero of the Galactic Core](https://www.pcgamingwiki.com/wiki/?curid=68074)
 * [Hero of the Kingdom IV](https://www.pcgamingwiki.com/wiki/?curid=157891)
-* [Hero of the Kingdom: The Lost Tales 1](https://www.pcgamingwiki.com/wiki/?curid=189453)
-* [Hero of the Kingdom: The Lost Tales 2](https://www.pcgamingwiki.com/wiki/?curid=189455)
 * [Hero or Villain: Genesis](https://www.pcgamingwiki.com/wiki/?curid=149656)
 * [Hero Plus](https://www.pcgamingwiki.com/wiki/?curid=78467)
 * [Hero Quest: Tower Conflict](https://www.pcgamingwiki.com/wiki/?curid=43622)
