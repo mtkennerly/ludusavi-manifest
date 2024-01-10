@@ -1478,6 +1478,7 @@
 * [Amazing: A House In Kansas VR](https://www.pcgamingwiki.com/wiki/?curid=139041)
 * [Amazon Odyssey](https://www.pcgamingwiki.com/wiki/?curid=74833)
 * [Amazon Rush](https://www.pcgamingwiki.com/wiki/?curid=87321)
+* [Amazon Trail 3rd Edition](https://www.pcgamingwiki.com/wiki/?curid=192480)
 * [Amazon: Guardians of Eden](https://www.pcgamingwiki.com/wiki/?curid=147127)
 * [Amber Tail Adventure](https://www.pcgamingwiki.com/wiki/?curid=60446)
 * [Amber's Airline - 7 Wonders](https://www.pcgamingwiki.com/wiki/?curid=132500)
