@@ -32265,6 +32265,7 @@
 * [The Orb Chambers II](https://www.pcgamingwiki.com/wiki/?curid=41916)
 * [The Orchard of Stray Sheep](https://www.pcgamingwiki.com/wiki/?curid=33575)
 * [The Orcs Strike Back!](https://www.pcgamingwiki.com/wiki/?curid=109628)
+* [The Oregon Trail](https://www.pcgamingwiki.com/wiki/?curid=192477)
 * [The Orion Suns](https://www.pcgamingwiki.com/wiki/?curid=80885)
 * [The Orphan A Tale of An Errant Ghost - Hidden Object Game](https://www.pcgamingwiki.com/wiki/?curid=155777)
 * [The Orphan Dreams](https://www.pcgamingwiki.com/wiki/?curid=43364)
