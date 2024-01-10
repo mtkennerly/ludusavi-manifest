@@ -16992,7 +16992,6 @@
 * [Kingdom of Loot](https://www.pcgamingwiki.com/wiki/?curid=60766)
 * [Kingdom of Night](https://www.pcgamingwiki.com/wiki/?curid=139715)
 * [Kingdom Of Rhea](https://www.pcgamingwiki.com/wiki/?curid=139373)
-* [Kingdom of the Dead](https://www.pcgamingwiki.com/wiki/?curid=189462)
 * [Kingdom of the Dragon](https://www.pcgamingwiki.com/wiki/?curid=68218)
 * [Kingdom Shell](https://www.pcgamingwiki.com/wiki/?curid=150870)
 * [Kingdom Tales](https://www.pcgamingwiki.com/wiki/?curid=50660)
