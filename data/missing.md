@@ -9878,6 +9878,7 @@
 * [El Ministerio del Tiempo VR: Salva el tiempo](https://www.pcgamingwiki.com/wiki/?curid=89302)
 * [El Ninja](https://www.pcgamingwiki.com/wiki/?curid=38228)
 * [El Pansas](https://www.pcgamingwiki.com/wiki/?curid=114568)
+* [El Paso, Elsewhere](https://www.pcgamingwiki.com/wiki/?curid=192507)
 * [El Rock de tu Vida](https://www.pcgamingwiki.com/wiki/?curid=142668)
 * [El Taco Diablo](https://www.pcgamingwiki.com/wiki/?curid=128373)
 * [El Tango de la Muerte](https://www.pcgamingwiki.com/wiki/?curid=72415)
