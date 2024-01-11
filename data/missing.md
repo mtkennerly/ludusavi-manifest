@@ -35528,7 +35528,6 @@
 * [War Ghost](https://www.pcgamingwiki.com/wiki/?curid=144548)
 * [War Girl](https://www.pcgamingwiki.com/wiki/?curid=142337)
 * [War Heroes: Invasion](https://www.pcgamingwiki.com/wiki/?curid=75131)
-* [War Hospital](https://www.pcgamingwiki.com/wiki/?curid=167594)
 * [War Hunter](https://www.pcgamingwiki.com/wiki/?curid=92071)
 * [War in a Box: Paper Tanks](https://www.pcgamingwiki.com/wiki/?curid=50003)
 * [War in Pocket](https://www.pcgamingwiki.com/wiki/?curid=149468)
