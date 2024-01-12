@@ -3474,6 +3474,7 @@
 * [Big Blue - Memory](https://www.pcgamingwiki.com/wiki/?curid=87982)
 * [Big Boot Baseball](https://www.pcgamingwiki.com/wiki/?curid=129975)
 * [Big Breezy Boat](https://www.pcgamingwiki.com/wiki/?curid=121411)
+* [Big Buck Hunter](https://www.pcgamingwiki.com/wiki/?curid=192512)
 * [Big Buck Hunter Arcade](https://www.pcgamingwiki.com/wiki/?curid=50913)
 * [Big Buck Hunter Pro Adventure](https://www.pcgamingwiki.com/wiki/?curid=169710)
 * [Big Crown: Showdown](https://www.pcgamingwiki.com/wiki/?curid=92355)
