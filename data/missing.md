@@ -36003,6 +36003,7 @@
 * [Where Are We Now](https://www.pcgamingwiki.com/wiki/?curid=144765)
 * [Where Cards Fall](https://www.pcgamingwiki.com/wiki/?curid=58178)
 * [Where Humans Shouldn't Go](https://www.pcgamingwiki.com/wiki/?curid=110050)
+* [Where in the U.S.A. Is Carmen Sandiego? (1996)](https://www.pcgamingwiki.com/wiki/?curid=192557)
 * [Where in the World is Carmen Sandiego? (CD-ROM)](https://www.pcgamingwiki.com/wiki/?curid=21432)
 * [Where in the World Is Carmen Sandiego? Treasures of Knowledge](https://www.pcgamingwiki.com/wiki/?curid=133546)
 * [Where is my Brain!?](https://www.pcgamingwiki.com/wiki/?curid=58164)
