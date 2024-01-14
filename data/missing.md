@@ -37059,6 +37059,7 @@
 * [Zniw Adventure](https://www.pcgamingwiki.com/wiki/?curid=105487)
 * [Znkl - 177](https://www.pcgamingwiki.com/wiki/?curid=76205)
 * [Zodicat](https://www.pcgamingwiki.com/wiki/?curid=107882)
+* [Zoeti](https://www.pcgamingwiki.com/wiki/?curid=192590)
 * [Zofia](https://www.pcgamingwiki.com/wiki/?curid=135893)
 * [Zolg](https://www.pcgamingwiki.com/wiki/?curid=54341)
 * [ZOLO - Zombies Only Live Once](https://www.pcgamingwiki.com/wiki/?curid=123786)
