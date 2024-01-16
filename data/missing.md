@@ -23468,8 +23468,6 @@
 * [Pleasure Airlines](https://www.pcgamingwiki.com/wiki/?curid=164503)
 * [Pleasure Goal: 5 on 5 Mini Soccer](https://www.pcgamingwiki.com/wiki/?curid=168839)
 * [Pleasure in Dream](https://www.pcgamingwiki.com/wiki/?curid=56442)
-* [Pleasure Party](https://www.pcgamingwiki.com/wiki/?curid=178932)
-* [Pleasure Party 2](https://www.pcgamingwiki.com/wiki/?curid=192292)
 * [Pleasure Puzzle: Sexy Girls](https://www.pcgamingwiki.com/wiki/?curid=114042)
 * [Pleasure Puzzle: Workshop](https://www.pcgamingwiki.com/wiki/?curid=113116)
 * [Plenty: Skyhearth](https://www.pcgamingwiki.com/wiki/?curid=52063)
