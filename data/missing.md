@@ -28427,6 +28427,7 @@
 * [South Park: Chef's Luv Shack](https://www.pcgamingwiki.com/wiki/?curid=145857)
 * [South Park: Snow Day!](https://www.pcgamingwiki.com/wiki/?curid=190819)
 * [Southbound](https://www.pcgamingwiki.com/wiki/?curid=139135)
+* [Sovereign Syndicate](https://www.pcgamingwiki.com/wiki/?curid=192617)
 * [Sovereign's Will](https://www.pcgamingwiki.com/wiki/?curid=156999)
 * [Sovereignty: Crown of Kings](https://www.pcgamingwiki.com/wiki/?curid=48260)
 * [Soviet Bear Uni Adventure](https://www.pcgamingwiki.com/wiki/?curid=150343)
