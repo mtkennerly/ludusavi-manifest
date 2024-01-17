@@ -2866,6 +2866,7 @@
 * [Bandit Simulator](https://www.pcgamingwiki.com/wiki/?curid=145536)
 * [Bandit the game](https://www.pcgamingwiki.com/wiki/?curid=144439)
 * [Bandits](https://www.pcgamingwiki.com/wiki/?curid=128563)
+* [Bandle Tale: A League of Legends Story](https://www.pcgamingwiki.com/wiki/?curid=192634)
 * [Bane of Asphodel](https://www.pcgamingwiki.com/wiki/?curid=91158)
 * [Bang Bang Car](https://www.pcgamingwiki.com/wiki/?curid=61311)
 * [Bang Bang Fruit](https://www.pcgamingwiki.com/wiki/?curid=57960)
