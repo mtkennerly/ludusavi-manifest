@@ -13792,6 +13792,7 @@
 * [Hakoniwa Explorer Plus](https://www.pcgamingwiki.com/wiki/?curid=94300)
 * [Hakuoki: Edo Blossoms](https://www.pcgamingwiki.com/wiki/?curid=81766)
 * [Hakuoki: Kyoto Winds](https://www.pcgamingwiki.com/wiki/?curid=67910)
+* [Halcyon Days](https://www.pcgamingwiki.com/wiki/?curid=192642)
 * [Half Dead](https://www.pcgamingwiki.com/wiki/?curid=34024)
 * [Half Past Disaster](https://www.pcgamingwiki.com/wiki/?curid=72869)
 * [Half Past Impossible](https://www.pcgamingwiki.com/wiki/?curid=77269)
