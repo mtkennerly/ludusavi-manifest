@@ -25045,7 +25045,6 @@
 * [Recursion Deluxe](https://www.pcgamingwiki.com/wiki/?curid=37174)
 * [Recursive Dragon](https://www.pcgamingwiki.com/wiki/?curid=96869)
 * [Recursive Pain](https://www.pcgamingwiki.com/wiki/?curid=122410)
-* [Recursive Ruin](https://www.pcgamingwiki.com/wiki/?curid=177001)
 * [Recycle](https://www.pcgamingwiki.com/wiki/?curid=49689)
 * [Recycler's Terminal](https://www.pcgamingwiki.com/wiki/?curid=132088)
 * [Recyclomania](https://www.pcgamingwiki.com/wiki/?curid=143932)
