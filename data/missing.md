@@ -8579,6 +8579,7 @@
 * [Directionless](https://www.pcgamingwiki.com/wiki/?curid=42794)
 * [Director of Football](https://www.pcgamingwiki.com/wiki/?curid=112056)
 * [Dirt Bike Insanity](https://www.pcgamingwiki.com/wiki/?curid=93237)
+* [Dirt Track Racing](https://www.pcgamingwiki.com/wiki/?curid=192688)
 * [Dirt Track Racing 2](https://www.pcgamingwiki.com/wiki/?curid=102041)
 * [Dirt Track Racing: Sprint Cars](https://www.pcgamingwiki.com/wiki/?curid=192681)
 * [Dirty Education](https://www.pcgamingwiki.com/wiki/?curid=145960)
