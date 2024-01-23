@@ -36616,6 +36616,7 @@
 * [WW Fantasy](https://www.pcgamingwiki.com/wiki/?curid=92277)
 * [WW2 Zombie Range VR](https://www.pcgamingwiki.com/wiki/?curid=141236)
 * [WW2: Bunker Simulator](https://www.pcgamingwiki.com/wiki/?curid=151553)
+* [WWE 2K24](https://www.pcgamingwiki.com/wiki/?curid=192765)
 * [WWF in Your House](https://www.pcgamingwiki.com/wiki/?curid=187431)
 * [WWF Raw](https://www.pcgamingwiki.com/wiki/?curid=35829)
 * [WWF WrestleMania: The Arcade Game](https://www.pcgamingwiki.com/wiki/?curid=188586)
