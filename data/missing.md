@@ -2661,6 +2661,7 @@
 * [B](https://www.pcgamingwiki.com/wiki/?curid=64214)
 * [B A S E M E N T](https://www.pcgamingwiki.com/wiki/?curid=72714)
 * [B-12: Brantisky Mk. 12](https://www.pcgamingwiki.com/wiki/?curid=61520)
+* [B-17 Flying Fortress: The Bloody 100th](https://www.pcgamingwiki.com/wiki/?curid=192767)
 * [B-17 Flying Fortress: The Mighty 8th Redux](https://www.pcgamingwiki.com/wiki/?curid=192703)
 * [B-Rabbit](https://www.pcgamingwiki.com/wiki/?curid=134525)
 * [B. Braun Aesculap Spine VR](https://www.pcgamingwiki.com/wiki/?curid=109726)
