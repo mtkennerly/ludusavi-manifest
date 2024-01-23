@@ -29261,7 +29261,6 @@
 * [StarFringe: Adversus](https://www.pcgamingwiki.com/wiki/?curid=43750)
 * [Stargate](https://www.pcgamingwiki.com/wiki/?curid=176023)
 * [Stargate: Resistance](https://www.pcgamingwiki.com/wiki/?curid=192273)
-* [Stargate: Timekeepers](https://www.pcgamingwiki.com/wiki/?curid=173689)
 * [Stargazer](https://www.pcgamingwiki.com/wiki/?curid=47719)
 * [Stargazer Christmas](https://www.pcgamingwiki.com/wiki/?curid=53686)
 * [Stargazer Program](https://www.pcgamingwiki.com/wiki/?curid=93934)
