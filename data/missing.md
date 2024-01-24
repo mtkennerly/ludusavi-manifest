@@ -33442,7 +33442,6 @@
 * [Toltec and the mysteries of the Secret Island](https://www.pcgamingwiki.com/wiki/?curid=122014)
 * [Tom & Jerry](https://www.pcgamingwiki.com/wiki/?curid=136318)
 * [Tom & Jerry: Yankee Doodle's CAT-astrophe](https://www.pcgamingwiki.com/wiki/?curid=136319)
-* [Tom and Jerry in Fists of Furry](https://www.pcgamingwiki.com/wiki/?curid=94967)
 * [Tom Clancy's EndWar Online](https://www.pcgamingwiki.com/wiki/?curid=44840)
 * [Tom Clancy's Ghost Recon Frontline](https://www.pcgamingwiki.com/wiki/?curid=172059)
 * [Tom Clancy's SSN](https://www.pcgamingwiki.com/wiki/?curid=189507)
