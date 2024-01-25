@@ -6176,7 +6176,6 @@
 * [Coffee VendoR](https://www.pcgamingwiki.com/wiki/?curid=125972)
 * [CoffeeBiz](https://www.pcgamingwiki.com/wiki/?curid=121141)
 * [Coffence](https://www.pcgamingwiki.com/wiki/?curid=56892)
-* [Coffin Dodgers](https://www.pcgamingwiki.com/wiki/?curid=47349)
 * [Coffin of Ashes](https://www.pcgamingwiki.com/wiki/?curid=53930)
 * [Coffin Rot Brewing Co.](https://www.pcgamingwiki.com/wiki/?curid=145238)
 * [Cogito](https://www.pcgamingwiki.com/wiki/?curid=51744)
