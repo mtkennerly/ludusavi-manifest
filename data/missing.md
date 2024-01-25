@@ -10049,6 +10049,7 @@
 * [Emerge: Cities of the Apocalypse](https://www.pcgamingwiki.com/wiki/?curid=43358)
 * [Emergency 2016](https://www.pcgamingwiki.com/wiki/?curid=46056)
 * [Emergency 2017](https://www.pcgamingwiki.com/wiki/?curid=52388)
+* [Emergency 5](https://www.pcgamingwiki.com/wiki/?curid=192780)
 * [Emergency Robot Simulator](https://www.pcgamingwiki.com/wiki/?curid=95431)
 * [Emergency Water Landing](https://www.pcgamingwiki.com/wiki/?curid=134821)
 * [EmergeNYC](https://www.pcgamingwiki.com/wiki/?curid=52762)
