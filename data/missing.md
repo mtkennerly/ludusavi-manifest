@@ -4447,7 +4447,6 @@
 * [Breakneck City](https://www.pcgamingwiki.com/wiki/?curid=156903)
 * [Breakout](https://www.pcgamingwiki.com/wiki/?curid=120763)
 * [Breakout Invaders](https://www.pcgamingwiki.com/wiki/?curid=48106)
-* [Breakout: Recharged](https://www.pcgamingwiki.com/wiki/?curid=174639)
 * [BreakThru](https://www.pcgamingwiki.com/wiki/?curid=169495)
 * [BreakTube](https://www.pcgamingwiki.com/wiki/?curid=150257)
 * [Breath of Fire III](https://www.pcgamingwiki.com/wiki/?curid=182741)
