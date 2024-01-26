@@ -22797,7 +22797,6 @@
 * [Pathstow Mystery VR](https://www.pcgamingwiki.com/wiki/?curid=89268)
 * [Pato Box](https://www.pcgamingwiki.com/wiki/?curid=81105)
 * [Patrician IV: Conquest by Trade](https://www.pcgamingwiki.com/wiki/?curid=41094)
-* [Patriots: A Nation Under Fire](https://www.pcgamingwiki.com/wiki/?curid=83159)
 * [Pattern](https://www.pcgamingwiki.com/wiki/?curid=124427)
 * [Patterna](https://www.pcgamingwiki.com/wiki/?curid=50841)
 * [Patterned](https://www.pcgamingwiki.com/wiki/?curid=147735)
