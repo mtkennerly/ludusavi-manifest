@@ -36880,6 +36880,7 @@
 * [Youtubers Life 2](https://www.pcgamingwiki.com/wiki/?curid=172130)
 * [Yozakura Wizard VR](https://www.pcgamingwiki.com/wiki/?curid=87249)
 * [Yrminsul](https://www.pcgamingwiki.com/wiki/?curid=44355)
+* [Ys X: Nordics](https://www.pcgamingwiki.com/wiki/?curid=192829)
 * [Yu Crossing Animals](https://www.pcgamingwiki.com/wiki/?curid=176797)
 * [Yu-Gi-Oh! Duel Links](https://www.pcgamingwiki.com/wiki/?curid=76905)
 * [Yu-Gi-Oh! Legacy of the Duelist](https://www.pcgamingwiki.com/wiki/?curid=54768)
