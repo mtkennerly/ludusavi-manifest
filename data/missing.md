@@ -3342,6 +3342,7 @@
 * [Beholder 3](https://www.pcgamingwiki.com/wiki/?curid=172185)
 * [Beijing 2008](https://www.pcgamingwiki.com/wiki/?curid=41344)
 * [BeiJing Courier Simulator](https://www.pcgamingwiki.com/wiki/?curid=136529)
+* [Bejeweled 2](https://www.pcgamingwiki.com/wiki/?curid=12258)
 * [Bejeweled LIVE](https://www.pcgamingwiki.com/wiki/?curid=157594)
 * [Bekkouame](https://www.pcgamingwiki.com/wiki/?curid=90307)
 * [Beku](https://www.pcgamingwiki.com/wiki/?curid=177098)
