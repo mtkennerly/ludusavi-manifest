@@ -12506,7 +12506,6 @@
 * [Galaxy in Turmoil](https://www.pcgamingwiki.com/wiki/?curid=33430)
 * [Galaxy Monster](https://www.pcgamingwiki.com/wiki/?curid=132206)
 * [Galaxy of Drones](https://www.pcgamingwiki.com/wiki/?curid=67127)
-* [Galaxy of Pen & Paper](https://www.pcgamingwiki.com/wiki/?curid=65096)
 * [Galaxy of Trian](https://www.pcgamingwiki.com/wiki/?curid=51606)
 * [Galaxy Race](https://www.pcgamingwiki.com/wiki/?curid=78677)
 * [Galaxy Reavers](https://www.pcgamingwiki.com/wiki/?curid=39005)
