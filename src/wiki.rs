@@ -366,7 +366,7 @@ impl WikiCacheEntry {
             .as_str()
             .ok_or(Error::WikiData("parse.wikitext"))?;
 
-        let wikitext = wikitext_parser::parse_wikitext(raw_wikitext, article, |_| ());
+        let wikitext = wikitext_parser::parse_wikitext(raw_wikitext, article, |e| println!("  Error: {}", e));
 
         for template in wikitext.list_double_brace_expressions() {
             if let TextPiece::DoubleBraceExpression { tag, attributes } = &template {

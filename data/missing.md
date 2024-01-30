@@ -34801,7 +34801,6 @@
 * [Vampires' Melody](https://www.pcgamingwiki.com/wiki/?curid=164286)
 * [Vampires: Guide Them to Safety!](https://www.pcgamingwiki.com/wiki/?curid=49476)
 * [Vampirina's Nails](https://www.pcgamingwiki.com/wiki/?curid=103325)
-* [Vampyr](https://www.pcgamingwiki.com/wiki/?curid=63506)
 * [Vanaris Tactics](https://www.pcgamingwiki.com/wiki/?curid=172891)
 * [Vandal Hearts](https://www.pcgamingwiki.com/wiki/?curid=181494)
 * [Vanessa Saint-Pierre Delacroix and Her Nightmare](https://www.pcgamingwiki.com/wiki/?curid=187188)
