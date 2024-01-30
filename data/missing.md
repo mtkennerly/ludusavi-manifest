@@ -26350,6 +26350,7 @@
 * [Russian Prisoner VS Nazi Zombies](https://www.pcgamingwiki.com/wiki/?curid=89444)
 * [Russian Roads](https://www.pcgamingwiki.com/wiki/?curid=79186)
 * [Russian roulette](https://www.pcgamingwiki.com/wiki/?curid=120893)
+* [Russian Roulette II: The Next Worlds](https://www.pcgamingwiki.com/wiki/?curid=192875)
 * [Russian Subway Dogs](https://www.pcgamingwiki.com/wiki/?curid=96031)
 * [Russian SuperHero Dead Ivan](https://www.pcgamingwiki.com/wiki/?curid=51746)
 * [Russian Test](https://www.pcgamingwiki.com/wiki/?curid=139130)
