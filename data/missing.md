@@ -36309,6 +36309,7 @@
 * [Witchfire](https://www.pcgamingwiki.com/wiki/?curid=154545)
 * [Witchinour](https://www.pcgamingwiki.com/wiki/?curid=63169)
 * [Witchkin](https://www.pcgamingwiki.com/wiki/?curid=66569)
+* [Witchtastic](https://www.pcgamingwiki.com/wiki/?curid=192885)
 * [With Loneliness](https://www.pcgamingwiki.com/wiki/?curid=132582)
 * [Withering Kingdom: Arcane War](https://www.pcgamingwiki.com/wiki/?curid=34978)
 * [Withering Kingdom: Flurry of Arrows](https://www.pcgamingwiki.com/wiki/?curid=36706)
