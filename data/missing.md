@@ -2848,6 +2848,7 @@
 * [Balloonatics](https://www.pcgamingwiki.com/wiki/?curid=81038)
 * [BalloonBoyBob](https://www.pcgamingwiki.com/wiki/?curid=156347)
 * [Balls and Magnets](https://www.pcgamingwiki.com/wiki/?curid=81048)
+* [Balls of Steel (2024)](https://www.pcgamingwiki.com/wiki/?curid=192881)
 * [Balls Out](https://www.pcgamingwiki.com/wiki/?curid=139651)
 * [Balls! Virtual Reality Cricket](https://www.pcgamingwiki.com/wiki/?curid=50773)
 * [Balls!🤬🍆](https://www.pcgamingwiki.com/wiki/?curid=152903)
