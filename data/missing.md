@@ -13435,7 +13435,7 @@
 * [Greed 3: Old Enemies Returning](https://www.pcgamingwiki.com/wiki/?curid=129643)
 * [Greed: Forbidden Experiments](https://www.pcgamingwiki.com/wiki/?curid=125757)
 * [Greed: The Mad Scientist](https://www.pcgamingwiki.com/wiki/?curid=124241)
-* [GreedFall 2](https://www.pcgamingwiki.com/wiki/?curid=192535)
+* [GreedFall 2: The Dying World](https://www.pcgamingwiki.com/wiki/?curid=192535)
 * [Greedland](https://www.pcgamingwiki.com/wiki/?curid=192804)
 * [Greedy Crush](https://www.pcgamingwiki.com/wiki/?curid=123507)
 * [Greedy Developer's Cash Grab](https://www.pcgamingwiki.com/wiki/?curid=89593)
