@@ -13293,7 +13293,6 @@
 * [Gran Skrea Online](https://www.pcgamingwiki.com/wiki/?curid=80954)
 * [Gran Vitreous](https://www.pcgamingwiki.com/wiki/?curid=47855)
 * [Granado Espada](https://www.pcgamingwiki.com/wiki/?curid=45071)
-* [Granblue Fantasy: Relink](https://www.pcgamingwiki.com/wiki/?curid=173628)
 * [Grand Academy for Future Villains](https://www.pcgamingwiki.com/wiki/?curid=71782)
 * [Grand Academy II: Attack of the Sequel](https://www.pcgamingwiki.com/wiki/?curid=150377)
 * [Grand Ages: Medieval](https://www.pcgamingwiki.com/wiki/?curid=34318)
