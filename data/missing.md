@@ -29414,6 +29414,7 @@
 * [Stein.world](https://www.pcgamingwiki.com/wiki/?curid=132639)
 * [Stellaluna](https://www.pcgamingwiki.com/wiki/?curid=186460)
 * [Stellar 2D](https://www.pcgamingwiki.com/wiki/?curid=47069)
+* [Stellar Blade](https://www.pcgamingwiki.com/wiki/?curid=192948)
 * [Stellar Commanders](https://www.pcgamingwiki.com/wiki/?curid=147795)
 * [Stellar Impact](https://www.pcgamingwiki.com/wiki/?curid=40797)
 * [Stellar Interface](https://www.pcgamingwiki.com/wiki/?curid=38833)
