@@ -3654,6 +3654,7 @@
 * [Black Closet](https://www.pcgamingwiki.com/wiki/?curid=34059)
 * [Black Clover: Quartet Knights](https://www.pcgamingwiki.com/wiki/?curid=130951)
 * [Black Crystals](https://www.pcgamingwiki.com/wiki/?curid=157021)
+* [Black Dahlia](https://www.pcgamingwiki.com/wiki/?curid=192954)
 * [Black Day](https://www.pcgamingwiki.com/wiki/?curid=69022)
 * [Black Death: Divarication](https://www.pcgamingwiki.com/wiki/?curid=68709)
 * [Black Dream](https://www.pcgamingwiki.com/wiki/?curid=90016)
