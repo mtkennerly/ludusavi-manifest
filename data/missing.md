@@ -26446,6 +26446,7 @@
 * [Safety Driving Simulator: Car](https://www.pcgamingwiki.com/wiki/?curid=43195)
 * [Safety Driving Simulator: Motorbike](https://www.pcgamingwiki.com/wiki/?curid=43193)
 * [Saga](https://www.pcgamingwiki.com/wiki/?curid=46985)
+* [SaGa Emerald Beyond](https://www.pcgamingwiki.com/wiki/?curid=193002)
 * [SaGa Frontier Remastered](https://www.pcgamingwiki.com/wiki/?curid=165469)
 * [Saga of the North Wind](https://www.pcgamingwiki.com/wiki/?curid=53409)
 * [Saga of the Void: Admirals](https://www.pcgamingwiki.com/wiki/?curid=51433)
