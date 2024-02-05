@@ -31900,7 +31900,6 @@
 * [The Inner World: The Puzzle](https://www.pcgamingwiki.com/wiki/?curid=129429)
 * [The Ino Chronicles: Ascension](https://www.pcgamingwiki.com/wiki/?curid=74694)
 * [The Inquisitor](https://www.pcgamingwiki.com/wiki/?curid=79809)
-* [The Inquisitor (2024)](https://www.pcgamingwiki.com/wiki/?curid=177869)
 * [The inside of a drawer](https://www.pcgamingwiki.com/wiki/?curid=155474)
 * [The Intern - O Estágio](https://www.pcgamingwiki.com/wiki/?curid=79930)
 * [The Internship](https://www.pcgamingwiki.com/wiki/?curid=94451)
