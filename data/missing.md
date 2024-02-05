@@ -9293,6 +9293,7 @@
 * [Dreamstones](https://www.pcgamingwiki.com/wiki/?curid=74568)
 * [DreamTank](https://www.pcgamingwiki.com/wiki/?curid=72895)
 * [Dreamwalker: Never Fall Asleep](https://www.pcgamingwiki.com/wiki/?curid=121501)
+* [Dreamwild](https://www.pcgamingwiki.com/wiki/?curid=193005)
 * [DreamWorks All-Star Kart Racing](https://www.pcgamingwiki.com/wiki/?curid=192135)
 * [DreamWorks Dragons: Dawn of New Riders](https://www.pcgamingwiki.com/wiki/?curid=124444)
 * [Dreamworks Spirit Lucky's Big Adventure](https://www.pcgamingwiki.com/wiki/?curid=176848)
