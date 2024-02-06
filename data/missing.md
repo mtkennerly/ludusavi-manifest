@@ -16533,7 +16533,6 @@
 * [Jump Boy](https://www.pcgamingwiki.com/wiki/?curid=156449)
 * [Jump Doper (Cozy Pitch)](https://www.pcgamingwiki.com/wiki/?curid=128585)
 * [Jump Jumpz](https://www.pcgamingwiki.com/wiki/?curid=122158)
-* [Jump King](https://www.pcgamingwiki.com/wiki/?curid=134456)
 * [Jump Like A Pirate](https://www.pcgamingwiki.com/wiki/?curid=56570)
 * [Jump Off The Bridge](https://www.pcgamingwiki.com/wiki/?curid=134532)
 * [Jump Stars](https://www.pcgamingwiki.com/wiki/?curid=62745)
