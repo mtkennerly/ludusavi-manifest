@@ -33945,6 +33945,7 @@
 * [Tribe of Pok](https://www.pcgamingwiki.com/wiki/?curid=36878)
 * [TribeQuest: Red Killer](https://www.pcgamingwiki.com/wiki/?curid=43013)
 * [Tribes 2](https://www.pcgamingwiki.com/wiki/?curid=20125)
+* [Tribes 3: Rivals](https://www.pcgamingwiki.com/wiki/?curid=193059)
 * [Tribes of Midgard - Open Beta](https://www.pcgamingwiki.com/wiki/?curid=144401)
 * [Triblaster](https://www.pcgamingwiki.com/wiki/?curid=50027)
 * [Tribloos 3](https://www.pcgamingwiki.com/wiki/?curid=98156)
