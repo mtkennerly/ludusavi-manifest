@@ -26340,6 +26340,7 @@
 * [Rush Rover](https://www.pcgamingwiki.com/wiki/?curid=54955)
 * [Rush to Adventure](https://www.pcgamingwiki.com/wiki/?curid=69344)
 * [Rush'n Attack](https://www.pcgamingwiki.com/wiki/?curid=171733)
+* [Rushdown Revolt](https://www.pcgamingwiki.com/wiki/?curid=193058)
 * [Russia Battlegrounds](https://www.pcgamingwiki.com/wiki/?curid=99970)
 * [Russia Horror 20!8](https://www.pcgamingwiki.com/wiki/?curid=88788)
 * [Russia Simulator](https://www.pcgamingwiki.com/wiki/?curid=104495)
