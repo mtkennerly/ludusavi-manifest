@@ -27286,6 +27286,7 @@
 * [SHEEP SLING](https://www.pcgamingwiki.com/wiki/?curid=112212)
 * [SHEEP.IO](https://www.pcgamingwiki.com/wiki/?curid=138894)
 * [Sheepageddon](https://www.pcgamingwiki.com/wiki/?curid=108246)
+* [Sheepy: A Short Adventure](https://www.pcgamingwiki.com/wiki/?curid=193109)
 * [Sheila Rae, the Brave](https://www.pcgamingwiki.com/wiki/?curid=187064)
 * [SHELL](https://www.pcgamingwiki.com/wiki/?curid=120868)
 * [ShellBlast: Legacy Edition](https://www.pcgamingwiki.com/wiki/?curid=94443)
