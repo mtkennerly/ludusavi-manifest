@@ -14242,7 +14242,6 @@
 * [Hellbreaker](https://www.pcgamingwiki.com/wiki/?curid=82103)
 * [HellCat](https://www.pcgamingwiki.com/wiki/?curid=96415)
 * [HellCrunch](https://www.pcgamingwiki.com/wiki/?curid=88114)
-* [Helldivers 2](https://www.pcgamingwiki.com/wiki/?curid=187411)
 * [Hellenica](https://www.pcgamingwiki.com/wiki/?curid=54673)
 * [Hellfire](https://www.pcgamingwiki.com/wiki/?curid=189022)
 * [Hellfire Fortress](https://www.pcgamingwiki.com/wiki/?curid=95216)
