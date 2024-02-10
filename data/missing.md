@@ -9572,6 +9572,7 @@
 * [Dungeon Town](https://www.pcgamingwiki.com/wiki/?curid=122612)
 * [Dungeon Travelers 2-2: The Fallen Maidens & the Book of Beginnings](https://www.pcgamingwiki.com/wiki/?curid=187654)
 * [Dungeon Travelers 2: The Royal Library & the Monster Seal](https://www.pcgamingwiki.com/wiki/?curid=187649)
+* [Dungeon Vixens: A Tale of Temptation](https://www.pcgamingwiki.com/wiki/?curid=193124)
 * [Dungeon Warfare 2](https://www.pcgamingwiki.com/wiki/?curid=94296)
 * [Dungeon Witches](https://www.pcgamingwiki.com/wiki/?curid=172220)
 * [Dungeon's Barrage](https://www.pcgamingwiki.com/wiki/?curid=77295)
