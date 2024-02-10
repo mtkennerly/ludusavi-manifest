@@ -31306,6 +31306,7 @@
 * [The Caretaker - Dungeon Nightshift](https://www.pcgamingwiki.com/wiki/?curid=41952)
 * [The Caribbean Sail](https://www.pcgamingwiki.com/wiki/?curid=70319)
 * [The Case Book of Arne](https://www.pcgamingwiki.com/wiki/?curid=164713)
+* [The Casting of Frank Stone](https://www.pcgamingwiki.com/wiki/?curid=193128)
 * [The Castle Disaster](https://www.pcgamingwiki.com/wiki/?curid=90118)
 * [The Castle Disaster 2](https://www.pcgamingwiki.com/wiki/?curid=99986)
 * [The Castles of Burgundy](https://www.pcgamingwiki.com/wiki/?curid=128189)
