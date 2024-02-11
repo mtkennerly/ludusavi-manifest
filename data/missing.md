@@ -14901,7 +14901,6 @@
 * [Homescapes](https://www.pcgamingwiki.com/wiki/?curid=177251)
 * [HomestarVR](https://www.pcgamingwiki.com/wiki/?curid=92855)
 * [Homestead](https://www.pcgamingwiki.com/wiki/?curid=122866)
-* [Homestead Arcana](https://www.pcgamingwiki.com/wiki/?curid=187164)
 * [Hometopia](https://www.pcgamingwiki.com/wiki/?curid=185904)
 * [Homeward](https://www.pcgamingwiki.com/wiki/?curid=128940)
 * [Homeward Duck](https://www.pcgamingwiki.com/wiki/?curid=134943)
