@@ -31594,7 +31594,6 @@
 * [The Exorcist](https://www.pcgamingwiki.com/wiki/?curid=67243)
 * [The Exorcist: Legion VR](https://www.pcgamingwiki.com/wiki/?curid=72893)
 * [The Exorcist: Legion VR (Deluxe Edition)](https://www.pcgamingwiki.com/wiki/?curid=149019)
-* [The Expanse: A Telltale Series](https://www.pcgamingwiki.com/wiki/?curid=173582)
 * [The Expedition](https://www.pcgamingwiki.com/wiki/?curid=127752)
 * [The Experiment: Escape Room](https://www.pcgamingwiki.com/wiki/?curid=122022)
 * [The explorer of night](https://www.pcgamingwiki.com/wiki/?curid=130157)
