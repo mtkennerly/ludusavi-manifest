@@ -34821,6 +34821,7 @@
 * [Vampire of the Sands](https://www.pcgamingwiki.com/wiki/?curid=47215)
 * [Vampire Slave 1: A Yaoi Visual Novel](https://www.pcgamingwiki.com/wiki/?curid=179000)
 * [Vampire: The Masquerade - Bloodlines 2](https://www.pcgamingwiki.com/wiki/?curid=131333)
+* [Vampire: The Masquerade - Justice](https://www.pcgamingwiki.com/wiki/?curid=193164)
 * [Vampire: The Masquerade - Out for Blood](https://www.pcgamingwiki.com/wiki/?curid=161616)
 * [Vampire: The Masquerade - Parliament of Knives](https://www.pcgamingwiki.com/wiki/?curid=161703)
 * [Vampires Dawn 3: The Crimson Realm](https://www.pcgamingwiki.com/wiki/?curid=185530)
