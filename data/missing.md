@@ -2896,7 +2896,6 @@
 * [Bang! Howdy](https://www.pcgamingwiki.com/wiki/?curid=66269)
 * [BanHammer](https://www.pcgamingwiki.com/wiki/?curid=45172)
 * [Banished Castle VR](https://www.pcgamingwiki.com/wiki/?curid=144043)
-* [Banishers: Ghosts of New Eden](https://www.pcgamingwiki.com/wiki/?curid=192417)
 * [Bank Limit: Advanced Battle Racing](https://www.pcgamingwiki.com/wiki/?curid=41569)
 * [Bankrupt Heroines 2](https://www.pcgamingwiki.com/wiki/?curid=179009)
 * [Bankster](https://www.pcgamingwiki.com/wiki/?curid=77265)
