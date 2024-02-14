@@ -17966,7 +17966,6 @@
 * [Lily's Day Off](https://www.pcgamingwiki.com/wiki/?curid=56078)
 * [Lily's Handmaid](https://www.pcgamingwiki.com/wiki/?curid=156939)
 * [Lily's Night Off](https://www.pcgamingwiki.com/wiki/?curid=100474)
-* [Lilycle Rainbow Stage!!!](https://www.pcgamingwiki.com/wiki/?curid=129889)
 * [Lily´s Epic Quest](https://www.pcgamingwiki.com/wiki/?curid=41601)
 * [Limberjack](https://www.pcgamingwiki.com/wiki/?curid=37054)
 * [Liminal](https://www.pcgamingwiki.com/wiki/?curid=103097)
