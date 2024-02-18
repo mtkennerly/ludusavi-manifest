@@ -6624,6 +6624,7 @@
 * [Costume Party](https://www.pcgamingwiki.com/wiki/?curid=179007)
 * [Costumenaut](https://www.pcgamingwiki.com/wiki/?curid=67817)
 * [Cotrio](https://www.pcgamingwiki.com/wiki/?curid=125803)
+* [Cotropitorii](https://www.pcgamingwiki.com/wiki/?curid=193268)
 * [Cottage Garden](https://www.pcgamingwiki.com/wiki/?curid=89244)
 * [Cotton 2: Magical Night Dreams](https://www.pcgamingwiki.com/wiki/?curid=169514)
 * [Cotton Guardian Force Saturn Tribute](https://www.pcgamingwiki.com/wiki/?curid=168133)
