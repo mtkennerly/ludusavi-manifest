@@ -31142,7 +31142,6 @@
 * [The Angry Banana](https://www.pcgamingwiki.com/wiki/?curid=127257)
 * [The Anomaly](https://www.pcgamingwiki.com/wiki/?curid=121020)
 * [The Answer Is 42](https://www.pcgamingwiki.com/wiki/?curid=153934)
-* [The Ant Bully](https://www.pcgamingwiki.com/wiki/?curid=172785)
 * [The Antidote](https://www.pcgamingwiki.com/wiki/?curid=127991)
 * [The Apartment](https://www.pcgamingwiki.com/wiki/?curid=80529)
 * [The Apotheosis Project](https://www.pcgamingwiki.com/wiki/?curid=47311)
