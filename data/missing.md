@@ -23755,6 +23755,7 @@
 * [Powermonger](https://www.pcgamingwiki.com/wiki/?curid=8284)
 * [Powernaut Vangardt](https://www.pcgamingwiki.com/wiki/?curid=60265)
 * [Powernode](https://www.pcgamingwiki.com/wiki/?curid=129825)
+* [Powers in the Basement](https://www.pcgamingwiki.com/wiki/?curid=193303)
 * [Powerslide](https://www.pcgamingwiki.com/wiki/?curid=14211)
 * [PowersVR](https://www.pcgamingwiki.com/wiki/?curid=57659)
 * [PowerUp Elevation](https://www.pcgamingwiki.com/wiki/?curid=104865)
