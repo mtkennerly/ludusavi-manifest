@@ -12510,6 +12510,7 @@
 * [Galaxy Commando](https://www.pcgamingwiki.com/wiki/?curid=54485)
 * [Galaxy Control: 3D Strategy](https://www.pcgamingwiki.com/wiki/?curid=41695)
 * [Galaxy Crash](https://www.pcgamingwiki.com/wiki/?curid=144505)
+* [Galaxy Drift](https://www.pcgamingwiki.com/wiki/?curid=193417)
 * [Galaxy Fight: Universal Warriors](https://www.pcgamingwiki.com/wiki/?curid=168076)
 * [Galaxy Forces VR](https://www.pcgamingwiki.com/wiki/?curid=141892)
 * [Galaxy in Eclipse](https://www.pcgamingwiki.com/wiki/?curid=56633)
