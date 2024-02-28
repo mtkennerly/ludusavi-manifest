@@ -5655,6 +5655,7 @@
 * [Chinomikon](https://www.pcgamingwiki.com/wiki/?curid=68448)
 * [Chio Hero](https://www.pcgamingwiki.com/wiki/?curid=93335)
 * [Chip](https://www.pcgamingwiki.com/wiki/?curid=38567)
+* [Chip 'N Dale Rescue Rangers: The Adventure in Nimnul's Castle](https://www.pcgamingwiki.com/wiki/?curid=193473)
 * [Chip's Challenge 2](https://www.pcgamingwiki.com/wiki/?curid=47737)
 * [CHIP: Rescuer of Kittens](https://www.pcgamingwiki.com/wiki/?curid=157389)
 * [Chipmonk!](https://www.pcgamingwiki.com/wiki/?curid=128702)
