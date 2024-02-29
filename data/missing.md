@@ -5127,7 +5127,6 @@
 * [Carnival Games VR](https://www.pcgamingwiki.com/wiki/?curid=39341)
 * [Carnival Hunt](https://www.pcgamingwiki.com/wiki/?curid=154049)
 * [Carnivore Land](https://www.pcgamingwiki.com/wiki/?curid=44224)
-* [Carnivores 2](https://www.pcgamingwiki.com/wiki/?curid=161115)
 * [Carnivores: Dinosaur Hunt](https://www.pcgamingwiki.com/wiki/?curid=186795)
 * [Carnivores: Dinosaur Hunter Reborn](https://www.pcgamingwiki.com/wiki/?curid=47761)
 * [Carnivores: Ice Age](https://www.pcgamingwiki.com/wiki/?curid=161118)
