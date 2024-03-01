@@ -7975,7 +7975,6 @@
 * [Decarnation](https://www.pcgamingwiki.com/wiki/?curid=187547)
 * [Decaying West](https://www.pcgamingwiki.com/wiki/?curid=137268)
 * [Deceit 2](https://www.pcgamingwiki.com/wiki/?curid=185719)
-* [Deceive Inc.](https://www.pcgamingwiki.com/wiki/?curid=186726)
 * [Deceiver](https://www.pcgamingwiki.com/wiki/?curid=81808)
 * [Decisions](https://www.pcgamingwiki.com/wiki/?curid=126211)
 * [Decisive Campaigns: Barbarossa](https://www.pcgamingwiki.com/wiki/?curid=43296)
