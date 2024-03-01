@@ -18638,6 +18638,7 @@
 * [Machine World 2](https://www.pcgamingwiki.com/wiki/?curid=65694)
 * [Machineers - Episode 1: Tivoli Town](https://www.pcgamingwiki.com/wiki/?curid=47875)
 * [Machines at War 3](https://www.pcgamingwiki.com/wiki/?curid=49859)
+* [Machinika Museum](https://www.pcgamingwiki.com/wiki/?curid=193517)
 * [MachRace](https://www.pcgamingwiki.com/wiki/?curid=35150)
 * [Macroboy Y](https://www.pcgamingwiki.com/wiki/?curid=103241)
 * [Macross: Shooting Insight](https://www.pcgamingwiki.com/wiki/?curid=189361)
