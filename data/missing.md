@@ -30531,7 +30531,6 @@
 * [Tactical Monsters Rumble Arena](https://www.pcgamingwiki.com/wiki/?curid=72385)
 * [Tactical Nexus](https://www.pcgamingwiki.com/wiki/?curid=150367)
 * [Tactical Operations](https://www.pcgamingwiki.com/wiki/?curid=77071)
-* [Tactical Ops: Assault on Terror](https://www.pcgamingwiki.com/wiki/?curid=172097)
 * [Tactical Soccer The New Season](https://www.pcgamingwiki.com/wiki/?curid=45533)
 * [Tactics & Strategy Master:Princess of Holy Light](https://www.pcgamingwiki.com/wiki/?curid=121182)
 * [Tactics 2: War](https://www.pcgamingwiki.com/wiki/?curid=70329)
