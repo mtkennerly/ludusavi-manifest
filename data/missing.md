@@ -515,6 +515,7 @@
 * [A World With No Colour](https://www.pcgamingwiki.com/wiki/?curid=150217)
 * [A Writer and His Daughter](https://www.pcgamingwiki.com/wiki/?curid=68577)
 * [A-10 Cuba!](https://www.pcgamingwiki.com/wiki/?curid=1697)
+* [A-10 Tank Killer](https://www.pcgamingwiki.com/wiki/?curid=193552)
 * [A-10 VR](https://www.pcgamingwiki.com/wiki/?curid=37253)
 * [A-Escape VR](https://www.pcgamingwiki.com/wiki/?curid=51525)
 * [A-Men](https://www.pcgamingwiki.com/wiki/?curid=50711)
