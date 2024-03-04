@@ -2056,7 +2056,6 @@
 * [Arkane Rush Multiverse Mayhem](https://www.pcgamingwiki.com/wiki/?curid=125771)
 * [Arkanoid For Painters](https://www.pcgamingwiki.com/wiki/?curid=104179)
 * [Arkanoid: Doh It Again](https://www.pcgamingwiki.com/wiki/?curid=137738)
-* [Arkanoid: Eternal Battle](https://www.pcgamingwiki.com/wiki/?curid=182313)
 * [ArkanoidSmoking](https://www.pcgamingwiki.com/wiki/?curid=67187)
 * [Arkasha](https://www.pcgamingwiki.com/wiki/?curid=82139)
 * [Arkham Horror: Mother's Embrace](https://www.pcgamingwiki.com/wiki/?curid=93355)
