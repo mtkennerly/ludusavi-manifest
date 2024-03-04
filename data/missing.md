@@ -35851,7 +35851,6 @@
 * [We Are Chicago](https://www.pcgamingwiki.com/wiki/?curid=56802)
 * [We Are Doomed](https://www.pcgamingwiki.com/wiki/?curid=48154)
 * [We Are Football](https://www.pcgamingwiki.com/wiki/?curid=167882)
-* [We Are Football 2024](https://www.pcgamingwiki.com/wiki/?curid=193229)
 * [We Are Legion](https://www.pcgamingwiki.com/wiki/?curid=46945)
 * [We Are OFK](https://www.pcgamingwiki.com/wiki/?curid=172656)
 * [We Are Screwed!](https://www.pcgamingwiki.com/wiki/?curid=145395)
