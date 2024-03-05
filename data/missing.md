@@ -7988,6 +7988,7 @@
 * [Deck of Ashes](https://www.pcgamingwiki.com/wiki/?curid=128511)
 * [Deckbound Heroes](https://www.pcgamingwiki.com/wiki/?curid=59203)
 * [Decker](https://www.pcgamingwiki.com/wiki/?curid=139116)
+* [Decline's Drops](https://www.pcgamingwiki.com/wiki/?curid=193601)
 * [Decoherence](https://www.pcgamingwiki.com/wiki/?curid=148014)
 * [Deconstruction](https://www.pcgamingwiki.com/wiki/?curid=105267)
 * [Deconstruction Lab](https://www.pcgamingwiki.com/wiki/?curid=121051)
