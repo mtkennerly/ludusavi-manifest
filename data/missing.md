@@ -28158,7 +28158,6 @@
 * [SnowNight](https://www.pcgamingwiki.com/wiki/?curid=123904)
 * [Snowrifters VEX](https://www.pcgamingwiki.com/wiki/?curid=139099)
 * [Snuffles and Co.](https://www.pcgamingwiki.com/wiki/?curid=113104)
-* [Snufkin: Melody of Moominvalley](https://www.pcgamingwiki.com/wiki/?curid=193527)
 * [SNUSE 221](https://www.pcgamingwiki.com/wiki/?curid=131988)
 * [So Long Earth](https://www.pcgamingwiki.com/wiki/?curid=43302)
 * [So Long Grandma](https://www.pcgamingwiki.com/wiki/?curid=87487)
