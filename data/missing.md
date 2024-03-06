@@ -12831,6 +12831,7 @@
 * [Ghost Killer](https://www.pcgamingwiki.com/wiki/?curid=94725)
 * [Ghost Land](https://www.pcgamingwiki.com/wiki/?curid=140791)
 * [Ghost Mountain Roller Coaster](https://www.pcgamingwiki.com/wiki/?curid=93060)
+* [Ghost of Tsushima Director's Cut](https://www.pcgamingwiki.com/wiki/?curid=193615)
 * [Ghost Parade](https://www.pcgamingwiki.com/wiki/?curid=150059)
 * [Ghost Pilots](https://www.pcgamingwiki.com/wiki/?curid=168742)
 * [Ghost Platoon](https://www.pcgamingwiki.com/wiki/?curid=81669)
