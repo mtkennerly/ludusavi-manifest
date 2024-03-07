@@ -2339,6 +2339,7 @@
 * [Astro Bouncer](https://www.pcgamingwiki.com/wiki/?curid=99332)
 * [Astro Boy: Edge of Time](https://www.pcgamingwiki.com/wiki/?curid=63334)
 * [Astro Duel](https://www.pcgamingwiki.com/wiki/?curid=44503)
+* [Astro Duel II](https://www.pcgamingwiki.com/wiki/?curid=193627)
 * [Astro Emporia](https://www.pcgamingwiki.com/wiki/?curid=48809)
 * [Astro Joust](https://www.pcgamingwiki.com/wiki/?curid=81498)
 * [Astro Lords: Oort Cloud](https://www.pcgamingwiki.com/wiki/?curid=44954)
