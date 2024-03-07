@@ -32623,6 +32623,7 @@
 * [The Sims Online](https://www.pcgamingwiki.com/wiki/?curid=97231)
 * [The Sin Collector: Repentless](https://www.pcgamingwiki.com/wiki/?curid=172868)
 * [The Singularity Wish](https://www.pcgamingwiki.com/wiki/?curid=94397)
+* [The Sinking City 2](https://www.pcgamingwiki.com/wiki/?curid=193625)
 * [The Sisters: Party of the Year](https://www.pcgamingwiki.com/wiki/?curid=179841)
 * [The Six Dragons](https://www.pcgamingwiki.com/wiki/?curid=113124)
 * [The Skeleton](https://www.pcgamingwiki.com/wiki/?curid=99752)
