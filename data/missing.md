@@ -1519,7 +1519,7 @@
 * [American Railroads - Summit River & Pine Valley](https://www.pcgamingwiki.com/wiki/?curid=91973)
 * [American University Life: Welcome Week!](https://www.pcgamingwiki.com/wiki/?curid=102421)
 * [American VR Coasters](https://www.pcgamingwiki.com/wiki/?curid=65006)
-* [Amerzone: The Explorer's Legacy (2024)](https://www.pcgamingwiki.com/wiki/?curid=193647)
+* [Amerzone - The Explorer's Legacy (2024)](https://www.pcgamingwiki.com/wiki/?curid=193647)
 * [Amethlion](https://www.pcgamingwiki.com/wiki/?curid=108100)
 * [Amid Evil VR](https://www.pcgamingwiki.com/wiki/?curid=192756)
 * [Amigdala](https://www.pcgamingwiki.com/wiki/?curid=43935)
