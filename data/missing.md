@@ -31993,7 +31993,6 @@
 * [The Last Dynasty](https://www.pcgamingwiki.com/wiki/?curid=147026)
 * [The Last Error](https://www.pcgamingwiki.com/wiki/?curid=42487)
 * [The Last Escape of Yeti](https://www.pcgamingwiki.com/wiki/?curid=139133)
-* [The Last Faith](https://www.pcgamingwiki.com/wiki/?curid=191838)
 * [The Last Friend](https://www.pcgamingwiki.com/wiki/?curid=122764)
 * [The Last Front](https://www.pcgamingwiki.com/wiki/?curid=93150)
 * [The Last Haven](https://www.pcgamingwiki.com/wiki/?curid=156817)
