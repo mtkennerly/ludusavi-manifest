@@ -15217,6 +15217,7 @@
 * [Hunter Gatherer](https://www.pcgamingwiki.com/wiki/?curid=48401)
 * [Hunter of Antiques](https://www.pcgamingwiki.com/wiki/?curid=76281)
 * [Hunter Story](https://www.pcgamingwiki.com/wiki/?curid=72820)
+* [Hunter x Hunter: Nen x Impact](https://www.pcgamingwiki.com/wiki/?curid=193653)
 * [Hunter's Arena: Legends](https://www.pcgamingwiki.com/wiki/?curid=145191)
 * [Hunter's Legacy](https://www.pcgamingwiki.com/wiki/?curid=42255)
 * [Hunter's Soul](https://www.pcgamingwiki.com/wiki/?curid=150884)
