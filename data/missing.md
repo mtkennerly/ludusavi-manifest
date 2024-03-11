@@ -3131,6 +3131,7 @@
 * [Battlefield Online](https://www.pcgamingwiki.com/wiki/?curid=191533)
 * [Battlefield Supremacy](https://www.pcgamingwiki.com/wiki/?curid=109842)
 * [Battlefleet Engineer](https://www.pcgamingwiki.com/wiki/?curid=67225)
+* [BattleForge](https://www.pcgamingwiki.com/wiki/?curid=193655)
 * [Battlegrounds of Eldhelm](https://www.pcgamingwiki.com/wiki/?curid=49474)
 * [Battlegrounds2D.IO](https://www.pcgamingwiki.com/wiki/?curid=124062)
 * [BattleGroupVR](https://www.pcgamingwiki.com/wiki/?curid=157315)
