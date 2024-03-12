@@ -558,6 +558,8 @@ impl WikiPath {
         }
 
         static CONSECUTIVE_SLASHES: Lazy<Regex> = Lazy::new(|| Regex::new(r"/{2,}").unwrap());
+        static UNNECESSARY_DOUBLE_STAR_1: Lazy<Regex> = Lazy::new(|| Regex::new(r"([^/*])\*{2,}").unwrap());
+        static UNNECESSARY_DOUBLE_STAR_2: Lazy<Regex> = Lazy::new(|| Regex::new(r"\*{2,}([^/*])").unwrap());
         static ENDING_WILDCARD: Lazy<Regex> = Lazy::new(|| Regex::new(r"(/\*)+$").unwrap());
         static APP_DATA: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%appdata%").unwrap());
         static APP_DATA_ROAMING: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%/AppData/Roaming").unwrap());
@@ -568,6 +570,8 @@ impl WikiPath {
 
         for (pattern, replacement) in [
             (&CONSECUTIVE_SLASHES, "/"),
+            (&UNNECESSARY_DOUBLE_STAR_1, "${1}*"),
+            (&UNNECESSARY_DOUBLE_STAR_2, "*${1}"),
             (&ENDING_WILDCARD, ""),
             (&APP_DATA, placeholder::WIN_APP_DATA),
             (&APP_DATA_ROAMING, placeholder::WIN_APP_DATA),
