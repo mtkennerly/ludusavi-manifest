@@ -22427,7 +22427,6 @@
 * [OutBreak: The Escape](https://www.pcgamingwiki.com/wiki/?curid=78441)
 * [Outbreak: The New Nightmare](https://www.pcgamingwiki.com/wiki/?curid=62825)
 * [Outburst](https://www.pcgamingwiki.com/wiki/?curid=65496)
-* [Outcast: A New Beginning](https://www.pcgamingwiki.com/wiki/?curid=171519)
 * [Outcome](https://www.pcgamingwiki.com/wiki/?curid=126402)
 * [Outcry](https://www.pcgamingwiki.com/wiki/?curid=193720)
 * [Outer Rim](https://www.pcgamingwiki.com/wiki/?curid=60243)
