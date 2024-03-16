@@ -30632,6 +30632,7 @@
 * [Tales of Glacier (VR)](https://www.pcgamingwiki.com/wiki/?curid=71696)
 * [Tales of Glory](https://www.pcgamingwiki.com/wiki/?curid=62608)
 * [Tales of Inca - Lost Land](https://www.pcgamingwiki.com/wiki/?curid=89312)
+* [Tales of Kenzera: ZAU](https://www.pcgamingwiki.com/wiki/?curid=193730)
 * [Tales of Lazo](https://www.pcgamingwiki.com/wiki/?curid=144094)
 * [Tales of Legends](https://www.pcgamingwiki.com/wiki/?curid=57301)
 * [Tales of Mahabharata](https://www.pcgamingwiki.com/wiki/?curid=102711)
