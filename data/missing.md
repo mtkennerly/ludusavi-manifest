@@ -37844,4 +37844,3 @@
 * [누가 그녀를 죽였나](https://www.pcgamingwiki.com/wiki/?curid=136414)
 * [무연](https://www.pcgamingwiki.com/wiki/?curid=144415)
 * [암전:Blackout](https://www.pcgamingwiki.com/wiki/?curid=129985)
-* [＜/reality＞](https://www.pcgamingwiki.com/wiki/?curid=57848)

@@ -64,6 +64,8 @@ pub enum Error {
     PageMissing,
     #[error("Could not find product info")]
     SteamProductInfo,
+    #[error("Could not decode product info: {0:?}")]
+    SteamProductInfoDecoding(serde_json::Error),
     #[error("Schema validation failed for manifest")]
     ManifestSchema,
     #[error("Subprocess: {0}")]
@@ -77,6 +79,7 @@ impl Error {
             | Error::WikiData(_)
             | Error::PageMissing
             | Error::SteamProductInfo
+            | Error::SteamProductInfoDecoding(_)
             | Error::Subprocess(_) => false,
             Error::ManifestSchema => true,
         }

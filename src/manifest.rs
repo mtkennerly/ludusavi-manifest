@@ -2,7 +2,7 @@ use std::collections::{BTreeMap, BTreeSet};
 
 use crate::{
     resource::ResourceFile,
-    steam::{SteamCache, SteamCacheEntry},
+    steam::{self, SteamCache, SteamCacheEntry},
     wiki::{PathKind, WikiCache, WikiCacheEntry},
     Error,
 };
@@ -249,6 +249,10 @@ impl Game {
         }
     }
 
+    fn add_file_constraint(&mut self, path: String, constraint: GameFileConstraint) {
+        self.files.entry(path).or_default().when.insert(constraint);
+    }
+
     pub fn integrate_steam(&mut self, cache: &SteamCacheEntry) {
         if let Some(install_dir) = &cache.install_dir {
             self.install_dir.insert(install_dir.to_string(), GameInstallDirEntry {});
@@ -309,6 +313,77 @@ impl Game {
                     .entry(key)
                     .and_modify(|x| x.push(candidate.clone()))
                     .or_insert_with(|| vec![candidate]);
+            }
+        }
+
+        // We only integrate cloud saves if there's no other save info.
+        let need_cloud = self.files.is_empty() && self.registry.is_empty();
+
+        for save in &cache.cloud.saves {
+            if !need_cloud {
+                break;
+            }
+
+            let Some(root) = steam::parse_root(&save.root) else {
+                continue;
+            };
+            let os = save.platforms.first().and_then(|x| steam::parse_platform(x));
+            let constraint = GameFileConstraint {
+                os,
+                store: Some(Store::Steam),
+            };
+
+            let path = save.path.trim_matches(['/', '\\']);
+            let pattern = save.pattern.trim_matches(['/', '\\']);
+
+            if &save.pattern == "*" {
+                self.add_file_constraint(format!("{}/{}", &root, path), constraint.clone());
+            } else if save.recursive {
+                self.add_file_constraint(format!("{}/{}/**/{}", &root, path, pattern), constraint.clone());
+            } else {
+                self.add_file_constraint(format!("{}/{}/{}", &root, path, pattern), constraint.clone());
+            }
+
+            for alt in &cache.cloud.overrides {
+                if save.root != alt.root {
+                    continue;
+                }
+
+                let alt_os = steam::parse_os_comparison(alt.os.clone(), alt.os_compare.clone());
+                let constraint = GameFileConstraint {
+                    os: alt_os.or(os),
+                    store: Some(Store::Steam),
+                };
+
+                let root = if let Some(instead) = alt.use_instead.as_ref() {
+                    steam::parse_root(instead)
+                } else {
+                    steam::parse_root(&alt.root)
+                };
+                let Some(root) = root else { continue };
+
+                let mut path = if let Some(add) = alt.add_path.as_ref() {
+                    if &save.pattern == "*" {
+                        format!("{}/{}/{}", &root, add, path)
+                    } else if save.recursive {
+                        format!("{}/{}/{}/**/{}", &root, add, path, pattern)
+                    } else {
+                        format!("{}/{}/{}/{}", &root, add, path, pattern)
+                    }
+                } else {
+                    format!("{}/{}/{}", &root, path, pattern)
+                };
+
+                for transform in &alt.path_transforms {
+                    path = path.replace(&transform.find, &transform.replace);
+                }
+
+                path = path
+                    .replace('\\', "/")
+                    .replace("{64BitSteamID}", placeholder::STORE_USER_ID)
+                    .replace("{Steam3AccountID}", placeholder::STORE_USER_ID);
+
+                self.add_file_constraint(path, constraint.clone());
             }
         }
     }
