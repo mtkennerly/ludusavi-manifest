@@ -24954,6 +24954,7 @@
 * [Reaching for Petals: VR Edition](https://www.pcgamingwiki.com/wiki/?curid=72915)
 * [Reactivated](https://www.pcgamingwiki.com/wiki/?curid=134784)
 * [Read Only Memories: Neurodiver](https://www.pcgamingwiki.com/wiki/?curid=163345)
+* [Reader Rabbit](https://www.pcgamingwiki.com/wiki/?curid=193813)
 * [Reader Rabbit Kindergarten](https://www.pcgamingwiki.com/wiki/?curid=177056)
 * [Reader Rabbit Playtime For Baby](https://www.pcgamingwiki.com/wiki/?curid=182231)
 * [Reader Rabbit Toddler](https://www.pcgamingwiki.com/wiki/?curid=177102)
