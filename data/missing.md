@@ -20,7 +20,6 @@
 * [0 Day](https://www.pcgamingwiki.com/wiki/?curid=53391)
 * [0000](https://www.pcgamingwiki.com/wiki/?curid=77351)
 * [007: Licence to Kill](https://www.pcgamingwiki.com/wiki/?curid=176727)
-* [007: Quantum of Solace](https://www.pcgamingwiki.com/wiki/?curid=21826)
 * [03.04](https://www.pcgamingwiki.com/wiki/?curid=124362)
 * [0Gravity](https://www.pcgamingwiki.com/wiki/?curid=141493)
 * [0°N 0°W](https://www.pcgamingwiki.com/wiki/?curid=67968)
