@@ -4,6 +4,11 @@ BioShock 2:
 BioShock 2 Remastered:
   gog:
     id: 1482265668
+'Counter-Strike: Global Offensive':
+  # The game is no longer playable unless selected as CS2 beta
+  # and its save locations are identical to Counter Strike 2,
+  # leading to duplicate backups.
+  omit: true
 "Death Stranding Director's Cut":
   installDir:
     DeathStrandingDC: {}
@@ -12,10 +17,11 @@ Overwatch:
   # and its save locations are identical to Overwatch 2,
   # leading to duplicate backups.
   omit: true
-'Counter-Strike: Global Offensive':
-  # The game is no longer playable unless selected as CS2 beta
-  # and its save locations are identical to Counter Strike 2,
-  # leading to duplicate backups.
+Pathologic:
+  # There are unavoidable false positives from Pathologic 2's data files,
+  # because Pathologic 2 installs in a folder named `Pathologic`.
+  # Pathologic 2 and Pathologic Classic HD are more readily available than the original,
+  # so we streamline for the more common case.
   omit: true
 The Witch's Love Diary:
   installDir:
