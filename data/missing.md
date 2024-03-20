@@ -1380,7 +1380,6 @@
 * [Alone](https://www.pcgamingwiki.com/wiki/?curid=92233)
 * [Alone (Avasion)](https://www.pcgamingwiki.com/wiki/?curid=137296)
 * [Alone in Space](https://www.pcgamingwiki.com/wiki/?curid=44489)
-* [Alone in the Dark (2024)](https://www.pcgamingwiki.com/wiki/?curid=180712)
 * [Alone in the Forest VR](https://www.pcgamingwiki.com/wiki/?curid=93958)
 * [Alone in the War](https://www.pcgamingwiki.com/wiki/?curid=144176)
 * [Alone K.W.](https://www.pcgamingwiki.com/wiki/?curid=44395)
