@@ -24894,6 +24894,7 @@
 * [Ravesta Racing](https://www.pcgamingwiki.com/wiki/?curid=157261)
 * [Ravva and the Cyclops Curse](https://www.pcgamingwiki.com/wiki/?curid=122544)
 * [Raw Footage](https://www.pcgamingwiki.com/wiki/?curid=88233)
+* [Raw Metal](https://www.pcgamingwiki.com/wiki/?curid=193843)
 * [RAWMEN](https://www.pcgamingwiki.com/wiki/?curid=128698)
 * [Raxx: The Painted Dog](https://www.pcgamingwiki.com/wiki/?curid=185335)
 * [Ray Eager](https://www.pcgamingwiki.com/wiki/?curid=153300)
