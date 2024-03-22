@@ -15701,6 +15701,7 @@
 * [Indie Game Sim](https://www.pcgamingwiki.com/wiki/?curid=53113)
 * [Indie Pogo](https://www.pcgamingwiki.com/wiki/?curid=95135)
 * [Indiecalypse](https://www.pcgamingwiki.com/wiki/?curid=150868)
+* [Indika](https://www.pcgamingwiki.com/wiki/?curid=193872)
 * [Individual Investor Tycoon](https://www.pcgamingwiki.com/wiki/?curid=82676)
 * [Indoor Rock Climbing VR](https://www.pcgamingwiki.com/wiki/?curid=78479)
 * [Indoorlands](https://www.pcgamingwiki.com/wiki/?curid=172432)
