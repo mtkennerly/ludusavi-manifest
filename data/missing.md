@@ -29932,7 +29932,6 @@
 * [Super Club Soccer](https://www.pcgamingwiki.com/wiki/?curid=148445)
 * [Super Commander XL](https://www.pcgamingwiki.com/wiki/?curid=114308)
 * [Super Crome: Bullet Purgatory](https://www.pcgamingwiki.com/wiki/?curid=124502)
-* [Super Crush KO](https://www.pcgamingwiki.com/wiki/?curid=109520)
 * [Super Crystal Hunter](https://www.pcgamingwiki.com/wiki/?curid=156774)
 * [Super Cube Smash](https://www.pcgamingwiki.com/wiki/?curid=41579)
 * [Super Cuber](https://www.pcgamingwiki.com/wiki/?curid=58322)
