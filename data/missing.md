@@ -12554,7 +12554,6 @@
 * [Game of Thrones: Winter Is Coming](https://www.pcgamingwiki.com/wiki/?curid=150369)
 * [GAME QUOTES - THE GAME](https://www.pcgamingwiki.com/wiki/?curid=113730)
 * [Game Royale 2: The Secret of Jannis Island](https://www.pcgamingwiki.com/wiki/?curid=55199)
-* [Game Soup](https://www.pcgamingwiki.com/wiki/?curid=124425)
 * [Game Studio Simulator（我要做游戏）](https://www.pcgamingwiki.com/wiki/?curid=129757)
 * [Game Tube](https://www.pcgamingwiki.com/wiki/?curid=78044)
 * [Game Tycoon 1.5](https://www.pcgamingwiki.com/wiki/?curid=50667)
