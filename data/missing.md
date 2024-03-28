@@ -22158,7 +22158,6 @@
 * [Open Country](https://www.pcgamingwiki.com/wiki/?curid=169157)
 * [Open Kart](https://www.pcgamingwiki.com/wiki/?curid=167596)
 * [Open Ocean](https://www.pcgamingwiki.com/wiki/?curid=138653)
-* [Open Roads](https://www.pcgamingwiki.com/wiki/?curid=165674)
 * [Open Sewer](https://www.pcgamingwiki.com/wiki/?curid=122396)
 * [Open Sorcery](https://www.pcgamingwiki.com/wiki/?curid=58003)
 * [Open Sorcery: Sea++](https://www.pcgamingwiki.com/wiki/?curid=76392)
