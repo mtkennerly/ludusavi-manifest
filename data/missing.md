@@ -17468,7 +17468,6 @@
 * [Last Anime Boy 2: Hentai Zombie Hell](https://www.pcgamingwiki.com/wiki/?curid=91526)
 * [Last Anime Boy: Saving Loli](https://www.pcgamingwiki.com/wiki/?curid=76075)
 * [Last Berserker: Endless War](https://www.pcgamingwiki.com/wiki/?curid=79184)
-* [Last Bronx](https://www.pcgamingwiki.com/wiki/?curid=170469)
 * [Last Byte Standing](https://www.pcgamingwiki.com/wiki/?curid=102615)
 * [Last Chance VR](https://www.pcgamingwiki.com/wiki/?curid=149584)
 * [Last Day of Fear](https://www.pcgamingwiki.com/wiki/?curid=78284)
