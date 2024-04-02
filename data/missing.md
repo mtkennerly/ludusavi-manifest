@@ -13806,7 +13806,6 @@
 * [Half Past Impossible](https://www.pcgamingwiki.com/wiki/?curid=77269)
 * [Half Sword](https://www.pcgamingwiki.com/wiki/?curid=190699)
 * [Half-Earth Socialism](https://www.pcgamingwiki.com/wiki/?curid=180126)
-* [Half-Life (WON)](https://www.pcgamingwiki.com/wiki/?curid=180252)
 * [Half-Life 2: DownFall](https://www.pcgamingwiki.com/wiki/?curid=179565)
 * [Half-Life 2: Genry's Great Escape from City 13](https://www.pcgamingwiki.com/wiki/?curid=175041)
 * [Half-Life: Absolute Zero](https://www.pcgamingwiki.com/wiki/?curid=160590)
