@@ -5380,6 +5380,7 @@
 * [Ceggtcher VR](https://www.pcgamingwiki.com/wiki/?curid=41470)
 * [Celestial](https://www.pcgamingwiki.com/wiki/?curid=144911)
 * [Celestial Breach](https://www.pcgamingwiki.com/wiki/?curid=52422)
+* [Celestial Command](https://www.pcgamingwiki.com/wiki/?curid=49279)
 * [Celestial Creator](https://www.pcgamingwiki.com/wiki/?curid=64554)
 * [Celestial Crossing](https://www.pcgamingwiki.com/wiki/?curid=55738)
 * [Celestial Hacker Girl Jessica](https://www.pcgamingwiki.com/wiki/?curid=98514)

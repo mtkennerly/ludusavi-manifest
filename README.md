@@ -86,8 +86,6 @@ Tools must implement the following in addition to respecting the schema:
 * When a path identifies a folder,
   the backup includes all of its files and subdirectories recursively.
 * When backing up registry keys, the backup includes all sub-keys recursively.
-* Relative paths must be resolved relative to the location of the manifest file.
-  This is mainly relevant for secondary manifests.
 * If a tool supports secondary manifests, they must be automatically detected
   when they are named `.ludusavi.yaml` and located directly in `<base>`.
   For example, a Steam game's secondary manifest would be `<root>/steamapps/common/<game>/.ludusavi.yaml`.
@@ -106,15 +104,17 @@ Tools may also:
   and it may in fact occur on other operating systems as well.
 * Reject/ignore recursive aliases or set a recursion limit.
   The primary manifest will never contain a recursive alias.
+* Reject/ignore relative paths in the `files` mapping
+  (i.e., paths starting with `./` or `../`).
+  The primary manifest will never contain relative paths.
 
 For authors of secondary manifests bundled with games:
 
 * If present, the secondary manifest must be located directly in the game's install folder (not a subfolder),
   and the file name must be `.ludusavi.yaml`.
-* For clarity and consistency with the primary manifest,
-  you are encouraged to use `<base>` instead of relative paths.
-  For example, prefer `<base>/save.dat` instead of `./save.dat`,
-  and prefer `<base>/../parent` instead of `../parent`.
+* You must use `<base>` instead of relative paths.
+  For example, use `<base>/save.dat` instead of `./save.dat`,
+  and use `<base>/../parent` instead of `../parent`.
 
 The latest version of the primary manifest can be downloaded from
 https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml .

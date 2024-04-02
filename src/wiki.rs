@@ -706,7 +706,11 @@ impl WikiPath {
     }
 
     pub fn usable(&self) -> bool {
-        !self.composite.is_empty() && !self.irregular() && !self.too_broad()
+        !self.composite.is_empty()
+            && !self.irregular()
+            && !self.too_broad()
+            && !self.composite.starts_with("./")
+            && !self.composite.starts_with("../")
     }
 }
 
