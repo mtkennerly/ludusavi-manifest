@@ -23839,7 +23839,6 @@
 * [Primus Vita - Artemis](https://www.pcgamingwiki.com/wiki/?curid=139667)
 * [Prince of Cats](https://www.pcgamingwiki.com/wiki/?curid=135548)
 * [Prince of Persia: The Sands of Time Remake](https://www.pcgamingwiki.com/wiki/?curid=163291)
-* [Prince of Qin](https://www.pcgamingwiki.com/wiki/?curid=157559)
 * [Prince of Suburbia - Part 1](https://www.pcgamingwiki.com/wiki/?curid=178908)
 * [Princess & Conquest](https://www.pcgamingwiki.com/wiki/?curid=149033)
 * [Princess and Knight](https://www.pcgamingwiki.com/wiki/?curid=149819)
