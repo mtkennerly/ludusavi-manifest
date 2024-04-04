@@ -2132,6 +2132,7 @@
 * [Arson and Plunder](https://www.pcgamingwiki.com/wiki/?curid=129172)
 * [Arsonist](https://www.pcgamingwiki.com/wiki/?curid=127698)
 * [ArsonVille](https://www.pcgamingwiki.com/wiki/?curid=53399)
+* [Art Attack](https://www.pcgamingwiki.com/wiki/?curid=194141)
 * [Art by Numbers](https://www.pcgamingwiki.com/wiki/?curid=148940)
 * [Art Heist](https://www.pcgamingwiki.com/wiki/?curid=155908)
 * [Art Of Air War](https://www.pcgamingwiki.com/wiki/?curid=141375)
