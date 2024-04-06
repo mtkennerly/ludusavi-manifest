@@ -15363,6 +15363,7 @@
 * [I was here](https://www.pcgamingwiki.com/wiki/?curid=72270)
 * [I Will Be Your Eyes](https://www.pcgamingwiki.com/wiki/?curid=150533)
 * [I Will Escape](https://www.pcgamingwiki.com/wiki/?curid=49073)
+* [I will make you scared of this Red Box.](https://www.pcgamingwiki.com/wiki/?curid=194199)
 * [I ♥ You!](https://www.pcgamingwiki.com/wiki/?curid=110038)
 * [I'm an adventurer](https://www.pcgamingwiki.com/wiki/?curid=121419)
 * [I'm Awesome](https://www.pcgamingwiki.com/wiki/?curid=63256)
