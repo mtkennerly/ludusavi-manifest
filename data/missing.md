@@ -24055,6 +24055,7 @@
 * [Project IO](https://www.pcgamingwiki.com/wiki/?curid=157185)
 * [Project Kat - Paper Lily Prologue](https://www.pcgamingwiki.com/wiki/?curid=188700)
 * [Project Katharsis](https://www.pcgamingwiki.com/wiki/?curid=135393)
+* [Project L33T](https://www.pcgamingwiki.com/wiki/?curid=194195)
 * [Project Lazarus](https://www.pcgamingwiki.com/wiki/?curid=187920)
 * [Project Lounge](https://www.pcgamingwiki.com/wiki/?curid=52664)
 * [Project Lucie](https://www.pcgamingwiki.com/wiki/?curid=83044)
