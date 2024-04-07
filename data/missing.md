@@ -22884,6 +22884,7 @@
 * [PeoplePackages](https://www.pcgamingwiki.com/wiki/?curid=74914)
 * [Pepe Porcupine](https://www.pcgamingwiki.com/wiki/?curid=42678)
 * [Pepeizq's Cities](https://www.pcgamingwiki.com/wiki/?curid=130418)
+* [Pepper Grinder](https://www.pcgamingwiki.com/wiki/?curid=194225)
 * [Pepper's Adventures in Time](https://www.pcgamingwiki.com/wiki/?curid=147178)
 * [Pepper's Puzzles](https://www.pcgamingwiki.com/wiki/?curid=66446)
 * [Peppered](https://www.pcgamingwiki.com/wiki/?curid=155357)
