@@ -5290,6 +5290,7 @@
 * [Catch Your Kitty](https://www.pcgamingwiki.com/wiki/?curid=155685)
 * [Catch'em](https://www.pcgamingwiki.com/wiki/?curid=104315)
 * [Catching](https://www.pcgamingwiki.com/wiki/?curid=134503)
+* [Catechesis](https://www.pcgamingwiki.com/wiki/?curid=194248)
 * [Category:Free-to-play](https://www.pcgamingwiki.com/wiki/?curid=159098)
 * [Category:Game prototypes](https://www.pcgamingwiki.com/wiki/?curid=14310)
 * [Category:Games in development](https://www.pcgamingwiki.com/wiki/?curid=14315)
