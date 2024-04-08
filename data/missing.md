@@ -18626,7 +18626,6 @@
 * [Machines at War 3](https://www.pcgamingwiki.com/wiki/?curid=49859)
 * [MachRace](https://www.pcgamingwiki.com/wiki/?curid=35150)
 * [Macroboy Y](https://www.pcgamingwiki.com/wiki/?curid=103241)
-* [Macross: Shooting Insight](https://www.pcgamingwiki.com/wiki/?curid=189361)
 * [Macrotis: A Mother's Journey](https://www.pcgamingwiki.com/wiki/?curid=94112)
 * [Mactabilis](https://www.pcgamingwiki.com/wiki/?curid=47305)
 * [Mad Age And This Guy](https://www.pcgamingwiki.com/wiki/?curid=69717)
