@@ -36756,7 +36756,6 @@
 * [Yeli Orog](https://www.pcgamingwiki.com/wiki/?curid=98848)
 * [Yello Bandana](https://www.pcgamingwiki.com/wiki/?curid=67510)
 * [Yellow Brick Road](https://www.pcgamingwiki.com/wiki/?curid=165473)
-* [Yellow Taxi Goes Vroom](https://www.pcgamingwiki.com/wiki/?curid=194234)
 * [Yellow: The Yellow Artifact](https://www.pcgamingwiki.com/wiki/?curid=33413)
 * [Yellowtoy](https://www.pcgamingwiki.com/wiki/?curid=135383)
 * [Yemon](https://www.pcgamingwiki.com/wiki/?curid=109348)
