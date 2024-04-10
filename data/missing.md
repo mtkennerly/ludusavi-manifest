@@ -31169,6 +31169,7 @@
 * [The Banner Saga: Factions](https://www.pcgamingwiki.com/wiki/?curid=5174)
 * [The Bar](https://www.pcgamingwiki.com/wiki/?curid=138687)
 * [The Barbarian and the Subterranean Caves](https://www.pcgamingwiki.com/wiki/?curid=57667)
+* [The Bard's Tale Construction Set](https://www.pcgamingwiki.com/wiki/?curid=194290)
 * [The Baron Got You Again](https://www.pcgamingwiki.com/wiki/?curid=67143)
 * [The Base](https://www.pcgamingwiki.com/wiki/?curid=72897)
 * [The Basilisk](https://www.pcgamingwiki.com/wiki/?curid=100294)
