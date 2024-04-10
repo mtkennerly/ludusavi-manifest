@@ -22946,7 +22946,6 @@
 * [Pet Puzzle](https://www.pcgamingwiki.com/wiki/?curid=138685)
 * [Pet Squad Racing](https://www.pcgamingwiki.com/wiki/?curid=72736)
 * [Pet Store Panic](https://www.pcgamingwiki.com/wiki/?curid=43025)
-* [Petal Crash](https://www.pcgamingwiki.com/wiki/?curid=174466)
 * [Peter World](https://www.pcgamingwiki.com/wiki/?curid=104225)
 * [Petoons Party](https://www.pcgamingwiki.com/wiki/?curid=134574)
 * [Petrichor](https://www.pcgamingwiki.com/wiki/?curid=70507)
