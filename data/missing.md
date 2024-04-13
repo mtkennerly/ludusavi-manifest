@@ -28395,7 +28395,6 @@
 * [Soulscape](https://www.pcgamingwiki.com/wiki/?curid=141425)
 * [SoulSet](https://www.pcgamingwiki.com/wiki/?curid=57651)
 * [Soulslayer](https://www.pcgamingwiki.com/wiki/?curid=65243)
-* [Soulslinger: Envoy of Death](https://www.pcgamingwiki.com/wiki/?curid=192621)
 * [SoulWorker](https://www.pcgamingwiki.com/wiki/?curid=87876)
 * [Sound Balling](https://www.pcgamingwiki.com/wiki/?curid=66033)
 * [Sound Balling 2](https://www.pcgamingwiki.com/wiki/?curid=66091)
