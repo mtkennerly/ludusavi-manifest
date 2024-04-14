@@ -21040,6 +21040,7 @@
 * [Necronomistore](https://www.pcgamingwiki.com/wiki/?curid=134745)
 * [Necrosmith](https://www.pcgamingwiki.com/wiki/?curid=178471)
 * [Necrosphere](https://www.pcgamingwiki.com/wiki/?curid=62518)
+* [Nectaris (1997)](https://www.pcgamingwiki.com/wiki/?curid=194370)
 * [Need a packet?](https://www.pcgamingwiki.com/wiki/?curid=98832)
 * [Need for Drink](https://www.pcgamingwiki.com/wiki/?curid=60772)
 * [Need for Gowna](https://www.pcgamingwiki.com/wiki/?curid=82346)
