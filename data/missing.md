@@ -36201,6 +36201,7 @@
 * [Windlands](https://www.pcgamingwiki.com/wiki/?curid=34562)
 * [Windlands 2](https://www.pcgamingwiki.com/wiki/?curid=121863)
 * [Windmill Kings / 风车国王](https://www.pcgamingwiki.com/wiki/?curid=151079)
+* [Windowkill](https://www.pcgamingwiki.com/wiki/?curid=194414)
 * [Windows Subsystem for Android](https://www.pcgamingwiki.com/wiki/?curid=172391)
 * [Winds of Trade](https://www.pcgamingwiki.com/wiki/?curid=57329)
 * [WindShift](https://www.pcgamingwiki.com/wiki/?curid=132298)
