@@ -22112,7 +22112,6 @@
 * [Onion Force](https://www.pcgamingwiki.com/wiki/?curid=44351)
 * [Onirike](https://www.pcgamingwiki.com/wiki/?curid=185118)
 * [Oniris Basket VR](https://www.pcgamingwiki.com/wiki/?curid=40257)
-* [Onirism](https://www.pcgamingwiki.com/wiki/?curid=134685)
 * [Onironauta](https://www.pcgamingwiki.com/wiki/?curid=72783)
 * [Online Circle Pong](https://www.pcgamingwiki.com/wiki/?curid=75055)
 * [Online Simulator](https://www.pcgamingwiki.com/wiki/?curid=138574)
