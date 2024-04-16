@@ -20311,6 +20311,7 @@
 * [MotoGP 14 Compact](https://www.pcgamingwiki.com/wiki/?curid=49275)
 * [MotoGP 15 Compact](https://www.pcgamingwiki.com/wiki/?curid=45344)
 * [MotoGP 22](https://www.pcgamingwiki.com/wiki/?curid=176194)
+* [MotoGP 24](https://www.pcgamingwiki.com/wiki/?curid=194423)
 * [Motor Gladiators](https://www.pcgamingwiki.com/wiki/?curid=102425)
 * [Motor Mash](https://www.pcgamingwiki.com/wiki/?curid=183873)
 * [Motor Mechanic](https://www.pcgamingwiki.com/wiki/?curid=139718)
