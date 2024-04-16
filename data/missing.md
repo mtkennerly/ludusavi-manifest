@@ -13837,7 +13837,6 @@
 * [Hammer of the Gods](https://www.pcgamingwiki.com/wiki/?curid=174485)
 * [HAMMER WORLD: DIMENSION TRAVELER](https://www.pcgamingwiki.com/wiki/?curid=113288)
 * [HammerHelm](https://www.pcgamingwiki.com/wiki/?curid=65461)
-* [Hammerting](https://www.pcgamingwiki.com/wiki/?curid=139703)
 * [HAMMY](https://www.pcgamingwiki.com/wiki/?curid=153963)
 * [Hammy](https://www.pcgamingwiki.com/wiki/?curid=89393)
 * [Hamster Daily](https://www.pcgamingwiki.com/wiki/?curid=99216)
