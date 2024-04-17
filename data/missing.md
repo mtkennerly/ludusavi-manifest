@@ -5056,7 +5056,6 @@
 * [Car Manufacture](https://www.pcgamingwiki.com/wiki/?curid=124458)
 * [Car Mechanic Flipper](https://www.pcgamingwiki.com/wiki/?curid=113016)
 * [Car Mechanic Manager](https://www.pcgamingwiki.com/wiki/?curid=46330)
-* [Car Mechanic Simulator 2021](https://www.pcgamingwiki.com/wiki/?curid=170669)
 * [Car Mechanic Simulator VR](https://www.pcgamingwiki.com/wiki/?curid=139618)
 * [Car Puzzler](https://www.pcgamingwiki.com/wiki/?curid=80478)
 * [Car Soccer World Cup](https://www.pcgamingwiki.com/wiki/?curid=141679)
