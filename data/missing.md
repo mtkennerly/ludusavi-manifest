@@ -22912,7 +22912,6 @@
 * [Perigee](https://www.pcgamingwiki.com/wiki/?curid=81687)
 * [Perilous Warp](https://www.pcgamingwiki.com/wiki/?curid=172665)
 * [Perimeter 2: New Earth](https://www.pcgamingwiki.com/wiki/?curid=41319)
-* [Perimeter: Emperor's Testament](https://www.pcgamingwiki.com/wiki/?curid=34258)
 * [Periodic Deliveries](https://www.pcgamingwiki.com/wiki/?curid=153726)
 * [Periodonica](https://www.pcgamingwiki.com/wiki/?curid=43153)
 * [Peripeteia](https://www.pcgamingwiki.com/wiki/?curid=173896)
