@@ -202,6 +202,40 @@ mod product_info {
         Ok(s == "1")
     }
 
+    fn parse_vec<'de, D, T>(deserializer: D) -> Result<Vec<T>, D::Error>
+    where
+        D: serde::Deserializer<'de>,
+        T: serde::de::DeserializeOwned,
+    {
+        use serde::de::Deserialize;
+
+        let mut out = vec![];
+        let raw = match BTreeMap::<String, serde_json::Value>::deserialize(deserializer) {
+            Ok(x) => x,
+            Err(e) => {
+                println!("  parse_vec: total failure - {e:?}");
+                return Err(e);
+            }
+        };
+
+        for (key, value) in raw {
+            if key.parse::<u32>().is_err() {
+                println!("  parse_vec: unexpected key '{}'", key);
+                continue;
+            }
+
+            match serde_json::from_value::<T>(value) {
+                Ok(value) => out.push(value),
+                Err(e) => {
+                    println!("  parse_vec: type failure - {e:?}");
+                    return Err(serde::de::Error::custom("parse_vec: type failure - {e:?}"));
+                }
+            }
+        }
+
+        Ok(out)
+    }
+
     #[derive(Debug, Default, Clone, serde::Deserialize)]
     pub struct Response {
         pub apps: BTreeMap<String, App>,
@@ -251,8 +285,8 @@ mod product_info {
     #[derive(Debug, Default, Clone, serde::Deserialize)]
     #[serde(default)]
     pub struct AppUfs {
-        #[serde(rename = "savefiles")]
-        pub save_files: BTreeMap<String, AppUfsSaveFile>,
+        #[serde(rename = "savefiles", deserialize_with = "parse_vec")]
+        pub save_files: Vec<AppUfsSaveFile>,
         #[serde(rename = "rootoverrides")]
         pub root_overrides: BTreeMap<String, AppUfsRootOverride>,
     }
@@ -374,7 +408,7 @@ impl SteamCacheEntry {
             saves: app
                 .ufs
                 .save_files
-                .into_values()
+                .into_iter()
                 .map(|x| CloudSave {
                     path: x.path,
                     pattern: x.pattern,

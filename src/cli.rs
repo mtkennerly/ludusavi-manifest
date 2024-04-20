@@ -18,6 +18,21 @@ fn styles() -> clap::builder::styling::Styles {
         .placeholder(AnsiColor::Green.on_default())
 }
 
+fn parse_games(games: Vec<String>) -> Vec<String> {
+    if !games.is_empty() {
+        games
+    } else {
+        use std::io::IsTerminal;
+
+        let stdin = std::io::stdin();
+        if stdin.is_terminal() {
+            vec![]
+        } else {
+            stdin.lines().map_while(Result::ok).collect()
+        }
+    }
+}
+
 #[derive(clap::Parser, Clone, Debug, PartialEq, Eq)]
 #[clap(name = "ludusavi-manifest", version, max_term_width = 100, next_line_help = true, styles = styles())]
 pub struct Cli {
@@ -115,6 +130,7 @@ pub async fn run(
             schema::validate_manifest(manifest)?;
         }
         Subcommand::Solo { local, games } => {
+            let games = parse_games(games);
             let outdated_only = false;
 
             if !local {
