@@ -336,6 +336,8 @@ pub struct WikiCacheEntry {
     pub gog: Option<u64>,
     #[serde(skip_serializing_if = "BTreeSet::is_empty")]
     pub gog_side: BTreeSet<u64>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub lutris: Option<String>,
     pub page_id: u64,
     #[serde(skip_serializing_if = "Vec::is_empty")]
     pub renamed_from: Vec<String>,
@@ -401,6 +403,12 @@ impl WikiCacheEntry {
                                         .filter_map(|x| x.trim().parse::<u64>().ok())
                                         .filter(|x| *x > 0)
                                         .collect();
+                                }
+                                Some("lutris") => {
+                                    let value = preprocess_text(&attribute.value.to_string());
+                                    if !value.is_empty() {
+                                        out.lutris = Some(value);
+                                    }
                                 }
                                 _ => {}
                             }

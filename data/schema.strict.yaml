@@ -114,6 +114,8 @@ additionalProperties:
           type: array
           items:
             type: integer
+        lutris:
+          type: string
         steamExtra:
           type: array
           items:

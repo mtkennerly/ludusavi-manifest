@@ -187,6 +187,7 @@ impl Game {
         self.id = IdMetadata {
             flatpak: None,
             gog_extra: cache.gog_side.clone(),
+            lutris: cache.lutris.clone(),
             steam_extra: cache.steam_side.clone(),
         };
 
@@ -515,13 +516,15 @@ pub struct IdMetadata {
     pub flatpak: Option<String>,
     #[serde(default, skip_serializing_if = "BTreeSet::is_empty")]
     pub gog_extra: BTreeSet<u64>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub lutris: Option<String>,
     #[serde(default, skip_serializing_if = "BTreeSet::is_empty")]
     pub steam_extra: BTreeSet<u32>,
 }
 
 impl IdMetadata {
     pub fn is_empty(&self) -> bool {
-        self.flatpak.is_none() && self.gog_extra.is_empty() && self.steam_extra.is_empty()
+        self.flatpak.is_none() && self.gog_extra.is_empty() && self.lutris.is_none() && self.steam_extra.is_empty()
     }
 }
 
