@@ -198,7 +198,7 @@ mod product_info {
     where
         D: serde::de::Deserializer<'de>,
     {
-        let s: &str = serde::de::Deserialize::deserialize(deserializer)?;
+        let s: String = serde::de::Deserialize::deserialize(deserializer)?;
         Ok(s == "1")
     }
 
@@ -228,7 +228,7 @@ mod product_info {
                 Ok(value) => out.push(value),
                 Err(e) => {
                     println!("  parse_vec: type failure - {e:?}");
-                    return Err(serde::de::Error::custom("parse_vec: type failure - {e:?}"));
+                    return Err(serde::de::Error::custom(format!("parse_vec: type failure - {e:?}")));
                 }
             }
         }
