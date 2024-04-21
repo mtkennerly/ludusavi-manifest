@@ -1,4 +1,7 @@
-use std::{collections::BTreeMap, process::Command};
+use std::{
+    collections::{BTreeMap, HashSet},
+    process::Command,
+};
 
 use crate::{
     manifest::{placeholder, Os},
@@ -9,6 +12,7 @@ use crate::{
 };
 
 const SAVE_INTERVAL: u32 = 100;
+const CHUNK_SIZE: usize = 10;
 
 #[derive(Debug, Default, serde::Serialize, serde::Deserialize)]
 pub struct SteamCache(pub BTreeMap<u32, SteamCacheEntry>);
@@ -36,24 +40,27 @@ impl SteamCache {
                 .collect()
         });
 
-        for app_id in app_ids {
+        for app_ids in app_ids.chunks(CHUNK_SIZE) {
             if should_cancel() {
                 break;
             }
 
-            let latest = SteamCacheEntry::fetch_from_id(app_id)?;
-            self.0.insert(
-                app_id,
-                latest.unwrap_or_else(|| SteamCacheEntry {
-                    state: State::Handled,
-                    ..Default::default()
-                }),
-            );
+            let info = ProductInfo::fetch(app_ids)?;
+            for app_id in app_ids {
+                let latest = SteamCacheEntry::parse_app(*app_id, &info)?;
+                self.0.insert(
+                    *app_id,
+                    latest.unwrap_or_else(|| SteamCacheEntry {
+                        state: State::Handled,
+                        ..Default::default()
+                    }),
+                );
 
-            i += 1;
-            if i % SAVE_INTERVAL == 0 {
-                self.save();
-                println!("\n:: saved\n");
+                i += 1;
+                if i % SAVE_INTERVAL == 0 {
+                    self.save();
+                    println!("\n:: saved\n");
+                }
             }
         }
 
@@ -196,6 +203,74 @@ impl LaunchConfig {
     }
 }
 
+struct ProductInfo {
+    response: product_info::Response,
+    irregular: HashSet<u32>,
+}
+
+impl ProductInfo {
+    fn fetch(app_ids: &[u32]) -> Result<ProductInfo, Error> {
+        println!("Steam batch: {:?} to {:?}", app_ids.first(), app_ids.last());
+
+        let mut cmd = Command::new("python");
+        cmd.arg(format!("{}/scripts/get-steam-app-info.py", REPO));
+        for app_id in app_ids {
+            cmd.arg(app_id.to_string());
+        }
+
+        let output = cmd.output()?;
+        if !output.status.success() {
+            let stderr = String::from_utf8_lossy(&output.stderr);
+            eprintln!("Steam product info failure: {}", &stderr);
+            return Err(Error::SteamProductInfo);
+        }
+        let stdout = String::from_utf8_lossy(&output.stdout);
+
+        let mut info = ProductInfo {
+            response: serde_json::from_str::<product_info::Response>(&stdout)
+                .map_err(Error::SteamProductInfoDecoding)?,
+            irregular: Default::default(),
+        };
+
+        // Debugging:
+        let raw = serde_json::from_str::<serde_json::Value>(&stdout).map_err(Error::SteamProductInfoDecoding)?;
+        for app_id in app_ids {
+            if let Some(ufs) = raw["apps"][app_id.to_string()]["ufs"]["save_files"].as_object() {
+                let keys: Vec<_> = ufs.keys().collect();
+                for key in keys {
+                    let key = key.to_string();
+                    if !["path", "pattern", "platforms", "recursive", "root"].contains(&key.as_str()) {
+                        info.irregular.insert(*app_id);
+                        println!("[Steam] Unknown save key: {}", key);
+                    }
+                }
+            }
+            if let Some(ufs) = raw["apps"][app_id.to_string()]["ufs"]["root_overrides"].as_object() {
+                let keys: Vec<_> = ufs.keys().collect();
+                for key in keys {
+                    let key = key.to_string();
+                    if ![
+                        "add_path",
+                        "os",
+                        "os_compare",
+                        "path_transforms",
+                        "recursive",
+                        "root",
+                        "use_instead",
+                    ]
+                    .contains(&key.as_str())
+                    {
+                        info.irregular.insert(*app_id);
+                        println!("[Steam] Unknown override key: {}", key);
+                    }
+                }
+            }
+        }
+
+        Ok(info)
+    }
+}
+
 mod product_info {
     use super::*;
 
@@ -334,60 +409,13 @@ mod product_info {
 }
 
 impl SteamCacheEntry {
-    pub fn fetch_from_id(app_id: u32) -> Result<Option<Self>, Error> {
+    fn parse_app(app_id: u32, info: &ProductInfo) -> Result<Option<Self>, Error> {
         println!("Steam: {}", app_id);
-        let mut irregular = false;
 
-        let mut cmd = Command::new("python");
-        cmd.arg(format!("{}/scripts/get-steam-app-info.py", REPO));
-        cmd.arg(app_id.to_string());
-        let output = cmd.output()?;
-        if !output.status.success() {
-            let stderr = String::from_utf8_lossy(&output.stderr);
-            eprintln!("Steam product info failure: {}", &stderr);
-            return Err(Error::SteamProductInfo);
-        }
-        let stdout = String::from_utf8_lossy(&output.stdout);
-
-        let response =
-            serde_json::from_str::<product_info::Response>(&stdout).map_err(Error::SteamProductInfoDecoding)?;
-        let Some(app) = response.apps.get(&app_id.to_string()).cloned() else {
+        let Some(app) = info.response.apps.get(&app_id.to_string()).cloned() else {
             eprintln!("No results for Steam ID: {}", app_id);
             return Ok(None);
         };
-
-        // Debugging:
-        let raw = serde_json::from_str::<serde_json::Value>(&stdout).map_err(Error::SteamProductInfoDecoding)?;
-        if let Some(ufs) = raw["apps"][app_id.to_string()]["ufs"]["save_files"].as_object() {
-            let keys: Vec<_> = ufs.keys().collect();
-            for key in keys {
-                let key = key.to_string();
-                if !["path", "pattern", "platforms", "recursive", "root"].contains(&key.as_str()) {
-                    irregular = true;
-                    println!("[Steam] Unknown save key: {}", key);
-                }
-            }
-        }
-        if let Some(ufs) = raw["apps"][app_id.to_string()]["ufs"]["root_overrides"].as_object() {
-            let keys: Vec<_> = ufs.keys().collect();
-            for key in keys {
-                let key = key.to_string();
-                if ![
-                    "add_path",
-                    "os",
-                    "os_compare",
-                    "path_transforms",
-                    "recursive",
-                    "root",
-                    "use_instead",
-                ]
-                .contains(&key.as_str())
-                {
-                    irregular = true;
-                    println!("[Steam] Unknown override key: {}", key);
-                }
-            }
-        }
 
         let launch: Vec<_> = app
             .config
@@ -450,7 +478,7 @@ impl SteamCacheEntry {
 
         Ok(Some(Self {
             state: State::Handled,
-            irregular,
+            irregular: info.irregular.contains(&app_id),
             cloud,
             install_dir: app.config.installdir,
             name_localized: app.common.name_localized,

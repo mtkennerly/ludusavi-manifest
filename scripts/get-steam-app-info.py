@@ -5,12 +5,12 @@ from steam.client import SteamClient
 
 
 def main():
-    app_id = int(sys.argv[1])
+    app_ids = [int(arg) for arg in sys.argv[1:]]
 
     client = SteamClient()
     client.anonymous_login()
 
-    info = client.get_product_info(apps=[app_id])
+    info = client.get_product_info(apps=app_ids)
     print(json.dumps(info, indent=2))
 
 

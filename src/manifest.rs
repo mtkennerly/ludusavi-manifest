@@ -251,7 +251,11 @@ impl Game {
     }
 
     fn add_file_constraint(&mut self, path: String, constraint: GameFileConstraint) {
-        self.files.entry(path).or_default().when.insert(constraint);
+        self.files
+            .entry(path.replace('\\', "/"))
+            .or_default()
+            .when
+            .insert(constraint);
     }
 
     pub fn integrate_steam(&mut self, cache: &SteamCacheEntry) {
