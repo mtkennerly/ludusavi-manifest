@@ -251,11 +251,11 @@ impl Game {
     }
 
     fn add_file_constraint(&mut self, path: String, constraint: GameFileConstraint) {
-        self.files
-            .entry(path.replace('\\', "/"))
-            .or_default()
-            .when
-            .insert(constraint);
+        let path = path
+            .replace('\\', "/")
+            .replace("{64BitSteamID}", placeholder::STORE_USER_ID)
+            .replace("{Steam3AccountID}", placeholder::STORE_USER_ID);
+        self.files.entry(path).or_default().when.insert(constraint);
     }
 
     pub fn integrate_steam(&mut self, cache: &SteamCacheEntry) {
@@ -382,11 +382,6 @@ impl Game {
                 for transform in &alt.path_transforms {
                     path = path.replace(&transform.find, &transform.replace);
                 }
-
-                path = path
-                    .replace('\\', "/")
-                    .replace("{64BitSteamID}", placeholder::STORE_USER_ID)
-                    .replace("{Steam3AccountID}", placeholder::STORE_USER_ID);
 
                 self.add_file_constraint(path, constraint.clone());
             }

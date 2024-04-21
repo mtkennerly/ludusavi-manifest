@@ -11,8 +11,8 @@ use crate::{
     Error, State, REPO,
 };
 
-const SAVE_INTERVAL: u32 = 100;
-const CHUNK_SIZE: usize = 10;
+const SAVE_INTERVAL: u32 = 250;
+const CHUNK_SIZE: usize = 25;
 
 #[derive(Debug, Default, serde::Serialize, serde::Deserialize)]
 pub struct SteamCache(pub BTreeMap<u32, SteamCacheEntry>);
