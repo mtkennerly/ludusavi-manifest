@@ -11,6 +11,7 @@ use crate::{
 };
 
 const SAVE_INTERVAL: u32 = 100;
+const NAMESPACES: &[&str] = &["Company:", "File:", "Series:", "Topic:"];
 
 async fn make_client() -> Result<mediawiki::api::Api, Error> {
     mediawiki::api::Api::new("https://www.pcgamingwiki.com/w/api.php")
@@ -294,6 +295,14 @@ impl WikiCache {
                     if let Some(new_title) = latest.new_title.take() {
                         println!("  page {} redirected to '{}'", cached.page_id, &new_title);
 
+                        for namespace in NAMESPACES {
+                            if new_title.starts_with(namespace) {
+                                println!("  page is no longer a game");
+                                self.0.remove(title);
+                                continue;
+                            }
+                        }
+
                         let cached = self.0.get(&new_title).cloned().unwrap_or_default();
                         latest.renamed_from.extend(cached.renamed_from);
                         latest.renamed_from.push(title.to_string());
@@ -317,7 +326,7 @@ impl WikiCache {
 
                     println!("  page {} renamed to '{}'", cached.page_id, &new_title);
 
-                    for namespace in &["Company:", "File:", "Series:"] {
+                    for namespace in NAMESPACES {
                         if new_title.starts_with(namespace) {
                             println!("  page is no longer a game");
                             self.0.remove(title);
