@@ -3,6 +3,7 @@ use std::{collections::BTreeMap, process::Command};
 use crate::{
     manifest::{placeholder, Os},
     resource::ResourceFile,
+    should_cancel,
     wiki::WikiCache,
     Error, State, REPO,
 };
@@ -36,6 +37,10 @@ impl SteamCache {
         });
 
         for app_id in app_ids {
+            if should_cancel() {
+                break;
+            }
+
             let latest = SteamCacheEntry::fetch_from_id(app_id)?;
             self.0.insert(
                 app_id,

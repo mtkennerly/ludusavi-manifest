@@ -6,6 +6,13 @@ mod schema;
 mod steam;
 mod wiki;
 
+use std::sync::{
+    atomic::{AtomicBool, Ordering},
+    Arc,
+};
+
+use once_cell::sync::Lazy;
+
 use crate::{
     manifest::{Manifest, ManifestOverride},
     resource::ResourceFile,
@@ -14,6 +21,11 @@ use crate::{
 };
 
 pub const REPO: &str = env!("CARGO_MANIFEST_DIR");
+static CANCEL: Lazy<Arc<AtomicBool>> = Lazy::new(|| Arc::new(AtomicBool::new(false)));
+
+pub fn should_cancel() -> bool {
+    CANCEL.load(Ordering::Relaxed)
+}
 
 #[derive(Debug, Default, Clone, Copy, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -89,6 +101,8 @@ impl Error {
 #[tokio::main]
 async fn main() {
     let cli = cli::parse();
+
+    signal_hook::flag::register(signal_hook::consts::SIGINT, (*CANCEL).clone()).unwrap();
 
     let mut wiki_cache = WikiCache::load().unwrap();
     let mut wiki_meta_cache = WikiMetaCache::load().unwrap();

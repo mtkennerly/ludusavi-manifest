@@ -7,7 +7,7 @@ use wikitext_parser::{Attribute, TextPiece};
 use crate::{
     manifest::{placeholder, Os, Store, Tag},
     resource::ResourceFile,
-    Error, Regularity, State,
+    should_cancel, Error, Regularity, State,
 };
 
 const SAVE_INTERVAL: u32 = 100;
@@ -212,6 +212,10 @@ impl WikiCache {
             .as_array()
             .ok_or(Error::WikiData("query.categorymembers"))?
         {
+            if should_cancel() {
+                break;
+            }
+
             let title = page["title"]
                 .as_str()
                 .ok_or(Error::WikiData("query.categorymembers[].title"))?;
@@ -277,6 +281,10 @@ impl WikiCache {
         });
 
         for title in &titles {
+            if should_cancel() {
+                break;
+            }
+
             let cached = self.0.get(title).cloned().unwrap_or_default();
 
             println!("Wiki: {}", title);
