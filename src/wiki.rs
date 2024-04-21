@@ -269,7 +269,6 @@ impl WikiCache {
         from: Option<String>,
     ) -> Result<(), Error> {
         let mut i = 0;
-        let solo = titles.is_some();
         let titles: Vec<_> = titles.unwrap_or_else(|| {
             self.0
                 .iter()
@@ -295,15 +294,14 @@ impl WikiCache {
                     self.0.insert(title.to_string(), latest);
                 }
                 Err(Error::PageMissing) => {
-                    if solo {
-                        return Err(Error::PageMissing);
-                    }
-
                     // Couldn't find it by name, so try again by ID.
                     // This can happen for pages moved without leaving a redirect.
                     // (If they have a redirect, then the recent changes code takes care of it.)
                     let Some(new_title) = get_page_title(cached.page_id).await? else {
-                        return Err(Error::PageMissing);
+                        // Page no longer exists.
+                        println!(":: refesh: page no longer exists");
+                        self.0.remove(title);
+                        continue;
                     };
                     println!(
                         ":: refresh: page {} called '{}' renamed to '{}'",
@@ -371,6 +369,11 @@ impl WikiCacheEntry {
             .get_query_api_json_all(&params)
             .await
             .map_err(|_| Error::PageMissing)?;
+
+        if res["error"]["code"].as_str() == Some("missingtitle") {
+            return Err(Error::PageMissing);
+        }
+
         out.page_id = res["parse"]["pageid"].as_u64().ok_or(Error::WikiData("parse.pageid"))?;
         let raw_wikitext = res["parse"]["wikitext"]["*"]
             .as_str()

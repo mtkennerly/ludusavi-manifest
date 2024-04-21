@@ -3,6 +3,8 @@ use std::{
     process::Command,
 };
 
+use itertools::Itertools;
+
 use crate::{
     manifest::{placeholder, Os},
     resource::ResourceFile,
@@ -47,7 +49,13 @@ impl SteamCache {
 
             let info = ProductInfo::fetch(app_ids)?;
             for app_id in app_ids {
-                let latest = SteamCacheEntry::parse_app(*app_id, &info)?;
+                let latest = match SteamCacheEntry::parse_app(*app_id, &info) {
+                    Ok(x) => x,
+                    Err(e) => {
+                        println!("Steam: {app_id} - failed");
+                        return Err(e);
+                    }
+                };
                 self.0.insert(
                     *app_id,
                     latest.unwrap_or_else(|| SteamCacheEntry {
@@ -210,7 +218,7 @@ struct ProductInfo {
 
 impl ProductInfo {
     fn fetch(app_ids: &[u32]) -> Result<ProductInfo, Error> {
-        println!("Steam batch: {:?} to {:?}", app_ids.first(), app_ids.last());
+        println!("Steam batch: {}", app_ids.iter().join(", "));
 
         let mut cmd = Command::new("python");
         cmd.arg(format!("{}/scripts/get-steam-app-info.py", REPO));
@@ -410,10 +418,8 @@ mod product_info {
 
 impl SteamCacheEntry {
     fn parse_app(app_id: u32, info: &ProductInfo) -> Result<Option<Self>, Error> {
-        println!("Steam: {}", app_id);
-
         let Some(app) = info.response.apps.get(&app_id.to_string()).cloned() else {
-            eprintln!("No results for Steam ID: {}", app_id);
+            eprintln!("Steam: {app_id} - no results");
             return Ok(None);
         };
 
