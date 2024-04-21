@@ -1,6 +1,7 @@
 use std::collections::{BTreeMap, BTreeSet};
 
 use crate::{
+    path,
     resource::ResourceFile,
     steam::{self, SteamCache, SteamCacheEntry},
     wiki::{PathKind, WikiCache, WikiCacheEntry},
@@ -8,6 +9,23 @@ use crate::{
 };
 
 pub mod placeholder {
+    pub const ALL: &[&str] = &[
+        ROOT,
+        GAME,
+        BASE,
+        HOME,
+        STORE_USER_ID,
+        OS_USER_NAME,
+        WIN_APP_DATA,
+        WIN_LOCAL_APP_DATA,
+        WIN_DOCUMENTS,
+        WIN_PUBLIC,
+        WIN_PROGRAM_DATA,
+        WIN_DIR,
+        XDG_DATA,
+        XDG_CONFIG,
+    ];
+
     pub const ROOT: &str = "<root>";
     pub const GAME: &str = "<game>";
     pub const BASE: &str = "<base>";
@@ -251,11 +269,10 @@ impl Game {
     }
 
     fn add_file_constraint(&mut self, path: String, constraint: GameFileConstraint) {
-        let path = path
-            .replace('\\', "/")
-            .replace("{64BitSteamID}", placeholder::STORE_USER_ID)
-            .replace("{Steam3AccountID}", placeholder::STORE_USER_ID);
-        self.files.entry(path).or_default().when.insert(constraint);
+        let path = path::normalize(&path);
+        if path::usable(&path) {
+            self.files.entry(path).or_default().when.insert(constraint);
+        }
     }
 
     pub fn integrate_steam(&mut self, cache: &SteamCacheEntry) {

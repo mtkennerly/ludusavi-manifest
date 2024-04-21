@@ -6,6 +6,7 @@ use wikitext_parser::{Attribute, TextPiece};
 
 use crate::{
     manifest::{placeholder, Os, Store, Tag},
+    path,
     resource::ResourceFile,
     should_cancel, Error, Regularity, State,
 };
@@ -624,41 +625,12 @@ impl WikiPath {
     }
 
     pub fn normalize(mut self) -> Self {
-        self.composite = self.composite.trim().trim_end_matches(['/', '\\']).replace('\\', "/");
-
-        if self.composite == "~" || self.composite.starts_with("~/") {
-            self.composite = self.composite.replacen('~', placeholder::HOME, 1);
-        }
-
-        static CONSECUTIVE_SLASHES: Lazy<Regex> = Lazy::new(|| Regex::new(r"/{2,}").unwrap());
-        static UNNECESSARY_DOUBLE_STAR_1: Lazy<Regex> = Lazy::new(|| Regex::new(r"([^/*])\*{2,}").unwrap());
-        static UNNECESSARY_DOUBLE_STAR_2: Lazy<Regex> = Lazy::new(|| Regex::new(r"\*{2,}([^/*])").unwrap());
-        static ENDING_WILDCARD: Lazy<Regex> = Lazy::new(|| Regex::new(r"(/\*)+$").unwrap());
-        static APP_DATA: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%appdata%").unwrap());
-        static APP_DATA_ROAMING: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%/AppData/Roaming").unwrap());
-        static APP_DATA_LOCAL: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%localappdata%").unwrap());
-        static APP_DATA_LOCAL_2: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%/AppData/Local/").unwrap());
-        static USER_PROFILE: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%").unwrap());
-        static DOCUMENTS: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%/Documents").unwrap());
-
-        for (pattern, replacement) in [
-            (&CONSECUTIVE_SLASHES, "/"),
-            (&UNNECESSARY_DOUBLE_STAR_1, "${1}*"),
-            (&UNNECESSARY_DOUBLE_STAR_2, "*${1}"),
-            (&ENDING_WILDCARD, ""),
-            (&APP_DATA, placeholder::WIN_APP_DATA),
-            (&APP_DATA_ROAMING, placeholder::WIN_APP_DATA),
-            (&APP_DATA_LOCAL, placeholder::WIN_LOCAL_APP_DATA),
-            (&APP_DATA_LOCAL_2, &format!("{}/", placeholder::WIN_LOCAL_APP_DATA)),
-            (&USER_PROFILE, placeholder::HOME),
-            (&DOCUMENTS, placeholder::WIN_DOCUMENTS),
-        ] {
-            self.composite = pattern.replace_all(&self.composite, replacement).to_string();
-        }
+        self.composite = path::normalize(&self.composite);
 
         if self.kind.is_none() {
             self.kind = Some(PathKind::File);
         }
+
         self
     }
 
@@ -711,65 +683,6 @@ impl WikiPath {
         self
     }
 
-    fn too_broad(&self) -> bool {
-        use placeholder::{BASE, HOME, ROOT, STORE_USER_ID, WIN_DIR, WIN_DOCUMENTS};
-
-        let placeholders: Vec<_> = MAPPED_PATHS.values().map(|x| x.manifest).collect();
-        if placeholders.iter().any(|x| *x == self.composite) {
-            return true;
-        }
-
-        // These paths are present whether or not the game is installed.
-        // If possible, they should be narrowed down on the wiki.
-        let broad = vec![
-            format!("{BASE}/{STORE_USER_ID}"), // because `<storeUserId>` is handled as `*`
-            format!("{HOME}/Documents"),
-            format!("{HOME}/Saved Games"),
-            format!("{HOME}/AppData"),
-            format!("{HOME}/AppData/Local"),
-            format!("{HOME}/AppData/Local/Packages"),
-            format!("{HOME}/AppData/LocalLow"),
-            format!("{HOME}/AppData/Roaming"),
-            format!("{HOME}/Documents/My Games"),
-            format!("{HOME}/Library/Application Support"),
-            format!("{HOME}/Library/Preferences"),
-            format!("{HOME}/Telltale Games"),
-            format!("{ROOT}/config"),
-            format!("{WIN_DIR}/win.ini"),
-            format!("{WIN_DOCUMENTS}/My Games"),
-            format!("{WIN_DOCUMENTS}/Telltale Games"),
-        ];
-        if broad.iter().any(|x| *x == self.composite) {
-            return true;
-        }
-
-        // Several games/episodes are grouped together here.
-        if self
-            .composite
-            .starts_with(&format!("{WIN_DOCUMENTS}/Telltale Games/*/"))
-        {
-            return true;
-        }
-
-        // Drive letters:
-        static DRIVES: Lazy<Regex> = Lazy::new(|| Regex::new(r"^[a-zA-Z]:$").unwrap());
-        if DRIVES.is_match(&self.composite) {
-            return true;
-        }
-
-        // Root:
-        if self.composite == "/" {
-            return true;
-        }
-
-        // Relative path wildcard:
-        if self.composite.starts_with('*') {
-            return true;
-        }
-
-        false
-    }
-
     fn irregular(&self) -> bool {
         self.regularity == Regularity::Irregular || self.composite.contains("{{")
     }
@@ -779,11 +692,7 @@ impl WikiPath {
     }
 
     pub fn usable(&self) -> bool {
-        !self.composite.is_empty()
-            && !self.irregular()
-            && !self.too_broad()
-            && !self.composite.starts_with("./")
-            && !self.composite.starts_with("../")
+        path::usable(&self.composite) && !self.irregular()
     }
 }
 

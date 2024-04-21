@@ -1,6 +1,7 @@
 mod cli;
 mod manifest;
 mod missing;
+mod path;
 mod resource;
 mod schema;
 mod steam;
