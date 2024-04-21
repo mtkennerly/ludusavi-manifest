@@ -308,7 +308,14 @@ mod product_info {
 
         for (key, value) in raw {
             if key.parse::<u32>().is_err() {
-                println!("  parse_vec: unexpected key '{}'", key);
+                match key.as_str() {
+                    "copied_from_parent" => {
+                        // TODO: What does this mean?
+                    }
+                    _ => {
+                        println!("  parse_vec: unexpected key '{}'", key);
+                    }
+                }
                 continue;
             }
 
