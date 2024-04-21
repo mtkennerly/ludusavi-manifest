@@ -291,7 +291,15 @@ impl WikiCache {
             match latest {
                 Ok(mut latest) => {
                     latest.renamed_from = cached.renamed_from.clone();
-                    self.0.insert(title.to_string(), latest);
+                    if let Some(new_title) = latest.new_title.take() {
+                        println!("  page {} redirected to '{}'", cached.page_id, &new_title);
+
+                        latest.renamed_from.push(title.to_string());
+                        self.0.remove(title);
+                        self.0.insert(new_title, latest);
+                    } else {
+                        self.0.insert(title.to_string(), latest);
+                    }
                 }
                 Err(Error::PageMissing) => {
                     // Couldn't find it by name, so try again by ID.
@@ -299,23 +307,32 @@ impl WikiCache {
                     // (If they have a redirect, then the recent changes code takes care of it.)
                     let Some(new_title) = get_page_title(cached.page_id).await? else {
                         // Page no longer exists.
-                        println!(":: refresh: page no longer exists");
+                        println!("  page no longer exists");
                         self.0.remove(title);
                         continue;
                     };
 
-                    println!(
-                        ":: refresh: page {} called '{}' renamed to '{}'",
-                        cached.page_id, title, &new_title
-                    );
+                    println!("  page {} renamed to '{}'", cached.page_id, &new_title);
 
                     if new_title.starts_with("File:") || new_title.starts_with("Company:") {
-                        println!(":: refresh: page is no longer a game");
+                        println!("  page is no longer a game");
                         self.0.remove(title);
                         continue;
                     }
 
-                    let mut latest = WikiCacheEntry::fetch_from_page(new_title.clone()).await?;
+                    let mut latest = match WikiCacheEntry::fetch_from_page(new_title.clone()).await {
+                        Ok(x) => x,
+                        Err(Error::PageMissing) => {
+                            println!("  page does not exist");
+                            self.0.remove(title);
+                            continue;
+                        }
+                        Err(e) => {
+                            return Err(e);
+                        }
+                    };
+
+                    let new_title = latest.new_title.take().unwrap_or(new_title);
 
                     let mut cached = self.0[title].clone();
                     cached.renamed_from.push(title.clone());
@@ -360,6 +377,10 @@ pub struct WikiCacheEntry {
     pub steam_side: BTreeSet<u32>,
     #[serde(skip_serializing_if = "Vec::is_empty")]
     pub templates: Vec<String>,
+
+    /// This will be set after resolving a redirect.
+    #[serde(skip)]
+    pub new_title: Option<String>,
 }
 
 impl WikiCacheEntry {
@@ -370,7 +391,12 @@ impl WikiCacheEntry {
         };
 
         let wiki = make_client().await?;
-        let params = wiki.params_into(&[("action", "parse"), ("prop", "wikitext"), ("page", &article)]);
+        let params = wiki.params_into(&[
+            ("action", "parse"),
+            ("prop", "wikitext"),
+            ("page", &article),
+            ("redirects", "1"),
+        ]);
 
         let res = wiki
             .get_query_api_json_all(&params)
@@ -382,6 +408,12 @@ impl WikiCacheEntry {
         }
 
         out.page_id = res["parse"]["pageid"].as_u64().ok_or(Error::WikiData("parse.pageid"))?;
+
+        let received_title = res["parse"]["title"].as_str().ok_or(Error::WikiData("parse.title"))?;
+        if received_title != article {
+            out.new_title = Some(received_title.to_string());
+        }
+
         let raw_wikitext = res["parse"]["wikitext"]["*"]
             .as_str()
             .ok_or(Error::WikiData("parse.wikitext"))?;
