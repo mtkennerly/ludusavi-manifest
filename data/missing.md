@@ -5239,7 +5239,6 @@
 * [Cool Dragon](https://www.pcgamingwiki.com/wiki/?curid=94003)
 * [Cool Headed](https://www.pcgamingwiki.com/wiki/?curid=109028)
 * [Cool Spot](https://www.pcgamingwiki.com/wiki/?curid=176670)
-* [Cool World](https://www.pcgamingwiki.com/wiki/?curid=182987)
 * [Coop Tank War](https://www.pcgamingwiki.com/wiki/?curid=121327)
 * [Cop Academy](https://www.pcgamingwiki.com/wiki/?curid=130042)
 * [Copa Petrobras de Marcas](https://www.pcgamingwiki.com/wiki/?curid=48262)

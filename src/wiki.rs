@@ -299,23 +299,30 @@ impl WikiCache {
                     // (If they have a redirect, then the recent changes code takes care of it.)
                     let Some(new_title) = get_page_title(cached.page_id).await? else {
                         // Page no longer exists.
-                        println!(":: refesh: page no longer exists");
+                        println!(":: refresh: page no longer exists");
                         self.0.remove(title);
                         continue;
                     };
+
                     println!(
                         ":: refresh: page {} called '{}' renamed to '{}'",
                         cached.page_id, title, &new_title
                     );
 
-                    let mut data = self.0[title].clone();
-                    data.renamed_from.push(title.clone());
-                    self.0.insert(new_title.clone(), data);
-                    self.0.remove(title);
+                    if new_title.starts_with("File:") || new_title.starts_with("Company:") {
+                        println!(":: refresh: page is no longer a game");
+                        self.0.remove(title);
+                        continue;
+                    }
 
-                    let mut latest = WikiCacheEntry::fetch_from_page(title.clone()).await?;
-                    latest.renamed_from = cached.renamed_from.clone();
+                    let mut latest = WikiCacheEntry::fetch_from_page(new_title.clone()).await?;
+
+                    let mut cached = self.0[title].clone();
+                    cached.renamed_from.push(title.clone());
+                    latest.renamed_from = cached.renamed_from;
+
                     self.0.insert(new_title.clone(), latest);
+                    self.0.remove(title);
                 }
                 Err(e) => {
                     return Err(e);
