@@ -294,7 +294,10 @@ impl WikiCache {
                     if let Some(new_title) = latest.new_title.take() {
                         println!("  page {} redirected to '{}'", cached.page_id, &new_title);
 
+                        let cached = self.0.get(&new_title).cloned().unwrap_or_default();
+                        latest.renamed_from.extend(cached.renamed_from);
                         latest.renamed_from.push(title.to_string());
+
                         self.0.remove(title);
                         self.0.insert(new_title, latest);
                     } else {
@@ -336,9 +339,10 @@ impl WikiCache {
 
                     let new_title = latest.new_title.take().unwrap_or(new_title);
 
-                    let mut cached = self.0[title].clone();
-                    cached.renamed_from.push(title.clone());
                     latest.renamed_from = cached.renamed_from;
+                    let cached = self.0.get(&new_title).cloned().unwrap_or_default();
+                    latest.renamed_from.extend(cached.renamed_from);
+                    latest.renamed_from.push(title.clone());
 
                     self.0.insert(new_title.clone(), latest);
                     self.0.remove(title);
