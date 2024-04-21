@@ -47,17 +47,17 @@ pub fn normalize(path: &str) -> String {
 }
 
 pub fn too_broad(path: &str) -> bool {
-    use placeholder::{BASE, HOME, ROOT, STORE_USER_ID, WIN_DIR, WIN_DOCUMENTS};
+    use placeholder::{BASE, HOME, ROOT, STORE_USER_ID, WIN_DIR, WIN_DOCUMENTS, XDG_CONFIG, XDG_DATA};
 
-    for placeholder in placeholder::ALL {
-        if path == *placeholder {
+    for item in placeholder::ALL {
+        if path == *item {
             return true;
         }
     }
 
     // These paths are present whether or not the game is installed.
     // If possible, they should be narrowed down on the wiki.
-    let broad = vec![
+    for item in [
         format!("{BASE}/{STORE_USER_ID}"), // because `<storeUserId>` is handled as `*`
         format!("{HOME}/Documents"),
         format!("{HOME}/Saved Games"),
@@ -75,15 +75,25 @@ pub fn too_broad(path: &str) -> bool {
         format!("{WIN_DIR}/SysWOW64"),
         format!("{WIN_DOCUMENTS}/My Games"),
         format!("{WIN_DOCUMENTS}/Telltale Games"),
+        format!("{XDG_CONFIG}/unity3d"),
+        format!("{XDG_DATA}/unity3d"),
         "C:/Program Files".to_string(),
-    ];
-    if broad.iter().any(|x| *x == path) {
-        return true;
+        "C:/Program Files (x86)".to_string(),
+    ] {
+        if path == item {
+            return true;
+        }
     }
 
     // Several games/episodes are grouped together here.
-    if path.starts_with(&format!("{WIN_DOCUMENTS}/Telltale Games/*/")) {
-        return true;
+    for item in [
+        format!("{WIN_DOCUMENTS}/Telltale Games/*/"),
+        format!("{XDG_CONFIG}/unity3d/*"),
+        format!("{XDG_DATA}/unity3d/*"),
+    ] {
+        if path.starts_with(&item) {
+            return true;
+        }
     }
 
     // Drive letters:

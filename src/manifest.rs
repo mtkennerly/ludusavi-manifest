@@ -270,7 +270,7 @@ impl Game {
 
     fn add_file_constraint(&mut self, path: String, constraint: GameFileConstraint) {
         let path = path::normalize(&path);
-        if path::usable(&path) {
+        if path::usable(&path) && !path.contains(':') {
             self.files.entry(path).or_default().when.insert(constraint);
         }
     }
