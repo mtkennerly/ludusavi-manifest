@@ -380,6 +380,10 @@ impl Game {
                 };
 
                 for transform in &alt.path_transforms {
+                    if transform.find.is_empty() || transform.replace.is_empty() {
+                        // TODO: How should we handle this?
+                        continue;
+                    }
                     path = path.replace(&transform.find, &transform.replace);
                 }
 
