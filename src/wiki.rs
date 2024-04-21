@@ -314,10 +314,12 @@ impl WikiCache {
 
                     println!("  page {} renamed to '{}'", cached.page_id, &new_title);
 
-                    if new_title.starts_with("File:") || new_title.starts_with("Company:") {
-                        println!("  page is no longer a game");
-                        self.0.remove(title);
-                        continue;
+                    for namespace in &["Company:", "File:", "Series:"] {
+                        if new_title.starts_with(namespace) {
+                            println!("  page is no longer a game");
+                            self.0.remove(title);
+                            continue;
+                        }
                     }
 
                     let mut latest = match WikiCacheEntry::fetch_from_page(new_title.clone()).await {
