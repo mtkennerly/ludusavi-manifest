@@ -497,10 +497,14 @@ pub fn parse_root(value: &str) -> Option<&'static str> {
     match value.to_lowercase().as_ref() {
         "gameinstall" => Some(placeholder::BASE),
         "linuxhome" => Some(placeholder::HOME),
+        "linuxxdgconfighome" => Some(placeholder::XDG_CONFIG),
         "linuxxdgdatahome" => Some(placeholder::XDG_DATA),
         "macappsupport" => Some("<home>/Library/Application Support"),
-        "madocuments" => Some("<home>/Documents"),
+        "macdocuments" => Some("<home>/Documents"),
         "machome" => Some(placeholder::HOME),
+        // TODO: Where does this map on each OS?
+        // The manifest probably needs a new placeholder for it.
+        "steamclouddocuments" => None,
         "winappdataroaming" => Some(placeholder::WIN_APP_DATA),
         "winappdatalocal" => Some(placeholder::WIN_LOCAL_APP_DATA),
         "winappdatalocallow" => Some("<home>/AppData/LocalLow"),
