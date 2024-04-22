@@ -505,6 +505,8 @@ pub fn parse_root(value: &str) -> Option<&'static str> {
         "gameinstall" => Some(placeholder::BASE),
         "linuxhome" => Some(placeholder::HOME),
         "linuxxdgconfighome" => Some(placeholder::XDG_CONFIG),
+        // TODO: What does this mean?
+        "linuxxdgdataconfig" => None,
         "linuxxdgdatahome" => Some(placeholder::XDG_DATA),
         "macappsupport" => Some("<home>/Library/Application Support"),
         "macdocuments" => Some("<home>/Documents"),
