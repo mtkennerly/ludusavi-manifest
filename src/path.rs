@@ -117,6 +117,11 @@ fn too_broad(path: &str) -> bool {
         return true;
     }
 
+    // Colon not for a drive letter
+    if path.get(2..).is_some_and(|path| path.contains(':')) {
+        return true;
+    }
+
     // Root:
     if path == "/" {
         return true;
