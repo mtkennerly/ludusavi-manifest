@@ -12,7 +12,6 @@ use crate::{
 };
 
 const SAVE_INTERVAL: u32 = 100;
-const NAMESPACES: &[&str] = &["Company:", "File:", "Series:", "Topic:"];
 
 async fn make_client() -> Result<mediawiki::api::Api, Error> {
     mediawiki::api::Api::new("https://www.pcgamingwiki.com/w/api.php")
@@ -296,11 +295,16 @@ impl WikiCache {
                     if let Some(new_title) = latest.new_title.take() {
                         println!("  page {} redirected to '{}'", cached.page_id, &new_title);
 
-                        for namespace in NAMESPACES {
-                            if new_title.starts_with(namespace) {
+                        match is_game_article(&new_title).await {
+                            Ok(true) => {}
+                            Ok(false) => {
                                 println!("  page is no longer a game");
                                 self.0.remove(title);
                                 continue;
+                            }
+                            Err(e) => {
+                                eprintln!("  unable to check if still a game: {e}");
+                                return Err(e);
                             }
                         }
 
@@ -327,11 +331,16 @@ impl WikiCache {
 
                     println!("  page {} renamed to '{}'", cached.page_id, &new_title);
 
-                    for namespace in NAMESPACES {
-                        if new_title.starts_with(namespace) {
+                    match is_game_article(&new_title).await {
+                        Ok(true) => {}
+                        Ok(false) => {
                             println!("  page is no longer a game");
                             self.0.remove(title);
                             continue;
+                        }
+                        Err(e) => {
+                            eprintln!("  unable to check if still a game: {e}");
+                            return Err(e);
                         }
                     }
 
@@ -365,7 +374,7 @@ impl WikiCache {
             i += 1;
             if i % SAVE_INTERVAL == 0 {
                 self.save();
-                println!("\n:: saved\n");
+                println!("\n:: saved ({i})\n");
             }
         }
 
@@ -384,6 +393,8 @@ pub struct WikiCacheEntry {
     pub gog_side: BTreeSet<u64>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub lutris: Option<String>,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub malformed: bool,
     pub page_id: u64,
     #[serde(skip_serializing_if = "Vec::is_empty")]
     pub renamed_from: Vec<String>,
@@ -434,7 +445,10 @@ impl WikiCacheEntry {
             .as_str()
             .ok_or(Error::WikiData("parse.wikitext"))?;
 
-        let wikitext = wikitext_parser::parse_wikitext(raw_wikitext, article, |e| println!("  Error: {}", e));
+        let wikitext = wikitext_parser::parse_wikitext(raw_wikitext, article, |e| {
+            out.malformed = true;
+            println!("  Error: {}", e);
+        });
 
         for template in wikitext.list_double_brace_expressions() {
             if let TextPiece::DoubleBraceExpression { tag, attributes } = &template {

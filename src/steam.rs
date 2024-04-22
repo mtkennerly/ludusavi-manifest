@@ -67,7 +67,7 @@ impl SteamCache {
                 i += 1;
                 if i % SAVE_INTERVAL == 0 {
                     self.save();
-                    println!("\n:: saved\n");
+                    println!("\n:: saved ({i})\n");
                 }
             }
         }
