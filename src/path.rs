@@ -60,7 +60,7 @@ fn too_broad(path: &str) -> bool {
     }
 
     for item in placeholder::AVOID_WILDCARDS {
-        if path.starts_with(&format!("{item}/*")) {
+        if path.starts_with(&format!("{item}/*")) || path.starts_with(&format!("{item}/{STORE_USER_ID}")) {
             return true;
         }
     }
