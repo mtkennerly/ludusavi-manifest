@@ -2,6 +2,7 @@ mod cli;
 mod manifest;
 mod missing;
 mod path;
+mod registry;
 mod resource;
 mod schema;
 mod steam;

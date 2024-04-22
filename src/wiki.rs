@@ -6,7 +6,7 @@ use wikitext_parser::{Attribute, TextPiece};
 
 use crate::{
     manifest::{placeholder, Os, Store, Tag},
-    path,
+    path, registry,
     resource::ResourceFile,
     should_cancel, Error, Regularity, State,
 };
@@ -625,7 +625,10 @@ impl WikiPath {
     }
 
     pub fn normalize(mut self) -> Self {
-        self.composite = path::normalize(&self.composite);
+        self.composite = match self.kind {
+            None | Some(PathKind::File) => path::normalize(&self.composite),
+            Some(PathKind::Registry) => registry::normalize(&self.composite),
+        };
 
         if self.kind.is_none() {
             self.kind = Some(PathKind::File);
@@ -692,7 +695,10 @@ impl WikiPath {
     }
 
     pub fn usable(&self) -> bool {
-        path::usable(&self.composite) && !self.irregular()
+        match self.kind {
+            None | Some(PathKind::File) => path::usable(&self.composite) && !self.irregular(),
+            Some(PathKind::Registry) => registry::usable(&self.composite) && !self.irregular(),
+        }
     }
 }
 

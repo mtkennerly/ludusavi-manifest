@@ -50,7 +50,7 @@ pub fn normalize(path: &str) -> String {
     path
 }
 
-pub fn too_broad(path: &str) -> bool {
+fn too_broad(path: &str) -> bool {
     use placeholder::{BASE, HOME, ROOT, STORE_USER_ID, WIN_APP_DATA, WIN_DIR, WIN_DOCUMENTS, XDG_CONFIG, XDG_DATA};
 
     for item in placeholder::ALL {
