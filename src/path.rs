@@ -95,20 +95,10 @@ fn too_broad(path: &str) -> bool {
         "C:/Program Files".to_string(),
         "C:/Program Files (x86)".to_string(),
     ] {
-        if path == item {
-            return true;
-        }
-    }
-
-    // Several games/episodes are grouped together here.
-    for item in [
-        format!("{HOME}/*/"),
-        format!("{HOME}/**/"),
-        format!("{WIN_DOCUMENTS}/Telltale Games/*/"),
-        format!("{XDG_CONFIG}/unity3d/*"),
-        format!("{XDG_DATA}/unity3d/*"),
-    ] {
-        if path.starts_with(&item) {
+        if path == item
+            || path.starts_with(&format!("{item}/*"))
+            || path.starts_with(&format!("{item}/{STORE_USER_ID}"))
+        {
             return true;
         }
     }
