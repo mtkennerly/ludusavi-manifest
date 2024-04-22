@@ -26,6 +26,20 @@ pub mod placeholder {
         XDG_CONFIG,
     ];
 
+    /// These are paths where `<placeholder>/*/` is suspicious.
+    pub const AVOID_WILDCARDS: &[&str] = &[
+        ROOT,
+        HOME,
+        WIN_APP_DATA,
+        WIN_LOCAL_APP_DATA,
+        WIN_DOCUMENTS,
+        WIN_PUBLIC,
+        WIN_PROGRAM_DATA,
+        WIN_DIR,
+        XDG_DATA,
+        XDG_CONFIG,
+    ];
+
     pub const ROOT: &str = "<root>";
     pub const GAME: &str = "<game>";
     pub const BASE: &str = "<base>";

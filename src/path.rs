@@ -51,10 +51,16 @@ pub fn normalize(path: &str) -> String {
 }
 
 pub fn too_broad(path: &str) -> bool {
-    use placeholder::{BASE, HOME, ROOT, STORE_USER_ID, WIN_DIR, WIN_DOCUMENTS, XDG_CONFIG, XDG_DATA};
+    use placeholder::{BASE, HOME, ROOT, STORE_USER_ID, WIN_APP_DATA, WIN_DIR, WIN_DOCUMENTS, XDG_CONFIG, XDG_DATA};
 
     for item in placeholder::ALL {
         if path == *item {
+            return true;
+        }
+    }
+
+    for item in placeholder::AVOID_WILDCARDS {
+        if path.starts_with(&format!("{item}/*")) {
             return true;
         }
     }
@@ -73,8 +79,11 @@ pub fn too_broad(path: &str) -> bool {
         format!("{HOME}/Documents/My Games"),
         format!("{HOME}/Library/Application Support"),
         format!("{HOME}/Library/Preferences"),
+        format!("{HOME}/.renpy"),
+        format!("{HOME}/Library/RenPy"),
         format!("{HOME}/Telltale Games"),
         format!("{ROOT}/config"),
+        format!("{WIN_APP_DATA}/RenPy"),
         format!("{WIN_DIR}/win.ini"),
         format!("{WIN_DIR}/SysWOW64"),
         format!("{WIN_DOCUMENTS}/My Games"),
