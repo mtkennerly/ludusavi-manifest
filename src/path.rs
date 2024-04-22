@@ -98,6 +98,7 @@ fn too_broad(path: &str) -> bool {
         if path == item
             || path.starts_with(&format!("{item}/*"))
             || path.starts_with(&format!("{item}/{STORE_USER_ID}"))
+            || path.starts_with(&format!("{item}/SavesDir"))
         {
             return true;
         }
