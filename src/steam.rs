@@ -517,6 +517,7 @@ pub fn parse_root(value: &str) -> Option<&'static str> {
         "winappdataroaming" => Some(placeholder::WIN_APP_DATA),
         "winappdatalocal" => Some(placeholder::WIN_LOCAL_APP_DATA),
         "winappdatalocallow" => Some("<home>/AppData/LocalLow"),
+        "windowshome" => Some(placeholder::HOME),
         "winmydocuments" => Some(placeholder::WIN_DOCUMENTS),
         "winsavedgames" => Some("<home>/Saved Games"),
         _ => {

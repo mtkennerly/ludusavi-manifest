@@ -55,6 +55,8 @@ pub fn normalize(path: &str) -> String {
 fn too_broad(path: &str) -> bool {
     use placeholder::{BASE, HOME, ROOT, STORE_USER_ID, WIN_APP_DATA, WIN_DIR, WIN_DOCUMENTS, XDG_CONFIG, XDG_DATA};
 
+    let path_lower = path.to_lowercase();
+
     for item in placeholder::ALL {
         if path == *item {
             return true;
@@ -80,6 +82,7 @@ fn too_broad(path: &str) -> bool {
         format!("{HOME}/AppData/Roaming"),
         format!("{HOME}/Documents/My Games"),
         format!("{HOME}/Library/Application Support"),
+        format!("{HOME}/Library/Application Support/UserData"),
         format!("{HOME}/Library/Preferences"),
         format!("{HOME}/.renpy"),
         format!("{HOME}/Library/RenPy"),
@@ -95,10 +98,11 @@ fn too_broad(path: &str) -> bool {
         "C:/Program Files".to_string(),
         "C:/Program Files (x86)".to_string(),
     ] {
-        if path == item
-            || path.starts_with(&format!("{item}/*"))
-            || path.starts_with(&format!("{item}/{STORE_USER_ID}"))
-            || path.starts_with(&format!("{item}/SavesDir"))
+        let item = item.to_lowercase();
+        if path_lower == item
+            || path_lower.starts_with(&format!("{item}/*"))
+            || path_lower.starts_with(&format!("{item}/{}", STORE_USER_ID.to_lowercase()))
+            || path_lower.starts_with(&format!("{item}/savesdir"))
         {
             return true;
         }

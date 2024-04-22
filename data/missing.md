@@ -26011,7 +26011,6 @@
 * [The Misfits](https://www.pcgamingwiki.com/wiki/?curid=104797)
 * [The Miskatonic](https://www.pcgamingwiki.com/wiki/?curid=100230)
 * [The Missing Few](https://www.pcgamingwiki.com/wiki/?curid=157259)
-* [The Mobius Machine](https://www.pcgamingwiki.com/wiki/?curid=189831)
 * [The Momo Game](https://www.pcgamingwiki.com/wiki/?curid=121537)
 * [The Monster](https://www.pcgamingwiki.com/wiki/?curid=121300)
 * [The Monster Breeder](https://www.pcgamingwiki.com/wiki/?curid=154367)
