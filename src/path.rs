@@ -16,6 +16,7 @@ pub fn normalize(path: &str) -> String {
     static ENDING_WILDCARD: Lazy<Regex> = Lazy::new(|| Regex::new(r"(/\*)+$").unwrap());
     static ENDING_DOT: Lazy<Regex> = Lazy::new(|| Regex::new(r"(/\.)$").unwrap());
     static INTERMEDIATE_DOT: Lazy<Regex> = Lazy::new(|| Regex::new(r"(/\./)").unwrap());
+    static BLANK_SEGMENT: Lazy<Regex> = Lazy::new(|| Regex::new(r"(/\s+/)").unwrap());
     static APP_DATA: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%appdata%").unwrap());
     static APP_DATA_ROAMING: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%/AppData/Roaming").unwrap());
     static APP_DATA_LOCAL: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%localappdata%").unwrap());
@@ -30,6 +31,7 @@ pub fn normalize(path: &str) -> String {
         (&ENDING_WILDCARD, ""),
         (&ENDING_DOT, ""),
         (&INTERMEDIATE_DOT, "/"),
+        (&BLANK_SEGMENT, "/"),
         (&APP_DATA, placeholder::WIN_APP_DATA),
         (&APP_DATA_ROAMING, placeholder::WIN_APP_DATA),
         (&APP_DATA_LOCAL, placeholder::WIN_LOCAL_APP_DATA),
