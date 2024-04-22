@@ -76,15 +76,14 @@ async fn is_game_article(query: &str) -> Result<bool, Error> {
     {
         let title = page["title"].as_str().ok_or(Error::WikiData("query.pages[].title"))?;
         if title == query {
-            for category in page["categories"]
-                .as_array()
-                .ok_or(Error::WikiData("query.pages[].categories"))?
-            {
-                let category_name = category["title"]
-                    .as_str()
-                    .ok_or(Error::WikiData("query.pages[].categories[].title"))?;
-                if category_name == "Category:Games" {
-                    return Ok(true);
+            if let Some(categories) = page["categories"].as_array() {
+                for category in categories {
+                    let category_name = category["title"]
+                        .as_str()
+                        .ok_or(Error::WikiData("query.pages[].categories[].title"))?;
+                    if category_name == "Category:Games" {
+                        return Ok(true);
+                    }
                 }
             }
         }

@@ -18314,7 +18314,6 @@
 * [Paparazzi](https://www.pcgamingwiki.com/wiki/?curid=48677)
 * [Paparazzi Simulator](https://www.pcgamingwiki.com/wiki/?curid=154404)
 * [Paparazzi!: Tales of Tinseltown](https://www.pcgamingwiki.com/wiki/?curid=177406)
-* [Paper Cut Mansion](https://www.pcgamingwiki.com/wiki/?curid=182965)
 * [Paper Dungeons](https://www.pcgamingwiki.com/wiki/?curid=48170)
 * [Paper Dungeons Crawler](https://www.pcgamingwiki.com/wiki/?curid=91188)
 * [Paper Fire Rookie](https://www.pcgamingwiki.com/wiki/?curid=73302)
