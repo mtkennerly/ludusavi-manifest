@@ -5314,7 +5314,6 @@
 * [Costume Party](https://www.pcgamingwiki.com/wiki/?curid=179007)
 * [Cotropitorii](https://www.pcgamingwiki.com/wiki/?curid=193268)
 * [Cottage Garden](https://www.pcgamingwiki.com/wiki/?curid=89244)
-* [COTTOn Rock'n'Roll -SUPERLATIVE NIGHT DREAMS-](https://www.pcgamingwiki.com/wiki/?curid=169518)
 * [Couch Party Game Night](https://www.pcgamingwiki.com/wiki/?curid=112032)
 * [Couch Storm: Battle Royale](https://www.pcgamingwiki.com/wiki/?curid=138566)
 * [Couch Versus](https://www.pcgamingwiki.com/wiki/?curid=125857)
