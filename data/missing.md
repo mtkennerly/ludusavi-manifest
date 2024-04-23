@@ -22398,6 +22398,7 @@
 * [Skelittle: A Giant Party!!](https://www.pcgamingwiki.com/wiki/?curid=120790)
 * [Skelleton vs zombies](https://www.pcgamingwiki.com/wiki/?curid=154424)
 * [Skelli Tower Defense](https://www.pcgamingwiki.com/wiki/?curid=94615)
+* [Sker Ritual](https://www.pcgamingwiki.com/wiki/?curid=194543)
 * [Sketch Tales](https://www.pcgamingwiki.com/wiki/?curid=38135)
 * [Sketch! Run!](https://www.pcgamingwiki.com/wiki/?curid=59381)
 * [Sketchfab VR](https://www.pcgamingwiki.com/wiki/?curid=43037)
