@@ -3904,6 +3904,7 @@
 * [Cabela's Big Game Hunter 2005 Adventures](https://www.pcgamingwiki.com/wiki/?curid=77491)
 * [Cabela's Big Game Hunter Trophy Bucks](https://www.pcgamingwiki.com/wiki/?curid=41374)
 * [Cabela's Big Game Hunter: 10th Anniversary Edition - Alaskan Adventure](https://www.pcgamingwiki.com/wiki/?curid=167785)
+* [Cabela's Outdoor Adventures (2009)](https://www.pcgamingwiki.com/wiki/?curid=194571)
 * [Cabins: Jigsaw Puzzles](https://www.pcgamingwiki.com/wiki/?curid=99436)
 * [Cactus Canyon](https://www.pcgamingwiki.com/wiki/?curid=87209)
 * [Cactus Jumper](https://www.pcgamingwiki.com/wiki/?curid=81442)
