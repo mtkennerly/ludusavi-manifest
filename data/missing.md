@@ -21495,7 +21495,6 @@
 * [Sanctuary VR](https://www.pcgamingwiki.com/wiki/?curid=55169)
 * [Sanctum Breach](https://www.pcgamingwiki.com/wiki/?curid=153418)
 * [Sand Is the Soul](https://www.pcgamingwiki.com/wiki/?curid=78514)
-* [Sand Land](https://www.pcgamingwiki.com/wiki/?curid=187797)
 * [Sandbox Anything](https://www.pcgamingwiki.com/wiki/?curid=136901)
 * [Sandbox Showdown](https://www.pcgamingwiki.com/wiki/?curid=94485)
 * [Sandmade](https://www.pcgamingwiki.com/wiki/?curid=93142)
