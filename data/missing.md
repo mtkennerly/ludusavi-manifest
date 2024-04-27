@@ -23435,6 +23435,7 @@
 * [Spoko and Poko](https://www.pcgamingwiki.com/wiki/?curid=47958)
 * [Sponchies](https://www.pcgamingwiki.com/wiki/?curid=72692)
 * [SpongeBob SolitairePants](https://www.pcgamingwiki.com/wiki/?curid=182885)
+* [SpongeBob SquarePants Diner Dash: 2 Times the Trouble](https://www.pcgamingwiki.com/wiki/?curid=194657)
 * [SpongeBob SquarePants: Battle for Bikini Bottom](https://www.pcgamingwiki.com/wiki/?curid=16581)
 * [SpongeBob SquarePants: Diner Dash](https://www.pcgamingwiki.com/wiki/?curid=140400)
 * [SpongeBob: Patty Pursuit](https://www.pcgamingwiki.com/wiki/?curid=160743)
