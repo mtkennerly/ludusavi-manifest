@@ -27064,6 +27064,7 @@
 * [Tomb of Zojir: Last Half of Darkness](https://www.pcgamingwiki.com/wiki/?curid=134062)
 * [Tomb Raider - The Final Hours Digital Book](https://www.pcgamingwiki.com/wiki/?curid=37523)
 * [Tomb Raider Chronicles](https://www.pcgamingwiki.com/wiki/?curid=7012)
+* [Tomb Raider: Definitive Edition](https://www.pcgamingwiki.com/wiki/?curid=194672)
 * [Tomb Raider: The Last Revelation](https://www.pcgamingwiki.com/wiki/?curid=7007)
 * [Tomb Reader: TrapLand](https://www.pcgamingwiki.com/wiki/?curid=97892)
 * [Tomb Robber](https://www.pcgamingwiki.com/wiki/?curid=65841)
