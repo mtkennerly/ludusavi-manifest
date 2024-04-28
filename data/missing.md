@@ -15641,7 +15641,6 @@
 * [MegaSphere](https://www.pcgamingwiki.com/wiki/?curid=46711)
 * [Megatect](https://www.pcgamingwiki.com/wiki/?curid=45765)
 * [Megaton](https://www.pcgamingwiki.com/wiki/?curid=100222)
-* [Megaton Musashi: Wired](https://www.pcgamingwiki.com/wiki/?curid=187524)
 * [Megaton: Total Destruction](https://www.pcgamingwiki.com/wiki/?curid=72881)
 * [Megatronic Void](https://www.pcgamingwiki.com/wiki/?curid=70158)
 * [Megavaders 5000](https://www.pcgamingwiki.com/wiki/?curid=121339)
