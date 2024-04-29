@@ -17251,6 +17251,7 @@
 * [Nexuiz Classic](https://www.pcgamingwiki.com/wiki/?curid=2214)
 * [Nexus](https://www.pcgamingwiki.com/wiki/?curid=130565)
 * [NeXus: One Core](https://www.pcgamingwiki.com/wiki/?curid=48587)
+* [NFL Fever 2000](https://www.pcgamingwiki.com/wiki/?curid=194695)
 * [NFL Head Coach](https://www.pcgamingwiki.com/wiki/?curid=168681)
 * [NFL Pro Era](https://www.pcgamingwiki.com/wiki/?curid=184447)
 * [NGHTMN](https://www.pcgamingwiki.com/wiki/?curid=61994)
