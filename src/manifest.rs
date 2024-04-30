@@ -174,7 +174,7 @@ impl Manifest {
             }
             if let Some(id) = game.steam.id {
                 if let Some(info) = steam_cache.0.get(&id) {
-                    game.integrate_steam(info);
+                    game.integrate_steam(info, overrides.0.get(title).map(|x| x.use_steam_cloud).unwrap_or(true));
                 }
             }
             if let Some(overridden) = overrides.0.get(title) {
@@ -289,7 +289,7 @@ impl Game {
         }
     }
 
-    pub fn integrate_steam(&mut self, cache: &SteamCacheEntry) {
+    pub fn integrate_steam(&mut self, cache: &SteamCacheEntry, use_steam_cloud: bool) {
         if let Some(install_dir) = &cache.install_dir {
             self.install_dir.insert(install_dir.to_string(), GameInstallDirEntry {});
         }
@@ -353,7 +353,7 @@ impl Game {
         }
 
         // We only integrate cloud saves if there's no other save info.
-        let need_cloud = self.files.is_empty() && self.registry.is_empty();
+        let need_cloud = use_steam_cloud && self.files.is_empty() && self.registry.is_empty();
 
         for save in &cache.cloud.saves {
             if !need_cloud {
@@ -570,6 +570,7 @@ pub struct ManifestOverride(pub BTreeMap<String, OverrideGame>);
 #[serde(default, rename_all = "camelCase")]
 pub struct OverrideGame {
     pub omit: bool,
+    pub use_steam_cloud: bool,
     #[serde(flatten)]
     pub game: Game,
 }

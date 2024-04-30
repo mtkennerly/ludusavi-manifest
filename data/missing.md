@@ -17202,6 +17202,7 @@
 * [Nevrosa: Prelude](https://www.pcgamingwiki.com/wiki/?curid=58431)
 * [Nevrosa: Primal Ritual](https://www.pcgamingwiki.com/wiki/?curid=136930)
 * [Nevrosa: Spider Song](https://www.pcgamingwiki.com/wiki/?curid=136685)
+* [Nevsky Run](https://www.pcgamingwiki.com/wiki/?curid=114666)
 * [New Adult Reality](https://www.pcgamingwiki.com/wiki/?curid=125296)
 * [New Age](https://www.pcgamingwiki.com/wiki/?curid=134546)
 * [New Cities](https://www.pcgamingwiki.com/wiki/?curid=135480)

@@ -12,6 +12,11 @@ BioShock 2 Remastered:
 "Death Stranding Director's Cut":
   installDir:
     DeathStrandingDC: {}
+Nevsky Run:
+  # This game's Steam Cloud metadata references Kingdom Come Deliverance paths.
+  # Also, it's been renamed on Steam to "Secret Girl"
+  # and is no longer available for sale.
+  useSteamCloud: false
 Overwatch:
   # The game is no longer playable at all,
   # and its save locations are identical to Overwatch 2,
