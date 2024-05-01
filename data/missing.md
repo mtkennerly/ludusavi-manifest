@@ -12387,7 +12387,6 @@
 * [Hyperventila: The Game](https://www.pcgamingwiki.com/wiki/?curid=150639)
 * [HyperZen Training](https://www.pcgamingwiki.com/wiki/?curid=99784)
 * [Hypnorain](https://www.pcgamingwiki.com/wiki/?curid=42489)
-* [Hyposphere](https://www.pcgamingwiki.com/wiki/?curid=43171)
 * [Hypoxia](https://www.pcgamingwiki.com/wiki/?curid=132588)
 * [Hypt](https://www.pcgamingwiki.com/wiki/?curid=48110)
 * [Hyspherical 2](https://www.pcgamingwiki.com/wiki/?curid=44590)
