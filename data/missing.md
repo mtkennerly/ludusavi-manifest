@@ -5232,6 +5232,7 @@
 * [Cooking Academy Fire and Knives](https://www.pcgamingwiki.com/wiki/?curid=49460)
 * [Cooking Championship](https://www.pcgamingwiki.com/wiki/?curid=145502)
 * [Cooking Dash](https://www.pcgamingwiki.com/wiki/?curid=41254)
+* [Cooking Dash: DinerTown Studios](https://www.pcgamingwiki.com/wiki/?curid=194762)
 * [Cooking Live](https://www.pcgamingwiki.com/wiki/?curid=183181)
 * [Cooking Mama: Cuisine!](https://www.pcgamingwiki.com/wiki/?curid=178063)
 * [Cooking Trip](https://www.pcgamingwiki.com/wiki/?curid=134538)
