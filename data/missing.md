@@ -2405,7 +2405,6 @@
 * [Batman Forever](https://www.pcgamingwiki.com/wiki/?curid=176717)
 * [Batman Forever: The Arcade Game](https://www.pcgamingwiki.com/wiki/?curid=176719)
 * [Batman Returns](https://www.pcgamingwiki.com/wiki/?curid=176691)
-* [Batman: Arkham Knight](https://www.pcgamingwiki.com/wiki/?curid=15767)
 * [Bato: Treasures of Tibet](https://www.pcgamingwiki.com/wiki/?curid=155454)
 * [BATS: Bloodsucker Anti-Terror Squad](https://www.pcgamingwiki.com/wiki/?curid=184510)
 * [Batta Batta: Kampen mod Ultra](https://www.pcgamingwiki.com/wiki/?curid=81207)
