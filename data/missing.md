@@ -9129,7 +9129,6 @@
 * [FIFA 10](https://www.pcgamingwiki.com/wiki/?curid=91350)
 * [FIFA 2000](https://www.pcgamingwiki.com/wiki/?curid=106750)
 * [FIFA 21](https://www.pcgamingwiki.com/wiki/?curid=161243)
-* [FIFA 23](https://www.pcgamingwiki.com/wiki/?curid=179651)
 * [FIFA 97](https://www.pcgamingwiki.com/wiki/?curid=133141)
 * [FIFA Football 2003](https://www.pcgamingwiki.com/wiki/?curid=92492)
 * [FIFA Football 2004](https://www.pcgamingwiki.com/wiki/?curid=92453)
