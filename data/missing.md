@@ -11135,7 +11135,6 @@
 * [Hacktag](https://www.pcgamingwiki.com/wiki/?curid=61664)
 * [Hadean Lands](https://www.pcgamingwiki.com/wiki/?curid=33567)
 * [Hades Challenge](https://www.pcgamingwiki.com/wiki/?curid=97263)
-* [Hades II](https://www.pcgamingwiki.com/wiki/?curid=183626)
 * [Hades' Star](https://www.pcgamingwiki.com/wiki/?curid=124390)
 * [Hags Castle](https://www.pcgamingwiki.com/wiki/?curid=102295)
 * [Hail To The King](https://www.pcgamingwiki.com/wiki/?curid=125217)
