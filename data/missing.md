@@ -4882,6 +4882,7 @@
 * [Clown House](https://www.pcgamingwiki.com/wiki/?curid=46743)
 * [Clown Thug Cop Zombies](https://www.pcgamingwiki.com/wiki/?curid=127271)
 * [Clown2Beat](https://www.pcgamingwiki.com/wiki/?curid=52377)
+* [Clownfield 2042](https://www.pcgamingwiki.com/wiki/?curid=194900)
 * [CLS: Signal Person](https://www.pcgamingwiki.com/wiki/?curid=138898)
 * [Club Lighting](https://www.pcgamingwiki.com/wiki/?curid=123389)
 * [Club Manager 2015](https://www.pcgamingwiki.com/wiki/?curid=49195)
