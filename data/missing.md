@@ -10279,7 +10279,6 @@
 * [Geno The Fallen King](https://www.pcgamingwiki.com/wiki/?curid=154041)
 * [Genso Suikoden](https://www.pcgamingwiki.com/wiki/?curid=170447)
 * [Gensokyo Rolling Force](https://www.pcgamingwiki.com/wiki/?curid=100454)
-* [GENSOU Skydrift](https://www.pcgamingwiki.com/wiki/?curid=153507)
 * [Gentlemen!](https://www.pcgamingwiki.com/wiki/?curid=40532)
 * [GentleMoon 2](https://www.pcgamingwiki.com/wiki/?curid=42639)
 * [GEO Master](https://www.pcgamingwiki.com/wiki/?curid=43159)
