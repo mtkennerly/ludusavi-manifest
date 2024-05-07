@@ -16311,6 +16311,7 @@
 * [Monsters sandbox](https://www.pcgamingwiki.com/wiki/?curid=153515)
 * [Monsters University](https://www.pcgamingwiki.com/wiki/?curid=170970)
 * [Monsters!](https://www.pcgamingwiki.com/wiki/?curid=46600)
+* [Monsters, Inc. Scream Team Training](https://www.pcgamingwiki.com/wiki/?curid=194936)
 * [Monsters: Survival](https://www.pcgamingwiki.com/wiki/?curid=128627)
 * [MonsterxMan: Inheritence To Lust](https://www.pcgamingwiki.com/wiki/?curid=92067)
 * [Monsti](https://www.pcgamingwiki.com/wiki/?curid=38875)
