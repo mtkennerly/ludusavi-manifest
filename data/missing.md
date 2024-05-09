@@ -5590,7 +5590,6 @@
 * [Crossy Road Castle](https://www.pcgamingwiki.com/wiki/?curid=158181)
 * [Crouching Pony Hidden Dragon](https://www.pcgamingwiki.com/wiki/?curid=49937)
 * [Crow](https://www.pcgamingwiki.com/wiki/?curid=49542)
-* [Crow Country](https://www.pcgamingwiki.com/wiki/?curid=194849)
 * [Crowd Control](https://www.pcgamingwiki.com/wiki/?curid=144725)
 * [Crowd Simulator](https://www.pcgamingwiki.com/wiki/?curid=144953)
 * [Crowd Smashers](https://www.pcgamingwiki.com/wiki/?curid=61518)
