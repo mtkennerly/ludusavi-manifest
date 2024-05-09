@@ -41,6 +41,7 @@
 * [1000 Days to Escape](https://www.pcgamingwiki.com/wiki/?curid=141369)
 * [1000 Stages](https://www.pcgamingwiki.com/wiki/?curid=100014)
 * [1000$](https://www.pcgamingwiki.com/wiki/?curid=138982)
+* [1000xResist](https://www.pcgamingwiki.com/wiki/?curid=194951)
 * [1001 Hugs](https://www.pcgamingwiki.com/wiki/?curid=149444)
 * [1001 Jigsaw. 6 Magic Elements](https://www.pcgamingwiki.com/wiki/?curid=141102)
 * [1001 Jigsaw. Castles and Palaces](https://www.pcgamingwiki.com/wiki/?curid=150486)
