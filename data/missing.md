@@ -22056,7 +22056,6 @@
 * [Shark Castle](https://www.pcgamingwiki.com/wiki/?curid=151365)
 * [Shark Dating Simulator XL](https://www.pcgamingwiki.com/wiki/?curid=64858)
 * [Shark Simulator](https://www.pcgamingwiki.com/wiki/?curid=72332)
-* [Shark Tale](https://www.pcgamingwiki.com/wiki/?curid=88514)
 * [Sharp Shooter](https://www.pcgamingwiki.com/wiki/?curid=50961)
 * [Sharp X Mind](https://www.pcgamingwiki.com/wiki/?curid=130720)
 * [SHATTER (2019)](https://www.pcgamingwiki.com/wiki/?curid=153310)
