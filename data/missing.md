@@ -1349,6 +1349,7 @@
 * [Animal Rivals](https://www.pcgamingwiki.com/wiki/?curid=61136)
 * [Animal Up!](https://www.pcgamingwiki.com/wiki/?curid=144506)
 * [Animal war](https://www.pcgamingwiki.com/wiki/?curid=141481)
+* [Animal Well](https://www.pcgamingwiki.com/wiki/?curid=194964)
 * [Animalia - The Quiz Game](https://www.pcgamingwiki.com/wiki/?curid=89310)
 * [Animals Memory](https://www.pcgamingwiki.com/wiki/?curid=77069)
 * [Animals Memory: Birds](https://www.pcgamingwiki.com/wiki/?curid=79212)
