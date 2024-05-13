@@ -25348,6 +25348,7 @@
 * [The Colony (Monkeystein Games)](https://www.pcgamingwiki.com/wiki/?curid=137388)
 * [The Colony (Rusty Swain)](https://www.pcgamingwiki.com/wiki/?curid=104893)
 * [The Coma](https://www.pcgamingwiki.com/wiki/?curid=69563)
+* [The Coma 2B: Catacomb](https://www.pcgamingwiki.com/wiki/?curid=195049)
 * [The Coma: Cutting Class](https://www.pcgamingwiki.com/wiki/?curid=37709)
 * [The Communist Dogifesto](https://www.pcgamingwiki.com/wiki/?curid=80563)
 * [The Complex](https://www.pcgamingwiki.com/wiki/?curid=162061)
