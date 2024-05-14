@@ -3508,7 +3508,6 @@
 * [Boy Teen Dream](https://www.pcgamingwiki.com/wiki/?curid=125879)
 * [Boy's Love](https://www.pcgamingwiki.com/wiki/?curid=94639)
 * [Boyar](https://www.pcgamingwiki.com/wiki/?curid=54293)
-* [Braid Anniversary Edition](https://www.pcgamingwiki.com/wiki/?curid=162560)
 * [Brain 43°C](https://www.pcgamingwiki.com/wiki/?curid=96379)
 * [Brain Booster](https://www.pcgamingwiki.com/wiki/?curid=55548)
 * [Brain Crush](https://www.pcgamingwiki.com/wiki/?curid=67861)
