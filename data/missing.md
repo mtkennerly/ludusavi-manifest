@@ -23318,7 +23318,6 @@
 * [Speed and Scream](https://www.pcgamingwiki.com/wiki/?curid=59247)
 * [Speed Box](https://www.pcgamingwiki.com/wiki/?curid=103085)
 * [Speed Car Fighter](https://www.pcgamingwiki.com/wiki/?curid=92831)
-* [Speed Challenge: Jacques Villeneuve's Racing Vision](https://www.pcgamingwiki.com/wiki/?curid=192899)
 * [Speed Dating for Ghosts](https://www.pcgamingwiki.com/wiki/?curid=76307)
 * [Speed Demons (2019)](https://www.pcgamingwiki.com/wiki/?curid=147828)
 * [Speed Masters ASD](https://www.pcgamingwiki.com/wiki/?curid=152897)
