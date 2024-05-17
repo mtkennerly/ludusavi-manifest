@@ -19860,7 +19860,6 @@
 * [Quantum Suicide](https://www.pcgamingwiki.com/wiki/?curid=150922)
 * [Quantz](https://www.pcgamingwiki.com/wiki/?curid=41241)
 * [Quar: Battle for Gate 18](https://www.pcgamingwiki.com/wiki/?curid=43801)
-* [Quarantine (1994)](https://www.pcgamingwiki.com/wiki/?curid=175908)
 * [Quarky & Quaysoo's Turbo Science](https://www.pcgamingwiki.com/wiki/?curid=147198)
 * [Quarries of Scred](https://www.pcgamingwiki.com/wiki/?curid=37780)
 * [Quarterback SNAP](https://www.pcgamingwiki.com/wiki/?curid=36740)
