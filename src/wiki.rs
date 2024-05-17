@@ -290,7 +290,7 @@ impl WikiCache {
             let latest = WikiCacheEntry::fetch_from_page(title.clone()).await;
             match latest {
                 Ok(mut latest) => {
-                    latest.renamed_from = cached.renamed_from.clone();
+                    latest.renamed_from.clone_from(&cached.renamed_from);
                     if let Some(new_title) = latest.new_title.take() {
                         println!("  page {} redirected to '{}'", cached.page_id, &new_title);
 
