@@ -28403,6 +28403,7 @@
 * [Virtual Magic Kingdom](https://www.pcgamingwiki.com/wiki/?curid=161338)
 * [Virtual Ninja VR](https://www.pcgamingwiki.com/wiki/?curid=87353)
 * [Virtual Pirate VR](https://www.pcgamingwiki.com/wiki/?curid=93120)
+* [Virtual Pool 2](https://www.pcgamingwiki.com/wiki/?curid=195114)
 * [Virtual Pool 4](https://www.pcgamingwiki.com/wiki/?curid=47952)
 * [Virtual Pool 4 Multiplayer](https://www.pcgamingwiki.com/wiki/?curid=33834)
 * [Virtual Race Car Engineer 2018](https://www.pcgamingwiki.com/wiki/?curid=73833)
