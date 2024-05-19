@@ -13548,6 +13548,7 @@
 * [Kanji in Motion](https://www.pcgamingwiki.com/wiki/?curid=141427)
 * [Kanji Training Game](https://www.pcgamingwiki.com/wiki/?curid=46332)
 * [Kanojo x Switch](https://www.pcgamingwiki.com/wiki/?curid=155995)
+* [Kanon](https://www.pcgamingwiki.com/wiki/?curid=195121)
 * [Kao: Mystery of Volcano](https://www.pcgamingwiki.com/wiki/?curid=77762)
 * [Kaos](https://www.pcgamingwiki.com/wiki/?curid=136613)
 * [Kapia](https://www.pcgamingwiki.com/wiki/?curid=174289)
