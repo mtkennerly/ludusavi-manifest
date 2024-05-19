@@ -15085,6 +15085,7 @@
 * [Madden NFL 20](https://www.pcgamingwiki.com/wiki/?curid=134122)
 * [Madden NFL 23](https://www.pcgamingwiki.com/wiki/?curid=178046)
 * [Madden NFL 24](https://www.pcgamingwiki.com/wiki/?curid=187864)
+* [Madden NFL 25](https://www.pcgamingwiki.com/wiki/?curid=195112)
 * [Maddening Euphoria](https://www.pcgamingwiki.com/wiki/?curid=73290)
 * [Made to Order](https://www.pcgamingwiki.com/wiki/?curid=96331)
 * [MADELA](https://www.pcgamingwiki.com/wiki/?curid=155743)
