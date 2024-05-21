@@ -1485,6 +1485,7 @@
 * [Apokalypsis](https://www.pcgamingwiki.com/wiki/?curid=52594)
 * [Apollo 11 VR](https://www.pcgamingwiki.com/wiki/?curid=38474)
 * [Apollo 11 VR HD](https://www.pcgamingwiki.com/wiki/?curid=121851)
+* [Apollo 18: The Moon Missions](https://www.pcgamingwiki.com/wiki/?curid=195144)
 * [Apollo Justice: Ace Attorney Trilogy](https://www.pcgamingwiki.com/wiki/?curid=189991)
 * [Apolune](https://www.pcgamingwiki.com/wiki/?curid=127395)
 * [Apostasy](https://www.pcgamingwiki.com/wiki/?curid=96517)
