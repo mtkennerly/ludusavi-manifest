@@ -1,4 +1,4 @@
-use std::collections::{BTreeMap, BTreeSet, HashMap};
+use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet};
 
 use once_cell::sync::Lazy;
 use regex::Regex;
@@ -90,6 +90,12 @@ async fn is_game_article(query: &str) -> Result<bool, Error> {
     }
 
     Ok(false)
+}
+
+#[derive(Debug, Default, Clone, PartialEq, Eq)]
+pub struct PrimaryIds {
+    pub steam: HashSet<u32>,
+    pub gog: HashSet<u64>,
 }
 
 impl WikiCache {
@@ -378,6 +384,21 @@ impl WikiCache {
         }
 
         Ok(())
+    }
+
+    pub fn primary_ids(&self) -> PrimaryIds {
+        let mut out = PrimaryIds::default();
+
+        for info in self.0.values() {
+            if let Some(id) = info.steam {
+                out.steam.insert(id);
+            }
+            if let Some(id) = info.gog {
+                out.gog.insert(id);
+            }
+        }
+
+        out
     }
 }
 

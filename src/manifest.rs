@@ -4,7 +4,7 @@ use crate::{
     path,
     resource::ResourceFile,
     steam::{self, SteamCache, SteamCacheEntry},
-    wiki::{PathKind, WikiCache, WikiCacheEntry},
+    wiki::{PathKind, PrimaryIds, WikiCache, WikiCacheEntry},
     Error,
 };
 
@@ -153,13 +153,15 @@ impl Manifest {
     ) -> Result<(), Error> {
         self.0.clear();
 
+        let primary_ids = wiki_cache.primary_ids();
+
         for (title, info) in &wiki_cache.0 {
             if overrides.0.get(title).map(|x| x.omit).unwrap_or(false) {
                 continue;
             }
 
             let mut game = Game::default();
-            game.integrate_wiki(info, title);
+            game.integrate_wiki(info, title, &primary_ids);
             for rename in &info.renamed_from {
                 if rename.to_lowercase() == title.to_lowercase() || self.0.contains_key(rename) {
                     continue;
@@ -213,14 +215,24 @@ pub struct Game {
 }
 
 impl Game {
-    pub fn integrate_wiki(&mut self, cache: &WikiCacheEntry, title: &str) {
+    pub fn integrate_wiki(&mut self, cache: &WikiCacheEntry, title: &str, primary_ids: &PrimaryIds) {
         self.steam = SteamMetadata { id: cache.steam };
         self.gog = GogMetadata { id: cache.gog };
         self.id = IdMetadata {
             flatpak: None,
-            gog_extra: cache.gog_side.clone(),
+            gog_extra: cache
+                .gog_side
+                .iter()
+                .filter(|x| !primary_ids.gog.contains(x))
+                .copied()
+                .collect(),
             lutris: cache.lutris.clone(),
-            steam_extra: cache.steam_side.clone(),
+            steam_extra: cache
+                .steam_side
+                .iter()
+                .filter(|x| !primary_ids.steam.contains(x))
+                .copied()
+                .collect(),
         };
 
         let paths = cache.parse_paths(title.to_string());
