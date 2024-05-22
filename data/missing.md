@@ -7340,6 +7340,7 @@
 * [Draft Day Sports: Pro Football 2020](https://www.pcgamingwiki.com/wiki/?curid=141766)
 * [Draft Day Sports: Pro Golf](https://www.pcgamingwiki.com/wiki/?curid=100134)
 * [Drafting Tales](https://www.pcgamingwiki.com/wiki/?curid=130352)
+* [Drag Her!](https://www.pcgamingwiki.com/wiki/?curid=195169)
 * [Drag Star!](https://www.pcgamingwiki.com/wiki/?curid=132130)
 * [Draggo](https://www.pcgamingwiki.com/wiki/?curid=159166)
 * [DragoDino](https://www.pcgamingwiki.com/wiki/?curid=53980)
