@@ -16889,7 +16889,6 @@
 * [Namaste Virtual Yoga Retreat](https://www.pcgamingwiki.com/wiki/?curid=79716)
 * [NAMELESS](https://www.pcgamingwiki.com/wiki/?curid=121355)
 * [Nameless Worlds](https://www.pcgamingwiki.com/wiki/?curid=135437)
-* [Nancy Drew Dossier: Lights, Camera, Curses!](https://www.pcgamingwiki.com/wiki/?curid=41274)
 * [Nancy Drew Dossier: Resorting to Danger!](https://www.pcgamingwiki.com/wiki/?curid=41200)
 * [Nancy Drew: Alibi in Ashes](https://www.pcgamingwiki.com/wiki/?curid=40863)
 * [Nancy Drew: Danger by Design](https://www.pcgamingwiki.com/wiki/?curid=41225)
