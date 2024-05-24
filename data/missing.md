@@ -30148,6 +30148,7 @@
 * [Zoo Rampage](https://www.pcgamingwiki.com/wiki/?curid=49977)
 * [Zoo Tycoon Friends](https://www.pcgamingwiki.com/wiki/?curid=177960)
 * [Zoo Tycoon: Ultimate Animal Collection](https://www.pcgamingwiki.com/wiki/?curid=73702)
+* [Zoochosis](https://www.pcgamingwiki.com/wiki/?curid=195215)
 * [Zooicide](https://www.pcgamingwiki.com/wiki/?curid=64739)
 * [Zooistry](https://www.pcgamingwiki.com/wiki/?curid=72106)
 * [ZooKeeper Simulator](https://www.pcgamingwiki.com/wiki/?curid=153476)
