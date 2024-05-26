@@ -26357,6 +26357,7 @@
 * [The Secret Order 7: Shadow Breach](https://www.pcgamingwiki.com/wiki/?curid=129813)
 * [The Secret Order 8: Return to the Buried Kingdom](https://www.pcgamingwiki.com/wiki/?curid=154085)
 * [The Secret Society: Hidden Way](https://www.pcgamingwiki.com/wiki/?curid=181944)
+* [The Secrets of Atlantis: The Sacred Legacy](https://www.pcgamingwiki.com/wiki/?curid=195247)
 * [The Secrets of Jesus](https://www.pcgamingwiki.com/wiki/?curid=145063)
 * [The Secrets of The Forest](https://www.pcgamingwiki.com/wiki/?curid=91264)
 * [The Seduction of Shaqeera](https://www.pcgamingwiki.com/wiki/?curid=146003)
