@@ -12054,6 +12054,7 @@
 * [Homeward Duck](https://www.pcgamingwiki.com/wiki/?curid=134943)
 * [HomeWork Is Crazy](https://www.pcgamingwiki.com/wiki/?curid=136922)
 * [Homeworld Defense](https://www.pcgamingwiki.com/wiki/?curid=81596)
+* [Homeworld: Vast Reaches](https://www.pcgamingwiki.com/wiki/?curid=195297)
 * [Homicide](https://www.pcgamingwiki.com/wiki/?curid=135349)
 * [Homing Shapes](https://www.pcgamingwiki.com/wiki/?curid=128047)
 * [Homo Flimsy](https://www.pcgamingwiki.com/wiki/?curid=99926)
