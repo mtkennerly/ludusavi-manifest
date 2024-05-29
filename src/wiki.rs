@@ -746,11 +746,26 @@ pub struct MappedPath {
 
 pub fn flatten_path(attribute: &Attribute) -> WikiPath {
     let mut out = WikiPath::default();
+    let mut maybe_irregular_text = false;
 
     for piece in &attribute.value.pieces {
         match piece {
-            TextPiece::Text { text, .. } => {
-                out.incorporate_text(text);
+            TextPiece::Text { text, formatting } => {
+                match formatting {
+                    wikitext_parser::TextFormatting::Normal => {
+                        if maybe_irregular_text && !text.trim().is_empty() {
+                            out.regularity = Regularity::Irregular;
+                        }
+                        out.incorporate_text(text);
+                    }
+                    wikitext_parser::TextFormatting::Italic
+                    | wikitext_parser::TextFormatting::Bold
+                    | wikitext_parser::TextFormatting::ItalicBold => {
+                        // Italic or bold notes can appear after the path,
+                        // but if we see any more text afterward, then there's a problem.
+                        maybe_irregular_text = true;
+                    }
+                }
             }
             TextPiece::DoubleBraceExpression { tag, attributes } => match tag.to_string().to_lowercase().trim() {
                 "p" | "path" => {
