@@ -10181,7 +10181,6 @@
 * [Garfield Lasagna Party](https://www.pcgamingwiki.com/wiki/?curid=191225)
 * [Garfield's It's All About Thinking Skills](https://www.pcgamingwiki.com/wiki/?curid=90681)
 * [Garfield's Mad About Cats](https://www.pcgamingwiki.com/wiki/?curid=90687)
-* [Garfield's Wild Ride](https://www.pcgamingwiki.com/wiki/?curid=92477)
 * [Garfield: A Tail of Two Kitties](https://www.pcgamingwiki.com/wiki/?curid=88443)
 * [Garfield: Caught in the Act](https://www.pcgamingwiki.com/wiki/?curid=88455)
 * [Garfield: It's All About Phonics - Kindergarten](https://www.pcgamingwiki.com/wiki/?curid=90683)
