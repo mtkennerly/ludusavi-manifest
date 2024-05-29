@@ -20486,6 +20486,7 @@
 * [Renegade Grounds: Episode 1](https://www.pcgamingwiki.com/wiki/?curid=68410)
 * [Renegade Grounds: Episode 2](https://www.pcgamingwiki.com/wiki/?curid=155945)
 * [Renoir](https://www.pcgamingwiki.com/wiki/?curid=39414)
+* [Rent-a-Hero](https://www.pcgamingwiki.com/wiki/?curid=195295)
 * [Rent-a-Vice](https://www.pcgamingwiki.com/wiki/?curid=93938)
 * [Renters Revenge](https://www.pcgamingwiki.com/wiki/?curid=74874)
 * [Rento Fortune - Multiplayer Board Game](https://www.pcgamingwiki.com/wiki/?curid=64540)
