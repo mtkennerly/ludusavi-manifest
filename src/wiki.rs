@@ -407,6 +407,8 @@ impl WikiCache {
 pub struct WikiCacheEntry {
     #[serde(skip_serializing_if = "State::is_handled")]
     pub state: State,
+    #[serde(skip_serializing_if = "CloudMetadata::is_empty")]
+    pub cloud: CloudMetadata,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub gog: Option<u64>,
     #[serde(skip_serializing_if = "BTreeSet::is_empty")]
@@ -532,6 +534,34 @@ impl WikiCacheEntry {
 
                                     out.templates.push(template.to_string());
                                 }
+                            }
+                        }
+                    }
+                    "save game cloud syncing" => {
+                        for attribute in attributes {
+                            match attribute.name.as_deref() {
+                                Some("discord") => {
+                                    out.cloud.discord = attribute.value.to_string() == "true";
+                                }
+                                Some("epic games launcher" | "epic games store") => {
+                                    out.cloud.epic = attribute.value.to_string() == "true";
+                                }
+                                Some("gog galaxy") => {
+                                    out.cloud.gog = attribute.value.to_string() == "true";
+                                }
+                                Some("ea desktop" | "origin") => {
+                                    out.cloud.origin = attribute.value.to_string() == "true";
+                                }
+                                Some("steam cloud") => {
+                                    out.cloud.steam = attribute.value.to_string() == "true";
+                                }
+                                Some("ubisoft connect" | "uplay") => {
+                                    out.cloud.uplay = attribute.value.to_string() == "true";
+                                }
+                                Some("xbox cloud") => {
+                                    out.cloud.xbox = attribute.value.to_string() == "true";
+                                }
+                                _ => {}
                             }
                         }
                     }
@@ -1021,6 +1051,41 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
         ),
     ])
 });
+
+#[derive(Clone, Debug, Default, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
+#[serde(default, rename_all = "camelCase")]
+pub struct CloudMetadata {
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub discord: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub epic: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub gog: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub origin: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub steam: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub uplay: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub xbox: bool,
+}
+
+impl CloudMetadata {
+    pub fn is_empty(&self) -> bool {
+        let Self {
+            discord,
+            epic,
+            gog,
+            origin,
+            steam,
+            uplay,
+            xbox,
+        } = self;
+
+        !discord && !epic && !gog && !origin && !steam && !uplay && !xbox
+    }
+}
 
 #[derive(Debug, Default, serde::Serialize, serde::Deserialize)]
 #[serde(rename_all = "camelCase")]

@@ -122,3 +122,16 @@ additionalProperties:
             type: integer
     alias:
       type: string
+    cloud:
+      type: object
+      properties:
+        epic:
+          type: boolean
+        gog:
+          type: boolean
+        origin:
+          type: boolean
+        steam:
+          type: boolean
+        uplay:
+          type: boolean

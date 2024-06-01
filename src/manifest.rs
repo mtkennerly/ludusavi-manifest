@@ -198,6 +198,8 @@ impl Manifest {
 pub struct Game {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub alias: Option<String>,
+    #[serde(skip_serializing_if = "CloudMetadata::is_empty")]
+    pub cloud: CloudMetadata,
     #[serde(skip_serializing_if = "BTreeMap::is_empty")]
     pub files: BTreeMap<String, GameFileEntry>,
     #[serde(skip_serializing_if = "GogMetadata::is_empty")]
@@ -233,6 +235,13 @@ impl Game {
                 .filter(|x| !primary_ids.steam.contains(x))
                 .copied()
                 .collect(),
+        };
+        self.cloud = CloudMetadata {
+            epic: cache.cloud.epic,
+            gog: cache.cloud.gog,
+            origin: cache.cloud.origin,
+            steam: cache.cloud.steam,
+            uplay: cache.cloud.uplay,
         };
 
         let paths = cache.parse_paths(title.to_string());
@@ -571,6 +580,35 @@ pub struct IdMetadata {
 impl IdMetadata {
     pub fn is_empty(&self) -> bool {
         self.flatpak.is_none() && self.gog_extra.is_empty() && self.lutris.is_none() && self.steam_extra.is_empty()
+    }
+}
+
+#[derive(Clone, Debug, Default, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
+#[serde(default, rename_all = "camelCase")]
+pub struct CloudMetadata {
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub epic: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub gog: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub origin: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub steam: bool,
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    pub uplay: bool,
+}
+
+impl CloudMetadata {
+    pub fn is_empty(&self) -> bool {
+        let Self {
+            epic,
+            gog,
+            origin,
+            steam,
+            uplay,
+        } = self;
+
+        !epic && !gog && !origin && !steam && !uplay
     }
 }
 

@@ -107,3 +107,16 @@ additionalProperties:
         the current entry's title can be used as a nickname to look up the other game.
         The other fields in the current entry should be ignored.
       type: string
+    cloud:
+      type: object
+      properties:
+        epic:
+          type: boolean
+        gog:
+          type: boolean
+        origin:
+          type: boolean
+        steam:
+          type: boolean
+        uplay:
+          type: boolean

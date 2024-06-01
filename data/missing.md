@@ -7060,7 +7060,6 @@
 * [DJ Mole](https://www.pcgamingwiki.com/wiki/?curid=87221)
 * [DJ Whip VR](https://www.pcgamingwiki.com/wiki/?curid=120749)
 * [Djilyaro](https://www.pcgamingwiki.com/wiki/?curid=76221)
-* [DJMax Respect V](https://www.pcgamingwiki.com/wiki/?curid=156151)
 * [DJMax Trilogy](https://www.pcgamingwiki.com/wiki/?curid=134039)
 * [DK Online](https://www.pcgamingwiki.com/wiki/?curid=127603)
 * [DMD Mars Mission](https://www.pcgamingwiki.com/wiki/?curid=82806)
