@@ -16421,6 +16421,7 @@
 * [Mortal Kombat Trilogy](https://www.pcgamingwiki.com/wiki/?curid=8460)
 * [Mortal Manor](https://www.pcgamingwiki.com/wiki/?curid=79290)
 * [Mortal Royale](https://www.pcgamingwiki.com/wiki/?curid=110146)
+* [Mortal Sin](https://www.pcgamingwiki.com/wiki/?curid=195390)
 * [Mortar and Pestle](https://www.pcgamingwiki.com/wiki/?curid=82732)
 * [Mortar Howl](https://www.pcgamingwiki.com/wiki/?curid=103011)
 * [Mortars VR](https://www.pcgamingwiki.com/wiki/?curid=78226)
