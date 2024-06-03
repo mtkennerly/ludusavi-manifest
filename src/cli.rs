@@ -45,10 +45,6 @@ pub enum Subcommand {
     /// Fetch bulk updates from the data sources.
     /// By default, this only updates entries that are marked as outdated.
     Bulk {
-        /// Do a full sync.
-        #[clap(long)]
-        full: bool,
-
         /// Only refresh this many entries.
         #[clap(long)]
         limit: Option<usize>,
@@ -106,14 +102,13 @@ pub async fn run(
 ) -> Result<(), Error> {
     match sub {
         Subcommand::Bulk {
-            full,
             limit,
             recent_changes,
             missing_pages,
             wiki_from,
             steam_from,
         } => {
-            let outdated_only = !full && wiki_from.is_none();
+            let outdated_only = wiki_from.is_none();
             if recent_changes {
                 wiki_cache.flag_recent_changes(wiki_meta_cache).await?;
             }
@@ -122,7 +117,7 @@ pub async fn run(
             }
             wiki_cache.refresh(outdated_only, None, limit, wiki_from).await?;
 
-            let outdated_only = !full && steam_from.is_none();
+            let outdated_only = steam_from.is_none();
             steam_cache.transition_states_from(wiki_cache);
             steam_cache.refresh(outdated_only, None, limit, steam_from)?;
 
