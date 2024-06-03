@@ -128,6 +128,10 @@ pub async fn run(
 
             manifest.refresh(manifest_override, wiki_cache, steam_cache)?;
             schema::validate_manifest(manifest)?;
+
+            if recent_changes {
+                print_stats(manifest, wiki_cache);
+            }
         }
         Subcommand::Solo { local, games } => {
             let games = parse_games(games);
@@ -154,26 +158,7 @@ pub async fn run(
             schema::validate_manifest(manifest)?;
         }
         Subcommand::Stats => {
-            let games = manifest.0.keys().count();
-            let files_or_registry = manifest
-                .0
-                .values()
-                .filter(|x| !x.files.is_empty() || !x.registry.is_empty())
-                .count();
-            let no_files_or_registry = manifest
-                .0
-                .values()
-                .filter(|x| x.files.is_empty() && x.registry.is_empty())
-                .count();
-            let in_wiki_cache = wiki_cache.0.keys().count();
-
-            println!("Total games in manifest: {}", games);
-            println!("Total games in manifest with files or registry: {}", files_or_registry);
-            println!(
-                "Total games in manifest without files and registry: {}",
-                no_files_or_registry
-            );
-            println!("Total games in wiki cache: {}", in_wiki_cache);
+            print_stats(manifest, wiki_cache);
         }
         Subcommand::Duplicates => {
             struct Duplicate {
@@ -215,4 +200,27 @@ pub async fn run(
     }
 
     Ok(())
+}
+
+fn print_stats(manifest: &Manifest, wiki_cache: &WikiCache) {
+    let games = manifest.0.keys().count();
+    let files_or_registry = manifest
+        .0
+        .values()
+        .filter(|x| !x.files.is_empty() || !x.registry.is_empty())
+        .count();
+    let no_files_or_registry = manifest
+        .0
+        .values()
+        .filter(|x| x.files.is_empty() && x.registry.is_empty())
+        .count();
+    let in_wiki_cache = wiki_cache.0.keys().count();
+
+    println!("Total games in manifest: {}", games);
+    println!("Total games in manifest with files or registry: {}", files_or_registry);
+    println!(
+        "Total games in manifest without files and registry: {}",
+        no_files_or_registry
+    );
+    println!("Total games in wiki cache: {}", in_wiki_cache);
 }
