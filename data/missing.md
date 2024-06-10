@@ -29791,6 +29791,7 @@
 * [Yanpai Simulator](https://www.pcgamingwiki.com/wiki/?curid=124000)
 * [YAPP: Yet Another Puzzle Platformer](https://www.pcgamingwiki.com/wiki/?curid=75646)
 * [YARBAY](https://www.pcgamingwiki.com/wiki/?curid=144637)
+* [Yars Rising](https://www.pcgamingwiki.com/wiki/?curid=195588)
 * [Yars' Revenge](https://www.pcgamingwiki.com/wiki/?curid=181095)
 * [YASG](https://www.pcgamingwiki.com/wiki/?curid=149722)
 * [Yashik](https://www.pcgamingwiki.com/wiki/?curid=77067)
