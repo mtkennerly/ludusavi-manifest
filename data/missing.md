@@ -29761,7 +29761,6 @@
 * [Xeodrifter](https://www.pcgamingwiki.com/wiki/?curid=49133)
 * [XERA: Survival](https://www.pcgamingwiki.com/wiki/?curid=98184)
 * [XEYYEX](https://www.pcgamingwiki.com/wiki/?curid=143893)
-* [XF Extreme Formula](https://www.pcgamingwiki.com/wiki/?curid=189484)
 * [XF5700 Mantis Experimental Fighter](https://www.pcgamingwiki.com/wiki/?curid=165136)
 * [XField Paintball 3](https://www.pcgamingwiki.com/wiki/?curid=53111)
 * [XGun-Weapon Evolution](https://www.pcgamingwiki.com/wiki/?curid=62294)
