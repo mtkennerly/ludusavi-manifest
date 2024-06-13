@@ -25752,6 +25752,7 @@
 * [The Grinch](https://www.pcgamingwiki.com/wiki/?curid=187894)
 * [The Grinch: Christmas Adventures](https://www.pcgamingwiki.com/wiki/?curid=191297)
 * [The Guard of Dungeon](https://www.pcgamingwiki.com/wiki/?curid=58541)
+* [The Guardian of Darkness](https://www.pcgamingwiki.com/wiki/?curid=195652)
 * [The Guild II: Venice](https://www.pcgamingwiki.com/wiki/?curid=181043)
 * [The Guilt and the Shadow](https://www.pcgamingwiki.com/wiki/?curid=48825)
 * [The Gunstringer: Dead Man Running](https://www.pcgamingwiki.com/wiki/?curid=178669)
