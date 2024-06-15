@@ -96,6 +96,7 @@
 * [1BIT CASTLE](https://www.pcgamingwiki.com/wiki/?curid=148471)
 * [1Dimensional Desperado](https://www.pcgamingwiki.com/wiki/?curid=95929)
 * [1Heart](https://www.pcgamingwiki.com/wiki/?curid=49520)
+* [1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde](https://www.pcgamingwiki.com/wiki/?curid=195713)
 * [2 Ninjas 1 Cup](https://www.pcgamingwiki.com/wiki/?curid=56984)
 * [2 Planets Fire and Ice](https://www.pcgamingwiki.com/wiki/?curid=66132)
 * [2 Volt](https://www.pcgamingwiki.com/wiki/?curid=192877)
