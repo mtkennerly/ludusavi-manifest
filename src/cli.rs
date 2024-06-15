@@ -118,7 +118,7 @@ pub async fn run(
                 wiki_cache.flag_recent_changes(wiki_meta_cache).await?;
             }
             if missing_pages {
-                wiki_cache.add_new_games().await?;
+                wiki_cache.add_new_articles().await?;
             }
             wiki_cache.refresh(outdated_only, None, limit, wiki_from).await?;
 

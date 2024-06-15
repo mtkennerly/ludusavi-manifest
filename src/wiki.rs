@@ -12,6 +12,7 @@ use crate::{
 };
 
 const SAVE_INTERVAL: u32 = 100;
+const RELEVANT_CATEGORIES: &[&str] = &["Category:Games", "Category:Emulators"];
 
 async fn make_client() -> Result<mediawiki::api::Api, Error> {
     mediawiki::api::Api::new("https://www.pcgamingwiki.com/w/api.php")
@@ -63,7 +64,7 @@ async fn get_page_title(id: u64) -> Result<Option<String>, Error> {
     Ok(None)
 }
 
-async fn is_game_article(query: &str) -> Result<bool, Error> {
+async fn is_article_relevant(query: &str) -> Result<bool, Error> {
     let wiki = make_client().await?;
     let params = wiki.params_into(&[("action", "query"), ("prop", "categories"), ("titles", query)]);
 
@@ -81,7 +82,7 @@ async fn is_game_article(query: &str) -> Result<bool, Error> {
                     let category_name = category["title"]
                         .as_str()
                         .ok_or(Error::WikiData("query.pages[].categories[].title"))?;
-                    if category_name == "Category:Games" {
+                    if RELEVANT_CATEGORIES.contains(&category_name) {
                         return Ok(true);
                     }
                 }
@@ -166,7 +167,7 @@ impl WikiCache {
                 match old_name {
                     None => {
                         // Brand new page.
-                        match is_game_article(&title).await {
+                        match is_article_relevant(&title).await {
                             Ok(true) => {
                                 // It's a game, so add it to the cache.
                                 println!("[  C] {}", &title);
@@ -203,12 +204,19 @@ impl WikiCache {
         Ok(())
     }
 
-    pub async fn add_new_games(&mut self) -> Result<(), Error> {
+    pub async fn add_new_articles(&mut self) -> Result<(), Error> {
+        for category in RELEVANT_CATEGORIES {
+            self.add_new_category_members(category).await?;
+        }
+        Ok(())
+    }
+
+    async fn add_new_category_members(&mut self, category: &str) -> Result<(), Error> {
         let wiki = make_client().await?;
         let params = wiki.params_into(&[
             ("action", "query"),
             ("list", "categorymembers"),
-            ("cmtitle", "Category:Games"),
+            ("cmtitle", category),
             ("cmlimit", "500"),
         ]);
 
@@ -300,7 +308,7 @@ impl WikiCache {
                     if let Some(new_title) = latest.new_title.take() {
                         println!("  page {} redirected to '{}'", cached.page_id, &new_title);
 
-                        match is_game_article(&new_title).await {
+                        match is_article_relevant(&new_title).await {
                             Ok(true) => {}
                             Ok(false) => {
                                 println!("  page is no longer a game");
@@ -336,7 +344,7 @@ impl WikiCache {
 
                     println!("  page {} renamed to '{}'", cached.page_id, &new_title);
 
-                    match is_game_article(&new_title).await {
+                    match is_article_relevant(&new_title).await {
                         Ok(true) => {}
                         Ok(false) => {
                             println!("  page is no longer a game");
@@ -1107,8 +1115,8 @@ mod tests {
     use super::*;
 
     #[tokio::test]
-    async fn test_is_game_article() {
-        assert!(matches!(is_game_article("Celeste").await, Ok(true)));
-        assert!(matches!(is_game_article("Template:Path").await, Ok(false)));
+    async fn test_is_article_relevant() {
+        assert!(matches!(is_article_relevant("Celeste").await, Ok(true)));
+        assert!(matches!(is_article_relevant("Template:Path").await, Ok(false)));
     }
 }
