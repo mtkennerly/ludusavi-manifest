@@ -10584,7 +10584,6 @@
 * [Gobernators](https://www.pcgamingwiki.com/wiki/?curid=51368)
 * [Goblet of Maya](https://www.pcgamingwiki.com/wiki/?curid=54999)
 * [Gobligeddon](https://www.pcgamingwiki.com/wiki/?curid=144184)
-* [Goblin Cleanup](https://www.pcgamingwiki.com/wiki/?curid=195755)
 * [Goblin Quest: Escape!](https://www.pcgamingwiki.com/wiki/?curid=129847)
 * [Goblin Storm](https://www.pcgamingwiki.com/wiki/?curid=78174)
 * [Goblin's Shop](https://www.pcgamingwiki.com/wiki/?curid=121871)
