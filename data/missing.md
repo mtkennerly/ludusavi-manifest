@@ -376,6 +376,7 @@
 * [A Purrtato Tail - By the Light of the Elderstar](https://www.pcgamingwiki.com/wiki/?curid=88248)
 * [A Quick Death](https://www.pcgamingwiki.com/wiki/?curid=64038)
 * [A Quiet Mind](https://www.pcgamingwiki.com/wiki/?curid=94705)
+* [A Quiet Place: The Road Ahead](https://www.pcgamingwiki.com/wiki/?curid=195802)
 * [A Raven Monologue](https://www.pcgamingwiki.com/wiki/?curid=78310)
 * [A Rip in Time](https://www.pcgamingwiki.com/wiki/?curid=71652)
 * [A Salem Witch Trial - Murder Mystery](https://www.pcgamingwiki.com/wiki/?curid=81615)
