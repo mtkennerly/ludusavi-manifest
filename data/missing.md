@@ -15454,6 +15454,7 @@
 * [Marvel End Time Arena](https://www.pcgamingwiki.com/wiki/?curid=87509)
 * [Marvel Powers United VR](https://www.pcgamingwiki.com/wiki/?curid=165488)
 * [Marvel Rivals](https://www.pcgamingwiki.com/wiki/?curid=194000)
+* [Marvel vs. Capcom Fighting Collection: Arcade Classics](https://www.pcgamingwiki.com/wiki/?curid=195829)
 * [Marvin the Hatter](https://www.pcgamingwiki.com/wiki/?curid=132619)
 * [Marvin's Mittens](https://www.pcgamingwiki.com/wiki/?curid=37164)
 * [Marwin and The Evolution Stone](https://www.pcgamingwiki.com/wiki/?curid=39880)
