@@ -89,6 +89,14 @@ pub enum Subcommand {
     Duplicates,
     /// List games with irregular paths.
     Irregular,
+    /// Try parsing a file containing wikitext.
+    /// If there are parsing errors, print them and exit with 1;
+    /// otherwise, print nothing and exit with 0.
+    Wikitext {
+        /// Path to file containing wikitext.
+        #[clap(default_value_t = format!("{}/tmp/wiki.txt", crate::REPO))]
+        path: String,
+    },
 }
 
 pub fn parse() -> Cli {
@@ -195,6 +203,24 @@ pub async fn run(
                 if info.any_irregular_paths(game.to_string()) {
                     println!("{}", game);
                 }
+            }
+        }
+        Subcommand::Wikitext { path } => {
+            let Ok(content) = std::fs::read_to_string(&path) else {
+                eprintln!("Unable to read file: {path}");
+                std::process::exit(2);
+            };
+
+            let mut malformed = false;
+            wikitext_parser::parse_wikitext(&content, "Test".to_string(), |e| {
+                malformed = true;
+                dbg!(e);
+            });
+
+            if malformed {
+                std::process::exit(1);
+            } else {
+                std::process::exit(0);
             }
         }
     }
