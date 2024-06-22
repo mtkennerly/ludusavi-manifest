@@ -3727,6 +3727,7 @@
 * [Bubblien Pop](https://www.pcgamingwiki.com/wiki/?curid=78579)
 * [Bubli](https://www.pcgamingwiki.com/wiki/?curid=123546)
 * [Bubonic: Outbreak](https://www.pcgamingwiki.com/wiki/?curid=44635)
+* [Bubsy in: The Purrfect Collection](https://www.pcgamingwiki.com/wiki/?curid=195876)
 * [Bubsy: Paws on Fire!](https://www.pcgamingwiki.com/wiki/?curid=128531)
 * [Buccaneer](https://www.pcgamingwiki.com/wiki/?curid=192358)
 * [Buccaneers, Bounty & Boom!](https://www.pcgamingwiki.com/wiki/?curid=58658)
