@@ -1,5 +1,6 @@
 use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet};
 
+use itertools::Itertools;
 use once_cell::sync::Lazy;
 use regex::Regex;
 use wikitext_parser::{Attribute, TextPiece};
@@ -1108,6 +1109,25 @@ impl ResourceFile for WikiMetaCache {
         self.last_checked_recent_changes = chrono::Utc::now() - chrono::Duration::days(1);
         self
     }
+}
+
+pub fn save_malformed_list(wiki_cache: &WikiCache) {
+    let lines: Vec<String> = wiki_cache
+        .0
+        .iter()
+        .sorted_by(|(k1, _), (k2, _)| k1.to_lowercase().cmp(&k2.to_lowercase()))
+        .filter(|(_, v)| v.malformed)
+        .map(|(k, v)| format!("* [{}](https://www.pcgamingwiki.com/wiki/?curid={})", k, v.page_id))
+        .collect();
+
+    _ = std::fs::write(
+        format!("{}/data/wiki-malformed.md", crate::REPO),
+        if lines.is_empty() {
+            "* No errors found".to_string()
+        } else {
+            lines.join("\n") + "\n"
+        },
+    );
 }
 
 #[cfg(test)]

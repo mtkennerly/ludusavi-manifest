@@ -137,6 +137,7 @@ async fn main() {
         steam_cache.save();
         manifest.save();
         missing::save_missing_games(&wiki_cache, &manifest, &manifest_override);
+        wiki::save_malformed_list(&wiki_cache);
     }
 
     if !success {
