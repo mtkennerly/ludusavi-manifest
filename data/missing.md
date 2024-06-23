@@ -12612,7 +12612,6 @@
 * [Immortal Heroes](https://www.pcgamingwiki.com/wiki/?curid=76263)
 * [Immortal Truth](https://www.pcgamingwiki.com/wiki/?curid=58908)
 * [Immortals](https://www.pcgamingwiki.com/wiki/?curid=98776)
-* [Immortals Fenyx Rising](https://www.pcgamingwiki.com/wiki/?curid=138457)
 * [Immune - True Survival](https://www.pcgamingwiki.com/wiki/?curid=48391)
 * [Imp of the Sun](https://www.pcgamingwiki.com/wiki/?curid=167614)
 * [Impale](https://www.pcgamingwiki.com/wiki/?curid=77271)
