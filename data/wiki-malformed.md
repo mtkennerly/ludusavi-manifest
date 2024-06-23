@@ -30,7 +30,6 @@
 * [Left Behind: Eternal Forces](https://www.pcgamingwiki.com/wiki/?curid=81424)
 * [Left Behind: Tribulation Forces](https://www.pcgamingwiki.com/wiki/?curid=106673)
 * [Lego DC Super-Villains](https://www.pcgamingwiki.com/wiki/?curid=96133)
-* [Lego Island](https://www.pcgamingwiki.com/wiki/?curid=6644)
 * [Limit Theory](https://www.pcgamingwiki.com/wiki/?curid=23047)
 * [Microsoft Flight Simulator 98](https://www.pcgamingwiki.com/wiki/?curid=183021)
 * [Moonlighter](https://www.pcgamingwiki.com/wiki/?curid=61691)
