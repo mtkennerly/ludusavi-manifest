@@ -1,4 +1,3 @@
-* [404Sight](https://www.pcgamingwiki.com/wiki/?curid=34881)
 * [Airship Dragoon](https://www.pcgamingwiki.com/wiki/?curid=49715)
 * [Alien: Isolation](https://www.pcgamingwiki.com/wiki/?curid=17716)
 * [Aliens versus Predator 2](https://www.pcgamingwiki.com/wiki/?curid=754)
