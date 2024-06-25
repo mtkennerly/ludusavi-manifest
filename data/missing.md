@@ -20887,7 +20887,6 @@
 * [Rival Rampage](https://www.pcgamingwiki.com/wiki/?curid=75453)
 * [Rivalry](https://www.pcgamingwiki.com/wiki/?curid=44850)
 * [Rivals 2](https://www.pcgamingwiki.com/wiki/?curid=194858)
-* [Riven (2024)](https://www.pcgamingwiki.com/wiki/?curid=194551)
 * [River City Melee Mach!!](https://www.pcgamingwiki.com/wiki/?curid=149043)
 * [River City Super Sports Challenge: All Stars Special](https://www.pcgamingwiki.com/wiki/?curid=45252)
 * [River Legends: A Fly Fishing Adventure](https://www.pcgamingwiki.com/wiki/?curid=141911)
