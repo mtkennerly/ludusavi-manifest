@@ -11,7 +11,7 @@ along with accessing the Steam API for game installation directory names.
 If you find any data that is missing or incorrect, please contribute to the wiki,
 and such changes will be incorporated into the primary manifest periodically.
 There is also a list of [games without any info on what to back up](data/missing.md),
-as well as [articles with wikitext that failed to parse](data/wiki-malformed.yaml).
+as well as [articles with wikitext that failed to parse](data/wiki-malformed.md).
 
 Game developers may include a secondary manifest (named `.ludusavi.yaml`) with their games,
 so that backup tools can automatically detect and use it
