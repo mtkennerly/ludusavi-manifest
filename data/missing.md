@@ -18761,6 +18761,7 @@
 * [Pick Your Poison](https://www.pcgamingwiki.com/wiki/?curid=154217)
 * [Pick, shoot, repeat!](https://www.pcgamingwiki.com/wiki/?curid=156274)
 * [Pickers](https://www.pcgamingwiki.com/wiki/?curid=40834)
+* [Pickleball Smash](https://www.pcgamingwiki.com/wiki/?curid=195992)
 * [Picklock](https://www.pcgamingwiki.com/wiki/?curid=191378)
 * [Pickup Express](https://www.pcgamingwiki.com/wiki/?curid=195264)
 * [Picnic](https://www.pcgamingwiki.com/wiki/?curid=87275)
