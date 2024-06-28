@@ -16,6 +16,7 @@
 * [Fault - Milestone Two](https://www.pcgamingwiki.com/wiki/?curid=33640)
 * [Halo Infinite](https://www.pcgamingwiki.com/wiki/?curid=138382)
 * [IL-2 Sturmovik: 1946](https://www.pcgamingwiki.com/wiki/?curid=3563)
+* [Independence War 2: Edge of Chaos](https://www.pcgamingwiki.com/wiki/?curid=23180)
 * [Left Behind 4: World at War](https://www.pcgamingwiki.com/wiki/?curid=106677)
 * [Left Behind: Eternal Forces](https://www.pcgamingwiki.com/wiki/?curid=81424)
 * [Left Behind: Tribulation Forces](https://www.pcgamingwiki.com/wiki/?curid=106673)
