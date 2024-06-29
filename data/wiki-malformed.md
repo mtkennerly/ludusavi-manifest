@@ -1,4 +1,3 @@
-* [Armed Forces Corp.](https://www.pcgamingwiki.com/wiki/?curid=186354)
 * [Bejeweled 2](https://www.pcgamingwiki.com/wiki/?curid=12258)
 * [Blind Men](https://www.pcgamingwiki.com/wiki/?curid=65074)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
