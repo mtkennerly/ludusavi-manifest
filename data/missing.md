@@ -24053,7 +24053,6 @@
 * [Strawberry Shortcake: Amazing Cookie Party](https://www.pcgamingwiki.com/wiki/?curid=166221)
 * [Strawhart](https://www.pcgamingwiki.com/wiki/?curid=151123)
 * [Stray Blade](https://www.pcgamingwiki.com/wiki/?curid=170988)
-* [Stray Souls](https://www.pcgamingwiki.com/wiki/?curid=173478)
 * [Strazeal](https://www.pcgamingwiki.com/wiki/?curid=144009)
 * [Stream Animals](https://www.pcgamingwiki.com/wiki/?curid=130426)
 * [Stream Battlecards](https://www.pcgamingwiki.com/wiki/?curid=155568)
