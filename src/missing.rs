@@ -22,5 +22,12 @@ pub fn save_missing_games(wiki_cache: &WikiCache, manifest: &Manifest, overrides
         .map(|(k, v)| format!("* [{}](https://www.pcgamingwiki.com/wiki/?curid={})", k, v.page_id))
         .collect();
 
-    _ = std::fs::write(format!("{}/data/missing.md", REPO), lines.join("\n") + "\n");
+    _ = std::fs::write(
+        format!("{}/data/missing.md", REPO),
+        if lines.is_empty() {
+            "N/A".to_string()
+        } else {
+            lines.join("\n") + "\n"
+        },
+    );
 }

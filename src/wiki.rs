@@ -1123,7 +1123,7 @@ pub fn save_malformed_list(wiki_cache: &WikiCache) {
     _ = std::fs::write(
         format!("{}/data/wiki-malformed.md", crate::REPO),
         if lines.is_empty() {
-            "* No errors found".to_string()
+            "N/A".to_string()
         } else {
             lines.join("\n") + "\n"
         },
