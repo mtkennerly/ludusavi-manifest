@@ -7,6 +7,7 @@
 * [Counter-Strike Online 2](https://www.pcgamingwiki.com/wiki/?curid=162639)
 * [Creepy Castle](https://www.pcgamingwiki.com/wiki/?curid=39349)
 * [Dark Deception](https://www.pcgamingwiki.com/wiki/?curid=111922)
+* [Darkened Skye](https://www.pcgamingwiki.com/wiki/?curid=97137)
 * [Donald Duck: Goin' Quackers](https://www.pcgamingwiki.com/wiki/?curid=80156)
 * [Duck Season](https://www.pcgamingwiki.com/wiki/?curid=69641)
 * [Dungeon Keeper](https://www.pcgamingwiki.com/wiki/?curid=7396)
