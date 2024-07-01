@@ -10,6 +10,7 @@
 * [Donald Duck: Goin' Quackers](https://www.pcgamingwiki.com/wiki/?curid=80156)
 * [Duck Season](https://www.pcgamingwiki.com/wiki/?curid=69641)
 * [Dungeon Keeper](https://www.pcgamingwiki.com/wiki/?curid=7396)
+* [Endoparasitic](https://www.pcgamingwiki.com/wiki/?curid=187223)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Escape from Tarkov: Arena](https://www.pcgamingwiki.com/wiki/?curid=191894)
 * [Fault - Milestone Two](https://www.pcgamingwiki.com/wiki/?curid=33640)
