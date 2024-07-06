@@ -24358,7 +24358,6 @@
 * [Super Lee World](https://www.pcgamingwiki.com/wiki/?curid=141750)
 * [Super Lemonade Factory](https://www.pcgamingwiki.com/wiki/?curid=49971)
 * [Super Lobster Run](https://www.pcgamingwiki.com/wiki/?curid=154382)
-* [Super LoH](https://www.pcgamingwiki.com/wiki/?curid=54764)
 * [Super Lolicon Puzzle Simulator 2019](https://www.pcgamingwiki.com/wiki/?curid=150227)
 * [Super Lula Escape From Prison](https://www.pcgamingwiki.com/wiki/?curid=90929)
 * [Super Mario Bros. & Friends: When I Grow Up](https://www.pcgamingwiki.com/wiki/?curid=155077)
