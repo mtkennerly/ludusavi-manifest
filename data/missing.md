@@ -2721,7 +2721,6 @@
 * [Behold!](https://www.pcgamingwiki.com/wiki/?curid=52381)
 * [Beijing 2008](https://www.pcgamingwiki.com/wiki/?curid=41344)
 * [BeiJing Courier Simulator](https://www.pcgamingwiki.com/wiki/?curid=136529)
-* [Bejeweled 2](https://www.pcgamingwiki.com/wiki/?curid=12258)
 * [Bejeweled LIVE](https://www.pcgamingwiki.com/wiki/?curid=157594)
 * [Beku](https://www.pcgamingwiki.com/wiki/?curid=177098)
 * [Believe: Paranormal Psychic Adventure](https://www.pcgamingwiki.com/wiki/?curid=135865)
