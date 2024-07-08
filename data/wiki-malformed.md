@@ -1,7 +1,6 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Juarez: The Cartel](https://www.pcgamingwiki.com/wiki/?curid=7404)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
-* [NeoTokyo](https://www.pcgamingwiki.com/wiki/?curid=18357)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
