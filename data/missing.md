@@ -24845,7 +24845,6 @@
 * [Talewind](https://www.pcgamingwiki.com/wiki/?curid=41521)
 * [Talif's Journey](https://www.pcgamingwiki.com/wiki/?curid=151189)
 * [Talisman: Prologue](https://www.pcgamingwiki.com/wiki/?curid=40577)
-* [Talismania](https://www.pcgamingwiki.com/wiki/?curid=16600)
 * [Talk to Aya](https://www.pcgamingwiki.com/wiki/?curid=74496)
 * [Talk to Saki](https://www.pcgamingwiki.com/wiki/?curid=79304)
 * [Talk to Strangers](https://www.pcgamingwiki.com/wiki/?curid=122680)
