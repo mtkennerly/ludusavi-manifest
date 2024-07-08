@@ -3965,6 +3965,7 @@
 * [Call of Cthulhu: The Wasted Land](https://www.pcgamingwiki.com/wiki/?curid=50596)
 * [Call of Duty: Black Ops 6](https://www.pcgamingwiki.com/wiki/?curid=195585)
 * [Call of Duty: Heroes](https://www.pcgamingwiki.com/wiki/?curid=76744)
+* [Call of Duty: Mobile](https://www.pcgamingwiki.com/wiki/?curid=196222)
 * [Call of Duty: Online](https://www.pcgamingwiki.com/wiki/?curid=94163)
 * [Call of Duty: Warzone 2.0](https://www.pcgamingwiki.com/wiki/?curid=182994)
 * [Call of Fries](https://www.pcgamingwiki.com/wiki/?curid=132460)
