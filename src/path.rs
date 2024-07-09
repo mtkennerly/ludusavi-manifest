@@ -89,6 +89,7 @@ fn too_broad(path: &str) -> bool {
         format!("{HOME}/Library/RenPy"),
         format!("{HOME}/Telltale Games"),
         format!("{ROOT}/config"),
+        format!("{WIN_APP_DATA}/MMFApplications"),
         format!("{WIN_APP_DATA}/RenPy"),
         format!("{WIN_DIR}/win.ini"),
         format!("{WIN_DIR}/SysWOW64"),
