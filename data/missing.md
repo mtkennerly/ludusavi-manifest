@@ -29790,6 +29790,7 @@
 * [X-Plane 10 Global](https://www.pcgamingwiki.com/wiki/?curid=49945)
 * [X-Plane 12](https://www.pcgamingwiki.com/wiki/?curid=182123)
 * [X-Plane 5](https://www.pcgamingwiki.com/wiki/?curid=191513)
+* [X-Plane 6](https://www.pcgamingwiki.com/wiki/?curid=196284)
 * [X-Plane 7](https://www.pcgamingwiki.com/wiki/?curid=191480)
 * [X-Plane 8](https://www.pcgamingwiki.com/wiki/?curid=191383)
 * [X-Plane 9](https://www.pcgamingwiki.com/wiki/?curid=191381)
