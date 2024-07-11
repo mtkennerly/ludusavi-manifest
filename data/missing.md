@@ -28631,6 +28631,7 @@
 * [Volcano Eruption](https://www.pcgamingwiki.com/wiki/?curid=96657)
 * [Volcano Tower](https://www.pcgamingwiki.com/wiki/?curid=94348)
 * [VolChaos](https://www.pcgamingwiki.com/wiki/?curid=45367)
+* [Volgarr the Viking II](https://www.pcgamingwiki.com/wiki/?curid=196321)
 * [Volkstein](https://www.pcgamingwiki.com/wiki/?curid=89557)
 * [Volleyball Fever](https://www.pcgamingwiki.com/wiki/?curid=141231)
 * [Volleyball Fever Flat](https://www.pcgamingwiki.com/wiki/?curid=152693)
