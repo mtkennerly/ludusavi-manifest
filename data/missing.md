@@ -20677,7 +20677,6 @@
 * [Retro RPG Online 2](https://www.pcgamingwiki.com/wiki/?curid=148803)
 * [Retro Snake](https://www.pcgamingwiki.com/wiki/?curid=98022)
 * [Retro Snake Adventures](https://www.pcgamingwiki.com/wiki/?curid=108412)
-* [Retro Sonic](https://www.pcgamingwiki.com/wiki/?curid=177180)
 * [Retro Space Shooter](https://www.pcgamingwiki.com/wiki/?curid=75079)
 * [Retro Sphere](https://www.pcgamingwiki.com/wiki/?curid=80647)
 * [Retro Synthesis](https://www.pcgamingwiki.com/wiki/?curid=114090)
