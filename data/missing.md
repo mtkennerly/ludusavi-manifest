@@ -6593,6 +6593,7 @@
 * [Delirium (2023)](https://www.pcgamingwiki.com/wiki/?curid=184929)
 * [Delirium VR](https://www.pcgamingwiki.com/wiki/?curid=130125)
 * [Delirium: Bad Trip Edition](https://www.pcgamingwiki.com/wiki/?curid=82700)
+* [Deliver Us Home](https://www.pcgamingwiki.com/wiki/?curid=196415)
 * [Deliverace](https://www.pcgamingwiki.com/wiki/?curid=91470)
 * [Deliverance](https://www.pcgamingwiki.com/wiki/?curid=46645)
 * [Delivered!](https://www.pcgamingwiki.com/wiki/?curid=135212)
