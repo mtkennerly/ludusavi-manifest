@@ -20694,7 +20694,7 @@
 * [RetroGunX](https://www.pcgamingwiki.com/wiki/?curid=68659)
 * [Retroids](https://www.pcgamingwiki.com/wiki/?curid=103867)
 * [RetroVamp](https://www.pcgamingwiki.com/wiki/?curid=153039)
-* [Retrowave](https://www.pcgamingwiki.com/wiki/?curid=170512)
+* [Retrowave World](https://www.pcgamingwiki.com/wiki/?curid=196437)
 * [Return Home](https://www.pcgamingwiki.com/wiki/?curid=130484)
 * [Return Null - Episode 1](https://www.pcgamingwiki.com/wiki/?curid=48292)
 * [Return of the Phantom](https://www.pcgamingwiki.com/wiki/?curid=147589)
