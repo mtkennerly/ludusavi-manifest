@@ -19210,6 +19210,7 @@
 * [Political Animals](https://www.pcgamingwiki.com/wiki/?curid=51881)
 * [Political Tycoon](https://www.pcgamingwiki.com/wiki/?curid=63900)
 * [Polities](https://www.pcgamingwiki.com/wiki/?curid=136954)
+* [Polity - Online Role Playing](https://www.pcgamingwiki.com/wiki/?curid=196442)
 * [Poltergeist Treasure](https://www.pcgamingwiki.com/wiki/?curid=109648)
 * [Poltergeist: A Pixelated Horror](https://www.pcgamingwiki.com/wiki/?curid=49478)
 * [Polterheist](https://www.pcgamingwiki.com/wiki/?curid=57997)
