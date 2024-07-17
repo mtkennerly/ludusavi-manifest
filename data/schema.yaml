@@ -120,3 +120,12 @@ additionalProperties:
           type: boolean
         uplay:
           type: boolean
+    notes:
+      description: |
+        Notes may be displayed along with the game in scan results to provide additional information.
+      type: array
+      items:
+        type: object
+        properties:
+          message:
+            type: string
