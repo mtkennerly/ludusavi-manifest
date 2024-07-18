@@ -7850,6 +7850,7 @@
 * [E.T.: Interplanetary Mission](https://www.pcgamingwiki.com/wiki/?curid=192161)
 * [E3.14CENTER](https://www.pcgamingwiki.com/wiki/?curid=123460)
 * [EA Sports FC 24](https://www.pcgamingwiki.com/wiki/?curid=189794)
+* [EA Sports FC 25](https://www.pcgamingwiki.com/wiki/?curid=196469)
 * [EA Sports PGA Tour](https://www.pcgamingwiki.com/wiki/?curid=186345)
 * [Eared Hero](https://www.pcgamingwiki.com/wiki/?curid=88965)
 * [EARLY ACCESS CA$HGRAB](https://www.pcgamingwiki.com/wiki/?curid=142215)
