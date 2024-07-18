@@ -1,5 +1,4 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
-* [Creature Conflict: The Clan Wars](https://www.pcgamingwiki.com/wiki/?curid=195196)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Islands of Insight](https://www.pcgamingwiki.com/wiki/?curid=193192)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
