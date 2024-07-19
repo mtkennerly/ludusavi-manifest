@@ -455,6 +455,10 @@ impl Game {
             self.id.flatpak = Some(flatpak.clone());
         }
         self.install_dir.extend(overridden.game.install_dir.clone());
+
+        if overridden.omit_registry {
+            self.registry.clear();
+        }
     }
 
     pub fn usable(&self) -> bool {
@@ -620,6 +624,7 @@ pub struct ManifestOverride(pub BTreeMap<String, OverrideGame>);
 #[serde(default, rename_all = "camelCase")]
 pub struct OverrideGame {
     pub omit: bool,
+    pub omit_registry: bool,
     pub use_steam_cloud: bool,
     #[serde(flatten)]
     pub game: Game,
