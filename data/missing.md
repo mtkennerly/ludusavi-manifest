@@ -17079,6 +17079,7 @@
 * [NBA 2K22 Arcade Edition](https://www.pcgamingwiki.com/wiki/?curid=171701)
 * [NBA 2K23 Arcade Edition](https://www.pcgamingwiki.com/wiki/?curid=182524)
 * [NBA 2K24](https://www.pcgamingwiki.com/wiki/?curid=189650)
+* [NBA 2K25](https://www.pcgamingwiki.com/wiki/?curid=196477)
 * [NBA 2K9](https://www.pcgamingwiki.com/wiki/?curid=60423)
 * [NBA 2KVR Experience](https://www.pcgamingwiki.com/wiki/?curid=53902)
 * [NBA Action 98](https://www.pcgamingwiki.com/wiki/?curid=187985)
