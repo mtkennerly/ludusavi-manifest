@@ -4,5 +4,5 @@
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
-* [The Temple of Elemental Evil](https://www.pcgamingwiki.com/wiki/?curid=14272)
+* [XIII](https://www.pcgamingwiki.com/wiki/?curid=3514)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
