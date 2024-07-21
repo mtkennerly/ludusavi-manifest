@@ -22872,6 +22872,7 @@
 * [Sniper: Ghost Warrior Contracts 2](https://www.pcgamingwiki.com/wiki/?curid=161332)
 * [Snipiyo / スナイピヨ](https://www.pcgamingwiki.com/wiki/?curid=132192)
 * [SnipZ](https://www.pcgamingwiki.com/wiki/?curid=54651)
+* [SNK vs. Capcom: SVC Chaos](https://www.pcgamingwiki.com/wiki/?curid=196513)
 * [SnL](https://www.pcgamingwiki.com/wiki/?curid=144753)
 * [Snoobli](https://www.pcgamingwiki.com/wiki/?curid=94346)
 * [Snood](https://www.pcgamingwiki.com/wiki/?curid=123513)
