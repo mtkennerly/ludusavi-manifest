@@ -13770,6 +13770,7 @@
 * [Killers and Thieves](https://www.pcgamingwiki.com/wiki/?curid=62708)
 * [Killfest](https://www.pcgamingwiki.com/wiki/?curid=184326)
 * [Killing Floor - Toy Master](https://www.pcgamingwiki.com/wiki/?curid=49500)
+* [Killing Floor 3](https://www.pcgamingwiki.com/wiki/?curid=196566)
 * [Killing Random Dudes Online](https://www.pcgamingwiki.com/wiki/?curid=114834)
 * [Killing Room](https://www.pcgamingwiki.com/wiki/?curid=39317)
 * [Killing Time at Lightspeed: Enhanced Edition](https://www.pcgamingwiki.com/wiki/?curid=42571)
