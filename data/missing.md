@@ -8684,7 +8684,6 @@
 * [Exogen VR](https://www.pcgamingwiki.com/wiki/?curid=134179)
 * [Exogenesis ~Perils of Rebirth~](https://www.pcgamingwiki.com/wiki/?curid=132748)
 * [EXON: The Impossible Challenge](https://www.pcgamingwiki.com/wiki/?curid=67831)
-* [Exophobia](https://www.pcgamingwiki.com/wiki/?curid=154392)
 * [Exoplanet](https://www.pcgamingwiki.com/wiki/?curid=102963)
 * [Exorcism: Case Zero](https://www.pcgamingwiki.com/wiki/?curid=72871)
 * [Exorder](https://www.pcgamingwiki.com/wiki/?curid=78754)
