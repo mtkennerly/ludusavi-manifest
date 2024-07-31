@@ -1,4 +1,5 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
+* [Cabela's 4x4 Off-Road Adventure 3](https://www.pcgamingwiki.com/wiki/?curid=77462)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
