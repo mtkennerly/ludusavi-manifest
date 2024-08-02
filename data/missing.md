@@ -15522,7 +15522,6 @@
 * [Massive Galaxy](https://www.pcgamingwiki.com/wiki/?curid=88221)
 * [Massive multiplayer war shooter](https://www.pcgamingwiki.com/wiki/?curid=121896)
 * [Master Arena](https://www.pcgamingwiki.com/wiki/?curid=93271)
-* [Master Detective Archives: Rain Code Plus](https://www.pcgamingwiki.com/wiki/?curid=194953)
 * [Master of ABC](https://www.pcgamingwiki.com/wiki/?curid=66039)
 * [Master of Dimensions](https://www.pcgamingwiki.com/wiki/?curid=178619)
 * [Master of Magic Chess](https://www.pcgamingwiki.com/wiki/?curid=61650)
