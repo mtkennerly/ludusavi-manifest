@@ -11012,6 +11012,7 @@
 * [Grow: Wild West](https://www.pcgamingwiki.com/wiki/?curid=94475)
 * [Growlanser](https://www.pcgamingwiki.com/wiki/?curid=183995)
 * [GrowRilla](https://www.pcgamingwiki.com/wiki/?curid=141626)
+* [Growtopia](https://www.pcgamingwiki.com/wiki/?curid=196752)
 * [Grudge TV](https://www.pcgamingwiki.com/wiki/?curid=153022)
 * [Grumpy Witch](https://www.pcgamingwiki.com/wiki/?curid=128694)
 * [Grunt1914](https://www.pcgamingwiki.com/wiki/?curid=134560)
