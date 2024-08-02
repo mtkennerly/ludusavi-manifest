@@ -1,4 +1,3 @@
-* [Avorion](https://www.pcgamingwiki.com/wiki/?curid=55770)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
