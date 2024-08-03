@@ -2612,6 +2612,7 @@
 * [Beached](https://www.pcgamingwiki.com/wiki/?curid=64443)
 * [Bead](https://www.pcgamingwiki.com/wiki/?curid=65023)
 * [Beak Squadron](https://www.pcgamingwiki.com/wiki/?curid=124044)
+* [Beam Breakers](https://www.pcgamingwiki.com/wiki/?curid=196763)
 * [Bean Battles](https://www.pcgamingwiki.com/wiki/?curid=104837)
 * [BeanVR](https://www.pcgamingwiki.com/wiki/?curid=62937)
 * [Bear Football](https://www.pcgamingwiki.com/wiki/?curid=66941)
