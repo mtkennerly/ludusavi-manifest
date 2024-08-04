@@ -23433,6 +23433,7 @@
 * [Spectating Simulator The Racing](https://www.pcgamingwiki.com/wiki/?curid=149422)
 * [Spectra](https://www.pcgamingwiki.com/wiki/?curid=33480)
 * [Spectre (2016)](https://www.pcgamingwiki.com/wiki/?curid=49406)
+* [Spectre Divide](https://www.pcgamingwiki.com/wiki/?curid=196796)
 * [Spectro](https://www.pcgamingwiki.com/wiki/?curid=130454)
 * [Spectromancer](https://www.pcgamingwiki.com/wiki/?curid=37984)
 * [Spectrum's Path](https://www.pcgamingwiki.com/wiki/?curid=128656)
