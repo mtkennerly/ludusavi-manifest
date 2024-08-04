@@ -29507,6 +29507,7 @@
 * [Wish -tale of the sixteenth night of lunar month-](https://www.pcgamingwiki.com/wiki/?curid=36119)
 * [Wish Giver 偿愿人](https://www.pcgamingwiki.com/wiki/?curid=120773)
 * [Wishbone Activity Zone](https://www.pcgamingwiki.com/wiki/?curid=193933)
+* [Wishbone and the Amazing Odyssey](https://www.pcgamingwiki.com/wiki/?curid=196799)
 * [Wissen Heroes](https://www.pcgamingwiki.com/wiki/?curid=149376)
 * [Witan](https://www.pcgamingwiki.com/wiki/?curid=42418)
 * [Witanlore: Dreamtime](https://www.pcgamingwiki.com/wiki/?curid=56890)
