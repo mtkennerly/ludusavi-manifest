@@ -5910,7 +5910,6 @@
 * [Cycling Manager 4](https://www.pcgamingwiki.com/wiki/?curid=126738)
 * [Cyclones Playground](https://www.pcgamingwiki.com/wiki/?curid=107850)
 * [CYCOM: Cybernet Combat](https://www.pcgamingwiki.com/wiki/?curid=74135)
-* [Cygni: All Guns Blazing](https://www.pcgamingwiki.com/wiki/?curid=161159)
 * [Cylne](https://www.pcgamingwiki.com/wiki/?curid=48517)
 * [Cyndy](https://www.pcgamingwiki.com/wiki/?curid=145970)
 * [CYNK 3030](https://www.pcgamingwiki.com/wiki/?curid=135659)
