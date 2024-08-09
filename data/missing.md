@@ -15129,7 +15129,6 @@
 * [Macroboy Y](https://www.pcgamingwiki.com/wiki/?curid=103241)
 * [Mad Arkanoid](https://www.pcgamingwiki.com/wiki/?curid=65644)
 * [Mad Ball](https://www.pcgamingwiki.com/wiki/?curid=156515)
-* [Mad Bullets](https://www.pcgamingwiki.com/wiki/?curid=33880)
 * [Mad Carnage](https://www.pcgamingwiki.com/wiki/?curid=102275)
 * [Mad Cat's World](https://www.pcgamingwiki.com/wiki/?curid=142129)
 * [Mad Combat Marines](https://www.pcgamingwiki.com/wiki/?curid=42394)
