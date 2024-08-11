@@ -20347,6 +20347,7 @@
 * [Real Fishing VR](https://www.pcgamingwiki.com/wiki/?curid=129755)
 * [Real Horror Stories Ultimate Edition](https://www.pcgamingwiki.com/wiki/?curid=50498)
 * [Real Life Battle Royal: It's gonna be an... EPIC game](https://www.pcgamingwiki.com/wiki/?curid=130175)
+* [Real Madrid: The Game](https://www.pcgamingwiki.com/wiki/?curid=196929)
 * [Real Pool 3D - Poolians](https://www.pcgamingwiki.com/wiki/?curid=78144)
 * [Real RC Flight Simulator](https://www.pcgamingwiki.com/wiki/?curid=78056)
 * [Real Scary](https://www.pcgamingwiki.com/wiki/?curid=135291)
