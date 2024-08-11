@@ -6367,7 +6367,7 @@
 * [Deadlands Noir - That Old Time Religion](https://www.pcgamingwiki.com/wiki/?curid=47387)
 * [Deadliners](https://www.pcgamingwiki.com/wiki/?curid=65325)
 * [Deadlings: Rotten Edition](https://www.pcgamingwiki.com/wiki/?curid=49351)
-* [Deadlock](https://www.pcgamingwiki.com/wiki/?curid=41603)
+* [Deadlock (2016)](https://www.pcgamingwiki.com/wiki/?curid=41603)
 * [Deadly Animal Duel](https://www.pcgamingwiki.com/wiki/?curid=70301)
 * [Deadly Burrito](https://www.pcgamingwiki.com/wiki/?curid=120759)
 * [Deadly Contact](https://www.pcgamingwiki.com/wiki/?curid=78266)
