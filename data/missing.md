@@ -7391,6 +7391,7 @@
 * [Dragon and Weed: Origins OB - Dual Edges](https://www.pcgamingwiki.com/wiki/?curid=149168)
 * [Dragon Audit](https://www.pcgamingwiki.com/wiki/?curid=98168)
 * [Dragon Awaken](https://www.pcgamingwiki.com/wiki/?curid=113300)
+* [Dragon Ball Project: Multi](https://www.pcgamingwiki.com/wiki/?curid=196964)
 * [Dragon Ball: Sparking! Zero](https://www.pcgamingwiki.com/wiki/?curid=191679)
 * [Dragon Battle](https://www.pcgamingwiki.com/wiki/?curid=95280)
 * [Dragon Blaze](https://www.pcgamingwiki.com/wiki/?curid=169029)
