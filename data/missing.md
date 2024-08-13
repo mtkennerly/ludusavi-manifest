@@ -17428,6 +17428,7 @@
 * [Nightcrawler VR Bowling](https://www.pcgamingwiki.com/wiki/?curid=63711)
 * [Nightfall Hacker](https://www.pcgamingwiki.com/wiki/?curid=157172)
 * [Nightfall: Escape](https://www.pcgamingwiki.com/wiki/?curid=35180)
+* [Nightfire Open](https://www.pcgamingwiki.com/wiki/?curid=196985)
 * [Nighthaw-X3000](https://www.pcgamingwiki.com/wiki/?curid=61130)
 * [Nighthawks](https://www.pcgamingwiki.com/wiki/?curid=161007)
 * [Nightingale](https://www.pcgamingwiki.com/wiki/?curid=183406)
