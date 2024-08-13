@@ -29875,6 +29875,7 @@
 * [Xuan-Yuan Sword EX: The Gate of Firmament](https://www.pcgamingwiki.com/wiki/?curid=31498)
 * [XXX Puzzle](https://www.pcgamingwiki.com/wiki/?curid=96849)
 * [XXZ: XXL](https://www.pcgamingwiki.com/wiki/?curid=68426)
+* [Xyanide: Resurrection](https://www.pcgamingwiki.com/wiki/?curid=196989)
 * [XZ](https://www.pcgamingwiki.com/wiki/?curid=92019)
 * [XZ: XL](https://www.pcgamingwiki.com/wiki/?curid=94342)
 * [X少女逃脱 x girl escape](https://www.pcgamingwiki.com/wiki/?curid=143867)

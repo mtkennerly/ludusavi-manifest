@@ -3,6 +3,7 @@
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Planet Alcatraz 2](https://www.pcgamingwiki.com/wiki/?curid=46907)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
+* [Samurai Shodown (2020)](https://www.pcgamingwiki.com/wiki/?curid=131773)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
