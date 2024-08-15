@@ -22154,7 +22154,6 @@
 * [Shapes of Gray](https://www.pcgamingwiki.com/wiki/?curid=46334)
 * [ShapeSim](https://www.pcgamingwiki.com/wiki/?curid=102927)
 * [Shapestorm](https://www.pcgamingwiki.com/wiki/?curid=89610)
-* [Shapez 2](https://www.pcgamingwiki.com/wiki/?curid=191649)
 * [Shapik: the moon quest](https://www.pcgamingwiki.com/wiki/?curid=142188)
 * [Shard](https://www.pcgamingwiki.com/wiki/?curid=149184)
 * [Shard Games](https://www.pcgamingwiki.com/wiki/?curid=41960)
