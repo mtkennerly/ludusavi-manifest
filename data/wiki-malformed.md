@@ -1,6 +1,7 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
+* [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
 * [Jisei](https://www.pcgamingwiki.com/wiki/?curid=108784)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Samurai Shodown (2020)](https://www.pcgamingwiki.com/wiki/?curid=131773)
