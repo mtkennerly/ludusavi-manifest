@@ -135,5 +135,12 @@ fn too_broad(path: &str) -> bool {
 }
 
 pub fn usable(path: &str) -> bool {
-    !path.is_empty() && !path.contains("{{") && !path.starts_with("./") && !path.starts_with("../") && !too_broad(path)
+    static UNPRINTABLE: Lazy<Regex> = Lazy::new(|| Regex::new(r"(\p{Cc}|\p{Cf})").unwrap());
+
+    !path.is_empty()
+        && !path.contains("{{")
+        && !path.starts_with("./")
+        && !path.starts_with("../")
+        && !too_broad(path)
+        && !UNPRINTABLE.is_match(path)
 }
