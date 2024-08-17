@@ -3223,6 +3223,7 @@
 * [Bloodlines of Prima](https://www.pcgamingwiki.com/wiki/?curid=68404)
 * [BloodRealm: Battlegrounds](https://www.pcgamingwiki.com/wiki/?curid=48709)
 * [Bloodstream](https://www.pcgamingwiki.com/wiki/?curid=144319)
+* [Bloodthief](https://www.pcgamingwiki.com/wiki/?curid=197121)
 * [Bloodwood Reload](https://www.pcgamingwiki.com/wiki/?curid=45815)
 * [Bloodworks](https://www.pcgamingwiki.com/wiki/?curid=77648)
 * [Bloody and Cruel Story of Toys](https://www.pcgamingwiki.com/wiki/?curid=87328)
