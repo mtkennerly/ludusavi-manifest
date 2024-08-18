@@ -13658,6 +13658,7 @@
 * [Kawaii Girls Puzzle](https://www.pcgamingwiki.com/wiki/?curid=153392)
 * [Kawaii Neko Girls](https://www.pcgamingwiki.com/wiki/?curid=179016)
 * [Kawaii Rainbow Portal](https://www.pcgamingwiki.com/wiki/?curid=90072)
+* [Kawasaki Fantasy Motocross](https://www.pcgamingwiki.com/wiki/?curid=197139)
 * [Kaya](https://www.pcgamingwiki.com/wiki/?curid=95957)
 * [Kayalina](https://www.pcgamingwiki.com/wiki/?curid=71918)
 * [Kaz Ball](https://www.pcgamingwiki.com/wiki/?curid=78812)
