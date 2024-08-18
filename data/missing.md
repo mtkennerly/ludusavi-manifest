@@ -12207,6 +12207,7 @@
 * [Hot Mars 69](https://www.pcgamingwiki.com/wiki/?curid=88067)
 * [Hot Pinball Thrills](https://www.pcgamingwiki.com/wiki/?curid=47477)
 * [Hot Pool](https://www.pcgamingwiki.com/wiki/?curid=73871)
+* [Hot Rod: American Street Drag](https://www.pcgamingwiki.com/wiki/?curid=197137)
 * [Hot Runback - VR Runner](https://www.pcgamingwiki.com/wiki/?curid=72686)
 * [Hot Squat](https://www.pcgamingwiki.com/wiki/?curid=53664)
 * [Hot Squat 2: New Glory](https://www.pcgamingwiki.com/wiki/?curid=149644)
