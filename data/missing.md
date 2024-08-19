@@ -9019,6 +9019,7 @@
 * [Farnham Fables](https://www.pcgamingwiki.com/wiki/?curid=33571)
 * [Farragnarok](https://www.pcgamingwiki.com/wiki/?curid=127708)
 * [Farrealm: The Prince of Winds](https://www.pcgamingwiki.com/wiki/?curid=141359)
+* [Farscape: The Game](https://www.pcgamingwiki.com/wiki/?curid=197146)
 * [Farstorm](https://www.pcgamingwiki.com/wiki/?curid=112268)
 * [Fart Simulator 2018](https://www.pcgamingwiki.com/wiki/?curid=75109)
 * [Farworld Pioneers](https://www.pcgamingwiki.com/wiki/?curid=187474)
