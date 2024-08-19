@@ -8831,6 +8831,7 @@
 * [Fairy of the Treasures](https://www.pcgamingwiki.com/wiki/?curid=78542)
 * [Fairy Picturebook of Hero and Sorceress / 勇者と魔法使いとおとぎの絵本](https://www.pcgamingwiki.com/wiki/?curid=127478)
 * [Fairy Rescue](https://www.pcgamingwiki.com/wiki/?curid=103785)
+* [Fairy Tail: Dungeons](https://www.pcgamingwiki.com/wiki/?curid=197158)
 * [Fairy Tale Mysteries 2: The Beanstalk](https://www.pcgamingwiki.com/wiki/?curid=46134)
 * [Fairy Tale Mysteries: The Puppet Thief](https://www.pcgamingwiki.com/wiki/?curid=45067)
 * [Fairy Tower Defense](https://www.pcgamingwiki.com/wiki/?curid=110258)
