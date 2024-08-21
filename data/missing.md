@@ -6967,6 +6967,7 @@
 * [Direct](https://www.pcgamingwiki.com/wiki/?curid=67227)
 * [Direct Hit: Missile War](https://www.pcgamingwiki.com/wiki/?curid=49799)
 * [Directionless](https://www.pcgamingwiki.com/wiki/?curid=42794)
+* [Directive 8020](https://www.pcgamingwiki.com/wiki/?curid=197203)
 * [Director of Football](https://www.pcgamingwiki.com/wiki/?curid=112056)
 * [Dirt Bike Insanity](https://www.pcgamingwiki.com/wiki/?curid=93237)
 * [Dirt Track Racing](https://www.pcgamingwiki.com/wiki/?curid=192688)
