@@ -11907,7 +11907,6 @@
 * [Hidden Magic](https://www.pcgamingwiki.com/wiki/?curid=127512)
 * [Hidden Mysteries: Civil War](https://www.pcgamingwiki.com/wiki/?curid=46919)
 * [Hidden Mysteries: Royal Family Secrets](https://www.pcgamingwiki.com/wiki/?curid=144149)
-* [Hidden Mysteries: Titanic](https://www.pcgamingwiki.com/wiki/?curid=44056)
 * [Hidden Object - 12 in 1 bundle](https://www.pcgamingwiki.com/wiki/?curid=37048)
 * [Hidden Object - Food](https://www.pcgamingwiki.com/wiki/?curid=70613)
 * [Hidden Object - Sweet Home](https://www.pcgamingwiki.com/wiki/?curid=72911)
