@@ -11816,6 +11816,7 @@
 * [Heroes of Loot](https://www.pcgamingwiki.com/wiki/?curid=47785)
 * [Heroes of Maidan 2](https://www.pcgamingwiki.com/wiki/?curid=125781)
 * [Heroes Of Maidan 3: Crimean Battle](https://www.pcgamingwiki.com/wiki/?curid=155634)
+* [Heroes of Might & Magic: Olden Era](https://www.pcgamingwiki.com/wiki/?curid=197245)
 * [Heroes of Myth](https://www.pcgamingwiki.com/wiki/?curid=141391)
 * [Heroes of Myths - Warriors of Gods](https://www.pcgamingwiki.com/wiki/?curid=77573)
 * [Heroes of Newerth](https://www.pcgamingwiki.com/wiki/?curid=3543)
