@@ -18681,7 +18681,6 @@
 * [Perfect Dead](https://www.pcgamingwiki.com/wiki/?curid=74604)
 * [Perfect Heist](https://www.pcgamingwiki.com/wiki/?curid=96063)
 * [Perfect Life VR](https://www.pcgamingwiki.com/wiki/?curid=121843)
-* [Perfect Memento of Touhou Question](https://www.pcgamingwiki.com/wiki/?curid=103665)
 * [Perfect Murder](https://www.pcgamingwiki.com/wiki/?curid=145111)
 * [Perfect Plan](https://www.pcgamingwiki.com/wiki/?curid=60251)
 * [Perfect Tides](https://www.pcgamingwiki.com/wiki/?curid=175371)
