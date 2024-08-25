@@ -2368,6 +2368,7 @@
 * [Barbie and Her Magical House](https://www.pcgamingwiki.com/wiki/?curid=170648)
 * [Barbie Beauty Boutique](https://www.pcgamingwiki.com/wiki/?curid=170650)
 * [Barbie Diaries: High School Mystery](https://www.pcgamingwiki.com/wiki/?curid=170620)
+* [Barbie Explorer](https://www.pcgamingwiki.com/wiki/?curid=170618)
 * [Barbie Fashion Designer](https://www.pcgamingwiki.com/wiki/?curid=170638)
 * [Barbie Horse Adventures: Mystery Ride](https://www.pcgamingwiki.com/wiki/?curid=191496)
 * [Barbie Pet Rescue](https://www.pcgamingwiki.com/wiki/?curid=170646)
