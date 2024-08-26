@@ -2372,6 +2372,7 @@
 * [Barbie Explorer](https://www.pcgamingwiki.com/wiki/?curid=170618)
 * [Barbie Fashion Designer](https://www.pcgamingwiki.com/wiki/?curid=170638)
 * [Barbie Horse Adventures: Mystery Ride](https://www.pcgamingwiki.com/wiki/?curid=191496)
+* [Barbie in the 12 Dancing Princesses](https://www.pcgamingwiki.com/wiki/?curid=197321)
 * [Barbie Pet Rescue](https://www.pcgamingwiki.com/wiki/?curid=170646)
 * [Barbie: Super Sports](https://www.pcgamingwiki.com/wiki/?curid=170642)
 * [Barclay: The Marrowdale Murder](https://www.pcgamingwiki.com/wiki/?curid=59228)
