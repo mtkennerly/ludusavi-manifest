@@ -6938,6 +6938,7 @@
 * [DinoFense](https://www.pcgamingwiki.com/wiki/?curid=55448)
 * [DinoKnights](https://www.pcgamingwiki.com/wiki/?curid=108292)
 * [Dinoku](https://www.pcgamingwiki.com/wiki/?curid=81052)
+* [Dinolords](https://www.pcgamingwiki.com/wiki/?curid=197337)
 * [DinoOps](https://www.pcgamingwiki.com/wiki/?curid=51336)
 * [Dinosaur Adventure](https://www.pcgamingwiki.com/wiki/?curid=177106)
 * [Dinosaur Adventure 3-D](https://www.pcgamingwiki.com/wiki/?curid=190216)
