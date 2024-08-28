@@ -5,7 +5,6 @@
 * [Farewell North](https://www.pcgamingwiki.com/wiki/?curid=197130)
 * [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
 * [Jisei](https://www.pcgamingwiki.com/wiki/?curid=108784)
-* [Kingdom Hearts HD 1.5 + 2.5 ReMIX](https://www.pcgamingwiki.com/wiki/?curid=166570)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Samurai Shodown (2020)](https://www.pcgamingwiki.com/wiki/?curid=131773)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
