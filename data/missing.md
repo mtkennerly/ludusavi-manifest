@@ -3222,7 +3222,6 @@
 * [Bloodgeon](https://www.pcgamingwiki.com/wiki/?curid=150158)
 * [Bloodia](https://www.pcgamingwiki.com/wiki/?curid=136999)
 * [Blooding Runner X](https://www.pcgamingwiki.com/wiki/?curid=148944)
-* [Bloodless](https://www.pcgamingwiki.com/wiki/?curid=190122)
 * [Bloodline Champions](https://www.pcgamingwiki.com/wiki/?curid=38289)
 * [Bloodlines of Prima](https://www.pcgamingwiki.com/wiki/?curid=68404)
 * [BloodRealm: Battlegrounds](https://www.pcgamingwiki.com/wiki/?curid=48709)
