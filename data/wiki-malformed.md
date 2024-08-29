@@ -10,7 +10,6 @@
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
-* [Warp Frontier](https://www.pcgamingwiki.com/wiki/?curid=171855)
 * [World of Goo (2008)](https://www.pcgamingwiki.com/wiki/?curid=167088)
 * [XIII](https://www.pcgamingwiki.com/wiki/?curid=3514)
 * [ZERO Sievert](https://www.pcgamingwiki.com/wiki/?curid=182762)

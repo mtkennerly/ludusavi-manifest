@@ -11111,7 +11111,6 @@
 * [Gunboat](https://www.pcgamingwiki.com/wiki/?curid=165138)
 * [GunBound](https://www.pcgamingwiki.com/wiki/?curid=138073)
 * [Gundam 0079: The War for Earth](https://www.pcgamingwiki.com/wiki/?curid=180216)
-* [Gundam Breaker 4](https://www.pcgamingwiki.com/wiki/?curid=193360)
 * [Gunducky Industries](https://www.pcgamingwiki.com/wiki/?curid=67265)
 * [GunFleet](https://www.pcgamingwiki.com/wiki/?curid=55736)
 * [GunFu Heroes](https://www.pcgamingwiki.com/wiki/?curid=144400)
