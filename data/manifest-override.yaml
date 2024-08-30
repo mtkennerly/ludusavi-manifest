@@ -12,6 +12,10 @@ BioShock 2 Remastered:
 "Death Stranding Director's Cut":
   installDir:
     DeathStrandingDC: {}
+Inscryption:
+  installDir:
+    # Epic uses a different folder name.
+    InscryptionWkwPQ: {}
 Nevsky Run:
   # This game's Steam Cloud metadata references Kingdom Come Deliverance paths.
   # Also, it's been renamed on Steam to "Secret Girl"
