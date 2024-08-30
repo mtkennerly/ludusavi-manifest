@@ -28598,7 +28598,6 @@
 * [Vision](https://www.pcgamingwiki.com/wiki/?curid=87153)
 * [Vision Runner](https://www.pcgamingwiki.com/wiki/?curid=40355)
 * [Visionarium](https://www.pcgamingwiki.com/wiki/?curid=125256)
-* [Visions of Mana](https://www.pcgamingwiki.com/wiki/?curid=192663)
 * [Visions of Zosimos](https://www.pcgamingwiki.com/wiki/?curid=69212)
 * [Visitors](https://www.pcgamingwiki.com/wiki/?curid=36660)
 * [Visitors: Marine Invasion](https://www.pcgamingwiki.com/wiki/?curid=64536)
