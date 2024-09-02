@@ -12219,6 +12219,7 @@
 * [Hot Takes](https://www.pcgamingwiki.com/wiki/?curid=149863)
 * [Hot Wheels Stunt Track Driver](https://www.pcgamingwiki.com/wiki/?curid=11206)
 * [Hot Wheels: Crash!](https://www.pcgamingwiki.com/wiki/?curid=192983)
+* [Hot Wheels: Micro Racers](https://www.pcgamingwiki.com/wiki/?curid=197452)
 * [Hot Wheels: Stunt Track Driver 2: Get'n Dirty](https://www.pcgamingwiki.com/wiki/?curid=189506)
 * [Hot Zone](https://www.pcgamingwiki.com/wiki/?curid=135261)
 * [Hotaru](https://www.pcgamingwiki.com/wiki/?curid=156071)
