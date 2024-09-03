@@ -22102,7 +22102,6 @@
 * [Shadow of the Black Dragon](https://www.pcgamingwiki.com/wiki/?curid=87071)
 * [Shadow of the Groundhog](https://www.pcgamingwiki.com/wiki/?curid=126049)
 * [Shadow of the Mask](https://www.pcgamingwiki.com/wiki/?curid=75176)
-* [Shadow of the Ninja - Reborn](https://www.pcgamingwiki.com/wiki/?curid=189318)
 * [Shadow of the Road](https://www.pcgamingwiki.com/wiki/?curid=151637)
 * [Shadow Over Isolation](https://www.pcgamingwiki.com/wiki/?curid=39693)
 * [Shadow Run](https://www.pcgamingwiki.com/wiki/?curid=132242)
