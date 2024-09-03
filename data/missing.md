@@ -24220,7 +24220,6 @@
 * [Sullen: Light is Your Friend](https://www.pcgamingwiki.com/wiki/?curid=38831)
 * [Sumer](https://www.pcgamingwiki.com/wiki/?curid=53706)
 * [Sumerian Blood: Gilgamesh against the Gods](https://www.pcgamingwiki.com/wiki/?curid=99268)
-* [Sumerian Six](https://www.pcgamingwiki.com/wiki/?curid=196128)
 * [Sumerians](https://www.pcgamingwiki.com/wiki/?curid=154301)
 * [Summer Athletics](https://www.pcgamingwiki.com/wiki/?curid=41304)
 * [Summer Funland](https://www.pcgamingwiki.com/wiki/?curid=82690)
