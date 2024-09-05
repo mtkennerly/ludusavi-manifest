@@ -18722,7 +18722,6 @@
 * [Pew Paw](https://www.pcgamingwiki.com/wiki/?curid=141612)
 * [Pew Pew Rocket](https://www.pcgamingwiki.com/wiki/?curid=128284)
 * [Pew-Pew Rocket](https://www.pcgamingwiki.com/wiki/?curid=144735)
-* [PGA Tour 2K23](https://www.pcgamingwiki.com/wiki/?curid=181319)
 * [PHAGEBORN Online Card Game](https://www.pcgamingwiki.com/wiki/?curid=130642)
 * [Phageborn Online Card Game PUBLIC BETA](https://www.pcgamingwiki.com/wiki/?curid=156507)
 * [Phantasma VR](https://www.pcgamingwiki.com/wiki/?curid=63446)
