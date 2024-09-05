@@ -5542,7 +5542,6 @@
 * [Cricket through the Ages](https://www.pcgamingwiki.com/wiki/?curid=147749)
 * [CricVRX - VR Cricket](https://www.pcgamingwiki.com/wiki/?curid=140812)
 * [Crime Opera II: The Floodgate Effect](https://www.pcgamingwiki.com/wiki/?curid=188983)
-* [Crime Scene Cleaner](https://www.pcgamingwiki.com/wiki/?curid=130446)
 * [Crime Scene: Reconstruction of Crime](https://www.pcgamingwiki.com/wiki/?curid=97361)
 * [Crime Secrets: Crimson Lily](https://www.pcgamingwiki.com/wiki/?curid=42349)
 * [Crime Solitaire 2: The Smoking Gun](https://www.pcgamingwiki.com/wiki/?curid=65307)
