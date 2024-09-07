@@ -3,6 +3,7 @@
 * [Dinolords](https://www.pcgamingwiki.com/wiki/?curid=197337)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Farewell North](https://www.pcgamingwiki.com/wiki/?curid=197130)
+* [Geometry Wars 3: Dimensions Evolved](https://www.pcgamingwiki.com/wiki/?curid=21084)
 * [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
 * [Jisei](https://www.pcgamingwiki.com/wiki/?curid=108784)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
