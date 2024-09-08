@@ -26173,7 +26173,6 @@
 * [The Multipath Adventures of Superman: Menace of Metallo](https://www.pcgamingwiki.com/wiki/?curid=128830)
 * [The Mummy (2004)](https://www.pcgamingwiki.com/wiki/?curid=181839)
 * [The Mummy Pharaoh](https://www.pcgamingwiki.com/wiki/?curid=114766)
-* [The Muppet CD-ROM: Muppets Inside](https://www.pcgamingwiki.com/wiki/?curid=193987)
 * [The Murder Room VR](https://www.pcgamingwiki.com/wiki/?curid=62994)
 * [The Museum of ThroughView](https://www.pcgamingwiki.com/wiki/?curid=67547)
 * [The Music Machine](https://www.pcgamingwiki.com/wiki/?curid=37715)
