@@ -26115,6 +26115,7 @@
 * [The Manhole](https://www.pcgamingwiki.com/wiki/?curid=7710)
 * [The Manse on Soracca](https://www.pcgamingwiki.com/wiki/?curid=156432)
 * [The Mansion](https://www.pcgamingwiki.com/wiki/?curid=168464)
+* [The Mansion of the Macabre](https://www.pcgamingwiki.com/wiki/?curid=197605)
 * [The Mark](https://www.pcgamingwiki.com/wiki/?curid=195320)
 * [The Mark of Robot](https://www.pcgamingwiki.com/wiki/?curid=112440)
 * [The Market Trader](https://www.pcgamingwiki.com/wiki/?curid=69250)
