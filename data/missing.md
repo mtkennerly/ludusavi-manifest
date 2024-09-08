@@ -15164,6 +15164,7 @@
 * [Madland](https://www.pcgamingwiki.com/wiki/?curid=143903)
 * [Madness](https://www.pcgamingwiki.com/wiki/?curid=53459)
 * [Madness Cubed](https://www.pcgamingwiki.com/wiki/?curid=43063)
+* [Madness Interactive: Reloaded](https://www.pcgamingwiki.com/wiki/?curid=197600)
 * [Madness of the Architect](https://www.pcgamingwiki.com/wiki/?curid=81000)
 * [Madorica Real Estate](https://www.pcgamingwiki.com/wiki/?curid=128122)
 * [MadOut](https://www.pcgamingwiki.com/wiki/?curid=47609)
