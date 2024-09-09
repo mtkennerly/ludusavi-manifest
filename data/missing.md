@@ -24974,6 +24974,7 @@
 * [Taxi](https://www.pcgamingwiki.com/wiki/?curid=49727)
 * [Taxi 3: Extreme Rush](https://www.pcgamingwiki.com/wiki/?curid=88310)
 * [Taxi Chaos](https://www.pcgamingwiki.com/wiki/?curid=172107)
+* [Taxi Racer New York 2](https://www.pcgamingwiki.com/wiki/?curid=197621)
 * [Taxi Raser](https://www.pcgamingwiki.com/wiki/?curid=88298)
 * [Taxi Simulator](https://www.pcgamingwiki.com/wiki/?curid=151619)
 * [Taxidermy](https://www.pcgamingwiki.com/wiki/?curid=155512)
