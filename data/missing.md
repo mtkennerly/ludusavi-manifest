@@ -8817,7 +8817,6 @@
 * [Fairground 2 - The Ride Simulation](https://www.pcgamingwiki.com/wiki/?curid=124270)
 * [Fairies vs Bugs](https://www.pcgamingwiki.com/wiki/?curid=152841)
 * [Fairly Certain Doom](https://www.pcgamingwiki.com/wiki/?curid=90536)
-* [Fairtravel Battle](https://www.pcgamingwiki.com/wiki/?curid=157331)
 * [Fairy Escape](https://www.pcgamingwiki.com/wiki/?curid=92775)
 * [Fairy Godmother Stories: Cinderella](https://www.pcgamingwiki.com/wiki/?curid=153042)
 * [Fairy in a Jar](https://www.pcgamingwiki.com/wiki/?curid=125585)
