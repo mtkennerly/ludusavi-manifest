@@ -16247,7 +16247,6 @@
 * [Modern Combat 5](https://www.pcgamingwiki.com/wiki/?curid=120506)
 * [Modern Combat Versus](https://www.pcgamingwiki.com/wiki/?curid=77988)
 * [Modern Road-Like](https://www.pcgamingwiki.com/wiki/?curid=96267)
-* [Modern Tales: Age of Invention](https://www.pcgamingwiki.com/wiki/?curid=73507)
 * [Modest Kind](https://www.pcgamingwiki.com/wiki/?curid=73015)
 * [Modsork](https://www.pcgamingwiki.com/wiki/?curid=94267)
 * [Module TD](https://www.pcgamingwiki.com/wiki/?curid=96327)
