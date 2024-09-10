@@ -27424,6 +27424,7 @@
 * [Train of Afterlife](https://www.pcgamingwiki.com/wiki/?curid=48965)
 * [Train Runner VR](https://www.pcgamingwiki.com/wiki/?curid=76000)
 * [Train Sim World 4](https://www.pcgamingwiki.com/wiki/?curid=190014)
+* [Train Sim World 5](https://www.pcgamingwiki.com/wiki/?curid=197636)
 * [Train Simulator Railroad Operator](https://www.pcgamingwiki.com/wiki/?curid=87987)
 * [Train Simulator VR](https://www.pcgamingwiki.com/wiki/?curid=73901)
 * [Train Simulator: London Subway](https://www.pcgamingwiki.com/wiki/?curid=98712)
