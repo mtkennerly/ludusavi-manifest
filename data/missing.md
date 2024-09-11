@@ -21959,7 +21959,6 @@
 * [Selfie Games: A Multiplayer Couch Party Game](https://www.pcgamingwiki.com/wiki/?curid=137308)
 * [Selfie: Sisters of the Amniotic Lens](https://www.pcgamingwiki.com/wiki/?curid=47966)
 * [SelfieTennis](https://www.pcgamingwiki.com/wiki/?curid=51014)
-* [Selfloss](https://www.pcgamingwiki.com/wiki/?curid=137118)
 * [Selknam Defense](https://www.pcgamingwiki.com/wiki/?curid=49843)
 * [Selling Sunlight](https://www.pcgamingwiki.com/wiki/?curid=137048)
 * [Sellswords: Ashen Company](https://www.pcgamingwiki.com/wiki/?curid=130243)
