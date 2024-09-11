@@ -29257,7 +29257,6 @@
 * [What have you done, Father?](https://www.pcgamingwiki.com/wiki/?curid=191330)
 * [What Is Love?](https://www.pcgamingwiki.com/wiki/?curid=88069)
 * [What Never Was: Chapter II](https://www.pcgamingwiki.com/wiki/?curid=173559)
-* [What the Car?](https://www.pcgamingwiki.com/wiki/?curid=193556)
 * [What the Dark Keeps](https://www.pcgamingwiki.com/wiki/?curid=38700)
 * [What the Duck](https://www.pcgamingwiki.com/wiki/?curid=142367)
 * [What The Heck, Dude?](https://www.pcgamingwiki.com/wiki/?curid=52688)
