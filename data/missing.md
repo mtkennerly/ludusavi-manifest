@@ -733,7 +733,6 @@
 * [Aerial Guardian](https://www.pcgamingwiki.com/wiki/?curid=100234)
 * [Aero Fighters 2](https://www.pcgamingwiki.com/wiki/?curid=168738)
 * [Aero Fighters 3](https://www.pcgamingwiki.com/wiki/?curid=168739)
-* [Aero GPX](https://www.pcgamingwiki.com/wiki/?curid=195650)
 * [Aero Tales Online: The World - Anime MMORPG](https://www.pcgamingwiki.com/wiki/?curid=180183)
 * [Aerobots VR](https://www.pcgamingwiki.com/wiki/?curid=142071)
 * [AeroChopper](https://www.pcgamingwiki.com/wiki/?curid=93366)
