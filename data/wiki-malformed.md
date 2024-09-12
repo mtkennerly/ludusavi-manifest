@@ -6,6 +6,7 @@
 * [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
 * [Jisei](https://www.pcgamingwiki.com/wiki/?curid=108784)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
+* [Project Orion](https://www.pcgamingwiki.com/wiki/?curid=39480)
 * [Samurai Shodown (2020)](https://www.pcgamingwiki.com/wiki/?curid=131773)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
