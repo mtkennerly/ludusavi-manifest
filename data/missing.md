@@ -14751,7 +14751,6 @@
 * [LOKA - League of Keepers Allysium](https://www.pcgamingwiki.com/wiki/?curid=41880)
 * [Loki](https://www.pcgamingwiki.com/wiki/?curid=41385)
 * [LoliTower](https://www.pcgamingwiki.com/wiki/?curid=148414)
-* [Lollipop Chainsaw RePOP](https://www.pcgamingwiki.com/wiki/?curid=195795)
 * [Lolly Pang VR](https://www.pcgamingwiki.com/wiki/?curid=114488)
 * [Lollypop](https://www.pcgamingwiki.com/wiki/?curid=184306)
 * [Lonath Online](https://www.pcgamingwiki.com/wiki/?curid=46020)
