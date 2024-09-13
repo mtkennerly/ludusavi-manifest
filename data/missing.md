@@ -24833,6 +24833,7 @@
 * [Tales of Escape](https://www.pcgamingwiki.com/wiki/?curid=59474)
 * [Tales of Glacier (VR)](https://www.pcgamingwiki.com/wiki/?curid=71696)
 * [Tales of Glory](https://www.pcgamingwiki.com/wiki/?curid=62608)
+* [Tales of Graces f Remastered](https://www.pcgamingwiki.com/wiki/?curid=197713)
 * [Tales of Lazo](https://www.pcgamingwiki.com/wiki/?curid=144094)
 * [Tales of Legends](https://www.pcgamingwiki.com/wiki/?curid=57301)
 * [Tales of Mahabharata](https://www.pcgamingwiki.com/wiki/?curid=102711)
