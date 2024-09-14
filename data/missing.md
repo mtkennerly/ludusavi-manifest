@@ -9964,7 +9964,6 @@
 * [Fungoids - Steam version](https://www.pcgamingwiki.com/wiki/?curid=66780)
 * [Funk Unplugged](https://www.pcgamingwiki.com/wiki/?curid=58400)
 * [Funklift](https://www.pcgamingwiki.com/wiki/?curid=42633)
-* [Funko Fusion](https://www.pcgamingwiki.com/wiki/?curid=197736)
 * [Funky Smugglers](https://www.pcgamingwiki.com/wiki/?curid=8037)
 * [Funny Archery](https://www.pcgamingwiki.com/wiki/?curid=149182)
 * [Funny Bunny: Adventures](https://www.pcgamingwiki.com/wiki/?curid=134743)
