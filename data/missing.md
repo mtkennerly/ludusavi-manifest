@@ -23425,6 +23425,7 @@
 * [Speed Up](https://www.pcgamingwiki.com/wiki/?curid=100498)
 * [Speedball 2: Evolution](https://www.pcgamingwiki.com/wiki/?curid=166366)
 * [Speedball Arena](https://www.pcgamingwiki.com/wiki/?curid=74841)
+* [Speedboat Attack](https://www.pcgamingwiki.com/wiki/?curid=197769)
 * [SpeedJumper](https://www.pcgamingwiki.com/wiki/?curid=93637)
 * [Speedrun Ninja](https://www.pcgamingwiki.com/wiki/?curid=130541)
 * [Speedrun Squad](https://www.pcgamingwiki.com/wiki/?curid=135175)
