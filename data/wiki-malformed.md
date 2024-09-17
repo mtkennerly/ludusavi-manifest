@@ -1,6 +1,7 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Dinolords](https://www.pcgamingwiki.com/wiki/?curid=197337)
+* [Escape from Monkey Island](https://www.pcgamingwiki.com/wiki/?curid=30778)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Farewell North](https://www.pcgamingwiki.com/wiki/?curid=197130)
 * [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
