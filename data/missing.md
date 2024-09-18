@@ -20659,6 +20659,7 @@
 * [Retaliation](https://www.pcgamingwiki.com/wiki/?curid=45212)
 * [Retaliation Path of Rome](https://www.pcgamingwiki.com/wiki/?curid=51513)
 * [Retaliation: Enemy Mine](https://www.pcgamingwiki.com/wiki/?curid=44866)
+* [Retchid](https://www.pcgamingwiki.com/wiki/?curid=197824)
 * [Retention](https://www.pcgamingwiki.com/wiki/?curid=48971)
 * [ReThink 4](https://www.pcgamingwiki.com/wiki/?curid=165297)
 * [ReThink: Evolved 5](https://www.pcgamingwiki.com/wiki/?curid=192102)
