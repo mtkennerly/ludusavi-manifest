@@ -9810,6 +9810,7 @@
 * [Freedom Fighter](https://www.pcgamingwiki.com/wiki/?curid=62906)
 * [Freedom March: Rebel Leader](https://www.pcgamingwiki.com/wiki/?curid=92205)
 * [Freedom Poopie](https://www.pcgamingwiki.com/wiki/?curid=46040)
+* [Freedom Wars Remastered](https://www.pcgamingwiki.com/wiki/?curid=197817)
 * [Freefall](https://www.pcgamingwiki.com/wiki/?curid=61860)
 * [Freefall 3050AD](https://www.pcgamingwiki.com/wiki/?curid=125888)
 * [Freefall Tournament](https://www.pcgamingwiki.com/wiki/?curid=95204)
