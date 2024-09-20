@@ -24788,7 +24788,6 @@
 * [Taiku Mansion](https://www.pcgamingwiki.com/wiki/?curid=57778)
 * [Tail Drift](https://www.pcgamingwiki.com/wiki/?curid=49428)
 * [Tails](https://www.pcgamingwiki.com/wiki/?curid=41759)
-* [Tails Noir: Rebel Rush](https://www.pcgamingwiki.com/wiki/?curid=197608)
 * [Tailwind](https://www.pcgamingwiki.com/wiki/?curid=65688)
 * [Tailypo: The Game](https://www.pcgamingwiki.com/wiki/?curid=141507)
 * [TailzFromTheGrave](https://www.pcgamingwiki.com/wiki/?curid=108344)
