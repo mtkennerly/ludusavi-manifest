@@ -20753,7 +20753,6 @@
 * [Rexodus: A VR Story Experience](https://www.pcgamingwiki.com/wiki/?curid=42635)
 * [ReYal](https://www.pcgamingwiki.com/wiki/?curid=136694)
 * [Reynard](https://www.pcgamingwiki.com/wiki/?curid=122060)
-* [Reynatis](https://www.pcgamingwiki.com/wiki/?curid=193479)
 * [RF Online](https://www.pcgamingwiki.com/wiki/?curid=152361)
 * [RGB RUN](https://www.pcgamingwiki.com/wiki/?curid=122199)
 * [RGBCELLS](https://www.pcgamingwiki.com/wiki/?curid=102903)
