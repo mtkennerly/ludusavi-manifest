@@ -108,7 +108,11 @@ impl WikiCache {
 
         let start = meta.last_checked_recent_changes - chrono::Duration::minutes(1);
         let end = chrono::Utc::now();
-        println!("Getting recent changes from {} to {}", start, end);
+        println!(
+            "Getting recent changes from {} to {}",
+            start.to_rfc3339_opts(chrono::SecondsFormat::Micros, true),
+            end.to_rfc3339_opts(chrono::SecondsFormat::Micros, true),
+        );
 
         let wiki = make_client().await?;
         let params = wiki.params_into(&[
