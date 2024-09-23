@@ -969,7 +969,7 @@ dependencies = [
 [[package]]
 name = "mediawiki"
 version = "0.3.1"
-source = "git+https://github.com/mtkennerly/mediawiki_rust.git?branch=bugfix/ci-issue#2fdbba152ba4f16aa70ef623b2318f064d0e8a17"
+source = "git+https://github.com/mtkennerly/mediawiki_rust.git?branch=bugfix/ci-issue#908d8ebfdf2cb2fabdad4a5fa2b1d2c1eeb227ae"
 dependencies = [
  "base64 0.22.1",
  "chrono",
