@@ -16,9 +16,15 @@ const SAVE_INTERVAL: u32 = 100;
 const RELEVANT_CATEGORIES: &[&str] = &["Category:Games", "Category:Emulators"];
 
 async fn make_client() -> Result<mediawiki::api::Api, Error> {
-    mediawiki::api::Api::new("https://www.pcgamingwiki.com/w/api.php")
+    let mut client = mediawiki::api::Api::new("https://www.pcgamingwiki.com/w/api.php")
         .await
-        .map_err(Error::WikiClient)
+        .map_err(Error::WikiClient)?;
+
+    dbg!(client.user_agent());
+    dbg!(client.user_agent_full());
+    client.set_user_agent("ludusavi-manifest");
+
+    Ok(client)
 }
 
 #[derive(Debug, Default, serde::Serialize, serde::Deserialize)]
