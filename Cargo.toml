@@ -23,3 +23,6 @@ signal-hook = "0.3.17"
 thiserror = "1.0.61"
 tokio = { version = "1.38.0", features = ["full"] }
 wikitext-parser = "0.3.3"
+
+[patch.crates-io]
+mediawiki = { git = "https://github.com/mtkennerly/mediawiki_rust.git", branch = "bugfix/ci-issue" }

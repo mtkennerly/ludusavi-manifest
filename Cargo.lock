@@ -969,8 +969,7 @@ dependencies = [
 [[package]]
 name = "mediawiki"
 version = "0.3.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "df5d9c97ad0abca7d5d4517c7435ab52936bde6d115d77d7271d208f44a51e6e"
+source = "git+https://github.com/mtkennerly/mediawiki_rust.git?branch=bugfix/ci-issue#2fdbba152ba4f16aa70ef623b2318f064d0e8a17"
 dependencies = [
  "base64 0.22.1",
  "chrono",
