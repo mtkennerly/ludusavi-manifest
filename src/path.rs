@@ -85,6 +85,7 @@ fn too_broad(path: &str) -> bool {
         format!("{HOME}/Library/Application Support/UserData"),
         format!("{HOME}/Library/Preferences"),
         format!("{HOME}/.renpy"),
+        format!("{HOME}/.renpy/persistent"),
         format!("{HOME}/Library"),
         format!("{HOME}/Library/RenPy"),
         format!("{HOME}/Telltale Games"),
