@@ -132,7 +132,9 @@ pub async fn run(
 
             let outdated_only = steam_from.is_none();
             steam_cache.transition_states_from(wiki_cache);
-            steam_cache.refresh(outdated_only, None, limit, steam_from)?;
+            if let Err(e) = steam_cache.refresh(outdated_only, None, limit, steam_from) {
+                eprintln!("Error: {e:?}");
+            }
 
             manifest.refresh(manifest_override, wiki_cache, steam_cache)?;
             schema::validate_manifest(manifest)?;
@@ -156,7 +158,9 @@ pub async fn run(
                     .collect();
 
                 steam_cache.transition_states_from(wiki_cache);
-                steam_cache.refresh(outdated_only, Some(steam_ids), None, None)?;
+                if let Err(e) = steam_cache.refresh(outdated_only, Some(steam_ids), None, None) {
+                    eprintln!("Error: {e:?}");
+                }
             }
 
             manifest.refresh(manifest_override, wiki_cache, steam_cache)?;
