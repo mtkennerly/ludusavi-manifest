@@ -3,7 +3,6 @@
 * [Dead Island: Definitive Edition](https://www.pcgamingwiki.com/wiki/?curid=32947)
 * [Dead Island: Riptide Definitive Edition](https://www.pcgamingwiki.com/wiki/?curid=32949)
 * [Dinolords](https://www.pcgamingwiki.com/wiki/?curid=197337)
-* [Drake of the 99 Dragons](https://www.pcgamingwiki.com/wiki/?curid=88652)
 * [Enclave](https://www.pcgamingwiki.com/wiki/?curid=9333)
 * [Escape from Monkey Island](https://www.pcgamingwiki.com/wiki/?curid=30778)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
