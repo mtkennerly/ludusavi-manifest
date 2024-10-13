@@ -68,6 +68,7 @@ Paths in the `files` section can include these placeholders:
 | `<game>`            | an `installDir` (if defined) or the game's canonical name in the manifest              |
 | `<base>`            | shorthand for `<root>/<game>` (unless overridden by store-specific rules)              |
 | `<home>`            | current user's home directory in the OS (`~`)                                          |
+| `<storeGameId>`     | a store-specific `id` from the manifest, corresponding to the root's store type        |
 | `<storeUserId>`     | current user's ID in the game store                                                    |
 | `<osUserName>`      | current user's name in the OS                                                          |
 | `<winAppData>`      | `%APPDATA%` on Windows                                                                 |
