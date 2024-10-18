@@ -17269,7 +17269,6 @@
 * [Networm](https://www.pcgamingwiki.com/wiki/?curid=45888)
 * [Neuro (2018)](https://www.pcgamingwiki.com/wiki/?curid=137276)
 * [Neurowake](https://www.pcgamingwiki.com/wiki/?curid=64264)
-* [Neva](https://www.pcgamingwiki.com/wiki/?curid=198477)
 * [Neven](https://www.pcgamingwiki.com/wiki/?curid=74958)
 * [Never Again](https://www.pcgamingwiki.com/wiki/?curid=66993)
 * [Never Alone 2](https://www.pcgamingwiki.com/wiki/?curid=194321)
