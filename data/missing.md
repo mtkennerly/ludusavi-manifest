@@ -9092,6 +9092,7 @@
 * [Favorite Miner](https://www.pcgamingwiki.com/wiki/?curid=81544)
 * [Fazbear Nightmare](https://www.pcgamingwiki.com/wiki/?curid=44339)
 * [Façade](https://www.pcgamingwiki.com/wiki/?curid=90494)
+* [FBC: Firebreak](https://www.pcgamingwiki.com/wiki/?curid=198499)
 * [FBI Mania](https://www.pcgamingwiki.com/wiki/?curid=57279)
 * [FCK: Lille Leo Bruger Bolden](https://www.pcgamingwiki.com/wiki/?curid=126673)
 * [Fear For Freedom](https://www.pcgamingwiki.com/wiki/?curid=69551)
