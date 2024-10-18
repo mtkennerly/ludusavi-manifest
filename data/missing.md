@@ -13776,7 +13776,6 @@
 * [Killing Random Dudes Online](https://www.pcgamingwiki.com/wiki/?curid=114834)
 * [Killing Room](https://www.pcgamingwiki.com/wiki/?curid=39317)
 * [Killing Time at Lightspeed: Enhanced Edition](https://www.pcgamingwiki.com/wiki/?curid=42571)
-* [Killing Time: Resurrected](https://www.pcgamingwiki.com/wiki/?curid=195501)
 * [Killing Trials](https://www.pcgamingwiki.com/wiki/?curid=127367)
 * [Killing Zombies](https://www.pcgamingwiki.com/wiki/?curid=52548)
 * [Kilmonger](https://www.pcgamingwiki.com/wiki/?curid=66460)
