@@ -9,6 +9,7 @@
 * [Farewell North](https://www.pcgamingwiki.com/wiki/?curid=197130)
 * [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
 * [Jisei](https://www.pcgamingwiki.com/wiki/?curid=108784)
+* [Killing Time: Resurrected](https://www.pcgamingwiki.com/wiki/?curid=195501)
 * [Mobile Forces](https://www.pcgamingwiki.com/wiki/?curid=27285)
 * [Powerdrome](https://www.pcgamingwiki.com/wiki/?curid=197771)
 * [Pro Evolution Soccer 2014](https://www.pcgamingwiki.com/wiki/?curid=154956)
