@@ -1732,6 +1732,7 @@
 * [Art of Stealth](https://www.pcgamingwiki.com/wiki/?curid=56086)
 * [Art of War: Red Tides](https://www.pcgamingwiki.com/wiki/?curid=55476)
 * [Art Plunge](https://www.pcgamingwiki.com/wiki/?curid=149809)
+* [Art Shop Simulator](https://www.pcgamingwiki.com/wiki/?curid=198524)
 * [Artania](https://www.pcgamingwiki.com/wiki/?curid=68699)
 * [Artemis Spaceship Bridge Simulator](https://www.pcgamingwiki.com/wiki/?curid=37949)
 * [ArtFormer the Game](https://www.pcgamingwiki.com/wiki/?curid=150501)
