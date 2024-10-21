@@ -11,6 +11,7 @@
 * [Jisei](https://www.pcgamingwiki.com/wiki/?curid=108784)
 * [Killing Time: Resurrected](https://www.pcgamingwiki.com/wiki/?curid=195501)
 * [Mobile Forces](https://www.pcgamingwiki.com/wiki/?curid=27285)
+* [Nightmare House 2](https://www.pcgamingwiki.com/wiki/?curid=152577)
 * [Powerdrome](https://www.pcgamingwiki.com/wiki/?curid=197771)
 * [Pro Evolution Soccer 2014](https://www.pcgamingwiki.com/wiki/?curid=154956)
 * [Pro Evolution Soccer 2015](https://www.pcgamingwiki.com/wiki/?curid=20934)
