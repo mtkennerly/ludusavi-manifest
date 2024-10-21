@@ -1650,6 +1650,8 @@
 * [Arizona Derby](https://www.pcgamingwiki.com/wiki/?curid=132763)
 * [Arizona Rose and the Pharaohs' Riddles](https://www.pcgamingwiki.com/wiki/?curid=56459)
 * [Arizona Rose and the Pirates' Riddles](https://www.pcgamingwiki.com/wiki/?curid=51661)
+* [Arizona Sunshine 2](https://www.pcgamingwiki.com/wiki/?curid=198553)
+* [Arizona Sunshine Remake](https://www.pcgamingwiki.com/wiki/?curid=198555)
 * [ARK II](https://www.pcgamingwiki.com/wiki/?curid=165677)
 * [ARK Park](https://www.pcgamingwiki.com/wiki/?curid=55219)
 * [ARK: Survival of the Fittest](https://www.pcgamingwiki.com/wiki/?curid=44136)
