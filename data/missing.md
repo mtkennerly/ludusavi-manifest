@@ -13997,6 +13997,7 @@
 * [Kombinera](https://www.pcgamingwiki.com/wiki/?curid=176861)
 * [Kommersant](https://www.pcgamingwiki.com/wiki/?curid=80687)
 * [Kommissar](https://www.pcgamingwiki.com/wiki/?curid=59641)
+* [Kong: Survivor Instinct](https://www.pcgamingwiki.com/wiki/?curid=198597)
 * [KonoSuba: In the Life](https://www.pcgamingwiki.com/wiki/?curid=145620)
 * [Konrad the Kitten](https://www.pcgamingwiki.com/wiki/?curid=41809)
 * [Konrad the Rocket](https://www.pcgamingwiki.com/wiki/?curid=89280)
