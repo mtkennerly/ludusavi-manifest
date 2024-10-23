@@ -1167,6 +1167,7 @@
 * [Amaranthine Voyage: The Shadow of Torment](https://www.pcgamingwiki.com/wiki/?curid=81996)
 * [Amaranthine Voyage: The Tree of Life](https://www.pcgamingwiki.com/wiki/?curid=53077)
 * [AmaranTime](https://www.pcgamingwiki.com/wiki/?curid=55153)
+* [Amarillo's Butt Slapper](https://www.pcgamingwiki.com/wiki/?curid=198624)
 * [AMaze Achievements: Darkness](https://www.pcgamingwiki.com/wiki/?curid=70489)
 * [AMaze Achievements: Forest](https://www.pcgamingwiki.com/wiki/?curid=70635)
 * [Amaze Bowl](https://www.pcgamingwiki.com/wiki/?curid=96591)
