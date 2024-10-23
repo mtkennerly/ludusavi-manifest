@@ -22944,6 +22944,7 @@
 * [Soccering](https://www.pcgamingwiki.com/wiki/?curid=128020)
 * [Soccertron](https://www.pcgamingwiki.com/wiki/?curid=48477)
 * [Sociable Soccer](https://www.pcgamingwiki.com/wiki/?curid=68000)
+* [Sociable Soccer 24](https://www.pcgamingwiki.com/wiki/?curid=198631)
 * [Social Interaction Trainer](https://www.pcgamingwiki.com/wiki/?curid=50923)
 * [Social Justice Warriors](https://www.pcgamingwiki.com/wiki/?curid=48557)
 * [Social Warfare](https://www.pcgamingwiki.com/wiki/?curid=198562)
