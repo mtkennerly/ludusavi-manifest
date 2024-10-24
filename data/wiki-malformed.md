@@ -8,6 +8,7 @@
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Farewell North](https://www.pcgamingwiki.com/wiki/?curid=197130)
 * [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
+* [Hell Let Loose](https://www.pcgamingwiki.com/wiki/?curid=124555)
 * [Jisei](https://www.pcgamingwiki.com/wiki/?curid=108784)
 * [Killing Time: Resurrected](https://www.pcgamingwiki.com/wiki/?curid=195501)
 * [Mobile Forces](https://www.pcgamingwiki.com/wiki/?curid=27285)
