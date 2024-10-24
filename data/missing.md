@@ -29782,6 +29782,7 @@
 * [Wrongworld](https://www.pcgamingwiki.com/wiki/?curid=68603)
 * [WtBoy](https://www.pcgamingwiki.com/wiki/?curid=67131)
 * [WTF](https://www.pcgamingwiki.com/wiki/?curid=94001)
+* [Wuchang: Fallen Feathers](https://www.pcgamingwiki.com/wiki/?curid=198652)
 * [Wunderdoktor](https://www.pcgamingwiki.com/wiki/?curid=71920)
 * [Wunderwaffe](https://www.pcgamingwiki.com/wiki/?curid=102707)
 * [Wurdweb](https://www.pcgamingwiki.com/wiki/?curid=169995)
