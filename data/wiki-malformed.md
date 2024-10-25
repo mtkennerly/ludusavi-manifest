@@ -10,6 +10,7 @@
 * [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
 * [Hell Let Loose](https://www.pcgamingwiki.com/wiki/?curid=124555)
 * [Jisei](https://www.pcgamingwiki.com/wiki/?curid=108784)
+* [Kikokugai: The Cyber Slayer](https://www.pcgamingwiki.com/wiki/?curid=198677)
 * [Killing Time: Resurrected](https://www.pcgamingwiki.com/wiki/?curid=195501)
 * [Mobile Forces](https://www.pcgamingwiki.com/wiki/?curid=27285)
 * [Nightmare House 2](https://www.pcgamingwiki.com/wiki/?curid=152577)
