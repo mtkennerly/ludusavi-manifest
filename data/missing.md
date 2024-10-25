@@ -21486,6 +21486,7 @@
 * [Rustbucket Rumble](https://www.pcgamingwiki.com/wiki/?curid=48018)
 * [Rusty](https://www.pcgamingwiki.com/wiki/?curid=175137)
 * [Rusty Hearts](https://www.pcgamingwiki.com/wiki/?curid=162574)
+* [Rusty Rabbit](https://www.pcgamingwiki.com/wiki/?curid=198705)
 * [Rusty Runner](https://www.pcgamingwiki.com/wiki/?curid=132578)
 * [Rusty Tank Survival](https://www.pcgamingwiki.com/wiki/?curid=105471)
 * [Ruthless Conquest](https://www.pcgamingwiki.com/wiki/?curid=152933)
