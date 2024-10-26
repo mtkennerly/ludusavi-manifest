@@ -21204,7 +21204,6 @@
 * [Roman Legionary](https://www.pcgamingwiki.com/wiki/?curid=142234)
 * [Roman Sacrifice in Córdoba](https://www.pcgamingwiki.com/wiki/?curid=78084)
 * [Romance of Rome](https://www.pcgamingwiki.com/wiki/?curid=41167)
-* [Romance of the Three Kingdoms 8 Remake](https://www.pcgamingwiki.com/wiki/?curid=196361)
 * [Romance of the Three Kingdoms Maker](https://www.pcgamingwiki.com/wiki/?curid=45345)
 * [Romance of the Three Kingdoms XIV](https://www.pcgamingwiki.com/wiki/?curid=145264)
 * [Romance of the Three Kingdoms: The Legend of CaoCao - Tactics](https://www.pcgamingwiki.com/wiki/?curid=141355)
