@@ -20247,7 +20247,6 @@
 * [Ramayana](https://www.pcgamingwiki.com/wiki/?curid=47807)
 * [Ramen (2019)](https://www.pcgamingwiki.com/wiki/?curid=137432)
 * [Ramiwo](https://www.pcgamingwiki.com/wiki/?curid=156785)
-* [Rampage Knights](https://www.pcgamingwiki.com/wiki/?curid=34932)
 * [Rampage Miami](https://www.pcgamingwiki.com/wiki/?curid=149995)
 * [Rampage of the Dead](https://www.pcgamingwiki.com/wiki/?curid=100278)
 * [Rampage Online](https://www.pcgamingwiki.com/wiki/?curid=121752)
