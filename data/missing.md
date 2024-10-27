@@ -26551,6 +26551,7 @@
 * [The Slingshot VR](https://www.pcgamingwiki.com/wiki/?curid=42555)
 * [The Slopes](https://www.pcgamingwiki.com/wiki/?curid=60950)
 * [The Slug](https://www.pcgamingwiki.com/wiki/?curid=66951)
+* [The Smurfs: Dreams](https://www.pcgamingwiki.com/wiki/?curid=198799)
 * [The Smurfs: The Teletransportsmurf](https://www.pcgamingwiki.com/wiki/?curid=173668)
 * [The Sniper VR](https://www.pcgamingwiki.com/wiki/?curid=60868)
 * [The Snowboard Game](https://www.pcgamingwiki.com/wiki/?curid=89500)
