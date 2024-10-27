@@ -4,7 +4,6 @@
 * [Dead Island: Riptide Definitive Edition](https://www.pcgamingwiki.com/wiki/?curid=32949)
 * [Dinolords](https://www.pcgamingwiki.com/wiki/?curid=197337)
 * [Enclave](https://www.pcgamingwiki.com/wiki/?curid=9333)
-* [Escape from Monkey Island](https://www.pcgamingwiki.com/wiki/?curid=30778)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Farewell North](https://www.pcgamingwiki.com/wiki/?curid=197130)
 * [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
