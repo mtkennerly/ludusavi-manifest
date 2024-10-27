@@ -14135,7 +14135,6 @@
 * [Labyrinths of the World: Shattered Soul](https://www.pcgamingwiki.com/wiki/?curid=56902)
 * [Labyrinths of the World: The Wild Side](https://www.pcgamingwiki.com/wiki/?curid=155817)
 * [Labyronia Elements](https://www.pcgamingwiki.com/wiki/?curid=76289)
-* [Lada Racing Club](https://www.pcgamingwiki.com/wiki/?curid=187182)
 * [Ladies](https://www.pcgamingwiki.com/wiki/?curid=114332)
 * [Ladies Orders](https://www.pcgamingwiki.com/wiki/?curid=144407)
 * [Ladybird Reflect](https://www.pcgamingwiki.com/wiki/?curid=92229)
