@@ -20447,6 +20447,7 @@
 * [Recursive Pain](https://www.pcgamingwiki.com/wiki/?curid=122410)
 * [Recycle](https://www.pcgamingwiki.com/wiki/?curid=49689)
 * [Recycler's Terminal](https://www.pcgamingwiki.com/wiki/?curid=132088)
+* [Recycling Center Simulator](https://www.pcgamingwiki.com/wiki/?curid=198801)
 * [Recyclomania](https://www.pcgamingwiki.com/wiki/?curid=143932)
 * [Red](https://www.pcgamingwiki.com/wiki/?curid=56554)
 * [Red Baron](https://www.pcgamingwiki.com/wiki/?curid=22119)
