@@ -14544,7 +14544,6 @@
 * [Life is Feudal: Your Own](https://www.pcgamingwiki.com/wiki/?curid=45595)
 * [Life is Pain](https://www.pcgamingwiki.com/wiki/?curid=38905)
 * [Life is Pointless](https://www.pcgamingwiki.com/wiki/?curid=126074)
-* [Life Is Strange: Double Exposure](https://www.pcgamingwiki.com/wiki/?curid=195583)
 * [Life of a Capitalist](https://www.pcgamingwiki.com/wiki/?curid=136917)
 * [Life of a Caveman](https://www.pcgamingwiki.com/wiki/?curid=53309)
 * [Life of a Mobster](https://www.pcgamingwiki.com/wiki/?curid=59349)
