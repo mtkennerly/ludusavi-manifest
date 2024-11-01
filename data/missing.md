@@ -26489,6 +26489,7 @@
 * [The Road to Hades](https://www.pcgamingwiki.com/wiki/?curid=91106)
 * [The Road Trip](https://www.pcgamingwiki.com/wiki/?curid=93974)
 * [The Rockin' Dead](https://www.pcgamingwiki.com/wiki/?curid=195804)
+* [The Rocky Horror Picture Show](https://www.pcgamingwiki.com/wiki/?curid=198983)
 * [The Rollingball's Melody](https://www.pcgamingwiki.com/wiki/?curid=46006)
 * [The Room of Black & White](https://www.pcgamingwiki.com/wiki/?curid=45210)
 * [The Rose and I](https://www.pcgamingwiki.com/wiki/?curid=43769)
