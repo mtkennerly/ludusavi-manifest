@@ -5605,6 +5605,7 @@
 * [Croc 2](https://www.pcgamingwiki.com/wiki/?curid=25170)
 * [Croc's World 3](https://www.pcgamingwiki.com/wiki/?curid=177574)
 * [Croc's World Construction Kit](https://www.pcgamingwiki.com/wiki/?curid=91977)
+* [Croc: Legend of the Gobbos (2024)](https://www.pcgamingwiki.com/wiki/?curid=198981)
 * [CrocApoca!! Crocodile Maiden at the End of the World](https://www.pcgamingwiki.com/wiki/?curid=164376)
 * [CrocoMars](https://www.pcgamingwiki.com/wiki/?curid=82857)
 * [Crome: Before Purgatory](https://www.pcgamingwiki.com/wiki/?curid=123385)
