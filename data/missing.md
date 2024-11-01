@@ -13533,6 +13533,7 @@
 * [JumpStart Reading for First Graders](https://www.pcgamingwiki.com/wiki/?curid=190539)
 * [JumpStart Reading for Second Graders](https://www.pcgamingwiki.com/wiki/?curid=193897)
 * [JumpStart Reading with Karaoke](https://www.pcgamingwiki.com/wiki/?curid=190530)
+* [JumpStart Spanish](https://www.pcgamingwiki.com/wiki/?curid=199002)
 * [JumpStart Spelling](https://www.pcgamingwiki.com/wiki/?curid=190281)
 * [JumpStart Spy Masters: Max Strikes Back](https://www.pcgamingwiki.com/wiki/?curid=190220)
 * [JumpStart Spy Masters: Unmask the Prankster](https://www.pcgamingwiki.com/wiki/?curid=190218)
