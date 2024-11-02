@@ -13677,6 +13677,7 @@
 * [Karradash - The Lost Dungeons](https://www.pcgamingwiki.com/wiki/?curid=68184)
 * [Kart kids](https://www.pcgamingwiki.com/wiki/?curid=155350)
 * [Kart Racing Pro](https://www.pcgamingwiki.com/wiki/?curid=39440)
+* [Karting of Banban](https://www.pcgamingwiki.com/wiki/?curid=199040)
 * [KartKraft](https://www.pcgamingwiki.com/wiki/?curid=41999)
 * [Kartofank VR](https://www.pcgamingwiki.com/wiki/?curid=72734)
 * [Kartofelka](https://www.pcgamingwiki.com/wiki/?curid=79220)
