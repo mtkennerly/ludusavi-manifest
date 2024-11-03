@@ -4836,7 +4836,6 @@
 * [Clash: Mutants Vs Pirates](https://www.pcgamingwiki.com/wiki/?curid=90444)
 * [Class of '09: The Re-Up](https://www.pcgamingwiki.com/wiki/?curid=198682)
 * [Classic British Motor Racing](https://www.pcgamingwiki.com/wiki/?curid=88330)
-* [Classic Car Racing](https://www.pcgamingwiki.com/wiki/?curid=59777)
 * [Classic Card Game Spades](https://www.pcgamingwiki.com/wiki/?curid=155556)
 * [Classic Fun Collection 5 in 1](https://www.pcgamingwiki.com/wiki/?curid=43288)
 * [Classic Racers](https://www.pcgamingwiki.com/wiki/?curid=129979)
