@@ -23460,6 +23460,7 @@
 * [Sparky Marky: Episode 2](https://www.pcgamingwiki.com/wiki/?curid=195359)
 * [Sparky Marky: Episode 3](https://www.pcgamingwiki.com/wiki/?curid=195361)
 * [Sparky's Hunt](https://www.pcgamingwiki.com/wiki/?curid=36193)
+* [Spartan (2004)](https://www.pcgamingwiki.com/wiki/?curid=199050)
 * [Spartan Fist](https://www.pcgamingwiki.com/wiki/?curid=62419)
 * [Spartan VR](https://www.pcgamingwiki.com/wiki/?curid=64902)
 * [Spartans Vs Zombies Defense](https://www.pcgamingwiki.com/wiki/?curid=49027)
