@@ -19640,6 +19640,7 @@
 * [Project Amaranth](https://www.pcgamingwiki.com/wiki/?curid=100406)
 * [Project Ara - Crucible](https://www.pcgamingwiki.com/wiki/?curid=152819)
 * [Project Azriel](https://www.pcgamingwiki.com/wiki/?curid=73538)
+* [Project Borealis: Prologue](https://www.pcgamingwiki.com/wiki/?curid=199068)
 * [Project Cabin](https://www.pcgamingwiki.com/wiki/?curid=76582)
 * [Project CARS - Pagani Edition](https://www.pcgamingwiki.com/wiki/?curid=52536)
 * [Project Centauri](https://www.pcgamingwiki.com/wiki/?curid=130040)
