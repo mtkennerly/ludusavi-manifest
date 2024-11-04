@@ -5290,7 +5290,6 @@
 * [Cops 2170: The Power of Law](https://www.pcgamingwiki.com/wiki/?curid=187391)
 * [Cops Kissing Each Other](https://www.pcgamingwiki.com/wiki/?curid=136016)
 * [Copter and Sky](https://www.pcgamingwiki.com/wiki/?curid=42161)
-* [Copy Kitty](https://www.pcgamingwiki.com/wiki/?curid=41663)
 * [CopyCat](https://www.pcgamingwiki.com/wiki/?curid=141995)
 * [Core Awaken: The Yuka](https://www.pcgamingwiki.com/wiki/?curid=99740)
 * [Core Decay](https://www.pcgamingwiki.com/wiki/?curid=183432)
