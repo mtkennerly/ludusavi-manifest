@@ -13,7 +13,6 @@
 * [Mobile Forces](https://www.pcgamingwiki.com/wiki/?curid=27285)
 * [Nightmare House 2](https://www.pcgamingwiki.com/wiki/?curid=152577)
 * [Powerdrome](https://www.pcgamingwiki.com/wiki/?curid=197771)
-* [Pro Evolution Soccer 2014](https://www.pcgamingwiki.com/wiki/?curid=154956)
 * [Pro Evolution Soccer 2015](https://www.pcgamingwiki.com/wiki/?curid=20934)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Samurai Shodown (2020)](https://www.pcgamingwiki.com/wiki/?curid=131773)
