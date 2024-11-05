@@ -9031,7 +9031,6 @@
 * [Farm Tribe](https://www.pcgamingwiki.com/wiki/?curid=42836)
 * [Farm Tribe 2](https://www.pcgamingwiki.com/wiki/?curid=40442)
 * [Farm&Fix 2020](https://www.pcgamingwiki.com/wiki/?curid=128668)
-* [Farmagia](https://www.pcgamingwiki.com/wiki/?curid=198646)
 * [FarmD](https://www.pcgamingwiki.com/wiki/?curid=178946)
 * [Farmer Pug Dash](https://www.pcgamingwiki.com/wiki/?curid=156588)
 * [Farmer's Life](https://www.pcgamingwiki.com/wiki/?curid=145554)
