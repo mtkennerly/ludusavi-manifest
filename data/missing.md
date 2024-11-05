@@ -1061,6 +1061,7 @@
 * [Alien Splatter Redux](https://www.pcgamingwiki.com/wiki/?curid=65698)
 * [Alien Squatter](https://www.pcgamingwiki.com/wiki/?curid=149337)
 * [Alien Syndrome](https://www.pcgamingwiki.com/wiki/?curid=30751)
+* [Alien Weapon Test Grounds](https://www.pcgamingwiki.com/wiki/?curid=199084)
 * [Alien Zombie Megadeath](https://www.pcgamingwiki.com/wiki/?curid=40887)
 * [AlienAfterlife](https://www.pcgamingwiki.com/wiki/?curid=127277)
 * [Alienautics](https://www.pcgamingwiki.com/wiki/?curid=138651)
