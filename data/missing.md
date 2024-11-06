@@ -19085,7 +19085,6 @@
 * [Planet Automata](https://www.pcgamingwiki.com/wiki/?curid=149859)
 * [Planet Bash](https://www.pcgamingwiki.com/wiki/?curid=69262)
 * [Planet Busters](https://www.pcgamingwiki.com/wiki/?curid=41355)
-* [Planet Coaster 2](https://www.pcgamingwiki.com/wiki/?curid=196337)
 * [Planet Colonization](https://www.pcgamingwiki.com/wiki/?curid=157283)
 * [Planet Defender](https://www.pcgamingwiki.com/wiki/?curid=59824)
 * [Planet Destroyer](https://www.pcgamingwiki.com/wiki/?curid=148848)
