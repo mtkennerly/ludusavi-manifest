@@ -9036,6 +9036,7 @@
 * [Farmer Pug Dash](https://www.pcgamingwiki.com/wiki/?curid=156588)
 * [Farmer's Life](https://www.pcgamingwiki.com/wiki/?curid=145554)
 * [Farming 6-in-1 bundle](https://www.pcgamingwiki.com/wiki/?curid=42746)
+* [Farming Simulator 25](https://www.pcgamingwiki.com/wiki/?curid=199107)
 * [Farming Village](https://www.pcgamingwiki.com/wiki/?curid=144059)
 * [Farming World](https://www.pcgamingwiki.com/wiki/?curid=50324)
 * [Farmington Tales](https://www.pcgamingwiki.com/wiki/?curid=64832)
