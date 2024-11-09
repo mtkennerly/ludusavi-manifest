@@ -16116,7 +16116,6 @@
 * [Miner Royale Presentation FINAL.zip](https://www.pcgamingwiki.com/wiki/?curid=127766)
 * [Miner Warfare](https://www.pcgamingwiki.com/wiki/?curid=47559)
 * [Miner Wars Arena](https://www.pcgamingwiki.com/wiki/?curid=40745)
-* [Minerva: Metastasis](https://www.pcgamingwiki.com/wiki/?curid=170745)
 * [Mines and Magic](https://www.pcgamingwiki.com/wiki/?curid=98824)
 * [MineStickman](https://www.pcgamingwiki.com/wiki/?curid=77024)
 * [MineSweep](https://www.pcgamingwiki.com/wiki/?curid=91773)
