@@ -29405,6 +29405,7 @@
 * [Whisker Squadron: Survivor](https://www.pcgamingwiki.com/wiki/?curid=195435)
 * [Whiskered Away](https://www.pcgamingwiki.com/wiki/?curid=100114)
 * [Whiskey & Zombies: The Great Southern Zombie Escape](https://www.pcgamingwiki.com/wiki/?curid=135777)
+* [Whispered Secrets: Everburning Candle](https://www.pcgamingwiki.com/wiki/?curid=199155)
 * [Whispered Secrets: Golden Silence](https://www.pcgamingwiki.com/wiki/?curid=102571)
 * [Whispered Secrets: Into the Beyond](https://www.pcgamingwiki.com/wiki/?curid=64556)
 * [Whispered Secrets: Into the Wind](https://www.pcgamingwiki.com/wiki/?curid=86959)
