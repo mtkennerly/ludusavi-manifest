@@ -26474,6 +26474,7 @@
 * [The Rise and Rule of Ancient Empires](https://www.pcgamingwiki.com/wiki/?curid=185947)
 * [The Rise of Captain Longbeard](https://www.pcgamingwiki.com/wiki/?curid=51941)
 * [The Rise of Chubtan](https://www.pcgamingwiki.com/wiki/?curid=44892)
+* [The Rise of the Golden Idol](https://www.pcgamingwiki.com/wiki/?curid=199201)
 * [The Risen Dead VR](https://www.pcgamingwiki.com/wiki/?curid=96255)
 * [The Risers](https://www.pcgamingwiki.com/wiki/?curid=94585)
 * [The Rising of the Rose Ocelot](https://www.pcgamingwiki.com/wiki/?curid=79918)
