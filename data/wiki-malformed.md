@@ -23,7 +23,6 @@
 * [Swelter](https://www.pcgamingwiki.com/wiki/?curid=179541)
 * [The Crooked Man](https://www.pcgamingwiki.com/wiki/?curid=78713)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
-* [Tiny Tina's Wonderlands](https://www.pcgamingwiki.com/wiki/?curid=169166)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
 * [XIII](https://www.pcgamingwiki.com/wiki/?curid=3514)
 * [ZERO Sievert](https://www.pcgamingwiki.com/wiki/?curid=182762)

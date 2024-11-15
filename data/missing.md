@@ -10936,7 +10936,6 @@
 * [Greetings](https://www.pcgamingwiki.com/wiki/?curid=107598)
 * [Gregor Hills Haunted Hospital](https://www.pcgamingwiki.com/wiki/?curid=136818)
 * [Gregory and the Hot Air Balloon](https://www.pcgamingwiki.com/wiki/?curid=147212)
-* [Gregory Horror Show: Soul of Roses](https://www.pcgamingwiki.com/wiki/?curid=198464)
 * [Gremlin Invasion: Survivor](https://www.pcgamingwiki.com/wiki/?curid=48028)
 * [Gremlins 2: The New Batch (1991)](https://www.pcgamingwiki.com/wiki/?curid=194054)
 * [Grenade Madness](https://www.pcgamingwiki.com/wiki/?curid=43588)
