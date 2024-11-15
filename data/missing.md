@@ -7456,7 +7456,6 @@
 * [Dragon Orb](https://www.pcgamingwiki.com/wiki/?curid=77118)
 * [Dragon Perception](https://www.pcgamingwiki.com/wiki/?curid=74181)
 * [Dragon Quest Rivals Ace](https://www.pcgamingwiki.com/wiki/?curid=167922)
-* [Dragon Quest X](https://www.pcgamingwiki.com/wiki/?curid=59146)
 * [Dragon Quest+](https://www.pcgamingwiki.com/wiki/?curid=195040)
 * [Dragon Racer](https://www.pcgamingwiki.com/wiki/?curid=125454)
 * [Dragon Revenge](https://www.pcgamingwiki.com/wiki/?curid=180653)
