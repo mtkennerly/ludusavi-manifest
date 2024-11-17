@@ -11238,6 +11238,7 @@
 * [Half-Life: Absolute Zero](https://www.pcgamingwiki.com/wiki/?curid=160590)
 * [Half-Life: Before](https://www.pcgamingwiki.com/wiki/?curid=176536)
 * [Half-Life: Crossfire](https://www.pcgamingwiki.com/wiki/?curid=197046)
+* [Half-Life: Escape 2.0](https://www.pcgamingwiki.com/wiki/?curid=199296)
 * [Half-Life: History of Kumertau](https://www.pcgamingwiki.com/wiki/?curid=197144)
 * [Half-Life: VR Mod](https://www.pcgamingwiki.com/wiki/?curid=196258)
 * [Half-Past Impossible](https://www.pcgamingwiki.com/wiki/?curid=144512)
