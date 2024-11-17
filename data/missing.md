@@ -24271,7 +24271,6 @@
 * [Summer Games II](https://www.pcgamingwiki.com/wiki/?curid=175996)
 * [Summer Knights](https://www.pcgamingwiki.com/wiki/?curid=149847)
 * [Summer Nightmare](https://www.pcgamingwiki.com/wiki/?curid=56693)
-* [Summer Pockets](https://www.pcgamingwiki.com/wiki/?curid=198774)
 * [Summer Rush](https://www.pcgamingwiki.com/wiki/?curid=135089)
 * [Summer Sale](https://www.pcgamingwiki.com/wiki/?curid=42760)
 * [Summer Sports Games](https://www.pcgamingwiki.com/wiki/?curid=138902)
