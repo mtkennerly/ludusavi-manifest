@@ -9090,7 +9090,6 @@
 * [Fate Trigger The Novita](https://www.pcgamingwiki.com/wiki/?curid=198029)
 * [Fate/Hollow Ataraxia](https://www.pcgamingwiki.com/wiki/?curid=164556)
 * [Fate/Hollow Ataraxia Remastered](https://www.pcgamingwiki.com/wiki/?curid=198701)
-* [FATE: The Traitor Soul](https://www.pcgamingwiki.com/wiki/?curid=49705)
 * [FATE: Undiscovered Realms](https://www.pcgamingwiki.com/wiki/?curid=50416)
 * [Fated Era](https://www.pcgamingwiki.com/wiki/?curid=127273)
 * [Fated Kingdom](https://www.pcgamingwiki.com/wiki/?curid=92959)
