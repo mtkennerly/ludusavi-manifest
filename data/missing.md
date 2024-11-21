@@ -14766,7 +14766,6 @@
 * [Locked In VR](https://www.pcgamingwiki.com/wiki/?curid=54287)
 * [Locked-in Syndrome](https://www.pcgamingwiki.com/wiki/?curid=45057)
 * [Loco Dojo](https://www.pcgamingwiki.com/wiki/?curid=65313)
-* [Loco Motive](https://www.pcgamingwiki.com/wiki/?curid=199236)
 * [Loco Parentis VR](https://www.pcgamingwiki.com/wiki/?curid=135459)
 * [LOCO Railroad](https://www.pcgamingwiki.com/wiki/?curid=149618)
 * [LocoCycle](https://www.pcgamingwiki.com/wiki/?curid=15165)
