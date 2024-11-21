@@ -8660,6 +8660,7 @@
 * [EXA: The Infinite Instrument](https://www.pcgamingwiki.com/wiki/?curid=89337)
 * [Exactamundo: World Trivia Tour](https://www.pcgamingwiki.com/wiki/?curid=151000)
 * [Exaella](https://www.pcgamingwiki.com/wiki/?curid=93676)
+* [Excavation Alliance: CaDoRaMo](https://www.pcgamingwiki.com/wiki/?curid=199420)
 * [EXceed 3rd - Jade Penetrate Black Package](https://www.pcgamingwiki.com/wiki/?curid=37467)
 * [Exception (Traxmaster Software)](https://www.pcgamingwiki.com/wiki/?curid=71950)
 * [Excessive Speed](https://www.pcgamingwiki.com/wiki/?curid=196509)
