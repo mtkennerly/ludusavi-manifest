@@ -10436,6 +10436,7 @@
 * [Ghostman: The Council Calamity](https://www.pcgamingwiki.com/wiki/?curid=102919)
 * [Ghosts 'n Goblins](https://www.pcgamingwiki.com/wiki/?curid=167913)
 * [Ghosts of Miami](https://www.pcgamingwiki.com/wiki/?curid=65736)
+* [Ghosts of Tabor](https://www.pcgamingwiki.com/wiki/?curid=199396)
 * [Ghostware: Trespasser](https://www.pcgamingwiki.com/wiki/?curid=181695)
 * [Ghostwire: Tokyo - Prelude](https://www.pcgamingwiki.com/wiki/?curid=175667)
 * [Ghoul](https://www.pcgamingwiki.com/wiki/?curid=71774)
