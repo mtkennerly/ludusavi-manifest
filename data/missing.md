@@ -14978,6 +14978,7 @@
 * [Love Is Blind: Mutants](https://www.pcgamingwiki.com/wiki/?curid=44142)
 * [Love Is In The Space](https://www.pcgamingwiki.com/wiki/?curid=138779)
 * [Love Language Japanese](https://www.pcgamingwiki.com/wiki/?curid=112948)
+* [Love Live! Nijigasaki High School Idol Club TOKIMEKI Roadmap to Future](https://www.pcgamingwiki.com/wiki/?curid=199447)
 * [Love love demon ji-恋恋妖姬](https://www.pcgamingwiki.com/wiki/?curid=152975)
 * [Love love love](https://www.pcgamingwiki.com/wiki/?curid=140972)
 * [Love Me Forever](https://www.pcgamingwiki.com/wiki/?curid=156758)
