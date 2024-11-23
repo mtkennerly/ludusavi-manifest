@@ -16403,7 +16403,6 @@
 * [Monster Hunter Wilds](https://www.pcgamingwiki.com/wiki/?curid=191636)
 * [Monster Hunter: Frontier G](https://www.pcgamingwiki.com/wiki/?curid=100886)
 * [Monster Hunting... For Love!](https://www.pcgamingwiki.com/wiki/?curid=129859)
-* [Monster Jam Battlegrounds](https://www.pcgamingwiki.com/wiki/?curid=47567)
 * [Monster Jam: Maximum Destruction](https://www.pcgamingwiki.com/wiki/?curid=160750)
 * [Monster Jaunt](https://www.pcgamingwiki.com/wiki/?curid=132927)
 * [Monster League](https://www.pcgamingwiki.com/wiki/?curid=113172)
