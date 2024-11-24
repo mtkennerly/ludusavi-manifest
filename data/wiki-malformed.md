@@ -3,7 +3,6 @@
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Farewell North](https://www.pcgamingwiki.com/wiki/?curid=197130)
-* [Grand Theft Auto IV](https://www.pcgamingwiki.com/wiki/?curid=299)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Snowdrop Escape](https://www.pcgamingwiki.com/wiki/?curid=179537)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
