@@ -22567,7 +22567,6 @@
 * [Sisyphus Reborn](https://www.pcgamingwiki.com/wiki/?curid=38704)
 * [Sit on Bottle](https://www.pcgamingwiki.com/wiki/?curid=79285)
 * [Site-37](https://www.pcgamingwiki.com/wiki/?curid=163700)
-* [Sitting Ducks](https://www.pcgamingwiki.com/wiki/?curid=101815)
 * [Six](https://www.pcgamingwiki.com/wiki/?curid=95246)
 * [Six Days in Fallujah](https://www.pcgamingwiki.com/wiki/?curid=166550)
 * [Six Degrees of Damnation](https://www.pcgamingwiki.com/wiki/?curid=138679)
