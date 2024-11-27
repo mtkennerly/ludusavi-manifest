@@ -30280,6 +30280,7 @@
 * [Zombeer](https://www.pcgamingwiki.com/wiki/?curid=48851)
 * [Zombidle: Remonstered](https://www.pcgamingwiki.com/wiki/?curid=62984)
 * [Zombie](https://www.pcgamingwiki.com/wiki/?curid=103007)
+* [Zombie Anarchy](https://www.pcgamingwiki.com/wiki/?curid=199643)
 * [Zombie Apocalypse](https://www.pcgamingwiki.com/wiki/?curid=57952)
 * [Zombie Apocalypse Mini Golf (VR)](https://www.pcgamingwiki.com/wiki/?curid=137116)
 * [Zombie Apocalypse Survivor](https://www.pcgamingwiki.com/wiki/?curid=92757)
