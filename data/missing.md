@@ -7775,6 +7775,7 @@
 * [Dungeon Hunter 4](https://www.pcgamingwiki.com/wiki/?curid=178665)
 * [Dungeon Hunter 5](https://www.pcgamingwiki.com/wiki/?curid=131992)
 * [Dungeon Hunter Champions](https://www.pcgamingwiki.com/wiki/?curid=123574)
+* [Dungeon Hunter V](https://www.pcgamingwiki.com/wiki/?curid=199638)
 * [Dungeon League](https://www.pcgamingwiki.com/wiki/?curid=47156)
 * [Dungeon Lurk II: Leona](https://www.pcgamingwiki.com/wiki/?curid=49438)
 * [Dungeon Manager ZV](https://www.pcgamingwiki.com/wiki/?curid=46014)
