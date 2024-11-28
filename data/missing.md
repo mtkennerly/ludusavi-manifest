@@ -6375,6 +6375,7 @@
 * [Dead Reckoning: Brassfield Manor](https://www.pcgamingwiki.com/wiki/?curid=69456)
 * [Dead Reckoning: Silvermoon Isle](https://www.pcgamingwiki.com/wiki/?curid=57297)
 * [Dead Reckoning: The Crescent Case](https://www.pcgamingwiki.com/wiki/?curid=88679)
+* [Dead Rivals](https://www.pcgamingwiki.com/wiki/?curid=199661)
 * [Dead Russia Co-op](https://www.pcgamingwiki.com/wiki/?curid=157100)
 * [Dead Sea](https://www.pcgamingwiki.com/wiki/?curid=48395)
 * [Dead Secret Circle](https://www.pcgamingwiki.com/wiki/?curid=92245)
