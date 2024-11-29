@@ -22344,7 +22344,6 @@
 * [Ships 2017](https://www.pcgamingwiki.com/wiki/?curid=40153)
 * [Ships That Fight Underground](https://www.pcgamingwiki.com/wiki/?curid=29690)
 * [Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island](https://www.pcgamingwiki.com/wiki/?curid=199387)
-* [Shiren the Wanderer: The Tower of Fortune and the Dice of Fate](https://www.pcgamingwiki.com/wiki/?curid=168163)
 * [Shirina](https://www.pcgamingwiki.com/wiki/?curid=96781)
 * [Shisensho Solitaire](https://www.pcgamingwiki.com/wiki/?curid=149047)
 * [Shishi : Ballad of the Oracle](https://www.pcgamingwiki.com/wiki/?curid=142272)
