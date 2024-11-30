@@ -22641,6 +22641,7 @@
 * [Sketchy 2](https://www.pcgamingwiki.com/wiki/?curid=67161)
 * [Sketchy 3](https://www.pcgamingwiki.com/wiki/?curid=68104)
 * [Sketchy 4](https://www.pcgamingwiki.com/wiki/?curid=68106)
+* [Ski Doo X-Team Racing](https://www.pcgamingwiki.com/wiki/?curid=199729)
 * [Ski Drive: Biathlon](https://www.pcgamingwiki.com/wiki/?curid=126209)
 * [Ski Jump VR](https://www.pcgamingwiki.com/wiki/?curid=63418)
 * [Ski Jumping Pro VR](https://www.pcgamingwiki.com/wiki/?curid=153390)
