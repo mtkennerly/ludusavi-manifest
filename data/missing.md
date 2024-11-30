@@ -620,6 +620,7 @@
 * [ActionpaintVR](https://www.pcgamingwiki.com/wiki/?curid=109352)
 * [Active Crowds](https://www.pcgamingwiki.com/wiki/?curid=87531)
 * [Active Neurons - Puzzle game](https://www.pcgamingwiki.com/wiki/?curid=148892)
+* [Acts of Blood](https://www.pcgamingwiki.com/wiki/?curid=199721)
 * [Actua Golf](https://www.pcgamingwiki.com/wiki/?curid=184250)
 * [Actua Golf 3](https://www.pcgamingwiki.com/wiki/?curid=46621)
 * [Actua Ice Hockey](https://www.pcgamingwiki.com/wiki/?curid=183609)
