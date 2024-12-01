@@ -18202,6 +18202,7 @@
 * [Orbitron](https://www.pcgamingwiki.com/wiki/?curid=138631)
 * [Orbits](https://www.pcgamingwiki.com/wiki/?curid=89432)
 * [Orblitz](https://www.pcgamingwiki.com/wiki/?curid=76159)
+* [Orbo's Odyssey](https://www.pcgamingwiki.com/wiki/?curid=199737)
 * [Orbos](https://www.pcgamingwiki.com/wiki/?curid=89216)
 * [Orbox C](https://www.pcgamingwiki.com/wiki/?curid=55700)
 * [Orbs](https://www.pcgamingwiki.com/wiki/?curid=64896)
