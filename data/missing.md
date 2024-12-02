@@ -459,6 +459,7 @@
 * [Abduction Episode 1: Her Name was Sarah](https://www.pcgamingwiki.com/wiki/?curid=79444)
 * [Abduction Prologue: The Story of Jonathan Blake](https://www.pcgamingwiki.com/wiki/?curid=53962)
 * [ABE VR](https://www.pcgamingwiki.com/wiki/?curid=35210)
+* [Abel](https://www.pcgamingwiki.com/wiki/?curid=199787)
 * [Aberoth](https://www.pcgamingwiki.com/wiki/?curid=47209)
 * [Abha "Light on the Path"](https://www.pcgamingwiki.com/wiki/?curid=121415)
 * [Able Black](https://www.pcgamingwiki.com/wiki/?curid=55049)
