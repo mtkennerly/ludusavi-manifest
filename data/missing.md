@@ -2145,6 +2145,7 @@
 * [Axis Football 2019](https://www.pcgamingwiki.com/wiki/?curid=144909)
 * [Aya's Journey](https://www.pcgamingwiki.com/wiki/?curid=69448)
 * [Ayahuasca](https://www.pcgamingwiki.com/wiki/?curid=155488)
+* [Ayasa: Shadows of Silence](https://www.pcgamingwiki.com/wiki/?curid=199750)
 * [Ayni Fairyland](https://www.pcgamingwiki.com/wiki/?curid=108230)
 * [Ayo: A Rain Tale](https://www.pcgamingwiki.com/wiki/?curid=74277)
 * [Ayumi: Enhanced Edition](https://www.pcgamingwiki.com/wiki/?curid=42507)
