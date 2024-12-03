@@ -13,5 +13,4 @@
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
 * [XIII](https://www.pcgamingwiki.com/wiki/?curid=3514)
-* [ZERO Sievert](https://www.pcgamingwiki.com/wiki/?curid=182762)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)

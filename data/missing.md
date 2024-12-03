@@ -1465,7 +1465,6 @@
 * [Antiquitas](https://www.pcgamingwiki.com/wiki/?curid=112568)
 * [Antisphere](https://www.pcgamingwiki.com/wiki/?curid=62366)
 * [Antisquad](https://www.pcgamingwiki.com/wiki/?curid=50226)
-* [Antonblast](https://www.pcgamingwiki.com/wiki/?curid=190335)
 * [Antox vs. Free Radicals](https://www.pcgamingwiki.com/wiki/?curid=121845)
 * [AntQueen 3D](https://www.pcgamingwiki.com/wiki/?curid=135651)
 * [Antz Extreme Racing](https://www.pcgamingwiki.com/wiki/?curid=88613)
