@@ -26014,7 +26014,6 @@
 * [The Hour of the Rat](https://www.pcgamingwiki.com/wiki/?curid=155334)
 * [The House](https://www.pcgamingwiki.com/wiki/?curid=50023)
 * [The House In The Hollow](https://www.pcgamingwiki.com/wiki/?curid=157255)
-* [The House of Da Vinci VR](https://www.pcgamingwiki.com/wiki/?curid=195101)
 * [The House of Tesla](https://www.pcgamingwiki.com/wiki/?curid=192793)
 * [The House of the Dead 2](https://www.pcgamingwiki.com/wiki/?curid=80222)
 * [The Housewife](https://www.pcgamingwiki.com/wiki/?curid=36810)
