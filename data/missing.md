@@ -15943,6 +15943,7 @@
 * [Metanormal](https://www.pcgamingwiki.com/wiki/?curid=110218)
 * [Metaphobia](https://www.pcgamingwiki.com/wiki/?curid=156710)
 * [MetaSpace](https://www.pcgamingwiki.com/wiki/?curid=151145)
+* [Metathrone](https://www.pcgamingwiki.com/wiki/?curid=199911)
 * [MetaTron](https://www.pcgamingwiki.com/wiki/?curid=55171)
 * [Metaverse](https://www.pcgamingwiki.com/wiki/?curid=43763)
 * [Metaverse Construction Kit](https://www.pcgamingwiki.com/wiki/?curid=45387)
