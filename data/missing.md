@@ -6644,7 +6644,7 @@
 * [Delivery Man Simulator](https://www.pcgamingwiki.com/wiki/?curid=92125)
 * [Delphyq](https://www.pcgamingwiki.com/wiki/?curid=157120)
 * [Delta](https://www.pcgamingwiki.com/wiki/?curid=126098)
-* [Delta Force: Hawk Ops](https://www.pcgamingwiki.com/wiki/?curid=195527)
+* [Delta Force (2025)](https://www.pcgamingwiki.com/wiki/?curid=195527)
 * [Delta G](https://www.pcgamingwiki.com/wiki/?curid=126454)
 * [Delta Squad](https://www.pcgamingwiki.com/wiki/?curid=130583)
 * [DeltaBlade 2700](https://www.pcgamingwiki.com/wiki/?curid=144480)
