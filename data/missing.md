@@ -15565,7 +15565,6 @@
 * [Maru](https://www.pcgamingwiki.com/wiki/?curid=150992)
 * [Marvel End Time Arena](https://www.pcgamingwiki.com/wiki/?curid=87509)
 * [Marvel Powers United VR](https://www.pcgamingwiki.com/wiki/?curid=165488)
-* [Marvel Rivals](https://www.pcgamingwiki.com/wiki/?curid=194000)
 * [Marvel's Spider-Man 2](https://www.pcgamingwiki.com/wiki/?curid=198512)
 * [Marvin the Hatter](https://www.pcgamingwiki.com/wiki/?curid=132619)
 * [Marvin's Mittens](https://www.pcgamingwiki.com/wiki/?curid=37164)
