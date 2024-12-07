@@ -10,6 +10,7 @@
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [Swelter](https://www.pcgamingwiki.com/wiki/?curid=179541)
 * [The Crooked Man](https://www.pcgamingwiki.com/wiki/?curid=78713)
+* [The Excavation of Hob's Barrow](https://www.pcgamingwiki.com/wiki/?curid=157124)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
 * [XIII](https://www.pcgamingwiki.com/wiki/?curid=3514)
