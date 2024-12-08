@@ -18671,6 +18671,7 @@
 * [Patchman vs. Red Circles](https://www.pcgamingwiki.com/wiki/?curid=47019)
 * [Patent9](https://www.pcgamingwiki.com/wiki/?curid=89190)
 * [Path](https://www.pcgamingwiki.com/wiki/?curid=155967)
+* [Path of Exile II](https://www.pcgamingwiki.com/wiki/?curid=200006)
 * [Path of Redemption](https://www.pcgamingwiki.com/wiki/?curid=156394)
 * [Path of Thalanos](https://www.pcgamingwiki.com/wiki/?curid=151199)
 * [Path of War](https://www.pcgamingwiki.com/wiki/?curid=38893)
