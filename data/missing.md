@@ -27073,6 +27073,7 @@
 * [Tiamat's Drink](https://www.pcgamingwiki.com/wiki/?curid=153746)
 * [Tiara the Deceiving Crown](https://www.pcgamingwiki.com/wiki/?curid=142107)
 * [Tibetan Quest: Beyond the World's End](https://www.pcgamingwiki.com/wiki/?curid=43704)
+* [Tibor: Tale of a Kind Vampire](https://www.pcgamingwiki.com/wiki/?curid=200020)
 * [Tic Tac Toe Lounge](https://www.pcgamingwiki.com/wiki/?curid=72266)
 * [Tick Hunter](https://www.pcgamingwiki.com/wiki/?curid=64797)
 * [Tick Tick Pass](https://www.pcgamingwiki.com/wiki/?curid=69084)
