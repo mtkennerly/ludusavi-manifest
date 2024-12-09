@@ -14677,6 +14677,7 @@
 * [Limberjack](https://www.pcgamingwiki.com/wiki/?curid=37054)
 * [Limbo of the Lost](https://www.pcgamingwiki.com/wiki/?curid=90882)
 * [Liminal](https://www.pcgamingwiki.com/wiki/?curid=103097)
+* [Liminalcore](https://www.pcgamingwiki.com/wiki/?curid=200008)
 * [Limit of Defense](https://www.pcgamingwiki.com/wiki/?curid=77285)
 * [Limit Theory](https://www.pcgamingwiki.com/wiki/?curid=23047)
 * [Limiter](https://www.pcgamingwiki.com/wiki/?curid=77855)
