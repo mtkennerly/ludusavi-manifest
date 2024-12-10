@@ -1961,7 +1961,6 @@
 * [Atlas Protect Your Planet](https://www.pcgamingwiki.com/wiki/?curid=125653)
 * [Atlas Reactor](https://www.pcgamingwiki.com/wiki/?curid=43065)
 * [Atlas Reactor VR Character Viewer](https://www.pcgamingwiki.com/wiki/?curid=43758)
-* [ATLYSS](https://www.pcgamingwiki.com/wiki/?curid=199461)
 * [Atma](https://www.pcgamingwiki.com/wiki/?curid=141045)
 * [AtmaSphere](https://www.pcgamingwiki.com/wiki/?curid=80988)
 * [Atmotech Episode Praeludium](https://www.pcgamingwiki.com/wiki/?curid=98576)
