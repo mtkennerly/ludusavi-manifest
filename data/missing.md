@@ -14413,7 +14413,6 @@
 * [Left in the Dark: No One on Board](https://www.pcgamingwiki.com/wiki/?curid=49580)
 * [Left&Right](https://www.pcgamingwiki.com/wiki/?curid=73262)
 * [LeftWay](https://www.pcgamingwiki.com/wiki/?curid=66717)
-* [Legacy of Kain: Soul Reaver 1 & 2 Remastered](https://www.pcgamingwiki.com/wiki/?curid=198020)
 * [Legacy of Lina](https://www.pcgamingwiki.com/wiki/?curid=114388)
 * [Legacy of Medieval](https://www.pcgamingwiki.com/wiki/?curid=72292)
 * [Legacy: Witch Island 2](https://www.pcgamingwiki.com/wiki/?curid=167525)
