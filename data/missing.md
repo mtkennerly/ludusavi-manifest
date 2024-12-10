@@ -26720,6 +26720,7 @@
 * [The Tale of Doris and the Dragon - Episode 2](https://www.pcgamingwiki.com/wiki/?curid=156702)
 * [The Tale of Greenbrier](https://www.pcgamingwiki.com/wiki/?curid=136096)
 * [The Tales of Epicton Kingdom](https://www.pcgamingwiki.com/wiki/?curid=141471)
+* [The Talos Principle: Reawakened](https://www.pcgamingwiki.com/wiki/?curid=200022)
 * [The Tape](https://www.pcgamingwiki.com/wiki/?curid=45557)
 * [The Tarnishing of Juxtia](https://www.pcgamingwiki.com/wiki/?curid=178547)
 * [The Tavern](https://www.pcgamingwiki.com/wiki/?curid=66103)
