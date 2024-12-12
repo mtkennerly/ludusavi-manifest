@@ -10527,6 +10527,7 @@
 * [Girls VR](https://www.pcgamingwiki.com/wiki/?curid=98660)
 * [GIRLS VR UNCENSORED!!!](https://www.pcgamingwiki.com/wiki/?curid=146038)
 * [Girls' civilization](https://www.pcgamingwiki.com/wiki/?curid=124419)
+* [Girls' Frontline 2: Exilium](https://www.pcgamingwiki.com/wiki/?curid=200077)
 * [Git Gud or Get Rekt](https://www.pcgamingwiki.com/wiki/?curid=148709)
 * [Giten Megami Tensei: Tokyo Mokushiroku](https://www.pcgamingwiki.com/wiki/?curid=169708)
 * [Give an Imp a Chance!](https://www.pcgamingwiki.com/wiki/?curid=151461)
