@@ -1,4 +1,5 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
+* [Button Tales](https://www.pcgamingwiki.com/wiki/?curid=55462)
 * [Caffeine: Victoria's Legacy](https://www.pcgamingwiki.com/wiki/?curid=105607)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
