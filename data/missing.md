@@ -17695,7 +17695,6 @@
 * [NoGame](https://www.pcgamingwiki.com/wiki/?curid=96435)
 * [Nogibator: Way of Legs](https://www.pcgamingwiki.com/wiki/?curid=78206)
 * [Noir Chronicles: City of Crime](https://www.pcgamingwiki.com/wiki/?curid=80859)
-* [Noir Syndrome](https://www.pcgamingwiki.com/wiki/?curid=50141)
 * [Noise](https://www.pcgamingwiki.com/wiki/?curid=65714)
 * [Noisetube](https://www.pcgamingwiki.com/wiki/?curid=182533)
 * [Nokbak](https://www.pcgamingwiki.com/wiki/?curid=69312)
