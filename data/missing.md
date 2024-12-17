@@ -2120,6 +2120,7 @@
 * [Awakening: The Sunhook Spire](https://www.pcgamingwiki.com/wiki/?curid=33948)
 * [Award. Room of Fear](https://www.pcgamingwiki.com/wiki/?curid=87243)
 * [Awareness Rooms](https://www.pcgamingwiki.com/wiki/?curid=33496)
+* [Awaria](https://www.pcgamingwiki.com/wiki/?curid=200272)
 * [Away](https://www.pcgamingwiki.com/wiki/?curid=113144)
 * [Away from beauty 色即是空](https://www.pcgamingwiki.com/wiki/?curid=127951)
 * [Away From Earth: Moon](https://www.pcgamingwiki.com/wiki/?curid=125601)
