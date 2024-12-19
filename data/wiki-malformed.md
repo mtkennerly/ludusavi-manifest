@@ -8,6 +8,7 @@
 * [Kids of Hellas: Back to Olympus](https://www.pcgamingwiki.com/wiki/?curid=128003)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Shadow Complex Remastered](https://www.pcgamingwiki.com/wiki/?curid=30035)
+* [Shogun: Total War](https://www.pcgamingwiki.com/wiki/?curid=4470)
 * [Snowdrop Escape](https://www.pcgamingwiki.com/wiki/?curid=179537)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
