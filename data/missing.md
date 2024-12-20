@@ -19392,6 +19392,7 @@
 * [Polywings](https://www.pcgamingwiki.com/wiki/?curid=51358)
 * [Polzun](https://www.pcgamingwiki.com/wiki/?curid=121313)
 * [PomboTroll](https://www.pcgamingwiki.com/wiki/?curid=121892)
+* [Pompeii: The Legacy](https://www.pcgamingwiki.com/wiki/?curid=200328)
 * [Pon Para and the Great Southern Labyrinth](https://www.pcgamingwiki.com/wiki/?curid=135044)
 * [Pond Wars](https://www.pcgamingwiki.com/wiki/?curid=141235)
 * [Pong Champion VR](https://www.pcgamingwiki.com/wiki/?curid=42045)
