@@ -14847,7 +14847,6 @@
 * [Logic Missile](https://www.pcgamingwiki.com/wiki/?curid=43300)
 * [Logic World](https://www.pcgamingwiki.com/wiki/?curid=135728)
 * [Logical Now!](https://www.pcgamingwiki.com/wiki/?curid=130482)
-* [Logicality](https://www.pcgamingwiki.com/wiki/?curid=178391)
 * [LoginToShootingRangeInServer00 VR](https://www.pcgamingwiki.com/wiki/?curid=153701)
 * [LOGistICAL 2: Indonesia](https://www.pcgamingwiki.com/wiki/?curid=139157)
 * [LOGistICAL 2: Vampires](https://www.pcgamingwiki.com/wiki/?curid=132426)
