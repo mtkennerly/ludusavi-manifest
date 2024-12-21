@@ -12563,7 +12563,6 @@
 * [I Hate Santa](https://www.pcgamingwiki.com/wiki/?curid=54343)
 * [I hate this game](https://www.pcgamingwiki.com/wiki/?curid=126146)
 * [I Have Lived](https://www.pcgamingwiki.com/wiki/?curid=157108)
-* [I Have Low Stats But My Class Is 'Leader', So I Recruited Everyone I Know To Fight The Dark Lord](https://www.pcgamingwiki.com/wiki/?curid=149987)
 * [I Know a Tale](https://www.pcgamingwiki.com/wiki/?curid=40432)
 * [I Know Everything](https://www.pcgamingwiki.com/wiki/?curid=136828)
 * [I LIKE THE FLOWERS](https://www.pcgamingwiki.com/wiki/?curid=144620)
