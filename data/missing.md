@@ -29485,6 +29485,7 @@
 * [Whateverland](https://www.pcgamingwiki.com/wiki/?curid=154336)
 * [Wheel of Fate](https://www.pcgamingwiki.com/wiki/?curid=151279)
 * [Wheel of Fortune (1998)](https://www.pcgamingwiki.com/wiki/?curid=101643)
+* [Wheel of Fortune: 2nd Edition](https://www.pcgamingwiki.com/wiki/?curid=200354)
 * [Wheel Riders Online](https://www.pcgamingwiki.com/wiki/?curid=77154)
 * [Wheel Travel](https://www.pcgamingwiki.com/wiki/?curid=134878)
 * [Wheelbarrow Warrior](https://www.pcgamingwiki.com/wiki/?curid=108768)
