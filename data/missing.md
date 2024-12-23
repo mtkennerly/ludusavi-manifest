@@ -23873,6 +23873,7 @@
 * [Star Fighters](https://www.pcgamingwiki.com/wiki/?curid=132949)
 * [Star Fleet Armada Rogue Adventures](https://www.pcgamingwiki.com/wiki/?curid=62811)
 * [Star Fleet I: The War Begins!](https://www.pcgamingwiki.com/wiki/?curid=167094)
+* [Star Fox 64 (Starship)](https://www.pcgamingwiki.com/wiki/?curid=200383)
 * [Star Girl Proxima](https://www.pcgamingwiki.com/wiki/?curid=145136)
 * [Star girls](https://www.pcgamingwiki.com/wiki/?curid=153388)
 * [Star Goddess](https://www.pcgamingwiki.com/wiki/?curid=146144)
