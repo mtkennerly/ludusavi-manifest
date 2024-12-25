@@ -1071,7 +1071,6 @@
 * [Alien Syndrome](https://www.pcgamingwiki.com/wiki/?curid=30751)
 * [Alien Weapon Test Grounds](https://www.pcgamingwiki.com/wiki/?curid=199084)
 * [Alien Zombie Megadeath](https://www.pcgamingwiki.com/wiki/?curid=40887)
-* [Alien: Rogue Incursion](https://www.pcgamingwiki.com/wiki/?curid=200221)
 * [AlienAfterlife](https://www.pcgamingwiki.com/wiki/?curid=127277)
 * [Alienautics](https://www.pcgamingwiki.com/wiki/?curid=138651)
 * [Aliens and Umbrellas](https://www.pcgamingwiki.com/wiki/?curid=139509)
