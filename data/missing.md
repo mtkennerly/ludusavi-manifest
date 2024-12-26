@@ -28368,6 +28368,7 @@
 * [Unsolved Mystery Club: Ancient Astronauts](https://www.pcgamingwiki.com/wiki/?curid=140989)
 * [Unsolved Stories](https://www.pcgamingwiki.com/wiki/?curid=82861)
 * [Unsolved: Hidden Mystery Games](https://www.pcgamingwiki.com/wiki/?curid=183659)
+* [Unsorted Horror](https://www.pcgamingwiki.com/wiki/?curid=200446)
 * [Unspottable](https://www.pcgamingwiki.com/wiki/?curid=173684)
 * [Unstoppable Gorg](https://www.pcgamingwiki.com/wiki/?curid=40847)
 * [Unstoppable Hamster](https://www.pcgamingwiki.com/wiki/?curid=80454)
