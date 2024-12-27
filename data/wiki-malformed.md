@@ -6,6 +6,7 @@
 * [Shadow Complex Remastered](https://www.pcgamingwiki.com/wiki/?curid=30035)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
+* [The Battle for Wesnoth](https://www.pcgamingwiki.com/wiki/?curid=17699)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
 * [XIII](https://www.pcgamingwiki.com/wiki/?curid=3514)
