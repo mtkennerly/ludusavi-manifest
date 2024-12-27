@@ -2875,7 +2875,6 @@
 * [Big Hit VR Baseball](https://www.pcgamingwiki.com/wiki/?curid=61323)
 * [Big Journey to Home](https://www.pcgamingwiki.com/wiki/?curid=46795)
 * [Big Rigs: Over the Road Racing](https://www.pcgamingwiki.com/wiki/?curid=367)
-* [Big Rumble Boxing: Creed Champions](https://www.pcgamingwiki.com/wiki/?curid=170036)
 * [Big Scale Racing](https://www.pcgamingwiki.com/wiki/?curid=176849)
 * [Big Surprise](https://www.pcgamingwiki.com/wiki/?curid=92087)
 * [Big Tiddy Goth GF Simulator](https://www.pcgamingwiki.com/wiki/?curid=179074)
