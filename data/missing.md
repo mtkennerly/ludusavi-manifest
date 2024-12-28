@@ -1223,6 +1223,7 @@
 * [America's Retribution](https://www.pcgamingwiki.com/wiki/?curid=92023)
 * [America's Retribution Term 2](https://www.pcgamingwiki.com/wiki/?curid=135020)
 * [American Angst](https://www.pcgamingwiki.com/wiki/?curid=72983)
+* [American Chopper 2: Full Throttle](https://www.pcgamingwiki.com/wiki/?curid=200497)
 * [American Civil War - The Blue and the Gray](https://www.pcgamingwiki.com/wiki/?curid=172045)
 * [American Farmer](https://www.pcgamingwiki.com/wiki/?curid=90995)
 * [American Hero](https://www.pcgamingwiki.com/wiki/?curid=171969)
