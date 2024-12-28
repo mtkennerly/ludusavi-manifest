@@ -10,6 +10,7 @@
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The Battle for Wesnoth](https://www.pcgamingwiki.com/wiki/?curid=17699)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
+* [Tokyo Clanpool](https://www.pcgamingwiki.com/wiki/?curid=200490)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
 * [XIII](https://www.pcgamingwiki.com/wiki/?curid=3514)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)

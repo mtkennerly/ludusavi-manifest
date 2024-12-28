@@ -6558,6 +6558,7 @@
 * [Deep Ones](https://www.pcgamingwiki.com/wiki/?curid=69326)
 * [Deep Race: Battle](https://www.pcgamingwiki.com/wiki/?curid=144673)
 * [Deep Race: Space](https://www.pcgamingwiki.com/wiki/?curid=134636)
+* [Deep Raider](https://www.pcgamingwiki.com/wiki/?curid=200493)
 * [Deep Rest](https://www.pcgamingwiki.com/wiki/?curid=105475)
 * [Deep Sea Endurance](https://www.pcgamingwiki.com/wiki/?curid=127345)
 * [Deep Sea Tycoon: Diver's Paradise](https://www.pcgamingwiki.com/wiki/?curid=141661)
