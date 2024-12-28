@@ -8215,7 +8215,6 @@
 * [Embrace the Fear](https://www.pcgamingwiki.com/wiki/?curid=56436)
 * [Embrace the Three Kingdoms OL](https://www.pcgamingwiki.com/wiki/?curid=136497)
 * [EMemories](https://www.pcgamingwiki.com/wiki/?curid=179100)
-* [Emerald City Confidential](https://www.pcgamingwiki.com/wiki/?curid=41247)
 * [Emerald Shores](https://www.pcgamingwiki.com/wiki/?curid=122054)
 * [Emergency](https://www.pcgamingwiki.com/wiki/?curid=94167)
 * [Emergency 2016](https://www.pcgamingwiki.com/wiki/?curid=46056)
