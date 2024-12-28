@@ -6927,6 +6927,7 @@
 * [Dies irae ~Interview with Kaziklu Bey~](https://www.pcgamingwiki.com/wiki/?curid=128151)
 * [Diesel Attack](https://www.pcgamingwiki.com/wiki/?curid=150782)
 * [Diesel Express VR](https://www.pcgamingwiki.com/wiki/?curid=63954)
+* [Diesel Legacy: The Brazen Age](https://www.pcgamingwiki.com/wiki/?curid=200483)
 * [Diesel Power](https://www.pcgamingwiki.com/wiki/?curid=56623)
 * [Differently Fast](https://www.pcgamingwiki.com/wiki/?curid=74303)
 * [Diffusion](https://www.pcgamingwiki.com/wiki/?curid=196996)
