@@ -21380,7 +21380,6 @@
 * [Rosewater](https://www.pcgamingwiki.com/wiki/?curid=160100)
 * [RoShamBo](https://www.pcgamingwiki.com/wiki/?curid=42364)
 * [Rosie's Reality](https://www.pcgamingwiki.com/wiki/?curid=152163)
-* [Rosso Rabbit In Trouble](https://www.pcgamingwiki.com/wiki/?curid=165924)
 * [Rot](https://www.pcgamingwiki.com/wiki/?curid=87169)
 * [ROt 2](https://www.pcgamingwiki.com/wiki/?curid=110744)
 * [ROt 3D](https://www.pcgamingwiki.com/wiki/?curid=139161)
