@@ -12443,7 +12443,7 @@
 * [Hunt for Junk](https://www.pcgamingwiki.com/wiki/?curid=180373)
 * [Hunt the Thailand Hidden](https://www.pcgamingwiki.com/wiki/?curid=138764)
 * [Hunt With Friends](https://www.pcgamingwiki.com/wiki/?curid=93824)
-* [Hunt: Showdown](https://www.pcgamingwiki.com/wiki/?curid=73965)
+* [Hunt: Showdown 1896](https://www.pcgamingwiki.com/wiki/?curid=73965)
 * [Hunted Gods](https://www.pcgamingwiki.com/wiki/?curid=126065)
 * [Hunter](https://www.pcgamingwiki.com/wiki/?curid=123347)
 * [Hunter Brick Ball](https://www.pcgamingwiki.com/wiki/?curid=96829)
