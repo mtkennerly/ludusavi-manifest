@@ -24702,7 +24702,6 @@
 * [Supreme Ruler 2010](https://www.pcgamingwiki.com/wiki/?curid=20935)
 * [Supreme Ruler 2020](https://www.pcgamingwiki.com/wiki/?curid=20939)
 * [Supreme Ruler: Cold War](https://www.pcgamingwiki.com/wiki/?curid=40935)
-* [Supreme Snowboarding](https://www.pcgamingwiki.com/wiki/?curid=179891)
 * [Surf World Series](https://www.pcgamingwiki.com/wiki/?curid=67270)
 * [Surface: Alone in the Mist](https://www.pcgamingwiki.com/wiki/?curid=88658)
 * [Surface: Game of Gods](https://www.pcgamingwiki.com/wiki/?curid=68841)
