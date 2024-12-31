@@ -25143,6 +25143,7 @@
 * [Tartapolis](https://www.pcgamingwiki.com/wiki/?curid=142311)
 * [Tarzan VR](https://www.pcgamingwiki.com/wiki/?curid=142099)
 * [Task Force 1942: Surface Naval Action in the South Pacific](https://www.pcgamingwiki.com/wiki/?curid=49388)
+* [Task Force Delta ‑ Afghanistan](https://www.pcgamingwiki.com/wiki/?curid=200556)
 * [Task is to Survive](https://www.pcgamingwiki.com/wiki/?curid=74179)
 * [Tass Times in Tonetown](https://www.pcgamingwiki.com/wiki/?curid=19725)
 * [Taste of Power](https://www.pcgamingwiki.com/wiki/?curid=79420)
