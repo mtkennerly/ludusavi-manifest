@@ -10501,7 +10501,6 @@
 * [Giant Cop: Justice Above All](https://www.pcgamingwiki.com/wiki/?curid=39430)
 * [Giant Life](https://www.pcgamingwiki.com/wiki/?curid=135628)
 * [Giant Wishes](https://www.pcgamingwiki.com/wiki/?curid=185640)
-* [Giants Uprising](https://www.pcgamingwiki.com/wiki/?curid=145286)
 * [Gibbon: Beyond the Trees](https://www.pcgamingwiki.com/wiki/?curid=174914)
 * [GIBZ](https://www.pcgamingwiki.com/wiki/?curid=38165)
 * [Gift of Life: Key of Solomon](https://www.pcgamingwiki.com/wiki/?curid=87423)
