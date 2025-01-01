@@ -29840,6 +29840,7 @@
 * [WORDER](https://www.pcgamingwiki.com/wiki/?curid=132848)
 * [Wordfeud](https://www.pcgamingwiki.com/wiki/?curid=168122)
 * [WordKiller: Revolution](https://www.pcgamingwiki.com/wiki/?curid=135105)
+* [Wordle 5](https://www.pcgamingwiki.com/wiki/?curid=200571)
 * [Words Cannot Convey](https://www.pcgamingwiki.com/wiki/?curid=103773)
 * [Words for Evil](https://www.pcgamingwiki.com/wiki/?curid=49137)
 * [Words in Progress](https://www.pcgamingwiki.com/wiki/?curid=198917)
