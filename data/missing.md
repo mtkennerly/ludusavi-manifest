@@ -2033,6 +2033,7 @@
 * [AudioWizards](https://www.pcgamingwiki.com/wiki/?curid=156302)
 * [Audition Online](https://www.pcgamingwiki.com/wiki/?curid=36469)
 * [Aufschwung Ost](https://www.pcgamingwiki.com/wiki/?curid=25871)
+* [Augustus](https://www.pcgamingwiki.com/wiki/?curid=200561)
 * [Aura II: The Sacred Rings](https://www.pcgamingwiki.com/wiki/?curid=195814)
 * [Aura Shift](https://www.pcgamingwiki.com/wiki/?curid=144164)
 * [Auri's Tales](https://www.pcgamingwiki.com/wiki/?curid=123888)
