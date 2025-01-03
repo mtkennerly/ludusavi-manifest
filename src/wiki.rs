@@ -647,6 +647,7 @@ pub struct WikiPath {
     pub store: Option<Store>,
     pub os: Option<Os>,
     pub tags: BTreeSet<Tag>,
+    pub ubisoft_game_launcher: bool,
 }
 
 impl WikiPath {
@@ -687,8 +688,12 @@ impl WikiPath {
                 self.kind = mapped.kind;
             }
 
-            if mapped.store.is_some() {
-                self.store = mapped.store;
+            if let Some(store) = mapped.store {
+                self.store = Some(store);
+
+                if store == Store::Uplay {
+                    self.ubisoft_game_launcher = true;
+                }
             }
 
             if mapped.os.is_some() {

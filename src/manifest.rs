@@ -246,57 +246,67 @@ impl Game {
 
         let paths = cache.parse_paths(title.to_string());
         for path in paths {
-            let tags = path.tags.clone();
-            let tags2 = path.tags.clone();
-
             match path.kind {
                 None | Some(PathKind::File) => {
-                    let constraint = GameFileConstraint {
-                        os: path.os,
-                        store: path.store,
+                    let constraints = {
+                        let mut constraints = vec![];
+
+                        let constraint = GameFileConstraint {
+                            os: path.os,
+                            store: path.store,
+                        };
+                        if !constraint.is_empty() {
+                            constraints.push(constraint);
+                        }
+
+                        if path.ubisoft_game_launcher {
+                            constraints.push(GameFileConstraint {
+                                os: path.os,
+                                store: Some(Store::Uplay),
+                            });
+                        }
+
+                        constraints
                     };
-                    let constraint2 = constraint.clone();
 
                     self.files
                         .entry(path.composite)
                         .and_modify(|x| {
-                            x.tags.extend(tags);
-                            if !constraint.is_empty() {
-                                x.when.insert(constraint);
-                            }
+                            x.tags.extend(path.tags.clone());
+                            x.when.extend(constraints.clone());
                         })
                         .or_insert_with(|| GameFileEntry {
-                            tags: tags2.into_iter().collect(),
-                            when: (if constraint2.is_empty() {
-                                vec![]
-                            } else {
-                                vec![constraint2]
-                            })
-                            .into_iter()
-                            .collect(),
+                            tags: path.tags.clone().into_iter().collect(),
+                            when: constraints.clone().into_iter().collect(),
                         });
                 }
                 Some(PathKind::Registry) => {
-                    let constraint = GameRegistryConstraint { store: path.store };
-                    let constraint2 = constraint.clone();
+                    let constraints = {
+                        let mut constraints = vec![];
+
+                        let constraint = GameRegistryConstraint { store: path.store };
+                        if !constraint.is_empty() {
+                            constraints.push(constraint);
+                        }
+
+                        if path.ubisoft_game_launcher {
+                            constraints.push(GameRegistryConstraint {
+                                store: Some(Store::Uplay),
+                            });
+                        }
+
+                        constraints
+                    };
 
                     self.registry
                         .entry(path.composite)
                         .and_modify(|x| {
-                            x.tags.extend(tags);
-                            if !constraint.is_empty() {
-                                x.when.insert(constraint);
-                            }
+                            x.tags.extend(path.tags.clone());
+                            x.when.extend(constraints.clone());
                         })
                         .or_insert_with(|| GameRegistryEntry {
-                            tags: tags2.into_iter().collect(),
-                            when: (if constraint2.is_empty() {
-                                vec![]
-                            } else {
-                                vec![constraint2]
-                            })
-                            .into_iter()
-                            .collect(),
+                            tags: path.tags.clone().into_iter().collect(),
+                            when: constraints.clone().into_iter().collect(),
                         });
                 }
             }
