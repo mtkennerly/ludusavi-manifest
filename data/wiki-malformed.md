@@ -14,5 +14,4 @@
 * [The Killing Antidote](https://www.pcgamingwiki.com/wiki/?curid=198283)
 * [Tokyo Clanpool](https://www.pcgamingwiki.com/wiki/?curid=200490)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
-* [XIII](https://www.pcgamingwiki.com/wiki/?curid=3514)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
