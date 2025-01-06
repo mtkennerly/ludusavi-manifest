@@ -18450,6 +18450,7 @@
 * [OverKill](https://www.pcgamingwiki.com/wiki/?curid=74860)
 * [Overkill 3](https://www.pcgamingwiki.com/wiki/?curid=169683)
 * [Overlook Trail](https://www.pcgamingwiki.com/wiki/?curid=90421)
+* [Overlord (1990)](https://www.pcgamingwiki.com/wiki/?curid=200686)
 * [Overlord: Fellowship of Evil](https://www.pcgamingwiki.com/wiki/?curid=35314)
 * [Overpass](https://www.pcgamingwiki.com/wiki/?curid=135879)
 * [Overpower](https://www.pcgamingwiki.com/wiki/?curid=43490)
