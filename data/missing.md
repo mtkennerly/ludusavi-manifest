@@ -9842,6 +9842,7 @@
 * [FPV Drone Simulator](https://www.pcgamingwiki.com/wiki/?curid=68837)
 * [FPV Freerider](https://www.pcgamingwiki.com/wiki/?curid=93851)
 * [Fractal](https://www.pcgamingwiki.com/wiki/?curid=72603)
+* [Fractal Block World](https://www.pcgamingwiki.com/wiki/?curid=200735)
 * [Fractal Chicken](https://www.pcgamingwiki.com/wiki/?curid=102951)
 * [Fractal Gallery VR](https://www.pcgamingwiki.com/wiki/?curid=138713)
 * [FRACTER](https://www.pcgamingwiki.com/wiki/?curid=144691)
