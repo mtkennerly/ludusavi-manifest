@@ -16526,6 +16526,8 @@
 * [MontaSayer](https://www.pcgamingwiki.com/wiki/?curid=57192)
 * [MonteCube Dodge](https://www.pcgamingwiki.com/wiki/?curid=134794)
 * [Montezuma's Revenge](https://www.pcgamingwiki.com/wiki/?curid=106792)
+* [Montezuma's Revenge - Director's Cut](https://www.pcgamingwiki.com/wiki/?curid=200757)
+* [Montezuma's Revenge - The 40th Anniversary Edition](https://www.pcgamingwiki.com/wiki/?curid=200760)
 * [Monty Python's The Meaning of Life](https://www.pcgamingwiki.com/wiki/?curid=90741)
 * [Monument](https://www.pcgamingwiki.com/wiki/?curid=47605)
 * [Monument Builders - Alcatraz](https://www.pcgamingwiki.com/wiki/?curid=49442)
