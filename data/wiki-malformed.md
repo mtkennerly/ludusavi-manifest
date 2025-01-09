@@ -8,6 +8,7 @@
 * [Shadow Complex Remastered](https://www.pcgamingwiki.com/wiki/?curid=30035)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: The Force Unleashed](https://www.pcgamingwiki.com/wiki/?curid=1121)
+* [Stranger of Paradise: Final Fantasy Origin](https://www.pcgamingwiki.com/wiki/?curid=169276)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The Battle for Wesnoth](https://www.pcgamingwiki.com/wiki/?curid=17699)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
