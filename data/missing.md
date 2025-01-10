@@ -25378,6 +25378,7 @@
 * [Tetripank](https://www.pcgamingwiki.com/wiki/?curid=91050)
 * [Tetris (1990)](https://www.pcgamingwiki.com/wiki/?curid=193670)
 * [Tetris Beat](https://www.pcgamingwiki.com/wiki/?curid=170203)
+* [Tetris Elements](https://www.pcgamingwiki.com/wiki/?curid=200783)
 * [Tetris for Two](https://www.pcgamingwiki.com/wiki/?curid=175866)
 * [Tetromino Attack](https://www.pcgamingwiki.com/wiki/?curid=134749)
 * [Tetropunk](https://www.pcgamingwiki.com/wiki/?curid=77958)
