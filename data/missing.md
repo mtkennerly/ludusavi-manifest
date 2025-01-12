@@ -7094,6 +7094,7 @@
 * [Disney SpellStruck](https://www.pcgamingwiki.com/wiki/?curid=198853)
 * [Disney The Little Mermaid Undersea Treasures](https://www.pcgamingwiki.com/wiki/?curid=170864)
 * [Disney's Animated Storybook: 101 Dalmatians](https://www.pcgamingwiki.com/wiki/?curid=55230)
+* [Disney's Animated Storybook: Hercules](https://www.pcgamingwiki.com/wiki/?curid=200838)
 * [Disney's Animated Storybook: Toy Story](https://www.pcgamingwiki.com/wiki/?curid=54857)
 * [Disney's Math Quest with Aladdin](https://www.pcgamingwiki.com/wiki/?curid=106247)
 * [Disney's Princess Fashion Boutique](https://www.pcgamingwiki.com/wiki/?curid=166685)
