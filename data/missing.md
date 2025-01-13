@@ -19904,6 +19904,7 @@
 * [PsychLabVR](https://www.pcgamingwiki.com/wiki/?curid=89333)
 * [Psycho Boys](https://www.pcgamingwiki.com/wiki/?curid=144524)
 * [Psycho Love](https://www.pcgamingwiki.com/wiki/?curid=150942)
+* [Psycho Patrol R](https://www.pcgamingwiki.com/wiki/?curid=200845)
 * [Psycho Squirrels](https://www.pcgamingwiki.com/wiki/?curid=93136)
 * [Psycho Wolf](https://www.pcgamingwiki.com/wiki/?curid=95497)
 * [Psychoballs](https://www.pcgamingwiki.com/wiki/?curid=87898)
