@@ -15957,6 +15957,7 @@
 * [Metal Gear](https://www.pcgamingwiki.com/wiki/?curid=27727)
 * [Metal Gear Solid Δ: Snake Eater](https://www.pcgamingwiki.com/wiki/?curid=187350)
 * [Metal Heads](https://www.pcgamingwiki.com/wiki/?curid=145397)
+* [Metal Knight: Mission: Terminate Resistance](https://www.pcgamingwiki.com/wiki/?curid=200884)
 * [Metal Marines](https://www.pcgamingwiki.com/wiki/?curid=175456)
 * [Metal Noise](https://www.pcgamingwiki.com/wiki/?curid=52798)
 * [Metal Planet](https://www.pcgamingwiki.com/wiki/?curid=50143)
