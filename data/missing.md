@@ -22991,7 +22991,6 @@
 * [Smell of Death](https://www.pcgamingwiki.com/wiki/?curid=42595)
 * [Smile To Fly](https://www.pcgamingwiki.com/wiki/?curid=148903)
 * [Smisl 2 gravity](https://www.pcgamingwiki.com/wiki/?curid=139198)
-* [Smite 2](https://www.pcgamingwiki.com/wiki/?curid=192529)
 * [Smithy](https://www.pcgamingwiki.com/wiki/?curid=42704)
 * [Smogpunk 湮霾之地](https://www.pcgamingwiki.com/wiki/?curid=109938)
 * [SMOKED](https://www.pcgamingwiki.com/wiki/?curid=123531)
