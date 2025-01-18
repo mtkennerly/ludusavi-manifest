@@ -14,5 +14,6 @@
 * [The Battle for Wesnoth](https://www.pcgamingwiki.com/wiki/?curid=17699)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Tokyo Clanpool](https://www.pcgamingwiki.com/wiki/?curid=200490)
+* [Ultimate Admiral: Dreadnoughts](https://www.pcgamingwiki.com/wiki/?curid=151399)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
