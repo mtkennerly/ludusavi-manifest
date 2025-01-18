@@ -2,6 +2,7 @@
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Farlands](https://www.pcgamingwiki.com/wiki/?curid=196659)
+* [Gears of War](https://www.pcgamingwiki.com/wiki/?curid=3603)
 * [Hot Wheels: Stunt Track Challenge](https://www.pcgamingwiki.com/wiki/?curid=140260)
 * [Life Is Strange](https://www.pcgamingwiki.com/wiki/?curid=21939)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
