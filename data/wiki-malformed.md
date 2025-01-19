@@ -6,6 +6,7 @@
 * [Gears of War](https://www.pcgamingwiki.com/wiki/?curid=3603)
 * [Hot Wheels: Stunt Track Challenge](https://www.pcgamingwiki.com/wiki/?curid=140260)
 * [Life Is Strange](https://www.pcgamingwiki.com/wiki/?curid=21939)
+* [Loom](https://www.pcgamingwiki.com/wiki/?curid=34375)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Shadow Complex Remastered](https://www.pcgamingwiki.com/wiki/?curid=30035)
 * [Shrek SuperSlam](https://www.pcgamingwiki.com/wiki/?curid=126540)

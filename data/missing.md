@@ -23246,6 +23246,7 @@
 * [SongPop 2](https://www.pcgamingwiki.com/wiki/?curid=168545)
 * [Songs of Araiah: Re-Mastered Edition](https://www.pcgamingwiki.com/wiki/?curid=73219)
 * [Songs2See](https://www.pcgamingwiki.com/wiki/?curid=40507)
+* [Sonic Advance 2](https://www.pcgamingwiki.com/wiki/?curid=200978)
 * [Sonic GT](https://www.pcgamingwiki.com/wiki/?curid=198821)
 * [Sonic Hunter VR](https://www.pcgamingwiki.com/wiki/?curid=53884)
 * [Sonic Nexus](https://www.pcgamingwiki.com/wiki/?curid=177182)
