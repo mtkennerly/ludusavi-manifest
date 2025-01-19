@@ -17577,6 +17577,7 @@
 * [Nightclub Emporium](https://www.pcgamingwiki.com/wiki/?curid=46947)
 * [Nightcrawler VR Bowling](https://www.pcgamingwiki.com/wiki/?curid=63711)
 * [Nightfall Hacker](https://www.pcgamingwiki.com/wiki/?curid=157172)
+* [Nightfall Protocol](https://www.pcgamingwiki.com/wiki/?curid=200970)
 * [Nightfall: Escape](https://www.pcgamingwiki.com/wiki/?curid=35180)
 * [Nightfire Open](https://www.pcgamingwiki.com/wiki/?curid=196985)
 * [Nighthaw-X3000](https://www.pcgamingwiki.com/wiki/?curid=61130)
