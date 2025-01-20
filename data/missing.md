@@ -16887,7 +16887,6 @@
 * [My Golf](https://www.pcgamingwiki.com/wiki/?curid=91220)
 * [My Grandfather's Farm](https://www.pcgamingwiki.com/wiki/?curid=92369)
 * [My Haunted Doll](https://www.pcgamingwiki.com/wiki/?curid=150673)
-* [My Hero: Ultra Rumble](https://www.pcgamingwiki.com/wiki/?curid=183090)
 * [My Home VR](https://www.pcgamingwiki.com/wiki/?curid=153523)
 * [My hot beach vacation](https://www.pcgamingwiki.com/wiki/?curid=155969)
 * [My House](https://www.pcgamingwiki.com/wiki/?curid=125543)
