@@ -3967,6 +3967,7 @@
 * [Cabals: Magic & Battle Cards](https://www.pcgamingwiki.com/wiki/?curid=39578)
 * [Cabela's African Adventures](https://www.pcgamingwiki.com/wiki/?curid=40575)
 * [Cabela's African Safari](https://www.pcgamingwiki.com/wiki/?curid=184562)
+* [Cabela's Dangerous Hunts 2](https://www.pcgamingwiki.com/wiki/?curid=201007)
 * [Cabela's Outdoor Adventures (2009)](https://www.pcgamingwiki.com/wiki/?curid=194571)
 * [Cabins: Jigsaw Puzzles](https://www.pcgamingwiki.com/wiki/?curid=99436)
 * [Cactus Canyon](https://www.pcgamingwiki.com/wiki/?curid=87209)
