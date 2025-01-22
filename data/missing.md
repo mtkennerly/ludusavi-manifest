@@ -20158,7 +20158,6 @@
 * [Quartermaster](https://www.pcgamingwiki.com/wiki/?curid=137064)
 * [Quasar](https://www.pcgamingwiki.com/wiki/?curid=37066)
 * [Quaterneon](https://www.pcgamingwiki.com/wiki/?curid=148981)
-* [Quaver](https://www.pcgamingwiki.com/wiki/?curid=135986)
 * [Qubes](https://www.pcgamingwiki.com/wiki/?curid=128407)
 * [Qubic](https://www.pcgamingwiki.com/wiki/?curid=53638)
 * [Qubika](https://www.pcgamingwiki.com/wiki/?curid=82075)
