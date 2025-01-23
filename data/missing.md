@@ -15009,6 +15009,7 @@
 * [Lost Legends: The Pharaoh's Tomb](https://www.pcgamingwiki.com/wiki/?curid=64737)
 * [Lost Legends: The Weeping Woman](https://www.pcgamingwiki.com/wiki/?curid=45960)
 * [Lost Letters (of Seraphina)](https://www.pcgamingwiki.com/wiki/?curid=121127)
+* [Lost Love Island](https://www.pcgamingwiki.com/wiki/?curid=201046)
 * [Lost Moon](https://www.pcgamingwiki.com/wiki/?curid=46266)
 * [Lost On The Island](https://www.pcgamingwiki.com/wiki/?curid=123403)
 * [Lost Orbit](https://www.pcgamingwiki.com/wiki/?curid=47933)
