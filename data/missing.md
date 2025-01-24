@@ -13906,6 +13906,7 @@
 * [King and Assassins](https://www.pcgamingwiki.com/wiki/?curid=108604)
 * [King Arthur II: The Role-Playing Wargame](https://www.pcgamingwiki.com/wiki/?curid=40837)
 * [King Arthur: Fallen Champions](https://www.pcgamingwiki.com/wiki/?curid=40911)
+* [King Arthur: Legends Rise](https://www.pcgamingwiki.com/wiki/?curid=201073)
 * [King Arthur: The Role-Playing Wargame](https://www.pcgamingwiki.com/wiki/?curid=41199)
 * [King Battle](https://www.pcgamingwiki.com/wiki/?curid=80398)
 * [King Erik](https://www.pcgamingwiki.com/wiki/?curid=124219)
