@@ -7101,6 +7101,7 @@
 * [Disney's Animated Storybook: Toy Story](https://www.pcgamingwiki.com/wiki/?curid=54857)
 * [Disney's Math Quest with Aladdin](https://www.pcgamingwiki.com/wiki/?curid=106247)
 * [Disney's Princess Fashion Boutique](https://www.pcgamingwiki.com/wiki/?curid=166685)
+* [Disney's Tarzan Activity Center](https://www.pcgamingwiki.com/wiki/?curid=201095)
 * [Disobedient Sheep](https://www.pcgamingwiki.com/wiki/?curid=130686)
 * [Disobey: Revolt Simulator](https://www.pcgamingwiki.com/wiki/?curid=39488)
 * [DISONANTE](https://www.pcgamingwiki.com/wiki/?curid=136393)
