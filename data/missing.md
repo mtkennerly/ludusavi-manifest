@@ -21086,6 +21086,7 @@
 * [Rise of the Gunters](https://www.pcgamingwiki.com/wiki/?curid=89361)
 * [Rise of the Pirates](https://www.pcgamingwiki.com/wiki/?curid=127471)
 * [Rise of the Robots](https://www.pcgamingwiki.com/wiki/?curid=184952)
+* [Rise of the Ronin](https://www.pcgamingwiki.com/wiki/?curid=201156)
 * [Rise of the Slime](https://www.pcgamingwiki.com/wiki/?curid=148567)
 * [Rise of Titans](https://www.pcgamingwiki.com/wiki/?curid=99716)
 * [Rise Up](https://www.pcgamingwiki.com/wiki/?curid=110768)
