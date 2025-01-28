@@ -16132,6 +16132,7 @@
 * [Mike Dies](https://www.pcgamingwiki.com/wiki/?curid=69882)
 * [Mike Goes on Hike](https://www.pcgamingwiki.com/wiki/?curid=113646)
 * [Mike Was Сursed](https://www.pcgamingwiki.com/wiki/?curid=76345)
+* [Mike's Monstrous Adventure](https://www.pcgamingwiki.com/wiki/?curid=201169)
 * [Miko Gakkou Monogatari: Kaede Episode](https://www.pcgamingwiki.com/wiki/?curid=45477)
 * [Miko Gakkou: Second Year](https://www.pcgamingwiki.com/wiki/?curid=49331)
 * [Miko Mole](https://www.pcgamingwiki.com/wiki/?curid=42926)
