@@ -29685,7 +29685,6 @@
 * [WildIsland](https://www.pcgamingwiki.com/wiki/?curid=155805)
 * [WildKids](https://www.pcgamingwiki.com/wiki/?curid=125607)
 * [Wildlife Park 2 - Horses](https://www.pcgamingwiki.com/wiki/?curid=49901)
-* [Wildlife Tycoon: Venture Africa](https://www.pcgamingwiki.com/wiki/?curid=92843)
 * [Wildlife VR](https://www.pcgamingwiki.com/wiki/?curid=42295)
 * [Will Glow the Wisp](https://www.pcgamingwiki.com/wiki/?curid=63040)
 * [Will of the Gods](https://www.pcgamingwiki.com/wiki/?curid=36676)
