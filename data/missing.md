@@ -23101,7 +23101,6 @@
 * [Snowball Rush](https://www.pcgamingwiki.com/wiki/?curid=132258)
 * [Snowballed: Crazy Downhill](https://www.pcgamingwiki.com/wiki/?curid=122504)
 * [Snowballs](https://www.pcgamingwiki.com/wiki/?curid=153386)
-* [Snowboard Park Tycoon](https://www.pcgamingwiki.com/wiki/?curid=90737)
 * [SnowBrawl](https://www.pcgamingwiki.com/wiki/?curid=180149)
 * [Snowday](https://www.pcgamingwiki.com/wiki/?curid=52334)
 * [Snowdome](https://www.pcgamingwiki.com/wiki/?curid=145459)
