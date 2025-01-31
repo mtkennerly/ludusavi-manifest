@@ -1,6 +1,5 @@
 * [1428: Shadows over Silesia](https://www.pcgamingwiki.com/wiki/?curid=201198)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
-* [Brutal John](https://www.pcgamingwiki.com/wiki/?curid=201204)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Dead Man's Draw](https://www.pcgamingwiki.com/wiki/?curid=50679)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
