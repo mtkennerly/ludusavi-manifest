@@ -16198,6 +16198,7 @@
 * [Mindlock - The Apartment](https://www.pcgamingwiki.com/wiki/?curid=201223)
 * [Minds of Nations](https://www.pcgamingwiki.com/wiki/?curid=156635)
 * [Mindshow](https://www.pcgamingwiki.com/wiki/?curid=64105)
+* [Mindwave](https://www.pcgamingwiki.com/wiki/?curid=201237)
 * [Mine Royale - Battle Royale](https://www.pcgamingwiki.com/wiki/?curid=121829)
 * [Mine Seeker](https://www.pcgamingwiki.com/wiki/?curid=88778)
 * [Mine the Gold](https://www.pcgamingwiki.com/wiki/?curid=132238)
