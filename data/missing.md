@@ -6408,6 +6408,7 @@
 * [Dead Rivals](https://www.pcgamingwiki.com/wiki/?curid=199661)
 * [Dead Russia Co-op](https://www.pcgamingwiki.com/wiki/?curid=157100)
 * [Dead Sea](https://www.pcgamingwiki.com/wiki/?curid=48395)
+* [Dead Season](https://www.pcgamingwiki.com/wiki/?curid=201249)
 * [Dead Seater](https://www.pcgamingwiki.com/wiki/?curid=200630)
 * [Dead Secret Circle](https://www.pcgamingwiki.com/wiki/?curid=92245)
 * [Dead Shot Heroes](https://www.pcgamingwiki.com/wiki/?curid=90354)
