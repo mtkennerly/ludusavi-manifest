@@ -12504,7 +12504,7 @@
 * [Hydro Thunder](https://www.pcgamingwiki.com/wiki/?curid=176647)
 * [Hydroactive](https://www.pcgamingwiki.com/wiki/?curid=76937)
 * [Hyena: Dogs of War](https://www.pcgamingwiki.com/wiki/?curid=155604)
-* [HYENAS](https://www.pcgamingwiki.com/wiki/?curid=186074)
+* [Hyenas](https://www.pcgamingwiki.com/wiki/?curid=186074)
 * [Hykee - Episode 1: Underwater](https://www.pcgamingwiki.com/wiki/?curid=90314)
 * [Hylics](https://www.pcgamingwiki.com/wiki/?curid=37307)
 * [Hylics 2](https://www.pcgamingwiki.com/wiki/?curid=183414)
