@@ -10,6 +10,7 @@
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Rooks Keep](https://www.pcgamingwiki.com/wiki/?curid=13496)
 * [Shadow Complex Remastered](https://www.pcgamingwiki.com/wiki/?curid=30035)
+* [Soulmask](https://www.pcgamingwiki.com/wiki/?curid=201263)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: The Force Unleashed](https://www.pcgamingwiki.com/wiki/?curid=1121)
 * [Stranger of Paradise: Final Fantasy Origin](https://www.pcgamingwiki.com/wiki/?curid=169276)

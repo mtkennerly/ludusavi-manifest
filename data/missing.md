@@ -23319,6 +23319,7 @@
 * [SoulfulLand](https://www.pcgamingwiki.com/wiki/?curid=153826)
 * [SoulHunt](https://www.pcgamingwiki.com/wiki/?curid=53236)
 * [Soulless: Ray of Hope](https://www.pcgamingwiki.com/wiki/?curid=51575)
+* [Soulmask](https://www.pcgamingwiki.com/wiki/?curid=201263)
 * [Soulrun](https://www.pcgamingwiki.com/wiki/?curid=130708)
 * [Souls](https://www.pcgamingwiki.com/wiki/?curid=65884)
 * [SoulSaverOnline](https://www.pcgamingwiki.com/wiki/?curid=59836)
