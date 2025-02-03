@@ -24724,7 +24724,6 @@
 * [Superman: The Man of Steel](https://www.pcgamingwiki.com/wiki/?curid=81317)
 * [Superman: The Mysterious Mr. Mist](https://www.pcgamingwiki.com/wiki/?curid=128832)
 * [Supermarket Shriek](https://www.pcgamingwiki.com/wiki/?curid=138372)
-* [Supermarket Together](https://www.pcgamingwiki.com/wiki/?curid=197020)
 * [Supermarket Tycoon](https://www.pcgamingwiki.com/wiki/?curid=68114)
 * [Supermarket VR and Mini-games](https://www.pcgamingwiki.com/wiki/?curid=91983)
 * [SuperMash](https://www.pcgamingwiki.com/wiki/?curid=154521)
