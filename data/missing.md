@@ -5309,6 +5309,7 @@
 * [Cook Dungeon](https://www.pcgamingwiki.com/wiki/?curid=153519)
 * [Cook Serve Forever](https://www.pcgamingwiki.com/wiki/?curid=179621)
 * [Cook, Serve, Delicious: Re-Mustard!](https://www.pcgamingwiki.com/wiki/?curid=188858)
+* [Cookie's Bustle](https://www.pcgamingwiki.com/wiki/?curid=201345)
 * [Cookies vs. Claus](https://www.pcgamingwiki.com/wiki/?curid=77045)
 * [Cooking Academy 2: World Cuisine](https://www.pcgamingwiki.com/wiki/?curid=179729)
 * [Cooking Academy Fire and Knives](https://www.pcgamingwiki.com/wiki/?curid=49460)
