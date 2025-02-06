@@ -2,7 +2,6 @@
 * [Alien Shooter TD](https://www.pcgamingwiki.com/wiki/?curid=55760)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
-* [Cosmoteer: Starship Architect & Commander](https://www.pcgamingwiki.com/wiki/?curid=82936)
 * [Dead Man's Draw](https://www.pcgamingwiki.com/wiki/?curid=50679)
 * [Dead Season](https://www.pcgamingwiki.com/wiki/?curid=201249)
 * [Drawn: Trail of Shadows](https://www.pcgamingwiki.com/wiki/?curid=56148)
