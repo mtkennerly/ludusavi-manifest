@@ -13719,6 +13719,7 @@
 * [Kamio Recoil](https://www.pcgamingwiki.com/wiki/?curid=55271)
 * [Kamodo Steve: Janitor on Fire!](https://www.pcgamingwiki.com/wiki/?curid=154346)
 * [Kana Quest](https://www.pcgamingwiki.com/wiki/?curid=151283)
+* [Kangaroo Court](https://www.pcgamingwiki.com/wiki/?curid=201349)
 * [Kanji in Motion](https://www.pcgamingwiki.com/wiki/?curid=141427)
 * [Kanji Training Game](https://www.pcgamingwiki.com/wiki/?curid=46332)
 * [Kanojo x Switch](https://www.pcgamingwiki.com/wiki/?curid=155995)
