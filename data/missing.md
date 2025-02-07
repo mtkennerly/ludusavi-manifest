@@ -8147,7 +8147,6 @@
 * [Element](https://www.pcgamingwiki.com/wiki/?curid=45290)
 * [Element Hime](https://www.pcgamingwiki.com/wiki/?curid=72981)
 * [Element Industry](https://www.pcgamingwiki.com/wiki/?curid=81554)
-* [Element TD](https://www.pcgamingwiki.com/wiki/?curid=56737)
 * [Element Z](https://www.pcgamingwiki.com/wiki/?curid=140834)
 * [Elemental Combat](https://www.pcgamingwiki.com/wiki/?curid=69409)
 * [Elemental Girls](https://www.pcgamingwiki.com/wiki/?curid=135219)
