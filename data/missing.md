@@ -25230,6 +25230,7 @@
 * [Teacup](https://www.pcgamingwiki.com/wiki/?curid=171681)
 * [Team A.R.G. Anthology](https://www.pcgamingwiki.com/wiki/?curid=102551)
 * [Team Fortress](https://www.pcgamingwiki.com/wiki/?curid=6576)
+* [Team Fortress 2 Classic (2014)](https://www.pcgamingwiki.com/wiki/?curid=201384)
 * [Team Four Star RPG](https://www.pcgamingwiki.com/wiki/?curid=74960)
 * [Team Racing League](https://www.pcgamingwiki.com/wiki/?curid=53116)
 * [TEAM SWITCH VR - EXPERTS BURGLARY AGENCY](https://www.pcgamingwiki.com/wiki/?curid=151529)

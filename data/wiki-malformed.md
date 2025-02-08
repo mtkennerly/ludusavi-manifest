@@ -18,5 +18,6 @@
 * [The Crown of Leaves](https://www.pcgamingwiki.com/wiki/?curid=64648)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Tokyo Clanpool](https://www.pcgamingwiki.com/wiki/?curid=200490)
+* [Unity of Command II](https://www.pcgamingwiki.com/wiki/?curid=130684)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
