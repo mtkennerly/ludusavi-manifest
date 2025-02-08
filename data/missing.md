@@ -22909,7 +22909,6 @@
 * [Sleight](https://www.pcgamingwiki.com/wiki/?curid=52314)
 * [SLEIGHT - Nerve Wracking Espionage Party Game](https://www.pcgamingwiki.com/wiki/?curid=122530)
 * [Slender Hentai Edition](https://www.pcgamingwiki.com/wiki/?curid=178510)
-* [Slender Threads](https://www.pcgamingwiki.com/wiki/?curid=157243)
 * [Slender's Woods](https://www.pcgamingwiki.com/wiki/?curid=106453)
 * [SLI-FI: 2D Planet Platformer](https://www.pcgamingwiki.com/wiki/?curid=68895)
 * [SLICE BACK](https://www.pcgamingwiki.com/wiki/?curid=145405)
