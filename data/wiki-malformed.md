@@ -5,6 +5,7 @@
 * [Drawn: Trail of Shadows](https://www.pcgamingwiki.com/wiki/?curid=56148)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=201224)
+* [Hitogata Happa](https://www.pcgamingwiki.com/wiki/?curid=12384)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Rooks Keep](https://www.pcgamingwiki.com/wiki/?curid=13496)
 * [Shadow Complex Remastered](https://www.pcgamingwiki.com/wiki/?curid=30035)

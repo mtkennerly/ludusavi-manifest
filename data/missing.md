@@ -12115,6 +12115,7 @@
 * [Hit the Hive](https://www.pcgamingwiki.com/wiki/?curid=92365)
 * [Hit&Run VR baseball](https://www.pcgamingwiki.com/wiki/?curid=132226)
 * [HitBox](https://www.pcgamingwiki.com/wiki/?curid=39286)
+* [Hitogata Happa](https://www.pcgamingwiki.com/wiki/?curid=12384)
 * [Hitori](https://www.pcgamingwiki.com/wiki/?curid=79234)
 * [Hitotsu no Mori](https://www.pcgamingwiki.com/wiki/?curid=142115)
 * [Hive](https://www.pcgamingwiki.com/wiki/?curid=37732)
