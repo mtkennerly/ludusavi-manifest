@@ -12485,7 +12485,6 @@
 * [Hunting in Ancient Asia](https://www.pcgamingwiki.com/wiki/?curid=149897)
 * [Hunting on Myths](https://www.pcgamingwiki.com/wiki/?curid=95101)
 * [Hunting Simulator VR](https://www.pcgamingwiki.com/wiki/?curid=123948)
-* [Hunting Unlimited 2009](https://www.pcgamingwiki.com/wiki/?curid=52766)
 * [Hunting Unlimited 2011](https://www.pcgamingwiki.com/wiki/?curid=52167)
 * [Huntsman: The Orphanage](https://www.pcgamingwiki.com/wiki/?curid=10225)
 * [Hurl VR](https://www.pcgamingwiki.com/wiki/?curid=67292)
