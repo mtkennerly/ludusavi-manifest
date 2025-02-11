@@ -27155,6 +27155,7 @@
 * [Thrushbriar Hall](https://www.pcgamingwiki.com/wiki/?curid=121298)
 * [Thrust & Shoot: Flight School](https://www.pcgamingwiki.com/wiki/?curid=66279)
 * [Thug Life](https://www.pcgamingwiki.com/wiki/?curid=77002)
+* [THUGPRO](https://www.pcgamingwiki.com/wiki/?curid=201453)
 * [Thugs Law](https://www.pcgamingwiki.com/wiki/?curid=128244)
 * [Thugsters Battle Royale](https://www.pcgamingwiki.com/wiki/?curid=149631)
 * [Thunder Blade](https://www.pcgamingwiki.com/wiki/?curid=147697)
