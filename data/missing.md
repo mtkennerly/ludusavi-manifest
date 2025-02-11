@@ -19061,6 +19061,7 @@
 * [Pink Girl](https://www.pcgamingwiki.com/wiki/?curid=150209)
 * [Pink Rage Otome](https://www.pcgamingwiki.com/wiki/?curid=66065)
 * [Pinkman](https://www.pcgamingwiki.com/wiki/?curid=56495)
+* [Pinky and the Brain: World Conquest](https://www.pcgamingwiki.com/wiki/?curid=201460)
 * [PINPIN BALLBALL](https://www.pcgamingwiki.com/wiki/?curid=121079)
 * [Pins](https://www.pcgamingwiki.com/wiki/?curid=68873)
 * [Pins 2](https://www.pcgamingwiki.com/wiki/?curid=68887)
