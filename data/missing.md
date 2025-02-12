@@ -10825,7 +10825,6 @@
 * [Goodnight Succubus](https://www.pcgamingwiki.com/wiki/?curid=145258)
 * [Google Earth VR](https://www.pcgamingwiki.com/wiki/?curid=77510)
 * [GooHuebelets](https://www.pcgamingwiki.com/wiki/?curid=70605)
-* [Goose Goose Duck](https://www.pcgamingwiki.com/wiki/?curid=171771)
 * [Goose Simulator](https://www.pcgamingwiki.com/wiki/?curid=185958)
 * [GOOSE.IO](https://www.pcgamingwiki.com/wiki/?curid=149983)
 * [Gopnik Simulator](https://www.pcgamingwiki.com/wiki/?curid=93714)
