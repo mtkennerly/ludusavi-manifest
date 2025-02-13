@@ -70,7 +70,6 @@
 * [12Riven: The Psi-Climinal of Integral](https://www.pcgamingwiki.com/wiki/?curid=199496)
 * [13 Cycles](https://www.pcgamingwiki.com/wiki/?curid=95341)
 * [1406](https://www.pcgamingwiki.com/wiki/?curid=130096)
-* [1428: Shadows over Silesia](https://www.pcgamingwiki.com/wiki/?curid=201198)
 * [15 Defense](https://www.pcgamingwiki.com/wiki/?curid=60442)
 * [15 Seconds](https://www.pcgamingwiki.com/wiki/?curid=94565)
 * [150,000 B.C.](https://www.pcgamingwiki.com/wiki/?curid=95397)

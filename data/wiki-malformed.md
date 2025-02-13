@@ -1,4 +1,3 @@
-* [1428: Shadows over Silesia](https://www.pcgamingwiki.com/wiki/?curid=201198)
 * [Alien Shooter TD](https://www.pcgamingwiki.com/wiki/?curid=55760)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
