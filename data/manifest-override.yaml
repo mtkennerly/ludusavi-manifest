@@ -21,12 +21,6 @@ Nevsky Run:
   # Also, it's been renamed on Steam to "Secret Girl"
   # and is no longer available for sale.
   useSteamCloud: false
-Nine Sols:
-  # The registry.yaml backups can become large (> 100 MB),
-  # causing memory usage in Ludusavi to spike (> 1 GB).
-  # For now, we ignore the registry until there is a proper solution.
-  # https://github.com/mtkennerly/ludusavi/issues/370
-  omitRegistry: true
 Overwatch:
   # The game is no longer playable at all,
   # and its save locations are identical to Overwatch 2,
