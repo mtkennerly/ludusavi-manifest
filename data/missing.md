@@ -2111,7 +2111,6 @@
 * [Avoid - Sensory Overload](https://www.pcgamingwiki.com/wiki/?curid=38105)
 * [Avoid the Noid](https://www.pcgamingwiki.com/wiki/?curid=168990)
 * [Avoidon](https://www.pcgamingwiki.com/wiki/?curid=150794)
-* [Avowed](https://www.pcgamingwiki.com/wiki/?curid=162116)
 * [AVSEQ](https://www.pcgamingwiki.com/wiki/?curid=13237)
 * [Aw Nutz](https://www.pcgamingwiki.com/wiki/?curid=70649)
 * [AWA](https://www.pcgamingwiki.com/wiki/?curid=33516)
