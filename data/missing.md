@@ -24023,6 +24023,7 @@
 * [Starfighter: Infinity](https://www.pcgamingwiki.com/wiki/?curid=135632)
 * [Starflight](https://www.pcgamingwiki.com/wiki/?curid=14456)
 * [Starflight 2: Trade Routes of the Cloud Nebula](https://www.pcgamingwiki.com/wiki/?curid=14459)
+* [StarFlyers: Alien Space Chase](https://www.pcgamingwiki.com/wiki/?curid=201634)
 * [StarForce 2193: The Hotep Controversy](https://www.pcgamingwiki.com/wiki/?curid=41571)
 * [StarForge](https://www.pcgamingwiki.com/wiki/?curid=5736)
 * [StarFringe: Adversus](https://www.pcgamingwiki.com/wiki/?curid=43750)
