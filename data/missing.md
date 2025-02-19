@@ -23446,7 +23446,6 @@
 * [Space Guard](https://www.pcgamingwiki.com/wiki/?curid=122235)
 * [Space Hamster in Turmoil](https://www.pcgamingwiki.com/wiki/?curid=103053)
 * [Space Harrier](https://www.pcgamingwiki.com/wiki/?curid=176884)
-* [Space Haste 2001](https://www.pcgamingwiki.com/wiki/?curid=30416)
 * [Space Hero Line](https://www.pcgamingwiki.com/wiki/?curid=63835)
 * [Space Hit](https://www.pcgamingwiki.com/wiki/?curid=63803)
 * [Space Hodsola](https://www.pcgamingwiki.com/wiki/?curid=92845)
