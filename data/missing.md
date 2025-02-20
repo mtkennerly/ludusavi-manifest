@@ -6713,6 +6713,7 @@
 * [Demon Mark: A Russian Saga](https://www.pcgamingwiki.com/wiki/?curid=62348)
 * [Demon Pit](https://www.pcgamingwiki.com/wiki/?curid=145079)
 * [Demon Robot Runner](https://www.pcgamingwiki.com/wiki/?curid=88150)
+* [Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2](https://www.pcgamingwiki.com/wiki/?curid=201665)
 * [Demon Truck](https://www.pcgamingwiki.com/wiki/?curid=41495)
 * [Demon Turf: Neon Splash](https://www.pcgamingwiki.com/wiki/?curid=177760)
 * [Demon's Rise - Lords of Chaos](https://www.pcgamingwiki.com/wiki/?curid=92195)
