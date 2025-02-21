@@ -27797,7 +27797,6 @@
 * [Treasure Hunter Man 2](https://www.pcgamingwiki.com/wiki/?curid=95573)
 * [Treasure Hunter Simulator](https://www.pcgamingwiki.com/wiki/?curid=78818)
 * [Treasure Island (1985)](https://www.pcgamingwiki.com/wiki/?curid=187269)
-* [Treasure Island (2009)](https://www.pcgamingwiki.com/wiki/?curid=190315)
 * [Treasure of a Blizzard](https://www.pcgamingwiki.com/wiki/?curid=51326)
 * [Treasures of the Ancients: Egypt](https://www.pcgamingwiki.com/wiki/?curid=95429)
 * [Trebuchet](https://www.pcgamingwiki.com/wiki/?curid=47073)
