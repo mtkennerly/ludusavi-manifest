@@ -22802,7 +22802,6 @@
 * [Skipper & Skeeto: The Midnight Mystery](https://www.pcgamingwiki.com/wiki/?curid=122992)
 * [Skipper & Skeeto: The Mystery of the Talking Sundial](https://www.pcgamingwiki.com/wiki/?curid=126666)
 * [Skipper & Skeeto: The Number Shop](https://www.pcgamingwiki.com/wiki/?curid=122988)
-* [Skipper & Skeeto: The Revenge of Mr. Shade](https://www.pcgamingwiki.com/wiki/?curid=126651)
 * [Skipper & Skeeto: Treasure Quiz](https://www.pcgamingwiki.com/wiki/?curid=122980)
 * [Skirmish](https://www.pcgamingwiki.com/wiki/?curid=124540)
 * [Skool Daze Reskooled](https://www.pcgamingwiki.com/wiki/?curid=94263)
