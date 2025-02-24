@@ -1487,7 +1487,6 @@
 * [AntQueen 3D](https://www.pcgamingwiki.com/wiki/?curid=135651)
 * [Antz Extreme Racing](https://www.pcgamingwiki.com/wiki/?curid=88613)
 * [Anubis Dungeon](https://www.pcgamingwiki.com/wiki/?curid=78008)
-* [Anuchard](https://www.pcgamingwiki.com/wiki/?curid=177265)
 * [Anxiety](https://www.pcgamingwiki.com/wiki/?curid=66015)
 * [ANYKEY](https://www.pcgamingwiki.com/wiki/?curid=88053)
 * [Anykey Simulator](https://www.pcgamingwiki.com/wiki/?curid=39061)
