@@ -4573,7 +4573,6 @@
 * [Chess Puzzles](https://www.pcgamingwiki.com/wiki/?curid=96837)
 * [Chess Sphere](https://www.pcgamingwiki.com/wiki/?curid=123349)
 * [Chess Sudoku](https://www.pcgamingwiki.com/wiki/?curid=93919)
-* [Chess Ultra](https://www.pcgamingwiki.com/wiki/?curid=62156)
 * [Chess3D](https://www.pcgamingwiki.com/wiki/?curid=58668)
 * [Chessaria: The Tactical Adventure](https://www.pcgamingwiki.com/wiki/?curid=69407)
 * [ChessBase 15 Steam Edition](https://www.pcgamingwiki.com/wiki/?curid=148913)
