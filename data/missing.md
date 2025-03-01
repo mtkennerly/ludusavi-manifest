@@ -11623,7 +11623,6 @@
 * [Heavy Memories](https://www.pcgamingwiki.com/wiki/?curid=123554)
 * [Heavy Metal Babes](https://www.pcgamingwiki.com/wiki/?curid=179064)
 * [Heavy Recoil](https://www.pcgamingwiki.com/wiki/?curid=123566)
-* [Heavyweight Thunder](https://www.pcgamingwiki.com/wiki/?curid=197525)
 * [Heavyweight Transport Simulator 3](https://www.pcgamingwiki.com/wiki/?curid=138956)
 * [HEBEREKE!: March! Red Army Girls' Brigade](https://www.pcgamingwiki.com/wiki/?curid=50797)
 * [HecatoncheirStory](https://www.pcgamingwiki.com/wiki/?curid=108442)
