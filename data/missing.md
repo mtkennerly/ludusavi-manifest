@@ -23301,6 +23301,7 @@
 * [Sonic Racing: CrossWorlds](https://www.pcgamingwiki.com/wiki/?curid=201500)
 * [Sonic Robo Blast](https://www.pcgamingwiki.com/wiki/?curid=198573)
 * [Sonic Rumble](https://www.pcgamingwiki.com/wiki/?curid=200761)
+* [Sonic Unleashed (Unleashed Recompiled)](https://www.pcgamingwiki.com/wiki/?curid=201945)
 * [Sons of Ra](https://www.pcgamingwiki.com/wiki/?curid=145421)
 * [Sophica - Temples Of Mystery](https://www.pcgamingwiki.com/wiki/?curid=127439)
 * [Sophie's Curse](https://www.pcgamingwiki.com/wiki/?curid=37727)
