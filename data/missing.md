@@ -16818,7 +16818,6 @@
 * [Musaic Box](https://www.pcgamingwiki.com/wiki/?curid=37730)
 * [Musasabi](https://www.pcgamingwiki.com/wiki/?curid=148876)
 * [Muscle Car 2: American Spirit](https://www.pcgamingwiki.com/wiki/?curid=88989)
-* [Muscle Car 3: Illegal Street](https://www.pcgamingwiki.com/wiki/?curid=88974)
 * [Muscle Car Robot](https://www.pcgamingwiki.com/wiki/?curid=132586)
 * [Muscle Magic](https://www.pcgamingwiki.com/wiki/?curid=134679)
 * [Musclecar Online](https://www.pcgamingwiki.com/wiki/?curid=48729)
