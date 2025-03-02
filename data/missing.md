@@ -15798,7 +15798,6 @@
 * [Mech Rage](https://www.pcgamingwiki.com/wiki/?curid=114046)
 * [Mech Skeleton](https://www.pcgamingwiki.com/wiki/?curid=59357)
 * [Mecha Ace](https://www.pcgamingwiki.com/wiki/?curid=37998)
-* [Mecha Break](https://www.pcgamingwiki.com/wiki/?curid=200161)
 * [Mecha-Tokyo Rush](https://www.pcgamingwiki.com/wiki/?curid=97331)
 * [Mechabellum](https://www.pcgamingwiki.com/wiki/?curid=187173)
 * [Mechanic Miner](https://www.pcgamingwiki.com/wiki/?curid=78824)
