@@ -16513,7 +16513,6 @@
 * [Monster Hentai](https://www.pcgamingwiki.com/wiki/?curid=124163)
 * [Monster Hunter Frontier Online](https://www.pcgamingwiki.com/wiki/?curid=100880)
 * [Monster Hunter Online](https://www.pcgamingwiki.com/wiki/?curid=100892)
-* [Monster Hunter Wilds](https://www.pcgamingwiki.com/wiki/?curid=191636)
 * [Monster Hunter: Frontier G](https://www.pcgamingwiki.com/wiki/?curid=100886)
 * [Monster Hunting... For Love!](https://www.pcgamingwiki.com/wiki/?curid=129859)
 * [Monster Jam: Maximum Destruction](https://www.pcgamingwiki.com/wiki/?curid=160750)
