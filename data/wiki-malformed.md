@@ -1,5 +1,4 @@
 * [Alien Shooter TD](https://www.pcgamingwiki.com/wiki/?curid=55760)
-* [Back 4 Blood](https://www.pcgamingwiki.com/wiki/?curid=165643)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Delta Force (2024)](https://www.pcgamingwiki.com/wiki/?curid=195527)
@@ -14,7 +13,6 @@
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The Crown of Leaves](https://www.pcgamingwiki.com/wiki/?curid=64648)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
-* [The Long Drive](https://www.pcgamingwiki.com/wiki/?curid=149498)
 * [Tokyo Clanpool](https://www.pcgamingwiki.com/wiki/?curid=200490)
 * [Unrailed! 2: Back on Track](https://www.pcgamingwiki.com/wiki/?curid=199170)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
