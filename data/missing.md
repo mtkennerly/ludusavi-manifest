@@ -13230,6 +13230,7 @@
 * [Islands: Non-Places](https://www.pcgamingwiki.com/wiki/?curid=52322)
 * [Isle in the Sky](https://www.pcgamingwiki.com/wiki/?curid=63472)
 * [Isle of Dinosaurs 2D](https://www.pcgamingwiki.com/wiki/?curid=151539)
+* [Isle of Jura](https://www.pcgamingwiki.com/wiki/?curid=201992)
 * [Isle of the Dead](https://www.pcgamingwiki.com/wiki/?curid=145652)
 * [Isle TD](https://www.pcgamingwiki.com/wiki/?curid=78408)
 * [Iso-Sphere](https://www.pcgamingwiki.com/wiki/?curid=45643)
