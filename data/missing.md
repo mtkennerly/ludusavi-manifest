@@ -10052,6 +10052,7 @@
 * [Full Body Workout](https://www.pcgamingwiki.com/wiki/?curid=146106)
 * [Full Colour Tiles](https://www.pcgamingwiki.com/wiki/?curid=103863)
 * [Full Deck Solitaire](https://www.pcgamingwiki.com/wiki/?curid=179314)
+* [Full Fathom](https://www.pcgamingwiki.com/wiki/?curid=202035)
 * [Full Metal Renegade](https://www.pcgamingwiki.com/wiki/?curid=103839)
 * [Full Of Love](https://www.pcgamingwiki.com/wiki/?curid=132073)
 * [Full Pitch](https://www.pcgamingwiki.com/wiki/?curid=129899)
