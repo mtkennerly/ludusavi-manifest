@@ -12270,6 +12270,7 @@
 * [Horde: The Citadel](https://www.pcgamingwiki.com/wiki/?curid=178521)
 * [Horde: The Northern Wind](https://www.pcgamingwiki.com/wiki/?curid=178519)
 * [Hordelicious](https://www.pcgamingwiki.com/wiki/?curid=47307)
+* [Hordes of Fate: A Hand of Fate Adventure](https://www.pcgamingwiki.com/wiki/?curid=202023)
 * [HordeZ](https://www.pcgamingwiki.com/wiki/?curid=34755)
 * [Hordiaz](https://www.pcgamingwiki.com/wiki/?curid=108756)
 * [Horgihugh](https://www.pcgamingwiki.com/wiki/?curid=136692)
