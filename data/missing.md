@@ -5854,6 +5854,7 @@
 * [Cult of the Abyss](https://www.pcgamingwiki.com/wiki/?curid=151440)
 * [Cult of the Glitch King](https://www.pcgamingwiki.com/wiki/?curid=122006)
 * [Cult of the Wind](https://www.pcgamingwiki.com/wiki/?curid=50029)
+* [Cult VS Gal](https://www.pcgamingwiki.com/wiki/?curid=202099)
 * [Cult: Fear Inside](https://www.pcgamingwiki.com/wiki/?curid=72672)
 * [Cults and Daggers](https://www.pcgamingwiki.com/wiki/?curid=48719)
 * [Cultures - 8th Wonder of the World](https://www.pcgamingwiki.com/wiki/?curid=48363)
