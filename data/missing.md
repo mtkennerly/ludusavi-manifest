@@ -29733,6 +29733,7 @@
 * [Wildlife VR](https://www.pcgamingwiki.com/wiki/?curid=42295)
 * [Will Glow the Wisp](https://www.pcgamingwiki.com/wiki/?curid=63040)
 * [Will of the Gods](https://www.pcgamingwiki.com/wiki/?curid=36676)
+* [Will: Follow The Light](https://www.pcgamingwiki.com/wiki/?curid=202087)
 * [Willful](https://www.pcgamingwiki.com/wiki/?curid=65331)
 * [Willi's Haunted Hayride](https://www.pcgamingwiki.com/wiki/?curid=52784)
 * [William and the Lands of Rage](https://www.pcgamingwiki.com/wiki/?curid=155560)
