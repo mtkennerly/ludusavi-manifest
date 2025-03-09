@@ -14233,6 +14233,7 @@
 * [La Historia De](https://www.pcgamingwiki.com/wiki/?curid=156821)
 * [La Introducción](https://www.pcgamingwiki.com/wiki/?curid=141748)
 * [La Memoire](https://www.pcgamingwiki.com/wiki/?curid=154412)
+* [La Quimera](https://www.pcgamingwiki.com/wiki/?curid=202132)
 * [La Rana](https://www.pcgamingwiki.com/wiki/?curid=125302)
 * [LA Soul](https://www.pcgamingwiki.com/wiki/?curid=65664)
 * [La Tale](https://www.pcgamingwiki.com/wiki/?curid=50039)
