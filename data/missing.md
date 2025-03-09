@@ -10403,6 +10403,7 @@
 * [Gears of Eden](https://www.pcgamingwiki.com/wiki/?curid=82215)
 * [Gears of War: E-Day](https://www.pcgamingwiki.com/wiki/?curid=195567)
 * [Gears POP!](https://www.pcgamingwiki.com/wiki/?curid=143617)
+* [Gearspark](https://www.pcgamingwiki.com/wiki/?curid=202140)
 * [GearStorm](https://www.pcgamingwiki.com/wiki/?curid=135764)
 * [Gearwars](https://www.pcgamingwiki.com/wiki/?curid=145534)
 * [Gebub's Adventure](https://www.pcgamingwiki.com/wiki/?curid=41583)
