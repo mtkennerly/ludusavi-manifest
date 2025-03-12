@@ -29365,7 +29365,6 @@
 * [Warped Reality](https://www.pcgamingwiki.com/wiki/?curid=59419)
 * [WarpedSpace](https://www.pcgamingwiki.com/wiki/?curid=169414)
 * [Warpin: Creation](https://www.pcgamingwiki.com/wiki/?curid=52786)
-* [WarPlan Pacific](https://www.pcgamingwiki.com/wiki/?curid=171997)
 * [Warplanes: WW1 Sky Aces](https://www.pcgamingwiki.com/wiki/?curid=149565)
 * [Warplanes: WW2 Dogfight](https://www.pcgamingwiki.com/wiki/?curid=124482)
 * [WarpThrough](https://www.pcgamingwiki.com/wiki/?curid=130640)
