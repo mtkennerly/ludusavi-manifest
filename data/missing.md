@@ -8310,6 +8310,7 @@
 * [Emu War!](https://www.pcgamingwiki.com/wiki/?curid=156607)
 * [En Tactico](https://www.pcgamingwiki.com/wiki/?curid=91064)
 * [En-thirer pp-slimes adventures](https://www.pcgamingwiki.com/wiki/?curid=94088)
+* [ENA: Dream BBQ](https://www.pcgamingwiki.com/wiki/?curid=202270)
 * [Enadakina](https://www.pcgamingwiki.com/wiki/?curid=126217)
 * [Enceladus](https://www.pcgamingwiki.com/wiki/?curid=74882)
 * [EnchantedGirl - 纯情房东俏房客](https://www.pcgamingwiki.com/wiki/?curid=127451)
