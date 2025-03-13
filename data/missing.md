@@ -8863,6 +8863,7 @@
 * [Eye of Odin](https://www.pcgamingwiki.com/wiki/?curid=64512)
 * [Eye Of Plunder](https://www.pcgamingwiki.com/wiki/?curid=150317)
 * [Eye of the Owl - Bosch VR](https://www.pcgamingwiki.com/wiki/?curid=55726)
+* [Eyes Never Wake](https://www.pcgamingwiki.com/wiki/?curid=202262)
 * [Eyes of Fear](https://www.pcgamingwiki.com/wiki/?curid=132320)
 * [Eyes of the Killer](https://www.pcgamingwiki.com/wiki/?curid=179128)
 * [Eyestorm](https://www.pcgamingwiki.com/wiki/?curid=36720)
