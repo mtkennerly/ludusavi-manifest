@@ -7,6 +7,7 @@
 * [Fallout 3](https://www.pcgamingwiki.com/wiki/?curid=198)
 * [Five Magical Amulets](https://www.pcgamingwiki.com/wiki/?curid=202163)
 * [Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=201224)
+* [Pickup Express](https://www.pcgamingwiki.com/wiki/?curid=195264)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Rooks Keep](https://www.pcgamingwiki.com/wiki/?curid=13496)
 * [Shadow Complex Remastered](https://www.pcgamingwiki.com/wiki/?curid=30035)
