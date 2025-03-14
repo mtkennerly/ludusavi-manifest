@@ -7,6 +7,8 @@
 * [Fallout 3](https://www.pcgamingwiki.com/wiki/?curid=198)
 * [Five Magical Amulets](https://www.pcgamingwiki.com/wiki/?curid=202163)
 * [Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=201224)
+* [Igneous](https://www.pcgamingwiki.com/wiki/?curid=202319)
+* [Mental Repairs Inc](https://www.pcgamingwiki.com/wiki/?curid=202320)
 * [Pickup Express](https://www.pcgamingwiki.com/wiki/?curid=195264)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Rooks Keep](https://www.pcgamingwiki.com/wiki/?curid=13496)
