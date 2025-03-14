@@ -1769,7 +1769,6 @@
 * [Arthur's 1st Grade](https://www.pcgamingwiki.com/wiki/?curid=193075)
 * [Arthur's 2nd Grade](https://www.pcgamingwiki.com/wiki/?curid=193073)
 * [Arthur's Birthday](https://www.pcgamingwiki.com/wiki/?curid=147526)
-* [Arthur's Camping Adventure](https://www.pcgamingwiki.com/wiki/?curid=193087)
 * [Arthur's Computer Adventure](https://www.pcgamingwiki.com/wiki/?curid=187049)
 * [Arthur's Kindergarten](https://www.pcgamingwiki.com/wiki/?curid=193079)
 * [Arthur's Math Carnival](https://www.pcgamingwiki.com/wiki/?curid=193066)
