@@ -25564,6 +25564,7 @@
 * [The Answer Is 42](https://www.pcgamingwiki.com/wiki/?curid=153934)
 * [The Antidote](https://www.pcgamingwiki.com/wiki/?curid=127991)
 * [The Apartment](https://www.pcgamingwiki.com/wiki/?curid=80529)
+* [The Apocalyptic Game About Penguins 4](https://www.pcgamingwiki.com/wiki/?curid=202337)
 * [The Arab Republic of Taghia](https://www.pcgamingwiki.com/wiki/?curid=148547)
 * [The Archer: Dead Hunt](https://www.pcgamingwiki.com/wiki/?curid=81681)
 * [The Archetype](https://www.pcgamingwiki.com/wiki/?curid=46438)
