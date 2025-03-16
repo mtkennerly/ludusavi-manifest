@@ -26501,7 +26501,6 @@
 * [The Music Trivia Challenge](https://www.pcgamingwiki.com/wiki/?curid=185806)
 * [The Musketeers: Victoria's Quest](https://www.pcgamingwiki.com/wiki/?curid=46799)
 * [The Mutational](https://www.pcgamingwiki.com/wiki/?curid=156712)
-* [THE MUTE HOUSE](https://www.pcgamingwiki.com/wiki/?curid=201279)
 * [The Mutton Horn - Jump Jump!](https://www.pcgamingwiki.com/wiki/?curid=99894)
 * [The Muybridge Mausoleum](https://www.pcgamingwiki.com/wiki/?curid=65229)
 * [The Mysteries of Baroque](https://www.pcgamingwiki.com/wiki/?curid=112912)
