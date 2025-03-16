@@ -20854,6 +20854,7 @@
 * [Rennsport](https://www.pcgamingwiki.com/wiki/?curid=195459)
 * [Renoir](https://www.pcgamingwiki.com/wiki/?curid=39414)
 * [Rent-a-Vice](https://www.pcgamingwiki.com/wiki/?curid=93938)
+* [Rental](https://www.pcgamingwiki.com/wiki/?curid=202383)
 * [Renters Revenge](https://www.pcgamingwiki.com/wiki/?curid=74874)
 * [Rento Fortune - Multiplayer Board Game](https://www.pcgamingwiki.com/wiki/?curid=64540)
 * [Rento Fortune VR](https://www.pcgamingwiki.com/wiki/?curid=121748)
