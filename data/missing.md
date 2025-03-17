@@ -20682,7 +20682,6 @@
 * [Red Bit Ninja](https://www.pcgamingwiki.com/wiki/?curid=48050)
 * [Red Black Poker](https://www.pcgamingwiki.com/wiki/?curid=144901)
 * [Red Blue](https://www.pcgamingwiki.com/wiki/?curid=121115)
-* [Red Bow](https://www.pcgamingwiki.com/wiki/?curid=135683)
 * [Red Bull Doodle Art - Global VR Gallery](https://www.pcgamingwiki.com/wiki/?curid=64729)
 * [Red Bull X-Fighters](https://www.pcgamingwiki.com/wiki/?curid=59783)
 * [Red Comrades 2: For the Great Justice](https://www.pcgamingwiki.com/wiki/?curid=172197)
