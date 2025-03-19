@@ -1853,7 +1853,6 @@
 * [Asphyxia](https://www.pcgamingwiki.com/wiki/?curid=33642)
 * [ASRECorp](https://www.pcgamingwiki.com/wiki/?curid=42155)
 * [Assassin 2015](https://www.pcgamingwiki.com/wiki/?curid=191398)
-* [Assassin's Creed Shadows](https://www.pcgamingwiki.com/wiki/?curid=195073)
 * [Assassin's Creed: Pirates](https://www.pcgamingwiki.com/wiki/?curid=69296)
 * [Assassination Classroom VR: Balloon Challenge Time](https://www.pcgamingwiki.com/wiki/?curid=63709)
 * [Assassination Station](https://www.pcgamingwiki.com/wiki/?curid=71898)
