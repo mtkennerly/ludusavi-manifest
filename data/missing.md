@@ -15664,6 +15664,7 @@
 * [Mary-Kate and Ashley: Crush Course](https://www.pcgamingwiki.com/wiki/?curid=92589)
 * [Masamune](https://www.pcgamingwiki.com/wiki/?curid=135955)
 * [Masha Rescues Grandma](https://www.pcgamingwiki.com/wiki/?curid=53914)
+* [Mashina](https://www.pcgamingwiki.com/wiki/?curid=202476)
 * [Mask of Mists](https://www.pcgamingwiki.com/wiki/?curid=156961)
 * [Mask of Sanity](https://www.pcgamingwiki.com/wiki/?curid=145244)
 * [Maska's Masks](https://www.pcgamingwiki.com/wiki/?curid=150792)
