@@ -1839,7 +1839,6 @@
 * [Ashes of the Night](https://www.pcgamingwiki.com/wiki/?curid=141600)
 * [Ashland Dossier](https://www.pcgamingwiki.com/wiki/?curid=157420)
 * [Ashland 墲人之境](https://www.pcgamingwiki.com/wiki/?curid=150458)
-* [Ashworld](https://www.pcgamingwiki.com/wiki/?curid=64630)
 * [Asian Food Cart Tycoon](https://www.pcgamingwiki.com/wiki/?curid=187584)
 * [Asian Maiden Creator](https://www.pcgamingwiki.com/wiki/?curid=180399)
 * [Asian Riddles](https://www.pcgamingwiki.com/wiki/?curid=153880)
