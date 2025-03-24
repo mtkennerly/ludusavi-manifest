@@ -5945,6 +5945,7 @@
 * [Cyber Warrior](https://www.pcgamingwiki.com/wiki/?curid=81778)
 * [Cyber-Lip](https://www.pcgamingwiki.com/wiki/?curid=168741)
 * [CYBER.one: trans car racing](https://www.pcgamingwiki.com/wiki/?curid=154184)
+* [Cyberbykes: Shadow Racer VR](https://www.pcgamingwiki.com/wiki/?curid=202639)
 * [CyberClub-2077](https://www.pcgamingwiki.com/wiki/?curid=72688)
 * [CyberCorp](https://www.pcgamingwiki.com/wiki/?curid=142341)
 * [Cybercube](https://www.pcgamingwiki.com/wiki/?curid=72286)
