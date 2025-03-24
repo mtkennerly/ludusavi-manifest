@@ -2351,6 +2351,7 @@
 * [Ballz Royale](https://www.pcgamingwiki.com/wiki/?curid=112384)
 * [Balthazar's Dream](https://www.pcgamingwiki.com/wiki/?curid=56944)
 * [Bamboo EP](https://www.pcgamingwiki.com/wiki/?curid=54629)
+* [Ban: The Prologue of Gucha Gucha](https://www.pcgamingwiki.com/wiki/?curid=202637)
 * [Banana Drama](https://www.pcgamingwiki.com/wiki/?curid=180092)
 * [Banana Girl](https://www.pcgamingwiki.com/wiki/?curid=103851)
 * [Banana Invaders](https://www.pcgamingwiki.com/wiki/?curid=144713)
