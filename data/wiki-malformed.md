@@ -1,7 +1,6 @@
 * [Alien Shooter TD](https://www.pcgamingwiki.com/wiki/?curid=55760)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
-* [Cruelty Squad](https://www.pcgamingwiki.com/wiki/?curid=167038)
 * [Delta Force (2024)](https://www.pcgamingwiki.com/wiki/?curid=195527)
 * [Drawn: Trail of Shadows](https://www.pcgamingwiki.com/wiki/?curid=56148)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
