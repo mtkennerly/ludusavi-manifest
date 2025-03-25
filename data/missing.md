@@ -25473,6 +25473,7 @@
 * [Tetris Beat](https://www.pcgamingwiki.com/wiki/?curid=170203)
 * [Tetris Elements](https://www.pcgamingwiki.com/wiki/?curid=200783)
 * [Tetris for Two](https://www.pcgamingwiki.com/wiki/?curid=175866)
+* [Tetris The Grand Master 4: Absolute Eye](https://www.pcgamingwiki.com/wiki/?curid=202654)
 * [Tetromino Attack](https://www.pcgamingwiki.com/wiki/?curid=134749)
 * [Tetropunk](https://www.pcgamingwiki.com/wiki/?curid=77958)
 * [TetrotronVR](https://www.pcgamingwiki.com/wiki/?curid=127793)
