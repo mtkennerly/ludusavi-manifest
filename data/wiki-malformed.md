@@ -5,6 +5,7 @@
 * [Delta Force (2024)](https://www.pcgamingwiki.com/wiki/?curid=195527)
 * [Drawn: Trail of Shadows](https://www.pcgamingwiki.com/wiki/?curid=56148)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
+* [F1 25](https://www.pcgamingwiki.com/wiki/?curid=202731)
 * [Friday Night Funkin'](https://www.pcgamingwiki.com/wiki/?curid=166149)
 * [Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=201224)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
