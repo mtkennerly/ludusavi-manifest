@@ -18651,6 +18651,7 @@
 * [Pale Moon Crisis](https://www.pcgamingwiki.com/wiki/?curid=57214)
 * [Pale Spectrum - Part Two of the Book of Gray Magic](https://www.pcgamingwiki.com/wiki/?curid=69870)
 * [Paleocalypse](https://www.pcgamingwiki.com/wiki/?curid=88794)
+* [Pal♡world! More Than Just Pals](https://www.pcgamingwiki.com/wiki/?curid=202956)
 * [Pamali: Indonesian Folklore Horror](https://www.pcgamingwiki.com/wiki/?curid=95238)
 * [Pamp Quest](https://www.pcgamingwiki.com/wiki/?curid=148779)
 * [PamPam Kana Students](https://www.pcgamingwiki.com/wiki/?curid=144029)
