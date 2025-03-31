@@ -19951,7 +19951,6 @@
 * [Proletarian Budget Survival](https://www.pcgamingwiki.com/wiki/?curid=81978)
 * [Prometheus - The Fire Thief](https://www.pcgamingwiki.com/wiki/?curid=48178)
 * [Promethium](https://www.pcgamingwiki.com/wiki/?curid=63195)
-* [Prominence](https://www.pcgamingwiki.com/wiki/?curid=45711)
 * [PROP AND SEEK](https://www.pcgamingwiki.com/wiki/?curid=153983)
 * [Property](https://www.pcgamingwiki.com/wiki/?curid=80927)
 * [Property Brothers Home Design](https://www.pcgamingwiki.com/wiki/?curid=201485)
