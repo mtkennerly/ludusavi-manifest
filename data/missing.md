@@ -16485,7 +16485,6 @@
 * [Moira: Fated Twins](https://www.pcgamingwiki.com/wiki/?curid=144041)
 * [Moirai](https://www.pcgamingwiki.com/wiki/?curid=37122)
 * [Mojack - Quest of Jackal : Puzzle game](https://www.pcgamingwiki.com/wiki/?curid=125430)
-* [Mojika: Truth Rears Its Ugly Head](https://www.pcgamingwiki.com/wiki/?curid=198684)
 * [Mojo](https://www.pcgamingwiki.com/wiki/?curid=103685)
 * [Mojo 2](https://www.pcgamingwiki.com/wiki/?curid=146084)
 * [Mojo 2: Mia](https://www.pcgamingwiki.com/wiki/?curid=120504)
