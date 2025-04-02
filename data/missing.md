@@ -14153,7 +14153,6 @@
 * [Koihime Enbu](https://www.pcgamingwiki.com/wiki/?curid=37990)
 * [Koihime Enbu RyoRaiRai](https://www.pcgamingwiki.com/wiki/?curid=99922)
 * [Koikoi](https://www.pcgamingwiki.com/wiki/?curid=100190)
-* [Koira](https://www.pcgamingwiki.com/wiki/?curid=203007)
 * [Koishi Navigation](https://www.pcgamingwiki.com/wiki/?curid=126012)
 * [Kokoda VR](https://www.pcgamingwiki.com/wiki/?curid=74928)
 * [Kokurase - Episode 1](https://www.pcgamingwiki.com/wiki/?curid=51981)
