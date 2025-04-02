@@ -2149,6 +2149,7 @@
 * [Awesome taxi](https://www.pcgamingwiki.com/wiki/?curid=138886)
 * [Awkward](https://www.pcgamingwiki.com/wiki/?curid=94338)
 * [Awkward Dimensions Redux](https://www.pcgamingwiki.com/wiki/?curid=51611)
+* [Awkward Valley](https://www.pcgamingwiki.com/wiki/?curid=203054)
 * [AWS Argentina Wingshooting Simulator](https://www.pcgamingwiki.com/wiki/?curid=74964)
 * [AX:EL - Air XenoDawn](https://www.pcgamingwiki.com/wiki/?curid=45397)
 * [Axan Ships](https://www.pcgamingwiki.com/wiki/?curid=138870)
