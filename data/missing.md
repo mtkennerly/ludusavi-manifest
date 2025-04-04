@@ -28767,6 +28767,7 @@
 * [Ventura Inc](https://www.pcgamingwiki.com/wiki/?curid=94007)
 * [Venture Arctic](https://www.pcgamingwiki.com/wiki/?curid=92851)
 * [Venture Seas](https://www.pcgamingwiki.com/wiki/?curid=154053)
+* [Venus Vacation Prism: Dead or Alive Xtreme](https://www.pcgamingwiki.com/wiki/?curid=203103)
 * [Venusian Vengeance](https://www.pcgamingwiki.com/wiki/?curid=48355)
 * [Vera Swings](https://www.pcgamingwiki.com/wiki/?curid=94419)
 * [Verde Station](https://www.pcgamingwiki.com/wiki/?curid=49087)
