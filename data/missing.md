@@ -8456,6 +8456,7 @@
 * [Epic PVP Castles](https://www.pcgamingwiki.com/wiki/?curid=74544)
 * [Epic Roll](https://www.pcgamingwiki.com/wiki/?curid=110612)
 * [Epic Roller Coasters](https://www.pcgamingwiki.com/wiki/?curid=87930)
+* [Epic seven](https://www.pcgamingwiki.com/wiki/?curid=203180)
 * [Epic Showdown](https://www.pcgamingwiki.com/wiki/?curid=45892)
 * [Epic Skater 2](https://www.pcgamingwiki.com/wiki/?curid=100626)
 * [Epic Snails](https://www.pcgamingwiki.com/wiki/?curid=72393)
