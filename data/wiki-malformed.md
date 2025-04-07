@@ -3,7 +3,6 @@
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Delta Force (2024)](https://www.pcgamingwiki.com/wiki/?curid=195527)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
-* [Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=201224)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Shadow Complex Remastered](https://www.pcgamingwiki.com/wiki/?curid=30035)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
