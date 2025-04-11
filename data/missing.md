@@ -16330,6 +16330,7 @@
 * [MiniBikers](https://www.pcgamingwiki.com/wiki/?curid=45745)
 * [MiniBotz](https://www.pcgamingwiki.com/wiki/?curid=55952)
 * [MiniCar Race](https://www.pcgamingwiki.com/wiki/?curid=100002)
+* [Minicraft (2011)](https://www.pcgamingwiki.com/wiki/?curid=203369)
 * [MiniDrivers](https://www.pcgamingwiki.com/wiki/?curid=46641)
 * [Minigame Party VR](https://www.pcgamingwiki.com/wiki/?curid=43748)
 * [MiniGolf](https://www.pcgamingwiki.com/wiki/?curid=132063)
