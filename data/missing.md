@@ -7720,6 +7720,7 @@
 * [Drive to Hell](https://www.pcgamingwiki.com/wiki/?curid=48841)
 * [Drive-By Hero](https://www.pcgamingwiki.com/wiki/?curid=63316)
 * [Driveby Gangster](https://www.pcgamingwiki.com/wiki/?curid=46496)
+* [Driveloop: Survivors](https://www.pcgamingwiki.com/wiki/?curid=203407)
 * [Driven Out](https://www.pcgamingwiki.com/wiki/?curid=135806)
 * [Driver Pro: 2017](https://www.pcgamingwiki.com/wiki/?curid=72935)
 * [Driving School Simulator](https://www.pcgamingwiki.com/wiki/?curid=49599)
