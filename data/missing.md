@@ -15597,7 +15597,6 @@
 * [ManaRocks](https://www.pcgamingwiki.com/wiki/?curid=78836)
 * [Manastorm: Champions of G'nar](https://www.pcgamingwiki.com/wiki/?curid=53473)
 * [Manaya](https://www.pcgamingwiki.com/wiki/?curid=88886)
-* [Mandragora: Whispers of the Witch Tree](https://www.pcgamingwiki.com/wiki/?curid=200528)
 * [Maneki's Curse](https://www.pcgamingwiki.com/wiki/?curid=52239)
 * [Mango Cart](https://www.pcgamingwiki.com/wiki/?curid=130181)
 * [ManGuin - Penguin Apocalypse](https://www.pcgamingwiki.com/wiki/?curid=153503)
