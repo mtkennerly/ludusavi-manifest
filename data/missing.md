@@ -24107,6 +24107,7 @@
 * [Star Wars: Hunters](https://www.pcgamingwiki.com/wiki/?curid=199616)
 * [Star Wars: Knights of the Old Republic – Remake](https://www.pcgamingwiki.com/wiki/?curid=171361)
 * [Star Wars: Trials on Tatooine](https://www.pcgamingwiki.com/wiki/?curid=35561)
+* [Star Wars: Zero Company](https://www.pcgamingwiki.com/wiki/?curid=203635)
 * [Star'Shoot](https://www.pcgamingwiki.com/wiki/?curid=100094)
 * [Star-Box: RPG Adventures in Space](https://www.pcgamingwiki.com/wiki/?curid=46847)
 * [Star-Rocket Strike](https://www.pcgamingwiki.com/wiki/?curid=64885)
