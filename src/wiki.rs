@@ -708,7 +708,7 @@ impl WikiPath {
 
     pub fn normalize(mut self) -> Self {
         self.composite = match self.kind {
-            None | Some(PathKind::File) => path::normalize(&self.composite),
+            None | Some(PathKind::File) => path::normalize(&self.composite, self.os),
             Some(PathKind::Registry) => registry::normalize(&self.composite),
         };
 

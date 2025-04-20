@@ -1,9 +1,9 @@
 use once_cell::sync::Lazy;
 use regex::Regex;
 
-use crate::manifest::placeholder;
+use crate::manifest::{placeholder, Os};
 
-pub fn normalize(path: &str) -> String {
+pub fn normalize(path: &str, os: Option<Os>) -> String {
     let mut path = path.trim().trim_end_matches(['/', '\\']).replace('\\', "/");
 
     if path == "~" || path.starts_with("~/") {
@@ -40,6 +40,15 @@ pub fn normalize(path: &str) -> String {
         (&DOCUMENTS, placeholder::WIN_DOCUMENTS),
     ] {
         path = pattern.replace_all(&path, replacement).to_string();
+    }
+
+    if os == Some(Os::Windows) {
+        static DOCUMENTS_2: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)<home>/Documents").unwrap());
+
+        #[allow(clippy::single_element_loop)]
+        for (pattern, replacement) in [(&DOCUMENTS_2, placeholder::WIN_DOCUMENTS)] {
+            path = pattern.replace_all(&path, replacement).to_string();
+        }
     }
 
     for (pattern, replacement) in [
