@@ -9354,6 +9354,7 @@
 * [Fight wisdom](https://www.pcgamingwiki.com/wiki/?curid=155608)
 * [Fight,to the last](https://www.pcgamingwiki.com/wiki/?curid=156240)
 * [FIGHTBALL - BOXING VR](https://www.pcgamingwiki.com/wiki/?curid=141730)
+* [FightBox](https://www.pcgamingwiki.com/wiki/?curid=203682)
 * [Fighter of Evil](https://www.pcgamingwiki.com/wiki/?curid=61746)
 * [Fighter Royale - Last Ace Flying](https://www.pcgamingwiki.com/wiki/?curid=134622)
 * [Fighter's History](https://www.pcgamingwiki.com/wiki/?curid=169126)
