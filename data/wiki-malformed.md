@@ -6,4 +6,5 @@
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
+* [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
