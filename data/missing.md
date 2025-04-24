@@ -3945,7 +3945,6 @@
 * [BustyBiz](https://www.pcgamingwiki.com/wiki/?curid=179056)
 * [Busy spider](https://www.pcgamingwiki.com/wiki/?curid=134650)
 * [But to Paint a Universe](https://www.pcgamingwiki.com/wiki/?curid=19923)
-* [Butcher's Creek](https://www.pcgamingwiki.com/wiki/?curid=192749)
 * [BUTCHERBOX](https://www.pcgamingwiki.com/wiki/?curid=130168)
 * [ButcherBoy](https://www.pcgamingwiki.com/wiki/?curid=91214)
 * [Butsbal](https://www.pcgamingwiki.com/wiki/?curid=47647)
