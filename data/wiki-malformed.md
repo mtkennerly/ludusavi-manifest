@@ -1,7 +1,6 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Delta Force (2024)](https://www.pcgamingwiki.com/wiki/?curid=195527)
-* [Enter the Matrix](https://www.pcgamingwiki.com/wiki/?curid=14218)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
