@@ -28386,7 +28386,6 @@
 * [Ultimate Paintball Challenge](https://www.pcgamingwiki.com/wiki/?curid=89851)
 * [Ultimate Poker](https://www.pcgamingwiki.com/wiki/?curid=144157)
 * [Ultimate Racing 2D](https://www.pcgamingwiki.com/wiki/?curid=92259)
-* [Ultimate Ride Disney Coaster](https://www.pcgamingwiki.com/wiki/?curid=198460)
 * [Ultimate Rivals: The Rink](https://www.pcgamingwiki.com/wiki/?curid=154627)
 * [Ultimate Rock Crawler](https://www.pcgamingwiki.com/wiki/?curid=44836)
 * [Ultimate Russian Zombie Rush](https://www.pcgamingwiki.com/wiki/?curid=57119)
