@@ -29363,7 +29363,6 @@
 * [War Brokers](https://www.pcgamingwiki.com/wiki/?curid=91456)
 * [War Builder League](https://www.pcgamingwiki.com/wiki/?curid=78516)
 * [War Chariots: Royal Legion](https://www.pcgamingwiki.com/wiki/?curid=63729)
-* [War Chess](https://www.pcgamingwiki.com/wiki/?curid=201222)
 * [War Cube](https://www.pcgamingwiki.com/wiki/?curid=39954)
 * [War Drones](https://www.pcgamingwiki.com/wiki/?curid=74213)
 * [War Ender](https://www.pcgamingwiki.com/wiki/?curid=102883)
