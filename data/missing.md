@@ -926,7 +926,6 @@
 * [Airborne: Trials](https://www.pcgamingwiki.com/wiki/?curid=153804)
 * [AirBuccaneers](https://www.pcgamingwiki.com/wiki/?curid=16650)
 * [Aircar](https://www.pcgamingwiki.com/wiki/?curid=144262)
-* [Aircraft Carrier Survival](https://www.pcgamingwiki.com/wiki/?curid=130777)
 * [Aircraft War X](https://www.pcgamingwiki.com/wiki/?curid=41801)
 * [Airglow](https://www.pcgamingwiki.com/wiki/?curid=139693)
 * [Airhack: Hacking](https://www.pcgamingwiki.com/wiki/?curid=154420)
