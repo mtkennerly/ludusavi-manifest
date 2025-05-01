@@ -27005,6 +27005,7 @@
 * [The Thin Silence](https://www.pcgamingwiki.com/wiki/?curid=91570)
 * [The Thing (1988)](https://www.pcgamingwiki.com/wiki/?curid=158681)
 * [The Thing: Space X](https://www.pcgamingwiki.com/wiki/?curid=70174)
+* [The Third Pig](https://www.pcgamingwiki.com/wiki/?curid=204021)
 * [The Thirst of Hearts](https://www.pcgamingwiki.com/wiki/?curid=67259)
 * [The Three Musketeers - D'Artagnan & The 12 Jewels](https://www.pcgamingwiki.com/wiki/?curid=91793)
 * [The Thrill of the Fight](https://www.pcgamingwiki.com/wiki/?curid=35142)
