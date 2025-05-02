@@ -12889,6 +12889,7 @@
 * [In your Shadow](https://www.pcgamingwiki.com/wiki/?curid=123523)
 * [In.My.Mind](https://www.pcgamingwiki.com/wiki/?curid=129587)
 * [Inaccessible World](https://www.pcgamingwiki.com/wiki/?curid=82328)
+* [INAZUMA ELEVEN: Victory Road](https://www.pcgamingwiki.com/wiki/?curid=204080)
 * [Inbound](https://www.pcgamingwiki.com/wiki/?curid=42575)
 * [Inbound (TBA)](https://www.pcgamingwiki.com/wiki/?curid=137246)
 * [Inca](https://www.pcgamingwiki.com/wiki/?curid=147374)
