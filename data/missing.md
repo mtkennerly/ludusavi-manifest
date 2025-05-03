@@ -14847,6 +14847,7 @@
 * [Liquidator](https://www.pcgamingwiki.com/wiki/?curid=89274)
 * [Liquidator (1998)](https://www.pcgamingwiki.com/wiki/?curid=166583)
 * [Lisa's Memory - 丽莎的记忆](https://www.pcgamingwiki.com/wiki/?curid=125290)
+* [Lisa: The Joyful](https://www.pcgamingwiki.com/wiki/?curid=204097)
 * [List of games that have Discord Rich Presence](https://www.pcgamingwiki.com/wiki/?curid=182698)
 * [List of games that support multi-monitor](https://www.pcgamingwiki.com/wiki/?curid=128862)
 * [Lit](https://www.pcgamingwiki.com/wiki/?curid=58306)
