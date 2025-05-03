@@ -16198,6 +16198,7 @@
 * [Midnight Quest](https://www.pcgamingwiki.com/wiki/?curid=76119)
 * [Midnight Racing](https://www.pcgamingwiki.com/wiki/?curid=88395)
 * [MIDNIGHT Remastered](https://www.pcgamingwiki.com/wiki/?curid=134998)
+* [Midnight Special](https://www.pcgamingwiki.com/wiki/?curid=204104)
 * [Midnight Ultra](https://www.pcgamingwiki.com/wiki/?curid=74459)
 * [Midnight Wave](https://www.pcgamingwiki.com/wiki/?curid=113586)
 * [Midnightland](https://www.pcgamingwiki.com/wiki/?curid=79828)
