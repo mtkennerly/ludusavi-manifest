@@ -7150,7 +7150,6 @@
 * [Disobedient Sheep](https://www.pcgamingwiki.com/wiki/?curid=130686)
 * [Disobey: Revolt Simulator](https://www.pcgamingwiki.com/wiki/?curid=39488)
 * [DISONANTE](https://www.pcgamingwiki.com/wiki/?curid=136393)
-* [Disorder (2025)](https://www.pcgamingwiki.com/wiki/?curid=200373)
 * [Disparity](https://www.pcgamingwiki.com/wiki/?curid=89304)
 * [Dispatch](https://www.pcgamingwiki.com/wiki/?curid=157273)
 * [Dispatcher: Revoke](https://www.pcgamingwiki.com/wiki/?curid=39065)
