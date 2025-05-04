@@ -6159,6 +6159,7 @@
 * [Dark Canvas: A Murder Exposed](https://www.pcgamingwiki.com/wiki/?curid=90146)
 * [Dark Canvas: Blood and Stone](https://www.pcgamingwiki.com/wiki/?curid=72708)
 * [Dark Cases: The Blood Ruby](https://www.pcgamingwiki.com/wiki/?curid=55291)
+* [Dark Castle](https://www.pcgamingwiki.com/wiki/?curid=204127)
 * [Dark Chess](https://www.pcgamingwiki.com/wiki/?curid=151185)
 * [Dark City: Dublin](https://www.pcgamingwiki.com/wiki/?curid=181964)
 * [Dark City: Paris](https://www.pcgamingwiki.com/wiki/?curid=181962)
