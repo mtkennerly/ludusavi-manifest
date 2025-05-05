@@ -15785,6 +15785,7 @@
 * [Math Path](https://www.pcgamingwiki.com/wiki/?curid=156021)
 * [Math Problem Challenge](https://www.pcgamingwiki.com/wiki/?curid=94669)
 * [Math Rabbit](https://www.pcgamingwiki.com/wiki/?curid=204063)
+* [Math Rabbit (1993)](https://www.pcgamingwiki.com/wiki/?curid=204165)
 * [Math RTS](https://www.pcgamingwiki.com/wiki/?curid=78585)
 * [Math Speed Challenge](https://www.pcgamingwiki.com/wiki/?curid=94671)
 * [Math The Question](https://www.pcgamingwiki.com/wiki/?curid=148517)
