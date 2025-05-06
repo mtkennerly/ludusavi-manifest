@@ -4127,6 +4127,7 @@
 * [Captain 13: Beyond the Hero](https://www.pcgamingwiki.com/wiki/?curid=71855)
 * [Captain America: The Winter Soldier: The Official Game](https://www.pcgamingwiki.com/wiki/?curid=199635)
 * [Captain Backwater](https://www.pcgamingwiki.com/wiki/?curid=68462)
+* [Captain Blood](https://www.pcgamingwiki.com/wiki/?curid=204228)
 * [Captain Curve's Intergalactic Space Adventure](https://www.pcgamingwiki.com/wiki/?curid=42073)
 * [Captain Firebeard and the Bay of Crows](https://www.pcgamingwiki.com/wiki/?curid=72732)
 * [Captain fly and sexy students](https://www.pcgamingwiki.com/wiki/?curid=148964)
