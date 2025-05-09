@@ -30367,7 +30367,6 @@
 * [Yellow Brick Road](https://www.pcgamingwiki.com/wiki/?curid=165473)
 * [Yellow: The Yellow Artifact](https://www.pcgamingwiki.com/wiki/?curid=33413)
 * [Yemon](https://www.pcgamingwiki.com/wiki/?curid=109348)
-* [Yes, Your Grace: Snowfall](https://www.pcgamingwiki.com/wiki/?curid=187784)
 * [Yesterday (Triple Tree Studio)](https://www.pcgamingwiki.com/wiki/?curid=68823)
 * [YesterMorrow](https://www.pcgamingwiki.com/wiki/?curid=163929)
 * [Yet Another Level](https://www.pcgamingwiki.com/wiki/?curid=140954)
