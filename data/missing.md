@@ -2820,7 +2820,6 @@
 * [Bestiary of Sigillum](https://www.pcgamingwiki.com/wiki/?curid=125821)
 * [Bestseller: Curse of the Golden Owl](https://www.pcgamingwiki.com/wiki/?curid=59377)
 * [Bet on Man](https://www.pcgamingwiki.com/wiki/?curid=127249)
-* [Bet on Soldier: Blood of Sahara](https://www.pcgamingwiki.com/wiki/?curid=134014)
 * [Beta Runner](https://www.pcgamingwiki.com/wiki/?curid=65463)
 * [Betrayal](https://www.pcgamingwiki.com/wiki/?curid=165153)
 * [Better Late Than DEAD](https://www.pcgamingwiki.com/wiki/?curid=44319)
