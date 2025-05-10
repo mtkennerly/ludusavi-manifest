@@ -18872,6 +18872,7 @@
 * [Pathogen-病原体](https://www.pcgamingwiki.com/wiki/?curid=128205)
 * [Pathogenesis: Overcome](https://www.pcgamingwiki.com/wiki/?curid=151503)
 * [Pathologic 3](https://www.pcgamingwiki.com/wiki/?curid=204311)
+* [Pathologic 3: Quarantine](https://www.pcgamingwiki.com/wiki/?curid=204316)
 * [Pathos (2019)](https://www.pcgamingwiki.com/wiki/?curid=137448)
 * [Pathosis](https://www.pcgamingwiki.com/wiki/?curid=90961)
 * [Paths Taken](https://www.pcgamingwiki.com/wiki/?curid=138715)
