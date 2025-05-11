@@ -667,7 +667,6 @@
 * [Adorables](https://www.pcgamingwiki.com/wiki/?curid=43873)
 * [ADR-Labelling Game](https://www.pcgamingwiki.com/wiki/?curid=91482)
 * [Adrenalin 2: Rush Hour](https://www.pcgamingwiki.com/wiki/?curid=187180)
-* [Adrenalin: Extreme Show](https://www.pcgamingwiki.com/wiki/?curid=88258)
 * [Adrenaline Adventure](https://www.pcgamingwiki.com/wiki/?curid=53453)
 * [Adult Math](https://www.pcgamingwiki.com/wiki/?curid=125422)
 * [ADULT SHERIFF](https://www.pcgamingwiki.com/wiki/?curid=152711)
