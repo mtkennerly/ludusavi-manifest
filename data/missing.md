@@ -24621,7 +24621,6 @@
 * [Sunny Hillride](https://www.pcgamingwiki.com/wiki/?curid=44752)
 * [Sunny Shine Funland!](https://www.pcgamingwiki.com/wiki/?curid=110298)
 * [Sunny Smiles](https://www.pcgamingwiki.com/wiki/?curid=92149)
-* [SunnySide](https://www.pcgamingwiki.com/wiki/?curid=194336)
 * [Sunrise: survival](https://www.pcgamingwiki.com/wiki/?curid=64840)
 * [Sunrise: The Game](https://www.pcgamingwiki.com/wiki/?curid=191716)
 * [Sunset Giant](https://www.pcgamingwiki.com/wiki/?curid=125663)
