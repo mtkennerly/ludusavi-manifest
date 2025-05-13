@@ -4110,7 +4110,6 @@
 * [Capcom Beat 'Em Up Bundle](https://www.pcgamingwiki.com/wiki/?curid=111274)
 * [Capcom Coin-Op Classics Series 1](https://www.pcgamingwiki.com/wiki/?curid=180505)
 * [Capcom Coin-Op Collection Volume 1](https://www.pcgamingwiki.com/wiki/?curid=180503)
-* [Capcom Fighting Collection](https://www.pcgamingwiki.com/wiki/?curid=175380)
 * [Capcom Fighting Collection 2](https://www.pcgamingwiki.com/wiki/?curid=197345)
 * [CAPCOM GO! Apollo VR Planetarium](https://www.pcgamingwiki.com/wiki/?curid=141467)
 * [Capitalism](https://www.pcgamingwiki.com/wiki/?curid=11086)
