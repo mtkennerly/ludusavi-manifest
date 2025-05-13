@@ -464,7 +464,10 @@ impl Game {
         if let Some(flatpak) = overridden.game.id.flatpak.as_ref() {
             self.id.flatpak = Some(flatpak.clone());
         }
+
         self.install_dir.extend(overridden.game.install_dir.clone());
+        self.files.extend(overridden.game.files.clone());
+        self.registry.extend(overridden.game.registry.clone());
 
         if overridden.omit_registry {
             self.registry.clear();

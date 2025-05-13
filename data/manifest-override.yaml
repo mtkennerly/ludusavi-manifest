@@ -32,6 +32,13 @@ Pathologic:
   # Pathologic 2 and Pathologic Classic HD are more readily available than the original,
   # so we streamline for the more common case.
   omit: true
+The Sims 2:
+  files:
+    "<winDocuments>/EA Games/Los Sims 2 Legado":
+      tags:
+        - save
+      when:
+        - os: windows
 The Witch's Love Diary:
   installDir:
     # GOG uses a different apostrophe.
