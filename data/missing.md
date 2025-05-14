@@ -23405,6 +23405,7 @@
 * [Songs2See](https://www.pcgamingwiki.com/wiki/?curid=40507)
 * [Sonic Advance 2](https://www.pcgamingwiki.com/wiki/?curid=200978)
 * [Sonic Advance Revamped](https://www.pcgamingwiki.com/wiki/?curid=202147)
+* [Sonic Galactic](https://www.pcgamingwiki.com/wiki/?curid=204462)
 * [Sonic GT](https://www.pcgamingwiki.com/wiki/?curid=198821)
 * [Sonic Hunter VR](https://www.pcgamingwiki.com/wiki/?curid=53884)
 * [Sonic Nexus](https://www.pcgamingwiki.com/wiki/?curid=177182)
