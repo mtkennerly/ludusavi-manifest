@@ -10799,7 +10799,6 @@
 * [Godus Wars](https://www.pcgamingwiki.com/wiki/?curid=44710)
 * [Goetia 2](https://www.pcgamingwiki.com/wiki/?curid=177757)
 * [GoFetch](https://www.pcgamingwiki.com/wiki/?curid=104151)
-* [Gogh: Focus with Your Avatar](https://www.pcgamingwiki.com/wiki/?curid=202114)
 * [Gohan Quest](https://www.pcgamingwiki.com/wiki/?curid=91134)
 * [Gohorobo](https://www.pcgamingwiki.com/wiki/?curid=89426)
 * [Going Nowhere: The Dream](https://www.pcgamingwiki.com/wiki/?curid=73951)
