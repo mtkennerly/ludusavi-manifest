@@ -25078,6 +25078,7 @@
 * [Swordsman](https://www.pcgamingwiki.com/wiki/?curid=44784)
 * [Swordy](https://www.pcgamingwiki.com/wiki/?curid=42169)
 * [SWR JST DX Selective Memory Erase Effect](https://www.pcgamingwiki.com/wiki/?curid=48182)
+* [Syberia - Remastered](https://www.pcgamingwiki.com/wiki/?curid=204663)
 * [Syder Arcade](https://www.pcgamingwiki.com/wiki/?curid=17369)
 * [Sydney 2000](https://www.pcgamingwiki.com/wiki/?curid=89810)
 * [Sydney Hunter and the Curse of the Mayan](https://www.pcgamingwiki.com/wiki/?curid=135694)
