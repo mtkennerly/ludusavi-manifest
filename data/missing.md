@@ -28678,6 +28678,7 @@
 * [Utopia](https://www.pcgamingwiki.com/wiki/?curid=137382)
 * [Utopia 9 - A Volatile Vacation](https://www.pcgamingwiki.com/wiki/?curid=43169)
 * [Utopia Must Fall](https://www.pcgamingwiki.com/wiki/?curid=197665)
+* [Utopia: The Creation of a Nation](https://www.pcgamingwiki.com/wiki/?curid=204667)
 * [Uurnog](https://www.pcgamingwiki.com/wiki/?curid=203898)
 * [Uuu ska so smislom](https://www.pcgamingwiki.com/wiki/?curid=130137)
 * [Uventa](https://www.pcgamingwiki.com/wiki/?curid=108188)
