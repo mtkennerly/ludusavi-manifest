@@ -14813,8 +14813,6 @@
 * [Lines X Free](https://www.pcgamingwiki.com/wiki/?curid=131856)
 * [Ling](https://www.pcgamingwiki.com/wiki/?curid=80621)
 * [LingeriesOffice](https://www.pcgamingwiki.com/wiki/?curid=132102)
-* [Lingo](https://www.pcgamingwiki.com/wiki/?curid=203901)
-* [Lingo 2](https://www.pcgamingwiki.com/wiki/?curid=203905)
 * [Lingotopia](https://www.pcgamingwiki.com/wiki/?curid=94689)
 * [Lingua Fleur: Lily](https://www.pcgamingwiki.com/wiki/?curid=124384)
 * [Lingua Magicka](https://www.pcgamingwiki.com/wiki/?curid=88156)
