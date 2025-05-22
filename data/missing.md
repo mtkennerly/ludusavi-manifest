@@ -14288,7 +14288,6 @@
 * [Labyrinth](https://www.pcgamingwiki.com/wiki/?curid=37994)
 * [Labyrinth Escape](https://www.pcgamingwiki.com/wiki/?curid=64250)
 * [Labyrinth of AO](https://www.pcgamingwiki.com/wiki/?curid=81484)
-* [Labyrinth Of The Demon King](https://www.pcgamingwiki.com/wiki/?curid=201925)
 * [Labyrinth of the Witch](https://www.pcgamingwiki.com/wiki/?curid=156503)
 * [Labyrinth Simulator](https://www.pcgamingwiki.com/wiki/?curid=46380)
 * [Labyrinthian](https://www.pcgamingwiki.com/wiki/?curid=68978)
