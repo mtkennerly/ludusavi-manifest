@@ -22470,6 +22470,7 @@
 * [Shaman Odyssey: Tropic Adventure](https://www.pcgamingwiki.com/wiki/?curid=204012)
 * [Shamus](https://www.pcgamingwiki.com/wiki/?curid=172584)
 * [Shannon Tweed's Attack of the Groupies](https://www.pcgamingwiki.com/wiki/?curid=50496)
+* [Shantae Advance: Risky Revolution](https://www.pcgamingwiki.com/wiki/?curid=204817)
 * [Shaolin vs Wutang](https://www.pcgamingwiki.com/wiki/?curid=38408)
 * [Shaolin vs Wutang 2](https://www.pcgamingwiki.com/wiki/?curid=156694)
 * [Shape Cascade](https://www.pcgamingwiki.com/wiki/?curid=151048)
