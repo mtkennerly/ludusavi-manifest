@@ -24026,6 +24026,7 @@
 * [STALINGRAD ABATIS](https://www.pcgamingwiki.com/wiki/?curid=112728)
 * [StalinGulag](https://www.pcgamingwiki.com/wiki/?curid=139300)
 * [Stalked at Night](https://www.pcgamingwiki.com/wiki/?curid=102861)
+* [Stalker 1: Path of Fire](https://www.pcgamingwiki.com/wiki/?curid=204829)
 * [Stalker Crab Simulator](https://www.pcgamingwiki.com/wiki/?curid=93952)
 * [Stampede: Racing Royale](https://www.pcgamingwiki.com/wiki/?curid=202393)
 * [Stand by You](https://www.pcgamingwiki.com/wiki/?curid=76309)
