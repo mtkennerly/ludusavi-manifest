@@ -4,6 +4,7 @@
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
+* [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)

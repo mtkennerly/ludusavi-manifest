@@ -12414,6 +12414,7 @@
 * [House Number 666](https://www.pcgamingwiki.com/wiki/?curid=148763)
 * [House of 1000 Doors: Family Secrets](https://www.pcgamingwiki.com/wiki/?curid=37493)
 * [House of Alice](https://www.pcgamingwiki.com/wiki/?curid=42432)
+* [House Of Decay](https://www.pcgamingwiki.com/wiki/?curid=204836)
 * [House of Detention](https://www.pcgamingwiki.com/wiki/?curid=164354)
 * [House of Evil](https://www.pcgamingwiki.com/wiki/?curid=78190)
 * [House of Evil 2](https://www.pcgamingwiki.com/wiki/?curid=132150)
