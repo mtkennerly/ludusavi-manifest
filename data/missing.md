@@ -29441,7 +29441,6 @@
 * [Warhalla](https://www.pcgamingwiki.com/wiki/?curid=94128)
 * [Warhammer 40,000: Armageddon](https://www.pcgamingwiki.com/wiki/?curid=49239)
 * [Warhammer 40,000: Armageddon - Da Orks](https://www.pcgamingwiki.com/wiki/?curid=36189)
-* [Warhammer 40,000: Boltgun - Words of Vengeance](https://www.pcgamingwiki.com/wiki/?curid=204782)
 * [Warhammer 40,000: Boltgun II](https://www.pcgamingwiki.com/wiki/?curid=204784)
 * [Warhammer 40,000: Dark Heresy](https://www.pcgamingwiki.com/wiki/?curid=204773)
 * [Warhammer 40,000: Dawn of War - Definitive Edition](https://www.pcgamingwiki.com/wiki/?curid=204775)
