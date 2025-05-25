@@ -14716,7 +14716,6 @@
 * [Life's Playground](https://www.pcgamingwiki.com/wiki/?curid=96765)
 * [LifeBase](https://www.pcgamingwiki.com/wiki/?curid=57847)
 * [LifeGameSimulator](https://www.pcgamingwiki.com/wiki/?curid=96215)
-* [Lifeless](https://www.pcgamingwiki.com/wiki/?curid=33512)
 * [Lifeless Vanguard](https://www.pcgamingwiki.com/wiki/?curid=132202)
 * [Lifelike](https://www.pcgamingwiki.com/wiki/?curid=151742)
 * [Lifeline](https://www.pcgamingwiki.com/wiki/?curid=59063)
