@@ -3095,7 +3095,6 @@
 * [Bladenet](https://www.pcgamingwiki.com/wiki/?curid=72063)
 * [Bladequest](https://www.pcgamingwiki.com/wiki/?curid=137220)
 * [Blades of Exile](https://www.pcgamingwiki.com/wiki/?curid=168563)
-* [Blades of Fire](https://www.pcgamingwiki.com/wiki/?curid=202016)
 * [Blades of Gory](https://www.pcgamingwiki.com/wiki/?curid=152713)
 * [Blades of Orterra](https://www.pcgamingwiki.com/wiki/?curid=88255)
 * [Blades of Steel](https://www.pcgamingwiki.com/wiki/?curid=176583)
