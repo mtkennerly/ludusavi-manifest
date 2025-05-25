@@ -28159,6 +28159,7 @@
 * [Trust & Betrayal: The Legacy of Siboot](https://www.pcgamingwiki.com/wiki/?curid=176810)
 * [Truth of Falchion](https://www.pcgamingwiki.com/wiki/?curid=91011)
 * [Truth or Dare?](https://www.pcgamingwiki.com/wiki/?curid=74548)
+* [Truth Scrapper](https://www.pcgamingwiki.com/wiki/?curid=204855)
 * [Truth: Disorder](https://www.pcgamingwiki.com/wiki/?curid=77126)
 * [Truth: Disorder II](https://www.pcgamingwiki.com/wiki/?curid=92963)
 * [Truth: Disorder III - Gemini / 真実：障害III - 双子座](https://www.pcgamingwiki.com/wiki/?curid=132600)
