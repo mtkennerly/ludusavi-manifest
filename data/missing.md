@@ -10377,6 +10377,7 @@
 * [Gardens Inc. 2: The Road to Fame](https://www.pcgamingwiki.com/wiki/?curid=50216)
 * [Gardenscapes (2009)](https://www.pcgamingwiki.com/wiki/?curid=180970)
 * [Gare Sapphire Mechs](https://www.pcgamingwiki.com/wiki/?curid=48308)
+* [Garfield Kart 2: All You Can Drift](https://www.pcgamingwiki.com/wiki/?curid=204916)
 * [Garfield Lasagna Party](https://www.pcgamingwiki.com/wiki/?curid=191225)
 * [Garfield's It's All About Thinking Skills](https://www.pcgamingwiki.com/wiki/?curid=90681)
 * [Garfield's Mad About Cats](https://www.pcgamingwiki.com/wiki/?curid=90687)
