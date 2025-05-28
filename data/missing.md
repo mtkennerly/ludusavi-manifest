@@ -9191,6 +9191,7 @@
 * [Fatal Gem VR(The First Match-3 VR Game)](https://www.pcgamingwiki.com/wiki/?curid=53680)
 * [Fatal Hour: Petroleum](https://www.pcgamingwiki.com/wiki/?curid=108332)
 * [Fatal Passion: Art Prison](https://www.pcgamingwiki.com/wiki/?curid=58350)
+* [Fatal Run 2089](https://www.pcgamingwiki.com/wiki/?curid=204932)
 * [Fatal Theory](https://www.pcgamingwiki.com/wiki/?curid=38937)
 * [Fatal Velocity: Physics Combat](https://www.pcgamingwiki.com/wiki/?curid=74317)
 * [Fatale](https://www.pcgamingwiki.com/wiki/?curid=41207)
