@@ -22895,7 +22895,6 @@
 * [Skills Hockey VR](https://www.pcgamingwiki.com/wiki/?curid=58433)
 * [Skilltree Saga](https://www.pcgamingwiki.com/wiki/?curid=49203)
 * [Skimmerz](https://www.pcgamingwiki.com/wiki/?curid=89284)
-* [Skin Deep](https://www.pcgamingwiki.com/wiki/?curid=122884)
 * [Skin Stealers](https://www.pcgamingwiki.com/wiki/?curid=156843)
 * [Skin Witch](https://www.pcgamingwiki.com/wiki/?curid=154269)
 * [Skinny](https://www.pcgamingwiki.com/wiki/?curid=122030)
