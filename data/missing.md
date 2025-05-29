@@ -17363,7 +17363,6 @@
 * [Near Death Experience](https://www.pcgamingwiki.com/wiki/?curid=63406)
 * [Near Impact](https://www.pcgamingwiki.com/wiki/?curid=49647)
 * [Near Midnight](https://www.pcgamingwiki.com/wiki/?curid=38708)
-* [Near-Mage](https://www.pcgamingwiki.com/wiki/?curid=171808)
 * [NearPrime VR - Net Burn](https://www.pcgamingwiki.com/wiki/?curid=150400)
 * [Nearwood - Collector's Edition](https://www.pcgamingwiki.com/wiki/?curid=37973)
 * [Nebuchadnezzar](https://www.pcgamingwiki.com/wiki/?curid=154434)
