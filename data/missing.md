@@ -8167,7 +8167,6 @@
 * [Elaine](https://www.pcgamingwiki.com/wiki/?curid=57784)
 * [Elansar](https://www.pcgamingwiki.com/wiki/?curid=45025)
 * [Elastrix](https://www.pcgamingwiki.com/wiki/?curid=49092)
-* [Elden Ring Nightreign](https://www.pcgamingwiki.com/wiki/?curid=200143)
 * [Elder Chaos](https://www.pcgamingwiki.com/wiki/?curid=74393)
 * [Elder Village](https://www.pcgamingwiki.com/wiki/?curid=149596)
 * [Elderine: Dreams to Destiny](https://www.pcgamingwiki.com/wiki/?curid=56888)
