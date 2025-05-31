@@ -19910,7 +19910,6 @@
 * [Project Druid - 2D Labyrinth Explorer-](https://www.pcgamingwiki.com/wiki/?curid=47081)
 * [Project Eagle: A 3D Interactive Mars Base](https://www.pcgamingwiki.com/wiki/?curid=123683)
 * [Project Earth](https://www.pcgamingwiki.com/wiki/?curid=78142)
-* [Project Earth: Starmageddon](https://www.pcgamingwiki.com/wiki/?curid=192898)
 * [Project Fire](https://www.pcgamingwiki.com/wiki/?curid=51143)
 * [Project First Contact](https://www.pcgamingwiki.com/wiki/?curid=65453)
 * [Project Flesh](https://www.pcgamingwiki.com/wiki/?curid=121653)
