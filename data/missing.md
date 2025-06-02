@@ -4593,7 +4593,6 @@
 * [ChessBase 15 Steam Edition](https://www.pcgamingwiki.com/wiki/?curid=148913)
 * [Chessboard Kingdoms](https://www.pcgamingwiki.com/wiki/?curid=113930)
 * [Chessia](https://www.pcgamingwiki.com/wiki/?curid=72108)
-* [Chessmaster 9000](https://www.pcgamingwiki.com/wiki/?curid=6166)
 * [Chesster](https://www.pcgamingwiki.com/wiki/?curid=44118)
 * [ChessVR](https://www.pcgamingwiki.com/wiki/?curid=42535)
 * [Chevo Lurker: Exodus](https://www.pcgamingwiki.com/wiki/?curid=72850)
