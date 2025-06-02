@@ -14133,7 +14133,6 @@
 * [Knight Swap 2](https://www.pcgamingwiki.com/wiki/?curid=153601)
 * [Knight Terrors](https://www.pcgamingwiki.com/wiki/?curid=75429)
 * [Knightfall](https://www.pcgamingwiki.com/wiki/?curid=69834)
-* [Knightfall: A Daring Journey](https://www.pcgamingwiki.com/wiki/?curid=185954)
 * [Knightfall: Rivals](https://www.pcgamingwiki.com/wiki/?curid=61752)
 * [Knightmare Lands](https://www.pcgamingwiki.com/wiki/?curid=142200)
 * [KnightOut](https://www.pcgamingwiki.com/wiki/?curid=77355)
