@@ -10600,6 +10600,7 @@
 * [Gimbal Gravity](https://www.pcgamingwiki.com/wiki/?curid=80857)
 * [Gimel Dimension](https://www.pcgamingwiki.com/wiki/?curid=108072)
 * [Gimmick! Special Edition](https://www.pcgamingwiki.com/wiki/?curid=182744)
+* [Gin'iro, Haruka](https://www.pcgamingwiki.com/wiki/?curid=205100)
 * [Ginga Kagekidan - 放課後くるーずっ！](https://www.pcgamingwiki.com/wiki/?curid=144220)
 * [Gingerbread Story](https://www.pcgamingwiki.com/wiki/?curid=90910)
 * [GIPHY World VR](https://www.pcgamingwiki.com/wiki/?curid=107870)
