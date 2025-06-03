@@ -20998,6 +20998,7 @@
 * [RETNE](https://www.pcgamingwiki.com/wiki/?curid=67111)
 * [Retribution](https://www.pcgamingwiki.com/wiki/?curid=17076)
 * [Retro Block VR](https://www.pcgamingwiki.com/wiki/?curid=64073)
+* [Retro Classics](https://www.pcgamingwiki.com/wiki/?curid=205105)
 * [Retro Dungeons](https://www.pcgamingwiki.com/wiki/?curid=70669)
 * [Retro Football Boss](https://www.pcgamingwiki.com/wiki/?curid=39946)
 * [Retro Hacker](https://www.pcgamingwiki.com/wiki/?curid=89595)
