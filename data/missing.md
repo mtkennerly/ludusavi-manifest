@@ -145,6 +145,7 @@
 * [3, 2, 1, Survive!](https://www.pcgamingwiki.com/wiki/?curid=94796)
 * [3-D Ultra Lionel Train Town](https://www.pcgamingwiki.com/wiki/?curid=16494)
 * [3-D Ultra Pinball](https://www.pcgamingwiki.com/wiki/?curid=192442)
+* [3-D Ultra Pinball: Thrillride](https://www.pcgamingwiki.com/wiki/?curid=196080)
 * [3-D Ultra Radio Control Racers](https://www.pcgamingwiki.com/wiki/?curid=8402)
 * [3..2..1..Grenades!](https://www.pcgamingwiki.com/wiki/?curid=61546)
 * [30 days to Defence](https://www.pcgamingwiki.com/wiki/?curid=148727)
