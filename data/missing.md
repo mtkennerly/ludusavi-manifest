@@ -6349,6 +6349,7 @@
 * [Dave](https://www.pcgamingwiki.com/wiki/?curid=121912)
 * [Dave-Man](https://www.pcgamingwiki.com/wiki/?curid=154273)
 * [David.](https://www.pcgamingwiki.com/wiki/?curid=48681)
+* [DAVY x JONES](https://www.pcgamingwiki.com/wiki/?curid=205157)
 * [Dawn Break -Origin-](https://www.pcgamingwiki.com/wiki/?curid=136080)
 * [Dawn City](https://www.pcgamingwiki.com/wiki/?curid=78314)
 * [Dawn of Andromeda](https://www.pcgamingwiki.com/wiki/?curid=39382)
