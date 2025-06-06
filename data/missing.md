@@ -7842,7 +7842,6 @@
 * [Dummy!](https://www.pcgamingwiki.com/wiki/?curid=124157)
 * [Dumpy & Bumpy](https://www.pcgamingwiki.com/wiki/?curid=173503)
 * [Duncan and the Wisp](https://www.pcgamingwiki.com/wiki/?curid=136834)
-* [Dune: Awakening](https://www.pcgamingwiki.com/wiki/?curid=183730)
 * [Dune: Imperium](https://www.pcgamingwiki.com/wiki/?curid=193738)
 * [Dungellion](https://www.pcgamingwiki.com/wiki/?curid=122298)
 * [Dungeon Adventure](https://www.pcgamingwiki.com/wiki/?curid=94028)
