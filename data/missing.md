@@ -14557,6 +14557,7 @@
 * [Left Behind: Tribulation Forces](https://www.pcgamingwiki.com/wiki/?curid=106673)
 * [Left in the Dark: No One on Board](https://www.pcgamingwiki.com/wiki/?curid=49580)
 * [Left&Right](https://www.pcgamingwiki.com/wiki/?curid=73262)
+* [Leftovers KO!](https://www.pcgamingwiki.com/wiki/?curid=205306)
 * [LeftWay](https://www.pcgamingwiki.com/wiki/?curid=66717)
 * [Legacy of Lina](https://www.pcgamingwiki.com/wiki/?curid=114388)
 * [Legacy of Medieval](https://www.pcgamingwiki.com/wiki/?curid=72292)
