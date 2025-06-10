@@ -17684,6 +17684,7 @@
 * [Nickelodeon Extreme Tennis](https://www.pcgamingwiki.com/wiki/?curid=173696)
 * [Nickelodeon Party Blast](https://www.pcgamingwiki.com/wiki/?curid=88322)
 * [NickProject](https://www.pcgamingwiki.com/wiki/?curid=87316)
+* [Nicktoons & The Dice of Destiny](https://www.pcgamingwiki.com/wiki/?curid=205329)
 * [Nicktoons Basketball](https://www.pcgamingwiki.com/wiki/?curid=183499)
 * [Nicktoons Challenge!](https://www.pcgamingwiki.com/wiki/?curid=183501)
 * [Nicktoons Nick Tunes](https://www.pcgamingwiki.com/wiki/?curid=183497)
