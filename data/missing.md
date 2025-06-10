@@ -818,6 +818,7 @@
 * [Again?](https://www.pcgamingwiki.com/wiki/?curid=104101)
 * [Against the Moon](https://www.pcgamingwiki.com/wiki/?curid=145224)
 * [Agapan](https://www.pcgamingwiki.com/wiki/?curid=47707)
+* [Agatha Christie - Death on the Nile (2025)](https://www.pcgamingwiki.com/wiki/?curid=205340)
 * [Agatha Christie: And Then There Were None](https://www.pcgamingwiki.com/wiki/?curid=176856)
 * [Agatha Christie: Evil under the Sun](https://www.pcgamingwiki.com/wiki/?curid=176955)
 * [Agatha Christie: Murder on the Orient Express](https://www.pcgamingwiki.com/wiki/?curid=176953)
