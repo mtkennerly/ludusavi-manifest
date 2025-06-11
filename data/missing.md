@@ -26374,6 +26374,7 @@
 * [The Island Story](https://www.pcgamingwiki.com/wiki/?curid=157203)
 * [The Island: In To The Mist 그 섬](https://www.pcgamingwiki.com/wiki/?curid=114428)
 * [The Islander: Landscape Designer](https://www.pcgamingwiki.com/wiki/?curid=136397)
+* [The Isle of Cats](https://www.pcgamingwiki.com/wiki/?curid=205344)
 * [The Isle of the Dead](https://www.pcgamingwiki.com/wiki/?curid=135463)
 * [The Jackbox Party Starter](https://www.pcgamingwiki.com/wiki/?curid=178634)
 * [The Janitor](https://www.pcgamingwiki.com/wiki/?curid=42269)
