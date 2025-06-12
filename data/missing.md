@@ -25684,7 +25684,6 @@
 * [The Alchemist](https://www.pcgamingwiki.com/wiki/?curid=96027)
 * [The Alchemist's House](https://www.pcgamingwiki.com/wiki/?curid=156085)
 * [The Alpha Device](https://www.pcgamingwiki.com/wiki/?curid=82067)
-* [The Alters](https://www.pcgamingwiki.com/wiki/?curid=195777)
 * [The Amazing Adventures of Ash - Afterparty](https://www.pcgamingwiki.com/wiki/?curid=44876)
 * [The Amazing Bernard](https://www.pcgamingwiki.com/wiki/?curid=91072)
 * [The Amazing Shinsengumi: Heroes in Love](https://www.pcgamingwiki.com/wiki/?curid=42039)
