@@ -13995,6 +13995,7 @@
 * [Killer Bean](https://www.pcgamingwiki.com/wiki/?curid=170857)
 * [Killer Clowns](https://www.pcgamingwiki.com/wiki/?curid=123501)
 * [Killer Elite - Time to Die](https://www.pcgamingwiki.com/wiki/?curid=58108)
+* [Killer Inn](https://www.pcgamingwiki.com/wiki/?curid=205384)
 * [Killer Klownz](https://www.pcgamingwiki.com/wiki/?curid=54501)
 * [Killer Queen Black](https://www.pcgamingwiki.com/wiki/?curid=98192)
 * [Killers and Thieves](https://www.pcgamingwiki.com/wiki/?curid=62708)
