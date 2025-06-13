@@ -494,6 +494,7 @@
 * [Absent Mind](https://www.pcgamingwiki.com/wiki/?curid=58418)
 * [Absinth](https://www.pcgamingwiki.com/wiki/?curid=122084)
 * [Absoloot](https://www.pcgamingwiki.com/wiki/?curid=57123)
+* [Absolum](https://www.pcgamingwiki.com/wiki/?curid=205429)
 * [Absolute Adventure Zero](https://www.pcgamingwiki.com/wiki/?curid=105185)
 * [Absolute Blue](https://www.pcgamingwiki.com/wiki/?curid=87257)
 * [Absolute Fall](https://www.pcgamingwiki.com/wiki/?curid=138752)
