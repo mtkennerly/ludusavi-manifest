@@ -4061,6 +4061,7 @@
 * [Call Of Unity](https://www.pcgamingwiki.com/wiki/?curid=134959)
 * [Call of War](https://www.pcgamingwiki.com/wiki/?curid=67956)
 * [Call to 10](https://www.pcgamingwiki.com/wiki/?curid=56639)
+* [Call to Arms: Panzer Elite](https://www.pcgamingwiki.com/wiki/?curid=205447)
 * [Callahan's Crosstime Saloon](https://www.pcgamingwiki.com/wiki/?curid=170000)
 * [CallBack](https://www.pcgamingwiki.com/wiki/?curid=137400)
 * [Callisto](https://www.pcgamingwiki.com/wiki/?curid=132324)
