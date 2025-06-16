@@ -10565,7 +10565,6 @@
 * [Gettysburg: Armored Warfare](https://www.pcgamingwiki.com/wiki/?curid=1951)
 * [Gettysburg: The Tide Turns](https://www.pcgamingwiki.com/wiki/?curid=65419)
 * [Gevaudan](https://www.pcgamingwiki.com/wiki/?curid=63300)
-* [Gex Trilogy](https://www.pcgamingwiki.com/wiki/?curid=201373)
 * [GG Puzzler](https://www.pcgamingwiki.com/wiki/?curid=136645)
 * [GGANG!](https://www.pcgamingwiki.com/wiki/?curid=127303)
 * [Ghajini: The Game](https://www.pcgamingwiki.com/wiki/?curid=154960)
