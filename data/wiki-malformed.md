@@ -4,6 +4,7 @@
 * [Delta Force (2024)](https://www.pcgamingwiki.com/wiki/?curid=195527)
 * [Doraemon: Story of Seasons](https://www.pcgamingwiki.com/wiki/?curid=143187)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
+* [FBC: Firebreak](https://www.pcgamingwiki.com/wiki/?curid=198499)
 * [Halo: The Master Chief Collection](https://www.pcgamingwiki.com/wiki/?curid=129467)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
