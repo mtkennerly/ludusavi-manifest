@@ -14935,6 +14935,7 @@
 * [LittleBigSoko](https://www.pcgamingwiki.com/wiki/?curid=94727)
 * [Littlest Pet Shop](https://www.pcgamingwiki.com/wiki/?curid=178149)
 * [Live](https://www.pcgamingwiki.com/wiki/?curid=74716)
+* [Live Action Football](https://www.pcgamingwiki.com/wiki/?curid=205506)
 * [Live and Learn](https://www.pcgamingwiki.com/wiki/?curid=77883)
 * [Live Armor](https://www.pcgamingwiki.com/wiki/?curid=110552)
 * [Live checkpoint](https://www.pcgamingwiki.com/wiki/?curid=155983)
