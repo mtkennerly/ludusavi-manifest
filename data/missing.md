@@ -2185,6 +2185,7 @@
 * [Azada: In Libro](https://www.pcgamingwiki.com/wiki/?curid=73859)
 * [Azai - TD](https://www.pcgamingwiki.com/wiki/?curid=66197)
 * [Azaran: Islands of the Jinn](https://www.pcgamingwiki.com/wiki/?curid=205382)
+* [Azrael's Tear](https://www.pcgamingwiki.com/wiki/?curid=205560)
 * [Aztaka](https://www.pcgamingwiki.com/wiki/?curid=41204)
 * [Aztec Number](https://www.pcgamingwiki.com/wiki/?curid=96401)
 * [Aztec Tower](https://www.pcgamingwiki.com/wiki/?curid=125773)
