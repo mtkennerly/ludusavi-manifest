@@ -2032,7 +2032,6 @@
 * [Attack of the Mutant Penguins](https://www.pcgamingwiki.com/wiki/?curid=200211)
 * [Attack of the Petscii Robots](https://www.pcgamingwiki.com/wiki/?curid=185392)
 * [Attack Of The Retro Bots](https://www.pcgamingwiki.com/wiki/?curid=135431)
-* [Attack on I-Ching 进击的易经](https://www.pcgamingwiki.com/wiki/?curid=141302)
 * [Attempt 42](https://www.pcgamingwiki.com/wiki/?curid=60189)
 * [Attract Fragments 5](https://www.pcgamingwiki.com/wiki/?curid=139213)
 * [Attrition: Nuclear Domination](https://www.pcgamingwiki.com/wiki/?curid=59737)
