@@ -1,6 +1,7 @@
 * [Assassin's Creed II](https://www.pcgamingwiki.com/wiki/?curid=221)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
+* [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
 * [Delta Force (2024)](https://www.pcgamingwiki.com/wiki/?curid=195527)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Halo: The Master Chief Collection](https://www.pcgamingwiki.com/wiki/?curid=129467)
