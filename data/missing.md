@@ -10387,7 +10387,7 @@
 * [Garfield's Mad about Cats](https://www.pcgamingwiki.com/wiki/?curid=90687)
 * [Garfield: A Tail of Two Kitties](https://www.pcgamingwiki.com/wiki/?curid=88443)
 * [Garfield: Caught in the Act](https://www.pcgamingwiki.com/wiki/?curid=88455)
-* [Garfield: It's All About Phonics - Kindergarten](https://www.pcgamingwiki.com/wiki/?curid=90683)
+* [Garfield: It's All about Phonics - Kindergarten](https://www.pcgamingwiki.com/wiki/?curid=90683)
 * [Garfield: Lasagna World Tour](https://www.pcgamingwiki.com/wiki/?curid=192133)
 * [Garin Game: Curse of Revival Ceremony](https://www.pcgamingwiki.com/wiki/?curid=96093)
 * [Garlic](https://www.pcgamingwiki.com/wiki/?curid=192410)
