@@ -12820,7 +12820,6 @@
 * [Immortal Truth](https://www.pcgamingwiki.com/wiki/?curid=58908)
 * [Immortals](https://www.pcgamingwiki.com/wiki/?curid=98776)
 * [Immune - True Survival](https://www.pcgamingwiki.com/wiki/?curid=48391)
-* [Imp of the Sun](https://www.pcgamingwiki.com/wiki/?curid=167614)
 * [Impale](https://www.pcgamingwiki.com/wiki/?curid=77271)
 * [Impale Your Friends!](https://www.pcgamingwiki.com/wiki/?curid=134957)
 * [Impaler](https://www.pcgamingwiki.com/wiki/?curid=186533)
