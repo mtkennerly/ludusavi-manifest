@@ -18568,7 +18568,7 @@
 * [Over Sky](https://www.pcgamingwiki.com/wiki/?curid=140978)
 * [Over the Alps](https://www.pcgamingwiki.com/wiki/?curid=147815)
 * [Over The Cloud : Lost Planet](https://www.pcgamingwiki.com/wiki/?curid=134462)
-* [Over the hill](https://www.pcgamingwiki.com/wiki/?curid=205758)
+* [Over the Hill](https://www.pcgamingwiki.com/wiki/?curid=205758)
 * [Over The Hills And Far Away](https://www.pcgamingwiki.com/wiki/?curid=46442)
 * [Over The Moonlight](https://www.pcgamingwiki.com/wiki/?curid=69218)
 * [Over The Void](https://www.pcgamingwiki.com/wiki/?curid=49353)
