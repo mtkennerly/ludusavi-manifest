@@ -23086,6 +23086,7 @@
 * [Slumlord Simulator](https://www.pcgamingwiki.com/wiki/?curid=76265)
 * [Sly Pigs](https://www.pcgamingwiki.com/wiki/?curid=128199)
 * [Slymes](https://www.pcgamingwiki.com/wiki/?curid=53908)
+* [Smack Monkey](https://www.pcgamingwiki.com/wiki/?curid=205772)
 * [Smackhead](https://www.pcgamingwiki.com/wiki/?curid=77964)
 * [Smackitball](https://www.pcgamingwiki.com/wiki/?curid=58027)
 * [Small person](https://www.pcgamingwiki.com/wiki/?curid=95284)
