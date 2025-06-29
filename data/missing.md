@@ -11330,6 +11330,7 @@
 * [H Chan: Girl](https://www.pcgamingwiki.com/wiki/?curid=136580)
 * [H-Hour: World's Elite](https://www.pcgamingwiki.com/wiki/?curid=47859)
 * [H-Rescue](https://www.pcgamingwiki.com/wiki/?curid=149386)
+* [H.E.D.Z.: Head Extreme Destruction Zone](https://www.pcgamingwiki.com/wiki/?curid=205782)
 * [H.E.N.T.A.L.K.E.R.](https://www.pcgamingwiki.com/wiki/?curid=195163)
 * [H.I.S.T.O.R.Y T.O.R.C.H.K.A](https://www.pcgamingwiki.com/wiki/?curid=63129)
 * [H.I.S.T.O.R.Y T.O.R.C.H.K.A 2](https://www.pcgamingwiki.com/wiki/?curid=81121)
