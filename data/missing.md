@@ -18271,6 +18271,7 @@
 * [One Wish](https://www.pcgamingwiki.com/wiki/?curid=98124)
 * [One-eyed Jak](https://www.pcgamingwiki.com/wiki/?curid=46150)
 * [One-Eyed Lee and the Dinner Party](https://www.pcgamingwiki.com/wiki/?curid=153812)
+* [One-Eyed Likho](https://www.pcgamingwiki.com/wiki/?curid=205798)
 * [One-Punch Man: A Hero Nobody Knows](https://www.pcgamingwiki.com/wiki/?curid=146753)
 * [One-Way Ticket](https://www.pcgamingwiki.com/wiki/?curid=94035)
 * [OneHit](https://www.pcgamingwiki.com/wiki/?curid=75059)
