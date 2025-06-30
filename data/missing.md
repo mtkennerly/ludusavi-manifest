@@ -25597,6 +25597,7 @@
 * [The Aether: Life as a God](https://www.pcgamingwiki.com/wiki/?curid=124040)
 * [The Aftermath: Unnatural Selection](https://www.pcgamingwiki.com/wiki/?curid=157346)
 * [The Afterwoods](https://www.pcgamingwiki.com/wiki/?curid=73013)
+* [The Age of Bhaarat](https://www.pcgamingwiki.com/wiki/?curid=205831)
 * [The Agency of Anomalies: Cinderstone Orphanage](https://www.pcgamingwiki.com/wiki/?curid=53660)
 * [The Agency of Anomalies: Mind Invasion](https://www.pcgamingwiki.com/wiki/?curid=81960)
 * [The Agency of Anomalies: Mystic Hospital](https://www.pcgamingwiki.com/wiki/?curid=42279)
