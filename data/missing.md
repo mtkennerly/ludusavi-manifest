@@ -12640,6 +12640,7 @@
 * [I Am Data](https://www.pcgamingwiki.com/wiki/?curid=144606)
 * [I Am Gooey](https://www.pcgamingwiki.com/wiki/?curid=144411)
 * [I Am Jesus Christ](https://www.pcgamingwiki.com/wiki/?curid=157424)
+* [I Am Ripper](https://www.pcgamingwiki.com/wiki/?curid=205846)
 * [I Am the Hero](https://www.pcgamingwiki.com/wiki/?curid=55839)
 * [I Am Vegend - Zombiegeddon](https://www.pcgamingwiki.com/wiki/?curid=50212)
 * [I Am Your President](https://www.pcgamingwiki.com/wiki/?curid=93287)
