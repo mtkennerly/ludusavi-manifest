@@ -4463,6 +4463,7 @@
 * [Chainless](https://www.pcgamingwiki.com/wiki/?curid=59792)
 * [ChainMan](https://www.pcgamingwiki.com/wiki/?curid=64325)
 * [Chainmonsters](https://www.pcgamingwiki.com/wiki/?curid=150105)
+* [Chains of Lukomorye](https://www.pcgamingwiki.com/wiki/?curid=205872)
 * [Chainsaw Warrior: Lords of the Night](https://www.pcgamingwiki.com/wiki/?curid=48675)
 * [Chainz 2: Relinked](https://www.pcgamingwiki.com/wiki/?curid=41279)
 * [Chak's Temple](https://www.pcgamingwiki.com/wiki/?curid=197758)
