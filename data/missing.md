@@ -6460,6 +6460,7 @@
 * [Dead Spawn](https://www.pcgamingwiki.com/wiki/?curid=144831)
 * [Dead Static Drive](https://www.pcgamingwiki.com/wiki/?curid=151501)
 * [Dead Stop](https://www.pcgamingwiki.com/wiki/?curid=44405)
+* [Dead Take](https://www.pcgamingwiki.com/wiki/?curid=205862)
 * [Dead Target VR: Zombie Intensified](https://www.pcgamingwiki.com/wiki/?curid=78400)
 * [Dead territory](https://www.pcgamingwiki.com/wiki/?curid=153738)
 * [Dead TrailZ](https://www.pcgamingwiki.com/wiki/?curid=45041)
