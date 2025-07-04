@@ -28619,6 +28619,7 @@
 * [Up or Out](https://www.pcgamingwiki.com/wiki/?curid=100754)
 * [UpBreakers](https://www.pcgamingwiki.com/wiki/?curid=109248)
 * [Uphill Skiing](https://www.pcgamingwiki.com/wiki/?curid=64478)
+* [Upin & Ipin Universe](https://www.pcgamingwiki.com/wiki/?curid=205918)
 * [Uplands Motel](https://www.pcgamingwiki.com/wiki/?curid=69472)
 * [Uplands Motel: VR Thriller](https://www.pcgamingwiki.com/wiki/?curid=58926)
 * [UpMove](https://www.pcgamingwiki.com/wiki/?curid=150509)
