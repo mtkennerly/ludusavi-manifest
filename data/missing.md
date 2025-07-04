@@ -9069,7 +9069,6 @@
 * [Fantasy Hero Manager](https://www.pcgamingwiki.com/wiki/?curid=136515)
 * [Fantasy Island](https://www.pcgamingwiki.com/wiki/?curid=127803)
 * [Fantasy Kingdom Simulator](https://www.pcgamingwiki.com/wiki/?curid=33829)
-* [Fantasy Life i: The Girl Who Steals Time](https://www.pcgamingwiki.com/wiki/?curid=204701)
 * [Fantasy Little Jobs](https://www.pcgamingwiki.com/wiki/?curid=144731)
 * [Fantasy Monarch](https://www.pcgamingwiki.com/wiki/?curid=139282)
 * [Fantasy Mosaics 15: Ancient Land](https://www.pcgamingwiki.com/wiki/?curid=63807)
