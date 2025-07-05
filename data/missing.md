@@ -27217,6 +27217,7 @@
 * [They Came From the Sky](https://www.pcgamingwiki.com/wiki/?curid=135347)
 * [They Can't Stop All Of Us](https://www.pcgamingwiki.com/wiki/?curid=144851)
 * [They Have Horns](https://www.pcgamingwiki.com/wiki/?curid=82647)
+* [They Hunger](https://www.pcgamingwiki.com/wiki/?curid=205925)
 * [They That Feast](https://www.pcgamingwiki.com/wiki/?curid=124165)
 * [They'll Find You](https://www.pcgamingwiki.com/wiki/?curid=143983)
 * [Thick As Thieves](https://www.pcgamingwiki.com/wiki/?curid=200127)
