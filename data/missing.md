@@ -21356,6 +21356,7 @@
 * [Robot Vacuum Simulator X](https://www.pcgamingwiki.com/wiki/?curid=144083)
 * [Robot vs Birds Zombies](https://www.pcgamingwiki.com/wiki/?curid=47158)
 * [Robot Warriors](https://www.pcgamingwiki.com/wiki/?curid=77059)
+* [Robot Wars: Arenas of Destruction](https://www.pcgamingwiki.com/wiki/?curid=205959)
 * [Robot's Mystery](https://www.pcgamingwiki.com/wiki/?curid=77651)
 * [Robotek](https://www.pcgamingwiki.com/wiki/?curid=180684)
 * [Robotex](https://www.pcgamingwiki.com/wiki/?curid=49295)
