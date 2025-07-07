@@ -27143,7 +27143,6 @@
 * [The Word Is Not the Thing](https://www.pcgamingwiki.com/wiki/?curid=73957)
 * [The Works of Mercy](https://www.pcgamingwiki.com/wiki/?curid=55622)
 * [The World 3: Rise of Demon](https://www.pcgamingwiki.com/wiki/?curid=54523)
-* [The World Ends with You: ReSolo](https://www.pcgamingwiki.com/wiki/?curid=205975)
 * [The World II: Hunting Boss](https://www.pcgamingwiki.com/wiki/?curid=49384)
 * [The World Is Ruled According to Sexual Prowess So I'm Playing Dirty to Get My Harem Episode 1](https://www.pcgamingwiki.com/wiki/?curid=156246)
 * [The World is Your Weapon](https://www.pcgamingwiki.com/wiki/?curid=141200)
