@@ -4668,7 +4668,6 @@
 * [Chishiki Runner](https://www.pcgamingwiki.com/wiki/?curid=125673)
 * [CHKN](https://www.pcgamingwiki.com/wiki/?curid=38216)
 * [Chlorophos](https://www.pcgamingwiki.com/wiki/?curid=138892)
-* [Cho Ren Sha 68K](https://www.pcgamingwiki.com/wiki/?curid=4076)
 * [Chocolate](https://www.pcgamingwiki.com/wiki/?curid=68352)
 * [Choice](https://www.pcgamingwiki.com/wiki/?curid=76067)
 * [Choice of Alexandria](https://www.pcgamingwiki.com/wiki/?curid=33884)
