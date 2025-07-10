@@ -10545,6 +10545,7 @@
 * [Ghost Files 2: Memory of a Crime](https://www.pcgamingwiki.com/wiki/?curid=153264)
 * [Ghost Files: The Face of Guilt](https://www.pcgamingwiki.com/wiki/?curid=62314)
 * [Ghost Guns](https://www.pcgamingwiki.com/wiki/?curid=148745)
+* [Ghost Haunting](https://www.pcgamingwiki.com/wiki/?curid=206024)
 * [Ghost In The Barn House](https://www.pcgamingwiki.com/wiki/?curid=156376)
 * [Ghost in the Machine](https://www.pcgamingwiki.com/wiki/?curid=48142)
 * [Ghost Killer](https://www.pcgamingwiki.com/wiki/?curid=94725)
