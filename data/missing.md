@@ -17002,6 +17002,8 @@
 * [My Grandfather's Farm](https://www.pcgamingwiki.com/wiki/?curid=92369)
 * [My Haunted Doll](https://www.pcgamingwiki.com/wiki/?curid=150673)
 * [My Home VR](https://www.pcgamingwiki.com/wiki/?curid=153523)
+* [My Horse & Me](https://www.pcgamingwiki.com/wiki/?curid=206029)
+* [My Horse & Me 2](https://www.pcgamingwiki.com/wiki/?curid=206032)
 * [My hot beach vacation](https://www.pcgamingwiki.com/wiki/?curid=155969)
 * [My House](https://www.pcgamingwiki.com/wiki/?curid=125543)
 * [My Land](https://www.pcgamingwiki.com/wiki/?curid=166321)
