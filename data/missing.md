@@ -1475,6 +1475,7 @@
 * [Antenna Dilemma](https://www.pcgamingwiki.com/wiki/?curid=128523)
 * [AntharioN](https://www.pcgamingwiki.com/wiki/?curid=47271)
 * [Anthelion](https://www.pcgamingwiki.com/wiki/?curid=42067)
+* [Anthem](https://www.pcgamingwiki.com/wiki/?curid=63532)
 * [Anthropomachy](https://www.pcgamingwiki.com/wiki/?curid=135421)
 * [Anti Gravity Warriors VR](https://www.pcgamingwiki.com/wiki/?curid=73201)
 * [Anti-Grav Bamboo-copter](https://www.pcgamingwiki.com/wiki/?curid=125657)
