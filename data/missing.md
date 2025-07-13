@@ -1499,7 +1499,7 @@
 * [Anubis II](https://www.pcgamingwiki.com/wiki/?curid=202358)
 * [Anvil Empires](https://www.pcgamingwiki.com/wiki/?curid=201880)
 * [Anxiety](https://www.pcgamingwiki.com/wiki/?curid=66015)
-* [ANYKEY](https://www.pcgamingwiki.com/wiki/?curid=88053)
+* [Anykey](https://www.pcgamingwiki.com/wiki/?curid=88053)
 * [Anykey Simulator](https://www.pcgamingwiki.com/wiki/?curid=39061)
 * [Anyland](https://www.pcgamingwiki.com/wiki/?curid=51334)
 * [AoF Chess Club 2.0](https://www.pcgamingwiki.com/wiki/?curid=45763)
