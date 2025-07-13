@@ -24565,7 +24565,6 @@
 * [Suits: Absolute Power](https://www.pcgamingwiki.com/wiki/?curid=156718)
 * [Suka's Escape](https://www.pcgamingwiki.com/wiki/?curid=148611)
 * [Suki's Spooky Romance](https://www.pcgamingwiki.com/wiki/?curid=93983)
-* [SULFUR](https://www.pcgamingwiki.com/wiki/?curid=205997)
 * [Sullen](https://www.pcgamingwiki.com/wiki/?curid=55183)
 * [Sullen: Light is Your Friend](https://www.pcgamingwiki.com/wiki/?curid=38831)
 * [Sumer](https://www.pcgamingwiki.com/wiki/?curid=53706)
