@@ -23216,6 +23216,7 @@
 * [Snow Arena](https://www.pcgamingwiki.com/wiki/?curid=139131)
 * [Snow Ash Land](https://www.pcgamingwiki.com/wiki/?curid=123669)
 * [Snow Clearing Driving Simulator](https://www.pcgamingwiki.com/wiki/?curid=149559)
+* [Snow Day: The GapKids Quest](https://www.pcgamingwiki.com/wiki/?curid=206137)
 * [Snow Fall](https://www.pcgamingwiki.com/wiki/?curid=79742)
 * [Snow Fortress](https://www.pcgamingwiki.com/wiki/?curid=33922)
 * [Snow Games VR](https://www.pcgamingwiki.com/wiki/?curid=57095)
