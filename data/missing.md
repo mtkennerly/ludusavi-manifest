@@ -8507,7 +8507,6 @@
 * [Ergastulum: Dungeon Nightmares III](https://www.pcgamingwiki.com/wiki/?curid=76384)
 * [ERI](https://www.pcgamingwiki.com/wiki/?curid=132225)
 * [Eric the Unready](https://www.pcgamingwiki.com/wiki/?curid=131628)
-* [Eriksholm: The Stolen Dream](https://www.pcgamingwiki.com/wiki/?curid=204879)
 * [Erinye](https://www.pcgamingwiki.com/wiki/?curid=90570)
 * [Ermo](https://www.pcgamingwiki.com/wiki/?curid=75049)
 * [Ero Date](https://www.pcgamingwiki.com/wiki/?curid=110326)
