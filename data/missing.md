@@ -17849,6 +17849,7 @@
 * [Nocturnous](https://www.pcgamingwiki.com/wiki/?curid=156865)
 * [Noda](https://www.pcgamingwiki.com/wiki/?curid=56434)
 * [Node](https://www.pcgamingwiki.com/wiki/?curid=122824)
+* [NODE: The Last Favor of the Antarii](https://www.pcgamingwiki.com/wiki/?curid=206238)
 * [Nodge](https://www.pcgamingwiki.com/wiki/?curid=78822)
 * [Nodiatis](https://www.pcgamingwiki.com/wiki/?curid=53407)
 * [Noel's Hope](https://www.pcgamingwiki.com/wiki/?curid=125948)
