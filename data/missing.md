@@ -13553,6 +13553,7 @@
 * [Joe's Wrath](https://www.pcgamingwiki.com/wiki/?curid=121237)
 * [Joel Mayer's Purgatory](https://www.pcgamingwiki.com/wiki/?curid=151495)
 * [John Black: Memories](https://www.pcgamingwiki.com/wiki/?curid=108296)
+* [John Carpenter's Toxic Commando](https://www.pcgamingwiki.com/wiki/?curid=206245)
 * [John Dungeon](https://www.pcgamingwiki.com/wiki/?curid=78382)
 * [John Lazarus - Episode 1: Dead Man's Origin](https://www.pcgamingwiki.com/wiki/?curid=79279)
 * [John Mambo](https://www.pcgamingwiki.com/wiki/?curid=94481)
