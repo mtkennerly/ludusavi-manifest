@@ -10933,7 +10933,7 @@
 * [Graduation](https://www.pcgamingwiki.com/wiki/?curid=190056)
 * [Grail to the Thief](https://www.pcgamingwiki.com/wiki/?curid=47791)
 * [GRally](https://www.pcgamingwiki.com/wiki/?curid=90346)
-* [Gran saga](https://www.pcgamingwiki.com/wiki/?curid=199242)
+* [Gran Saga](https://www.pcgamingwiki.com/wiki/?curid=199242)
 * [Gran Skrea Online](https://www.pcgamingwiki.com/wiki/?curid=80954)
 * [Granado Espada](https://www.pcgamingwiki.com/wiki/?curid=45071)
 * [Grand Academy for Future Villains](https://www.pcgamingwiki.com/wiki/?curid=71782)
