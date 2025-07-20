@@ -6020,6 +6020,7 @@
 * [CYNOROID -GENTAGELSE-](https://www.pcgamingwiki.com/wiki/?curid=141987)
 * [CYPEST Underground](https://www.pcgamingwiki.com/wiki/?curid=122292)
 * [Cypher 007](https://www.pcgamingwiki.com/wiki/?curid=198851)
+* [Cypher: Cyberpunk Text Adventure](https://www.pcgamingwiki.com/wiki/?curid=206302)
 * [Cypress Inheritance: The Beginning](https://www.pcgamingwiki.com/wiki/?curid=50592)
 * [Cyto](https://www.pcgamingwiki.com/wiki/?curid=49963)
 * [D Series Off Road Racing Simulation](https://www.pcgamingwiki.com/wiki/?curid=47865)
