@@ -28238,7 +28238,6 @@
 * [Turn Up Jeans](https://www.pcgamingwiki.com/wiki/?curid=95505)
 * [Turn your Destiny](https://www.pcgamingwiki.com/wiki/?curid=64441)
 * [Turner](https://www.pcgamingwiki.com/wiki/?curid=42325)
-* [Turnip Boy Robs a Bank](https://www.pcgamingwiki.com/wiki/?curid=184635)
 * [Turok 2: Seeds of Evil](https://www.pcgamingwiki.com/wiki/?curid=54178)
 * [Turok: Dinosaur Hunter](https://www.pcgamingwiki.com/wiki/?curid=30285)
 * [Turok: Origins](https://www.pcgamingwiki.com/wiki/?curid=200168)
