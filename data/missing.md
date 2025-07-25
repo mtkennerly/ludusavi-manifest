@@ -26370,7 +26370,6 @@
 * [The Keepers of Pages: Chevengur](https://www.pcgamingwiki.com/wiki/?curid=122802)
 * [The Killbox: Arena Combat](https://www.pcgamingwiki.com/wiki/?curid=73673)
 * [The Kindeman Remedy](https://www.pcgamingwiki.com/wiki/?curid=190803)
-* [The King is Watching](https://www.pcgamingwiki.com/wiki/?curid=202602)
 * [The King of Chicago](https://www.pcgamingwiki.com/wiki/?curid=194022)
 * [The King of Fighters '97 Global Match](https://www.pcgamingwiki.com/wiki/?curid=92501)
 * [The King of Fighters '99: Evolution](https://www.pcgamingwiki.com/wiki/?curid=92575)
