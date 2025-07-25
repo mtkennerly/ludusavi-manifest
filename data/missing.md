@@ -6809,6 +6809,7 @@
 * [Derrek Quest V: Regression](https://www.pcgamingwiki.com/wiki/?curid=87035)
 * [Derrek Quest VII](https://www.pcgamingwiki.com/wiki/?curid=87059)
 * [Derrick the Deathfin](https://www.pcgamingwiki.com/wiki/?curid=50055)
+* [Descenders Next](https://www.pcgamingwiki.com/wiki/?curid=206467)
 * [Descending](https://www.pcgamingwiki.com/wiki/?curid=94271)
 * [Descent](https://www.pcgamingwiki.com/wiki/?curid=3516)
 * [Descent - Silence of Mind](https://www.pcgamingwiki.com/wiki/?curid=64319)
