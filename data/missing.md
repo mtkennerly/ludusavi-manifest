@@ -2715,6 +2715,7 @@
 * [Beatcrash](https://www.pcgamingwiki.com/wiki/?curid=134988)
 * [Beater Spirit](https://www.pcgamingwiki.com/wiki/?curid=34493)
 * [Beating A Dead Horse With A One-Trick Pony](https://www.pcgamingwiki.com/wiki/?curid=122278)
+* [Beatmania Da!!](https://www.pcgamingwiki.com/wiki/?curid=206458)
 * [Beats Fever](https://www.pcgamingwiki.com/wiki/?curid=55944)
 * [Beats Of Fury](https://www.pcgamingwiki.com/wiki/?curid=154023)
 * [BeatShips](https://www.pcgamingwiki.com/wiki/?curid=134837)
