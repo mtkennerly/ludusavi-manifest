@@ -1743,6 +1743,7 @@
 * [Army Men](https://www.pcgamingwiki.com/wiki/?curid=79069)
 * [Army Men II](https://www.pcgamingwiki.com/wiki/?curid=79066)
 * [Army Men: Air Attack](https://www.pcgamingwiki.com/wiki/?curid=201593)
+* [Army Men: Air Tactics](https://www.pcgamingwiki.com/wiki/?curid=206495)
 * [Army Men: Toys in Space](https://www.pcgamingwiki.com/wiki/?curid=79071)
 * [Army of Squirrels](https://www.pcgamingwiki.com/wiki/?curid=87087)
 * [Army of Tentacles: (Not) a Cthulhu Dating Sim: Black Goat of the Woods Edition](https://www.pcgamingwiki.com/wiki/?curid=78647)
