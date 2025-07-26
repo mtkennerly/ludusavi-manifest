@@ -29900,7 +29900,6 @@
 * [Wild Woods](https://www.pcgamingwiki.com/wiki/?curid=200237)
 * [Wildfire Worlds](https://www.pcgamingwiki.com/wiki/?curid=10046)
 * [Wildfire: Ticket to Rock](https://www.pcgamingwiki.com/wiki/?curid=176314)
-* [Wildgate](https://www.pcgamingwiki.com/wiki/?curid=206469)
 * [WildIsland](https://www.pcgamingwiki.com/wiki/?curid=155805)
 * [WildKids](https://www.pcgamingwiki.com/wiki/?curid=125607)
 * [Wildlife Park 2 - Horses](https://www.pcgamingwiki.com/wiki/?curid=49901)
