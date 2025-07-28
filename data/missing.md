@@ -29631,6 +29631,7 @@
 * [We Stay Behind](https://www.pcgamingwiki.com/wiki/?curid=145564)
 * [We Walked in Darkness](https://www.pcgamingwiki.com/wiki/?curid=78627)
 * [We Were Here Expeditions: The FriendShip](https://www.pcgamingwiki.com/wiki/?curid=204145)
+* [We're Back! A Dinosaur's Story](https://www.pcgamingwiki.com/wiki/?curid=206536)
 * [Weable](https://www.pcgamingwiki.com/wiki/?curid=67239)
 * [Weable 2](https://www.pcgamingwiki.com/wiki/?curid=81528)
 * [Weakless](https://www.pcgamingwiki.com/wiki/?curid=139478)
