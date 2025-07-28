@@ -23243,6 +23243,7 @@
 * [Snow Light](https://www.pcgamingwiki.com/wiki/?curid=49458)
 * [Snow Mercy](https://www.pcgamingwiki.com/wiki/?curid=151603)
 * [Snow Moto Racing Freedom](https://www.pcgamingwiki.com/wiki/?curid=60301)
+* [Snow Wave: Avalanche](https://www.pcgamingwiki.com/wiki/?curid=206541)
 * [Snow White Solitaire. Charmed Kingdom](https://www.pcgamingwiki.com/wiki/?curid=78459)
 * [Snow White Solitaire. Legacy of Dwarves](https://www.pcgamingwiki.com/wiki/?curid=80667)
 * [SnowBall FPS](https://www.pcgamingwiki.com/wiki/?curid=156094)
