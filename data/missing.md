@@ -13162,6 +13162,7 @@
 * [Into the Dark: Ultimate Trash Edition](https://www.pcgamingwiki.com/wiki/?curid=50338)
 * [Into the Dead](https://www.pcgamingwiki.com/wiki/?curid=178663)
 * [Into the Dead: Our Darkest Days](https://www.pcgamingwiki.com/wiki/?curid=203333)
+* [Into The Dread](https://www.pcgamingwiki.com/wiki/?curid=206562)
 * [Into the Flames](https://www.pcgamingwiki.com/wiki/?curid=157063)
 * [Into the Gloom](https://www.pcgamingwiki.com/wiki/?curid=48264)
 * [Into the Ice: Nazis of Neuschwabenland](https://www.pcgamingwiki.com/wiki/?curid=62841)
