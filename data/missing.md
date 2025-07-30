@@ -20764,6 +20764,7 @@
 * [Recovery Search & Rescue Simulation](https://www.pcgamingwiki.com/wiki/?curid=50726)
 * [Recreational Dreaming](https://www.pcgamingwiki.com/wiki/?curid=80915)
 * [RectRacer](https://www.pcgamingwiki.com/wiki/?curid=64476)
+* [RECUR](https://www.pcgamingwiki.com/wiki/?curid=206617)
 * [Recursive Dragon](https://www.pcgamingwiki.com/wiki/?curid=96869)
 * [Recursive Pain](https://www.pcgamingwiki.com/wiki/?curid=122410)
 * [Recycle](https://www.pcgamingwiki.com/wiki/?curid=49689)

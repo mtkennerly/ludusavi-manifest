@@ -1,4 +1,3 @@
-* [Back Track](https://www.pcgamingwiki.com/wiki/?curid=206580)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
