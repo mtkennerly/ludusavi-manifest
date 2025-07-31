@@ -8253,6 +8253,7 @@
 * [Elleros Origins: Wytchsun](https://www.pcgamingwiki.com/wiki/?curid=135561)
 * [Ellie](https://www.pcgamingwiki.com/wiki/?curid=125817)
 * [EllrLand](https://www.pcgamingwiki.com/wiki/?curid=180052)
+* [Ells Tales: Chairbound](https://www.pcgamingwiki.com/wiki/?curid=206632)
 * [Elly The Jelly](https://www.pcgamingwiki.com/wiki/?curid=66119)
 * [Elmarion: Dragon time](https://www.pcgamingwiki.com/wiki/?curid=150756)
 * [Elmia](https://www.pcgamingwiki.com/wiki/?curid=77209)
