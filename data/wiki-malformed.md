@@ -3,6 +3,7 @@
 * [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
 * [Delta Force (2024)](https://www.pcgamingwiki.com/wiki/?curid=195527)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
+* [Grand Theft Auto: San Andreas](https://www.pcgamingwiki.com/wiki/?curid=1886)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
