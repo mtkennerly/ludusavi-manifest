@@ -26033,6 +26033,7 @@
 * [The Emerald Maiden: Symphony of Dreams](https://www.pcgamingwiki.com/wiki/?curid=44553)
 * [The Emerald Tablet](https://www.pcgamingwiki.com/wiki/?curid=153699)
 * [The Eminence in Shadow: Master of Garden](https://www.pcgamingwiki.com/wiki/?curid=198575)
+* [The Emperor's Own](https://www.pcgamingwiki.com/wiki/?curid=206702)
 * [The Empire's Crisis](https://www.pcgamingwiki.com/wiki/?curid=148952)
 * [The Emptiness Deluxe Edition](https://www.pcgamingwiki.com/wiki/?curid=48184)
 * [The Empty Inn](https://www.pcgamingwiki.com/wiki/?curid=47107)
