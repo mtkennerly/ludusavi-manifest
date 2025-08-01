@@ -13832,7 +13832,7 @@
 * [Karl BOOM](https://www.pcgamingwiki.com/wiki/?curid=150168)
 * [Karloman and His Iced Muffins](https://www.pcgamingwiki.com/wiki/?curid=125336)
 * [Karlson](https://www.pcgamingwiki.com/wiki/?curid=157114)
-* [Karma](https://www.pcgamingwiki.com/wiki/?curid=47277)
+* [Karma (game)](https://www.pcgamingwiki.com/wiki/?curid=47277)
 * [Karma - A Visual Novel About A Dystopia.](https://www.pcgamingwiki.com/wiki/?curid=150123)
 * [Karma. Incarnation 1](https://www.pcgamingwiki.com/wiki/?curid=39538)
 * [Karmaflow: The Rock Opera Videogame - Act I & Act II](https://www.pcgamingwiki.com/wiki/?curid=47994)
