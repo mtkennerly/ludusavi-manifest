@@ -23940,6 +23940,7 @@
 * [SpongeBob SquarePants: Battle for Bikini Bottom](https://www.pcgamingwiki.com/wiki/?curid=16581)
 * [SpongeBob SquarePants: Diner Dash](https://www.pcgamingwiki.com/wiki/?curid=140400)
 * [SpongeBob SquarePants: Nighty Nightmare](https://www.pcgamingwiki.com/wiki/?curid=205567)
+* [SpongeBob SquarePants: Titans of the Tide](https://www.pcgamingwiki.com/wiki/?curid=206733)
 * [SpongeBob: Patty Pursuit](https://www.pcgamingwiki.com/wiki/?curid=160743)
 * [Spooky Heroes](https://www.pcgamingwiki.com/wiki/?curid=35194)
 * [Spooky Night](https://www.pcgamingwiki.com/wiki/?curid=55799)
