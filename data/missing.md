@@ -20100,7 +20100,6 @@
 * [Public Enemy: Revolution Simulator](https://www.pcgamingwiki.com/wiki/?curid=143969)
 * [Publisher Tycoon](https://www.pcgamingwiki.com/wiki/?curid=54062)
 * [Pudji](https://www.pcgamingwiki.com/wiki/?curid=122808)
-* [Puella Magi Madoka Magica: Magia Exedra](https://www.pcgamingwiki.com/wiki/?curid=204289)
 * [Pukan Bye Bye](https://www.pcgamingwiki.com/wiki/?curid=90012)
 * [Puke Simulator](https://www.pcgamingwiki.com/wiki/?curid=78705)
 * [PukePuke Demon](https://www.pcgamingwiki.com/wiki/?curid=96651)
