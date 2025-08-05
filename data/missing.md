@@ -1972,6 +1972,8 @@
 * [Atelier Elie: The Alchemist of Salburg 2](https://www.pcgamingwiki.com/wiki/?curid=162382)
 * [Atelier Marie: The Alchemist of Salburg](https://www.pcgamingwiki.com/wiki/?curid=155193)
 * [Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator](https://www.pcgamingwiki.com/wiki/?curid=193258)
+* [Atelier Ryza 2: Lost Legends & the Secret Fairy DX](https://www.pcgamingwiki.com/wiki/?curid=206809)
+* [Atelier Ryza: Ever Darkness & the Secret Hideout DX](https://www.pcgamingwiki.com/wiki/?curid=206805)
 * [Athenian Acropolis](https://www.pcgamingwiki.com/wiki/?curid=89236)
 * [Ather: Chapter 1](https://www.pcgamingwiki.com/wiki/?curid=91512)
 * [Athletics Games VR](https://www.pcgamingwiki.com/wiki/?curid=127993)
