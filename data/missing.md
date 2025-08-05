@@ -18016,6 +18016,7 @@
 * [Nyanco Dream](https://www.pcgamingwiki.com/wiki/?curid=153024)
 * [Nyanco Project](https://www.pcgamingwiki.com/wiki/?curid=141665)
 * [NyanfuGirl](https://www.pcgamingwiki.com/wiki/?curid=148866)
+* [Nyaruru Fishy Fight](https://www.pcgamingwiki.com/wiki/?curid=206820)
 * [Nyasha](https://www.pcgamingwiki.com/wiki/?curid=129747)
 * [Nyasha Beach](https://www.pcgamingwiki.com/wiki/?curid=129934)
 * [Nyasha Land of Elves](https://www.pcgamingwiki.com/wiki/?curid=132383)
