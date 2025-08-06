@@ -17463,6 +17463,7 @@
 * [Nekodeito](https://www.pcgamingwiki.com/wiki/?curid=150976)
 * [Nekojishi: Lin & Partners](https://www.pcgamingwiki.com/wiki/?curid=169799)
 * [NekoMiko](https://www.pcgamingwiki.com/wiki/?curid=125825)
+* [NEKOPARA After](https://www.pcgamingwiki.com/wiki/?curid=206838)
 * [NEKOPARA Vol. 4](https://www.pcgamingwiki.com/wiki/?curid=164873)
 * [NEKOPUGI](https://www.pcgamingwiki.com/wiki/?curid=155735)
 * [Nekour](https://www.pcgamingwiki.com/wiki/?curid=144492)
