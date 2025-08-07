@@ -21448,6 +21448,7 @@
 * [Rocket Jockey](https://www.pcgamingwiki.com/wiki/?curid=14709)
 * [Rocket Mania](https://www.pcgamingwiki.com/wiki/?curid=183905)
 * [Rocket of Whispers: Prologue](https://www.pcgamingwiki.com/wiki/?curid=109584)
+* [Rocket Power: Extreme Arcade Games](https://www.pcgamingwiki.com/wiki/?curid=206867)
 * [Rocket Racing](https://www.pcgamingwiki.com/wiki/?curid=192636)
 * [Rocket Ranger](https://www.pcgamingwiki.com/wiki/?curid=21635)
 * [Rocket Shooter](https://www.pcgamingwiki.com/wiki/?curid=43851)
