@@ -1,5 +1,6 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
+* [Cats Organized Neatly](https://www.pcgamingwiki.com/wiki/?curid=206372)
 * [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [Grand Theft Auto: San Andreas](https://www.pcgamingwiki.com/wiki/?curid=1886)
