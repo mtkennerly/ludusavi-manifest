@@ -6964,6 +6964,7 @@
 * [DHARMA: THE SWAN](https://www.pcgamingwiki.com/wiki/?curid=128326)
 * [Diabolic](https://www.pcgamingwiki.com/wiki/?curid=82898)
 * [Diabolical](https://www.pcgamingwiki.com/wiki/?curid=45719)
+* [Diabotical Rogue](https://www.pcgamingwiki.com/wiki/?curid=206927)
 * [Diacrisis](https://www.pcgamingwiki.com/wiki/?curid=134654)
 * [Diadra Empty](https://www.pcgamingwiki.com/wiki/?curid=47188)
 * [Dialing](https://www.pcgamingwiki.com/wiki/?curid=87219)
