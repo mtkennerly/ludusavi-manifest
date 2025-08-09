@@ -2582,6 +2582,7 @@
 * [BattleCry: World At War](https://www.pcgamingwiki.com/wiki/?curid=113986)
 * [Battlecursed](https://www.pcgamingwiki.com/wiki/?curid=39675)
 * [Battlefall: State of Conflict](https://www.pcgamingwiki.com/wiki/?curid=202209)
+* [Battlefield 1943](https://www.pcgamingwiki.com/wiki/?curid=206919)
 * [Battlefield Alliance](https://www.pcgamingwiki.com/wiki/?curid=66589)
 * [Battlefield Armor](https://www.pcgamingwiki.com/wiki/?curid=99608)
 * [Battlefield Online](https://www.pcgamingwiki.com/wiki/?curid=191533)
