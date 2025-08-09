@@ -26321,6 +26321,7 @@
 * [The History Channel: Great Battles of Rome](https://www.pcgamingwiki.com/wiki/?curid=191998)
 * [The Hit](https://www.pcgamingwiki.com/wiki/?curid=18381)
 * [The Hitchhiker's Guide to the Galaxy](https://www.pcgamingwiki.com/wiki/?curid=175896)
+* [The Hive (1995)](https://www.pcgamingwiki.com/wiki/?curid=206930)
 * [The Hobbit](https://www.pcgamingwiki.com/wiki/?curid=22954)
 * [The Hole Story](https://www.pcgamingwiki.com/wiki/?curid=47287)
 * [The Homestead](https://www.pcgamingwiki.com/wiki/?curid=138663)
