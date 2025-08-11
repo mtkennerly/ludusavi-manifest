@@ -27651,6 +27651,7 @@
 * [Tokaido](https://www.pcgamingwiki.com/wiki/?curid=77606)
 * [Toki](https://www.pcgamingwiki.com/wiki/?curid=138186)
 * [Toki Time Trial](https://www.pcgamingwiki.com/wiki/?curid=103173)
+* [Tokimeki Memorial: Taisen Puzzle-Dama](https://www.pcgamingwiki.com/wiki/?curid=206961)
 * [TOKOYO: The Tower of Perpetuity](https://www.pcgamingwiki.com/wiki/?curid=183922)
 * [Tokyo Chronos](https://www.pcgamingwiki.com/wiki/?curid=130068)
 * [Tokyo Hosto](https://www.pcgamingwiki.com/wiki/?curid=47665)
