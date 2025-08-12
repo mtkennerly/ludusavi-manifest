@@ -19118,6 +19118,7 @@
 * [Piatka](https://www.pcgamingwiki.com/wiki/?curid=69488)
 * [Pic Guesser](https://www.pcgamingwiki.com/wiki/?curid=62270)
 * [Piccled Ricc](https://www.pcgamingwiki.com/wiki/?curid=74199)
+* [Pick 'n Pile](https://www.pcgamingwiki.com/wiki/?curid=206984)
 * [Pick a Hero](https://www.pcgamingwiki.com/wiki/?curid=33904)
 * [Pick Your Poison](https://www.pcgamingwiki.com/wiki/?curid=154217)
 * [Pick, shoot, repeat!](https://www.pcgamingwiki.com/wiki/?curid=156274)
