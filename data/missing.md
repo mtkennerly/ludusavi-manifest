@@ -27908,6 +27908,7 @@
 * [Trailer park mechanic](https://www.pcgamingwiki.com/wiki/?curid=125149)
 * [Trailer Park Tycoon](https://www.pcgamingwiki.com/wiki/?curid=91391)
 * [Trailing Girl](https://www.pcgamingwiki.com/wiki/?curid=153202)
+* [Trails in the Sky 1st Chapter](https://www.pcgamingwiki.com/wiki/?curid=206990)
 * [Trails of the Black Sun](https://www.pcgamingwiki.com/wiki/?curid=150537)
 * [Train Defense](https://www.pcgamingwiki.com/wiki/?curid=104003)
 * [Train Frontier Classic](https://www.pcgamingwiki.com/wiki/?curid=72662)
