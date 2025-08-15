@@ -19553,6 +19553,7 @@
 * [Pokémon Play It!](https://www.pcgamingwiki.com/wiki/?curid=81269)
 * [Pokémon Play It! Version 2](https://www.pcgamingwiki.com/wiki/?curid=163935)
 * [Pokémon Trading Card Game Online](https://www.pcgamingwiki.com/wiki/?curid=174612)
+* [PokéROM](https://www.pcgamingwiki.com/wiki/?curid=207053)
 * [Polandball: Can into Space!](https://www.pcgamingwiki.com/wiki/?curid=33436)
 * [Polanie](https://www.pcgamingwiki.com/wiki/?curid=89003)
 * [Polar Jump](https://www.pcgamingwiki.com/wiki/?curid=140885)
