@@ -8826,6 +8826,7 @@
 * [Exo Racing](https://www.pcgamingwiki.com/wiki/?curid=123580)
 * [Exo TD](https://www.pcgamingwiki.com/wiki/?curid=94060)
 * [Exo-Adventures](https://www.pcgamingwiki.com/wiki/?curid=109236)
+* [Exoborne](https://www.pcgamingwiki.com/wiki/?curid=207104)
 * [ExoCorps](https://www.pcgamingwiki.com/wiki/?curid=141929)
 * [Exodemon](https://www.pcgamingwiki.com/wiki/?curid=124466)
 * [Exoder](https://www.pcgamingwiki.com/wiki/?curid=92057)
