@@ -21119,6 +21119,7 @@
 * [Reverence: The Ultimate Combat Experience](https://www.pcgamingwiki.com/wiki/?curid=38907)
 * [Reverie](https://www.pcgamingwiki.com/wiki/?curid=72720)
 * [Reverse Me! Rez/Ru](https://www.pcgamingwiki.com/wiki/?curid=141187)
+* [Reverse: 1999](https://www.pcgamingwiki.com/wiki/?curid=207099)
 * [Reversed Dreamland](https://www.pcgamingwiki.com/wiki/?curid=65602)
 * [Reversion - The Escape (1st Chapter)](https://www.pcgamingwiki.com/wiki/?curid=50091)
 * [Reversion - The Meeting (2nd Chapter)](https://www.pcgamingwiki.com/wiki/?curid=49981)
