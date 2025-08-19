@@ -24011,6 +24011,7 @@
 * [Spy Bugs](https://www.pcgamingwiki.com/wiki/?curid=47459)
 * [Spy DNA](https://www.pcgamingwiki.com/wiki/?curid=153712)
 * [Spy Hunter](https://www.pcgamingwiki.com/wiki/?curid=176356)
+* [Spy Kids: Mega Mission Zone](https://www.pcgamingwiki.com/wiki/?curid=207216)
 * [Spy Muppets: License to Croak](https://www.pcgamingwiki.com/wiki/?curid=164312)
 * [Spy of Deimos](https://www.pcgamingwiki.com/wiki/?curid=70343)
 * [Spy Tactics](https://www.pcgamingwiki.com/wiki/?curid=140976)
