@@ -11955,6 +11955,7 @@
 * [Hera: The Sword of Rhin](https://www.pcgamingwiki.com/wiki/?curid=176757)
 * [Herald of the Depths](https://www.pcgamingwiki.com/wiki/?curid=134580)
 * [Hercules & Xena Learning Adventure: Quest for the Scrolls](https://www.pcgamingwiki.com/wiki/?curid=204714)
+* [Herdling](https://www.pcgamingwiki.com/wiki/?curid=207280)
 * [Here & Elsewhere](https://www.pcgamingwiki.com/wiki/?curid=125492)
 * [Here AND there](https://www.pcgamingwiki.com/wiki/?curid=135699)
 * [Here Be Dragons](https://www.pcgamingwiki.com/wiki/?curid=114634)
