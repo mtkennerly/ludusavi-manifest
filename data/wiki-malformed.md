@@ -4,6 +4,7 @@
 * [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
 * [ELEX II](https://www.pcgamingwiki.com/wiki/?curid=169305)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
+* [Hollow Knight](https://www.pcgamingwiki.com/wiki/?curid=54531)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
