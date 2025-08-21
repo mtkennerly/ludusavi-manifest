@@ -18981,7 +18981,6 @@
 * [Peace Duke](https://www.pcgamingwiki.com/wiki/?curid=90038)
 * [Peace Phantom](https://www.pcgamingwiki.com/wiki/?curid=79772)
 * [Peace Restored](https://www.pcgamingwiki.com/wiki/?curid=144457)
-* [PEAK](https://www.pcgamingwiki.com/wiki/?curid=205648)
 * [Peak Angle: Drift Online](https://www.pcgamingwiki.com/wiki/?curid=52926)
 * [Peaky Blinders: The King's Ransom](https://www.pcgamingwiki.com/wiki/?curid=186140)
 * [Peanut](https://www.pcgamingwiki.com/wiki/?curid=135177)
