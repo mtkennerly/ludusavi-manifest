@@ -16506,6 +16506,7 @@
 * [Mission: Escape from Island](https://www.pcgamingwiki.com/wiki/?curid=64978)
 * [Mission: Escape from Island 2](https://www.pcgamingwiki.com/wiki/?curid=89226)
 * [Mission: Escape from Island 3](https://www.pcgamingwiki.com/wiki/?curid=89228)
+* [Mission: Impossible](https://www.pcgamingwiki.com/wiki/?curid=207369)
 * [Mission: Wolf](https://www.pcgamingwiki.com/wiki/?curid=72363)
 * [Mission:Amazing](https://www.pcgamingwiki.com/wiki/?curid=155873)
 * [MissionForce: CyberStorm](https://www.pcgamingwiki.com/wiki/?curid=142379)
