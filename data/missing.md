@@ -22975,7 +22975,6 @@
 * [Ski Jump VR](https://www.pcgamingwiki.com/wiki/?curid=63418)
 * [Ski Jumping Pro VR](https://www.pcgamingwiki.com/wiki/?curid=153390)
 * [Ski Resort Tycoon](https://www.pcgamingwiki.com/wiki/?curid=90748)
-* [Ski Resort Tycoon II](https://www.pcgamingwiki.com/wiki/?curid=90792)
 * [Ski Safari 2](https://www.pcgamingwiki.com/wiki/?curid=169716)
 * [Ski Sport: Jumping VR](https://www.pcgamingwiki.com/wiki/?curid=57190)
 * [Skidlocked](https://www.pcgamingwiki.com/wiki/?curid=155363)
