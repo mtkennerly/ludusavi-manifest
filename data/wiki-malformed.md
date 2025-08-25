@@ -12,4 +12,5 @@
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)
+* [Włatcy móch: Olimpiada Podwórkowa](https://www.pcgamingwiki.com/wiki/?curid=207479)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
