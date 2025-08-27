@@ -24498,7 +24498,6 @@
 * [Story of a Cube](https://www.pcgamingwiki.com/wiki/?curid=44265)
 * [Story of Monster](https://www.pcgamingwiki.com/wiki/?curid=136436)
 * [Story of one Night](https://www.pcgamingwiki.com/wiki/?curid=136956)
-* [Story Of Seasons: Grand Bazaar](https://www.pcgamingwiki.com/wiki/?curid=207026)
 * [Story of the Survivor](https://www.pcgamingwiki.com/wiki/?curid=44586)
 * [Story of the Survivor: Prisoner](https://www.pcgamingwiki.com/wiki/?curid=70156)
 * [Story Teller](https://www.pcgamingwiki.com/wiki/?curid=139571)
