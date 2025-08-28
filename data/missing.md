@@ -24505,7 +24505,6 @@
 * [Story Teller](https://www.pcgamingwiki.com/wiki/?curid=139571)
 * [Story Time Plus](https://www.pcgamingwiki.com/wiki/?curid=150535)
 * [Story: Heaven & Hell](https://www.pcgamingwiki.com/wiki/?curid=95192)
-* [STRAFTAT](https://www.pcgamingwiki.com/wiki/?curid=207657)
 * [StrainZ-1: Elimination](https://www.pcgamingwiki.com/wiki/?curid=73488)
 * [Stranded](https://www.pcgamingwiki.com/wiki/?curid=50238)
 * [Stranded Alone](https://www.pcgamingwiki.com/wiki/?curid=80408)
