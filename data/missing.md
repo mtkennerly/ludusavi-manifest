@@ -25237,7 +25237,6 @@
 * [Tabletopia](https://www.pcgamingwiki.com/wiki/?curid=43929)
 * [Tabula Rasa](https://www.pcgamingwiki.com/wiki/?curid=196625)
 * [Tachyon Project](https://www.pcgamingwiki.com/wiki/?curid=47265)
-* [Taco Bell: Tasty Temple Challenge](https://www.pcgamingwiki.com/wiki/?curid=206128)
 * [Taco Gun](https://www.pcgamingwiki.com/wiki/?curid=93802)
 * [Taco Tom 2](https://www.pcgamingwiki.com/wiki/?curid=123996)
 * [Taco Truck Madness](https://www.pcgamingwiki.com/wiki/?curid=112404)
