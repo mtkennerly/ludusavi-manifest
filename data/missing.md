@@ -6586,6 +6586,7 @@
 * [Deathbringer](https://www.pcgamingwiki.com/wiki/?curid=74804)
 * [DeathCrank](https://www.pcgamingwiki.com/wiki/?curid=54596)
 * [Deathdays End](https://www.pcgamingwiki.com/wiki/?curid=122516)
+* [DeathDrome](https://www.pcgamingwiki.com/wiki/?curid=207918)
 * [Deatherem](https://www.pcgamingwiki.com/wiki/?curid=134772)
 * [Deathlands](https://www.pcgamingwiki.com/wiki/?curid=74263)
 * [Deathless Dungeon](https://www.pcgamingwiki.com/wiki/?curid=135724)
