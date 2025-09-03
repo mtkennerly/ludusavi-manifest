@@ -9480,6 +9480,7 @@
 * [Fire Arrow Plus](https://www.pcgamingwiki.com/wiki/?curid=57261)
 * [Fire Commander](https://www.pcgamingwiki.com/wiki/?curid=173363)
 * [Fire Farm VR](https://www.pcgamingwiki.com/wiki/?curid=42125)
+* [Fire Fight](https://www.pcgamingwiki.com/wiki/?curid=207971)
 * [Fire Fighter](https://www.pcgamingwiki.com/wiki/?curid=64846)
 * [Fire Flight](https://www.pcgamingwiki.com/wiki/?curid=77895)
 * [Fire In The Hole](https://www.pcgamingwiki.com/wiki/?curid=95067)
