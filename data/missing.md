@@ -11765,7 +11765,6 @@
 * [Hell Empire: Sinners Flow](https://www.pcgamingwiki.com/wiki/?curid=130599)
 * [Hell Hole](https://www.pcgamingwiki.com/wiki/?curid=130074)
 * [Hell in Paradise](https://www.pcgamingwiki.com/wiki/?curid=93204)
-* [Hell is Us](https://www.pcgamingwiki.com/wiki/?curid=201505)
 * [Hell Knights](https://www.pcgamingwiki.com/wiki/?curid=103015)
 * [Hell of Men : Blood Brothers](https://www.pcgamingwiki.com/wiki/?curid=144949)
 * [Hell Quest](https://www.pcgamingwiki.com/wiki/?curid=65041)
