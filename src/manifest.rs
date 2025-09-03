@@ -230,7 +230,7 @@ impl Game {
                 .filter(|x| !primary_ids.gog.contains(x))
                 .copied()
                 .collect(),
-            lutris: cache.lutris.clone(),
+            lutris: cache.lutris.as_ref().map(|x| x.trim().to_string()),
             steam_extra: cache
                 .steam_side
                 .iter()
