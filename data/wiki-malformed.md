@@ -7,6 +7,7 @@
 * [Hollow Knight](https://www.pcgamingwiki.com/wiki/?curid=54531)
 * [Hotel Dash Suite Success](https://www.pcgamingwiki.com/wiki/?curid=41124)
 * [Hotel Dash: Lost Luxuries](https://www.pcgamingwiki.com/wiki/?curid=194845)
+* [Just Survive](https://www.pcgamingwiki.com/wiki/?curid=22067)
 * [Karma: The Dark World](https://www.pcgamingwiki.com/wiki/?curid=201197)
 * [Kimagure Temptation](https://www.pcgamingwiki.com/wiki/?curid=174429)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
