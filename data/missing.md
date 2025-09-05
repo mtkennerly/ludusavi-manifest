@@ -8756,7 +8756,6 @@
 * [Evertried](https://www.pcgamingwiki.com/wiki/?curid=170152)
 * [Everwild](https://www.pcgamingwiki.com/wiki/?curid=162114)
 * [Every Day's Different](https://www.pcgamingwiki.com/wiki/?curid=154440)
-* [Everybody's Golf: Hot Shots](https://www.pcgamingwiki.com/wiki/?curid=202836)
 * [Everybody's sad](https://www.pcgamingwiki.com/wiki/?curid=126078)
 * [Everyday Baseball VR](https://www.pcgamingwiki.com/wiki/?curid=109434)
 * [Everyday Golf VR](https://www.pcgamingwiki.com/wiki/?curid=63482)
