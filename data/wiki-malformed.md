@@ -11,6 +11,7 @@
 * [Karma: The Dark World](https://www.pcgamingwiki.com/wiki/?curid=201197)
 * [Kimagure Temptation](https://www.pcgamingwiki.com/wiki/?curid=174429)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
+* [SimCity (2013)](https://www.pcgamingwiki.com/wiki/?curid=4442)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
