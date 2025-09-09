@@ -12,6 +12,7 @@
 * [Kimagure Temptation](https://www.pcgamingwiki.com/wiki/?curid=174429)
 * [Paper Trail](https://www.pcgamingwiki.com/wiki/?curid=185636)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
+* [Richard Scarry's Busytown (1999)](https://www.pcgamingwiki.com/wiki/?curid=159187)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
