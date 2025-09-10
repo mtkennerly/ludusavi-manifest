@@ -4,7 +4,6 @@
 * [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
 * [ELEX II](https://www.pcgamingwiki.com/wiki/?curid=169305)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
-* [Hollow Knight](https://www.pcgamingwiki.com/wiki/?curid=54531)
 * [Hotel Dash Suite Success](https://www.pcgamingwiki.com/wiki/?curid=41124)
 * [Hotel Dash: Lost Luxuries](https://www.pcgamingwiki.com/wiki/?curid=194845)
 * [Just Survive](https://www.pcgamingwiki.com/wiki/?curid=22067)
