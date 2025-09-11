@@ -9,6 +9,7 @@
 * [Just Survive](https://www.pcgamingwiki.com/wiki/?curid=22067)
 * [Karma: The Dark World](https://www.pcgamingwiki.com/wiki/?curid=201197)
 * [Kimagure Temptation](https://www.pcgamingwiki.com/wiki/?curid=174429)
+* [Kingdom Hearts HD 1.5 + 2.5 ReMIX](https://www.pcgamingwiki.com/wiki/?curid=166570)
 * [Paper Trail](https://www.pcgamingwiki.com/wiki/?curid=185636)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Richard Scarry's Busytown (1999)](https://www.pcgamingwiki.com/wiki/?curid=159187)
