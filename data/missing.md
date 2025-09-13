@@ -26597,6 +26597,7 @@
 * [The Light Empire](https://www.pcgamingwiki.com/wiki/?curid=45433)
 * [The Lightbringers](https://www.pcgamingwiki.com/wiki/?curid=172799)
 * [The Lighthouse: VR Escape Room](https://www.pcgamingwiki.com/wiki/?curid=137360)
+* [The Lightkeeper](https://www.pcgamingwiki.com/wiki/?curid=208308)
 * [The Lion King II: Simba's Pride - Active Play](https://www.pcgamingwiki.com/wiki/?curid=171831)
 * [The Little Cars in the Great Race](https://www.pcgamingwiki.com/wiki/?curid=201609)
 * [The Little Crane That Could](https://www.pcgamingwiki.com/wiki/?curid=48086)
