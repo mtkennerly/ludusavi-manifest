@@ -1106,6 +1106,7 @@
 * [All Contact Lost](https://www.pcgamingwiki.com/wiki/?curid=72805)
 * [All Cows In](https://www.pcgamingwiki.com/wiki/?curid=77579)
 * [All Day Dying](https://www.pcgamingwiki.com/wiki/?curid=152669)
+* [All Dogs Go to Heaven](https://www.pcgamingwiki.com/wiki/?curid=208354)
 * [All Evil Night](https://www.pcgamingwiki.com/wiki/?curid=68092)
 * [All Evil Night 2](https://www.pcgamingwiki.com/wiki/?curid=136683)
 * [All Fall Down](https://www.pcgamingwiki.com/wiki/?curid=46018)
