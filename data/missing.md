@@ -14691,7 +14691,6 @@
 * [Lego Star Wars Battles](https://www.pcgamingwiki.com/wiki/?curid=171134)
 * [Lego Star Wars: Castaways](https://www.pcgamingwiki.com/wiki/?curid=172346)
 * [Lego Stunt Rally](https://www.pcgamingwiki.com/wiki/?curid=25672)
-* [Lego Voyagers](https://www.pcgamingwiki.com/wiki/?curid=205282)
 * [Leilani's Island](https://www.pcgamingwiki.com/wiki/?curid=66486)
 * [Leisure Town](https://www.pcgamingwiki.com/wiki/?curid=108372)
 * [Lem-Amaze!](https://www.pcgamingwiki.com/wiki/?curid=153903)
