@@ -3128,6 +3128,7 @@
 * [Blake and Mortimer: The Curse of the Thirty Denarii](https://www.pcgamingwiki.com/wiki/?curid=88105)
 * [Blake and Mortimer: The Tables of Babylon](https://www.pcgamingwiki.com/wiki/?curid=131505)
 * [Blanco](https://www.pcgamingwiki.com/wiki/?curid=40185)
+* [Blank 01](https://www.pcgamingwiki.com/wiki/?curid=208460)
 * [Blanket Heavy With Nightmares](https://www.pcgamingwiki.com/wiki/?curid=130197)
 * [Blankos Block Party](https://www.pcgamingwiki.com/wiki/?curid=181880)
 * [BLARP!](https://www.pcgamingwiki.com/wiki/?curid=37405)
