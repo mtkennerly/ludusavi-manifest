@@ -8432,7 +8432,6 @@
 * [Endless Jade Sea -Midori no Umi-](https://www.pcgamingwiki.com/wiki/?curid=110358)
 * [Endless Knight](https://www.pcgamingwiki.com/wiki/?curid=153958)
 * [Endless Labyrinth](https://www.pcgamingwiki.com/wiki/?curid=41761)
-* [Endless Legend 2](https://www.pcgamingwiki.com/wiki/?curid=201055)
 * [Endless Maneuver](https://www.pcgamingwiki.com/wiki/?curid=123560)
 * [Endless Memories](https://www.pcgamingwiki.com/wiki/?curid=148954)
 * [Endless Night](https://www.pcgamingwiki.com/wiki/?curid=54590)
