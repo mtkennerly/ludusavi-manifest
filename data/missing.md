@@ -17546,7 +17546,6 @@
 * [Neighbourhood Necromancer](https://www.pcgamingwiki.com/wiki/?curid=62052)
 * [Neither Day nor Night](https://www.pcgamingwiki.com/wiki/?curid=151289)
 * [Neko Arena](https://www.pcgamingwiki.com/wiki/?curid=148487)
-* [Neko Ghost, Jump!](https://www.pcgamingwiki.com/wiki/?curid=154334)
 * [Neko-nin exHeart 2](https://www.pcgamingwiki.com/wiki/?curid=92734)
 * [NEKO-NIN exHeart 2 Love +PLUS](https://www.pcgamingwiki.com/wiki/?curid=132458)
 * [Neko-nin exHeart 3](https://www.pcgamingwiki.com/wiki/?curid=148729)
