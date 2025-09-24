@@ -4,7 +4,6 @@
 * [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
 * [ELEX II](https://www.pcgamingwiki.com/wiki/?curid=169305)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
-* [Just Survive](https://www.pcgamingwiki.com/wiki/?curid=22067)
 * [Karma: The Dark World](https://www.pcgamingwiki.com/wiki/?curid=201197)
 * [Kimagure Temptation](https://www.pcgamingwiki.com/wiki/?curid=174429)
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
