@@ -17,4 +17,5 @@
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)
+* [Włatcy móch: Battle Arena](https://www.pcgamingwiki.com/wiki/?curid=208018)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
