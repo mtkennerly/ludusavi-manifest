@@ -2680,6 +2680,7 @@
 * [Bead](https://www.pcgamingwiki.com/wiki/?curid=65023)
 * [Beak Squadron](https://www.pcgamingwiki.com/wiki/?curid=124044)
 * [Bean Battles](https://www.pcgamingwiki.com/wiki/?curid=104837)
+* [Beanotown Racing](https://www.pcgamingwiki.com/wiki/?curid=208892)
 * [BeanVR](https://www.pcgamingwiki.com/wiki/?curid=62937)
 * [Bear Football](https://www.pcgamingwiki.com/wiki/?curid=66941)
 * [Bear Haven Nights](https://www.pcgamingwiki.com/wiki/?curid=44758)
