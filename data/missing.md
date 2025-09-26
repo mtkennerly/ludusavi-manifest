@@ -12950,7 +12950,7 @@
 * [Impulse!](https://www.pcgamingwiki.com/wiki/?curid=43712)
 * [Impulse: Space Combat](https://www.pcgamingwiki.com/wiki/?curid=63149)
 * [Impulsow](https://www.pcgamingwiki.com/wiki/?curid=125460)
-* [IMPUNES](https://www.pcgamingwiki.com/wiki/?curid=208948)
+* [Impunes](https://www.pcgamingwiki.com/wiki/?curid=208948)
 * [IMSCARED](https://www.pcgamingwiki.com/wiki/?curid=38091)
 * [In - Sight](https://www.pcgamingwiki.com/wiki/?curid=149317)
 * [In Blood](https://www.pcgamingwiki.com/wiki/?curid=142343)
