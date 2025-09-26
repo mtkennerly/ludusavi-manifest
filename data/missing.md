@@ -5005,7 +5005,6 @@
 * [Cloudlands: VR Minigolf](https://www.pcgamingwiki.com/wiki/?curid=34567)
 * [Cloudrift](https://www.pcgamingwiki.com/wiki/?curid=45834)
 * [Clover Tale](https://www.pcgamingwiki.com/wiki/?curid=33781)
-* [CloverPit](https://www.pcgamingwiki.com/wiki/?curid=207032)
 * [Clown House](https://www.pcgamingwiki.com/wiki/?curid=46743)
 * [Clown Thug Cop Zombies](https://www.pcgamingwiki.com/wiki/?curid=127271)
 * [Clown2Beat](https://www.pcgamingwiki.com/wiki/?curid=52377)
