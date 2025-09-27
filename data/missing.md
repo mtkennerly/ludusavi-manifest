@@ -8039,6 +8039,7 @@
 * [E.B.](https://www.pcgamingwiki.com/wiki/?curid=156236)
 * [E.T.: Interplanetary Mission](https://www.pcgamingwiki.com/wiki/?curid=192161)
 * [E3.14CENTER](https://www.pcgamingwiki.com/wiki/?curid=123460)
+* [EA Sports FC 26](https://www.pcgamingwiki.com/wiki/?curid=209029)
 * [EA Sports FC Online](https://www.pcgamingwiki.com/wiki/?curid=201118)
 * [Eared Hero](https://www.pcgamingwiki.com/wiki/?curid=88965)
 * [EARLY ACCESS CA$HGRAB](https://www.pcgamingwiki.com/wiki/?curid=142215)
