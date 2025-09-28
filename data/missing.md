@@ -15041,6 +15041,7 @@
 * [Loader](https://www.pcgamingwiki.com/wiki/?curid=91506)
 * [Loading](https://www.pcgamingwiki.com/wiki/?curid=68132)
 * [Loading Screen Simulator](https://www.pcgamingwiki.com/wiki/?curid=64829)
+* [Loadstar: The Legend of Tully Bodine](https://www.pcgamingwiki.com/wiki/?curid=209067)
 * [Loathe the game](https://www.pcgamingwiki.com/wiki/?curid=156841)
 * [Loathing Heart](https://www.pcgamingwiki.com/wiki/?curid=110672)
 * [Loca-Love My Commuting Crush](https://www.pcgamingwiki.com/wiki/?curid=141948)
