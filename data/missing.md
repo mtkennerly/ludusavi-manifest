@@ -16549,6 +16549,7 @@
 * [Mishap 2: An Intentional Haunting](https://www.pcgamingwiki.com/wiki/?curid=41019)
 * [Mishap: An Accidental Haunting](https://www.pcgamingwiki.com/wiki/?curid=41181)
 * [Miss Popularity](https://www.pcgamingwiki.com/wiki/?curid=56209)
+* [Miss Spider's Scavenger Hunt](https://www.pcgamingwiki.com/wiki/?curid=209085)
 * [Miss Spider's Tea Party](https://www.pcgamingwiki.com/wiki/?curid=208083)
 * [Misshapen](https://www.pcgamingwiki.com/wiki/?curid=157412)
 * [Missile Cards](https://www.pcgamingwiki.com/wiki/?curid=58463)
