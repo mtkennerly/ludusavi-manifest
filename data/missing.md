@@ -3300,6 +3300,7 @@
 * [Blood Trail](https://www.pcgamingwiki.com/wiki/?curid=130090)
 * [Blood Waves](https://www.pcgamingwiki.com/wiki/?curid=76219)
 * [Blood will be Spilled](https://www.pcgamingwiki.com/wiki/?curid=98672)
+* [Blood: Refreshed Supply](https://www.pcgamingwiki.com/wiki/?curid=209091)
 * [Bloodbath](https://www.pcgamingwiki.com/wiki/?curid=50061)
 * [BloodGate](https://www.pcgamingwiki.com/wiki/?curid=38504)
 * [Bloodgeon](https://www.pcgamingwiki.com/wiki/?curid=150158)
