@@ -8283,6 +8283,7 @@
 * [Elf Bowling: Hawaiian Vacation](https://www.pcgamingwiki.com/wiki/?curid=90849)
 * [Elf Epizode One](https://www.pcgamingwiki.com/wiki/?curid=125541)
 * [Elf-World (Three Kingdoms)](https://www.pcgamingwiki.com/wiki/?curid=65047)
+* [Eliminator](https://www.pcgamingwiki.com/wiki/?curid=209103)
 * [Eliosi's Hunt](https://www.pcgamingwiki.com/wiki/?curid=39701)
 * [Elisa: Seduce the Innkeeper](https://www.pcgamingwiki.com/wiki/?curid=70505)
 * [Elisa: The Innkeeper](https://www.pcgamingwiki.com/wiki/?curid=57807)
