@@ -12507,6 +12507,7 @@
 * [Houdini's Castle](https://www.pcgamingwiki.com/wiki/?curid=123440)
 * [Hounds: The Last Hope](https://www.pcgamingwiki.com/wiki/?curid=44798)
 * [Hourglass of Summer](https://www.pcgamingwiki.com/wiki/?curid=164703)
+* [House Builder](https://www.pcgamingwiki.com/wiki/?curid=209114)
 * [House Builder 2](https://www.pcgamingwiki.com/wiki/?curid=208802)
 * [House Dating VR: Cute Korean Girl, Sehyun](https://www.pcgamingwiki.com/wiki/?curid=73849)
 * [House Flipper City](https://www.pcgamingwiki.com/wiki/?curid=151541)
