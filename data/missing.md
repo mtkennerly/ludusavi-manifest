@@ -11845,6 +11845,7 @@
 * [Hello, World.](https://www.pcgamingwiki.com/wiki/?curid=134841)
 * [Hellphobia](https://www.pcgamingwiki.com/wiki/?curid=55841)
 * [Hellraid](https://www.pcgamingwiki.com/wiki/?curid=16053)
+* [Hellreaper](https://www.pcgamingwiki.com/wiki/?curid=209224)
 * [HellScape: Two Brothers](https://www.pcgamingwiki.com/wiki/?curid=156349)
 * [HELLSEED: Chapter 1](https://www.pcgamingwiki.com/wiki/?curid=157263)
 * [HellSign](https://www.pcgamingwiki.com/wiki/?curid=59695)
