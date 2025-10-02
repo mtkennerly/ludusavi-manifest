@@ -1,4 +1,3 @@
-* [(the) Gnorp Apologue](https://www.pcgamingwiki.com/wiki/?curid=192128)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
@@ -12,7 +11,6 @@
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
 * [Paper Trail](https://www.pcgamingwiki.com/wiki/?curid=185636)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
-* [Richard Scarry's Busytown (1999)](https://www.pcgamingwiki.com/wiki/?curid=159187)
 * [Sonic Heroes](https://www.pcgamingwiki.com/wiki/?curid=19831)
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
