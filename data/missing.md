@@ -17069,6 +17069,8 @@
 * [Mushihimesama](https://www.pcgamingwiki.com/wiki/?curid=37140)
 * [Mushroom Cats](https://www.pcgamingwiki.com/wiki/?curid=135323)
 * [Mushroom Heroes](https://www.pcgamingwiki.com/wiki/?curid=91870)
+* [Mushroom Hunter World](https://www.pcgamingwiki.com/wiki/?curid=209401)
+* [Mushroom Picker Simulator](https://www.pcgamingwiki.com/wiki/?curid=209402)
 * [Mushroom Rain](https://www.pcgamingwiki.com/wiki/?curid=110636)
 * [Mushroom Wars 2](https://www.pcgamingwiki.com/wiki/?curid=39418)
 * [Mushroom: The Ruckus](https://www.pcgamingwiki.com/wiki/?curid=92827)
