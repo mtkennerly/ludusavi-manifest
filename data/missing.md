@@ -7199,6 +7199,7 @@
 * [Disney Princess Majestic Quest](https://www.pcgamingwiki.com/wiki/?curid=166615)
 * [Disney Princess: Magical Dress-Up](https://www.pcgamingwiki.com/wiki/?curid=166643)
 * [Disney Princess: Royal Horse Show](https://www.pcgamingwiki.com/wiki/?curid=166680)
+* [Disney Sing It](https://www.pcgamingwiki.com/wiki/?curid=209422)
 * [Disney Solitaire](https://www.pcgamingwiki.com/wiki/?curid=170972)
 * [Disney Speedstorm](https://www.pcgamingwiki.com/wiki/?curid=179426)
 * [Disney SpellStruck](https://www.pcgamingwiki.com/wiki/?curid=198853)
