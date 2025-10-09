@@ -2679,6 +2679,7 @@
 * [Beach Resort Simulator](https://www.pcgamingwiki.com/wiki/?curid=49225)
 * [Beach Restaurant](https://www.pcgamingwiki.com/wiki/?curid=78591)
 * [Beach Rules](https://www.pcgamingwiki.com/wiki/?curid=79196)
+* [Beach Volley Hot Sports](https://www.pcgamingwiki.com/wiki/?curid=209515)
 * [Beached](https://www.pcgamingwiki.com/wiki/?curid=64443)
 * [Bead](https://www.pcgamingwiki.com/wiki/?curid=65023)
 * [Beak Squadron](https://www.pcgamingwiki.com/wiki/?curid=124044)
