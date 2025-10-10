@@ -1524,7 +1524,6 @@
 * [Ape Hit](https://www.pcgamingwiki.com/wiki/?curid=107798)
 * [Apewar](https://www.pcgamingwiki.com/wiki/?curid=186270)
 * [Apex](https://www.pcgamingwiki.com/wiki/?curid=74646)
-* [Apex Construct](https://www.pcgamingwiki.com/wiki/?curid=75667)
 * [Apex Tournament](https://www.pcgamingwiki.com/wiki/?curid=77198)
 * [Apez](https://www.pcgamingwiki.com/wiki/?curid=73453)
 * [Aphelion](https://www.pcgamingwiki.com/wiki/?curid=205293)
