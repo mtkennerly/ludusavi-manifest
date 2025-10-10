@@ -9919,6 +9919,7 @@
 * [Formicide](https://www.pcgamingwiki.com/wiki/?curid=41493)
 * [Formless Adventure](https://www.pcgamingwiki.com/wiki/?curid=65017)
 * [Formula Car Racing Simulator](https://www.pcgamingwiki.com/wiki/?curid=156310)
+* [Formula Challenge](https://www.pcgamingwiki.com/wiki/?curid=209553)
 * [Formula E powered by Virtually Live](https://www.pcgamingwiki.com/wiki/?curid=62647)
 * [Formula E: Grand Prix](https://www.pcgamingwiki.com/wiki/?curid=66689)
 * [Formula One 97](https://www.pcgamingwiki.com/wiki/?curid=77448)
