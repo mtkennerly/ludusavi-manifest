@@ -20222,7 +20222,6 @@
 * [Proximate](https://www.pcgamingwiki.com/wiki/?curid=206084)
 * [PROZE: Enlightenment](https://www.pcgamingwiki.com/wiki/?curid=110266)
 * [PROZE: Prologue](https://www.pcgamingwiki.com/wiki/?curid=107878)
-* [Prune](https://www.pcgamingwiki.com/wiki/?curid=187684)
 * [Pseudo Commando Heroic Revenge Fantasy](https://www.pcgamingwiki.com/wiki/?curid=127683)
 * [Psi 5 Trading Company](https://www.pcgamingwiki.com/wiki/?curid=165114)
 * [Psi Cards](https://www.pcgamingwiki.com/wiki/?curid=89371)
