@@ -7217,7 +7217,7 @@
 * [DISONANTE](https://www.pcgamingwiki.com/wiki/?curid=136393)
 * [Disparity](https://www.pcgamingwiki.com/wiki/?curid=89304)
 * [Dispatch](https://www.pcgamingwiki.com/wiki/?curid=157273)
-* [Dispatch (AdHoc)](https://www.pcgamingwiki.com/wiki/?curid=205211)
+* [Dispatch (2025)](https://www.pcgamingwiki.com/wiki/?curid=205211)
 * [Dispatcher: Revoke](https://www.pcgamingwiki.com/wiki/?curid=39065)
 * [Displace](https://www.pcgamingwiki.com/wiki/?curid=152880)
 * [Displaced](https://www.pcgamingwiki.com/wiki/?curid=60786)
