@@ -26711,6 +26711,7 @@
 * [The Last Wizard](https://www.pcgamingwiki.com/wiki/?curid=103729)
 * [The Last Worker](https://www.pcgamingwiki.com/wiki/?curid=171210)
 * [The Lattice Grimoire](https://www.pcgamingwiki.com/wiki/?curid=141438)
+* [The Lawnmower Man](https://www.pcgamingwiki.com/wiki/?curid=209696)
 * [The Legacy: Forgotten Gates](https://www.pcgamingwiki.com/wiki/?curid=67498)
 * [The Legacy: Prisoner](https://www.pcgamingwiki.com/wiki/?curid=96219)
 * [The Legend of Arcadieu](https://www.pcgamingwiki.com/wiki/?curid=153276)
