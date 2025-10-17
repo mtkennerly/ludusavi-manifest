@@ -7088,6 +7088,7 @@
 * [Diib's Dilemma](https://www.pcgamingwiki.com/wiki/?curid=42840)
 * [Diluvian Ultra: Awakening](https://www.pcgamingwiki.com/wiki/?curid=205639)
 * [Dima Rescues Ira](https://www.pcgamingwiki.com/wiki/?curid=74826)
+* [Dimaworld](https://www.pcgamingwiki.com/wiki/?curid=209742)
 * [Dimense: Chapter 1](https://www.pcgamingwiki.com/wiki/?curid=129967)
 * [Dimension Hunter](https://www.pcgamingwiki.com/wiki/?curid=56386)
 * [Dimension Jump](https://www.pcgamingwiki.com/wiki/?curid=54840)
