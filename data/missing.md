@@ -17478,6 +17478,7 @@
 * [Narwhal Heist](https://www.pcgamingwiki.com/wiki/?curid=130623)
 * [NARWHAR Project Hornwhale](https://www.pcgamingwiki.com/wiki/?curid=153370)
 * [NASCAR 2000](https://www.pcgamingwiki.com/wiki/?curid=22374)
+* [NASCAR 25](https://www.pcgamingwiki.com/wiki/?curid=209852)
 * [NASCAR Craftsman Truck Series Racing](https://www.pcgamingwiki.com/wiki/?curid=195626)
 * [NASCAR Legends](https://www.pcgamingwiki.com/wiki/?curid=189587)
 * [NASCAR Racers](https://www.pcgamingwiki.com/wiki/?curid=22371)
