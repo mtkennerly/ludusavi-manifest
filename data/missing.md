@@ -410,6 +410,7 @@
 * [A Stroke of Fate: Operation Bunker](https://www.pcgamingwiki.com/wiki/?curid=46749)
 * [A Stroke of Fate: Operation Valkyrie](https://www.pcgamingwiki.com/wiki/?curid=40870)
 * [A Study in Steampunk: Choice by Gaslight](https://www.pcgamingwiki.com/wiki/?curid=37327)
+* [A Summer's End: Hong Kong 1986](https://www.pcgamingwiki.com/wiki/?curid=209835)
 * [A Sun Of Salt](https://www.pcgamingwiki.com/wiki/?curid=108008)
 * [A Tale of Pirates: a Dummy Mutiny](https://www.pcgamingwiki.com/wiki/?curid=94519)
 * [A Time Paradox](https://www.pcgamingwiki.com/wiki/?curid=151377)
