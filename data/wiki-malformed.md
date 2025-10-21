@@ -2,6 +2,7 @@
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Days Gone](https://www.pcgamingwiki.com/wiki/?curid=166851)
 * [Dead Space 2](https://www.pcgamingwiki.com/wiki/?curid=2841)
+* [Dispatch (2025)](https://www.pcgamingwiki.com/wiki/?curid=205211)
 * [ELEX II](https://www.pcgamingwiki.com/wiki/?curid=169305)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [F.E.A.R.](https://www.pcgamingwiki.com/wiki/?curid=1345)
