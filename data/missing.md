@@ -26980,7 +26980,6 @@
 * [The Otherside: Realm of Eons](https://www.pcgamingwiki.com/wiki/?curid=41180)
 * [The Otterman Empire](https://www.pcgamingwiki.com/wiki/?curid=154152)
 * [The Outer Rim: Survivor](https://www.pcgamingwiki.com/wiki/?curid=90552)
-* [The Outer Worlds 2](https://www.pcgamingwiki.com/wiki/?curid=169262)
 * [The Outpost Nine: Episode 1](https://www.pcgamingwiki.com/wiki/?curid=100238)
 * [The Outsiders](https://www.pcgamingwiki.com/wiki/?curid=96521)
 * [The Pack](https://www.pcgamingwiki.com/wiki/?curid=125954)
