@@ -1189,6 +1189,7 @@
 * [Alvarok](https://www.pcgamingwiki.com/wiki/?curid=74502)
 * [Alvo](https://www.pcgamingwiki.com/wiki/?curid=75157)
 * [Alvora Tactics](https://www.pcgamingwiki.com/wiki/?curid=62799)
+* [Amanda the Adventurer 3](https://www.pcgamingwiki.com/wiki/?curid=210048)
 * [Amanda's Sticker Book](https://www.pcgamingwiki.com/wiki/?curid=124139)
 * [Amanda's Sticker Book 2 - Amazing Wildlife](https://www.pcgamingwiki.com/wiki/?curid=129639)
 * [Amaranthine Voyage: The Living Mountain](https://www.pcgamingwiki.com/wiki/?curid=63179)
