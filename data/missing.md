@@ -6280,7 +6280,6 @@
 * [Dark Maze 2](https://www.pcgamingwiki.com/wiki/?curid=95377)
 * [Dark Mechanism](https://www.pcgamingwiki.com/wiki/?curid=62016)
 * [Dark Miasma](https://www.pcgamingwiki.com/wiki/?curid=145073)
-* [Dark Moon](https://www.pcgamingwiki.com/wiki/?curid=157106)
 * [Dark Nebula VR](https://www.pcgamingwiki.com/wiki/?curid=113914)
 * [Dark Night](https://www.pcgamingwiki.com/wiki/?curid=45023)
 * [Dark Nights](https://www.pcgamingwiki.com/wiki/?curid=182773)
