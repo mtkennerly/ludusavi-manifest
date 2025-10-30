@@ -15,6 +15,7 @@
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
+* [Tekken 8](https://www.pcgamingwiki.com/wiki/?curid=182474)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)
 * [Włatcy móch: Battle Arena](https://www.pcgamingwiki.com/wiki/?curid=208018)
