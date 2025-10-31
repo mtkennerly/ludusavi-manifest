@@ -1906,7 +1906,6 @@
 * [Asterion](https://www.pcgamingwiki.com/wiki/?curid=122896)
 * [Asterism](https://www.pcgamingwiki.com/wiki/?curid=142259)
 * [Asterix & Obelix XXL 2: Mission: Las Vegum](https://www.pcgamingwiki.com/wiki/?curid=175914)
-* [Asterix & Obelix: Mission Babylon](https://www.pcgamingwiki.com/wiki/?curid=206568)
 * [Asterix: The Gallic War](https://www.pcgamingwiki.com/wiki/?curid=168583)
 * [Asterlode](https://www.pcgamingwiki.com/wiki/?curid=105133)
 * [Asteroid Babe](https://www.pcgamingwiki.com/wiki/?curid=93267)
