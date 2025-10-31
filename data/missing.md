@@ -1170,6 +1170,7 @@
 * [Alpha Locus VR](https://www.pcgamingwiki.com/wiki/?curid=76161)
 * [Alpha Mike Foxtrot](https://www.pcgamingwiki.com/wiki/?curid=70178)
 * [Alpha Mission II](https://www.pcgamingwiki.com/wiki/?curid=168740)
+* [Alpha Nomos](https://www.pcgamingwiki.com/wiki/?curid=210328)
 * [Alpha Runner](https://www.pcgamingwiki.com/wiki/?curid=46590)
 * [Alpha Waves](https://www.pcgamingwiki.com/wiki/?curid=208234)
 * [Alpha Zylon](https://www.pcgamingwiki.com/wiki/?curid=49933)
