@@ -6,7 +6,6 @@
 * [F.E.A.R.](https://www.pcgamingwiki.com/wiki/?curid=1345)
 * [Full Throttle](https://www.pcgamingwiki.com/wiki/?curid=72459)
 * [Karma: The Dark World](https://www.pcgamingwiki.com/wiki/?curid=201197)
-* [Kimagure Temptation](https://www.pcgamingwiki.com/wiki/?curid=174429)
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
 * [Paper Trail](https://www.pcgamingwiki.com/wiki/?curid=185636)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
