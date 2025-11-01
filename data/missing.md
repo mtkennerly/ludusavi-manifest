@@ -28730,6 +28730,7 @@
 * [Ultimate Demolition Derby](https://www.pcgamingwiki.com/wiki/?curid=88972)
 * [Ultimate Disc Golf](https://www.pcgamingwiki.com/wiki/?curid=155668)
 * [Ultimate Epic Battle Simulator](https://www.pcgamingwiki.com/wiki/?curid=61014)
+* [Ultimate Epic Battle Simulator 2](https://www.pcgamingwiki.com/wiki/?curid=210365)
 * [Ultimate Fight Manager 2016](https://www.pcgamingwiki.com/wiki/?curid=43320)
 * [Ultimate Fighters](https://www.pcgamingwiki.com/wiki/?curid=178224)
 * [Ultimate Fishing Simulator VR](https://www.pcgamingwiki.com/wiki/?curid=127868)
