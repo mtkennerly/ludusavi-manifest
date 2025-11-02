@@ -4996,6 +4996,7 @@
 * [ClickRaid](https://www.pcgamingwiki.com/wiki/?curid=65670)
 * [ClickRaid2](https://www.pcgamingwiki.com/wiki/?curid=141106)
 * [Cliff Hanger](https://www.pcgamingwiki.com/wiki/?curid=37008)
+* [Clifford the Big Red Dog: Thinking Adventures](https://www.pcgamingwiki.com/wiki/?curid=210391)
 * [Cliffs of War: Fortress Defenders](https://www.pcgamingwiki.com/wiki/?curid=45775)
 * [Cliffstone Manor](https://www.pcgamingwiki.com/wiki/?curid=72543)
 * [Climb](https://www.pcgamingwiki.com/wiki/?curid=98030)
