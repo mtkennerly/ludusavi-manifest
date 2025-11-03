@@ -16453,6 +16453,7 @@
 * [Miko Gakkou Monogatari: Kaede Episode](https://www.pcgamingwiki.com/wiki/?curid=45477)
 * [Miko Gakkou: Second Year](https://www.pcgamingwiki.com/wiki/?curid=49331)
 * [Miko Mole](https://www.pcgamingwiki.com/wiki/?curid=42926)
+* [Milano's Odd Job Collection](https://www.pcgamingwiki.com/wiki/?curid=210435)
 * [Milanoir](https://www.pcgamingwiki.com/wiki/?curid=63490)
 * [Mile High Taxi](https://www.pcgamingwiki.com/wiki/?curid=185419)
 * [MILF](https://www.pcgamingwiki.com/wiki/?curid=73815)
