@@ -32,6 +32,29 @@ Pathologic:
   # Pathologic 2 and Pathologic Classic HD are more readily available than the original,
   # so we streamline for the more common case.
   omit: true
+That One Otter Game:
+  cloud:
+    steam: false
+  installDir:
+    That One Otter Game: {}
+  launch:
+    "<base>/Windows/Otter.exe":
+      - when:
+          - os: windows
+            store: steam
+  files:
+    "<winLocalAppData>/Otter/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Otter/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3823460
 The Sims 2:
   files:
     "<winDocuments>/EA Games/Los Sims 2 Legado":
