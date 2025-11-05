@@ -2,6 +2,7 @@
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Dead Space 2](https://www.pcgamingwiki.com/wiki/?curid=2841)
+* [Devil May Cry HD Collection](https://www.pcgamingwiki.com/wiki/?curid=83070)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [F.E.A.R.](https://www.pcgamingwiki.com/wiki/?curid=1345)
 * [Full Throttle](https://www.pcgamingwiki.com/wiki/?curid=72459)
