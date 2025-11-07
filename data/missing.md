@@ -19095,6 +19095,7 @@
 * [Particula](https://www.pcgamingwiki.com/wiki/?curid=48811)
 * [Particulate](https://www.pcgamingwiki.com/wiki/?curid=153675)
 * [Partisan](https://www.pcgamingwiki.com/wiki/?curid=202436)
+* [Party Animals](https://www.pcgamingwiki.com/wiki/?curid=164205)
 * [Party Bingo](https://www.pcgamingwiki.com/wiki/?curid=134488)
 * [Party Down](https://www.pcgamingwiki.com/wiki/?curid=179405)
 * [Party Golf](https://www.pcgamingwiki.com/wiki/?curid=51463)
