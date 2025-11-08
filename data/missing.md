@@ -8515,6 +8515,7 @@
 * [Enemy Engaged 2: Desert Operations](https://www.pcgamingwiki.com/wiki/?curid=193547)
 * [Enemy Engaged: Apache vs Havoc](https://www.pcgamingwiki.com/wiki/?curid=7757)
 * [Enemy Engaged: RAH-66 Comanche versus Ka-52 Hokum](https://www.pcgamingwiki.com/wiki/?curid=7759)
+* [Enemy Infestation](https://www.pcgamingwiki.com/wiki/?curid=210695)
 * [Enemy Nations](https://www.pcgamingwiki.com/wiki/?curid=34651)
 * [Energia](https://www.pcgamingwiki.com/wiki/?curid=58025)
 * [Energy Hook](https://www.pcgamingwiki.com/wiki/?curid=42583)
