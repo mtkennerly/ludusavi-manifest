@@ -2090,6 +2090,7 @@
 * [Austerlitz](https://www.pcgamingwiki.com/wiki/?curid=149213)
 * [Austin Powers Operation: Trivia](https://www.pcgamingwiki.com/wiki/?curid=203470)
 * [Austin Powers Pinball](https://www.pcgamingwiki.com/wiki/?curid=175673)
+* [Australia Did It](https://www.pcgamingwiki.com/wiki/?curid=210727)
 * [Australian Football Coach 2020](https://www.pcgamingwiki.com/wiki/?curid=139442)
 * [Australian Road Trains](https://www.pcgamingwiki.com/wiki/?curid=139023)
 * [Australian Trip](https://www.pcgamingwiki.com/wiki/?curid=77289)
