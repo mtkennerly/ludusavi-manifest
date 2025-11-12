@@ -9,7 +9,6 @@
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
 * [Paper Trail](https://www.pcgamingwiki.com/wiki/?curid=185636)
 * [Party Animals](https://www.pcgamingwiki.com/wiki/?curid=164205)
-* [Peaceful Days](https://www.pcgamingwiki.com/wiki/?curid=151343)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Rome: Total War](https://www.pcgamingwiki.com/wiki/?curid=792)
 * [Sonic Heroes](https://www.pcgamingwiki.com/wiki/?curid=19831)
