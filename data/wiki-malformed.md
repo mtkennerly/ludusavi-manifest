@@ -20,6 +20,7 @@
 * [Tekken 8](https://www.pcgamingwiki.com/wiki/?curid=182474)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [TOCA Touring Car Championship](https://www.pcgamingwiki.com/wiki/?curid=63897)
+* [Tom Clancy's Splinter Cell: Chaos Theory](https://www.pcgamingwiki.com/wiki/?curid=1391)
 * [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)
 * [Włatcy móch: Battle Arena](https://www.pcgamingwiki.com/wiki/?curid=208018)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
