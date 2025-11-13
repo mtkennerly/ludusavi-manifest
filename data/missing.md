@@ -22872,7 +22872,6 @@
 * [Shepherds of the Abyss](https://www.pcgamingwiki.com/wiki/?curid=35148)
 * [Sherlock Holmes Consulting Detective: The Case of the Mummy's Curse](https://www.pcgamingwiki.com/wiki/?curid=47583)
 * [Sherlock Holmes Consulting Detective: The Case of the Tin Soldier](https://www.pcgamingwiki.com/wiki/?curid=47579)
-* [Sherlock Holmes: Nemesis](https://www.pcgamingwiki.com/wiki/?curid=147448)
 * [Sherlock Holmes: The Awakened](https://www.pcgamingwiki.com/wiki/?curid=147443)
 * [Sherlock Holmes: The Mystery of the Persian Carpet](https://www.pcgamingwiki.com/wiki/?curid=61180)
 * [Sherlock Holmes: Trap for the Hunter](https://www.pcgamingwiki.com/wiki/?curid=88162)
