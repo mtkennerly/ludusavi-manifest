@@ -16,6 +16,7 @@
 * [Spooky's Jump Scare Mansion: HD Renovation](https://www.pcgamingwiki.com/wiki/?curid=57683)
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
+* [System Shock (2023)](https://www.pcgamingwiki.com/wiki/?curid=35013)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
 * [TOCA Touring Car Championship](https://www.pcgamingwiki.com/wiki/?curid=63897)
 * [Tom Clancy's Splinter Cell: Chaos Theory](https://www.pcgamingwiki.com/wiki/?curid=1391)
