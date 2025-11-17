@@ -24884,7 +24884,6 @@
 * [Struggle](https://www.pcgamingwiki.com/wiki/?curid=149231)
 * [Struggle For Light](https://www.pcgamingwiki.com/wiki/?curid=98780)
 * [Struggle for Survival VR](https://www.pcgamingwiki.com/wiki/?curid=91916)
-* [Stuart Little 2](https://www.pcgamingwiki.com/wiki/?curid=207491)
 * [Study of Unusual: Forest of Secrets](https://www.pcgamingwiki.com/wiki/?curid=103077)
 * [STUMPER](https://www.pcgamingwiki.com/wiki/?curid=134648)
 * [Stunt Corgi VR](https://www.pcgamingwiki.com/wiki/?curid=78649)
