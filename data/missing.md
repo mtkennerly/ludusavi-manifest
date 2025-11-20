@@ -326,6 +326,7 @@
 * [A Fine Mess](https://www.pcgamingwiki.com/wiki/?curid=82766)
 * [A five-day tour in the morgue](https://www.pcgamingwiki.com/wiki/?curid=134586)
 * [A Flappy Bird in Real Life](https://www.pcgamingwiki.com/wiki/?curid=121169)
+* [A Fork in the Tale](https://www.pcgamingwiki.com/wiki/?curid=211104)
 * [A Front Too Far: Normandy](https://www.pcgamingwiki.com/wiki/?curid=122500)
 * [A Game About](https://www.pcgamingwiki.com/wiki/?curid=120945)
 * [A Game For You, Josh](https://www.pcgamingwiki.com/wiki/?curid=132304)
