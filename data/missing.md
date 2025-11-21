@@ -1732,6 +1732,7 @@
 * [Armada Skies](https://www.pcgamingwiki.com/wiki/?curid=80895)
 * [Armada: Modern Tanks](https://www.pcgamingwiki.com/wiki/?curid=82286)
 * [Armadusa](https://www.pcgamingwiki.com/wiki/?curid=136550)
+* [Armatus](https://www.pcgamingwiki.com/wiki/?curid=211135)
 * [Armed Against the Undead](https://www.pcgamingwiki.com/wiki/?curid=35252)
 * [Armed Fantasia: To the End of the Wilderness](https://www.pcgamingwiki.com/wiki/?curid=185976)
 * [Armed Warrior VR](https://www.pcgamingwiki.com/wiki/?curid=73875)
