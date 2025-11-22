@@ -24659,7 +24659,7 @@
 * [Steel Thunder](https://www.pcgamingwiki.com/wiki/?curid=165140)
 * [Stefanos Sizzling Pizza Pie](https://www.pcgamingwiki.com/wiki/?curid=98796)
 * [Stein.world](https://www.pcgamingwiki.com/wiki/?curid=132639)
-* [STEINS;GATE RE:BOOT](https://www.pcgamingwiki.com/wiki/?curid=207724)
+* [Steins;Gate Re:Boot](https://www.pcgamingwiki.com/wiki/?curid=207724)
 * [Steins;Gate: Variant Space Octet](https://www.pcgamingwiki.com/wiki/?curid=207735)
 * [Stellaluna](https://www.pcgamingwiki.com/wiki/?curid=186460)
 * [Stellar 2D](https://www.pcgamingwiki.com/wiki/?curid=47069)
