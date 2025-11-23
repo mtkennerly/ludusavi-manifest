@@ -1,4 +1,5 @@
 * [7554: Glorious Memories Revived](https://www.pcgamingwiki.com/wiki/?curid=162011)
+* [Barbie: Project Friendship](https://www.pcgamingwiki.com/wiki/?curid=205520)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [Dead Space 2](https://www.pcgamingwiki.com/wiki/?curid=2841)
