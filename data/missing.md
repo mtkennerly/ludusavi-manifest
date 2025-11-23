@@ -378,7 +378,6 @@
 * [A Night at the Watermill](https://www.pcgamingwiki.com/wiki/?curid=192892)
 * [A night with Natalie](https://www.pcgamingwiki.com/wiki/?curid=146046)
 * [A night with Natalie VR](https://www.pcgamingwiki.com/wiki/?curid=146085)
-* [A Night With: Neighbor](https://www.pcgamingwiki.com/wiki/?curid=209788)
 * [A Nightmare on Elm Street](https://www.pcgamingwiki.com/wiki/?curid=203858)
 * [A NIGHTMARE'S TRIP](https://www.pcgamingwiki.com/wiki/?curid=149101)
 * [A Nova Califórnia](https://www.pcgamingwiki.com/wiki/?curid=70379)
