@@ -18364,7 +18364,6 @@
 * [Odyssey - The Story of Science](https://www.pcgamingwiki.com/wiki/?curid=58316)
 * [Odyssey Reborn](https://www.pcgamingwiki.com/wiki/?curid=86825)
 * [Odyssey VR: The Deep Space Expedition](https://www.pcgamingwiki.com/wiki/?curid=76002)
-* [Of Ash and Steel](https://www.pcgamingwiki.com/wiki/?curid=200287)
 * [Of Kings And Men](https://www.pcgamingwiki.com/wiki/?curid=36792)
 * [Of Light and Darkness](https://www.pcgamingwiki.com/wiki/?curid=58314)
 * [Of Love And Sorrow](https://www.pcgamingwiki.com/wiki/?curid=41755)
