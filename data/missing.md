@@ -20263,7 +20263,6 @@
 * [Project MIKHAIL: A Muv-Luv War Story](https://www.pcgamingwiki.com/wiki/?curid=173976)
 * [Project Mist](https://www.pcgamingwiki.com/wiki/?curid=198441)
 * [Project Mix](https://www.pcgamingwiki.com/wiki/?curid=201295)
-* [Project Motor Racing](https://www.pcgamingwiki.com/wiki/?curid=205859)
 * [Project Myriad](https://www.pcgamingwiki.com/wiki/?curid=91931)
 * [Project Night](https://www.pcgamingwiki.com/wiki/?curid=60433)
 * [Project Nightmares Case 36: Henrietta Kedward](https://www.pcgamingwiki.com/wiki/?curid=96089)
