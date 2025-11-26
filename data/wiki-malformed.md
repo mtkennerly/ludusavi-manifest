@@ -19,7 +19,6 @@
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [System Shock (2023)](https://www.pcgamingwiki.com/wiki/?curid=35013)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
-* [TOCA Touring Car Championship](https://www.pcgamingwiki.com/wiki/?curid=63897)
 * [Together We Live](https://www.pcgamingwiki.com/wiki/?curid=76309)
 * [Unreal Tournament 2004](https://www.pcgamingwiki.com/wiki/?curid=1551)
 * [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)
