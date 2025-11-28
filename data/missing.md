@@ -7741,7 +7741,6 @@
 * [Draw Your Game](https://www.pcgamingwiki.com/wiki/?curid=66454)
 * [Drawer](https://www.pcgamingwiki.com/wiki/?curid=181428)
 * [Drawing Path](https://www.pcgamingwiki.com/wiki/?curid=138847)
-* [Drawn Down](https://www.pcgamingwiki.com/wiki/?curid=135673)
 * [Drawn Down Abyss](https://www.pcgamingwiki.com/wiki/?curid=149246)
 * [Drawn Story](https://www.pcgamingwiki.com/wiki/?curid=44657)
 * [Drawn: Dark Flight](https://www.pcgamingwiki.com/wiki/?curid=44912)
