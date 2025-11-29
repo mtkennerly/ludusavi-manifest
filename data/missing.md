@@ -4528,6 +4528,7 @@
 * [CGENcore](https://www.pcgamingwiki.com/wiki/?curid=137236)
 * [Chai](https://www.pcgamingwiki.com/wiki/?curid=188746)
 * [Chain of Command](https://www.pcgamingwiki.com/wiki/?curid=211432)
+* [Chain of Command: Eastern Front](https://www.pcgamingwiki.com/wiki/?curid=211435)
 * [Chain Reaction : Sexy Hentai Girls](https://www.pcgamingwiki.com/wiki/?curid=146016)
 * [CHAIN SAW](https://www.pcgamingwiki.com/wiki/?curid=138906)
 * [Chained: A Victorian Nightmare](https://www.pcgamingwiki.com/wiki/?curid=153774)
