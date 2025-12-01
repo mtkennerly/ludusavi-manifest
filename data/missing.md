@@ -1016,6 +1016,7 @@
 * [Aleesha's Tower](https://www.pcgamingwiki.com/wiki/?curid=144618)
 * [Aleph Null](https://www.pcgamingwiki.com/wiki/?curid=41607)
 * [Ales Dash](https://www.pcgamingwiki.com/wiki/?curid=95403)
+* [Alessia's Dollhouse](https://www.pcgamingwiki.com/wiki/?curid=211522)
 * [Alexa's Wild Night](https://www.pcgamingwiki.com/wiki/?curid=76299)
 * [Alexander](https://www.pcgamingwiki.com/wiki/?curid=89017)
 * [Alexia Crow and the Cave of Heroes](https://www.pcgamingwiki.com/wiki/?curid=48012)
