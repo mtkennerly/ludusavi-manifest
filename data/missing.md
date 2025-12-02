@@ -8555,6 +8555,7 @@
 * [EnHanced](https://www.pcgamingwiki.com/wiki/?curid=120808)
 * [Enigma Prison](https://www.pcgamingwiki.com/wiki/?curid=39654)
 * [Enigma Sphere: Enhanced Edition](https://www.pcgamingwiki.com/wiki/?curid=59373)
+* [Enigma: Rising Tide](https://www.pcgamingwiki.com/wiki/?curid=211560)
 * [ENKI](https://www.pcgamingwiki.com/wiki/?curid=47033)
 * [Enlysia](https://www.pcgamingwiki.com/wiki/?curid=65033)
 * [Enoch: Underground](https://www.pcgamingwiki.com/wiki/?curid=69743)
