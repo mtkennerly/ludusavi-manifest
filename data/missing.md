@@ -6838,6 +6838,7 @@
 * [Delve Deeper](https://www.pcgamingwiki.com/wiki/?curid=41090)
 * [Demented](https://www.pcgamingwiki.com/wiki/?curid=45589)
 * [Demented Pixie](https://www.pcgamingwiki.com/wiki/?curid=54371)
+* [Demeo x Dungeons & Dragons: Battlemarked](https://www.pcgamingwiki.com/wiki/?curid=211581)
 * [Demesne](https://www.pcgamingwiki.com/wiki/?curid=44165)
 * [Demigods](https://www.pcgamingwiki.com/wiki/?curid=46064)
 * [Demise: Rise of the Ku'tan](https://www.pcgamingwiki.com/wiki/?curid=183322)
