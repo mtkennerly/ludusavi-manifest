@@ -5,6 +5,7 @@
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [F.E.A.R.](https://www.pcgamingwiki.com/wiki/?curid=1345)
 * [Full Throttle](https://www.pcgamingwiki.com/wiki/?curid=72459)
+* [House Flipper](https://www.pcgamingwiki.com/wiki/?curid=59862)
 * [Karma: The Dark World](https://www.pcgamingwiki.com/wiki/?curid=201197)
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
