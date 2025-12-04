@@ -4992,7 +4992,6 @@
 * [Clean VR](https://www.pcgamingwiki.com/wiki/?curid=136601)
 * [Cleaner](https://www.pcgamingwiki.com/wiki/?curid=138558)
 * [Cleansuit](https://www.pcgamingwiki.com/wiki/?curid=74235)
-* [Cleared Hot](https://www.pcgamingwiki.com/wiki/?curid=205488)
 * [ClearIt5](https://www.pcgamingwiki.com/wiki/?curid=143889)
 * [Clergyman](https://www.pcgamingwiki.com/wiki/?curid=82004)
 * [Cliché - Critical Change](https://www.pcgamingwiki.com/wiki/?curid=125956)
