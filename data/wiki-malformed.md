@@ -13,5 +13,6 @@
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
+* [The Walking Dead: Saints & Sinners - Chapter 2: Retribution](https://www.pcgamingwiki.com/wiki/?curid=181805)
 * [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)
 * [Zone of the Enders: The 2nd Runner MARS](https://www.pcgamingwiki.com/wiki/?curid=90671)
