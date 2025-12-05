@@ -6,6 +6,7 @@
 * [F.E.A.R.](https://www.pcgamingwiki.com/wiki/?curid=1345)
 * [Full Throttle](https://www.pcgamingwiki.com/wiki/?curid=72459)
 * [Karma: The Dark World](https://www.pcgamingwiki.com/wiki/?curid=201197)
+* [Metal Gear Solid 2: Sons of Liberty - Master Collection Version](https://www.pcgamingwiki.com/wiki/?curid=188384)
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Sonic Heroes](https://www.pcgamingwiki.com/wiki/?curid=19831)
