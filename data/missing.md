@@ -6261,6 +6261,7 @@
 * [Dark Asylum: Mystery Adventure](https://www.pcgamingwiki.com/wiki/?curid=112284)
 * [Dark Blood](https://www.pcgamingwiki.com/wiki/?curid=136527)
 * [Dark Burial](https://www.pcgamingwiki.com/wiki/?curid=135273)
+* [Dark Cage 1: Reincarnation For Salvation](https://www.pcgamingwiki.com/wiki/?curid=211761)
 * [Dark Canvas: A Brush With Death](https://www.pcgamingwiki.com/wiki/?curid=59283)
 * [Dark Canvas: A Murder Exposed](https://www.pcgamingwiki.com/wiki/?curid=90146)
 * [Dark Canvas: Blood and Stone](https://www.pcgamingwiki.com/wiki/?curid=72708)
