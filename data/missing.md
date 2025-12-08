@@ -2063,6 +2063,7 @@
 * [Atulos Online](https://www.pcgamingwiki.com/wiki/?curid=43255)
 * [ATV Drift & Tricks](https://www.pcgamingwiki.com/wiki/?curid=75053)
 * [ATV GP](https://www.pcgamingwiki.com/wiki/?curid=47321)
+* [ATV Mudracer](https://www.pcgamingwiki.com/wiki/?curid=211788)
 * [ATV Simulator VR](https://www.pcgamingwiki.com/wiki/?curid=89397)
 * [Au fil de l'eau](https://www.pcgamingwiki.com/wiki/?curid=148503)
 * [Audio Arena](https://www.pcgamingwiki.com/wiki/?curid=42103)
