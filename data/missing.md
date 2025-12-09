@@ -24976,6 +24976,7 @@
 * [Styx: Blades of Greed](https://www.pcgamingwiki.com/wiki/?curid=202061)
 * [SU and the Quest for Meaning](https://www.pcgamingwiki.com/wiki/?curid=58854)
 * [Su Hack](https://www.pcgamingwiki.com/wiki/?curid=121029)
+* [Su-27 Flanker](https://www.pcgamingwiki.com/wiki/?curid=211843)
 * [Sub Chase Online](https://www.pcgamingwiki.com/wiki/?curid=145201)
 * [Sub Culture](https://www.pcgamingwiki.com/wiki/?curid=157635)
 * [SUB FOUR -the uncle-](https://www.pcgamingwiki.com/wiki/?curid=114508)
