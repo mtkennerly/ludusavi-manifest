@@ -26394,6 +26394,7 @@
 * [The Darkest Woods](https://www.pcgamingwiki.com/wiki/?curid=99416)
 * [The Darkest Woods 2](https://www.pcgamingwiki.com/wiki/?curid=121918)
 * [The Darkness](https://www.pcgamingwiki.com/wiki/?curid=78491)
+* [The Darkside Detective: Backside of the Moon](https://www.pcgamingwiki.com/wiki/?curid=211863)
 * [The Dawn: First War](https://www.pcgamingwiki.com/wiki/?curid=55811)
 * [The Day After: Origins](https://www.pcgamingwiki.com/wiki/?curid=77108)
 * [The Day Before](https://www.pcgamingwiki.com/wiki/?curid=166586)
