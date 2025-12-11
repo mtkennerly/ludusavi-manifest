@@ -28910,6 +28910,7 @@
 * [Ultimate Rivals: The Rink](https://www.pcgamingwiki.com/wiki/?curid=154627)
 * [Ultimate Rock Crawler](https://www.pcgamingwiki.com/wiki/?curid=44836)
 * [Ultimate Russian Zombie Rush](https://www.pcgamingwiki.com/wiki/?curid=57119)
+* [Ultimate Sheep Raccoon](https://www.pcgamingwiki.com/wiki/?curid=211909)
 * [Ultimate Shotgun Championship](https://www.pcgamingwiki.com/wiki/?curid=135036)
 * [Ultimate Solid](https://www.pcgamingwiki.com/wiki/?curid=52235)
 * [Ultimate Spider Hero](https://www.pcgamingwiki.com/wiki/?curid=80515)
