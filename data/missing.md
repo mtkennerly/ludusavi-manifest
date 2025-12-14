@@ -6266,6 +6266,7 @@
 * [Dark Alley Elf](https://www.pcgamingwiki.com/wiki/?curid=184883)
 * [Dark and Bright](https://www.pcgamingwiki.com/wiki/?curid=66136)
 * [Dark Angels: Masquerade of Shadows](https://www.pcgamingwiki.com/wiki/?curid=56916)
+* [Dark Angæl](https://www.pcgamingwiki.com/wiki/?curid=212065)
 * [Dark Apes: The Fate of Devolution](https://www.pcgamingwiki.com/wiki/?curid=203930)
 * [Dark Arcana: The Carnival](https://www.pcgamingwiki.com/wiki/?curid=37957)
 * [Dark Arena](https://www.pcgamingwiki.com/wiki/?curid=200233)
