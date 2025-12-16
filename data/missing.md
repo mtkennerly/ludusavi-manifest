@@ -17404,6 +17404,7 @@
 * [My Safe House](https://www.pcgamingwiki.com/wiki/?curid=92099)
 * [My Secret Pets!](https://www.pcgamingwiki.com/wiki/?curid=43097)
 * [My servant and the stranger Astensia](https://www.pcgamingwiki.com/wiki/?curid=155971)
+* [My Sexy Neighbour 2](https://www.pcgamingwiki.com/wiki/?curid=212117)
 * [My Singing Monsters](https://www.pcgamingwiki.com/wiki/?curid=182969)
 * [My Sister's Discipline Log](https://www.pcgamingwiki.com/wiki/?curid=70525)
 * [My Stepmom is a Futanari](https://www.pcgamingwiki.com/wiki/?curid=172987)
