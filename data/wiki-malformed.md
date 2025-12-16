@@ -15,6 +15,7 @@
 * [Star Wars: Rogue Squadron 3D](https://www.pcgamingwiki.com/wiki/?curid=2219)
 * [Street Legal](https://www.pcgamingwiki.com/wiki/?curid=76838)
 * [The First Templar](https://www.pcgamingwiki.com/wiki/?curid=40982)
+* [The Hundred Line -Last Defense Academy-](https://www.pcgamingwiki.com/wiki/?curid=201641)
 * [The Walking Dead: Saints & Sinners - Chapter 2: Retribution](https://www.pcgamingwiki.com/wiki/?curid=181805)
 * [Virus: The Game](https://www.pcgamingwiki.com/wiki/?curid=21273)
 * [Voidtrain](https://www.pcgamingwiki.com/wiki/?curid=151455)
