@@ -23639,7 +23639,6 @@
 * [Snake Core](https://www.pcgamingwiki.com/wiki/?curid=202725)
 * [Snake Couple](https://www.pcgamingwiki.com/wiki/?curid=99966)
 * [Snake Cubed](https://www.pcgamingwiki.com/wiki/?curid=51758)
-* [Snake Eyes Dungeon](https://www.pcgamingwiki.com/wiki/?curid=78268)
 * [Snake Treasure Chest](https://www.pcgamingwiki.com/wiki/?curid=72956)
 * [Snake VR](https://www.pcgamingwiki.com/wiki/?curid=113842)
 * [Snake VS Block Numbers](https://www.pcgamingwiki.com/wiki/?curid=124143)
