@@ -2990,7 +2990,6 @@
 * [BingoBango](https://www.pcgamingwiki.com/wiki/?curid=107740)
 * [Binky show](https://www.pcgamingwiki.com/wiki/?curid=150570)
 * [Bio Crisis: Evil Hazard](https://www.pcgamingwiki.com/wiki/?curid=177392)
-* [Bio Menace Remastered](https://www.pcgamingwiki.com/wiki/?curid=203357)
 * [Bio Soup](https://www.pcgamingwiki.com/wiki/?curid=72690)
 * [BioCrisis: Return 2 The Lab](https://www.pcgamingwiki.com/wiki/?curid=209716)
 * [Biodigital](https://www.pcgamingwiki.com/wiki/?curid=110214)
