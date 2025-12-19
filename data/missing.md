@@ -11308,6 +11308,7 @@
 * [Gremlin Invasion: Survivor](https://www.pcgamingwiki.com/wiki/?curid=48028)
 * [Gremlins 2: The New Batch (1991)](https://www.pcgamingwiki.com/wiki/?curid=194054)
 * [Grenade Madness](https://www.pcgamingwiki.com/wiki/?curid=43588)
+* [Gretel & Hansel](https://www.pcgamingwiki.com/wiki/?curid=212215)
 * [Grey Cubes](https://www.pcgamingwiki.com/wiki/?curid=38085)
 * [Grey Hack](https://www.pcgamingwiki.com/wiki/?curid=77908)
 * [Grey Phobia](https://www.pcgamingwiki.com/wiki/?curid=36916)
