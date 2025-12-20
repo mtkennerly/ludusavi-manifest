@@ -2460,6 +2460,8 @@
 * [Barkour](https://www.pcgamingwiki.com/wiki/?curid=210951)
 * [Barnyard Mahjong 3](https://www.pcgamingwiki.com/wiki/?curid=41988)
 * [Baron Wittard: Nemesis of Ragnarok](https://www.pcgamingwiki.com/wiki/?curid=50377)
+* [Baroque Shooting](https://www.pcgamingwiki.com/wiki/?curid=212231)
+* [BAROQUE ~ Become a Meta-Being ~ Revive](https://www.pcgamingwiki.com/wiki/?curid=212233)
 * [Barrage](https://www.pcgamingwiki.com/wiki/?curid=91921)
 * [Barrel Time Deluxe](https://www.pcgamingwiki.com/wiki/?curid=93841)
 * [Barrels Up](https://www.pcgamingwiki.com/wiki/?curid=75473)
