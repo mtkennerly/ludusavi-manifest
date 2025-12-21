@@ -14311,6 +14311,7 @@
 * [King Graham's Board Game Challenge](https://www.pcgamingwiki.com/wiki/?curid=147337)
 * [King Machine](https://www.pcgamingwiki.com/wiki/?curid=51879)
 * [King of Bali](https://www.pcgamingwiki.com/wiki/?curid=65618)
+* [King of Clubs](https://www.pcgamingwiki.com/wiki/?curid=212292)
 * [King of Crowns Chess Online](https://www.pcgamingwiki.com/wiki/?curid=73526)
 * [King of Dirt](https://www.pcgamingwiki.com/wiki/?curid=58519)
 * [King of Dragon Balls](https://www.pcgamingwiki.com/wiki/?curid=141685)
