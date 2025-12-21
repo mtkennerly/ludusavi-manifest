@@ -4659,6 +4659,7 @@
 * [Cheesecake Cool Conrad](https://www.pcgamingwiki.com/wiki/?curid=49536)
 * [ChefSquad](https://www.pcgamingwiki.com/wiki/?curid=175589)
 * [ChefU](https://www.pcgamingwiki.com/wiki/?curid=68390)
+* [Cheggers Party Quiz](https://www.pcgamingwiki.com/wiki/?curid=212290)
 * [Cheitha](https://www.pcgamingwiki.com/wiki/?curid=87379)
 * [ChemCaper: Act I - Petticles in Peril](https://www.pcgamingwiki.com/wiki/?curid=75421)
 * [Chemical Chimpet](https://www.pcgamingwiki.com/wiki/?curid=155927)
