@@ -22754,7 +22754,6 @@
 * [Seeking Dawn: Free to Play Edition](https://www.pcgamingwiki.com/wiki/?curid=121123)
 * [Seeking Evil: The Wendigo](https://www.pcgamingwiki.com/wiki/?curid=60309)
 * [Seen](https://www.pcgamingwiki.com/wiki/?curid=135523)
-* [Sega Bass Fishing](https://www.pcgamingwiki.com/wiki/?curid=180897)
 * [Sega Memorial Selection](https://www.pcgamingwiki.com/wiki/?curid=211365)
 * [Sega Puzzle Pack](https://www.pcgamingwiki.com/wiki/?curid=192367)
 * [Sega Smash Pack](https://www.pcgamingwiki.com/wiki/?curid=192365)
