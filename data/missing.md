@@ -7524,6 +7524,7 @@
 * [Donjon Defense](https://www.pcgamingwiki.com/wiki/?curid=77938)
 * [Donkey Kong](https://www.pcgamingwiki.com/wiki/?curid=152480)
 * [Donkey Kong: Redux](https://www.pcgamingwiki.com/wiki/?curid=200596)
+* [Donkey Xote](https://www.pcgamingwiki.com/wiki/?curid=212325)
 * [Dontbegrey](https://www.pcgamingwiki.com/wiki/?curid=66462)
 * [Donut Adventure](https://www.pcgamingwiki.com/wiki/?curid=192602)
 * [Donut Distraction](https://www.pcgamingwiki.com/wiki/?curid=62489)
