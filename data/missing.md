@@ -15176,6 +15176,7 @@
 * [Links LS: 1998 Edition](https://www.pcgamingwiki.com/wiki/?curid=169419)
 * [Links: The Challenge of Golf](https://www.pcgamingwiki.com/wiki/?curid=27749)
 * [Linx Battle Arena](https://www.pcgamingwiki.com/wiki/?curid=72088)
+* [Lion](https://www.pcgamingwiki.com/wiki/?curid=212367)
 * [Lionel Trains Presents: Trans-Con!](https://www.pcgamingwiki.com/wiki/?curid=201293)
 * [Liquid Space](https://www.pcgamingwiki.com/wiki/?curid=153472)
 * [Liquidator](https://www.pcgamingwiki.com/wiki/?curid=89274)
