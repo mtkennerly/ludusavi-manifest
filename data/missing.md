@@ -13874,7 +13874,6 @@
 * [Jorji and Impossible Forest](https://www.pcgamingwiki.com/wiki/?curid=99656)
 * [Joshua and the Battle of Jericho](https://www.pcgamingwiki.com/wiki/?curid=74374)
 * [Josie's Tank](https://www.pcgamingwiki.com/wiki/?curid=149594)
-* [Jotunnslayer: Hordes of Hel](https://www.pcgamingwiki.com/wiki/?curid=201012)
 * [Joumee the Hedgehog](https://www.pcgamingwiki.com/wiki/?curid=76382)
 * [Journalism class](https://www.pcgamingwiki.com/wiki/?curid=104801)
 * [Journalism class: PART 2](https://www.pcgamingwiki.com/wiki/?curid=110528)
