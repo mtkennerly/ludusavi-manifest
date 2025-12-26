@@ -27815,6 +27815,7 @@
 * [Thick Light 2](https://www.pcgamingwiki.com/wiki/?curid=110788)
 * [Thick Light 3](https://www.pcgamingwiki.com/wiki/?curid=124137)
 * [Thief & Sword: Another Stories](https://www.pcgamingwiki.com/wiki/?curid=203700)
+* [Thief Simulator 3](https://www.pcgamingwiki.com/wiki/?curid=212374)
 * [Thief Town](https://www.pcgamingwiki.com/wiki/?curid=49183)
 * [Thievery](https://www.pcgamingwiki.com/wiki/?curid=99978)
 * [Thieves' Gambit: The Curse of the Black Cat](https://www.pcgamingwiki.com/wiki/?curid=49488)
