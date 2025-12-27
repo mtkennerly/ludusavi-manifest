@@ -31205,7 +31205,7 @@
 * [Zero Gunner 2-](https://www.pcgamingwiki.com/wiki/?curid=169028)
 * [Zero Hour: America's Medic](https://www.pcgamingwiki.com/wiki/?curid=201970)
 * [Zero Killed](https://www.pcgamingwiki.com/wiki/?curid=64339)
-* [Zero Parades](https://www.pcgamingwiki.com/wiki/?curid=207253)
+* [Zero Parades: For Dead Spies](https://www.pcgamingwiki.com/wiki/?curid=207253)
 * [Zero Point](https://www.pcgamingwiki.com/wiki/?curid=49434)
 * [Zero Reflex: Black Eye Edition](https://www.pcgamingwiki.com/wiki/?curid=45755)
 * [ZERO Sievert](https://www.pcgamingwiki.com/wiki/?curid=182762)
