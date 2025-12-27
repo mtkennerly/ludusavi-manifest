@@ -26943,6 +26943,7 @@
 * [The Last Elixir](https://www.pcgamingwiki.com/wiki/?curid=211905)
 * [The Last Error](https://www.pcgamingwiki.com/wiki/?curid=42487)
 * [The Last Escape of Yeti](https://www.pcgamingwiki.com/wiki/?curid=139133)
+* [The Last Exterminator](https://www.pcgamingwiki.com/wiki/?curid=212391)
 * [The Last Friend](https://www.pcgamingwiki.com/wiki/?curid=122764)
 * [The Last General](https://www.pcgamingwiki.com/wiki/?curid=205213)
 * [The Last Hero](https://www.pcgamingwiki.com/wiki/?curid=87099)
