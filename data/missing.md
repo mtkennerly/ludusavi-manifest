@@ -21646,7 +21646,6 @@
 * [RIP 3: The Last Hero](https://www.pcgamingwiki.com/wiki/?curid=36464)
 * [Ripley's Believe It or Not!: The Riddle of Master Lu](https://www.pcgamingwiki.com/wiki/?curid=147598)
 * [Ripped Pants at Work](https://www.pcgamingwiki.com/wiki/?curid=77327)
-* [RippleIsland Kyle and Cal’s Restaurant](https://www.pcgamingwiki.com/wiki/?curid=209338)
 * [Riptide GP](https://www.pcgamingwiki.com/wiki/?curid=138521)
 * [Riscord](https://www.pcgamingwiki.com/wiki/?curid=128726)
 * [Rise (Creative Assembly)](https://www.pcgamingwiki.com/wiki/?curid=42075)
