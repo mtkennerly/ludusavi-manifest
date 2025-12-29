@@ -3,7 +3,6 @@
 * [Dead Space 2](https://www.pcgamingwiki.com/wiki/?curid=2841)
 * [Escape from Tarkov](https://www.pcgamingwiki.com/wiki/?curid=75944)
 * [F.E.A.R.](https://www.pcgamingwiki.com/wiki/?curid=1345)
-* [Hitman: World of Assassination](https://www.pcgamingwiki.com/wiki/?curid=58966)
 * [No Man's Sky](https://www.pcgamingwiki.com/wiki/?curid=25679)
 * [Project Nomads](https://www.pcgamingwiki.com/wiki/?curid=160544)
 * [Sonic Heroes](https://www.pcgamingwiki.com/wiki/?curid=19831)
