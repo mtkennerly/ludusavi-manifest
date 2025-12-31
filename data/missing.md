@@ -13717,7 +13717,6 @@
 * [Jane's Advanced Strike Fighters](https://www.pcgamingwiki.com/wiki/?curid=1711)
 * [Jane's Advanced Tactical Fighters](https://www.pcgamingwiki.com/wiki/?curid=212432)
 * [Jane's AH-64D Longbow](https://www.pcgamingwiki.com/wiki/?curid=212495)
-* [Jane's Attack Squadron](https://www.pcgamingwiki.com/wiki/?curid=187393)
 * [Jane's F/A-18](https://www.pcgamingwiki.com/wiki/?curid=707)
 * [Jane's Israeli Air Force](https://www.pcgamingwiki.com/wiki/?curid=698)
 * [Jane's Longbow 2](https://www.pcgamingwiki.com/wiki/?curid=701)
