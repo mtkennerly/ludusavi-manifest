@@ -25799,6 +25799,7 @@
 * [Tank Blazers](https://www.pcgamingwiki.com/wiki/?curid=124185)
 * [Tank Brawl](https://www.pcgamingwiki.com/wiki/?curid=43492)
 * [Tank Bung](https://www.pcgamingwiki.com/wiki/?curid=121270)
+* [Tank Commander](https://www.pcgamingwiki.com/wiki/?curid=212517)
 * [Tank Destroyer](https://www.pcgamingwiki.com/wiki/?curid=59015)
 * [Tank Force](https://www.pcgamingwiki.com/wiki/?curid=69494)
 * [Tank Game](https://www.pcgamingwiki.com/wiki/?curid=79928)
