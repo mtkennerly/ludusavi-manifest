@@ -25523,6 +25523,7 @@
 * [Swarm Simulator: Evolution](https://www.pcgamingwiki.com/wiki/?curid=128083)
 * [Swarmrider Omega](https://www.pcgamingwiki.com/wiki/?curid=71886)
 * [SwarmZ](https://www.pcgamingwiki.com/wiki/?curid=148473)
+* [Swashbucklers: Blue vs. Grey](https://www.pcgamingwiki.com/wiki/?curid=212513)
 * [SWAT Commander](https://www.pcgamingwiki.com/wiki/?curid=203292)
 * [SWAT Commander: Prologue](https://www.pcgamingwiki.com/wiki/?curid=203290)
 * [Sweater? OK!](https://www.pcgamingwiki.com/wiki/?curid=55017)
