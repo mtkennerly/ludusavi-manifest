@@ -322,7 +322,7 @@ impl WikiCache {
                             }
                             Err(e) => {
                                 eprintln!("  unable to check if still a game: {e}");
-                                return Err(e);
+                                continue;
                             }
                         }
 
@@ -340,11 +340,17 @@ impl WikiCache {
                     // Couldn't find it by name, so try again by ID.
                     // This can happen for pages moved without leaving a redirect.
                     // (If they have a redirect, then the recent changes code takes care of it.)
-                    let Some(new_title) = get_page_title(cached.page_id).await? else {
-                        // Page no longer exists.
-                        println!("  page no longer exists");
-                        self.0.remove(title);
-                        continue;
+                    let new_title = match get_page_title(cached.page_id).await {
+                        Ok(None) => {
+                            println!("  page no longer exists");
+                            self.0.remove(title);
+                            continue;
+                        }
+                        Ok(Some(new_title)) => new_title,
+                        Err(e) => {
+                            println!("  failed to check page by ID: {e:?}");
+                            continue;
+                        }
                     };
 
                     println!("  page {} renamed to '{}'", cached.page_id, &new_title);
@@ -358,7 +364,7 @@ impl WikiCache {
                         }
                         Err(e) => {
                             eprintln!("  unable to check if still a game: {e}");
-                            return Err(e);
+                            continue;
                         }
                     }
 
@@ -370,7 +376,8 @@ impl WikiCache {
                             continue;
                         }
                         Err(e) => {
-                            return Err(e);
+                            println!("  failed to fetch page: {e:?}");
+                            continue;
                         }
                     };
 
@@ -385,7 +392,8 @@ impl WikiCache {
                     self.0.remove(title);
                 }
                 Err(e) => {
-                    return Err(e);
+                    println!("  failed to fetch page: {e:?}");
+                    continue;
                 }
             }
 
