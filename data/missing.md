@@ -2266,6 +2266,7 @@
 * [Back to Life 2](https://www.pcgamingwiki.com/wiki/?curid=50312)
 * [Back to Life 3](https://www.pcgamingwiki.com/wiki/?curid=49109)
 * [Back to the Egg!](https://www.pcgamingwiki.com/wiki/?curid=69591)
+* [Back to the Future: Part III](https://www.pcgamingwiki.com/wiki/?curid=212694)
 * [Back Track](https://www.pcgamingwiki.com/wiki/?curid=206580)
 * [Backfire](https://www.pcgamingwiki.com/wiki/?curid=62483)
 * [Backgammon](https://www.pcgamingwiki.com/wiki/?curid=68382)
