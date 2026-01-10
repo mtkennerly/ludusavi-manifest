@@ -7768,7 +7768,6 @@
 * [Drakerz - Confrontation](https://www.pcgamingwiki.com/wiki/?curid=50248)
 * [DRAMAtical Murder](https://www.pcgamingwiki.com/wiki/?curid=198680)
 * [Draoi](https://www.pcgamingwiki.com/wiki/?curid=104733)
-* [Drapline](https://www.pcgamingwiki.com/wiki/?curid=202109)
 * [Draw a Stickman: EPIC 2](https://www.pcgamingwiki.com/wiki/?curid=45715)
 * [Draw Light](https://www.pcgamingwiki.com/wiki/?curid=104191)
 * [Draw Love](https://www.pcgamingwiki.com/wiki/?curid=63795)
