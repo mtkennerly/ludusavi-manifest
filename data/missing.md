@@ -14070,6 +14070,7 @@
 * [K.O.M.A](https://www.pcgamingwiki.com/wiki/?curid=129879)
 * [K37-D](https://www.pcgamingwiki.com/wiki/?curid=154311)
 * [Ka Mate](https://www.pcgamingwiki.com/wiki/?curid=67944)
+* [Ka'Roo](https://www.pcgamingwiki.com/wiki/?curid=212751)
 * [Kabitis](https://www.pcgamingwiki.com/wiki/?curid=42750)
 * [Kabitis 2: Fire Sword](https://www.pcgamingwiki.com/wiki/?curid=144693)
 * [Kach](https://www.pcgamingwiki.com/wiki/?curid=180874)
