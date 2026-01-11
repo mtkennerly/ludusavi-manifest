@@ -10816,6 +10816,7 @@
 * [GiAnt](https://www.pcgamingwiki.com/wiki/?curid=41882)
 * [Giant Bear Rampage! - a Kaiju Bear Simulator](https://www.pcgamingwiki.com/wiki/?curid=138972)
 * [Giant Cop: Justice Above All](https://www.pcgamingwiki.com/wiki/?curid=39430)
+* [Giant Killers](https://www.pcgamingwiki.com/wiki/?curid=212749)
 * [Giant Life](https://www.pcgamingwiki.com/wiki/?curid=135628)
 * [Giant Wishes](https://www.pcgamingwiki.com/wiki/?curid=185640)
 * [Gibbon: Beyond the Trees](https://www.pcgamingwiki.com/wiki/?curid=174914)
