@@ -29620,6 +29620,7 @@
 * [Virtual Reality Girls](https://www.pcgamingwiki.com/wiki/?curid=76535)
 * [Virtual Reality Girls 2](https://www.pcgamingwiki.com/wiki/?curid=78274)
 * [Virtual Robots - Robot Programming Simulator](https://www.pcgamingwiki.com/wiki/?curid=73907)
+* [Virtual Safari](https://www.pcgamingwiki.com/wiki/?curid=212851)
 * [Virtual Skipper](https://www.pcgamingwiki.com/wiki/?curid=191479)
 * [Virtual Skipper 4](https://www.pcgamingwiki.com/wiki/?curid=191477)
 * [Virtual Skipper 5](https://www.pcgamingwiki.com/wiki/?curid=191472)
