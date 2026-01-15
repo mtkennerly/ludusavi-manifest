@@ -12916,7 +12916,6 @@
 * [Hyrax in the Rocks](https://www.pcgamingwiki.com/wiki/?curid=203965)
 * [Hyspherical 2](https://www.pcgamingwiki.com/wiki/?curid=44590)
 * [Hyss](https://www.pcgamingwiki.com/wiki/?curid=123976)
-* [Hytale](https://www.pcgamingwiki.com/wiki/?curid=164963)
 * [Här kommer Pippi Långstrump](https://www.pcgamingwiki.com/wiki/?curid=122971)
 * [I Am Caligula](https://www.pcgamingwiki.com/wiki/?curid=43959)
 * [I Am Data](https://www.pcgamingwiki.com/wiki/?curid=144606)
