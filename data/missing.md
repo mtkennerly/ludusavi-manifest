@@ -4632,7 +4632,6 @@
 * [Charm Tale Quest](https://www.pcgamingwiki.com/wiki/?curid=52554)
 * [Charon's Return](https://www.pcgamingwiki.com/wiki/?curid=141005)
 * [Charpi](https://www.pcgamingwiki.com/wiki/?curid=69446)
-* [Charrua Soccer](https://www.pcgamingwiki.com/wiki/?curid=157861)
 * [Charterstone: Digital Edition](https://www.pcgamingwiki.com/wiki/?curid=135998)
 * [Chase](https://www.pcgamingwiki.com/wiki/?curid=108502)
 * [Chasing Nebula](https://www.pcgamingwiki.com/wiki/?curid=141379)
