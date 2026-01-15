@@ -25370,7 +25370,6 @@
 * [Super VHS](https://www.pcgamingwiki.com/wiki/?curid=182305)
 * [Super VR Trainer](https://www.pcgamingwiki.com/wiki/?curid=37094)
 * [Super Weekend Mode](https://www.pcgamingwiki.com/wiki/?curid=91001)
-* [Super Woden: Rally Edge](https://www.pcgamingwiki.com/wiki/?curid=212157)
 * [Super X Chess](https://www.pcgamingwiki.com/wiki/?curid=121375)
 * [Super Zaxxon](https://www.pcgamingwiki.com/wiki/?curid=176061)
 * [Super Zombie Arcade](https://www.pcgamingwiki.com/wiki/?curid=113566)

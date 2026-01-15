@@ -1,5 +1,6 @@
 * [Alien: Isolation](https://www.pcgamingwiki.com/wiki/?curid=17716)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
+* [Bright Memory: Infinite](https://www.pcgamingwiki.com/wiki/?curid=157489)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
 * [DCS World](https://www.pcgamingwiki.com/wiki/?curid=22540)
 * [Dead Space 2](https://www.pcgamingwiki.com/wiki/?curid=2841)
