@@ -26321,6 +26321,7 @@
 * [The Broken Seal: Arena](https://www.pcgamingwiki.com/wiki/?curid=82302)
 * [The Brookhaven Experiment](https://www.pcgamingwiki.com/wiki/?curid=38073)
 * [The Brunch Club](https://www.pcgamingwiki.com/wiki/?curid=135551)
+* [The Bugs Bunny Cartoon Workshop](https://www.pcgamingwiki.com/wiki/?curid=212894)
 * [The Bugs Bunny Hare-Brained Adventure](https://www.pcgamingwiki.com/wiki/?curid=90837)
 * [The Bunker 69](https://www.pcgamingwiki.com/wiki/?curid=148681)
 * [The Burned Ground](https://www.pcgamingwiki.com/wiki/?curid=130279)
