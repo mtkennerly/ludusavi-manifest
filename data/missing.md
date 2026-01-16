@@ -21328,6 +21328,7 @@
 * [Reliefs](https://www.pcgamingwiki.com/wiki/?curid=90620)
 * [Relik](https://www.pcgamingwiki.com/wiki/?curid=73254)
 * [Relivium](https://www.pcgamingwiki.com/wiki/?curid=157474)
+* [Relooted](https://www.pcgamingwiki.com/wiki/?curid=212898)
 * [Relow](https://www.pcgamingwiki.com/wiki/?curid=151022)
 * [Relumine](https://www.pcgamingwiki.com/wiki/?curid=181189)
 * [Remain](https://www.pcgamingwiki.com/wiki/?curid=55482)
