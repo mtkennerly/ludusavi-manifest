@@ -5742,6 +5742,7 @@
 * [Cricket Club](https://www.pcgamingwiki.com/wiki/?curid=79173)
 * [Cricket Revolution](https://www.pcgamingwiki.com/wiki/?curid=41214)
 * [CricVRX - VR Cricket](https://www.pcgamingwiki.com/wiki/?curid=140812)
+* [Crime City](https://www.pcgamingwiki.com/wiki/?curid=212900)
 * [Crime Killer](https://www.pcgamingwiki.com/wiki/?curid=212122)
 * [Crime Opera II: The Floodgate Effect](https://www.pcgamingwiki.com/wiki/?curid=188983)
 * [Crime Scene: Reconstruction of Crime](https://www.pcgamingwiki.com/wiki/?curid=97361)
