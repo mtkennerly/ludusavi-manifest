@@ -15535,6 +15535,7 @@
 * [Lovers ' Smiles 2](https://www.pcgamingwiki.com/wiki/?curid=129763)
 * [LoveSick Darlings](https://www.pcgamingwiki.com/wiki/?curid=154384)
 * [Lovestory](https://www.pcgamingwiki.com/wiki/?curid=104937)
+* [Lovish](https://www.pcgamingwiki.com/wiki/?curid=212925)
 * [Low-Budget Repairs](https://www.pcgamingwiki.com/wiki/?curid=197483)
 * [LOW-FI](https://www.pcgamingwiki.com/wiki/?curid=157336)
 * [Lowglow](https://www.pcgamingwiki.com/wiki/?curid=34689)
