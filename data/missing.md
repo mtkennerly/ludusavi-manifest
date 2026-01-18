@@ -25509,7 +25509,6 @@
 * [Suspicious Slide](https://www.pcgamingwiki.com/wiki/?curid=156194)
 * [Suwarudo](https://www.pcgamingwiki.com/wiki/?curid=128097)
 * [Suzunaan on Fire](https://www.pcgamingwiki.com/wiki/?curid=155951)
-* [Sven-Göran Eriksson's World Challenge](https://www.pcgamingwiki.com/wiki/?curid=155217)
 * [Sven-Göran Eriksson's World Manager](https://www.pcgamingwiki.com/wiki/?curid=155215)
 * [Svoboda](https://www.pcgamingwiki.com/wiki/?curid=92791)
 * [Swallow Homing](https://www.pcgamingwiki.com/wiki/?curid=127209)
