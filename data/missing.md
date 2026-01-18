@@ -25275,6 +25275,7 @@
 * [Super Lobster Run](https://www.pcgamingwiki.com/wiki/?curid=154382)
 * [Super Lolicon Puzzle Simulator 2019](https://www.pcgamingwiki.com/wiki/?curid=150227)
 * [Super Lula Escape From Prison](https://www.pcgamingwiki.com/wiki/?curid=90929)
+* [Super Mario 64 (Ghostship)](https://www.pcgamingwiki.com/wiki/?curid=212957)
 * [Super Mario Bros. & Friends: When I Grow Up](https://www.pcgamingwiki.com/wiki/?curid=155077)
 * [Super Meat Boy 3D](https://www.pcgamingwiki.com/wiki/?curid=205515)
 * [Super Meat Shooter](https://www.pcgamingwiki.com/wiki/?curid=76063)
