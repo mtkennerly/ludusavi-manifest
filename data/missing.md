@@ -24308,7 +24308,6 @@
 * [Spellcasting 301: Spring Break](https://www.pcgamingwiki.com/wiki/?curid=131654)
 * [Spellcats: Auto Card Tactics](https://www.pcgamingwiki.com/wiki/?curid=196260)
 * [Spellcrafter](https://www.pcgamingwiki.com/wiki/?curid=48014)
-* [Spellcross](https://www.pcgamingwiki.com/wiki/?curid=212542)
 * [Spellforge](https://www.pcgamingwiki.com/wiki/?curid=40341)
 * [SpellFront](https://www.pcgamingwiki.com/wiki/?curid=113384)
 * [Spellgear](https://www.pcgamingwiki.com/wiki/?curid=36141)
