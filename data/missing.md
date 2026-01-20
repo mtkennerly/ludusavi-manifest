@@ -14136,6 +14136,7 @@
 * [Karnov's Revenge](https://www.pcgamingwiki.com/wiki/?curid=168094)
 * [Karos](https://www.pcgamingwiki.com/wiki/?curid=49059)
 * [Karos Returns](https://www.pcgamingwiki.com/wiki/?curid=47067)
+* [Karous](https://www.pcgamingwiki.com/wiki/?curid=212987)
 * [Karradash - The Lost Dungeons](https://www.pcgamingwiki.com/wiki/?curid=68184)
 * [Kart kids](https://www.pcgamingwiki.com/wiki/?curid=155350)
 * [Kart Racing Pro](https://www.pcgamingwiki.com/wiki/?curid=39440)
