@@ -11068,6 +11068,7 @@
 * [Golden Fever](https://www.pcgamingwiki.com/wiki/?curid=65465)
 * [Golden Hornet](https://www.pcgamingwiki.com/wiki/?curid=74672)
 * [Golden Key](https://www.pcgamingwiki.com/wiki/?curid=121677)
+* [Golden Nugget](https://www.pcgamingwiki.com/wiki/?curid=212991)
 * [Golden Path of Plumeboom](https://www.pcgamingwiki.com/wiki/?curid=167598)
 * [Golden Rush](https://www.pcgamingwiki.com/wiki/?curid=46326)
 * [Golden Swords](https://www.pcgamingwiki.com/wiki/?curid=51487)
