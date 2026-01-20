@@ -16753,7 +16753,6 @@
 * [MinSweeper](https://www.pcgamingwiki.com/wiki/?curid=73905)
 * [Mint](https://www.pcgamingwiki.com/wiki/?curid=65291)
 * [Mio Garden](https://www.pcgamingwiki.com/wiki/?curid=109580)
-* [MIO: Memories in Orbit](https://www.pcgamingwiki.com/wiki/?curid=205203)
 * [MIR4](https://www.pcgamingwiki.com/wiki/?curid=178540)
 * [Mira](https://www.pcgamingwiki.com/wiki/?curid=154263)
 * [Mira's Tale](https://www.pcgamingwiki.com/wiki/?curid=157150)
