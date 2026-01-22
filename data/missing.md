@@ -30996,7 +30996,6 @@
 * [Yago, the Coquerrestrial](https://www.pcgamingwiki.com/wiki/?curid=75419)
 * [Yakuza Empire](https://www.pcgamingwiki.com/wiki/?curid=168269)
 * [Yakuza Kiss](https://www.pcgamingwiki.com/wiki/?curid=96239)
-* [Yakuza Kiwami 3 & Dark Ties](https://www.pcgamingwiki.com/wiki/?curid=208855)
 * [Yama](https://www.pcgamingwiki.com/wiki/?curid=68859)
 * [YamaYama](https://www.pcgamingwiki.com/wiki/?curid=43865)
 * [Yametei](https://www.pcgamingwiki.com/wiki/?curid=127565)
