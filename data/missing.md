@@ -502,6 +502,7 @@
 * [Absolute Adventure Zero](https://www.pcgamingwiki.com/wiki/?curid=105185)
 * [Absolute Blue](https://www.pcgamingwiki.com/wiki/?curid=87257)
 * [Absolute Fall](https://www.pcgamingwiki.com/wiki/?curid=138752)
+* [Absolute Pinball](https://www.pcgamingwiki.com/wiki/?curid=213174)
 * [Absolute VR Experiences](https://www.pcgamingwiki.com/wiki/?curid=96541)
 * [Abstract](https://www.pcgamingwiki.com/wiki/?curid=135417)
 * [Abstract Arena](https://www.pcgamingwiki.com/wiki/?curid=66432)
