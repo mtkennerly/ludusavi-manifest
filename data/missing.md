@@ -23999,6 +23999,7 @@
 * [Soviet Luna Park VR](https://www.pcgamingwiki.com/wiki/?curid=91995)
 * [Soviet Monsters: Ekranoplans](https://www.pcgamingwiki.com/wiki/?curid=42358)
 * [Soviet Souls](https://www.pcgamingwiki.com/wiki/?curid=135048)
+* [SOWON](https://www.pcgamingwiki.com/wiki/?curid=213213)
 * [SOYF: Shit On Your Friends](https://www.pcgamingwiki.com/wiki/?curid=63343)
 * [Soyuz Constructors](https://www.pcgamingwiki.com/wiki/?curid=142351)
 * [Sp!ng](https://www.pcgamingwiki.com/wiki/?curid=167081)
