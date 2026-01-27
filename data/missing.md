@@ -21941,7 +21941,6 @@
 * [Rogue System](https://www.pcgamingwiki.com/wiki/?curid=37269)
 * [Rogue Zillion](https://www.pcgamingwiki.com/wiki/?curid=76261)
 * [RogueCraft Squadron](https://www.pcgamingwiki.com/wiki/?curid=127649)
-* [RogueDiceR](https://www.pcgamingwiki.com/wiki/?curid=212606)
 * [Roguelike Hero](https://www.pcgamingwiki.com/wiki/?curid=109264)
 * [RogueLite](https://www.pcgamingwiki.com/wiki/?curid=123493)
 * [Roguemance](https://www.pcgamingwiki.com/wiki/?curid=79926)
