@@ -15134,6 +15134,7 @@
 * [Lil' Blue Buddy](https://www.pcgamingwiki.com/wiki/?curid=64466)
 * [Lilly and Sasha: Guardian Angels](https://www.pcgamingwiki.com/wiki/?curid=47369)
 * [Lilly and Sasha: Nexus of Souls](https://www.pcgamingwiki.com/wiki/?curid=47787)
+* [Lilo & Stitch Pinball](https://www.pcgamingwiki.com/wiki/?curid=213254)
 * [Lilo & Stitch: Hawaiian Adventure](https://www.pcgamingwiki.com/wiki/?curid=184709)
 * [LilPizzaBois](https://www.pcgamingwiki.com/wiki/?curid=99846)
 * [Lilt](https://www.pcgamingwiki.com/wiki/?curid=44790)
