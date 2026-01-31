@@ -1,4 +1,5 @@
 * [Alien: Isolation](https://www.pcgamingwiki.com/wiki/?curid=17716)
+* [Apex Legends](https://www.pcgamingwiki.com/wiki/?curid=126989)
 * [Boneworks](https://www.pcgamingwiki.com/wiki/?curid=129124)
 * [Bright Memory: Infinite](https://www.pcgamingwiki.com/wiki/?curid=157489)
 * [Call of Duty: Modern Warfare II](https://www.pcgamingwiki.com/wiki/?curid=178173)
