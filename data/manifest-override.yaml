@@ -16,6 +16,10 @@ Inscryption:
   installDir:
     # Epic uses a different folder name.
     InscryptionWkwPQ: {}
+"Lego Star Wars: The Video Game":
+  installDir:
+    Giant/LEGO Star Wars Game: {}
+    LEGO Star Wars Game: {}
 Nevsky Run:
   # This game's Steam Cloud metadata references Kingdom Come Deliverance paths.
   # Also, it's been renamed on Steam to "Secret Girl"
