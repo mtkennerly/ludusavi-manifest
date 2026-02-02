@@ -7510,6 +7510,7 @@
 * [Don't Shoot Yourself!](https://www.pcgamingwiki.com/wiki/?curid=48232)
 * [Don't Stand Out](https://www.pcgamingwiki.com/wiki/?curid=89460)
 * [Don't Stop](https://www.pcgamingwiki.com/wiki/?curid=102413)
+* [Don't Stop, Girlypop!](https://www.pcgamingwiki.com/wiki/?curid=213413)
 * [Don't Tax Me, Bro!](https://www.pcgamingwiki.com/wiki/?curid=63143)
 * [Don't touch me](https://www.pcgamingwiki.com/wiki/?curid=110170)
 * [Don't Touch My Virgin](https://www.pcgamingwiki.com/wiki/?curid=126335)
