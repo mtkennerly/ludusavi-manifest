@@ -19918,6 +19918,7 @@
 * [PokeMMO](https://www.pcgamingwiki.com/wiki/?curid=173661)
 * [Poker Championship](https://www.pcgamingwiki.com/wiki/?curid=149507)
 * [Poker Club](https://www.pcgamingwiki.com/wiki/?curid=181814)
+* [Poker Night at the Inventory (2026)](https://www.pcgamingwiki.com/wiki/?curid=213476)
 * [Poker Quest](https://www.pcgamingwiki.com/wiki/?curid=157291)
 * [Poker Show VR](https://www.pcgamingwiki.com/wiki/?curid=62192)
 * [Poker Simulator](https://www.pcgamingwiki.com/wiki/?curid=91007)
