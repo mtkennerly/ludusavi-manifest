@@ -4287,7 +4287,6 @@
 * [Caribbean Odyssey](https://www.pcgamingwiki.com/wiki/?curid=45653)
 * [Carlos III y la difusión de la antigüedad](https://www.pcgamingwiki.com/wiki/?curid=59271)
 * [Carly and the Reaperman - Escape from the Underworld](https://www.pcgamingwiki.com/wiki/?curid=92321)
-* [Carmageddon: Rogue Shift](https://www.pcgamingwiki.com/wiki/?curid=211700)
 * [Carmen Sandiego](https://www.pcgamingwiki.com/wiki/?curid=199028)
 * [Carmen Sandiego Math Detective](https://www.pcgamingwiki.com/wiki/?curid=123146)
 * [Carmen Sandiego Returns](https://www.pcgamingwiki.com/wiki/?curid=183616)
