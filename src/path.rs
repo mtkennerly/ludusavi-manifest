@@ -23,6 +23,8 @@ pub fn normalize(path: &str, os: Option<Os>) -> String {
     static APP_DATA_LOCAL_2: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%/AppData/Local/").unwrap());
     static USER_PROFILE: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%").unwrap());
     static DOCUMENTS: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%userprofile%/Documents").unwrap());
+    static PROGRAM_FILES: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%programfiles%").unwrap());
+    static PROGRAM_FILES_X86: Lazy<Regex> = Lazy::new(|| Regex::new(r"(?i)%programfiles\(x86\)%").unwrap());
 
     for (pattern, replacement) in [
         (&CONSECUTIVE_SLASHES, "/"),
@@ -38,6 +40,8 @@ pub fn normalize(path: &str, os: Option<Os>) -> String {
         (&APP_DATA_LOCAL_2, &format!("{}/", placeholder::WIN_LOCAL_APP_DATA)),
         (&USER_PROFILE, placeholder::HOME),
         (&DOCUMENTS, placeholder::WIN_DOCUMENTS),
+        (&PROGRAM_FILES, "C:/Program Files"),
+        (&PROGRAM_FILES_X86, "C:/Program Files (x86)"),
     ] {
         path = pattern.replace_all(&path, replacement).to_string();
     }
