@@ -12754,6 +12754,7 @@
 * [Howard Phillips Lovecar](https://www.pcgamingwiki.com/wiki/?curid=62809)
 * [Howdy! The Western Game](https://www.pcgamingwiki.com/wiki/?curid=94114)
 * [Howl](https://www.pcgamingwiki.com/wiki/?curid=39506)
+* [Hoyle Board Games](https://www.pcgamingwiki.com/wiki/?curid=213583)
 * [Hoyle Bridge](https://www.pcgamingwiki.com/wiki/?curid=147361)
 * [Hoyle Casino (2000)](https://www.pcgamingwiki.com/wiki/?curid=181521)
 * [Hoyle Children's Collection](https://www.pcgamingwiki.com/wiki/?curid=147363)
