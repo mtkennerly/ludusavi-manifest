@@ -21157,7 +21157,6 @@
 * [Realmstone](https://www.pcgamingwiki.com/wiki/?curid=139339)
 * [Realpolitiks 3: Earth and Beyond](https://www.pcgamingwiki.com/wiki/?curid=196710)
 * [Realshot](https://www.pcgamingwiki.com/wiki/?curid=80436)
-* [Reanimal](https://www.pcgamingwiki.com/wiki/?curid=197182)
 * [Reanimation Inc.](https://www.pcgamingwiki.com/wiki/?curid=150188)
 * [Reaper - Tale of a Pale Swordsman](https://www.pcgamingwiki.com/wiki/?curid=50675)
 * [Reaping Rewards](https://www.pcgamingwiki.com/wiki/?curid=63412)
