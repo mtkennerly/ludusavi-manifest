@@ -5735,7 +5735,6 @@
 * [Crewsaders](https://www.pcgamingwiki.com/wiki/?curid=51681)
 * [Crey](https://www.pcgamingwiki.com/wiki/?curid=158489)
 * [Cricket 2000](https://www.pcgamingwiki.com/wiki/?curid=195671)
-* [Cricket 2002](https://www.pcgamingwiki.com/wiki/?curid=195669)
 * [Cricket 2005](https://www.pcgamingwiki.com/wiki/?curid=195665)
 * [Cricket Captain 2014](https://www.pcgamingwiki.com/wiki/?curid=49795)
 * [Cricket Captain 2015](https://www.pcgamingwiki.com/wiki/?curid=47351)
