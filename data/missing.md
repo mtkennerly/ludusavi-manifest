@@ -4828,7 +4828,6 @@
 * [Chroma Deluxe : Sexy Hentai Girls](https://www.pcgamingwiki.com/wiki/?curid=145986)
 * [Chroma Lab](https://www.pcgamingwiki.com/wiki/?curid=65742)
 * [Chromaestro](https://www.pcgamingwiki.com/wiki/?curid=63715)
-* [ChromaGun 2: Dye Hard](https://www.pcgamingwiki.com/wiki/?curid=195799)
 * [Chromalocity](https://www.pcgamingwiki.com/wiki/?curid=74594)
 * [ChromaSquares](https://www.pcgamingwiki.com/wiki/?curid=109624)
 * [Chromatic](https://www.pcgamingwiki.com/wiki/?curid=65445)
