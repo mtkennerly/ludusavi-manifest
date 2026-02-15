@@ -622,6 +622,15 @@ impl WikiCacheEntry {
                             .with_platform(&platform)
                             .with_tags(is_save, is_config)
                             .normalize();
+
+                        for (query, replacement) in ALTERNATIVES {
+                            if info.composite.starts_with(query) {
+                                let mut info = info.clone();
+                                info.composite = info.composite.replacen(query, replacement, 1);
+                                out.push(info);
+                            }
+                        }
+
                         out.push(info);
                     }
                 }
@@ -647,7 +656,7 @@ pub enum PathKind {
     Registry,
 }
 
-#[derive(Debug, Default)]
+#[derive(Debug, Default, Clone)]
 pub struct WikiPath {
     pub composite: String,
     pub regularity: Regularity,
@@ -1077,6 +1086,11 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
         ),
     ])
 });
+
+static ALTERNATIVES: &[(&str, &str)] = &[
+    ("C:/Program Files/", "C:/Program Files (x86)/"),
+    ("C:/Program Files (x86)/", "C:/Program Files/"),
+];
 
 #[derive(Clone, Debug, Default, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
 #[serde(default, rename_all = "camelCase")]
