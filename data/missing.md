@@ -627,6 +627,7 @@
 * [Across the Rhine](https://www.pcgamingwiki.com/wiki/?curid=49386)
 * [Act It Out XL! A Game of Charades](https://www.pcgamingwiki.com/wiki/?curid=79356)
 * [Action Card Football](https://www.pcgamingwiki.com/wiki/?curid=112060)
+* [Action Fighter](https://www.pcgamingwiki.com/wiki/?curid=213792)
 * [Action Legion](https://www.pcgamingwiki.com/wiki/?curid=34817)
 * [Action Mahjong](https://www.pcgamingwiki.com/wiki/?curid=58230)
 * [Action Man: Arctic Adventure](https://www.pcgamingwiki.com/wiki/?curid=122943)
