@@ -21076,7 +21076,6 @@
 * [Rayman CP](https://www.pcgamingwiki.com/wiki/?curid=209440)
 * [Rayman Maternelle](https://www.pcgamingwiki.com/wiki/?curid=209442)
 * [Rayman Premiers Clics](https://www.pcgamingwiki.com/wiki/?curid=208141)
-* [Rayman: 30th Anniversary Edition](https://www.pcgamingwiki.com/wiki/?curid=213746)
 * [Raymond's Obstacle Course](https://www.pcgamingwiki.com/wiki/?curid=80561)
 * [Raywin](https://www.pcgamingwiki.com/wiki/?curid=47087)
 * [RAZE 2070](https://www.pcgamingwiki.com/wiki/?curid=185863)
