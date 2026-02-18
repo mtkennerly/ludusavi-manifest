@@ -18293,7 +18293,7 @@
 * [Normal Fastfood Fantasy](https://www.pcgamingwiki.com/wiki/?curid=74429)
 * [Norman's Night In](https://www.pcgamingwiki.com/wiki/?curid=130613)
 * [Norpon](https://www.pcgamingwiki.com/wiki/?curid=126181)
-* [Norse](https://www.pcgamingwiki.com/wiki/?curid=196249)
+* [Norse: Oath of Blood](https://www.pcgamingwiki.com/wiki/?curid=196249)
 * [North](https://www.pcgamingwiki.com/wiki/?curid=43356)
 * [North & South](https://www.pcgamingwiki.com/wiki/?curid=169482)
 * [North of Iraq Part 1](https://www.pcgamingwiki.com/wiki/?curid=156116)
