@@ -1,2 +1,5 @@
+* [3D Body Adventure](https://www.pcgamingwiki.com/wiki/?curid=167445)
+* [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
+* [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Papa's Pizzeria Deluxe](https://www.pcgamingwiki.com/wiki/?curid=213856)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
