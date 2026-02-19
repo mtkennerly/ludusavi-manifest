@@ -28160,6 +28160,7 @@
 * [Titans of Space 2.0](https://www.pcgamingwiki.com/wiki/?curid=37417)
 * [Titans: Dawn of Tribes](https://www.pcgamingwiki.com/wiki/?curid=53003)
 * [Titeuf: Mega Party](https://www.pcgamingwiki.com/wiki/?curid=153092)
+* [Titeuf: Méga compet'](https://www.pcgamingwiki.com/wiki/?curid=213891)
 * [Titus the Fox: To Marrakech and Back](https://www.pcgamingwiki.com/wiki/?curid=70657)
 * [TKKG - Katjas Geheimnis](https://www.pcgamingwiki.com/wiki/?curid=198402)
 * [Tkl Online](https://www.pcgamingwiki.com/wiki/?curid=48883)
