@@ -1778,6 +1778,7 @@
 * [Army Men: Toys in Space](https://www.pcgamingwiki.com/wiki/?curid=79071)
 * [Army of Squirrels](https://www.pcgamingwiki.com/wiki/?curid=87087)
 * [Army of Tentacles: (Not) a Cthulhu Dating Sim: Black Goat of the Woods Edition](https://www.pcgamingwiki.com/wiki/?curid=78647)
+* [Army Racer](https://www.pcgamingwiki.com/wiki/?curid=213946)
 * [ArmZ](https://www.pcgamingwiki.com/wiki/?curid=127477)
 * [Around the Words](https://www.pcgamingwiki.com/wiki/?curid=66438)
 * [Around the World in 80 Days](https://www.pcgamingwiki.com/wiki/?curid=91795)
