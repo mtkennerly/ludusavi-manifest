@@ -6369,6 +6369,7 @@
 * [Dark Parables: The Thief and the Tinderbox](https://www.pcgamingwiki.com/wiki/?curid=41525)
 * [Dark Passenger](https://www.pcgamingwiki.com/wiki/?curid=60093)
 * [Dark Places](https://www.pcgamingwiki.com/wiki/?curid=110468)
+* [Dark Planet: Battle for Natrolis](https://www.pcgamingwiki.com/wiki/?curid=213977)
 * [Dark Project](https://www.pcgamingwiki.com/wiki/?curid=57413)
 * [Dark Prospect](https://www.pcgamingwiki.com/wiki/?curid=157003)
 * [Dark Raid](https://www.pcgamingwiki.com/wiki/?curid=50145)
