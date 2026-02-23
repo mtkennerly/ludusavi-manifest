@@ -22645,7 +22645,6 @@
 * [Scorch (2018)](https://www.pcgamingwiki.com/wiki/?curid=137312)
 * [Scorcher](https://www.pcgamingwiki.com/wiki/?curid=209640)
 * [Score](https://www.pcgamingwiki.com/wiki/?curid=42563)
-* [SCORE International Baja 1000](https://www.pcgamingwiki.com/wiki/?curid=213999)
 * [Scoregasm](https://www.pcgamingwiki.com/wiki/?curid=8050)
 * [Scott in Space](https://www.pcgamingwiki.com/wiki/?curid=47168)
 * [Scott Pilgrim EX](https://www.pcgamingwiki.com/wiki/?curid=209990)
