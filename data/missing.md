@@ -5899,7 +5899,7 @@
 * [Crypto Quest](https://www.pcgamingwiki.com/wiki/?curid=90166)
 * [Cryptochain](https://www.pcgamingwiki.com/wiki/?curid=97900)
 * [Cryptocracy](https://www.pcgamingwiki.com/wiki/?curid=60105)
-* [Cryptofall: Investor simulator](https://www.pcgamingwiki.com/wiki/?curid=150820)
+* [Cryptofall: Investor Simulator](https://www.pcgamingwiki.com/wiki/?curid=150820)
 * [CryptoFarm](https://www.pcgamingwiki.com/wiki/?curid=107788)
 * [Cryptographer](https://www.pcgamingwiki.com/wiki/?curid=141570)
 * [CryptoMoneya](https://www.pcgamingwiki.com/wiki/?curid=69607)
