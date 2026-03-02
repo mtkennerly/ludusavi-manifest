@@ -6478,6 +6478,7 @@
 * [Darwin's Demons](https://www.pcgamingwiki.com/wiki/?curid=57772)
 * [Darwin's Paradox!](https://www.pcgamingwiki.com/wiki/?curid=202295)
 * [Das Boot](https://www.pcgamingwiki.com/wiki/?curid=172789)
+* [Das Geheimnis des Magiers](https://www.pcgamingwiki.com/wiki/?curid=214214)
 * [Dash Blitz](https://www.pcgamingwiki.com/wiki/?curid=88808)
 * [Dash Dash Run!](https://www.pcgamingwiki.com/wiki/?curid=67115)
 * [Dash Fleet](https://www.pcgamingwiki.com/wiki/?curid=57676)
