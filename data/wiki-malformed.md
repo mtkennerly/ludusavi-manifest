@@ -1,5 +1,8 @@
 * [3D Body Adventure](https://www.pcgamingwiki.com/wiki/?curid=167445)
+* [Act of War: High Treason](https://www.pcgamingwiki.com/wiki/?curid=17276)
+* [Ashes of Immortality II](https://www.pcgamingwiki.com/wiki/?curid=46653)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
+* [Docked](https://www.pcgamingwiki.com/wiki/?curid=207069)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Papa's Pizzeria Deluxe](https://www.pcgamingwiki.com/wiki/?curid=213856)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
