@@ -8246,6 +8246,7 @@
 * [Echo VR](https://www.pcgamingwiki.com/wiki/?curid=128782)
 * [Echoes III](https://www.pcgamingwiki.com/wiki/?curid=108980)
 * [Echoes in White](https://www.pcgamingwiki.com/wiki/?curid=121535)
+* [Echoes of Aincrad](https://www.pcgamingwiki.com/wiki/?curid=214337)
 * [Echoes of the Fey Episode 0: The Immolation](https://www.pcgamingwiki.com/wiki/?curid=57313)
 * [Echoes of the Fey: The Fox's Trail](https://www.pcgamingwiki.com/wiki/?curid=41589)
 * [Echoes of the Fey: The Last Sacrament](https://www.pcgamingwiki.com/wiki/?curid=94617)
