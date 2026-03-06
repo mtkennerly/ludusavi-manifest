@@ -25628,6 +25628,7 @@
 * [Swiss Knife](https://www.pcgamingwiki.com/wiki/?curid=148799)
 * [Switch & Ditch](https://www.pcgamingwiki.com/wiki/?curid=125089)
 * [Switch - Black & White](https://www.pcgamingwiki.com/wiki/?curid=103153)
+* [Switchball](https://www.pcgamingwiki.com/wiki/?curid=214348)
 * [Switchblade](https://www.pcgamingwiki.com/wiki/?curid=174482)
 * [Switchblade (Lucid Games)](https://www.pcgamingwiki.com/wiki/?curid=107984)
 * [Switcher](https://www.pcgamingwiki.com/wiki/?curid=102325)
