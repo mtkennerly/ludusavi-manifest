@@ -22186,6 +22186,7 @@
 * [Ruinarch](https://www.pcgamingwiki.com/wiki/?curid=130440)
 * [Ruination](https://www.pcgamingwiki.com/wiki/?curid=128226)
 * [Ruine](https://www.pcgamingwiki.com/wiki/?curid=135265)
+* [Ruiner 2](https://www.pcgamingwiki.com/wiki/?curid=214335)
 * [Ruinic](https://www.pcgamingwiki.com/wiki/?curid=157400)
 * [Ruins War](https://www.pcgamingwiki.com/wiki/?curid=112896)
 * [RuinsCity VR](https://www.pcgamingwiki.com/wiki/?curid=52065)
