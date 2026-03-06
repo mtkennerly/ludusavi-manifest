@@ -14258,6 +14258,7 @@
 * [Khan VS Kahn](https://www.pcgamingwiki.com/wiki/?curid=141849)
 * [Khan: Absolute Power](https://www.pcgamingwiki.com/wiki/?curid=44070)
 * [Khaos Wind](https://www.pcgamingwiki.com/wiki/?curid=122822)
+* [KharkivVision 2035](https://www.pcgamingwiki.com/wiki/?curid=214316)
 * [Khet 2.0](https://www.pcgamingwiki.com/wiki/?curid=37746)
 * [Khospis](https://www.pcgamingwiki.com/wiki/?curid=112236)
 * [Khufu's Delivery Service](https://www.pcgamingwiki.com/wiki/?curid=79836)
