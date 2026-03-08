@@ -12031,6 +12031,7 @@
 * [Hell's Kitchen: The Game](https://www.pcgamingwiki.com/wiki/?curid=202083)
 * [Hell's Little Story](https://www.pcgamingwiki.com/wiki/?curid=57117)
 * [Hell's Little Story 2](https://www.pcgamingwiki.com/wiki/?curid=112316)
+* [Hell-Copter](https://www.pcgamingwiki.com/wiki/?curid=214420)
 * [HellAngel](https://www.pcgamingwiki.com/wiki/?curid=37002)
 * [Hellbanger](https://www.pcgamingwiki.com/wiki/?curid=130660)
 * [Hellboy: Dogs of the Night](https://www.pcgamingwiki.com/wiki/?curid=90889)
