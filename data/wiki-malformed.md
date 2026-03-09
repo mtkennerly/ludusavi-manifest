@@ -1,5 +1,6 @@
 * [3D Body Adventure](https://www.pcgamingwiki.com/wiki/?curid=167445)
 * [Act of War: High Treason](https://www.pcgamingwiki.com/wiki/?curid=17276)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
+* [Final Fantasy VII (2012)](https://www.pcgamingwiki.com/wiki/?curid=1938)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
