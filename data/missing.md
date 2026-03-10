@@ -7321,6 +7321,7 @@
 * [Disney Girlfriends](https://www.pcgamingwiki.com/wiki/?curid=168377)
 * [Disney Hidden Worlds](https://www.pcgamingwiki.com/wiki/?curid=168994)
 * [Disney Infinity: Toy Box](https://www.pcgamingwiki.com/wiki/?curid=174487)
+* [Disney Learning Adventure: Search for the Secret Keys](https://www.pcgamingwiki.com/wiki/?curid=214482)
 * [Disney Magic Kingdoms](https://www.pcgamingwiki.com/wiki/?curid=92549)
 * [Disney Melee Mania](https://www.pcgamingwiki.com/wiki/?curid=173167)
 * [Disney Princess Majestic Quest](https://www.pcgamingwiki.com/wiki/?curid=166615)
