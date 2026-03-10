@@ -400,6 +400,7 @@
 * [A Second Chance](https://www.pcgamingwiki.com/wiki/?curid=124376)
 * [A Shawn Story](https://www.pcgamingwiki.com/wiki/?curid=72840)
 * [A Shooty Bit](https://www.pcgamingwiki.com/wiki/?curid=58203)
+* [A Short Tale of Solitude](https://www.pcgamingwiki.com/wiki/?curid=214486)
 * [A Show of Kindness](https://www.pcgamingwiki.com/wiki/?curid=123203)
 * [A Small Robot Story](https://www.pcgamingwiki.com/wiki/?curid=78282)
 * [A Snake's Tale](https://www.pcgamingwiki.com/wiki/?curid=64500)
