@@ -13784,6 +13784,7 @@
 * [JASEM: Just Another Shooter with Electronic Music](https://www.pcgamingwiki.com/wiki/?curid=61744)
 * [Jawbreaker](https://www.pcgamingwiki.com/wiki/?curid=210431)
 * [Jaxon The Thief](https://www.pcgamingwiki.com/wiki/?curid=141829)
+* [Jay and Silent Bob: Chronic Blunt Punch](https://www.pcgamingwiki.com/wiki/?curid=214536)
 * [Jay Fighter: Remastered](https://www.pcgamingwiki.com/wiki/?curid=75640)
 * [Jay Walker](https://www.pcgamingwiki.com/wiki/?curid=112648)
 * [Jazz Age](https://www.pcgamingwiki.com/wiki/?curid=152779)
