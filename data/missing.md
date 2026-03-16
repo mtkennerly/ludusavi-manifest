@@ -5484,6 +5484,7 @@
 * [Cops Kissing Each Other](https://www.pcgamingwiki.com/wiki/?curid=136016)
 * [Copter and Sky](https://www.pcgamingwiki.com/wiki/?curid=42161)
 * [CopyCat](https://www.pcgamingwiki.com/wiki/?curid=141995)
+* [Cordura](https://www.pcgamingwiki.com/wiki/?curid=214728)
 * [Core (2022)](https://www.pcgamingwiki.com/wiki/?curid=210796)
 * [Core Awaken: The Yuka](https://www.pcgamingwiki.com/wiki/?curid=99740)
 * [Core Decay](https://www.pcgamingwiki.com/wiki/?curid=183432)
