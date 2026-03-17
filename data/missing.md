@@ -28185,6 +28185,7 @@
 * [Tiny Bird Garden Deluxe](https://www.pcgamingwiki.com/wiki/?curid=123842)
 * [Tiny Bubbles](https://www.pcgamingwiki.com/wiki/?curid=73011)
 * [Tiny Bunny](https://www.pcgamingwiki.com/wiki/?curid=211720)
+* [Tiny Chills - Not From Ear](https://www.pcgamingwiki.com/wiki/?curid=214744)
 * [Tiny Combat Arena](https://www.pcgamingwiki.com/wiki/?curid=187140)
 * [Tiny Force Deluxe](https://www.pcgamingwiki.com/wiki/?curid=72246)
 * [Tiny Hands Adventure](https://www.pcgamingwiki.com/wiki/?curid=95557)
