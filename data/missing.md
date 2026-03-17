@@ -28262,6 +28262,7 @@
 * [Tock](https://www.pcgamingwiki.com/wiki/?curid=98864)
 * [Tod Stein](https://www.pcgamingwiki.com/wiki/?curid=103245)
 * [Today Is My Birthday](https://www.pcgamingwiki.com/wiki/?curid=151432)
+* [Todd's Adventures in Slime World](https://www.pcgamingwiki.com/wiki/?curid=214748)
 * [Toddler Shooter](https://www.pcgamingwiki.com/wiki/?curid=125254)
 * [Toddler Simulator](https://www.pcgamingwiki.com/wiki/?curid=82404)
 * [Togainu no Chi](https://www.pcgamingwiki.com/wiki/?curid=168705)
