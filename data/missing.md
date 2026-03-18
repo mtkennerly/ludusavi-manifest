@@ -28472,6 +28472,7 @@
 * [Tower Of God: One Wish](https://www.pcgamingwiki.com/wiki/?curid=155298)
 * [Tower of Lust](https://www.pcgamingwiki.com/wiki/?curid=72079)
 * [Tower of Shades](https://www.pcgamingwiki.com/wiki/?curid=154037)
+* [Tower Of Tears](https://www.pcgamingwiki.com/wiki/?curid=214774)
 * [Tower Offence!](https://www.pcgamingwiki.com/wiki/?curid=69014)
 * [Tower Stacker](https://www.pcgamingwiki.com/wiki/?curid=98828)
 * [Tower Tank: TD Reversal](https://www.pcgamingwiki.com/wiki/?curid=125237)
