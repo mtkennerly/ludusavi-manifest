@@ -23092,6 +23092,7 @@
 * [ShellBlast: Legacy Edition](https://www.pcgamingwiki.com/wiki/?curid=94443)
 * [Shellshock](https://www.pcgamingwiki.com/wiki/?curid=210467)
 * [Shelter in Place](https://www.pcgamingwiki.com/wiki/?curid=150608)
+* [Shenmue III Enhanced](https://www.pcgamingwiki.com/wiki/?curid=214817)
 * [Sheol](https://www.pcgamingwiki.com/wiki/?curid=155755)
 * [Shepard Fairey VR - DAMAGED](https://www.pcgamingwiki.com/wiki/?curid=121578)
 * [Shepherd's Crossing](https://www.pcgamingwiki.com/wiki/?curid=186541)
