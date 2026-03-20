@@ -24732,6 +24732,7 @@
 * [Starazius](https://www.pcgamingwiki.com/wiki/?curid=149547)
 * [StarBallMadNess](https://www.pcgamingwiki.com/wiki/?curid=66111)
 * [Starbear: Taxi](https://www.pcgamingwiki.com/wiki/?curid=93545)
+* [Starbites](https://www.pcgamingwiki.com/wiki/?curid=214822)
 * [Starblast](https://www.pcgamingwiki.com/wiki/?curid=72383)
 * [Starbo](https://www.pcgamingwiki.com/wiki/?curid=79666)
 * [STARBOY](https://www.pcgamingwiki.com/wiki/?curid=122300)
