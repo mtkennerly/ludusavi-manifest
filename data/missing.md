@@ -7627,7 +7627,6 @@
 * [Double Dragon](https://www.pcgamingwiki.com/wiki/?curid=176631)
 * [Double Dragon II: The Revenge](https://www.pcgamingwiki.com/wiki/?curid=176633)
 * [Double Dragon III: The Rosetta Stone](https://www.pcgamingwiki.com/wiki/?curid=176636)
-* [Double Dragon IV](https://www.pcgamingwiki.com/wiki/?curid=57087)
 * [Double Dribble](https://www.pcgamingwiki.com/wiki/?curid=176605)
 * [Double Elf Fantasy](https://www.pcgamingwiki.com/wiki/?curid=145920)
 * [Double Head Shark Attack](https://www.pcgamingwiki.com/wiki/?curid=121488)
