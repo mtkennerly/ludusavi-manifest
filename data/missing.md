@@ -9123,6 +9123,7 @@
 * [F-15 Strike Eagle II](https://www.pcgamingwiki.com/wiki/?curid=182927)
 * [F-15 Strike Eagle III](https://www.pcgamingwiki.com/wiki/?curid=182929)
 * [F-19 Stealth Fighter](https://www.pcgamingwiki.com/wiki/?curid=48314)
+* [F-22 Total Air War](https://www.pcgamingwiki.com/wiki/?curid=214885)
 * [F.E.X (Forced Evolution Experiment)](https://www.pcgamingwiki.com/wiki/?curid=68136)
 * [F1 2000](https://www.pcgamingwiki.com/wiki/?curid=23330)
 * [F1 2001](https://www.pcgamingwiki.com/wiki/?curid=25244)
