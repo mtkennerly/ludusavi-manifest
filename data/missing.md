@@ -11122,6 +11122,7 @@
 * [Golden8bits](https://www.pcgamingwiki.com/wiki/?curid=94368)
 * [Goldmine](https://www.pcgamingwiki.com/wiki/?curid=90094)
 * [Goldrushers](https://www.pcgamingwiki.com/wiki/?curid=70471)
+* [Golem (2002)](https://www.pcgamingwiki.com/wiki/?curid=214891)
 * [Golem Gates](https://www.pcgamingwiki.com/wiki/?curid=77144)
 * [Golem Rush](https://www.pcgamingwiki.com/wiki/?curid=103197)
 * [Golf 2D](https://www.pcgamingwiki.com/wiki/?curid=73475)
