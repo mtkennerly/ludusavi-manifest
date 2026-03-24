@@ -1632,6 +1632,7 @@
 * [Arcane Sorcery](https://www.pcgamingwiki.com/wiki/?curid=46456)
 * [Arcane Trials](https://www.pcgamingwiki.com/wiki/?curid=110648)
 * [Arcane Worlds](https://www.pcgamingwiki.com/wiki/?curid=14715)
+* [Arcangel: The Legacy of Peace](https://www.pcgamingwiki.com/wiki/?curid=214927)
 * [Arcanist Revival](https://www.pcgamingwiki.com/wiki/?curid=114762)
 * [ArcBall](https://www.pcgamingwiki.com/wiki/?curid=89986)
 * [ArcBall 2](https://www.pcgamingwiki.com/wiki/?curid=92091)
