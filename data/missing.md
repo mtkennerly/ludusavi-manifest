@@ -30036,6 +30036,7 @@
 * [WackyMoles](https://www.pcgamingwiki.com/wiki/?curid=51643)
 * [Wagamama Alice and the Hundred Day's War](https://www.pcgamingwiki.com/wiki/?curid=76555)
 * [Wagers of War](https://www.pcgamingwiki.com/wiki/?curid=104155)
+* [Wages of War: The Business of Battle](https://www.pcgamingwiki.com/wiki/?curid=214918)
 * [Wagrrr](https://www.pcgamingwiki.com/wiki/?curid=156617)
 * [Waifu](https://www.pcgamingwiki.com/wiki/?curid=199966)
 * [Waifu Bay Girls](https://www.pcgamingwiki.com/wiki/?curid=114870)
