@@ -10278,6 +10278,7 @@
 * [Frizzy](https://www.pcgamingwiki.com/wiki/?curid=45154)
 * [Frog Demon](https://www.pcgamingwiki.com/wiki/?curid=123776)
 * [Frog Out!](https://www.pcgamingwiki.com/wiki/?curid=110086)
+* [Frog Sqwad](https://www.pcgamingwiki.com/wiki/?curid=214983)
 * [Frog Struggles](https://www.pcgamingwiki.com/wiki/?curid=155365)
 * [Frog X Bird](https://www.pcgamingwiki.com/wiki/?curid=69060)
 * [Frog X Log](https://www.pcgamingwiki.com/wiki/?curid=156845)
