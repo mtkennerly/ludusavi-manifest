@@ -12248,6 +12248,7 @@
 * [Her Majesty's SPIFFING](https://www.pcgamingwiki.com/wiki/?curid=53477)
 * [Her War](https://www.pcgamingwiki.com/wiki/?curid=157083)
 * [Hera: The Sword of Rhin](https://www.pcgamingwiki.com/wiki/?curid=176757)
+* [Heracles: Battle with the Gods](https://www.pcgamingwiki.com/wiki/?curid=215011)
 * [Herald of the Depths](https://www.pcgamingwiki.com/wiki/?curid=134580)
 * [Hercules & Xena Learning Adventure: Quest for the Scrolls](https://www.pcgamingwiki.com/wiki/?curid=204714)
 * [Here & Elsewhere](https://www.pcgamingwiki.com/wiki/?curid=125492)
