@@ -1052,6 +1052,14 @@ static MAPPED_PATHS: Lazy<HashMap<&'static str, MappedPath>> = Lazy::new(|| {
         ),
         // Mac
         (
+            "machome",
+            MappedPath {
+                manifest: placeholder::HOME,
+                os: Some(Os::Mac),
+                ..Default::default()
+            },
+        ),
+        (
             "osxhome",
             MappedPath {
                 manifest: placeholder::HOME,
