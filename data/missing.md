@@ -3426,6 +3426,7 @@
 * [BlueGlow](https://www.pcgamingwiki.com/wiki/?curid=132075)
 * [Blueshift](https://www.pcgamingwiki.com/wiki/?curid=55490)
 * [Bluey's Happy Snaps](https://www.pcgamingwiki.com/wiki/?curid=214975)
+* [Bluey's Quest for the Gold Pen](https://www.pcgamingwiki.com/wiki/?curid=215044)
 * [Blunt Force](https://www.pcgamingwiki.com/wiki/?curid=98280)
 * [Blåfjell](https://www.pcgamingwiki.com/wiki/?curid=167077)
 * [Board Battlefield](https://www.pcgamingwiki.com/wiki/?curid=104303)
