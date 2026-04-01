@@ -25396,7 +25396,6 @@
 * [Super Lula Escape From Prison](https://www.pcgamingwiki.com/wiki/?curid=90929)
 * [Super Mario 64 (Ghostship)](https://www.pcgamingwiki.com/wiki/?curid=212957)
 * [Super Mario Bros. & Friends: When I Grow Up](https://www.pcgamingwiki.com/wiki/?curid=155077)
-* [Super Meat Boy 3D](https://www.pcgamingwiki.com/wiki/?curid=205515)
 * [Super Meat Shooter](https://www.pcgamingwiki.com/wiki/?curid=76063)
 * [Super Mega Bob](https://www.pcgamingwiki.com/wiki/?curid=45419)
 * [Super Mega Mini Party](https://www.pcgamingwiki.com/wiki/?curid=151747)
