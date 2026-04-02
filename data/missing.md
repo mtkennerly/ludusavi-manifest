@@ -7323,6 +7323,7 @@
 * [Discworld](https://www.pcgamingwiki.com/wiki/?curid=131790)
 * [Discworld II: Missing Presumed...!?](https://www.pcgamingwiki.com/wiki/?curid=131793)
 * [Disdoored](https://www.pcgamingwiki.com/wiki/?curid=95188)
+* [Disgaea Mayhem](https://www.pcgamingwiki.com/wiki/?curid=215275)
 * [Disgaea RPG](https://www.pcgamingwiki.com/wiki/?curid=173220)
 * [Dishwasher](https://www.pcgamingwiki.com/wiki/?curid=98608)
 * [Disillusions Manga Horror](https://www.pcgamingwiki.com/wiki/?curid=48939)
