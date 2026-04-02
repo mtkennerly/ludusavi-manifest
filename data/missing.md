@@ -6494,7 +6494,6 @@
 * [Darwin Project](https://www.pcgamingwiki.com/wiki/?curid=80354)
 * [Darwin's Bots: Episode 1](https://www.pcgamingwiki.com/wiki/?curid=59619)
 * [Darwin's Demons](https://www.pcgamingwiki.com/wiki/?curid=57772)
-* [Darwin's Paradox!](https://www.pcgamingwiki.com/wiki/?curid=202295)
 * [Das Boot](https://www.pcgamingwiki.com/wiki/?curid=172789)
 * [Das Geheimnis des Magiers](https://www.pcgamingwiki.com/wiki/?curid=214214)
 * [Dash Blitz](https://www.pcgamingwiki.com/wiki/?curid=88808)
