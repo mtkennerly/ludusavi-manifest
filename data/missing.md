@@ -27847,7 +27847,6 @@
 * [The Way of Wrath](https://www.pcgamingwiki.com/wiki/?curid=136013)
 * [The Way We All Go](https://www.pcgamingwiki.com/wiki/?curid=33676)
 * [The Weakest Link](https://www.pcgamingwiki.com/wiki/?curid=198924)
-* [The Weeping Swan: Ten Days of the City's Fall](https://www.pcgamingwiki.com/wiki/?curid=214599)
 * [The Wendigo](https://www.pcgamingwiki.com/wiki/?curid=58789)
 * [The Werewolf Hills](https://www.pcgamingwiki.com/wiki/?curid=141667)
 * [The West](https://www.pcgamingwiki.com/wiki/?curid=36752)
