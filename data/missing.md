@@ -21598,6 +21598,7 @@
 * [RetroVamp](https://www.pcgamingwiki.com/wiki/?curid=153039)
 * [Retrowave 2](https://www.pcgamingwiki.com/wiki/?curid=199247)
 * [Retrowave World](https://www.pcgamingwiki.com/wiki/?curid=196437)
+* [Return Fire 2](https://www.pcgamingwiki.com/wiki/?curid=215328)
 * [Return Home](https://www.pcgamingwiki.com/wiki/?curid=130484)
 * [Return Null - Episode 1](https://www.pcgamingwiki.com/wiki/?curid=48292)
 * [Return of the Phantom](https://www.pcgamingwiki.com/wiki/?curid=147589)
