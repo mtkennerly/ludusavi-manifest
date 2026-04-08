@@ -18133,6 +18133,7 @@
 * [Nickelodeon BrainBender](https://www.pcgamingwiki.com/wiki/?curid=208188)
 * [Nickelodeon Director's Lab](https://www.pcgamingwiki.com/wiki/?curid=183495)
 * [Nickelodeon Extreme Tennis](https://www.pcgamingwiki.com/wiki/?curid=173696)
+* [Nickelodeon Extreme Tennis Next!](https://www.pcgamingwiki.com/wiki/?curid=215430)
 * [Nickelodeon Party Blast](https://www.pcgamingwiki.com/wiki/?curid=88322)
 * [Nickelodeon Toon Twister 3-D](https://www.pcgamingwiki.com/wiki/?curid=183489)
 * [NickProject](https://www.pcgamingwiki.com/wiki/?curid=87316)
