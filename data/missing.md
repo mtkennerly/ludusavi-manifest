@@ -23647,6 +23647,7 @@
 * [Slay Together](https://www.pcgamingwiki.com/wiki/?curid=127549)
 * [Slay.one](https://www.pcgamingwiki.com/wiki/?curid=80677)
 * [Slayer of Traitors](https://www.pcgamingwiki.com/wiki/?curid=93708)
+* [Sledding Game](https://www.pcgamingwiki.com/wiki/?curid=215509)
 * [Sleengster](https://www.pcgamingwiki.com/wiki/?curid=53924)
 * [Sleengster 2](https://www.pcgamingwiki.com/wiki/?curid=58234)
 * [Sleengster 3](https://www.pcgamingwiki.com/wiki/?curid=64068)
