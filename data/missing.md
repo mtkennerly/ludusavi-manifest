@@ -6489,6 +6489,7 @@
 * [Darkroom - Ray of Light](https://www.pcgamingwiki.com/wiki/?curid=76207)
 * [Darksiders IV](https://www.pcgamingwiki.com/wiki/?curid=206710)
 * [DarkSpace](https://www.pcgamingwiki.com/wiki/?curid=141736)
+* [Darkstone Restoration](https://www.pcgamingwiki.com/wiki/?curid=215555)
 * [DarkStory Online](https://www.pcgamingwiki.com/wiki/?curid=140484)
 * [Darkwind: War on Wheels](https://www.pcgamingwiki.com/wiki/?curid=49731)
 * [Darkwinds](https://www.pcgamingwiki.com/wiki/?curid=124177)
