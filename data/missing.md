@@ -26481,6 +26481,7 @@
 * [The Butterfly Sign](https://www.pcgamingwiki.com/wiki/?curid=54935)
 * [The Button](https://www.pcgamingwiki.com/wiki/?curid=176358)
 * [The Button Witch](https://www.pcgamingwiki.com/wiki/?curid=157348)
+* [The C.H.A.O.S. Continuum](https://www.pcgamingwiki.com/wiki/?curid=215568)
 * [The Cabin: VR Escape the Room](https://www.pcgamingwiki.com/wiki/?curid=54798)
 * [The Cabinets of Doctor Arcana](https://www.pcgamingwiki.com/wiki/?curid=91212)
 * [The Cable Center - Virtual Archive](https://www.pcgamingwiki.com/wiki/?curid=60884)
