@@ -2431,6 +2431,7 @@
 * [Banished Castle VR](https://www.pcgamingwiki.com/wiki/?curid=144043)
 * [Bankrupt Heroines 2](https://www.pcgamingwiki.com/wiki/?curid=179009)
 * [Bankster](https://www.pcgamingwiki.com/wiki/?curid=77265)
+* [Banquet for Fools](https://www.pcgamingwiki.com/wiki/?curid=215593)
 * [Banshee Force](https://www.pcgamingwiki.com/wiki/?curid=80942)
 * [Banshee: Demon Girl](https://www.pcgamingwiki.com/wiki/?curid=204060)
 * [Banter Schooldays!!三〇一室无一人](https://www.pcgamingwiki.com/wiki/?curid=150671)
