@@ -23541,6 +23541,7 @@
 * [Skoki Narciarskie 2003](https://www.pcgamingwiki.com/wiki/?curid=209537)
 * [Skool Daze Reskooled](https://www.pcgamingwiki.com/wiki/?curid=94263)
 * [Skript](https://www.pcgamingwiki.com/wiki/?curid=75506)
+* [Skull Cracker](https://www.pcgamingwiki.com/wiki/?curid=215587)
 * [Skull Feast](https://www.pcgamingwiki.com/wiki/?curid=89359)
 * [Skull Island: Rise of Kong](https://www.pcgamingwiki.com/wiki/?curid=190472)
 * [Skull Rogue](https://www.pcgamingwiki.com/wiki/?curid=155644)
