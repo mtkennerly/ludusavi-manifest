@@ -17135,6 +17135,7 @@
 * [Moon Bullet](https://www.pcgamingwiki.com/wiki/?curid=82031)
 * [Moon Bus](https://www.pcgamingwiki.com/wiki/?curid=149879)
 * [Moon Castle](https://www.pcgamingwiki.com/wiki/?curid=88229)
+* [Moon Child](https://www.pcgamingwiki.com/wiki/?curid=215636)
 * [Moon Colonization Project](https://www.pcgamingwiki.com/wiki/?curid=42463)
 * [Moon Dragon](https://www.pcgamingwiki.com/wiki/?curid=208101)
 * [Moon Landing VR](https://www.pcgamingwiki.com/wiki/?curid=95017)
