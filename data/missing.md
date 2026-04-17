@@ -20738,6 +20738,7 @@
 * [Puzzle Bobble (2019)](https://www.pcgamingwiki.com/wiki/?curid=168862)
 * [Puzzle Bobble 2](https://www.pcgamingwiki.com/wiki/?curid=123046)
 * [Puzzle Bobble 2 (2019)](https://www.pcgamingwiki.com/wiki/?curid=168863)
+* [Puzzle Bobble Everybubble!](https://www.pcgamingwiki.com/wiki/?curid=215704)
 * [Puzzle Bots](https://www.pcgamingwiki.com/wiki/?curid=22360)
 * [Puzzle Castle](https://www.pcgamingwiki.com/wiki/?curid=215285)
 * [Puzzle for Kids](https://www.pcgamingwiki.com/wiki/?curid=81480)
