@@ -1,4 +1,4 @@
-use crate::{manifest::Manifest, resource::ResourceFile, Error, REPO};
+use crate::{Error, REPO, manifest::Manifest, resource::ResourceFile};
 
 pub fn validate_manifest(manifest: &Manifest) -> Result<(), Error> {
     let manifest: serde_json::Value = serde_yaml::from_str(&manifest.serialize()).unwrap();

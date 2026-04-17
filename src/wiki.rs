@@ -6,10 +6,11 @@ use regex::Regex;
 use wikitext_parser::{Attribute, TextPiece};
 
 use crate::{
-    manifest::{placeholder, Os, Store, Tag},
+    Error, Regularity, State,
+    manifest::{Os, Store, Tag, placeholder},
     path, registry,
     resource::ResourceFile,
-    should_cancel, Error, Regularity, State,
+    should_cancel,
 };
 
 const SAVE_INTERVAL: u32 = 100;
@@ -77,15 +78,15 @@ async fn is_article_relevant(query: &str) -> Result<bool, Error> {
         .values()
     {
         let title = page["title"].as_str().ok_or(Error::WikiData("query.pages[].title"))?;
-        if title == query {
-            if let Some(categories) = page["categories"].as_array() {
-                for category in categories {
-                    let category_name = category["title"]
-                        .as_str()
-                        .ok_or(Error::WikiData("query.pages[].categories[].title"))?;
-                    if RELEVANT_CATEGORIES.contains(&category_name) {
-                        return Ok(true);
-                    }
+        if title == query
+            && let Some(categories) = page["categories"].as_array()
+        {
+            for category in categories {
+                let category_name = category["title"]
+                    .as_str()
+                    .ok_or(Error::WikiData("query.pages[].categories[].title"))?;
+                if RELEVANT_CATEGORIES.contains(&category_name) {
+                    return Ok(true);
                 }
             }
         }
@@ -500,10 +501,10 @@ impl WikiCacheEntry {
                         for attribute in attributes {
                             match attribute.name.as_deref() {
                                 Some("steam appid") => {
-                                    if let Ok(value) = preprocess_text(&attribute.value.to_string()).parse::<u32>() {
-                                        if value > 0 {
-                                            out.steam = Some(value);
-                                        }
+                                    if let Ok(value) = preprocess_text(&attribute.value.to_string()).parse::<u32>()
+                                        && value > 0
+                                    {
+                                        out.steam = Some(value);
                                     }
                                 }
                                 Some("steam appid side") => {
@@ -514,10 +515,10 @@ impl WikiCacheEntry {
                                         .collect();
                                 }
                                 Some("gogcom id") => {
-                                    if let Ok(value) = preprocess_text(&attribute.value.to_string()).parse::<u64>() {
-                                        if value > 0 {
-                                            out.gog = Some(value);
-                                        }
+                                    if let Ok(value) = preprocess_text(&attribute.value.to_string()).parse::<u64>()
+                                        && value > 0
+                                    {
+                                        out.gog = Some(value);
                                     }
                                 }
                                 Some("gogcom id side") => {

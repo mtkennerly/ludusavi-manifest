@@ -2,7 +2,7 @@
 name = "ludusavi-manifest"
 version = "0.1.0"
 authors = ["mtkennerly <mtkennerly@gmail.com>"]
-edition = "2021"
+edition = "2024"
 description = "Ludusavi manifest importer"
 repository = "https://github.com/mtkennerly/ludusavi-manifest"
 readme = "README.md"

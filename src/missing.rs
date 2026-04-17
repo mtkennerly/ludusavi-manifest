@@ -1,9 +1,9 @@
 use itertools::Itertools;
 
 use crate::{
+    REPO,
     manifest::{Manifest, ManifestOverride},
     wiki::WikiCache,
-    REPO,
 };
 
 pub fn save_missing_games(wiki_cache: &WikiCache, manifest: &Manifest, overrides: &ManifestOverride) {

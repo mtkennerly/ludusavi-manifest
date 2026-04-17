@@ -9,8 +9,8 @@ mod steam;
 mod wiki;
 
 use std::sync::{
-    atomic::{AtomicBool, Ordering},
     Arc,
+    atomic::{AtomicBool, Ordering},
 };
 
 use once_cell::sync::Lazy;
@@ -60,11 +60,7 @@ pub enum Regularity {
 
 impl Regularity {
     pub fn worst(&self, other: Self) -> Self {
-        if other > *self {
-            other
-        } else {
-            *self
-        }
+        if other > *self { other } else { *self }
     }
 }
 

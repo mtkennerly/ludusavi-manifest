@@ -1,11 +1,11 @@
 use std::collections::HashMap;
 
 use crate::{
-    manifest::{placeholder, Manifest, ManifestOverride},
+    Error,
+    manifest::{Manifest, ManifestOverride, placeholder},
     schema,
     steam::SteamCache,
     wiki::{WikiCache, WikiMetaCache},
-    Error,
 };
 
 fn styles() -> clap::builder::styling::Styles {

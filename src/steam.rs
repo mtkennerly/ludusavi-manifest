@@ -6,11 +6,11 @@ use std::{
 use itertools::Itertools;
 
 use crate::{
-    manifest::{placeholder, Os},
+    Error, REPO, State,
+    manifest::{Os, placeholder},
     resource::ResourceFile,
     should_cancel,
     wiki::WikiCache,
-    Error, State, REPO,
 };
 
 const SAVE_INTERVAL: u32 = 250;

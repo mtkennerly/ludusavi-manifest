@@ -1,7 +1,7 @@
 use once_cell::sync::Lazy;
 use regex::Regex;
 
-use crate::manifest::{placeholder, Os};
+use crate::manifest::{Os, placeholder};
 
 pub fn normalize(path: &str, os: Option<Os>) -> String {
     let mut path = path.trim().trim_end_matches(['/', '\\']).replace('\\', "/");

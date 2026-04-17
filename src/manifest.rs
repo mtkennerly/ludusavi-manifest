@@ -1,11 +1,10 @@
 use std::collections::{BTreeMap, BTreeSet};
 
 use crate::{
-    path,
+    Error, path,
     resource::ResourceFile,
     steam::{self, SteamCache, SteamCacheEntry},
     wiki::{PathKind, PrimaryIds, WikiCache, WikiCacheEntry},
-    Error,
 };
 
 pub mod placeholder {
@@ -162,10 +161,10 @@ impl Manifest {
 
             let mut game = Game::default();
             game.integrate_wiki(info, title, &primary_ids);
-            if let Some(id) = game.steam.id {
-                if let Some(info) = steam_cache.0.get(&id) {
-                    game.integrate_steam(info, overrides.0.get(title).map(|x| x.use_steam_cloud).unwrap_or(true));
-                }
+            if let Some(id) = game.steam.id
+                && let Some(info) = steam_cache.0.get(&id)
+            {
+                game.integrate_steam(info, overrides.0.get(title).map(|x| x.use_steam_cloud).unwrap_or(true));
             }
             if let Some(overridden) = overrides.0.get(title) {
                 game.integrate_overrides(overridden);
