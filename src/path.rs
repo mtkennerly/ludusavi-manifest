@@ -10,6 +10,14 @@ pub fn normalize(path: &str, os: Option<Os>) -> String {
         path = path.replacen('~', placeholder::HOME, 1);
     }
 
+    // This may produce `**` in invalid positions, so do it before `**` normalization.
+    if !path.contains("#SharedObjects") {
+        static CONSECUTIVE_HASHES: Lazy<Regex> = Lazy::new(|| Regex::new(r"#{2,}").unwrap());
+
+        path = CONSECUTIVE_HASHES.replace_all(&path, "#").to_string();
+        path = path.replace("#", "*");
+    }
+
     static CONSECUTIVE_SLASHES: Lazy<Regex> = Lazy::new(|| Regex::new(r"/{2,}").unwrap());
     static UNNECESSARY_DOUBLE_STAR_1: Lazy<Regex> = Lazy::new(|| Regex::new(r"([^/*])\*{2,}").unwrap());
     static UNNECESSARY_DOUBLE_STAR_2: Lazy<Regex> = Lazy::new(|| Regex::new(r"\*{2,}([^/*])").unwrap());
@@ -104,6 +112,8 @@ fn too_broad(path: &str) -> bool {
         format!("{HOME}/Telltale Games"),
         format!("{ROOT}/config"),
         format!("{WIN_APP_DATA}/MMFApplications"),
+        format!("{WIN_APP_DATA}/Macromedia"),
+        format!("{WIN_APP_DATA}/Macromedia/Flash Player"),
         format!("{WIN_APP_DATA}/RenPy"),
         format!("{WIN_APP_DATA}/RenPy/persistent"),
         format!("{WIN_DIR}/win.ini"),
@@ -120,6 +130,19 @@ fn too_broad(path: &str) -> bool {
             || path_lower.starts_with(&format!("{item}/*"))
             || path_lower.starts_with(&format!("{item}/{}", STORE_USER_ID.to_lowercase()))
             || path_lower.starts_with(&format!("{item}/savesdir"))
+        {
+            return true;
+        }
+    }
+
+    // Paths here usually specify a specific file,
+    // so we only need to reject it if it's the entire folder.
+    #[allow(clippy::single_element_loop)]
+    for item in [format!("{WIN_APP_DATA}/Macromedia/Flash Player/#SharedObjects")] {
+        let item = item.to_lowercase();
+        if path_lower == item
+            || path_lower == format!("{item}/*")
+            || path_lower == format!("{item}/{}", STORE_USER_ID.to_lowercase())
         {
             return true;
         }
