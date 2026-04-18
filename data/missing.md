@@ -26500,7 +26500,6 @@
 * [The Cat and the Box](https://www.pcgamingwiki.com/wiki/?curid=132584)
 * [The Cat in 14a](https://www.pcgamingwiki.com/wiki/?curid=135586)
 * [The Cat in the Hat](https://www.pcgamingwiki.com/wiki/?curid=186903)
-* [The Cat in the Hat (2003)](https://www.pcgamingwiki.com/wiki/?curid=192228)
 * [The Cat! Porfirio's Adventure](https://www.pcgamingwiki.com/wiki/?curid=41833)
 * [The Cathedral: Allison's Diary](https://www.pcgamingwiki.com/wiki/?curid=82069)
 * [The Cave VR](https://www.pcgamingwiki.com/wiki/?curid=73503)
