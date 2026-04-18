@@ -12,6 +12,27 @@ BioShock 2 Remastered:
 "Death Stranding Director's Cut":
   installDir:
     DeathStrandingDC: {}
+
+# Halo: The Master Chief Collection includes this path instead
+"Halo 2: Anniversary":
+  omitFiles:
+    - "<home>/AppData/LocalLow/MCC"
+Halo 3:
+  omitFiles:
+    - "<home>/AppData/LocalLow/MCC"
+"Halo 3: ODST":
+  omitFiles:
+    - "<home>/AppData/LocalLow/MCC"
+Halo 4:
+  omitFiles:
+    - "<home>/AppData/LocalLow/MCC"
+"Halo: Combat Evolved Anniversary":
+  omitFiles:
+    - "<home>/AppData/LocalLow/MCC"
+"Halo: Reach":
+  omitFiles:
+    - "<home>/AppData/LocalLow/MCC"
+
 Inscryption:
   installDir:
     # Epic uses a different folder name.

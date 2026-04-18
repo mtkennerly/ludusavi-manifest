@@ -470,6 +470,10 @@ impl Game {
         self.files.extend(overridden.game.files.clone());
         self.registry.extend(overridden.game.registry.clone());
 
+        for file in &overridden.omit_files {
+            self.files.remove(file);
+        }
+
         if overridden.omit_registry {
             self.registry.clear();
         }
@@ -638,6 +642,7 @@ pub struct ManifestOverride(pub BTreeMap<String, OverrideGame>);
 #[serde(default, rename_all = "camelCase")]
 pub struct OverrideGame {
     pub omit: bool,
+    pub omit_files: Vec<String>,
     pub omit_registry: bool,
     pub use_steam_cloud: bool,
     #[serde(flatten)]
