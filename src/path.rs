@@ -12,10 +12,9 @@ pub fn normalize(path: &str, os: Option<Os>) -> String {
 
     // This may produce `**` in invalid positions, so do it before `**` normalization.
     if !path.contains("#SharedObjects") {
-        static CONSECUTIVE_HASHES: Lazy<Regex> = Lazy::new(|| Regex::new(r"#{2,}").unwrap());
+        static HASHES: Lazy<Regex> = Lazy::new(|| Regex::new(r"#{1,}").unwrap());
 
-        path = CONSECUTIVE_HASHES.replace_all(&path, "#").to_string();
-        path = path.replace("#", "*");
+        path = HASHES.replace_all(&path, "*").to_string();
     }
 
     static CONSECUTIVE_SLASHES: Lazy<Regex> = Lazy::new(|| Regex::new(r"/{2,}").unwrap());
