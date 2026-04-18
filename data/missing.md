@@ -20146,7 +20146,6 @@
 * [Port Royale 4](https://www.pcgamingwiki.com/wiki/?curid=145481)
 * [Port Valley](https://www.pcgamingwiki.com/wiki/?curid=109450)
 * [Portal (1986)](https://www.pcgamingwiki.com/wiki/?curid=155035)
-* [Portal 2: Community Edition](https://www.pcgamingwiki.com/wiki/?curid=196256)
 * [Portal Key](https://www.pcgamingwiki.com/wiki/?curid=52518)
 * [Portal of Evil: Stolen Runes](https://www.pcgamingwiki.com/wiki/?curid=37766)
 * [Portal Stories: VR](https://www.pcgamingwiki.com/wiki/?curid=89137)
