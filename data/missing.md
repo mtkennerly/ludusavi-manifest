@@ -29258,7 +29258,6 @@
 * [Underbar Summer](https://www.pcgamingwiki.com/wiki/?curid=143305)
 * [Undercover Agent](https://www.pcgamingwiki.com/wiki/?curid=81448)
 * [Undercover Missions: Operation Kursk K-141](https://www.pcgamingwiki.com/wiki/?curid=45324)
-* [Undercover: Operation Wintersun](https://www.pcgamingwiki.com/wiki/?curid=196354)
 * [UndercoVR](https://www.pcgamingwiki.com/wiki/?curid=145451)
 * [UnderDread](https://www.pcgamingwiki.com/wiki/?curid=44379)
 * [UnderEarth](https://www.pcgamingwiki.com/wiki/?curid=35222)
