@@ -517,6 +517,7 @@
 * [Abyss](https://www.pcgamingwiki.com/wiki/?curid=157357)
 * [Abyss Crawlers Plus](https://www.pcgamingwiki.com/wiki/?curid=87251)
 * [Abyss Crew](https://www.pcgamingwiki.com/wiki/?curid=87623)
+* [Abyss of Kings](https://www.pcgamingwiki.com/wiki/?curid=215756)
 * [Abyss World: Apocalypse](https://www.pcgamingwiki.com/wiki/?curid=183798)
 * [Abyssal Fall](https://www.pcgamingwiki.com/wiki/?curid=68144)
 * [Abyssal Shade](https://www.pcgamingwiki.com/wiki/?curid=200823)
