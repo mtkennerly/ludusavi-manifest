@@ -27146,7 +27146,6 @@
 * [The Last Sigil](https://www.pcgamingwiki.com/wiki/?curid=87475)
 * [The Last Sin](https://www.pcgamingwiki.com/wiki/?curid=71411)
 * [The Last Sip](https://www.pcgamingwiki.com/wiki/?curid=209275)
-* [The Last Sky](https://www.pcgamingwiki.com/wiki/?curid=154188)
 * [The Last Sniper VR](https://www.pcgamingwiki.com/wiki/?curid=41866)
 * [The last soldier](https://www.pcgamingwiki.com/wiki/?curid=112712)
 * [The Last Sorcerer](https://www.pcgamingwiki.com/wiki/?curid=68180)
