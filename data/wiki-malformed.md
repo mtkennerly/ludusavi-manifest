@@ -1,5 +1,6 @@
 * [3D Body Adventure](https://www.pcgamingwiki.com/wiki/?curid=167445)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
+* [Lost in the Roots](https://www.pcgamingwiki.com/wiki/?curid=215872)
 * [Screamer 4x4](https://www.pcgamingwiki.com/wiki/?curid=2856)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
