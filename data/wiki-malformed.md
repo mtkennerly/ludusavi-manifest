@@ -4,4 +4,3 @@
 * [Lost in the Roots](https://www.pcgamingwiki.com/wiki/?curid=215872)
 * [Screamer 4x4](https://www.pcgamingwiki.com/wiki/?curid=2856)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
-* [Wolfenstein II: The New Colossus](https://www.pcgamingwiki.com/wiki/?curid=63522)
