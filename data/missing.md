@@ -23523,6 +23523,7 @@
 * [Ski Resort Tycoon](https://www.pcgamingwiki.com/wiki/?curid=90748)
 * [Ski Safari 2](https://www.pcgamingwiki.com/wiki/?curid=169716)
 * [Ski Sport: Jumping VR](https://www.pcgamingwiki.com/wiki/?curid=57190)
+* [Ski-Doo X-Team Racing](https://www.pcgamingwiki.com/wiki/?curid=215882)
 * [Skidlocked](https://www.pcgamingwiki.com/wiki/?curid=155363)
 * [SkiFy](https://www.pcgamingwiki.com/wiki/?curid=74652)
 * [SkiJump](https://www.pcgamingwiki.com/wiki/?curid=137261)
