@@ -25229,7 +25229,6 @@
 * [Suchawira World Traveler](https://www.pcgamingwiki.com/wiki/?curid=126249)
 * [Sudden Attack 2](https://www.pcgamingwiki.com/wiki/?curid=212668)
 * [Sudden Attack Zero Point](https://www.pcgamingwiki.com/wiki/?curid=213937)
-* [Sudden Strike 5](https://www.pcgamingwiki.com/wiki/?curid=206232)
 * [Sudoku](https://www.pcgamingwiki.com/wiki/?curid=65979)
 * [Sudoku (2018)](https://www.pcgamingwiki.com/wiki/?curid=137278)
 * [Sudoku 9X16X25](https://www.pcgamingwiki.com/wiki/?curid=139011)
