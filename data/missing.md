@@ -6794,7 +6794,6 @@
 * [Deep Dark Fantasies](https://www.pcgamingwiki.com/wiki/?curid=70138)
 * [Deep Dark Fight](https://www.pcgamingwiki.com/wiki/?curid=78503)
 * [Deep Dark Labyrinth](https://www.pcgamingwiki.com/wiki/?curid=94471)
-* [Deep Dish Dungeon](https://www.pcgamingwiki.com/wiki/?curid=207378)
 * [Deep Diving VR](https://www.pcgamingwiki.com/wiki/?curid=144741)
 * [Deep Dungeon: Gym](https://www.pcgamingwiki.com/wiki/?curid=134385)
 * [Deep Eclipse: New Space Odyssey](https://www.pcgamingwiki.com/wiki/?curid=49432)
