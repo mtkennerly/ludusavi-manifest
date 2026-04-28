@@ -28372,7 +28372,6 @@
 * [Tokyo Warfare Turbo](https://www.pcgamingwiki.com/wiki/?curid=127862)
 * [Tokyo Wizard](https://www.pcgamingwiki.com/wiki/?curid=144382)
 * [ToledoVR](https://www.pcgamingwiki.com/wiki/?curid=55766)
-* [Toll Booth Simulator](https://www.pcgamingwiki.com/wiki/?curid=215868)
 * [Toltec and the mysteries of the Secret Island](https://www.pcgamingwiki.com/wiki/?curid=122014)
 * [Tom & Jerry](https://www.pcgamingwiki.com/wiki/?curid=136318)
 * [Tom & Jerry: Yankee Doodle's CAT-astrophe](https://www.pcgamingwiki.com/wiki/?curid=136319)
