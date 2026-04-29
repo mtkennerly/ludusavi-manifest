@@ -17497,6 +17497,7 @@
 * [My Golf](https://www.pcgamingwiki.com/wiki/?curid=91220)
 * [My Grandfather's Farm](https://www.pcgamingwiki.com/wiki/?curid=92369)
 * [My Haunted Doll](https://www.pcgamingwiki.com/wiki/?curid=150673)
+* [My Helpers](https://www.pcgamingwiki.com/wiki/?curid=216094)
 * [My Home VR](https://www.pcgamingwiki.com/wiki/?curid=153523)
 * [My Horse & Me](https://www.pcgamingwiki.com/wiki/?curid=206029)
 * [My hot beach vacation](https://www.pcgamingwiki.com/wiki/?curid=155969)
