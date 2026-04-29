@@ -20134,6 +20134,7 @@
 * [Pool Cleaning Simulator](https://www.pcgamingwiki.com/wiki/?curid=209259)
 * [Pool Nation FX](https://www.pcgamingwiki.com/wiki/?curid=45379)
 * [Pool of Death](https://www.pcgamingwiki.com/wiki/?curid=39570)
+* [Pool of Madness](https://www.pcgamingwiki.com/wiki/?curid=216108)
 * [Poop Slinger](https://www.pcgamingwiki.com/wiki/?curid=93273)
 * [Poopdie](https://www.pcgamingwiki.com/wiki/?curid=157472)
 * [PooPee Wars](https://www.pcgamingwiki.com/wiki/?curid=68966)
