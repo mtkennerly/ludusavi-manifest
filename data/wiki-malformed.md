@@ -3,6 +3,7 @@
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Lost in the Roots](https://www.pcgamingwiki.com/wiki/?curid=215872)
 * [Magical Bakery](https://www.pcgamingwiki.com/wiki/?curid=216011)
+* [Meet the Robinsons](https://www.pcgamingwiki.com/wiki/?curid=81386)
 * [Phineas and Ferb: New Inventions](https://www.pcgamingwiki.com/wiki/?curid=48629)
 * [Screamer 4x4](https://www.pcgamingwiki.com/wiki/?curid=2856)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
