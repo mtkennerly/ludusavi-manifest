@@ -4952,6 +4952,7 @@
 * [Citadale: The Legends Trilogy](https://www.pcgamingwiki.com/wiki/?curid=70098)
 * [Citadel](https://www.pcgamingwiki.com/wiki/?curid=33836)
 * [Citadel 1986](https://www.pcgamingwiki.com/wiki/?curid=36224)
+* [Citadel Remonstered](https://www.pcgamingwiki.com/wiki/?curid=216171)
 * [Citadel Stormer 2](https://www.pcgamingwiki.com/wiki/?curid=198485)
 * [Citadels](https://www.pcgamingwiki.com/wiki/?curid=40604)
 * [Citalis](https://www.pcgamingwiki.com/wiki/?curid=52408)
