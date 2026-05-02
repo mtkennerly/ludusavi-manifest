@@ -24925,6 +24925,7 @@
 * [Steam Heroes](https://www.pcgamingwiki.com/wiki/?curid=48833)
 * [Steam Slug](https://www.pcgamingwiki.com/wiki/?curid=188836)
 * [Steam Tactics](https://www.pcgamingwiki.com/wiki/?curid=70293)
+* [Steam To Electric](https://www.pcgamingwiki.com/wiki/?curid=216209)
 * [Steam: Rails to Riches](https://www.pcgamingwiki.com/wiki/?curid=59494)
 * [SteamCity Chronicles - Rise Of The Rose](https://www.pcgamingwiki.com/wiki/?curid=150584)
 * [Steamcraft](https://www.pcgamingwiki.com/wiki/?curid=126114)
