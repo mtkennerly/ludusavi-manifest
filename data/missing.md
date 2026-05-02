@@ -14717,6 +14717,7 @@
 * [L-Way](https://www.pcgamingwiki.com/wiki/?curid=102915)
 * [L-Zone](https://www.pcgamingwiki.com/wiki/?curid=172504)
 * [L.A. Noire: The VR Case Files](https://www.pcgamingwiki.com/wiki/?curid=77505)
+* [L8r Sk8r](https://www.pcgamingwiki.com/wiki/?curid=216228)
 * [La Aventura De Axel](https://www.pcgamingwiki.com/wiki/?curid=73525)
 * [LA Deadzone](https://www.pcgamingwiki.com/wiki/?curid=144115)
 * [La Divina Commedia](https://www.pcgamingwiki.com/wiki/?curid=207274)
