@@ -20090,6 +20090,7 @@
 * [Police Patrol](https://www.pcgamingwiki.com/wiki/?curid=92041)
 * [Police Quest III: The Kindred](https://www.pcgamingwiki.com/wiki/?curid=56871)
 * [Police Quest: Open Season](https://www.pcgamingwiki.com/wiki/?curid=56872)
+* [Police Stories 2](https://www.pcgamingwiki.com/wiki/?curid=216335)
 * [Police Stories: The Academy](https://www.pcgamingwiki.com/wiki/?curid=180210)
 * [Police Stunt Cars](https://www.pcgamingwiki.com/wiki/?curid=141831)
 * [Police Tactics: Imperio](https://www.pcgamingwiki.com/wiki/?curid=38751)
