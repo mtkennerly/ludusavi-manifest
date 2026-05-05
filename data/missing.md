@@ -16571,6 +16571,7 @@
 * [Metal: Iron Age](https://www.pcgamingwiki.com/wiki/?curid=90252)
 * [MetalArms](https://www.pcgamingwiki.com/wiki/?curid=149503)
 * [Metaloid : Origin](https://www.pcgamingwiki.com/wiki/?curid=126010)
+* [Metaltech: Battledrome](https://www.pcgamingwiki.com/wiki/?curid=216343)
 * [Metamorph (Chumoran)](https://www.pcgamingwiki.com/wiki/?curid=121083)
 * [Metamorphabet](https://www.pcgamingwiki.com/wiki/?curid=48062)
 * [Metamorphic](https://www.pcgamingwiki.com/wiki/?curid=42557)
