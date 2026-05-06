@@ -2937,6 +2937,7 @@
 * [Beyond the Wall (For Kids)](https://www.pcgamingwiki.com/wiki/?curid=74718)
 * [Beyond the Wire](https://www.pcgamingwiki.com/wiki/?curid=164572)
 * [Beyond the Wizard](https://www.pcgamingwiki.com/wiki/?curid=139081)
+* [Beyond These Stars](https://www.pcgamingwiki.com/wiki/?curid=216369)
 * [Beyond: Light Advent](https://www.pcgamingwiki.com/wiki/?curid=61644)
 * [Bezier](https://www.pcgamingwiki.com/wiki/?curid=44323)
 * [Bezirk](https://www.pcgamingwiki.com/wiki/?curid=114158)
