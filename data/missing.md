@@ -31024,6 +31024,7 @@
 * [World of Walking Cities](https://www.pcgamingwiki.com/wiki/?curid=93076)
 * [World of War: Battlegrounds](https://www.pcgamingwiki.com/wiki/?curid=99166)
 * [World of Warplanes](https://www.pcgamingwiki.com/wiki/?curid=112000)
+* [World of Warships: Legends](https://www.pcgamingwiki.com/wiki/?curid=216382)
 * [World of Zombies](https://www.pcgamingwiki.com/wiki/?curid=125605)
 * [World Rally Fever: Born on the Road](https://www.pcgamingwiki.com/wiki/?curid=14274)
 * [World Series Baseball '96](https://www.pcgamingwiki.com/wiki/?curid=171006)
