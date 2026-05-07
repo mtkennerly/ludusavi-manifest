@@ -17477,6 +17477,7 @@
 * [My 1980's Dashboard](https://www.pcgamingwiki.com/wiki/?curid=82016)
 * [My Agent is a Futanari](https://www.pcgamingwiki.com/wiki/?curid=181904)
 * [My Arctic Farm](https://www.pcgamingwiki.com/wiki/?curid=127918)
+* [My Beautiful Faraway, Please Don't Be Cruel To Me](https://www.pcgamingwiki.com/wiki/?curid=216401)
 * [My Bike](https://www.pcgamingwiki.com/wiki/?curid=144033)
 * [My Bingo](https://www.pcgamingwiki.com/wiki/?curid=98872)
 * [My Bones](https://www.pcgamingwiki.com/wiki/?curid=47013)
