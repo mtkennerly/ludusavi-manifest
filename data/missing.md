@@ -6071,6 +6071,7 @@
 * [Curse of Atlantis: Thorgal's Quest](https://www.pcgamingwiki.com/wiki/?curid=203716)
 * [Curse of Enchantia](https://www.pcgamingwiki.com/wiki/?curid=212181)
 * [Curse of Mermos](https://www.pcgamingwiki.com/wiki/?curid=47527)
+* [Curse of the Crimson Stag](https://www.pcgamingwiki.com/wiki/?curid=216432)
 * [Curse of the dungeon](https://www.pcgamingwiki.com/wiki/?curid=148461)
 * [Curse of the Great Forest](https://www.pcgamingwiki.com/wiki/?curid=64174)
 * [Cursed Caves](https://www.pcgamingwiki.com/wiki/?curid=88690)
