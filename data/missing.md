@@ -22107,6 +22107,7 @@
 * [Rogue Stormers](https://www.pcgamingwiki.com/wiki/?curid=43462)
 * [Rogue System](https://www.pcgamingwiki.com/wiki/?curid=37269)
 * [Rogue Zillion](https://www.pcgamingwiki.com/wiki/?curid=76261)
+* [Roguecraft DX](https://www.pcgamingwiki.com/wiki/?curid=216473)
 * [RogueCraft Squadron](https://www.pcgamingwiki.com/wiki/?curid=127649)
 * [Roguelike Hero](https://www.pcgamingwiki.com/wiki/?curid=109264)
 * [RogueLite](https://www.pcgamingwiki.com/wiki/?curid=123493)
