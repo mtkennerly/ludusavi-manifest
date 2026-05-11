@@ -14740,6 +14740,7 @@
 * [La Fuga](https://www.pcgamingwiki.com/wiki/?curid=130285)
 * [La Historia De](https://www.pcgamingwiki.com/wiki/?curid=156821)
 * [La Introducción](https://www.pcgamingwiki.com/wiki/?curid=141748)
+* [LA Law: The Computer Game](https://www.pcgamingwiki.com/wiki/?curid=216544)
 * [La Memoire](https://www.pcgamingwiki.com/wiki/?curid=154412)
 * [La Rana](https://www.pcgamingwiki.com/wiki/?curid=125302)
 * [LA Soul](https://www.pcgamingwiki.com/wiki/?curid=65664)
