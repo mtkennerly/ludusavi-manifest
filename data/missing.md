@@ -22301,6 +22301,7 @@
 * [Rugrats in Paris: The Movie](https://www.pcgamingwiki.com/wiki/?curid=177651)
 * [Rugrats Munchin Land](https://www.pcgamingwiki.com/wiki/?curid=209666)
 * [Rugrats: All Growed Up](https://www.pcgamingwiki.com/wiki/?curid=209724)
+* [Rugrats: Retro Rewind Collection](https://www.pcgamingwiki.com/wiki/?curid=216576)
 * [Rugrats: Totally Angelica Boredom Buster](https://www.pcgamingwiki.com/wiki/?curid=180533)
 * [Ruin City Gasolina](https://www.pcgamingwiki.com/wiki/?curid=67565)
 * [Ruinarch](https://www.pcgamingwiki.com/wiki/?curid=130440)
