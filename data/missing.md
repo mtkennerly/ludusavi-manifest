@@ -17860,7 +17860,6 @@
 * [Navyblue and the Spectrum Killers](https://www.pcgamingwiki.com/wiki/?curid=110002)
 * [Navyfield](https://www.pcgamingwiki.com/wiki/?curid=68124)
 * [Naxia](https://www.pcgamingwiki.com/wiki/?curid=135861)
-* [Nayla's Castle](https://www.pcgamingwiki.com/wiki/?curid=190593)
 * [Nazi 2](https://www.pcgamingwiki.com/wiki/?curid=103141)
 * [Nazi Bunker](https://www.pcgamingwiki.com/wiki/?curid=103209)
 * [Nazi Elimination](https://www.pcgamingwiki.com/wiki/?curid=79876)
