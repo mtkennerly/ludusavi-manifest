@@ -29703,6 +29703,7 @@
 * [Vermis Orbita](https://www.pcgamingwiki.com/wiki/?curid=180277)
 * [Vernon's Legacy](https://www.pcgamingwiki.com/wiki/?curid=41511)
 * [Versailles 1685](https://www.pcgamingwiki.com/wiki/?curid=145813)
+* [Versailles II: Testament of the King](https://www.pcgamingwiki.com/wiki/?curid=216666)
 * [Versus Game](https://www.pcgamingwiki.com/wiki/?curid=52233)
 * [Versus World](https://www.pcgamingwiki.com/wiki/?curid=80571)
 * [Versus: Battle of the Gladiator](https://www.pcgamingwiki.com/wiki/?curid=34006)
