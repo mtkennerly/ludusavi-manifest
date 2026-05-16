@@ -20542,6 +20542,7 @@
 * [Project R.A.T.](https://www.pcgamingwiki.com/wiki/?curid=93574)
 * [Project R.E.B.O.O.T](https://www.pcgamingwiki.com/wiki/?curid=52267)
 * [Project R.E.B.O.O.T 2](https://www.pcgamingwiki.com/wiki/?curid=57060)
+* [Project Rabbit](https://www.pcgamingwiki.com/wiki/?curid=216669)
 * [Project Rampage VR](https://www.pcgamingwiki.com/wiki/?curid=91785)
 * [Project Reality: Battlefield 2](https://www.pcgamingwiki.com/wiki/?curid=206921)
 * [Project Reforged](https://www.pcgamingwiki.com/wiki/?curid=213050)
