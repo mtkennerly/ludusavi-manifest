@@ -16946,6 +16946,7 @@
 * [Mission Critical](https://www.pcgamingwiki.com/wiki/?curid=125813)
 * [Mission of Hero](https://www.pcgamingwiki.com/wiki/?curid=87375)
 * [Mission Runway](https://www.pcgamingwiki.com/wiki/?curid=41265)
+* [Mission Sunlight](https://www.pcgamingwiki.com/wiki/?curid=216675)
 * [Mission Supernova](https://www.pcgamingwiki.com/wiki/?curid=146842)
 * [Mission XAM](https://www.pcgamingwiki.com/wiki/?curid=135299)
 * [Mission: Escape from Island](https://www.pcgamingwiki.com/wiki/?curid=64978)
