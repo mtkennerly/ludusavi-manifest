@@ -21241,6 +21241,7 @@
 * [Razortron 2084](https://www.pcgamingwiki.com/wiki/?curid=132775)
 * [RC de Go!](https://www.pcgamingwiki.com/wiki/?curid=194464)
 * [RC Fun City](https://www.pcgamingwiki.com/wiki/?curid=78573)
+* [RC Helicopter: Indoor Flight Simulation](https://www.pcgamingwiki.com/wiki/?curid=216700)
 * [RC Mini Racers](https://www.pcgamingwiki.com/wiki/?curid=47245)
 * [RC Plane 3](https://www.pcgamingwiki.com/wiki/?curid=67528)
 * [RC Plane VR](https://www.pcgamingwiki.com/wiki/?curid=155498)
