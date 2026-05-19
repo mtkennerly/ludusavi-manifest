@@ -15078,7 +15078,6 @@
 * [Legions at War](https://www.pcgamingwiki.com/wiki/?curid=93313)
 * [Legions of Ashworld](https://www.pcgamingwiki.com/wiki/?curid=49995)
 * [Legions of Steel](https://www.pcgamingwiki.com/wiki/?curid=47251)
-* [Lego Batman: Legacy of the Dark Knight](https://www.pcgamingwiki.com/wiki/?curid=207259)
 * [Lego Brawls](https://www.pcgamingwiki.com/wiki/?curid=148381)
 * [Lego Friends](https://www.pcgamingwiki.com/wiki/?curid=106754)
 * [Lego Legacy: Heroes Unboxed](https://www.pcgamingwiki.com/wiki/?curid=166617)
