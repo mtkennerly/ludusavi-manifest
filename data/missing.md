@@ -19626,7 +19626,6 @@
 * [Phlyndir](https://www.pcgamingwiki.com/wiki/?curid=144369)
 * [Phobia](https://www.pcgamingwiki.com/wiki/?curid=63414)
 * [Phoenix Dynasty 2](https://www.pcgamingwiki.com/wiki/?curid=67835)
-* [Phonopolis](https://www.pcgamingwiki.com/wiki/?curid=178546)
 * [Photo Finish](https://www.pcgamingwiki.com/wiki/?curid=114544)
 * [Photo Quiz - Animals](https://www.pcgamingwiki.com/wiki/?curid=153626)
 * [Photon Rush](https://www.pcgamingwiki.com/wiki/?curid=65227)
