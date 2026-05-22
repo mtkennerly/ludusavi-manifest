@@ -30327,7 +30327,6 @@
 * [Warhammer 40,000: Dark Heresy](https://www.pcgamingwiki.com/wiki/?curid=204773)
 * [Warhammer 40,000: Dawn of War IV](https://www.pcgamingwiki.com/wiki/?curid=207248)
 * [Warhammer 40,000: Freeblade](https://www.pcgamingwiki.com/wiki/?curid=183981)
-* [Warhammer 40,000: Mechanicus II](https://www.pcgamingwiki.com/wiki/?curid=195213)
 * [Warhammer 40,000: Regicide](https://www.pcgamingwiki.com/wiki/?curid=46518)
 * [Warhammer 40,000: Storm of Vengeance](https://www.pcgamingwiki.com/wiki/?curid=16381)
 * [Warhammer Age of Sigmar: Champions](https://www.pcgamingwiki.com/wiki/?curid=127823)
