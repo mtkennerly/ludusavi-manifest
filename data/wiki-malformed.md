@@ -2,7 +2,6 @@
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
-* [Lego Batman: Legacy of the Dark Knight](https://www.pcgamingwiki.com/wiki/?curid=207259)
 * [Lost in the Roots](https://www.pcgamingwiki.com/wiki/?curid=215872)
 * [Meet the Robinsons](https://www.pcgamingwiki.com/wiki/?curid=81386)
 * [Phineas and Ferb: New Inventions](https://www.pcgamingwiki.com/wiki/?curid=48629)
