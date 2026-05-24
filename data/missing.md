@@ -26370,7 +26370,6 @@
 * [The Adventures of Captain Potato](https://www.pcgamingwiki.com/wiki/?curid=109116)
 * [The Adventures of Clive McMulligan on Planet Zeta Four](https://www.pcgamingwiki.com/wiki/?curid=90271)
 * [The Adventures of Dumpy](https://www.pcgamingwiki.com/wiki/?curid=126167)
-* [The Adventures of Elliot: The Millennium Tales](https://www.pcgamingwiki.com/wiki/?curid=213500)
 * [The Adventures of Fluffy](https://www.pcgamingwiki.com/wiki/?curid=64208)
 * [The Adventures of Golly](https://www.pcgamingwiki.com/wiki/?curid=132645)
 * [The Adventures of Jason and the Argonauts](https://www.pcgamingwiki.com/wiki/?curid=127339)
