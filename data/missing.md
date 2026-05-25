@@ -17110,7 +17110,6 @@
 * [Monopoly Casino](https://www.pcgamingwiki.com/wiki/?curid=210792)
 * [Monopoly Junior](https://www.pcgamingwiki.com/wiki/?curid=158730)
 * [Monopoly Madness](https://www.pcgamingwiki.com/wiki/?curid=172682)
-* [Monopoly: SpongeBob SquarePants Edition](https://www.pcgamingwiki.com/wiki/?curid=189870)
 * [Monopoly: Star Wars - Heroes vs. Villains](https://www.pcgamingwiki.com/wiki/?curid=216112)
 * [Monovert DX](https://www.pcgamingwiki.com/wiki/?curid=130070)
 * [Monowars: Red Zone](https://www.pcgamingwiki.com/wiki/?curid=104499)
