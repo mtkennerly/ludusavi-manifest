@@ -19352,7 +19352,6 @@
 * [Paradox Paradigm](https://www.pcgamingwiki.com/wiki/?curid=42940)
 * [Paradox Vector](https://www.pcgamingwiki.com/wiki/?curid=132432)
 * [Paradox Wrench](https://www.pcgamingwiki.com/wiki/?curid=79762)
-* [Paralives](https://www.pcgamingwiki.com/wiki/?curid=157497)
 * [Parallax](https://www.pcgamingwiki.com/wiki/?curid=37618)
 * [Parallel Arena](https://www.pcgamingwiki.com/wiki/?curid=102715)
 * [Parallel Pixel](https://www.pcgamingwiki.com/wiki/?curid=99344)
