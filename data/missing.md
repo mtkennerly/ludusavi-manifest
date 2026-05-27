@@ -29528,7 +29528,6 @@
 * [Urban Pirate](https://www.pcgamingwiki.com/wiki/?curid=33529)
 * [Urban riots](https://www.pcgamingwiki.com/wiki/?curid=144917)
 * [Urban Rivals](https://www.pcgamingwiki.com/wiki/?curid=72859)
-* [Urban Strife](https://www.pcgamingwiki.com/wiki/?curid=200365)
 * [UrGothic Battle Royale](https://www.pcgamingwiki.com/wiki/?curid=156783)
 * [Uriel's Chasm](https://www.pcgamingwiki.com/wiki/?curid=49659)
 * [Uriel's Chasm 2: את](https://www.pcgamingwiki.com/wiki/?curid=45641)
