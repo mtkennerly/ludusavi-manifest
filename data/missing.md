@@ -11610,6 +11610,7 @@
 * [Gulu](https://www.pcgamingwiki.com/wiki/?curid=65467)
 * [Gum Guy](https://www.pcgamingwiki.com/wiki/?curid=55918)
 * [Gumball Drift](https://www.pcgamingwiki.com/wiki/?curid=43815)
+* [Gumball in Trick-or-Treat Land](https://www.pcgamingwiki.com/wiki/?curid=216954)
 * [Gumboy Tournament](https://www.pcgamingwiki.com/wiki/?curid=41373)
 * [Gumboy: Crazy Adventures](https://www.pcgamingwiki.com/wiki/?curid=18334)
 * [Gummy Goo Clean Up](https://www.pcgamingwiki.com/wiki/?curid=89654)
