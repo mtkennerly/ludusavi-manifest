@@ -22066,6 +22066,7 @@
 * [Rock 'n' Roll Adventures](https://www.pcgamingwiki.com/wiki/?curid=88329)
 * [Rock Band VR](https://www.pcgamingwiki.com/wiki/?curid=56546)
 * [Rock Boshers DX: Directors Cut](https://www.pcgamingwiki.com/wiki/?curid=49147)
+* [Rock Manager](https://www.pcgamingwiki.com/wiki/?curid=217084)
 * [Rock n' Roll Racing](https://www.pcgamingwiki.com/wiki/?curid=107372)
 * [Rock n' Rush: Battle Racing](https://www.pcgamingwiki.com/wiki/?curid=95597)
 * [Rock Painting Story](https://www.pcgamingwiki.com/wiki/?curid=120830)
