@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 use crate::{
     Error,
-    manifest::{Manifest, ManifestOverride, placeholder},
+    manifest::{ExternalManifest, Manifest, ManifestOverride, placeholder},
     schema,
     steam::SteamCache,
     wiki::{WikiCache, WikiMetaCache},
@@ -108,6 +108,7 @@ pub async fn run(
     sub: Subcommand,
     manifest: &mut Manifest,
     manifest_override: &mut ManifestOverride,
+    external_manifest: &ExternalManifest,
     wiki_cache: &mut WikiCache,
     wiki_meta_cache: &mut WikiMetaCache,
     steam_cache: &mut SteamCache,
@@ -136,7 +137,7 @@ pub async fn run(
                 eprintln!("Error: {e:?}");
             }
 
-            manifest.refresh(manifest_override, wiki_cache, steam_cache)?;
+            manifest.refresh(manifest_override, external_manifest, wiki_cache, steam_cache)?;
             schema::validate_manifest(manifest)?;
 
             if recent_changes {
@@ -163,7 +164,7 @@ pub async fn run(
                 }
             }
 
-            manifest.refresh(manifest_override, wiki_cache, steam_cache)?;
+            manifest.refresh(manifest_override, external_manifest, wiki_cache, steam_cache)?;
             schema::validate_manifest(manifest)?;
         }
         Subcommand::Schema => {

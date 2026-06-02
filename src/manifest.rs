@@ -147,6 +147,7 @@ impl Manifest {
     pub fn refresh(
         &mut self,
         overrides: &ManifestOverride,
+        external: &ExternalManifest,
         wiki_cache: &WikiCache,
         steam_cache: &SteamCache,
     ) -> Result<(), Error> {
@@ -188,6 +189,10 @@ impl Manifest {
             }
 
             self.0.insert(title.to_string(), game);
+        }
+
+        for (title, game) in &external.0 {
+            self.0.entry(title.to_string()).or_insert_with(|| game.clone());
         }
 
         Ok(())
@@ -651,4 +656,12 @@ pub struct OverrideGame {
 
 impl ResourceFile for ManifestOverride {
     const FILE_NAME: &'static str = "data/manifest-override.yaml";
+}
+
+#[derive(Clone, Debug, Default, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
+#[serde(default, rename_all = "camelCase")]
+pub struct ExternalManifest(pub BTreeMap<String, Game>);
+
+impl ResourceFile for ExternalManifest {
+    const FILE_NAME: &'static str = "data/manifest-extra.yaml";
 }

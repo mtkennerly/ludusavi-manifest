@@ -16,7 +16,7 @@ use std::sync::{
 use once_cell::sync::Lazy;
 
 use crate::{
-    manifest::{Manifest, ManifestOverride},
+    manifest::{ExternalManifest, Manifest, ManifestOverride},
     resource::ResourceFile,
     steam::SteamCache,
     wiki::{WikiCache, WikiMetaCache},
@@ -107,6 +107,7 @@ async fn main() {
     let mut steam_cache = SteamCache::load().unwrap();
     let mut manifest = Manifest::load().unwrap();
     let mut manifest_override = ManifestOverride::load().unwrap();
+    let external_manifest = ExternalManifest::load().unwrap();
 
     let mut success = true;
     let mut discard = false;
@@ -114,6 +115,7 @@ async fn main() {
         cli.sub,
         &mut manifest,
         &mut manifest_override,
+        &external_manifest,
         &mut wiki_cache,
         &mut wiki_meta_cache,
         &mut steam_cache,
