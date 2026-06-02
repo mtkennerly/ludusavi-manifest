@@ -192,7 +192,10 @@ impl Manifest {
         }
 
         for (title, game) in &external.0 {
-            self.0.entry(title.to_string()).or_insert_with(|| game.clone());
+            self.0
+                .entry(title.to_string())
+                .and_modify(|existing| existing.merge(game))
+                .or_insert_with(|| game.clone());
         }
 
         Ok(())
@@ -484,6 +487,40 @@ impl Game {
         }
     }
 
+    pub fn merge(&mut self, other: &Game) {
+        if self.steam.id.is_none() {
+            self.steam.id = other.steam.id;
+        }
+        if self.gog.id.is_none() {
+            self.gog.id = other.gog.id;
+        }
+        if self.id.flatpak.is_none() {
+            self.id.flatpak = other.id.flatpak.clone();
+        }
+        self.id.gog_extra.extend(other.id.gog_extra.clone());
+        self.id.steam_extra.extend(other.id.steam_extra.clone());
+        self.install_dir.extend(other.install_dir.clone());
+        self.launch.extend(other.launch.clone());
+
+        for (path, entry) in &other.files {
+            self.files
+                .entry(path.clone())
+                .and_modify(|existing| existing.merge(entry))
+                .or_insert_with(|| entry.clone());
+        }
+
+        for (path, entry) in &other.registry {
+            self.registry
+                .entry(path.clone())
+                .and_modify(|existing| existing.merge(entry))
+                .or_insert_with(|| entry.clone());
+        }
+
+        if self.alias.is_none() {
+            self.alias = other.alias.clone();
+        }
+    }
+
     pub fn usable(&self) -> bool {
         !(self.files.is_empty()
             && self.registry.is_empty()
@@ -502,6 +539,13 @@ pub struct GameFileEntry {
     pub when: BTreeSet<GameFileConstraint>,
 }
 
+impl GameFileEntry {
+    pub fn merge(&mut self, other: &GameFileEntry) {
+        self.tags.extend(other.tags.clone());
+        self.when.extend(other.when.clone());
+    }
+}
+
 #[derive(Clone, Debug, Default, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
 #[serde(default, rename_all = "camelCase")]
 pub struct GameInstallDirEntry {}
@@ -513,6 +557,13 @@ pub struct GameRegistryEntry {
     pub tags: BTreeSet<Tag>,
     #[serde(skip_serializing_if = "BTreeSet::is_empty")]
     pub when: BTreeSet<GameRegistryConstraint>,
+}
+
+impl GameRegistryEntry {
+    pub fn merge(&mut self, other: &GameRegistryEntry) {
+        self.tags.extend(other.tags.clone());
+        self.when.extend(other.when.clone());
+    }
 }
 
 #[derive(Clone, Debug, Default, PartialEq, Eq, serde::Serialize, serde::Deserialize)]
