@@ -5,5 +5,6 @@
 * [Lost in the Roots](https://www.pcgamingwiki.com/wiki/?curid=215872)
 * [Meet the Robinsons](https://www.pcgamingwiki.com/wiki/?curid=81386)
 * [Phineas and Ferb: New Inventions](https://www.pcgamingwiki.com/wiki/?curid=48629)
+* [Riddle Tower](https://www.pcgamingwiki.com/wiki/?curid=217157)
 * [Screamer 4x4](https://www.pcgamingwiki.com/wiki/?curid=2856)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
