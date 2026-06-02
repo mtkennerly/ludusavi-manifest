@@ -1,5 +1,6 @@
 on:
-  workflow_dispatch: ~
+  workflow_dispatch:
+    ~
     # inputs:
     #   timestamp:
     #     description: 'Timestamp to inject into wiki-meta-cache.yaml. Example: 2022-10-30T19:37:23.138Z'
