@@ -11273,7 +11273,6 @@
 * [Gotcha Racing 2nd](https://www.pcgamingwiki.com/wiki/?curid=103297)
 * [Goth Girlfriend](https://www.pcgamingwiki.com/wiki/?curid=151389)
 * [Gotham Gangsta](https://www.pcgamingwiki.com/wiki/?curid=55442)
-* [Gothic 1 Remake](https://www.pcgamingwiki.com/wiki/?curid=167207)
 * [Gothicc Breaker](https://www.pcgamingwiki.com/wiki/?curid=90098)
 * [Gothos](https://www.pcgamingwiki.com/wiki/?curid=208497)
 * [Goto](https://www.pcgamingwiki.com/wiki/?curid=108508)
