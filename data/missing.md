@@ -19790,7 +19790,6 @@
 * [Pinball Wicked](https://www.pcgamingwiki.com/wiki/?curid=64572)
 * [Pinball with a Gun](https://www.pcgamingwiki.com/wiki/?curid=215621)
 * [Pinball World](https://www.pcgamingwiki.com/wiki/?curid=131948)
-* [Pinchcliffe Grand Prix](https://www.pcgamingwiki.com/wiki/?curid=176137)
 * [Pine Seekers](https://www.pcgamingwiki.com/wiki/?curid=64323)
 * [Pineapple Smash Crew](https://www.pcgamingwiki.com/wiki/?curid=2970)
 * [Pineview Drive](https://www.pcgamingwiki.com/wiki/?curid=49835)
