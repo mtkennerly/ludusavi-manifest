@@ -13330,6 +13330,7 @@
 * [In Death](https://www.pcgamingwiki.com/wiki/?curid=79352)
 * [In Defense of Aliens](https://www.pcgamingwiki.com/wiki/?curid=135435)
 * [In Exilium](https://www.pcgamingwiki.com/wiki/?curid=48475)
+* [In Extremis (1993)](https://www.pcgamingwiki.com/wiki/?curid=217551)
 * [In Extremis (2016)](https://www.pcgamingwiki.com/wiki/?curid=52406)
 * [In Fear I Trust](https://www.pcgamingwiki.com/wiki/?curid=39041)
 * [IN GAME](https://www.pcgamingwiki.com/wiki/?curid=129936)
