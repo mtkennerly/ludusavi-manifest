@@ -23740,6 +23740,7 @@
 * [Sky Reaper](https://www.pcgamingwiki.com/wiki/?curid=127469)
 * [Sky Road](https://www.pcgamingwiki.com/wiki/?curid=77150)
 * [Sky Shepherd](https://www.pcgamingwiki.com/wiki/?curid=134414)
+* [Sky Sports Football Quiz](https://www.pcgamingwiki.com/wiki/?curid=217609)
 * [Sky Target](https://www.pcgamingwiki.com/wiki/?curid=23511)
 * [Sky to Fly: Faster Than Wind](https://www.pcgamingwiki.com/wiki/?curid=43985)
 * [Sky to Fly: Soulless Leviathan](https://www.pcgamingwiki.com/wiki/?curid=38000)
