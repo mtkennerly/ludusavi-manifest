@@ -24218,6 +24218,7 @@
 * [Sonic Pico Park](https://www.pcgamingwiki.com/wiki/?curid=217431)
 * [Sonic Racing](https://www.pcgamingwiki.com/wiki/?curid=148163)
 * [Sonic Robo Blast](https://www.pcgamingwiki.com/wiki/?curid=198573)
+* [Sonic Rush Rerun](https://www.pcgamingwiki.com/wiki/?curid=217623)
 * [Sonki's Lagoon](https://www.pcgamingwiki.com/wiki/?curid=217249)
 * [Sons of Ra](https://www.pcgamingwiki.com/wiki/?curid=145421)
 * [SOPA - Tale of the Stolen Potato](https://www.pcgamingwiki.com/wiki/?curid=209585)
