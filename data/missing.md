@@ -23128,6 +23128,7 @@
 * [Serre](https://www.pcgamingwiki.com/wiki/?curid=203672)
 * [Servant of the Lake](https://www.pcgamingwiki.com/wiki/?curid=204070)
 * [Servo](https://www.pcgamingwiki.com/wiki/?curid=34296)
+* [Sesame Street: Friends & Fun](https://www.pcgamingwiki.com/wiki/?curid=217653)
 * [Session Seven](https://www.pcgamingwiki.com/wiki/?curid=128258)
 * [Set and Spike](https://www.pcgamingwiki.com/wiki/?curid=173828)
 * [Sethian](https://www.pcgamingwiki.com/wiki/?curid=53031)
