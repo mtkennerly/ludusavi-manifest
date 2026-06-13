@@ -2833,6 +2833,7 @@
 * [Beeswing](https://www.pcgamingwiki.com/wiki/?curid=47960)
 * [Beethoven: The Ultimate Canine Caper!](https://www.pcgamingwiki.com/wiki/?curid=196780)
 * [Beetle Hunter](https://www.pcgamingwiki.com/wiki/?curid=148880)
+* [Beetle Ju](https://www.pcgamingwiki.com/wiki/?curid=217665)
 * [Beetlejuice: Bad as Can](https://www.pcgamingwiki.com/wiki/?curid=67855)
 * [Before Nightfall](https://www.pcgamingwiki.com/wiki/?curid=102655)
 * [Before the Blood](https://www.pcgamingwiki.com/wiki/?curid=90378)
