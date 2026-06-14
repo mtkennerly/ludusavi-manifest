@@ -123,6 +123,9 @@ fn too_broad(path: &str) -> bool {
         format!("{XDG_DATA}/unity3d"),
         "C:/Program Files".to_string(),
         "C:/Program Files (x86)".to_string(),
+        "C:/XboxGames".to_string(),
+        "C:/XboxGames/GameSave".to_string(),
+        "C:/XboxGames/GameSave/pgs".to_string(),
     ] {
         let item = item.to_lowercase();
         if path_lower == item
