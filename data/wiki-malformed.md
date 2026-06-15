@@ -1,4 +1,5 @@
 * [3D Body Adventure](https://www.pcgamingwiki.com/wiki/?curid=167445)
+* [Aooni (2008)](https://www.pcgamingwiki.com/wiki/?curid=207717)
 * [Assassin's Creed IV: Black Flag](https://www.pcgamingwiki.com/wiki/?curid=5389)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
