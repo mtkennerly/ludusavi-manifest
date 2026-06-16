@@ -29757,6 +29757,7 @@
 * [Vampire Slave 1: A Yaoi Visual Novel](https://www.pcgamingwiki.com/wiki/?curid=179000)
 * [Vampire: The Masquerade - Eternal Whispers](https://www.pcgamingwiki.com/wiki/?curid=217460)
 * [Vampire: The Masquerade - Justice](https://www.pcgamingwiki.com/wiki/?curid=193164)
+* [Vampire: The Masquerade - Oaths & Ashes](https://www.pcgamingwiki.com/wiki/?curid=217731)
 * [Vampire: The Masquerade - Out for Blood](https://www.pcgamingwiki.com/wiki/?curid=161616)
 * [Vampire: The Masquerade - Parliament of Knives](https://www.pcgamingwiki.com/wiki/?curid=161703)
 * [Vampire: The Masquerade - Sins of the Sires](https://www.pcgamingwiki.com/wiki/?curid=203256)
