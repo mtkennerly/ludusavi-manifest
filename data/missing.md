@@ -24862,6 +24862,7 @@
 * [Stage Fright](https://www.pcgamingwiki.com/wiki/?curid=79340)
 * [Stage of Light](https://www.pcgamingwiki.com/wiki/?curid=130275)
 * [Stage Tour](https://www.pcgamingwiki.com/wiki/?curid=217477)
+* [Staged: Open House](https://www.pcgamingwiki.com/wiki/?curid=217761)
 * [Staggered!](https://www.pcgamingwiki.com/wiki/?curid=145411)
 * [Stained](https://www.pcgamingwiki.com/wiki/?curid=49965)
 * [Staircase of Darkness](https://www.pcgamingwiki.com/wiki/?curid=52706)
