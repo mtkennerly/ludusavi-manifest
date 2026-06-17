@@ -145,6 +145,7 @@
 * [3 Minutes to Midnight](https://www.pcgamingwiki.com/wiki/?curid=93368)
 * [3 Skulls of the Toltecs](https://www.pcgamingwiki.com/wiki/?curid=142506)
 * [3, 2, 1, Survive!](https://www.pcgamingwiki.com/wiki/?curid=94796)
+* [3-D TableSports](https://www.pcgamingwiki.com/wiki/?curid=217763)
 * [3-D Ultra Lionel Train Town](https://www.pcgamingwiki.com/wiki/?curid=16494)
 * [3-D Ultra Pinball](https://www.pcgamingwiki.com/wiki/?curid=192442)
 * [3-D Ultra Radio Control Racers](https://www.pcgamingwiki.com/wiki/?curid=8402)
