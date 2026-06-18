@@ -27150,6 +27150,7 @@
 * [The Grim and I](https://www.pcgamingwiki.com/wiki/?curid=140891)
 * [The Grimsworth Reports: Woodfall](https://www.pcgamingwiki.com/wiki/?curid=74492)
 * [The Grinch](https://www.pcgamingwiki.com/wiki/?curid=187894)
+* [The Grinch 2: Saving Christmas](https://www.pcgamingwiki.com/wiki/?curid=217782)
 * [The Grinch: Christmas Adventures](https://www.pcgamingwiki.com/wiki/?curid=191297)
 * [The Guard of Dungeon](https://www.pcgamingwiki.com/wiki/?curid=58541)
 * [The Guardian of Darkness](https://www.pcgamingwiki.com/wiki/?curid=195652)
