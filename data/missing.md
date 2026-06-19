@@ -23376,6 +23376,7 @@
 * [Shisensho Solitaire](https://www.pcgamingwiki.com/wiki/?curid=149047)
 * [Shishi : Ballad of the Oracle](https://www.pcgamingwiki.com/wiki/?curid=142272)
 * [Shit Storm](https://www.pcgamingwiki.com/wiki/?curid=78439)
+* [Shiver (Team Nocebo)](https://www.pcgamingwiki.com/wiki/?curid=217792)
 * [Shiver: Poltergeist](https://www.pcgamingwiki.com/wiki/?curid=52532)
 * [Shiver: The Lily's Requiem](https://www.pcgamingwiki.com/wiki/?curid=95451)
 * [Shiver: Vanishing Hitchhiker](https://www.pcgamingwiki.com/wiki/?curid=33848)
