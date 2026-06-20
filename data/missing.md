@@ -3152,6 +3152,7 @@
 * [Black Steel](https://www.pcgamingwiki.com/wiki/?curid=100750)
 * [Black Survival](https://www.pcgamingwiki.com/wiki/?curid=76155)
 * [Black Swan](https://www.pcgamingwiki.com/wiki/?curid=54317)
+* [Black Tides Draga's Wake](https://www.pcgamingwiki.com/wiki/?curid=217804)
 * [Black Viper: Sophia's Fate](https://www.pcgamingwiki.com/wiki/?curid=49494)
 * [Black Widow](https://www.pcgamingwiki.com/wiki/?curid=172749)
 * [Blackbay Asylum](https://www.pcgamingwiki.com/wiki/?curid=49821)
