@@ -5452,6 +5452,7 @@
 * [Congo Bongo](https://www.pcgamingwiki.com/wiki/?curid=30754)
 * [Congo Merc](https://www.pcgamingwiki.com/wiki/?curid=54975)
 * [Congo: Descent Into Zinj](https://www.pcgamingwiki.com/wiki/?curid=213445)
+* [Congratulations On Your Purchase](https://www.pcgamingwiki.com/wiki/?curid=217836)
 * [Congresswolf](https://www.pcgamingwiki.com/wiki/?curid=52524)
 * [Coniclysm](https://www.pcgamingwiki.com/wiki/?curid=41161)
 * [Conjure Strike](https://www.pcgamingwiki.com/wiki/?curid=110314)
