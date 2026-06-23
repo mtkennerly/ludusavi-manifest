@@ -6868,7 +6868,6 @@
 * [DeepLands](https://www.pcgamingwiki.com/wiki/?curid=96287)
 * [Deepsea Salvor](https://www.pcgamingwiki.com/wiki/?curid=156543)
 * [Deepworld](https://www.pcgamingwiki.com/wiki/?curid=48138)
-* [Deer & Boy](https://www.pcgamingwiki.com/wiki/?curid=207371)
 * [Deer Avenger](https://www.pcgamingwiki.com/wiki/?curid=205467)
 * [Deer Avenger 2: Deer in the City](https://www.pcgamingwiki.com/wiki/?curid=208393)
 * [Deer Avenger 4: The Rednecks Strike Back](https://www.pcgamingwiki.com/wiki/?curid=57941)
