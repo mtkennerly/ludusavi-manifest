@@ -7278,7 +7278,6 @@
 * [Dimensions VIP](https://www.pcgamingwiki.com/wiki/?curid=151216)
 * [DimensionsVS](https://www.pcgamingwiki.com/wiki/?curid=95027)
 * [Dimetrosaur](https://www.pcgamingwiki.com/wiki/?curid=109260)
-* [Dimhaven - The Lost Source](https://www.pcgamingwiki.com/wiki/?curid=187859)
 * [Diminutive](https://www.pcgamingwiki.com/wiki/?curid=141220)
 * [Diner Dash](https://www.pcgamingwiki.com/wiki/?curid=194578)
 * [Diner Dash 5: BOOM!](https://www.pcgamingwiki.com/wiki/?curid=194645)
