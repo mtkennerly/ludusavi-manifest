@@ -21718,6 +21718,7 @@
 * [Restaurant Solitaire: Pleasant Dinner](https://www.pcgamingwiki.com/wiki/?curid=154013)
 * [Restaurant Tycoon](https://www.pcgamingwiki.com/wiki/?curid=76594)
 * [Restless Hero](https://www.pcgamingwiki.com/wiki/?curid=148078)
+* [ReStory: Chill Electronics Repairs](https://www.pcgamingwiki.com/wiki/?curid=217969)
 * [Restricted-RPS - All Aboard The Icarus](https://www.pcgamingwiki.com/wiki/?curid=35190)
 * [Resuffer: Down the Rabbit Hole](https://www.pcgamingwiki.com/wiki/?curid=135627)
 * [Resume: The Video Game](https://www.pcgamingwiki.com/wiki/?curid=87211)
