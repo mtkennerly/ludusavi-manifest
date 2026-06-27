@@ -25943,6 +25943,7 @@
 * [Sword of the Slayer](https://www.pcgamingwiki.com/wiki/?curid=149785)
 * [Sword of the Stars II: Lords of Winter](https://www.pcgamingwiki.com/wiki/?curid=10084)
 * [Sword of the Stars: Ground Pounders](https://www.pcgamingwiki.com/wiki/?curid=15166)
+* [Sword Sage: Awakening](https://www.pcgamingwiki.com/wiki/?curid=217971)
 * [Swordbreaker The Game](https://www.pcgamingwiki.com/wiki/?curid=38508)
 * [Swordbreaker: Back to The Castle](https://www.pcgamingwiki.com/wiki/?curid=126414)
 * [Swordbreaker: Origins](https://www.pcgamingwiki.com/wiki/?curid=139614)
