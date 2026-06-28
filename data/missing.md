@@ -6702,7 +6702,6 @@
 * [Deadfall Tropics](https://www.pcgamingwiki.com/wiki/?curid=93086)
 * [Deadhaus Sonata](https://www.pcgamingwiki.com/wiki/?curid=151615)
 * [Deadhold](https://www.pcgamingwiki.com/wiki/?curid=56836)
-* [Deadhunt](https://www.pcgamingwiki.com/wiki/?curid=45010)
 * [DEADHUNTERS](https://www.pcgamingwiki.com/wiki/?curid=113080)
 * [DeadLand VR](https://www.pcgamingwiki.com/wiki/?curid=95041)
 * [Deadlands Noir - That Old Time Religion](https://www.pcgamingwiki.com/wiki/?curid=47387)
