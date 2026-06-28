@@ -1592,6 +1592,7 @@
 * [AppleSnake: Christmas Story](https://www.pcgamingwiki.com/wiki/?curid=87053)
 * [AppleSnake: Halloween Adventures](https://www.pcgamingwiki.com/wiki/?curid=82012)
 * [Approaching Blocks](https://www.pcgamingwiki.com/wiki/?curid=42692)
+* [Appulse](https://www.pcgamingwiki.com/wiki/?curid=217992)
 * [APT](https://www.pcgamingwiki.com/wiki/?curid=46683)
 * [Aqua Fish](https://www.pcgamingwiki.com/wiki/?curid=78453)
 * [Aqua Lungers](https://www.pcgamingwiki.com/wiki/?curid=89624)
