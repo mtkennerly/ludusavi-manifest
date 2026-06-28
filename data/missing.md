@@ -14363,6 +14363,7 @@
 * [Kawasaki Fantasy Motocross](https://www.pcgamingwiki.com/wiki/?curid=197139)
 * [Kaya](https://www.pcgamingwiki.com/wiki/?curid=95957)
 * [Kayalina](https://www.pcgamingwiki.com/wiki/?curid=71918)
+* [Kayf-Life: Complete Edition](https://www.pcgamingwiki.com/wiki/?curid=217994)
 * [Kaz Ball](https://www.pcgamingwiki.com/wiki/?curid=78812)
 * [Kaze and the Wild Masks](https://www.pcgamingwiki.com/wiki/?curid=91278)
 * [Ke-Tsu-No-Ana](https://www.pcgamingwiki.com/wiki/?curid=34771)
