@@ -7619,6 +7619,7 @@
 * [Dongo Adventure](https://www.pcgamingwiki.com/wiki/?curid=89710)
 * [Donjon Defense](https://www.pcgamingwiki.com/wiki/?curid=77938)
 * [Donkey Kong](https://www.pcgamingwiki.com/wiki/?curid=152480)
+* [Donkey Kong 64](https://www.pcgamingwiki.com/wiki/?curid=218016)
 * [Donkey Kong: Redux](https://www.pcgamingwiki.com/wiki/?curid=200596)
 * [Dontbegrey](https://www.pcgamingwiki.com/wiki/?curid=66462)
 * [Donut Adventure](https://www.pcgamingwiki.com/wiki/?curid=192602)

@@ -3,6 +3,7 @@
 * [Assassin's Creed IV: Black Flag](https://www.pcgamingwiki.com/wiki/?curid=5389)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
 * [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
+* [Donkey Kong 64](https://www.pcgamingwiki.com/wiki/?curid=218016)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Lost in the Roots](https://www.pcgamingwiki.com/wiki/?curid=215872)
