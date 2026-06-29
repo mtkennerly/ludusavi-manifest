@@ -25451,6 +25451,7 @@
 * [Suicide Adventures](https://www.pcgamingwiki.com/wiki/?curid=70345)
 * [Suicide Simulator](https://www.pcgamingwiki.com/wiki/?curid=69490)
 * [Suicideville](https://www.pcgamingwiki.com/wiki/?curid=88015)
+* [Suika Game](https://www.pcgamingwiki.com/wiki/?curid=218020)
 * [Suikoden Star Leap](https://www.pcgamingwiki.com/wiki/?curid=206336)
 * [Suitchi](https://www.pcgamingwiki.com/wiki/?curid=113492)
 * [Suite 776](https://www.pcgamingwiki.com/wiki/?curid=153360)
