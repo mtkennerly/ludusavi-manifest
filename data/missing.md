@@ -11155,6 +11155,7 @@
 * [Goblet of Maya](https://www.pcgamingwiki.com/wiki/?curid=54999)
 * [Gobligeddon](https://www.pcgamingwiki.com/wiki/?curid=144184)
 * [Gobliiins 5](https://www.pcgamingwiki.com/wiki/?curid=196748)
+* [Goblin Getaway](https://www.pcgamingwiki.com/wiki/?curid=218037)
 * [Goblin Quest: Escape!](https://www.pcgamingwiki.com/wiki/?curid=129847)
 * [Goblin Storm](https://www.pcgamingwiki.com/wiki/?curid=78174)
 * [Goblin's Shop](https://www.pcgamingwiki.com/wiki/?curid=121871)
