@@ -485080,16 +485080,6 @@ Neva:
         - config
       when:
         - os: windows
-    "<home>/Library/Application Support/com.Company.ProductName/<storeUserId>/Save01":
-      tags:
-        - save
-      when:
-        - os: mac
-    "<home>/Library/Application Support/com.Company.ProductName/<storeUserId>/Save01/Config.gs":
-      tags:
-        - config
-      when:
-        - os: mac
     "<home>/Library/Application Support/com.devolverdigital.neva/<storeUserId>/Save01":
       tags:
         - save

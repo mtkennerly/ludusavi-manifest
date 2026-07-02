@@ -618420,6 +618420,12 @@
       executable: classic_marathon_launcher
       type: default
 2399160:
+  cloud:
+    saves:
+      - path: WizardsOfTheCode/Soulash2/saves
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
   installDir: Soulash 2
   launch:
     - config:

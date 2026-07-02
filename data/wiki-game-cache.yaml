@@ -157749,9 +157749,9 @@ Neva:
     - 4437840
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\nomada studio\\Neva\\{{p|uid}}\\Save01\\Config.gs}}"
-    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.devolverdigital.neva/{{p|uid}}/Save01/Config.gs|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/Config.gs}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.devolverdigital.neva/{{p|uid}}/Save01/Config.gs|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/Config.gs<ref name=\"com.Company.ProductName\">{{Refurl|url=https://steamcommunity.com/app/2420660/discussions/0/762933430657895905/|title=Savegame lost after \"Prologue\" patch :: Neva General Discussions|date=2026-07-02}}</ref>}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\nomada studio\\Neva\\{{p|uid}}\\Save01\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.devolverdigital.neva/{{p|uid}}/Save01/|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.devolverdigital.neva/{{p|uid}}/Save01/|{{p|osxhome}}/Library/Application Support/com.Company.ProductName/{{p|uid}}/Save01/<ref name=\"com.Company.ProductName\" />}}"
 Nevaeh:
   cloud:
     steam: true
