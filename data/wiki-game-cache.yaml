@@ -155651,6 +155651,11 @@ Nanuleu:
   steam: 511500
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Selva Interactive\\Nanuleu}}"
+Naomi’s End:
+  pageId: 218054
+  steam: 4863030
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\NaomiEnd\\Saved\\SaveGames\\}}"
 Napoleon:
   pageId: 189679
 Napoleon 1813:

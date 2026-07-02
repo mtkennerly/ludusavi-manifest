@@ -478924,6 +478924,15 @@ Nanuleu:
             store: steam
   steam:
     id: 511500
+Naomi’s End:
+  files:
+    "<winLocalAppData>/NaomiEnd/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4863030
 Napoleon 1813:
   installDir:
     Napoleon 1813: {}
