@@ -172446,8 +172446,17 @@ Picross Hansel and Gretel - Nonograms:
   pageId: 130050
   steam: 1044950
 Picross Touch:
+  cloud:
+    steam: true
+  lutris: picross-touch
   pageId: 36854
   steam: 476460
+  steamSide:
+    - 644960
+    - 644961
+    - 644962
+    - 645910
+    - 645911
   templates:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\jgallant\\Picross Touch}}"
 Picross.io:

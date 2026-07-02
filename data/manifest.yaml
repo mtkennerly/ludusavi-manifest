@@ -529526,6 +529526,16 @@ Picross Hansel and Gretel - Nonograms:
   steam:
     id: 1044950
 Picross Touch:
+  cloud:
+    steam: true
+  id:
+    lutris: picross-touch
+    steamExtra:
+      - 644960
+      - 644961
+      - 644962
+      - 645910
+      - 645911
   installDir:
     Picross Touch: {}
   launch:
