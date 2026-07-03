@@ -93415,12 +93415,12 @@ Blue Estate The Game:
   cloud:
     steam: true
   files:
-    "<winDocuments>/My Games/BlueEstate/BEGame/Config":
+    "<winDocuments>/My Games/BlueEstate/BEGame/Config/.ini":
       tags:
         - config
       when:
         - os: windows
-    "<winDocuments>/My Games/BlueEstate/BEGame/SaveData":
+    "<winDocuments>/My Games/BlueEstate/BEGame/SaveData/Steam.sav":
       tags:
         - save
       when:
@@ -185391,7 +185391,7 @@ Deep Rock Galactic:
     Deep Rock Galactic RogueCore: {}
   launch:
     "<base>/RogueCore.exe":
-      - arguments: "-DefaultServiceOverride=Steam -serverlist=serverlist.ghostship.dk"
+      - arguments: "-serverlist=serverlist.ghostship.dk"
         when:
           - bit: 64
             os: windows
@@ -273577,6 +273577,14 @@ Fool!:
   steam:
     id: 1080250
 Foolish Mortals:
+  files:
+    "<home>/Library/Application Support/Inklingwood Studios/Foolish Mortals/Savegames/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/Inklingwood Studios/Foolish Mortals/Savegames/*.dat":
+      when:
+        - store: steam
   gog:
     id: 1432087047
   id:
@@ -353108,6 +353116,7 @@ I Have No Change:
     id: 3426150
 "I Have No Mouth, and I Must Scream":
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -367513,6 +367522,9 @@ Intrusion 2:
         - save
       when:
         - store: steam
+  id:
+    steamExtra:
+      - 217470
   installDir:
     Intrusion 2: {}
   launch:
@@ -562659,6 +562671,23 @@ RUNRUNRUN:
             store: steam
   steam:
     id: 712210
+RV There Yet?:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Ride/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Ride: {}
+  launch:
+    "<base>/Ride.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3949040
 RWBY Deckbuilding Game:
   installDir:
     RWBY Deck Builder: {}
@@ -836539,6 +836568,26 @@ Windrose:
             store: steam
   steam:
     id: 3041230
+"Winds Of Arcana: Ruination":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Brewed Games/Winds Of Arcana/Main":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Brewed Games/Winds Of Arcana/Main":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Winds Of Arcana Ruination: {}
+  launch:
+    "<base>/Winds Of Arcana.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2201910
 Winds of Change:
   cloud:
     steam: true

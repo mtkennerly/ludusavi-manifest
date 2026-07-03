@@ -10054,7 +10054,6 @@
 * [FoodBall](https://www.pcgamingwiki.com/wiki/?curid=157355)
 * [Foodie Bear](https://www.pcgamingwiki.com/wiki/?curid=144943)
 * [Fool!](https://www.pcgamingwiki.com/wiki/?curid=136511)
-* [Foolish Mortals](https://www.pcgamingwiki.com/wiki/?curid=209528)
 * [Foosball - Street Edition](https://www.pcgamingwiki.com/wiki/?curid=50438)
 * [Foosball VR](https://www.pcgamingwiki.com/wiki/?curid=81623)
 * [Foosball: World Tour](https://www.pcgamingwiki.com/wiki/?curid=45318)

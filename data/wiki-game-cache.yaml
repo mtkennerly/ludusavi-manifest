@@ -30298,8 +30298,8 @@ Blue Estate The Game:
   pageId: 37676
   steam: 305380
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\BlueEstate\\BEGame\\Config\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\BlueEstate\\BEGame\\SaveData\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\BlueEstate\\BEGame\\Config\\.ini}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\BlueEstate\\BEGame\\SaveData\\Steam.sav}}"
 Blue Fire:
   cloud:
     steam: true
@@ -114490,6 +114490,7 @@ I Have No Change:
   steam: 3426150
 "I Have No Mouth, and I Must Scream":
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1207659593
@@ -119034,6 +119035,8 @@ Intruder - War Areas:
 Intrusion 2:
   pageId: 4757
   steam: 214970
+  steamSide:
+    - 217470
   templates:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/intrusion2/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/214970/remote/}}"
@@ -182881,6 +182884,12 @@ RUN HARE RUN:
 RUNRUNRUN:
   pageId: 72092
   steam: 712210
+RV There Yet?:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 218075
+  steam: 3949040
 RWBY Deckbuilding Game:
   pageId: 129851
   steam: 1017080
@@ -273090,6 +273099,12 @@ Windrose:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\R5\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\R5\\Saved\\SaveProfiles\\{{P|uid}}\\RocksDB_v2\\ {{Note|note=Versions prior to 0.10.0.0.5.120 stored saves in <code>RocksDB</code>.<ref>{{Refcheck|user=Xteamlyerr|date=2026-05-18|comment=}}</ref><ref>{{Refurl|url=https://steamcommunity.com/games/3041230/announcements/detail/658231077844812606|title=Steam Community Announcement - Patch Notes, version: 0.10.0.5.120-073042fb|date=2026-05-18|snippet=Save Migration System: Implemented a system to migrate old save files (pre-version 0.10.0.5.120-073042fb) to the new format. In most cases, this process is seamless and invisible}}</ref>}}}}"
+"Winds Of Arcana: Ruination":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 218076
+  steam: 2201910
 Winds of Change:
   cloud:
     steam: true

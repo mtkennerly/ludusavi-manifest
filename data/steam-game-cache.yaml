@@ -587919,6 +587919,19 @@
         oslist: windows
       executable: Tatari.exe
 1848440:
+  cloud:
+    saves:
+      - path: Inklingwood Studios/Foolish Mortals/Savegames
+        pattern: "*.dat"
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Inklingwood Studios/Foolish Mortals/Savegames
+            replace: Inklingwood Studios/Foolish Mortals/Savegames
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
   installDir: FoolishMortals
   launch:
     - config:
@@ -609428,6 +609441,37 @@
         oslist: windows
       executable: Date Everything.exe
       type: default
+2201910:
+  cloud:
+    saves:
+      - path: Brewed Games/Winds Of Arcana/Main/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Brewed Games/Winds Of Arcana/Main/
+            replace: Brewed Games/Winds Of Arcana/Main/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Winds Of Arcana Ruination
+  launch:
+    - config:
+        oslist: windows
+      executable: Winds Of Arcana.exe
+      type: default
+  nameLocalized:
+    brazilian: "Winds of Arcana: Ruination"
+    french: "Winds of Arcana: Ruination"
+    german: "Winds of Arcana: Ruination"
+    japanese: デッドソウル戦記
+    koreana: 데드 소울 전기
+    russian: "Winds of Arcana: Ruination"
+    schinese: 亡魂战纪
+    spanish: "Winds of Arcana: Ruination"
+    tchinese: 亡魂戰紀
 2201940:
   cloud:
     saves:
@@ -626765,21 +626809,21 @@
         root: gameinstall
   installDir: Deep Rock Galactic RogueCore
   launch:
-    - arguments: "-DefaultServiceOverride=Steam -serverlist=serverlist.ghostship.dk"
+    - arguments: "-serverlist=serverlist.ghostship.dk"
       config:
         osarch: "64"
         oslist: windows
       executable: RogueCore.exe
       type: default
-    - arguments: "-DefaultServiceOverride=Steam -serverlist=serverlist.ghostship.dk"
+    - arguments: "-serverlist=serverlist.ghostship.dk"
       config:
-        betakey: internal_testing
+        betakey: "internal_testing, internal_release_dev"
         osarch: "64"
         oslist: windows
       description: Testing build
       executable: "RogueCore\\Binaries\\Win64\\RogueCore-Win64-Test.exe"
       type: option1
-    - arguments: "-DefaultServiceOverride=Steam -serverlist=serverlist.ghostship.dk"
+    - arguments: "-serverlist=serverlist.ghostship.dk"
       config:
         betakey: internal_marketing
         osarch: "64"
@@ -626803,6 +626847,12 @@
       description: Connection test 2
       executable: RogueCore.exe
       type: option2
+    - config:
+        betakey: "internal_release_dev, internal_release_ship, internal_testing"
+        osarch: "64"
+      description: Without serverlist overwrite arg.
+      executable: RogueCore.exe
+      type: option1
   nameLocalized:
     schinese: 深岩银河：异动核心
 2608050:
@@ -650813,6 +650863,62 @@
       executable: ScritchyScratchy.app/Contents/MacOS/Scritchy Scratchy
   nameLocalized:
     schinese: 刮个爽
+3949040:
+  cloud:
+    saves:
+      - path: "Ride/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Ride
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: with DirectX 12 (default)
+      executable: Ride.exe
+      type: default
+    - arguments: "-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: with DirectX 11 (solves some startup crashes)
+      executable: Ride.exe
+      type: option2
+    - arguments: "-fullcrashdump"
+      config:
+        betakey: nightly
+        osarch: "64"
+        oslist: windows
+      description: with DirectX 12 (default)
+      executable: Ride.exe
+      type: default
+    - arguments: "-fullcrashdump -d3d11"
+      config:
+        betakey: nightly
+        osarch: "64"
+        oslist: windows
+      description: with DirectX 11 (solves some startup crashes)
+      executable: Ride.exe
+      type: option2
+    - arguments: "-fullcrashdump"
+      config:
+        betakey: unstable
+        osarch: "64"
+        oslist: windows
+      description: with DirectX 12 (default)
+      executable: Ride.exe
+      type: default
+    - arguments: "-fullcrashdump -d3d11"
+      config:
+        betakey: unstable
+        osarch: "64"
+        oslist: windows
+      description: with DirectX 11 (solves some startup crashes)
+      executable: Ride.exe
+      type: option2
+  nameLocalized:
+    schinese: 我们到了吗？
+    tchinese: 我們到了嗎？
 3949290:
   cloud:
     saves:
