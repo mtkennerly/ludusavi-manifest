@@ -597944,6 +597944,12 @@
         oslist: windows
       executable: SNAP.exe
       type: default
+    - config:
+        betakey: event
+        oslist: windows
+      description: event build
+      executable: Snap NvStaging.exe
+      type: option1
   nameLocalized:
     japanese: MARVEL SNAP (マーベル・スナップ)
     koreana: 마블스냅

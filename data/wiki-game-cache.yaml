@@ -141735,6 +141735,7 @@ Martial Law (DropDGames):
   steamSide:
     - 3643590
 "Martian Gothic: Unification":
+  malformed: true
   pageId: 35446
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Martian Gothic}}"
@@ -141803,6 +141804,14 @@ Marvel Snap:
   lutris: marvel-snap
   pageId: 189156
   steam: 1997040
+  steamSide:
+    - 4465130
+    - 4465140
+    - 4465150
+    - 4465160
+    - 4465170
+    - 4465180
+    - 4465190
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Second Dinner\\SNAP}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Second Dinner\\SNAP\\|{{P|userprofile\\appdata\\locallow}}\\Second Dinner\\SNAP\\}}"
@@ -158463,6 +158472,8 @@ Nexus 5X:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Leaf\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Leaf\\Saved\\SaveGames\\}}"
 "Nexus: The Jupiter Incident":
+  cloud:
+    steam: true
   gog: 1207659080
   pageId: 6975
   steam: 6420
