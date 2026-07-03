@@ -577615,6 +577615,9 @@
     - config:
         oslist: macos
       executable: "Contents\\MacOS\\The Whisperer"
+  nameLocalized:
+    english: The Whisperer
+    french: Le Murmureur
 1698220:
   cloud:
     saves:
@@ -652610,6 +652613,7 @@
       executable: Idols Of Ash.app
       type: default
 4452700: {}
+4457050: {}
 4459850:
   nameLocalized:
     english: NAMCO LEGENDARY Mountains
@@ -652635,6 +652639,7 @@
         oslist: macos
       executable: LEAVES 3.app
       type: default
+4461560: {}
 4465790: {}
 4466620:
   cloud:

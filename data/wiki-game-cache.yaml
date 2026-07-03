@@ -11848,8 +11848,14 @@ Amygdala:
   steam: 2411790
 An Abyss of Dreams:
   gog: 1190512807
+  gogSide:
+    - 1454004095
+  lutris: an-abyss-of-dreams
   pageId: 215866
   steam: 3346520
+  steamSide:
+    - 4089130
+    - 4423300
 "An Adventurer's Tale":
   pageId: 124372
   steam: 942580
@@ -187620,8 +187626,17 @@ Remorses:
     - 1427750
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Remothered2\\Saved\\SaveGames\\}}"
+"Remothered: Broken Porcelain Remastered":
+  cloud:
+    xbox: true
+  gog: 1467668812
+  pageId: 218064
+  steam: 4461560
 "Remothered: Red Nun's Legacy":
+  cloud:
+    xbox: true
   gog: 1933416452
+  lutris: remothered-red-nuns-legacy
   pageId: 214598
   steam: 3335310
 "Remothered: Tormented Fathers":
@@ -187642,6 +187657,12 @@ Remorses:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Remothered\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Remothered\\Saved\\SaveGames\\}}"
+"Remothered: Tormented Fathers Remastered":
+  cloud:
+    xbox: true
+  gog: 1391035419
+  pageId: 218063
+  steam: 4457050
 Remuage - MeltySensation:
   pageId: 152699
   steam: 1198890
