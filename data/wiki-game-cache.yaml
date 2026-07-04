@@ -30395,7 +30395,9 @@ Blue Revolver:
     - 537670
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\blue-revolver-double-action\\brda_config.json}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\blue-revolver-double-action\\brda_save.sav}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/blue-revolver-double-action/brda_config.json}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\blue-revolver-double-action\\brda_save.sav|{{p|appdata}}\\blue-revolver-double-action\\brda_replays\\}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/blue-revolver-double-action/brda_save.sav|{{P|xdgdatahome}}/blue-revolver-double-action/brda_replays/}}"
 Blue Rider:
   cloud:
     steam: true
@@ -160807,6 +160809,8 @@ Nordhold:
   steamSide:
     - 3453980
     - 3453990
+  templates:
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3028310\\remote\\file.stunforge}}"
 "Nordic Ashes: Survivors of Ragnarok":
   cloud:
     steam: true
@@ -245312,6 +245316,7 @@ The Stone of Madness:
     - 3392520
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\TGK\\TSoM\\saves\\default\\*.txt}}"
+    - "{{Game data/saves|Epic Games Store|{{p|userprofile\\appdata\\locallow}}\\TGK\\TSoM_EOS\\saves\\default\\*.txt}}"
 "The Storm Guard: Darkness is Coming":
   pageId: 36812
   steam: 409910

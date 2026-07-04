@@ -93676,11 +93676,31 @@ Blue Revolver:
         - config
       when:
         - os: windows
+    "<winAppData>/blue-revolver-double-action/brda_replays":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/blue-revolver-double-action/brda_save.sav":
       tags:
         - save
       when:
         - os: windows
+    "<xdgData>/blue-revolver-double-action/brda_config.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/blue-revolver-double-action/brda_replays":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/blue-revolver-double-action/brda_save.sav":
+      tags:
+        - save
+      when:
+        - os: linux
   id:
     steamExtra:
       - 537670
@@ -494198,6 +494218,12 @@ Nordenfelt:
 Nordhold:
   cloud:
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3028310/remote/file.stunforge":
+      tags:
+        - save
+      when:
+        - store: steam
   id:
     lutris: nordhold
     steamExtra:
@@ -754970,6 +754996,11 @@ The Stone of Madness:
     steam: true
   files:
     "<home>/AppData/LocalLow/TGK/TSoM/saves/default/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/TGK/TSoM_EOS/saves/default/*.txt":
       tags:
         - save
       when:

@@ -18511,7 +18511,6 @@
 * [Noosphere](https://www.pcgamingwiki.com/wiki/?curid=151361)
 * [Nor'Easter](https://www.pcgamingwiki.com/wiki/?curid=139716)
 * [Nordenfelt](https://www.pcgamingwiki.com/wiki/?curid=44988)
-* [Nordhold](https://www.pcgamingwiki.com/wiki/?curid=202756)
 * [Nordic Storm Solitaire](https://www.pcgamingwiki.com/wiki/?curid=155797)
 * [Nordlicht](https://www.pcgamingwiki.com/wiki/?curid=139326)
 * [NoReload Heroes](https://www.pcgamingwiki.com/wiki/?curid=90596)
