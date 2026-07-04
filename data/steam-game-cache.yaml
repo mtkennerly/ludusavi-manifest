@@ -531874,6 +531874,31 @@
     japanese: 輪廻の旅
     schinese: 受苦之旅
 1221470: {}
+1221480:
+  cloud:
+    saves:
+      - path: Luckshot Games/Big Hops
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Luckshot Games/Big Hops
+            replace: ".local/share/Steam/steamapps/compatdata/1221480/pfx/drive_c/users/steamuser/AppData/LocalLow/Luckshot Games/Big Hops"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Big Hops
+  launch:
+    - config:
+        oslist: windows
+      executable: Big Hops.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Big Hops.app
+      type: default
 1221510:
   installDir: IMM Defense 2
   launch:

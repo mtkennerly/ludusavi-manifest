@@ -81149,6 +81149,33 @@ Big Hit VR Baseball:
     Big Hit VR Baseball: {}
   steam:
     id: 620800
+Big Hops:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Luckshot Games/Big Hops":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: big-hops
+    steamExtra:
+      - 4204860
+  installDir:
+    Big Hops: {}
+  launch:
+    "<base>/Big Hops.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Big Hops.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1221480
 Big Journey to Home:
   cloud:
     steam: true

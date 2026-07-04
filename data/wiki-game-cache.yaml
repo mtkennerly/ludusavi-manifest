@@ -26311,6 +26311,17 @@ Big Fish Legend:
 Big Hit VR Baseball:
   pageId: 61323
   steam: 620800
+Big Hops:
+  cloud:
+    steam: true
+  lutris: big-hops
+  pageId: 218088
+  steam: 1221480
+  steamSide:
+    - 4204860
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Luckshot Games\\Big Hops}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Luckshot Games\\Big Hops}}"
 Big Journey to Home:
   cloud:
     steam: true
