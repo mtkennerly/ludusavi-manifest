@@ -24640,6 +24640,14 @@ Beat Saber:
     - 4185710
     - 4185720
     - 4374210
+    - 4463920
+    - 4550600
+    - 4550610
+    - 4550620
+    - 4550630
+    - 4550640
+    - 4550650
+    - 4756020
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Hyperbolic Magnetism\\Beat Saber\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Hyperbolic Magnetism\\Beat Saber\\*.dat}}"
@@ -42878,8 +42886,11 @@ Cinema Empire:
 Cineris Somnia:
   cloud:
     steam: true
+  lutris: cineris-somnia
   pageId: 113136
   steam: 752470
+  steamSide:
+    - 903610
 Cinnabunny:
   cloud:
     steam: true
@@ -171954,7 +171965,7 @@ Phantom Brigade:
     - 2321140
   templates:
     - "{{Game data/config|Windows| {{P|localappdata}}\\PhantomBrigade\\Settings\\ }}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\PhantomBrigade\\Saves\\ }}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\PhantomBrigade\\SavedGames\\ }}"
 Phantom Doctrine:
   cloud:
     gog: true

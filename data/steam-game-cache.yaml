@@ -21248,6 +21248,7 @@
   installDir: PAYDAY 2
   launch:
     - config:
+        betakey: public
         oslist: windows
       executable: payday2_win32_release.exe
       type: default
@@ -21260,6 +21261,7 @@
       executable: payday2_release
       type: default
     - config:
+        betakey: public
         oslist: windows
         ownsdlc: "826090"
       description: PAYDAY 2 VR
@@ -21272,10 +21274,25 @@
       type: vr
     - arguments: "-NewCPU"
       config:
+        betakey: public
         oslist: windows
       description: PAYDAY 2 with Modern CPU Support (2021+)
       executable: payday2_win32_release.exe
       type: option1
+    - config:
+        betakey: open_beta eng1 ovk_externals ovk_partners
+        osarch: "64"
+        oslist: windows
+      executable: PAYDAY2.exe
+      type: default
+    - arguments: "-vr"
+      config:
+        betakey: open_beta eng1 ovk_externals ovk_partners
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "826090"
+      executable: PAYDAY2.exe
+      type: vr
 218640:
   cloud:
     saves:
@@ -209442,7 +209459,13 @@
 553540:
   cloud:
     saves:
-      - path: PhantomBrigade/Saves
+      - path: PhantomBrigade/SavedGames
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: PhantomBrigade/SavedPreviews
         pattern: "*"
         platforms:
           - Windows

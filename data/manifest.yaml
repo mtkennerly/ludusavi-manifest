@@ -75645,6 +75645,14 @@ Beat Saber:
       - 4185710
       - 4185720
       - 4374210
+      - 4463920
+      - 4550600
+      - 4550610
+      - 4550620
+      - 4550630
+      - 4550640
+      - 4550650
+      - 4756020
   installDir:
     Beat Saber: {}
   steam:
@@ -133302,6 +133310,10 @@ Cineris Somnia:
     "<home>/AppData/LocalLow/Nayuta Studio/Cineris Somnia/save/*.sav":
       when:
         - store: steam
+  id:
+    lutris: cineris-somnia
+    steamExtra:
+      - 903610
   installDir:
     CINERIS SOMNIA: {}
   launch:
@@ -523944,10 +523956,6 @@ Payday 2:
           - bit: 64
             os: linux
             store: steam
-    "<base>/payday2_win32_release.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 218620
 Payday 3:
@@ -528023,7 +528031,7 @@ Phantom Brigade:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/PhantomBrigade/Saves":
+    "<winLocalAppData>/PhantomBrigade/SavedGames":
       tags:
         - save
       when:
