@@ -62877,6 +62877,9 @@ BR Logic Pack:
             store: steam
   steam:
     id: 3191050
+"BRAZILIAN DRUG DEALER BEFORE 4: DEMONS FROM THE PORTAL TO HELL I OPENED ARE STILL IN THE FAVELA AND NOW I HAVE TO SAVE MAMADAS FROM RONALDO":
+  steam:
+    id: 4241920
 "BRG's Alice in Wonderland Visual Novel":
   installDir:
     "BRG's Alice in Wonderland Visual Novel": {}
@@ -127009,6 +127012,20 @@ Cheese Maze:
             store: steam
   steam:
     id: 819550
+Cheese Rolling:
+  installDir:
+    Cheese Rolling: {}
+  launch:
+    "<base>/CheeseRolling.app/Contents/MacOS/CheeseRolling":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/CheeseRolling.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3809440
 Cheesecake Cool Conrad:
   installDir:
     Cheesecake Cool Conrad: {}

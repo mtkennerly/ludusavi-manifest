@@ -649797,6 +649797,17 @@
       type: default
   nameLocalized:
     english: Japan Stigmatized Property -日本事故物件監視協会-
+3809440:
+  installDir: Cheese Rolling
+  launch:
+    - config:
+        oslist: windows
+      executable: CheeseRolling.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: CheeseRolling.app/Contents/MacOS/CheeseRolling
+      type: default
 3809900:
   installDir: Habbo Hotel Origins
   launch:
@@ -652139,6 +652150,10 @@
       executable: Legacy of Kain Ascendance.exe
       type: default
 4234320: {}
+4241920:
+  nameLocalized:
+    brazilian: "AVIÃOZINHO DO TRÁFICO PRÉ 4: SOBRARAM DEMONIOS DO PORTAL PRO INFERNO NA FAVELA QUE ABRI E AGORA TENHO QUE SALVAR OS MAMADAS DO RONALDO"
+    portuguese: "AVIÃOZINHO DO TRÁFICO PRÉ 4: SOBRARAM DEMONIOS DO PORTAL PRO INFERNO NA FAVELA QUE ABRI E AGORA TENHO QUE SALVAR OS MAMADAS DO RONALDO"
 4244510:
   cloud:
     saves:
