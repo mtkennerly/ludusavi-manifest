@@ -176926,6 +176926,8 @@ Power Dolls:
 Power Drift:
   lutris: power-drift
   pageId: 209076
+Power Drive:
+  pageId: 218113
 Power F1:
   pageId: 186056
 Power Fist VR:
@@ -255830,6 +255832,8 @@ Trash Bomber:
   steam: 2067760
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\LocalLow\\Khud0\\Trash Bomber\\}}"
+Trash It:
+  pageId: 218111
 Trash Rage:
   pageId: 134662
   steam: 963180
