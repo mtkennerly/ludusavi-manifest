@@ -87433,10 +87433,14 @@ FixFox:
     gog: true
     steam: true
   gog: 1082323622
+  lutris: fixfox
   pageId: 178404
   steam: 1696220
   steamSide:
     - 1849960
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Rendlike\\FixFox\\Vix}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Rendlike\\FixFox\\Vix}}"
 Fjall:
   pageId: 46534
   steam: 398900
@@ -137119,6 +137123,8 @@ Lucky Shot:
 Lucky Skiing:
   pageId: 123687
   steam: 981130
+Lucky Tower Ultimate:
+  pageId: 218116
 Lucky VS Aliens:
   pageId: 91023
   steam: 823370
@@ -189123,6 +189129,8 @@ Return Fire:
     - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Silent Software, Inc.\\Return Fire\\1.0\\Levels}}"
 Return Fire 2:
   pageId: 215328
+Return From Core:
+  pageId: 218117
 Return Home:
   pageId: 130484
   steam: 451940
@@ -251426,21 +251434,6 @@ Tomb Raider (2013):
 Tomb Raider - The Final Hours Digital Book:
   pageId: 37523
   steam: 233410
-Tomb Raider I-III Remastered:
-  cloud:
-    epic: true
-    gog: true
-    steam: true
-  gog: 1407750955
-  gogSide:
-    - 1446538488
-  lutris: tomb-raider-i-iii-remastered
-  pageId: 189724
-  steam: 2478970
-  templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\TRX\\{{p|uid}}\\savegame.dat}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\TRX\\{{p|uid}}\\*.sav}}"
-    - "{{Game data/saves|Epic Games Launcher|{{p|appdata}}\\TRX_EGS\\{{p|uid}}\\savegame.dat}}"
 Tomb Raider II:
   gog: 1207663483
   gogSide:
@@ -251475,6 +251468,23 @@ Tomb Raider IV-VI Remastered:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\TRX2\\{{p|uid}}\\savegame.dat}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\TRX2\\{{p|uid}}\\savegame.dat}}"
+Tomb Raider I–III Remastered:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  gog: 1407750955
+  gogSide:
+    - 1446538488
+  lutris: tomb-raider-i-iii-remastered
+  pageId: 189724
+  renamedFrom:
+    - Tomb Raider I-III Remastered
+  steam: 2478970
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\TRX\\{{p|uid}}\\savegame.dat}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\TRX\\{{p|uid}}\\*.sav}}"
+    - "{{Game data/saves|Epic Games Launcher|{{p|appdata}}\\TRX_EGS\\{{p|uid}}\\savegame.dat}}"
 "Tomb Raider: Anniversary":
   cloud:
     gog: true

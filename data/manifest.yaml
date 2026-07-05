@@ -269245,16 +269245,16 @@ FixFox:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Rendlike/FixFox/<storeUserId>/*.sav":
+    "<home>/AppData/LocalLow/Rendlike/FixFox/Vix":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/unity.Rendlike.FixFox/<storeUserId>/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   gog:
     id: 1082323622
   id:
+    lutris: fixfox
     steamExtra:
       - 1849960
   installDir:
@@ -773749,41 +773749,7 @@ Tomb Raider - The Final Hours Digital Book:
 Tomb Raider Chronicles:
   alias: "Tomb Raider: Chronicles"
 Tomb Raider I-III Remastered:
-  cloud:
-    epic: true
-    gog: true
-    steam: true
-  files:
-    "<winAppData>/TRX/<storeUserId>/*.sav":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winAppData>/TRX/<storeUserId>/savegame.dat":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winAppData>/TRX_EGS/<storeUserId>/savegame.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-  gog:
-    id: 1407750955
-  id:
-    gogExtra:
-      - 1446538488
-    lutris: tomb-raider-i-iii-remastered
-  installDir:
-    Tomb Raider I-III Remastered: {}
-  launch:
-    "<base>/tomb123.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2478970
+  alias: Tomb Raider I–III Remastered
 Tomb Raider II:
   files:
     "<base>/savegame.*":
@@ -773865,6 +773831,42 @@ Tomb Raider IV-VI Remastered:
             store: steam
   steam:
     id: 2525380
+Tomb Raider I–III Remastered:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<winAppData>/TRX/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/TRX/<storeUserId>/savegame.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/TRX_EGS/<storeUserId>/savegame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1407750955
+  id:
+    gogExtra:
+      - 1446538488
+    lutris: tomb-raider-i-iii-remastered
+  installDir:
+    Tomb Raider I-III Remastered: {}
+  launch:
+    "<base>/tomb123.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2478970
 "Tomb Raider: Anniversary":
   cloud:
     gog: true
