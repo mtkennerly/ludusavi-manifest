@@ -270173,6 +270173,7 @@ FlatOut:
     id: 6220
 FlatOut 2:
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/Savegame":

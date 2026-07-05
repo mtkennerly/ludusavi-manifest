@@ -63480,6 +63480,8 @@ Digimon Survive:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\©BANDAI NAMCO Entertainment Inc_\\DIGIMON SURVIVE\\Savedata\\{{p|uid}}\\}}"
 Digimon Typing:
   pageId: 207051
+Digimon Virtual Duel Space:
+  pageId: 218124
 Digimon World:
   pageId: 159197
   templates:
@@ -87706,6 +87708,7 @@ FlatOut:
     - "{{Game data/saves|Windows|{{p|game}}\\Savegame\\}}"
 FlatOut 2:
   cloud:
+    gog: true
     steam: true
   gog: 1207660523
   lutris: flatout-2
@@ -97335,6 +97338,8 @@ Global Adventures:
 "Global Agenda: Free Agent":
   pageId: 194309
   steam: 17020
+  templates:
+    - "{{Game data/config|Windows|{{Code|{{P|game}}\\tggame\\Config}}}}"
 Global Aviation Dream:
   pageId: 153925
   steam: 1111040
@@ -141493,6 +141498,8 @@ Marius:
 Mark After Dark:
   pageId: 71946
   steam: 713980
+Mark of the Deep:
+  pageId: 218126
 Mark of the Ninja:
   cloud:
     steam: true
@@ -191076,6 +191083,11 @@ Rising Islands:
 Rising Kingdoms:
   pageId: 141292
   steam: 827050
+Rising Lands:
+  pageId: 218127
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 Rising Lords:
   cloud:
     gog: true
