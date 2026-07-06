@@ -96552,6 +96552,37 @@ Book of Star Mythology:
   id:
     lutris: touhou-mahoujou-book-of-star-mythology
 Book of Travels:
+  files:
+    "<home>/.config/unity3d/MightAndDelight/BookOfTravels":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/unity3d/MightAndDelight/BookOfTravels/data.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/MightAndDelight/BookOfTravels":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/MightAndDelight/BookOfTravels/data.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/MightAndDelight/BookOfTravels":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/MightAndDelight/BookOfTravels/data.sav":
+      tags:
+        - save
+      when:
+        - os: mac
   installDir:
     Book of Travels: {}
   launch:
@@ -96559,11 +96590,11 @@ Book of Travels:
       - when:
           - os: mac
             store: steam
-    "<base>/Launcher/BookofTravelsLauncher.exe":
+    "<base>/BookOfTravels.exe":
       - when:
           - os: windows
             store: steam
-    "<base>/Launcher/BookofTravelsLauncher.x86_64":
+    "<base>/BookOfTravels.x86_64":
       - when:
           - bit: 64
             os: linux
@@ -643520,9 +643551,11 @@ Snakebird Primer:
   files:
     "<base>/SavesDir":
       tags:
+        - config
         - save
       when:
         - os: windows
+        - os: mac
         - os: linux
     "<xdgConfig>/unity3d/Noumenon Games/Snakebird Primer":
       tags:

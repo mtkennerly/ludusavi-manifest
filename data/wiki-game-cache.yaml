@@ -31279,6 +31279,13 @@ Book of Star Mythology:
 Book of Travels:
   pageId: 151487
   steam: 1152340
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\MightAndDelight\\BookOfTravels\\}}"
+    - "{{Game data/config|OS X|{{p|machome}}/Library/Application Support/MightAndDelight/BookOfTravels/}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/MightAndDelight/BookOfTravels/}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\MightAndDelight\\BookOfTravels\\data.sav}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/MightAndDelight/BookOfTravels/data.sav}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/MightAndDelight/BookOfTravels/data.sav}}"
 Book of Yog Idle RPG:
   pageId: 154067
   renamedFrom:
@@ -209146,9 +209153,11 @@ Snakebird Primer:
   pageId: 127779
   steam: 1014140
   templates:
+    - "{{Game data/config|OS X|{{P|game}}/SavesDir/}}"
     - "{{Game data/config|Linux| {{P|xdgconfighome}}/unity3d/Noumenon Games/Snakebird Primer}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\SavesDir}}"
-    - "{{Game data/saves|Linux|{{P|game}}/SavesDir}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\SavesDir\\}}"
+    - "{{Game data/saves|OS X|{{P|game}}/SavesDir/}}"
+    - "{{Game data/saves|Linux|{{P|game}}/SavesDir/}}"
 Snakeez:
   pageId: 72077
   steam: 714620

@@ -505208,13 +505208,28 @@
       executable: The Adventures of Looppy.exe
       type: default
 1152340:
+  cloud:
+    saves:
+      - path: MightAndDelight/BookOfTravels
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
   installDir: Book of Travels
   launch:
     - config:
         oslist: windows
       description: Launch
-      executable: Launcher/BookofTravelsLauncher.exe
-      type: none
+      executable: BookOfTravels.exe
     - config:
         oslist: macos
       description: Launch
@@ -505223,14 +505238,7 @@
         osarch: "64"
         oslist: linux
       description: Launch
-      executable: Launcher/BookofTravelsLauncher.x86_64
-      type: none
-    - config:
-        betakey: osx_test
-        oslist: macos
-      description: Book Of Travels (osx_test)
-      executable: BookOfTravels.app/Launcher.app
-      type: option2
+      executable: BookOfTravels.x86_64
 1152360:
   installDir: Climb Out!
   launch:

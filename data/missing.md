@@ -3557,7 +3557,6 @@
 * [Book of Legends](https://www.pcgamingwiki.com/wiki/?curid=51086)
 * [Book of Merlin](https://www.pcgamingwiki.com/wiki/?curid=42115)
 * [Book of Potentia 2](https://www.pcgamingwiki.com/wiki/?curid=64534)
-* [Book of Travels](https://www.pcgamingwiki.com/wiki/?curid=151487)
 * [Book of Yog Idle RPG](https://www.pcgamingwiki.com/wiki/?curid=154067)
 * [Book Seeker](https://www.pcgamingwiki.com/wiki/?curid=143852)
 * [Bookend](https://www.pcgamingwiki.com/wiki/?curid=129741)
