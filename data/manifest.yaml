@@ -810765,6 +810765,12 @@ Veritas:
             store: steam
   steam:
     id: 900290
+"Veritas Tales: Witch of the Dark Castle":
+  id:
+    steamExtra:
+      - 4714100
+  steam:
+    id: 4508570
 Veritex:
   installDir:
     Veritex: {}

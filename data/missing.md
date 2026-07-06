@@ -29882,6 +29882,7 @@
 * [Vera Swings](https://www.pcgamingwiki.com/wiki/?curid=94419)
 * [Verde Station](https://www.pcgamingwiki.com/wiki/?curid=49087)
 * [Verge: Lost Chapter](https://www.pcgamingwiki.com/wiki/?curid=46184)
+* [Veritas Tales: Witch of the Dark Castle](https://www.pcgamingwiki.com/wiki/?curid=218136)
 * [Veritex](https://www.pcgamingwiki.com/wiki/?curid=79401)
 * [Verlies II](https://www.pcgamingwiki.com/wiki/?curid=46288)
 * [Vermeer](https://www.pcgamingwiki.com/wiki/?curid=192708)
