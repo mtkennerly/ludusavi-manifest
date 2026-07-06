@@ -66295,7 +66295,6 @@ Donjon Defense:
 Donkey Kong:
   pageId: 152480
 Donkey Kong 64:
-  malformed: true
   pageId: 218016
 "Donkey Kong: Redux":
   pageId: 200596
@@ -153671,6 +153670,11 @@ My Singing Monsters:
     - 1896480
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Big Blue Bubble Inc\\My Singing Monsters\\1\\save.dat}}"
+My Singing Monsters Playground:
+  cloud:
+    steam: true
+  pageId: 218130
+  steam: 1722760
 "My Sister's Discipline Log":
   pageId: 70525
   steam: 711410
@@ -186800,6 +186804,9 @@ Redemption Reapers:
     steam: true
   pageId: 186549
   steam: 2139300
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\RedemptionReapers\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\RedemptionReapers\\Saved\\SaveGames}}"
 "Redemption's Guild":
   pageId: 145250
   steam: 1117200

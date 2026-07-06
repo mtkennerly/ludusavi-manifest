@@ -579665,6 +579665,28 @@
         oslist: windows
       executable: Hamster on Rails.exe
       type: default
+1722760:
+  cloud:
+    saves:
+      - path: Big Blue Bubble Inc/My Singing Monsters Playground/save
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Big Blue Bubble Inc/My Singing Monsters Playground/settings
+        pattern: "*.*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: My Singing Monsters Playground
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Playground.exe
+      type: default
+  nameLocalized:
+    schinese: 萌怪合唱团：群英荟萃
 1722840:
   installDir: Everdell
   launch:

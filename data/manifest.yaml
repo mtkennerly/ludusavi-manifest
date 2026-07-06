@@ -472785,6 +472785,28 @@ My Singing Monsters:
             store: steam
   steam:
     id: 1419170
+My Singing Monsters Playground:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Big Blue Bubble Inc/My Singing Monsters Playground/save/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Big Blue Bubble Inc/My Singing Monsters Playground/settings/*.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    My Singing Monsters Playground: {}
+  launch:
+    "<base>/Playground.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1722760
 "My Sister's Discipline Log":
   steam:
     id: 711410
@@ -574380,13 +574402,16 @@ Redemption Reapers:
     epic: true
     steam: true
   files:
-    "<home>/.config/Epic/RedemptionReapers/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/RedemptionReapers/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
-        - os: linux
-          store: steam
-    "<winLocalAppData>/RedemptionReapers/Saved/SaveGames/*.sav":
+        - os: windows
+    "<winLocalAppData>/RedemptionReapers/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Redemption Reapers: {}
   launch:
