@@ -11369,6 +11369,7 @@
 * [Granny: Chapter Two](https://www.pcgamingwiki.com/wiki/?curid=155985)
 * [Granny: Escape Together](https://www.pcgamingwiki.com/wiki/?curid=199833)
 * [Grape Jelly](https://www.pcgamingwiki.com/wiki/?curid=89316)
+* [Graphite](https://www.pcgamingwiki.com/wiki/?curid=218163)
 * [Grapple](https://www.pcgamingwiki.com/wiki/?curid=37713)
 * [Grapple Whip](https://www.pcgamingwiki.com/wiki/?curid=141381)
 * [Grappledrome](https://www.pcgamingwiki.com/wiki/?curid=57002)
