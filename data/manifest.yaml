@@ -408781,6 +408781,32 @@ Libra of the Vampire Princess:
             store: steam
   steam:
     id: 644680
+"Librarian: Tidy Up the Arcane Library!":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Librarian/Saved/SaveGames/Sav.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Librarian/Saved/SaveGames/SystemSetting.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: librarian-tidy-up-the-arcane-library
+  installDir:
+    Librarian Tidy Up the Arcane Library!: {}
+  launch:
+    "<base>/Librarian.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4197610
 Library:
   installDir:
     LIBRARY: {}
@@ -536349,6 +536375,7 @@ Planet of Lana:
     id: 1608230
 Planet of Lana II:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Wishfully/Planet of Lana 2/*.sav":
@@ -711403,6 +711430,7 @@ Tempest Rising:
       - 2570840
       - 3478250
       - 3478280
+      - 4764990
   installDir:
     Tempest Rising: {}
   launch:

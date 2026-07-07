@@ -652188,6 +652188,25 @@
       executable: "Steam\\jsp2.app"
       type: default
 4193660: {}
+4197610:
+  cloud:
+    saves:
+      - path: Librarian/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Librarian Tidy Up the Arcane Library!
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Librarian.exe
+      type: default
+  nameLocalized:
+    japanese: 司書のお仕事：魔導図書館を片付けろ！
+    schinese: 图书管理员：整理魔法图书馆吧！
+    tchinese: 圖書館員：整理魔法圖書館吧！
 4198090:
   nameLocalized:
     schinese: 獾獾闯天关

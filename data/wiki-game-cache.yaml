@@ -132656,6 +132656,15 @@ Libra of the Vampire Princess:
 "Libra of the Vampire Princess: Lycoris & Aoi in \"The Promise\" PLUS Iris in \"Homeworld\"":
   pageId: 64781
   steam: 644680
+"Librarian: Tidy Up the Arcane Library!":
+  cloud:
+    steam: true
+  lutris: librarian-tidy-up-the-arcane-library
+  pageId: 218166
+  steam: 4197610
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Librarian\\Saved\\SaveGames\\SystemSetting.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Librarian\\Saved\\SaveGames\\Sav.sav}}"
 Library:
   pageId: 104239
   steam: 865270
@@ -174708,6 +174717,7 @@ Planet of Lana:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana\\*.sav}}"
 Planet of Lana II:
   cloud:
+    gog: true
     steam: true
     xbox: true
   gog: 1486363776
@@ -231003,6 +231013,7 @@ Tempest Rising:
     - 2570840
     - 3478250
     - 3478280
+    - 4764990
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Tempest\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Tempest\\Saved\\SaveGames\\}}"
