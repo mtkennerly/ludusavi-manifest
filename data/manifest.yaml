@@ -747898,6 +747898,8 @@ The Pinball Arcade:
   steam:
     id: 238260
 The Pinball Wizard:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/FrostyPop/Pinball Wizard/*.json":
       when:
@@ -789834,6 +789836,11 @@ Truck the System:
             store: steam
   steam:
     id: 1081200
+Truck-Kun is Supporting Me from Another World?!:
+  cloud:
+    steam: true
+  steam:
+    id: 3642010
 Trucker:
   installDir:
     Trucker: {}

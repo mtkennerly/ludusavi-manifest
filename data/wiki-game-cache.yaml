@@ -89366,6 +89366,8 @@ Forced:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\BetaDwarf ApS\\FORCED\\}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/BetaDwarf ApS/FORCED/prefs}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/249990/remote/}}"
+"Forced Alliance: The Glarious Mandate":
+  pageId: 218153
 Forced Showdown:
   cloud:
     steam: true
@@ -168160,6 +168162,8 @@ Pacific General:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\data\\PREFS.DAT}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
+Pacific Gunner:
+  pageId: 218160
 Pacific Liberation Force:
   lutris: pacific-liberation-force
   pageId: 49645
@@ -242927,6 +242931,8 @@ The Pinball Arcade:
     - "{{Game data/config|Windows|{{p|userprofile}}\\My Games\\Pinball Arcade}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\My Games\\Pinball Arcade}}"
 The Pinball Wizard:
+  cloud:
+    steam: true
   pageId: 147968
   steam: 2101800
 The Pines:
@@ -257527,6 +257533,11 @@ Truck Racing by Renault Trucks:
 Truck the System:
   pageId: 139294
   steam: 1081200
+Truck-Kun is Supporting Me from Another World?!:
+  cloud:
+    steam: true
+  pageId: 218155
+  steam: 3642010
 Trucker:
   pageId: 52221
   steam: 451660
@@ -279872,6 +279883,8 @@ Zeus Quest Remastered:
 Zeus vs Monsters:
   pageId: 44551
   steam: 444430
+"Zeus: Carnage Heart Second":
+  pageId: 218157
 "Zeus: Master of Olympus":
   cloud:
     gog: true
