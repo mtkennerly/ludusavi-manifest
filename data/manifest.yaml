@@ -52538,6 +52538,10 @@ Asphyxia:
         - config
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 3362550
+      - 3362570
   installDir:
     "Assassin's Creed Shadows": {}
   launch:
@@ -52658,6 +52662,8 @@ Asphyxia:
   steam:
     id: 2208920
 "Assassin's Creed: Black Flag Resynced":
+  id:
+    lutris: assassins-creed-black-flag-resynced
   steam:
     id: 3751950
 "Assassin's Creed: Brotherhood":
@@ -57016,11 +57022,28 @@ Atramentum VR:
 "Atre: Dominance Wars":
   cloud:
     steam: true
+  files:
+    "<base>/DominanceTOE/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2805850/pfx/drive_c/users/steamuser/AppData/Local/DominanceTOE/Saved/SaveGames/**/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winLocalAppData>/DominanceTOE/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   gog:
     id: 1957525698
   id:
     gogExtra:
       - 1147263483
+  installDir:
+    Atre Dominance Wars: {}
+  launch:
+    "<base>/DominanceTOE.exe":
+      - when:
+          - store: steam
   steam:
     id: 2805850
 Atriage:
@@ -415374,6 +415397,32 @@ Logic Missile:
             store: steam
   steam:
     id: 448300
+Logic Town:
+  files:
+    "<home>/.config/com/dividetheplunder/logictown/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Divide The Plunder Limited/Logic Town/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.dividetheplunder.logictown/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Logic Town: {}
+  launch:
+    "<base>/Logic Town.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Logic Town.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2333240
 Logic World:
   files:
     "<base>/SavedServers.*":
@@ -460095,6 +460144,26 @@ Monopoly Tycoon:
       tags:
         - save
 "Monopoly: Star Wars - Heroes vs. Villains":
+  files:
+    "<home>/AppData/LocalLow/BHVR/MonopolySW/**/AutoSaveGame":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/BHVR/MonopolySW/**/ProgressionData":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/BHVR/MonopolySW/**/SlotSaveGame*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    MonopolySW: {}
+  launch:
+    "<base>/MonopolySW.exe":
+      - arguments: "-uplay_steam_mode"
+        when:
+          - store: steam
   steam:
     id: 3936610
 Monovert DX:

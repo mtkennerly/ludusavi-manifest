@@ -615799,6 +615799,37 @@
       executable: Beyond Shadowgate.exe
       type: default
 2333000: {}
+2333240:
+  cloud:
+    saves:
+      - path: Divide The Plunder Limited/Logic Town
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Divide The Plunder Limited/Logic Town
+            replace: com.dividetheplunder.logictown
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Divide The Plunder Limited/Logic Town
+            replace: ".config/com/dividetheplunder/logictown"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Logic Town
+  launch:
+    - config:
+        oslist: windows
+      executable: Logic Town.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Logic Town.app
+      type: default
 2333480:
   installDir: RAID Shadow Legends
   launch:
@@ -633066,6 +633097,26 @@
       type: default
 2805070: {}
 2805850:
+  cloud:
+    saves:
+      - path: DominanceTOE/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+      - path: DominanceTOE/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ".local/share/Steam/steamapps/compatdata/2805850/pfx/drive_c/users/steamuser/AppData/Local"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: Atre Dominance Wars
+  launch:
+    - executable: DominanceTOE.exe
+      type: default
   nameLocalized:
     schinese: 艾特尔：神祇之路
 2806050: {}
@@ -650833,6 +650884,31 @@
       workingdir: launcher
 3935020: {}
 3936610:
+  cloud:
+    saves:
+      - path: "BHVR\\MonopolySW"
+        pattern: AutoSaveGame
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "BHVR\\MonopolySW"
+        pattern: SlotSaveGame*
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "BHVR\\MonopolySW"
+        pattern: ProgressionData
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: MonopolySW
+  launch:
+    - arguments: "-uplay_steam_mode"
+      executable: MonopolySW.exe
+      type: default
   nameLocalized:
     brazilian: "Monopoly: Star Wars™ Heroes vs. Villains"
     danish: "Monopoly: Star Wars™ Heroes vs. Villains"

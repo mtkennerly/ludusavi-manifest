@@ -16868,6 +16868,9 @@ Assassin 2015:
     uplay: true
   pageId: 195073
   steam: 3159330
+  steamSide:
+    - 3362550
+    - 3362570
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Assassin's Creed Shadows\\ACShadows.ini}}"
     - "{{Game data/saves|Windows|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\8006\\}}"
@@ -16903,6 +16906,7 @@ Assassin 2015:
     - "{{Game data/saves|Windows|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\13504\\}}"
     - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\7013\\}}"
 "Assassin's Creed: Black Flag Resynced":
+  lutris: assassins-creed-black-flag-resynced
   pageId: 215896
   steam: 3751950
 "Assassin's Creed: Brotherhood":
@@ -57328,6 +57332,8 @@ Daytona USA:
   templates:
     - "{{Game data/config|Windows|{{p|windir}}\\DAYTONA.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\DAYTONA.DAT}}"
+Daytona USA ReXGlue Recompilation:
+  pageId: 218149
 "Daytona USA: Deluxe":
   lutris: daytona-usa-deluxe
   pageId: 30252
@@ -68256,6 +68262,8 @@ Dragon of Legends:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Digital Leisure Inc.\\Dragon's Lair Trilogy}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Digital Leisure Inc.\\Dragon's Lair Trilogy}}"
+"Dragon's Lair: Escape from Singe's Castle":
+  pageId: 218143
 "Dragon's Lunch":
   cloud:
     steam: true
@@ -113785,6 +113793,8 @@ Hypatia:
   templates:
     - "{{Game data/config|Windows|{{p|windir}}\\UbiSoft\\ubi.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GameData\\SaveGame\\}}"
+Hyper 3-D Pinball:
+  pageId: 218147
 Hyper Arena VR:
   pageId: 81735
   steam: 780400
@@ -134825,6 +134835,11 @@ Logic Bombs:
 Logic Missile:
   pageId: 43300
   steam: 448300
+Logic Town:
+  pageId: 218138
+  steam: 2333240
+  templates:
+    - "{{Game data/saves|Windows|\n{{folder|{{p|userprofile}}\\AppData\\LocalLow\\Divide The Plunder Limited\\Logic Town\\}}\n}}"
 Logic World:
   pageId: 135728
   steam: 1054340
@@ -150752,6 +150767,8 @@ Moonshine Inc.:
   steam: 1066760
   steamSide:
     - 2216400
+Moonshine Racers:
+  pageId: 218141
 Moonshiners Simulator:
   pageId: 139568
   steam: 1057600
@@ -173456,6 +173473,8 @@ Pit People:
 Pit of Evil:
   pageId: 93847
   steam: 746020
+Pit-Fighter:
+  pageId: 218145
 Pitch Perfect Ear Training:
   cloud:
     steam: true
