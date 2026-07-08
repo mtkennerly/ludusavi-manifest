@@ -252224,6 +252224,17 @@ FORT:
   steam:
     id: 1103250
 FPS Chess:
+  files:
+    "<winLocalAppData>/FPSChess/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/FPSChess/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     FPS Chess: {}
   launch:

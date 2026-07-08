@@ -81552,6 +81552,9 @@ FORT:
 FPS Chess:
   pageId: 180153
   steam: 2021910
+  templates:
+    - "{{Game data/config|Windows|%LOCALAPPDATA%\\FPSChess\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|%LOCALAPPDATA%\\FPSChess\\Saved\\SaveGames}}"
 FPS Quest:
   pageId: 211995
   steam: 3989240
@@ -177027,6 +177030,8 @@ Power Punch II:
   gog: 1780547285
   pageId: 143880
   steam: 1137670
+Power Rangers Time Force:
+  pageId: 218180
 Power Rangers Zeo Versus the Machine Empire:
   pageId: 180218
 "Power Rangers: Battle for the Grid":
@@ -248557,6 +248562,8 @@ This was for you.:
 Tho maz:
   pageId: 64514
   steam: 668560
+"Thomas & Friends: Building the New Line":
+  pageId: 218178
 "Thomas & Friends: The Great Festival Adventure":
   pageId: 210429
 "Thomas & Friends: Trouble on the Tracks":
