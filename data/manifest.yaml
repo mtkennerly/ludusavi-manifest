@@ -52664,6 +52664,15 @@ Asphyxia:
 "Assassin's Creed: Black Flag Resynced":
   id:
     lutris: assassins-creed-black-flag-resynced
+  installDir:
+    "Assassin's Creed Black Flag Resynced": {}
+  launch:
+    "<base>/ACBlackFlag.exe":
+      - arguments: "-uplay_steam_mode"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3751950
 "Assassin's Creed: Brotherhood":
@@ -62887,6 +62896,17 @@ BR Logic Pack:
   steam:
     id: 35800
 "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT":
+  files:
+    "<home>/Saved Games/Aviao":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Aviao/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
     steamExtra:
@@ -112884,7 +112904,7 @@ Call of Duty Black Ops Cold War:
       when:
         - os: windows
   installDir:
-    Call of Duty HQ: {}
+    Call of Duty Black Ops 6: {}
   launch:
     "<base>/bootstrapper.exe":
       - arguments: cod.exe
@@ -112893,7 +112913,7 @@ Call of Duty Black Ops Cold War:
             os: windows
             store: steam
   steam:
-    id: 1938090
+    id: 4384550
 "Call of Duty: Black Ops 7":
   files:
     "<winAppData>/Local/Activision/Call of Duty/players":
@@ -385821,6 +385841,35 @@ Kiitsu:
             store: steam
   steam:
     id: 1205140
+KilaFlow:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/Kilaflow":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<xdgData>/godot/app_userdata/Kilaflow":
+      tags:
+        - save
+      when:
+        - os: linux
+  id:
+    lutris: kilaflow
+  installDir:
+    KilaFlow: {}
+  launch:
+    "<base>/KilaFlow Beta/KilaFlow.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/KilaFlow Beta/KilaFlow.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2927510
 Kilcount:
   installDir:
     Kilcount: {}
@@ -458691,9 +458740,22 @@ Mold on Pizza:
 Moldwasher:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/RubelGames":
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 4327990
+  installDir:
+    Moldwasher: {}
+  launch:
+    "<base>/Moldwasher.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3688130
 Mole:
@@ -551561,17 +551623,17 @@ Project Zomboid:
         when:
           - os: mac
             store: steam
-    "<base>/ProjectZomboid32.exe":
-      - when:
-          - bit: 32
-            os: windows
-            store: steam
     "<base>/ProjectZomboid64.bat":
       - when:
           - bit: 64
             os: windows
             store: steam
     "<base>/ProjectZomboid64.exe":
+      - arguments: "-safemode"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
       - when:
           - bit: 64
             os: windows

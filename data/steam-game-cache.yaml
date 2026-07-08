@@ -15084,14 +15084,14 @@
   installDir: ProjectZomboid
   launch:
     - config:
-        osarch: "32"
-        oslist: windows
-      description: 32 Bit
-      executable: ProjectZomboid32.exe
-      type: default
-    - config:
         oslist: macos
       executable: Project Zomboid.app
+    - arguments: "-safemode"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Compatibility Mode
+      executable: ProjectZomboid64.exe
     - config:
         oslist: linux
       executable: projectzomboid.sh
@@ -635752,6 +635752,35 @@
     - config:
         oslist: windows
       executable: CyberTaxi2Prototype.exe
+2927510:
+  cloud:
+    saves:
+      - path: godot/app_userdata/Kilaflow
+        pattern: "*.save"
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: godot/app_userdata/Kilaflow
+            replace: ".local/share/godot/app_userdata/Kilaflow"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: godot/app_userdata/Kilaflow
+        root: LinuxHome
+        useInstead: WinAppDataRoaming
+  installDir: KilaFlow
+  launch:
+    - config:
+        oslist: windows
+      executable: "KilaFlow Beta\\KilaFlow.exe"
+    - config:
+        oslist: linux
+      executable: "KilaFlow Beta\\KilaFlow.x86_64"
 2927550:
   cloud:
     saves:
@@ -648836,6 +648865,20 @@
   nameLocalized:
     schinese: 裂隙防线 Repel The Rifts
 3688130:
+  cloud:
+    saves:
+      - path: RubelGames
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Moldwasher
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Moldwasher.exe
+      type: default
   nameLocalized:
     japanese: モルドワッシャー
     schinese: " 厨房清洁大师"
@@ -649418,6 +649461,14 @@
     schinese: The Blood of Dawnwalker 黎明行者之血
     tchinese: The Blood of Dawnwalker 黎明行者之血
 3751950:
+  installDir: "Assassin's Creed Black Flag Resynced"
+  launch:
+    - arguments: "-uplay_steam_mode"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: ACBlackFlag.exe
+      type: default
   nameLocalized:
     brazilian: "Assassin's Creed Black Flag Resynced"
     danish: "Assassin's Creed Black Flag Resynced"
@@ -652729,6 +652780,39 @@
     - arguments: "-conf \"dosbox_finis.conf\" -noconsole"
       description: Skip to level 9
       executable: Start.exe
+4384550:
+  installDir: Call of Duty Black Ops 6
+  launch:
+    - arguments: cod.exe
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Launch Bootstrapper.exe
+      executable: bootstrapper.exe
+      type: default
+  nameLocalized:
+    arabic: "Call of Duty®: Black Ops 6"
+    brazilian: "Call of Duty®: Black Ops 6"
+    danish: "Call of Duty®: Black Ops 6"
+    dutch: "Call of Duty®: Black Ops 6"
+    finnish: "Call of Duty®: Black Ops 6"
+    french: "Call of Duty®: Black Ops 6"
+    german: "Call of Duty®: Black Ops 6"
+    italian: "Call of Duty®: Black Ops 6"
+    japanese: "Call of Duty®: Black Ops 6"
+    koreana: "콜 오브 듀티®: 블랙 옵스 6"
+    latam: "Call of Duty®: Black Ops 6"
+    norwegian: "Call of Duty®: Black Ops 6"
+    polish: "Call of Duty®: Black Ops 6"
+    portuguese: "Call of Duty®: Black Ops 6"
+    russian: "Call of Duty®: Black Ops 6"
+    schinese: 使命召唤®：黑色行动 6
+    spanish: "Call of Duty®: Black Ops 6"
+    swedish: "Call of Duty®: Black Ops 6"
+    tchinese: 決勝時刻®：黑色行動 6
+    thai: "Call of Duty®: Black Ops 6"
+    turkish: "Call of Duty®: Black Ops 6"
+    ukrainian: "Call of Duty®: Black Ops 6"
 4395360:
   installDir: 3D Body Adventure
   launch:

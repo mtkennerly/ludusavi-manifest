@@ -20176,6 +20176,9 @@ BR Logic Pack:
   steam: 3191050
   steamSide:
     - 3476440
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Aviao\\config.cfg}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Aviao\\}}"
 "BRAZILIAN DRUG DEALER BEFORE 4: DEMONS FROM THE PORTAL TO HELL I OPENED ARE STILL IN THE FAVELA AND NOW I HAVE TO SAVE MAMADAS FROM RONALDO":
   pageId: 218107
   steam: 4241920
@@ -36491,7 +36494,7 @@ Call of Duty 2:
   cloud:
     xbox: true
   pageId: 195585
-  steam: 1938090
+  steam: 4384550
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Call of Duty\\players}}"
 "Call of Duty: Black Ops 7":
@@ -125088,6 +125091,15 @@ Kiitsu:
   steam: 1205140
 "Kikokugai: The Cyber Slayer":
   pageId: 198677
+KilaFlow:
+  cloud:
+    steam: true
+  lutris: kilaflow
+  pageId: 218172
+  steam: 2927510
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Kilaflow}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/godot/app_userdata/Kilaflow}}"
 Kilcount:
   pageId: 95589
   steam: 870800
@@ -219650,6 +219662,8 @@ Steel Thunder:
   gog: 1101934898
   pageId: 165140
   steam: 1341830
+Steel Tide:
+  pageId: 218174
 Steel Vampire / 鋼鉄のヴァンパイア:
   cloud:
     steam: true
@@ -274072,6 +274086,8 @@ Without Within 3:
     steam: true
   pageId: 154200
   steam: 1193100
+"WizMo's Workshop: Dragons of Frozzbokk":
+  pageId: 218176
 Wizard And Minion Idle:
   pageId: 127373
   steam: 1011510
