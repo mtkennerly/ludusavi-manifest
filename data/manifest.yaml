@@ -304770,6 +304770,7 @@ Golden Krone Hotel:
     id: 497800
 Golden Lap:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/My Games/Golden Lap/Saves/*.json":
@@ -465464,6 +465465,8 @@ Mortal Shell:
   steam:
     id: 1110910
 Mortal Shell II:
+  id:
+    lutris: mortal-shell-ii
   steam:
     id: 2584270
 Mortal Sin:
@@ -485281,6 +485284,15 @@ Neuro Hunter:
         - save
       when:
         - os: windows
+  installDir:
+    Neuro Hunter: {}
+  launch:
+    "<base>/Neurohunter.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4899790
 NeuroVoider:
   cloud:
     gog: true
@@ -643043,6 +643055,9 @@ Smogpunk 湮霾之地:
     steam: true
   steam:
     id: 918160
+Smoke Town:
+  steam:
+    id: 4624100
 Smoke and Sacrifice:
   cloud:
     steam: true

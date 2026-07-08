@@ -626441,7 +626441,7 @@
       type: default
 2584270:
   nameLocalized:
-    schinese: 致命躯壳 II
+    schinese: 《致命躯壳 II》
 2585830:
   cloud:
     saves:
@@ -634443,6 +634443,7 @@
       type: default
   nameLocalized:
     japanese: 龍の国 ルーンファクトリー
+    koreana: 용의 나라 룬 팩토리
     schinese: 符文工房 龙之天地
     tchinese: 符文工廠 龍之天地
 2865440:
@@ -653182,6 +653183,7 @@
 4603230: {}
 4605200: {}
 4605490: {}
+4624100: {}
 4634560:
   nameLocalized:
     english: Carpet Cleaning Simulator
@@ -653266,4 +653268,11 @@
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"
 4863030: {}
+4899790:
+  installDir: Neuro Hunter
+  launch:
+    - config:
+        oslist: windows
+      executable: Neurohunter.exe
+      type: default
 3221903386: {}
