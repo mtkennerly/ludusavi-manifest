@@ -13668,6 +13668,9 @@ Ants! Mission of the salvation:
 Antz Extreme Racing:
   lutris: antz-extreme-racing
   pageId: 88613
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Empire Interactive\\Antz Extreme Racing}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\antz.sav}}"
 Anubis Dungeon:
   pageId: 78008
   steam: 756870
@@ -87461,8 +87464,8 @@ FixFox:
   steamSide:
     - 1849960
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Rendlike\\FixFox\\Vix}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Rendlike\\FixFox\\Vix}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Rendlike\\FixFox\\Unity}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Rendlike\\FixFox\\{{p|uid}}}}"
 Fjall:
   pageId: 46534
   steam: 398900
@@ -130430,6 +130433,9 @@ Leaf it Alone:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eternity\\Leaf it Alone\\settings.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eternity\\Leaf it Alone\\Saves}}"
+Leafborn:
+  pageId: 218197
+  steam: 4247440
 Leaflet Love Story:
   pageId: 104889
   steam: 895220
@@ -137592,6 +137598,7 @@ Lunar Lander Beyond:
   steam: 979410
 Lunar Remastered Collection:
   cloud:
+    steam: true
     xbox: true
   pageId: 198012
   steam: 3255380
@@ -176273,7 +176280,7 @@ Pool Shark:
   pageId: 110832
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\LiveBilliards.ini}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\Saved\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Saved}}"
 Pool Shark 2:
   pageId: 173930
   templates:
@@ -192916,6 +192923,13 @@ Rogue Empire:
     steam: true
   pageId: 74704
   steam: 650940
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Portal Entertainment\\Rogue-Empire\\}}"
+    - "{{Game data/config|OS X|{{p|home}}\\Library\\Preferences\\unity.Portal Entertainment.Rogue-Empire.plist}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}\\unity3d\\Portal Entertainment\\Rogue-Empire\\prefs}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Portal Entertainment\\Rogue-Empire\\Saves\\}}"
+    - "{{Game data/saves|OS X|{{p|home}}\\Library\\Application Support\\Portal Entertainment\\Rogue-Empire\\Saves\\}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}\\unity3d\\Portal Entertainment\\Rogue-Empire\\Saves\\}}"
 Rogue Fable III:
   pageId: 125357
   steam: 956450

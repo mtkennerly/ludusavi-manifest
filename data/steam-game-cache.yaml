@@ -652413,6 +652413,7 @@
     thai: "Spyro™: A Realm Beyond"
     turkish: "Spyro™: A Realm Beyond"
     ukrainian: "Spyro™: A Realm Beyond"
+4247440: {}
 4249100:
   installDir: 4249100_Biohazard
   launch:
@@ -653076,7 +653077,16 @@
   nameLocalized:
     schinese: "Wo Long 2: Wings of Ember（卧龙2：凤火连天）"
     tchinese: "Wo Long 2: Wings of Ember（臥龍2：鳳火連天） "
-4508340: {}
+4508340:
+  installDir: Neverness to Everness
+  launch:
+    - arguments: " /launcher"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: NTEGlobal/NTEGlobalLauncher.exe
+      type: default
+      workingdir: NTEGlobal
 4508570:
   nameLocalized:
     japanese: ヴェリタステイルズ：暗黒城の魔女
