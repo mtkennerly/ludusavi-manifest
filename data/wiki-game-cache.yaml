@@ -31691,6 +31691,15 @@ Borderlands 4:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\documents}}\\My Games\\Borderlands 4\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\documents}}\\My Games\\Borderlands 4\\Saved\\SaveGames\\{{P|uid}}\\}}"
+"Borderlands: Game of the Year Enhanced":
+  cloud:
+    steam: true
+  lutris: borderlands-goty-enhanced
+  pageId: 133055
+  steam: 729040
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Borderlands Game of the Year\\WillowGame\\Config\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Borderlands Game of the Year\\Binaries\\SaveData\\}}"
 "Borderlands: The Pre-Sequel":
   cloud:
     epic: true
@@ -125042,6 +125051,11 @@ Kid Chameleon:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\SEGA Mega Drive Classics\\setup.dat|{{p|userprofile\\Documents}}\\SEGA Genesis Classics\\setup.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SEGA Mega Drive Classics\\0019\\|{{p|userprofile\\Documents}}\\SEGA Genesis Classics\\0019\\}}"
+Kid Chaos:
+  cloud:
+    steam: true
+  pageId: 218199
+  steam: 2394190
 Kid Phonics 1:
   pageId: 190285
 Kid Phonics 2:
@@ -203602,11 +203616,11 @@ Shenzhen IO:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\SHENZHEN IO\\{{P|uid}}\\config.cfg}}"
     - "{{Game data/config|Microsoft Store|{{P|userprofile\\Documents}}\\My Games\\SHENZHEN IO\\NonSteamUser\\config.cfg}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/SHENZHEN IO/}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/SHENZHEN IO/{{P|uid}}/}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/SHENZHEN IO/{{P|uid}}/}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\SHENZHEN IO\\{{P|uid}}\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\58020AllianceMetaversalSt.ShenzhenIO_j78hpz8e66gfw\\SystemAppData\\xgs\\{{P|uid}}\\all\\save.dat}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/SHENZHEN IO/}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/SHENZHEN IO/{{P|uid}}/}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SHENZHEN IO/{{P|uid}}/}}"
 Shenzhen Solitaire:
   lutris: shenzhen-solitaire
   pageId: 55135

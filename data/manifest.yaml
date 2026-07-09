@@ -97718,6 +97718,32 @@ Borderlands 4:
             store: steam
   steam:
     id: 1285190
+"Borderlands: Game of the Year Enhanced":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Borderlands Game of the Year/Binaries/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Borderlands Game of the Year/WillowGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: borderlands-goty-enhanced
+  installDir:
+    BorderlandsGOTYEnhanced: {}
+  launch:
+    "<base>/Binaries/Win64/Launcher.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 729040
 "Borderlands: The Pre-Sequel":
   cloud:
     epic: true
@@ -385702,6 +385728,17 @@ Kid Chameleon:
     lutris: kid-chameleon
   steam:
     id: 34311
+Kid Chaos:
+  cloud:
+    steam: true
+  installDir:
+    Kid Chaos: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2394190
 "Kid's Safety With George Blessure":
   steam:
     id: 1117770
@@ -625778,12 +625815,6 @@ Shenzhen IO:
     origin: true
     steam: true
   files:
-    "<home>/.local/share/SHENZHEN IO/<storeUserId>":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
     "<home>/Library/Application Support/SHENZHEN IO":
       tags:
         - config
@@ -625812,6 +625843,12 @@ Shenzhen IO:
       when:
         - os: windows
           store: microsoft
+    "<xdgData>/SHENZHEN IO/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   gog:
     id: 1640205738
   id:

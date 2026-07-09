@@ -231611,14 +231611,6 @@
       description: rolling_test
       executable: hunt.exe
       type: option1
-    - arguments: +online_account_client_settings liveLike +tlm_client_forward_enable 1
-      config:
-        betakey: qa_testroom qa_testroom2
-        osarch: "64"
-        oslist: windows
-      description: Live-Like
-      executable: hunt.exe
-      type: option1
     - arguments: +online_account_client_settings stage
       config:
         betakey: qa_testroom2
@@ -231635,7 +231627,7 @@
       description: 2.4 crash on start info collection
       executable: hunt.exe
       type: option1
-    - arguments: +online_account_client_settings liveLike
+    - arguments: +online_account_client_settings liveLike +tlm_client_forward_enable 1
       config:
         betakey: qa_testroom qa_testroom2
         osarch: "64"
@@ -618201,6 +618193,11 @@
       type: default
   nameLocalized:
     schinese: 天使时代
+2394190:
+  installDir: Kid Chaos
+  launch:
+    - executable: game.exe
+      type: none
 2394650:
   cloud:
     saves:

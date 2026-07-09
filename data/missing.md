@@ -14446,6 +14446,7 @@
 * [Kickoff Legends](https://www.pcgamingwiki.com/wiki/?curid=54608)
 * [Kickshot](https://www.pcgamingwiki.com/wiki/?curid=92927)
 * [Kid Baby: Starchild](https://www.pcgamingwiki.com/wiki/?curid=124335)
+* [Kid Chaos](https://www.pcgamingwiki.com/wiki/?curid=218199)
 * [Kid Phonics 1](https://www.pcgamingwiki.com/wiki/?curid=190285)
 * [Kid Phonics 2](https://www.pcgamingwiki.com/wiki/?curid=190284)
 * [Kid Pilot](https://www.pcgamingwiki.com/wiki/?curid=215070)
