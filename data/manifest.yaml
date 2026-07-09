@@ -22702,12 +22702,12 @@ Afterdays:
     id: 923110
 Afterfall Reconquest Episode I:
   files:
-    (32bit) - <base>/Binaries/Win32/SaveGame.sav:
+    "<base>/Binaries/Win32/SaveGame.sav":
       tags:
         - save
       when:
         - os: windows
-    (64bit) - <base>/Binaries/Win64/SaveGame.sav:
+    "<base>/Binaries/Win64/SaveGame.sav":
       tags:
         - save
       when:
@@ -304822,6 +304822,8 @@ Golden Lap:
     "<winDocuments>/My Games/Golden Lap/Saves/*.json":
       when:
         - store: steam
+  gog:
+    id: 1859338654
   id:
     lutris: golden-lap
   installDir:
@@ -408179,21 +408181,21 @@ Letter Lost:
   cloud:
     steam: true
   files:
-    "\"~/.config/unity3d/Bacon Bandit Games/Letter Quest Remastered/letter_quest_remastered.lqr\"":
+    "<home>/.config/unity3d/Bacon Bandit Games/Letter Quest Remastered/letter_quest_remastered.lqr":
       tags:
         - save
       when:
         - os: linux
-    "\"~/Library/Application Support/unity.Bacon Bandit Games.Letter Quest Remastered/letter_quest_remastered.lqr\"":
-      tags:
-        - save
-      when:
-        - os: mac
     "<home>/AppData/LocalLow/Bacon Bandit Games/Letter Quest Remastered/letter_quest_remastered.lqr":
       tags:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/unity.Bacon Bandit Games.Letter Quest Remastered/letter_quest_remastered.lqr":
+      tags:
+        - save
+      when:
+        - os: mac
   installDir:
     Letter Quest Remastered: {}
   launch:
@@ -477051,13 +477053,13 @@ NEKOPARA Vol. 1:
         - save
       when:
         - os: windows
-    "<home>Documents/NEKO WORKs/nekopara_vol1":
+    "<winAppData>/NEKO WORKs/nekopara_vol":
       tags:
         - config
         - save
       when:
         - os: windows
-    "<winAppData>/NEKO WORKs/nekopara_vol":
+    "<winDocuments>/NEKO WORKs/nekopara_vol1":
       tags:
         - config
         - save
@@ -477417,6 +477419,8 @@ NGU Idle:
         - save
       when:
         - os: windows
+  id:
+    lutris: ngu-idle
   installDir:
     NGU IDLE: {}
   launch:
@@ -502780,11 +502784,6 @@ Omega Labyrinth Life:
         - save
       when:
         - os: windows
-    HKEY_CURRENT_USER/SOFTWARE/D3Publisher/OmegaLabyrinth Life:
-      tags:
-        - config
-      when:
-        - os: windows
   id:
     steamExtra:
       - 1170430
@@ -515521,11 +515520,6 @@ PC Fútbol Stars:
     id: 1036930
 PC Gamer Digital:
   files:
-    "-":
-      tags:
-        - save
-      when:
-        - os: windows
     "<root>/userdata/<storeUserId>/92500/local/save.cur":
       tags:
         - config
@@ -711586,6 +711580,7 @@ Tempest Rising:
       - 2570840
       - 3478250
       - 3478280
+      - 4114220
       - 4764990
   installDir:
     Tempest Rising: {}
@@ -715080,7 +715075,7 @@ Tetrachroma:
   cloud:
     steam: true
   files:
-    "%ROAMINGAPPDATA%/sparsevector/Tetrachroma":
+    "<winAppData>/sparsevector/Tetrachroma":
       tags:
         - save
       when:
@@ -716569,11 +716564,12 @@ The Adliberum Engine:
     id: 657180
 The Admin:
   files:
-    "\".../steamapps/common/The Admin/Engine/Config/Windows\"":
+    "<root>/steamapps/common/The Admin/Engine/Config/Windows":
       tags:
         - config
       when:
         - os: windows
+          store: steam
   installDir:
     The Admin: {}
   launch:
@@ -722053,13 +722049,6 @@ The Cat Lady:
   steam:
     id: 253110
 The Cat Machine:
-  files:
-    HKEY_CURRENT_USER/SOFTWARE/Cranktrain/The Cat Machine:
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
   id:
     steamExtra:
       - 391900
@@ -722078,6 +722067,11 @@ The Cat Machine:
       - when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Cranktrain/The Cat Machine:
+      tags:
+        - config
+        - save
   steam:
     id: 386900
 The Cat and the Box:
@@ -742356,7 +742350,7 @@ The Longing:
     gog: true
     steam: true
   files:
-    ".config/unity3d/Studio Seufz/The Longing":
+    "<home>/.config/unity3d/Studio Seufz/The Longing":
       tags:
         - save
       when:

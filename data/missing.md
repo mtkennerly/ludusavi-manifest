@@ -21485,6 +21485,7 @@
 * [Red Ace Squadron](https://www.pcgamingwiki.com/wiki/?curid=205009)
 * [Red Ash Pre-Alpha Prototype](https://www.pcgamingwiki.com/wiki/?curid=202557)
 * [Red Baron](https://www.pcgamingwiki.com/wiki/?curid=22119)
+* [Red Baron Arcade](https://www.pcgamingwiki.com/wiki/?curid=218208)
 * [Red Barton and The Sky Pirates](https://www.pcgamingwiki.com/wiki/?curid=57448)
 * [Red Black Poker](https://www.pcgamingwiki.com/wiki/?curid=144901)
 * [Red Blue](https://www.pcgamingwiki.com/wiki/?curid=121115)

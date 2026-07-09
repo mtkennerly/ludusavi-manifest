@@ -386255,6 +386255,13 @@
         oslist: macos
       executable: The Longing.app
       type: none
+    - config:
+        betakey: 2022_test_branch
+        osarch: "64"
+        oslist: linux
+      description: Newest 64bit build
+      executable: The Longing.x86_64
+      type: option2
   nameLocalized:
     japanese: ザ・ロンギング
     schinese: 漫长等待

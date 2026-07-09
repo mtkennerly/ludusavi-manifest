@@ -7187,7 +7187,7 @@ Afterfall Reconquest Episode I:
   steam: 299640
   templates:
     - "{{Game data/config|Windows|{{p|GAME}}\\PearlGame\\Config}}"
-    - "{{Game data/saves|Windows|(32bit) - {{p|game}}\\Binaries\\Win32\\SaveGame.sav|(64bit) - {{p|game}}\\Binaries\\Win64\\SaveGame.sav}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Binaries\\Win32\\SaveGame.sav {{note|32-bit version}}|{{p|game}}\\Binaries\\Win64\\SaveGame.sav {{note|64-bit version}}}}"
 "Afterfall: InSanity":
   cloud:
     steam: true
@@ -98628,6 +98628,7 @@ Golden Lap:
   cloud:
     gog: true
     steam: true
+  gog: 1859338654
   lutris: golden-lap
   pageId: 210281
   steam: 2052040
@@ -132495,8 +132496,8 @@ Letter Lost:
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Bacon Bandit Games\\Letter Quest Remastered\\}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Bacon Bandit Games\\Letter Quest Remastered\\letter_quest_remastered.lqr}}"
-    - "{{Game data/saves|OS X|\"~/Library/Application Support/unity.Bacon Bandit Games.Letter Quest Remastered/letter_quest_remastered.lqr\"}}"
-    - "{{Game data/saves|Linux|\"~/.config/unity3d/Bacon Bandit Games/Letter Quest Remastered/letter_quest_remastered.lqr\"}}"
+    - "{{Game data/saves|OS X|~/Library/Application Support/unity.Bacon Bandit Games.Letter Quest Remastered/letter_quest_remastered.lqr}}"
+    - "{{Game data/saves|Linux|~/.config/unity3d/Bacon Bandit Games/Letter Quest Remastered/letter_quest_remastered.lqr}}"
 Letter-Setter:
   pageId: 68328
   steam: 676320
@@ -155067,8 +155068,8 @@ NEKOPARA Vol. 1:
     - 774081
     - 947650
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\savedata|{{P|appdata}}\\NEKO WORKs\\nekopara_vol|{{P|userprofile}}Documents\\NEKO WORKs\\nekopara_vol1}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\savedata|{{P|appdata}}\\NEKO WORKs\\nekopara_vol|{{P|userprofile}}Documents\\NEKO WORKs\\nekopara_vol1}}"
+    - "{{Game data/config|Windows|{{P|game}}\\savedata|{{P|appdata}}\\NEKO WORKs\\nekopara_vol|{{P|userprofile}}\\Documents\\NEKO WORKs\\nekopara_vol1}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\savedata|{{P|appdata}}\\NEKO WORKs\\nekopara_vol|{{P|userprofile}}\\Documents\\NEKO WORKs\\nekopara_vol1}}"
 NEKOPARA Vol. 2:
   cloud:
     steam: true
@@ -155200,6 +155201,7 @@ NGHTMN:
 NGU Idle:
   cloud:
     steam: true
+  lutris: ngu-idle
   pageId: 147493
   steam: 1147690
   templates:
@@ -163649,6 +163651,7 @@ Omega Extinction:
 Omega Labyrinth Life:
   cloud:
     steam: true
+  malformed: true
   pageId: 153458
   steam: 1163600
   steamSide:
@@ -163681,7 +163684,6 @@ Omega Labyrinth Life:
     - 1170548
     - 1170549
   templates:
-    - "{{Game data/config|Windows|HKEY_CURRENT_USER\\SOFTWARE\\D3Publisher\\OmegaLabyrinth Life}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Documents}}"
 Omega One:
   cloud:
@@ -167746,7 +167748,7 @@ PC Gamer Digital:
   steam: 92500
   templates:
     - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\92500\\local\\save.cur}}"
-    - "{{Game data/saves|Windows|-}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\<user-id>\\92500\\local\\save.cur}}"
 PC-Man:
   pageId: 163335
 PCB for Busy Person:
@@ -186369,6 +186371,8 @@ Red Baron 3D:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\rbprefs.dat}}"
     - "{{Game data/saves|Windows|{{P|game}}\\}}"
+Red Baron Arcade:
+  pageId: 218208
 "Red Baron: Ace Of The Sky":
   pageId: 212315
   templates:
@@ -231068,6 +231072,7 @@ Tempest Rising:
     - 2570840
     - 3478250
     - 3478280
+    - 4114220
     - 4764990
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Tempest\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
@@ -232158,7 +232163,7 @@ Tetrachroma:
   pageId: 198753
   steam: 2702490
   templates:
-    - "{{Game data/saves|Windows|%ROAMINGAPPDATA%\\sparsevector\\Tetrachroma\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\sparsevector\\Tetrachroma\\}}"
 Tetradecagon:
   pageId: 42440
   steam: 487380
@@ -232624,7 +232629,7 @@ The Admin:
   pageId: 39504
   steam: 420300
   templates:
-    - "{{Game data/config|Windows|\"...\\steamapps\\common\\The Admin\\Engine\\Config\\Windows\"}}"
+    - "{{Game data/config|Windows|{{p|steam}}\\steamapps\\common\\The Admin\\Engine\\Config\\Windows}}"
 The Adventure Pals:
   cloud:
     gog: true
@@ -234378,8 +234383,8 @@ The Cat Machine:
   steamSide:
     - 391900
   templates:
-    - "{{Game data/config|Windows|HKEY_CURRENT_USER\\SOFTWARE\\Cranktrain\\The Cat Machine}}"
-    - "{{Game data/saves|Windows|HKEY_CURRENT_USER\\SOFTWARE\\Cranktrain\\The Cat Machine}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Cranktrain\\The Cat Machine}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Cranktrain\\The Cat Machine}}"
 The Cat and the Box:
   pageId: 132584
   steam: 1054980
@@ -241182,7 +241187,7 @@ The Longing:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Studio Seufz\\The Longing\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Studio Seufz\\The Longing\\saveData.txt}}"
-    - "{{Game data/saves|Linux|.config/unity3d/Studio Seufz/The Longing}}"
+    - "{{Game data/saves|Linux|{{p|userprofile}}/.config/unity3d/Studio Seufz/The Longing}}"
 The Looker:
   pageId: 178375
   steam: 1985690
