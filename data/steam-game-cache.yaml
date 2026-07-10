@@ -636374,6 +636374,44 @@
   launch:
     - executable: LHPC.exe
       type: default
+2951580:
+  cloud:
+    saves:
+      - path: DuskLight/Rhythm Witch/
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: unity.DuskLight.RhythmWitch
+        root: gameinstall
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: ".config/unity3d/DuskLight/RhythmWitch"
+        root: gameinstall
+        useInstead: LinuxHome
+  installDir: Rhythm Witch
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Rhythm Witch.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Rhythm Witch.app
+  nameLocalized:
+    japanese: リズムウィッチ ビートオブデス
+    koreana: "리듬 마녀: 죽음과 함께 춤을"
+    schinese: 节奏魔女 舞动的骷髅
+    tchinese: 節奏魔女 舞動的骷髏
 2951690:
   installDir: SonicRumble
   launch:
@@ -650942,7 +650980,29 @@
       executable: "launcher\\BsgLauncher.exe"
       type: default
       workingdir: launcher
-3935020: {}
+3935020:
+  cloud:
+    saves:
+      - path: Mega Cat Studios/Backyard Baseball/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Mega Cat Studios/Backyard Baseball
+            replace: Mega Cat Studios/Backyard Baseball
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Backyard Baseball 2026
+  launch:
+    - config:
+        oslist: windows
+      executable: Backyard Baseball.exe
+    - config:
+        oslist: macos
+      executable: Backyard Baseball.app/Contents/MacOS/Backyard Baseball
 3936610:
   cloud:
     saves:

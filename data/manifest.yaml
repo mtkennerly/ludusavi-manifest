@@ -52672,8 +52672,32 @@ Asphyxia:
   steam:
     id: 2208920
 "Assassin's Creed: Black Flag Resynced":
+  cloud:
+    uplay: true
+  files:
+    "<root>/savegames/<storeUserId>/66088":
+      tags:
+        - save
+      when:
+        - store: steam
+        - store: uplay
+    "<winDocuments>/Assassin's Creed Black Flag Resynced/ACBlackFlag.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: assassins-creed-black-flag-resynced
+    steamExtra:
+      - 4496490
+      - 4496510
+      - 4496530
+      - 4496550
+      - 4496580
+      - 4496600
+      - 4496620
+      - 4496640
+      - 4496660
   installDir:
     "Assassin's Creed Black Flag Resynced": {}
   launch:
@@ -64053,6 +64077,25 @@ Backyard Baseball:
 Backyard Baseball (2026):
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Mega Cat Studios/Backyard Baseball":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Mega Cat Studios/Backyard Baseball":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Backyard Baseball 2026: {}
+  launch:
+    "<base>/Backyard Baseball.app/Contents/MacOS/Backyard Baseball":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Backyard Baseball.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3935020
 Backyard Baseball 2001:
@@ -583802,6 +583845,30 @@ Rhythm Sprout:
           - store: steam
   steam:
     id: 1475840
+"Rhythm Witch: Beat Death":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DuskLight/Rhythm Witch":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Rhythm Witch: {}
+  launch:
+    "<base>/Rhythm Witch.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Rhythm Witch.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2951580
 Rhythm World - Master Project:
   files:
     "<base>/LocalState/Songs":

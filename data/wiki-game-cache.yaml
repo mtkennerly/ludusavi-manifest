@@ -16909,9 +16909,24 @@ Assassin 2015:
     - "{{Game data/saves|Windows|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\13504\\}}"
     - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\7013\\}}"
 "Assassin's Creed: Black Flag Resynced":
+  cloud:
+    uplay: true
   lutris: assassins-creed-black-flag-resynced
   pageId: 215896
   steam: 3751950
+  steamSide:
+    - 4496490
+    - 4496510
+    - 4496530
+    - 4496550
+    - 4496580
+    - 4496600
+    - 4496620
+    - 4496640
+    - 4496660
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Black Flag Resynced\\ACBlackFlag.ini}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\66088\\}}"
 "Assassin's Creed: Brotherhood":
   lutris: assassins-creed-brotherhood
   pageId: 222
@@ -189943,6 +189958,14 @@ Rhythm Sprout:
   steam: 1475840
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\SURT\\RHYTHM SPROUT\\*SAVE}}"
+"Rhythm Witch: Beat Death":
+  cloud:
+    steam: true
+  pageId: 218210
+  steam: 2951580
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\DuskLight\\Rhythm Witch\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\DuskLight\\Rhythm Witch\\}}"
 Rhythm World - Master Project:
   pageId: 77305
   steam: 705150
