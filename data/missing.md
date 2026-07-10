@@ -12587,6 +12587,7 @@
 * [Hill Quest](https://www.pcgamingwiki.com/wiki/?curid=79882)
 * [Hillbilly Apocalypse](https://www.pcgamingwiki.com/wiki/?curid=122276)
 * [Hills of Glory 3D](https://www.pcgamingwiki.com/wiki/?curid=47733)
+* [Hillthorn](https://www.pcgamingwiki.com/wiki/?curid=218219)
 * [Him and I](https://www.pcgamingwiki.com/wiki/?curid=149152)
 * [Himiko](https://www.pcgamingwiki.com/wiki/?curid=59087)
 * [Himno: The Silent Melody](https://www.pcgamingwiki.com/wiki/?curid=142087)

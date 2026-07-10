@@ -23168,6 +23168,7 @@ Against the Storm:
       - 1440688316
       - 1604559678
       - 2029824167
+    lutris: against-the-storm
     steamExtra:
       - 1400860
       - 2712950
@@ -126283,6 +126284,31 @@ Chapeau:
             store: steam
   steam:
     id: 1139880
+"Chapel 3-D: The Ascent":
+  files:
+    "<base>/chapel-3d.config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1267603268
+  id:
+    gogExtra:
+      - 1547831446
+    lutris: chapel-3-d-the-ascent
+    steamExtra:
+      - 4392410
+  installDir:
+    Chapel 3-D The Ascent: {}
+  launch:
+    "<base>/chapel-3d.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1904680
 Charge:
   installDir:
     Charge: {}
@@ -339681,6 +339707,15 @@ Hillsfar:
       - 1436871302
   steam:
     id: 1904525
+Hillthorn:
+  cloud:
+    steam: true
+  id:
+    lutris: hillthorn
+    steamExtra:
+      - 3615330
+  steam:
+    id: 3504050
 Him and I:
   installDir:
     Him & I: {}
@@ -447738,6 +447773,16 @@ Metal Slug:
         - save
       when:
         - os: windows
+    "<xdgData>/SNK/mslug":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/SNK/mslug/OPTIONS":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1136471182
   installDir:

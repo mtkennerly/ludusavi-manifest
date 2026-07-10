@@ -551375,7 +551375,7 @@
 1379630:
   cloud:
     saves:
-      - path: RealRTCW/5.0
+      - path: RealRTCW/
         pattern: "*"
         platforms:
           - Windows
@@ -551389,11 +551389,13 @@
       description: RealRTCW
       executable: launcher.x64.exe
       type: option1
-    - config:
+    - arguments: +set fs_game EE
+      config:
         osarch: "64"
         oslist: windows
-      description: RTCW Coop
-      executable: coop/RTCWCoop.x64.exe
+        ownsdlc: "4509610"
+      description: Cursed Sands
+      executable: launcher.x64.exe
       type: option1
     - arguments: +set fs_game omnibot
       config:
@@ -551402,6 +551404,12 @@
       executable: mp/ioWolfMP.x86.exe
       type: option2
       workingdir: mp/
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: RTCW Coop
+      executable: coop/RTCWCoop.x64.exe
+      type: option3
 1379830:
   cloud:
     saves:
@@ -591920,6 +591928,14 @@
   launch:
     - executable: ".\\Launcher\\Launcher.exe"
       type: default
+1904680:
+  installDir: Chapel 3-D The Ascent
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: chapel-3d.exe
+      type: default
 1904790:
   installDir: Agatha Christie - Murder on the Orient Express
   launch:
@@ -628719,14 +628735,14 @@
       executable: Grounded2.exe
       type: default
     - config:
-        betakey: development
+        betakey: "development,dev.ps5-win64_all,release-0.4.1.0"
         osarch: "64"
         oslist: windows
       description: Grounded 2 Development Configuration
       executable: Grounded2Dev.exe
       type: option1
     - config:
-        betakey: development
+        betakey: "development,dev.ps5-win64_all,release-0.4.1.0,demo.summer26_all"
         osarch: "64"
         oslist: windows
       description: Grounded 2 Test Configuration
@@ -628771,6 +628787,11 @@
         osarch: "64"
         oslist: windows
       description: Grounded 2 Test Configuration
+      executable: Grounded2Test.exe
+    - config:
+        betakey: test
+        oslist: windows
+      description: Grounded 2 Test Configuration on tech test
       executable: Grounded2Test.exe
     - config:
         betakey: release
@@ -646274,6 +646295,10 @@
   nameLocalized:
     schinese: 咖啡星矿工 Astro Prospector
     tchinese: 咖啡星礦工 Astro Prospector
+3504050:
+  nameLocalized:
+    english: Hillthorn
+    french: Hillthorn
 3504560:
   cloud:
     saves:

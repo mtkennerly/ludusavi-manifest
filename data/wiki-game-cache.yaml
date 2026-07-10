@@ -7330,6 +7330,7 @@ Against the Storm:
     - 1440688316
     - 1604559678
     - 2029824167
+  lutris: against-the-storm
   pageId: 163449
   steam: 1336490
   steamSide:
@@ -40761,6 +40762,17 @@ Chaotic Void:
 Chapeau:
   pageId: 151232
   steam: 1139880
+"Chapel 3-D: The Ascent":
+  gog: 1267603268
+  gogSide:
+    - 1547831446
+  lutris: chapel-3-d-the-ascent
+  pageId: 218217
+  steam: 1904680
+  steamSide:
+    - 4392410
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\chapel-3d.config.json}}"
 Charge:
   pageId: 141896
   steam: 1095980
@@ -110070,6 +110082,14 @@ Hillsfar:
   steam: 1904525
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\*.HIL}}"
+Hillthorn:
+  cloud:
+    steam: true
+  lutris: hillthorn
+  pageId: 218219
+  steam: 3504050
+  steamSide:
+    - 3615330
 Him and I:
   pageId: 149152
   steam: 1157010
@@ -145296,7 +145316,9 @@ Metal Slug:
   steam: 366250
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\mslug1\\}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/SNK/mslug/OPTIONS}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\mslug1\\}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/SNK/mslug/}}"
 Metal Slug 2:
   cloud:
     gog: true
