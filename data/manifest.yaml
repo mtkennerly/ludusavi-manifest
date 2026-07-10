@@ -68793,11 +68793,6 @@ Barony:
     id: 3671880
 Barotrauma:
   files:
-    /home/USER/.local/share/Daedalic Entertainment GmbH/Barotrauma:
-      tags:
-        - save
-      when:
-        - os: linux
     "<base>/config_player.xml":
       tags:
         - config
@@ -68818,6 +68813,11 @@ Barotrauma:
         - save
       when:
         - os: windows
+    "<xdgData>/Daedalic Entertainment GmbH/Barotrauma":
+      tags:
+        - save
+      when:
+        - os: linux
     "<xdgData>/Daedalic Entertainment GmbH/Barotrauma/config_player.xml":
       tags:
         - config
@@ -124257,6 +124257,9 @@ Cellz:
 Celsius:
   steam:
     id: 1130640
+Celsius Strays:
+  steam:
+    id: 4271620
 Celtabula:
   installDir:
     Celtabula: {}
@@ -361786,12 +361789,6 @@ Indivisible:
     gog: true
     steam: true
   files:
-    /Indivisible/SaveData_GOG:
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
     "<root>/userdata/<storeUserId>/421170/remote":
       tags:
         - config
@@ -361806,6 +361803,12 @@ Indivisible:
         - os: windows
         - os: windows
           store: microsoft
+    "<xdgData>/Indivisible/SaveData_GOG":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   gog:
     id: 2086192498
   id:
@@ -409505,12 +409508,12 @@ Life Is Strange Remastered:
   cloud:
     steam: true
   files:
-    /Documents/My Games/LifeisStrangeReunion/Steam/Saved:
+    "<winDocuments>/My Games/LifeisStrangeReunion/Steam/Saved":
       tags:
         - save
       when:
         - os: windows
-    /Iris/Saved_Steam_/Config/Windows:
+    "<winLocalAppData>/Iris/Saved_Steam_<storeUserId>]]/Config/Windows":
       tags:
         - config
       when:
@@ -431319,16 +431322,18 @@ Magicka 2:
     id: 247580
 Magicmaker:
   files:
-    /steamapps/common/Magicmaker/saves:
+    "<root>/steamapps/common/Magicmaker/saves":
       tags:
         - save
       when:
         - os: windows
-    /steamapps/common/Magicmaker/saves/SETTINGS:
+          store: steam
+    "<root>/steamapps/common/Magicmaker/saves/SETTINGS":
       tags:
         - config
       when:
         - os: windows
+          store: steam
   gog:
     id: 1207665973
   installDir:
@@ -474521,18 +474526,16 @@ Mysterium:
   steam:
     id: 50980
 "Mystery Case Files: Ravenhearst":
-  files:
-    /HKEY_CURRENT_USER/Software/Big Fish Games/Games/Mystery Case Files - Ravenhearst:
-      tags:
-        - save
-      when:
-        - os: windows
   installDir:
     Mystery Case Files Ravenhearst: {}
   launch:
     "<base>/Ravenhearst.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Big Fish Games/Games/Mystery Case Files - Ravenhearst:
+      tags:
+        - config
   steam:
     id: 50990
 "Mystery Case Files: Ravenhearst Unlocked":
@@ -518265,6 +518268,8 @@ Palworld:
         - os: windows
   id:
     lutris: palworld
+    steamExtra:
+      - 2771110
   installDir:
     Palworld: {}
   launch:
@@ -525298,7 +525303,7 @@ Penkura:
   cloud:
     steam: true
   files:
-    /home/$USERNAME/Library/Preferences/unity.TinkerHouse Games.PAA 3.plist:
+    "<home>/Library/Preferences/unity.TinkerHouse Games.PAA 3.plist":
       tags:
         - save
       when:
@@ -553199,11 +553204,12 @@ Psycho Starship Rampage:
   cloud:
     steam: true
   files:
-    /SteamLib/steamapps/common/PsychoStarshipRampage/saves:
+    "<root>/steamapps/common/PsychoStarshipRampage/saves":
       tags:
         - config
       when:
         - os: windows
+          store: steam
   installDir:
     PsychoStarshipRampage: {}
   launch:
@@ -565775,7 +565781,7 @@ Rail Route:
     gog: true
     steam: true
   files:
-    /.config/unity3d/bitrich/Rail Route:
+    "<home>/.config/unity3d/bitrich/Rail Route":
       tags:
         - config
       when:
@@ -798956,7 +798962,7 @@ Uncraft World:
     id: 339910
 Uncrewed:
   files:
-    /Documents/Uncrewed Game/User/campaigns:
+    "<winDocuments>/Uncrewed Game/User/campaigns":
       tags:
         - save
       when:
@@ -830358,12 +830364,6 @@ Welcome Above:
   steam:
     id: 912660
 Welcome Back Daddy:
-  files:
-    "/Software/Chilla's Art/Welcome back Daddy":
-      tags:
-        - config
-      when:
-        - os: windows
   installDir:
     Welcome Back Daddy: {}
   launch:
@@ -830371,6 +830371,10 @@ Welcome Back Daddy:
       - when:
           - os: windows
             store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Software/Chilla's Art/Welcome back Daddy":
+      tags:
+        - config
   steam:
     id: 810510
 Welcome Back to 2007:

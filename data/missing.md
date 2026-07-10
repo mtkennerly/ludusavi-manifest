@@ -4588,6 +4588,7 @@
 * [Cellyon: Boss Confrontation](https://www.pcgamingwiki.com/wiki/?curid=145387)
 * [Cellz](https://www.pcgamingwiki.com/wiki/?curid=75427)
 * [Celsius](https://www.pcgamingwiki.com/wiki/?curid=143839)
+* [Celsius Strays](https://www.pcgamingwiki.com/wiki/?curid=218215)
 * [Celtabula](https://www.pcgamingwiki.com/wiki/?curid=72021)
 * [Celtic Kings: Rage of War](https://www.pcgamingwiki.com/wiki/?curid=19727)
 * [Cemetery Warrior 2](https://www.pcgamingwiki.com/wiki/?curid=89230)

@@ -22080,8 +22080,8 @@ Barotrauma:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Daedalic Entertainment GmbH/Barotrauma/config_player.xml}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/Daedalic Entertainment GmbH/Barotrauma/config_player.xml}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Daedalic Entertainment GmbH\\Barotrauma\\}}"
-    - "{{Game data/saves|OS X| ~/Library/Application\\ Support/Daedalic\\ Entertainment\\ GmbH/Barotrauma/}}"
-    - "{{Game data/saves|Linux|/home/USER/.local/share/Daedalic Entertainment GmbH/Barotrauma/}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application\\ Support/Daedalic\\ Entertainment\\ GmbH/Barotrauma/}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Daedalic Entertainment GmbH/Barotrauma/}}"
 Barrage:
   pageId: 91921
   steam: 836080
@@ -40100,6 +40100,9 @@ Cellz:
 Celsius:
   pageId: 143839
   steam: 1130640
+Celsius Strays:
+  pageId: 218215
+  steam: 4271620
 Celtabula:
   pageId: 72021
   steam: 706200
@@ -117254,11 +117257,11 @@ Indivisible:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Indivisible\\Save Data\\}}"
     - "{{Game data/config|Microsoft Store|{{p|userprofile\\Documents}}\\Indivisible\\Save Data\\}}"
-    - "{{Game data/config|Linux|[[Glossary:Game_data#XDG_paths|$XDG_DATA_HOME]]/Indivisible/SaveData_GOG/}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/Indivisible/SaveData_GOG/}}"
     - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\421170\\remote\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Indivisible\\Save Data\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|userprofile\\Documents}}\\Indivisible\\Save Data\\}}"
-    - "{{Game data/saves|Linux|[[Glossary:Game_data#XDG_paths|$XDG_DATA_HOME]]/Indivisible/SaveData_GOG/}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Indivisible/SaveData_GOG/}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\421170\\remote\\}}"
 Indoor Rock Climbing VR:
   pageId: 78479
@@ -132897,6 +132900,7 @@ Life Is Strange Remastered:
     steam: true
     xbox: true
   lutris: life-is-strange-reunion
+  malformed: true
   pageId: 213008
   steam: 2624870
   steamSide:
@@ -132904,8 +132908,8 @@ Life Is Strange Remastered:
     - 3977740
     - 4340990
   templates:
-    - "{{Game data/config| Windows | [[Glossary:Game_data#User_application_data|%LOCALAPPDATA%]]\\Iris\\Saved_Steam_[[Glossary:Game_data#User_ID|<user-id>]]\\Config\\Windows\\ | }}"
-    - "{{Game data/saves| Windows | [[Glossary:Game_data#User_profile|%USERPROFILE%]]\\Documents\\My Games\\LifeisStrangeReunion\\Steam\\Saved | }}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Iris\\Saved_Steam_{{p|uid}}]]\\Config\\Windows\\|}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\My Games\\LifeisStrangeReunion\\Steam\\Saved | }}"
 "Life Is Strange: True Colors":
   cloud:
     steam: true
@@ -140009,8 +140013,8 @@ Magicmaker:
   pageId: 21235
   steam: 319250
   templates:
-    - "{{Game data/config|Windows|\\steamapps\\common\\Magicmaker\\saves\\SETTINGS}}"
-    - "{{Game data/saves|Windows|\\steamapps\\common\\Magicmaker\\saves}}"
+    - "{{Game data/config|Windows|{{p|steam}}\\steamapps\\common\\Magicmaker\\saves\\SETTINGS}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\steamapps\\common\\Magicmaker\\saves}}"
 Magicolors:
   pageId: 144151
   steam: 1090790
@@ -154172,7 +154176,7 @@ Mysterium:
   pageId: 41149
   steam: 50990
   templates:
-    - "{{Game data/saves|Windows|\\HKEY_CURRENT_USER\\Software\\Big Fish Games\\Games\\Mystery Case Files - Ravenhearst}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Big Fish Games\\Games\\Mystery Case Files - Ravenhearst}}"
 "Mystery Case Files: Ravenhearst Unlocked":
   pageId: 148747
   steam: 1168830
@@ -168645,6 +168649,8 @@ Palworld:
   lutris: palworld
   pageId: 187795
   steam: 1623730
+  steamSide:
+    - 2771110
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Pal\\Saved\\Config\\Windows\\}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Pal\\Saved\\Config\\WinGDK\\}}"
@@ -171073,7 +171079,7 @@ Penkura:
   steam: 213030
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SavedGames\\Rainslick3\\}}"
-    - "{{Game data/saves|OS X| /home/$USERNAME/Library/Preferences/unity.TinkerHouse Games.PAA 3.plist }}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/unity.TinkerHouse Games.PAA 3.plist }}"
 "Penny Arcade's On the Rain-Slick Precipice of Darkness 4":
   cloud:
     steam: true
@@ -180004,7 +180010,7 @@ Psycho Starship Rampage:
   pageId: 38137
   steam: 386560
   templates:
-    - "{{Game data/config|Windows| \\SteamLib\\steamapps\\common\\PsychoStarshipRampage\\saves}}"
+    - "{{Game data/config|Windows|{{p|steam}}\\steamapps\\common\\PsychoStarshipRampage\\saves}}"
 Psycho Train:
   cloud:
     steam: true
@@ -183925,7 +183931,7 @@ Rail Route:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\bitrich\\Rail Route\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Logs/bitrich/Rail Route}}"
-    - "{{Game data/config|Linux|/.config/unity3d/bitrich/Rail Route}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/bitrich/Rail Route}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE\\AppData\\LocalLow}}\\bitrich\\Rail Route\\saves\\game.gd.gz}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/RailRoute/saves/game.gd.gz}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/bitrich/Rail Route/saves/game.gd.gz}}"
@@ -260517,7 +260523,7 @@ Uncrewed:
   pageId: 42008
   steam: 474890
   templates:
-    - "{{Game data/saves|Windows|\\Documents\\Uncrewed Game\\User\\campaigns}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\Uncrewed Game\\User\\campaigns}}"
 Uncrowded:
   pageId: 47939
   steam: 370100
@@ -271198,7 +271204,7 @@ Welcome Back Daddy:
   pageId: 93156
   steam: 810510
   templates:
-    - "{{Game data/config|Windows|[[Glossary:Game data#Windows registry|HKEY_CURRENT_USER]]\\Software\\Chilla's Art\\Welcome back Daddy}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\\\Software\\Chilla's Art\\Welcome back Daddy}}"
 Welcome Back to 2007:
   cloud:
     steam: true
