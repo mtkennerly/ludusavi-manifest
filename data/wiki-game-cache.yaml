@@ -34330,6 +34330,8 @@ Bucket Knight:
   pageId: 135684
   steam: 1077090
 Buckshot Roulette:
+  cloud:
+    xbox: true
   lutris: buckshot-roulette
   pageId: 194145
   steam: 2835570
@@ -123142,6 +123144,7 @@ Just Bones:
 Just Cause:
   cloud:
     gog: true
+    steam: true
   gog: 1084263831
   lutris: just-cause
   pageId: 691
@@ -191681,10 +191684,10 @@ Road 96:
   steam: 1466640
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\DigixArt\\Road 96\\Saves\\settings.sav}}"
-    - "{{Game data/config|Steam|{{P|steam}}\\compatdata\\1466640\\remote\\pfx\\}}"
+    - "{{Game data/config|Steam|{{P|steam}}\\steamapps\\compatdata\\1466640\\remote\\pfx\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\DigixArt\\Road 96\\Saves\\content.sav}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\DeepSilver.31214024AC209_hmv7qcest37me\\SystemAppData\\wgs<ref>{{Refcheck|user=Erictbar|date=2023-02-12|comment=Despite the fact that web searches for this folder bring up Metro Exodus, I have tested that deleting this folder and opening Road 96 while the PC is offline will load an empty save file, and reconnecting before opening will load back from Xbox cloud save}}</ref>}}"
-    - "{{Game data/saves|Steam|{{P|steam}}\\compatdata\\1466640\\remote\\pfx\\}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\steamapps\\compatdata\\1466640\\remote\\pfx\\}}"
 "Road 96: Mile 0":
   cloud:
     gog: true
@@ -229769,6 +229772,7 @@ Tamashii:
 Tamashika:
   cloud:
     steam: true
+    xbox: true
   pageId: 201226
   steam: 2996080
 "Tamer: King of Dinosaurs":
@@ -280566,7 +280570,7 @@ Zombie Panic! Source:
   steamSide:
     - 633910
   templates:
-    - "{{Game data/config|Windows|{{p|steam}}Steam\\steamapps\\common\\Zombie Panic Source\\zps\\cfg\\config_default.cfg}}"
+    - "{{Game data/config|Windows|{{p|steam}}\\steamapps\\common\\Zombie Panic Source\\zps\\cfg\\config_default.cfg}}"
 Zombie Parking:
   pageId: 43614
   steam: 449090

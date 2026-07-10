@@ -288498,6 +288498,8 @@
         oslist: windows
       executable: SuperBombermanR.exe
       type: default
+  nameLocalized:
+    japanese: スーパーボンバーマン Ｒ
 702790:
   installDir: "13"
   launch:
@@ -592701,6 +592703,8 @@
         oslist: windows
       executable: SuperBombermanR2.exe
       type: default
+  nameLocalized:
+    japanese: スーパーボンバーマン R 2
 1914290:
   installDir: SociableSoccer24
   launch:
@@ -652744,7 +652748,11 @@
 4310610: {}
 4317460: {}
 4317690: {}
-4323990: {}
+4323990:
+  installDir: EMPULSE
+  launch:
+    - executable: launcher.exe
+      type: default
 4328440: {}
 4328820:
   nameLocalized:

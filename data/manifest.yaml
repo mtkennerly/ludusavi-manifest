@@ -235684,6 +235684,12 @@ Empulse:
         - config
       when:
         - os: windows
+  installDir:
+    EMPULSE: {}
+  launch:
+    "<base>/launcher.exe":
+      - when:
+          - store: steam
   steam:
     id: 4323990
 "Empyre: Lords of the Sea Gates":
@@ -379902,6 +379908,7 @@ Just Bones:
 Just Cause:
   cloud:
     gog: true
+    steam: true
   files:
     "<winDocuments>/JustCause/Saves/JCSaves":
       tags:
@@ -588909,7 +588916,7 @@ Road 96:
         - config
       when:
         - os: windows
-    "<root>/compatdata/1466640/remote/pfx":
+    "<root>/steamapps/compatdata/1466640/remote/pfx":
       tags:
         - config
         - save
@@ -858976,7 +858983,7 @@ Zombie Panic! Source:
   cloud:
     steam: true
   files:
-    "<root>Steam/steamapps/common/Zombie Panic Source/zps/cfg/config_default.cfg":
+    "<root>/steamapps/common/Zombie Panic Source/zps/cfg/config_default.cfg":
       tags:
         - config
       when:
