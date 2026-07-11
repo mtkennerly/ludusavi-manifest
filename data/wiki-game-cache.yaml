@@ -20338,6 +20338,8 @@ Babylon 2055 Pinball:
     steam: true
   pageId: 59822
   steam: 458500
+"Babylon 5: Into the Fire":
+  pageId: 218234
 "Babylon's Fall":
   pageId: 154516
   steam: 889750
@@ -70401,6 +70403,11 @@ Duke Dashington Remastered:
   cloud:
     gog: true
     steam: true
+  gog: 2075362774
+  gogSide:
+    - 1691741958
+    - 1722102457
+    - 1959557536
   pageId: 50859
   steam: 472420
   templates:
@@ -127963,6 +127970,8 @@ Kraven Manor:
   steam: 296630
 Krazy Ivan:
   pageId: 209109
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 Kreed:
   pageId: 192889
   steam: 1351440
@@ -138254,6 +138263,8 @@ MDK2 HD:
   steam: 213350
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\MDK2HD\\}}"
+MECCHA CHAMELEON:
+  pageId: 218238
 MECCHA ZOMBIES:
   pageId: 132124
   steam: 603910
@@ -145403,7 +145414,6 @@ Metal Slug Tactics:
 Metal Slug X:
   cloud:
     gog: true
-    steam: true
   gog: 2046360890
   pageId: 37664
   steam: 312610
@@ -176656,6 +176666,7 @@ Portal Reloaded:
     - "{{Game data/config|Steam|{{p|game}}\\portal_stories\\cfg}}"
     - "{{Game data/saves|Steam|{{p|game}}\\portal_stories\\SAVE}}"
 "Portal Stories: VR":
+  lutris: portal-stories-vr
   pageId: 89137
   steam: 446750
 "Portal of Evil: Stolen Runes":
@@ -259274,6 +259285,9 @@ UFO 50:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\ufo50\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\ufo50\\}}"
+UFO 50 Nonograms:
+  lutris: ufo-50-nonograms
+  pageId: 218236
 UFO Combat 2000:
   pageId: 121203
   steam: 892200
@@ -275871,7 +275885,7 @@ World of Warships:
     steam: true
     xbox: true
   pageId: 216382
-  steam: 2409690
+  steam: 2964090
 World of Zombies:
   pageId: 125605
   steam: 869130

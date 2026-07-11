@@ -636781,6 +636781,21 @@
     schinese: 女神异闻录４ Revival
     tchinese: 女神異聞錄４ Revival
     thai: เพอร์โซนา 4 รีไววัล
+2964090:
+  cloud:
+    saves:
+      - path: "."
+        pattern: script_prefs.xml
+        root: gameinstall
+      - path: "."
+        pattern: eula_confirmation.xml
+        root: gameinstall
+  installDir: World of Warships Legends
+  launch:
+    - config:
+        oslist: windows
+      executable: WorldOfWarshipsLegends.exe
+      type: default
 2966320:
   cloud:
     saves:

@@ -218361,6 +218361,13 @@ Duke Dashington Remastered:
         - save
       when:
         - os: linux
+  gog:
+    id: 2075362774
+  id:
+    gogExtra:
+      - 1691741958
+      - 1722102457
+      - 1959557536
   installDir:
     "Duke Grabowski, Mighty Swashbuckler": {}
   launch:
@@ -447964,7 +447971,6 @@ Metal Slug Tactics:
 Metal Slug X:
   cloud:
     gog: true
-    steam: true
   files:
     "<winLocalAppData>/mslugx":
       tags:
@@ -542637,6 +542643,8 @@ Portal Reloaded:
   steam:
     id: 317400
 "Portal Stories: VR":
+  id:
+    lutris: portal-stories-vr
   installDir:
     Portal Stories VR: {}
   steam:
@@ -795152,6 +795160,9 @@ UFO 50:
             store: steam
   steam:
     id: 1147860
+UFO 50 Nonograms:
+  id:
+    lutris: ufo-50-nonograms
 UFO Combat 2000:
   installDir:
     UFO Combat 2000: {}
@@ -844565,15 +844576,22 @@ World of Warships:
 "World of Warships: Legends":
   cloud:
     steam: true
+  files:
+    "<base>/eula_confirmation.xml":
+      when:
+        - store: steam
+    "<base>/script_prefs.xml":
+      when:
+        - store: steam
   installDir:
-    Kingmaker Academy Warriors Duels: {}
+    World of Warships Legends: {}
   launch:
-    "<base>/KingmakerWarriors.exe":
+    "<base>/WorldOfWarshipsLegends.exe":
       - when:
           - os: windows
             store: steam
   steam:
-    id: 2409690
+    id: 2964090
 World of Zombies:
   installDir:
     World of Zombies: {}
