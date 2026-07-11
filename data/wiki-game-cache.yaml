@@ -138456,6 +138456,7 @@ MORGENSHTERN:
   pageId: 125517
   steam: 1002660
 "MOTHER: Encore":
+  lutris: mother-encore
   pageId: 205297
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Mother- ENCORE\\settings.save}}"
@@ -203844,6 +203845,12 @@ Sherlock Holmes versus Jack the Ripper:
     - 2103148827
   pageId: 180384
   steam: 1949030
+  steamSide:
+    - 2208700
+    - 2208701
+    - 2273910
+    - 2330080
+    - 2330100
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\SH3RE\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\SH3RE\\Saved\\SaveGames}}"
@@ -245117,8 +245124,6 @@ The Sinking City 2:
   lutris: the-sinking-city-2
   pageId: 193625
   steam: 2825860
-  steamSide:
-    - 4684710
 The Sinking City Remastered:
   cloud:
     epic: true

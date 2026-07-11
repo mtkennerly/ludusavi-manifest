@@ -29387,7 +29387,7 @@
         root: WinMyDocuments
   installDir: Sherlock Holmes - Crimes and Punishments
   launch:
-    - arguments: "-NOSCREENMESSAGES"
+    - arguments: "-NOSCREENMESSAGES -nosettingslimitlow"
       config:
         oslist: windows
       description: Play the game
@@ -29400,6 +29400,13 @@
       executable: "Artbook\\launch.bat"
       type: none
       workingdir: Artbook
+    - arguments: "-NOSCREENMESSAGES -nosettingslimitlow"
+      config:
+        betakey: arg-fix-test
+        oslist: windows
+      description: arg fix test
+      executable: "Binaries\\Win32\\Sherlock.exe"
+      workingdir: "Binaries\\Win32"
 241300:
   installDir: CCN2
   launch:
@@ -622410,6 +622417,11 @@
     - description: Launch Workshop Uploader
       executable: "SWUploader\\SWUploader.exe"
 2477290:
+  cloud:
+    saves:
+      - path: hl2rtx/save
+        pattern: "*.*"
+        root: gameinstall
   installDir: Half-Life 2 RTX
   launch:
     - arguments: "-game \"hl2rtx\" -x 0 -y 0 +cl_first_person_uses_world_model 0"

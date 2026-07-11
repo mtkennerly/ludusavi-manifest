@@ -11798,7 +11798,6 @@
 * [Half Past Impossible](https://www.pcgamingwiki.com/wiki/?curid=77269)
 * [Half-Earth Socialism](https://www.pcgamingwiki.com/wiki/?curid=180126)
 * [Half-Life 2 MMod](https://www.pcgamingwiki.com/wiki/?curid=206256)
-* [Half-Life 2 RTX](https://www.pcgamingwiki.com/wiki/?curid=199238)
 * [Half-Life 2: Aftermath (mod)](https://www.pcgamingwiki.com/wiki/?curid=197126)
 * [Half-Life Arena](https://www.pcgamingwiki.com/wiki/?curid=212457)
 * [Half-Life: Absolute Zero](https://www.pcgamingwiki.com/wiki/?curid=160590)
