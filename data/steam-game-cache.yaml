@@ -612187,6 +612187,23 @@
         oslist: macos
       executable: Ratopia.app
 2244210:
+  cloud:
+    saves:
+      - path: EchoesofAincrad/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Echoes of Aincrad
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: EchoesofAincrad.exe
+    - config:
+        ownsdlc: "3443750"
+      description: "Echoes of Aincrad \"Unanswered//butterfly\" Bonus Contents App"
+      executable: Bonus Contents App/Bonus Contents App.exe
   nameLocalized:
     koreana: 에코스 오브 아인크라드
     schinese: 艾恩葛朗特 回荡新声
@@ -642868,18 +642885,6 @@
 3280350:
   cloud:
     saves:
-      - path: "Ocean/{64BitSteamID}/"
-        pattern: "*.dat"
-        platforms:
-          - Windows
-        recursive: true
-        root: WinMyDocuments
-      - path: "Ocean/{64BitSteamID}/"
-        pattern: "*.cfg"
-        platforms:
-          - Windows
-        recursive: true
-        root: WinMyDocuments
       - path: "DEATH STRANDING 2 - ON THE BEACH/{64BitSteamID}/"
         pattern: "*.dat"
         platforms:

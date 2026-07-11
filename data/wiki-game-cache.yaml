@@ -16816,7 +16816,6 @@ Assassin 2015:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Liberation HD\\Saves\\}}"
 "Assassin's Creed IV: Black Flag":
   lutris: assassins-creed-iv-black-flag
-  malformed: true
   pageId: 5389
   steam: 242050
   templates:
@@ -34244,6 +34243,7 @@ Bubsy Two-Fur:
   pageId: 195876
   steam: 3039890
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Atari\\Bubsy in The Purrfect Collection\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Atari\\Bubsy in The Purrfect Collection\\}}"
 "Bubsy: Paws on Fire!":
   lutris: bubsy-paws-on-fire
@@ -73790,6 +73790,7 @@ Echoes of Aincrad:
 Echoes of the End:
   cloud:
     steam: true
+  gog: 1674598037
   lutris: echoes-of-the-end
   pageId: 205250
   steam: 2821610
@@ -171386,6 +171387,8 @@ Perfect Angle:
 Perfect Angle VR:
   pageId: 33936
   steam: 487620
+Perfect Assassin:
+  pageId: 218224
 Perfect Cherry Blossom:
   pageId: 30999
   templates:
@@ -184612,6 +184615,8 @@ RapeLay:
 Rapid:
   pageId: 93780
   steam: 847600
+Rapid Assault:
+  pageId: 218226
 Rapid Fire:
   pageId: 123343
   steam: 943010
@@ -205221,14 +205226,6 @@ SiNKR 3:
   lutris: sinkr-3
   pageId: 186736
   steam: 1705580
-SiNiSistar 2:
-  cloud:
-    steam: true
-  pageId: 216846
-  steam: 4466620
-  templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/Uu/SiNiSistar2/SaveData_S/}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/Uu/SiNiSistar2/SaveData_S/}}"
 Siam Twinstick:
   pageId: 121817
   steam: 969240
@@ -206615,6 +206612,20 @@ Singularity Roller:
 "Singularity: Tactics Arena":
   pageId: 122742
   steam: 962220
+Sinisistar 2:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1948328636
+  gogSide:
+    - 1124524122
+  pageId: 216846
+  renamedFrom:
+    - SiNiSistar 2
+  steam: 4466620
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/Uu/SiNiSistar2/SaveData_S/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/Uu/SiNiSistar2/SaveData_S/}}"
 "Sinistar: Unleashed":
   pageId: 14202
   templates:
@@ -223825,8 +223836,12 @@ Super Bomb Rush!:
 Super Bomberman Collection:
   cloud:
     steam: true
+  lutris: super-bomberman-collection
   pageId: 213498
   steam: 3756010
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Konami\\SUPER BOMBERMAN COLLECTION}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3756010\\remote\\}}"
 Super Bomberman R:
   cloud:
     steam: true
