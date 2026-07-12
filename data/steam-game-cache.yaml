@@ -651612,7 +651612,14 @@
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"
     schinese: "幻兽帕鲁：帕鲁农场 / Palworld: Palfarm"
     tchinese: "幻獸帕魯：帕魯農場 / Palworld: Palfarm"
-4032350: {}
+4032350:
+  installDir: College Football 27
+  launch:
+    - executable: "steam2ea://launchgame/4032350?platform=steam&theme=cfb27"
+    - config:
+        betakey: eax_test
+      description: eax test legacy launch mode
+      executable: "link2ea://launchgame/4032350?platform=steam&theme=cfb27"
 4035270:
   cloud:
     saves:

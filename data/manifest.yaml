@@ -25884,6 +25884,20 @@ Ai no Uta あいのうた:
             store: steam
   steam:
     id: 1212780
+Ai sp@ce:
+  files:
+    "<base>/config/option.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/user/save/login.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: ai-space
 Aiball:
   installDir:
     Aiball: {}
@@ -224864,6 +224878,8 @@ E3.14CENTER:
   steam:
     id: 862240
 EA Sports College Football 27:
+  installDir:
+    College Football 27: {}
   steam:
     id: 4032350
 EA Sports FC 24:

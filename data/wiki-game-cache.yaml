@@ -8215,6 +8215,12 @@ Ai Yori Aoshi:
 Ai no Uta あいのうた:
   pageId: 155432
   steam: 1212780
+Ai sp@ce:
+  lutris: ai-space
+  pageId: 218262
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\config\\option.dat}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\user\\save\\login.dat}}"
 Aiball:
   pageId: 42605
   steam: 490990
