@@ -612300,6 +612300,13 @@
         oslist: windows
       executable: Game.exe
       type: default
+2246650:
+  installDir: "Szybowcowa '87"
+  launch:
+    - config:
+        oslist: windows
+      executable: VR80.exe
+      type: vr
 2246670:
   cloud:
     saves:

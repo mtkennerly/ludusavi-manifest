@@ -26033,6 +26033,7 @@
 * [SZEN](https://www.pcgamingwiki.com/wiki/?curid=125986)
 * [SZone-Online](https://www.pcgamingwiki.com/wiki/?curid=45140)
 * [Szrot](https://www.pcgamingwiki.com/wiki/?curid=177030)
+* [Szybowcowa '87](https://www.pcgamingwiki.com/wiki/?curid=218241)
 * [Söldner: Secret Wars Remastered](https://www.pcgamingwiki.com/wiki/?curid=206718)
 * [T Simulator](https://www.pcgamingwiki.com/wiki/?curid=136386)
 * [T-Kara Puzzles](https://www.pcgamingwiki.com/wiki/?curid=42770)
