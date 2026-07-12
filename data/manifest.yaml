@@ -493794,6 +493794,12 @@ Noctuary:
         - save
       when:
         - os: windows
+  installDir:
+    Noctuary: {}
+  launch:
+    "<base>/Noctuary.exe":
+      - when:
+          - store: steam
   steam:
     id: 2143680
 Nocturnal:
@@ -498585,6 +498591,9 @@ Obey Me:
             store: steam
   steam:
     id: 1034890
+"Obey Me! Sinner's Choice: Lucifer":
+  steam:
+    id: 4444800
 "Object \"Cleaning\"":
   installDir:
     Object Cleaning: {}
@@ -741690,6 +741699,22 @@ The Life of One Dog:
           - store: steam
   steam:
     id: 939390
+The Life of a Magical Circle:
+  gog:
+    id: 1772821798
+  id:
+    lutris: the-life-of-a-magical-circle
+    steamExtra:
+      - 3141060
+  installDir:
+    The Life of a Magical Circle: {}
+  launch:
+    "<base>/The Life of a Magical Circle.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2408890
 "The Life's Lane":
   installDir:
     "The Life's Lane": {}

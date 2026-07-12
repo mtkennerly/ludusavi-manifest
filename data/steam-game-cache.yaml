@@ -103207,9 +103207,8 @@
     - arguments: "-SEEKFREELOADING -DX11"
       config:
         oslist: windows
-      description: Experimental DX11 mode
+      description: Optional DX11 mode
       executable: ".\\Binaries\\AFFLift.exe"
-      type: none
 367300:
   installDir: Pixel Star
   launch:
@@ -606819,9 +606818,32 @@
       executable: "DarkNights-1.1-pc\\DarkNights.sh"
       type: default
 2143680:
+  cloud:
+    saves:
+      - path: Gratesca/Noctuary
+        pattern: "*.noctuary"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Gratesca/Noctuary
+        pattern: "*.head"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Noctuary
+  launch:
+    - executable: Noctuary.exe
+      type: default
+    - config:
+        ownsdlc: "2875660"
+      description: THE ART STORY OF NOCTUARY
+      executable: THE ART STORY OF NOCTUARY/THE ART STORY OF NOCTUARY.pdf
+      type: option1
+    - executable: Noctuary.exe
   nameLocalized:
     english: Noctuary
     japanese: 夢灯華 Noctuary
+    sc_schinese: 梦灯花 Noctuary
     tchinese: 夢燈花 Noctuary
 2144350:
   installDir: Ubaste
@@ -619127,6 +619149,13 @@
     koreana: 루마섬
     schinese: 露玛岛
     thai: เกาะ Luma
+2408890:
+  installDir: The Life of a Magical Circle
+  launch:
+    - config:
+        oslist: windows
+      executable: The Life of a Magical Circle.exe
+      type: default
 2409500:
   installDir: Inspector Gadget - Mad Time Party
   launch:
@@ -653131,6 +653160,12 @@
 4436520: {}
 4441710: {}
 4444610: {}
+4444800:
+  nameLocalized:
+    english: "Obey Me! Sinner's Choice: Lucifer"
+    japanese: "Obey Me! Sinner's Choice: Lucifer"
+    schinese: 服从我吧！最终抉择：路西法
+    tchinese: 服從我！終擇晨星：路西法
 4450800:
   installDir: IdolsOfAsh
   launch:
