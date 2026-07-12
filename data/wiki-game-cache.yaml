@@ -4536,6 +4536,8 @@ AO Tennis 2 Tools:
 AOS Manager:
   pageId: 140948
   steam: 1108360
+APB (1987):
+  pageId: 218254
 APB Reloaded:
   pageId: 8486
   steam: 113400
@@ -68167,6 +68169,8 @@ Dragon Spear:
     - 891830
     - 896620
     - 896630
+Dragon Spirit:
+  pageId: 218252
 Dragon Spirits:
   lutris: dragon-spirits
   pageId: 154322
@@ -104739,6 +104743,8 @@ Hard Core Puzzle:
     steam: true
   pageId: 130151
   steam: 1013730
+"Hard Drivin'":
+  pageId: 218256
 "Hard Era: The Fantasy Defence":
   pageId: 68701
   steam: 692260
@@ -205899,6 +205905,8 @@ Silent Hill f:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Engine\\default_pc.cfg|{{p|game}}\\Engine\\vars_pc.cfg|{{p|game}}\\Engine\\binds_pc_mjs.cfg}}"
     - "{{Game data/saves|Windows|{{p|public}}\\Public Documents\\Silent Hill Homecoming\\shv_save.bin}}"
+"Silent Hill: Play Novel":
+  pageId: 218261
 "Silent Hill: The Arcade":
   pageId: 195781
 "Silent Hill: Townfall":
@@ -234363,6 +234371,9 @@ The Captain is Dead:
   pageId: 145341
   steam: 1126580
 "The Captives: Plot of the Demiurge":
+  cloud:
+    steam: true
+  lutris: the-captives-plot-of-the-demiurge
   pageId: 88916
   steam: 666630
 The Capture Worlds:

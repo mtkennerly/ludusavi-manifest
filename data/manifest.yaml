@@ -721832,6 +721832,8 @@ The Captain is Dead:
   steam:
     id: 1126580
 "The Captives: Plot of the Demiurge":
+  cloud:
+    steam: true
   files:
     "<home>/.config/unity3d/Prism Game Studios/The Captives/*.json":
       when:
@@ -721877,6 +721879,8 @@ The Captain is Dead:
       when:
         - os: linux
           store: steam
+  id:
+    lutris: the-captives-plot-of-the-demiurge
   installDir:
     The Captives: {}
   launch:
