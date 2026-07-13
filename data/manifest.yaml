@@ -797959,7 +797959,20 @@ Uma Musume Pretty Derby:
   alias: "Umamusume: Pretty Derby"
 "Umamusume: Pretty Derby":
   files:
+    "<home>/AppData/LocalLow/Cygames/UmamusumePrettyDerby_Jpn/d/SaveData.db":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
     "<home>/AppData/LocalLow/Cygames/umamusume/d/SaveData.db":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/KomoeGame/komoeumamusume/d/SaveData.db":
       tags:
         - save
       when:
@@ -797985,6 +797998,9 @@ Uma Musume Pretty Derby:
         - config
       when:
         - store: steam
+    HKEY_CURRENT_USER/SOFTWARE/KomoeGame/komoeumamusume:
+      tags:
+        - config
   steam:
     id: 3224770
 "Umamusume: Pretty Derby - Party Dash":

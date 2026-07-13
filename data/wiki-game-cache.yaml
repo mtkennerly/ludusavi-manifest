@@ -222029,6 +222029,8 @@ StrikeForce Kitty:
   steam: 745330
 "StrikePoint: The Hex Missions":
   pageId: 215087
+Striker:
+  pageId: 218324
 Striker Zone:
   pageId: 177255
 Strikers:
@@ -260296,9 +260298,10 @@ Ulysses and the Golden Fleece:
   steamSide:
     - 3564400
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Cygames\\umamusume\\}}"
-    - "{{Game data/config|Steam|{{p|hkcu}}\\SOFTWARE\\Cygames\\umamusume\\{{note|English version only.}}|{{p|hkcu}}\\SOFTWARE\\Cygames\\UmamusumePrettyDerby_Jpn{{note|Japanese version only.}}}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Cygames\\umamusume\\d\\SaveData.db}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Cygames\\umamusume\\{{note|DMM version only.|name=DMM}}|{{p|hkcu}}\\SOFTWARE\\KomoeGame\\komoeumamusume\\{{note|Komoe Games version only.|name=Komoe}}}}"
+    - "{{Game data/config|Steam|{{p|hkcu}}\\SOFTWARE\\Cygames\\umamusume\\{{note|English version only.|name=Steam}}|{{p|hkcu}}\\SOFTWARE\\Cygames\\UmamusumePrettyDerby_Jpn{{note|Japanese version only.|name=SteamJa}}}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\locallow}}\\Cygames\\umamusume\\d\\SaveData.db{{note|name=DMM}}|{{p|userprofile\\AppData\\locallow}}\\KomoeGame\\komoeumamusume\\d\\SaveData.db{{note|name=Komoe}}}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\AppData\\LocalLow}}\\Cygames\\umamusume\\d\\SaveData.db{{note|name=Steam}}|{{p|userprofile\\AppData\\LocalLow}}\\Cygames\\UmamusumePrettyDerby_Jpn\\d\\SaveData.db{{note|name=SteamJa}}}}"
 "Umamusume: Pretty Derby - Party Dash":
   cloud:
     steam: true
