@@ -586352,15 +586352,15 @@
       description: Launch Creatures 1 Emergency Kit
       executable: "Creatures 1\\Backup.exe"
 1818450:
-  installDir: STALCRAFT
+  installDir: STALZONE
   launch:
-    - arguments: "-platform steam bin_%REALM%/win64/java/bin/stalcraftw.exe -classpath \"bin_%REALM%/classes.jar;bin_%REALM%/libs.jar;modassets;bin_%REALM%/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_%REALM%/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_%REALM%/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
+    - arguments: "-platform steam bin_%REALM%/win64/java/bin/stalzonew.exe -classpath \"bin_%REALM%/classes.jar;bin_%REALM%/libs.jar;modassets;bin_%REALM%/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_%REALM%/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_%REALM%/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
         osarch: "64"
         oslist: windows
       executable: bin_global/win64/java/bin/ExensLauncher.exe
       type: default
-    - arguments: "-platform steam bin_ru/win64/java/bin/stalcraftw.exe -classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
+    - arguments: "-platform steam bin_ru/win64/java/bin/stalzonew.exe -classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
         betakey: toster
         osarch: "64"
@@ -586368,7 +586368,7 @@
       description: "STALCRAFT PTS [RU]"
       executable: bin_ru/win64/java/bin/ExensLauncher.exe
       type: option1
-    - arguments: "-platform steam bin_global/win64/java/bin/stalcraftw.exe -classpath \"bin_global/classes.jar;bin_global/libs.jar;modassets;bin_global/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_global/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Dforced_language_realm=GLOBAL\" \"-Dforced_realm_id=EU\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_global/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
+    - arguments: "-platform steam bin_global/win64/java/bin/stalzonew.exe -classpath \"bin_global/classes.jar;bin_global/libs.jar;modassets;bin_global/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_global/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Dforced_language_realm=GLOBAL\" \"-Dforced_realm_id=EU\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_global/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
         betakey: toster
         osarch: "64"
@@ -586378,11 +586378,11 @@
       type: option1
     - arguments: "-classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
-        betakey: open_test_server_may
+        betakey: open_test_server_here
         osarch: "64"
         oslist: windows
       description: STALCRAFT OTS — test server
-      executable: bin_ru/win64/java/bin/stalcraftw.exe
+      executable: bin_ru/win64/java/bin/stalzonew.exe
       type: option2
     - arguments: "-classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Dbundle.backend_address=85.119.149.147:30059\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
       config:
@@ -586392,6 +586392,24 @@
       description: Stalcraft DEV
       executable: bin_ru/win64/java/bin/stalcraftw.exe
       type: option1
+    - arguments: "-classpath \"bin_ru/classes.jar;bin_ru/libs.jar;modassets;bin_ru/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_ru/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Dbundle.backend_address=85.119.149.147:30059\" \"-Ddev_languages=true\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_ru/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
+      config:
+        betakey: deploy-dev-to-steam2
+        osarch: "64"
+        oslist: windows
+      description: Stalcraft DEV
+      executable: bin_ru/win64/java/bin/stalcraftw.exe
+      type: option1
+    - arguments: "-classpath \"bin_global/classes.jar;bin_global/libs.jar;modassets;bin_global/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_global/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" \"-Dbundle.backend_http_endpoint=http://89.222.116.77:26000\" \"-Ddev_languages=true\" \"-Dforced_language_realm=GLOBAL\" \"-Dforced_realm_id=NEA\" \"-Dfar_render_block_distance=true\" \"-Ddisable_anti_macros=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_global/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
+      config:
+        betakey: krlaunch
+        osarch: "64"
+        oslist: windows
+      description: STALZONE GRAC
+      executable: bin_global/win64/java/bin/stalcraftw.exe
+      type: option1
+  nameLocalized:
+    koreana: STALZONE | 스탈존
 1818570:
   cloud:
     saves:
@@ -608756,7 +608774,7 @@
       workingdir: "client_pc\\root\\bin\\pc"
     - arguments: "--set \"/Config/Permissions/enablePermissionAntiCheat\" permit"
       config:
-        betakey: "focus_test_dev, test_backend, test_backend, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev, test_bender"
+        betakey: "focus_test_dev, test_backend, test_backend, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev, test_bender, qualcomm, fe_hw_nvidia_temp"
         oslist: windows
       description: Space Marine 2 Release EOS noEAC
       executable: "client_pc\\root\\bin\\pc\\MagnusEosBootstrapperRelease.exe"
@@ -608769,7 +608787,7 @@
       workingdir: "client_pc\\root\\bin\\pc\\"
     - arguments: "--set \"/Config/Permissions/enablePermissionAntiCheat\" permit"
       config:
-        betakey: "focus_test_dev, test_backend, steam_dev_live, test_steam_dev,  test_prod_dev, patch_steam_dev, test_bender"
+        betakey: "focus_test_dev, test_backend, steam_dev_live, test_steam_dev,  test_prod_dev, patch_steam_dev, test_bender, qualcomm, fe_hw_nvidia_temp"
         oslist: windows
       description: Space Marine 2 Profile EOS noEAC
       executable: "client_pc\\root\\bin\\pc\\MagnusEosBootstrapperProfile.exe"
@@ -641211,6 +641229,19 @@
         oslist: linux
       executable: Banquet for Fools.exe
       type: default
+3176850:
+  cloud:
+    saves:
+      - path: Pepperlog/Second Stellar
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Second Stellar
+  launch:
+    - config:
+        oslist: windows
+      executable: Second Stellar.exe
 3177010:
   installDir: "Don't Mess With Bober"
   launch:

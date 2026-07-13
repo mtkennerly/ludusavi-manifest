@@ -10538,6 +10538,16 @@ A Normal Lost Phone:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/Accidental Queens/A Normal Lost Phone":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Accidental Queens/A Normal Lost Phone/save":
+      tags:
+        - save
+      when:
+        - os: linux
   gog:
     id: 2010450539
   installDir:
@@ -307969,6 +307979,40 @@ Granado Espada:
         - save
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 2183570
+      - 2694640
+      - 2694650
+      - 2782160
+      - 2782170
+      - 2782180
+      - 2782190
+      - 2782200
+      - 2799840
+      - 2799850
+      - 2853950
+      - 2853960
+      - 2853970
+      - 2853980
+      - 2853990
+      - 2854000
+      - 2854010
+      - 2854020
+      - 2944840
+      - 2944850
+      - 2944860
+      - 2944870
+      - 2944880
+      - 2944890
+      - 2944900
+      - 3839790
+      - 4196050
+      - 4306890
+      - 4528200
+      - 4528540
+      - 4579010
+      - 4579020
   installDir:
     Granblue Fantasy Relink: {}
   launch:
@@ -615384,6 +615428,26 @@ Second Sight:
           - store: steam
   steam:
     id: 11550
+Second Stellar:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Pepperlog/Second Stellar/*.es3":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 4032450
+  installDir:
+    Second Stellar: {}
+  launch:
+    "<base>/Second Stellar.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3176850
 Second Warfare:
   installDir:
     Second Warfare: {}
@@ -666325,17 +666389,7 @@ Stairs:
   steam:
     id: 374060
 "Stalcraft: X":
-  installDir:
-    STALCRAFT: {}
-  launch:
-    "<base>/bin_global/win64/java/bin/ExensLauncher.exe":
-      - arguments: "-platform steam bin_%REALM%/win64/java/bin/stalcraftw.exe -classpath \"bin_%REALM%/classes.jar;bin_%REALM%/libs.jar;modassets;bin_%REALM%/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_%REALM%/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_%REALM%/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
-        when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1818450
+  alias: Stalzone
 Stalin vs. Martians:
   installDir:
     Stalin vs Martians: {}
@@ -666397,6 +666451,18 @@ Stalker Crab Simulator:
             store: steam
   steam:
     id: 856400
+Stalzone:
+  installDir:
+    STALZONE: {}
+  launch:
+    "<base>/bin_global/win64/java/bin/ExensLauncher.exe":
+      - arguments: "-platform steam bin_%REALM%/win64/java/bin/stalzonew.exe -classpath \"bin_%REALM%/classes.jar;bin_%REALM%/libs.jar;modassets;bin_%REALM%/patchassets\" -XX:-PrintCommandLineFlags -Xmx2G \"-Djava.library.path=bin_%REALM%/win64/java/bin\" \"-Dfile.encoding=UTF-8\" \"-Dread_derived=true\" \"-DusePrestitchedAtlas=true\" -XX:+UseG1GC -XX:MaxGCPauseMillis=3 \"-Dservice_type=STEAM\" \"-Dpatch_assets_dir=bin_%REALM%/patchassets\" exbo.stalcraft.engine.clientcore.Main --gameDir . --assetsDir ./assets"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1818450
 Stamp Boy:
   files:
     "<home>/.config/unity3d/SadiMakeGames/Stamp Boy/*.sav":

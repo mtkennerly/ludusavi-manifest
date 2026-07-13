@@ -3286,7 +3286,9 @@ A Normal Lost Phone:
   steam: 523210
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Accidental Queens\\A Normal Lost Phone\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Accidental Queens/A Normal Lost Phone/}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Accidental Queens\\A Normal Lost Phone\\save}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Accidental Queens/A Normal Lost Phone/save}}"
 A Nova Califórnia:
   pageId: 70379
   steam: 699510
@@ -99739,6 +99741,39 @@ Granado Espada:
     steam: true
   pageId: 173628
   steam: 881020
+  steamSide:
+    - 2183570
+    - 2694640
+    - 2694650
+    - 2782160
+    - 2782170
+    - 2782180
+    - 2782190
+    - 2782200
+    - 2799840
+    - 2799850
+    - 2853950
+    - 2853960
+    - 2853970
+    - 2853980
+    - 2853990
+    - 2854000
+    - 2854010
+    - 2854020
+    - 2944840
+    - 2944850
+    - 2944860
+    - 2944870
+    - 2944880
+    - 2944890
+    - 2944900
+    - 3839790
+    - 4196050
+    - 4306890
+    - 4528200
+    - 4528540
+    - 4579010
+    - 4579020
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\GBFR\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\GBFR\\Saved\\SaveGames\\}}"
@@ -200270,6 +200305,13 @@ Second Sight:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\secondsight.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\profiles\\}}"
+Second Stellar:
+  cloud:
+    steam: true
+  pageId: 218307
+  steam: 3176850
+  steamSide:
+    - 4032450
 Second Warfare:
   pageId: 47541
   steam: 372740
@@ -216616,9 +216658,6 @@ Stakes Winner 2:
   cloud:
     xbox: true
   pageId: 168800
-"Stalcraft: X":
-  pageId: 200171
-  steam: 1818450
 Stalin vs. Martians:
   pageId: 91339
   steam: 25870
@@ -216640,6 +216679,11 @@ Stalked at Night:
 Stalker Crab Simulator:
   pageId: 93952
   steam: 856400
+Stalzone:
+  pageId: 200171
+  renamedFrom:
+    - "Stalcraft: X"
+  steam: 1818450
 Stamp Boy:
   pageId: 135534
   steam: 946860
