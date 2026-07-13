@@ -52957,6 +52957,8 @@ Cucumber Defense VR:
   steam: 1142510
 Cue Club:
   pageId: 128836
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Cue Club 2:
   pageId: 44241
   steam: 366690
@@ -146872,6 +146874,8 @@ Might is Right:
 Mighty Action RPG:
   pageId: 72785
   steam: 722940
+Mighty Bomb Jack:
+  pageId: 218317
 Mighty Cuphead Adventure:
   pageId: 217350
 Mighty Dungeons:
@@ -147738,6 +147742,11 @@ Minesweeper:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Microsoft Games\\Minesweeper\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Microsoft Games\\Minesweeper\\}}"
+Minesweeper (XP):
+  pageId: 166482
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft\\winmine}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Microsoft\\winmine}}"
 Minesweeper Peak VR:
   pageId: 134951
   steam: 1074330
@@ -169362,6 +169371,8 @@ Paperbound:
     - 430250
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Paperbound\\Settings\\}}"
+Paperboy:
+  pageId: 218315
 Paperboy 2:
   pageId: 16945
   templates:

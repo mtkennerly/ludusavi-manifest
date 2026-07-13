@@ -164664,6 +164664,13 @@ Cucumber Defense VR:
     MotionGame: {}
   steam:
     id: 1142510
+Cue Club:
+  files:
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
 Cue Club 2:
   installDir:
     Cue Club 2: {}
@@ -454635,6 +454642,12 @@ Minesweeper:
         - config
       when:
         - os: windows
+Minesweeper (XP):
+  registry:
+    HKEY_CURRENT_USER/Software/Microsoft/winmine:
+      tags:
+        - config
+        - save
 Minesweeper Peak VR:
   installDir:
     Minesweeper peak VR: {}
