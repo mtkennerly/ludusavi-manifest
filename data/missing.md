@@ -874,6 +874,7 @@
 * [Age of Viking Conquest](https://www.pcgamingwiki.com/wiki/?curid=112004)
 * [Age of Wushu](https://www.pcgamingwiki.com/wiki/?curid=87628)
 * [Age-Old Cities VR](https://www.pcgamingwiki.com/wiki/?curid=138582)
+* [Agefield High: Rock the School](https://www.pcgamingwiki.com/wiki/?curid=218331)
 * [Agenda](https://www.pcgamingwiki.com/wiki/?curid=39055)
 * [AGENT 00111](https://www.pcgamingwiki.com/wiki/?curid=141133)
 * [Agent 64: Spies Never Die](https://www.pcgamingwiki.com/wiki/?curid=175758)
