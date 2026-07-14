@@ -13718,6 +13718,7 @@
 * [Iris in Fantasy](https://www.pcgamingwiki.com/wiki/?curid=142037)
 * [IrisPlus](https://www.pcgamingwiki.com/wiki/?curid=112756)
 * [Iro Hero](https://www.pcgamingwiki.com/wiki/?curid=95961)
+* [Iron & Blood: Warriors of Ravenloft](https://www.pcgamingwiki.com/wiki/?curid=218344)
 * [Iron Armada](https://www.pcgamingwiki.com/wiki/?curid=58047)
 * [Iron Ascension](https://www.pcgamingwiki.com/wiki/?curid=122904)
 * [Iron Blade](https://www.pcgamingwiki.com/wiki/?curid=138617)

@@ -58823,6 +58823,9 @@ Death Howl:
     xbox: true
   pageId: 211697
   steam: 2825880
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\The Outer Zone\\Death Howl\\saves_v_1_0\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\The Outer Zone\\Death Howl\\saves_v_1_0\\}}"
 Death Inn:
   pageId: 136748
   renamedFrom:
@@ -119565,6 +119568,8 @@ IrisPlus:
 Iro Hero:
   pageId: 95961
   steam: 709750
+"Iron & Blood: Warriors of Ravenloft":
+  pageId: 218344
 "Iron Aces: Heroes of WWII":
   pageId: 212981
   templates:
@@ -193104,11 +193109,11 @@ Rogue Empire:
   steam: 650940
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Portal Entertainment\\Rogue-Empire\\}}"
-    - "{{Game data/config|OS X|{{p|home}}\\Library\\Preferences\\unity.Portal Entertainment.Rogue-Empire.plist}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}\\unity3d\\Portal Entertainment\\Rogue-Empire\\prefs}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Portal Entertainment.Rogue-Empire.plist}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Portal Entertainment/Rogue-Empire/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Portal Entertainment\\Rogue-Empire\\Saves\\}}"
-    - "{{Game data/saves|OS X|{{p|home}}\\Library\\Application Support\\Portal Entertainment\\Rogue-Empire\\Saves\\}}"
-    - "{{Game data/saves|Linux|{{p|xdgconfighome}}\\unity3d\\Portal Entertainment\\Rogue-Empire\\Saves\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Portal Entertainment/Rogue-Empire/Saves/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Portal Entertainment/Rogue-Empire/Saves/}}"
 Rogue Fable III:
   pageId: 125357
   steam: 956450
@@ -205764,6 +205769,7 @@ Sigil:
   pageId: 145562
   steam: 1063940
 Sigils of Elohim:
+  lutris: sigils-of-elohim
   pageId: 20405
   steam: 321480
   templates:

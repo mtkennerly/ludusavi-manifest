@@ -182400,9 +182400,12 @@ Death Howl:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/The Outer Zone/Death Howl/saves_v_1_0/*.save":
+    "<home>/AppData/LocalLow/The Outer Zone/Death Howl/saves_v_1_0":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Death Howl: {}
   launch:
@@ -592936,6 +592939,16 @@ Rogue Empire:
         - save
       when:
         - os: windows
+    "<home>/Library/Application Support/Portal Entertainment/Rogue-Empire/Saves":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Preferences/unity.Portal Entertainment.Rogue-Empire.plist":
+      tags:
+        - config
+      when:
+        - os: mac
     "<xdgConfig>/unity3d/Portal Entertainment/Rogue-Empire/Saves":
       tags:
         - save
@@ -632397,6 +632410,8 @@ Sigil:
   steam:
     id: 1063940
 Sigils of Elohim:
+  id:
+    lutris: sigils-of-elohim
   installDir:
     Sigils of Elohim: {}
   launch:
