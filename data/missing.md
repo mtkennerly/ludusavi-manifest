@@ -19563,6 +19563,7 @@
 * [PaulPaul - Act 1](https://www.pcgamingwiki.com/wiki/?curid=103019)
 * [Paunch](https://www.pcgamingwiki.com/wiki/?curid=152718)
 * [Pavel Quest](https://www.pcgamingwiki.com/wiki/?curid=47917)
+* [PAW Patrol Dino World](https://www.pcgamingwiki.com/wiki/?curid=218339)
 * [Paw Patrol The Movie: Adventure City Calls](https://www.pcgamingwiki.com/wiki/?curid=174952)
 * [PAW Patrol World](https://www.pcgamingwiki.com/wiki/?curid=191296)
 * [Paw Patrol: Grand Prix](https://www.pcgamingwiki.com/wiki/?curid=182124)

@@ -33844,6 +33844,8 @@ Alternativa:
         - save
       when:
         - os: windows
+  id:
+    lutris: alternativa
   installDir:
     Alternativa: {}
   launch:
@@ -190531,6 +190533,8 @@ Denshattack!:
     lutris: denshattack
     steamExtra:
       - 4142750
+      - 4609680
+      - 4719220
   steam:
     id: 2524850
 Deorum Online:
@@ -386214,33 +386218,6 @@ Kill Him! Online Wars:
             store: steam
   steam:
     id: 817250
-Kill It With Fire 2:
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Kani/Saved/SaveGames/KIWF2_0*.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/Kani/Saved/SaveGames/KIWF2_0*.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/Kani/Saved/SaveGames/KIWF2_0*.sav":
-      when:
-        - os: windows
-          store: steam
-  id:
-    steamExtra:
-      - 2926730
-  installDir:
-    Kill It With Fire 2: {}
-  launch:
-    "<base>/Kani.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 2357000
 Kill It with Fire:
   cloud:
     steam: true
@@ -386279,6 +386256,33 @@ Kill It with Fire:
             store: steam
   steam:
     id: 1179210
+Kill It with Fire 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Kani/Saved/SaveGames/KIWF2_0*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Kani/Saved/SaveGames/KIWF2_0*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Kani/Saved/SaveGames/KIWF2_0*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 2926730
+  installDir:
+    Kill It With Fire 2: {}
+  launch:
+    "<base>/Kani.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2357000
 Kill Knight:
   files:
     "<home>/AppData/LocalLow/PlaySide Studios/KILL KNIGHT":
@@ -515598,6 +515602,9 @@ PASKA BATTLE STYLE!:
           - store: steam
   steam:
     id: 979760
+PAW Patrol Dino World:
+  steam:
+    id: 3525790
 "PAW Patrol Rescue Wheels: Championship":
   cloud:
     steam: true

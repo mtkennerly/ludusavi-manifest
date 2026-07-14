@@ -10824,6 +10824,7 @@ Alternate DiMansion Diary:
 Alternativa:
   cloud:
     steam: true
+  lutris: alternativa
   pageId: 41050
   steam: 33990
   templates:
@@ -61336,6 +61337,8 @@ Denshattack!:
   steam: 2524850
   steamSide:
     - 4142750
+    - 4609680
+    - 4719220
 Deorum Online:
   pageId: 145138
   steam: 734480
@@ -125254,14 +125257,6 @@ Kill Fun Yeah:
 Kill Him! Online Wars:
   pageId: 95133
   steam: 817250
-Kill It With Fire 2:
-  cloud:
-    steam: true
-    xbox: true
-  pageId: 203012
-  steam: 2357000
-  steamSide:
-    - 2926730
 Kill It with Fire:
   cloud:
     steam: true
@@ -125274,6 +125269,16 @@ Kill It with Fire:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Kani\\Saved\\SaveGames\\*Settings_KIWF_*.sav|{{P|localappdata}}\\Kani\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Kani\\Saved\\SaveGames\\DefaultSlot_KIWF_*.sav}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\tinyBuildGames.KillItWithFire_3sz1pp2ynv2xe\\SystemAppData\\wgs}}"
+Kill It with Fire 2:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 203012
+  renamedFrom:
+    - Kill It With Fire 2
+  steam: 2357000
+  steamSide:
+    - 2926730
 Kill Knight:
   pageId: 200548
   renamedFrom:
@@ -167799,6 +167804,9 @@ PASHTET:
 PASKA BATTLE STYLE!:
   pageId: 122478
   steam: 979760
+PAW Patrol Dino World:
+  pageId: 218339
+  steam: 3525790
 "PAW Patrol Rescue Wheels: Championship":
   cloud:
     steam: true
