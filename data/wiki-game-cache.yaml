@@ -109360,6 +109360,12 @@ Hexvade:
 Hexxon:
   pageId: 149201
   steam: 779920
+Hexzen:
+  cloud:
+    steam: true
+  lutris: hexzen
+  pageId: 218335
+  steam: 4886450
 "Hi-5: Create, Paint and Play":
   pageId: 147116
   templates:
@@ -138320,8 +138326,6 @@ MDK2 HD:
   steam: 213350
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\MDK2HD\\}}"
-MECCHA CHAMELEON:
-  pageId: 218238
 MECCHA ZOMBIES:
   pageId: 132124
   steam: 603910
@@ -143363,6 +143367,11 @@ Meaty McSkinBones:
 Meawja:
   pageId: 73046
   steam: 679910
+Meccha Chameleon:
+  pageId: 218238
+  renamedFrom:
+    - MECCHA CHAMELEON
+  steam: 4704690
 Mech Academy:
   pageId: 191689
   steam: 2593850
@@ -233114,6 +233123,7 @@ The Alternative Age:
     - "{{Game data/saves|Windows|{{p|game}}\\replay\\|{{p|game}}\\script\\thA\\*.dat}}"
 The Alters:
   cloud:
+    epic: true
     gog: true
     steam: true
     xbox: true
@@ -233127,6 +233137,7 @@ The Alters:
   pageId: 195777
   steam: 1601570
   steamSide:
+    - 3237520
     - 3773900
   templates:
     - "{{Game data/config|Steam|{{P|localappdata}}\\11bitstudios\\TheAlters\\Steam\\Saved\\Config\\{{P|uid}}\\GameUserSettings.ini|{{P|localappdata}}\\11bitstudios\\TheAlters\\Steam\\Saved\\Config\\Windows}}"

@@ -653445,6 +653445,12 @@
         oslist: windows
       executable: COYP.exe
       type: default
+4704690:
+  installDir: MECCHA CHAMELEON
+  launch:
+    - executable: PenguinHotel.exe
+  nameLocalized:
+    japanese: めっちゃカメレオン
 4712350:
   cloud:
     saves:
@@ -653489,6 +653495,13 @@
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"
 4863030: {}
+4886450:
+  nameLocalized:
+    japanese: Hexzen ヘクスゼン
+    koreana: Hexzen 헥스젠
+    russian: Hexzen Хексзен
+    schinese: Hexzen 六角禅
+    tchinese: Hexzen 六角禪
 4899790:
   installDir: Neuro Hunter
   launch:

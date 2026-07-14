@@ -337171,6 +337171,13 @@ Hexxon:
             store: steam
   steam:
     id: 779920
+Hexzen:
+  cloud:
+    steam: true
+  id:
+    lutris: hexzen
+  steam:
+    id: 4886450
 "Hi-5: Create, Paint and Play":
   files:
     "<base>/Hi5.ini":
@@ -441790,6 +441797,15 @@ Meaty McSkinBones:
 Meawja:
   steam:
     id: 679910
+Meccha Chameleon:
+  installDir:
+    MECCHA CHAMELEON: {}
+  launch:
+    "<base>/PenguinHotel.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4704690
 Mech Academy:
   files:
     "<winAppData>/RenPy/MechaAcademy<storeUserId>":
@@ -717860,6 +717876,7 @@ The Alternative Age:
     lutris: touhou-shifuujou-the-alternative-age
 The Alters:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -717927,6 +717944,7 @@ The Alters:
       - 2130218964
     lutris: the-alters
     steamExtra:
+      - 3237520
       - 3773900
   installDir:
     The Alters: {}
