@@ -2763,7 +2763,9 @@ A Fine Mess:
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Fisherman\\Saved\\SaveGames\\}}"
 "A Fisherman's Tale 2":
+  lutris: a-fishermans-tale-2
   pageId: 216530
+  steam: 2096570
 A Fistful of Gun:
   gog: 1442910587
   gogSide:
@@ -23392,6 +23394,8 @@ BattleSouls:
 BattleSpace:
   pageId: 49019
   steam: 306930
+BattleSport:
+  pageId: 218360
 BattleStar Mazay:
   pageId: 96567
   steam: 869570
@@ -55542,8 +55546,10 @@ Dark Drive:
   pageId: 91246
   steam: 822030
 Dark Earth:
+  gog: 1355561964
   lutris: dark-earth
   pageId: 60147
+  steam: 4834830
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 Dark Echo:
@@ -73951,14 +73957,18 @@ Ecotone:
   pageId: 34837
   steam: 446070
 Ecstatica:
+  gog: 1333226285
   pageId: 164114
+  steam: 4834840
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\saved\\}}"
     - "{{Game data/config|Windows|{{p|game}}\\saved\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\saved\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saved\\}}"
 Ecstatica II:
+  gog: 1434747230
   pageId: 166171
+  steam: 4834850
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\saved\\}}"
     - "{{Game data/config|DOS|{{p|game}}\\saved\\}}"
@@ -112781,6 +112791,11 @@ House of the Dying Sun:
 Housekeeping VR:
   pageId: 57989
   steam: 556520
+Housemates:
+  pageId: 218350
+  steam: 2820220
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\save\\}}"
 "Houston, We Have Spinach!":
   pageId: 75620
   steam: 734870
@@ -176481,7 +176496,9 @@ Pool of Radiance:
     - "{{Game data/config|DOS|{{p|game}}\\POOL.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE\\}}"
 "Pool of Radiance: Ruins of Myth Drannor":
+  gog: 1405279681
   pageId: 157681
+  steam: 4834760
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savegames\\}}"
@@ -210691,6 +210708,10 @@ Soldier of Fortune:
 Soldiers Lost Forever (1914-1918):
   pageId: 99510
   steam: 508630
+Soldiers at War:
+  gog: 1731348684
+  pageId: 218358
+  steam: 4834810
 Soldiers of Anarchy:
   pageId: 192412
 Soldiers of Freedom:
@@ -269822,7 +269843,9 @@ Warlords III:
     - "{{Game data/config|Windows|{{p|game}}\\*.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves|{{p|game}}\\CAMPAIGN|{{p|game}}\\SCENARIO}}"
 "Warlords IV: Heroes of Etheria":
+  gog: 1462962180
   pageId: 171469
+  steam: 4834780
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ubi Soft\\Warlords IV\\Options}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saved Games\\|{{p|game}}\\Warlords\\}}"

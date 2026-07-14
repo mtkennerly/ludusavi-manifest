@@ -603981,6 +603981,16 @@
         oslist: windows
       executable: "Waka\\Binaries\\Win64\\PACMANChompChamps.exe"
       type: default
+2096570:
+  cloud:
+    saves:
+      - path: Theseus/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: "Another Fisherman's Tale"
+  launch:
+    - executable: Theseus.exe
+      type: vr
 2096600:
   installDir: Crysis2Remastered
   launch:
@@ -633635,6 +633645,18 @@
       description: Anno 1701 - History Edition
       executable: Anno1701.exe
       type: default
+2820220:
+  installDir: Housemates
+  launch:
+    - config:
+        oslist: windows
+      executable: Housemates.exe
+    - config:
+        oslist: macos
+      executable: Housemates.app
+    - config:
+        oslist: linux
+      executable: Housemates.sh
 2820820:
   installDir: Jotunnslayer Hordes of Hel
   launch:
@@ -653515,6 +653537,12 @@
 4824610:
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"
+4834760: {}
+4834780: {}
+4834810: {}
+4834830: {}
+4834840: {}
+4834850: {}
 4863030: {}
 4886450:
   nameLocalized:
