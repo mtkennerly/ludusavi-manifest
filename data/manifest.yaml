@@ -319546,6 +319546,8 @@ Haeven:
   steam:
     id: 508540
 Haex:
+  id:
+    lutris: haex
   steam:
     id: 3524720
 Hags Castle:
@@ -443429,6 +443431,11 @@ Mega Coin Squad:
       - when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Big Pixel Studios/Mega Coin Squad:
+      tags:
+        - config
+        - save
   steam:
     id: 312510
 Mega Hasan:

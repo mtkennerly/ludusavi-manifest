@@ -103536,6 +103536,7 @@ Haeven:
   pageId: 41815
   steam: 508540
 Haex:
+  lutris: haex
   pageId: 217286
   steam: 3524720
 Hags Castle:
@@ -143911,6 +143912,9 @@ Mega Balls:
 Mega Coin Squad:
   pageId: 49765
   steam: 312510
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Big Pixel Studios\\Mega Coin Squad\\}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Big Pixel Studios\\Mega Coin Squad\\}}"
 Mega Hasan:
   pageId: 155594
   steam: 1217100

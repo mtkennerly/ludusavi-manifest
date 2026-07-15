@@ -16523,7 +16523,6 @@
 * [Meet the Miner - WDR VR Bergwerk](https://www.pcgamingwiki.com/wiki/?curid=112204)
 * [Meet.Hunter](https://www.pcgamingwiki.com/wiki/?curid=93043)
 * [Mega Balls](https://www.pcgamingwiki.com/wiki/?curid=153005)
-* [Mega Coin Squad](https://www.pcgamingwiki.com/wiki/?curid=49765)
 * [Mega lo Mania](https://www.pcgamingwiki.com/wiki/?curid=175471)
 * [Mega Man](https://www.pcgamingwiki.com/wiki/?curid=73404)
 * [Mega Man 3](https://www.pcgamingwiki.com/wiki/?curid=73406)
