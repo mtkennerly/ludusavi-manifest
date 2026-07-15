@@ -2034,8 +2034,14 @@ $1 Ride:
   pageId: 144419
   steam: 1143420
 70s-Style Robot Anime Geppy-X:
+  cloud:
+    steam: true
+  malformed: true
   pageId: 215906
   steam: 4120310
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Implicit Conversions\\70s-style Robot Anime Geppy-X\\save.srm}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Implicit Conversions\\70s-style Robot Anime Geppy-X\\save.srm}}"
 "7554: Glorious Memories Revived":
   pageId: 162011
   templates:
@@ -8217,6 +8223,14 @@ Ahlman Arcade 2018:
 "Ahros: One Warrior Chronicle":
   pageId: 40325
   steam: 518110
+Ai Sp@ce:
+  lutris: ai-space
+  pageId: 218262
+  renamedFrom:
+    - Ai sp@ce
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\config\\option.dat}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\user\\save\\login.dat}}"
 Ai Yori Aoshi:
   pageId: 52035
   templates:
@@ -8225,12 +8239,6 @@ Ai Yori Aoshi:
 Ai no Uta あいのうた:
   pageId: 155432
   steam: 1212780
-Ai sp@ce:
-  lutris: ai-space
-  pageId: 218262
-  templates:
-    - "{{Game data/config|Windows|{{P|game}}\\config\\option.dat}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\user\\save\\login.dat}}"
 Aiball:
   pageId: 42605
   steam: 490990
@@ -18564,6 +18572,7 @@ Attack on Titan 2:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\KoeiTecmo\\Attack on Titan2_AOT2\\System\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\Attack on Titan2_AOT2\\SAVEDATA\\}}"
 Attack on Titan 3:
+  lutris: attack-on-titan-3
   pageId: 217295
   steam: 2916700
 Attack on Toys:
@@ -90268,6 +90277,8 @@ Fortnite:
     - "{{Game data/config|Windows|{{p|localappdata}}\\FortniteGame\\Saved\\Config\\WindowsClient}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\FortniteGame\\Saved\\SaveGames\\}}"
 Fortress Connected:
+  cloud:
+    steam: true
   pageId: 208160
   steam: 3561600
 "Fortress Europe: The Liberation of France":
@@ -132848,7 +132859,7 @@ Libra of the Vampire Princess:
   steam: 4197610
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Librarian\\Saved\\SaveGames\\SystemSetting.sav}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Librarian\\Saved\\SaveGames\\Sav.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Librarian\\Saved\\SaveGames\\Map*\\AutoSave*\\GameData.sav}}"
 Library:
   pageId: 104239
   steam: 865270
@@ -214366,6 +214377,11 @@ Spartan (2004):
 Spartan Fist:
   pageId: 62419
   steam: 632170
+Spartan Survivors:
+  cloud:
+    steam: true
+  pageId: 218394
+  steam: 3997630
 Spartan VR:
   pageId: 64902
   steam: 645860
@@ -263806,7 +263822,8 @@ Valkyrie Elysium:
   steam: 1963210
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\VALKYRIE_ELYSIUM\\Saved\\Config\\WindowsNoEditor\\{{note|Appears to contain no useful .ini files by default.}}}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\VALKYRIE ELYSIUM\\Steam\\{{p|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\VALKYRIE_ELYSIUM\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\VALKYRIE ELYSIUM\\Steam\\{{p|uid}}\\}}"
 Valkyrie no Densetsu:
   pageId: 188943
 Valkyrius Prime:

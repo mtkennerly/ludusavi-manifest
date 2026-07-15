@@ -624774,6 +624774,38 @@
       type: option3
 2524200: {}
 2524850:
+  cloud:
+    saves:
+      - path: "Denshattack_Proto/Saved/SaveGames/{64BitSteamID}"
+        pattern: DA_Main_RELEASE.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Denshattack_Proto/Saved/SaveGames/{64BitSteamID}"
+        pattern: DA_Screenshots.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Denshattack_Proto/Saved/SaveGames/{64BitSteamID}"
+        pattern: DA_InputUserSettings.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Denshattack_Proto/Saved/SaveGames/{64BitSteamID}"
+        pattern: DA_Main_RELEASE_SLOT2.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Denshattack_Proto/Saved/SaveGames/{64BitSteamID}"
+        pattern: DA_Main_RELEASE_SLOT3.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Denshattack
+  launch:
+    - config:
+        oslist: windows
+      executable: Denshattack_Proto.exe
   nameLocalized:
     japanese: 電車アタック
     koreana: 덴샤어택!
@@ -651677,6 +651709,20 @@
   launch:
     - executable: "Launch Maggie's Farmyard Adventure.bat"
       type: default
+3997630:
+  cloud:
+    saves:
+      - path: Bathrobe/Spartan Survivors
+        pattern: "*.ss"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Spartan Survivors
+  launch:
+    - config:
+        oslist: windows
+      executable: Spartan Survivors.exe
+      type: default
 4002600: {}
 4004630: {}
 4005370:
@@ -652173,6 +652219,18 @@
     - executable: ItReaches.exe
 4119710: {}
 4120310:
+  cloud:
+    saves:
+      - path: Implicit Conversions/70s-style Robot Anime Geppy-X
+        pattern: "*.srm"
+        root: WinAppDataRoaming
+  installDir: 70s-style Robot Anime GEPPY-X
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: geppyx.exe
+      type: default
   nameLocalized:
     english: 70s-style Robot Anime Geppy-X
     french: "Geppy-X, robot animé style années 70"
@@ -652525,6 +652583,7 @@
         pattern: "*.sav"
         platforms:
           - Windows
+        recursive: true
         root: WinAppDataLocal
   installDir: Librarian Tidy Up the Arcane Library!
   launch:

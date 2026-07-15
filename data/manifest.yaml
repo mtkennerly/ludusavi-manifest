@@ -6518,6 +6518,23 @@ $1 Ride:
   steam:
     id: 1143420
 70s-Style Robot Anime Geppy-X:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Implicit Conversions/70s-style Robot Anime Geppy-X/save.srm":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    70s-style Robot Anime GEPPY-X: {}
+  launch:
+    "<base>/geppyx.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4120310
 "7554: Glorious Memories Revived":
@@ -25894,6 +25911,20 @@ Ahlman Arcade 2018:
     Ahros One warrior chronicle: {}
   steam:
     id: 518110
+Ai Sp@ce:
+  files:
+    "<base>/config/option.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/user/save/login.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: ai-space
 Ai Yori Aoshi:
   files:
     "<base>/save":
@@ -25912,20 +25943,6 @@ Ai no Uta あいのうた:
             store: steam
   steam:
     id: 1212780
-Ai sp@ce:
-  files:
-    "<base>/config/option.dat":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<base>/user/save/login.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-  id:
-    lutris: ai-space
 Aiball:
   installDir:
     Aiball: {}
@@ -57501,6 +57518,8 @@ Attack on Titan 2:
   steam:
     id: 601050
 Attack on Titan 3:
+  id:
+    lutris: attack-on-titan-3
   steam:
     id: 2916700
 Attack on Toys:
@@ -190547,12 +190566,40 @@ Densha de Go! Final:
       tags:
         - config
 Denshattack!:
+  files:
+    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_InputUserSettings.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_Main_RELEASE.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_Main_RELEASE_SLOT2.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_Main_RELEASE_SLOT3.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_Screenshots.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: denshattack
     steamExtra:
       - 4142750
       - 4609680
       - 4719220
+  installDir:
+    Denshattack: {}
+  launch:
+    "<base>/Denshattack_Proto.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2524850
 Deorum Online:
@@ -278517,6 +278564,8 @@ Fortnite:
   id:
     lutris: fortnite
 Fortress Connected:
+  cloud:
+    steam: true
   steam:
     id: 3561600
 Fortress Forever:
@@ -409161,7 +409210,7 @@ Libra of the Vampire Princess:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Librarian/Saved/SaveGames/Sav.sav":
+    "<winLocalAppData>/Librarian/Saved/SaveGames/Map*/AutoSave*/GameData.sav":
       tags:
         - save
       when:
@@ -659221,6 +659270,23 @@ Spartan Fist:
             store: steam
   steam:
     id: 632170
+Spartan Survivors:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Bathrobe/Spartan Survivors/*.ss":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Spartan Survivors: {}
+  launch:
+    "<base>/Spartan Survivors.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3997630
 Spartan VR:
   installDir:
     Spartan VR: {}
@@ -808195,9 +808261,15 @@ Valkyrie Elysium:
         - save
       when:
         - os: windows
+          store: steam
     "<winLocalAppData>/VALKYRIE_ELYSIUM/Saved/Config/WindowsNoEditor":
       tags:
         - config
+      when:
+        - os: windows
+    "<winLocalAppData>/VALKYRIE_ELYSIUM/Saved/SaveGames":
+      tags:
+        - save
       when:
         - os: windows
   installDir:
