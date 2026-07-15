@@ -510955,10 +510955,16 @@ Ostriv:
   cloud:
     gog: true
   files:
-    "<home>/Saved Games/Ostriv/save/*.save":
+    "<home>/Saved Games/Ostriv/save":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<home>/Saved Games/Ostriv/settings.data":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1686311938
   installDir:

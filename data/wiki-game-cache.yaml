@@ -166328,6 +166328,9 @@ Ostriv:
   gog: 1686311938
   pageId: 145019
   steam: 773790
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Ostriv\\settings.data}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Ostriv\\save\\}}"
 Ostrofa:
   pageId: 145260
   steam: 1097300

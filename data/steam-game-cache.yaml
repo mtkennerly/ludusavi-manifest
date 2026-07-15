@@ -36663,6 +36663,8 @@
         oslist: windows
       description: Launch Child of Light
       executable: ChildofLight.exe
+  nameLocalized:
+    schinese: 光之子
 256330:
   cloud:
     saves:
@@ -512134,6 +512136,11 @@
       type: option1
     - config:
         betakey: booster
+      description: dev version
+      executable: teardown64_profile_steam.exe
+      type: option1
+    - config:
+        betakey: space
       description: dev version
       executable: teardown64_profile_steam.exe
       type: option1
