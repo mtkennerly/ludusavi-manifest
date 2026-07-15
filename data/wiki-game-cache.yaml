@@ -32630,8 +32630,10 @@ Brave Dungeon:
 Brave Dungeon II:
   pageId: 123515
   steam: 980220
-Brave Dwarves Creeping Shadows:
+"Brave Dwarves: Creeping Shadows":
   pageId: 212371
+  renamedFrom:
+    - Brave Dwarves Creeping Shadows
 "Brave Earth: Prologue":
   cloud:
     gog: true
@@ -72817,6 +72819,9 @@ ENKI:
 ENYO Arcade:
   pageId: 45702
   steam: 321330
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\ENYOArcade\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\ENYOArcade\\}}"
 ENZBOTS:
   pageId: 149111
   steam: 1068050
@@ -80734,7 +80739,7 @@ Extreme Sports:
   renamedFrom:
     - Xtreme Sports
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\pc\\gamedata.dat}}"
+    - "{{Game data/config|Windows|{{p|game}}\\pc\\gamedata.dat|{{p|game}}\\pc\\InputConfig.dat}}"
 Extreme Sprint 3010:
   pageId: 213888
 Extreme Tactical Executioners:
@@ -235286,6 +235291,8 @@ The Crimson Diamond:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\The Crimson Diamond - Full Game v1.0\\}}"
 The Crimson Maid:
   cloud:
+    epic: true
+    gog: true
     steam: true
     xbox: true
   gog: 1450252608
@@ -242265,11 +242272,16 @@ The Most Challenging Game:
   pageId: 79062
   steam: 762100
 "The Mound: Omen of Cthulhu":
+  cloud:
+    steam: true
   lutris: the-mound-omen-of-cthulhu
   pageId: 203422
   steam: 2569760
   steamSide:
     - 4669520
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\TheMound\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\TheMound\\Saved\\SaveGames\\TMSaveGame.sav}}"
 The Movie Trivia Challenge:
   pageId: 96911
   steam: 875790

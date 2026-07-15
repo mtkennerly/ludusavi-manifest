@@ -225598,6 +225598,13 @@ ENKI:
   steam:
     id: 377470
 ENYO Arcade:
+  files:
+    "<winLocalAppData>/ENYOArcade":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     ENYO ARCADE: {}
   launch:
@@ -250139,6 +250146,11 @@ Extreme Skiing VR:
     id: 542670
 Extreme Sports:
   files:
+    "<base>/pc/InputConfig.dat":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/pc/gamedata.dat":
       tags:
         - config
@@ -724477,13 +724489,27 @@ The Crimson Diamond:
     id: 1098770
 The Crimson Maid:
   cloud:
+    epic: true
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/CrimsonMaid/Saved/SaveGames/GameProgress_*.sav":
+      when:
+        - store: steam
   gog:
     id: 1450252608
   id:
     lutris: the-crimson-maid
     steamExtra:
       - 2697080
+  installDir:
+    The Crimson Maid: {}
+  launch:
+    "<base>/CrimsonMaid.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2695260
 The Crooked Man:
@@ -745422,10 +745448,31 @@ The Most Challenging Game:
   steam:
     id: 762100
 "The Mound: Omen of Cthulhu":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TheMound/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TheMound/Saved/SaveGames/TMSaveGame.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: the-mound-omen-of-cthulhu
     steamExtra:
       - 4669520
+  installDir:
+    The Mound: {}
+  launch:
+    "<base>/TheMound.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2569760
 The Movie Trivia Challenge:

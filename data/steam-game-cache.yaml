@@ -626251,7 +626251,21 @@
       type: default
   nameLocalized:
     schinese: "农夫王朝2 - Farmer's Dynasty 2"
-2569760: {}
+2569760:
+  cloud:
+    saves:
+      - path: TheMound/Saved/SaveGames
+        pattern: TMSaveGame*.sav
+        root: gameinstall
+      - path: TheMound/Saved/SaveGames
+        pattern: TMSaveGame*.sav
+        root: WinAppDataLocal
+  installDir: The Mound
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TheMound.exe
 2570210:
   cloud:
     saves:
@@ -630007,6 +630021,18 @@
       description: Play Path of Exile
       executable: PathOfExileSteam.exe
 2695260:
+  cloud:
+    saves:
+      - path: CrimsonMaid/Saved/SaveGames
+        pattern: GameProgress_*.sav
+        root: WinAppDataLocal
+  installDir: The Crimson Maid
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CrimsonMaid.exe
+      type: default
   nameLocalized:
     schinese: 绯色侍女 The Crimson Maid
 2695270:
