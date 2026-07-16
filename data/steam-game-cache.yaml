@@ -143511,6 +143511,10 @@
       executable: Golf With Your Friends.exe
       type: none
     - config:
+        betakey: wak_creative
+      executable: Golf With Friends.exe
+      type: default
+    - config:
         oslist: macos
       executable: Golf With Your Friends.app
       type: none
@@ -630882,6 +630886,29 @@
       description: LinLaunch
       executable: DungeonVixens
       type: default
+2711030:
+  cloud:
+    saves:
+      - path: rokaplay GmbH/Sugardew Island
+        pattern: "*.sdi"
+        root: WinAppDataLocalLow
+      - path: rokaplay GmbH/Sugardew Island
+        pattern: "*.xta"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: WinAppDataLocalLow
+  installDir: Sugardew Island
+  launch:
+    - config:
+        oslist: windows
+      executable: Sugardew Island.exe
+  nameLocalized:
+    japanese: Sugardew Island - 島の生活と農園のお店
+    schinese: 甘露岛 - 温馨的农场商店
 2712550:
   cloud:
     saves:
@@ -641851,6 +641878,14 @@
     spanish: "The Elf on the Shelf®: Héroes de la Navidad"
     tchinese: "The Elf on the Shelf®: 聖誕節英雄"
     turkish: "The Elf on the Shelf®: Noel Kahramanları"
+3211430:
+  nameLocalized:
+    english: BRIGANDINE ABYSS
+    french: BRIGANDINE ABYSS
+    german: BRIGANDINE ABYSS
+    japanese: ブリガンダイン アビス
+    schinese: 幻想大陆战记 深渊
+    tchinese: 幻想大陸戰記 深淵
 3211490:
   cloud:
     saves:
@@ -649537,7 +649572,9 @@
     tchinese: 卡片魔王：只剩個頭！
 3720440: {}
 3720530: {}
-3722330: {}
+3722330:
+  nameLocalized:
+    schinese: 午夜轮班
 3726250:
   installDir: My Little Cafe Nightmare
   launch:

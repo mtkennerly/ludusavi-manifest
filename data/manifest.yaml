@@ -52748,6 +52748,11 @@ Asphyxia:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Ubisoft/Assassin's Creed Black Flag Resynced/save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: assassins-creed-black-flag-resynced
     steamExtra:
@@ -103385,6 +103390,11 @@ Brigador Killers:
     Brigand: {}
   steam:
     id: 652410
+Brigandine Abyss:
+  id:
+    lutris: brigandine-abyss
+  steam:
+    id: 3211430
 "Brigandine: The Legend of Runersia":
   cloud:
     steam: true
@@ -686042,6 +686052,27 @@ SugarMill:
             store: steam
   steam:
     id: 538990
+Sugardew Island:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/rokaplay GmbH/Sugardew Island":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1549126051
+  installDir:
+    Sugardew Island: {}
+  launch:
+    "<base>/Sugardew Island.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2711030
 Sugy the Christmas Elf:
   installDir:
     Sugy the Christmas elf: {}
@@ -813079,6 +813110,12 @@ Vietnam ‘65:
       when:
         - os: windows
 "Vietnam: Ho Chi Minh Trail":
+  files:
+    "<base>/Ini":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: vietnam-ho-chi-minh-trail
 Viewfinder:

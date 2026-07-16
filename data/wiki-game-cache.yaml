@@ -16954,6 +16954,7 @@ Assassin 2015:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Black Flag Resynced\\ACBlackFlag.ini}}"
     - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\66088\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{P|localappdata}}\\Ubisoft\\Assassin's Creed Black Flag Resynced\\save}}"
 "Assassin's Creed: Brotherhood":
   lutris: assassins-creed-brotherhood
   pageId: 222
@@ -33391,6 +33392,10 @@ Brigador Killers:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Settings.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
+Brigandine Abyss:
+  lutris: brigandine-abyss
+  pageId: 218411
+  steam: 3211430
 "Brigandine: The Legend of Runersia":
   cloud:
     steam: true
@@ -204083,6 +204088,8 @@ Shift 87:
   pageId: 210419
   steam: 2981650
 Shift At Midnight:
+  cloud:
+    xbox: true
   lutris: shift-at-midnight
   pageId: 210611
   steam: 3722330
@@ -223169,6 +223176,15 @@ Sugar Fruit Match:
 SugarMill:
   pageId: 54796
   steam: 538990
+Sugardew Island:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1549126051
+  pageId: 218417
+  steam: 2711030
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\rokaplay GmbH\\Sugardew Island}}"
 Sugy the Christmas Elf:
   pageId: 76195
   steam: 748130
@@ -253660,6 +253676,8 @@ Tourist Bus Simulator:
 Tourists Kidnapped a Little Bear:
   pageId: 56735
   steam: 580420
+Tournament Golf:
+  pageId: 218404
 "Tournament: Blood & Steel":
   pageId: 139027
   steam: 1040620
@@ -265413,6 +265431,8 @@ Vietnam ‘65:
 "Vietnam: Ho Chi Minh Trail":
   lutris: vietnam-ho-chi-minh-trail
   pageId: 194387
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Ini}}"
 Viewfinder:
   cloud:
     epic: true
