@@ -13193,11 +13193,19 @@
 65790:
   installDir: ARMA Cold War Assault
   launch:
-    - executable: ColdWarAssault.exe
-    - arguments: "-window"
-      description: Launch in Windowed mode
+    - config:
+        oslist: windows
+      description: "Launch Arma: Cold War Assault Remastered."
+      executable: /Remastered/PoseidonGame.exe
+      workingdir: /Remastered/
+    - description: "Launch Arma: Cold War Assault Legacy"
       executable: ColdWarAssault.exe
-    - description: Configure Advanced Options
+    - config:
+        oslist: linux
+      description: "Launch Arma: Cold War Assault Remastered (Linux native version)."
+      executable: /Remastered/PoseidonGame
+      workingdir: /Remastered/
+    - description: "Launch Arma: Cold War Assault Legacy preferences."
       executable: ColdWarAssaultPreferences.exe
 65800:
   cloud:
@@ -651095,7 +651103,27 @@
         oslist: windows
       executable: PRIVETETONEBOLNO.exe
       type: default
-3914860: {}
+3914860:
+  cloud:
+    saves:
+      - path: MossCollection/Saved/SaveGames
+        pattern: "*Game_*.sav"
+        root: WinAppDataLocal
+      - path: MossCollection/Saved/SaveGames
+        pattern: "*Global.sav"
+        root: WinAppDataLocal
+  installDir: Moss The Forgotten Relic
+  launch:
+    - description: Launcher EXE
+      executable: MossCollection.exe
+      type: option1
+  nameLocalized:
+    brazilian: "Moss: A Relíquia Esquecida"
+    french: "Moss : La relique oubliée"
+    japanese: "Moss: 忘れられた秘宝"
+    koreana: "Moss: 잊혀진 유물"
+    schinese: Moss：遗落圣物
+    tchinese: Moss：失落的遺物
 3915220:
   installDir: Love Too Easily 2
   launch:

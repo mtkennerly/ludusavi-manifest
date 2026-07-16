@@ -48055,12 +48055,19 @@ Arma Tactics:
     "<base>/ColdWarAssault.exe":
       - when:
           - store: steam
-      - arguments: "-window"
-        when:
-          - store: steam
     "<base>/ColdWarAssaultPreferences.exe":
       - when:
           - store: steam
+    "<base>/Remastered/PoseidonGame":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Remastered"
+    "<base>/Remastered/PoseidonGame.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Remastered"
   steam:
     id: 65790
 Armada 2526:
@@ -190576,6 +190583,8 @@ Densha de Go! Final:
       tags:
         - config
 Denshattack!:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_InputUserSettings.sav":
       when:
@@ -466262,10 +466271,20 @@ Moss Destruction:
 "Moss: The Forgotten Relic":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/MossCollection/Saved/SaveGames/*Game_*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/MossCollection/Saved/SaveGames/*Global.sav":
+      when:
+        - store: steam
   id:
     lutris: moss-the-forgotten-relic
     steamExtra:
       - 4607010
+      - 4892580
+  installDir:
+    Moss The Forgotten Relic: {}
   steam:
     id: 3914860
 Most Correct Football Simulator:
@@ -653463,6 +653482,7 @@ South Park Rally:
       - 1756941374
       - 1772769936
       - 2033233668
+    lutris: south-park-snow-day
     steamExtra:
       - 2534280
       - 2717700
@@ -745570,7 +745590,11 @@ The Most Challenging Game:
   id:
     lutris: the-mound-omen-of-cthulhu
     steamExtra:
+      - 4630440
+      - 4630450
+      - 4630460
       - 4669520
+      - 4925780
   installDir:
     The Mound: {}
   launch:

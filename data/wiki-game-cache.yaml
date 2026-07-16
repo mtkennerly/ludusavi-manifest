@@ -59462,6 +59462,10 @@ Deathmatch Classic:
     - "{{Game data/config|Windows|{{p|game}}\\Half-Life\\dmc\\}}"
     - "{{Game data/config|OS X|{{p|game}}/Half-Life/dmc/}}"
     - "{{Game data/config|Linux|{{p|game}}/Half-Life/dmc/}}"
+"Deathmatch Classic: Threewave CTF":
+  pageId: 206577
+  renamedFrom:
+    - "Half-Life: Threewave"
 Deathmatch Soccer:
   pageId: 73877
   steam: 721960
@@ -61356,6 +61360,7 @@ Densha de Go! Final:
     - "{{Game data/saves|Windows|{{P|appdata}}\\TAITO\\perfect\\BISLPM-65590fin\\}}"
 Denshattack!:
   cloud:
+    steam: true
     xbox: true
   lutris: denshattack
   pageId: 207242
@@ -103968,8 +103973,6 @@ Half-Life Legacy:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Valve\\Source\\hl1\\Settings}}"
     - "{{Game data/config|Steam|{{p|game}}/hl1/cfg/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/SteamApps/common/Half-Life 2/hl1/save/|{{p|steam}}/SteamApps/common/Half-Life 2/hl1/cfg/config.cfg<ref>{{Refcheck|user=Taylor.mabby654|date=2024-07-01|comment=Contains chapter progress}}</ref>}}"
-"Half-Life: Threewave":
-  pageId: 206577
 "Half-Life: VR Mod":
   pageId: 196258
   steam: 1908720
@@ -151641,6 +151644,7 @@ Moss Destruction:
   steam: 3914860
   steamSide:
     - 4607010
+    - 4892580
 Most Correct Football Simulator:
   pageId: 136471
   steam: 1081710
@@ -212462,6 +212466,7 @@ South Park Rally:
     - 1756941374
     - 1772769936
     - 2033233668
+  lutris: south-park-snow-day
   pageId: 190819
   steam: 1214650
   steamSide:
@@ -242312,11 +242317,16 @@ The Most Challenging Game:
 "The Mound: Omen of Cthulhu":
   cloud:
     steam: true
+    xbox: true
   lutris: the-mound-omen-of-cthulhu
   pageId: 203422
   steam: 2569760
   steamSide:
+    - 4630440
+    - 4630450
+    - 4630460
     - 4669520
+    - 4925780
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\TheMound\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\TheMound\\Saved\\SaveGames\\TMSaveGame.sav}}"
