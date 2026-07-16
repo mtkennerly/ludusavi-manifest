@@ -576397,10 +576397,14 @@
     saves:
       - path: RoboCop/Saved/SaveGames
         pattern: "*.sav"
-        platforms:
-          - Windows
         recursive: true
         root: WinAppDataLocal
+    overrides:
+      - addPath: Epic/
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
   installDir: Robocop Rogue City
   launch:
     - config:
