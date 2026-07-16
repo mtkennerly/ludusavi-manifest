@@ -615738,6 +615738,11 @@ Secret Agent:
     id: 358350
 Secret Agent Barbie:
   files:
+    "<base>/Save/GTPrefs.bin":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/Saves":
       tags:
         - save
@@ -625852,6 +625857,10 @@ Sheepo:
   steam:
     id: 1281790
 "Sheepy: A Short Adventure":
+  id:
+    lutris: sheepy-a-short-adventure
+    steamExtra:
+      - 2779500
   installDir:
     Sheepy A Short Adventure: {}
   launch:
