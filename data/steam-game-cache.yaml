@@ -578664,8 +578664,17 @@
         oslist: windows
       executable: Loco Motive.exe
       type: default
+    - config:
+        oslist: macos
+      executable: Loco Motive.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Loco Motive
+      type: default
   nameLocalized:
     koreana: "로코 모티브: 로이스 특급 살인"
+    schinese: 罗伊斯号快车谋杀案
 1710100:
   cloud:
     saves:
@@ -624986,6 +624995,36 @@
   nameLocalized:
     japanese: 鈴蘭の剣：この平和な世界のために
 2527160:
+  cloud:
+    saves:
+      - path: Recurring Dream/DesktopExplorer/de-gamedata
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Recurring Dream/DesktopExplorer/de-gamedata
+            replace: unity3d/Recurring Dream/DesktopExplorer/de-gamedata
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Desktop Explorer
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DesktopExplorer.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: DesktopExplorer.app
+      type: default
   nameLocalized:
     schinese: 桌面探索者
     tchinese: 桌面探索者
@@ -625422,6 +625461,14 @@
         oslist: windows
       executable: BattlestarGalacticaScatteredHopes.exe
       type: default
+    - arguments: "-force-gfx-direct"
+      config:
+        betakey: external_qa
+        osarch: "64"
+        oslist: windows
+      description: Start game (Single-thread rendering)
+      executable: BattlestarGalacticaScatteredHopes.exe
+      type: option1
 2536510:
   nameLocalized:
     sc_schinese: 逆神者

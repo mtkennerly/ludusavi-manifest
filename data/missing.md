@@ -7072,7 +7072,6 @@
 * [Desire Gambling House/欲望赌馆](https://www.pcgamingwiki.com/wiki/?curid=144826)
 * [Desire: Remaster Version](https://www.pcgamingwiki.com/wiki/?curid=198689)
 * [Desktop Dynasties: Pro Football](https://www.pcgamingwiki.com/wiki/?curid=120778)
-* [Desktop Explorer](https://www.pcgamingwiki.com/wiki/?curid=210219)
 * [Desktop Girls](https://www.pcgamingwiki.com/wiki/?curid=145945)
 * [Desktop Jumpscares](https://www.pcgamingwiki.com/wiki/?curid=180264)
 * [Desktop Soccer](https://www.pcgamingwiki.com/wiki/?curid=125390)

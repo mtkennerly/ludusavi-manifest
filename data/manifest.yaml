@@ -6871,7 +6871,7 @@ $1 Ride:
         - save
       when:
         - os: mac
-    "<winAppData>/Roaming/8bitcommando":
+    "<winAppData>/8bitcommando":
       tags:
         - config
         - save
@@ -73695,9 +73695,10 @@ Battlestar Galactica Deadlock:
     steam: true
   files:
     "<home>/AppData/LocalLow/Alt Shift/Battlestar Galactica Scattered Hopes/Saves":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   gog:
     id: 1615322203
   installDir:
@@ -192396,10 +192397,36 @@ Desktop Dungeons Rewind:
   steam:
     id: 909630
 Desktop Explorer:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Recurring Dream/DesktopExplorer/de-gamedata":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Recurring Dream/DesktopExplorer/de-gamedata":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/Recurring Dream/DesktopExplorer/de-gamedata":
+      when:
+        - os: linux
+          store: steam
   id:
     lutris: desktop-explorer
     steamExtra:
       - 2533590
+  installDir:
+    Desktop Explorer: {}
+  launch:
+    "<base>/DesktopExplorer.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/DesktopExplorer.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2527160
 Desktop Girls:
@@ -382363,13 +382390,21 @@ Kamer:
   steam:
     id: 1135130
 Kami:
+  cloud:
+    steam: true
   files:
-    "<winAppData>/com.stateofplaygames.steam.kami/Local Store":
+    "<winAppData>/com.stateofplaygames.steam.kami/Local Store/KAMI":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/com.stateofplaygames.steam.kami/Local Store/KAMI/progress":
+      tags:
         - save
       when:
         - os: windows
+  id:
+    lutris: kami
   installDir:
     KAMI: {}
   launch:
@@ -415632,6 +415667,14 @@ Loco Motive:
   installDir:
     Loco Motive: {}
   launch:
+    "<base>/Loco Motive":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Loco Motive.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Loco Motive.exe":
       - when:
           - os: windows
@@ -742172,6 +742215,7 @@ The Lewd Knight:
     id: 1129520
 The Life and Suffering of Sir Brante:
   cloud:
+    epic: true
     gog: true
   files:
     "<home>/AppData/LocalLow/SEVER/The Life and Suffering of Sir Brante/GameSettings.txt":
@@ -841771,6 +841815,11 @@ Wolfenstein 3D:
     steam: true
   files:
     "<home>/Saved Games/MachineGames/Wolfenstein II The New Colossus/base/Wolfenstein II The New ColossusConfig.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/Saved Games/MachineGames/Wolfenstein II The New Colossus/base/Wolfenstein II The New ColossusConfig.local":
       tags:
         - config
       when:

@@ -2177,10 +2177,10 @@ $1 Ride:
   pageId: 23940
   steam: 287860
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Roaming\\8bitcommando\\}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\8bitcommando\\}}"
     - "{{Game data/config|OS X|/Users/user/Library/Application Support/8bitcommando/}}"
     - "{{Game data/config|Linux|$XDG_DATA_HOME/8bitcommando/}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\Roaming\\8bitcommando\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\8bitcommando\\}}"
     - "{{Game data/saves|OS X|/Users/user/Library/Application Support/8bitcommando/}}"
     - "{{Game data/saves|Linux|$XDG_DATA_HOME/8bitcommando/}}"
 "8-bit Adventure Anthology: Volume I":
@@ -23794,6 +23794,8 @@ Battlestar Galactica Deadlock:
   gog: 1615322203
   pageId: 208579
   steam: 2535950
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Alt Shift\\Battlestar Galactica Scattered Hopes\\Saves}}"
 "Battlestations: Midway":
   pageId: 18628
   steam: 6870
@@ -61902,6 +61904,8 @@ Desktop Dungeons Rewind:
   pageId: 120778
   steam: 909630
 Desktop Explorer:
+  cloud:
+    steam: true
   lutris: desktop-explorer
   pageId: 210219
   steam: 2527160
@@ -124001,11 +124005,14 @@ Kamer:
   pageId: 155390
   steam: 1135130
 Kami:
+  cloud:
+    steam: true
+  lutris: kami
   pageId: 18586
   steam: 272040
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\com.stateofplaygames.steam.kami\\Local Store\\}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\com.stateofplaygames.steam.kami\\Local Store\\}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\com.stateofplaygames.steam.kami\\Local Store\\KAMI\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\com.stateofplaygames.steam.kami\\Local Store\\KAMI\\progress\\}}"
 "Kami Quest: Enter the Imagynasium":
   lutris: kami-quest-enter-the-imagynasium
   pageId: 214436
@@ -241222,6 +241229,7 @@ The Lewd Knight:
   steam: 1129520
 The Life and Suffering of Sir Brante:
   cloud:
+    epic: true
     gog: true
   gog: 2051960062
   gogSide:
@@ -274954,7 +274962,7 @@ Wolfenstein 3D:
     - 650500
     - 754730
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\MachineGames\\Wolfenstein II The New Colossus\\base\\Wolfenstein II The New ColossusConfig.cfg}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\MachineGames\\Wolfenstein II The New Colossus\\base\\Wolfenstein II The New ColossusConfig.cfg|{{p|userprofile}}\\Saved Games\\MachineGames\\Wolfenstein II The New Colossus\\base\\Wolfenstein II The New ColossusConfig.local}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\MachineGames\\Wolfenstein II The New Colossus\\base\\savegame.user}}"
 "Wolfenstein: Cyberpilot":
   cloud:
