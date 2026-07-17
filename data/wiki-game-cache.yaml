@@ -48,6 +48,9 @@
 $1 Ride:
   pageId: 41997
   steam: 508290
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Back to Basics Gaming\\1$ Ride}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Back to Basics Gaming\\1$ Ride}}"
 "'83":
   pageId: 136088
   steam: 1059220
@@ -15441,6 +15444,8 @@ Arma Tactics:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/vpltd/ArmaColdWarAssault/ColdWarAssault.cfg|~/.local/share/vpltd/ArmaColdWarAssault/SavedGames/{{p|uid}}/UserInfo.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Users\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/vpltd/SavedGames}}"
+"Arma: Cold War Assault Remastered":
+  pageId: 218446
 Armada 2526:
   pageId: 40997
   steam: 46790
@@ -41072,6 +41077,8 @@ Cheese Maze:
 Cheese Rolling:
   pageId: 218099
   steam: 3809440
+  templates:
+    - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\LocalLow\\The Interviewed\\CheeseRolling}}"
 Cheesecake Cool Conrad:
   pageId: 49536
   steam: 327210
@@ -86106,7 +86113,8 @@ Final Fantasy:
   steam: 1173770
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\SQUARE ENIX, Inc.\\FINAL FANTASY}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY PR\\Steam\\{{P|uid}}}}"
+    - "{{Game data/saves|Steam|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY PR\\Steam\\{{P|uid}}}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\39EA002F.FF1DF_n746a19ndrrjg\\SystemAppData\\wgs\\{{P|uid}}}}"
 Final Fantasy II:
   cloud:
     steam: true
@@ -125503,8 +125511,11 @@ Killer Is Dead:
     - "{{Game data/saves|Windows|{{p|game}}\\KidGame\\SaveData\\KID.sav}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\261110\\remote\\profile.bin}}"
 "Killer Klowns from Outer Space: The Game":
+  lutris: killer-klowns-from-outer-space-the-game
   pageId: 182121
   steam: 1556100
+  steamSide:
+    - 2736800
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Diony\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Diony\\Saved\\SaveGames}}"
@@ -253368,6 +253379,9 @@ Touhou Fumo Racing:
   pageId: 195401
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\HonkyHood\\TouhouFumoRacing}}"
+Touhou Gaiden:
+  pageId: 218444
+  steam: 4849120
 Touhou Genso Wanderer Reloaded:
   cloud:
     steam: true

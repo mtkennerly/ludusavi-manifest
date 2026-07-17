@@ -92,6 +92,11 @@ $1 Ride:
     "<base>/ride.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Back to Basics Gaming/1$ Ride:
+      tags:
+        - config
+        - save
   steam:
     id: 508290
 "'83":
@@ -127332,6 +127337,12 @@ Cheese Maze:
   steam:
     id: 819550
 Cheese Rolling:
+  files:
+    "<home>/AppData/LocalLow/The Interviewed/CheeseRolling":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Cheese Rolling: {}
   launch:
@@ -265463,6 +265474,13 @@ Final Fantasy:
         - save
       when:
         - os: windows
+          store: steam
+    "<winLocalAppData>/Packages/39EA002F.FF1DF_n746a19ndrrjg/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     FINAL FANTASY PR: {}
   registry:
@@ -386952,6 +386970,10 @@ Killer Is Dead:
         - save
       when:
         - os: windows
+  id:
+    lutris: killer-klowns-from-outer-space-the-game
+    steamExtra:
+      - 2736800
   installDir:
     KKFOS: {}
   launch:
@@ -778920,6 +778942,9 @@ Touhou Fumo Racing:
     HKEY_CURRENT_USER/SOFTWARE/HonkyHood/TouhouFumoRacing:
       tags:
         - config
+Touhou Gaiden:
+  steam:
+    id: 4849120
 Touhou Genso Wanderer -Reloaded- / 不可思议的幻想乡TOD -RELOADED- / 不思議の幻想郷TOD -RELOADED-:
   alias: Touhou Genso Wanderer Reloaded
 Touhou Genso Wanderer Reloaded:
