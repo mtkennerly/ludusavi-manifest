@@ -79404,6 +79404,16 @@ Between Horizons:
     gog: true
     steam: true
   files:
+    "<home>/AppData/LocalLow/DigiTales Interactive/Between Horizons/[store name]/lastsave.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/DigiTales Interactive/Between Horizons/[store name]/settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/DigiTales Interactive/Between Horizons/steam/<storeUserId>":
       tags:
         - save
@@ -79422,6 +79432,10 @@ Between Horizons:
     "<base>/Between Horizons.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/DigiTales Interactive/Between Horizons:
+      tags:
+        - config
   steam:
     id: 1921980
 Between Me and The Night:
@@ -82278,6 +82292,38 @@ Bing in Wonderland:
           - store: steam
   steam:
     id: 1710100
+Bingle Bingle:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/BingleBingle/**/*.save":
+      when:
+        - store: steam
+    "<xdgData>/godot/app_userdata/BingleBingle/*.save":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Bingle Bingle: {}
+  launch:
+    "<base>/bb_linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+      - arguments: "--rendering-method mobile"
+        when:
+          - os: linux
+            store: steam
+    "<base>/bb_windows.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-method mobile"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2789810
 Bingo Hall:
   installDir:
     Bingo Hall: {}
@@ -118678,8 +118724,18 @@ Carpet Bombing:
     id: 1210970
 Carpet Cleaning Simulator:
   id:
+    lutris: carpet-cleaning-simulator
     steamExtra:
       - 4798550
+  installDir:
+    絨毯を洗うゲーム: {}
+  launch:
+    "<base>/Carpet.app":
+      - when:
+          - store: steam
+    "<base>/SteamBuild/Carpet.exe":
+      - when:
+          - store: steam
   steam:
     id: 4634560
 Carreras de Velocidad:
@@ -156471,6 +156527,8 @@ Crazy Taxi (Steam):
       when:
         - os: windows
 "Crazy Taxi: World Tour":
+  id:
+    lutris: crazy-taxi-world-tour
   steam:
     id: 2924540
 Crazy Toad:
@@ -164852,7 +164910,7 @@ Cult of the Lamb:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Massive Monster/Cult Of The Lamb/saves/meta_*.json":
+    "<home>/AppData/LocalLow/Massive Monster/Cult Of The Lamb/saves":
       tags:
         - save
       when:
@@ -164865,11 +164923,6 @@ Cult of the Lamb:
     "<home>/AppData/LocalLow/Massive Monster/Cult Of The Lamb/saves/settings.json":
       tags:
         - config
-      when:
-        - os: windows
-    "<home>/AppData/LocalLow/Massive Monster/Cult Of The Lamb/saves/slot_*.json":
-      tags:
-        - save
       when:
         - os: windows
     "<home>/Library/Application Support/Massive Monster/Cult Of The Lamb/saves":
@@ -425232,6 +425285,7 @@ Lusty God:
     id: 2300660
 Luto:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Luto/Saved/Config/Windows":
@@ -670573,6 +670627,8 @@ Star Wars Outlaws:
   id:
     lutris: star-wars-yoda-stories
 "Star Wars: Zero Company":
+  id:
+    lutris: star-wars-zero-company
   steam:
     id: 2075800
 Star Wolves:
@@ -735826,6 +735882,71 @@ The Impure:
 The Incident at Galley House:
   cloud:
     steam: true
+  files:
+    "<base>/*slot1.json":
+      when:
+        - store: steam
+    "<base>/*slot2.json":
+      when:
+        - store: steam
+    "<base>/*slot3.json":
+      when:
+        - store: steam
+    "<home>/.local/share/godot/app_userdata/The Incident at Galley House/*slot1.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/godot/app_userdata/The Incident at Galley House/*slot2.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/godot/app_userdata/The Incident at Galley House/*slot3.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/The Incident at Galley House/*slot1.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/The Incident at Galley House/*slot2.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/The Incident at Galley House/*slot3.json":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Godot/app_userdata/The Incident at Galley House/*slot1.json":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Godot/app_userdata/The Incident at Galley House/*slot2.json":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Godot/app_userdata/The Incident at Galley House/*slot3.json":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: the-incident-at-galley-house
+  installDir:
+    The Incident at Galley House: {}
+  launch:
+    "<base>/galleyhouse":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/galleyhouse.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/galleyhouse.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3641000
 The Incredible Adventures of Super Panda:

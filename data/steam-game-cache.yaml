@@ -632908,6 +632908,48 @@
   launch:
     - executable: CULT_VS_GAL.exe
 2789680: {}
+2789810:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/BingleBingle
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/BingleBingle
+            replace: godot/app_userdata/BingleBingle
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: Bingle Bingle
+  launch:
+    - config:
+        oslist: windows
+      description: Default Option
+      executable: bb_windows.exe
+      type: default
+    - config:
+        oslist: linux
+      description: Default Option
+      executable: bb_linux.x86_64
+      type: default
+    - arguments: "--rendering-method mobile"
+      config:
+        oslist: windows
+      description: Performance mode(Older Device)
+      executable: bb_windows.exe
+    - arguments: "--rendering-method mobile"
+      config:
+        oslist: linux
+      description: Performance mode(Older Device)
+      executable: bb_linux.x86_64
+  nameLocalized:
+    japanese: Bingle Bingle / ビングルビングル
+    koreana: 빙글빙글 / Bingle Bingle
+    russian: Bingle Bingle / Бингл Бингл
+    schinese: 疯狂轮盘 / Bingle Bingle
 2790000:
   cloud:
     saves:
@@ -648692,7 +648734,54 @@
       type: default
   nameLocalized:
     japanese: アーネスト・エバンスCOLLECTION
-3641000: {}
+3641000:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*slot1.json"
+        root: gameinstall
+      - path: ""
+        pattern: "*slot2.json"
+        root: gameinstall
+      - path: ""
+        pattern: "*slot3.json"
+        root: gameinstall
+    overrides:
+      - addPath: "Godot\\app_userdata\\The Incident at Galley House"
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataRoaming
+      - addPath: Godot/app_userdata/The Incident at Galley House
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+      - addPath: ".local/share/godot/app_userdata/The Incident at Galley House"
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxHome
+  installDir: The Incident at Galley House
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: galleyhouse.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: galleyhouse.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: galleyhouse
+      type: default
+  nameLocalized:
+    french: "L'Affaire de la Maison Galley"
+    japanese: ギャリー邸事件
+    schinese: 加利宅邸悬案
 3641250: {}
 3641830: {}
 3642010: {}
@@ -652264,7 +652353,10 @@
     - config:
         oslist: windows
       executable: chakana.exe
-4108000: {}
+4108000:
+  nameLocalized:
+    schinese: 机械狂欢
+    tchinese: " 機械狂歡"
 4111390:
   installDir: Project Mandarine
   launch:
@@ -653612,6 +653704,12 @@
 4605490: {}
 4624100: {}
 4634560:
+  installDir: 絨毯を洗うゲーム
+  launch:
+    - description: Windows
+      executable: "SteamBuild\\Carpet.exe"
+    - description: Mac
+      executable: Carpet.app
   nameLocalized:
     english: Carpet Cleaning Simulator
     japanese: 絨毯を洗うゲーム

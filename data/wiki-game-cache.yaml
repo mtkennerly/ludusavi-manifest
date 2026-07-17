@@ -16218,6 +16218,8 @@ Artizens:
   steam: 339540
   steamSide:
     - 354570
+Artura:
+  pageId: 218432
 Artus et le grimoire secret:
   pageId: 209929
 Arvale:
@@ -16953,8 +16955,8 @@ Assassin 2015:
     - 4496660
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Black Flag Resynced\\ACBlackFlag.ini}}"
-    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\66088\\}}"
     - "{{Game data/saves|Ubisoft Connect|{{P|localappdata}}\\Ubisoft\\Assassin's Creed Black Flag Resynced\\save}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\66088\\}}"
 "Assassin's Creed: Brotherhood":
   lutris: assassins-creed-brotherhood
   pageId: 222
@@ -25796,6 +25798,8 @@ Between Horizons:
   pageId: 184777
   steam: 1921980
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\DigiTales Interactive\\Between Horizons\\[store name]\\settings.xml|{{p|hkcu}}\\Software\\DigiTales Interactive\\Between Horizons\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\DigiTales Interactive\\Between Horizons\\[store name]\\lastsave.txt}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\DigiTales Interactive\\Between Horizons\\steam\\{{p|uid}}\\}}"
 Between Me and The Night:
   pageId: 44854
@@ -26680,6 +26684,11 @@ Bing in Wonderland:
     - 3134450
     - 3134460
     - 3134470
+Bingle Bingle:
+  cloud:
+    steam: true
+  pageId: 218440
+  steam: 2789810
 Bingo Hall:
   pageId: 156264
   steam: 1219230
@@ -38393,6 +38402,7 @@ Carpet Bombing:
   pageId: 155713
   steam: 1210970
 Carpet Cleaning Simulator:
+  lutris: carpet-cleaning-simulator
   pageId: 217367
   steam: 4634560
   steamSide:
@@ -50369,6 +50379,7 @@ Crazy Taxi (Steam):
     - "{{Game data/config|Windows|{{p|game}}\\TAXI3.CFG}}"
     - "{{Game data/saves|Windows|{{p|game}}\\game}}"
 "Crazy Taxi: World Tour":
+  lutris: crazy-taxi-world-tour
   pageId: 217462
   steam: 2924540
 Crazy Toad:
@@ -53060,7 +53071,7 @@ Cult of the Lamb:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Massive Monster\\Cult Of The Lamb\\|{{p|userprofile\\appdata\\locallow}}\\Massive Monster\\Cult Of The Lamb\\saves\\settings.json|{{p|userprofile\\appdata\\locallow}}\\Massive Monster\\Cult Of The Lamb\\saves\\persistence.json}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Massive Monster/Cult Of The Lamb/saves/}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Massive Monster\\Cult Of The Lamb\\saves\\slot_*.json|{{p|userprofile\\appdata\\locallow}}\\Massive Monster\\Cult Of The Lamb\\saves\\meta_*.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Massive Monster\\Cult Of The Lamb\\saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Massive Monster/Cult Of The Lamb/saves/}}"
 Cult of the Wind:
   pageId: 50029
@@ -94290,6 +94301,8 @@ Game Master Plus:
     steam: true
   pageId: 132404
   steam: 1055890
+Game Over II:
+  pageId: 218427
 Game Room:
   pageId: 12675
   templates:
@@ -102008,6 +102021,8 @@ Gubble 2:
 Gubble HD:
   pageId: 215778
   steam: 1090920
+Guerrilla War:
+  pageId: 218430
 Guess Da Meme:
   pageId: 96553
   steam: 869110
@@ -112518,6 +112533,8 @@ Hotline Miami:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\HotlineMiami2\\savedata.vfs}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/HotlineMiami2/savedata.vfs}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/HotlineMiami2/savedata.vfs}}"
+Hotshot:
+  pageId: 218434
 Hotshot Racing:
   pageId: 163232
   steam: 609920
@@ -138001,6 +138018,7 @@ Lusty God:
   steam: 2300660
 Luto:
   cloud:
+    epic: true
     steam: true
   lutris: luto
   pageId: 206265
@@ -196028,6 +196046,8 @@ S.T.O.R.M.:
 S.T.R.E.T.C.H.:
   pageId: 93867
   steam: 859610
+S.T.U.N. Runner:
+  pageId: 218438
 S.U.B.:
   pageId: 81952
   steam: 765140
@@ -218178,6 +218198,7 @@ Star Wars Outlaws:
   templates:
     - "{{Game data/config|Windows|{{p|windir}}\\Yodesk.ini}}"
 "Star Wars: Zero Company":
+  lutris: star-wars-zero-company
   pageId: 203635
   steam: 2075800
 Star Wolves:
@@ -239021,6 +239042,7 @@ The Impure:
 The Incident at Galley House:
   cloud:
     steam: true
+  lutris: the-incident-at-galley-house
   pageId: 206296
   steam: 3641000
 The Incredible Adventures of Super Panda:
