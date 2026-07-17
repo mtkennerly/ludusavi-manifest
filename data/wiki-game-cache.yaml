@@ -89963,6 +89963,8 @@ Forgotten Realm RPG:
 Forgotten World:
   pageId: 100174
   steam: 890690
+Forgotten Worlds:
+  pageId: 218457
 Forgotten but Unbroken:
   pageId: 200369
   steam: 2122090
@@ -94222,6 +94224,9 @@ Gallery One:
     steam: true
   pageId: 104251
   steam: 912260
+Gallipoli:
+  pageId: 218466
+  steam: 3065940
 Gallows:
   pageId: 90606
   steam: 816550
@@ -100957,6 +100962,8 @@ Gregory and the Hot Air Balloon:
 "Gremlin Invasion: Survivor":
   pageId: 48028
   steam: 349980
+"Gremlins 2: The New Batch (1990)":
+  pageId: 218463
 "Gremlins 2: The New Batch (1991)":
   pageId: 194054
 Gremlins vs Automatons:
@@ -109430,6 +109437,13 @@ Hexzen:
   lutris: hexzen
   pageId: 218335
   steam: 4886450
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\hexzen\\data\\settings.ron}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/hexzen/settings.ron}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/hexzen/settings.ron}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\hexzen\\data\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/hexzen/}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/hexzen/}}"
 "Hi-5: Create, Paint and Play":
   pageId: 147116
   templates:
@@ -152608,7 +152622,7 @@ Muffin Knight:
   pageId: 50236
   steam: 263700
   templates:
-    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Angry Mob Games\\Muffin Knight}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Angry Mob Games\\Muffin Knight{{note|Game saves for this game appear to be machine-bound, and if transferred will not be recognized by the game.<ref>{{Refurl|url=https://steamcommunity.com/app/263700/discussions/0/522728268786710937/#c522728268837800770|title=Steam Community user.|date=2026-07-17}}</ref><ref>{{Refcheck|user=Ahmedb|date=2026-07-17|comment=Worked fine with a different user on the same PC but not when copied to another PC.}}</ref>}}}}"
 Muffled Warfare:
   cloud:
     steam: true
@@ -235198,6 +235212,8 @@ The Complex:
 "The Complex: Found Footage":
   pageId: 189256
   steam: 1942120
+"The Computer Edition of Risk: The World Conquest Game":
+  pageId: 218450
 The Con Simulator:
   pageId: 109866
   steam: 917020
@@ -252256,6 +252272,8 @@ Too Many Weapons:
 Too White Basketball:
   pageId: 138639
   steam: 1096000
+"Toobin'":
+  pageId: 218461
 Toodee and Topdee:
   cloud:
     gog: true
@@ -252389,6 +252407,8 @@ Top Eleven:
   pageId: 187671
 "Top Gear: Race The Stig":
   pageId: 171920
+Top Gun:
+  pageId: 218459
 Top Gun (2010):
   cloud:
     steam: true
@@ -273412,6 +273432,8 @@ William and the Lands of Rage:
 "William's Love Prelude":
   pageId: 155775
   steam: 1215650
+Willow:
+  pageId: 218455
 "Willowbrook Stables: Search for the Golden Horseshoes":
   pageId: 208039
   templates:

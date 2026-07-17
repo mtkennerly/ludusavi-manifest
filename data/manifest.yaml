@@ -291132,6 +291132,9 @@ Gallery One:
             store: steam
   steam:
     id: 912260
+Gallipoli:
+  steam:
+    id: 3065940
 Gallows:
   installDir:
     Gallows: {}
@@ -337357,6 +337360,37 @@ Hexxon:
 Hexzen:
   cloud:
     steam: true
+  files:
+    "<home>/Library/Application Support/hexzen":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/hexzen/settings.ron":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<winAppData>/hexzen/data":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/hexzen/data/settings.ron":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<xdgData>/hexzen":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/hexzen/settings.ron":
+      tags:
+        - config
+      when:
+        - os: linux
   id:
     lutris: hexzen
   steam:
