@@ -595,6 +595,9 @@ $1 Ride:
 123 Slaughter Me Street:
   pageId: 34869
   steam: 405180
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Impulse Game Studios, LLC\\123 Slaughter Me Street}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Impulse Game Studios, LLC\\123 Slaughter Me Street}}"
 123 Slaughter Me Street 2:
   pageId: 52682
   steam: 551190
@@ -690,6 +693,9 @@ $1 Ride:
 "171":
   pageId: 184770
   steam: 1269370
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\BGG\\Saved\\SaveGames\\Configuration*.sav}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\BGG\\Saved\\SaveGames\\171Save*.sav}}"
 "1775: Rebellion":
   cloud:
     steam: true
@@ -2365,6 +2371,8 @@ $1 Ride:
 9.03m:
   pageId: 15101
   steam: 263100
+  templates:
+    - "{{Game data/config|Windows|{{P|Game}}\\UDKGame\\Config\\}}"
 90 Days to Defence:
   pageId: 149525
   renamedFrom:
@@ -40921,6 +40929,8 @@ Charpi:
   pageId: 69446
   steam: 694670
 Charrua Soccer:
+  cloud:
+    steam: true
   pageId: 157861
   steam: 2283380
 "Charterstone: Digital Edition":
@@ -41441,6 +41451,8 @@ Chicken Farm 2K17:
   pageId: 76590
   steam: 746910
 Chicken Invaders:
+  cloud:
+    steam: true
   pageId: 123137
   steam: 3491310
   templates:
@@ -50174,7 +50186,6 @@ Crazy Chicken X:
     - "{{Game data/saves|Windows|{{P|game}}\\Moorhuhn.sav}}"
 "Crazy Chicken: The Winged Pharaoh":
   pageId: 215492
-  steam: 2316960
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\data\\}}"
 "Crazy Chicken: Wanted":
@@ -130692,7 +130703,7 @@ Leaf it Alone:
   pageId: 210653
   steam: 3981100
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eternity\\Leaf it Alone\\settings.json}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eternity\\Leaf it Alone\\settings.json|{{P|hkcu}}\\Software\\Eternity\\Leaf it Alone}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eternity\\Leaf it Alone\\Saves}}"
 Leafborn:
   pageId: 218197
@@ -152668,7 +152679,7 @@ Muffin Knight:
   pageId: 50236
   steam: 263700
   templates:
-    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Angry Mob Games\\Muffin Knight{{note|Game saves for this game appear to be machine-bound, and if transferred will not be recognized by the game.<ref>{{Refurl|url=https://steamcommunity.com/app/263700/discussions/0/522728268786710937/#c522728268837800770|title=Steam Community user.|date=2026-07-17}}</ref><ref>{{Refcheck|user=Ahmedb|date=2026-07-17|comment=Worked fine with a different user on the same PC but not when copied to another PC.}}</ref>}}}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Angry Mob Games\\Muffin Knight}}"
 Muffled Warfare:
   cloud:
     steam: true
@@ -159927,7 +159938,12 @@ Ninja Gaiden Σ2:
   steamSide:
     - 3853890
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\SteamUser_{{p|uid}}\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\systems.bin}}"
+    - "{{Game data/saves|GOG.com|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\GOGUser_{{p|uid}}\\systems.bin}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\SteamUser_{{p|uid}}\\systems.bin}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\Savegames\\|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\*.bin}}"
+    - "{{Game data/saves|GOG.com|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\GOGUser_{{p|uid}}\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\The Game Kitchen\\NINJA GAIDEN Ragebound\\SteamUser_{{p|uid}}\\}}"
 Ninja Gainyk:
   pageId: 65015
   steam: 669450
@@ -177049,6 +177065,7 @@ PostCollapse:
   pageId: 51414
   steam: 509770
 Postal:
+  gog: 1207658754
   lutris: postal
   pageId: 6136
   templates:
@@ -184916,7 +184933,9 @@ Raptor Valley:
   steam: 358360
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\SETUP.INI}}"
+    - "{{Game data/config|Windows|{{p|game}}\\SETUP.INI}}"
     - "{{Game data/saves|DOS|{{p|game}}\\CHAR****.FIL}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\CHAR****.FIL}}"
 "Raptor: Call of the Shadows 2010 Edition":
   cloud:
     steam: true
@@ -242201,6 +242220,14 @@ The Merchant Memoirs:
 The Mercury Man:
   pageId: 79947
   steam: 740200
+The Mermaid Mask:
+  cloud:
+    steam: true
+  lutris: the-mermaid-mask--1
+  pageId: 218513
+  steam: 1696770
+  steamSide:
+    - 2556770
 The Messenger:
   cloud:
     epic: true

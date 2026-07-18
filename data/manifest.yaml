@@ -1991,6 +1991,11 @@ $1 Ride:
       - when:
           - os: windows
             store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Impulse Game Studios, LLC/123 Slaughter Me Street":
+      tags:
+        - config
+        - save
   steam:
     id: 405180
 123 Slaughter Me Street 2:
@@ -2261,6 +2266,17 @@ $1 Ride:
   steam:
     id: 1305450
 "171":
+  files:
+    "<winLocalAppData>/BGG/Saved/SaveGames/171Save*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/BGG/Saved/SaveGames/Configuration*.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     "171": {}
   launch:
@@ -7499,6 +7515,12 @@ $1 Ride:
   steam:
     id: 1890120
 9.03m:
+  files:
+    "<base>/UDKGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     903m: {}
   launch:
@@ -126751,6 +126773,8 @@ Charpi:
   steam:
     id: 694670
 Charrua Soccer:
+  cloud:
+    steam: true
   files:
     "<home>/.config/unity3d/Batovi Games Studio/Charrua Soccer*":
       when:
@@ -128438,6 +128462,8 @@ Chicken Farm 2K17:
   steam:
     id: 746910
 Chicken Invaders:
+  cloud:
+    steam: true
   installDir:
     Chicken Invaders 1: {}
   launch:
@@ -155934,14 +155960,6 @@ Crazy Chicken X:
         - save
       when:
         - os: windows
-  installDir:
-    "Moorhuhn Jump and Run 'Traps and Treasures'": {}
-  launch:
-    "<base>/Moorhuhn Jump and Run 'Traps and Treasures'.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 2316960
 "Crazy Chicken: Wanted":
   files:
     "<base>/HighScore.txt":
@@ -402626,6 +402644,10 @@ Leaf it Alone:
     "<base>/Leaf it Alone.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Eternity/Leaf it Alone:
+      tags:
+        - config
   steam:
     id: 3981100
 Leafborn:
@@ -491516,9 +491538,43 @@ Ninja Gaiden Σ2:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/The Game Kitchen/NINJA GAIDEN Ragebound/*.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/The Game Kitchen/NINJA GAIDEN Ragebound/GOGUser_<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<home>/AppData/LocalLow/The Game Kitchen/NINJA GAIDEN Ragebound/GOGUser_<storeUserId>/systems.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: gog
+    "<home>/AppData/LocalLow/The Game Kitchen/NINJA GAIDEN Ragebound/Savegames":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/The Game Kitchen/NINJA GAIDEN Ragebound/SteamUser_<storeUserId>":
       tags:
         - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/The Game Kitchen/NINJA GAIDEN Ragebound/SteamUser_<storeUserId>/systems.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/The Game Kitchen/NINJA GAIDEN Ragebound/systems.bin":
+      tags:
+        - config
       when:
         - os: windows
   gog:
@@ -543820,6 +543876,8 @@ Postal:
         - save
       when:
         - os: windows
+  gog:
+    id: 1207658754
   id:
     lutris: postal
 Postal (2013):
@@ -568546,11 +568604,13 @@ Raptor Valley:
         - save
       when:
         - os: dos
+        - os: windows
     "<base>/SETUP.INI":
       tags:
         - config
       when:
         - os: dos
+        - os: windows
   installDir:
     Raptor Call of the Shadows: {}
   launch:
@@ -745195,6 +745255,34 @@ The Mercury Man:
             store: steam
   steam:
     id: 740200
+The Mermaid Mask:
+  cloud:
+    steam: true
+  files:
+    "<base>/Saves/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/SFB Games/The Mermaid Mask/*.sav":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: the-mermaid-mask--1
+    steamExtra:
+      - 2556770
+  installDir:
+    The Mermaid Mask: {}
+  launch:
+    "<base>/The Mermaid Mask.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/The Mermaid Mask.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1696770
 The Messenger:
   cloud:
     epic: true

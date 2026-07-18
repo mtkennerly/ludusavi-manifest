@@ -128573,7 +128573,7 @@
   launch:
     - config:
         oslist: windows
-      executable: "SMS\\123SMS.exe"
+      executable: SMS/123SMS.exe
       type: default
 405190:
   installDir: MEG 9 Lost Echoes
@@ -577628,6 +577628,30 @@
     sc_schinese: 绝世好武功
     schinese: 绝世好武功
     tchinese: 絕世好武功
+1696770:
+  cloud:
+    saves:
+      - path: Saves/
+        pattern: "*.sav"
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Saves/
+            replace: SFB Games/The Mermaid Mask/
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: The Mermaid Mask
+  launch:
+    - config:
+        oslist: windows
+      executable: The Mermaid Mask.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: The Mermaid Mask.app
+      type: default
 1697400:
   installDir: House of Sin
   launch:
