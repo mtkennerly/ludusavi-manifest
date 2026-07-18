@@ -16321,6 +16321,12 @@ Ascend (2015):
   pageId: 182439
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\rose-engine\\Ascend}}"
+Ascend to ZERO:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 218491
+  steam: 2697940
 "Ascend: Reborn":
   pageId: 89819
   renamedFrom:
@@ -36055,6 +36061,8 @@ Cab Driver Commander:
   steamSide:
     - 962180
     - 962181
+Cabal:
+  pageId: 218503
 Cabal Online:
   pageId: 44567
   renamedFrom:
@@ -87587,6 +87595,12 @@ Fix Me Fix You:
 Fix Race:
   pageId: 89563
   steam: 818240
+FixForce:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 218489
+  steam: 3933150
 FixFox:
   cloud:
     gog: true
@@ -88895,6 +88909,12 @@ Fog of War:
     steam: true
   pageId: 134668
   steam: 1069820
+Fogpiercer:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 218488
+  steam: 3219010
 Fold:
   cloud:
     steam: true
@@ -112341,6 +112361,8 @@ Hot Wheels World Race:
 "Hot Wheels: Micro Racers":
   lutris: hot-wheels-micro-racers
   pageId: 197452
+"Hot Wheels: Slot Car Racing":
+  pageId: 218495
 "Hot Wheels: Stunt Track Challenge":
   lutris: hot-wheels-stunt-track-challenge
   pageId: 140260
@@ -138389,6 +138411,12 @@ MATCH:
 MAV:
   pageId: 59762
   steam: 280440
+MAVRIX by Matt Jones:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 218487
+  steam: 2926900
 MAX MOZART:
   cloud:
     steam: true
@@ -147814,6 +147842,8 @@ Mineirinho Wildtides DC:
   templates:
     - "{{Game data/config|Windows|HKEY_CURRENT_USER\\Software\\Meowza Games\\Mineko's Night Market}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\HumbleBundle.Mineko_q2mcdwmzx4qja\\SystemAppData\\wgs}}"
+Miner 2049er:
+  pageId: 218501
 Miner Lou:
   pageId: 132704
   steam: 1047480
@@ -156376,6 +156406,10 @@ Nature Treks VR:
 Nature Zen:
   pageId: 141121
   steam: 1080960
+Nature of Dread:
+  lutris: nature-of-dread
+  pageId: 218486
+  steam: 4022950
 "Nature's Wrath VR":
   cloud:
     steam: true
@@ -159192,6 +159226,8 @@ Night Magic:
 Night Of The Living Dead VR:
   pageId: 156045
   steam: 1210910
+Night Shift:
+  pageId: 218505
 Night Shift (2015):
   pageId: 48637
   steam: 301050
@@ -167937,6 +167973,12 @@ PBA Pro Bowling:
   lutris: pba-pro-bowling
   pageId: 148601
   steam: 1126990
+PBA Pro Bowling 2026:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 218490
+  steam: 3127230
 PBA Tour Bowling 2:
   pageId: 212530
   templates:
@@ -168043,6 +168085,8 @@ PGA Tour 2K23:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\My Games\\PGA TOUR 2K23\\}}"
 PGA Tour 2K25:
+  cloud:
+    xbox: true
   pageId: 200925
   steam: 2385530
 PHAGEBORN Online Card Game:
@@ -175446,6 +175490,7 @@ PlayUSA:
   pageId: 76225
   steam: 724110
 "Playboy: The Mansion":
+  malformed: true
   pageId: 75395
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
@@ -184664,6 +184709,8 @@ Rama:
 Ramayana:
   pageId: 47807
   steam: 371790
+"Rambo: First Blood Part II":
+  pageId: 218497
 "Rambo: The Video Game":
   cloud:
     steam: true
@@ -192375,6 +192422,8 @@ RoboCop (2003):
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Robocop.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
+RoboCop (Ocean Software):
+  pageId: 218499
 RoboCop 3:
   pageId: 16948
   renamedFrom:

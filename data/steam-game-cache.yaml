@@ -599872,7 +599872,24 @@
   launch:
     - executable: FPSChess.exe
       type: default
-2021960: {}
+2021960:
+  cloud:
+    saves:
+      - path: Spry Fox/Cozy Grove_ Camp Spirit/SpryFoxSteam/local
+        pattern: "*.sf"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Spry Fox/Cozy Grove_ Camp Spirit/SpryFoxSteam/local
+        pattern: "*.jpg"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Cozy Grove - Camp Spirit
+  launch:
+    - config:
+        oslist: windows
+      executable: CozyGrove_CampSpirit.exe
 2022180:
   cloud:
     saves:
@@ -630240,6 +630257,21 @@
     japanese: コマンダークエスト (Commander Quest)
     koreana: 커맨더 퀘스트(Commander Quest)
     schinese: 牌兵布阵 (Commander Quest)
+2697940:
+  cloud:
+    saves:
+      - path: MementoMori/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Ascend to ZERO
+  launch:
+    - executable: AscendtoZERO.exe
+  nameLocalized:
+    japanese: アセンドトゥゼロ
+    schinese: 零秒：时光的归途
+    tchinese: 零秒
 2698780:
   cloud:
     saves:
@@ -636108,6 +636140,17 @@
         oslist: macos
       executable: Vay.app/Contents/MacOS/Vay
       type: default
+2926900:
+  installDir: Mavrix
+  launch:
+    - arguments: "-NOVERIFYGC -ExecCmds=\"DisableAllScreenMessages\""
+      config:
+        oslist: windows
+      description: Launch
+      executable: MtbClient.exe
+      type: default
+  nameLocalized:
+    schinese: 马特·琼斯：骑迹
 2927000:
   installDir: CyberTaxi Lunatic Nights
   launch:
@@ -640687,6 +640730,21 @@
         oslist: windows
       executable: launcher/taris_launcher.exe
       type: default
+3127230:
+  cloud:
+    saves:
+      - path: PBABowling4/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: "PBABowling4\\Saved\\Config\\Windows"
+        pattern: "*.ini"
+        root: WinAppDataLocal
+  installDir: PBA Pro Bowling 2026
+  launch:
+    - config:
+        oslist: windows
+      executable: PBABowling4.exe
+      type: default
 3130400:
   installDir: Terrifier The ARTcade Game
   launch:
@@ -642166,6 +642224,54 @@
     - config:
         oslist: windows
       executable: Super Woden Rally Edge.exe
+3219010:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Fogpiercer
+        pattern: "*.json"
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Fogpiercer
+            replace: ".local/share/godot/app_userdata/Fogpiercer"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Fogpiercer
+            replace: snap/steam/common/.local/share/godot/app_userdata/Fogpiercer
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Fogpiercer
+            replace: Godot/app_userdata/Fogpiercer
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Fogpiercer
+  launch:
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Fogpiercer-full.x86_64
+      type: default
+    - config:
+        oslist: windows
+      executable: Fogpiercer-full.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Fogpiercer-full.app/Contents/MacOS/Fogpiercer
+      type: default
+  nameLocalized:
+    japanese: "Fogpiercer フォグピアサー  "
+    koreana: "Fogpiercer 포그피어서  "
+    schinese: "穿雾列车 Fogpiercer  "
+    tchinese: "穿霧列車 Fogpiercer  "
 3219220:
   installDir: GM25
   launch:
@@ -642771,7 +642877,9 @@
         oslist: windows
       executable: tigershark.exe
       type: default
-3255110: {}
+3255110:
+  nameLocalized:
+    schinese: 埋谷季
 3255380:
   installDir: LUNAR Remastered Collection
   launch:
@@ -651498,6 +651606,49 @@
       executable: "launcher\\BsgLauncher.exe"
       type: default
       workingdir: launcher
+3933150:
+  cloud:
+    saves:
+      - path: FixForce/Saved/SaveGames/
+        pattern: Challenges.sav
+        root: WinAppDataLocal
+      - path: FixForce/Saved/SaveGames/
+        pattern: EnhancedInputUserSettings.sav
+        root: WinAppDataLocal
+      - path: FixForce/Saved/SaveGames/
+        pattern: HostSaveData1.sav
+        root: WinAppDataLocal
+      - path: FixForce/Saved/SaveGames/
+        pattern: HostSaveData2.sav
+        root: WinAppDataLocal
+      - path: FixForce/Saved/SaveGames/
+        pattern: HostSaveData3.sav
+        root: WinAppDataLocal
+      - path: FixForce/Saved/SaveGames/
+        pattern: PlayerCosmetics.sav
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ".local/share/steam/steamapps/compatdata/3933150/pfx/drive_c/users/steamuser/appdata/local/FixForce/savegames/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: FixForce
+  launch:
+    - arguments: "-DX12 -logPSO"
+      config:
+        betakey: "dev_development, dev_test, dev_shipping, xpl_test"
+      description: FixForce Dev (DX12)
+      executable: "FixForce\\Binaries\\Win64\\FixForce.exe"
+      type: option1
+    - arguments: "-DX12 -logPSO"
+      description: FixForce (DX12)
+      executable: "FixForce\\Binaries\\Win64\\FixForce.exe"
+      type: option1
+    - arguments: "-DX11"
+      description: FixForce Experimental Compatibility Mode (DX11)
+      executable: "FixForce\\Binaries\\Win64\\FixForce.exe"
+      type: option1
 3935020:
   cloud:
     saves:
@@ -652069,6 +652220,7 @@
         oslist: windows
       executable: game.exe
       type: default
+4022950: {}
 4026510: {}
 4026900: {}
 4031890:
@@ -653635,6 +653787,19 @@
 4452700: {}
 4457050: {}
 4459850:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: NAMCOLEGENDARYMountains
+  launch:
+    - config:
+        oslist: windows
+      executable: NAMCOLEGENDARYMountains.exe
+    - config:
+        oslist: macos
+      executable: NAMCOLEGENDARYMountains.app
   nameLocalized:
     english: NAMCO LEGENDARY Mountains
 4460170:

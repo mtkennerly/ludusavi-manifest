@@ -12,6 +12,7 @@
 * [Nova Roma](https://www.pcgamingwiki.com/wiki/?curid=214061)
 * [Omega Labyrinth Life](https://www.pcgamingwiki.com/wiki/?curid=153458)
 * [Phineas and Ferb: New Inventions](https://www.pcgamingwiki.com/wiki/?curid=48629)
+* [Playboy: The Mansion](https://www.pcgamingwiki.com/wiki/?curid=75395)
 * [Riddle Tower](https://www.pcgamingwiki.com/wiki/?curid=217157)
 * [Screamer 4x4](https://www.pcgamingwiki.com/wiki/?curid=2856)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)

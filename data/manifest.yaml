@@ -50782,6 +50782,22 @@ Ascend (2015):
     HKEY_CURRENT_USER/Software/rose-engine/Ascend:
       tags:
         - config
+Ascend to ZERO:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/MementoMori/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Ascend to ZERO: {}
+  launch:
+    "<base>/AscendtoZERO.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2697940
 "Ascend: Hand of Kul":
   alias: "Ascend: Reborn"
 "Ascend: Reborn":
@@ -154196,8 +154212,24 @@ Cozy Grove:
   steam:
     id: 1458100
 "Cozy Grove: Camp Spirit":
+  files:
+    "<home>/AppData/LocalLow/Spry Fox/Cozy Grove_ Camp Spirit/SpryFoxSteam/local/*.jpg":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Spry Fox/Cozy Grove_ Camp Spirit/SpryFoxSteam/local/*.sf":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: cozy-grove-camp-spirit
+  installDir:
+    Cozy Grove - Camp Spirit: {}
+  launch:
+    "<base>/CozyGrove_CampSpirit.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2021960
 Crab Cakes Rescue:
@@ -269703,6 +269735,56 @@ Fix Race:
             store: steam
   steam:
     id: 818240
+FixForce:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/steam/steamapps/compatdata/3933150/pfx/drive_c/users/steamuser/appdata/local/FixForce/savegames/FixForce/Saved/SaveGames/Challenges.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/steam/steamapps/compatdata/3933150/pfx/drive_c/users/steamuser/appdata/local/FixForce/savegames/FixForce/Saved/SaveGames/EnhancedInputUserSettings.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/steam/steamapps/compatdata/3933150/pfx/drive_c/users/steamuser/appdata/local/FixForce/savegames/FixForce/Saved/SaveGames/HostSaveData1.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/steam/steamapps/compatdata/3933150/pfx/drive_c/users/steamuser/appdata/local/FixForce/savegames/FixForce/Saved/SaveGames/HostSaveData2.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/steam/steamapps/compatdata/3933150/pfx/drive_c/users/steamuser/appdata/local/FixForce/savegames/FixForce/Saved/SaveGames/HostSaveData3.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/steam/steamapps/compatdata/3933150/pfx/drive_c/users/steamuser/appdata/local/FixForce/savegames/FixForce/Saved/SaveGames/PlayerCosmetics.sav":
+      when:
+        - os: linux
+          store: steam
+    "<winLocalAppData>/FixForce/Saved/SaveGames/Challenges.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/FixForce/Saved/SaveGames/EnhancedInputUserSettings.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/FixForce/Saved/SaveGames/HostSaveData1.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/FixForce/Saved/SaveGames/HostSaveData2.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/FixForce/Saved/SaveGames/HostSaveData3.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/FixForce/Saved/SaveGames/PlayerCosmetics.sav":
+      when:
+        - store: steam
+  installDir:
+    FixForce: {}
+  steam:
+    id: 3933150
 FixFox:
   cloud:
     gog: true
@@ -273845,6 +273927,43 @@ Fog of War:
             store: steam
   steam:
     id: 1069820
+Fogpiercer:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/godot/app_userdata/Fogpiercer/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Fogpiercer/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/snap/steam/common/.local/share/godot/app_userdata/Fogpiercer/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/Godot/app_userdata/Fogpiercer/*.json":
+      when:
+        - store: steam
+  installDir:
+    Fogpiercer: {}
+  launch:
+    "<base>/Fogpiercer-full.app/Contents/MacOS/Fogpiercer":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Fogpiercer-full.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Fogpiercer-full.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 3219010
 Fold:
   cloud:
     steam: true
@@ -426500,6 +426619,19 @@ MAV:
             store: steam
   steam:
     id: 280440
+MAVRIX by Matt Jones:
+  cloud:
+    steam: true
+  installDir:
+    Mavrix: {}
+  launch:
+    "<base>/MtbClient.exe":
+      - arguments: "-NOVERIFYGC -ExecCmds=\"DisableAllScreenMessages\""
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2926900
 MAX MOZART:
   cloud:
     steam: true
@@ -478898,6 +479030,21 @@ Namaste Virtual Yoga Retreat:
 Namco Legendary Mountains:
   cloud:
     steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    NAMCOLEGENDARYMountains: {}
+  launch:
+    "<base>/NAMCOLEGENDARYMountains.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/NAMCOLEGENDARYMountains.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4459850
 Namco Museum 50th Anniversary:
@@ -480916,6 +481063,11 @@ Nature Treks VR:
 Nature Zen:
   steam:
     id: 1080960
+Nature of Dread:
+  id:
+    lutris: nature-of-dread
+  steam:
+    id: 4022950
 "Nature's Wrath VR":
   cloud:
     steam: true
@@ -516034,6 +516186,25 @@ PBA Pro Bowling:
             store: steam
   steam:
     id: 1126990
+PBA Pro Bowling 2026:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/PBABowling4/Saved/Config/Windows/*.ini":
+      when:
+        - store: steam
+    "<winLocalAppData>/PBABowling4/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    PBA Pro Bowling 2026: {}
+  launch:
+    "<base>/PBABowling4.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3127230
 PBA Tour Bowling 2:
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Bethesda Softworks/PBA Bowling 2:
