@@ -9278,7 +9278,7 @@ A Golden Wake:
         - save
       when:
         - os: linux
-    "<home>/Library Application Support/A Golden Wake":
+    "<home>/Library/Application Support/A Golden Wake":
       tags:
         - save
       when:
@@ -262869,14 +262869,6 @@ Fellowship:
     steamExtra:
       - 4082970
       - 4082980
-  installDir:
-    Fellowship: {}
-  launch:
-    "<base>/fellowship.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 2352620
 "Felt That: Boxing":
@@ -295199,6 +295191,26 @@ Gems Kingdom:
             store: steam
   steam:
     id: 972620
+"Gems of Destiny: Homeless Dwarf":
+  files:
+    "<home>/AppData/LocalLow/Graphium_Studio/Gems_Of_Destiny/SaveData/Player.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Graphium_Studio/Gems_Of_Destiny/SaveData/Settings.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Gems_of_Destiny_Homeless_Dwarf: {}
+  launch:
+    "<base>/Gems_Of_Destiny.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1899290
 "Gems of Magic: Lost Family":
   installDir:
     Gems of Magic Lost Family: {}
@@ -664678,6 +664690,11 @@ Sponchies:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Ghost/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1564930022
   id:
@@ -708341,6 +708358,13 @@ Tangle Tower:
         - os: windows
   gog:
     id: 1136365627
+  id:
+    gogExtra:
+      - 1469252016
+    lutris: tangle-tower
+    steamExtra:
+      - 1178040
+      - 1224100
   installDir:
     Tangle Tower: {}
   launch:

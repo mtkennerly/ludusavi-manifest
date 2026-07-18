@@ -590768,6 +590768,11 @@
     koreana: 포켓 미러～황금빛 꿈
     schinese: 化妆镜～黄金之梦
     tchinese: 化妝鏡～黃金之夢
+1899290:
+  installDir: Gems_of_Destiny_Homeless_Dwarf
+  launch:
+    - executable: Gems_Of_Destiny.exe
+      type: default
 1899810:
   cloud:
     saves:
@@ -616780,15 +616785,7 @@
     schinese: 小大冒险：紫色帝国
     tchinese: 小大冒險：紫色帝國
 2352620:
-  installDir: Fellowship
-  launch:
-    - config:
-        osarch: "64"
-        oslist: windows
-      executable: fellowship.exe
-      type: default
   nameLocalized:
-    sc_schinese: 秘境战盟
     schinese: 秘境战盟
     tchinese: 秘境戰盟
 2353060:

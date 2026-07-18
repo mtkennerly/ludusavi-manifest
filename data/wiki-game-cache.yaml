@@ -2898,7 +2898,7 @@ A Golden Wake:
     - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\A Golden Wake\\acsetup.cfg}}"
     - "{{Game data/config|Linux|{{P|game}}/acsetup.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\A Golden Wake\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library Application Support/A Golden Wake}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/A Golden Wake}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/A Golden Wake/}}"
 A Goo Adventure:
   pageId: 64064
@@ -95579,6 +95579,12 @@ Gems:
 Gems Kingdom:
   pageId: 121637
   steam: 972620
+"Gems of Destiny: Homeless Dwarf":
+  pageId: 218522
+  steam: 1899290
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Graphium_Studio\\Gems_Of_Destiny\\SaveData\\Settings.dat}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Graphium_Studio\\Gems_Of_Destiny\\SaveData\\Player.dat}}"
 "Gems of Magic: Lost Family":
   pageId: 132262
   steam: 970030
@@ -216162,6 +216168,7 @@ SpongeBob SolitairePants:
   steamSide:
     - 3840380
   templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Ghost\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Ghost\\Saved\\{{p|uid}}\\SaveGames\\*.sav|{{p|localappdata}}\\Ghost\\Saved\\{{p|uid}}\\SaveGames\\*.sav}}"
 "SpongeBob SquarePants: Typing":
   pageId: 200774
@@ -230178,8 +230185,14 @@ Tangle Tower:
     gog: true
     steam: true
   gog: 1136365627
+  gogSide:
+    - 1469252016
+  lutris: tangle-tower
   pageId: 147733
   steam: 359510
+  steamSide:
+    - 1178040
+    - 1224100
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\*.sav}}"
 Tangled:
