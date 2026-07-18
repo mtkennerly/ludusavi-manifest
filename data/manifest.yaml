@@ -291827,6 +291827,8 @@ Game of Thrones Winter is Coming:
 "Game of Thrones: War For Westeros":
   cloud:
     steam: true
+  id:
+    lutris: game-of-thrones-war-for-westeros
   steam:
     id: 2838950
 "Game of Thrones: Winter Is Coming":
@@ -382418,6 +382420,53 @@ Kami:
             store: steam
   steam:
     id: 272040
+Kami 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/StateOfPlay/KAMI 2/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/StateOfPlay/KAMI 2/UserLevels/*.puz":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/StateOfPlay/KAMI 2/*.dat":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StateOfPlay/KAMI 2/UserLevels/*.puz":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/StateOfPlay/KAMI 2/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/StateOfPlay/KAMI 2/UserLevels/*.puz":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: kami-2
+    steamExtra:
+      - 4041040
+  installDir:
+    KAMI 2: {}
+  launch:
+    "<base>/KAMI 2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/KAMI 2.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Kami 2.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3414340
 "Kami Quest: Enter the Imagynasium":
   id:
     lutris: kami-quest-enter-the-imagynasium
@@ -464412,6 +464461,29 @@ Moonlight Minions:
 Moonlight Peaks:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Little Chicken Game Company/Moonlight Peaks/**/*.*":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Little Chicken Game Company/Moonlight Peaks/**/*.*":
+      when:
+        - os: mac
+          store: steam
+    "<xdgData>/Little Chicken Game Company/Moonlight Peaks/**/*.*":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Moonlight Peaks: {}
+  launch:
+    "<base>/Moonlight Peaks.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Moonlight Peaks.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2209900
 Moonlight Warrior:
@@ -547927,6 +547999,11 @@ Princessfall:
             store: steam
   steam:
     id: 491470
+"Prinny Party: Going Overboard!":
+  cloud:
+    steam: true
+  steam:
+    id: 4509300
 Prism:
   steam:
     id: 443590
@@ -563609,9 +563686,18 @@ RV There Yet?:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Ride/Saved/SaveGames/<storeUserId>/*.sav":
+    "<winLocalAppData>/Packages/NuggetsEntertainmentAB.RVThereYet_4kh8ecef8wxy6/SystemAppData/wgs":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Ride/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
   installDir:
     Ride: {}
   launch:
@@ -671516,6 +671602,16 @@ Starbase Admiral:
   steam:
     id: 702030
 Starbites:
+  files:
+    "<home>/AppData/LocalLow/Ikinagames/Starbites/*.dat":
+      when:
+        - store: steam
+  installDir:
+    STARBITES: {}
+  launch:
+    "<base>/Starbites.exe":
+      - when:
+          - store: steam
   steam:
     id: 2199080
 Starblast:
@@ -701985,6 +702081,14 @@ SÆLIG:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1885509772
+  id:
+    gogExtra:
+      - 1797437237
+    lutris: saelig
+    steamExtra:
+      - 4467450
   installDir:
     SÆLIG: {}
   launch:
@@ -742213,6 +742317,15 @@ The Letter - Horror Visual Novel:
 The Lewd Knight:
   steam:
     id: 1129520
+The Life and Suffering of Prince Jerian:
+  cloud:
+    steam: true
+  id:
+    lutris: the-life-and-suffering-of-prince-jerian
+    steamExtra:
+      - 3131940
+  steam:
+    id: 2936290
 The Life and Suffering of Sir Brante:
   cloud:
     epic: true

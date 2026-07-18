@@ -94448,6 +94448,7 @@ Game of Thrones:
 "Game of Thrones: War For Westeros":
   cloud:
     steam: true
+  lutris: game-of-thrones-war-for-westeros
   pageId: 205175
   steam: 2838950
 "Game of Thrones: Winter Is Coming":
@@ -124013,6 +124014,14 @@ Kami:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\com.stateofplaygames.steam.kami\\Local Store\\KAMI\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\com.stateofplaygames.steam.kami\\Local Store\\KAMI\\progress\\}}"
+Kami 2:
+  cloud:
+    steam: true
+  lutris: kami-2
+  pageId: 218474
+  steam: 3414340
+  steamSide:
+    - 4041040
 "Kami Quest: Enter the Imagynasium":
   lutris: kami-quest-enter-the-imagynasium
   pageId: 214436
@@ -178429,6 +178438,11 @@ Princessfall:
 "Principia: Master of Science":
   pageId: 38839
   steam: 491470
+"Prinny Party: Going Overboard!":
+  cloud:
+    steam: true
+  pageId: 218481
+  steam: 4509300
 Prism:
   pageId: 39448
   steam: 443590
@@ -183295,6 +183309,9 @@ RV There Yet?:
     xbox: true
   pageId: 218075
   steam: 3949040
+  templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Ride\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\NuggetsEntertainmentAB.RVThereYet_4kh8ecef8wxy6\\SystemAppData\\wgs}}"
 RWBY Deckbuilding Game:
   pageId: 129851
   steam: 1017080
@@ -228168,8 +228185,14 @@ Szrot:
   pageId: 218241
   steam: 2246650
 SÆLIG:
+  gog: 1885509772
+  gogSide:
+    - 1797437237
+  lutris: saelig
   pageId: 62532
   steam: 612720
+  steamSide:
+    - 4467450
 Sébastien Loeb Rally EVO:
   cloud:
     steam: true
@@ -234909,6 +234932,8 @@ The Chosen RPG:
 The Chosen Warriors:
   pageId: 79046
   steam: 610730
+"The Chosen: Well of Souls":
+  pageId: 218477
 The Christmas Gifts:
   pageId: 105311
   steam: 897420
@@ -241227,6 +241252,14 @@ The Letter:
 The Lewd Knight:
   pageId: 145467
   steam: 1129520
+The Life and Suffering of Prince Jerian:
+  cloud:
+    steam: true
+  lutris: the-life-and-suffering-of-prince-jerian
+  pageId: 218484
+  steam: 2936290
+  steamSide:
+    - 3131940
 The Life and Suffering of Sir Brante:
   cloud:
     epic: true

@@ -609585,7 +609585,16 @@
       description: Vulkan extension settings
       executable: tiny-glade
       type: config
-2199080: {}
+2199080:
+  cloud:
+    saves:
+      - path: "Ikinagames\\Starbites"
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+  installDir: STARBITES
+  launch:
+    - executable: Starbites.exe
+      type: default
 2199420:
   installDir: Brickadia
   launch:
@@ -609959,7 +609968,32 @@
       executable: ACValhalla.exe
   nameLocalized:
     schinese: 刺客信条：英灵殿
-2209900: {}
+2209900:
+  cloud:
+    saves:
+      - path: Little Chicken Game Company/Moonlight Peaks/
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgDataHome
+  installDir: Moonlight Peaks
+  launch:
+    - config:
+        oslist: windows
+      executable: Moonlight Peaks.exe
+    - config:
+        oslist: macos
+      executable: Moonlight Peaks.app
 2210150: {}
 2210520:
   cloud:
@@ -636435,6 +636469,7 @@
   installDir: ReSetna
   launch:
     - executable: ReSetna.exe
+2936290: {}
 2936810: {}
 2937110: {}
 2938840:
@@ -645526,6 +645561,42 @@
     schinese: 无尽帝国 2 ENDLESS™ Legend 2
     tchinese: 無盡帝國 2 ENDLESS™ Legend 2
 3411900: {}
+3414340:
+  cloud:
+    saves:
+      - path: StateOfPlay/KAMI 2
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+      - path: StateOfPlay/KAMI 2/UserLevels/
+        pattern: "*.puz"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: StateOfPlay/KAMI 2
+            replace: StateOfPlay/KAMI 2
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: StateOfPlay/KAMI 2
+            replace: ".config/unity3d/StateOfPlay/KAMI 2"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: KAMI 2
+  launch:
+    - config:
+        oslist: windows
+      executable: KAMI 2.exe
+    - config:
+        oslist: macos
+      executable: KAMI 2.app
+    - config:
+        oslist: linux
+      executable: Kami 2.x86_64
+      type: default
 3414830:
   installDir: Abyssal Shade
   launch:
@@ -653650,6 +653721,11 @@
   nameLocalized:
     japanese: ヴェリタステイルズ：暗黒城の魔女
     schinese: 真理谭：黑暗城堡的女巫
+4509300:
+  nameLocalized:
+    japanese: みんなでポイっと！プリニーすごろく
+    koreana: 다 함께 즐기자! 프리니 보드 배틀
+    tchinese: 全民丟丟樂！普利尼雙六大冒險
 4514070: {}
 4514310: {}
 4516190: {}
