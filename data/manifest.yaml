@@ -173828,6 +173828,17 @@ Dark Scavenger:
   steam:
     id: 293880
 Dark Scrolls:
+  files:
+    "<winLocalAppData>/Vladius":
+      when:
+        - store: steam
+  installDir:
+    Project Vladius: {}
+  launch:
+    "<base>/darkscrolls.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2912550
 Dark Sector:
@@ -193929,6 +193940,7 @@ Detective Girl of the Steam City:
 Detective Grimoire:
   cloud:
     gog: true
+    steam: true
   files:
     "<winAppData>/air.com.sfbgames.DetectiveGrimoire/Local Store/#SharedObjects/DetectiveGrimoireDesktopSteam.swf/DetectiveGrimoireSave.sol":
       tags:
@@ -193938,6 +193950,9 @@ Detective Grimoire:
   gog:
     id: 2087170042
   id:
+    gogExtra:
+      - 1431464523
+    lutris: detective-grimoire
     steamExtra:
       - 421950
   installDir:
@@ -205866,14 +205881,16 @@ Don Bradman Cricket 17:
     id: 868760
 "Don't Stop, Girlypop!":
   files:
-    "<base>/INCOLATUS/*.ini":
+    "<winLocalAppData>/INCOLATUS/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/INCOLATUS/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/INCOLATUS/Saved/SaveGames":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Incolatus: {}
   launch:
@@ -516792,19 +516809,6 @@ POPGOES Arcade:
           - store: steam
   steam:
     id: 1986840
-POPUCOM:
-  files:
-    "<base>/Save/<storeUserId>":
-      when:
-        - store: steam
-  installDir:
-    POPUCOM: {}
-  launch:
-    "<base>/Popucom.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 2543180
 POPixel:
   installDir:
     POPixel: {}
@@ -542762,6 +542766,21 @@ Poptropica:
             store: steam
   steam:
     id: 1813270
+Popucom:
+  cloud:
+    steam: true
+  files:
+    "<base>/Save/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    POPUCOM: {}
+  launch:
+    "<base>/Popucom.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2543180
 "Population: One":
   installDir:
     PopulationONE: {}

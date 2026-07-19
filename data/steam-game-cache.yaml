@@ -635838,7 +635838,20 @@
         oslist: windows
       executable: Sift Heads - Cartels.exe
       type: default
-2912550: {}
+2912550:
+  cloud:
+    saves:
+      - path: Vladius
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: Project Vladius
+  launch:
+    - config:
+        oslist: windows
+      executable: darkscrolls.exe
+      type: default
+  nameLocalized:
+    schinese: 黑暗卷轴
 2914390:
   cloud:
     saves:

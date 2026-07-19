@@ -25399,6 +25399,8 @@ Below Sunshade:
 Below Zero:
   pageId: 74654
   steam: 732140
+Below the Root:
+  pageId: 218526
 Below the Stone:
   cloud:
     steam: true
@@ -62415,7 +62417,11 @@ Detective Girl of the Steam City:
 Detective Grimoire:
   cloud:
     gog: true
+    steam: true
   gog: 2087170042
+  gogSide:
+    - 1431464523
+  lutris: detective-grimoire
   pageId: 37447
   steam: 272600
   steamSide:
@@ -66400,6 +66406,9 @@ Don Bradman Cricket 17:
 "Don't Stop, Girlypop!":
   pageId: 213413
   steam: 2610650
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\INCOLATUS\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\INCOLATUS\\Saved\\SaveGames\\}}"
 "Don't Tax Me, Bro!":
   pageId: 63143
   steam: 639450
@@ -168200,9 +168209,6 @@ POPGOES Arcade:
   steam: 1986840
   steamSide:
     - 2085840
-POPUCOM:
-  pageId: 189692
-  steam: 2543180
 POPixel:
   pageId: 42696
   steam: 485560
@@ -176755,6 +176761,13 @@ Poppy Playtime:
 Poptropica:
   pageId: 190677
   steam: 1813270
+Popucom:
+  cloud:
+    steam: true
+  pageId: 189692
+  renamedFrom:
+    - POPUCOM
+  steam: 2543180
 "Population: One":
   pageId: 165978
   steam: 691260
