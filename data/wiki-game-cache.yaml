@@ -14346,6 +14346,8 @@ Aquila Bird Flight Simulator:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\ArnosurgeDX\\Setting.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\ArnosurgeDX\\SAVEDATA\\SYSDATA.pcsave}}"
+"Ar'Kritz the Intruder":
+  pageId: 218540
 "Ar:piel":
   pageId: 152240
 Ara Fell:
@@ -15337,6 +15339,8 @@ Arkham Nightmares:
 Arkhelom 3D:
   pageId: 47713
   steam: 373670
+Arknights:
+  pageId: 218538
 "Arknights: Endfield":
   pageId: 190804
   templates:
@@ -181942,6 +181946,21 @@ Quadrant M4:
 Quadrantica:
   pageId: 81123
   steam: 657550
+Quadrata:
+  cloud:
+    steam: true
+  lutris: quadrata
+  pageId: 218545
+  steam: 2066950
+  steamSide:
+    - 4712570
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Mindlabor\\Quadrata\\*.json}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Mindlabor/Quadrata/*.json}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Mindlabor/Quadrata/*.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Mindlabor\\Quadrata\\saveData.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Mindlabor/Quadrata/saveData.json}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Mindlabor/Quadrata/saveData.json}}"
 Quadrilateral Cowboy:
   cloud:
     steam: true

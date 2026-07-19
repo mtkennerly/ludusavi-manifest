@@ -559210,6 +559210,61 @@ Quadrantica:
             store: steam
   steam:
     id: 657550
+Quadrata:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Mindlabor/Quadrata/*.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/unity3d/Mindlabor/Quadrata/saveData.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Mindlabor/Quadrata/*.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Mindlabor/Quadrata/saveData.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Mindlabor/Quadrata/*.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Mindlabor/Quadrata/saveData.json":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: quadrata
+    steamExtra:
+      - 4712570
+  installDir:
+    Quadrata: {}
+  launch:
+    "<base>/Quadrata.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Quadrata.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Quadrata.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2066950
 Quadrilateral Cowboy:
   cloud:
     steam: true

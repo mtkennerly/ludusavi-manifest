@@ -557699,7 +557699,8 @@
       description: Arkansas Test Configuration
       executable: TheOuterWorlds2Test.exe
       type: option1
-    - config:
+    - arguments: "-ExecCmds=\"oei.ShowTextReview 0\""
+      config:
         betakey: user_research
       description: Arkansas Test Configuration
       executable: TheOuterWorlds2Test.exe
@@ -558049,11 +558050,32 @@
       executable: TheOuterWorlds2Test.exe
       type: option2
     - config:
+        betakey: release-1.2.0.1_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+      type: option3
+    - config:
         betakey: ms_playtest
         oslist: windows
       description: Arkansas Shipping Configuration
       executable: Arkansas.exe
       type: option3
+    - config:
+        betakey: release-1.2.0.1_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: release-1.2.0.1_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option2
     - config:
         betakey: vs_build
         osarch: "64"
@@ -601649,6 +601671,48 @@
     japanese: カラフルな立方体
     russian: КрасочныйКуб
     schinese: 颜色方块
+2066950:
+  cloud:
+    saves:
+      - path: Mindlabor/Quadrata/
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Mindlabor/Quadrata/
+            replace: Mindlabor/Quadrata/
+        root: WinAppDataLocalLow
+        useInstead: WinAppDataLocalLow
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Mindlabor/Quadrata/
+            replace: ".config/unity3d/Mindlabor/Quadrata/"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Mindlabor/Quadrata/
+            replace: Mindlabor/Quadrata/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Quadrata
+  launch:
+    - config:
+        oslist: windows
+      executable: Quadrata.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Quadrata.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Quadrata.app
+      type: default
 2067000:
   installDir: Momo Mother Bird Final Story
   launch:
