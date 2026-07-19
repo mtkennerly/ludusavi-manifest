@@ -629393,7 +629393,11 @@
 2669320:
   installDir: EA SPORTS FC 25
   launch:
-    - executable: "link2ea://launchgame/2669320?platform=steam&theme=fc25"
+    - executable: "steam2ea://launchgame/2669320?platform=steam&theme=fc25"
+    - config:
+        betakey: eax_test
+      description: EA SPORTS FC 25 - Special Launch Mode
+      executable: "link2ea://launchgame/2669320?platform=steam&theme=fc25"
   nameLocalized:
     brazilian: EA SPORTS FC™ 25
     czech: EA SPORTS FC™ 25

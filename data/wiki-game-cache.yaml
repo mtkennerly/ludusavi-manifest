@@ -106790,8 +106790,8 @@ Hedon:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\gzdoom-{{P|uid}}.ini|{{p|game}}\\hedon-{{P|uid}}.ini}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/hedon/hedon.ini|}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\save*.zds}}"
-    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/hedon/save*.zds}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\*.zds}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/hedon/*.zds}}"
 "Heebie Jeebies: The Roller Coaster":
   pageId: 153127
   steam: 1190480
@@ -124013,8 +124013,14 @@ Kakwitene VR:
   pageId: 136420
   steam: 1069130
 Kalaban:
+  lutris: kalaban
   pageId: 55560
   steam: 571520
+  steamSide:
+    - 571700
+    - 629710
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\configures.ini}}"
 Kaleido Chaos:
   pageId: 108016
   steam: 850270

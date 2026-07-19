@@ -329113,6 +329113,11 @@ Hedon:
     gog: true
     steam: true
   files:
+    "<base>/*.zds":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/gzdoom-<storeUserId>.ini":
       tags:
         - config
@@ -329123,19 +329128,14 @@ Hedon:
         - config
       when:
         - os: windows
-    "<base>/save*.zds":
+    "<xdgConfig>/hedon/*.zds":
       tags:
         - save
       when:
-        - os: windows
+        - os: linux
     "<xdgConfig>/hedon/hedon.ini":
       tags:
         - config
-      when:
-        - os: linux
-    "<xdgConfig>/hedon/save*.zds":
-      tags:
-        - save
       when:
         - os: linux
   gog:
@@ -382414,6 +382414,17 @@ Kakwitene VR:
   steam:
     id: 1069130
 Kalaban:
+  files:
+    "<base>/configures.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: kalaban
+    steamExtra:
+      - 571700
+      - 629710
   installDir:
     Kalaban: {}
   launch:

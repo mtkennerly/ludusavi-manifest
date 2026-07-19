@@ -14297,7 +14297,6 @@
 * [Kakatte Koi Yo!](https://www.pcgamingwiki.com/wiki/?curid=155414)
 * [Kakuro](https://www.pcgamingwiki.com/wiki/?curid=141532)
 * [Kakwitene VR](https://www.pcgamingwiki.com/wiki/?curid=136420)
-* [Kalaban](https://www.pcgamingwiki.com/wiki/?curid=55560)
 * [Kaleido Stella](https://www.pcgamingwiki.com/wiki/?curid=125984)
 * [Kalimba](https://www.pcgamingwiki.com/wiki/?curid=23037)
 * [Kalonline](https://www.pcgamingwiki.com/wiki/?curid=42370)
