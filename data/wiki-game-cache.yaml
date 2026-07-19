@@ -55318,6 +55318,8 @@ Dangerous Relationship:
 "Dangerous Skies 80's edition":
   pageId: 103125
   steam: 896220
+Dangerous Streets:
+  pageId: 218560
 Dangerous Truck:
   pageId: 137072
   steam: 995680
@@ -101384,6 +101386,12 @@ Grime II:
 Grimind:
   pageId: 50664
   steam: 265380
+Grimlord:
+  cloud:
+    steam: true
+  lutris: grimlord
+  pageId: 218562
+  steam: 1910860
 Grimm & Tonic:
   pageId: 114448
   steam: 942020
@@ -169416,6 +169424,8 @@ Panzer Warfare:
     steam: true
   pageId: 186557
   steam: 2291760
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|appdata}}}}\\com.flipline.papasfreezeriadeluxe\\Local Store\\#SharedObjects}}"
 "Papa's Pizzeria Deluxe":
   pageId: 213856
   steam: 3259470
@@ -185106,6 +185116,16 @@ Rats for Breakfast:
 "Rats, Bats, and Bones":
   pageId: 124056
   steam: 845690
+Ratshaker:
+  cloud:
+    steam: true
+  pageId: 218558
+  steam: 3290710
+  steamSide:
+    - 3290710
+  templates:
+    - "{{Game data/config|Windows|{{p|steamlibrary}}\\Ratshaker\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Ratshaker\\Saved\\}}"
 Ratten Reich:
   pageId: 172236
   steam: 1717250
@@ -192320,6 +192340,7 @@ Robbo:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\config.dta}}"
 Robbo Millennium:
+  gog: 1682064786
   pageId: 142648
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\data\\|{{P|HKLM}}\\Software\\L.K. Avalon\\Robbo millennium}}"
@@ -223211,8 +223232,9 @@ Sudden Attack 2:
     - "{{Game data/config|Windows|{{p|game}}}}"
 Sudden Attack Zero Point:
   pageId: 213937
+  steam: 3576070
   templates:
-    - "{{Game data/config|Windows|{{p|game}}}}"
+    - "{{Game data/config|Windows|{{P|game}}}}"
 Sudden Strike:
   cloud:
     gog: true
@@ -228846,8 +228868,6 @@ TSA Frisky:
     steam: true
   pageId: 153660
   steam: 1155440
-"TSUKIHIME: A piece of blue glass moon":
-  pageId: 198713
 TT Isle of Man:
   cloud:
     steam: true
@@ -258453,6 +258473,10 @@ Tsukihime Plus-Disc:
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
+"Tsukihime: A Piece of Blue Glass Moon":
+  pageId: 198713
+  renamedFrom:
+    - "TSUKIHIME: A piece of blue glass moon"
 "Tsukikage no Simulacre: Kaihou no Hane":
   cloud:
     steam: true
@@ -272407,6 +272431,8 @@ Wheels of Aurelia:
 Wheely:
   pageId: 52605
   steam: 548330
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|appdata}}}}\\com.manapotionstudios.WheelySteam\\Local Store\\#SharedObjects}}"
 Wheelz2:
   pageId: 89634
   steam: 792970
