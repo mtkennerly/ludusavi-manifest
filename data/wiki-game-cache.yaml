@@ -5502,6 +5502,8 @@ Ace Attorney Investigations Collection:
     steam: true
   pageId: 211975
   steam: 2288340
+"Ace Combat Zero: The Belkan War":
+  pageId: 218564
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
@@ -116678,6 +116680,12 @@ Imprint-X:
   steam: 434310
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Morgondag\\imprint-X\\imprint_Xed.dat}}"
+Imprinted:
+  lutris: imprinted
+  pageId: 218566
+  steam: 3980340
+  steamSide:
+    - 4442860
 Imprisoned Light:
   cloud:
     steam: true
@@ -183426,7 +183434,9 @@ RV There Yet?:
   pageId: 218075
   steam: 3949040
   templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Ride\\Saved\\Config\\Windows}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Ride\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Ride\\Saved\\SaveGames}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\NuggetsEntertainmentAB.RVThereYet_4kh8ecef8wxy6\\SystemAppData\\wgs}}"
 RWBY Deckbuilding Game:
   pageId: 129851
