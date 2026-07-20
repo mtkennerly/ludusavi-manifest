@@ -1115,6 +1115,9 @@ $1 Ride:
 25 Cadre of Death:
   pageId: 102595
   steam: 904860
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\TheSin\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\TheSin\\Saved\\SaveGames}}"
 25 to Life:
   pageId: 63938
   templates:
@@ -2238,6 +2241,9 @@ $1 Ride:
   lutris: 8am
   pageId: 215914
   steam: 2835590
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\am\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\am\\Saved\\SaveGames}}"
 8Bit Fiesta:
   pageId: 37513
   steam: 382260
@@ -33113,6 +33119,8 @@ Breathedge:
     - "{{Game data/saves|Windows|{{P|game}}\\Breathedge\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\HypeTrainDigital.BreathedgePC_7t701d8q7nf00\\SystemAppData\\wgs\\}}"
 Breathedge 2:
+  cloud:
+    steam: true
   lutris: breathedge-2
   pageId: 201823
   steam: 2412960
@@ -60176,6 +60184,9 @@ Deer & Boy:
     - 4588480
     - 4613120
     - 4626870
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\LIFELINE\\DeerAndBoy\\Settings.data \n}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\LIFELINE\\DeerAndBoy\\Saves\\\n}}"
 Deer Avenger:
   pageId: 205467
 "Deer Avenger 2: Deer in the City":
@@ -91149,6 +91160,8 @@ Freddi Fish and the Case of the Missing Kelp Seeds:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\MMFApplications\\FNAF6}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\MMFApplications\\FNAF6}}"
+Freddy Hardest in South Manhattan:
+  pageId: 218595
 "Freddy Pharkas: Frontier Pharmacist":
   cloud:
     gog: true
@@ -113376,6 +113389,8 @@ Human Extinction Simulator:
 Human Factory:
   pageId: 151387
   steam: 1160040
+Human Killing Machine:
+  pageId: 218604
 "Human Pinball : Iceage":
   pageId: 130165
   steam: 1044300
@@ -117438,6 +117453,8 @@ Indiana Jones and the Infernal Machine:
     - "{{Game data/config|Steam|{{p|hkcu}}\\Software\\LucasArts Entertainment Company LLC\\Indiana Jones and the Infernal Machine}}"
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\LucasArts Entertainment Company LLC\\Indiana Jones and the Infernal Machine\\v1.0}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGames\\}}"
+"Indiana Jones and the Last Crusade: The Action Game":
+  pageId: 218593
 "Indiana Jones and the Last Crusade: The Graphic Adventure":
   cloud:
     gog: true
@@ -145049,6 +145066,9 @@ Meow-Jong:
 "Meower's Quest: Jasper's Tale":
   pageId: 98074
   steam: 879090
+Meowgic:
+  pageId: 218598
+  steam: 4252290
 Meowk and Frocco:
   pageId: 136881
   steam: 1088110
@@ -151794,6 +151814,9 @@ Moss Destruction:
   steamSide:
     - 4607010
     - 4892580
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MossCollection\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\MossCollection\\Saved\\SaveGames\\}}"
 Most Correct Football Simulator:
   pageId: 136471
   steam: 1081710
@@ -162520,6 +162543,8 @@ Obenseuer:
   templates:
     - "{{Game data/config|Windows| {{P|userprofile\\appdata\\locallow}}\\Loiste Interactive\\Obenseuer}}"
     - "{{Game data/saves|Windows| {{P|userprofile\\appdata\\locallow}}\\Loiste Interactive\\Obenseuer\\Saves}}"
+Oberon 69:
+  pageId: 218602
 Obesity Simulator:
   pageId: 190664
   steam: 2571540
@@ -235940,6 +235965,8 @@ The Dark West:
   lutris: the-dark-west
   pageId: 217212
   steam: 3574750
+  steamSide:
+    - 4751830
 The Dark Wish:
   pageId: 150586
   steam: 1141540
@@ -241419,6 +241446,9 @@ The Life and Suffering of Prince Jerian:
   steam: 2936290
   steamSide:
     - 3131940
+    - 4873870
+    - 4892150
+    - 4892160
 The Life and Suffering of Sir Brante:
   cloud:
     epic: true
@@ -253937,6 +253967,18 @@ Toukiden 2:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\KoeiTecmo\\Toukiden_Kiwami\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\TOUKIDEN KIWAMI\\Savedata\\}}"
+Tour de France 2026:
+  cloud:
+    epic: true
+    steam: true
+  pageId: 218582
+  steam: 3936520
+  steamSide:
+    - 4502380
+    - 4502390
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Tour de France 2026\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}/Tour de France 2026/}}"
 Touring Karts:
   cloud:
     steam: true
@@ -267886,6 +267928,8 @@ WWE 2K26:
     steam: true
   pageId: 213350
   steam: 3717070
+WWF European Rampage Tour:
+  pageId: 218600
 WWF Panda Junior:
   pageId: 213086
 WWF Raw:

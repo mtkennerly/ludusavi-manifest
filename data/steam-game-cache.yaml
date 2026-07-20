@@ -570467,6 +570467,13 @@
         oslist: macos
       executable: UnusualFindings.app
 1605850:
+  installDir: ZeroSpace
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: RTS.exe
+      type: default
   nameLocalized:
     schinese: 零度空间 ZeroSpace
     tchinese: 零度空間 ZeroSpace
@@ -636631,7 +636638,28 @@
   installDir: ReSetna
   launch:
     - executable: ReSetna.exe
-2936290: {}
+2936290:
+  cloud:
+    saves:
+      - path: "Schisma\\The Life and Suffering of Prince Jerian\\Saves\\"
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "Schisma\\The Life and Suffering of Prince Jerian\\Saves\\"
+        pattern: "*.txt"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: The Life and Suffering of Prince Jerian
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: The Life and Suffering of Prince Jerian.exe
+      type: default
 2936810: {}
 2937110: {}
 2938840:
@@ -651803,6 +651831,65 @@
     - config:
         oslist: macos
       executable: Backyard Baseball.app/Contents/MacOS/Backyard Baseball
+3936520:
+  cloud:
+    saves:
+      - path: Tour de France 2026/Database
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+      - path: Tour de France 2026/
+        pattern: objectives.bin
+        root: WinAppDataRoaming
+  installDir: Tour de France 2026
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TDF.exe
+      type: default
+    - arguments: "-activatecheat -cheat -debugfont"
+      config:
+        betakey: "candidate-shipping,delivery-shipping"
+      description: cheat
+      executable: TDF.exe
+    - arguments: "-activatecheat -cheat -keyboard"
+      config:
+        betakey: "candidate-shipping,delivery-shipping"
+      description: keyboard
+      executable: TDF.exe
+    - arguments: "-activatecheat -cheat -debugfont -autoracerace 25 -autoracespeed 8 -worstcase"
+      config:
+        betakey: "candidate-shipping,delivery-shipping"
+      description: autorace TDF
+      executable: TDF.exe
+    - arguments: "-activatecheat -cheat -debugfont -autoraceproleader -autoracespeed 8 -worstcase"
+      config:
+        betakey: "candidate-shipping,delivery-shipping"
+      description: autorace proleader
+      executable: TDF.exe
+    - arguments: "-activatecheat -cheat -debugfont -autoraceproteam -autoracespeed 8 -worstcase"
+      config:
+        betakey: "candidate-shipping,delivery-shipping"
+      description: autorace proteam
+      executable: TDF.exe
+    - arguments: "-activatecheat -cheat -nomynacon"
+      config:
+        betakey: "candidate-shipping,delivery-shipping"
+      description: disable mynacon
+      executable: TDF.exe
+    - arguments: "-activatecheat -cheat -forceonboarding"
+      config:
+        betakey: "candidate-shipping,delivery-shipping"
+      description: Reset profile (+ force onboarding)
+      executable: TDF.exe
+    - arguments: "-activatecheat -cheat -screenshot -input direct -keyboard -shirtready -nodebugfont -nomynacon"
+      config:
+        betakey: "candidate-shipping,delivery-shipping"
+        osarch: "64"
+        oslist: windows
+      description: screenshot
+      executable: TDF.exe
 3936610:
   cloud:
     saves:
@@ -653357,6 +653444,18 @@
   nameLocalized:
     japanese: ブレス オブ ファイアIV うつろわざるもの
 4251460: {}
+4252290:
+  installDir: Meowgic
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Meowgic.exe
+      type: default
+  nameLocalized:
+    japanese: ねこねこマジック
+    koreana: 먀법사
+    schinese: 喵出法随
 4253770:
   nameLocalized:
     japanese: 朧村正怪奇譚
