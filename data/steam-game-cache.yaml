@@ -251236,6 +251236,10 @@
   launch:
     - executable: NARUTO.exe
       type: none
+  nameLocalized:
+    koreana: 나루토 투 보루토 시노비 스트라이커
+    schinese: NARUTO TO BORUTO 新忍出击
+    tchinese: NARUTO TO BORUTO 新忍出擊
 633300:
   installDir: GlobalMap_Astro
   launch:
@@ -654142,6 +654146,7 @@
 4536610:
   nameLocalized:
     schinese: 城市蓝图
+4538140: {}
 4540480:
   nameLocalized:
     english: SATURN. LEGACY

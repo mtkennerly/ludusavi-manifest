@@ -9150,6 +9150,17 @@ A Game of Dwarves:
   steam:
     id: 200370
 A Game of Thrones - Genesis:
+  files:
+    "<winDocuments>/Agot/Config.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Agot/Save":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     A Game Of Thrones: {}
   launch:
@@ -106301,6 +106312,12 @@ Buckshot Roulette:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/CRITICALREFLEX.BuckshotRoulette_20ymd9g5r2c54/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<xdgData>/godot/app_userdata/Buckshot Roulette":
       tags:
         - config
@@ -106324,6 +106341,12 @@ Buckshot Roulette:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Critical Reflex/BuckshotRoulette:
+      tags:
+        - config
+      when:
+        - store: microsoft
   steam:
     id: 2835570
 Bud Blitz:
@@ -480730,6 +480753,8 @@ Naruto Online:
         - config
       when:
         - os: windows
+  id:
+    lutris: naruto-to-boruto-shinobi-striker
   installDir:
     Naruto To Boruto: {}
   launch:
@@ -576080,12 +576105,12 @@ Redout:
     gog: true
     steam: true
   files:
-    "<base>/redout/Saved/Config/WindowsNoEditor":
+    "<winLocalAppData>/redout/Saved/Config/WindowsNoEditor":
       tags:
         - config
       when:
         - os: windows
-    "<base>/redout/Saved/SaveGames":
+    "<winLocalAppData>/redout/Saved/SaveGames":
       tags:
         - save
       when:
@@ -577102,6 +577127,9 @@ Regular Human Basketball:
             store: steam
   steam:
     id: 661940
+Rehaunted:
+  steam:
+    id: 4538140
 Rehtona:
   cloud:
     steam: true

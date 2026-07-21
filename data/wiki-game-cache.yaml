@@ -2853,6 +2853,9 @@ A Game of Dwarves:
 A Game of Thrones - Genesis:
   pageId: 40901
   steam: 58550
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Agot\\Config.xml}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Agot\\Save\\}}"
 "A Game of Thrones: The Board Game - Digital Edition":
   gog: 1570109294
   gogSide:
@@ -34424,8 +34427,10 @@ Buckshot Roulette:
   steam: 2835570
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Buckshot Roulette\\buckshotroulette_options.save}}"
+    - "{{Game data/config|Microsoft Store|{{P|hkcu}}\\Software\\Critical Reflex\\BuckshotRoulette}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/godot/app_userdata/Buckshot Roulette/}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Buckshot Roulette\\buckshotroulette_options_*.shell}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\CRITICALREFLEX.BuckshotRoulette_20ymd9g5r2c54\\SystemAppData\\wgs}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/godot/app_userdata/Buckshot Roulette/}}"
 Bud Blitz:
   pageId: 129691
@@ -63368,6 +63373,10 @@ Dick Johnson V8 Challenge:
   templates:
     - "{{Game data/config|Windows|{{P|windir}}\\controlcfg2.dat|{{P|windir}}\\djc_sndprefs.dat|{{P|windir}}\\TCC2.prf}}"
     - "{{Game data/saves|Windows|{{P|game}}\\assets\\tournaments\\slot*}}"
+Dick Tracy:
+  pageId: 218618
+"Dick Tracy: The Crime-Solving Adventure":
+  pageId: 218621
 Dick Wilde:
   cloud:
     steam: true
@@ -156339,6 +156348,7 @@ Naruto Online:
 "Naruto to Boruto: Shinobi Striker":
   cloud:
     steam: true
+  lutris: naruto-to-boruto-shinobi-striker
   pageId: 80061
   steam: 633230
   templates:
@@ -187457,8 +187467,8 @@ Redout:
   pageId: 36548
   steam: 517710
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\redout\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\redout\\Saved\\SaveGames\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\redout\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\redout\\Saved\\SaveGames\\}}"
 Redout 2:
   cloud:
     epic: true
@@ -187762,6 +187772,9 @@ Regular Human Basketball:
     steam: true
   pageId: 100418
   steam: 661940
+Rehaunted:
+  pageId: 218623
+  steam: 4538140
 Rehtona:
   cloud:
     steam: true
@@ -210706,6 +210719,8 @@ Sol Galaxy Defender:
   steam: 769160
   steamSide:
     - 784990
+Sol Negro:
+  pageId: 218614
 Sol Survivor:
   cloud:
     steam: true
@@ -233553,6 +233568,8 @@ The Amazing Spider-Man 2:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Activision\\The Amazing Spider-Man 2 (TM)\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\267550\\}}"
+"The Amazing Spider-Man and Captain America in Dr. Doom's Revenge!":
+  pageId: 218616
 "The Amazing T.K's Suburban Nightmares":
   pageId: 153889
   steam: 1198570
