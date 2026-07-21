@@ -565276,6 +565276,11 @@
       description: Play
       executable: PlayGTASanAndreas.exe
       type: default
+1547160:
+  installDir: Infinite jump
+  launch:
+    - executable: Infinite Jump.exe
+      type: default
 1547380:
   installDir: KINGDOM of the DEAD
   launch:
@@ -566443,6 +566448,13 @@
         osarch: "32"
         oslist: windows
       executable: FemboysofthePhalanx-32.exe
+      type: default
+1565220:
+  installDir: Gamer Girls (18+)
+  launch:
+    - config:
+        oslist: windows
+      executable: Gamer Girls.exe
       type: default
 1565670:
   cloud:
@@ -574190,6 +574202,11 @@
       executable: "Original\\run-game.bat"
       type: option3
       workingdir: Original
+1656640:
+  installDir: Four color jumps
+  launch:
+    - executable: Four Color Jump.exe
+      type: default
 1656780:
   cloud:
     saves:
@@ -590293,6 +590310,20 @@
   installDir: AZUR BEAM
   launch:
     - executable: AZUR BEAM.exe
+1892370:
+  cloud:
+    saves:
+      - path: Trigon fan/Riding to Bounce City
+        pattern: player.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Riding to Bounce City
+  launch:
+    - config:
+        oslist: windows
+      executable: Riding to Bounce City.exe
+      type: default
 1892420:
   cloud:
     saves:
@@ -612604,6 +612635,10 @@
   launch:
     - executable: adia.exe
       type: default
+2248580:
+  installDir: Lovely Crush
+  launch:
+    - executable: Lovely Crush.exe
 2249160:
   installDir: September 7th
   launch:
@@ -633025,14 +633060,15 @@
     saves:
       - path: SadSocket/9Kings
         pattern: "*.json"
-        platforms:
-          - Windows
         root: WinAppDataLocalLow
-      - path: SadSocket/9Kings
-        pattern: "*.json"
-        platforms:
-          - MacOS
-        root: MacAppSupport
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: SadSocket/9Kings
+            replace: SadSocket/9Kings
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: 9 Kings
   launch:
     - config:
@@ -633041,7 +633077,7 @@
       type: default
     - config:
         oslist: macos
-      executable: "9Kings.app\\Contents\\MacOS\\9Kings"
+      executable: 9Kings.app
       type: default
   nameLocalized:
     japanese: 9 Kings 9 キングス
@@ -635839,6 +635875,13 @@
   installDir: Whelm
   launch:
     - executable: Whelm.exe
+2906500:
+  installDir: The Thing That Happened
+  launch:
+    - config:
+        oslist: windows
+      executable: TheThingThatHappened.exe
+      type: default
 2907010:
   cloud:
     saves:

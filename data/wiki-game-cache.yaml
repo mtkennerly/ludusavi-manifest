@@ -2315,6 +2315,7 @@ $1 Ride:
     steam: true
     xbox: true
   gog: 1875095393
+  lutris: 9-kings
   pageId: 207108
   steam: 2784470
   templates:
@@ -66437,7 +66438,7 @@ Don Bradman Cricket 17:
   pageId: 213413
   steam: 2610650
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\INCOLATUS\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/config|Windows|{{p|game}}\\INCOLATUS\\*.ini|{{p|localappdata}}\\INCOLATUS\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\INCOLATUS\\Saved\\SaveGames\\}}"
 "Don't Tax Me, Bro!":
   pageId: 63143
@@ -88965,8 +88966,15 @@ Fogpiercer:
   cloud:
     steam: true
     xbox: true
+  gog: 2045025106
   pageId: 218488
   steam: 3219010
+  steamSide:
+    - 3350900
+  templates:
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Fogpiercer\\*.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Godot/app_userdata/Fogpiercer}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/godot/app_userdata/Fogpiercer|{{p|linuxhome}}/snap/steam/common/.local/share/godot/app_userdata/Fogpiercer}}"
 Fold:
   cloud:
     steam: true
@@ -90675,6 +90683,12 @@ Foundry:
   steam: 983870
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\LocalLow\\Channel 3 Entertainment\\Foundry\\save}}"
+Four Color Jump:
+  pageId: 218649
+  steam: 1656640
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\No. 25\\Four Color Jump}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\No. 25\\Four Color Jump}}"
 Four Horsemen:
   pageId: 69547
   steam: 668200
@@ -94607,6 +94621,12 @@ Gamepad Massage:
 Gamer Career Tycoon:
   pageId: 82839
   steam: 567750
+Gamer Girls (18 ):
+  pageId: 218647
+  steam: 1565220
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Romantic Room\\Gamer Girls}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Romantic Room\\Gamer Girls}}"
 "Gamer Girls: Cyberpunk 2069":
   pageId: 175156
   steam: 1793840
@@ -118009,6 +118029,12 @@ Infinite Horizon:
     steam: true
   pageId: 77333
   steam: 726770
+Infinite Jump:
+  pageId: 218651
+  steam: 1547160
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\No. 25\\Infinite Jump}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\No. 25\\Infinite Jump}}"
 Infinite Mario 64:
   pageId: 194060
   templates:
@@ -131354,8 +131380,10 @@ Legend of Mana:
   pageId: 166729
   steam: 1175830
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\Legend of Mana\\Steam\\{{p|UID}}\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Legend of Mana\\Steam\\{{p|UID}}\\}}"
+    - "{{Game data/config|GOG.com|{{P|userprofile\\Documents}}\\My Games\\Legend of Mana\\GOG\\{{p|UID}}\\}}"
+    - "{{Game data/config|Steam|{{P|userprofile\\Documents}}\\My Games\\Legend of Mana\\Steam\\{{p|UID}}\\}}"
+    - "{{Game data/saves|GOG.com|{{P|userprofile\\Documents}}\\My Games\\Legend of Mana\\GOG\\{{p|UID}}\\}}"
+    - "{{Game data/saves|Steam|{{P|userprofile\\Documents}}\\My Games\\Legend of Mana\\Steam\\{{p|UID}}\\}}"
 Legend of Merchant:
   cloud:
     steam: true
@@ -137185,6 +137213,12 @@ Lovecraft Tales:
 Loveless cat:
   pageId: 121192
   steam: 946190
+Lovely Crush:
+  pageId: 218653
+  steam: 2248580
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Tutevych\\Lovely Crush}}"
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Tutevych\\Lovely Crush}}"
 Lovely Fox:
   pageId: 95311
   steam: 861030
@@ -183480,7 +183514,7 @@ RV There Yet?:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Ride\\Saved\\Config\\Windows}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Ride\\Saved\\Config\\WinGDK}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Ride\\Saved\\SaveGames}}"
-    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\NuggetsEntertainmentAB.RVThereYet_4kh8ecef8wxy6\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\NuggetsEntertainmentAB.RVThereYet_4kh8ecef8wxy6\\SystemAppData\\wgs}}"
 RWBY Deckbuilding Game:
   pageId: 129851
   steam: 1017080
@@ -190841,6 +190875,14 @@ Riding Star 3:
   renamedFrom:
     - Riding Star
   steam: 276360
+Riding to Bounce City:
+  cloud:
+    steam: true
+  malformed: true
+  pageId: 218655
+  steam: 1892370
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Trigon fan\\Riding to Bounce City}}"
 Riff Racer:
   cloud:
     steam: true
@@ -220834,6 +220876,7 @@ Sticky Business:
   gogSide:
     - 1133597262
     - 1423705561
+    - 1610198761
     - 1770714952
   pageId: 192995
   steam: 2303350
@@ -220841,6 +220884,7 @@ Sticky Business:
     - 2667860
     - 3100090
     - 3639630
+    - 4556920
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Spellgarden Games\\Sticky Business\\Saves\\}}"
 Sticky Dildo Man:
@@ -246670,6 +246714,10 @@ The Thing:
     - "{{Game data/saves|Windows|{{p|game}}\\bin\\}}"
 The Thing (1988):
   pageId: 158681
+The Thing That Happened:
+  lutris: the-thing-that-happened
+  pageId: 218646
+  steam: 2906500
 The Thing With Mistletoes:
   pageId: 57750
   steam: 587290
@@ -267959,6 +268007,9 @@ WWF in Your House:
 WWII - TD:
   pageId: 104483
   steam: 913960
+WWII Tank Commander:
+  lutris: wwii-tank-commander
+  pageId: 218654
 "WWII: Battle Over the Pacific":
   pageId: 203642
 WWII英雄列伝 最強の虎 クルト・クニスペル:
