@@ -155991,14 +155991,6 @@ Crazy Chicken X:
         - save
       when:
         - os: windows
-  installDir:
-    "Moorhuhn Jump and Run 'Traps and Treasures'": {}
-  launch:
-    "<base>/Moorhuhn Jump and Run 'Traps and Treasures'.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 2316960
 "Crazy Chicken: Invasion":
   files:
     "<base>/data/highscores.txt":
@@ -422999,6 +422991,61 @@ Lovish:
             store: steam
   steam:
     id: 2959010
+Lovux:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Mindlabor/Lovux/*.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/unity3d/Mindlabor/Lovux/saveData.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Mindlabor/Lovux/*.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Mindlabor/Lovux/saveData.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Mindlabor/Lovux/*.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Mindlabor/Lovux/saveData.json":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: lovux
+    steamExtra:
+      - 4712580
+  installDir:
+    Lovux: {}
+  launch:
+    "<base>/Lovux.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Lovux.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Lovux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2244630
 Low Desert Punk:
   files:
     "<base>/SavesDir/**/*.sav":
@@ -486312,6 +486359,61 @@ Netherworld Covenant:
         - save
       when:
         - os: windows
+Netoo:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Mindlabor/Netoo/*.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/unity3d/Mindlabor/Netoo/saveData.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Mindlabor/Netoo/*.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Mindlabor/Netoo/saveData.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Mindlabor/Netoo/*.json":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Mindlabor/Netoo/saveData.json":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: netoo
+    steamExtra:
+      - 4246090
+  installDir:
+    Netoo: {}
+  launch:
+    "<base>/Netoo.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Netoo.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Netoo.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4017520
 Netsoccer:
   files:
     "<base>/SavesDir/*.sav":
@@ -612571,6 +612673,27 @@ Scarf:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/VUGAMES/Scarface:
       tags:
         - config
+Scarlet Deer Inn:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Attu Games/Scarlet Deer Inn/SaveData/*.attu":
+      when:
+        - store: steam
+  id:
+    lutris: scarlet-deer-inn
+    steamExtra:
+      - 2723730
+      - 4955870
+  installDir:
+    Scarlet Deer Inn: {}
+  launch:
+    "<base>/Scarlet Deer Inn.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1553260
 Scarlet Fantasy:
   installDir:
     Scarlet Fantasy: {}
@@ -627886,10 +628009,26 @@ Shift 87:
   steam:
     id: 2981650
 Shift At Midnight:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Kwalee/ShiftAtMidnight/*.data":
+      when:
+        - store: steam
+    "<xdgData>/Kwalee/ShiftAtMidnight/*.data":
+      when:
+        - os: linux
+          store: steam
   id:
     lutris: shift-at-midnight
     steamExtra:
       - 4050060
+  installDir:
+    Shift At Midnight: {}
+  launch:
+    "<base>/ShiftAtMidnight.exe":
+      - when:
+          - store: steam
   steam:
     id: 3722330
 Shift Happens:
@@ -813471,6 +813610,8 @@ Vexius:
 Vholume:
   id:
     lutris: vholume
+    steamExtra:
+      - 4245250
   steam:
     id: 4131730
 ViKubb:

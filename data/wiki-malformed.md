@@ -3,7 +3,6 @@
 * [Aooni (2008)](https://www.pcgamingwiki.com/wiki/?curid=207717)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
 * [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
-* [Far Cry 3](https://www.pcgamingwiki.com/wiki/?curid=3763)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Life Is Strange: Reunion](https://www.pcgamingwiki.com/wiki/?curid=213008)

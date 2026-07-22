@@ -565845,6 +565845,19 @@
   launch:
     - executable: CrimsonManor.exe
 1553140: {}
+1553260:
+  cloud:
+    saves:
+      - path: Attu Games/Scarlet Deer Inn/SaveData/
+        pattern: "*.attu"
+        root: WinAppDataLocalLow
+  installDir: Scarlet Deer Inn
+  launch:
+    - config:
+        oslist: windows
+      executable: Scarlet Deer Inn.exe
+  nameLocalized:
+    schinese: 红鹿旅馆
 1554600:
   cloud:
     saves:
@@ -612533,6 +612546,48 @@
     - arguments: "-vulkan"
       description: Play Sentinels using Vulkan
       executable: SNT.exe
+2244630:
+  cloud:
+    saves:
+      - path: Mindlabor/Lovux/
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Mindlabor/Lovux/
+            replace: Mindlabor/Lovux/
+        root: WinAppDataLocalLow
+        useInstead: WinAppDataLocalLow
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Mindlabor/Lovux/
+            replace: ".config/unity3d/Mindlabor/Lovux/"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Mindlabor/Lovux/
+            replace: Mindlabor/Lovux/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Lovux
+  launch:
+    - config:
+        oslist: windows
+      executable: Lovux.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Lovux.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Lovux.app
+      type: default
 2244780:
   nameLocalized:
     schinese: 深渊国度：天启
@@ -650158,6 +650213,20 @@
 3720440: {}
 3720530: {}
 3722330:
+  cloud:
+    saves:
+      - path: Kwalee/ShiftAtMidnight/
+        pattern: "*.data"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgDataHome
+  installDir: Shift At Midnight
+  launch:
+    - executable: ShiftAtMidnight.exe
   nameLocalized:
     schinese: 午夜轮班
 3726250:
@@ -652542,6 +652611,48 @@
         osarch: "64"
         oslist: windows
       executable: game.exe
+      type: default
+4017520:
+  cloud:
+    saves:
+      - path: Mindlabor/Netoo/
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Mindlabor/Netoo/
+            replace: Mindlabor/Netoo/
+        root: WinAppDataLocalLow
+        useInstead: WinAppDataLocalLow
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Mindlabor/Netoo/
+            replace: ".config/unity3d/Mindlabor/Netoo/"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: Mindlabor/Netoo/
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Netoo
+  launch:
+    - config:
+        oslist: windows
+      executable: Netoo.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Netoo.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Netoo.app
       type: default
 4022950: {}
 4026510: {}

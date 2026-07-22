@@ -29218,6 +29218,10 @@ Blink the Bulb:
     steam: true
   pageId: 126041
   steam: 991290
+"Blinx: The Time Sweeper":
+  cloud:
+    xbox: true
+  pageId: 218719
 "Blip 'n Blup":
   pageId: 203664
 Blippo+:
@@ -47720,6 +47724,10 @@ Conjury of Nature:
     steam: true
   pageId: 93855
   steam: 856050
+"Conker: Live and Reloaded":
+  cloud:
+    xbox: true
+  pageId: 218721
 Connect the Dots:
   pageId: 187306
   steam: 1605190
@@ -50197,7 +50205,6 @@ Crazy Chicken X:
   pageId: 201203
 "Crazy Chicken: Heart of Tibet":
   pageId: 215037
-  steam: 2316960
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\data\\}}"
 "Crazy Chicken: Invasion":
@@ -51115,6 +51122,8 @@ Crimson Skies:
   pageId: 8881
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\}}"
+"Crimson Skies: High Road to Revenge":
+  pageId: 218717
 Crimson Snow:
   lutris: crimson-snow
   pageId: 183607
@@ -83815,7 +83824,6 @@ Far Cry 3:
   cloud:
     uplay: true
   lutris: far-cry-3
-  malformed: true
   pageId: 3763
   steam: 220240
   steamSide:
@@ -93189,6 +93197,8 @@ Futurust:
 Fuzecat:
   pageId: 62574
   steam: 629720
+Fuzion Frenzy:
+  pageId: 218723
 Fuzzy Flip:
   cloud:
     steam: true
@@ -137357,6 +137367,21 @@ Lovish:
     - 3830540
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\gamesave.kap}}"
+Lovux:
+  cloud:
+    steam: true
+  lutris: lovux
+  pageId: 218705
+  steam: 2244630
+  steamSide:
+    - 4712580
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Mindlabor\\Lovux\\*.json}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Mindlabor/Lovux/*.json}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Mindlabor/Lovux/*.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Mindlabor\\Lovux\\saveData.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Mindlabor/Lovux/saveData.json}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Mindlabor/Lovux/saveData.json}}"
 Low Desert Punk:
   pageId: 70665
   steam: 709400
@@ -158248,6 +158273,21 @@ Netherworld Covenant:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\System\\UW.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\System\\AutoSave\\|{{p|game}}\\System\\User-{{p|uid}}\\}}"
+Netoo:
+  cloud:
+    steam: true
+  lutris: netoo
+  pageId: 218707
+  steam: 4017520
+  steamSide:
+    - 4246090
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Mindlabor\\Netoo\\*.json}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Mindlabor/Netoo/*.json}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Mindlabor/Netoo/*.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Mindlabor\\Netoo\\saveData.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Mindlabor/Netoo/saveData.json}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Mindlabor/Netoo/saveData.json}}"
 Netsoccer:
   pageId: 148420
   steam: 1151320
@@ -199448,6 +199488,15 @@ Scarf:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Classes\\VirtualStore\\MACHINE\\SOFTWARE\\{{p|wow64}}\\VUGames\\Scarface\\|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\VUGAMES\\Scarface\\}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
+Scarlet Deer Inn:
+  cloud:
+    steam: true
+  lutris: scarlet-deer-inn
+  pageId: 218714
+  steam: 1553260
+  steamSide:
+    - 2723730
+    - 4955870
 Scarlet Fantasy:
   pageId: 122506
   steam: 935260
@@ -204430,6 +204479,7 @@ Shift 87:
   steam: 2981650
 Shift At Midnight:
   cloud:
+    steam: true
     xbox: true
   lutris: shift-at-midnight
   pageId: 210611
@@ -265592,6 +265642,8 @@ Vholume:
   lutris: vholume
   pageId: 216999
   steam: 4131730
+  steamSide:
+    - 4245250
 ViKubb:
   pageId: 150255
   steam: 681790
