@@ -225266,6 +225266,8 @@ E3.14CENTER:
             store: steam
   steam:
     id: 862240
+EA SPORTS™ Madden NFL 27:
+  alias: EA Sports Madden NFL 27
 EA Sports College Football 27:
   installDir:
     College Football 27: {}
@@ -225334,6 +225336,9 @@ EA Sports FC 26:
     FC 26: {}
   steam:
     id: 3405690
+EA Sports Madden NFL 27:
+  steam:
+    id: 3940610
 EA Sports PGA Tour:
   cloud:
     origin: true

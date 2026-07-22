@@ -13203,8 +13203,8 @@
     - config:
         oslist: linux
       description: "Launch Arma: Cold War Assault Remastered (Linux native version)."
-      executable: /Remastered/PoseidonGame
-      workingdir: /Remastered/
+      executable: Remastered/PoseidonGame
+      workingdir: Remastered
     - description: "Launch Arma: Cold War Assault Legacy preferences."
       executable: ColdWarAssaultPreferences.exe
 65800:
@@ -652117,6 +652117,10 @@
     koreana: 바닷가 보물 가게
     schinese: 海边宝藏小铺
     tchinese: 海邊寶藏小鋪
+3940610:
+  nameLocalized:
+    english: EA SPORTS™ Madden NFL 27
+    schinese: EA SPORTS™《Madden NFL 27》
 3946090: {}
 3947040: {}
 3948120:

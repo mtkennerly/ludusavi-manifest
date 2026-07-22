@@ -8263,7 +8263,7 @@
 * [E3.14CENTER](https://www.pcgamingwiki.com/wiki/?curid=123460)
 * [EA Sports College Football 27](https://www.pcgamingwiki.com/wiki/?curid=217265)
 * [EA Sports FC Online](https://www.pcgamingwiki.com/wiki/?curid=201118)
-* [EA SPORTS™ Madden NFL 27](https://www.pcgamingwiki.com/wiki/?curid=218676)
+* [EA Sports Madden NFL 27](https://www.pcgamingwiki.com/wiki/?curid=218676)
 * [Eared Hero](https://www.pcgamingwiki.com/wiki/?curid=88965)
 * [EARLY ACCESS CA$HGRAB](https://www.pcgamingwiki.com/wiki/?curid=142215)
 * [Ears of the Killer](https://www.pcgamingwiki.com/wiki/?curid=179132)

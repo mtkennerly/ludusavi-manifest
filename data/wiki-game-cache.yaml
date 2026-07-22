@@ -72704,8 +72704,6 @@ E06-Anomaly:
 E3.14CENTER:
   pageId: 123460
   steam: 862240
-EA SPORTS™ Madden NFL 27:
-  pageId: 218676
 EA Sports College Football 27:
   pageId: 217265
   steam: 4032350
@@ -72742,6 +72740,11 @@ EA Sports FC 26:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\EA SPORTS FC 26\\settings}}"
 EA Sports FC Online:
   pageId: 201118
+EA Sports Madden NFL 27:
+  pageId: 218676
+  renamedFrom:
+    - EA SPORTS™ Madden NFL 27
+  steam: 3940610
 EA Sports PGA Tour:
   cloud:
     origin: true
@@ -83812,6 +83815,7 @@ Far Cry 3:
   cloud:
     uplay: true
   lutris: far-cry-3
+  malformed: true
   pageId: 3763
   steam: 220240
   steamSide:
