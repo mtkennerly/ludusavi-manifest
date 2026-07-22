@@ -64701,6 +64701,26 @@ Bad Day L.A.:
         - save
       when:
         - os: windows
+"Bad Dream: Afterlife":
+  cloud:
+    steam: true
+  files:
+    "<base>/*.ini":
+      when:
+        - store: steam
+  id:
+    lutris: bad-dream-afterlife
+    steamExtra:
+      - 4071740
+  installDir:
+    Bad Dream Afterlife: {}
+  launch:
+    "<base>/Bad Dream Afterlife.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3202410
 "Bad Dream: Coma":
   cloud:
     gog: true
@@ -64765,6 +64785,30 @@ Bad Day L.A.:
             store: steam
   steam:
     id: 769970
+"Bad Dream: Purgatory":
+  id:
+    lutris: bad-dream-purgatory
+  installDir:
+    Bad Dream Purgatory: {}
+  launch:
+    "<base>/Bad_Dream_Purgatory.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2313780
+"Bad Dream: Stories":
+  id:
+    lutris: bad-dream-stories
+  installDir:
+    Bad Dream Stories: {}
+  launch:
+    "<base>/Bad Dream Stories.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1692060
 Bad Dudes (2021):
   alias: Bad Dudes (Retro Classix)
 Bad Dudes (Retro Classix):
@@ -81412,6 +81456,35 @@ Big Fish Legend:
             store: steam
   steam:
     id: 376560
+Big Helmet Heroes:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2397250/ac/WinAppDataLocal/BigHelmetHeroes":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<winLocalAppData>/BigHelmetHeroes/Saved/Config":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/BigHelmetHeroes/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: big-helmet-heroes
+  installDir:
+    Big Helmet Heroes: {}
+  launch:
+    "<base>/BigHelmetHeroes.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2397250
 Big Hit VR Baseball:
   installDir:
     Big Hit VR Baseball: {}
@@ -190768,26 +190841,11 @@ Denshattack!:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_InputUserSettings.sav":
+    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_Main_RELEASE.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_Main_RELEASE_SLOT2.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_Main_RELEASE_SLOT3.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/Denshattack_Proto/Saved/SaveGames/<storeUserId>/DA_Screenshots.sav":
-      when:
-        - os: windows
-          store: steam
   id:
     lutris: denshattack
     steamExtra:
@@ -398685,6 +398743,9 @@ Ladykiller in a Bind:
             store: steam
   steam:
     id: 857690
+Lagsters:
+  id:
+    lutris: lagsters
 Laid-Back Camp - Virtual - Fumoto Campsite:
   cloud:
     steam: true

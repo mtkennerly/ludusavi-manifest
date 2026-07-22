@@ -20778,6 +20778,14 @@ Bad Day L.A.:
   pageId: 30458
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
+"Bad Dream: Afterlife":
+  cloud:
+    steam: true
+  lutris: bad-dream-afterlife
+  pageId: 218675
+  steam: 3202410
+  steamSide:
+    - 4071740
 "Bad Dream: Coma":
   cloud:
     gog: true
@@ -20801,6 +20809,14 @@ Bad Day L.A.:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Bad_Dream_Fever\\Config.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Bad_Dream_Fever\\Save\\}}"
+"Bad Dream: Purgatory":
+  lutris: bad-dream-purgatory
+  pageId: 218673
+  steam: 2313780
+"Bad Dream: Stories":
+  lutris: bad-dream-stories
+  pageId: 218671
+  steam: 1692060
 Bad Dudes:
   pageId: 169509
 Bad Dudes (Retro Classix):
@@ -26414,6 +26430,16 @@ Big Fish Legend:
     steam: true
   pageId: 38250
   steam: 376560
+Big Helmet Heroes:
+  cloud:
+    steam: true
+  lutris: big-helmet-heroes
+  pageId: 218666
+  steam: 2397250
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\BigHelmetHeroes\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\BigHelmetHeroes\\Saved\\SaveGames}}"
+    - "{{Game data/config|Steam|{{p|steam}}/userdata/{{p|uid}}/2397250/ac/WinAppDataLocal/BigHelmetHeroes/}}"
 Big Hit VR Baseball:
   pageId: 61323
   steam: 620800
@@ -47841,6 +47867,8 @@ Consortium Remastered:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\thetower\\Saved\\Config\\WindowsNoEditor|{{p|game}}\\thetower\\Saved\\csav\\inputsettings.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\thetower\\Saved\\csav}}"
+Conspiracies:
+  pageId: 218678
 Conspiracy - KGB:
   pageId: 169069
   templates:
@@ -61437,6 +61465,8 @@ Denshattack!:
     - 4142750
     - 4609680
     - 4719220
+  templates:
+    - "{{Game data/saves|Windows|%USERPROFILE%/AppData/Local/Denshattack_Proto/Saved/SaveGames/}}"
 Deorum Online:
   pageId: 145138
   steam: 734480
@@ -72674,6 +72704,8 @@ E06-Anomaly:
 E3.14CENTER:
   pageId: 123460
   steam: 862240
+EA SPORTS™ Madden NFL 27:
+  pageId: 218676
 EA Sports College Football 27:
   pageId: 217265
   steam: 4032350
@@ -129438,6 +129470,7 @@ Ladykiller in a Bind:
   pageId: 95264
   steam: 857690
 Lagsters:
+  lutris: lagsters
   pageId: 192640
 Laid-Back Camp - Virtual - Fumoto Campsite:
   cloud:

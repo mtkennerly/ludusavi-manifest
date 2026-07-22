@@ -577372,6 +577372,12 @@
   nameLocalized:
     japanese: ハッピーダンガンロンパＳ 超高校級の南国サイコロ合宿
     tchinese: 幸福槍彈辯駁Ｓ 超高中級的南國擲骰合宿
+1692060:
+  installDir: Bad Dream Stories
+  launch:
+    - config:
+        oslist: windows
+      executable: Bad Dream Stories.exe
 1692070:
   installDir: CROWZ
   launch:
@@ -615227,6 +615233,12 @@
   nameLocalized:
     schinese: 康斯坦丝
     tchinese: 康斯坦絲
+2313780:
+  installDir: Bad Dream Purgatory
+  launch:
+    - config:
+        oslist: windows
+      executable: Bad_Dream_Purgatory.exe
 2314820:
   installDir: Hira Hira Hihiru
   launch:
@@ -618725,6 +618737,36 @@
         osarch: "64"
         oslist: windows
       executable: hollow-win64vc14-release.exe
+2397250:
+  cloud:
+    saves:
+      - path: BigHelmetHeroes/Saved/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: BigHelmetHeroes/Saved/SaveGames/
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Big Helmet Heroes
+  launch:
+    - executable: BigHelmetHeroes.exe
+      type: default
+    - config:
+        betakey: internal
+      executable: BigHelmetHeroes.exe
+    - config:
+        betakey: demo
+      executable: BigHelmetHeroes.exe
+    - config:
+        betakey: playtest
+      executable: BigHelmetHeroes.exe
+    - config:
+        betakey: kstmptest
+        ownsdlc: "3493570"
+      description: the Coloring Book
+      executable: "BHH - Coloring Book\\LaunchColoringBook.bat"
+      type: option1
+  nameLocalized:
+    schinese: 大头盔英雄
 2397300:
   cloud:
     saves:
@@ -642189,6 +642231,17 @@
     japanese: 炎姫 体験版
     schinese: 炎姬 体验版
     tchinese: 炎姬 體驗版
+3202410:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.ini"
+        root: gameinstall
+  installDir: Bad Dream Afterlife
+  launch:
+    - config:
+        oslist: windows
+      executable: Bad Dream Afterlife.exe
 3203170: {}
 3204020:
   cloud:
