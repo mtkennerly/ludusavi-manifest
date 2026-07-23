@@ -17581,6 +17581,12 @@ Ace Attorney Investigations Collection:
     steam: true
   steam:
     id: 2288340
+"Ace Combat Zero: The Belkan War":
+  id:
+    steamExtra:
+      - 3635880
+  steam:
+    id: 2288340
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
@@ -200470,6 +200476,15 @@ Disgaea 6 Complete:
   steam:
     id: 2250600
 Disgaea Mayhem:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Nippon Ichi Software, Inc/Disgaea Mayhem/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   steam:
     id: 4402250
 Disgaea PC:
@@ -212148,6 +212163,14 @@ DragonStrike:
   id:
     steamExtra:
       - 4575730
+  installDir:
+    DragonSword  Awakening: {}
+  launch:
+    "<base>/DSClient.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4570720
 DragonWingsVR:
@@ -368411,6 +368434,9 @@ Intravenous 2:
             store: steam
   steam:
     id: 2651330
+Intravenous 3:
+  steam:
+    id: 4383190
 Intrepid Izzy:
   cloud:
     steam: true
@@ -387646,6 +387672,13 @@ Killing Floor 3:
         - os: windows
   id:
     lutris: killing-floor-3
+    steamExtra:
+      - 2843460
+      - 2843470
+      - 3271050
+      - 3374910
+      - 3526590
+      - 3547480
   installDir:
     Nightfall: {}
   launch:
@@ -448605,6 +448638,8 @@ Metal Gear Survive:
   steam:
     id: 543900
 "Metal Gear: Ghost Babel - Master Collection Version":
+  cloud:
+    steam: true
   id:
     steamExtra:
       - 3859630
@@ -535652,6 +535687,8 @@ Pixel War:
 Pixel Washer:
   id:
     lutris: pixel-washer
+    steamExtra:
+      - 3145410
   steam:
     id: 2572060
 Pixel World:
@@ -576386,16 +576423,27 @@ Redout:
     gog: true
     steam: true
   files:
+    "<base>/Saved/SaveGames/RC_RedoutCareer_<storeUserId>.sav":
+      tags:
+        - save
+      when:
+        - store: steam
     "<winLocalAppData>/redout/Saved/Config/WindowsNoEditor":
       tags:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/redout/Saved/SaveGames":
+    "<winLocalAppData>/redout/Saved/SaveGames/GameOptions.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/redout/Saved/SaveGames/Profile/RC_RedoutCareer.sav":
       tags:
         - save
       when:
         - os: windows
+          store: gog
   gog:
     id: 1844570543
   installDir:

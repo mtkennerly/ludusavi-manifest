@@ -5514,6 +5514,9 @@ Ace Attorney Investigations Collection:
   steam: 2288340
 "Ace Combat Zero: The Belkan War":
   pageId: 218564
+  steam: 2288340
+  steamSide:
+    - 3635880
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
@@ -64658,8 +64661,13 @@ Disgaea 6 Complete:
     - "{{Game data/config|Windows|{{P|appdata}}\\Nippon Ichi Software, Inc\\Disgaea 7\\Setting.ini}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Nippon Ichi Software, Inc\\Disgaea 7\\{{P|uid}}\\}}"
 Disgaea Mayhem:
+  cloud:
+    steam: true
   pageId: 215275
   steam: 4402250
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Nippon Ichi Software, Inc\\Disgaea Mayhem\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Nippon Ichi Software, Inc\\Disgaea Mayhem\\{{P|uid}}\\}}"
 Disgaea PC:
   cloud:
     steam: true
@@ -119447,6 +119455,9 @@ Intravenous 2:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\intravenous2_mercenarism\\}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\intravenous2_mercenarism\\savegames\\}}"
+Intravenous 3:
+  pageId: 218738
+  steam: 4383190
 Intrepid Izzy:
   cloud:
     steam: true
@@ -125784,6 +125795,13 @@ Killing Floor 3:
   lutris: killing-floor-3
   pageId: 196566
   steam: 1430190
+  steamSide:
+    - 2843460
+    - 2843470
+    - 3271050
+    - 3374910
+    - 3526590
+    - 3547480
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Nightfall\\Saved\\Config\\WindowsClient\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Nightfall\\Saved\\SaveGames\\}}"
@@ -145670,6 +145688,8 @@ Metal Gear Survive:
     - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\543900\\local\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\543900\\remote\\}}"
 "Metal Gear: Ghost Babel - Master Collection Version":
+  cloud:
+    steam: true
   pageId: 217589
   steam: 4184420
   steamSide:
@@ -174592,6 +174612,8 @@ Pixel Washer:
   lutris: pixel-washer
   pageId: 217128
   steam: 2572060
+  steamSide:
+    - 3145410
 Pixel World:
   pageId: 121288
   steam: 963190
@@ -187586,8 +187608,9 @@ Redout:
   pageId: 36548
   steam: 517710
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\redout\\Saved\\Config\\WindowsNoEditor\\}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\redout\\Saved\\SaveGames\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\redout\\Saved\\Config\\WindowsNoEditor\\|{{p|localappdata}}\\redout\\Saved\\SaveGames\\GameOptions.sav}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\Saved\\SaveGames\\RC_RedoutCareer_{{p|uid}}.sav}}"
+    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\redout\\Saved\\SaveGames\\Profile\\RC_RedoutCareer.sav}}"
 Redout 2:
   cloud:
     epic: true

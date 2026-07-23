@@ -555836,8 +555836,7 @@
       description: "Nighfall Client Only (New) "
       executable: start_protected_game.exe
       type: default
-    - arguments: "-logPSO"
-      config:
+    - config:
         betakey: nightly_playtest
         osarch: "64"
         oslist: windows
@@ -555852,8 +555851,16 @@
       description: Launch Release_Staging_Test
       executable: "Nightfall\\Binaries\\Win64\\NightfallClient-Win64-Test.exe"
       type: option1
-    - arguments: "-logPSO"
+    - arguments: "-noEAC"
       config:
+        betakey: staging_rnd
+      executable: "Nightfall\\Binaries\\Win64\\NightfallClient-Win64-Test.exe"
+    - arguments: "-noEAC"
+      config:
+        betakey: tech_rnd
+        oslist: windows
+      executable: "Nightfall\\Binaries\\Win64\\NightfallClient.exe"
+    - config:
         betakey: mainline_development
         osarch: "64"
         oslist: windows
@@ -555886,7 +555893,7 @@
         osarch: "64"
         oslist: windows
       description: Unprotected Mainline_Development
-      executable: "Nightfall\\Binaries\\Win64\\NightfallClient-Win64-Test.exe"
+      executable: "Nightfall\\Binaries\\Win64\\NightfallClient.exe"
       type: option1
     - arguments: "-noEAC"
       config:
@@ -654004,6 +654011,7 @@
     - arguments: "-conf \"dosbox_finis.conf\" -noconsole"
       description: Skip to level 9
       executable: Start.exe
+4383190: {}
 4384550:
   installDir: Call of Duty Black Ops 6
   launch:
@@ -654176,6 +654184,8 @@
 4402250:
   nameLocalized:
     japanese: 凶乱マカイズム
+    koreana: 흉란 마계이즘
+    tchinese: 凶亂魔界主義
 4414560: {}
 4418080: {}
 4431400:
@@ -654423,6 +654433,21 @@
         oslist: windows
       executable: ttt.exe
 4570720:
+  cloud:
+    saves:
+      - path: "DS/Saved/SaveGames/{Steam3AccountID}"
+        pattern: "*_Slot*.db"
+        root: gameinstall
+      - path: DS/Saved/Config/Windows
+        pattern: GameUserInputSettings.ini
+        root: gameinstall
+  installDir: DragonSword  Awakening
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DSClient.exe
+      type: default
   nameLocalized:
     japanese: "ドラゴンソード:アウェイクニング"
     koreana: "드래곤소드 : 어웨이크닝"
