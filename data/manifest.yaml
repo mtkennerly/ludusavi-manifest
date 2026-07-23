@@ -121773,6 +121773,11 @@ Cataclismo:
         - os: windows
   gog:
     id: 1966220998
+  id:
+    gogExtra:
+      - 1992101679
+    steamExtra:
+      - 4396100
   installDir:
     Cataclismo: {}
   launch:
@@ -164530,6 +164535,8 @@ Cubic Odyssey:
         - config
       when:
         - os: windows
+  gog:
+    id: 1715513898
   installDir:
     Cubic Odyssey: {}
   launch:
@@ -165231,6 +165238,8 @@ Cultic:
   id:
     lutris: cultic
     steamExtra:
+      - 1714870
+      - 2176420
       - 3918090
   installDir:
     CULTIC: {}
@@ -198933,10 +198942,23 @@ DinoTrek:
   steam:
     id: 925170
 Dinoblade:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/DinobladeGame/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: dinoblade
     steamExtra:
       - 4106740
+  installDir:
+    DinobladeGame: {}
+  launch:
+    "<base>/DinobladeGame.exe":
+      - when:
+          - store: steam
   steam:
     id: 3440070
 Dinobreak:
@@ -312733,6 +312755,7 @@ Grim Dawn:
       - 1353691821
       - 1536648751
       - 1551979801
+      - 1700702378
       - 1812959072
       - 1842678741
       - 2004748256
@@ -450063,6 +450086,48 @@ Metro Gravity:
           - store: steam
   steam:
     id: 2986450
+Metro Quester:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/KEMCO/METRO QUESTER/Steam/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1396720145
+  id:
+    lutris: metro-quester
+  installDir:
+    METRO QUESTER: {}
+  launch:
+    "<base>/METRO QUESTER.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4402650
+"Metro Quester: Osaka":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/KEMCO/METRO QUESTER OSAKA/Steam/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1418418312
+  id:
+    lutris: metro-quester-osaka
+  installDir:
+    METRO QUESTER  OSAKA: {}
+  launch:
+    "<base>/METRO QUESTER OSAKA.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4402660
 Metro Sim Hustle:
   cloud:
     steam: true
@@ -596601,6 +596666,8 @@ Romancing SaGa 3:
         - save
       when:
         - os: windows
+  gog:
+    id: 1771131491
   installDir:
     RomancingSaGa3: {}
   launch:
@@ -605588,6 +605655,8 @@ SaGa Frontier Remastered:
     "<winDocuments>/My Games/SaGa Frontier Remastered/Steam/<storeUserId>/SaveData":
       when:
         - store: steam
+  gog:
+    id: 1285067447
   installDir:
     SaGa Frontier Remastered: {}
   launch:

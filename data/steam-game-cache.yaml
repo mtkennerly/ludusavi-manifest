@@ -21786,22 +21786,20 @@
   installDir: Grim Dawn
   launch:
     - config:
-        oslist: windows
-      description: Play Grim Dawn (x86)
-      executable: grim dawn.exe
-      type: none
-    - config:
         osarch: "64"
         oslist: windows
       description: Play Grim Dawn (x64)
       executable: x64/grim dawn.exe
-      type: none
+      type: default
+    - config:
+        oslist: windows
+      description: Play Grim Dawn (x86) - Legacy
+      executable: grim dawn.exe
     - arguments: /d3d9
       config:
         oslist: windows
-      description: Play Grim Dawn (x86) - Legacy DX9 Renderer
+      description: Play Grim Dawn (x86) - Legacy (DX9)
       executable: grim dawn.exe
-      type: none
 220050:
   cloud:
     saves:
@@ -646377,7 +646375,20 @@
         osarch: "64"
         oslist: windows
       executable: CheatersCheetah.exe
-3440070: {}
+3440070:
+  cloud:
+    saves:
+      - path: DinobladeGame/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: DinobladeGame
+  launch:
+    - executable: DinobladeGame.exe
+  nameLocalized:
+    schinese: 这龙带刀
+    tchinese: 這龍帶刀
 3440200: {}
 3441990: {}
 3444480:
@@ -654225,6 +654236,34 @@
     japanese: 凶乱マカイズム
     koreana: 흉란 마계이즘
     tchinese: 凶亂魔界主義
+4402650:
+  cloud:
+    saves:
+      - path: "KEMCO/METRO QUESTER/Steam/{64BitSteamID}"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: METRO QUESTER
+  launch:
+    - config:
+        oslist: windows
+      executable: METRO QUESTER.exe
+      type: default
+4402660:
+  cloud:
+    saves:
+      - path: "KEMCO/METRO QUESTER OSAKA/Steam/{64BitSteamID}"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: METRO QUESTER  OSAKA
+  launch:
+    - config:
+        oslist: windows
+      executable: METRO QUESTER OSAKA.exe
+      type: default
 4414560: {}
 4418080: {}
 4431400:

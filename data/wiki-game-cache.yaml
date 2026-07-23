@@ -20368,6 +20368,8 @@ Baby Game Plan 0-3:
 Baby Hands:
   pageId: 72377
   steam: 708820
+"Baby Jo in \"Going Home\"":
+  pageId: 218760
 Baby Redemption:
   pageId: 130303
   steam: 1029040
@@ -39433,8 +39435,12 @@ Cataclismo:
     steam: true
     xbox: true
   gog: 1966220998
+  gogSide:
+    - 1992101679
   pageId: 196563
   steam: 1422440
+  steamSide:
+    - 4396100
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Digital Sun\\Cataclismo\\SavesMP\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Digital Sun\\Cataclismo\\SavesMP\\}}"
@@ -52960,6 +52966,7 @@ Cubic Neon Nightclub:
 Cubic Odyssey:
   cloud:
     steam: true
+  gog: 1715513898
   pageId: 201821
   steam: 3400000
   templates:
@@ -53183,6 +53190,8 @@ Cultic:
   pageId: 181604
   steam: 1684930
   steamSide:
+    - 1714870
+    - 2176420
     - 3918090
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\CULTIC_Data\\Preferences.xml}}"
@@ -64116,6 +64125,8 @@ DinoTrek:
   pageId: 110338
   steam: 925170
 Dinoblade:
+  cloud:
+    steam: true
   lutris: dinoblade
   pageId: 210456
   steam: 3440070
@@ -101311,6 +101322,7 @@ Grim Dawn:
     - 1353691821
     - 1536648751
     - 1551979801
+    - 1700702378
     - 1812959072
     - 1842678741
     - 2004748256
@@ -146230,6 +146242,20 @@ Metro Gravity:
     - 3166820
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\MetroGravia\\Saved\\SaveGames\\*.sav}}"
+Metro Quester:
+  cloud:
+    steam: true
+  gog: 1396720145
+  lutris: metro-quester
+  pageId: 218752
+  steam: 4402650
+"Metro Quester: Osaka":
+  cloud:
+    steam: true
+  gog: 1418418312
+  lutris: metro-quester-osaka
+  pageId: 218755
+  steam: 4402660
 Metro Sim Hustle:
   cloud:
     steam: true
@@ -194346,6 +194372,7 @@ Romancing SaGa 2:
 Romancing SaGa 3:
   cloud:
     steam: true
+  gog: 1771131491
   pageId: 150482
   steam: 952540
   templates:
@@ -197222,6 +197249,7 @@ SaGa Frontier 2 Remastered:
   pageId: 202784
   steam: 2452080
 SaGa Frontier Remastered:
+  gog: 1285067447
   pageId: 165469
   steam: 1295270
 "SaGa Scarlet Grace: Ambitions":
