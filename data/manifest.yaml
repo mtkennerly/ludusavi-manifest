@@ -855470,6 +855470,35 @@ Ys Seven:
           - store: steam
   steam:
     id: 3949290
+"Ys vs. Trails in the Sky: Alternative Saga":
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  files:
+    "<home>/Saved Games/Falcom/YsVsSora/**/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Falcom/YsVsSora/**/*.png":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Falcom/YsVsSora/**/*.txt":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1566737619
+  installDir:
+    Ys vs. Trails in the Sky Alternative Saga: {}
+  launch:
+    "<base>/ys_vs_ed.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1794880
 "Ys: Memories of Celceta":
   cloud:
     gog: true

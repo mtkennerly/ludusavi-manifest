@@ -584551,6 +584551,45 @@
       type: default
   nameLocalized:
     schinese: Vampire Survivors - 吸血鬼幸存者
+1794880:
+  cloud:
+    saves:
+      - path: Falcom/YsVsSora
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+      - path: Falcom/YsVsSora
+        pattern: "*.txt"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+      - path: Falcom/YsVsSora
+        pattern: "*.png"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Ys vs. Trails in the Sky Alternative Saga
+  launch:
+    - config:
+        oslist: windows
+      executable: ys_vs_ed.exe
+      type: default
+    - config:
+        betakey: test
+        oslist: windows
+      description: Debug
+      executable: ys_vs_ed_debug.exe
+      type: option1
+    - arguments: /SAFEMODE
+      description: safe mode
+      executable: ys_vs_ed.exe
+      type: option1
+  nameLocalized:
+    japanese: イースvs.空の軌跡 オルタナティブ・サーガ
 1794960:
   cloud:
     saves:
