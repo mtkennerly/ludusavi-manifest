@@ -48132,6 +48132,30 @@ Arma Tactics:
         workingDir: "<base>/Remastered"
   steam:
     id: 65790
+"Arma: Cold War Assault Remastered":
+  gog:
+    id: 1207658661
+  installDir:
+    ARMA Cold War Assault: {}
+  launch:
+    "<base>/ColdWarAssault.exe":
+      - when:
+          - store: steam
+    "<base>/ColdWarAssaultPreferences.exe":
+      - when:
+          - store: steam
+    "<base>/Remastered/PoseidonGame":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Remastered"
+    "<base>/Remastered/PoseidonGame.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Remastered"
+  steam:
+    id: 65790
 Armada 2526:
   files:
     "<winDocuments>/My Games/Armada 2526":
@@ -135670,10 +135694,16 @@ City of Fools:
     id: 359250
 City of Gangsters:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/SomaSim/City of Gangsters/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/SomaSim/City of Gangsters/saves-epic":
       tags:
         - save
       when:
@@ -326517,10 +326547,11 @@ Havendock:
     epic: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/YYZProductions/Havendock/**/*.hvd":
+    "<home>/AppData/LocalLow/YYZProductions/Havendock":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   gog:
     id: 1237961766
   id:
@@ -797365,6 +797396,8 @@ USAGIRI:
   steam:
     id: 1574870
 USS Darkstar:
+  cloud:
+    steam: true
   files:
     "<base>/darkstar/SAVE":
       tags:
@@ -797373,6 +797406,10 @@ USS Darkstar:
         - os: windows
   id:
     lutris: uss-darkstar
+  installDir:
+    Half-Life MMod: {}
+  steam:
+    id: 1761270
 USSR 2021:
   steam:
     id: 645210

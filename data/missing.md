@@ -13636,6 +13636,7 @@
 * [Internal Storm](https://www.pcgamingwiki.com/wiki/?curid=89567)
 * [International Affairs](https://www.pcgamingwiki.com/wiki/?curid=132004)
 * [International Basketball Manager](https://www.pcgamingwiki.com/wiki/?curid=104953)
+* [International Golf Pro](https://www.pcgamingwiki.com/wiki/?curid=218731)
 * [International Karate](https://www.pcgamingwiki.com/wiki/?curid=81835)
 * [International Space Station Tour VR](https://www.pcgamingwiki.com/wiki/?curid=90008)
 * [International Volleyball 2009](https://www.pcgamingwiki.com/wiki/?curid=209532)

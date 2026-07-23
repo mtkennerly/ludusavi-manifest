@@ -15469,7 +15469,9 @@ Arma Tactics:
     - "{{Game data/saves|Windows|{{p|game}}\\Users\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/vpltd/SavedGames}}"
 "Arma: Cold War Assault Remastered":
+  gog: 1207658661
   pageId: 218446
+  steam: 65790
 Armada 2526:
   pageId: 40997
   steam: 46790
@@ -43714,6 +43716,7 @@ City of Fools:
   steam: 359250
 City of Gangsters:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1732061411
@@ -43742,6 +43745,7 @@ City of Gangsters:
     - 1968895
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SomaSim\\City of Gangsters\\saves}}"
+    - "{{Game data/saves|Epic Games Store|{{P|userprofile\\appdata\\locallow}}\\SomaSim\\City of Gangsters\\saves-epic}}"
 City of God I - Prison Empire:
   cloud:
     steam: true
@@ -106002,6 +106006,8 @@ Havendock:
   steam: 2020710
   steamSide:
     - 4156780
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\YYZProductions\\Havendock}}"
 Havoc:
   pageId: 210159
 Havoc in Heaven:
@@ -119099,6 +119105,8 @@ International Basketball Manager:
     steam: true
   pageId: 104953
   steam: 854890
+International Golf Pro:
+  pageId: 218731
 International Karate:
   pageId: 81835
 International Rally Championship:
@@ -260154,8 +260162,11 @@ USAGIRI:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Angry Cat Studios\\USC Counterforce\\}}"
 USS Darkstar:
+  cloud:
+    steam: true
   lutris: uss-darkstar
   pageId: 206183
+  steam: 1761270
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\darkstar\\SAVE\\}}"
 USSR 2021:
