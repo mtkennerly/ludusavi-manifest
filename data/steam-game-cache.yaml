@@ -403054,7 +403054,38 @@
         oslist: linux
       executable: breakhack.run
       type: default
-931060: {}
+931060:
+  cloud:
+    saves:
+      - path: OhNoo Studio/Tormentum II
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+      - path: OhNoo Studio/Tormentum II
+        pattern: "*.jpg"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: OhNoo Studio/Tormentum II
+            replace: OhNoo Studio/Tormentum II
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Tormentum II
+  launch:
+    - config:
+        oslist: windows
+      executable: Tormentum II.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Tormentum II.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Tormentum II.x86_64
+      type: default
 931070:
   installDir: Echo of Combats
   launch:
@@ -569539,6 +569570,33 @@
     koreana: 캡틴 산업 (Captain of Industry)
     schinese: 工业巨头 (Captain of Industry)
     tchinese: 工業巨頭 (Captain of Industry)
+1594880:
+  cloud:
+    saves:
+      - path: Mauris/Corsairs Legacy/Saves
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Mauris/Corsairs Legacy/Saves
+        pattern: "*"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacAppSupport
+      - path: unity3d/Mauris/Corsairs Legacy/Saves
+        pattern: "*"
+        platforms:
+          - Linux
+        recursive: true
+        root: LinuxXdgDataHome
+  installDir: Corsairs Legacy
+  launch:
+    - config:
+        oslist: windows
+      executable: Corsairs Legacy.exe
+      type: default
 1594940:
   cloud:
     saves:
@@ -620080,7 +620138,11 @@
     schinese: 鬼灭之刃 争当最强队士！
     spanish: Guardianes de la Noche -Kimetsu no Yaiba- ¡A por todas!
     tchinese: 鬼滅之刃 成為最強隊士！
-2424420: {}
+2424420:
+  installDir: Avatar Legends The Fighting Game
+  launch:
+    - executable: Atla.exe
+      type: default
 2425410:
   cloud:
     saves:
@@ -633796,7 +633858,37 @@
       type: default
   nameLocalized:
     schinese: 艾特尔：神祇之路
-2806050: {}
+2806050:
+  installDir: Halo Campaign Evolved
+  launch:
+    - executable: Meteorite/Binaries/Win64/HaloCampaignEvolved.exe
+      type: default
+    - config:
+        betakey: 3pp-streaming capture-hold color-stable compat-test hs-build-review2 main-d met-ar moe-playtest playtest-d qa-d rel-2602-d rel-2604-minmax-d rel-2605-cu1-d rel-2605-flighting-d rel-2606-cu2-d rel-i343-meteorite-2605-cu1 review-demo shield-testing sq-bugbash sq-coop sqpackaged-d meteorite-playtest rel-2607-cu3-d rel-2607-cu4-d
+      description: Dev
+      executable: Meteorite/Binaries/Win64/HaloCampaignEvolved-Win64-Development.exe
+      type: option1
+    - arguments: "-disablePSOCacheBuster"
+      config:
+        betakey: 3pp-streaming capture-hold color-stable compat-test hs-build-review2 main-d met-ar moe-playtest playtest-d qa-d rel-2602-d rel-2604-minmax-d rel-2605-cu1-d rel-2605-flighting-d rel-2606-cu2-d rel-i343-meteorite-2605-cu1 review-demo shield-testing sq-bugbash sq-coop sqpackaged-d meteorite-playtest rel-2607-cu3-d rel-2607-cu4-d
+      description: Test
+      executable: Meteorite/Binaries/Win64/HaloCampaignEvolved-Win64-Test.exe
+      type: option2
+    - arguments: "-disablePSOCacheBuster"
+      config:
+        betakey: main-lab
+      executable: Meteorite/Binaries/Win64/Meteorite-Win64-Shipping.exe
+      type: default
+    - config:
+        ownsdlc: "4192200"
+      description: Digital Story & Art Collection
+      executable: DigitalExtras/HCEDigitalExtrasApp.exe
+      type: option2
+    - config:
+        betakey: 3pp-streaming capture-hold color-stable compat-test hs-build-review2 main-d met-ar moe-playtest playtest-d playtest-s qa-d qa-s qa-selpub rel-2602-d rel-2604-minmax-d rel-2605-cu1-d rel-2605-cu1-s rel-2605-flighting-d rel-2606-cu2-d rel-2606-cu2-s rel-i343-meteorite-2605-cu1 review-demo shield-testing sq-bugbash sq-coop sqpackaged-d sqpackaged-s steam-build-review main-s meteorite-playtest rel-2607-cu3-d rel-2607-cu3-s rel-2607-cu4-d rel-2607-cu4-s
+      description: Shipping
+      executable: Meteorite/Binaries/Win64/HaloCampaignEvolved.exe
+      type: default
 2806120:
   installDir: BIO GODDESS
   launch:
@@ -651010,8 +651102,8 @@
       executable: HabboHotel-oes-xl.exe
 3812600:
   nameLocalized:
-    japanese: "リ・ストーリー: 思い出修理屋 (ReStory)"
-    schinese: 维修物语 (ReStory)
+    japanese: "リ・ストーリー: 思い出修理屋 "
+    schinese: 维修物语
 3812660:
   cloud:
     saves:
@@ -653581,6 +653673,12 @@
     koreana: "록맨: 듀얼 오버라이드"
     schinese: "ROCKMAN: Dual Override"
     tchinese: "ROCKMAN: Dual Override"
+4225980:
+  nameLocalized:
+    japanese: 空の軌跡 the 2nd
+    koreana: 하늘의 궤적 the 2nd
+    schinese: 空之轨迹 the 2nd
+    tchinese: 空之軌跡 the 2nd
 4229200:
   nameLocalized:
     japanese: むちむちポーク！＆ピンクスゥイーツ Boosted
@@ -654455,15 +654553,50 @@
 4557490:
   cloud:
     saves:
-      - path: save
-        pattern: "*/*"
-        recursive: true
+      - path: "save\\characters"
+        pattern: "*.lpl"
         root: gameinstall
       - path: config
-        pattern: option.txt;keyboard.txt;seed.txt;quest.txt
+        pattern: user_prefs.txt
+        root: gameinstall
+      - path: config
+        pattern: glyphcache.bin
+        root: gameinstall
+      - path: config
+        pattern: keyboard.txt
+        root: gameinstall
+      - path: config
+        pattern: seed.txt
+        root: gameinstall
+      - path: config
+        pattern: quest.txt
         root: gameinstall
       - path: "."
         pattern: gamepad_settings.ini
+        root: gameinstall
+      - path: temp
+        pattern: "*.MLV"
+        recursive: true
+        root: gameinstall
+      - path: skin
+        pattern: "*.tga"
+        recursive: true
+        root: gameinstall
+      - path: Quest
+        pattern: "*.mtf"
+        root: gameinstall
+      - path: "config\\tactics"
+        pattern: "*.js"
+        root: gameinstall
+      - path: "save\\games"
+        pattern: "*.sav"
+        root: gameinstall
+      - path: temp
+        pattern: "*.SAV"
+        recursive: true
+        root: gameinstall
+      - path: config
+        pattern: user_keyboard.txt
         root: gameinstall
   installDir: DarkStone Restoration
   launch:

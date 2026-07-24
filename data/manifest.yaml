@@ -23992,6 +23992,7 @@ Age of Empires III:
       - 2154361
       - 2154362
       - 2477660
+      - 4308600
   installDir:
     AoE3DE: {}
   launch:
@@ -59315,6 +59316,12 @@ Avast Ye:
   steam:
     id: 1064170
 "Avatar Legends: The Fighting Game":
+  installDir:
+    Avatar Legends The Fighting Game: {}
+  launch:
+    "<base>/Atla.exe":
+      - when:
+          - store: steam
   steam:
     id: 2424420
 Avatar of the Wolf:
@@ -68635,6 +68642,10 @@ Barbie in the 12 Dancing Princesses:
         - os: windows
   id:
     lutris: barbie-in-the-12-dancing-princesses--1
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Mattel/Barbie (TM)/Barbie (TM) In The 12 Dancing Princesses:
+      tags:
+        - config
 "Barbie: Project Friendship":
   cloud:
     epic: true
@@ -152134,6 +152145,29 @@ Corsair Cove:
     lutris: corsair-cove
   steam:
     id: 1368140
+Corsairs Legacy:
+  files:
+    "<home>/AppData/LocalLow/Mauris/Corsairs Legacy/Saves":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Mauris/Corsairs Legacy/Saves":
+      when:
+        - os: mac
+          store: steam
+    "<xdgData>/unity3d/Mauris/Corsairs Legacy/Saves":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Corsairs Legacy: {}
+  launch:
+    "<base>/Corsairs Legacy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1594880
 "Corsairs: Battle of the Caribbean":
   cloud:
     gog: true
@@ -175958,15 +175992,55 @@ Darkstone:
     id: 320320
 Darkstone Restoration:
   files:
-    "<base>/config/option.txt;keyboard.txt;seed.txt;quest.txt":
+    "<base>/Quest/*.mtf":
+      when:
+        - store: steam
+    "<base>/config/glyphcache.bin":
+      when:
+        - store: steam
+    "<base>/config/keyboard.txt":
+      when:
+        - store: steam
+    "<base>/config/quest.txt":
+      when:
+        - store: steam
+    "<base>/config/seed.txt":
+      when:
+        - store: steam
+    "<base>/config/tactics/*.js":
+      when:
+        - store: steam
+    "<base>/config/user_keyboard.txt":
+      when:
+        - store: steam
+    "<base>/config/user_prefs.txt":
       when:
         - store: steam
     "<base>/gamepad_settings.ini":
       when:
         - store: steam
-    "<base>/save/**":
+    "<base>/save/characters/*.lpl":
       when:
         - store: steam
+    "<base>/save/games/*.sav":
+      when:
+        - store: steam
+    "<base>/skin/**/*.tga":
+      when:
+        - store: steam
+    "<base>/temp/**/*.MLV":
+      when:
+        - store: steam
+    "<base>/temp/**/*.SAV":
+      when:
+        - store: steam
+  gog:
+    id: 1180637450
+  id:
+    gogExtra:
+      - 1185833168
+    steamExtra:
+      - 4716570
   installDir:
     DarkStone Restoration: {}
   launch:
@@ -322085,6 +322159,12 @@ Halo Online:
   steam:
     id: 459220
 "Halo: Campaign Evolved":
+  installDir:
+    Halo Campaign Evolved: {}
+  launch:
+    "<base>/Meteorite/Binaries/Win64/HaloCampaignEvolved.exe":
+      - when:
+          - store: steam
   steam:
     id: 2806050
 "Halo: Combat Evolved":
@@ -778283,10 +778363,41 @@ Tormentor X Punisher:
 Tormentum II:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/OhNoo Studio/Tormentum II/*.jpg":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/OhNoo Studio/Tormentum II/*.save":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/OhNoo Studio/Tormentum II/*.jpg":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/OhNoo Studio/Tormentum II/*.save":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: tormentum-ii
     steamExtra:
       - 4733980
+  installDir:
+    Tormentum II: {}
+  launch:
+    "<base>/Tormentum II.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Tormentum II.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Tormentum II.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 931060
 "Tormentum: Dark Sorrow":
@@ -783873,6 +783984,11 @@ Trails in the Sky 1st Chapter:
             store: steam
   steam:
     id: 3375780
+Trails in the Sky 2nd Chapter:
+  cloud:
+    steam: true
+  steam:
+    id: 4225980
 Trails of the Black Sun:
   installDir:
     Trails of the Black Sun: {}
@@ -821121,6 +821237,17 @@ WWII - TD:
   steam:
     id: 913960
 WWII Tank Commander:
+  files:
+    "<base>/data/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/data/settings":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: wwii-tank-commander
 WWII英雄列伝 最強の虎 クルト・クニスペル:

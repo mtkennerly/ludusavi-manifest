@@ -7633,6 +7633,7 @@ Age of Empires III:
     - 2154361
     - 2154362
     - 2477660
+    - 4308600
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\Games\\Age of Empires 3 DE\\Common}}"
     - "{{Game data/config|Microsoft Store|{{P|userprofile}}\\Games\\Age of Empires 3 DE\\Common}}"
@@ -22046,6 +22047,7 @@ Barbie in the 12 Dancing Princesses:
   lutris: barbie-in-the-12-dancing-princesses--1
   pageId: 197321
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Mattel\\Barbie (TM)\\Barbie (TM) In The 12 Dancing Princesses}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save Games\\}}"
 "Barbie: Project Friendship":
   cloud:
@@ -48969,6 +48971,9 @@ Corsair Cove:
   lutris: corsair-cove
   pageId: 215789
   steam: 1368140
+Corsairs Legacy:
+  pageId: 218766
+  steam: 1594880
 "Corsairs: Battle of the Caribbean":
   cloud:
     gog: true
@@ -56837,8 +56842,13 @@ Darkstone:
     - "{{Game data/config|Windows|{{p|game}}\\config\\*.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Darkstone Restoration:
+  gog: 1180637450
+  gogSide:
+    - 1185833168
   pageId: 215555
   steam: 4557490
+  steamSide:
+    - 4716570
 Darkwater:
   cloud:
     steam: true
@@ -255093,6 +255103,11 @@ Trails in the Sky 1st Chapter:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\FALCOM\\Trails in the Sky 1st Chapter\\setting.json|{{P|userprofile}}\\Saved Games\\CLE\\Sora_no_Kiseki_the_1st\\setting.json}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\FALCOM\\Trails in the Sky 1st Chapter\\savedata\\|{{P|userprofile}}\\Saved Games\\CLE\\Sora_no_Kiseki_the_1st\\savedata\\}}"
+Trails in the Sky 2nd Chapter:
+  cloud:
+    steam: true
+  pageId: 218768
+  steam: 4225980
 Trails of the Black Sun:
   pageId: 150537
   steam: 1152940
@@ -268161,6 +268176,9 @@ WWII - TD:
 WWII Tank Commander:
   lutris: wwii-tank-commander
   pageId: 218654
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\data\\settings}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\data\\profiles}}"
 "WWII: Battle Over the Pacific":
   pageId: 203642
 WWII英雄列伝 最強の虎 クルト・クニスペル:
