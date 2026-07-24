@@ -17096,6 +17096,11 @@ Assault Spy:
 Assault Suit Leynos:
   pageId: 36642
   steam: 441350
+Assault Trooper:
+  pageId: 218775
+  templates:
+    - "{{Game data/config|DOS|{{p|game}}\\Assault.cfg}}"
+    - "{{Game data/saves|DOS|{{p|game}}\\Assault.sav}}"
 Assault of the Robots:
   pageId: 132300
   steam: 1052900
@@ -107276,6 +107281,7 @@ Hell is Us:
   cloud:
     epic: true
     steam: true
+    xbox: true
   lutris: hell-is-us
   pageId: 201505
   steam: 1620730
@@ -142428,6 +142434,8 @@ Marvel Snap:
 Marvel Trading Card Game:
   pageId: 208441
 "Marvel Tōkon: Fighting Souls":
+  cloud:
+    steam: true
   lutris: marvel-tokon-fighting-souls
   pageId: 205571
   renamedFrom:
@@ -153686,6 +153694,8 @@ Muv-Luv Alternative Total Eclipse Remastered:
     steam: true
   pageId: 181187
   steam: 787510
+Muv-Luv Supplement:
+  pageId: 218777
 "Muv-Luv Unlimited: THE DAY AFTER - Episode 00 REMASTERED":
   cloud:
     steam: true
@@ -243953,6 +243963,7 @@ The Planet Crafter:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1882985557
   gogSide:
     - 1178903637
