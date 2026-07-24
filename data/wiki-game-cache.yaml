@@ -15476,6 +15476,9 @@ Arma Tactics:
   gog: 1207658661
   pageId: 218446
   steam: 65790
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\Roaming\\CWR\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Roaming\\CWR\\Users\\}}"
 Armada 2526:
   pageId: 40997
   steam: 46790
@@ -34209,8 +34212,12 @@ Brut@l:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Storm Cloud Games\\Brut@l}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\Steam\\userdata\\{{p|uid}}\\489260\\}}"
-Brutal Doom (Mod):
+Brutal Doom:
   pageId: 200710
+  renamedFrom:
+    - Brutal Doom (Mod)
+    - Brutal Doom
+    - Brutal Doom (Mod)
 Brutal Games:
   pageId: 139114
   steam: 1026060
@@ -66924,8 +66931,10 @@ Doom II RPG:
     - "{{Game data/saves|DOS|{{p|game}}\\DOOM2}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Doom II for Windows 95\\|{{P|userprofile}}\\Saved Games\\GZDoom\\doom.id.doom2.commercial\\{{Note|[GZDoom source port only]}}}}"
     - "{{Game data/saves|Steam|{{p|game}}\\base\\*.DSG}}"
-Doom Infinite (Mod):
+Doom Infinite:
   pageId: 195287
+  renamedFrom:
+    - Doom Infinite (Mod)
 Doom RPG:
   pageId: 198654
 Doom Rails:
@@ -153952,6 +153961,12 @@ My Futa Girlfriend 🔞:
 My Futanari Stepmom Impregnated Me:
   pageId: 184357
   steam: 2152090
+My Garage:
+  pageId: 218770
+  steam: 1578390
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Viking\\My Garage}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Viking\\My Garage}}"
 My Girlfriend is a Futanari:
   pageId: 184361
   steam: 2152070

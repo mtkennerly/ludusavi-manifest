@@ -48140,6 +48140,17 @@ Arma Tactics:
   steam:
     id: 65790
 "Arma: Cold War Assault Remastered":
+  files:
+    "<home>/AppData/Roaming/CWR":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/Roaming/CWR/Users":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1207658661
   installDir:
@@ -473357,6 +473368,24 @@ My Futanari Stepmom Impregnated Me:
     id: 2152090
 My Game City:
   alias: 911 FR
+My Garage:
+  files:
+    "<home>/AppData/LocalLow/Viking/My Garage":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    My Garage: {}
+  launch:
+    "<base>/My Garage.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1578390
 My Giant Friend:
   alias: Giant Wishes
 My Girlfriend is a Futanari:

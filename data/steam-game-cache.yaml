@@ -567915,6 +567915,14 @@
         oslist: linux
       executable: Doki Doki Ragnarok
       type: default
+1578390:
+  installDir: My Garage
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: My Garage.exe
+      type: default
 1578650:
   cloud:
     saves:
