@@ -201382,6 +201382,8 @@ Disparity:
   steam:
     id: 715460
 Dispatch:
+  alias: Dispatch (2020)
+Dispatch (2020):
   steam:
     id: 1208740
 Dispatch (2025):
@@ -343052,10 +343054,30 @@ Hollywood Animal:
       when:
         - os: windows
           store: steam
+    "<home>/AppData/LocalLow/Weappy/Hollywood Animal/Saves":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Weappy/Holly/Saves":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/com.Weappy.Hollywood-Animal/Saves":
+      when:
+        - os: mac
+          store: steam
   gog:
     id: 1384360709
   installDir:
     Hollywood Animal: {}
+  launch:
+    "<base>/Hollywood Animal.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Hollywood Animal.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2680550
 Hollywood Visionary:
@@ -737034,6 +737056,17 @@ The Immortal:
             store: steam
   steam:
     id: 1539080
+The Imperial Capital Burns - Muv-Luv Alternative Total Eclipse:
+  installDir:
+    The Imperial Capital Burns: {}
+  launch:
+    "<base>/tm-win64vc14-release.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2630300
 The Imperial Gatekeeper:
   cloud:
     gog: true
@@ -752884,6 +752917,8 @@ The Room:
         - config
       when:
         - store: steam
+  id:
+    lutris: the-room--1
   installDir:
     TheRoom: {}
   launch:

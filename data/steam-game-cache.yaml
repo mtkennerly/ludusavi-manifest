@@ -628349,6 +628349,16 @@
     schinese: 异星开拓者 - 太空基地建造
     tchinese: 異星開拓者 - 太空基地建造
     turkish: "Stellar Settlers: Uzay Kolonisi"
+2630300:
+  installDir: The Imperial Capital Burns
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: tm-win64vc14-release.exe
+      type: default
+  nameLocalized:
+    japanese: マブラヴ オルタネイティヴ トータル・イクリプス 帝都燃ゆ
 2630920:
   cloud:
     saves:
@@ -630142,31 +630152,38 @@
 2680550:
   cloud:
     saves:
+      - path: Weappy/Hollywood Animal/Saves
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
       - path: Weappy/Holly/Saves
         pattern: "*"
         platforms:
           - Windows
         recursive: true
         root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Weappy/Hollywood Animal/Saves
+            replace: com.Weappy.Hollywood-Animal/Saves
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: Hollywood Animal
   launch:
     - config:
-        betakey: default
         oslist: windows
+      executable: Hollywood Animal.exe
+      type: default
+    - config:
+        betakey: 0.8.40ea
+        oslist: windows
+      description: Play 0.8.40EA
       executable: Holly.exe
-      type: default
     - config:
-        betakey: beta
-        oslist: windows
-      description: Hollywood Animal (beta version)
-      executable: Hollywood Animal.exe
-      type: default
-    - config:
-        betakey: test
-        oslist: windows
-      description: "Hollywood Animal (test [beta])"
-      executable: Hollywood Animal.exe
-      type: default
+        oslist: macos
+      executable: Hollywood Animal.app
 2681030:
   cloud:
     saves:
