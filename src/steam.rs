@@ -229,7 +229,7 @@ impl ProductInfo {
         let output = cmd.output()?;
         if !output.status.success() {
             let stderr = String::from_utf8_lossy(&output.stderr);
-            eprintln!("Steam product info failure: {}", &stderr);
+            eprintln!("Steam product info failure: {}", stderr);
             return Err(Error::SteamProductInfo);
         }
         let stdout = String::from_utf8_lossy(&output.stdout);

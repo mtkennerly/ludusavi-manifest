@@ -405,11 +405,11 @@ impl Game {
             let pattern = save.pattern.trim_matches(['/', '\\']);
 
             if &save.pattern == "*" {
-                self.add_file_constraint(format!("{}/{}", &root, path), constraint.clone());
+                self.add_file_constraint(format!("{}/{}", root, path), constraint.clone());
             } else if save.recursive {
-                self.add_file_constraint(format!("{}/{}/**/{}", &root, path, pattern), constraint.clone());
+                self.add_file_constraint(format!("{}/{}/**/{}", root, path, pattern), constraint.clone());
             } else {
-                self.add_file_constraint(format!("{}/{}/{}", &root, path, pattern), constraint.clone());
+                self.add_file_constraint(format!("{}/{}/{}", root, path, pattern), constraint.clone());
             }
 
             for alt in &cache.cloud.overrides {
@@ -432,14 +432,14 @@ impl Game {
 
                 let mut path = if let Some(add) = alt.add_path.as_ref() {
                     if &save.pattern == "*" {
-                        format!("{}/{}/{}", &root, add, path)
+                        format!("{}/{}/{}", root, add, path)
                     } else if save.recursive {
-                        format!("{}/{}/{}/**/{}", &root, add, path, pattern)
+                        format!("{}/{}/{}/**/{}", root, add, path, pattern)
                     } else {
-                        format!("{}/{}/{}/{}", &root, add, path, pattern)
+                        format!("{}/{}/{}/{}", root, add, path, pattern)
                     }
                 } else {
-                    format!("{}/{}/{}", &root, path, pattern)
+                    format!("{}/{}/{}", root, path, pattern)
                 };
 
                 for transform in &alt.path_transforms {

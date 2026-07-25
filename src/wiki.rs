@@ -154,7 +154,7 @@ impl WikiCache {
         for (title, RecentChange { page_id }) in changes {
             if self.0.contains_key(&title) {
                 // Existing entry has been edited.
-                println!("[E  ] {}", &title);
+                println!("[E  ] {}", title);
                 self.0
                     .entry(title.to_string())
                     .and_modify(|x| x.state = State::Outdated);
@@ -164,7 +164,7 @@ impl WikiCache {
                 for (existing_name, existing_info) in &self.0 {
                     if existing_info.page_id == page_id {
                         // We have a confirmed rename.
-                        println!("[ M ] {} <<< {}", &title, existing_name);
+                        println!("[ M ] {} <<< {}", title, existing_name);
                         old_name = Some(existing_name.clone());
                         break;
                     }
@@ -176,7 +176,7 @@ impl WikiCache {
                         match is_article_relevant(&title).await {
                             Ok(true) => {
                                 // It's a game, so add it to the cache.
-                                println!("[  C] {}", &title);
+                                println!("[  C] {}", title);
                                 self.0.insert(
                                     title.to_string(),
                                     WikiCacheEntry {
@@ -190,7 +190,7 @@ impl WikiCache {
                                 // Ignore since it's not relevant.
                             }
                             Err(e) => {
-                                eprintln!("Unable to check if article is for a game: {} | {}", &title, e);
+                                eprintln!("Unable to check if article is for a game: {} | {}", title, e);
                             }
                         }
                     }
@@ -312,7 +312,7 @@ impl WikiCache {
                 Ok(mut latest) => {
                     latest.renamed_from.clone_from(&cached.renamed_from);
                     if let Some(new_title) = latest.new_title.take() {
-                        println!("  page {} redirected to '{}'", cached.page_id, &new_title);
+                        println!("  page {} redirected to '{}'", cached.page_id, new_title);
 
                         match is_article_relevant(&new_title).await {
                             Ok(true) => {}
@@ -354,7 +354,7 @@ impl WikiCache {
                         }
                     };
 
-                    println!("  page {} renamed to '{}'", cached.page_id, &new_title);
+                    println!("  page {} renamed to '{}'", cached.page_id, new_title);
 
                     match is_article_relevant(&new_title).await {
                         Ok(true) => {}
