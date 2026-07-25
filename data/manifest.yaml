@@ -96287,6 +96287,11 @@ Bone Voyage:
     id: 1058370
 "Bone: Out from Boneville":
   files:
+    "<base>/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/prefs.prop":
       tags:
         - config
@@ -152213,19 +152218,17 @@ Corsair Cove:
   steam:
     id: 1368140
 Corsairs Legacy:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Mauris/Corsairs Legacy/Saves":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/Library/Application Support/Mauris/Corsairs Legacy/Saves":
-      when:
-        - os: mac
-          store: steam
-    "<xdgData>/unity3d/Mauris/Corsairs Legacy/Saves":
-      when:
-        - os: linux
-          store: steam
+  id:
+    steamExtra:
+      - 2461620
   installDir:
     Corsairs Legacy: {}
   launch:

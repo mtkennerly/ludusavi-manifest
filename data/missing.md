@@ -17605,6 +17605,7 @@
 * [Mutiny!!](https://www.pcgamingwiki.com/wiki/?curid=73266)
 * [Mutual Secret](https://www.pcgamingwiki.com/wiki/?curid=108884)
 * [Muv-Luv Altered Fable](https://www.pcgamingwiki.com/wiki/?curid=218786)
+* [Muv-Luv Alternative Total Eclipse](https://www.pcgamingwiki.com/wiki/?curid=218826)
 * [Muv-Luv Alternative Total Eclipse Remastered](https://www.pcgamingwiki.com/wiki/?curid=181187)
 * [Muv-Luv Supplement](https://www.pcgamingwiki.com/wiki/?curid=218777)
 * [Muv-Luv Unlimited: The Day After - Episode 00 Remastered](https://www.pcgamingwiki.com/wiki/?curid=173972)

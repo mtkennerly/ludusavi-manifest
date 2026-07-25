@@ -31212,6 +31212,7 @@ Bone Voyage:
   steam: 8310
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\prefs.prop}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\*.save}}"
 "Bone: The Great Cow Race":
   pageId: 41359
   steam: 8320
@@ -48987,8 +48988,14 @@ Corsair Cove:
   pageId: 215789
   steam: 1368140
 Corsairs Legacy:
+  cloud:
+    steam: true
   pageId: 218766
   steam: 1594880
+  steamSide:
+    - 2461620
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Mauris\\Corsairs Legacy\\Saves\\}}"
 "Corsairs: Battle of the Caribbean":
   cloud:
     gog: true
@@ -153724,6 +153731,8 @@ Muv-Luv Alternative:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\AGES3 Applications\\age\\alternative_v16_eng\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\age\\alternative_v16_eng\\Vmreg\\*.uuc|{{p|userprofile\\Documents}}\\age\\alternative_v16_eng\\Vmreg\\*.uux}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\802880\\remote\\_alt16\\*.uuc|{{p|steam}}\\userdata\\{{p|uid}}\\802880\\remote\\_alt16\\*.uux}}"
+Muv-Luv Alternative Total Eclipse:
+  pageId: 218826
 Muv-Luv Alternative Total Eclipse Remastered:
   cloud:
     steam: true
