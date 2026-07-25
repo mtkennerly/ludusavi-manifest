@@ -654677,6 +654677,15 @@
       - path: DS/Saved/Config/Windows
         pattern: GameUserInputSettings.ini
         root: gameinstall
+      - path: "DS/Saved/SaveGames/{Steam3AccountID}"
+        pattern: "*.bak"
+        root: gameinstall
+      - path: "DS/Saved/SaveGames/{Steam3AccountID}"
+        pattern: "*.png"
+        root: gameinstall
+      - path: "DS/Saved/SaveGames/{Steam3AccountID}"
+        pattern: "*.sav"
+        root: gameinstall
   installDir: DragonSword  Awakening
   launch:
     - config:

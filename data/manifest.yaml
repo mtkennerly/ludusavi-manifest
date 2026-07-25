@@ -89965,6 +89965,9 @@ Blink the Bulb:
     steam: true
   steam:
     id: 991290
+"Blinx: The Time Sweeper":
+  id:
+    lutris: blinx-the-time-sweeper
 Blippo+:
   cloud:
     steam: true
@@ -214337,6 +214340,17 @@ Dream Pets VR:
   steam:
     id: 738350
 Dream Pinball 3D:
+  files:
+    "<winAppData>/dp3d/res.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/dp3d/score*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1207658899
   id:
@@ -563563,6 +563577,18 @@ REDO!:
   steam:
     id: 950300
 REDRIVER 2:
+  alias: REDriver2
+REDVIIL:
+  installDir:
+    Redvil: {}
+  launch:
+    "<base>/Redvil.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1013410
+REDriver2:
   files:
     "<base>/config.ini":
       tags:
@@ -563574,16 +563600,6 @@ REDRIVER 2:
         - save
       when:
         - os: windows
-REDVIIL:
-  installDir:
-    Redvil: {}
-  launch:
-    "<base>/Redvil.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1013410
 REFUGE:
   installDir:
     REFUGE: {}
@@ -576643,11 +576659,18 @@ Redout:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/redout/Saved/Options/GameOptions.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
     "<winLocalAppData>/redout/Saved/SaveGames/GameOptions.sav":
       tags:
         - config
       when:
         - os: windows
+          store: gog
     "<winLocalAppData>/redout/Saved/SaveGames/Profile/RC_RedoutCareer.sav":
       tags:
         - save
@@ -753017,6 +753040,8 @@ The Room Two:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-room-two
   installDir:
     TheRoomTwo: {}
   launch:
@@ -776298,6 +776323,9 @@ Tomb Raider I–III Remastered:
         - config
   steam:
     id: 8000
+"Tomb Raider: Catalyst":
+  id:
+    lutris: tomb-raider-catalyst
 "Tomb Raider: Chronicles":
   files:
     "<base>/savegame.*":
@@ -834630,6 +834658,12 @@ Wheels of Aurelia:
   steam:
     id: 508740
 Wheely:
+  files:
+    "<winAppData>/com.manapotionstudios.WheelySteam/Local Store/#SharedObjects":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Wheely: {}
   launch:

@@ -29238,6 +29238,7 @@ Blink the Bulb:
 "Blinx: The Time Sweeper":
   cloud:
     xbox: true
+  lutris: blinx-the-time-sweeper
   pageId: 218719
 "Blip 'n Blup":
   pageId: 203664
@@ -69222,6 +69223,9 @@ Dream Pinball 3D:
   lutris: dream-pinball-3d
   pageId: 15391
   steam: 215790
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\dp3d\\res.cfg}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\dp3d\\score**.dat}}"
 Dream Quest:
   pageId: 54745
   steam: 557410
@@ -168024,6 +168028,9 @@ Overview:
 Overwatch:
   lutris: overwatch
   pageId: 32138
+  renamedFrom:
+    - Overwatch
+    - Overwatch2
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Overwatch\\Settings\\Settings_v0.ini}}"
 Overwatch 2:
@@ -183349,14 +183356,16 @@ RED EVIL:
 REDO!:
   pageId: 127265
   steam: 950300
-REDRIVER 2:
-  pageId: 165442
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\.driver2}}"
 REDVIIL:
   pageId: 128346
   steam: 1013410
+REDriver2:
+  pageId: 165442
+  renamedFrom:
+    - REDRIVER 2
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\.driver2}}"
 REFUGE:
   pageId: 153836
   steam: 1204860
@@ -187673,9 +187682,11 @@ Redout:
   pageId: 36548
   steam: 517710
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\redout\\Saved\\Config\\WindowsNoEditor\\|{{p|localappdata}}\\redout\\Saved\\SaveGames\\GameOptions.sav}}"
-    - "{{Game data/saves|Steam|{{p|game}}\\Saved\\SaveGames\\RC_RedoutCareer_{{p|uid}}.sav}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\redout\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/config|GOG.com|{{p|localappdata}}\\redout\\Saved\\SaveGames\\GameOptions.sav}}"
+    - "{{Game data/config|Steam|{{p|localappdata}}\\redout\\Saved\\Options\\GameOptions.sav}}"
     - "{{Game data/saves|GOG.com|{{p|localappdata}}\\redout\\Saved\\SaveGames\\Profile\\RC_RedoutCareer.sav}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\Saved\\SaveGames\\RC_RedoutCareer_{{p|uid}}.sav}}"
 Redout 2:
   cloud:
     epic: true
@@ -244821,16 +244832,17 @@ The Room Three:
   pageId: 121708
   steam: 456750
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Fireproof Games\\The Room Three\\CustomGfxSettings.xml|{{P|hkcu}}\\Software\\Fireproof Games\\The Room Three}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Fireproof Games\\The Room Three\\Slot_*.save}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Fireproof Games\\The Room Three\\CustomGfxSettings.xml|{{P|hkcu}}\\Software\\Fireproof Games\\The Room Three}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Fireproof Games\\The Room Three\\Slot_*.save}}"
 The Room Two:
   cloud:
     steam: true
+  lutris: the-room-two
   pageId: 35432
   steam: 425580
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Fireproof Games\\The Room Two\\CustomGfxSettings.xml|{{P|hkcu}}\\Software\\Fireproof Games\\The Room Two\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Fireproof Games\\The Room Two\\Slot_0.save}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Fireproof Games\\The Room Two\\CustomGfxSettings.xml|{{P|hkcu}}\\Software\\Fireproof Games\\The Room Two\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Fireproof Games\\The Room Two\\Slot_0.save}}"
 "The Room VR: A Dark Matter":
   cloud:
     steam: true
@@ -252470,6 +252482,9 @@ Tomb Raider I–III Remastered:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Feral Interactive/Tomb Raider Anniversary/Preferences Data}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Eidos\\Tomb Raider - Anniversary\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Feral Interactive/Tomb Raider Anniversary/profiles}}"
+"Tomb Raider: Catalyst":
+  lutris: tomb-raider-catalyst
+  pageId: 218797
 "Tomb Raider: Chronicles":
   gog: 1207663523
   gogSide:
@@ -272769,7 +272784,7 @@ Wheely:
   pageId: 52605
   steam: 548330
   templates:
-    - "{{Game data/saves|Windows|{{folder|{{p|appdata}}}}\\com.manapotionstudios.WheelySteam\\Local Store\\#SharedObjects}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\com.manapotionstudios.WheelySteam\\Local Store\\#SharedObjects}}"
 Wheelz2:
   pageId: 89634
   steam: 792970
