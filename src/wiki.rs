@@ -766,7 +766,7 @@ impl WikiPath {
             "gog.com" => {
                 self.store = Some(Store::Gog);
             }
-            "epic games" => {
+            "epic games" | "epic games launcher" | "epic games store" => {
                 self.store = Some(Store::Epic);
             }
             "uplay" => {

@@ -449,6 +449,7 @@ $1 Ride:
         - save
       when:
         - os: windows
+          store: epic
   id:
     steamExtra:
       - 3950810
@@ -16738,6 +16739,7 @@ Absolute Drift:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/Funselektor Labs Inc_/Absolute Drift/GOG_cloud":
       tags:
         - save
@@ -28429,6 +28431,7 @@ Alan Wake:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/Remedy/AlanWake_GOG_Version":
       tags:
         - config
@@ -28484,6 +28487,8 @@ Alan Wake Remastered:
         - save
       when:
         - os: windows
+        - os: windows
+          store: epic
 "Alan Wake's American Nightmare":
   cloud:
     steam: true
@@ -28506,6 +28511,7 @@ Alan Wake Remastered:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/Remedy/AmericanNightmare_GOG_Version":
       tags:
         - config
@@ -31431,6 +31437,7 @@ Alien invasion:
         - save
       when:
         - os: windows
+          store: epic
     "<xdgConfig>/feral-interactive/AlienIsolation":
       tags:
         - config
@@ -45585,9 +45592,13 @@ Arcadegeddon:
     "<base>/Arcade/Saved/SaveGames/OfflineProgression.sav":
       tags:
         - save
+      when:
+        - store: epic
     "<base>/Arcade/Saved/SaveGames/UserSettings.sav":
       tags:
         - config
+      when:
+        - store: epic
     "<winLocalAppData>/Arcade/Saved/Config/WindowsNoEditor/GameUserSettings.sav":
       tags:
         - config
@@ -59393,11 +59404,13 @@ Avatar of the Wolf:
         - save
       when:
         - os: windows
+          store: epic
     "C:/Program Files/Epic Games/AFOP":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     AFOP: {}
   launch:
@@ -63644,11 +63657,13 @@ Back 4 Blood:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Back4Blood/Epic/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Back4Blood/Steam/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -80932,6 +80947,7 @@ Beyond the Wizard:
         - save
       when:
         - os: windows
+          store: epic
         - os: windows
           store: gog
     "<winDocuments>/Quantic Dream/Beyond Two Souls/Save/Options":
@@ -82886,6 +82902,7 @@ BioShock 2 Remastered:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/BioshockHD/Bioshock2/SaveGames":
       tags:
         - save
@@ -82896,6 +82913,7 @@ BioShock 2 Remastered:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1482265668
   id:
@@ -82931,11 +82949,13 @@ BioShock Infinite:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/BioShock Infinite Epic/XGame/SaveData":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/BioShock Infinite/XGame/Config":
       tags:
         - config
@@ -82992,6 +83012,7 @@ BioShock Remastered:
         - config
       when:
         - os: windows
+          store: epic
     "<winAppData>/BioshockHD/Bioshock/*.ini":
       tags:
         - config
@@ -83002,6 +83023,7 @@ BioShock Remastered:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/BioshockHD/Bioshock/SaveGames":
       tags:
         - save
@@ -83012,6 +83034,7 @@ BioShock Remastered:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1269268081
   id:
@@ -117474,6 +117497,7 @@ Carcassonne:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1340672747
   id:
@@ -121038,11 +121062,13 @@ Castlevania Anniversary Collection:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/Konami/CastlevaniaAnniversaryCollection/SaveData":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     Castlevania Anniversary Collection: {}
   launch:
@@ -128217,11 +128243,13 @@ Chess Ultra:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Chess2/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     Chess Ultra: {}
   launch:
@@ -135687,11 +135715,13 @@ City of Brass:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/COB/Saved_EGS/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     City Of Brass: {}
   launch:
@@ -135761,6 +135791,7 @@ City of Gangsters:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1732061411
   id:
@@ -136412,6 +136443,7 @@ Cladun X3:
         - save
       when:
         - os: windows
+          store: epic
         - os: windows
           store: steam
   gog:
@@ -150202,6 +150234,7 @@ Control:
       tags:
         - config
       when:
+        - store: epic
         - store: gog
         - store: steam
     "<home>/Library/Containers/com.remedygames.control-ue/Data/Library/Application Support/com.remedygames.control-ue/nlps-storage/Default-Apple-User":
@@ -150248,11 +150281,13 @@ Control:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Remedy/Control/Default-Epic-User/preferences":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Remedy/Control/Default-Generic-User":
       tags:
         - save
@@ -151497,6 +151532,7 @@ Coromon:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1950069341
   installDir:
@@ -158303,11 +158339,13 @@ Cricket through the Ages:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/CrimeBoss/Epic/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/CrimeBoss/Steam/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -159071,6 +159109,7 @@ Cris Tales:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1623867313
   id:
@@ -170209,11 +170248,13 @@ Daemon X Machina:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/DXM/Saved_EOS/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     DaemonXMachina: {}
   launch:
@@ -175723,6 +175764,7 @@ Darksiders:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Darksiders":
       tags:
         - save
@@ -175932,6 +175974,7 @@ Darksiders Warmastered Edition:
         - save
       when:
         - os: windows
+          store: epic
         - os: windows
           store: gog
     "<root>/userdata/<storeUserId>/462780/remote/autocloud/save":
@@ -177109,6 +177152,7 @@ Dave the Diver:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/nexon/DAVE THE DIVER/SteamSData/<storeUserId>":
       tags:
         - save
@@ -179559,6 +179603,7 @@ Dead Island 2:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/DeadIslandSteam/Saved/SaveGames":
       tags:
         - save
@@ -180781,6 +180826,7 @@ Dead by Daylight:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/DeadByDaylight/Saved/Config/WinGDK":
       tags:
         - config
@@ -183336,6 +183382,7 @@ Death Stranding:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/KojimaProductions/DeathStranding/<storeUserId>":
       tags:
         - save
@@ -183409,6 +183456,7 @@ Death Stranding:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/iCloud Documents/iCloud~com~505games~deathstranding":
       tags:
         - config
@@ -187643,6 +187691,7 @@ Defense Grid 2:
         - config
       when:
         - os: windows
+          store: epic
   installDir:
     DefenseGridTheAwakening: {}
   launch:
@@ -194953,11 +195002,13 @@ Deus Ex Remastered:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/Eidos Montreal/Deus Ex Mankind Divided":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Deus Ex Mankind Divided/Saves":
       tags:
         - save
@@ -200700,6 +200751,8 @@ Dishonored:
       when:
         - os: windows
         - os: windows
+          store: epic
+        - os: windows
           store: microsoft
   gog:
     id: 1701063787
@@ -200777,11 +200830,13 @@ Dishonored 2:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/Arkane Studios/Dishonored_DO/<storeUserId>/base/savegame":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/Arkane Studios/Dishonored_DO/base":
       tags:
         - config
@@ -211490,11 +211545,13 @@ Dragon Quest XI S - Definitive Edition:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/DRAGON QUEST XI S/Epic Games Store/Saved/Config/WindowsNoEditor":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/DRAGON QUEST XI S/Steam/<storeUserId>/Saved/SaveGames/Book":
       tags:
         - save
@@ -215284,6 +215341,7 @@ Dredge:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/Black Salt Games/DREDGE/gog_galaxy/dredge-settings.bin":
       tags:
         - config
@@ -247874,6 +247932,8 @@ Evoland Legendary Edition:
     "<base>/slot*.sav":
       tags:
         - save
+      when:
+        - store: epic
   gog:
     id: 1466932507
   id:
@@ -256655,6 +256715,7 @@ Fallout Shelter:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1312824873
   id:
@@ -266348,6 +266409,7 @@ Final Fantasy VII Remake Intergrade:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/FINAL FANTASY VII REMAKE/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -296174,6 +296236,7 @@ Genesis Alpha One:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Genesis_GOG/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -299135,11 +299198,13 @@ Ghostship Chronicles:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/TangoGameworks/GhostWire Tokyo (EGS)/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/TangoGameworks/GhostWire Tokyo (STEAM)/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -306934,6 +306999,7 @@ Good Company:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1220669720
   installDir:
@@ -313609,6 +313675,7 @@ Grindstone:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     Grindstone: {}
   launch:
@@ -314904,11 +314971,13 @@ Guacamelee! 2:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/Guacamelee2_EGS/SAVE.DAT":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Packages/DrinkboxStudios.Guacamelee2_n8jvyy2pw6mya/SystemAppData/wgs":
       tags:
         - save
@@ -315012,11 +315081,13 @@ Guacamelee! Super Turbo Championship Edition:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/GuacameleeSTCE_EGS/SAVE.DAT":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1207665733
   installDir:
@@ -329237,11 +329308,13 @@ Heavy Rain:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/HeavyRainNS/TEST00000-A/0":
       tags:
         - config
       when:
         - os: windows
+          store: epic
   gog:
     id: 2055511884
   id:
@@ -337976,11 +338049,13 @@ Hi-Fi Rush:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/TangoGameworks/Hi-Fi RUSH (EGS)/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/TangoGameworks/Hi-Fi RUSH (STEAM)/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -341361,6 +341436,7 @@ Hitman:
         - save
       when:
         - os: windows
+          store: epic
     "<xdgData>/feral-interactive/HITMAN":
       tags:
         - config
@@ -341694,6 +341770,7 @@ Hitman World of Assassination:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Packages/IOInteractiveAS.PC-HITMAN3-BaseGame_6h0y724g59e1w/SystemAppData/wgs":
       tags:
         - save
@@ -346785,11 +346862,13 @@ Hot Wheels Unleashed:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/hotwheels/Saved_EpicGamesStore/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   id:
     lutris: hot-wheels-unleashedtm
   installDir:
@@ -366225,6 +366304,7 @@ Inside:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Packages/PlaydeadAPS.abc59746-ec6a-44fc-b549-4fce193ec549_2m6wzp0cmt084/SystemAppData/wgs":
       tags:
         - save
@@ -377797,6 +377877,7 @@ Joggernauts:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Saber/Toxic Commando/storage/platform/config":
       tags:
         - config
@@ -378372,6 +378453,7 @@ Jotun:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1487122154
   id:
@@ -383504,11 +383586,13 @@ Kao the Kangaroo (2022):
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/KaoDRMFree/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/KaoGOG/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -390056,6 +390140,7 @@ Kingdom Hearts HD 1.5 + 2.5 ReMIX:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/KINGDOM HEARTS HD 1.5+2.5 ReMIX/Steam/<storeUserId>":
       tags:
         - config
@@ -390083,6 +390168,7 @@ Kingdom Hearts HD 2.8 Final Chapter Prologue:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/KINGDOM HEARTS HD 2.8 Final Chapter Prologue/Steam/<storeUserId>":
       tags:
         - config
@@ -390109,11 +390195,13 @@ Kingdom Hearts III:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/KINGDOM HEARTS III/Epic Games Store/<storeUserId>/Config":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/KINGDOM HEARTS III/Steam/<storeUserId>":
       tags:
         - save
@@ -390144,6 +390232,7 @@ Kingdom Hearts Melody of Memory:
         - save
       when:
         - os: windows
+          store: epic
 Kingdom Heroes 2:
   steam:
     id: 1079150
@@ -406287,6 +406376,7 @@ Lego Bricktales:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     "LEGO Builder's Journey": {}
   launch:
@@ -424460,12 +424550,14 @@ LumbearJack:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>Low/FinalBoss Games/LumbearJack":
       tags:
         - config
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1598934524
   installDir:
@@ -438865,6 +438957,7 @@ Marvel Snap:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Packages/39C668CD.DXM-EidosMontreal_r7bfsmp40f67j/SystemAppData/wgs":
       tags:
         - save
@@ -438936,11 +439029,13 @@ Marvel Snap:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Marvel's Midnight Suns/Saved_Epic_<storeUserId>/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Marvel's Midnight Suns/Saved_Steam_<storeUserId>/Config/WindowsNoEditor":
       tags:
         - config
@@ -449991,6 +450086,7 @@ Metro 2033 Redux:
         - save
       when:
         - os: windows
+          store: epic
         - os: windows
           store: gog
     "<winDocuments>/4A Games/Metro 2033/<storeUserId>":
@@ -464432,6 +464528,7 @@ Monument Builders - Alcatraz:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/ustwo games/Monument Valley 2/UserData_<storeUserId>":
       tags:
         - save
@@ -464498,6 +464595,7 @@ Monument Valley 3:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/ustwo games/Monument Valley/UserData_<storeUserId>/user_data.sav":
       tags:
         - save
@@ -470102,6 +470200,7 @@ MudRunner:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/SpinTires MudRunner":
       tags:
         - config
@@ -478647,6 +478746,7 @@ NEO-NOW!:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     NEO The World Ends with You: {}
   launch:
@@ -502647,11 +502747,13 @@ Offworld Trading Company:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Offworld/EpicCloud/GameOptionsSave.xml":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Offworld/Saves":
       tags:
         - save
@@ -529637,6 +529739,7 @@ Phantasy Star Online 2 New Genesis:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/SEGA/PHANTASYSTARONLINE2_NA_STEAM/user.pso2":
       tags:
         - config
@@ -530578,21 +530681,25 @@ Phoenix Point:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/Snapshot Games Inc/Phoenix Point/EGS/<storeUserId>/Options.jopt":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/Snapshot Games Inc/Phoenix Point/EGS/LocalData/*.zsav":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/Snapshot Games Inc/Phoenix Point/EGS/LocalData/Options.jopt":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/Snapshot Games Inc/Phoenix Point/Steam/76561197977564809":
       tags:
         - save
@@ -547377,11 +547484,13 @@ Prey (2017):
         - config
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/Arkane Studios/Prey_Epic/<storeUserId>/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/Arkane Studios/Prey_MS":
       tags:
         - config
@@ -567758,11 +567867,13 @@ Railway Empire:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Temp/EpicRailwayEmpire/datastorage/93b333eb973b45b582f3bdf68dfc1dc9/*/settings/settings.dat":
       tags:
         - config
       when:
         - os: windows
+          store: epic
   gog:
     id: 1556481953
   id:
@@ -578933,11 +579044,15 @@ Remnant II:
         - config
       when:
         - os: windows
+        - os: windows
+          store: epic
     "<winLocalAppData>/Remnant/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+        - os: windows
+          store: epic
   installDir:
     Remnant: {}
   launch:
@@ -583726,11 +583841,13 @@ Returnal:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Returnal/Epic/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Returnal/Steam/Saved/Config":
       tags:
         - config
@@ -588529,6 +588646,7 @@ Rise of the Tomb Raider:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/GOG.com/Galaxy/Applications/58668848197088414/Storage/Shared/Files":
       tags:
         - save
@@ -591010,11 +591128,13 @@ RoadCraft:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Saber/RoadCraftGame/storage/EOS/user/<storeUserId>/Main/save":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Saber/RoadCraftGame/storage/platform/config":
       tags:
         - config
@@ -593567,6 +593687,7 @@ Rocket League:
         - save
       when:
         - os: windows
+          store: epic
     "<xdgData>/Rocket League/TAGame":
       tags:
         - config
@@ -607416,6 +607537,7 @@ Saints Row IV:
       tags:
         - config
       when:
+        - store: epic
         - store: gog
         - store: steam
     "<root>/userdata/<storeUserId>/978300/remote/*.sr3s_pc":
@@ -607445,11 +607567,13 @@ Saints Row IV:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Saints Row The Third/Remastered/sr3DEF_PROFILE":
       tags:
         - config
       when:
         - os: windows
+          store: epic
   gog:
     id: 1435738629
   installDir:
@@ -611711,6 +611835,7 @@ Saturnalia:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 2041744633
   id:
@@ -622862,11 +622987,13 @@ Shadow Force:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/ShadowGambit_TCC/user_eos_<storeUserId>/gameState_0*":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/ShadowGambit_TCC/user_gog":
       tags:
         - config
@@ -628084,11 +628211,13 @@ Sherlock Holmes versus Jack the Ripper:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Sherlock Holmes - The Devil's Daughter EGS/SH8Game/Config":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Sherlock Holmes - The Devil's Daughter GOG/SH8Game":
       tags:
         - save
@@ -632949,6 +633078,7 @@ Sickness:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/Sid Meier's Civilization VI/Saves":
       tags:
         - save
@@ -647154,6 +647284,7 @@ Snowboard Park Tycoon:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Game/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -651811,6 +651942,7 @@ Sonic CD (2012):
         - save
       when:
         - os: windows
+          store: epic
   id:
     lutris: sonic-colors-ultimate
   installDir:
@@ -652018,6 +652150,7 @@ Sonic Mania:
         - config
       when:
         - os: windows
+          store: epic
   id:
     lutris: sonic-mania
     steamExtra:
@@ -652069,6 +652202,7 @@ Sonic Origins:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/Sega/SonicOrigins/steam/<storeUserId>/game/data.dat":
       tags:
         - save
@@ -652182,6 +652316,7 @@ Sonic R (2004):
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/SEGA/SonicRacingCrossWorlds/steam/<storeUserId>":
       tags:
         - save
@@ -677860,6 +677995,7 @@ Steep:
       tags:
         - save
       when:
+        - store: epic
         - store: uplay
     "<root>/savegames/<storeUserId>/3280":
       tags:
@@ -681960,11 +682096,13 @@ Stranger Than Heaven:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/STRANGER OF PARADISE FINAL FANTASY ORIGIN/EOS/<storeUserId>/config.xml":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/STRANGER OF PARADISE FINAL FANTASY ORIGIN/Steam/<storeUserId>":
       tags:
         - save
@@ -686068,11 +686206,13 @@ Submerged:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/SubmergedHiddenDepths/EGS/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/SubmergedHiddenDepths/Steam/Saved/Config/WindowsNoEditor":
       tags:
         - config
@@ -686132,11 +686272,13 @@ Subnautica:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/Unknown Worlds/Subnautica/Subnautica/SavedGames/options/options.bin":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/Library/Application Support/unity.Unknown Worlds.Subnautica/Subnautica/SavedGames":
       tags:
         - save
@@ -686224,6 +686366,7 @@ Subnautica 2:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Library/Application Support/unity.Unknown Worlds.SubnauticaZero/SubnauticaZero/SavedGames":
       tags:
         - save
@@ -722966,11 +723109,13 @@ The Bridge:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/The Quantum Astrophysicists Guild/The Bridge/thebridgesave.sav":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<root>/userdata/<storeUserId>/204240":
       tags:
         - save
@@ -723005,6 +723150,8 @@ The Bridge:
     HKEY_CURRENT_USER/Software/The Quantum Astrophysicists Guild/The Bridge:
       tags:
         - config
+      when:
+        - store: epic
   steam:
     id: 204240
 "The Bridge Curse 2: The Extrication":
@@ -730621,11 +730768,13 @@ The Evil Within 2:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/TangoGameworks/The Evil Within 2 (Epic)/base/the_evil_within_2Config.cfg":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/TangoGameworks/The Evil Within 2/base/savegame":
       tags:
         - save
@@ -736845,6 +736994,7 @@ The Hunter:
         - save
       when:
         - os: windows
+          store: epic
         - os: windows
           store: steam
     "<winDocuments>/Avalanche Studios/Epic Games Store/theHunter Call of the Wild/Saves/<storeUserId>":
@@ -736853,6 +737003,7 @@ The Hunter:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/Avalanche Studios/theHunter Call of the Wild/Saves/<storeUserId>":
       tags:
         - save
@@ -744596,6 +744747,7 @@ The Lord of the Rings Online:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     The Lord of the Rings Return to Moria™: {}
   launch:
@@ -749227,6 +749379,7 @@ The Outer Worlds 2:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/Saved Games/The Outer Worlds Spacers Choice/<storeUserId>":
       tags:
         - save
@@ -757454,6 +757607,7 @@ The Stone of Madness:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1652502440
   id:
@@ -761389,11 +761543,13 @@ The Walking Dead Onslaught:
         - save
       when:
         - os: windows
+          store: epic
     "<winDocuments>/Telltale Games/TWDTTDS/prefs.prop":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/Telltale Games/The Walking Dead Definitive":
       tags:
         - save
@@ -765597,6 +765753,7 @@ Thief:
         - save
       when:
         - os: windows
+          store: epic
         - os: windows
           store: gog
   gog:
@@ -776091,6 +776248,7 @@ Tomb Raider (2013):
         - save
       when:
         - os: windows
+          store: epic
     "<xdgData>/feral-interactive/Tomb Raider":
       tags:
         - config
@@ -776269,6 +776427,7 @@ Tomb Raider I–III Remastered:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1407750955
   id:
@@ -779495,11 +779654,13 @@ Total Tank Simulator:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/ThreeKingdoms/EOS/scripts/preferences.script.txt":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/ThreeKingdoms/save_games":
       tags:
         - save
@@ -779558,11 +779719,13 @@ Total Tank Simulator:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/Warhammer/EOS/Scripts":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/Warhammer/GDK/Scripts":
       tags:
         - config
@@ -779629,16 +779792,19 @@ Total Tank Simulator:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/Warhammer2/EOS/save_games_multiplayer":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/Warhammer2/EOS/scripts":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/Warhammer2/GDK/scripts":
       tags:
         - config
@@ -779705,16 +779871,19 @@ Total Tank Simulator:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/Warhammer3/EOS/save_games_multiplayer":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/Warhammer3/EOS/scripts":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winAppData>/The Creative Assembly/Warhammer3/GDK/scripts":
       tags:
         - config
@@ -784314,11 +784483,13 @@ Train Sim World 2:
         - config
       when:
         - os: windows
+          store: epic
     "<winDocuments>/My Games/TrainSimWorld2EGS/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   installDir:
     Train Sim World 2: {}
   launch:
@@ -794429,21 +794600,25 @@ Turnip Boy Robs a Bank:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/turnip2/epic/save.json":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/turnip2/epic/save_old.json":
       tags:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/turnip2/epic/settings.json":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/turnip2/steam/progress.json":
       tags:
         - save
@@ -810344,6 +810519,7 @@ Vampire Survivors:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Packages/poncle.VampireSurvivors_9pv5cyp4vwdsr/SystemAppData/wgs/<storeUserId>":
       tags:
         - save
@@ -814748,11 +814924,13 @@ Viewfinder:
         - save
       when:
         - os: windows
+          store: epic
     "<home>/AppData/LocalLow/Sad Owl Studios/Viewfinder/Epic Games Store/*.sav":
       tags:
         - save
       when:
         - os: windows
+          store: epic
   gog:
     id: 1144258559
   installDir:
@@ -843756,11 +843934,13 @@ Wonder Boy in Monster World:
         - save
       when:
         - os: windows
+          store: epic
     "<winLocalAppData>/Lizardcube/The Dragon's Trap/Settings.cfg":
       tags:
         - config
       when:
         - os: windows
+          store: epic
     "<xdgConfig>/Lizardcube/The Dragon's Trap":
       tags:
         - config
