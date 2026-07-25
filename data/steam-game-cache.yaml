@@ -501609,6 +501609,20 @@
       executable: "x64Vk\\Hades.exe"
       type: option3
       workingdir: "x64Vk\\"
+    - arguments: /steampowered /DirectLoadShell=true /DebugMessages=false /DebugKeysEnabled=false /ShowFPS=false /PerfDashWarnings=false /VerboseScriptLogging=false /UnsafeDebugKeysEnabled=false /UseDevSaves=false /UseInternalBugReporter=false /LiveCreateTextures=false
+      config:
+        betakey: nightly-qa
+        oslist: macos
+      description: Hades (Apple Silicon)
+      executable: "./Hades.app"
+      type: option2
+    - arguments: /steampowered /DirectLoadShell=true /DebugMessages=false /DebugKeysEnabled=false /ShowFPS=false /PerfDashWarnings=false /VerboseScriptLogging=false /UnsafeDebugKeysEnabled=false /UseDevSaves=false /UseInternalBugReporter=false /LiveCreateTextures=false
+      config:
+        betakey: nightly-qa
+        oslist: macos
+      description: Hades (Intel Mac)
+      executable: "./Hades.app/Contents/MacOS/Hades"
+      type: option3
     - arguments: "/c=..\\..\\ /steampowered /DirectLoadShell=true /DebugMessages=true /DebugKeysEnabled=true /UnsafeDebugKeysEnabled=false /ShowFPS=false /PerfDashWarnings=false /AllowHardQuit=false /UseInternalBugReporter=true /UseDevSaves=true /CopyDragAndDroppedSaves=true /LiveCreateTextures=false /DebugLogSounds=false /MaxDevSaves=3000 /AutoReportAsserts=false /AutoDeleteExtraDevSaves=false /AutoDownloadSavePath=blank /AttachDxDiagToBugReports=false /AuthBasecampOnStartup=true /DisableAnalyticsInDebug=true"
       config:
         betakey: nightly-qa
@@ -586426,14 +586440,14 @@
       executable: Spider-Man.exe
       type: default
     - config:
-        betakey: "nixxesqa_dev, ig_dev, nixxes_art, nixxesqa_dev2, sie_ut, pc_ut, ig_marketing2, pre_ut, localisation_qa, ig_alpha, ig_beta, sie_psn,  nixxes_dev, nixxes_dev2"
+        betakey: "nixxesqa_dev, ig_dev, nixxes_art, nixxesqa_dev2, sie_ut, pc_ut, ig_marketing2, pre_ut, localisation_qa, ig_alpha, ig_beta, sie_psn,  nixxes_dev, nixxes_dev2, reshade"
         osarch: "64"
         oslist: windows
         ownsdlc: "1830680"
       description: Launch Final
       executable: i20_steam_Final.exe
     - config:
-        betakey: "latest, latest_dev, nixxesqa_dev, ig_dev, sieqa_dev, sieqa_dev2, nixxes_art, nixxesqa_dev2, sie_ut, pc_ut, ext_partner1, ext_partner2, ig_marketing, ig_marketing2, pre_ut, localisation_qa, ig_alpha, compat, nvidia_dev, nvidia_dev2, amd_dev, ig_beta, sie_psn, nixxes_dev, nixxes_dev2, ext_dev, intel_dev"
+        betakey: "latest, latest_dev, nixxesqa_dev, ig_dev, sieqa_dev, sieqa_dev2, nixxes_art, nixxesqa_dev2, sie_ut, pc_ut, ext_partner1, ext_partner2, ig_marketing, ig_marketing2, pre_ut, localisation_qa, ig_alpha, compat, nvidia_dev, nvidia_dev2, amd_dev, ig_beta, sie_psn, nixxes_dev, nixxes_dev2, ext_dev, intel_dev, reshade"
         osarch: "64"
         oslist: windows
         ownsdlc: "1830680"
@@ -586441,7 +586455,7 @@
       executable: i20_steam_FinalDM.exe
     - arguments: "-launcher -archive asset_archive/toc -warn review -no_debug_spam -lobby"
       config:
-        betakey: "latest, latest_dev, nixxesqa_dev, ig_dev, sieqa_dev, sieqa_dev2, nixxes_art, nixxesqa_dev2, sie_ut, pc_ut, ext_partner1, ext_partner2, ig_marketing, ig_marketing2, pre_ut, localisation_qa, ig_alpha, compat, nvidia_dev, nvidia_dev2, amd_dev, ig_beta, sie_psn, nixxes_dev, nixxes_dev2, ext_dev, intel_dev"
+        betakey: "latest, latest_dev, nixxesqa_dev, ig_dev, sieqa_dev, sieqa_dev2, nixxes_art, nixxesqa_dev2, sie_ut, pc_ut, ext_partner1, ext_partner2, ig_marketing, ig_marketing2, pre_ut, localisation_qa, ig_alpha, compat, nvidia_dev, nvidia_dev2, amd_dev, ig_beta, sie_psn, nixxes_dev, nixxes_dev2, ext_dev, intel_dev, reshade"
         osarch: "64"
         oslist: windows
         ownsdlc: "1830680"
@@ -653533,6 +653547,10 @@
   nameLocalized:
     english: "O.D.T: Escape Again... Or Die Trying"
 4181410:
+  installDir: The Alley
+  launch:
+    - executable: TheAlley.exe
+      type: default
   nameLocalized:
     koreana: "골목길: 귀흔"
     schinese: 深巷
@@ -654823,6 +654841,7 @@
     russian: Hexzen Хексзен
     schinese: Hexzen 六角禅
     tchinese: Hexzen 六角禪
+4894750: {}
 4899790:
   installDir: Neuro Hunter
   launch:

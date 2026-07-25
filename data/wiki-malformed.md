@@ -8,6 +8,7 @@
 * [Life Is Strange: Reunion](https://www.pcgamingwiki.com/wiki/?curid=213008)
 * [Lost in the Roots](https://www.pcgamingwiki.com/wiki/?curid=215872)
 * [Martian Gothic: Unification](https://www.pcgamingwiki.com/wiki/?curid=35446)
+* [Marvel's Spider-Man: Miles Morales](https://www.pcgamingwiki.com/wiki/?curid=178032)
 * [Meet the Robinsons](https://www.pcgamingwiki.com/wiki/?curid=81386)
 * [Nova Roma](https://www.pcgamingwiki.com/wiki/?curid=214061)
 * [Omega Labyrinth Life](https://www.pcgamingwiki.com/wiki/?curid=153458)

@@ -49533,6 +49533,9 @@ Country Girl Keiko:
   steam: 1065940
 "Country Justice: Revenge of the Rednecks":
   pageId: 83086
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\System\\Redneck.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Country Park:
   pageId: 103113
   steam: 890800
@@ -104448,6 +104451,9 @@ Halo Wars 2:
 "Halo: Campaign Evolved":
   pageId: 210024
   steam: 2806050
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Meteorite}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Meteorite\\Saved\\SaveGames}}"
 "Halo: Combat Evolved":
   lutris: halo-combat-evolved
   pageId: 1298
@@ -130262,6 +130268,8 @@ Last Dream:
     steam: true
   pageId: 62072
   steam: 448170
+Last Duel:
+  pageId: 218817
 Last Encounter:
   pageId: 80669
   steam: 719800
@@ -142551,6 +142559,7 @@ Marvel Trading Card Game:
     epic: true
     steam: true
   lutris: marvels-spider-man-miles-morales
+  malformed: true
   pageId: 178032
   steam: 1817190
   templates:
@@ -153307,6 +153316,8 @@ Murica:
 Murky Divers:
   cloud:
     steam: true
+    xbox: true
+  lutris: murky-divers
   pageId: 202851
   steam: 2963880
 Murnatan:
@@ -153704,25 +153715,33 @@ Muv-Luv Alternative Total Eclipse Remastered:
   steam: 787510
 Muv-Luv Supplement:
   pageId: 218777
-"Muv-Luv Unlimited: THE DAY AFTER - Episode 00 REMASTERED":
+"Muv-Luv Unlimited: The Day After - Episode 00 Remastered":
   cloud:
     steam: true
   pageId: 173972
+  renamedFrom:
+    - "Muv-Luv Unlimited: THE DAY AFTER - Episode 00 REMASTERED"
   steam: 1407100
-"Muv-Luv Unlimited: THE DAY AFTER - Episode 01 REMASTERED":
+"Muv-Luv Unlimited: The Day After - Episode 01 Remastered":
   cloud:
     steam: true
   pageId: 173973
+  renamedFrom:
+    - "Muv-Luv Unlimited: THE DAY AFTER - Episode 01 REMASTERED"
   steam: 1407090
-"Muv-Luv Unlimited: THE DAY AFTER - Episode 02 REMASTERED":
+"Muv-Luv Unlimited: The Day After - Episode 02 Remastered":
   cloud:
     steam: true
   pageId: 173974
+  renamedFrom:
+    - "Muv-Luv Unlimited: THE DAY AFTER - Episode 02 REMASTERED"
   steam: 1342410
-"Muv-Luv Unlimited: THE DAY AFTER - Episode 03 REMASTERED":
+"Muv-Luv Unlimited: The Day After - Episode 03 Remastered":
   cloud:
     steam: true
   pageId: 173975
+  renamedFrom:
+    - "Muv-Luv Unlimited: THE DAY AFTER - Episode 03 REMASTERED"
   steam: 789830
 Muv-Luv VR:
   pageId: 33747
@@ -169781,6 +169800,10 @@ Paper Quest:
 "Paper Shakespeare: To Date or Not to Date?":
   pageId: 89616
   steam: 702940
+Paper Shredder:
+  lutris: paper-shredder
+  pageId: 218810
+  steam: 4894750
 Paper Sorcerer:
   gog: 1207664363
   pageId: 34392
@@ -208068,6 +208091,7 @@ Skout:
   pageId: 188927
   templates:
     - "{{Game data/config|Windows|{{p|game}}/options.txt}}"
+    - "{{Game data/saves|Windows|{{p|windir}}/System32/Skout-Interpreter-s[number]}}"
 Skript:
   pageId: 75506
   steam: 746890
@@ -221411,6 +221435,9 @@ Storebound:
   lutris: storebound--1
   pageId: 210949
   steam: 3417410
+  steamSide:
+    - 4886920
+    - 4899410
 Stories In Stone:
   pageId: 104415
   steam: 908000
@@ -222132,10 +222159,12 @@ Strayed Lights:
     epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1242414797
   gogSide:
     - 1129921458
     - 1522071406
+  lutris: strayed-lights
   pageId: 186829
   steam: 2162020
   steamSide:
@@ -233693,6 +233722,14 @@ The Alien Cube:
   steam: 4262620
   steamSide:
     - 4391700
+The Alley:
+  lutris: the-alley
+  pageId: 212661
+  renamedFrom:
+    - The alley
+  steam: 4181410
+  steamSide:
+    - 4215750
 The Alliance Alive HD Remastered:
   cloud:
     gog: true
@@ -237079,6 +237116,8 @@ The Elementalist:
   pageId: 135449
   steam: 973410
 The Elephant Collection:
+  cloud:
+    steam: true
   pageId: 217650
   steam: 2274110
   templates:
@@ -244815,6 +244854,7 @@ The Room:
 "The Room 4: Old Sins":
   cloud:
     steam: true
+  lutris: the-room-4-old-sins
   pageId: 166041
   steam: 1361320
   templates:
@@ -248498,9 +248538,6 @@ The Zombiest Adventures in the Perverted Age of Enlightenment with a Pinch of Wo
 The Zwuggels - A Beach Holiday Adventure for Kids:
   pageId: 66035
   steam: 663370
-The alley:
-  pageId: 212661
-  steam: 4181410
 The beauties&zombies of beach for VR:
   pageId: 74640
   steam: 724940
@@ -250209,6 +250246,8 @@ Tiger Knight:
     - 534500
     - 536700
     - 536710
+Tiger Road:
+  pageId: 218815
 Tiger Striker:
   pageId: 112916
   steam: 945550
@@ -258187,6 +258226,8 @@ Trog!:
 Troid Blaster:
   pageId: 58420
   steam: 600690
+Trojan:
+  pageId: 218813
 Trojan Inc.:
   pageId: 63262
   steam: 647980

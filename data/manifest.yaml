@@ -153948,6 +153948,18 @@ Country Girl Keiko:
           - store: steam
   steam:
     id: 1065940
+"Country Justice: Revenge of the Rednecks":
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/System/Redneck.ini":
+      tags:
+        - save
+      when:
+        - os: windows
 Country Park:
   installDir:
     Park Simulator: {}
@@ -322274,6 +322286,17 @@ Halo Online:
   steam:
     id: 459220
 "Halo: Campaign Evolved":
+  files:
+    "<winLocalAppData>/Meteorite":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Meteorite/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Halo Campaign Evolved: {}
   launch:
@@ -471432,6 +471455,8 @@ Murica:
 Murky Divers:
   cloud:
     steam: true
+  id:
+    lutris: murky-divers
   installDir:
     Murky Divers: {}
   launch:
@@ -472647,7 +472672,7 @@ Muv-Luv Alternative Total Eclipse Remastered:
             store: steam
   steam:
     id: 787510
-"Muv-Luv Unlimited: THE DAY AFTER - Episode 00 REMASTERED":
+"Muv-Luv Unlimited: The Day After - Episode 00 Remastered":
   cloud:
     steam: true
   installDir:
@@ -472659,7 +472684,7 @@ Muv-Luv Alternative Total Eclipse Remastered:
             store: steam
   steam:
     id: 1407100
-"Muv-Luv Unlimited: THE DAY AFTER - Episode 01 REMASTERED":
+"Muv-Luv Unlimited: The Day After - Episode 01 Remastered":
   cloud:
     steam: true
   installDir:
@@ -472671,7 +472696,7 @@ Muv-Luv Alternative Total Eclipse Remastered:
             store: steam
   steam:
     id: 1407090
-"Muv-Luv Unlimited: THE DAY AFTER - Episode 02 REMASTERED":
+"Muv-Luv Unlimited: The Day After - Episode 02 Remastered":
   cloud:
     steam: true
   installDir:
@@ -472683,7 +472708,7 @@ Muv-Luv Alternative Total Eclipse Remastered:
             store: steam
   steam:
     id: 1342410
-"Muv-Luv Unlimited: THE DAY AFTER - Episode 03 REMASTERED":
+"Muv-Luv Unlimited: The Day After - Episode 03 Remastered":
   cloud:
     steam: true
   installDir:
@@ -521341,6 +521366,11 @@ Paper Quest:
             store: steam
   steam:
     id: 702940
+Paper Shredder:
+  id:
+    lutris: paper-shredder
+  steam:
+    id: 4894750
 Paper Sorcerer:
   files:
     "<home>/AppData/LocalLow/UltraRunaway/Paper Sorcerer":
@@ -639133,6 +639163,11 @@ Skout:
         - config
       when:
         - os: windows
+    "<winDir>/System32/Skout-Interpreter-s[number]":
+      tags:
+        - save
+      when:
+        - os: windows
 Skript:
   installDir:
     Skript: {}
@@ -680573,6 +680608,9 @@ Storebound:
     steam: true
   id:
     lutris: storebound--1
+    steamExtra:
+      - 4886920
+      - 4899410
   installDir:
     Storebound: {}
   launch:
@@ -682885,6 +682923,7 @@ Strayed Lights:
     gogExtra:
       - 1129921458
       - 1522071406
+    lutris: strayed-lights
     steamExtra:
       - 2347160
       - 2347510
@@ -719522,6 +719561,19 @@ The Alien Cube:
       - 4391700
   steam:
     id: 4262620
+The Alley:
+  id:
+    lutris: the-alley
+    steamExtra:
+      - 4215750
+  installDir:
+    The Alley: {}
+  launch:
+    "<base>/TheAlley.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4181410
 The Alliance Alive HD Remastered:
   cloud:
     gog: true
@@ -729816,6 +729868,8 @@ The Elementalist:
   steam:
     id: 973410
 The Elephant Collection:
+  cloud:
+    steam: true
   files:
     "<home>/Library/Application Support/ElephantCollection/**/*.sol":
       when:
@@ -753127,6 +753181,8 @@ The Room:
         - config
       when:
         - os: windows
+  id:
+    lutris: the-room-4-old-sins
   installDir:
     The Room Old Sins: {}
   launch:
@@ -764056,9 +764112,6 @@ The Zwuggels - A Beach Holiday Adventure for Kids:
             store: steam
   steam:
     id: 663370
-The alley:
-  steam:
-    id: 4181410
 The beauties&zombies of beach for VR:
   installDir:
     The beauties&zombies of beach for VR: {}
