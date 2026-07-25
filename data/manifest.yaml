@@ -173586,16 +173586,19 @@ Dark Old Sun:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/The5thFloor/Saved/SaveGames/*_Backup.sav":
+    "<winLocalAppData>/The5thFloor/Saved/SaveGames":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<winLocalAppData>/The5thFloor/Saved/SaveGames/*_Game.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: dark-pals
     steamExtra:
       - 4348890
+      - 4693910
+      - 4768220
+      - 4768230
   installDir:
     Dark Pals: {}
   launch:
@@ -202256,6 +202259,53 @@ Dive Inside:
             store: steam
   steam:
     id: 955980
+"Dive or Die: Children of Rain":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/*.data":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/*.dm":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/*.sav":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/Unlocks":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/Version.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/*.data":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/*.dm":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/*.sav":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/Unlocks":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/Version.json":
+      when:
+        - store: steam
+  id:
+    lutris: dive-or-die-children-of-rain
+    steamExtra:
+      - 4321140
+  installDir:
+    DIVE or DIE - Children of Rain: {}
+  launch:
+    "<base>/Dive or Die.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3590290
 Dive to the Titanic:
   installDir:
     Dive to the Titanic: {}
@@ -653102,6 +653152,18 @@ Sora:
           - store: steam
   steam:
     id: 390730
+"Sorades: Die Befreiung":
+  files:
+    "<winDocuments>/My Games/Sorades - Die Befreiung/gn8.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/Sorades - Die Befreiung/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
 Sorcerer King:
   cloud:
     steam: true

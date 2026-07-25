@@ -648606,6 +648606,48 @@
         oslist: linux
       executable: The Dark Queen of Mortholme Linux/The Dark Queen of Mortholme.x86_64
       type: default
+3590290:
+  cloud:
+    saves:
+      - path: DropRateStudio/Dead waters
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dead waters
+        pattern: Unlocks
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dead waters
+        pattern: "*.data"
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dead waters
+        pattern: Version.json
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dead waters
+        pattern: "*.dm"
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dive or Die
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dive or Die
+        pattern: Unlocks
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dive or Die
+        pattern: "*.data"
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dive or Die
+        pattern: Version.json
+        root: WinAppDataLocalLow
+      - path: DropRateStudio/Dive or Die
+        pattern: "*.dm"
+        root: WinAppDataLocalLow
+  installDir: DIVE or DIE - Children of Rain
+  launch:
+    - config:
+        oslist: windows
+      executable: Dive or Die.exe
+      type: default
+  nameLocalized:
+    schinese: 生死深潜：雨之子民
+    tchinese: 生死深潛：雨之子民
 3592020: {}
 3592140:
   installDir: Anima Gate of Memories I & II Remastered
@@ -653429,6 +653471,9 @@
         root: WinAppDataLocal
       - path: The5thFloor/Saved/SaveGames
         pattern: "*_Backup.sav"
+        root: WinAppDataLocal
+      - path: The5thFloor/Saved/SaveGames
+        pattern: "*_MiniGames.sav"
         root: WinAppDataLocal
   installDir: Dark Pals
   launch:

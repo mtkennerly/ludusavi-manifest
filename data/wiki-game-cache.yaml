@@ -31598,6 +31598,8 @@ Booster Trooper:
 "Boot : Game Dev Sim":
   pageId: 156720
   steam: 1160480
+Boot Camp:
+  pageId: 218821
 Boot Camp Fitness:
   pageId: 151305
   steam: 1163090
@@ -55986,6 +55988,12 @@ Dark Old Sun:
   steam: 4157130
   steamSide:
     - 4348890
+    - 4693910
+    - 4768220
+    - 4768230
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\The5thFloor\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\The5thFloor\\Saved\\SaveGames}}"
 "Dark Parables: Ballad of Rapunzel":
   pageId: 61634
   steam: 629110
@@ -65280,6 +65288,14 @@ Dive (Deothic):
 Dive Inside:
   pageId: 123446
   steam: 955980
+"Dive or Die: Children of Rain":
+  cloud:
+    steam: true
+  lutris: dive-or-die-children-of-rain
+  pageId: 218819
+  steam: 3590290
+  steamSide:
+    - 4321140
 Dive to the Titanic:
   pageId: 41034
   steam: 65200
@@ -212394,6 +212410,11 @@ Sora:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Fruitbat Factory\\Sora\\game.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Fruitbat Factory\\Sora\\game.sys|{{p|userprofile\\Documents}}\\Fruitbat Factory\\Sora\\game.rkg}}"
+"Sorades: Die Befreiung":
+  pageId: 218824
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Sorades - Die Befreiung\\gn8.ini}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Sorades - Die Befreiung\\savegames}}"
 Sorcerer King:
   cloud:
     steam: true

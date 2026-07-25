@@ -3584,6 +3584,7 @@
 * [Boost (2017)](https://www.pcgamingwiki.com/wiki/?curid=56106)
 * [BoostBots VR](https://www.pcgamingwiki.com/wiki/?curid=67802)
 * [Booster Trooper](https://www.pcgamingwiki.com/wiki/?curid=18789)
+* [Boot Camp](https://www.pcgamingwiki.com/wiki/?curid=218821)
 * [Boot Hill Bounties](https://www.pcgamingwiki.com/wiki/?curid=77901)
 * [Booth](https://www.pcgamingwiki.com/wiki/?curid=78840)
 * [Bootleg Systems](https://www.pcgamingwiki.com/wiki/?curid=54269)
