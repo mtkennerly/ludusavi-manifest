@@ -74740,6 +74740,11 @@ BeamNG.drive:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/BeamNG/BeamNG.drive/*/settings":
+      tags:
+        - config
+      when:
+        - os: windows
     "<xdgData>/BeamNG/BeamNG.drive":
       tags:
         - config

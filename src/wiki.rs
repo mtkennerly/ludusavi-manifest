@@ -42,6 +42,11 @@ fn preprocess_text(raw: &str) -> String {
         out = pattern.replace_all(&out, replacement).to_string();
     }
 
+    #[allow(clippy::single_element_loop)]
+    for (pattern, replacement) in [("<game.version>", "*")] {
+        out = out.replace(pattern, replacement);
+    }
+
     out
 }
 
