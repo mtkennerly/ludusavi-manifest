@@ -68659,6 +68659,17 @@ Barbie and Her Sisters Puppy Rescue:
   steam:
     id: 396390
 Barbie and the Magic of Pegasus:
+  files:
+    "<base>/Game Exports/Save Games/save games.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/lang.txt":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: barbie-and-the-magic-of-pegasus
 Barbie and the Three Musketeers:
@@ -82340,6 +82351,14 @@ Billion Road:
 Billionaire:
   steam:
     id: 819910
+Bills Must Be Paid:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4577620
+  steam:
+    id: 4421010
 Billy:
   installDir:
     Billy: {}
@@ -180791,6 +180810,17 @@ Dead Watch:
   steam:
     id: 3464670
 Dead Weight:
+  files:
+    "<winAppData>/Godot/app_userdata/Dead_weight/saves2646720/*.res":
+      when:
+        - store: steam
+  installDir:
+    Dead Weight: {}
+  launch:
+    "<base>/Dead_weight.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2646720
 Dead Wishes:
@@ -335969,6 +335999,25 @@ Heroes of Hammerwatch:
             store: steam
   steam:
     id: 677120
+Heroes of Hammerwatch II:
+  files:
+    "<root>/steamapps/common/Heroes of Hammerwatch 2/HWR2.exe.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<root>/steamapps/common/Heroes of Hammerwatch 2/saves/*.hps":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/HeroesofHammerwatch2/save_backups/*.hps":
+      tags:
+        - save
+      when:
+        - os: windows
 "Heroes of Havoc: Idle Adventures":
   installDir:
     Heroes of Havoc: {}
@@ -458783,6 +458832,11 @@ Mistfal:
             store: steam
   steam:
     id: 417920
+Mistfall Hunter:
+  id:
+    lutris: mistfall-hunter
+  steam:
+    id: 3282300
 Mistmare:
   files:
     "<base>/Users/<storeUserId>/Save":
@@ -655164,6 +655218,12 @@ South of Midnight:
 South of the Circle:
   cloud:
     gog: true
+  files:
+    "<home>/AppData/LocalLow/11 bit studios/South of the Circle":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1593637735
   id:
@@ -655183,9 +655243,9 @@ South of the Circle:
           - os: windows
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/11 bit studios/South of the Circle:
+    HKEY_CURRENT_USER/SOFTWARE/11 bit studios/South of the Circle:
       tags:
-        - save
+        - config
   steam:
     id: 1811040
 Southbound:

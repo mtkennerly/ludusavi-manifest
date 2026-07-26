@@ -22044,6 +22044,9 @@ Barbie and Her Sisters Puppy Rescue:
 Barbie and the Magic of Pegasus:
   lutris: barbie-and-the-magic-of-pegasus
   pageId: 197317
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\lang.txt}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Game Exports\\Save Games\\save games.dat}}"
 Barbie and the Three Musketeers:
   pageId: 158717
   templates:
@@ -26702,6 +26705,13 @@ Billion Road:
 Billionaire:
   pageId: 90088
   steam: 819910
+Bills Must Be Paid:
+  cloud:
+    steam: true
+  pageId: 218833
+  steam: 4421010
+  steamSide:
+    - 4577620
 Billy:
   pageId: 154122
   steam: 765520
@@ -109041,6 +109051,13 @@ Heroes of Hammerwatch:
     - "{{Game data/config|Linux|{{P|game}}/HWR.cfg}}"
     - "{{Game data/saves|Windows|{{P|game}}\\saves\\}}"
     - "{{Game data/saves|Linux|{{P|game}}/saves/}}"
+Heroes of Hammerwatch II:
+  malformed: true
+  pageId: 218830
+  templates:
+    - "{{Game data/config|Windows|{{P|steam}}\\steamapps\\common\\Heroes of Hammerwatch 2\\HWR2.exe.cfg}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\steamapps\\common\\Heroes of Hammerwatch 2\\saves\\*.hps}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\HeroesofHammerwatch2\\save_backups\\*.hps}}"
 "Heroes of Havoc: Idle Adventures":
   pageId: 54395
   steam: 251450
@@ -149076,6 +149093,10 @@ Mistero a Villa MilaFlora:
 Mistfal:
   pageId: 42511
   steam: 417920
+Mistfall Hunter:
+  lutris: mistfall-hunter
+  pageId: 218828
+  steam: 3282300
 Mistmare:
   pageId: 195204
   templates:
@@ -213084,7 +213105,8 @@ South of the Circle:
   steamSide:
     - 2052810
   templates:
-    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\11 bit studios\\South of the Circle\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\11 bit studios\\South of the Circle}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\11 bit studios\\South of the Circle}}"
 Southbound:
   pageId: 139135
   steam: 1084730

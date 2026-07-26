@@ -628967,7 +628967,17 @@
   nameLocalized:
     sc_schinese: 灵魂面甲
     schinese: 灵魂面甲(Soulmask)
-2646720: {}
+2646720:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Dead_weight/saves2646720
+        pattern: "*.res"
+        root: WinAppDataRoaming
+  installDir: Dead Weight
+  launch:
+    - config:
+        oslist: windows
+      executable: Dead_weight.exe
 2647820:
   cloud:
     saves:
@@ -643947,6 +643957,10 @@
       description: Linux / SteamOS (EXPERIMENTAL)
       executable: cleaninggame.exe
       type: default
+3282300:
+  nameLocalized:
+    schinese: 雾影猎人
+    tchinese: 霧影獵人
 3283240:
   nameLocalized:
     schinese: "升降梯外: 超自然修理工模拟器"
@@ -654452,6 +654466,9 @@
       type: default
 4414560: {}
 4418080: {}
+4421010:
+  nameLocalized:
+    schinese: 账单必须支付 Bills Must Be Paid
 4431400:
   nameLocalized:
     russian: "Смерш: Охотник на волков"
