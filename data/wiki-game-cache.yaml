@@ -142230,6 +142230,8 @@ Mars 2120:
     steam: true
   pageId: 190858
   steam: 1424290
+  steamSide:
+    - 3802560
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\ProjectMars_DEMO\\Saved\\SaveGames}}"
 "Mars Colony: Frontier":
@@ -143214,6 +143216,8 @@ Match Three Pirates! Heir to Davy Jones:
 Match and Crash:
   pageId: 71698
   steam: 677200
+Matchbox Caterpillar Big Dirt Movers:
+  pageId: 218871
 Matchbox Driving Adventures:
   cloud:
     steam: true
@@ -151937,6 +151941,8 @@ Mortal Shell II:
   lutris: mortal-shell-ii
   pageId: 205170
   steam: 2584270
+  steamSide:
+    - 4711740
 Mortal Sin:
   cloud:
     steam: true
@@ -258631,6 +258637,8 @@ Truck the System:
 Truck-Kun is Supporting Me from Another World?!:
   cloud:
     steam: true
+    xbox: true
+  lutris: truck-kun-is-supporting-me-from-another-world
   pageId: 218155
   steam: 3642010
 Trucker:

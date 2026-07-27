@@ -438182,6 +438182,9 @@ Mars 2120:
         - save
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 3802560
   installDir:
     Project Colonies MARS 2120: {}
   launch:
@@ -467134,6 +467137,8 @@ Mortal Shell:
 Mortal Shell II:
   id:
     lutris: mortal-shell-ii
+    steamExtra:
+      - 4711740
   steam:
     id: 2584270
 Mortal Sin:
@@ -792600,6 +792605,8 @@ Truck the System:
 Truck-Kun is Supporting Me from Another World?!:
   cloud:
     steam: true
+  id:
+    lutris: truck-kun-is-supporting-me-from-another-world
   steam:
     id: 3642010
 Trucker:
