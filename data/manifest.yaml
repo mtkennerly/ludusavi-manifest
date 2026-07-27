@@ -15912,6 +15912,17 @@ Aaero:
       - 1106846044
     lutris: abaddon-princess-of-the-decay
 Abalone:
+  files:
+    "<base>/SAV/*/*.SAV":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/SAV/*/Persistent.rcr":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Abalone: {}
   launch:
@@ -16216,6 +16227,12 @@ Aberoth:
   steam:
     id: 354200
 "Abha \"Light on the Path\"":
+  files:
+    "<winLocalAppData>/ABHA/save_game/options":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Abha: {}
   launch:
@@ -201522,11 +201539,6 @@ Disparity:
   steam:
     id: 715460
 Dispatch:
-  alias: Dispatch (2020)
-Dispatch (2020):
-  steam:
-    id: 1208740
-Dispatch (2025):
   cloud:
     steam: true
   files:
@@ -201552,8 +201564,13 @@ Dispatch (2025):
           - store: steam
   steam:
     id: 2592160
+Dispatch (2020):
+  steam:
+    id: 1208740
+Dispatch (2025):
+  alias: Dispatch
 Dispatch (AdHoc):
-  alias: Dispatch (2025)
+  alias: Dispatch
 Dispatcher:
   files:
     "<winLocalAppData>/Disp1/Saved/SaveGames":

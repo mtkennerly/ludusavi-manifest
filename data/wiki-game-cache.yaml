@@ -4948,6 +4948,9 @@ Aaero:
 Abalone:
   pageId: 50395
   steam: 279480
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\SAV\\*\\Persistent.rcr}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SAV\\*\\*.SAV}}"
 Abalyte:
   pageId: 114564
   steam: 944120
@@ -5047,6 +5050,8 @@ Aberoth:
 "Abha \"Light on the Path\"":
   pageId: 121415
   steam: 794830
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\ABHA\\save_game\\options}}"
 Abiotic Factor:
   cloud:
     steam: true
@@ -65074,24 +65079,25 @@ Disoriented:
 Disparity:
   pageId: 89304
   steam: 715460
-Dispatch (2020):
-  pageId: 157273
-  renamedFrom:
-    - Dispatch
-  steam: 1208740
-Dispatch (2025):
+Dispatch:
   cloud:
     steam: true
   lutris: dispatch--3
   pageId: 205211
   renamedFrom:
     - Dispatch (AdHoc)
+    - Dispatch (2025)
   steam: 2592160
   steamSide:
     - 3920290
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Dispatch\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Dispatch\\Saved\\SaveGames}}"
+Dispatch (2020):
+  pageId: 157273
+  renamedFrom:
+    - Dispatch
+  steam: 1208740
 Dispatcher:
   pageId: 45651
   steam: 341980

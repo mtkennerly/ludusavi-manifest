@@ -639892,6 +639892,21 @@
       executable: F1_25.exe
       type: vr
     - config:
+        betakey: external_eventshouse_26
+        osarch: "64"
+        oslist: windows
+      description: (Use this Option)
+      executable: F1_25.exe
+      type: default
+    - arguments: "-vr"
+      config:
+        betakey: external_eventshouse_26
+        osarch: "64"
+        oslist: windows
+      description: F1® 25 (EH)
+      executable: F1_25.exe
+      type: vr
+    - config:
         betakey: external_ageratings
         osarch: "64"
         oslist: windows
