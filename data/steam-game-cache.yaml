@@ -596425,6 +596425,7 @@
       executable: MonochromeMobius Rights and Wrongs Forgotten.exe
   nameLocalized:
     japanese: モノクロームメビウス 刻ノ代贖
+    schinese: 黑白莫比乌斯：岁月的代价
     tchinese: 黑白莫比烏斯 歲月的代價
 1962450:
   installDir: RitualSummon
@@ -642381,6 +642382,14 @@
       - path: Glass Gecko Games/Scale The Depths
         pattern: "*.save"
         root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Glass Gecko Games/Scale The Depths
+            replace: com.Glass-Gecko-Games.Scale-The-Depths
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: Scale the Depths
   launch:
     - config:

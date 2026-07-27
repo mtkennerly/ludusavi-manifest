@@ -41823,7 +41823,7 @@ Another Brick in the Mall:
           - os: windows
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/Aggro Crab:
+    "HKEY_CURRENT_USER/Software/Aggro Crab/Another Crab's Treasure":
       tags:
         - config
   steam:
@@ -155694,9 +155694,11 @@ Crashout Crew:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Aggro Crab/CrashoutCrew/saves/<storeUserId>/*.sav":
+    "<home>/AppData/LocalLow/Aggro Crab/Crashout Crew/saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: crashout-crew
     steamExtra:
@@ -308142,6 +308144,11 @@ Gotcha Racing 2nd:
     id: 848960
 Gotcha! Extreme Paintball:
   files:
+    "<base>/GMedia/Profiles/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/Gotcha.cfg":
       tags:
         - config
@@ -424568,7 +424575,7 @@ Lukewarm Ironclad:
     id: 999450
 Lula 3D:
   files:
-    "<base>/Save":
+    "<base>/Run/Save":
       tags:
         - save
       when:
@@ -443052,6 +443059,17 @@ Meawja:
   steam:
     id: 679910
 Meccha Chameleon:
+  files:
+    "<winLocalAppData>/Chameleon/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Chameleon/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     MECCHA CHAMELEON: {}
   launch:
@@ -613019,6 +613037,11 @@ Scale the Depths:
         - save
       when:
         - os: windows
+    "<home>/AppData/LocalLow/Glass Gecko Games/Scale The Depths/SettingsSaveFile.save":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1285127237
   id:
@@ -613036,6 +613059,10 @@ Scale the Depths:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Glass Gecko Games/Scale The Depths:
+      tags:
+        - config
   steam:
     id: 3198890
 "Scallywag's Honor":

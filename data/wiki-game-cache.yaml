@@ -13390,7 +13390,7 @@ Another Case Solved:
   steamSide:
     - 2944800
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Aggro Crab\\AnotherCrabsTreasure\\*.userSettings|{{p|hkcu}}\\Software\\Aggro Crab\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Aggro Crab\\AnotherCrabsTreasure\\*.userSettings|{{p|hkcu}}\\Software\\Aggro Crab\\Another Crab's Treasure}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Aggro Crab\\AnotherCrabsTreasure\\*\\*.CRAB}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\AggroCrabGames.AnotherCrabsTreasure_9gz8j9vzxkwqt\\SystemAppData\\wgs\\{{P|uid}}}}"
 Another Dawn:
@@ -50095,6 +50095,8 @@ Crashout Crew:
   steamSide:
     - 4076520
     - 4736070
+  templates:
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\LocalLow\\Aggro Crab\\Crashout Crew\\saves}}"
 Crashphalt:
   pageId: 113746
   steam: 921700
@@ -99794,6 +99796,7 @@ Gotcha! Extreme Paintball:
   pageId: 89780
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Gotcha.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\GMedia\\Profiles\\{{p|uid}}}}"
 Goth Girlfriend:
   pageId: 151389
   steam: 1084690
@@ -137838,7 +137841,7 @@ Lula 3D:
   pageId: 90839
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\CDV Software Entertainment AG\\Lula 3D\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Run\\Save\\}}"
 Lula Flipper:
   pageId: 92460
 Lula Virtual Babe:
@@ -143811,6 +143814,9 @@ Meccha Chameleon:
   renamedFrom:
     - MECCHA CHAMELEON
   steam: 4704690
+  templates:
+    - "{{Game data/config|Windows|%LOCALAPPDATA%\\Chameleon\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|%LOCALAPPDATA%\\Chameleon\\SaveGames}}"
 Mech Academy:
   pageId: 191689
   steam: 2593850
@@ -199600,6 +199606,7 @@ Scale the Depths:
   steamSide:
     - 3821770
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Glass Gecko Games\\Scale The Depths\\SettingsSaveFile.save||{{p|hkcu}}\\Software\\Glass Gecko Games\\Scale The Depths\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Glass Gecko Games\\Scale The Depths}}"
 "Scallywag's Honor":
   cloud:
@@ -247484,6 +247491,8 @@ The Unseen:
 The Untold Story of Hengshui School:
   pageId: 91532
   steam: 682480
+The Untouchables:
+  pageId: 218838
 The Unwelcomed:
   pageId: 40335
   steam: 504560
@@ -252422,6 +252431,8 @@ Tom vs. The Armies of Hell:
 "Tom's Mansion":
   pageId: 77082
   steam: 748660
+Tomahawk:
+  pageId: 218841
 Tomai:
   pageId: 179068
   steam: 1349970
