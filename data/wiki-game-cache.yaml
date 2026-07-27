@@ -2885,6 +2885,8 @@ A Giant Problem:
 A Girls Fabric Face:
   pageId: 59031
   steam: 603810
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\TurnVex\\A Girls Fabric Face}}"
 "A Glider's Journey":
   cloud:
     steam: true
@@ -3484,6 +3486,9 @@ A Salem Witch Trial - Murder Mystery:
 A Second Before Us:
   pageId: 62024
   steam: 625370
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Data\\Options.xml|{{p|hkcu}}\\Software\\DIMLE\\A SECOND BEFORE US}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\DIMLE\\A SECOND BEFORE US}}"
 A Second Chance:
   pageId: 124376
   steam: 908960
@@ -3811,8 +3816,13 @@ A Wise Use of Time:
   pageId: 43734
   steam: 373470
 A Wolf in Autumn:
+  lutris: a-wolf-in-autumn
   pageId: 45890
   steam: 395270
+  steamSide:
+    - 2733120
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\David Szymanski\\A Wolf in Autumn}}"
 A Wonder:
   pageId: 74884
   steam: 683930
@@ -78329,6 +78339,8 @@ Escape from Zellman Orbital:
 Escape from the Lostmoon:
   pageId: 153218
   steam: 1183980
+Escape from the Planet of the Robot Monsters:
+  pageId: 218846
 Escape from the Princess:
   cloud:
     steam: true
@@ -120980,6 +120992,8 @@ ItzaZoo:
 "Iubes:2":
   pageId: 77962
   steam: 682610
+"Ivan 'Ironman' Stewart's Super Off Road":
+  pageId: 218848
 Ivan vs Nazi Zombies:
   pageId: 57062
   steam: 586250
@@ -153758,6 +153772,14 @@ Muv-Luv Alternative:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\AGES3 Applications\\age\\alternative_v16_eng\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\age\\alternative_v16_eng\\Vmreg\\*.uuc|{{p|userprofile\\Documents}}\\age\\alternative_v16_eng\\Vmreg\\*.uux}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\802880\\remote\\_alt16\\*.uuc|{{p|steam}}\\userdata\\{{p|uid}}\\802880\\remote\\_alt16\\*.uux}}"
+Muv-Luv Alternative Chronicles Vol.1:
+  pageId: 218858
+Muv-Luv Alternative Chronicles Vol.2:
+  pageId: 218860
+Muv-Luv Alternative Chronicles Vol.3:
+  pageId: 218862
+Muv-Luv Alternative Chronicles Vol.4:
+  pageId: 218864
 Muv-Luv Alternative Total Eclipse:
   pageId: 218826
 Muv-Luv Alternative Total Eclipse Remastered:
@@ -165879,6 +165901,8 @@ Operation Victory:
 Operation Warcade VR:
   pageId: 62803
   steam: 639270
+Operation Wolf:
+  pageId: 218843
 Operation Wolfsburg:
   pageId: 206203
 "Operation: Black Mesa":
@@ -213387,6 +213411,8 @@ Space Crew:
 Space Cruise:
   pageId: 125649
   steam: 992880
+Space Crusade:
+  pageId: 218850
 Space DVRTS:
   pageId: 36868
   steam: 519550
@@ -231258,6 +231284,8 @@ Tattoo Tycoon:
     - 3815940
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Crazybunch\\Tattoo Tycoon\\savegames\\*.*banana}}"
+"Tau Ceti: The Lost Star Colony":
+  pageId: 218852
 Tau Defense:
   pageId: 142163
   steam: 1107860
