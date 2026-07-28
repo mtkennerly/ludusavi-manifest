@@ -412759,7 +412759,29 @@
         oslist: windows
       executable: Full Body Workout.exe
       type: default
-951770: {}
+951770:
+  cloud:
+    saves:
+      - path: VahrinsCall/Saved/SaveGames
+        pattern: "*.csav"
+        recursive: true
+        root: WinAppDataLocal
+      - path: VahrinsCall/Saved/SaveGames
+        pattern: C_*.sav
+        recursive: true
+        root: WinAppDataLocal
+      - path: VahrinsCall/Saved/SaveGames
+        pattern: CharacterSlots.sav
+        root: WinAppDataLocal
+      - path: VahrinsCall/Saved/SaveGames
+        pattern: CurrentSessionData.sav
+        root: WinAppDataLocal
+  installDir: Vahrins Call
+  launch:
+    - config:
+        oslist: windows
+      executable: VahrinsCall.exe
+      type: default
 951780:
   installDir: Zombie Deathrace Feeding Frenzy
   launch:
@@ -634828,6 +634850,12 @@
       description: PROD
       executable: afop.exe
 2841600: {}
+2841650:
+  nameLocalized:
+    japanese: スナイパー・ダン：ワンショットの何でも屋
+    koreana: 스나이퍼댄
+    schinese: 狙击手·丹：一击解决的多面能手
+    tchinese: "神射手丹: 包羅萬象事務所"
 2841770:
   cloud:
     saves:
@@ -645607,6 +645635,37 @@
     japanese: Roulette Hero
     schinese: 轮盘英雄
     tchinese: 輪盤英雄
+3372060:
+  cloud:
+    saves:
+      - path: HellMaiden
+        pattern: "*.json"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Hell Maiden
+  launch:
+    - arguments: "-force-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Hell Maiden.exe
+      type: default
+    - arguments: "-force-d3d11"
+      config:
+        betakey: development
+        osarch: "64"
+        oslist: windows
+      description: Play HELL MAIDEN using DirectX 11 (Recommended)
+      executable: Hell Maiden.exe
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Play HELL MAIDEN using DirectX 12
+      executable: Hell Maiden.exe
+  nameLocalized:
+    schinese: 地狱公主 Hell Maiden
 3372980:
   cloud:
     saves:

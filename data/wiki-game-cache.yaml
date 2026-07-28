@@ -5089,6 +5089,9 @@ Ablight:
 Abo Khashem:
   pageId: 82143
   steam: 662840
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Moving Dimensions\\AboKhashem\\Save\\Settings*.dat|{{p|userprofile\\appdata\\locallow}}\\Moving Dimensions\\AboKhashem\\Save\\Keybinds*.kbd}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Moving Dimensions\\AboKhashem\\Save\\*.dat|{{p|userprofile\\appdata\\locallow}}\\Moving Dimensions\\AboKhashem\\Save\\*.meta}}"
 Abo Mando:
   pageId: 45111
   steam: 429950
@@ -6397,6 +6400,9 @@ Adorables:
     steam: true
   pageId: 43873
   steam: 366760
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Adorables\\GameData.bin}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Adorables\\GameData.bin}}"
 Adore:
   pageId: 136066
   steam: 1074620
@@ -61988,6 +61994,8 @@ Desert Speed:
 Desert Storm:
   pageId: 56729
   steam: 581930
+"Desert Strike: Return to the Gulf":
+  pageId: 218875
 Desert Thunder:
   gog: 1094951883
   lutris: desert-thunder
@@ -64166,6 +64174,8 @@ Dino Trauma:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\DinoTrauma\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\DinoTrauma\\}}"
+Dino and Aliens:
+  pageId: 218877
 DinoBlaster:
   cloud:
     steam: true
@@ -90381,6 +90391,8 @@ Forsaken Realm:
   pageId: 154126
   steam: 1044700
 "Forsaken Realms: Vahrin's Call":
+  cloud:
+    steam: true
   lutris: forsaken-realms-vahrins-call
   pageId: 122892
   renamedFrom:
@@ -107284,6 +107296,9 @@ Hell Let Loose:
   lutris: hell-let-loose-vietnam
   pageId: 216625
   steam: 3079210
+Hell Maiden:
+  pageId: 218881
+  steam: 3372060
 Hell Pie:
   cloud:
     gog: true
@@ -210219,6 +210234,11 @@ Sniper Blacklist:
 Sniper Commando Attack:
   pageId: 141720
   steam: 1076950
+Sniper Dan:
+  cloud:
+    steam: true
+  pageId: 218879
+  steam: 2841650
 Sniper Elite:
   gog: 1207658852
   lutris: sniper-elite

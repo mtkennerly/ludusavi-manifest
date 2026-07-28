@@ -16353,6 +16353,27 @@ Ablight:
   steam:
     id: 837920
 Abo Khashem:
+  files:
+    "<home>/AppData/LocalLow/Moving Dimensions/AboKhashem/Save/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Moving Dimensions/AboKhashem/Save/*.meta":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Moving Dimensions/AboKhashem/Save/Keybinds*.kbd":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Moving Dimensions/AboKhashem/Save/Settings*.dat":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Abo Khashem: {}
   launch:
@@ -20178,6 +20199,13 @@ Adorable Crush:
 Adorables:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Adorables/GameData.bin":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Adorables: {}
   launch:
@@ -278876,8 +278904,30 @@ Forsaken Realm:
   steam:
     id: 1044700
 "Forsaken Realms: Vahrin's Call":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/VahrinsCall/Saved/SaveGames/**/*.csav":
+      when:
+        - store: steam
+    "<winLocalAppData>/VahrinsCall/Saved/SaveGames/**/C_*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/VahrinsCall/Saved/SaveGames/CharacterSlots.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/VahrinsCall/Saved/SaveGames/CurrentSessionData.sav":
+      when:
+        - store: steam
   id:
     lutris: forsaken-realms-vahrins-call
+  installDir:
+    Vahrins Call: {}
+  launch:
+    "<base>/VahrinsCall.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 951770
 Forsaken Remastered:
@@ -330614,6 +330664,27 @@ Hell Let Loose:
     lutris: hell-let-loose-vietnam
   steam:
     id: 3079210
+Hell Maiden:
+  files:
+    "<home>/Saved Games/HellMaiden/**/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Hell Maiden: {}
+  launch:
+    "<base>/Hell Maiden.exe":
+      - arguments: "-force-d3d11"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3372060
 Hell Pie:
   cloud:
     gog: true
@@ -646372,6 +646443,11 @@ Sniper Commando Attack:
             store: steam
   steam:
     id: 1076950
+Sniper Dan:
+  cloud:
+    steam: true
+  steam:
+    id: 2841650
 Sniper Elite:
   files:
     "<base>/Prof/<storeUserId>":
