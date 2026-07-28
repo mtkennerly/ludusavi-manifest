@@ -56906,6 +56906,8 @@ Darkstone:
     - "{{Game data/config|Windows|{{p|game}}\\config\\*.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Darkstone Restoration:
+  cloud:
+    steam: true
   gog: 1180637450
   gogSide:
     - 1185833168
@@ -56913,6 +56915,9 @@ Darkstone Restoration:
   steam: 4557490
   steamSide:
     - 4716570
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config\\*.txt|{{p|game}}\\config\\glyphcache.bin|{{p|game}}\\gamepad_settings.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save\\games\\*.sav|{{p|game}}\\temp\\*.SAV}}"
 Darkwater:
   cloud:
     steam: true
@@ -88688,7 +88693,7 @@ Flower:
   steam: 966330
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Flower\\Flower.cfg}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\Flower\\SAVEGAME.BIN}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\Flower\\SAVEGAME.BIN<br>{{p|steamlibrary}}\\userdata\\{{p|uid}}\\966330\\remote}}"
     - "{{Game data/saves|GOG.com|{{P|localappdata}}\\GOG.com\\Galaxy\\Applications\\51964741675694916\\Storage\\Shared\\Files\\SAVEGAME.BIN}}"
 Flower Design:
   pageId: 55825
@@ -121908,6 +121913,7 @@ Jay Walker:
   steam: 937320
 "Jay and Silent Bob: Chronic Blunt Punch":
   cloud:
+    steam: true
     xbox: true
   lutris: jay-and-silent-bob-chronic-blunt-punch
   pageId: 214536
@@ -187512,6 +187518,8 @@ Red Ocean:
 "Red Recon: 1944":
   pageId: 211823
   steam: 3170130
+  steamSide:
+    - 4711560
 Red Reign:
   pageId: 154547
 Red Riding Hood - Star Crossed Lovers:
@@ -236734,7 +236742,7 @@ The Diamond Mystery of Rosemond Valley:
   pageId: 208048
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Liquid\\RVP}}"
-    - "{{Game data/saves|Windows|{{p|game}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\sg_**.sav}}"
 The Diasporic Crypt:
   pageId: 173830
 The Dig:

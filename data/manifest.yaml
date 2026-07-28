@@ -176176,49 +176176,34 @@ Darkstone:
   steam:
     id: 320320
 Darkstone Restoration:
+  cloud:
+    steam: true
   files:
-    "<base>/Quest/*.mtf":
+    "<base>/config/*.txt":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
     "<base>/config/glyphcache.bin":
+      tags:
+        - config
       when:
-        - store: steam
-    "<base>/config/keyboard.txt":
-      when:
-        - store: steam
-    "<base>/config/quest.txt":
-      when:
-        - store: steam
-    "<base>/config/seed.txt":
-      when:
-        - store: steam
-    "<base>/config/tactics/*.js":
-      when:
-        - store: steam
-    "<base>/config/user_keyboard.txt":
-      when:
-        - store: steam
-    "<base>/config/user_prefs.txt":
-      when:
-        - store: steam
+        - os: windows
     "<base>/gamepad_settings.ini":
+      tags:
+        - config
       when:
-        - store: steam
-    "<base>/save/characters/*.lpl":
-      when:
-        - store: steam
+        - os: windows
     "<base>/save/games/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
-    "<base>/skin/**/*.tga":
+        - os: windows
+    "<base>/temp/*.SAV":
+      tags:
+        - save
       when:
-        - store: steam
-    "<base>/temp/**/*.MLV":
-      when:
-        - store: steam
-    "<base>/temp/**/*.SAV":
-      when:
-        - store: steam
+        - os: windows
   gog:
     id: 1180637450
   id:
@@ -273185,11 +273170,6 @@ Flower:
     "<winDocuments>/Flower/Flower.cfg":
       tags:
         - config
-      when:
-        - os: windows
-    "<winDocuments>/Flower/SAVEGAME.BIN":
-      tags:
-        - save
       when:
         - os: windows
     "<winLocalAppData>/GOG.com/Galaxy/Applications/51964741675694916/Storage/Shared/Files/SAVEGAME.BIN":
@@ -376056,6 +376036,8 @@ Jay Walker:
   steam:
     id: 937320
 "Jay and Silent Bob: Chronic Blunt Punch":
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Interabang Entertainment/Jay and Silent Bob_ Chronic Blunt Punch/*.jasbs":
       when:
@@ -576047,6 +576029,9 @@ Red Ocean:
   steam:
     id: 498630
 "Red Recon: 1944":
+  id:
+    steamExtra:
+      - 4711560
   steam:
     id: 3170130
 Red Riding Hood - Star Crossed Lovers:
@@ -728621,6 +728606,12 @@ The Dew:
   steam:
     id: 692950
 The Diamond Mystery of Rosemond Valley:
+  files:
+    "<base>/sg_*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Liquid/RVP:
       tags:
