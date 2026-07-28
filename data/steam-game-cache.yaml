@@ -606572,7 +606572,15 @@
   nameLocalized:
     schinese: 破碎怪谈：恶意取关
     tchinese: 破碎怪談：惡意取關
-2133850: {}
+2133850:
+  installDir: Broken Reality 2000
+  launch:
+    - config:
+        oslist: windows
+      executable: Broken Reality 2000.exe
+    - config:
+        oslist: macos
+      executable: Broken Reality 2000.app
 2134320:
   installDir: ENA Dream BBQ
   launch:

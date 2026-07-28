@@ -104858,6 +104858,17 @@ Broken Reality:
 Broken Reality 2000:
   id:
     lutris: broken-reality-2000
+  installDir:
+    Broken Reality 2000: {}
+  launch:
+    "<base>/Broken Reality 2000.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Broken Reality 2000.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2133850
 Broken Roads:
@@ -140308,9 +140319,11 @@ Clue/Cluedo:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Marmalade Game Studio/Cluedo/<storeUserId>/**/*.c2":
+    "<home>/AppData/LocalLow/Marmalade Game Studio/Cluedo":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     ClueCluedo: {}
   launch:
@@ -322461,6 +322474,12 @@ Halo Online:
         - save
       when:
         - os: windows
+  id:
+    lutris: halo-campaign-evolved
+    steamExtra:
+      - 4073600
+      - 4192200
+      - 4485640
   installDir:
     Halo Campaign Evolved: {}
   launch:
@@ -670837,6 +670856,8 @@ Star Trek Timelines:
     steamExtra:
       - 4054540
       - 4063520
+      - 4861560
+      - 4873370
   installDir:
     Star Trek Voyager - Across the Unknown: {}
   launch:
@@ -782640,6 +782661,7 @@ Tower of Guns:
     id: 266110
 Tower of Kalemonvo:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/osur/Tower of Kalemonvo/*.dat":
@@ -782647,6 +782669,8 @@ Tower of Kalemonvo:
         - save
       when:
         - os: windows
+  gog:
+    id: 1186556064
   id:
     lutris: tower-of-kalemonvo
   installDir:
