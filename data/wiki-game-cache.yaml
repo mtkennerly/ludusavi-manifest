@@ -9077,6 +9077,7 @@ Alan Wake:
 Alan Wake II:
   cloud:
     epic: true
+  lutris: alan-wake-ii
   pageId: 173571
   renamedFrom:
     - Alan Wake 2
@@ -9086,6 +9087,7 @@ Alan Wake II:
 Alan Wake Remastered:
   cloud:
     epic: true
+  lutris: alan-wake-remastered
   pageId: 171319
   templates:
     - "{{Game data/config|Windows|{{P|USERPROFILE}}\\Documents\\Remedy\\AlanWakeRemastered\\}}"
@@ -21439,6 +21441,8 @@ Ball run and rush:
 BallBoi:
   pageId: 144283
   steam: 1115380
+BallPark 3DX:
+  pageId: 218910
 Ballad of Solar:
   pageId: 50220
   steam: 302490
@@ -170760,6 +170764,9 @@ Pass The Time:
 Pass The Time 2:
   pageId: 72252
   steam: 715230
+Pass the Fear:
+  pageId: 218913
+  steam: 3561220
 Pass the Wall:
   pageId: 110628
   renamedFrom:
@@ -188427,6 +188434,7 @@ Relicta:
   steamSide:
     - 1302980
   templates:
+    - "{{Game data/config|Windows|%localappdata%\\PAway\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\PAway\\Saved\\SaveGames}}"
 Relief:
   pageId: 217365

@@ -648399,6 +648399,24 @@
     japanese: カプセル恋人
     schinese: 胶囊恋人
     tchinese: 膠囊戀人
+3561220:
+  cloud:
+    saves:
+      - path: PlayMudStudio/Pass the fear/GameData
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Pass The Fear
+  launch:
+    - config:
+        oslist: windows
+      executable: PassTheFear.exe
+      type: default
+  nameLocalized:
+    sc_schinese: 风暴怕死队
+    schinese: 风暴怕死队
+    tchinese: 風暴怕死隊
 3561320: {}
 3561600: {}
 3562580: {}
