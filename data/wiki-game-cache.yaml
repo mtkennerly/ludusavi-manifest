@@ -6511,6 +6511,9 @@ Adventure Park:
   lutris: adventure-park
   pageId: 33466
   steam: 256050
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\b-alive\\Adventure Park\\Settings\\*}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\b-alive\\Adventure Park\\Save\\*}}"
 "Adventure Pinball: Forgotten Island":
   lutris: adventure-pinball-forgotten-island
   pageId: 97688
@@ -122002,7 +122005,7 @@ Jeklynn Heights:
 Jekyll & Hyde:
   pageId: 211503
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Config}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Config|{{p|hkcu}}\\SOFTWARE\\Cryo\\Jekyll}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 Jelly Blocks:
   pageId: 132399
@@ -187025,6 +187028,10 @@ Recompile:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Phigames\\Recompile\\Recompile.sav|{{P|hkcu}}\\Software\\Phigames\\Recompile\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Phigames\\Recompile\\Recompile.sav}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\PlugInDigital.Recompile_9e3ank8rmgj0t\\SystemAppData\\wgs\\{{P|uid}}\\}}"
+Reconfigure:
+  lutris: reconfigure
+  pageId: 218899
+  steam: 3989530
 Reconquest:
   pageId: 51889
   steam: 530040
@@ -204741,6 +204748,9 @@ Shift At Midnight:
   steam: 3722330
   steamSide:
     - 4050060
+  templates:
+    - "{{Game data/config|Windows|%LocalAppData%Low\\Kwalee\\ShiftAtMidnight}}"
+    - "{{Game data/saves|Windows|%LocalAppData%Low\\Kwalee\\ShiftAtMidnight}}"
 Shift Happens:
   cloud:
     steam: true
@@ -231571,6 +231581,8 @@ Tears of Avia:
     steam: true
   pageId: 130722
   steam: 461510
+Tears of Metal:
+  pageId: 218895
 Tears of a Dragon:
   pageId: 59518
   steam: 577760
@@ -241132,6 +241144,8 @@ The Last Starship:
   gog: 1883654816
   pageId: 185354
   steam: 1857080
+  templates:
+    - "{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\\Introversion\\LastStarship\\saves\\|{{p|LOCALAPPDATA}}\\Introversion\\LastStarship\\ships\\}}"
 The Last Strategist:
   pageId: 74481
   steam: 735240
@@ -245607,7 +245621,7 @@ The Shadow of Yidhra:
 The Shadow of Zorro:
   pageId: 211554
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\config}}"
+    - "{{Game data/config|Windows|{{p|game}}\\config|{{p|hkcu}}\\SOFTWARE\\Cryo\\Zorro}}"
 The Shadowland:
   pageId: 42289
   steam: 498620

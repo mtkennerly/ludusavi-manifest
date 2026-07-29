@@ -5676,13 +5676,6 @@
       description: GROUND BRANCH DX11
       executable: GroundBranch.exe
       type: default
-    - arguments: "-dx12"
-      config:
-        osarch: "64"
-        oslist: windows
-      description: GROUND BRANCH DX12
-      executable: GroundBranch.exe
-      type: option2
 17020:
   installDir: Global Agenda Live
   launch:
@@ -652821,6 +652814,7 @@
     schinese: 魔法司书阿莉艾娜 ～七英杰之书～
     tchinese: 魔法司書阿莉艾娜 ～七英傑之書～
 3989240: {}
+3989530: {}
 3989570:
   installDir: Death in a Party
   launch:

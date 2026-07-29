@@ -20585,6 +20585,17 @@ Adventure Land - The Code MMORPG:
   steam:
     id: 777150
 Adventure Park:
+  files:
+    "<winDocuments>/b-alive/Adventure Park/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/b-alive/Adventure Park/Settings":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: adventure-park
   installDir:
@@ -376290,6 +376301,10 @@ Jekyll & Hyde:
         - save
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Cryo/Jekyll:
+      tags:
+        - config
 Jelly Blocks:
   installDir:
     Jelly Blocks: {}
@@ -574494,6 +574509,11 @@ Recompile:
         - config
   steam:
     id: 986310
+Reconfigure:
+  id:
+    lutris: reconfigure
+  steam:
+    id: 3989530
 Reconquest:
   installDir:
     reconquest: {}
@@ -628750,13 +628770,12 @@ Shift At Midnight:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Kwalee/ShiftAtMidnight/*.data":
+    "<winLocalAppData>Low/Kwalee/ShiftAtMidnight":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<xdgData>/Kwalee/ShiftAtMidnight/*.data":
-      when:
-        - os: linux
-          store: steam
+        - os: windows
   id:
     lutris: shift-at-midnight
     steamExtra:
@@ -741914,6 +741933,17 @@ The Last Starship:
   cloud:
     gog: true
     steam: true
+  files:
+    "<winLocalAppData>/Introversion/LastStarship/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Introversion/LastStarship/ships":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1883654816
   installDir:
@@ -755446,6 +755476,10 @@ The Shadow of Zorro:
         - config
       when:
         - os: windows
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Cryo/Zorro:
+      tags:
+        - config
 The Shadowland:
   installDir:
     The Shadowland: {}
