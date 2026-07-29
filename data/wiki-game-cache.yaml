@@ -8296,6 +8296,9 @@ Aiball:
 Aiden:
   pageId: 81562
   steam: 783060
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\AIDEN\\Saved\\Config\\WindowsNoEditor\\*.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\AIDEN\\Saved\\SaveGames\\*.sav}}"
 "Aidsmoji: The Forbidden Fruit":
   pageId: 82025
   steam: 794410
@@ -265016,10 +265019,24 @@ Vampire of the Sands:
   steam: 1523990
 "Vampire: The Masquerade - Swansong":
   cloud:
+    gog: true
     steam: true
+  gog: 1745513769
+  gogSide:
+    - 1309344369
+    - 1567265031
+    - 1640269001
+    - 1674183918
+    - 1859830883
+    - 2013310722
   lutris: vampire-the-masquerade-swansong
   pageId: 148254
   steam: 1299510
+  steamSide:
+    - 1801880
+    - 1801881
+    - 1801882
+    - 2407740
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Vampire\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Vampire\\Saved\\SaveGames}}"

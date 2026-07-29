@@ -612494,7 +612494,8 @@
         root: LinuxHome
   installDir: UNBEATABLE
   launch:
-    - executable: UNBEATABLE.exe
+    - arguments: "-customsongs"
+      executable: UNBEATABLE.exe
       type: default
     - arguments: "-customsongs -arcade"
       config:
