@@ -86848,6 +86848,23 @@ FinalFire:
 "Find & Destroy: Tank Strategy":
   pageId: 96163
   steam: 838510
+Find 100 Ducks and Blast Them!:
+  cloud:
+    steam: true
+  lutris: find-100-ducks-and-blast-them
+  pageId: 218904
+  steam: 3222970
+  steamSide:
+    - 4130770
+    - 4231480
+Find 100 Ducks and Blast Them...In Space!!!:
+  cloud:
+    steam: true
+  lutris: find-100-ducks-and-blast-them-dot-dot-dot-in-space
+  pageId: 218906
+  steam: 3951570
+  steamSide:
+    - 4446750
 Find Differences:
   pageId: 121437
   steam: 936020
@@ -156027,8 +156044,12 @@ NOCE:
 "NODE: The Last Favor of the Antarii":
   cloud:
     epic: true
+    gog: true
     steam: true
   gog: 1537862169
+  gogSide:
+    - 1344302967
+    - 1820457233
   lutris: node-the-last-favor-of-the-antarii
   pageId: 206238
   steam: 2757670
@@ -217791,7 +217812,20 @@ Star Nomad 2:
   steam: 414950
 "Star Ocean: The Divine Force":
   cloud:
+    gog: true
     steam: true
+  gog: 1657602775
+  gogSide:
+    - 1112314321
+    - 1159002505
+    - 1421211601
+    - 1439483757
+    - 1522894501
+    - 1562254276
+    - 1996402103
+    - 2001649085
+    - 2042587635
+    - 2108854856
   lutris: star-ocean-the-divine-force
   pageId: 172590
   steam: 1776380
@@ -217813,7 +217847,9 @@ Star Nomad 2:
     - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\My Games\\STAR OCEAN - THE LAST HOPE - 4K & Full HD Remaster\\SaveData\\{{p|uid}}\\USR-DATA*.BIN}}"
 "Star Ocean: The Second Story R":
   cloud:
+    gog: true
     steam: true
+  gog: 2107227517
   lutris: star-ocean-the-second-story-r
   pageId: 188191
   steam: 2238900

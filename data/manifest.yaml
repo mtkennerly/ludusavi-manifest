@@ -267408,6 +267408,45 @@ FinalFire:
             store: steam
   steam:
     id: 838510
+Find 100 Ducks and Blast Them!:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Welcome Back Games/Find 100 Ducks And Blast Them!/*.es3":
+      when:
+        - store: steam
+  id:
+    lutris: find-100-ducks-and-blast-them
+    steamExtra:
+      - 4130770
+      - 4231480
+  installDir:
+    Find 100 Ducks and Blast Them!: {}
+  launch:
+    "<base>/Find 100 Ducks And Blast Them!.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3222970
+Find 100 Ducks and Blast Them...In Space!!!:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Welcome Back Games/Find 100 Ducks And Blast Them In Space!/*.es3":
+      when:
+        - store: steam
+  id:
+    lutris: find-100-ducks-and-blast-them-dot-dot-dot-in-space
+    steamExtra:
+      - 4446750
+  installDir:
+    Find 100 Ducks and Blast Them...IN SPACE!!!: {}
+  launch:
+    "<base>/Find 100 Ducks And Blast Them In Space!.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3951570
 Find Differences:
   installDir:
     Find Differences: {}
@@ -479427,18 +479466,29 @@ NOCE:
 "NODE: The Last Favor of the Antarii":
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
+    "<home>/.config/unity3d/Lapsus Games/NODE/*.sav":
+      when:
+        - os: linux
+          store: steam
     "<home>/.config/unity3d/Lapsus Games/NODE/SavedGame.dat":
       when:
         - os: linux
           store: steam
+    "<home>/AppData/LocalLow/Lapsus Games/NODE/*.sav":
+      when:
+        - store: steam
     "<home>/AppData/LocalLow/Lapsus Games/NODE/SavedGame.dat":
       when:
         - store: steam
   gog:
     id: 1537862169
   id:
+    gogExtra:
+      - 1344302967
+      - 1820457233
     lutris: node-the-last-favor-of-the-antarii
     steamExtra:
       - 3885310
@@ -669505,6 +669555,7 @@ Star Nomad 2:
     id: 414950
 "Star Ocean: The Divine Force":
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/SaveData/SAVEDATA_*.DAT":
@@ -669529,7 +669580,20 @@ Star Nomad 2:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1657602775
   id:
+    gogExtra:
+      - 1112314321
+      - 1159002505
+      - 1421211601
+      - 1439483757
+      - 1522894501
+      - 1562254276
+      - 1996402103
+      - 2001649085
+      - 2042587635
+      - 2108854856
     lutris: star-ocean-the-divine-force
   installDir:
     STAR OCEAN THE DIVINE FORCE: {}
@@ -669573,6 +669637,7 @@ Star Nomad 2:
     id: 609150
 "Star Ocean: The Second Story R":
   cloud:
+    gog: true
     steam: true
   files:
     "<winDocuments>/My Games/STAR OCEAN THE SECOND STORY R/Steam/<storeUserId>/savedata_*.sav":
@@ -669587,6 +669652,8 @@ Star Nomad 2:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 2107227517
   id:
     lutris: star-ocean-the-second-story-r
   installDir:

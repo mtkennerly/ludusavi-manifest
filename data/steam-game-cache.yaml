@@ -117305,6 +117305,11 @@
           - Windows
         root: WinAppDataRoaming
       - path: "Axolot Games/Scrap Mechanic/User/User_{64BitSteamID}/"
+        pattern: watchedtutorials.json
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: "Axolot Games/Scrap Mechanic/User/User_{64BitSteamID}/"
         pattern: character
         platforms:
           - Windows
@@ -632827,6 +632832,9 @@
       - path: Lapsus Games/NODE/
         pattern: SavedGame.dat
         root: WinAppDataLocalLow
+      - path: Lapsus Games/NODE/
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
     overrides:
       - os: Linux
         osCompare: "="
@@ -632844,17 +632852,17 @@
         oslist: linux
       executable: NODE.x86_64
   nameLocalized:
-    brazilian: "NODE: O Último Favor dos Antarii"
-    french: "NODE: L'ultime Grâce des Antarii"
-    german: "NODE: Der letzte Gesandte der Antarii"
-    italian: "NODE: L'ultimo Favore degli Antarii"
-    japanese: "NODE:アンタリが残した最後の祝福"
-    koreana: NODE 안타리가 남긴 마지막 호의
-    russian: "NODE: последняя услуга Антарии"
-    schinese: NODE：安塔瑞族的最终馈赠
-    spanish: "NODE: El Último Favor de los Antarii"
-    tchinese: NODE：安塔瑞族的最終餽贈
-    ukrainian: NODE остання послуга Антарії
+    brazilian: NODE
+    french: NODE
+    german: NODE
+    italian: NODE
+    japanese: NODE
+    koreana: NODE
+    russian: NODE
+    schinese: NODE
+    spanish: NODE
+    tchinese: NODE
+    ukrainian: NODE
 2757720:
   cloud:
     saves:
@@ -642876,6 +642884,15 @@
     tchinese: DreamWorks 蓋比的娃娃屋：準備開派對
     turkish: "DreamWorks Gabby'nin Hayal Evi: Parti Zamanı"
     ukrainian: "DreamWorks «Ляльковий будиночок Ґеббі: час веселощів»"
+3222970:
+  cloud:
+    saves:
+      - path: "Welcome Back Games\\Find 100 Ducks And Blast Them!\\"
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+  installDir: Find 100 Ducks and Blast Them!
+  launch:
+    - executable: Find 100 Ducks And Blast Them!.exe
 3223070: {}
 3223120:
   installDir: Hentai Tales Futanari Office
@@ -652666,6 +652683,15 @@
         oslist: windows
       executable: EM/Binaries/Win64/EM-Win64-Shipping.exe
       type: default
+3951570:
+  cloud:
+    saves:
+      - path: "Welcome Back Games\\Find 100 Ducks And Blast Them In Space!\\"
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+  installDir: Find 100 Ducks and Blast Them...IN SPACE!!!
+  launch:
+    - executable: Find 100 Ducks And Blast Them In Space!.exe
 3954580:
   cloud:
     saves:
