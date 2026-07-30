@@ -82453,15 +82453,13 @@ Bills Must Be Paid:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Rike Games/Bills Must Be Paid/FullGame/save.json":
+    "<home>/AppData/LocalLow/Rike Games/Bills Must Be Paid/FullGame":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/Library/Application Support/Rike Games/Bills Must Be Paid/FullGame/save.json":
-      when:
-        - os: mac
-          store: steam
   id:
+    lutris: bills-must-be-paid
     steamExtra:
       - 4577620
   installDir:
@@ -198989,6 +198987,11 @@ Dino Crisis:
   cloud:
     gog: true
   files:
+    "<base>/*/SAVE*.dns":
+      tags:
+        - save
+      when:
+        - store: steam
     "<base>/SAVE*.dno":
       tags:
         - save
@@ -611114,6 +611117,8 @@ Sandy Path:
   id:
     lutris: sandys-circus-adventure
 "Sang-Froid: Tales of Werewolves":
+  cloud:
+    steam: true
   files:
     "<winProgramData>/sangFroidData":
       tags:

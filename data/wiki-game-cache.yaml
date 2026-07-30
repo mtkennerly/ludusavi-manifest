@@ -26739,10 +26739,13 @@ Billionaire:
 Bills Must Be Paid:
   cloud:
     steam: true
+  lutris: bills-must-be-paid
   pageId: 218833
   steam: 4421010
   steamSide:
     - 4577620
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Rike Games\\Bills Must Be Paid\\FullGame}}"
 Billy:
   pageId: 154122
   steam: 765520
@@ -64125,6 +64128,7 @@ Dino Crisis:
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{P|wow64}}\\CAPCOM\\DINOCRISIS}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE*.dno}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\*\\SAVE*.dns}}"
 Dino Crisis 2:
   cloud:
     gog: true
@@ -71908,6 +71912,7 @@ Duskers:
 Duskfade:
   cloud:
     steam: true
+    xbox: true
   lutris: duskfade--1
   pageId: 207340
   steam: 2542020
@@ -199080,6 +199085,8 @@ Sandy Path:
   lutris: sandys-circus-adventure
   pageId: 197698
 "Sang-Froid: Tales of Werewolves":
+  cloud:
+    steam: true
   gog: 1207660203
   lutris: sang-froid-tales-of-werewolves
   pageId: 6024
