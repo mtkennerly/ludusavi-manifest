@@ -54469,6 +54469,9 @@ DC Universe Online:
 DCL - The Game:
   pageId: 126452
   steam: 964570
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\DCGame\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\DCGame\\}}"
 "DCR: Drive.Crash.Repeat":
   pageId: 108380
   steam: 501850
@@ -92965,6 +92968,14 @@ Funky Karts:
   steam: 872690
 Funky Smugglers:
   pageId: 8037
+Funnel runners:
+  cloud:
+    steam: true
+  pageId: 218916
+  steam: 3712080
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\StormEscape\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\StormEscape\\Saved\\SaveGames\\*.sav}}"
 Funny Archery:
   pageId: 149182
   steam: 1161840
@@ -104559,7 +104570,7 @@ Halo Wars 2:
     - 4192200
     - 4485640
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Meteorite}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Meteorite\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Meteorite\\Saved\\SaveGames}}"
 "Halo: Combat Evolved":
   lutris: halo-combat-evolved
@@ -119799,9 +119810,13 @@ Invicta Beam:
   cloud:
     epic: true
     steam: true
+  lutris: invincible-presents-atom-eve
   pageId: 191102
   steam: 2060870
+  steamSide:
+    - 2857080
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\AtomEve\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\AtomEve\\Saved\\SaveGames}}"
 Invincible VS:
   cloud:
@@ -258751,6 +258766,8 @@ Truck-Kun is Supporting Me from Another World?!:
   lutris: truck-kun-is-supporting-me-from-another-world
   pageId: 218155
   steam: 3642010
+  steamSide:
+    - 4756540
 Trucker:
   pageId: 52221
   steam: 451660

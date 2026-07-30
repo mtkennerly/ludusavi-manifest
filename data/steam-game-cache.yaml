@@ -53198,6 +53198,8 @@
         oslist: macos
       description: Launch
       executable: Launcher.app
+  nameLocalized:
+    schinese: 勇闯银河系
 290320:
   cloud:
     saves:
@@ -649691,7 +649693,21 @@
     schinese: 加利宅邸悬案
 3641250: {}
 3641830: {}
-3642010: {}
+3642010:
+  cloud:
+    saves:
+      - path: Strange Scaffold/Truck-kun
+        pattern: "*.sv4"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Truck-kun is Supporting Me from Another World
+  launch:
+    - config:
+        oslist: windows
+      executable: Truck-kun.exe
+      type: default
 3643170:
   cloud:
     saves:
@@ -650449,6 +650465,25 @@
     - config:
         oslist: macos
       executable: HouseFlipper.app
+3712080:
+  cloud:
+    saves:
+      - path: StormEscape/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Funnel Runners
+  launch:
+    - config:
+        oslist: windows
+      description: Funnel Runners
+      executable: FunnelRunners.exe
+      type: option1
+    - arguments: "-SafeMode"
+      config:
+        oslist: windows
+      description: Funnel Runners (Safe Mode)
+      executable: FunnelRunners.exe
+      type: option2
 3713650:
   installDir: Teenage Mutant Ninja Turtles Empire City
   launch:
@@ -654597,6 +654632,26 @@
 4414560: {}
 4418080: {}
 4421010:
+  cloud:
+    saves:
+      - path: Library/Application Support/Rike Games/Bills Must Be Paid/FullGame
+        pattern: save.json
+        platforms:
+          - MacOS
+        root: MacHome
+      - path: Rike Games/Bills Must Be Paid/FullGame
+        pattern: save.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Bills Must Be Paid
+  launch:
+    - config:
+        oslist: windows
+      executable: BillsMustBePaid/Bills Must Be Paid.exe
+    - config:
+        oslist: macos
+      executable: BillsMustBePaid.app
   nameLocalized:
     schinese: 账单必须支付 Bills Must Be Paid
 4431400:

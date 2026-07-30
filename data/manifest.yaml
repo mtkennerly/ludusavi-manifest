@@ -82452,9 +82452,29 @@ Billionaire:
 Bills Must Be Paid:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Rike Games/Bills Must Be Paid/FullGame/save.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Rike Games/Bills Must Be Paid/FullGame/save.json":
+      when:
+        - os: mac
+          store: steam
   id:
     steamExtra:
       - 4577620
+  installDir:
+    Bills Must Be Paid: {}
+  launch:
+    "<base>/BillsMustBePaid.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/BillsMustBePaid/Bills Must Be Paid.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4421010
 Billy:
@@ -169039,6 +169059,17 @@ DC Universe Online:
   steam:
     id: 1944850
 DCL - The Game:
+  files:
+    "<winLocalAppData>/DCGame":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/DCGame/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     DCL - The Game: {}
   launch:
@@ -286969,6 +287000,24 @@ Funky Karts:
             store: steam
   steam:
     id: 872690
+Funnel runners:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/StormEscape/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/StormEscape/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Funnel Runners: {}
+  steam:
+    id: 3712080
 Funny Archery:
   installDir:
     FunnyArchery: {}
@@ -322529,7 +322578,7 @@ Halo Online:
     id: 459220
 "Halo: Campaign Evolved":
   files:
-    "<winLocalAppData>/Meteorite":
+    "<winLocalAppData>/Meteorite/Saved/Config":
       tags:
         - config
       when:
@@ -369583,11 +369632,20 @@ Invicta Beam:
     epic: true
     steam: true
   files:
+    "<winLocalAppData>/AtomEve/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/AtomEve/Saved/SaveGames":
       tags:
         - save
       when:
         - os: windows
+  id:
+    lutris: invincible-presents-atom-eve
+    steamExtra:
+      - 2857080
   installDir:
     AtomEve: {}
   launch:
@@ -792849,8 +792907,22 @@ Truck the System:
 Truck-Kun is Supporting Me from Another World?!:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Strange Scaffold/Truck-kun/**/*.sv4":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: truck-kun-is-supporting-me-from-another-world
+    steamExtra:
+      - 4756540
+  installDir:
+    Truck-kun is Supporting Me from Another World: {}
+  launch:
+    "<base>/Truck-kun.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3642010
 Trucker:
