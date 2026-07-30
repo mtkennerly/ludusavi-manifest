@@ -647242,7 +647242,9 @@
       type: default
     - executable: TennisAntics_Manual.pdf
       type: manual
-3486530: {}
+3486530:
+  nameLocalized:
+    japanese: ステューピッド・ネバー・ダイズ（Stupid Never Dies）
 3487390:
   cloud:
     saves:
@@ -653099,6 +653101,7 @@
     koreana: 서큐블레스 Succubless
     schinese: 魅魔赐福 Succubless
     tchinese: 魅魔賜福 Succubless
+4038610: {}
 4039320: {}
 4041890:
   installDir: The Last Elixir
@@ -655096,4 +655099,5 @@
         oslist: windows
       executable: Neurohunter.exe
       type: default
+4932120: {}
 3221903386: {}

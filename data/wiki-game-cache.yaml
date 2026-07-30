@@ -92841,8 +92841,13 @@ FullBlast:
 Fumes:
   cloud:
     steam: true
+  lutris: fumes
   pageId: 203472
   steam: 1920430
+  steamSide:
+    - 2255190
+    - 3868400
+    - 3868660
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\AppData\\LocalLow}}\\FUMES team\\FUMES\\Saves\\*.settings|{{p|hkcu}}\\SOFTWARE\\FUMES team\\FUMES\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\FUMES team\\FUMES\\Saves\\*.save}}"
@@ -143906,12 +143911,14 @@ Meawja:
   pageId: 73046
   steam: 679910
 Meccha Chameleon:
+  cloud:
+    steam: true
   pageId: 218238
   renamedFrom:
     - MECCHA CHAMELEON
   steam: 4704690
   templates:
-    - "{{Game data/config|Windows|%LOCALAPPDATA%\\Chameleon\\Config\\Windows}}"
+    - "{{Game data/config|Windows|%LOCALAPPDATA%\\Chameleon\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|%LOCALAPPDATA%\\Chameleon\\SaveGames}}"
 Mech Academy:
   pageId: 191689
@@ -237606,6 +237613,9 @@ The Even More Incredible Machine:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\TIM.CFG|{{p|game}}\\*.TIM}}"
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
+The Eventide:
+  pageId: 218924
+  steam: 4038610
 The Evil Party:
   pageId: 79232
   steam: 773230
@@ -249442,6 +249452,9 @@ Thimbleweed Park:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Terrible Toybox\\Thimbleweed Park\\}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Terrible Toybox/Thimbleweed Park/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Terrible Toybox/Thimbleweed Park/}}"
+Thimbleweed Park 2:
+  pageId: 218922
+  steam: 4932120
 Thin Judgment:
   pageId: 64783
   steam: 661460

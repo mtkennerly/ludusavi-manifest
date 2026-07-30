@@ -286636,6 +286636,12 @@ Fumes:
         - config
       when:
         - os: windows
+  id:
+    lutris: fumes
+    steamExtra:
+      - 2255190
+      - 3868400
+      - 3868660
   installDir:
     FUMES: {}
   launch:
@@ -443305,15 +443311,17 @@ Meawja:
   steam:
     id: 679910
 Meccha Chameleon:
+  cloud:
+    steam: true
   files:
-    "<winLocalAppData>/Chameleon/Config/Windows":
-      tags:
-        - config
-      when:
-        - os: windows
     "<winLocalAppData>/Chameleon/SaveGames":
       tags:
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Chameleon/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
   installDir:
@@ -731221,6 +731229,9 @@ The Even More Incredible Machine:
   id:
     gogExtra:
       - 1207658799
+The Eventide:
+  steam:
+    id: 4038610
 The Evil Party:
   installDir:
     The Evil Party: {}
@@ -766678,6 +766689,9 @@ Thimbleweed Park:
             store: steam
   steam:
     id: 569860
+Thimbleweed Park 2:
+  steam:
+    id: 4932120
 Thin Judgment:
   installDir:
     Thin Judgment: {}
