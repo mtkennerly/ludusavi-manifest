@@ -622315,8 +622315,11 @@
 2461280:
   cloud:
     saves:
-      - path: /Rockbee/Lessaria RTS/Saves/
+      - path: Rockbee/Lessaria/Saves/
         pattern: "*.txt"
+        root: WinAppDataLocalLow
+      - path: Rockbee/Lessaria/
+        pattern: progress.sav
         root: WinAppDataLocalLow
   installDir: Lessaria
   launch:
@@ -644031,6 +644034,24 @@
       executable: cleaninggame.exe
       type: default
 3282300:
+  installDir: Mistfall Hunter
+  launch:
+    - arguments: "-steam"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: MistfallHunter.exe
+    - config:
+        betakey: "gsdk_demo,gsdk_demo_us"
+        oslist: windows
+      description: Launch GSDK Demo
+      executable: GSDKCnDemo.exe
+      type: default
+    - config:
+        betakey: "gsdk_demo,gsdk_demo_us"
+      description: Launch GSDK Demo
+      executable: lib/windows/x64/gsdkdemo.exe
+      type: default
   nameLocalized:
     schinese: 雾影猎人
     tchinese: 霧影獵人
@@ -651140,7 +651161,10 @@
   nameLocalized:
     schinese: 浣熊推币机
     tchinese: 浣熊推幣機
-3787240: {}
+3787240:
+  nameLocalized:
+    schinese: 《漫威斗魂》
+    tchinese: "《MARVEL Tōkon: Fighting Souls》"
 3788800:
   nameLocalized:
     koreana: 아토믹 하트 2
@@ -653473,6 +653497,16 @@
         oslist: windows
       executable: chakana.exe
 4108000:
+  installDir: party project
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Machine Party_Windows/Machine Party.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Machine Party_Linux/Machine Party.x86_64
   nameLocalized:
     schinese: 机械狂欢
     tchinese: " 機械狂歡"
@@ -654953,6 +654987,9 @@
         root: gameinstall
       - path: "DS/Saved/SaveGames/{Steam3AccountID}"
         pattern: "*.sav"
+        root: gameinstall
+      - path: "DS/Saved/SaveGames/{Steam3AccountID}"
+        pattern: "*.bak-journal"
         root: gameinstall
   installDir: DragonSword  Awakening
   launch:

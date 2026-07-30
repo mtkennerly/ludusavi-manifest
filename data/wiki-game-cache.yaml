@@ -7608,6 +7608,7 @@ Age of Empires:
     - 3080080
     - 3219700
     - 3793540
+    - 4376980
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Games\\Age of Empires 2 DE\\{{p|uid}}\\profile\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Games\\Age of Empires 2 DE\\{{p|uid}}\\savegame\\}}"
@@ -25746,6 +25747,7 @@ Besiege:
   steamSide:
     - 2165710
     - 2959970
+    - 3639470
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Besiege_Data\\Config.txt}}"
     - "{{Game data/config|OS X|{{p|game}}/Besiege.app/Contents/Config.txt}}"
@@ -47435,6 +47437,7 @@ Company of Heroes 3:
     - 3469800
     - 4095900
     - 4523380
+    - 4836540
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\configuration_system.lua|\n{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\users\\{{P|uid}}\\configuration_user.lua}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\users\\{{P|uid}}\\savegames\\}}"
@@ -68685,10 +68688,13 @@ DragonStrike:
   steam: 2350520
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\PREF.DAT}}"
-"DragonSword : Awakening":
+"DragonSword: Awakening":
   cloud:
     steam: true
+  lutris: dragonsword-awakening
   pageId: 217473
+  renamedFrom:
+    - "DragonSword : Awakening"
   steam: 4570720
   steamSide:
     - 4575730
@@ -75839,6 +75845,8 @@ Elysion:
   renamedFrom:
     - ELYSION
   steam: 1070110
+Elysium:
+  pageId: 218940
 Elysium VR:
   cloud:
     steam: true
@@ -132842,6 +132850,7 @@ Lessaria:
   steamSide:
     - 3976470
     - 4075280
+    - 4915900
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Rockbee\\Lessaria RTS\\Saves\\*.txt}}"
 Lessons learned:
@@ -149211,6 +149220,8 @@ Mistfall Hunter:
   lutris: mistfall-hunter
   pageId: 218828
   steam: 3282300
+  steamSide:
+    - 4572310
 Mistmare:
   pageId: 195204
   templates:
@@ -162841,6 +162852,7 @@ OTTTD:
     - "{{Game data/config|Windows|{{P|game}}\\ExtraSettings.dat}}"
 OTXO:
   cloud:
+    gog: true
     steam: true
   gog: 1497384733
   gogSide:
@@ -261979,6 +261991,7 @@ UnderMine:
   cloud:
     steam: true
     xbox: true
+  gog: 1171949848
   pageId: 135803
   steam: 656350
   templates:

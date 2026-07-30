@@ -23955,6 +23955,7 @@ Age of Empires II (2013):
       - 3080080
       - 3219700
       - 3793540
+      - 4376980
   installDir:
     AoE2DE: {}
   launch:
@@ -79198,6 +79199,7 @@ Besiege:
     steamExtra:
       - 2165710
       - 2959970
+      - 3639470
   installDir:
     Besiege: {}
   launch:
@@ -147488,6 +147490,7 @@ Company of Heroes 3:
       - 3469800
       - 4095900
       - 4523380
+      - 4836540
   installDir:
     Company of Heroes 3: {}
   launch:
@@ -212559,6 +212562,8 @@ DragonStrike:
   steam:
     id: 2350520
 "DragonSword : Awakening":
+  alias: "DragonSword: Awakening"
+"DragonSword: Awakening":
   cloud:
     steam: true
   files:
@@ -212574,6 +212579,7 @@ DragonStrike:
       when:
         - os: windows
   id:
+    lutris: dragonsword-awakening
     steamExtra:
       - 4575730
   installDir:
@@ -408829,6 +408835,7 @@ Lessaria:
     steamExtra:
       - 3976470
       - 4075280
+      - 4915900
   installDir:
     Lessaria: {}
   launch:
@@ -429465,6 +429472,19 @@ Machine Hunt:
 Machine Party:
   id:
     lutris: machine-party
+  installDir:
+    party project: {}
+  launch:
+    "<base>/Machine Party_Linux/Machine Party.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Machine Party_Windows/Machine Party.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4108000
 Machine World 2:
@@ -459110,6 +459130,17 @@ Mistfal:
 Mistfall Hunter:
   id:
     lutris: mistfall-hunter
+    steamExtra:
+      - 4572310
+  installDir:
+    Mistfall Hunter: {}
+  launch:
+    "<base>/MistfallHunter.exe":
+      - arguments: "-steam"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3282300
 Mistmare:
@@ -500083,6 +500114,7 @@ OTTTD:
     id: 312630
 OTXO:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/OTXO_Release/Save*":
@@ -802735,6 +802767,8 @@ UnderMine:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1171949848
   installDir:
     UnderMine: {}
   launch:

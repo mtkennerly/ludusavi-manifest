@@ -8544,6 +8544,7 @@
 * [Elvira II: The Jaws of Cerberus](https://www.pcgamingwiki.com/wiki/?curid=147031)
 * [Elvira: Mistress of the Dark](https://www.pcgamingwiki.com/wiki/?curid=147029)
 * [Elysion](https://www.pcgamingwiki.com/wiki/?curid=150142)
+* [Elysium](https://www.pcgamingwiki.com/wiki/?curid=218940)
 * [Elysium VR](https://www.pcgamingwiki.com/wiki/?curid=98272)
 * [Elysium: Blood Games](https://www.pcgamingwiki.com/wiki/?curid=45085)
 * [Em-8ER](https://www.pcgamingwiki.com/wiki/?curid=202206)
