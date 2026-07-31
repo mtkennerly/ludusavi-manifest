@@ -184300,6 +184300,8 @@ Rad:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Rad\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Rad\\Saved\\SaveGames}}"
+Rad Warrior:
+  pageId: 218965
 Radar Chaos:
   pageId: 168435
 "Radar Chaos: Hawaii Edition":
@@ -208558,6 +208560,8 @@ Sky Rogue:
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Fractal Phase/Sky Rogue/}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\|{{p|userprofile\\appdata\\locallow}}\\Fractal Phase\\Sky Rogue\\Save\\}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Fractal Phase/Sky Rogue/Save/}}"
+Sky Runner:
+  pageId: 218967
 Sky Sanctuary:
   pageId: 55614
   steam: 526130

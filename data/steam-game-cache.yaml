@@ -542667,6 +542667,12 @@
       description: Gothic 1 Remake (Shipping)
       executable: G1R-Win64-Shipping.exe
       type: default
+    - arguments: "-ModManagementUI"
+      config:
+        betakey: magicbarrier
+      description: Launch G1R.exe + Mod Management
+      executable: G1R.exe
+      type: option1
 1298080:
   installDir: Almost My Floor Test
   launch:
