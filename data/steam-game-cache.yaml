@@ -551772,6 +551772,14 @@
         oslist: windows
       executable: steam_launcher.exe
       type: default
+1382890:
+  installDir: Mystic Midway - Rest in Pieces
+  launch:
+    - arguments: "-conf \"RIP.conf\" -noconsole"
+      config:
+        oslist: windows
+      executable: DOSBox.exe
+      type: default
 1383010:
   installDir: BalconingSimulator2020
   launch:
@@ -648636,7 +648644,15 @@
       type: default
   nameLocalized:
     japanese: 幻想少女大戦 - DREAM OF THE STRAY DREAMER -
-3576070: {}
+3576070:
+  installDir: SAZ
+  launch:
+    - arguments: "--AppID=3576070"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: SAZLauncher.exe
+      type: default
 3576590:
   installDir: S3
   launch:
@@ -651502,6 +651518,41 @@
       executable: zp.sh
       type: default
 3825390:
+  cloud:
+    saves:
+      - path: KoeiTecmo/BLUE REFLECTION Quartet/BLUE REFLECTION
+        pattern: "*.pcsave"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: KoeiTecmo/BLUE REFLECTION Quartet/RAY
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: KoeiTecmo/BLUE REFLECTION Quartet/SUN
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: KoeiTecmo/BLUE REFLECTION Quartet/Second Light
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: KoeiTecmo/BLUE REFLECTION Quartet/SystemData
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: BLUE REFLECTION Quartet
+  launch:
+    - executable: BLUE REFLECTION Quartet.exe
   nameLocalized:
     japanese: "BLUE REFLECTION Quartet: 少女たちのキセキ"
     schinese: "BLUE REFLECTION Quartet: 少女们的奇迹"
@@ -654858,6 +654909,7 @@
     japanese: みんなでポイっと！プリニーすごろく
     koreana: 다 함께 즐기자! 프리니 보드 배틀
     tchinese: 全民丟丟樂！普利尼雙六大冒險
+4509630: {}
 4514070: {}
 4514310: {}
 4516190: {}
@@ -655119,6 +655171,7 @@
 4824610:
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"
+4832970: {}
 4834760: {}
 4834780: {}
 4834810: {}

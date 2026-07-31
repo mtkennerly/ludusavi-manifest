@@ -94279,6 +94279,18 @@ Blue Reflection:
 Blue Reflection Quartet:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/KoeiTecmo/BLUE REFLECTION Quartet":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    BLUE REFLECTION Quartet: {}
+  launch:
+    "<base>/BLUE REFLECTION Quartet.exe":
+      - when:
+          - store: steam
   steam:
     id: 3825390
 "Blue Reflection: Second Light":
@@ -477107,6 +477119,17 @@ Mystic Melee:
             store: steam
   steam:
     id: 454770
+"Mystic Midway: Rest in Pieces":
+  installDir:
+    Mystic Midway - Rest in Pieces: {}
+  launch:
+    "<base>/DOSBox.exe":
+      - arguments: "-conf \"RIP.conf\" -noconsole"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1382890
 Mystic Miracles:
   installDir:
     Mystic Miracles - Strategy card board game: {}
@@ -687706,6 +687729,15 @@ Suchawira World Traveler:
   steam:
     id: 1574270
 Sudden Attack Zero Point:
+  installDir:
+    SAZ: {}
+  launch:
+    "<base>/SAZLauncher.exe":
+      - arguments: "--AppID=3576070"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3576070
 Sudden Strike:
@@ -731263,6 +731295,12 @@ The Eternal Cylinder:
 The Eternal Life of Goldman:
   steam:
     id: 2254950
+The Eternal Woods:
+  id:
+    steamExtra:
+      - 4669500
+  steam:
+    id: 4509630
 The Even More Incredible Machine:
   files:
     "<base>/*.TIM":
@@ -835161,6 +835199,9 @@ What if George Washington was a Girl?:
             store: steam
   steam:
     id: 2098470
+What the Buck?!:
+  steam:
+    id: 4832970
 What the Car?:
   cloud:
     steam: true

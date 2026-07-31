@@ -30597,6 +30597,8 @@ Blue Reflection Quartet:
     steam: true
   pageId: 217741
   steam: 3825390
+  templates:
+    - "{{Game data/config|Windows|{{P||localappdata}}\\KoeiTecmo\\BLUE REFLECTION Quartet}}"
 "Blue Reflection: Second Light":
   cloud:
     steam: true
@@ -155135,6 +155137,9 @@ Mystic Mayhem Unleashed:
 Mystic Melee:
   pageId: 58037
   steam: 454770
+"Mystic Midway: Rest in Pieces":
+  pageId: 218953
+  steam: 1382890
 Mystic Miracles:
   pageId: 69852
   steam: 704060
@@ -237635,6 +237640,11 @@ The Eternal Cylinder:
 The Eternal Life of Goldman:
   pageId: 202873
   steam: 2254950
+The Eternal Woods:
+  pageId: 218956
+  steam: 4509630
+  steamSide:
+    - 4669500
 The Even More Incredible Machine:
   gog: 1207664023
   gogSide:
@@ -272970,6 +272980,9 @@ What if George Washington was a Girl?:
   steam: 2098470
   templates:
     - "{{Game data/saves|Windows|{{p|Appdata}}\\LocalLow\\echomune\\Alter Historia - What if George Washington was a Girl_\\}}"
+What the Buck?!:
+  pageId: 218958
+  steam: 4832970
 What the Car?:
   cloud:
     steam: true
