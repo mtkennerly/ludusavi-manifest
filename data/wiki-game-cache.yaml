@@ -24262,6 +24262,9 @@ Beanotown Racing:
 "Beans: The Coffee Shop Simulator":
   pageId: 62485
   steam: 549240
+Bear Bovver:
+  pageId: 218951
+  steam: 2094200
 Bear Football:
   pageId: 66941
   steam: 674570
@@ -51427,6 +51430,12 @@ Croc 2:
   templates:
     - "{{Game data/config|Windows|{{p|game}}|{{p|hklm}}\\SOFTWARE\\Argonaut Software\\Croc2\\1.00}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
+"Croc 2: Kingdom of the Gobbos":
+  cloud:
+    steam: true
+  gog: 1402283956
+  pageId: 218948
+  steam: 4198360
 "Croc's World 3":
   pageId: 177574
 "Croc's World Construction Kit":
@@ -92986,13 +92995,15 @@ Funky Karts:
   steam: 872690
 Funky Smugglers:
   pageId: 8037
-Funnel runners:
+Funnel Runners:
   cloud:
     steam: true
   pageId: 218916
+  renamedFrom:
+    - Funnel runners
   steam: 3712080
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\StormEscape\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\StormEscape\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\StormEscape\\Saved\\SaveGames\\*.sav}}"
 Funny Archery:
   pageId: 149182
@@ -102434,6 +102445,7 @@ Guild Wars:
     - 29700
     - 29710
     - 4103450
+    - 4103460
 Guild Wars 2:
   lutris: guild-wars-2
   pageId: 1681
@@ -135214,6 +135226,7 @@ Live checkpoint:
   pageId: 155983
   steam: 1211800
 Live for Speed:
+  lutris: live-for-speed
   pageId: 87817
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\cfg.txt|{{P|game}}\\interface_cfg.txt}}"

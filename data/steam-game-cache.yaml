@@ -7643,7 +7643,7 @@
   launch:
     - executable: Gw.exe
     - config:
-        betakey: "preview,partners"
+        betakey: partners
       description: Preview Build
       executable: GwStage.exe
       type: option1
@@ -604215,6 +604215,11 @@
         oslist: macos
       executable: Table Ball.app
       type: default
+2094200:
+  installDir: Bear Bovver
+  launch:
+    - executable: game.exe
+      type: none
 2094380:
   installDir: Chai
   launch:
@@ -653920,6 +653925,7 @@
 4198090:
   nameLocalized:
     schinese: 獾獾闯天关
+4198360: {}
 4199910:
   nameLocalized:
     japanese: "トータルウォー：ウォーハンマー40,000"

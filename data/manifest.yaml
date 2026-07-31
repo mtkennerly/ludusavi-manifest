@@ -74948,6 +74948,15 @@ Beanotown Racing:
             store: steam
   steam:
     id: 549240
+Bear Bovver:
+  installDir:
+    Bear Bovver: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2094200
 Bear Football:
   installDir:
     Bear Football: {}
@@ -159699,6 +159708,13 @@ Croc 2:
     HKEY_LOCAL_MACHINE/SOFTWARE/Argonaut Software/Croc2/1.00:
       tags:
         - config
+"Croc 2: Kingdom of the Gobbos":
+  cloud:
+    steam: true
+  gog:
+    id: 1402283956
+  steam:
+    id: 4198360
 "Croc's World Construction Kit":
   installDir:
     "Croc's World Construction Kit": {}
@@ -287015,11 +287031,11 @@ Funky Karts:
             store: steam
   steam:
     id: 872690
-Funnel runners:
+Funnel Runners:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/StormEscape/Saved/Config/Windows/GameUserSettings.ini":
+    "<winLocalAppData>/StormEscape/Saved/Config/Windows":
       tags:
         - config
       when:
@@ -315949,6 +315965,7 @@ Guild Wars:
       - 29700
       - 29710
       - 4103450
+      - 4103460
   installDir:
     Guild Wars: {}
   launch:
@@ -416280,6 +416297,8 @@ Live for Speed:
         - config
       when:
         - os: windows
+  id:
+    lutris: live-for-speed
 Live the Guitar:
   installDir:
     Live the Guitar: {}
