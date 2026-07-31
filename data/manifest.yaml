@@ -14307,6 +14307,16 @@ AKAI NOROI:
 ALARA Prime:
   steam:
     id: 971700
+"ALFA: Antiterror":
+  installDir:
+    ALFA Antiterror: {}
+  launch:
+    "<base>/run.CMD":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4566780
 "ALIA's CARNIVAL！":
   alias: "Alia's Carnival!"
 ALIEN FIELD:
@@ -27704,6 +27714,27 @@ Airport Tycoon 3:
   steam:
     id: 317250
 Airship Asunder:
+  files:
+    "<winLocalAppData>/Airship_Asunder/*.ccm":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Airship_Asunder/*.cpd":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Airship_Asunder/aa_options.cdd":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Airship_Asunder/aa_server.csd":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Airship Asunder: {}
   launch:
@@ -31249,6 +31280,11 @@ Alien Shooter TD:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/SigmaTeam/AlienShooterDefencePC:
+      tags:
+        - config
+        - save
   steam:
     id: 541230
 Alien Shooter in Space Cradle - Virtual Reality:
@@ -32282,6 +32318,22 @@ All Is Dust:
   steam:
     id: 373330
 All My Gods:
+  files:
+    "<winAppData>/Realore All My Gods/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Realore All My Gods/*.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Realore All My Gods/profile.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     All My Gods: {}
   launch:
@@ -152384,9 +152436,29 @@ Corruption of Champions II:
     id: 1292690
 Corsair Cove:
   cloud:
+    epic: true
     steam: true
+  files:
+    "<winLocalAppData>/CorsairCove/Saved/SaveGames/SteamMain_<storeUserId>/*.ccgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/CorsairCove/Saved/SaveGames/SteamMain_<storeUserId>/*.ccprof":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: corsair-cove
+  installDir:
+    CorsairCove: {}
+  launch:
+    "<base>/CorsairCove.exe":
+      - when:
+          - store: steam
   steam:
     id: 1368140
 Corsairs Legacy:
@@ -384519,9 +384591,11 @@ Kardboard Kings:
     gog: true
     steam: true
   files:
-    "<home>/AppData/LocalLow/Henry's House/Kardboard Kings/*.game":
+    "<home>/AppData/LocalLow/Henry's House/Kardboard Kings":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
   gog:
     id: 1590022488
   id:
@@ -543637,6 +543711,31 @@ Pool 2D - Poolians:
             store: steam
   steam:
     id: 891040
+Pool Blitz:
+  files:
+    "<winLocalAppData>/Pool/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/PoolBlitz/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Pool Blitz: {}
+  launch:
+    "<base>/Pool.exe":
+      - arguments: "-CPGDir=PoolBlitz"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3942580
 Pool Cleaning Simulator:
   id:
     lutris: pool-cleaning-simulator
@@ -635289,6 +635388,17 @@ Silent Hunter 2:
   steam:
     id: 15200
 "Silent Hunter 5: Battle of the Atlantic":
+  files:
+    "<winDocuments>/SH5/data/cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/SH5/data/cfg/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Silent Hunter 5: {}
   launch:
@@ -753095,8 +753205,22 @@ The Relentless:
   steam:
     id: 695910
 "The Relic: First Guardian":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ProjectCloudGame/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   id:
     lutris: the-relic-first-guardian
+    steamExtra:
+      - 4891540
+  installDir:
+    The Relic The First Guardian: {}
+  launch:
+    "<base>/ProjectCloudGame.exe":
+      - when:
+          - store: steam
   steam:
     id: 2827820
 The Renegades of Orion 2.0:

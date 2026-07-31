@@ -550006,6 +550006,17 @@
     schinese: 狂想乐园
     tchinese: 狂想樂園
 1368140:
+  cloud:
+    saves:
+      - path: "CorsairCove/Saved/SaveGames/SteamMain_{64BitSteamID}/"
+        pattern: "*.ccprof"
+        root: WinAppDataLocal
+      - path: "CorsairCove/Saved/SaveGames/SteamMain_{64BitSteamID}/"
+        pattern: "*.ccgs"
+        root: WinAppDataLocal
+  installDir: CorsairCove
+  launch:
+    - executable: CorsairCove.exe
   nameLocalized:
     japanese: Corsair Cove コルセア・コーヴ
     koreana: Corsair Cove 커세어 코브
@@ -634601,7 +634612,15 @@
     english: Wild Assault
     schinese: 兽猎突袭
     tchinese: 兽猎突袭
-2827820: {}
+2827820:
+  cloud:
+    saves:
+      - path: "ProjectCloudGame\\Saved\\SaveGames"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: The Relic The First Guardian
+  launch:
+    - executable: ProjectCloudGame.exe
 2827960:
   installDir: House Builder 2
   launch:
@@ -652677,6 +652696,15 @@
   nameLocalized:
     english: EA SPORTS™ Madden NFL 27
     schinese: EA SPORTS™《Madden NFL 27》
+3942580:
+  installDir: Pool Blitz
+  launch:
+    - arguments: "-CPGDir=PoolBlitz"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Pool.exe
+      type: default
 3946090: {}
 3947040: {}
 3948120:
@@ -655002,6 +655030,14 @@
       executable: BouncingBall.exe
       type: default
 4566700: {}
+4566780:
+  installDir: ALFA Antiterror
+  launch:
+    - config:
+        oslist: windows
+      executable: run.CMD
+  nameLocalized:
+    russian: "АЛЬФА: Антитеррор. Золотая коллекция"
 4566920:
   installDir: TheBlackwoodProject
   launch:

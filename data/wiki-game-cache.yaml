@@ -4459,6 +4459,9 @@ AKAI NOROI:
 ALARA Prime:
   pageId: 186080
   steam: 971700
+"ALFA: Antiterror":
+  pageId: 218969
+  steam: 4566780
 ALIEN FIELD:
   pageId: 124132
   steam: 926350
@@ -8798,6 +8801,9 @@ Airport Tycoon 3:
 Airship Asunder:
   pageId: 42185
   steam: 474730
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Airship_Asunder\\aa_options.cdd}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Airship_Asunder\\aa_server.csd|{{p|localappdata}}\\Airship_Asunder\\*.cpd|{{p|localappdata}}\\Airship_Asunder\\*.ccm}}"
 Airship Commander:
   pageId: 51322
   steam: 522960
@@ -9928,6 +9934,9 @@ Alien Shooter TD:
     steam: true
   pageId: 55760
   steam: 541230
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\SigmaTeam\\AlienShooterDefencePC}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\SigmaTeam\\AlienShooterDefencePC}}"
 Alien Shooter in Space Cradle - Virtual Reality:
   pageId: 140999
   steam: 1110870
@@ -10297,6 +10306,9 @@ All Is Dust:
 All My Gods:
   pageId: 46088
   steam: 404270
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Realore All My Gods\\profile.ini}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Realore All My Gods\\*.dat|{{p|appdata}}\\Realore All My Gods\\*.ini}}"
 All Of ZHEM:
   pageId: 124429
   steam: 988070
@@ -49037,10 +49049,14 @@ Corruption of Champions II:
   steam: 1292690
 Corsair Cove:
   cloud:
+    epic: true
     steam: true
+    xbox: true
   lutris: corsair-cove
   pageId: 215789
   steam: 1368140
+  templates:
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\CorsairCove\\Saved\\SaveGames\\SteamMain_{{p|uid}}\\*.ccprof|{{p|localappdata}}\\CorsairCove\\Saved\\SaveGames\\SteamMain_{{p|uid}}\\*.ccgs}}"
 Corsairs Legacy:
   cloud:
     steam: true
@@ -124780,6 +124796,8 @@ Kardboard Kings:
   steamSide:
     - 1334090
     - 1888790
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\AppData\\LocalLow}}\\Henry's House\\Kardboard Kings}}"
 Kards:
   pageId: 134916
   steam: 544810
@@ -142658,6 +142676,7 @@ Marvel Trading Card Game:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Marvel's Avengers\\{{p|uid}}\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\39C668CD.ProjectScotchBaseGame_r7bfsmp40f67j\\SystemAppData\\wgs}}"
 "Marvel's Guardians of the Galaxy":
+  state: outdated
   cloud:
     epic: true
     steam: true
@@ -177102,9 +177121,11 @@ Pool 2D - Poolians:
   pageId: 109296
   steam: 891040
 Pool Blitz:
-  cloud:
-    xbox: true
   pageId: 196016
+  steam: 3942580
+  templates:
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Pool\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/config|Steam|{{P|localappdata}}\\PoolBlitz\\Saved\\Config\\WindowsNoEditor}}"
 Pool Cleaning Simulator:
   lutris: pool-cleaning-simulator
   pageId: 209259
@@ -206829,6 +206850,9 @@ Silent Hunter:
 "Silent Hunter 5: Battle of the Atlantic":
   pageId: 41163
   steam: 48110
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\SH5\\data\\cfg}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SH5\\data\\cfg\\SaveGames}}"
 Silent Hunter II:
   gog: 1207658770
   malformed: true
@@ -244890,10 +244914,12 @@ The Relentless:
   steam: 695910
 "The Relic: First Guardian":
   cloud:
-    xbox: true
+    steam: true
   lutris: the-relic-first-guardian
   pageId: 208331
   steam: 2827820
+  steamSide:
+    - 4891540
 The Renegades of Orion 2.0:
   pageId: 44499
   steam: 434780
