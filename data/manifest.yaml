@@ -554477,6 +554477,13 @@ Prosperity:
             store: steam
   steam:
     id: 734980
+"Prospice: Anomalous Logistics":
+  cloud:
+    steam: true
+  id:
+    lutris: prospice
+  steam:
+    id: 4067370
 Protagon:
   installDir:
     Protagon: {}
@@ -712940,6 +712947,21 @@ Tears of Avia:
             store: steam
   steam:
     id: 461510
+Tears of Metal:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Paper Cult/Tears of Metal/SaveData_ToM.txt":
+      when:
+        - store: steam
+  installDir:
+    Tears of Metal: {}
+  launch:
+    "<base>/ToM.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1913120
 Tears of a Dragon:
   installDir:
     Tears of a Dragon: {}
@@ -752797,6 +752819,10 @@ The Raven Remastered:
         - os: linux
   gog:
     id: 1749614448
+  id:
+    gogExtra:
+      - 1363828758
+    lutris: the-raven-remastered
   installDir:
     The Raven Remastered: {}
   launch:
@@ -837113,6 +837139,11 @@ Whispers of a Machine:
 "Whispers: Last Hope":
   steam:
     id: 581700
+White Creek:
+  id:
+    lutris: white-creek
+  steam:
+    id: 4856150
 "White Day 2: The Flower That Tells Lies":
   files:
     "<home>/AppData/Local/WD/Saved/SaveGames":
@@ -849525,6 +849556,32 @@ Wuppo:
             store: steam
   steam:
     id: 400630
+Wurdweb:
+  files:
+    "<home>/.config/unity3d/adriaandejongh/wurdweb/*.*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/adriaandejongh/wurdweb/**/*.*":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/adriaandejongh/wurdweb/*.*":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    wurdweb: {}
+  launch:
+    "<base>/wurdweb.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/wurdweb.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2185880
 Wurm Unlimited:
   files:
     "<base>/LaunchConfig.ini":

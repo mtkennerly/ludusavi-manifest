@@ -592920,6 +592920,16 @@
     japanese: テラ メモリア
     schinese: 泰拉往事 Terra Memoria
     tchinese: 泰拉往事
+1913120:
+  cloud:
+    saves:
+      - path: Paper Cult/Tears of Metal/
+        pattern: SaveData_ToM.txt
+        root: WinAppDataLocalLow
+  installDir: Tears of Metal
+  launch:
+    - executable: ToM.exe
+      type: default
 1913160:
   installDir: COPS 2170
   launch:
@@ -609423,6 +609433,36 @@
     schinese: 双点博物馆
     tchinese: 雙點博物館
     thai: Two Point Museum ‐ทูพ็อยนต์มิวเซียม‐
+2185880:
+  cloud:
+    saves:
+      - path: adriaandejongh/wurdweb
+        pattern: "*.*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: adriaandejongh/wurdweb
+            replace: adriaandejongh/wurdweb
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: adriaandejongh/wurdweb
+            replace: ".config/unity3d/adriaandejongh/wurdweb"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: wurdweb
+  launch:
+    - config:
+        oslist: windows
+      executable: wurdweb.exe
+    - config:
+        oslist: macos
+      executable: wurdweb.app
 2186240:
   cloud:
     saves:
@@ -653461,6 +653501,7 @@
   installDir: M.O.L.E
   launch:
     - executable: Windows/MOLE.exe
+4067370: {}
 4069520:
   installDir: Super Battle Golf
   launch:
@@ -655240,6 +655281,7 @@
 4834840: {}
 4834850: {}
 4849120: {}
+4856150: {}
 4863030: {}
 4886450:
   nameLocalized:

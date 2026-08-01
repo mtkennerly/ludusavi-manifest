@@ -104917,6 +104917,8 @@ Hand of Fate 2:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Defiant Development\\Hand of Fate 2\\player_data.profile}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Defiant Development/Hand of Fate 2/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Defiant Development/Hand of Fate 2/}}"
+"Hand of Fate: Hordes":
+  pageId: 219003
 Hand of Horzasha:
   pageId: 127563
   steam: 1002690
@@ -180576,6 +180578,12 @@ Prospekt:
 Prosperity:
   pageId: 94316
   steam: 734980
+"Prospice: Anomalous Logistics":
+  cloud:
+    steam: true
+  lutris: prospice
+  pageId: 219009
+  steam: 4067370
 Protagon:
   pageId: 68812
   steam: 698100
@@ -231731,7 +231739,11 @@ Tears of Avia:
   pageId: 130722
   steam: 461510
 Tears of Metal:
+  cloud:
+    steam: true
+    xbox: true
   pageId: 218895
+  steam: 1913120
 Tears of a Dragon:
   pageId: 59518
   steam: 577760
@@ -244786,7 +244798,8 @@ The Raven Remastered:
     steam: true
   gog: 1749614448
   gogSide:
-    - 1749614448
+    - 1363828758
+  lutris: the-raven-remastered
   pageId: 89843
   steam: 736810
   templates:
@@ -273598,6 +273611,10 @@ Whispers of a Machine:
 "Whispers: Last Hope":
   pageId: 60695
   steam: 581700
+White Creek:
+  lutris: white-creek
+  pageId: 219007
+  steam: 4856150
 "White Day 2: The Flower That Tells Lies":
   pageId: 185261
   steam: 2078040
@@ -277691,6 +277708,7 @@ Wuppo:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Wuppo\\savedata\\{{code|*}}.ini|{{p|localappdata}}\\Wuppo\\savedata\\{{code|<saveslot>}}\\}}"
 Wurdweb:
   pageId: 169995
+  steam: 2185880
 Wurm Unlimited:
   lutris: wurm-unlimited
   pageId: 29024
