@@ -67075,21 +67075,39 @@ BallisticNG:
     gog: true
     steam: true
   files:
-    "<base>/User/Configs/Controller":
+    "<base>/User/Config/Controller":
       tags:
         - config
       when:
         - os: windows
-    "<base>/User/Configs/ini":
+        - os: linux
+    "<base>/User/Config/ini":
       tags:
         - config
       when:
         - os: windows
+        - os: linux
     "<base>/User/Save":
       tags:
         - save
       when:
         - os: windows
+        - os: linux
+    "<base>/game/User/Config/Controller":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<base>/game/User/Config/ini":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<base>/game/User/Save":
+      tags:
+        - save
+      when:
+        - os: linux
   gog:
     id: 1544161518
   id:

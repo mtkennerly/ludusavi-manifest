@@ -21555,8 +21555,10 @@ BallisticNG:
     - 1165070
     - 1596120
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\User\\Configs\\Controller\\|{{P|game}}\\User\\Configs\\ini\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\User\\Config\\Controller\\|{{P|game}}\\User\\Config\\ini\\}}"
+    - "{{Game data/config|Linux|{{P|game}}/User/Config/Controller/|{{P|game}}/User/Config/ini/|{{P|game}}/game/User/Config/Controller/|{{P|game}}/game/User/Config/ini/}}"
     - "{{Game data/saves|Windows|{{p|game}}\\User\\Save\\}}"
+    - "{{Game data/saves|Linux|{{p|game}}/User/Save/|{{p|game}}/game/User/Save/}}"
 Ballistick:
   pageId: 39290
   steam: 518620
