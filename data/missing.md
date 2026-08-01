@@ -1138,7 +1138,6 @@
 * [All World Pro Wrestling](https://www.pcgamingwiki.com/wiki/?curid=152781)
 * [All You Can Feed: Sushi Bar](https://www.pcgamingwiki.com/wiki/?curid=91981)
 * [All You Can Shoot](https://www.pcgamingwiki.com/wiki/?curid=128058)
-* [All Zombies Must Die!](https://www.pcgamingwiki.com/wiki/?curid=1707)
 * [All-Star Fielding Challenge VR](https://www.pcgamingwiki.com/wiki/?curid=60726)
 * [Allegiance](https://www.pcgamingwiki.com/wiki/?curid=36475)
 * [Allergenium](https://www.pcgamingwiki.com/wiki/?curid=109132)

@@ -10383,6 +10383,9 @@ All Zombies Must Die!:
     steam: true
   pageId: 1707
   steam: 204140
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\Bzb2Game\\Config\\*.ini}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\Bzb2Game\\Config\\*.ini}}"
 "All Zombies Must Die!: Scorepocalypse":
   cloud:
     steam: true
@@ -30611,7 +30614,8 @@ Blue Reflection Quartet:
   pageId: 217741
   steam: 3825390
   templates:
-    - "{{Game data/config|Windows|{{P||localappdata}}\\KoeiTecmo\\BLUE REFLECTION Quartet}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\KoeiTecmo\\BLUE REFLECTION Quartet}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\KoeiTecmo\\BLUE REFLECTION Quartet}}"
 "Blue Reflection: Second Light":
   cloud:
     steam: true
@@ -276820,10 +276824,13 @@ World of Goo 2:
     - 660060
     - 674290
     - 674300
+    - 709210
+    - 724020
     - 850440
     - 917250
     - 917260
     - 969070
+    - 1083250
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Noble Empire\\World of Guns\\}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Noble Empire/World of Guns/}}"
