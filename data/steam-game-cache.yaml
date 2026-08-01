@@ -21785,6 +21785,11 @@
       executable: x64/grim dawn.exe
       type: default
     - config:
+        osarch: "64"
+        oslist: windows
+      description: Play Grim Dawn (x64) - Compatibility Mode (SteamOS/Linux)
+      executable: compat/grim dawn.exe
+    - config:
         oslist: windows
       description: Play Grim Dawn (x86) - Legacy
       executable: grim dawn.exe
@@ -607220,17 +607225,30 @@
     saves:
       - path: FieldsOfMistria/saves
         pattern: "*"
-        platforms:
-          - Windows
         recursive: true
         root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxXdgDataHome
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
   installDir: Fields of Mistria
   launch:
     - config:
-        betakey: private
         osarch: "64"
         oslist: windows
       executable: FieldsOfMistria.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: FieldsOfMistria
       type: default
 2143340:
   installDir: Dark Nights
@@ -644096,6 +644114,7 @@
 3283240:
   nameLocalized:
     schinese: "升降梯外: 超自然修理工模拟器"
+3284200: {}
 3285420:
   cloud:
     saves:

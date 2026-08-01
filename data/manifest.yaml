@@ -36906,6 +36906,8 @@ Among the Sleep:
         - os: linux
   gog:
     id: 1207664603
+  id:
+    lutris: among-the-sleep
   installDir:
     Among the Sleep: {}
   launch:
@@ -262110,6 +262112,8 @@ Fates of Ort:
 Father:
   id:
     lutris: father--2
+    steamExtra:
+      - 4033200
   steam:
     id: 2588830
 Father Xmas:
@@ -264903,18 +264907,29 @@ Fields of Mistria:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/FieldsOfMistria":
-      tags:
-        - config
-      when:
-        - os: windows
     "<winLocalAppData>/FieldsOfMistria/saves":
       tags:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/FieldsOfMistria/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Fields of Mistria: {}
+  launch:
+    "<base>/FieldsOfMistria":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/FieldsOfMistria.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2142790
 Fiend:
@@ -313373,6 +313388,11 @@ Grim Dawn:
   installDir:
     Grim Dawn: {}
   launch:
+    "<base>/compat/grim dawn.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
     "<base>/grim dawn.exe":
       - when:
           - os: windows
@@ -471969,6 +471989,13 @@ Muri:
             store: steam
   steam:
     id: 267360
+"Muri: Wildwoods":
+  id:
+    lutris: muri-wildwoods
+    steamExtra:
+      - 4159740
+  steam:
+    id: 3284200
 Murica:
   steam:
     id: 779000
@@ -647060,6 +647087,8 @@ Sniper Elite VR:
         - config
       when:
         - os: windows
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Sniper Elite Resistance/PC_ProfileSaves":
       tags:
         - save
@@ -772890,6 +772919,8 @@ Tiny Bunny:
   steam:
     id: 1421250
 Tiny Chills - Not From Ear:
+  id:
+    lutris: tiny-chills-not-from-ear
   steam:
     id: 3878740
 Tiny Combat Arena:

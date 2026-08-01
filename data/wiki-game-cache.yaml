@@ -11863,6 +11863,7 @@ Among the Sleep:
     gog: true
     steam: true
   gog: 1207664603
+  lutris: among-the-sleep
   pageId: 17591
   steam: 250620
   templates:
@@ -85061,6 +85062,8 @@ Father:
   lutris: father--2
   pageId: 211030
   steam: 2588830
+  steamSide:
+    - 4033200
 Father Xmas:
   pageId: 145506
   steam: 1127640
@@ -85922,8 +85925,8 @@ Fields of Mistria:
   pageId: 196983
   steam: 2142790
   templates:
-    - "{{Game data/config|Windows|%USERPROFILE%/AppData/Local/FieldsOfMistria/}}"
-    - "{{Game data/saves|Windows|%USERPROFILE%/AppData/Local/FieldsOfMistria/saves}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\FieldsOfMistria\\settings.json}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\FieldsOfMistria\\saves\\}}"
 Fiend:
   lutris: fiend
   pageId: 101851
@@ -142676,7 +142679,6 @@ Marvel Trading Card Game:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Marvel's Avengers\\{{p|uid}}\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\39C668CD.ProjectScotchBaseGame_r7bfsmp40f67j\\SystemAppData\\wgs}}"
 "Marvel's Guardians of the Galaxy":
-  state: outdated
   cloud:
     epic: true
     steam: true
@@ -153513,6 +153515,12 @@ Muri:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\267360\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\murisave.sav}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\267360\\}}"
+"Muri: Wildwoods":
+  lutris: muri-wildwoods
+  pageId: 218982
+  steam: 3284200
+  steamSide:
+    - 4159740
 Murica:
   pageId: 128714
   renamedFrom:
@@ -210499,6 +210507,7 @@ Sniper Elite VR:
     - 3258690
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Sniper Elite Resistance\\}}"
+    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Sniper Elite Resistance\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Sniper Elite Resistance\\PC_ProfileSaves\\}}"
 Sniper Fodder:
   pageId: 97940
@@ -251374,6 +251383,7 @@ Tiny Bunny:
     - 1600150
     - 3787220
 Tiny Chills - Not From Ear:
+  lutris: tiny-chills-not-from-ear
   pageId: 214744
   steam: 3878740
 Tiny Combat Arena:

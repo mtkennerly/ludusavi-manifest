@@ -17548,6 +17548,7 @@
 * [Murders in Space](https://www.pcgamingwiki.com/wiki/?curid=165146)
 * [Murderwave: Digital Slaughter](https://www.pcgamingwiki.com/wiki/?curid=141827)
 * [Murgles](https://www.pcgamingwiki.com/wiki/?curid=144975)
+* [Muri: Wildwoods](https://www.pcgamingwiki.com/wiki/?curid=218982)
 * [Murica](https://www.pcgamingwiki.com/wiki/?curid=128714)
 * [Murky Divers](https://www.pcgamingwiki.com/wiki/?curid=202851)
 * [Murnatan](https://www.pcgamingwiki.com/wiki/?curid=88648)
