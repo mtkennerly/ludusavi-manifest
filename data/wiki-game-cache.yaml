@@ -45020,6 +45020,8 @@ Cloud Gardens:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\noio\\Cloud Gardens|{{P|hkcu}}\\SOFTWARE\\noio\\Cloud Gardens}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\noio\\Cloud Gardens\\Save}}"
+Cloud Kingdoms:
+  pageId: 219055
 Cloud Knights:
   pageId: 32488
   steam: 360130
@@ -112487,6 +112489,8 @@ Horror Stories:
 Horror Ville Maze Escape:
   pageId: 138803
   steam: 1088800
+Horror Zombies from the Crypt:
+  pageId: 219057
 Horror in the Asylum:
   pageId: 44730
   steam: 428210
@@ -265945,6 +265949,11 @@ Venus Hostage:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\Venus Vacation PRISM - DEAD OR ALIVE Xtreme -\\Savedata\\}}"
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\KoeiTecmo\\Venus Vacation PRISM - DEAD OR ALIVE Xtreme -\\Savedata\\{{p|uid}}\\}}"
+Venus the Flytrap:
+  cloud:
+    steam: true
+  pageId: 219053
+  steam: 2337960
 "VenusBlood Frontier: International":
   cloud:
     gog: true
@@ -271750,8 +271759,12 @@ Waterloo:
 Waterpark Simulator:
   cloud:
     steam: true
+  lutris: waterpark-simulator--1
   pageId: 209161
   steam: 3293260
+  steamSide:
+    - 3730180
+    - 4811280
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\CayPlay\\WaterparkSimulator\\settings.json}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\CayPlay\\WaterparkSimulator\\slots}}"
@@ -277499,7 +277512,7 @@ Worms World Party Remastered:
   pageId: 26146
   steam: 270910
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Team17DigitalLTD\\WormsWorldParty|{{p|hkcu}}\\Software\\Team17SoftwareLTD\\BankEditor}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Team17DigitalLTD\\WormsWorldParty\\Options|{{p|hkcu}}\\Software\\Team17SoftwareLTD\\BankEditor}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\WG.WWP|{{p|game}}\\User\\SavedLevels|{{p|game}}\\User\\Schemes}}"
 Wormster Dash:
   pageId: 113276
@@ -277632,6 +277645,7 @@ Wreckfest:
   steam: 228380
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\wreckfest\\}}"
+    - "{{Game data/config|Windows|{{p|Steam}}\\userdata\\XXXXXXXX\\228380\\remote\\}}"
     - "{{Game data/config|Microsoft Store|{{p|userprofile\\AppData\\LocalLow}}\\THQNordic\\Wreckfest\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\wreckfest\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\NordicGames.631082A550AE7_46xc33nm0q0f8\\SystemAppData\\wgs}}"

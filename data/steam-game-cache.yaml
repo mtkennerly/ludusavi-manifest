@@ -616721,6 +616721,11 @@
         oslist: windows
       executable: afl2.exe
       type: default
+2337960:
+  installDir: Venus the Flytrap
+  launch:
+    - executable: game.exe
+      type: none
 2338140:
   cloud:
     saves:

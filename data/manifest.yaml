@@ -814421,6 +814421,17 @@ Venture Seas:
     Venus Vacation PRISM - DEAD OR ALIVE Xtreme -: {}
   steam:
     id: 3155730
+Venus the Flytrap:
+  cloud:
+    steam: true
+  installDir:
+    Venus the Flytrap: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2337960
 VenusBlood FRONTIER International:
   alias: "VenusBlood Frontier: International"
 "VenusBlood Frontier: International":
@@ -831346,6 +831357,11 @@ Waterpark Simulator:
         - save
       when:
         - os: windows
+  id:
+    lutris: waterpark-simulator--1
+    steamExtra:
+      - 3730180
+      - 4811280
   installDir:
     WaterPark Simulator: {}
   launch:
@@ -849028,7 +849044,7 @@ Worms World Party Remastered:
           - os: windows
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/Team17DigitalLTD/WormsWorldParty:
+    HKEY_CURRENT_USER/Software/Team17DigitalLTD/WormsWorldParty/Options:
       tags:
         - config
     HKEY_CURRENT_USER/Software/Team17SoftwareLTD/BankEditor:
@@ -849435,6 +849451,12 @@ Wreckfest:
       when:
         - os: windows
           store: microsoft
+    "<root>/userdata/XXXXXXXX/228380/remote":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
     "<winDocuments>/My Games/wreckfest":
       tags:
         - config
