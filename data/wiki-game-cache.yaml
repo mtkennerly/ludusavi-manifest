@@ -44481,6 +44481,12 @@ Click and Manage Tycoon:
 Click the Business:
   pageId: 121321
   steam: 959980
+Click the Button:
+  lutris: click-the-button
+  pageId: 219046
+  steam: 3946950
+  steamSide:
+    - 4805850
 Click to Continue:
   lutris: click-to-continue
   pageId: 216130
@@ -49780,6 +49786,7 @@ Cows VS Vikings:
   pageId: 122197
   steam: 854860
 Cozy Game Restoration:
+  lutris: cozy-game-restoration
   pageId: 216715
   steam: 3581230
 Cozy Grove:
@@ -55260,8 +55267,12 @@ Dance of Death:
   pageId: 45182
   steam: 430020
 "Dance of Death: Du Lac & Fey":
+  lutris: dance-of-death-du-lac-fey
   pageId: 128499
   steam: 976920
+  steamSide:
+    - 1060390
+    - 1060391
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Salix Games\\Dance of Death: Du Lac & Fey}}"
 DanceDanceRevolution Grand Prix:
@@ -72870,6 +72881,8 @@ Désiré:
 E-Ball:
   pageId: 153549
   steam: 766910
+E-Motion:
+  pageId: 219048
 E-Racer:
   cloud:
     steam: true
@@ -103157,6 +103170,12 @@ Guns and Robots:
     - 331890
     - 331891
     - 331892
+Guns of Eschaton:
+  cloud:
+    steam: true
+  lutris: guns-of-eschaton
+  pageId: 219044
+  steam: 3734220
 Guns of Icarus Alliance:
   pageId: 59508
   steam: 608800
@@ -146988,7 +147007,7 @@ Microsoft Flight Simulator X:
   pageId: 1375
   steam: 314160
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Microsoft\\Flight Simulator X\\FSX.cfg|{{p|appdata}}\\Microsoft\\FSX\\FSX.cfg}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\Microsoft\\Flight Simulator X\\FSX.cfg|{{p|appdata}}\\Microsoft\\FSX\\FSX.cfg|{{p|appdata}}\\Microsoft\\FSX\\Controls\\Standard.XML}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Flight Simulator X Files\\}}"
 Microsoft Flight Simulator for Windows 95:
   pageId: 152533
@@ -180205,6 +180224,12 @@ Project OutFox:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Save (in portable mode)}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save (in portable mode)}}"
+Project P.I.T.T.:
+  lutris: project-pitt
+  pageId: 219040
+  steam: 4026250
+  steamSide:
+    - 4636730
 Project Pastorate:
   cloud:
     gog: true
@@ -223296,6 +223321,8 @@ Struggling:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\ChasingRatsGames\\Struggling\\{{P|uid}}\\save-global.json|{{P|hkcu}}\\SOFTWARE\\ChasingRatsGames\\Struggling\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ChasingRatsGames\\Struggling\\{{P|uid}}\\save-slot-*.json}}"
+Stryx:
+  pageId: 219051
 Stuart Little 2:
   pageId: 207491
   templates:
@@ -231788,6 +231815,7 @@ Tears of Metal:
   cloud:
     steam: true
     xbox: true
+  lutris: tears-of-metal
   pageId: 218895
   steam: 1913120
 Tears of a Dragon:
@@ -240898,6 +240926,7 @@ The Language of Love:
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\RenPy\\lovelanguage-1539706983\\*|{{p|game}}\\game\\saves\\*}}"
 The Lantern of the Laughless Saint:
+  lutris: the-lantern-of-the-laughless-saint
   pageId: 215884
   steam: 3849000
 The Lar:

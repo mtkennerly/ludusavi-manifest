@@ -644207,6 +644207,13 @@
         oslist: windows
       executable: Horizonwalker.exe
       type: default
+    - config:
+        betakey: eac-test
+        osarch: "64"
+        oslist: windows
+      description: EAC Test
+      executable: EOSBootstrapper.exe
+      type: default
   nameLocalized:
     japanese: ホライゾン・ウォーカー(Horizon Walker)
     koreana: 호라이즌 워커(Horizon Walker)
@@ -651083,6 +651090,10 @@
       executable: RestAreaSimulator.exe
       type: default
 3734010: {}
+3734220:
+  nameLocalized:
+    japanese: ガンズ・オブ・エスカトン
+    schinese: 末世神枪
 3738910:
   cloud:
     saves:
@@ -653061,6 +653072,7 @@
       executable: Pool.exe
       type: default
 3946090: {}
+3946950: {}
 3947040: {}
 3948120:
   cloud:
@@ -653535,6 +653547,7 @@
       executable: Netoo.app
       type: default
 4022950: {}
+4026250: {}
 4026510: {}
 4026900: {}
 4031890:

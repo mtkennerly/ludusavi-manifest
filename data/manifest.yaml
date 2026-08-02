@@ -138303,6 +138303,13 @@ Click and Manage Tycoon:
 Click the Business:
   steam:
     id: 959980
+Click the Button:
+  id:
+    lutris: click-the-button
+    steamExtra:
+      - 4805850
+  steam:
+    id: 3946950
 Click to Continue:
   files:
     "<base>/PaperclipFactory/Saved/Config/Windows":
@@ -154902,6 +154909,8 @@ Cows VS Vikings:
   steam:
     id: 854860
 Cozy Game Restoration:
+  id:
+    lutris: cozy-game-restoration
   steam:
     id: 3581230
 Cozy Grove:
@@ -171483,6 +171492,11 @@ Dance of Death:
   steam:
     id: 430020
 "Dance of Death: Du Lac & Fey":
+  id:
+    lutris: dance-of-death-du-lac-fey
+    steamExtra:
+      - 1060390
+      - 1060391
   installDir:
     Dance_of_Death: {}
   launch:
@@ -318204,6 +318218,13 @@ Guns and Robots:
             store: steam
   steam:
     id: 293540
+Guns of Eschaton:
+  cloud:
+    steam: true
+  id:
+    lutris: guns-of-eschaton
+  steam:
+    id: 3734220
 Guns of Icarus Alliance:
   installDir:
     Guns of Icarus Online: {}
@@ -452410,6 +452431,11 @@ Microsoft Flight Simulator Version 5.1:
     lutris: microsoft-flight-simulator-v51/
 Microsoft Flight Simulator X:
   files:
+    "<winAppData>/Microsoft/FSX/Controls/Standard.XML":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winAppData>/Microsoft/FSX/FSX.cfg":
       tags:
         - config
@@ -553435,6 +553461,13 @@ Project OutFox:
       - 2205440
   steam:
     id: 1751820
+Project P.I.T.T.:
+  id:
+    lutris: project-pitt
+    steamExtra:
+      - 4636730
+  steam:
+    id: 4026250
 Project Pastorate:
   cloud:
     gog: true
@@ -713261,6 +713294,8 @@ Tears of Metal:
     "<home>/AppData/LocalLow/Paper Cult/Tears of Metal/SaveData_ToM.txt":
       when:
         - store: steam
+  id:
+    lutris: tears-of-metal
   installDir:
     Tears of Metal: {}
   launch:
@@ -741326,6 +741361,8 @@ The Language of Love:
   steam:
     id: 1027620
 The Lantern of the Laughless Saint:
+  id:
+    lutris: the-lantern-of-the-laughless-saint
   steam:
     id: 3849000
 The Lar:
