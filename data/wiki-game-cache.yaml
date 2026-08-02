@@ -20584,9 +20584,9 @@ Back to the Egg!:
     - 94520
     - 94530
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Episode <episode number>\\prefs.prop|{{p|userprofile\\Documents}}\\Telltale Games\\Back to the Future 104\\prefs.prop}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Episode *\\prefs.prop|{{p|userprofile\\Documents}}\\Telltale Games\\Back to the Future 104\\prefs.prop}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Telltale Games/BacktotheFuture*/prefs.prop}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Episode <episode number>\\*.save|{{p|userprofile\\Documents}}\\Telltale Games\\Back to the Future 104\\*.save}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Episode *\\*.save|{{p|userprofile\\Documents}}\\Telltale Games\\Back to the Future 104\\*.save}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Telltale Games/BacktotheFuture*/*.save}}"
 BackSlash:
   cloud:
@@ -27050,6 +27050,11 @@ Biomagnet:
 Biomass:
   pageId: 145304
   steam: 1138960
+Biomechanical Toy:
+  cloud:
+    steam: true
+  pageId: 219029
+  steam: 4448040
 Biomorph:
   cloud:
     steam: true
@@ -65973,6 +65978,9 @@ Dog Theatre:
 Dog couple:
   pageId: 99688
   steam: 891580
+Dog of Wisdom:
+  pageId: 219027
+  steam: 4632530
 "Dog's Quest":
   pageId: 98728
   steam: 882230
@@ -160060,6 +160068,10 @@ Nightmare Kart:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\NMKART\\Saved\\SaveGames\\}}"
 Nightmare Ned:
   pageId: 190139
+Nightmare Operator:
+  lutris: nightmare-operator
+  pageId: 219021
+  steam: 2957360
 Nightmare Pop!:
   pageId: 87501
   steam: 808020
@@ -221911,6 +221923,8 @@ Stormgate:
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/com.specialbit.lurking.steam/}}"
 Stormland:
   pageId: 172661
+Stormlord:
+  pageId: 219016
 Stormrise:
   pageId: 57729
   steam: 10650

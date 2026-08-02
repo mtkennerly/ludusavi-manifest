@@ -64094,6 +64094,16 @@ Back to the Egg!:
         - config
       when:
         - os: windows
+    "<winDocuments>/Telltale Games/Episode */*.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/Telltale Games/Episode */prefs.prop":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1207659097
   id:
@@ -83508,6 +83518,22 @@ Biomass:
             store: steam
   steam:
     id: 1138960
+Biomechanical Toy:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/QUByte Interactive/Biomechanical Toy/<storeUserId>/*.json":
+      when:
+        - store: steam
+  installDir:
+    BiomechanicalToy (QUByte Classics): {}
+  launch:
+    "<base>/Biomechanical_Toy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4448040
 Biomorph:
   cloud:
     steam: true
@@ -204396,6 +204422,15 @@ Dog Theatre:
 Dog couple:
   steam:
     id: 891580
+Dog of Wisdom:
+  installDir:
+    Dog of Wisdom: {}
+  launch:
+    "<base>/dog of wisdom.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4632530
 "Dog's Quest":
   installDir:
     "Dog's Quest": {}
@@ -491740,6 +491775,11 @@ Nightmare Kart:
           - store: steam
   steam:
     id: 2930160
+Nightmare Operator:
+  id:
+    lutris: nightmare-operator
+  steam:
+    id: 2957360
 Nightmare Pop!:
   installDir:
     Nightmare Pop: {}
@@ -809957,12 +809997,6 @@ VRChat:
         - os: windows
   installDir:
     VRChat: {}
-  launch:
-    "<base>/launch.exe":
-      - arguments: "--no-vr"
-        when:
-          - os: windows
-            store: steam
   registry:
     HKEY_CURRENT_USER/Software/VRChat/VRChat:
       tags:

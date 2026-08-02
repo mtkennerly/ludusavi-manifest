@@ -148566,8 +148566,9 @@
     - arguments: "--no-vr"
       config:
         oslist: windows
-      description: Launch in Desktop (Non-VR) Mode
+      description: in Desktop (Non-VR) Mode
       executable: launch.exe
+      type: option1
     - config:
         oslist: android
       executable: VRChat.apk
@@ -637688,6 +637689,7 @@
 2956040:
   nameLocalized:
     japanese: "PVKK: 惑星防衛砲指揮官"
+2957360: {}
 2957700:
   cloud:
     saves:
@@ -655200,6 +655202,17 @@
     japanese: "Obey Me! Sinner's Choice: Lucifer"
     schinese: 服从我吧！最终抉择：路西法
     tchinese: 服從我！終擇晨星：路西法
+4448040:
+  cloud:
+    saves:
+      - path: "QUByte Interactive/Biomechanical Toy/{Steam3AccountID}/"
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+  installDir: BiomechanicalToy (QUByte Classics)
+  launch:
+    - config:
+        oslist: windows
+      executable: Biomechanical_Toy.exe
 4450800:
   installDir: IdolsOfAsh
   launch:
@@ -655509,6 +655522,10 @@
 4605200: {}
 4605490: {}
 4624100: {}
+4632530:
+  installDir: Dog of Wisdom
+  launch:
+    - executable: dog of wisdom.exe
 4634560:
   installDir: 絨毯を洗うゲーム
   launch:
