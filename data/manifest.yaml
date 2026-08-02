@@ -36915,6 +36915,8 @@ Among the Sleep:
     id: 1207664603
   id:
     lutris: among-the-sleep
+    steamExtra:
+      - 332210
   installDir:
     Among the Sleep: {}
   launch:
@@ -75451,8 +75453,89 @@ Beast Quest:
 Beast of Reincarnation:
   cloud:
     steam: true
+  files:
+    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotConfig.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotConfigSystem.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotMeta.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotMetabup*.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotNormal_*.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotNormal_AutoSave_*.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataConfig.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataConfigSystem.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataMeta.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataMetabup*.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataNormal_*.sav":
+      when:
+        - store: steam
+    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataNormal_AutoSave_*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotConfig.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotConfigSystem.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotMeta.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotMetabup*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotNormal_*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotNormal_AutoSave_*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataConfig.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataConfigSystem.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataMeta.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataMetabup*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataNormal_*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataNormal_AutoSave_*.sav":
+      when:
+        - store: steam
   id:
     lutris: beast-of-reincarnation
+  installDir:
+    BeastOfReincarnation: {}
+  launch:
+    "<base>/BeastOfReincarnation.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2001760
 Beastiarium:
@@ -75465,6 +75548,37 @@ Beastiarium:
             store: steam
   steam:
     id: 545150
+Beastieball:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/beastieball/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/beastieball/settings":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: beastieball
+    steamExtra:
+      - 4011760
+  installDir:
+    Beastieball: {}
+  launch:
+    "<base>/Beastieball.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/beastieball.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1864950
 Beastmancer:
   installDir:
     Beastmancer: {}
@@ -200974,6 +201088,13 @@ Disgaea Mayhem:
         - save
       when:
         - os: windows
+  installDir:
+    Disgaea Mayhem: {}
+  launch:
+    "<base>/Disgaea_Mayhem.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4402250
 Disgaea PC:
@@ -206149,10 +206270,34 @@ Don Bradman Cricket 17:
   steam:
     id: 519030
 "Don't Let It Starve":
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/godot/app_userdata/Don't Let It Starve/save_files":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/Godot/app_userdata/Don't Let It Starve/save_files":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
   id:
     lutris: dont-let-it-starve
     steamExtra:
       - 3977370
+  installDir:
+    "Don't Let It Starve": {}
+  launch:
+    "<base>/Linux/Don't Let It Starve.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Windows/Don't Let It Starve.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3930510
 "Don't Look Back":
@@ -304738,6 +304883,12 @@ God for a Day:
     lutris: god-for-a-day
     steamExtra:
       - 2864940
+  installDir:
+    God For A Day: {}
+  launch:
+    "<base>/God For A Day.exe":
+      - when:
+          - store: steam
   steam:
     id: 2695710
 "God is a Cube: Programming Robot Cubes":
@@ -329164,6 +329315,26 @@ Heave Ho:
 Heave Ho 2:
   cloud:
     steam: true
+  files:
+    "<home>/.config/unity3d/LeCartel/HeaveHo2/Save/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/LeCartel/HeaveHo2/Save/*.save":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.LeCartel.HeaveHo2/Save/*.save":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Heave Ho 2: {}
+  launch:
+    "<base>/HeaveHo2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2802740
 Heaven & Hell:
@@ -370814,6 +370985,18 @@ Iron Meat:
             store: steam
   steam:
     id: 1157740
+"Iron Nest: Heavy Turret Simulator":
+  gog:
+    id: 1162687982
+  id:
+    gogExtra:
+      - 2013434102
+    lutris: iron-nest-heavy-turret-simulator
+    steamExtra:
+      - 4300490
+      - 4300500
+  steam:
+    id: 2950790
 Iron Rebellion:
   installDir:
     Iron Rebellion Beta: {}
@@ -409908,8 +410091,27 @@ Lets Beats:
   steam:
     id: 880610
 Letter Lost:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/Steam/steamapps/compatdata/3624790/pfx/drive_c/users/steamuser/AppData/LocalLow/FlatNine/LetterLost/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/FlatNine/LetterLost/**/*.json":
+      when:
+        - store: steam
   id:
     lutris: letter-lost
+  installDir:
+    Letter Lost: {}
+  launch:
+    "<base>/LetterLost.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
   steam:
     id: 3624790
 "Letter Quest: Grimm's Journey":
@@ -507087,10 +507289,23 @@ One More Roll:
   steam:
     id: 911520
 One Move Away:
+  files:
+    "<home>/AppData/LocalLow/Ramage Games/One Move Away/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Ramage Games/One Move Away/<storeUserId>/lastRunBuildVersion":
+      when:
+        - store: steam
   id:
     lutris: one-move-away
     steamExtra:
       - 3796410
+  installDir:
+    One Move Away: {}
+  launch:
+    "<base>/One Move Away.exe":
+      - when:
+          - store: steam
   steam:
     id: 3172440
 One Must Fall 2097:
@@ -517588,6 +517803,17 @@ PASKA BATTLE STYLE!:
   steam:
     id: 979760
 PAW Patrol Dino World:
+  files:
+    "<winLocalAppData>/PDW/Saved/SaveGames":
+      when:
+        - store: steam
+  installDir:
+    Project Wilds: {}
+  launch:
+    "<base>/PDW.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3525790
 "PAW Patrol Rescue Wheels: Championship":
@@ -537998,22 +538224,35 @@ Planet Alcatraz 2:
   cloud:
     steam: true
   files:
-    "<winDocuments>/my games/Санитары Подземелий 2/**/*.sav":
+    "<winDocuments>/Planet Alcatraz 2/Autosave":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winDocuments>/Planet Alcatraz 2/Save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: planet-alcatraz-2
   installDir:
     PlanetAlcatraz2: {}
   launch:
-    "<base>/GameSetup.exe":
+    "<base>/launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
             store: steam
-    "<base>/SP2.exe":
+    "<base>/launcher-x64.exe":
       - when:
-          - store: steam
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/1C/Planet Alcatraz 2:
+      tags:
+        - config
   steam:
     id: 389250
 Planet Alpha:
@@ -626533,9 +626772,26 @@ Shantae and the Seven Sirens:
 ShantyTown:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/ShantyTown/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 3701340
+  installDir:
+    ShantyTown: {}
+  launch:
+    "<base>/ShantyTown.app/Contents/MacOS/ShantyTown":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ShantyTown.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
   steam:
     id: 2434600
 Shaolin vs Wutang:
@@ -689111,6 +689367,16 @@ Summer Challenge:
   gog:
     id: 1820973446
 Summer Days in the Joyful Countryside:
+  files:
+    "<base>/savedata/*.ksd":
+      when:
+        - store: steam
+  installDir:
+    Summer Days in the Joyful Countryside: {}
+  launch:
+    "<base>/Summer Days in the Joyful Countryside.exe":
+      - when:
+          - store: steam
   steam:
     id: 3606380
 Summer Daze at Hero-U:
@@ -699639,10 +699905,11 @@ Surviving Mars:
   cloud:
     steam: true
   files:
-    "<home>/Saved Games/Surviving Mars Relaunched/<storeUserId>":
+    "<winAppData>/Surviving Mars Relaunched/LocalStorage.lua":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
   installDir:
     Project Spark: {}
   launch:
@@ -728694,6 +728961,11 @@ The Deer God:
             store: steam
   steam:
     id: 351400
+The Defiant:
+  id:
+    lutris: the-defiant--1
+  steam:
+    id: 3184960
 The Deletion:
   installDir:
     The Deletion: {}
@@ -793883,6 +794155,19 @@ Truxton:
 Truxton Extreme:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/TATSUJIN/TATSUJIN EXTREME/Steam/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Truxton Extreme: {}
+  launch:
+    "<base>/TATSUJIN EXTREME.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3323490
 "Try 'n Cry - Prologue":
@@ -814328,9 +814613,20 @@ Veritas:
   steam:
     id: 900290
 "Veritas Tales: Witch of the Dark Castle":
+  files:
+    "<base>/*.DAT":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 4714100
+  installDir:
+    Veritas Tales Witch of the Dark Castle: {}
+  launch:
+    "<base>/DarkCastle.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4508570
 Veritex:

@@ -11869,6 +11869,8 @@ Among the Sleep:
   lutris: among-the-sleep
   pageId: 17591
   steam: 250620
+  steamSide:
+    - 332210
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Krillbite Studio\\Among The Sleep\\}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Krillbite Studio/Among The Sleep/prefs}}"
@@ -24413,6 +24415,17 @@ Beast of Reincarnation:
 Beastiarium:
   pageId: 54339
   steam: 545150
+Beastieball:
+  cloud:
+    steam: true
+  lutris: beastieball
+  pageId: 219014
+  steam: 1864950
+  steamSide:
+    - 4011760
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\beastieball\\settings}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\beastieball\\save}}"
 Beastmancer:
   pageId: 55620
   steam: 562250
@@ -66527,6 +66540,8 @@ Don Bradman Cricket 17:
   pageId: 39944
   steam: 519030
 "Don't Let It Starve":
+  cloud:
+    steam: true
   lutris: dont-let-it-starve
   pageId: 217043
   steam: 3930510
@@ -120251,6 +120266,16 @@ Iron Meat:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Retroware\\Iron Meat\\save_gog}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Retroware\\Iron Meat\\save_gog}}"
+"Iron Nest: Heavy Turret Simulator":
+  gog: 1162687982
+  gogSide:
+    - 2013434102
+  lutris: iron-nest-heavy-turret-simulator
+  pageId: 219011
+  steam: 2950790
+  steamSide:
+    - 4300490
+    - 4300500
 Iron Rebellion:
   pageId: 182503
   renamedFrom:
@@ -133156,6 +133181,8 @@ Lets Beats:
   pageId: 100186
   steam: 880610
 Letter Lost:
+  cloud:
+    steam: true
   lutris: letter-lost
   pageId: 217266
   steam: 3624790
@@ -175424,6 +175451,9 @@ Planet Alcatraz 2:
   lutris: planet-alcatraz-2
   pageId: 46907
   steam: 389250
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\1C\\Planet Alcatraz 2}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Planet Alcatraz 2\\Save|{{p|userprofile\\Documents}}\\Planet Alcatraz 2\\Autosave}}"
 Planet Alpha:
   cloud:
     gog: true
@@ -227520,6 +227550,8 @@ Surviving Mars:
     steam: true
   pageId: 209762
   steam: 3215050
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Surviving Mars Relaunched\\LocalStorage.lua}}"
 Surviving Medieval:
   pageId: 136680
   steam: 1082770
@@ -236803,6 +236835,10 @@ The Deer God:
     steam: true
   pageId: 48338
   steam: 351400
+The Defiant:
+  lutris: the-defiant--1
+  pageId: 219013
+  steam: 3184960
 The Deletion:
   pageId: 47059
   steam: 391160

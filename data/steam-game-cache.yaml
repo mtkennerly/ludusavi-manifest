@@ -118201,12 +118201,21 @@
         root: WinMyDocuments
   installDir: PlanetAlcatraz2
   launch:
-    - description: Launch
-      executable: SP2.exe
+    - config:
+        osarch: "32"
+        oslist: windows
+      executable: launcher-ia32.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: launcher-x64.exe
+      type: default
     - config:
         oslist: windows
       description: Configure
       executable: GameSetup.exe
+      type: option1
 389260:
   installDir: Lucid Trips
   launch:
@@ -589148,6 +589157,38 @@
         osarch: "64"
         oslist: windows
       executable: Roman Triumph Survival City Builder.exe
+1864950:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: beastieball/save/
+        root: gameinstall
+        useInstead: WinAppDataLocal
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: com.wishes.beastieball/save/
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: Beastieball
+  launch:
+    - config:
+        oslist: windows
+      executable: beastieball.exe
+    - config:
+        oslist: macos
+      executable: Beastieball.app
+  nameLocalized:
+    schinese: 杯丝特魔球
 1865730:
   cloud:
     saves:
@@ -598976,6 +599017,87 @@
     spanish: "Fuga: Melodies of Steel 2"
     tchinese: 戰場的賦格曲 2
 2001760:
+  cloud:
+    saves:
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotConfig.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotMeta.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotNormal_AutoSave_*.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotConfigSystem.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataConfig.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataMeta.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataMetabup*.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataNormal_*.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataNormal_AutoSave_*.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataConfigSystem.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataConfig.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataMeta.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotMetabup*.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataMetabup*.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataNormal_*.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataNormal_AutoSave_*.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: borSaveDataConfigSystem.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotNormal_*.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotNormal_AutoSave_*.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotConfigSystem.sav
+        root: gameinstall
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotConfig.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotMeta.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotMetabup*.sav
+        root: WinAppDataLocal
+      - path: BeastOfReincarnation/Saved/SaveGames
+        pattern: AibouSaveDataSlotNormal_*.sav
+        root: WinAppDataLocal
+  installDir: BeastOfReincarnation
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: BeastOfReincarnation.exe
+      type: default
   nameLocalized:
     schinese: 轮回之兽
     tchinese: 轉世之獸
@@ -620863,6 +620985,32 @@
       executable: "Skystrider\\Skystrider.exe"
       type: default
 2434600:
+  cloud:
+    saves:
+      - path: ShantyTown/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: ShantyTown
+  launch:
+    - config:
+        oslist: windows
+      description: Base Game
+      executable: ShantyTown.exe
+    - config:
+        oslist: macos
+      description: MacOS
+      executable: "ShantyTown.app\\Contents\\MacOS\\ShantyTown"
+    - config:
+        oslist: linux
+      description: Steamdeck
+      executable: ShantyTown.exe
   nameLocalized:
     schinese: 香缇小镇
     tchinese: 香緹小鎮
@@ -630732,7 +630880,10 @@
   launch:
     - executable: AILA.exe
       type: default
-2695710: {}
+2695710:
+  installDir: God For A Day
+  launch:
+    - executable: God For A Day.exe
 2697000:
   nameLocalized:
     german: Die Legende von Khiimori
@@ -633935,7 +634086,33 @@
         oslist: linux
       executable: Rift Riff.x86_64
       type: default
-2802740: {}
+2802740:
+  cloud:
+    saves:
+      - path: LeCartel/HeaveHo2/Save
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: LeCartel/HeaveHo2/Save
+            replace: unity.LeCartel.HeaveHo2/Save
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: LeCartel/HeaveHo2/Save
+            replace: ".config/unity3d/LeCartel/HeaveHo2/Save"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Heave Ho 2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: HeaveHo2.exe
 2803280:
   cloud:
     saves:
@@ -637391,6 +637568,11 @@
   launch:
     - executable: LHPC.exe
       type: default
+2950790:
+  nameLocalized:
+    brazilian: "IRON NEST: Simulador de Artilharia Pesada"
+    schinese: 铁巢重炮
+    tchinese: 鐵巢重砲
 2951580:
   cloud:
     saves:
@@ -642094,7 +642276,26 @@
   launch:
     - executable: basketball.exe
       type: default
-3172440: {}
+3172440:
+  cloud:
+    saves:
+      - path: "Ramage Games/One Move Away/{Steam3AccountID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+      - path: "Ramage Games/One Move Away/{Steam3AccountID}"
+        pattern: lastRunBuildVersion
+        root: WinAppDataLocalLow
+  installDir: One Move Away
+  launch:
+    - executable: One Move Away.exe
+      type: default
+    - arguments: "--force-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: One Move Away (DirectX 11)
+      executable: One Move Away.exe
+      type: option1
 3172700:
   cloud:
     saves:
@@ -642373,6 +642574,11 @@
         oslist: windows
       executable: Gex.exe
       type: default
+3184960:
+  nameLocalized:
+    sc_schinese: 抵抗者
+    schinese: 抵抗者
+    tchinese: 抵抗者
 3187010: {}
 3188910:
   installDir: Waifu
@@ -644886,8 +645092,25 @@
     tchinese: 赤血沙漠
 3323210: {}
 3323490:
+  cloud:
+    saves:
+      - path: "TATSUJIN/TATSUJIN EXTREME/Steam/{64BitSteamID}"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Truxton Extreme
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Launch
+      executable: TATSUJIN EXTREME.exe
+      type: default
   nameLocalized:
     japanese: TATSUJIN EXTREME
+    koreana: Tatsujin Extreme
 3323850:
   cloud:
     saves:
@@ -647841,6 +648064,17 @@
   nameLocalized:
     schinese: 赫克斯
 3525790:
+  cloud:
+    saves:
+      - path: PDW/Saved/SaveGames
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Project Wilds
+  launch:
+    - config:
+        oslist: windows
+      executable: PDW.exe
   nameLocalized:
     brazilian: Patrulha Canina – O Mundo dos Dinossauros
     danish: "PAW Patrol™: Dinoernes verden"
@@ -649265,6 +649499,14 @@
       executable: Figure Shop Simulator.exe
       type: default
 3606380:
+  cloud:
+    saves:
+      - path: savedata
+        pattern: "*.ksd"
+        root: gameinstall
+  installDir: Summer Days in the Joyful Countryside
+  launch:
+    - executable: Summer Days in the Joyful Countryside.exe
   nameLocalized:
     japanese: 田舎のじゅ〜し〜ず❤︎
     schinese: 乱情小妹
@@ -649575,7 +649817,29 @@
       description: Launch
       executable: YasukeHentaiSimulator.sh
       type: default
-3624790: {}
+3624790:
+  cloud:
+    saves:
+      - path: FlatNine/LetterLost
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: FlatNine/LetterLost
+            replace: ".local/share/Steam/steamapps/compatdata/3624790/pfx/drive_c/users/steamuser/AppData/LocalLow/FlatNine/LetterLost"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Letter Lost
+  launch:
+    - config:
+        oslist: windows
+      executable: LetterLost.exe
+    - config:
+        oslist: linux
+      executable: LetterLost.exe
 3628060:
   cloud:
     saves:
@@ -652476,7 +652740,37 @@
         oslist: windows
       executable: Sinister Remains.exe
       type: default
-3930510: {}
+3930510:
+  cloud:
+    saves:
+      - path: "Godot/app_userdata/Don't Let It Starve/save_files"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Godot/app_userdata/Don't Let It Starve/save_files"
+            replace: ".local/share/godot/app_userdata/Don't Let It Starve/save_files"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: "Godot/app_userdata/Don't Let It Starve/save_files"
+            replace: "Godot/app_userdata/Don't Let It Starve/save_files"
+        root: WinAppDataRoaming
+        useInstead: WinAppDataRoaming
+  installDir: "Don't Let It Starve"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Windows/Don't Let It Starve.exe"
+    - config:
+        oslist: linux
+      executable: "Linux/Don't Let It Starve.x86_64"
 3931060:
   cloud:
     saves:
@@ -654785,6 +655079,33 @@
       type: option1
       workingdir: 1995 Standalone Edition
 4402250:
+  cloud:
+    saves:
+      - path: "Nippon Ichi Software, Inc/Disgaea Mayhem/{64BitSteamID}"
+        pattern: ".systemsave"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: "Nippon Ichi Software, Inc/Disgaea Mayhem/{64BitSteamID}"
+        pattern: save.lst
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: "Nippon Ichi Software, Inc/Disgaea Mayhem/{64BitSteamID}"
+        pattern: save.*
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Disgaea Mayhem
+  launch:
+    - config:
+        oslist: windows
+      executable: Disgaea_Mayhem.exe
+    - config:
+        betakey: "develop_debug,steamdecktest,spanish_qa,debug_confirmation"
+      description: debug
+      executable: Disgaea_MayhemR.exe
+      type: option1
   nameLocalized:
     japanese: 凶乱マカイズム
     koreana: 흉란 마계이즘
@@ -654995,6 +655316,16 @@
   nameLocalized:
     koreana: 이환
 4508570:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.DAT"
+        root: gameinstall
+  installDir: Veritas Tales Witch of the Dark Castle
+  launch:
+    - config:
+        oslist: windows
+      executable: DarkCastle.exe
   nameLocalized:
     japanese: ヴェリタステイルズ：暗黒城の魔女
     schinese: 真理谭：黑暗城堡的女巫
