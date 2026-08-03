@@ -17051,7 +17051,7 @@ Assassin 2015:
     - 4496660
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Black Flag Resynced\\ACBlackFlag.ini}}"
-    - "{{Game data/saves|Ubisoft Connect|{{P|localappdata}}\\Ubisoft\\Assassin's Creed Black Flag Resynced\\save}}"
+    - "{{Game data/saves|Ubisoft Connect|{{P|localappdata}}\\Ubisoft\\Assassin's Creed Black Flag Resynced\\save|{{p|ubisoftconnect}}\\savegames\\<user-id>\\65043\\}}"
     - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\66088\\}}"
 "Assassin's Creed: Brotherhood":
   lutris: assassins-creed-brotherhood
@@ -104686,7 +104686,7 @@ Halo Wars 2:
     - 4192200
     - 4485640
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Meteorite\\Saved\\Config}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Meteorite\\Saved\\Config\\{{p|uid}}|{{p|localappdata}}\\Meteorite\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Meteorite\\Saved\\SaveGames}}"
 "Halo: Combat Evolved":
   lutris: halo-combat-evolved

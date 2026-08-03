@@ -322978,7 +322978,12 @@ Halo Online:
     id: 459220
 "Halo: Campaign Evolved":
   files:
-    "<winLocalAppData>/Meteorite/Saved/Config":
+    "<winLocalAppData>/Meteorite/Saved/Config/<storeUserId>":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Meteorite/Saved/Config/Windows/GameUserSettings.ini":
       tags:
         - config
       when:
