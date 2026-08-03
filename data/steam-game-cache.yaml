@@ -559164,6 +559164,21 @@
       type: option1
   nameLocalized:
     schinese: 超自然车旅 Pacific Drive
+1458300:
+  cloud:
+    saves:
+      - path: TheGap/Saved/SaveGames
+        pattern: SaveGame.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: The Gap
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TheGap.exe
+      type: default
 1458560:
   installDir: "I'm on Observation Duty 3"
   launch:

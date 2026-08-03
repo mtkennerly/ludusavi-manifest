@@ -238779,6 +238779,14 @@ The Gamer Challenge:
 The Gameshow:
   pageId: 121835
   steam: 960610
+The Gap:
+  cloud:
+    steam: true
+  pageId: 219070
+  steam: 1458300
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TheGap\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\TheGap\\Saved\\SaveGames}}"
 The Garbage Man:
   pageId: 82191
   steam: 770570

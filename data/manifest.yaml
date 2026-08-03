@@ -734794,6 +734794,30 @@ The Gameshow:
             store: steam
   steam:
     id: 960610
+The Gap:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TheGap/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TheGap/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    The Gap: {}
+  launch:
+    "<base>/TheGap.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1458300
 The Garbage Man:
   steam:
     id: 770570
