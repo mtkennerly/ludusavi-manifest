@@ -41647,7 +41647,7 @@
 267340:
   installDir: Beware Planet Earth!
   launch:
-    - description: Launch
+    - arguments: "-NoLinks"
       executable: BewarePlanetEarth_Steam.exe
 267360:
   cloud:
@@ -600141,6 +600141,17 @@
     - config:
         oslist: windows
       executable: NECROPHOSIS.exe
+2019810:
+  cloud:
+    saves:
+      - path: Big Loop Studios/Boxes Lost Fragments
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Boxes
+  launch:
+    - executable: Boxes Lost Fragments.exe
 2019830:
   installDir: The Backroom - Lost and Found
   launch:

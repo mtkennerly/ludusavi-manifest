@@ -10669,6 +10669,8 @@ Along Together:
 Along the Edge:
   cloud:
     steam: true
+  gog: 1604204642
+  lutris: along-the-edge
   pageId: 50881
   steam: 504390
   templates:
@@ -32505,6 +32507,12 @@ Boxed Out:
 Boxes Inc.:
   pageId: 93017
   steam: 851820
+"Boxes: Lost Fragments":
+  lutris: boxes
+  pageId: 219063
+  steam: 2019810
+  steamSide:
+    - 2300500
 BoxesWithGuns:
   pageId: 48226
   steam: 342520
@@ -103111,6 +103119,7 @@ Gunmetal Arcadia Zero:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\Gunmetal Arcadia Zero\\Saves\\}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Minor Key Games/Gunmetal Arcadia Zero/Saves/}}"
 Gunmetal Gothic:
+  lutris: gunmetal-gothic
   pageId: 205006
   steam: 2248150
 GunnRunner:
