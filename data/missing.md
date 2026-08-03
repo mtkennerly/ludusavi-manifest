@@ -4580,6 +4580,7 @@
 * [Celestian Tales: Realms Beyond](https://www.pcgamingwiki.com/wiki/?curid=69411)
 * [Celestrion](https://www.pcgamingwiki.com/wiki/?curid=45381)
 * [Cell HD: Emergence](https://www.pcgamingwiki.com/wiki/?curid=48649)
+* [Cellar Keeper](https://www.pcgamingwiki.com/wiki/?curid=219062)
 * [Cellyon: Boss Confrontation](https://www.pcgamingwiki.com/wiki/?curid=145387)
 * [Cellz](https://www.pcgamingwiki.com/wiki/?curid=75427)
 * [Celsius](https://www.pcgamingwiki.com/wiki/?curid=143839)

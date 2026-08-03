@@ -2585,6 +2585,8 @@ A Bumpy Ride:
     steam: true
   pageId: 216726
   steam: 3056840
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\ABumpyRide\\Saved\\SaveGames}}"
 A Business Power:
   pageId: 121855
   steam: 975220
@@ -40331,6 +40333,10 @@ Cellar:
     steam: true
   pageId: 37770
   steam: 449060
+Cellar Keeper:
+  lutris: cellar-keeper
+  pageId: 219062
+  steam: 4935510
 "Cellfactor: Revolution":
   pageId: 90701
   templates:
@@ -126026,7 +126032,9 @@ Killer Instinct:
   steam: 577940
   templates:
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.KillerInstinct-Win10_8wekyb3d8bbwe\\Settings}}"
+    - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\577940\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.KillerInstinct-Win10_8wekyb3d8bbwe\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\577940\\}}"
 Killer Is Dead:
   cloud:
     gog: true

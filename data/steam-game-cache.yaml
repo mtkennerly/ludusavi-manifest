@@ -652877,6 +652877,13 @@
     - config:
         oslist: macos
       executable: Backyard Baseball.app/Contents/MacOS/Backyard Baseball
+    - arguments: "-focusGroup \"dev1\""
+      config:
+        betakey: nightly
+        oslist: windows
+      description: under focus group testing
+      executable: Backyard Baseball.exe
+      type: option1
 3936520:
   cloud:
     saves:
@@ -655665,4 +655672,5 @@
       executable: Neurohunter.exe
       type: default
 4932120: {}
+4935510: {}
 3221903386: {}
