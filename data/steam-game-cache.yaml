@@ -541433,61 +541433,11 @@
 1292630:
   installDir: 3on3 FreeStyle Rebound
   launch:
-    - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Shipping.exe"
-      config:
+    - config:
         osarch: "64"
         oslist: windows
-      executable: xldr_3on3FreeStyle_ST_loader_x64.exe
+      executable: DoubleClutch.exe
       type: default
-    - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Shipping.exe"
-      config:
-        betakey: devqa
-        osarch: "64"
-        oslist: windows
-      description: DoubleClutch-Win64-Shipping.exe
-      executable: xldr_3on3FreeStyle_ST_loader_x64.exe
-    - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Test.exe"
-      config:
-        betakey: devqa
-        osarch: "64"
-        oslist: windows
-      description: DoubleClutch-Win64-Test.exe
-      executable: xldr_3on3FreeStyle_ST_loader_x64.exe
-    - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Test.exe"
-      config:
-        betakey: jccqa
-        osarch: "64"
-        oslist: windows
-      description: DoubleClutch-Win64-Test.exe
-      executable: xldr_3on3FreeStyle_ST_loader_x64.exe
-    - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Shipping.exe"
-      config:
-        betakey: prodqa
-        osarch: "64"
-        oslist: windows
-      description: DoubleClutch-Win64-Shipping.exe
-      executable: xldr_3on3FreeStyle_ST_loader_x64.exe
-    - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Test.exe"
-      config:
-        betakey: prodqa
-        osarch: "64"
-        oslist: windows
-      description: DoubleClutch-Win64-Test.exe
-      executable: xldr_3on3FreeStyle_ST_loader_x64.exe
-    - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Test.exe"
-      config:
-        betakey: xigncodeqa
-        osarch: "64"
-        oslist: windows
-      description: DoubleClutch-Win64-Test.exe
-      executable: xldr_3on3FreeStyle_ST_loader_x64.exe
-    - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Test.exe"
-      config:
-        betakey: devqaue5
-        osarch: "64"
-        oslist: windows
-      description: DoubleClutch-Win64-Test.exe
-      executable: xldr_3on3FreeStyle_ST_loader_x64.exe
 1292690:
   installDir: Corruption of Champions II
   launch:
@@ -636221,6 +636171,23 @@
       executable: Purpose1951.exe
       type: default
 2890360: {}
+2891280:
+  cloud:
+    saves:
+      - path: sting/Riviera/savedata
+        pattern: "*.*"
+        platforms:
+          - Windows
+        root: WinMyDocuments
+  installDir: Riviera
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Riviera.exe
+  nameLocalized:
+    english: "Riviera: The Promised Land"
+    japanese: Riviera～約束の地リヴィエラ～
 2891310:
   cloud:
     saves:
@@ -636794,7 +636761,7 @@
   nameLocalized:
     japanese: 進撃の巨人３
     koreana: 진격의거인３
-    schinese: Attack on Titan 3
+    schinese: 进击的巨人３
     tchinese: 進撃的巨人３
 2917040:
   installDir: Garten of Banban 8 Anti Devil
@@ -655572,6 +655539,7 @@
 4603230: {}
 4605200: {}
 4605490: {}
+4619420: {}
 4624100: {}
 4632530:
   installDir: Dog of Wisdom

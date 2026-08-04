@@ -23980,6 +23980,7 @@
 * [Sliver-Sclicker](https://www.pcgamingwiki.com/wiki/?curid=94792)
 * [Sloppy Goat](https://www.pcgamingwiki.com/wiki/?curid=90048)
 * [Slordax: The Unknown Enemy](https://www.pcgamingwiki.com/wiki/?curid=168299)
+* [Slot Grind](https://www.pcgamingwiki.com/wiki/?curid=219094)
 * [Sloth: Heart to Heart](https://www.pcgamingwiki.com/wiki/?curid=127700)
 * [Slow Damage](https://www.pcgamingwiki.com/wiki/?curid=199608)
 * [Slow Down, Bull](https://www.pcgamingwiki.com/wiki/?curid=48168)

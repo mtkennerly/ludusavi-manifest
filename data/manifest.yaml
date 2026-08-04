@@ -4774,9 +4774,8 @@ $1 Ride:
   installDir:
     3on3 FreeStyle Rebound: {}
   launch:
-    "<base>/xldr_3on3FreeStyle_ST_loader_x64.exe":
-      - arguments: "DoubleClutch\\Binaries\\Win64\\DoubleClutch-Win64-Shipping.exe"
-        when:
+    "<base>/DoubleClutch.exe":
+      - when:
           - bit: 64
             os: windows
             store: steam
@@ -75469,80 +75468,21 @@ Beast of Reincarnation:
   cloud:
     steam: true
   files:
-    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotConfig.sav":
+    "<winAppData>/BeastOfReincarnation/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotConfigSystem.sav":
+        - os: windows
+    "<winAppData>/BeastOfReincarnation/Saved/SaveGames":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotMeta.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotMetabup*.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotNormal_*.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotNormal_AutoSave_*.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataConfig.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataConfigSystem.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataMeta.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataMetabup*.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataNormal_*.sav":
-      when:
-        - store: steam
-    "<base>/BeastOfReincarnation/Saved/SaveGames/borSaveDataNormal_AutoSave_*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotConfig.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotConfigSystem.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotMeta.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotMetabup*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotNormal_*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/AibouSaveDataSlotNormal_AutoSave_*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataConfig.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataConfigSystem.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataMeta.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataMetabup*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataNormal_*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames/borSaveDataNormal_AutoSave_*.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: beast-of-reincarnation
+    steamExtra:
+      - 4146830
   installDir:
     BeastOfReincarnation: {}
   launch:
@@ -252716,89 +252656,6 @@ FANTAVISION 202X:
         workingDir: "<base>/fv/Binaries/Win64"
   steam:
     id: 2353280
-"FAR: Changing Tides":
-  cloud:
-    epic: true
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Okomotive/FarChangingTides":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Packages/FrontierDevelopmentsPlc.FARChangingTidesWindowsEdi_ft442cafaz8hg/SystemAppData/wgs/<storeUserId>":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: microsoft
-  id:
-    lutris: far-changing-tides
-    steamExtra:
-      - 1684390
-  installDir:
-    FAR Changing Tides: {}
-  launch:
-    "<base>/FarChangingTides.exe":
-      - arguments: "-platform-steam"
-        when:
-          - os: windows
-            store: steam
-  registry:
-    HKEY_CURRENT_USER/Software/Okomotive/FarChangingTides:
-      tags:
-        - config
-  steam:
-    id: 1570010
-"FAR: Lone Sails":
-  cloud:
-    gog: true
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Okomotive/FarLoneSails":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<home>/Library/Application Support/Okomotive/FarLoneSails":
-      tags:
-        - config
-        - save
-      when:
-        - os: mac
-    "<root>/userdata/<storeUserId>/609320/remote":
-      tags:
-        - save
-      when:
-        - store: steam
-  gog:
-    id: 1736537203
-  id:
-    gogExtra:
-      - 1601925106
-      - 1617205711
-    steamExtra:
-      - 837840
-      - 837841
-  installDir:
-    FAR Lone Sails: {}
-  launch:
-    "<base>/Game/FarLoneSails.app/Contents/MacOS/FarLoneSails":
-      - arguments: "-platform-steam"
-        when:
-          - os: mac
-            store: steam
-    "<base>/Game/FarLoneSails.exe":
-      - arguments: "-platform-steam"
-        when:
-          - os: windows
-            store: steam
-  registry:
-    HKEY_CURRENT_USER/Software/Okomotive/FarLoneSails:
-      tags:
-        - config
-  steam:
-    id: 609320
 "FARIA: Ghosts of the Stream":
   installDir:
     FARIA Ghosts of the Stream: {}
@@ -259464,6 +259321,91 @@ Far-Out:
       - 503850
   steam:
     id: 389860
+"Far: Changing Tides":
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Okomotive/FarChangingTides":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Packages/FrontierDevelopmentsPlc.FARChangingTidesWindowsEdi_ft442cafaz8hg/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  id:
+    lutris: far-changing-tides
+    steamExtra:
+      - 1684390
+  installDir:
+    FAR Changing Tides: {}
+  launch:
+    "<base>/FarChangingTides.exe":
+      - arguments: "-platform-steam"
+        when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Okomotive/FarChangingTides:
+      tags:
+        - config
+  steam:
+    id: 1570010
+"Far: Lone Sails":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Okomotive/FarLoneSails":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Okomotive/FarLoneSails":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<root>/userdata/<storeUserId>/609320/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 1736537203
+  id:
+    gogExtra:
+      - 1601925106
+      - 1617205711
+    lutris: far-lone-sails
+    steamExtra:
+      - 837840
+      - 837841
+      - 1390550
+  installDir:
+    FAR Lone Sails: {}
+  launch:
+    "<base>/Game/FarLoneSails.app/Contents/MacOS/FarLoneSails":
+      - arguments: "-platform-steam"
+        when:
+          - os: mac
+            store: steam
+    "<base>/Game/FarLoneSails.exe":
+      - arguments: "-platform-steam"
+        when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Okomotive/FarLoneSails:
+      tags:
+        - config
+  steam:
+    id: 609320
 FarSky:
   files:
     "<home>/.FarSky":
@@ -591549,6 +591491,24 @@ Riverhill Trials:
             store: steam
   steam:
     id: 810460
+"Riviera: The Promised Land":
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/sting/Riviera/savedata/*.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Riviera: {}
+  launch:
+    "<base>/Riviera.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2891280
 Rize of the Summonds:
   installDir:
     RotS: {}
@@ -645088,6 +645048,11 @@ Sloppy Goat:
     Slordax The Unknown Enemy: {}
   steam:
     id: 1601900
+Slot Grind:
+  id:
+    lutris: slot-grind
+  steam:
+    id: 4619420
 Sloth Quest:
   files:
     "<base>/Lumatap/SlothQuest/*.sav":
