@@ -2986,7 +2986,6 @@
 * [Big Tiddy Goth GF Simulator](https://www.pcgamingwiki.com/wiki/?curid=179074)
 * [Big Time Sports](https://www.pcgamingwiki.com/wiki/?curid=147791)
 * [Big Tower Tiny Square](https://www.pcgamingwiki.com/wiki/?curid=77329)
-* [Big Walk](https://www.pcgamingwiki.com/wiki/?curid=213699)
 * [BigBoy - Visual Crime Novel](https://www.pcgamingwiki.com/wiki/?curid=104443)
 * [BigDay](https://www.pcgamingwiki.com/wiki/?curid=78737)
 * [Bigfoot: Collision Course](https://www.pcgamingwiki.com/wiki/?curid=198250)

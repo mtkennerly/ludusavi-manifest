@@ -82237,8 +82237,28 @@ Big Tower Tiny Square:
   steam:
     id: 751250
 Big Walk:
+  files:
+    "<home>/AppData/LocalLow/House House/Big Walk/user_data/**/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/House House/Big Walk/user_data/*.sav":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: big-walk
+  installDir:
+    Big Walk: {}
+  launch:
+    "<base>/Big Walk.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Big Walk.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1478500
 BigBoy - Visual Crime Novel:
@@ -835821,6 +835841,9 @@ What if George Washington was a Girl?:
   steam:
     id: 2098470
 What the Buck?!:
+  id:
+    steamExtra:
+      - 5006340
   steam:
     id: 4832970
 What the Car?:

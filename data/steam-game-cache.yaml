@@ -560668,7 +560668,31 @@
   nameLocalized:
     english: Nyaruru Fishy Fight
     japanese: にゃるるファイト！
-1478500: {}
+1478500:
+  cloud:
+    saves:
+      - path: House House/Big Walk/user_data
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: House House/Big Walk/user_data
+            replace: House House/Big Walk/user_data
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Big Walk
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Big Walk.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Big Walk.app
 1478650:
   cloud:
     saves:
