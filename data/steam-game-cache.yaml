@@ -565952,11 +565952,21 @@
       - path: Attu Games/Scarlet Deer Inn/SaveData/
         pattern: "*.attu"
         root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: Scarlet Deer Inn
   launch:
     - config:
         oslist: windows
       executable: Scarlet Deer Inn.exe
+    - config:
+        oslist: macos
+      executable: ScarletDeerInn.app/Contents/MacOS/Scarlet Deer Inn
+      type: default
   nameLocalized:
     schinese: 红鹿旅馆
 1554600:

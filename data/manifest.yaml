@@ -610085,6 +610085,17 @@ Sam & Max Hit the Road:
   steam:
     id: 355170
 Sam & Max Save the World:
+  files:
+    "<base>/*.save":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/prefs.prop":
+      tags:
+        - config
+      when:
+        - store: steam
   gog:
     id: 1207659065
   id:
@@ -610127,6 +610138,17 @@ Sam & Max Save the World (2020):
   steam:
     id: 1440440
 "Sam & Max: Beyond Time and Space":
+  files:
+    "<base>/*.save":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/prefs.prop":
+      tags:
+        - config
+      when:
+        - store: steam
   gog:
     id: 1207659064
   id:
@@ -614155,8 +614177,15 @@ Scarlet Deer Inn:
     steam: true
   files:
     "<home>/AppData/LocalLow/Attu Games/Scarlet Deer Inn/SaveData/*.attu":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<home>/Library/Application Support/Attu Games/Scarlet Deer Inn/SaveData":
+      tags:
+        - save
+      when:
+        - os: mac
   id:
     lutris: scarlet-deer-inn
     steamExtra:
@@ -614168,6 +614197,10 @@ Scarlet Deer Inn:
     "<base>/Scarlet Deer Inn.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/ScarletDeerInn.app/Contents/MacOS/Scarlet Deer Inn":
+      - when:
+          - os: mac
             store: steam
   steam:
     id: 1553260
@@ -780184,13 +780217,31 @@ Torrente:
         - os: windows
   id:
     lutris: torrente
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Virtual Toys/Torrente Gold USA:
+      tags:
+        - config
 "Torrente 3: The Protector":
   files:
-    "<base>/datos/profiles":
+    "<base>/GAMEOPTIONS.OPT":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/INPUT.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/datos/profiles/<storeUserId>.T3":
       tags:
         - save
       when:
         - os: windows
+  registry:
+    "HKEY_CURRENT_USER/Virgin Play/Torrente 3: El Protector":
+      tags:
+        - config
 Torsion:
   steam:
     id: 522050

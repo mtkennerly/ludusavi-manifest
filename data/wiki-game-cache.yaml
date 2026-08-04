@@ -120627,6 +120627,8 @@ Isekai Rondo:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\START.STP}}"
     - "{{Game data/saves|DOS|{{p|game}}\\*.SAV}}"
+"Ishidō: The Way of Stones":
+  pageId: 219106
 Ishin no Arashi:
   cloud:
     steam: true
@@ -198671,9 +198673,9 @@ Sam & Max Save the World:
     - 8250
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\<episode name>\\prefs.prop|{{p|userprofile\\documents}}\\Telltale Games\\<episode name>\\prefs.prop}}"
-    - "{{Game data/config|Steam|{{p|game}}\\ep10<episode number>\\prefs.prop}}"
+    - "{{Game data/config|Steam|{{p|game}}\\ep10<episode number>\\prefs.prop|{{p|game}}\\prefs.prop}}"
     - "{{Game data/saves|Windows|{{p|game}}\\<episode name>\\*.save|{{p|userprofile\\documents}}\\Telltale Games\\<episode name>\\*.save}}"
-    - "{{Game data/saves|Steam|{{p|game}}\\ep10<episode number>\\*.save}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\ep10<episode number>\\*.save|{{p|game}}\\*.save}}"
 Sam & Max Save the World (2020):
   cloud:
     gog: true
@@ -198704,9 +198706,9 @@ Sam & Max Save the World (2020):
     - 8300
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\<episode name>\\prefs.prop}}"
-    - "{{Game data/config|Steam|{{p|game}}\\ep20<episode number>\\prefs.prop}}"
+    - "{{Game data/config|Steam|{{p|game}}\\ep20<episode number>\\prefs.prop|{{p|game}}\\prefs.prop}}"
     - "{{Game data/saves|Windows|{{p|game}}\\<episode name>\\*.save}}"
-    - "{{Game data/saves|Steam|{{p|game}}\\ep20<episode number>\\*.save}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\ep20<episode number>\\*.save|{{p|game}}\\*.save}}"
 "Sam & Max: Beyond Time and Space (2021)":
   cloud:
     gog: true
@@ -199999,6 +200001,9 @@ Scarlet Deer Inn:
   steamSide:
     - 2723730
     - 4955870
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Attu Games\\Scarlet Deer Inn\\SaveData\\*.attu}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Attu Games/Scarlet Deer Inn/SaveData/}}"
 Scarlet Fantasy:
   pageId: 122506
   steam: 935260
@@ -253822,11 +253827,13 @@ Torrente:
   lutris: torrente
   pageId: 187088
   templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Virtual Toys\\Torrente Gold USA}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Config.DAT}}"
 "Torrente 3: The Protector":
   pageId: 76738
   templates:
-    - "{{Game data/saves|Windows|{{p|game}}\\datos\\profiles\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\GAMEOPTIONS.OPT|{{p|game}}\\INPUT.CFG|{{p|hkcu}}\\Virgin Play\\Torrente 3: El Protector}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\datos\\profiles\\{{p|uid}}.T3}}"
 Torsion:
   pageId: 36596
   steam: 522050
@@ -279521,6 +279528,8 @@ Yo Frankie!:
 Yo My Yo!:
   pageId: 123544
   steam: 978490
+Yo! Joe!:
+  pageId: 219108
 "Yo! Noid 2: Enter the Void":
   pageId: 210906
   templates:
