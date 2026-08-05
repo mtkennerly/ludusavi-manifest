@@ -640895,6 +640895,10 @@
       type: default
   nameLocalized:
     japanese: リバース：1999
+3093050:
+  installDir: Kill The Music
+  launch:
+    - executable: KTM.exe
 3094260: {}
 3094480:
   installDir: Bad Cheese
@@ -655598,6 +655602,21 @@
     schinese: "龙之剑:觉醒"
     tchinese: "龍之劍:覺醒"
 4572790:
+  cloud:
+    saves:
+      - path: AladdinX/SuikaGame
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: スイカゲーム
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: SuikaGame.exe
+      type: default
   nameLocalized:
     english: Suika Game
     french: Suika Game
@@ -655631,6 +655650,20 @@
 4637870: {}
 4638740: {}
 4650440:
+  cloud:
+    saves:
+      - path: AladdinX/WatermelonPlanet
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: スイカゲーム ぷらねっと
+  launch:
+    - config:
+        oslist: windows
+      executable: SuikaGame Planet.exe
+      type: default
   nameLocalized:
     english: Suika Game Planet
     japanese: スイカゲーム ぷらねっと

@@ -26652,11 +26652,14 @@ Big Tower Tiny Square:
   pageId: 77329
   steam: 751250
 Big Walk:
+  cloud:
+    steam: true
   lutris: big-walk
   pageId: 213699
   steam: 1478500
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\House House\\Big Walk}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\House House\\Big Walk\\user_data\\save_games}}"
 BigBoy - Visual Crime Novel:
   pageId: 104443
   steam: 908690
@@ -90503,6 +90506,8 @@ Formula Legends:
     - 4222670
     - 4362310
     - 4362320
+Formula One:
+  pageId: 219144
 Formula One 97:
   pageId: 77448
 Formula One 99:
@@ -105652,6 +105657,8 @@ Harem Wars:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Harley\\Cfg\\console.cfg}}"
     - "{{Game data/saves|Windows|{{p|ProgramData}}\\Harley-Davidson_ Race to the Rally Saves\\}}"
+"Harley-Davidson: Wheels of Freedom":
+  pageId: 219152
 Harlow:
   pageId: 176000
   steam: 1526350
@@ -125959,6 +125966,14 @@ Kill The Monster:
 Kill The Moon:
   pageId: 151521
   steam: 1093180
+Kill The Music:
+  pageId: 219142
+  steam: 3093050
+  steamSide:
+    - 3858970
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Kill The Music\\settings.save}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Kill The Music\\}}"
 Kill The Plumber:
   pageId: 45109
   steam: 420070
@@ -139213,6 +139228,8 @@ MOE:
 "MOK: Super Space Taxi":
   pageId: 138580
   steam: 1090660
+MOLDRISE:
+  pageId: 219147
 MOLOCH (Zero):
   pageId: 114598
   steam: 944630
@@ -170726,10 +170743,13 @@ Parkasaurus:
   cloud:
     discord: true
     steam: true
+    xbox: true
   pageId: 78752
   steam: 591460
   steamSide:
     - 1931130
+    - 2388590
+    - 2435170
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Washbear\\Parkasaurus}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Washbear\\Parkasaurus\\CloudSaves\\}}"
@@ -199561,6 +199581,8 @@ Sarcophag:
 "Sargon's Lair":
   pageId: 109676
   steam: 912810
+Satan (1990):
+  pageId: 219149
 "Satan's Castle":
   pageId: 87355
   steam: 805720
@@ -234202,7 +234224,9 @@ The Alien Cube:
     - 1201440
 "The Alighieri Circle: Dante's Bloodline":
   cloud:
+    epic: true
     steam: true
+  gog: 1716484150
   lutris: the-alighieri-circle-dantes-bloodline
   pageId: 217621
   steam: 4262620
@@ -282479,6 +282503,8 @@ Zooloretto:
   templates:
     - "{{Game data/config|Windows|{{p|APPDATA}}\\WhiteBear\\Zooloretto\\common\\commonconfig.xml}}"
     - "{{Game data/saves|Windows|{{p|APPDATA}}\\WhiteBear\\Zooloretto\\game\\data\\}}"
+Zoom!:
+  pageId: 219146
 Zooma VR:
   pageId: 155490
   steam: 1214410

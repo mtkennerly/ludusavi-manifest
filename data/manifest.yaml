@@ -82237,10 +82237,17 @@ Big Tower Tiny Square:
   steam:
     id: 751250
 Big Walk:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/House House/Big Walk":
       tags:
         - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/House House/Big Walk/user_data/save_games":
+      tags:
+        - save
       when:
         - os: windows
   id:
@@ -388141,6 +388148,29 @@ Kill The Monster:
 Kill The Moon:
   steam:
     id: 1093180
+Kill The Music:
+  files:
+    "<winAppData>/Godot/app_userdata/Kill The Music":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Kill The Music/settings.save":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3858970
+  installDir:
+    Kill The Music: {}
+  launch:
+    "<base>/KTM.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3093050
 Kill The Plumber:
   installDir:
     Kill The Plumber: {}
@@ -523943,6 +523973,8 @@ Parkasaurus:
   id:
     steamExtra:
       - 1931130
+      - 2388590
+      - 2435170
   installDir:
     Parkasaurus: {}
   launch:
@@ -688941,9 +688973,34 @@ Suicideville:
   steam:
     id: 787240
 Suika Game:
+  files:
+    "<home>/AppData/LocalLow/AladdinX/SuikaGame":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    スイカゲーム: {}
+  launch:
+    "<base>/SuikaGame.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4572790
 Suika Game Planet:
+  files:
+    "<home>/AppData/LocalLow/AladdinX/WatermelonPlanet":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    スイカゲーム ぷらねっと: {}
+  launch:
+    "<base>/SuikaGame Planet.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4650440
 Suikoden I & II HD Remaster Gate Rune and Dunan Unification Wars:
@@ -720777,7 +720834,10 @@ The Alien Cube:
     id: 1099220
 "The Alighieri Circle: Dante's Bloodline":
   cloud:
+    epic: true
     steam: true
+  gog:
+    id: 1716484150
   id:
     lutris: the-alighieri-circle-dantes-bloodline
     steamExtra:
