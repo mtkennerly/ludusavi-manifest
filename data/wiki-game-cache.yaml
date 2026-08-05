@@ -22149,6 +22149,8 @@ Bardbarian:
   steam: 269490
   templates:
     - "{{Game data/saves|Windows|{{p|APPDATA}}\\com.treefortress.bardbarian\\local store\\saves.dat}}"
+Bare Knuckle II:
+  pageId: 219130
 Bare Metal:
   pageId: 77616
   steam: 674130
@@ -70962,6 +70964,9 @@ Dumpy & Bumpy:
   steam: 1631500
   steamSide:
     - 1716680
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\Local\\DumpyAndBumpy}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Local\\DumpyAndBumpy}}"
 Duncan and the Wisp:
   pageId: 136834
   steam: 1087060
@@ -134923,6 +134928,9 @@ Little Cells:
 Little Comet:
   pageId: 122464
   steam: 856100
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Outgunned Games\\Little Comet}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Outgunned Games\\Little Comet}}"
 Little Diggel:
   pageId: 62342
   steam: 580960
@@ -182298,6 +182306,8 @@ Puzzling Rooms VR:
 Puzzlink:
   gog: 1707953012
   pageId: 192558
+Puzznic:
+  pageId: 219132
 Pylon Racer:
   pageId: 128399
   steam: 856650
@@ -218001,6 +218011,8 @@ Star Fleet Armada Rogue Adventures:
   gog: 1187946593
   pageId: 178650
   steam: 1470940
+Star Force:
+  pageId: 219128
 Star Fox 64:
   pageId: 200601
 Star Fox 64 (Starship):
@@ -252838,6 +252850,7 @@ Tom & Jerry:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Tom Clancy's The Division 2\\}}"
 "Tom Clancy's The Division 3":
+  lutris: tom-clancys-the-division-3
   pageId: 189958
 "Tom Clancy's The Division Heartland":
   cloud:

@@ -220124,6 +220124,13 @@ Dummy!:
   steam:
     id: 754480
 Dumpy & Bumpy:
+  files:
+    "<home>/AppData/Local/DumpyAndBumpy":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 1716680
@@ -415426,6 +415433,13 @@ Little Cells:
   steam:
     id: 352210
 Little Comet:
+  files:
+    "<home>/AppData/LocalLow/Outgunned Games/Little Comet":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Little Comet: {}
   launch:
@@ -777354,6 +777368,9 @@ Toltec and the mysteries of the Secret Island:
     "Tom Clancy's The Division 2": {}
   steam:
     id: 2221490
+"Tom Clancy's The Division 3":
+  id:
+    lutris: tom-clancys-the-division-3
 "Tom Clancy's The Division Resurgence":
   cloud:
     uplay: true
