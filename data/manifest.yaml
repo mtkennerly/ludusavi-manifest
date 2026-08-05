@@ -82238,13 +82238,11 @@ Big Tower Tiny Square:
     id: 751250
 Big Walk:
   files:
-    "<home>/AppData/LocalLow/House House/Big Walk/user_data/**/*.sav":
+    "<home>/AppData/LocalLow/House House/Big Walk":
+      tags:
+        - config
       when:
-        - store: steam
-    "<home>/Library/Application Support/House House/Big Walk/user_data/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: big-walk
   installDir:
@@ -153192,6 +153190,29 @@ Cosmo story:
 CosmoLands:
   steam:
     id: 445880
+Cosmobreeder Yiffai:
+  cloud:
+    steam: true
+  files:
+    "<base>/cosmo.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/cosmobreeder_options.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Cosmobreeder Yiffai: {}
+  launch:
+    "<base>/CosmobreederYiffai.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3548000
 Cosmochoria:
   cloud:
     steam: true
@@ -238064,11 +238085,6 @@ Endless Legend 2:
   installDir:
     ENDLESS Legend 2: {}
   launch:
-    "<base>/Endless Legend 2.cmd":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
     "<base>/Endless Legend 2.exe":
       - when:
           - bit: 64
@@ -296347,6 +296363,9 @@ Gemstone Keeper:
             store: steam
   steam:
     id: 522080
+Gen Atlas:
+  id:
+    lutris: gen-atlas
 Gender Bender:
   installDir:
     Gender Bender: {}
@@ -315346,6 +315365,13 @@ Growbot:
             store: steam
   steam:
     id: 661680
+Growing My Manhole:
+  id:
+    lutris: growing-my-manhole
+    steamExtra:
+      - 4487700
+  steam:
+    id: 4415120
 Growing Pains:
   cloud:
     steam: true
@@ -387449,7 +387475,13 @@ Kiborg:
       when:
         - os: linux
           store: steam
+  gog:
+    id: 2050916447
   id:
+    gogExtra:
+      - 1089097517
+      - 1379840164
+      - 1882717012
     lutris: kiborg
     steamExtra:
       - 3590420
@@ -418873,6 +418905,13 @@ Loop Hero:
             store: steam
   steam:
     id: 1282730
+Loop Miner:
+  id:
+    lutris: loop-miner
+    steamExtra:
+      - 4765590
+  steam:
+    id: 4715320
 LoopCraft:
   steam:
     id: 871160
@@ -584219,6 +584258,13 @@ Retrowave:
   steam:
     id: 1239690
 Retrowave 2:
+  id:
+    lutris: retrowave-2
+    steamExtra:
+      - 3350730
+      - 3357760
+      - 3420350
+      - 5018950
   installDir:
     Retrowave 2: {}
   launch:
@@ -595913,7 +595959,19 @@ Rogue Point:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Tango/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Tango/Saved/SaveGames/CampaignSaveData.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Tango/Saved/SaveGames/EULASaveData.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Tango/Saved/SaveGames/OperatorProfile.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Tango/Saved/SaveGames/TutorialSaveData.sav":
       when:
         - os: windows
           store: steam
@@ -595926,7 +595984,7 @@ Rogue Point:
     Rogue Point: {}
   launch:
     "<base>/Tango.exe":
-      - arguments: splash
+      - arguments: "-dx11"
         when:
           - bit: 64
             os: windows

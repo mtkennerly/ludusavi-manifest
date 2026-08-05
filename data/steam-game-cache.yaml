@@ -587851,23 +587851,46 @@
   cloud:
     saves:
       - path: Tango/Saved/SaveGames
-        pattern: "*.sav"
+        pattern: CampaignSaveData.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Tango/Saved/SaveGames
+        pattern: OperatorProfile.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Tango/Saved/SaveGames
+        pattern: EULASaveData.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Tango/Saved/SaveGames
+        pattern: TutorialSaveData.sav
         platforms:
           - Windows
         root: WinAppDataLocal
   installDir: Rogue Point
   launch:
-    - arguments: splash
+    - arguments: "-dx11"
       config:
         osarch: "64"
         oslist: windows
+      description: Stable (DX11)
       executable: Tango.exe
       type: default
+    - arguments: "-dx12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Experimental (DX12)
+      executable: Tango.exe
+      type: option1
     - config:
         ownsdlc: "3756640"
       description: Rogue Point - Artbook
       executable: "Digital Artbook\\digitalextra.bat"
-      type: option1
+      type: option2
   nameLocalized:
     schinese: 佣兵猎手
 1843860:
@@ -646646,16 +646669,11 @@
         osarch: "64"
         oslist: windows
       executable: Endless Legend 2.exe
-    - config:
-        osarch: "64"
-        oslist: windows
-      description: Steam Deck
-      executable: Endless Legend 2.cmd
   nameLocalized:
-    japanese: ENDLESS™ Legend 2 エンドレス・レジェンド 2
-    koreana: ENDLESS™ Legend 2 엔들리스 레전드 2
-    schinese: 无尽帝国 2 ENDLESS™ Legend 2
-    tchinese: 無盡帝國 2 ENDLESS™ Legend 2
+    japanese: ENDLESS Legend™ 2 エンドレス・レジェンド 2
+    koreana: ENDLESS Legend™ 2 엔들리스 레전드 2
+    schinese: 无尽帝国 2 ENDLESS Legend™ 2
+    tchinese: 無盡帝國 2 ENDLESS Legend™ 2
 3411900: {}
 3414340:
   cloud:
@@ -648497,6 +648515,18 @@
   launch:
     - executable: Ire.exe
 3547910: {}
+3548000:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Cosmobreeder Yiffai
+  launch:
+    - config:
+        oslist: windows
+      executable: CosmobreederYiffai.exe
+      type: default
 3548580:
   cloud:
     saves:
@@ -655193,6 +655223,10 @@
       executable: METRO QUESTER OSAKA.exe
       type: default
 4414560: {}
+4415120:
+  nameLocalized:
+    schinese: 万物皆可嗦
+    tchinese: 萬物皆可嗦
 4418080: {}
 4421010:
   cloud:
@@ -655643,6 +655677,7 @@
         oslist: windows
       executable: HypnoTiles.exe
       type: default
+4715320: {}
 4716160: {}
 4729320:
   nameLocalized:

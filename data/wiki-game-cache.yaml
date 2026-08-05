@@ -26653,6 +26653,8 @@ Big Walk:
   lutris: big-walk
   pageId: 213699
   steam: 1478500
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\House House\\Big Walk}}"
 BigBoy - Visual Crime Novel:
   pageId: 104443
   steam: 908690
@@ -49289,6 +49291,14 @@ Cosmo story:
 CosmoLands:
   pageId: 51024
   steam: 445880
+Cosmobreeder Yiffai:
+  cloud:
+    steam: true
+  pageId: 219114
+  steam: 3548000
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\cosmobreeder_options.json}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\cosmo.sav}}"
 Cosmochoria:
   cloud:
     steam: true
@@ -95999,6 +96009,7 @@ Gemstone Keeper:
   pageId: 59637
   steam: 522080
 Gen Atlas:
+  lutris: gen-atlas
   pageId: 217297
 Gender Bender:
   pageId: 68911
@@ -102194,6 +102205,12 @@ Growbot:
     - 1300510
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Dumpling Media\\Growbot}}"
+Growing My Manhole:
+  lutris: growing-my-manhole
+  pageId: 219121
+  steam: 4415120
+  steamSide:
+    - 4487700
 Growing Pains:
   cloud:
     steam: true
@@ -125700,6 +125717,11 @@ Kiai Resonance:
 Kiborg:
   cloud:
     steam: true
+  gog: 2050916447
+  gogSide:
+    - 1089097517
+    - 1379840164
+    - 1882717012
   lutris: kiborg
   pageId: 195865
   renamedFrom:
@@ -136049,6 +136071,12 @@ Loop Hero:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Loop_Hero\\loop_save*}}"
     - "{{Game data/saves|Steam|{{p|localappdata}}\\Loop_hero\\{{p|uid}}\\loop_save*|{{p|xdgconfighome}}/Loop_hero/{{p|uid}}/loop_save*}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/Loop_hero/loop_save*}}"
+Loop Miner:
+  lutris: loop-miner
+  pageId: 219117
+  steam: 4715320
+  steamSide:
+    - 4765590
 LoopCraft:
   pageId: 130791
   steam: 871160
@@ -190281,8 +190309,14 @@ Retrowave:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Rewindapp\\Retrowave}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Rewindapp\\Retrowave|{{P|steam}}\\userdata\\{{P|uid}}\\1239690\\remote\\CloudDataPlayer.dat}}"
 Retrowave 2:
+  lutris: retrowave-2
   pageId: 199247
   steam: 3331000
+  steamSide:
+    - 3350730
+    - 3357760
+    - 3420350
+    - 5018950
 Retrowave World:
   pageId: 196437
   steam: 2413050
