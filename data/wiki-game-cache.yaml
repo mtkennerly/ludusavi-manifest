@@ -24421,8 +24421,8 @@ Beast of Reincarnation:
   steamSide:
     - 4146830
   templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\BeastOfReincarnation\\Saved\\SaveGames\\|{{P|appdata}}\\BeastOfReincarnation\\Saved\\Config\\Windows\\}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\BeastOfReincarnation\\Saved\\SaveGames\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BeastOfReincarnation\\Saved\\Config\\Windows\\|{{P|localappdata}}\\BeastOfReincarnation\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BeastOfReincarnation\\Saved\\SaveGames\\}}"
 Beastiarium:
   pageId: 54339
   steam: 545150
@@ -89289,6 +89289,8 @@ Fog of War:
     steam: true
   pageId: 134668
   steam: 1069820
+Foghorns Drown:
+  pageId: 219133
 Fogpiercer:
   cloud:
     steam: true
@@ -95694,6 +95696,12 @@ Gear Gauntlet:
     steam: true
   pageId: 52570
   steam: 486890
+Gear Grinder:
+  lutris: sledgehammer-gear-grinder
+  pageId: 50578
+  renamedFrom:
+    - GearGrinder
+  steam: 285520
 Gear Path:
   cloud:
     steam: true
@@ -95723,10 +95731,6 @@ GearCity:
   gog: 1801948692
   pageId: 50171
   steam: 285110
-GearGrinder:
-  lutris: sledgehammer-gear-grinder
-  pageId: 50578
-  steam: 285520
 GearGrit:
   pageId: 194925
   steam: 2298250
@@ -99425,6 +99429,7 @@ GolfTopia:
   cloud:
     discord: true
     steam: true
+  gog: 1924813316
   pageId: 151119
   steam: 1144020
   templates:
@@ -113469,6 +113474,8 @@ How Fish Is Made:
 How I Escaped Futa Prison:
   pageId: 184278
   steam: 2269230
+How Many Dudes?:
+  pageId: 219134
 How Mosquito Became Human:
   pageId: 123431
   steam: 862230

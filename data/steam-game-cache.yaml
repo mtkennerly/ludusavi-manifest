@@ -651282,6 +651282,10 @@
 3748520: {}
 3749580: {}
 3749720:
+  installDir: The Division Resurgence
+  launch:
+    - arguments: "-uplay_steam_mode -upc_steam_free_package_id 67778"
+      executable: TheDivision.exe
   nameLocalized:
     japanese: ディビジョン リサージェンス
     koreana: 더 디비전 리서전스

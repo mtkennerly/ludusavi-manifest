@@ -75468,12 +75468,12 @@ Beast of Reincarnation:
   cloud:
     steam: true
   files:
-    "<winAppData>/BeastOfReincarnation/Saved/Config/Windows":
+    "<winLocalAppData>/BeastOfReincarnation/Saved/Config/Windows":
       tags:
         - config
       when:
         - os: windows
-    "<winAppData>/BeastOfReincarnation/Saved/SaveGames":
+    "<winLocalAppData>/BeastOfReincarnation/Saved/SaveGames":
       tags:
         - config
         - save
@@ -295375,6 +295375,17 @@ Gear Gauntlet:
             store: steam
   steam:
     id: 486890
+Gear Grinder:
+  id:
+    lutris: sledgehammer-gear-grinder
+  installDir:
+    Sledgehammer: {}
+  launch:
+    "<base>/GearGrinder.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 285520
 Gear Path:
   cloud:
     steam: true
@@ -295518,16 +295529,7 @@ GearCity:
   steam:
     id: 285110
 GearGrinder:
-  id:
-    lutris: sledgehammer-gear-grinder
-  installDir:
-    Sledgehammer: {}
-  launch:
-    "<base>/GearGrinder.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 285520
+  alias: Gear Grinder
 GearGrit:
   steam:
     id: 2298250
@@ -307108,6 +307110,8 @@ GolfTopia:
         - config
       when:
         - os: windows
+  gog:
+    id: 1924813316
   installDir:
     GolfTopia: {}
   launch:
@@ -777387,6 +777391,13 @@ Toltec and the mysteries of the Secret Island:
         - os: windows
   id:
     lutris: tom-clancys-the-division-resurgence
+  installDir:
+    The Division Resurgence: {}
+  launch:
+    "<base>/TheDivision.exe":
+      - arguments: "-uplay_steam_mode -upc_steam_free_package_id 67778"
+        when:
+          - store: steam
   steam:
     id: 3749720
 "Tom Clancy's XDefiant":
