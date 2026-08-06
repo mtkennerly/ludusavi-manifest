@@ -31872,6 +31872,35 @@
     - description: Launch Sacred 3
       executable: sacred3.exe
 247970:
+  installDir: IL2Series
+  launch:
+    - arguments: or_enable=0
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: "bin\\game\\IL2Series.exe"
+      type: default
+      workingdir: "bin\\game"
+    - arguments: or_enable=2
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: "bin\\game\\IL2Series.exe"
+      type: openxr
+      workingdir: "bin\\game"
+    - arguments: or_enable=1
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: "bin\\game\\IL2Series.exe"
+      type: vr
+      workingdir: "bin\\game"
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "bin\\editor\\IL2Editor.exe"
+      type: editor
+      workingdir: "bin\\editor"
   nameLocalized:
     russian: Корея. Серия Ил-2
 248190:
@@ -615275,6 +615304,44 @@
         oslist: windows
       executable: Busway Islands - Puzzle.exe
       type: default
+2302080:
+  cloud:
+    saves:
+      - path: melessthanthree/DeathOfAWish
+        pattern: "*.gd"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: melessthanthree/DeathOfAWish
+            replace: melessthanthree/DeathOfAWish
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: melessthanthree/DeathOfAWish
+            replace: ".config/unity3d/melessthanthree/DeathOfAWish"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Death of a Wish
+  launch:
+    - config:
+        oslist: windows
+      executable: "\\Death of a Wish\\DeathOfAWish.exe"
+      type: default
+    - config:
+        oslist: macos
+      executable: Death of a Wish.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Death of a Wish.x86_64
+      type: default
+  nameLocalized:
+    japanese: デス・オブ・ア・ウィッシュ
+    schinese: 梦碎之境
 2302320: {}
 2302470: {}
 2303320:
@@ -637655,6 +637722,30 @@
     - executable: LHPC.exe
       type: default
 2950790:
+  cloud:
+    saves:
+      - path: Iron Nest/Iron Nest_ Heavy Turret Simulator/Live
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Iron Nest/Iron Nest_ Heavy Turret Simulator
+            replace: Iron Nest.Iron Nest_ Heavy Turret Simulator
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: unity3d/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Iron Nest Heavy Turret Simulator
+  launch:
+    - config:
+        oslist: windows
+      executable: Iron Nest Heavy Turret Simulator.exe
+      type: default
   nameLocalized:
     brazilian: "IRON NEST: Simulador de Artilharia Pesada"
     schinese: 铁巢重炮
@@ -647521,6 +647612,19 @@
       executable: themrrabbitmagicshow.app
       type: default
 3476880: {}
+3477860:
+  cloud:
+    saves:
+      - path: "SUCCESS Corp/SONIC WINGS REUNION/{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinSavedGames
+  installDir: SONIC WINGS REUNION
+  launch:
+    - config:
+        oslist: windows
+      executable: SONIC WINGS REUNION.exe
 3478050:
   installDir: roadtoempress
   launch:
@@ -651670,6 +651774,35 @@
     schinese: 浣熊推币机
     tchinese: 浣熊推幣機
 3787240:
+  cloud:
+    saves:
+      - path: "MTFSSteam/Saved/SAVE/{Steam3AccountID}"
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: MTFS
+  launch:
+    - description: Launch Game
+      executable: start_protected_game.exe
+    - config:
+        betakey: mtfs_debuggame
+      description: Direct Launch .exe file.(Only possible when EAC is disabled)
+      executable: REDSteam.exe
+    - config:
+        betakey: mtfs_multi
+      description: Launch TestROM .exe file.
+      executable: "Test\\Product\\REDSteam.exe"
+    - config:
+        betakey: mtfs_multi
+      description: Launch ShippingROM .exe file.
+      executable: "Shipping\\Product\\REDSteam.exe"
+    - config:
+        betakey: "mtfs_multi_2,mtfs_asw_multi"
+      description: Launch TestROM .exe file.
+      executable: "Test\\Product\\start_protected_game.exe"
+    - config:
+        betakey: "mtfs_multi_2,mtfs_asw_multi"
+      description: Launch ShippingROM .exe file.
+      executable: "Shipping\\Product\\start_protected_game.exe"
   nameLocalized:
     schinese: 《漫威斗魂》
     tchinese: "《MARVEL Tōkon: Fighting Souls》"
@@ -651885,6 +652018,28 @@
       description: "Habbo Hotel: Origins [Spanish - XL Client]"
       executable: HabboHotel-oes-xl.exe
 3812600:
+  cloud:
+    saves:
+      - path: "Mandragora\\Restory\\SaveData"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Mandragora\\Restory\\SaveData"
+            replace: Mandragora/Restory/SaveData
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Restory
+  launch:
+    - config:
+        oslist: windows
+      executable: Restory.exe
+    - config:
+        oslist: macos
+      executable: Restory.app
   nameLocalized:
     japanese: "リ・ストーリー: 思い出修理屋 "
     schinese: 维修物语
@@ -652975,6 +653130,39 @@
       description: FixForce Experimental Compatibility Mode (DX11)
       executable: "FixForce\\Binaries\\Win64\\FixForce.exe"
       type: option1
+3934250:
+  cloud:
+    saves:
+      - path: "Nippon Ichi Software, Inc\\Honogurashinoniwa"
+        pattern: save.*
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+      - path: "Nippon Ichi Software, Inc\\Honogurashinoniwa"
+        pattern: ".systemsave"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+      - path: "Nippon Ichi Software, Inc\\Honogurashinoniwa"
+        pattern: save.lst
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Village in the Shade
+  launch:
+    - executable: village.exe
+    - config:
+        betakey: "test,fornisa,debug"
+      description: debug
+      executable: villageR.exe
+  nameLocalized:
+    japanese: ほの暮しの庭
+    koreana: 고요한 시골 정원 이야기
+    schinese: 静谧田园
+    tchinese: 靜謐田園
 3935020:
   cloud:
     saves:
@@ -654922,7 +655110,13 @@
   installDir: Chef Knight
   launch:
     - executable: Chef Knight.exe
-4310610: {}
+4310610:
+  installDir: TheSkinStapler
+  launch:
+    - config:
+        oslist: windows
+      executable: "TheSkinStapler\\TheSkinStapler.exe"
+      type: default
 4317460: {}
 4317690: {}
 4323990:

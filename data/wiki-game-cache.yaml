@@ -24535,6 +24535,7 @@ Beat Cop:
   steam: 461950
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Pixel Crow\\Beat Cop}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Pixel Crow.Beat Cop.plist}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Pixel Crow\\Beat Cop\\BeatCopSaves18}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Pixel Crow.Beat Cop/BeatCopSaves18}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Pixel Crow/Beat Cop/BeatCopSaves18}}"
@@ -34354,8 +34355,10 @@ Brutal Inventions:
 Brutal Japan:
   pageId: 180032
   steam: 2025830
-Brutal John:
+Brutal John 2:
   pageId: 201204
+  renamedFrom:
+    - Brutal John
   steam: 1859620
 Brutal MooD:
   pageId: 91180
@@ -59556,6 +59559,12 @@ Death is better than Hell:
 Death of Desert:
   pageId: 129785
   steam: 1022670
+Death of a Wish:
+  pageId: 219177
+  steam: 2302080
+  templates:
+    - "{{Game data/config|Windows}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\melessthanthree\\DeathOfAWish\\savedGames.gd}}"
 Death of the Reprobate:
   cloud:
     gog: true
@@ -86019,8 +86028,11 @@ Fields of Glory:
 Fields of Mistria:
   cloud:
     steam: true
+  lutris: fields-of-mistria
   pageId: 196983
   steam: 2142790
+  steamSide:
+    - 3015670
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\FieldsOfMistria\\settings.json}}"
     - "{{Game data/config|Linux| }}"
@@ -120372,6 +120384,8 @@ Iron Meat:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Retroware\\Iron Meat\\save_gog}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Retroware\\Iron Meat\\save_gog}}"
 "Iron Nest: Heavy Turret Simulator":
+  cloud:
+    steam: true
   gog: 1162687982
   gogSide:
     - 2013434102
@@ -120381,6 +120395,9 @@ Iron Meat:
   steamSide:
     - 4300490
     - 4300500
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Iron Nest\\Iron Nest: Heavy Turret Simulator}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Iron Nest\\Iron Nest_ Heavy Turret Simulator\\Live}}"
 Iron Rebellion:
   pageId: 182503
   renamedFrom:
@@ -128585,6 +128602,10 @@ Korea. IL-2 Series:
   renamedFrom:
     - IL-2 Korea
   steam: 247970
+  steamSide:
+    - 5026020
+    - 5026030
+    - 5026460
 "Korea: Forgotten Conflict":
   pageId: 198341
 "Korean Scary Folk Tales VR: The Forbidden Book":
@@ -142817,6 +142838,17 @@ Marvel Trading Card Game:
   renamedFrom:
     - "MARVEL Tōkon: Fighting Souls"
   steam: 3787240
+  steamSide:
+    - 4839960
+    - 4848500
+    - 4848520
+    - 4848530
+    - 4848540
+    - 4848580
+    - 4848590
+    - 4848600
+    - 5030920
+    - 5030930
 "Marvel vs. Capcom Fighting Collection: Arcade Classics":
   cloud:
     steam: true
@@ -176178,6 +176210,8 @@ Platinum Pinball:
 Platonic Paranoia:
   pageId: 135293
   steam: 1071720
+Platoon (2002):
+  pageId: 219190
 Platoon Leader:
   pageId: 213758
 Platro:
@@ -186421,6 +186455,7 @@ ReSizE:
   steamSide:
     - 4146670
     - 4146680
+    - 5034500
 ReThink:
   cloud:
     steam: true
@@ -206260,6 +206295,8 @@ Shuffle!:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\YumeHaven\\Shuffle!\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\YumeHaven\\Shuffle!\\save\\}}"
+Shufflepuck Cafe:
+  pageId: 219187
 Shufflepuck Cantina Deluxe VR:
   cloud:
     steam: true
@@ -212705,6 +212742,9 @@ Sonic Triple Trouble 16-bit:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\options.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Sonic_Triple_Trouble_16_Bit\\}}"
+Sonic Wings Reunion:
+  pageId: 219170
+  steam: 3477860
 Sonic X Shadow Generations:
   cloud:
     steam: true
@@ -246517,11 +246557,16 @@ The Skies:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\eforb\\}}"
 The Skin Stapler:
+  gog: 1755267062
+  gogSide:
+    - 1609487216
   lutris: the-skin-stapler
   pageId: 216966
   steam: 4310610
   steamSide:
     - 4343530
+    - 4919810
+    - 4919860
 The Sky Climber:
   pageId: 120711
   steam: 958690
@@ -266906,6 +266951,11 @@ Village Rhapsody:
 Village Story:
   pageId: 58511
   steam: 601280
+Village in the Shade:
+  cloud:
+    steam: true
+  pageId: 219185
+  steam: 3934250
 Village of Adventurers 2:
   pageId: 73685
   steam: 727090
