@@ -20267,6 +20267,14 @@ BOOKS:
 BORIS the Mutant Bear with a Gun:
   pageId: 100322
   steam: 879060
+"BOSSGAME: The Final Boss Is My Heart":
+  cloud:
+    steam: true
+  pageId: 219159
+  steam: 2075160
+  templates:
+    - "{{Game data/config|Windows| {{p|userprofile\\appdata\\locallow}}\\LilycoreGamesLLC\\Bossgame }}"
+    - "{{Game data/saves|Windows| {{p|userprofile\\appdata\\locallow}}\\LilycoreGamesLLC\\Bossgame }}"
 BOSSGARD:
   cloud:
     steam: true
@@ -86013,7 +86021,9 @@ Fields of Mistria:
   steam: 2142790
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\FieldsOfMistria\\settings.json}}"
+    - "{{Game data/config|Linux| }}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\FieldsOfMistria\\saves\\}}"
+    - "{{Game data/saves|Linux| }}"
 Fiend:
   lutris: fiend
   pageId: 101851
@@ -221074,6 +221084,12 @@ Steins;Gate Elite:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\Steins Gate ELITE}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\Steins Gate ELITE}}"
+Steins;Gate Octet of Shifting Space:
+  pageId: 207735
+  renamedFrom:
+    - "Steins;Gate: Variant Space Octet"
+    - Steins;Gate Octet of Shifting Space
+    - "Steins;Gate: Variant Space Octet"
 "Steins;Gate Re:Boot":
   pageId: 207724
   renamedFrom:
@@ -221095,8 +221111,6 @@ Steins;Gate Elite:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\SG_Darling\\eng}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\SG_Darling\\eng}}"
-"Steins;Gate: Variant Space Octet":
-  pageId: 207735
 Stela:
   cloud:
     steam: true

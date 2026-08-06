@@ -63160,6 +63160,29 @@ BORIS the Mutant Bear with a Gun:
             store: steam
   steam:
     id: 879060
+"BOSSGAME: The Final Boss Is My Heart":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/LilycoreGamesLLC/Bossgame":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    BOSSGAME The Final Boss Is My Heart: {}
+  launch:
+    "<base>/Bossgame.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/release/Bossgame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2075160
 BOSSGARD:
   cloud:
     steam: true

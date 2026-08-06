@@ -602912,6 +602912,36 @@
     koreana: "체르노빌라이트 2: 금지구역"
     schinese: 切尔诺贝利人2：禁区
     tchinese: 車諾比人 2：禁區
+2075160:
+  cloud:
+    saves:
+      - path: LilycoreGamesLLC/Bossgame/
+        pattern: "*.rook"
+        root: WinAppDataLocalLow
+      - path: LilycoreGamesLLC/Bossgame/
+        pattern: "*.rook"
+        root: MacAppSupport
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: LilycoreGamesLLC/Bossgame/
+            replace: LilycoreGamesLLC/Bossgame/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: LilycoreGamesLLC/Bossgame/
+        os: Windows
+        osCompare: "="
+        root: MacAppSupport
+        useInstead: WinAppDataLocalLow
+  installDir: BOSSGAME The Final Boss Is My Heart
+  launch:
+    - config:
+        oslist: windows
+      executable: release/Bossgame.exe
+    - config:
+        oslist: macos
+      executable: Bossgame.app
 2075240:
   installDir: Baby Shark
   launch:
