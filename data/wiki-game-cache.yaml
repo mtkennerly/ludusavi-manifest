@@ -66392,8 +66392,10 @@ Dominari Tournament:
     - "{{Game data/saves|Linux|~/.dominions5/savedgames}}"
 "Dominions II: The Ascension Wars":
   pageId: 177304
+  steam: 3533600
 "Dominions: Priests, Prophets & Pretenders":
   pageId: 177299
+  steam: 3520220
 Dominique Pamplemousse:
   pageId: 50586
   steam: 270310
@@ -248253,8 +248255,11 @@ The Walking Dead Onslaught:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\The Walking Dead Season Two\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/The Walking Dead - Season Two/}}"
 "The Walking Dead: Streets of Survival":
+  lutris: the-walking-dead-streets-of-survival--1
   pageId: 217683
   steam: 3777850
+  steamSide:
+    - 4718570
 "The Walking Dead: Survival Instinct":
   cloud:
     steam: true
@@ -257806,6 +257811,12 @@ Treehouse Riddle:
 "Treeker: The Lost Glasses":
   pageId: 47915
   steam: 369640
+Trees Hate You:
+  lutris: trees-hate-you
+  pageId: 219163
+  steam: 4171850
+  steamSide:
+    - 4307190
 Treis Zoes:
   pageId: 157265
   steam: 1202430
@@ -259443,6 +259454,8 @@ Tsumi:
 Tsun-Tsun VR:
   pageId: 102331
   steam: 867090
+Tsunami 2265:
+  pageId: 219162
 Tsundere Idol:
   pageId: 94370
   steam: 795160

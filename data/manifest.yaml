@@ -205624,6 +205624,38 @@ Dominions 5 - Warriors of the Faith:
         workingDir: "<base>/win64"
   steam:
     id: 722060
+"Dominions II: The Ascension Wars":
+  installDir:
+    Dominions2: {}
+  launch:
+    "<base>/Dominions2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/dom2_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 3533600
+"Dominions: Priests, Prophets & Pretenders":
+  installDir:
+    Dominions: {}
+  launch:
+    "<base>/Dominions1.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/dom_amd64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 3520220
 Dominique Pamplemousse:
   id:
     steamExtra:
@@ -762927,6 +762959,10 @@ The Walking Dead Onslaught:
   steam:
     id: 261030
 "The Walking Dead: Streets of Survival":
+  id:
+    lutris: the-walking-dead-streets-of-survival--1
+    steamExtra:
+      - 4718570
   steam:
     id: 3777850
 "The Walking Dead: Survival Instinct":
@@ -790025,6 +790061,13 @@ Treehouse Riddle:
     Treeker The Lost Glasses: {}
   steam:
     id: 369640
+Trees Hate You:
+  id:
+    lutris: trees-hate-you
+    steamExtra:
+      - 4307190
+  steam:
+    id: 4171850
 Treis Zoes:
   steam:
     id: 1202430

@@ -648125,6 +648125,19 @@
         oslist: windows
       description: Play Merge Maestro (OpenGL3)
       executable: Merge Maestro.exe
+3520220:
+  installDir: Dominions
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Dominions1.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: dom_amd64
+      type: default
 3522140:
   cloud:
     saves:
@@ -648359,6 +648372,19 @@
     - config:
         oslist: windows
       executable: DrivingLife.exe
+      type: default
+3533600:
+  installDir: Dominions2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Dominions2.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: dom2_amd64
       type: default
 3533730:
   installDir: Project Fletcher
@@ -654333,6 +654359,7 @@
         oslist: windows
       executable: Veil_of_Mist.exe
       type: default
+4171850: {}
 4172530:
   installDir: Legend of YMIR
   launch:
