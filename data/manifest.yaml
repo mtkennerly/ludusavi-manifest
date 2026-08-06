@@ -371793,6 +371793,7 @@ Is It Wrong to Try to Pick Up Girls in a Dungeon? Infinite Combate:
     id: 1187940
 Is This Seat Taken?:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/PotiPoti/Is This Seat Taken/GraphicsSettings.save":
@@ -371845,6 +371846,8 @@ Is This Seat Taken?:
         - config
       when:
         - os: linux
+  gog:
+    id: 1370376493
   id:
     lutris: is-this-seat-taken
   installDir:
@@ -704141,6 +704144,17 @@ Synth Riders:
     SynthRiders: {}
   steam:
     id: 885000
+Synthaly Universe:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/SynthalyUniverse/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+  steam:
+    id: 4757750
 Synther:
   steam:
     id: 752960

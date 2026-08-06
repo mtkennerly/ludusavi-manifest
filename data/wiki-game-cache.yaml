@@ -120589,7 +120589,9 @@ Is It Wrong to Try to Pick Up Girls in a Dungeon? Infinite Combate:
   steam: 1187940
 Is This Seat Taken?:
   cloud:
+    gog: true
     steam: true
+  gog: 1370376493
   lutris: is-this-seat-taken
   pageId: 208493
   steam: 3035120
@@ -228996,6 +228998,13 @@ Synth Ninja:
 Synth Riders:
   pageId: 99938
   steam: 885000
+Synthaly Universe:
+  cloud:
+    steam: true
+  pageId: 219167
+  steam: 4757750
+  templates:
+    - "{{Game data/config|Windows| {{p|localappdata}}\\SynthalyUniverse\\Saved\\Config\\WindowsNoEditor\\ }}"
 Synther:
   pageId: 93339
   steam: 752960
