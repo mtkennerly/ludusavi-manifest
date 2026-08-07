@@ -255619,12 +255619,23 @@ Fairy Tail 2:
     "<home>/AppData/LocalLow/ginolabo/FAIRY TAIL DUNGEONS/*.es3":
       when:
         - store: steam
+    "<home>/Library/Application Support/ginolabo/FAIRY TAIL DUNGEONS/*.es3":
+      when:
+        - os: mac
+          store: steam
   installDir:
     FAIRY TAIL DUNGEONS: {}
   launch:
+    "<base>/FAIRY TAIL DUNGEONS.app/Contents/MacOS/FAIRY TAIL DUNGEONS":
+      - when:
+          - os: mac
+            store: steam
     "<base>/FAIRY TAIL DUNGEONS.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
   steam:
     id: 2305500
 "Fairy Tale About Father Frost, Ivan and Nastya":
@@ -295844,6 +295855,12 @@ Gears of War 4:
       when:
         - os: windows
 "Gears of War: E-Day":
+  files:
+    "<winLocalAppData>/FairlightConcept/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
   steam:
     id: 3010850
 "Gears of War: Reloaded":

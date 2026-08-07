@@ -10819,7 +10819,6 @@
 * [Gearguns: Tank Offensive](https://www.pcgamingwiki.com/wiki/?curid=40440)
 * [Gearheads](https://www.pcgamingwiki.com/wiki/?curid=210067)
 * [Gears of Eden](https://www.pcgamingwiki.com/wiki/?curid=82215)
-* [Gears of War: E-Day](https://www.pcgamingwiki.com/wiki/?curid=195567)
 * [Gears Pop!](https://www.pcgamingwiki.com/wiki/?curid=143617)
 * [Gearspark](https://www.pcgamingwiki.com/wiki/?curid=202140)
 * [GearStorm](https://www.pcgamingwiki.com/wiki/?curid=135764)

@@ -95851,6 +95851,8 @@ Gears of War 4:
     xbox: true
   pageId: 195567
   steam: 3010850
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\FairlightConcept\\Saved\\Config\\}}"
 "Gears of War: Reloaded":
   cloud:
     steam: true
@@ -148451,6 +148453,8 @@ Minecraft Legends:
     - "{{Game data/config|Windows|{{P|appdata}}\\Minecraft Legends\\{{P|uid}}\\minecraftpe\\local}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Minecraft Legends\\{{P|uid}}\\}}"
 "Minecraft: Bedrock Edition":
+  cloud:
+    xbox: true
   pageId: 26177
   renamedFrom:
     - "Minecraft: Windows 10 Edition"

@@ -602262,7 +602262,9 @@
       executable: "DOSBox\\dosbox.exe"
       type: option1
       workingdir: "DOSBox\\Configuration"
-2067210: {}
+2067210:
+  nameLocalized:
+    schinese: 英雄萨姆：破碎宇宙
 2067350:
   cloud:
     saves:
@@ -615462,14 +615464,30 @@
       - path: ginolabo/FAIRY TAIL DUNGEONS
         pattern: "*.es3"
         root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ginolabo/FAIRY TAIL DUNGEONS
+            replace: ginolabo/FAIRY TAIL DUNGEONS
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: FAIRY TAIL DUNGEONS
   launch:
-    - executable: FAIRY TAIL DUNGEONS.exe
+    - config:
+        oslist: windows
+      executable: FAIRY TAIL DUNGEONS.exe
+    - config:
+        oslist: macos
+      executable: "FAIRY TAIL DUNGEONS.app\\Contents\\MacOS\\FAIRY TAIL DUNGEONS"
+    - config:
+        oslist: linux
+      executable: FAIRY TAIL DUNGEONS.exe
   nameLocalized:
     japanese: FAIRY TAIL ダンジョンズ
     koreana: "FAIRY TAIL 던전스 "
-    schinese: FAIRY TAIL 地下迷城
-    tchinese: FAIRY TAIL 地下迷城
+    schinese: 妖精的尾巴 地下迷城
+    tchinese: 魔導少年 地下迷城
 2305840:
   cloud:
     saves:
