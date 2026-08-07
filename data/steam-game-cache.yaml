@@ -648991,6 +648991,7 @@
     japanese: カプセル恋人
     schinese: 胶囊恋人
     tchinese: 膠囊戀人
+3560870: {}
 3561220:
   cloud:
     saves:
@@ -651044,6 +651045,7 @@
   nameLocalized:
     schinese: 没落贵族的大小姐
     tchinese: 沒落貴族的大小姐
+3702100: {}
 3702550:
   nameLocalized:
     schinese: SOS录音档案
@@ -654287,6 +654289,12 @@
         osarch: "64"
         oslist: linux
       executable: Machine Party_Linux/Machine Party.x86_64
+    - arguments: "--rendering-driver d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Direct3D 12 (If experiencing graphical issues)
+      executable: Machine Party_Windows/Machine Party.exe
   nameLocalized:
     schinese: 机械狂欢
     tchinese: " 機械狂歡"

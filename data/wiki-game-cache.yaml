@@ -45164,6 +45164,7 @@ Cloudy with a Chance of Meatballs:
 Clouzy!:
   cloud:
     steam: true
+  gog: 1542061104
   pageId: 175395
   steam: 1493360
   steamSide:
@@ -121326,6 +121327,9 @@ Izeriya:
   steam: 463830
 Iznogoud:
   pageId: 209785
+"Izzy's Arcade":
+  pageId: 219198
+  steam: 3560870
 I・S・U:
   cloud:
     steam: true
@@ -133988,6 +133992,9 @@ Light (2018):
 Light Apprentice:
   pageId: 57466
   steam: 569570
+  templates:
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Amazu Media\\Light Apprentice\\}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Amazu Media\\Light Apprentice\\}}"
 Light Bearers:
   cloud:
     steam: true
@@ -167835,6 +167842,7 @@ Outer Wilds:
 Outerverse:
   cloud:
     steam: true
+  gog: 2076435096
   pageId: 174061
   steam: 1293540
 Outland:
@@ -213155,6 +213163,8 @@ Soul Scathe:
 Soul Searching:
   pageId: 57795
   steam: 586240
+  templates:
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Kayabros\\Soul Searching\\}}"
 Soul Shards:
   pageId: 88202
   steam: 400070
@@ -213601,6 +213611,8 @@ Sovereign Syndicate:
   steamSide:
     - 2748230
     - 2748380
+Sovereign Tower:
+  pageId: 219205
 "Sovereign's Will":
   pageId: 156999
   steam: 1047560
@@ -228310,6 +228322,8 @@ Switchcars:
 Switcher:
   pageId: 102325
   steam: 896940
+Switchfire:
+  pageId: 219202
 Swollen to Bursting Until I Am Disappearing On Purpose:
   pageId: 193084
   renamedFrom:
@@ -243496,6 +243510,7 @@ The Mortuary Assistant:
   pageId: 181197
   steam: 1295920
   steamSide:
+    - 1295940
     - 2080860
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\DarkStone Digital\\The Mortuary Assistant}}"
@@ -245826,6 +245841,12 @@ The Secret of Tremendous Corporation:
     - 384170
     - 384171
     - 408940
+The Secret of Weepstone:
+  lutris: the-secret-of-weepstone
+  pageId: 219200
+  steam: 3702100
+  steamSide:
+    - 3876150
 "The Secrets of Atlantis: The Sacred Legacy":
   pageId: 195247
 The Secrets of Jesus:
