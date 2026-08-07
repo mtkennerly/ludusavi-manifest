@@ -153049,6 +153049,9 @@ Mowteor:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\jgui3.ini}}"
     - "{{Game data/saves|Windows|{{P|game}}\\base\\savegames\\}}"
+Moylo:
+  pageId: 219193
+  steam: 4877950
 Moysenland:
   pageId: 149138
   steam: 1148110
@@ -204446,6 +204449,7 @@ Shark Dating Simulator XL:
   pageId: 64858
   steam: 666020
 Shark Dentist:
+  lutris: shark-dentist
   pageId: 216232
   steam: 3423280
 Shark Simulator:

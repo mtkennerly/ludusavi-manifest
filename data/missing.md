@@ -17455,6 +17455,7 @@
 * [Movit](https://www.pcgamingwiki.com/wiki/?curid=88726)
 * [Mowed](https://www.pcgamingwiki.com/wiki/?curid=199896)
 * [Mowin' & Throwin'](https://www.pcgamingwiki.com/wiki/?curid=92345)
+* [Moylo](https://www.pcgamingwiki.com/wiki/?curid=219193)
 * [Mozart: The Conspirators of Prague](https://www.pcgamingwiki.com/wiki/?curid=91330)
 * [Moékuri: Adorable + Tactical SRPG](https://www.pcgamingwiki.com/wiki/?curid=54647)
 * [Mr Blaster](https://www.pcgamingwiki.com/wiki/?curid=64034)

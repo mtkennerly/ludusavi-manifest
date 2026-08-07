@@ -514376,7 +514376,7 @@
       type: default
     - arguments: "-steam +steam_environment dev +vtx_environment dev"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300
         osarch: "64"
         oslist: windows
       description: Dev Endpoints (EOS)
@@ -514384,7 +514384,7 @@
       type: option1
     - arguments: "-steam"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300
         osarch: "64"
         oslist: windows
       description: Prod Endpoints (EOS)
@@ -655881,7 +655881,15 @@
 4603230: {}
 4605200: {}
 4605490: {}
-4619420: {}
+4619420:
+  installDir: Slot Grind
+  launch:
+    - config:
+        oslist: windows
+      executable: SlotGrind.exe
+    - config:
+        oslist: macos
+      executable: SlotGrind.app/Contents/MacOS/SlotGrind
 4624100: {}
 4632530:
   installDir: Dog of Wisdom
@@ -656008,6 +656016,7 @@
 4849120: {}
 4856150: {}
 4863030: {}
+4877950: {}
 4886450:
   nameLocalized:
     japanese: Hexzen ヘクスゼン

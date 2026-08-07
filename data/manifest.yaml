@@ -470424,6 +470424,9 @@ Mowteor:
         - config
       when:
         - os: windows
+Moylo:
+  steam:
+    id: 4877950
 Moysenland:
   files:
     "<home>/AppData/LocalLow/Marianne Hellberg/Moysenland/*.":
@@ -627811,6 +627814,8 @@ Shark Dating Simulator XL:
   steam:
     id: 666020
 Shark Dentist:
+  id:
+    lutris: shark-dentist
   steam:
     id: 3423280
 Shark Simulator:
@@ -645380,6 +645385,17 @@ Sloppy Goat:
 Slot Grind:
   id:
     lutris: slot-grind
+  installDir:
+    Slot Grind: {}
+  launch:
+    "<base>/SlotGrind.app/Contents/MacOS/SlotGrind":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SlotGrind.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4619420
 Sloth Quest:
