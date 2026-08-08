@@ -550906,7 +550906,10 @@
       executable: RSDragonwilds.exe
       type: option1
   nameLocalized:
+    japanese: "RuneScape: Dragonwilds ルーンスケープ：ドラゴンワイルズ"
+    koreana: "RuneScape: Dragonwilds 룬스케이프: 드래곤와일즈"
     schinese: "RuneScape: Dragonwilds 符文世界：龙之荒野"
+    tchinese: "RuneScape: Dragonwilds 符文世界：龍之荒野"
 1374840:
   cloud:
     saves:
@@ -651463,7 +651466,9 @@
   launch:
     - executable: defiance.exe
       type: default
-3748520: {}
+3748520:
+  nameLocalized:
+    schinese: 畸域零
 3749580: {}
 3749720:
   installDir: The Division Resurgence
