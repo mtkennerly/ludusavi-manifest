@@ -113049,6 +113049,11 @@ Caladria Chronicles:
             store: steam
   steam:
     id: 997530
+"Caladrius 2: Dark Element":
+  cloud:
+    steam: true
+  steam:
+    id: 4655000
 Caladrius Blaze:
   cloud:
     steam: true
@@ -125045,8 +125050,21 @@ Cellar:
   steam:
     id: 449060
 Cellar Keeper:
+  files:
+    "<home>/AppData/LocalLow/EgoTrampoline/Cellar Keeper/*.cellar":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: cellar-keeper
+  installDir:
+    Cellar Keeper: {}
+  launch:
+    "<base>/Cellar Keeper.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4935510
 "Cellfactor: Revolution":
@@ -199639,10 +199657,16 @@ Dinoblade:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/DinobladeGame/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/DinobladeGame/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/DinobladeGame/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: dinoblade
     steamExtra:
@@ -223686,6 +223710,7 @@ Duskfade:
     lutris: duskfade--1
     steamExtra:
       - 4023080
+      - 4934950
   steam:
     id: 2542020
 "Duskless: The Clockwork Army":
@@ -574734,7 +574759,20 @@ Reanimal:
   gog:
     id: 1209105161
   id:
+    gogExtra:
+      - 1087283537
+      - 1265251347
+      - 1432983998
+      - 1740138148
+      - 2106070936
     lutris: reanimal
+    steamExtra:
+      - 3954470
+      - 4019420
+      - 4112550
+      - 4351720
+      - 4430060
+      - 4733900
   installDir:
     REANIMAL: {}
   launch:

@@ -655955,6 +655955,9 @@
     koreana: 수박게임 플래닛
     schinese: 西瓜游戏 Planet
     tchinese: 西瓜遊戲 Planet
+4655000:
+  nameLocalized:
+    japanese: カラドリウス2/ダークエレメント
 4658830: {}
 4665290:
   nameLocalized:
@@ -656059,5 +656062,19 @@
       executable: Neurohunter.exe
       type: default
 4932120: {}
-4935510: {}
+4935510:
+  cloud:
+    saves:
+      - path: "EgoTrampoline\\Cellar Keeper"
+        pattern: "*.cellar"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Cellar Keeper
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Default
+      executable: Cellar Keeper.exe
 3221903386: {}

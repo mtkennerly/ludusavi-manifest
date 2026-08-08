@@ -36577,6 +36577,11 @@ Caketomino:
 Caladria Chronicles:
   pageId: 127185
   steam: 997530
+"Caladrius 2: Dark Element":
+  cloud:
+    steam: true
+  pageId: 219217
+  steam: 4655000
 Caladrius Blaze:
   cloud:
     steam: true
@@ -64354,6 +64359,9 @@ Dinoblade:
   steam: 3440070
   steamSide:
     - 4106740
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\DinobladeGame\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\DinobladeGame\\Saved\\SaveGames\\}}"
 Dinobreak:
   pageId: 195825
   steam: 1932180
@@ -72051,6 +72059,7 @@ Duskfade:
   steam: 2542020
   steamSide:
     - 4023080
+    - 4934950
 "Duskless: The Clockwork Army":
   pageId: 135240
   steam: 1078750
@@ -187131,9 +187140,22 @@ Reanimal:
     steam: true
     xbox: true
   gog: 1209105161
+  gogSide:
+    - 1087283537
+    - 1265251347
+    - 1432983998
+    - 1740138148
+    - 2106070936
   lutris: reanimal
   pageId: 197182
   steam: 2129530
+  steamSide:
+    - 3954470
+    - 4019420
+    - 4112550
+    - 4351720
+    - 4430060
+    - 4733900
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Everholm\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\REANIMAL\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
