@@ -47936,6 +47936,14 @@ Conquer the Tower:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\CONQUER.INI|{{p|game}}\\DEFAULT.DAT}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME\\}}"
+Conquest Dark:
+  cloud:
+    steam: true
+  pageId: 219219
+  steam: 3238670
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Settings.ini}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\SaveData.data}}"
 "Conquest Earth: First Encounter":
   pageId: 209603
 Conquest of Champions:
@@ -111344,6 +111352,12 @@ Hocus 2:
     steam: true
   pageId: 164996
   steam: 1460610
+Hocus Focus:
+  cloud:
+    steam: true
+  lutris: hocus-focus--1
+  pageId: 212657
+  steam: 4202710
 Hocus Pocus:
   cloud:
     gog: true
@@ -190520,8 +190534,6 @@ Return to Castle Wolfenstein:
   lutris: return-to-castle-wolfenstein
   pageId: 5849
   steam: 9010
-  steamSide:
-    - 1379630
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Main\\wolfconfig.cfg|{{p|game}}\\Main\\wolfconfig_mp.cfg|{{p|userprofile\\Documents}}\\RTCW\\main\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Main\\save\\|{{p|userprofile\\Documents}}\\RTCW\\main\\save\\}}"
@@ -208244,6 +208256,8 @@ Skate Story:
     gog: true
     steam: true
   gog: 1322527974
+  gogSide:
+    - 1264697411
   lutris: skate-story
   pageId: 211868
   steam: 1263240

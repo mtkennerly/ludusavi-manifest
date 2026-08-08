@@ -149091,6 +149091,29 @@ Conquer the Tower:
         - os: dos
   gog:
     id: 2110944433
+Conquest Dark:
+  cloud:
+    steam: true
+  files:
+    "<base>/SaveData.data":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Conquest Dark: {}
+  launch:
+    "<base>/Conquest Dark.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3238670
 Conquest of Champions:
   id:
     steamExtra:
@@ -343355,6 +343378,31 @@ Hocus 2:
             store: steam
   steam:
     id: 1460610
+Hocus Focus:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Stuck In Attic/Hocus Focus/*.dat":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: hocus-focus--1
+  installDir:
+    Hocus Focus: {}
+  launch:
+    "<base>/Hocus Focus.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/HocusFocus.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 4202710
 Hocus Pocus:
   cloud:
     gog: true
@@ -639474,6 +639522,8 @@ Skate Story:
   gog:
     id: 1322527974
   id:
+    gogExtra:
+      - 1264697411
     lutris: skate-story
     steamExtra:
       - 4213570

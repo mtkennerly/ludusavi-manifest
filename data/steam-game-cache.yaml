@@ -643697,6 +643697,18 @@
       description: Launch
       executable: awok.exe
       type: default
+3238670:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.data"
+        root: gameinstall
+  installDir: Conquest Dark
+  launch:
+    - config:
+        oslist: windows
+      executable: Conquest Dark.exe
+      type: default
 3238950:
   cloud:
     saves:
@@ -654757,6 +654769,28 @@
     schinese: 乌龙派出所~阿两的商店街物语~
     tchinese: 烏龍派出所～阿兩的商店街物語～
 4202540: {}
+4202710:
+  cloud:
+    saves:
+      - path: "\\Stuck In Attic\\Hocus Focus"
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Hocus Focus
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Hocus Focus.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: HocusFocus.x86_64
+      type: default
+  nameLocalized:
+    schinese: 专注魔法屋
 4208140: {}
 4209010:
   installDir: Lakehopper
