@@ -22769,6 +22769,8 @@ Batman Returns:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\ArkhamVR\\Saved\\SaveGames\\BatmanVR_{{P|uid}}.sav}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\ArkhamVR\\Saved\\SaveGames\\BatmanVR_{{P|uid}}.sav}}"
+"Batman: The Caped Crusader":
+  pageId: 219230
 "Batman: The Enemy Within - The Telltale Series":
   cloud:
     gog: true
@@ -78711,6 +78713,8 @@ Esoteric Ebb:
     - 2310250
     - 4338380
     - 4438390
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Christoffer Bodegard\\Esoteric Ebb\\SaveFiles}}"
 España 1936:
   pageId: 172043
   renamedFrom:

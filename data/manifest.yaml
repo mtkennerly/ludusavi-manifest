@@ -244138,12 +244138,11 @@ Esoteric Ebb:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Christoffer Bodegard/Esoteric Ebb/SaveFiles/*.es3":
+    "<home>/AppData/LocalLow/Christoffer Bodegard/Esoteric Ebb/SaveFiles":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/Christoffer Bodegard/Esoteric Ebb/SaveFiles/*.jpg":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: esoteric-ebb
     steamExtra:
