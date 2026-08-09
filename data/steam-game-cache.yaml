@@ -122510,9 +122510,11 @@
 395570:
   installDir: We Are The Dwarves
   launch:
-    - config:
+    - arguments: "%command%"
+      config:
+        osarch: "64"
         oslist: windows
-      executable: watd.exe
+      executable: WATDLauncher.exe
       type: default
     - config:
         oslist: macos
@@ -122523,6 +122525,12 @@
         osarch: "64"
         oslist: linux
       executable: watd.x86_64
+      type: default
+    - config:
+        betakey: test
+        osarch: "64"
+        oslist: windows
+      executable: WeAreTheDwarves.exe
       type: default
 395580:
   installDir: Inventioneers
@@ -574189,34 +574197,7 @@
   nameLocalized:
     schinese: 邪恶巢穴设计师 Chambers of Devious Design
 1651560:
-  cloud:
-    saves:
-      - path: Grenaa Games/Fabledom/SaveData
-        pattern: "*"
-        root: WinAppDataLocalLow
-    overrides:
-      - os: MacOS
-        osCompare: "="
-        pathTransforms:
-          - find: Grenaa Games/Fabledom/SaveData
-            replace: unty.Grenaa Games.Fabledom.SaveData
-        root: WinAppDataLocalLow
-        useInstead: MacAppSupport
-      - os: Linux
-        osCompare: "="
-        pathTransforms:
-          - find: Grenaa Games/Fabledom/SaveData
-            replace: ".config/unity3d/Grenaa Games/Fabledom/SaveData"
-        root: WinAppDataLocalLow
-        useInstead: LinuxHome
-  installDir: Fabledom
-  launch:
-    - config:
-        oslist: windows
-      executable: Fabledom.exe
-      type: default
   nameLocalized:
-    sc_schinese: 寓言之地(Fabledom)
     schinese: 寓言之地 (Fabledom)
 1651960:
   cloud:
@@ -656100,6 +656081,7 @@
         oslist: windows
       executable: Neurohunter.exe
       type: default
+4918810: {}
 4932120: {}
 4935510:
   cloud:

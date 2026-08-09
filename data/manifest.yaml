@@ -125050,6 +125050,8 @@ Cellar:
   steam:
     id: 449060
 Cellar Keeper:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/EgoTrampoline/Cellar Keeper/*.cellar":
       when:
@@ -168410,6 +168412,8 @@ Cyberpunk SFX:
           store: steam
   gog:
     id: 1638321975
+  id:
+    lutris: cyberpunk-sfx
   installDir:
     Cyberpunk SFX: {}
   launch:
@@ -223730,7 +223734,7 @@ Duskfade:
   cloud:
     steam: true
   id:
-    lutris: duskfade--1
+    lutris: duskfade
     steamExtra:
       - 4023080
       - 4934950
@@ -254133,13 +254137,6 @@ Fabledom:
         - os: windows
   id:
     lutris: fabledom
-  installDir:
-    Fabledom: {}
-  launch:
-    "<base>/Fabledom.exe":
-      - when:
-          - os: windows
-            store: steam
   registry:
     HKEY_CURRENT_USER/Software/Grenaa Games/Fabledom:
       tags:
@@ -466626,6 +466623,10 @@ Moonlighter:
         - os: windows
   id:
     lutris: moonlighter-2-the-endless-vault
+    steamExtra:
+      - 3670000
+      - 4036250
+      - 4935250
   installDir:
     Moonlighter 2 The Endless Vault: {}
   launch:
@@ -534030,6 +534031,9 @@ Pimiko Plus:
 Pimp Tight:
   steam:
     id: 555100
+"Pinata Smash: Incremental Circus":
+  steam:
+    id: 4918810
 Pinball:
   installDir:
     Pinball: {}
@@ -833165,13 +833169,15 @@ We Are the Dwarves:
   installDir:
     We Are The Dwarves: {}
   launch:
+    "<base>/WATDLauncher.exe":
+      - arguments: "%command%"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
     "<base>/watd.app":
       - when:
           - os: mac
-            store: steam
-    "<base>/watd.exe":
-      - when:
-          - os: windows
             store: steam
     "<base>/watd.x86_64":
       - arguments: "-force-opengl"

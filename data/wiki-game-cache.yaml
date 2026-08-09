@@ -8902,6 +8902,8 @@ Akane the Kunoichi:
   steam: 1098370
   steamSide:
     - 1136430
+Akatori:
+  pageId: 219231
 Akda:
   pageId: 78422
   steam: 761630
@@ -40372,6 +40374,8 @@ Cellar:
   pageId: 37770
   steam: 449060
 Cellar Keeper:
+  cloud:
+    steam: true
   lutris: cellar-keeper
   pageId: 219062
   steam: 4935510
@@ -54239,6 +54243,7 @@ Cyberpunk SFX:
     epic: true
     steam: true
   gog: 1638321975
+  lutris: cyberpunk-sfx
   pageId: 214131
   steam: 1465260
 Cyberpunk Sex Simulator:
@@ -72064,7 +72069,7 @@ Duskfade:
   cloud:
     steam: true
     xbox: true
-  lutris: duskfade--1
+  lutris: duskfade
   pageId: 207340
   steam: 2542020
   steamSide:
@@ -151752,6 +151757,10 @@ Moonlighter:
   lutris: moonlighter-2-the-endless-vault
   pageId: 205207
   steam: 2350790
+  steamSide:
+    - 3670000
+    - 4036250
+    - 4935250
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\11BitStudios\\Moonlighter 2 The Endless Vault\\*.bin}}"
 Moonlit Mayhem:
@@ -174127,6 +174136,9 @@ Pimp Tight:
   steam: 555100
 Pin Town:
   pageId: 178231
+"Pinata Smash: Incremental Circus":
+  pageId: 219233
+  steam: 4918810
 Pinball:
   pageId: 75471
   steam: 745120
