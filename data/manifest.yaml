@@ -230370,6 +230370,18 @@ Eclipsed:
     Eclipsed: {}
   steam:
     id: 439740
+Eclipsium:
+  id:
+    lutris: eclipsium
+  installDir:
+    Eclipsium: {}
+  launch:
+    "<base>/Eclipsium.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2419670
 Eco:
   files:
     "<base>/Eco_Data/Server/Configs":
@@ -686708,6 +686720,8 @@ Stronghold Crusader 2:
       - 3030340
       - 3030350
       - 4227730
+      - 4483530
+      - 4483540
   installDir:
     Stronghold Crusader Definitive Edition: {}
   launch:

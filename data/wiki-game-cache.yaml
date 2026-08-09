@@ -74377,6 +74377,10 @@ Eclipse Breaker:
 Eclipsed:
   pageId: 44581
   steam: 439740
+Eclipsium:
+  lutris: eclipsium
+  pageId: 219256
+  steam: 2419670
 Eco:
   pageId: 37074
   steam: 382310
@@ -223500,6 +223504,8 @@ Stronghold Crusader 2:
     - 3030340
     - 3030350
     - 4227730
+    - 4483530
+    - 4483540
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\Saves\\|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\Maps\\|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\UserWorkshopMaps\\|{{p|userprofile\\appdata\\locallow}}\\Firefly Studios\\Stronghold Crusader Definitive Edition\\skirmishmasters.cfg}}"

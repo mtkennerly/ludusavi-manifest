@@ -620386,6 +620386,15 @@
       executable: TangoPC.exe
       type: default
 2419240: {}
+2419670:
+  installDir: Eclipsium
+  launch:
+    - config:
+        oslist: windows
+      executable: Eclipsium.exe
+      type: default
+  nameLocalized:
+    schinese: 蚀之境 Eclipsium
 2420110:
   cloud:
     saves:

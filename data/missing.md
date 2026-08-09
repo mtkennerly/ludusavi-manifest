@@ -8341,6 +8341,7 @@
 * [Eclipse: Defending the Motherland](https://www.pcgamingwiki.com/wiki/?curid=42878)
 * [Eclipse: New Dawn for the Galaxy](https://www.pcgamingwiki.com/wiki/?curid=39049)
 * [Eclipsed](https://www.pcgamingwiki.com/wiki/?curid=44581)
+* [Eclipsium](https://www.pcgamingwiki.com/wiki/?curid=219256)
 * [Eco Breaker](https://www.pcgamingwiki.com/wiki/?curid=216521)
 * [ECON](https://www.pcgamingwiki.com/wiki/?curid=123964)
 * [Economic Conquest](https://www.pcgamingwiki.com/wiki/?curid=55930)
