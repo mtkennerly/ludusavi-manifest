@@ -642720,7 +642720,28 @@
       description: Late Emergency
       executable: Late Emergency.exe
       type: default
-3182950: {}
+3182950:
+  cloud:
+    saves:
+      - path: TechnoMyth/Matchstick/Saves
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: TechnoMyth/Matchstick/Settings
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Matchstick Cosmic Flame
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Matchstick.exe
+      type: default
 3183280:
   installDir: Game of Thrones Kingsroad
   launch:
@@ -648858,6 +648879,7 @@
   launch:
     - executable: W40k.exe
       type: default
+3557060: {}
 3557370:
   cloud:
     saves:
@@ -655927,6 +655949,31 @@
 4603230: {}
 4605200: {}
 4605490: {}
+4611990:
+  cloud:
+    saves:
+      - path: Loxarc/jsp3
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Loxarc/jsp3
+        pattern: "*.dat"
+        platforms:
+          - MacOS
+        root: MacAppSupport
+  installDir: 日本事故物件監視協会3 -Japan Stigmatized Property-
+  launch:
+    - config:
+        oslist: windows
+      executable: "Steam\\jsp3.exe"
+      type: default
+    - config:
+        oslist: macos
+      executable: "Steam\\jsp3.app"
+      type: default
+  nameLocalized:
+    japanese: 日本事故物件監視協会3 -Japan Stigmatized Property-
 4619420:
   installDir: Slot Grind
   launch:

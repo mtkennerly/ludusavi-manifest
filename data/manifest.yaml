@@ -273450,6 +273450,11 @@ Floor Massacre:
     Floor Plan: {}
   steam:
     id: 673060
+"Floor Plan: Slap Out Of It!":
+  id:
+    lutris: slap-out-of-it
+  steam:
+    id: 3564410
 Floor by Floor:
   installDir:
     Floor By Floor: {}
@@ -376481,6 +376486,35 @@ Japan Stigmatized Property 2:
         - config
   steam:
     id: 4193270
+Japan Stigmatized Property 3:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Loxarc/jsp3/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Loxarc/jsp3/savedata.dat":
+      tags:
+        - save
+      when:
+        - os: mac
+  id:
+    lutris: japan-stigmatized-property-3
+  installDir:
+    日本事故物件監視協会3 -Japan Stigmatized Property-: {}
+  launch:
+    "<base>/Steam/jsp3.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Steam/jsp3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4611990
 "Japanese Rail Sim: Hakone Town of Natural Beauty and Hot Springs":
   cloud:
     steam: true
@@ -425583,6 +425617,12 @@ Lula 3D:
     id: 1443433575
   id:
     lutris: lula-the-sexy-empire
+"Lull: Rest After Crying":
+  id:
+    steamExtra:
+      - 4370700
+  steam:
+    id: 3557060
 Lulu & Ennoi - Sacred Suit Girls:
   files:
     "<home>/AppData/LocalLow/SmallSqurriel Co_, Ltd/Lulu & Ennoi - Sacred Suit Girls":
@@ -442190,10 +442230,25 @@ Matchbox Driving Adventures:
   steam:
     id: 1345760
 "Matchstick: Cosmic Flame":
+  files:
+    "<home>/AppData/LocalLow/TechnoMyth/Matchstick/Saves":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/TechnoMyth/Matchstick/Settings":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: matchstick-cosmic-flame
-    steamExtra:
-      - 3384160
+  installDir:
+    Matchstick Cosmic Flame: {}
+  launch:
+    "<base>/Matchstick.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3182950
 Matchville:
@@ -642713,8 +642768,7 @@ Slap Fight:
   steam:
     id: 2022980
 Slap Out Of It!:
-  steam:
-    id: 3564410
+  alias: "Floor Plan: Slap Out Of It!"
 Slap The Fly:
   installDir:
     Slap The Fly: {}

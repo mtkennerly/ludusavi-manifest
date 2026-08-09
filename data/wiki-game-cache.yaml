@@ -88792,6 +88792,12 @@ Floor Massacre:
     xbox: true
   pageId: 69653
   steam: 673060
+"Floor Plan: Slap Out Of It!":
+  lutris: slap-out-of-it
+  pageId: 217330
+  renamedFrom:
+    - Slap Out Of It!
+  steam: 3564410
 Floor by Floor:
   pageId: 89982
   steam: 826810
@@ -122107,6 +122113,15 @@ Japan Stigmatized Property 2:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Loxarc\\jsp2}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Loxarc\\jsp2\\savedata.dat}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Loxarc/jsp2/savedata.dat}}"
+Japan Stigmatized Property 3:
+  cloud:
+    steam: true
+  lutris: japan-stigmatized-property-3
+  pageId: 219238
+  steam: 4611990
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Loxarc\\jsp3\\savedata.dat}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Loxarc/jsp3/savedata.dat}}"
 "Japanese Rail Sim: Hakone Town of Natural Beauty and Hot Springs":
   cloud:
     steam: true
@@ -138232,6 +138247,11 @@ Lula Virtual Babe:
   templates:
     - "{{Game data/config|GOG.com|{{p|game}}\\dxcfg.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\DATA\\SAVE}}"
+"Lull: Rest After Crying":
+  pageId: 219246
+  steam: 3557060
+  steamSide:
+    - 4370700
 Lulu & Ennoi - Sacred Suit Girls:
   pageId: 148789
   steam: 1051590
@@ -143617,8 +143637,6 @@ Matchbox Driving Adventures:
   lutris: matchstick-cosmic-flame
   pageId: 216278
   steam: 3182950
-  steamSide:
-    - 3384160
 Matchville:
   pageId: 108744
   steam: 695720
@@ -209284,9 +209302,6 @@ Slap Fight:
   gog: 1983087516
   pageId: 189023
   steam: 2022980
-Slap Out Of It!:
-  pageId: 217330
-  steam: 3564410
 Slap The Fly:
   pageId: 52586
   steam: 543030
