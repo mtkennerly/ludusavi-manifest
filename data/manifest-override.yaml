@@ -57,6 +57,28 @@ Pathologic:
   # Pathologic 2 and Pathologic Classic HD are more readily available than the original,
   # so we streamline for the more common case.
   omit: true
+Sam & Max Save the World:
+  installDir:
+    Sam and Max Episode 1: {}
+    Sam and Max Episode 2: {}
+    Sam and Max Episode 3: {}
+    Sam and Max Episode 4: {}
+    Sam and Max Episode 5: {}
+    Sam and Max Episode 6: {}
+'Sam & Max: Beyond Time and Space':
+  installDir:
+    Sam and Max Season 2 Episode 1: {}
+    Sam and Max Season 2 Episode 2: {}
+    Sam and Max Season 2 Episode 3: {}
+    Sam and Max Season 2 Episode 4: {}
+    Sam and Max Season 2 Episode 5: {}
+"Sam & Max: The Devil's Playhouse":
+  installDir:
+    Sam and Max 301: {}
+    Sam and Max 302: {}
+    Sam and Max 303: {}
+    Sam and Max 304: {}
+    Sam and Max 305: {}
 The Sims 2:
   files:
     "<winDocuments>/EA Games/Los Sims 2 Legado":

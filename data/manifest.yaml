@@ -610565,6 +610565,13 @@ Sam & Max Save the World:
       - 8230
       - 8240
       - 8250
+  installDir:
+    Sam and Max Episode 1: {}
+    Sam and Max Episode 2: {}
+    Sam and Max Episode 3: {}
+    Sam and Max Episode 4: {}
+    Sam and Max Episode 5: {}
+    Sam and Max Episode 6: {}
   steam:
     id: 901660
 Sam & Max Save the World (2020):
@@ -610617,6 +610624,12 @@ Sam & Max Save the World (2020):
       - 8280
       - 8290
       - 8300
+  installDir:
+    Sam and Max Season 2 Episode 1: {}
+    Sam and Max Season 2 Episode 2: {}
+    Sam and Max Season 2 Episode 3: {}
+    Sam and Max Season 2 Episode 4: {}
+    Sam and Max Season 2 Episode 5: {}
   steam:
     id: 901663
 "Sam & Max: Beyond Time and Space (2021)":
@@ -610707,6 +610720,12 @@ Sam & Max Save the World (2020):
       - 31240
       - 31250
       - 31260
+  installDir:
+    Sam and Max 301: {}
+    Sam and Max 302: {}
+    Sam and Max 303: {}
+    Sam and Max 304: {}
+    Sam and Max 305: {}
   steam:
     id: 901399
 "Sam & Max: The Devil's Playhouse (2024)":
