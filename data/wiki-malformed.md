@@ -6,6 +6,7 @@
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
+* [Knights of the Temple II](https://www.pcgamingwiki.com/wiki/?curid=126719)
 * [Life Is Strange: Reunion](https://www.pcgamingwiki.com/wiki/?curid=213008)
 * [Lost in the Roots](https://www.pcgamingwiki.com/wiki/?curid=215872)
 * [Martian Gothic: Unification](https://www.pcgamingwiki.com/wiki/?curid=35446)

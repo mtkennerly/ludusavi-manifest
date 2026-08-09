@@ -51795,6 +51795,7 @@ Crosser:
   pageId: 143865
   steam: 1124510
 "Crossfire (That's No Moon)":
+  lutris: crossfire--8
   pageId: 217301
   steam: 4687500
 "Crossfire: Dungeons":
@@ -128213,6 +128214,7 @@ Knights of the Sky:
   steam: 347270
 Knights of the Temple II:
   lutris: knights-of-the-temple-ii
+  malformed: true
   pageId: 126719
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\KOTT2.set}}"
