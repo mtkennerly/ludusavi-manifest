@@ -34609,6 +34609,9 @@ Always the Same Blue Sky...:
             store: steam
   steam:
     id: 363410
+Am I Nima:
+  steam:
+    id: 3224600
 Amairo Chocolate:
   cloud:
     gog: true
@@ -343081,6 +343084,13 @@ Hiveswap Friendsim:
         - config
   steam:
     id: 1181840
+"Hiveswap: Act 3":
+  id:
+    lutris: hiveswap-act-3
+    steamExtra:
+      - 4769190
+  steam:
+    id: 4769040
 "Ho Tu Lo Shu: The Books of Dragon":
   cloud:
     steam: true

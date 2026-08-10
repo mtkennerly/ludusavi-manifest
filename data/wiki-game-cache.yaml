@@ -11067,6 +11067,9 @@ Always the Same Blue Sky...:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\RenPy\\Always The Same Blue Sky-1334743217\\persistent}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\Always The Same Blue Sky-1334743217\\*.save}}"
+Am I Nima:
+  pageId: 219300
+  steam: 3224600
 Amairo Chocolate:
   cloud:
     gog: true
@@ -111293,6 +111296,12 @@ Hiveswap Friendsim:
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/What Pumpkin/Hiveswap Episode 2/Options.json}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\What Pumpkin\\Hiveswap Episode 2\\Saves\\}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/What Pumpkin/Hiveswap Episode 2/Saves}}"
+"Hiveswap: Act 3":
+  lutris: hiveswap-act-3
+  pageId: 219303
+  steam: 4769040
+  steamSide:
+    - 4769190
 "Ho Tu Lo Shu: The Books of Dragon":
   cloud:
     steam: true
