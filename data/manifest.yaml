@@ -197846,6 +197846,13 @@ Die In The Dark:
             store: steam
   steam:
     id: 847860
+Die Slave:
+  files:
+    "<base>/joyconf.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Die With Glory:
   cloud:
     steam: true
@@ -328124,6 +328131,13 @@ He Needs His Medicine:
             store: steam
   steam:
     id: 1590360
+He Who Watches:
+  id:
+    lutris: he-who-watches
+    steamExtra:
+      - 2381760
+  steam:
+    id: 1070500
 He Will Shoot:
   installDir:
     He Will Shoot: {}
@@ -397905,6 +397919,8 @@ KurtzPel:
   steam:
     id: 844870
 "Kusan : city of wolves":
+  alias: "Kusan: City of Wolves"
+"Kusan: City of Wolves":
   cloud:
     steam: true
   files:
@@ -555063,6 +555079,38 @@ Prompt:
             store: steam
   steam:
     id: 366590
+Pronoun Palace:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/Pronoun Palace/saves/**/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Pronoun Palace/saves/**/*.save":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Pronoun Palace/saves/**/*.save":
+      when:
+        - store: steam
+  installDir:
+    Pronoun Palace: {}
+  launch:
+    "<base>/Pronoun Palace.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/pronoun_palace.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/pronoun_palace.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3618850
 Pronty:
   cloud:
     gog: true
@@ -586856,6 +586904,35 @@ Rezrog:
             store: steam
   steam:
     id: 769600
+"Rhell: Warped Worlds & Troubled Times":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SlugGlove/Rhell/**/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<xdgConfig>/unity3d/SlugGlove/Rhell/**/*.json":
+      when:
+        - os: linux
+          store: steam
+  id:
+    lutris: rhell-warped-worlds-and-troubled-times
+    steamExtra:
+      - 3833720
+  installDir:
+    Rhell: {}
+  launch:
+    "<base>/Rhell.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Rhell.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3247030
 Rheum:
   installDir:
     Rheum: {}
@@ -841410,6 +841487,11 @@ Windosill:
             store: steam
   steam:
     id: 37600
+Window Seat:
+  id:
+    lutris: window-seat
+  steam:
+    id: 4808850
 Windowkill:
   cloud:
     steam: true

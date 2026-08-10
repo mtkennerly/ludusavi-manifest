@@ -467183,6 +467183,7 @@
         oslist: windows
       executable: pod.exe
       type: default
+1070500: {}
 1070510:
   cloud:
     saves:
@@ -590790,7 +590791,7 @@
         ownsdlc: "1911670"
       description: Launch Final with Debug menus
       executable: i29_steam_FinalDM.exe
-    - arguments: "-launcher -archive toc -warn review -no_debug_spam -lobby --uxanalytics"
+    - arguments: "-launcher -archive toc -warn review -no_debug_spam -lobby --uxanalytics --legal"
       config:
         betakey: "amd_dev, ext_partner_amd1, ext_partner_amd2, latest, latest_dev, nixxesqa_dev, nixxesqa_dev2, compat, ext_partner1, ext_partner2, ig_alpha, ig_beta, ig_marketing1, ig_marketing2, pssqa_dev1, pssqa_dev2, ig_dev, nixxes_dev, nvidia_dev"
         osarch: "64"
@@ -643889,6 +643890,31 @@
       type: option3
   nameLocalized:
     schinese: 掘地求财
+3247030:
+  cloud:
+    saves:
+      - path: SlugGlove/Rhell/
+        pattern: "*.json"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: unity3d/SlugGlove/Rhell/
+        pattern: "*.json"
+        platforms:
+          - Linux
+        recursive: true
+        root: LinuxXdgConfigHome
+  installDir: Rhell
+  launch:
+    - config:
+        oslist: windows
+      executable: Rhell.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: Rhell.x86_64
+      type: default
 3247750:
   cloud:
     saves:
@@ -650017,6 +650043,56 @@
       description: Clone서버 접속
       executable: "WIN64\\BSH.exe"
 3617830: {}
+3618850:
+  cloud:
+    saves:
+      - path: Pronoun Palace/saves
+        pattern: "*.save"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ".local/share/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Pronoun Palace
+  launch:
+    - config:
+        oslist: windows
+      executable: pronoun_palace.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: pronoun_palace.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Pronoun Palace.app
+      type: default
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: windows
+      description: with OpenGL (Vulkan Fix)
+      executable: pronoun_palace.exe
+      type: option1
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: linux
+      description: with OpenGL (Vulkan Fix)
+      executable: pronoun_palace.x86_64
+      type: option1
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: macos
+      description: with OpenGL (Vulkan Fix)
+      executable: Pronoun Palace.app
+      type: option1
 3619040:
   cloud:
     saves:
@@ -656153,6 +656229,7 @@
 4744030: {}
 4757750: {}
 4767480: {}
+4808850: {}
 4810650: {}
 4824610:
   nameLocalized:

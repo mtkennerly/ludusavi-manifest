@@ -31219,6 +31219,8 @@ Bombergirl:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Gigantic Duck AB\\Bombergrounds\\}}"
 "Bomberman '94":
   pageId: 33132
+Bomberman 64:
+  pageId: 219283
 Bombernauts:
   cloud:
     steam: true
@@ -63735,6 +63737,10 @@ Die Hard Trilogy:
 Die In The Dark:
   pageId: 103229
   steam: 847860
+Die Slave:
+  pageId: 219297
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}/joyconf.cfg}}"
 Die With Glory:
   cloud:
     steam: true
@@ -106551,6 +106557,12 @@ He Needs His Medicine:
     steam: true
   pageId: 192350
   steam: 1590360
+He Who Watches:
+  lutris: he-who-watches
+  pageId: 219293
+  steam: 1070500
+  steamSide:
+    - 2381760
 He Will Shoot:
   pageId: 173706
   steam: 1814200
@@ -129226,12 +129238,14 @@ KurtzPel:
   steam: 844870
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TheChase\\Saved}}"
-"Kusan : city of wolves":
+"Kusan: City of Wolves":
   cloud:
     steam: true
   lutris: kusan-city-of-wolves
   malformed: true
   pageId: 219261
+  renamedFrom:
+    - "Kusan : city of wolves"
   steam: 1714510
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\CircleFromDot\\Kusan}}"
@@ -180847,6 +180861,11 @@ Prompt:
   steam: 366590
   steamSide:
     - 384410
+Pronoun Palace:
+  cloud:
+    steam: true
+  pageId: 219285
+  steam: 3618850
 Pronty:
   cloud:
     gog: true
@@ -191185,6 +191204,14 @@ Rezrog:
 "Rheksetor: Waves of Fury":
   pageId: 79129
   steam: 769600
+"Rhell: Warped Worlds & Troubled Times":
+  cloud:
+    steam: true
+  lutris: rhell-warped-worlds-and-troubled-times
+  pageId: 219288
+  steam: 3247030
+  steamSide:
+    - 3833720
 Rheum:
   pageId: 94483
   steam: 849520
@@ -275046,6 +275073,10 @@ Windosill:
   steam: 37600
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Macromedia\\Flash Player\\#SharedObjects\\{{p|uid}}\\localhost\\{{p|game}}\\Windosill.exe\\windosill.sol|{{p|appdata}}\\Windosill\\Local Store\\#SharedObjects\\Windosill.swf\\windosill.sol}}"
+Window Seat:
+  lutris: window-seat
+  pageId: 219295
+  steam: 4808850
 Windowkill:
   cloud:
     steam: true
