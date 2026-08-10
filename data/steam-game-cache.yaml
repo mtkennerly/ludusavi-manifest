@@ -627920,6 +627920,9 @@
   launch:
     - executable: CONERU -DIMENSION GIRL-.exe
 2600920: {}
+2601530:
+  nameLocalized:
+    schinese: 普通家装模拟器
 2602020:
   cloud:
     saves:
@@ -633695,6 +633698,7 @@
     sc_schinese: 乂闻录：轮回
     schinese: 义闻录：轮回
     tchinese: 义聞錄：轮回
+2777560: {}
 2777860: {}
 2778610:
   cloud:
@@ -645432,6 +645436,9 @@
   nameLocalized:
     japanese: MYRIAD DEATH -ミリアッドデス-
 3325070: {}
+3325610:
+  nameLocalized:
+    schinese: 迷境食刻
 3326230:
   cloud:
     saves:
@@ -646062,6 +646069,12 @@
       executable: The Jackbox Party Pack 11.app
       type: default
 3364880:
+  cloud:
+    saves:
+      - path: Hectic/Moral Dilemna
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
   installDir: Moral Dilemma The Interview
   launch:
     - config:
@@ -652523,6 +652536,9 @@
     tchinese: 猿公劍
 3849000: {}
 3849030: {}
+3851090:
+  nameLocalized:
+    schinese: 锈都残日
 3853780:
   installDir: Just Grandma and Me
   launch:
@@ -653888,6 +653904,7 @@
       executable: Feed the Reactor.exe
       type: default
 4012810: {}
+4016270: {}
 4016300:
   installDir: Beer Machine
   launch:
@@ -655800,6 +655817,7 @@
 4514070: {}
 4514310: {}
 4516190: {}
+4527520: {}
 4532500:
   nameLocalized:
     french: "Atelier Karia : Le Royaume de la Nuit et le Guide des Souvenirs"
@@ -655985,6 +656003,7 @@
 4603230: {}
 4605200: {}
 4605490: {}
+4610590: {}
 4611990:
   cloud:
     saves:

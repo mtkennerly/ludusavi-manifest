@@ -182208,6 +182208,8 @@ Deadlock:
         - config
       when:
         - store: steam
+  id:
+    lutris: deadlock--2
   steam:
     id: 1422450
 Deadlock (2016):
@@ -200262,6 +200264,11 @@ Dirty Fighter 2:
 Dirty Jobs Simulator:
   steam:
     id: 1090750
+Dirty Laundry:
+  id:
+    lutris: dirty-laundry
+  steam:
+    id: 4610590
 Dis Pontibus:
   cloud:
     steam: true
@@ -243801,6 +243808,11 @@ Escape the Past:
             store: steam
   steam:
     id: 486120
+Escape the Script:
+  id:
+    lutris: escape-the-script
+  steam:
+    id: 2777560
 Escape until Friday:
   installDir:
     Escape until Friday: {}
@@ -314883,6 +314895,9 @@ Grobda Remix:
             store: steam
   steam:
     id: 739000
+Grobnopolis Last Days:
+  steam:
+    id: 3851090
 Groggers!:
   installDir:
     Groggers!: {}
@@ -322719,6 +322734,8 @@ Hallowed Encounter:
   steam:
     id: 724900
 Halloween:
+  id:
+    lutris: halloween-the-game
   steam:
     id: 3219630
 Halloween Arkanoid 2:
@@ -350916,6 +350933,13 @@ Human-powered Spacecraft:
             store: steam
   steam:
     id: 699180
+Human.exe:
+  id:
+    lutris: human-dot-exe
+    steamExtra:
+      - 4423560
+  steam:
+    id: 4016270
 "Human: Fall Flat":
   cloud:
     steam: true
@@ -358424,6 +358448,11 @@ Ideology in Friction:
             store: steam
   steam:
     id: 1011940
+Idet:
+  id:
+    lutris: idet
+  steam:
+    id: 3325610
 Idioctopus:
   files:
     "<base>/Idioctopus.app/Contents/Resources/IdioctopusSaveFile.xml":
@@ -467147,6 +467176,9 @@ Moot District:
 Mop Boy:
   steam:
     id: 1097260
+"Moral Dilemma: Breaking Character":
+  steam:
+    id: 4527520
 "Moral Dilemma: The Interview":
   files:
     "<home>/AppData/LocalLow/Hectic/Moral Dilemna/SaveFile.es3":
@@ -492172,6 +492204,9 @@ Nightmare Grotto:
     Nightmare Grotto: {}
   steam:
     id: 614700
+Nightmare House:
+  steam:
+    id: 2744430
 Nightmare House 2:
   files:
     "<base>/NH/save":
@@ -492194,8 +492229,7 @@ Nightmare House 2:
   steam:
     id: 2954780
 "Nightmare House: Reimagined":
-  steam:
-    id: 2744430
+  alias: Nightmare House
 "Nightmare House: The Original Mod":
   installDir:
     Nightmare House Source: {}
@@ -579247,6 +579281,9 @@ Regions of Ruin:
             store: steam
   steam:
     id: 1375750
+Regular Home Renovation Simulator:
+  steam:
+    id: 2601530
 Regular Human Basketball:
   cloud:
     steam: true

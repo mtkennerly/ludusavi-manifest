@@ -12342,6 +12342,8 @@ Ancients of Ooga:
     steam: true
   pageId: 40971
   steam: 91810
+  templates:
+    - "{{Game data/saves|Windows|{{note|Steam version uses only Steam Cloud saves, no separate save files.}}}}"
 And All Would Cry Beware!:
   pageId: 135553
   steam: 1071510
@@ -58804,6 +58806,7 @@ Deadlink:
 Deadlock:
   cloud:
     steam: true
+  lutris: deadlock--2
   pageId: 197042
   steam: 1422450
   templates:
@@ -64587,6 +64590,10 @@ Dirty Fighter 2:
 Dirty Jobs Simulator:
   pageId: 142252
   steam: 1090750
+Dirty Laundry:
+  lutris: dirty-laundry
+  pageId: 219274
+  steam: 4610590
 Dis Pontibus:
   cloud:
     steam: true
@@ -78622,6 +78629,10 @@ Escape the Past:
   renamedFrom:
     - Escape The Past
   steam: 486120
+Escape the Script:
+  lutris: escape-the-script
+  pageId: 219270
+  steam: 2777560
 Escape until Friday:
   pageId: 135153
   steam: 1064010
@@ -102061,6 +102072,9 @@ Grobda Remix:
   steam: 739000
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\kotokata_Data\\save\\}}"
+Grobnopolis Last Days:
+  pageId: 219280
+  steam: 3851090
 Groggers!:
   pageId: 53204
   steam: 536920
@@ -104605,6 +104619,7 @@ Hallowed Encounter:
   pageId: 74439
   steam: 724900
 Halloween:
+  lutris: halloween-the-game
   pageId: 207293
   steam: 3219630
 Halloween Arkanoid 2:
@@ -113930,6 +113945,12 @@ Human Simulator:
 Human-powered Spacecraft:
   pageId: 92921
   steam: 699180
+Human.exe:
+  lutris: human-dot-exe
+  pageId: 219264
+  steam: 4016270
+  steamSide:
+    - 4423560
 "Human: Fall Flat":
   cloud:
     steam: true
@@ -116328,6 +116349,10 @@ Ideology in Friction:
   steam: 1011940
   steamSide:
     - 1246400
+Idet:
+  lutris: idet
+  pageId: 219276
+  steam: 3325610
 Idioctopus:
   pageId: 57321
   steam: 571330
@@ -151962,6 +151987,9 @@ Moot District:
 Mop Boy:
   pageId: 142287
   steam: 1097260
+"Moral Dilemma: Breaking Character":
+  pageId: 219272
+  steam: 4527520
 "Moral Dilemma: The Interview":
   lutris: moral-dilemma-the-interview
   pageId: 207418
@@ -160287,15 +160315,17 @@ Nightmare Game (噩梦游戏):
 Nightmare Grotto:
   pageId: 62536
   steam: 614700
+Nightmare House:
+  pageId: 197215
+  renamedFrom:
+    - "Nightmare House: Reimagined"
+  steam: 2744430
 Nightmare House 2:
   pageId: 152577
   steam: 2954780
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Valve\\Source\\NH\\Settings}}"
     - "{{Game data/saves|Windows|{{p|game}}\\NH\\save\\}}"
-"Nightmare House: Reimagined":
-  pageId: 197215
-  steam: 2744430
 "Nightmare House: The Original Mod":
   pageId: 212102
   steam: 2954780
@@ -188584,6 +188614,9 @@ Regions of Ruin:
     - 4019140
     - 4338370
     - 4446470
+Regular Home Renovation Simulator:
+  pageId: 219278
+  steam: 2601530
 Regular Human Basketball:
   cloud:
     discord: true
