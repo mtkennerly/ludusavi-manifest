@@ -397875,6 +397875,26 @@ KurtzPel:
     KurtzPel: {}
   steam:
     id: 844870
+"Kusan : city of wolves":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/CircleFromDot/Kusan":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: kusan-city-of-wolves
+  installDir:
+    Kusan City of Wolves: {}
+  launch:
+    "<base>/Kusan.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1714510
 Kuso:
   files:
     "<base>/keyConfig.cfg, <base>/2pkeyConfig.cfg":

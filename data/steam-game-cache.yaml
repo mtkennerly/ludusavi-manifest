@@ -579371,6 +579371,33 @@
     arabic: فرسان الاقصى
     brazilian: "Fursan al-Aqsa: Os Cavaleiros da Mesquita de al-Aqsa"
     schinese: "Fursan al-Aqsa: 阿克萨清真寺的骑士"
+1714510:
+  cloud:
+    saves:
+      - path: "CircleFromDot\\Kusan"
+        pattern: Save_Release.es3
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "CircleFromDot\\Kusan"
+            replace: "CircleFromDot\\Kusan"
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Kusan City of Wolves
+  launch:
+    - config:
+        oslist: windows
+      executable: Kusan.exe
+      type: default
+  nameLocalized:
+    japanese: "Kusan: オオカミの街"
+    koreana: "쿠산: 늑대들의 도시"
+    schinese: 九山：狼之城
+    tchinese: 九山：狼之城
 1714530:
   cloud:
     saves:

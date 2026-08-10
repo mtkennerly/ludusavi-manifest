@@ -129201,6 +129201,15 @@ KurtzPel:
   steam: 844870
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TheChase\\Saved}}"
+"Kusan : city of wolves":
+  cloud:
+    steam: true
+  lutris: kusan-city-of-wolves
+  malformed: true
+  pageId: 219261
+  steam: 1714510
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\CircleFromDot\\Kusan}}"
 Kuso:
   pageId: 56523
   steam: 578930
