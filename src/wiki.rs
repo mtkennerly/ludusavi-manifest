@@ -36,7 +36,7 @@ fn preprocess_text(raw: &str) -> String {
     let mut out = raw.to_string();
 
     static HTML_COMMENT: Lazy<Regex> = Lazy::new(|| Regex::new(r"<!--.+?-->").unwrap());
-    static HTML_REF: Lazy<Regex> = Lazy::new(|| Regex::new(r"<ref>.+?</ref>").unwrap());
+    static HTML_REF: Lazy<Regex> = Lazy::new(|| Regex::new(r"<ref[^>/]*>.+?</ref>|<ref[^>]*/>").unwrap());
 
     for (pattern, replacement) in [(&HTML_COMMENT, ""), (&HTML_REF, "")] {
         out = pattern.replace_all(&out, replacement).to_string();
@@ -1183,5 +1183,39 @@ mod tests {
     async fn test_is_article_relevant() {
         assert!(matches!(is_article_relevant("Celeste").await, Ok(true)));
         assert!(matches!(is_article_relevant("Template:Path").await, Ok(false)));
+    }
+
+    #[test]
+    fn test_preprocess_text_strips_refs() {
+        // Bare refs.
+        assert_eq!(preprocess_text("path<ref>note</ref>"), "path");
+        // Named refs previously survived preprocessing,
+        // which made the path irregular and dropped it from the manifest.
+        assert_eq!(
+            preprocess_text(
+                r#"path<ref name="x">{{Refurl|url=https://example.com|title=Example|date=2026-01-01}}</ref>"#
+            ),
+            "path"
+        );
+        // Self-closing form used to reuse a named ref.
+        assert_eq!(preprocess_text(r#"path<ref name="x" />"#), "path");
+        assert_eq!(preprocess_text(r#"path<ref name="x"/>"#), "path");
+        // HTML comments.
+        assert_eq!(preprocess_text("path<!-- hidden -->"), "path");
+    }
+
+    #[test]
+    fn test_parse_paths_with_named_ref() {
+        let entry = WikiCacheEntry {
+            templates: vec![
+                r#"{{Game data/config|Windows|{{P|appdata}}\Godot\app_userdata\Game\*.cfg<ref name="game_cfg">Covers {{code|settings.cfg}}.</ref>}}"#.to_string(),
+                r#"{{Game data/saves|Windows|{{P|appdata}}\Godot\app_userdata\Game\profile_*\*.json<ref name="game_cfg" />}}"#.to_string(),
+            ],
+            ..Default::default()
+        };
+
+        let paths = entry.parse_paths("Game".to_string());
+        assert_eq!(paths.len(), 2, "named refs must not drop paths: {paths:?}");
+        assert!(paths.iter().all(|p| p.composite.contains("app_userdata")));
     }
 }
