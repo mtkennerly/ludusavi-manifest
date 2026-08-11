@@ -567644,7 +567644,35 @@
     koreana: 대항해시대 오리진
     schinese: 大航海时代：起源
     tchinese: 大航海時代：起源
-1574480: {}
+1574480:
+  cloud:
+    saves:
+      - path: Agent 64 Spies Never Die
+        pattern: "*.save"
+        recursive: true
+        root: WinMyDocuments
+      - path: Agent 64 Spies Never Die
+        pattern: "*.bsave"
+        recursive: true
+        root: WinMyDocuments
+      - path: Agent 64 Spies Never Die
+        pattern: "*\\Arena\\*"
+        recursive: true
+        root: WinMyDocuments
+  installDir: Agent 64
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Agent 64 Spies Never Die
+      executable: EasyAntiCheat/Launch_EAC.bat
+      type: option1
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Offline mode without EAC
+      executable: Agent 64 Spies Never Die.exe
+      type: option2
 1574580:
   cloud:
     saves:
@@ -656247,7 +656275,19 @@
     koreana: 수박게임 플래닛
     schinese: 西瓜游戏 Planet
     tchinese: 西瓜遊戲 Planet
-4651120: {}
+4651120:
+  cloud:
+    saves:
+      - path: Clementine Wolf Games/Farming Incremental But With Guns/
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Farming Incremental But With Guns
+  launch:
+    - executable: windows/Farming Incremental But With Guns.exe
+      type: default
 4655000:
   nameLocalized:
     japanese: カラドリウス2/ダークエレメント

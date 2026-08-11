@@ -173508,7 +173508,7 @@ Phasmophobia:
   steam: 739630
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Kinetic Games\\Phasmophobia\\}}"
-    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Kinetic Games\\Phasmophobia\\saveData.txt}}"
+    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Kinetic Games\\Phasmophobia\\*.txt}}"
 Phat Phrog:
   pageId: 52287
   steam: 545570
@@ -271762,6 +271762,7 @@ Wars and Roses:
   pageId: 173038
   steam: 1786200
 "Wars and Warriors: Joan of Arc":
+  gog: 1421210170
   lutris: wars-and-warriors-joan-of-arc
   pageId: 46574
   steam: 294590

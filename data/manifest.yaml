@@ -25428,8 +25428,20 @@ Agenda:
 "Agent 64: Spies Never Die":
   cloud:
     steam: true
+  files:
+    "<winDocuments>/Agent 64 Spies Never Die/**/*.bsave":
+      when:
+        - store: steam
+    "<winDocuments>/Agent 64 Spies Never Die/**/*.save":
+      when:
+        - store: steam
+    "<winDocuments>/Agent 64 Spies Never Die/**/*/Arena":
+      when:
+        - store: steam
   id:
     lutris: agent-64-spies-never-die
+  installDir:
+    Agent 64: {}
   steam:
     id: 1574480
 Agent 9:
@@ -260623,8 +260635,19 @@ Farming Giant:
   steam:
     id: 259910
 Farming Incremental But With Guns:
+  files:
+    "<home>/AppData/LocalLow/Clementine Wolf Games/Farming Incremental But With Guns/**/*.es3":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: farming-incremental-but-with-guns
+  installDir:
+    Farming Incremental But With Guns: {}
+  launch:
+    "<base>/windows/Farming Incremental But With Guns.exe":
+      - when:
+          - store: steam
   steam:
     id: 4651120
 Farming Life:
@@ -531986,7 +532009,7 @@ Phasmophobia:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Kinetic Games/Phasmophobia/saveData.txt":
+    "<home>/AppData/LocalLow/Kinetic Games/Phasmophobia/*.txt":
       tags:
         - save
       when:
@@ -831026,6 +831049,8 @@ Wars and Roses:
         - save
       when:
         - os: windows
+  gog:
+    id: 1421210170
   id:
     lutris: wars-and-warriors-joan-of-arc
   installDir:
