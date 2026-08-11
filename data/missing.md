@@ -11471,6 +11471,7 @@
 * [Greedy Crush](https://www.pcgamingwiki.com/wiki/?curid=123507)
 * [Greedy Developer's Cash Grab](https://www.pcgamingwiki.com/wiki/?curid=89593)
 * [Greedy Dungeons](https://www.pcgamingwiki.com/wiki/?curid=82410)
+* [Greedy Greedy Gnomes](https://www.pcgamingwiki.com/wiki/?curid=219306)
 * [Greedy Guns](https://www.pcgamingwiki.com/wiki/?curid=63363)
 * [Greedy Trolley](https://www.pcgamingwiki.com/wiki/?curid=73284)
 * [Green Blood](https://www.pcgamingwiki.com/wiki/?curid=95059)

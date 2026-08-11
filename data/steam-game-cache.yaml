@@ -649680,6 +649680,9 @@
         pattern: "*.tres"
         recursive: true
         root: gameinstall
+      - path: ~/Library/Application Support/Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves
+        pattern: "*.tres"
+        root: gameinstall
     overrides:
       - os: Windows
         osCompare: "="
@@ -649695,6 +649698,13 @@
             replace: ".local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves"
         root: gameinstall
         useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves
+            replace: Library/Application Support/Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves
+        root: gameinstall
+        useInstead: MacHome
   installDir: Funi Raccoon Game
   launch:
     - config:
@@ -649703,6 +649713,9 @@
     - config:
         oslist: linux
       executable: Funi_Raccoon_Game.x86_64
+    - config:
+        oslist: macos
+      executable: Funi Raccoon Game Redux.app
 3600690:
   cloud:
     saves:
@@ -652117,6 +652130,64 @@
   launch:
     - executable: ".\\A Few Quick Matches.exe"
       type: default
+3808690:
+  cloud:
+    saves:
+      - path: "godot\\app_userdata\\Pathogenic"
+        pattern: "*.json"
+        root: WinAppDataRoaming
+      - path: "godot\\app_userdata\\Pathogenic\\profile_1"
+        pattern: "*.json"
+        root: WinAppDataRoaming
+      - path: "godot\\app_userdata\\Pathogenic\\profile_2"
+        pattern: "*.json"
+        root: WinAppDataRoaming
+      - path: "godot\\app_userdata\\Pathogenic\\profile_3"
+        pattern: "*.json"
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Pathogenic
+  launch:
+    - config:
+        oslist: windows
+      executable: pathogenic.exe
+    - config:
+        oslist: linux
+      executable: pathogenic.x86_64
+    - config:
+        oslist: macos
+      executable: Pathogenic.app
+    - config:
+        betakey: modding
+        oslist: windows
+      description: Godot Workshop Utility
+      executable: GodotWorkshopUtility.exe
+      type: editor
+    - config:
+        betakey: modding
+        oslist: linux
+      description: Godot Workshop Utility
+      executable: GodotWorkshopUtility.x86_64
+      type: editor
+    - config:
+        betakey: modding
+        oslist: macos
+      description: Godot Workshop Utility
+      executable: GodotWorkshopUtility.app
+      type: editor
+  nameLocalized:
+    koreana: Pathogenic 패서제닉
+    schinese: 致病本源
 3809110:
   cloud:
     saves:
@@ -655403,6 +655474,7 @@
 4354570:
   nameLocalized:
     english: FINAL FANTASY VII REVELATION
+4356400: {}
 4358270:
   nameLocalized:
     english: Pickmos

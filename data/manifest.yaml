@@ -287411,29 +287411,20 @@ Fungoids - Steam version:
     id: 663480
 Funi Raccoon Game:
   files:
-    "<base>/.local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/**/*.tres":
-      when:
-        - store: steam
-    "<base>/Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/*.tres":
-      when:
-        - store: steam
-    "<home>/.local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/*.tres":
+    "<xdgData>/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves":
+      tags:
+        - save
       when:
         - os: linux
-          store: steam
-    "<winAppData>/.local/share/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/*.tres":
-      when:
-        - os: windows
-          store: steam
-    "<winAppData>/Godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves/*.tres":
-      when:
-        - os: windows
-          store: steam
   id:
     lutris: funi-raccoon-game--1
   installDir:
     Funi Raccoon Game: {}
   launch:
+    "<base>/Funi Raccoon Game Redux.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Funi_Raccoon_Game.exe":
       - when:
           - os: windows
@@ -312892,6 +312883,11 @@ Greedy Crush:
 Greedy Dungeons:
   steam:
     id: 765020
+Greedy Greedy Gnomes:
+  id:
+    lutris: greedy-greedy-gnomes
+  steam:
+    id: 4356400
 Greedy Guns:
   installDir:
     Greedy Guns: {}
@@ -526140,6 +526136,71 @@ Pathogen-病原体:
             store: steam
   steam:
     id: 1067320
+Pathogenic:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/godot/app_userdata/Pathogenic/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/godot/app_userdata/Pathogenic/profile_1/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/godot/app_userdata/Pathogenic/profile_2/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/godot/app_userdata/Pathogenic/profile_3/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/godot/app_userdata/Pathogenic/*.json":
+      when:
+        - store: steam
+    "<winAppData>/godot/app_userdata/Pathogenic/profile_1/*.json":
+      when:
+        - store: steam
+    "<winAppData>/godot/app_userdata/Pathogenic/profile_2/*.json":
+      when:
+        - store: steam
+    "<winAppData>/godot/app_userdata/Pathogenic/profile_3/*.json":
+      when:
+        - store: steam
+    "<xdgData>/godot/app_userdata/Pathogenic/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/godot/app_userdata/Pathogenic/profile_1/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/godot/app_userdata/Pathogenic/profile_2/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/godot/app_userdata/Pathogenic/profile_3/*.json":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Pathogenic: {}
+  launch:
+    "<base>/Pathogenic.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/pathogenic.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/pathogenic.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3808690
 Pathologic 2:
   files:
     "<home>/AppData/LocalLow/Ice-Pick Lodge/Pathologic 2/Saves":
@@ -555093,17 +555154,11 @@ Pronoun Palace:
   cloud:
     steam: true
   files:
-    "<home>/.local/share/Pronoun Palace/saves/**/*.save":
+    "<xdgData>/Pronoun Palace/saves":
+      tags:
+        - save
       when:
         - os: linux
-          store: steam
-    "<home>/Library/Application Support/Pronoun Palace/saves/**/*.save":
-      when:
-        - os: mac
-          store: steam
-    "<winAppData>/Pronoun Palace/saves/**/*.save":
-      when:
-        - store: steam
   installDir:
     Pronoun Palace: {}
   launch:
@@ -838114,7 +838169,7 @@ Whipseey and the Lost Atlas:
             store: steam
   steam:
     id: 1034920
-Whirlight - No Time To Trip:
+Whirlight - No Time to Trip:
   cloud:
     steam: true
   files:

@@ -93136,6 +93136,8 @@ Funi Raccoon Game:
   lutris: funi-raccoon-game--1
   pageId: 211607
   steam: 3599690
+  templates:
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/godot/app_userdata/Funi Raccoon Game Redux/raccoon_saves}}"
 Funk Unplugged:
   pageId: 58400
   steam: 517100
@@ -101401,6 +101403,10 @@ Greedy Crush:
 Greedy Dungeons:
   pageId: 82410
   steam: 765020
+Greedy Greedy Gnomes:
+  lutris: greedy-greedy-gnomes
+  pageId: 219306
+  steam: 4356400
 Greedy Guns:
   pageId: 63363
   steam: 471700
@@ -171509,6 +171515,15 @@ Pathogen-病原体:
 "Pathogenesis: Overcome":
   pageId: 151503
   steam: 1067320
+Pathogenic:
+  cloud:
+    steam: true
+  pageId: 219304
+  steam: 3808690
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\*.cfg<ref name=\"pathogenic_rootcfg\">Root-level only (non-recursive): {{code|profiles.cfg}} (lists profile save slots) and the global {{code|godot_settings_override.cfg}}, which updates when settings are changed.</ref>}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\profile_*\\*.cfg<ref name=\"pathogenic_profilecfg\">Per-profile copies of {{code|godot_settings_override.cfg}} and {{code|local_settings.cfg}} (both update when settings are changed), plus {{code|player_config.cfg}} (observed at 0 bytes and unchanged; included for completeness).</ref>}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\profile_*\\*.json*<ref name=\"pathogenic_savefiles\">Each numbered profile folder (currently {{code|profile_01}}, {{code|profile_02}}, {{code|profile_03}}) is a separate save slot containing {{code|save.json}} (current save), {{code|run_save.json}} (current run state), and {{code|past_runs.json}} (run history), each with a {{code|.bak}} backup copy ({{code|save.json}} also keeps a {{code|.bak2}}). The wildcard deliberately excludes {{code|.cfg}} files (see Configuration file(s) location above) and {{code|steam_autocloud.vdf}}, which is Steam Cloud's internal sync-tracking file rather than game data.</ref>}}"
 Pathologic:
   gog: 1207659197
   pageId: 21791
@@ -180875,6 +180890,8 @@ Pronoun Palace:
     steam: true
   pageId: 219285
   steam: 3618850
+  templates:
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Pronoun Palace/saves}}"
 Pronty:
   cloud:
     gog: true
@@ -274004,11 +274021,13 @@ Whiplash - Crash Valley:
 Whipseey and the Lost Atlas:
   pageId: 136943
   steam: 1034920
-Whirlight - No Time To Trip:
+Whirlight - No Time to Trip:
   cloud:
     steam: true
   lutris: whirlight-no-time-to-trip
   pageId: 213744
+  renamedFrom:
+    - Whirlight - No Time To Trip
   steam: 2706980
   steamSide:
     - 3001300
