@@ -608559,6 +608559,26 @@
         oslist: windows
       executable: DREAMWILD.exe
       type: default
+2168680:
+  installDir: Nuclear Option
+  launch:
+    - config:
+        osarch: "64"
+      description: Nuclear Option (DirectX 11)
+      executable: NuclearOption.exe
+      type: default
+    - arguments: "-force-d3d12"
+      config:
+        osarch: "64"
+      description: Nuclear Option (DirectX 12)
+      executable: NuclearOption.exe
+      type: option1
+    - arguments: "-force-vulkan"
+      config:
+        osarch: "64"
+      description: Nuclear Option (Vulkan)
+      executable: NuclearOption.exe
+      type: option2
 2169200:
   cloud:
     saves:
@@ -633646,6 +633666,7 @@
         oslist: windows
       executable: LayOfTheLand.exe
       type: default
+2776540: {}
 2776860:
   cloud:
     saves:
@@ -656226,6 +656247,7 @@
     koreana: 수박게임 플래닛
     schinese: 西瓜游戏 Planet
     tchinese: 西瓜遊戲 Planet
+4651120: {}
 4655000:
   nameLocalized:
     japanese: カラドリウス2/ダークエレメント

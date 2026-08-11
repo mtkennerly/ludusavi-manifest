@@ -25428,6 +25428,8 @@ Agenda:
 "Agent 64: Spies Never Die":
   cloud:
     steam: true
+  id:
+    lutris: agent-64-spies-never-die
   steam:
     id: 1574480
 Agent 9:
@@ -193366,6 +193368,7 @@ Desktop Explorer:
     lutris: desktop-explorer
     steamExtra:
       - 2533590
+      - 4910660
   installDir:
     Desktop Explorer: {}
   launch:
@@ -260619,6 +260622,11 @@ Farming Giant:
           - store: steam
   steam:
     id: 259910
+Farming Incremental But With Guns:
+  id:
+    lutris: farming-incremental-but-with-guns
+  steam:
+    id: 4651120
 Farming Life:
   cloud:
     steam: true
@@ -499360,6 +499368,19 @@ Nuclear Nightmare:
             store: steam
   steam:
     id: 2909110
+Nuclear Option:
+  id:
+    steamExtra:
+      - 3067700
+  installDir:
+    Nuclear Option: {}
+  launch:
+    "<base>/NuclearOption.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 2168680
 Nuclear Power Station Creator:
   installDir:
     Nuclear Power Station Creator: {}
@@ -509694,6 +509715,11 @@ Opai Puzzle:
             store: steam
   steam:
     id: 907680
+Opaldune:
+  id:
+    lutris: opaldune
+  steam:
+    id: 2776540
 Opaline:
   cloud:
     steam: true

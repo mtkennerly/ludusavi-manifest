@@ -8042,6 +8042,7 @@ Agenda:
 "Agent 64: Spies Never Die":
   cloud:
     steam: true
+  lutris: agent-64-spies-never-die
   pageId: 175758
   steam: 1574480
 Agent 9:
@@ -62262,6 +62263,7 @@ Desktop Explorer:
   steam: 2527160
   steamSide:
     - 2533590
+    - 4910660
 Desktop Girls:
   pageId: 145945
   steam: 1044500
@@ -84563,6 +84565,10 @@ Farming Giant:
     steam: true
   pageId: 40524
   steam: 259910
+Farming Incremental But With Guns:
+  lutris: farming-incremental-but-with-guns
+  pageId: 219318
+  steam: 4651120
 Farming Life:
   cloud:
     steam: true
@@ -162741,6 +162747,11 @@ Nuclear Nightmare:
     steam: true
   pageId: 199756
   steam: 2909110
+Nuclear Option:
+  pageId: 219316
+  steam: 2168680
+  steamSide:
+    - 3067700
 Nuclear Power Station Creator:
   pageId: 122470
   steam: 970660
@@ -166118,6 +166129,10 @@ Oops!!! Puzzles!!!:
 Opai Puzzle:
   pageId: 103653
   steam: 907680
+Opaldune:
+  lutris: opaldune
+  pageId: 219314
+  steam: 2776540
 Opaline:
   cloud:
     steam: true
