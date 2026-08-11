@@ -675,6 +675,7 @@ $1 Ride:
 "1666: Amsterdam":
   cloud:
     steam: true
+  lutris: 1666-amsterdam
   pageId: 217311
   steam: 3949550
   steamSide:
@@ -8045,6 +8046,9 @@ Agenda:
   lutris: agent-64-spies-never-die
   pageId: 175758
   steam: 1574480
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Agent 64 Spies Never Die\\*.cfg|{{P|userprofile\\Documents}}\\Agent 64 Spies Never Die\\*.xml<ref>The same folder also contains {{code|steam_autocloud.vdf}}, a Steam Cloud tracking file with no user-relevant data; it is intentionally excluded here.</ref>}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Agent 64 Spies Never Die\\Agent *\\main.*<ref>Save data is stored per profile/agent slot in numbered subfolders (confirmed: Agent 1, Agent 2, Agent 3, each containing {{code|main.save}} and {{code|main.bsave}}). The wildcards cover additional slots beyond the three confirmed and both file extensions without needing brace expansion.</ref>}}"
 Agent 9:
   pageId: 126316
   steam: 981670
@@ -100956,7 +100960,7 @@ Gravi:
   steam: 247310
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Hashbang Games\\Gravi\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Gravi_Steam_v1.13b_Data\\StreamingAssets\\PlayerPrefs.dat}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\SOFTWARE\\Hashbang Games\\Gravi\\}}"
 GraviSound:
   pageId: 112416
   steam: 932480
@@ -171539,9 +171543,10 @@ Pathogenic:
   pageId: 219304
   steam: 3808690
   templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\*.cfg<ref name=\"pathogenic_rootcfg\">Root-level only (non-recursive): {{code|profiles.cfg}} (lists profile save slots) and the global {{code|godot_settings_override.cfg}}, which updates when settings are changed.</ref>}}"
-    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\profile_*\\*.cfg<ref name=\"pathogenic_profilecfg\">Per-profile copies of {{code|godot_settings_override.cfg}} and {{code|local_settings.cfg}} (both update when settings are changed), plus {{code|player_config.cfg}} (observed at 0 bytes and unchanged; included for completeness).</ref>}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\profile_*\\*.json*<ref name=\"pathogenic_savefiles\">Each numbered profile folder (currently {{code|profile_01}}, {{code|profile_02}}, {{code|profile_03}}) is a separate save slot containing {{code|save.json}} (current save), {{code|run_save.json}} (current run state), and {{code|past_runs.json}} (run history), each with a {{code|.bak}} backup copy ({{code|save.json}} also keeps a {{code|.bak2}}). The wildcard deliberately excludes {{code|.cfg}} files (see Configuration file(s) location above) and {{code|steam_autocloud.vdf}}, which is Steam Cloud's internal sync-tracking file rather than game data.</ref>}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\*.cfg<ref>Root-level only (non-recursive): {{code|profiles.cfg}} (lists profile save slots) and the global {{code|godot_settings_override.cfg}}, which updates when settings are changed.</ref>}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\profile_*\\*.cfg<ref>Per-profile copies of {{code|godot_settings_override.cfg}} and {{code|local_settings.cfg}} (both update when settings are changed), plus {{code|player_config.cfg}} (observed at 0 bytes and unchanged; included for completeness).</ref>}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\*.json<ref>Root-level only (non-recursive): {{code|mod_loader_cache.json}} and {{code|mod_user_profiles.json}}, synced via Steam Cloud alongside the per-profile save data below.</ref>}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pathogenic\\profile_*\\*.json*<ref>Each numbered profile folder (currently {{code|profile_1}}, {{code|profile_2}}, {{code|profile_3}}) is a separate save slot containing {{code|save.json}} (current save), {{code|run_save.json}} (current run state), and {{code|past_runs.json}} (run history), each with a {{code|.bak}} backup copy ({{code|save.json}} also keeps a {{code|.bak2}}). The wildcard deliberately excludes {{code|.cfg}} files (see Configuration file(s) location above) and {{code|steam_autocloud.vdf}}, which is Steam Cloud's internal sync-tracking file rather than game data.</ref>}}"
 Pathologic:
   gog: 1207659197
   pageId: 21791
@@ -186636,6 +186641,9 @@ ReSizE:
     - 4146670
     - 4146680
     - 5034500
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Mandragora\\Restory\\SaveData\\gameSettings.slot1.release.restory}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Mandragora\\Restory\\SaveData\\}}"
 ReThink:
   cloud:
     steam: true
@@ -241699,6 +241707,8 @@ The Last Photon:
 The Last Pixel:
   pageId: 153192
   steam: 1182680
+"The Last Plague: Blight":
+  pageId: 219335
 The Last Promise:
   pageId: 150164
   steam: 1149180
@@ -242967,6 +242977,11 @@ The Lord of the Rings Online:
   templates:
     - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\32800\\local\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\WB Games\\War in the North\\*.sav}}"
+"The Lord of the Rings: War in the North - Legacy Edition":
+  cloud:
+    steam: true
+  pageId: 219328
+  steam: 2523770
 "The Lord of the Rings: War of the Ring":
   pageId: 22965
   templates:
@@ -270246,6 +270261,9 @@ Wardialler:
 Wardogs:
   pageId: 214510
   steam: 1867240
+  steamSide:
+    - 4809930
+    - 4809960
 Wardwell House:
   pageId: 155530
   steam: 1180030

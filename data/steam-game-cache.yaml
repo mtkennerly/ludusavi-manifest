@@ -625715,6 +625715,20 @@
       description: Pender Test
       executable: "Binaries_x64\\WarGame-Steam-SteamTest.exe"
       type: option3
+2523770:
+  cloud:
+    saves:
+      - path: Aspyr/War in the North
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: LORWIN
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: witn.exe
 2524200: {}
 2524850:
   cloud:
@@ -653793,7 +653807,9 @@
       description: dev_debug version
       executable: ysx_pn_dev_debug.exe
       type: option1
-3949550: {}
+3949550:
+  nameLocalized:
+    schinese: 1666：阿姆斯特丹
 3949740:
   installDir: (BURIED TAPES) The Cleaner
   launch:

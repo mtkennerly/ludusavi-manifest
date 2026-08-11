@@ -2223,6 +2223,7 @@ $1 Ride:
   cloud:
     steam: true
   id:
+    lutris: 1666-amsterdam
     steamExtra:
       - 4519690
   steam:
@@ -25429,15 +25430,21 @@ Agenda:
   cloud:
     steam: true
   files:
-    "<winDocuments>/Agent 64 Spies Never Die/**/*.bsave":
+    "<winDocuments>/Agent 64 Spies Never Die/*.cfg":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winDocuments>/Agent 64 Spies Never Die/**/*.save":
+        - os: windows
+    "<winDocuments>/Agent 64 Spies Never Die/*.xml":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winDocuments>/Agent 64 Spies Never Die/**/*/Arena":
+        - os: windows
+    "<winDocuments>/Agent 64 Spies Never Die/Agent */main.*":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: agent-64-spies-never-die
   installDir:
@@ -311353,12 +311360,6 @@ Graveyard Smash:
 Gravi:
   cloud:
     steam: true
-  files:
-    "<base>/Gravi_Steam_v1.13b_Data/StreamingAssets/PlayerPrefs.dat":
-      tags:
-        - save
-      when:
-        - os: windows
   installDir:
     Gravi: {}
   launch:
@@ -311370,6 +311371,7 @@ Gravi:
     HKEY_CURRENT_USER/SOFTWARE/Hashbang Games/Gravi:
       tags:
         - config
+        - save
   steam:
     id: 247310
 GraviSound:
@@ -526191,50 +526193,26 @@ Pathogenic:
   cloud:
     steam: true
   files:
-    "<home>/Library/Application Support/godot/app_userdata/Pathogenic/*.json":
+    "<winAppData>/Godot/app_userdata/Pathogenic/*.cfg":
+      tags:
+        - config
       when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/godot/app_userdata/Pathogenic/profile_1/*.json":
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Pathogenic/*.json":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/godot/app_userdata/Pathogenic/profile_2/*.json":
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Pathogenic/profile_*/*.cfg":
+      tags:
+        - config
       when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/godot/app_userdata/Pathogenic/profile_3/*.json":
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Pathogenic/profile_*/*.json*":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
-    "<winAppData>/godot/app_userdata/Pathogenic/*.json":
-      when:
-        - store: steam
-    "<winAppData>/godot/app_userdata/Pathogenic/profile_1/*.json":
-      when:
-        - store: steam
-    "<winAppData>/godot/app_userdata/Pathogenic/profile_2/*.json":
-      when:
-        - store: steam
-    "<winAppData>/godot/app_userdata/Pathogenic/profile_3/*.json":
-      when:
-        - store: steam
-    "<xdgData>/godot/app_userdata/Pathogenic/*.json":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Pathogenic/profile_1/*.json":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Pathogenic/profile_2/*.json":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Pathogenic/profile_3/*.json":
-      when:
-        - os: linux
-          store: steam
+        - os: windows
   installDir:
     Pathogenic: {}
   launch:
@@ -573194,12 +573172,15 @@ ReSizE:
     steam: true
   files:
     "<home>/AppData/LocalLow/Mandragora/Restory/SaveData":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Mandragora/Restory/SaveData":
+        - os: windows
+    "<home>/AppData/LocalLow/Mandragora/Restory/SaveData/gameSettings.slot1.release.restory":
+      tags:
+        - config
       when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     steamExtra:
       - 4146670
@@ -746911,6 +746892,24 @@ The Lord of the Rings Online:
           - store: steam
   steam:
     id: 32800
+"The Lord of the Rings: War in the North - Legacy Edition":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Aspyr/War in the North/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    LORWIN: {}
+  launch:
+    "<base>/witn.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2523770
 "The Lord of the Rings: War of the Ring":
   files:
     "<base>/Rings.ini":
@@ -827220,6 +827219,10 @@ Wardialler:
   steam:
     id: 1077860
 Wardogs:
+  id:
+    steamExtra:
+      - 4809930
+      - 4809960
   steam:
     id: 1867240
 Wardwell House:

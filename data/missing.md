@@ -27465,6 +27465,7 @@
 * [The Last Patient](https://www.pcgamingwiki.com/wiki/?curid=58529)
 * [The Last Photon](https://www.pcgamingwiki.com/wiki/?curid=43586)
 * [The Last Pixel](https://www.pcgamingwiki.com/wiki/?curid=153192)
+* [The Last Plague: Blight](https://www.pcgamingwiki.com/wiki/?curid=219335)
 * [The Last Promise](https://www.pcgamingwiki.com/wiki/?curid=150164)
 * [The Last Sanctuary VR](https://www.pcgamingwiki.com/wiki/?curid=62793)
 * [The Last Sigil](https://www.pcgamingwiki.com/wiki/?curid=87475)
