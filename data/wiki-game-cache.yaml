@@ -19185,6 +19185,8 @@ Avabel Online:
 Avalo Legends:
   pageId: 153016
   steam: 1121570
+"Avalon Hill's Squad Leader":
+  pageId: 219348
 Avalon Legends Solitaire:
   pageId: 58900
   steam: 598610
@@ -30874,6 +30876,10 @@ Board Games VR:
 Board Quizz Adventure:
   pageId: 135191
   steam: 1032440
+Boardfall Zero:
+  lutris: boardfall-zero
+  pageId: 219258
+  steam: 4152060
 Boardwalk Carnival Game:
   pageId: 144496
   steam: 1140950
@@ -142919,6 +142925,11 @@ Marty Thinks 4D:
 Maru:
   pageId: 150992
   steam: 1150300
+"Marupoyo: The Round Chick's Adventure":
+  cloud:
+    steam: true
+  pageId: 219343
+  steam: 4355110
 Marvel Cosmic Invasion:
   cloud:
     steam: true
@@ -150100,7 +150111,9 @@ Moldwasher:
     - 4327990
 Mole:
   cloud:
+    gog: true
     steam: true
+  gog: 1735810088
   lutris: mole--4
   pageId: 216098
   steam: 4064510
@@ -242989,9 +243002,14 @@ The Lord of the Rings Online:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\WB Games\\War in the North\\*.sav}}"
 "The Lord of the Rings: War in the North - Legacy Edition":
   cloud:
+    epic: true
+    gog: true
     steam: true
+  gog: 1134024811
   pageId: 219328
   steam: 2523770
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Aspyr\\War in the North\\*.sav}}"
 "The Lord of the Rings: War of the Ring":
   pageId: 22965
   templates:

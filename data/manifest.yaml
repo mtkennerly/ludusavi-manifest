@@ -95144,6 +95144,18 @@ Board Quizz Adventure:
             store: steam
   steam:
     id: 1032440
+Boardfall Zero:
+  id:
+    lutris: boardfall-zero
+  installDir:
+    Boardfall zero: {}
+  launch:
+    "<base>/BoardFall.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4152060
 Boardwalk Carnival Game:
   installDir:
     Boardwalk Carnival Game: {}
@@ -439948,6 +439960,11 @@ Marty Thinks 4D:
 Maru:
   steam:
     id: 1150300
+"Marupoyo: The Round Chick's Adventure":
+  cloud:
+    steam: true
+  steam:
+    id: 4355110
 Marvel Cosmic Invasion:
   cloud:
     steam: true
@@ -461610,12 +461627,15 @@ Moldwasher:
     id: 3688130
 Mole:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Mole/Saved/SaveGames/**/*.sav":
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1735810088
   id:
     lutris: mole--4
     steamExtra:
@@ -746907,12 +746927,17 @@ The Lord of the Rings Online:
     id: 32800
 "The Lord of the Rings: War in the North - Legacy Edition":
   cloud:
+    epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Aspyr/War in the North/*.sav":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+  gog:
+    id: 1134024811
   installDir:
     LORWIN: {}
   launch:

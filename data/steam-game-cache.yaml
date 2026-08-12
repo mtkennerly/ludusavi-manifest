@@ -654772,6 +654772,13 @@
       type: default
 4148910: {}
 4149610: {}
+4152060:
+  installDir: Boardfall zero
+  launch:
+    - config:
+        oslist: windows
+      executable: BoardFall.exe
+      type: default
 4153760: {}
 4157130:
   cloud:
@@ -655541,6 +655548,7 @@
 4354570:
   nameLocalized:
     english: FINAL FANTASY VII REVELATION
+4355110: {}
 4356400: {}
 4358270:
   nameLocalized:
