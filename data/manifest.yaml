@@ -197982,6 +197982,10 @@ Die by the Sword:
         - os: windows
   gog:
     id: 1207658647
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Treyarch/Die By The Sword:
+      tags:
+        - config
 Die drei ??? - Rätsel aus der Geisterwelt:
   cloud:
     steam: true
@@ -790452,9 +790456,9 @@ Treasure Hunter Simulator:
             store: steam
   steam:
     id: 748300
-Treasure Island (2009):
+Treasure Island (2008):
   files:
-    "<winProgramData>/HMH Interactive/Treasure Island/profiles/default":
+    "<winProgramData>/HMH Interactive/Treasure Island/profiles/default/profile.xml":
       tags:
         - config
       when:
@@ -790464,6 +790468,10 @@ Treasure Island (2009):
         - save
       when:
         - os: windows
+  id:
+    lutris: treasure-island--3
+Treasure Island (2009):
+  alias: Treasure Island (2008)
 "Treasure Masters, Inc.: The Lost City":
   cloud:
     steam: true
