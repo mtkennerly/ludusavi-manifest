@@ -4850,6 +4850,7 @@
 * [Choices, The Game](https://www.pcgamingwiki.com/wiki/?curid=80972)
 * [Choose for ME](https://www.pcgamingwiki.com/wiki/?curid=157484)
 * [Chop and Drop VR](https://www.pcgamingwiki.com/wiki/?curid=68835)
+* [Chop Chop Inc.](https://www.pcgamingwiki.com/wiki/?curid=219338)
 * [Chop Chop Princess!](https://www.pcgamingwiki.com/wiki/?curid=74948)
 * [Chop It](https://www.pcgamingwiki.com/wiki/?curid=105093)
 * [Chop Suey](https://www.pcgamingwiki.com/wiki/?curid=184697)

@@ -266195,6 +266195,8 @@ Figure Shop Simulator:
           store: steam
   id:
     lutris: figure-shop-simulator
+    steamExtra:
+      - 3694220
   installDir:
     Figure Shop Simulator: {}
   launch:
@@ -422299,6 +422301,11 @@ Lost and Found Co.:
         - config
       when:
         - os: windows
+    "<home>/AppData/LocalLow/BitEggInc/LostAndFoundCo/SaveSlots":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/AppData/LocalLow/BitEggInc/LostAndFoundCo/StageState":
       tags:
         - save
@@ -495171,14 +495178,20 @@ No More Room in Hell 2:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: no-more-room-in-hell-2
+    steamExtra:
+      - 2089150
+      - 4250540
+      - 4250550
+      - 4250630
   installDir:
     nmrih2: {}
   launch:
     "<base>/NMRiH2.exe":
       - arguments: "-epicsandboxidoverride=f8bf474b836f4303ae3ac469ebe5f447"
         when:
-          - os: windows
-            store: steam
+          - store: steam
   steam:
     id: 292000
 No More Snow:

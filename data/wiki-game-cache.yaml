@@ -42502,6 +42502,8 @@ Chop:
     steam: true
   pageId: 88217
   steam: 755920
+Chop Chop Inc.:
+  pageId: 219338
 Chop Chop Princess!:
   pageId: 74948
   steam: 718740
@@ -86394,6 +86396,8 @@ Figure Shop Simulator:
   lutris: figure-shop-simulator
   pageId: 209395
   steam: 3604560
+  steamSide:
+    - 3694220
 Figure Simulator War:
   pageId: 148733
   steam: 1138260
@@ -137253,7 +137257,7 @@ Lost and Found Co.:
   steam: 2101390
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\LocalSettings\\settings_local.json|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\settings_cloud.json}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\save.json|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\StageState}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\save.json|{{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\StageState| {{P|userprofile\\appdata\\locallow}}\\BitEggInc\\LostAndFoundCo\\SaveSlots}}"
 Lost and Found RPG:
   pageId: 121343
   steam: 955770
@@ -161314,8 +161318,14 @@ No More Room in Hell:
 No More Room in Hell 2:
   cloud:
     xbox: true
+  lutris: no-more-room-in-hell-2
   pageId: 89831
   steam: 292000
+  steamSide:
+    - 2089150
+    - 4250540
+    - 4250550
+    - 4250630
 No More Snow:
   gog: 1914400841
   lutris: no-more-snow

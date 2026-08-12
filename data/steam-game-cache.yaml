@@ -54269,8 +54269,6 @@
   installDir: nmrih2
   launch:
     - arguments: "-epicsandboxidoverride=f8bf474b836f4303ae3ac469ebe5f447"
-      config:
-        oslist: windows
       executable: NMRiH2.exe
       type: default
     - arguments: "-anticheat_settings=Settings_TEST.json -epicsandboxidoverride=f8bf474b836f4303ae3ac469ebe5f447"
@@ -604900,6 +604898,10 @@
         root: WinAppDataLocalLow
       - path: BitEggInc/LostAndFoundCo/Parlor/slot0
         pattern: "*.json"
+        root: WinAppDataLocalLow
+      - path: BitEggInc/LostAndFoundCo/SaveSlots
+        pattern: "*.json"
+        recursive: true
         root: WinAppDataLocalLow
     overrides:
       - addPath: ""
