@@ -13640,6 +13640,9 @@ Anthem:
 Anthology of Fear:
   pageId: 142225
   steam: 1092530
+Anthology of the Killer:
+  pageId: 219373
+  steam: 3212530
 Anthropomachy:
   pageId: 135421
   steam: 1018270
@@ -95941,6 +95944,7 @@ Gears of War 4:
 "Gears of War: E-Day":
   cloud:
     xbox: true
+  lutris: gears-of-war-e-day
   pageId: 195567
   steam: 3010850
   templates:
@@ -186680,8 +186684,8 @@ ReSizE:
     - 4146680
     - 5034500
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Mandragora\\Restory\\SaveData\\gameSettings.slot1.release.restory}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Mandragora\\Restory\\SaveData\\}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Mandragora\\Restory\\SaveData\\gameSettings.slot1.release.restory}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Mandragora\\Restory\\SaveData\\}}"
 ReThink:
   cloud:
     steam: true
@@ -234400,6 +234404,8 @@ The Adventures of Mr. Fluffykins:
 The Adventures of Nick & Willikins:
   pageId: 87263
   steam: 789540
+"The Adventures of Ninja Nanny & Sherrloch Sheltie: No. 11 Downing Street":
+  pageId: 219378
 The Adventures of Perseus:
   pageId: 129829
   steam: 1031590
@@ -235970,9 +235976,9 @@ The Case of the Golden Idol:
     - 1678010
     - 2178870
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\The Case of The Golden Idol\\local_settings.cfg}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\The Case of The Golden Idol\\{{P|uid}}_settings.cfg}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\PlayStack.TheCaseoftheGoldenIdol_3wcqaesafpzfy\\SystemAppData\\wgs\\}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\The Case of The Golden Idol\\local_savegame.save}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\The Case of The Golden Idol\\{{P|uid}}_savegame.save}}"
 The Casebook of Arkady Smith:
   pageId: 161839
   steam: 1260840
@@ -243859,6 +243865,8 @@ The Murder of Sonic the Hedgehog:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Sonic Social\\The Murder of Sonic The Hedgehog|{{P|userprofile\\appdata\\locallow}}\\Sonic Social\\The Murder of Sonic The Hedgehog\\SaveData.data}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Sonic Social\\The Murder of Sonic The Hedgehog\\SaveData.data}}"
+The Museum of Anything Goes:
+  pageId: 219376
 The Museum of ThroughView:
   pageId: 67547
   steam: 689210

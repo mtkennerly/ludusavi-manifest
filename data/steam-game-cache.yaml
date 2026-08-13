@@ -38694,13 +38694,13 @@
       description: AION Live
       executable: NCLauncher.exe
       type: default
-    - arguments: "-usehqserver -hqip:79.110.83.108 -hqport:13001 -np:79.110.83.118 -noweb -noauthgg -st -charnamemenu -ingamebrowser -webshopevent:6 -f2p -lbox -ncping /SessKey:\"\" /CompanyID:\"11\" /ChannelGroupIndex:\"-1\" -60f2p -aiontv -nobs -dnpshop -hidepromo -probability -megaphone -rollingmegaphone -probability2 -disablepcroommulticlientban -disablegamegrade -disabledevaschedule -disabletempbanner /ExAccessToken:\"gfsteam\""
+    - arguments: "-usehqserver -hqip:79.110.83.221 -hqport:13001 -np:79.110.83.200 -noweb -noauthgg -st -charnamemenu -ingamebrowser -webshopevent:6 -f2p -lbox -ncping /SessKey:\"\" /CompanyID:\"11\" /ChannelGroupIndex:\"-1\" -60f2p -aiontv -nobs -dnpshop -hidepromo -probability -megaphone -rollingmegaphone -probability2 -disablepcroommulticlientban -disablegamegrade -disabledevaschedule -disabletempbanner /ExAccessToken:\"gfsteam\""
       config:
         betakey: aion-qa1
         oslist: windows
       description: AION QA1
       executable: NCLauncher.exe
-    - arguments: "-usehqserver -hqip:79.110.83.108 -hqport:13001 -np:79.110.83.118 -noweb -noauthgg -st -charnamemenu -ingamebrowser -webshopevent:6 -f2p -lbox -ncping /SessKey:\"\" /CompanyID:\"11\" /ChannelGroupIndex:\"-1\" -60f2p -aiontv -nobs -dnpshop -hidepromo -probability -megaphone -rollingmegaphone -probability2 -disablepcroommulticlientban -disablegamegrade -disabledevaschedule -disabletempbanner /ExAccessToken:\"gfsteam\""
+    - arguments: "-usehqserver -hqip:79.110.83.98 -hqport:13001 -np:79.110.83.99 -noweb -noauthgg -st -charnamemenu -ingamebrowser -webshopevent:6 -f2p -lbox -ncping /SessKey:\"\" /CompanyID:\"11\" /ChannelGroupIndex:\"-1\" -60f2p -aiontv -nobs -dnpshop -hidepromo -probability -megaphone -rollingmegaphone -probability2 -disablepcroommulticlientban -disablegamegrade -disabledevaschedule -disabletempbanner /ExAccessToken:\"gfsteam\""
       config:
         betakey: aion-qa2
         oslist: windows
@@ -239819,7 +239819,7 @@
       type: default
     - config:
         oslist: macos
-      executable: "Minit.app\\Contents\\MacOS\\Mac_Runner"
+      executable: Minit.app
       type: default
     - config:
         oslist: linux
@@ -643267,6 +643267,19 @@
     schinese: DYSTHANASIA -终末期异化-
     tchinese: DYSTHANASIA -終末期異化-
 3212260: {}
+3212530:
+  installDir: Anthology Of The Killer
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Anthology of the Killer.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Anthology of the Killer.x86_64
+      type: default
 3212580:
   cloud:
     saves:
@@ -649189,7 +649202,27 @@
     tchinese: 風暴怕死隊
 3561320: {}
 3561600: {}
-3562580: {}
+3562580:
+  cloud:
+    saves:
+      - path: Project_HighSchool/Saved/SaveGames
+        pattern: SaveData_PlayerData.sav
+        root: WinAppDataLocal
+      - path: Project_HighSchool/Saved/SaveGames
+        pattern: Autosave.sav
+        root: WinAppDataLocal
+      - path: Project_HighSchool/Saved/SaveGames
+        pattern: PlayerSlot1.sav
+        root: WinAppDataLocal
+      - path: Project_HighSchool/Saved/SaveGames
+        pattern: PlayerSlot2.sav
+        root: WinAppDataLocal
+      - path: Project_HighSchool/Saved/SaveGames
+        pattern: PlayerSlot3.sav
+        root: WinAppDataLocal
+  installDir: Agefield High Rock the School
+  launch:
+    - executable: Project_HighSchool.exe
 3563700:
   installDir: Car Driving School Simulator
   launch:
@@ -655549,7 +655582,39 @@
   nameLocalized:
     english: FINAL FANTASY VII REVELATION
 4355110: {}
-4356400: {}
+4356400:
+  cloud:
+    saves:
+      - path: Greedy_Greedy_Gnomes
+        pattern: "*.json"
+        recursive: true
+        root: WinMyDocuments
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Greedy_Greedy_Gnomes
+            replace: Documents/Greedy_Greedy_Gnomes
+        root: WinMyDocuments
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Greedy_Greedy_Gnomes
+            replace: Documents/Greedy_Greedy_Gnomes
+        root: WinMyDocuments
+        useInstead: MacHome
+  installDir: Greedy_Greedy_Gnomes
+  launch:
+    - config:
+        oslist: windows
+      executable: Greedy Greedy Gnomes.exe
+    - config:
+        oslist: linux
+      executable: Greedy Greedy Gnomes
+    - config:
+        oslist: macos
+      executable: Greedy Greedy Gnomes.app
 4358270:
   nameLocalized:
     english: Pickmos

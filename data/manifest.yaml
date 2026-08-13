@@ -25383,8 +25383,30 @@ Age-Old Cities VR:
 "Agefield High: Rock the School":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Project_HighSchool/Saved/SaveGames/Autosave.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Project_HighSchool/Saved/SaveGames/PlayerSlot1.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Project_HighSchool/Saved/SaveGames/PlayerSlot2.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Project_HighSchool/Saved/SaveGames/PlayerSlot3.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Project_HighSchool/Saved/SaveGames/SaveData_PlayerData.sav":
+      when:
+        - store: steam
   id:
     lutris: agefield-high-rock-the-school
+  installDir:
+    Agefield High Rock the School: {}
+  launch:
+    "<base>/Project_HighSchool.exe":
+      - when:
+          - store: steam
   steam:
     id: 3562580
 Ageless:
@@ -42707,6 +42729,22 @@ Anthology of Fear:
             store: steam
   steam:
     id: 1092530
+Anthology of the Killer:
+  installDir:
+    Anthology Of The Killer: {}
+  launch:
+    "<base>/Anthology of the Killer.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Anthology of the Killer.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 3212530
 Anthropomachy:
   installDir:
     Anthropomachy: {}
@@ -295995,6 +296033,8 @@ Gears of War 4:
         - config
       when:
         - os: windows
+  id:
+    lutris: gears-of-war-e-day
   steam:
     id: 3010850
 "Gears of War: Reloaded":
@@ -312937,8 +312977,33 @@ Greedy Dungeons:
   steam:
     id: 765020
 Greedy Greedy Gnomes:
+  files:
+    "<home>/Documents/Greedy_Greedy_Gnomes/*.json":
+      when:
+        - os: mac
+          store: steam
+        - os: linux
+          store: steam
+    "<winDocuments>/Greedy_Greedy_Gnomes/**/*.json":
+      when:
+        - store: steam
   id:
     lutris: greedy-greedy-gnomes
+  installDir:
+    Greedy_Greedy_Gnomes: {}
+  launch:
+    "<base>/Greedy Greedy Gnomes":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Greedy Greedy Gnomes.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Greedy Greedy Gnomes.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4356400
 Greedy Guns:
@@ -458403,7 +458468,7 @@ Minit:
   installDir:
     Minit: {}
   launch:
-    "<base>/Minit.app/Contents/MacOS/Mac_Runner":
+    "<base>/Minit.app":
       - when:
           - os: mac
             store: steam
@@ -725857,12 +725922,12 @@ The Case of the Golden Idol:
     gog: true
     steam: true
   files:
-    "<winAppData>/Godot/app_userdata/The Case of The Golden Idol/local_savegame.save":
+    "<winAppData>/Godot/app_userdata/The Case of The Golden Idol/<storeUserId>_savegame.save":
       tags:
         - save
       when:
         - os: windows
-    "<winAppData>/Godot/app_userdata/The Case of The Golden Idol/local_settings.cfg":
+    "<winAppData>/Godot/app_userdata/The Case of The Golden Idol/<storeUserId>_settings.cfg":
       tags:
         - config
       when:
