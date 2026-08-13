@@ -66335,7 +66335,7 @@ Baldr Sky:
         - save
       when:
         - store: steam
-    "<winLocalAppData>/Larian Studios/Baldur's Gate 3/PlayerProfiles":
+    "<winLocalAppData>/Lari'an Studios/Baldur's Gate 3/PlayerProfiles":
       tags:
         - config
       when:
@@ -188057,8 +188057,24 @@ Defender of the Crown:
   steam:
     id: 326590
 "Defender of the Crown: The Legend Returns":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Black Tower Basement/Defender of the Crown Collection/<storeUserId>/*.sav/<home>/AppData/LocalLow/Black Tower Basement/Defender of the Crown Collection/<storeUserId>/*.jpg":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1587851209
+  installDir:
+    Defender of the Crown Legend Returns: {}
+  launch:
+    "<base>/Defender of the Crown Collection.exe":
+      - when:
+          - store: steam
   steam:
     id: 4208140
 "Defender's Quest II: Mists of Ruin":
@@ -223828,11 +223844,23 @@ Duskers:
 Duskfade:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Duskfade/Saved/SaveGames/DFSlot*":
+      when:
+        - store: steam
   id:
     lutris: duskfade
     steamExtra:
       - 4023080
       - 4934950
+  installDir:
+    Duskfade: {}
+  launch:
+    "<base>/Duskfade.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2542020
 "Duskless: The Clockwork Army":
@@ -226324,7 +226352,7 @@ E3.14CENTER:
   steam:
     id: 862240
 EA SPORTS™ Madden NFL 27:
-  alias: EA Sports Madden NFL 27
+  alias: Madden NFL 27
 EA Sports College Football 27:
   installDir:
     College Football 27: {}
@@ -226394,8 +226422,7 @@ EA Sports FC 26:
   steam:
     id: 3405690
 EA Sports Madden NFL 27:
-  steam:
-    id: 3940610
+  alias: Madden NFL 27
 EA Sports PGA Tour:
   cloud:
     origin: true
@@ -269907,6 +269934,12 @@ Fish Fillets 2:
           - store: steam
   steam:
     id: 33950
+Fish Lab:
+  id:
+    steamExtra:
+      - 4601570
+  steam:
+    id: 4221990
 Fish Lake:
   installDir:
     FISH LAKE: {}
@@ -331531,6 +331564,18 @@ Hell Let Loose:
 "Hell Let Loose: Vietnam":
   id:
     lutris: hell-let-loose-vietnam
+    steamExtra:
+      - 4447970
+      - 4447980
+      - 4448010
+  installDir:
+    Hell Let Loose - Vietnam: {}
+  launch:
+    "<base>/Launch_HLL.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3079210
 Hell Maiden:
@@ -431572,6 +431617,11 @@ Madden NFL 26:
     Madden NFL 26: {}
   steam:
     id: 3230400
+Madden NFL 27:
+  installDir:
+    Madden NFL 27: {}
+  steam:
+    id: 3940610
 Maddening Euphoria:
   installDir:
     Maddening Euphoria: {}
@@ -527557,16 +527607,6 @@ Payday 2:
       - 468410
   installDir:
     PAYDAY 2: {}
-  launch:
-    "<base>/payday2.app":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/payday2_release":
-      - when:
-          - bit: 64
-            os: linux
-            store: steam
   steam:
     id: 218620
 Payday 3:
@@ -561887,7 +561927,8 @@ Quake:
     Quake: {}
   launch:
     "<base>/rerelease/Quake_x64_steam.exe":
-      - when:
+      - arguments: +d3d11_compileShaders 1
+        when:
           - store: steam
   steam:
     id: 2310
@@ -561997,7 +562038,8 @@ Quake Enhanced:
     Quake: {}
   launch:
     "<base>/rerelease/Quake_x64_steam.exe":
-      - when:
+      - arguments: +d3d11_compileShaders 1
+        when:
           - store: steam
   steam:
     id: 2310
@@ -612468,6 +612510,22 @@ Sandustry:
   id:
     steamExtra:
       - 3490390
+  installDir:
+    Sandustry: {}
+  launch:
+    "<base>/Sandustry.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Sandustry.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/sandustry":
+      - arguments: "--no-sandbox"
+        when:
+          - os: linux
+            store: steam
   steam:
     id: 2764460
 Sandwalkers:
@@ -623661,10 +623719,29 @@ Servant of The People:
   steam:
     id: 1146600
 Servant of the Lake:
+  files:
+    "<home>/AppData/LocalLow/RustyLake/ServantOfTheLake/Serialization/SaveFiles/**/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/RustyLake/ServantOfTheLake/Serialization/SaveFiles/*.json":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: servant-of-the-lake
     steamExtra:
       - 3996940
+  installDir:
+    Servant of the Lake: {}
+  launch:
+    "<base>/ServantOfTheLake.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ServantOfTheLake.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3636770
 Servo:
@@ -839861,6 +839938,17 @@ Wild Assault:
 Wild Blue Skies:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Chuhai Labs/Wild Blue Skies/*.dat":
+      when:
+        - store: steam
+  installDir:
+    Wild Blue Skies: {}
+  launch:
+    "<base>/Wild Blue Skies.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1921490
 "Wild Buster: Heroes of Titan":

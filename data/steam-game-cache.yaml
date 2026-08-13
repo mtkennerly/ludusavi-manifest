@@ -1174,7 +1174,8 @@
         root: WinSavedGames
   installDir: Quake
   launch:
-    - executable: rerelease/Quake_x64_steam.exe
+    - arguments: +d3d11_compileShaders 1
+      executable: rerelease/Quake_x64_steam.exe
       type: default
     - description: Quake (Original)
       executable: glquake.exe
@@ -21249,46 +21250,33 @@
   installDir: PAYDAY 2
   launch:
     - config:
-        betakey: public
+        betakey: legacy
         oslist: windows
       executable: payday2_win32_release.exe
       type: default
     - config:
-        oslist: macos
-      executable: payday2.app
-    - config:
-        osarch: "64"
-        oslist: linux
-      executable: payday2_release
-      type: default
-    - config:
-        betakey: public
+        betakey: legacy
         oslist: windows
         ownsdlc: "826090"
       description: PAYDAY 2 VR
       executable: payday2_win32_release_vr.exe
       type: vr
-    - config:
-        betakey: qa
-        oslist: windows
-      executable: payday2_win32_release_vr.exe
-      type: vr
     - arguments: "-NewCPU"
       config:
-        betakey: public
+        betakey: legacy
         oslist: windows
       description: PAYDAY 2 with Modern CPU Support (2021+)
       executable: payday2_win32_release.exe
       type: option1
     - config:
-        betakey: open_beta eng1 ovk_externals ovk_partners
+        betakey: public
         osarch: "64"
         oslist: windows
       executable: PAYDAY2.exe
       type: default
     - arguments: "-vr"
       config:
-        betakey: open_beta eng1 ovk_externals ovk_partners
+        betakey: public
         osarch: "64"
         oslist: windows
         ownsdlc: "826090"
@@ -593572,7 +593560,24 @@
   installDir: Fallen Legion Revenants
   launch:
     - executable: Fallen Legion Revenants.exe
-1921490: {}
+1921490:
+  cloud:
+    saves:
+      - path: Chuhai Labs/Wild Blue Skies
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: unity.Chuhai Labs.Wild Blue Skies
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: Wild Blue Skies
+  launch:
+    - config:
+        oslist: windows
+      executable: Wild Blue Skies.exe
+      type: default
 1921560:
   cloud:
     saves:
@@ -626581,7 +626586,19 @@
   installDir: GmodeArchivesPlus_persona
   launch:
     - executable: persona.exe
-2542020: {}
+2542020:
+  cloud:
+    saves:
+      - path: Duskfade/Saved/SaveGames
+        pattern: DFSlot*
+        root: WinAppDataLocal
+  installDir: Duskfade
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Duskfade.exe
+      type: default
 2542120:
   cloud:
     saves:
@@ -633461,6 +633478,18 @@
     schinese: 星之翼（Starward）
     tchinese: 星之翼（Starward）
 2764460:
+  installDir: Sandustry
+  launch:
+    - config:
+        oslist: windows
+      executable: Sandustry.exe
+    - arguments: "--no-sandbox"
+      config:
+        oslist: linux
+      executable: sandustry
+    - config:
+        oslist: macos
+      executable: Sandustry.app
   nameLocalized:
     japanese: Sandustry サンダストリー
     koreana: Sandustry 샌더스트리
@@ -640927,6 +640956,45 @@
     - executable: motogp25.exe
 3079170: {}
 3079210:
+  installDir: Hell Let Loose - Vietnam
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Launch_HLL.exe
+      type: default
+    - arguments: "-noEAC"
+      config:
+        betakey: "dev_team,compat,hll_wfl_main_build,signoff,hll_wfl_wip_1_build,release_a,release_b,hll_wfl_ue5_upgrade_build,qa_testing"
+        osarch: "64"
+        oslist: windows
+      description: Development (no EAC)
+      executable: Launch_HLL_Dev.exe
+      type: option1
+    - arguments: "-noEAC -clearPSODriverCache -logPSO"
+      config:
+        betakey: "hll_wfl_main_build,qa_testing"
+        osarch: "64"
+        oslist: windows
+      description: "Development (no EAC, Log PSO)"
+      executable: Launch_HLL_Dev.exe
+      type: option3
+    - arguments: "-noEAC"
+      config:
+        betakey: "dev_team,compat,hll_wfl_main_build,signoff,hll_wfl_wip_1_build,release_a,release_b,hll_wfl_ue5_upgrade_build,qa_testing"
+        osarch: "64"
+        oslist: windows
+      description: Test (no EAC)
+      executable: Launch_HLL_Test.exe
+      type: option2
+    - arguments: "-noEAC -dpcvars=r.PSOPrecache.Validation=2 -clearPSODriverCache"
+      config:
+        betakey: "hll_wfl_main_build,qa_testing"
+        osarch: "64"
+        oslist: windows
+      description: "Development (no EAC, Clear PSO Cache)"
+      executable: Launch_HLL_Dev.exe
+      type: benchmark
   nameLocalized:
     schinese: "人间地狱：越南 "
 3080510:
@@ -650469,7 +650537,31 @@
         oslist: windows
       executable: TheLastCaseOfJMorley.exe
       type: default
-3636770: {}
+3636770:
+  cloud:
+    saves:
+      - path: RustyLake/ServantOfTheLake/Serialization/SaveFiles/
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: RustyLake/Servant Of The Lake/Serialization/SaveFiles/
+            replace: RustyLake/ServantOfTheLake/Serialization/SaveFiles/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Servant of the Lake
+  launch:
+    - config:
+        oslist: windows
+      executable: ServantOfTheLake.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: ServantOfTheLake.app
+      type: default
 3638040: {}
 3638180:
   installDir: Donuts for Deer Teeth
@@ -653723,6 +653815,13 @@
     schinese: 海边宝藏小铺
     tchinese: 海邊寶藏小鋪
 3940610:
+  installDir: Madden NFL 27
+  launch:
+    - executable: "steam2ea://launchgame/3940610?platform=steam&theme=madden27"
+    - config:
+        betakey: eax_test
+      description: Play EA SPORTS™ Madden NFL 27 - Old launch mode (for testing)
+      executable: "link2ea://launchgame/3940610?platform=steam&theme=madden27"
   nameLocalized:
     english: EA SPORTS™ Madden NFL 27
     schinese: EA SPORTS™《Madden NFL 27》
@@ -655107,7 +655206,21 @@
       type: default
   nameLocalized:
     schinese: 专注魔法屋
-4208140: {}
+4208140:
+  cloud:
+    saves:
+      - path: "Black Tower Basement\\Defender of the Crown Collection\\{Steam3AccountID}"
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "Black Tower Basement\\Defender of the Crown Collection\\{Steam3AccountID}"
+        pattern: "*.jpg"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Defender of the Crown Legend Returns
+  launch:
+    - executable: Defender of the Crown Collection.exe
+      type: default
 4209010:
   installDir: Lakehopper
   launch:
@@ -655134,6 +655247,7 @@
     czech: "Posel smrti: Pouto krve"
     english: "Messenger of Death: Blood Bond"
 4216180: {}
+4221990: {}
 4223290:
   nameLocalized:
     japanese: "ロックマン: デュアル オーバーライド"

@@ -21321,7 +21321,7 @@ Baldr Sky:
   steamSide:
     - 2378500
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\PlayerProfiles\\|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\graphicSettings.lsx|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\analytics.lsx|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\imgui.ini}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Lari'an Studios\\Baldur's Gate 3\\PlayerProfiles\\|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\graphicSettings.lsx|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\analytics.lsx|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\imgui.ini}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Documents/Larian Studios/Baldur's Gate 3/PlayerProfiles/}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/Larian Studios/Baldur's Gate 3/PlayerProfiles/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Larian Studios\\Baldur's Gate 3\\PlayerProfiles\\Public\\Savegames\\Story\\}}"
@@ -57353,6 +57353,7 @@ Datascape:
 Date Everything!:
   cloud:
     steam: true
+    xbox: true
   pageId: 201352
   steam: 2201320
   templates:
@@ -60669,9 +60670,14 @@ Defender of the Crown:
   pageId: 14586
   steam: 326590
 "Defender of the Crown: The Legend Returns":
+  cloud:
+    gog: true
+    steam: true
   gog: 1587851209
   pageId: 214741
   steam: 4208140
+  templates:
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Black Tower Basement\\Defender of the Crown Collection\\{{p|uid}}\\*.sav\\{{p|userprofile\\appdata\\locallow}}\\Black Tower Basement\\Defender of the Crown Collection\\{{p|uid}}\\*.jpg}}"
 "Defender's Quest II: Mists of Ruin":
   gog: 1988808085
   gogSide:
@@ -65303,6 +65309,7 @@ Disparity:
 Dispatch:
   cloud:
     steam: true
+    xbox: true
   lutris: dispatch--3
   pageId: 205211
   renamedFrom:
@@ -73098,11 +73105,6 @@ EA Sports FC 26:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\EA SPORTS FC 26\\settings}}"
 EA Sports FC Online:
   pageId: 201118
-EA Sports Madden NFL 27:
-  pageId: 218676
-  renamedFrom:
-    - EA SPORTS™ Madden NFL 27
-  steam: 3940610
 EA Sports PGA Tour:
   cloud:
     origin: true
@@ -87681,6 +87683,11 @@ Fish Fillets 2:
   steam: 33950
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\}}"
+Fish Lab:
+  pageId: 219389
+  steam: 4221990
+  steamSide:
+    - 4601570
 Fish Lake:
   pageId: 54814
   steam: 529610
@@ -107656,6 +107663,10 @@ Hell Let Loose:
   lutris: hell-let-loose-vietnam
   pageId: 216625
   steam: 3079210
+  steamSide:
+    - 4447970
+    - 4447980
+    - 4448010
 Hell Maiden:
   pageId: 218881
   steam: 3372060
@@ -140169,6 +140180,12 @@ Madden NFL 25:
 Madden NFL 26:
   pageId: 203831
   steam: 3230400
+Madden NFL 27:
+  pageId: 218676
+  renamedFrom:
+    - EA SPORTS™ Madden NFL 27
+    - EA Sports Madden NFL 27
+  steam: 3940610
 Madden NFL 98:
   pageId: 195622
 Maddening Euphoria:
@@ -168941,6 +168958,8 @@ PASKA BATTLE STYLE!:
   pageId: 122478
   steam: 979760
 PAW Patrol Dino World:
+  cloud:
+    xbox: true
   pageId: 218339
   steam: 3525790
 "PAW Patrol Rescue Wheels: Championship":
@@ -199622,6 +199641,8 @@ Sandstorm:
   pageId: 52991
   steam: 548710
 Sandustry:
+  cloud:
+    xbox: true
   pageId: 204065
   steam: 2764460
   steamSide:
