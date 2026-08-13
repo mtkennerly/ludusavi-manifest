@@ -51251,6 +51251,14 @@ Crime Wave:
 "CrimeCraft: GangWars":
   pageId: 40930
   steam: 38830
+Crimelife:
+  pageId: 219367
+Crimelife 2:
+  pageId: 219369
+Crimelife 3:
+  pageId: 219370
+Crimelife 3 Remastered:
+  pageId: 219371
 Crimesight:
   pageId: 177155
   renamedFrom:
@@ -53595,6 +53603,8 @@ Curse of Anabelle:
   steam: 1122180
 "Curse of Atlantis: Thorgal's Quest":
   pageId: 203716
+Curse of Dragor:
+  pageId: 219365
 Curse of Enchantia:
   pageId: 212181
 Curse of Mermos:
@@ -148191,6 +148201,8 @@ Millennia:
   steamSide:
     - 357100
     - 372270
+"Millennium Racer: Y2K Fighters":
+  pageId: 219363
 "Millennium: A New Hope":
   cloud:
     steam: true
@@ -152883,6 +152895,7 @@ Motor Rock:
     - 2223650
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\MotorTown\\Saved\\SaveGames\\Characters\\*.sav}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Steam/steamapps/compatdata/1369670/pfx/drive_c/users/steamuser/AppData/Local/MotorTown/Saved/}}"
 "MotorM4X: Offroad Extreme":
   lutris: motorm4x-offroad-extreme
   pageId: 63940
@@ -173056,6 +173069,8 @@ Petal Crash:
   steam: 1211110
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\storage.dat}}"
+"Peter Gabriel: Eve":
+  pageId: 219360
 "Peter Jackson's King Kong":
   lutris: peter-jackson-s-king-kong-the-official-game-of-the-movie
   pageId: 52658

@@ -469642,6 +469642,11 @@ Motor Rock:
   cloud:
     steam: true
   files:
+    "<home>/.local/share/Steam/steamapps/compatdata/1369670/pfx/drive_c/users/steamuser/AppData/Local/MotorTown/Saved":
+      tags:
+        - save
+      when:
+        - os: linux
     "<winLocalAppData>/MotorTown/Saved/SaveGames/Characters/*.sav":
       tags:
         - save
