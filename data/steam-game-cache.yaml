@@ -609198,6 +609198,11 @@
         osCompare: "="
         root: WinAppDataRoaming
         useInstead: MacAppSupport
+      - addPath: ".local/share/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
   installDir: Cobalt Core
   launch:
     - config:
@@ -656504,4 +656509,5 @@
         oslist: windows
       description: Default
       executable: Cellar Keeper.exe
+34004563: {}
 3221903386: {}

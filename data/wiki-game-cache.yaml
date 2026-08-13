@@ -66345,6 +66345,8 @@ Dolmenjord - Viking Islands:
     steam: true
   pageId: 186769
   steam: 1899950
+Doloc Town:
+  pageId: 219386
 Dolphin:
   cloud:
     steam: true
@@ -84593,9 +84595,13 @@ Farming Giant:
   pageId: 40524
   steam: 259910
 Farming Incremental But With Guns:
+  cloud:
+    steam: true
   lutris: farming-incremental-but-with-guns
   pageId: 219318
   steam: 4651120
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Clementine Wolf Games\\Farming Incremental But With Guns}}"
 Farming Life:
   cloud:
     steam: true
@@ -104670,10 +104676,6 @@ Hallo Spaceboy:
 Hallowed Encounter:
   pageId: 74439
   steam: 724900
-Halloween:
-  lutris: halloween-the-game
-  pageId: 207293
-  steam: 3219630
 Halloween Arkanoid 2:
   pageId: 123353
   steam: 979450
@@ -104714,6 +104716,12 @@ Halloween with Veronica:
 "Halloween: Jigsaw Puzzles":
   pageId: 72950
   steam: 720600
+"Halloween: The Game":
+  lutris: halloween-the-game
+  pageId: 207293
+  renamedFrom:
+    - Halloween
+  steam: 3219630
 HalloweenStory:
   pageId: 144520
   steam: 1139240
@@ -127209,6 +127217,11 @@ Kingdom Rush:
     - "{{Game data/saves|Windows|{{P|appdata}}\\kingdom_rush\\slot_*.lua}}"
     - "{{Game data/saves|OS X|{{p|game}}/slot*.data}}"
     - "{{Game data/saves|Linux|{{p|game}}/slot*.data|{{p|xdgdatahome}}/kingdom_rush/slot_*.lua}}"
+"Kingdom Rush 5: Alliance TD":
+  cloud:
+    steam: true
+  pageId: 219387
+  steam: 34004563
 "Kingdom Rush: Frontiers":
   cloud:
     steam: true
@@ -136791,9 +136804,9 @@ Lost Castle:
   steamSide:
     - 1415420
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Hunter Studio\\Lost Castle\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Hunter Studio\\Lost_Castle\\}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Preferences/unity.Hunter Studio.Lost Castle.plist}}"
-    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Hunter Studio\\Lost Castle\\}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Hunter Studio\\Lost_Castle\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\434650\\remote\\}}"
 Lost Castle 2:
   cloud:
@@ -194841,6 +194854,7 @@ RollerCoaster Tycoon:
   pageId: 1038
   steam: 285310
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Data\\CUSTOM.TXT|{{p|game}}\\Data\\Game.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saved Games}}"
 RollerCoaster Tycoon 2:
   cloud:
@@ -194851,7 +194865,7 @@ RollerCoaster Tycoon 2:
   pageId: 7688
   steam: 285330
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Data}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Data\\CUSTOM.TXT|{{p|game}}\\Data\\Game.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saved Games}}"
 RollerCoaster Tycoon 3:
   cloud:
@@ -248231,6 +248245,9 @@ The Unbreakable Gumball:
   gog: 1272776844
   pageId: 113794
   steam: 925570
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\documents}}\\My Games\\The Uncertain Light At The End\\Settings.ini}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\My Games\\The Uncertain Light At The End\\}}"
 "The Uncertain: VR Experience":
   pageId: 61600
   steam: 602140

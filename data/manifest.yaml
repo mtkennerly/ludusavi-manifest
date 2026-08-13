@@ -260696,11 +260696,14 @@ Farming Giant:
   steam:
     id: 259910
 Farming Incremental But With Guns:
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/Clementine Wolf Games/Farming Incremental But With Guns/**/*.es3":
+    "<home>/AppData/LocalLow/Clementine Wolf Games/Farming Incremental But With Guns":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: farming-incremental-but-with-guns
   installDir:
@@ -322858,10 +322861,7 @@ Hallowed Encounter:
   steam:
     id: 724900
 Halloween:
-  id:
-    lutris: halloween-the-game
-  steam:
-    id: 3219630
+  alias: "Halloween: The Game"
 Halloween Arkanoid 2:
   installDir:
     Halloween Arkanoid 2: {}
@@ -322975,6 +322975,11 @@ Halloween with Veronica:
             store: steam
   steam:
     id: 720600
+"Halloween: The Game":
+  id:
+    lutris: halloween-the-game
+  steam:
+    id: 3219630
 HalloweenStory:
   installDir:
     HalloweenStory: {}
@@ -391600,6 +391605,11 @@ Kingdom Rush:
             store: steam
   steam:
     id: 246420
+"Kingdom Rush 5: Alliance TD":
+  cloud:
+    steam: true
+  steam:
+    id: 34004563
 "Kingdom Rush: Frontiers":
   cloud:
     steam: true
@@ -420882,7 +420892,7 @@ Lost Castle:
           - os: windows
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/Hunter Studio/Lost Castle:
+    HKEY_CURRENT_USER/Software/Hunter Studio/Lost_Castle:
       tags:
         - config
         - save
@@ -597742,6 +597752,16 @@ RollerCoaster Legends:
     id: 854690
 RollerCoaster Tycoon:
   files:
+    "<base>/Data/CUSTOM.TXT":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Data/Game.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/Saved Games":
       tags:
         - save
@@ -597763,7 +597783,12 @@ RollerCoaster Tycoon 2:
   cloud:
     gog: true
   files:
-    "<base>/Data":
+    "<base>/Data/CUSTOM.TXT":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Data/Game.cfg":
       tags:
         - config
       when:
@@ -762697,9 +762722,15 @@ The Unbreakable Gumball:
     steam: true
   files:
     "<winDocuments>/My Games/The Uncertain Light At The End":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winDocuments>/My Games/The Uncertain Light At The End/Settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1272776844
   installDir:
