@@ -59622,10 +59622,15 @@ Death of Desert:
   pageId: 129785
   steam: 1022670
 Death of a Wish:
+  cloud:
+    steam: true
+  lutris: death-of-a-wish
   pageId: 219177
   steam: 2302080
+  steamSide:
+    - 2563830
+    - 3089970
   templates:
-    - "{{Game data/config|Windows}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\melessthanthree\\DeathOfAWish\\savedGames.gd}}"
 Death of the Reprobate:
   cloud:
@@ -74326,6 +74331,12 @@ Echoes of Aincrad:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\EchoesofAincrad\\Saved\\Config\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\EchoesofAincrad\\Saved\\SaveGames\\}}"
+Echoes of Mystralia:
+  cloud:
+    steam: true
+  lutris: echoes-of-mystralia
+  pageId: 219426
+  steam: 974480
 "Echoes of War: The Last Heartbeat":
   pageId: 102409
   steam: 786710
@@ -110496,9 +110507,6 @@ High Noon VR:
 High Octane Drift:
   pageId: 51390
   steam: 457330
-High On Life VR:
-  pageId: 219394
-  steam: 3951190
 High On Racing:
   pageId: 47801
   steam: 362610
@@ -110584,6 +110592,11 @@ High on Life 2:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj\\SystemAppData\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\HighOnLife2\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj\\SystemAppData\\}}"
+High on Life VR:
+  pageId: 219394
+  renamedFrom:
+    - High On Life VR
+  steam: 3951190
 HighFleet:
   cloud:
     steam: true
@@ -126182,9 +126195,11 @@ Kill The Moon:
   pageId: 151521
   steam: 1093180
 Kill The Music:
+  lutris: kill-the-music
   pageId: 219142
   steam: 3093050
   steamSide:
+    - 3269370
     - 3858970
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Kill The Music\\settings.save}}"
@@ -135949,10 +135964,20 @@ Logic Missile:
   pageId: 43300
   steam: 448300
 Logic Town:
+  cloud:
+    steam: true
+  lutris: logic-town
   pageId: 218138
   steam: 2333240
+  steamSide:
+    - 2405240
+    - 2703380
+    - 2763580
+    - 2829390
+    - 3244260
+    - 4742980
   templates:
-    - "{{Game data/saves|Windows|\n{{folder|{{p|userprofile}}\\AppData\\LocalLow\\Divide The Plunder Limited\\Logic Town\\}}\n}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Divide The Plunder Limited\\Logic Town\\}}"
 Logic World:
   pageId: 135728
   steam: 1054340
@@ -171330,6 +171355,9 @@ Pass The Time 2:
   pageId: 72252
   steam: 715230
 Pass the Fear:
+  cloud:
+    steam: true
+  lutris: pass-the-fear
   pageId: 218913
   steam: 3561220
 Pass the Wall:
@@ -248629,8 +248657,11 @@ The Walking Dead Onslaught:
 "The Walking Dead: Saints & Sinners":
   cloud:
     steam: true
+  lutris: the-walking-dead-saints-and-sinners
   pageId: 151060
   steam: 916840
+  steamSide:
+    - 1237830
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TWD\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TWD\\Saved\\SaveGames\\}}"
@@ -255659,6 +255690,8 @@ Townopolis:
     steam: true
   pageId: 43366
   steam: 462730
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Lonely Troops\\Townopolis }}"
 Towns:
   pageId: 4842
   steam: 221020
@@ -279328,6 +279361,13 @@ Xion:
 "Xiu's SuperMarket":
   pageId: 139015
   steam: 1064440
+Xmas Apocalypse:
+  cloud:
+    steam: true
+  pageId: 219423
+  steam: 2197050
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\gypynkt games\\Xmas Apocalypse\\save.json}}"
 Xmas Shooting - Scramble!!:
   cloud:
     steam: true

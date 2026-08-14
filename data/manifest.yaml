@@ -184662,12 +184662,19 @@ Death of Desert:
   steam:
     id: 1022670
 Death of a Wish:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/melessthanthree/DeathOfAWish/savedGames.gd":
       tags:
         - save
       when:
         - os: windows
+  id:
+    lutris: death-of-a-wish
+    steamExtra:
+      - 2563830
+      - 3089970
   installDir:
     Death of a Wish: {}
   launch:
@@ -230167,6 +230174,26 @@ Echoes of Aincrad:
             store: steam
   steam:
     id: 2244210
+Echoes of Mystralia:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Borealys Games/Echoes/save/*.dat":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: echoes-of-mystralia
+  installDir:
+    Echoes of Mystralia: {}
+  launch:
+    "<base>/Echoes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 974480
 "Echoes of War: The Last Heartbeat":
   installDir:
     Echoes of War The Last Heartbeat: {}
@@ -340491,9 +340518,6 @@ High Octane Drift:
             store: steam
   steam:
     id: 457330
-High On Life VR:
-  steam:
-    id: 3951190
 High On Racing:
   installDir:
     High On Racing: {}
@@ -340743,6 +340767,9 @@ High on Life 2:
           - store: steam
   steam:
     id: 2069250
+High on Life VR:
+  steam:
+    id: 3951190
 HighFleet:
   cloud:
     steam: true
@@ -388663,7 +388690,9 @@ Kill The Music:
       when:
         - os: windows
   id:
+    lutris: kill-the-music
     steamExtra:
+      - 3269370
       - 3858970
   installDir:
     Kill The Music: {}
@@ -418206,18 +418235,23 @@ Logic Missile:
   steam:
     id: 448300
 Logic Town:
+  cloud:
+    steam: true
   files:
-    "<home>/.config/com/dividetheplunder/logictown/*.sav":
+    "<home>/AppData/LocalLow/Divide The Plunder Limited/Logic Town":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/Divide The Plunder Limited/Logic Town/*.sav":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/com.dividetheplunder.logictown/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
+  id:
+    lutris: logic-town
+    steamExtra:
+      - 2405240
+      - 2703380
+      - 2763580
+      - 2829390
+      - 3244260
+      - 4742980
   installDir:
     Logic Town: {}
   launch:
@@ -525541,11 +525575,15 @@ Pass The Time 2:
   steam:
     id: 715230
 Pass the Fear:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/PlayMudStudio/Pass the fear/GameData/*.dat":
       when:
         - os: windows
           store: steam
+  id:
+    lutris: pass-the-fear
   installDir:
     Pass The Fear: {}
   launch:
@@ -528193,6 +528231,12 @@ Pegasus Door:
   steam:
     id: 794030
 Pegfinity:
+  installDir:
+    Pegfinity: {}
+  launch:
+    "<base>/Pegfinity.exe":
+      - when:
+          - store: steam
   steam:
     id: 3947040
 Peggle:
@@ -763811,6 +763855,10 @@ The Walking Dead Onslaught:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-walking-dead-saints-and-sinners
+    steamExtra:
+      - 1237830
   installDir:
     TWDSaintsAndSinners: {}
   steam:
@@ -785168,6 +785216,12 @@ TownCraft:
 Townopolis:
   cloud:
     steam: true
+  files:
+    "<winAppData>/Lonely Troops/Townopolis":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Townopolis: {}
   launch:
@@ -853979,6 +854033,25 @@ Xion:
             store: steam
   steam:
     id: 1064440
+Xmas Apocalypse:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/gypynkt games/Xmas Apocalypse/save.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Xmas Apocalypse: {}
+  launch:
+    "<base>/Xmas Apocalypse.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2197050
 Xmas Shooting - Scramble!!:
   cloud:
     steam: true

@@ -162466,7 +162466,7 @@
       executable: Townopolis 32bit.exe
       type: option1
   nameLocalized:
-    russian: Товнополис
+    russian: Таунополис
     ukrainian: Таунполіс
 462770:
   installDir: Pyre
@@ -423149,6 +423149,24 @@
     - executable: GodsInSanhe.exe
       type: none
 974470: {}
+974480:
+  cloud:
+    saves:
+      - path: Borealys Games/Echoes/save
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Echoes of Mystralia
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Echoes.exe
+      type: default
+  nameLocalized:
+    english: Echoes of Mystralia
+    schinese: 秘奥回响
 974490: {}
 974520:
   installDir: Ultimo Reino
@@ -610234,6 +610252,27 @@
         oslist: windows
       executable: Totem3_CladInIron_Chincha_Islands.exe
       type: default
+2197050:
+  cloud:
+    saves:
+      - path: gypynkt games/Xmas Apocalypse
+        pattern: save.json
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: gypynkt games/Xmas Apocalypse
+            replace: gypynkt games/Xmas Apocalypse
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Xmas Apocalypse
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Xmas Apocalypse.exe
+      type: default
 2197240:
   nameLocalized:
     japanese: 悪魔祓い
@@ -653871,7 +653910,10 @@
       type: default
 3946090: {}
 3946950: {}
-3947040: {}
+3947040:
+  installDir: Pegfinity
+  launch:
+    - executable: Pegfinity.exe
 3948120:
   cloud:
     saves:
