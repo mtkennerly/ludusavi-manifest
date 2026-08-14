@@ -552244,6 +552244,13 @@
     - config:
         oslist: macos
       executable: Duru_Mac.app
+1388350:
+  installDir: Parallel
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Parallel.exe
 1388550:
   nameLocalized:
     schinese: 人类一败涂地2
@@ -625426,6 +625433,13 @@
     japanese: レジェンド オブ レガシー HDリマスター
     koreana: 레전드 오브 레거시 HD Remastered
     tchinese: 遺跡傳說 HD Remastered
+2516430:
+  installDir: Cyborg3003
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: CYB.exe
 2517200:
   installDir: Repair this!
   launch:
@@ -650786,6 +650800,7 @@
     english: Stray Children
     japanese: ストレイチルドレン
 3650170: {}
+3652470: {}
 3653600:
   installDir: This Isnt Just Tower Defense
   launch:
@@ -650934,6 +650949,7 @@
       description: release-stage
       executable: start_offthegrid.exe
       type: default
+3659460: {}
 3660220:
   cloud:
     saves:

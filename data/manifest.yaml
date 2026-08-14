@@ -168615,6 +168615,17 @@ Cyborg Tower Defense:
             store: steam
   steam:
     id: 606940
+Cyborg3003:
+  installDir:
+    Cyborg3003: {}
+  launch:
+    "<base>/CYB.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2516430
 Cybrus:
   files:
     "<home>/.config/unity3d/ThatGuyGilby/Cybrus/*.csav":
@@ -295811,6 +295822,9 @@ Gear.Club Unlimited 2 Ultimate Edition:
         - config
   steam:
     id: 1557860
+Gear.Club Unlimited 3:
+  steam:
+    id: 3659460
 GearCity:
   gog:
     id: 1801948692
@@ -382721,6 +382735,9 @@ Just King:
             store: steam
   steam:
     id: 1059980
+"Just Madness: Earth Apocalypse 1979":
+  steam:
+    id: 3652470
 Just N:
   installDir:
     Just N: {}
@@ -523860,6 +523877,17 @@ Parallax:
             store: steam
   steam:
     id: 325060
+Parallel:
+  installDir:
+    Parallel: {}
+  launch:
+    "<base>/Parallel.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1388350
 Parallel Arena:
   steam:
     id: 889460

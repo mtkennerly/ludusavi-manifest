@@ -54332,6 +54332,9 @@ Cyborg Rage:
 Cyborg Tower Defense:
   pageId: 60926
   steam: 606940
+Cyborg3003:
+  pageId: 219414
+  steam: 2516430
 Cybrus:
   pageId: 108238
   steam: 880770
@@ -95870,6 +95873,9 @@ Gear.Club Unlimited 2 Ultimate Edition:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Eden Games\\GCU2}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eden Games\\GCU2\\}}"
+Gear.Club Unlimited 3:
+  pageId: 219411
+  steam: 3659460
 GearCity:
   gog: 1801948692
   pageId: 50171
@@ -124223,6 +124229,9 @@ Just King:
   steam: 1059980
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Vish Game Studio\\King\\Saves}}"
+"Just Madness: Earth Apocalypse 1979":
+  pageId: 219413
+  steam: 3652470
 Just N:
   pageId: 141239
   steam: 1095610
@@ -170783,6 +170792,9 @@ Paralives:
 Parallax:
   pageId: 37618
   steam: 325060
+Parallel:
+  pageId: 219415
+  steam: 1388350
 Parallel Arena:
   pageId: 102715
   steam: 889460
