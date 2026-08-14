@@ -42638,6 +42638,8 @@ Christmas Defence:
   renamedFrom:
     - "Christmas Eve: Midnight's Call Collector's Edition"
   steam: 565630
+Christmas Magic:
+  pageId: 219395
 Christmas Mahjong:
   pageId: 113894
   steam: 929440
@@ -97427,6 +97429,7 @@ Gibbous - A Cthulhu Adventure:
     - "{{Game data/saves|OS X|{{p|userprofile}}\\Library\\application support\\unity.StuckInAttic.Gibbous\\Cthulhu_*.save}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/StuckInAttic/Gibbous - A Cthulhu Adventure/Cthulhu_*.save}}"
 Gift:
+  malformed: true
   pageId: 35760
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\TheGift.cfg}}"
@@ -110484,6 +110487,9 @@ High Noon VR:
 High Octane Drift:
   pageId: 51390
   steam: 457330
+High On Life VR:
+  pageId: 219394
+  steam: 3951190
 High On Racing:
   pageId: 47801
   steam: 362610
@@ -138042,8 +138048,15 @@ Low Magic Age:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
 Low-Budget Repairs:
+  cloud:
+    steam: true
+  lutris: low-budget-repairs
   pageId: 197483
   steam: 3167920
+  steamSide:
+    - 3642880
+    - 4948230
+    - 5021470
 LowPoly 3D Art Paint by Number:
   pageId: 148968
   steam: 1159490
@@ -158380,6 +158393,10 @@ Neo Atlas 1469:
     steam: true
   pageId: 57679
   steam: 532690
+Neo Berlin 2087:
+  lutris: neo-berlin-2087
+  pageId: 219399
+  steam: 2326200
 Neo Cab:
   cloud:
     steam: true
@@ -196986,6 +197003,7 @@ Rustler:
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\JutsuGames\\Rustler\\}}"
 Rustmourne:
+  lutris: rustmourne
   pageId: 217711
   steam: 3775210
 Rusty:
@@ -229466,6 +229484,9 @@ System Shock 2:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Nightdive Studios\\System Shock 2 Remastered\\}}"
 System Shock 3:
   pageId: 131235
+System Shock VR:
+  pageId: 219392
+  steam: 5036490
 "System Shock: Enhanced Edition":
   cloud:
     discord: true

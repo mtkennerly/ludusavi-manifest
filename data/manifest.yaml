@@ -340463,6 +340463,9 @@ High Octane Drift:
             store: steam
   steam:
     id: 457330
+High On Life VR:
+  steam:
+    id: 3951190
 High On Racing:
   installDir:
     High On Racing: {}
@@ -424825,6 +424828,24 @@ Low Magic Age:
   steam:
     id: 576770
 Low-Budget Repairs:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/gray2rgb/LowBudgetRepairs/Saves/<storeUserId>/**/*.lbr":
+      when:
+        - store: steam
+  id:
+    lutris: low-budget-repairs
+    steamExtra:
+      - 3642880
+      - 4948230
+      - 5021470
+  installDir:
+    Low-Budget Repairs: {}
+  launch:
+    "<base>/LowBudgetRepairs.exe":
+      - when:
+          - store: steam
   steam:
     id: 3167920
 LowPoly 3D Art Paint by Number:
@@ -486396,6 +486417,11 @@ Neo Atlas 1469:
             store: steam
   steam:
     id: 532690
+Neo Berlin 2087:
+  id:
+    lutris: neo-berlin-2087
+  steam:
+    id: 2326200
 Neo Cab:
   cloud:
     steam: true
@@ -604448,6 +604474,8 @@ Rustler:
   steam:
     id: 844260
 Rustmourne:
+  id:
+    lutris: rustmourne
   steam:
     id: 3775210
 Rusty Hearts:
@@ -705353,6 +705381,9 @@ System Shock 2 Enhanced Edition:
             store: steam
   steam:
     id: 866570
+System Shock VR:
+  steam:
+    id: 5036490
 "System Shock: Enhanced Edition":
   files:
     "<winAppData>/Nightdive Studios/System Shock EE/kexengine.cfg":

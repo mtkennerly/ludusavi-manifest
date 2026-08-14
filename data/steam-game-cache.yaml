@@ -616521,6 +616521,7 @@
     - config:
         oslist: windows
       executable: Save Room The Merchant.exe
+2326200: {}
 2326780:
   cloud:
     saves:
@@ -642494,9 +642495,23 @@
     schinese: 动物栏：桌面牧场
     tchinese: 動物欄：桌面牧場
 3167920:
+  cloud:
+    saves:
+      - path: "gray2rgb/LowBudgetRepairs/Saves/{64BitSteamID}"
+        pattern: "*.lbr"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Low-Budget Repairs
+  launch:
+    - executable: LowBudgetRepairs.exe
+    - config:
+        ownsdlc: "4948230"
+      description: Definitely not virus
+      executable: definetely_not_virus.exe
   nameLocalized:
     english: Low-Budget Repairs
     polish: Majster Symulator
+    schinese: 黑心装修队
 3167970:
   cloud:
     saves:
@@ -653985,6 +654000,7 @@
         oslist: windows
       executable: EM/Binaries/Win64/EM-Win64-Shipping.exe
       type: default
+3951190: {}
 3951570:
   cloud:
     saves:
@@ -656623,5 +656639,6 @@
         oslist: windows
       description: Default
       executable: Cellar Keeper.exe
+5036490: {}
 34004563: {}
 3221903386: {}
