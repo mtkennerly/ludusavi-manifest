@@ -223845,9 +223845,16 @@ Duskfade:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Duskfade/Saved/SaveGames/DFSlot*":
+    "<winLocalAppData>/Duskfade/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Duskfade/Saved/SaveGames/settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: duskfade
     steamExtra:
@@ -317761,6 +317768,13 @@ GunWorld:
     steamExtra:
       - 3184660
       - 3470360
+  installDir:
+    GUNZ THE DUEL: {}
+  launch:
+    "<base>/start_protected_game.exe":
+      - arguments: STEAM|use1.masangsoft.com|5200|3139440
+        when:
+          - store: steam
   steam:
     id: 3139440
 Gunball:

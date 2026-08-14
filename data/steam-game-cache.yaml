@@ -642036,7 +642036,11 @@
         oslist: windows
       executable: BillyBlade.exe
       type: default
-3139440: {}
+3139440:
+  installDir: GUNZ THE DUEL
+  launch:
+    - arguments: STEAM|use1.masangsoft.com|5200|3139440
+      executable: start_protected_game.exe
 3141390: {}
 3143710:
   cloud:

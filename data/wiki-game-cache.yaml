@@ -72130,6 +72130,9 @@ Duskfade:
   steamSide:
     - 4023080
     - 4934950
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Duskfade\\Saved\\SaveGames\\settings.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Duskfade\\Saved\\SaveGames\\}}"
 "Duskless: The Clockwork Army":
   pageId: 135240
   steam: 1078750
@@ -227281,8 +227284,8 @@ Superhero Simulator:
   steamSide:
     - 4013180
   templates:
-    - "{{Game data/config|Windows| \t{{p|userprofile\\appdata\\locallow}}\\mightyraccoon! Studios\\Superhero Simulator}}"
-    - "{{Game data/saves|Windows| \t{{p|userprofile\\appdata\\locallow}}\\mightyraccoon! Studios\\Superhero Simulator}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\mightyraccoon! Studios\\Superhero Simulator}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\mightyraccoon! Studios\\Superhero Simulator}}"
 Superhot:
   cloud:
     epic: true
@@ -268464,6 +268467,8 @@ Vole Complexity:
     steam: true
   pageId: 149257
   steam: 1133260
+Volfied:
+  pageId: 219406
 Volgarr the Viking:
   gog: 1207659623
   pageId: 10227
