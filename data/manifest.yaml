@@ -391615,6 +391615,11 @@ Kingdom Hearts III:
             store: steam
   steam:
     id: 2552450
+Kingdom Hearts IV:
+  id:
+    lutris: kingdom-hearts-iv
+  steam:
+    id: 3216600
 Kingdom Hearts Melody of Memory:
   files:
     "<winDocuments>/KINGDOM HEARTS Melody of Memory/Epic Games Store/<storeUserId>":
@@ -391721,8 +391726,33 @@ Kingdom Rush:
 "Kingdom Rush 5: Alliance TD":
   cloud:
     steam: true
+  files:
+    "<home>/Library/Application Support/kingdom_rush_alliance/slot*.lua":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/kingdom_rush_alliance/slot*.lua":
+      when:
+        - store: steam
+  id:
+    lutris: kingdom-rush-5-alliance-td
+    steamExtra:
+      - 3368630
+      - 3732970
+      - 4260510
+  installDir:
+    Kingdom Rush Alliance: {}
+  launch:
+    "<base>/Kingdom Rush Alliance.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Kingdom Rush Alliance.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
-    id: 34004563
+    id: 2849080
 "Kingdom Rush: Frontiers":
   cloud:
     steam: true

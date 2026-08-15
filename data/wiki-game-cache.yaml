@@ -22535,6 +22535,8 @@ Basment Dwellers:
 Bass Blocks:
   pageId: 46460
   steam: 400220
+"Bass Masters Classic: Tournament Edition":
+  pageId: 219432
 "Bass Pro Shops: Trophy Bass 2007":
   pageId: 210026
   templates:
@@ -127229,7 +127231,9 @@ Kingdom Hearts III:
     - "{{Game data/saves|Steam|{{P|userprofile\\Documents}}\\My Games\\KINGDOM HEARTS III\\Steam\\{{P|uid}}}}"
     - "{{Game data/saves|Epic Games Store|{{P|userprofile\\Documents}}\\KINGDOM HEARTS III\\Epic Games Store\\{{P|uid}}}}"
 Kingdom Hearts IV:
+  lutris: kingdom-hearts-iv
   pageId: 176997
+  steam: 3216600
 Kingdom Hearts Melody of Memory:
   pageId: 166577
   templates:
@@ -127264,8 +127268,13 @@ Kingdom Rush:
 "Kingdom Rush 5: Alliance TD":
   cloud:
     steam: true
+  lutris: kingdom-rush-5-alliance-td
   pageId: 219387
-  steam: 34004563
+  steam: 2849080
+  steamSide:
+    - 3368630
+    - 3732970
+    - 4260510
 "Kingdom Rush: Frontiers":
   cloud:
     steam: true

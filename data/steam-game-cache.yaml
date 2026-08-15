@@ -635598,6 +635598,30 @@
 2847780:
   nameLocalized:
     schinese: 离火长明2
+2849080:
+  cloud:
+    saves:
+      - path: kingdom_rush_alliance
+        pattern: slot*.lua
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: kingdom_rush_alliance
+            replace: kingdom_rush_alliance
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Kingdom Rush Alliance
+  launch:
+    - config:
+        oslist: windows
+      executable: Kingdom Rush Alliance.exe
+    - config:
+        oslist: macos
+      executable: Kingdom Rush Alliance.app
+  nameLocalized:
+    schinese: 王国保卫战 5：联盟
 2849490: {}
 2849680:
   installDir: Utopia Must Fall
@@ -643566,6 +643590,9 @@
     japanese: 終天教団
     schinese: 終天教団
     tchinese: 終天教團
+3216600:
+  nameLocalized:
+    english: KINGDOM HEARTS IV
 3218100: {}
 3218630:
   cloud:
@@ -648997,25 +649024,11 @@
         oslist: linux
       executable: tf2classified.sh
       type: default
-    - arguments: "-steam -nosentry"
-      config:
-        osarch: "64"
-        oslist: windows
-      description: Team Fortress 2 Classified (Compatibility Fix)
-      executable: tf2classified_win64.exe
-      type: option2
-    - arguments: "-steam -nosentry"
-      config:
-        osarch: "64"
-        oslist: linux
-      description: Team Fortress 2 Classified (Compatibility Fix)
-      executable: tf2classified.sh
-      type: option2
     - arguments: "-steam -dxlevel 95"
       config:
         osarch: "64"
         oslist: windows
-      description: Team Fortress 2 Classified (-dxlevel 95 fix)
+      description: Team Fortress 2 Classified (-dxlevel 95)
       executable: tf2classified_win64.exe
       type: option3
 3546740:
