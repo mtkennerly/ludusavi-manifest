@@ -51370,6 +51370,7 @@ Crimson Shift:
 Crimson Skies:
   pageId: 8881
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microsoft\\Microsoft Games\\Crimson Skies}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\}}"
 "Crimson Skies: High Road to Revenge":
   pageId: 218717
@@ -107324,9 +107325,11 @@ Heavy Rain:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\user_setting.ini}}"
     - "{{Game data/config|Epic Games Store|{{p|userprofile}}\\Saved Games\\HeavyRainNS\\TEST00000-A\\0}}"
+    - "{{Game data/config|GOG.com|{{p|userprofile}}\\Saved Games\\HeavyRain\\TEST00000-A\\0}}"
     - "{{Game data/config|Steam|{{p|userprofile}}\\Saved Games\\HeavyRain\\TEST00000-A\\0}}"
     - "{{Game data/saves|Epic Games Store|{{p|userprofile}}\\Saved Games\\HeavyRainNS\\}}"
-    - "{{Game data/saves|Steam|{{p|userprofile}}\\Saved Games\\HeavyRain\\}}"
+    - "{{Game data/saves|GOG.com|{{p|userprofile}}\\Saved Games\\HeavyRain\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile}}\\Saved Games\\HeavyRain\\|{{p|userprofile}}\\Saved Games\\HeavyRainJP\\}}"
 Heavy Recoil:
   pageId: 123566
   steam: 933030
@@ -170168,6 +170171,10 @@ Pangeon:
   steam: 983670
 Pangoland:
   pageId: 187308
+Panic 64:
+  lutris: panic-64
+  pageId: 219447
+  steam: 4752390
 Panic Diet!!:
   pageId: 149103
   steam: 1154730
@@ -176172,6 +176179,8 @@ Planet of Lana:
   lutris: planet-of-lana
   pageId: 187322
   steam: 1608230
+  steamSide:
+    - 4464580
   templates:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Thunderful.PlanetofLana_8j53pwgd019sy\\SystemAppData\\}}"
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Wishfully\\Planet of Lana\\|{{P|userprofile}}\\AppData\\LocalLow\\Wishfully\\Planet of Lana\\settings}}"
@@ -188848,6 +188857,7 @@ Regular Human Basketball:
   pageId: 100418
   steam: 661940
 Rehaunted:
+  lutris: rehaunted
   pageId: 218623
   steam: 4538140
 Rehtona:

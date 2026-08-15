@@ -19452,6 +19452,7 @@
 * [Pangeon](https://www.pcgamingwiki.com/wiki/?curid=124569)
 * [Pangoland](https://www.pcgamingwiki.com/wiki/?curid=187308)
 * [PangYa](https://www.pcgamingwiki.com/wiki/?curid=178313)
+* [Panic 64](https://www.pcgamingwiki.com/wiki/?curid=219447)
 * [Panic at Multiverse High!](https://www.pcgamingwiki.com/wiki/?curid=36222)
 * [Panic Diet!!](https://www.pcgamingwiki.com/wiki/?curid=149103)
 * [Panic Pump - Can You Save Them All?](https://www.pcgamingwiki.com/wiki/?curid=77098)
