@@ -223863,6 +223863,11 @@ Duskfade:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/Duskfade/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Duskfade/Saved/SaveGames":
       tags:
         - save
@@ -397304,7 +397309,14 @@ Krunker.io:
   id:
     lutris: kknd-krush-kill-n-destroy
 "Krush Kill 'N Destroy 2: Krossfire":
+  cloud:
+    steam: true
   files:
+    "<base>/Campaign":
+      tags:
+        - save
+      when:
+        - store: steam
     "<base>/Options.cfg":
       tags:
         - config
@@ -397314,36 +397326,42 @@ Krunker.io:
       tags:
         - save
       when:
+        - store: steam
         - os: windows
   gog:
     id: 1207659196
   installDir:
-    Krush Kill ‘N Destroy 2 Krossfire: {}
+    KKND 2 Krossfire: {}
   launch:
-    "<base>/KKND2.exe":
+    "<base>/launcher.exe":
       - when:
-          - os: windows
-            store: steam
+          - store: steam
   steam:
     id: 1292180
 "Krush Kill 'N Destroy Xtreme":
+  cloud:
+    steam: true
   files:
     "<base>/game*.sav":
       tags:
         - save
       when:
         - os: windows
+    "<base>/savegame":
+      tags:
+        - save
+      when:
+        - store: steam
   gog:
     id: 1207659107
   id:
     lutris: kknd-krush-kill-n-destroy-xtreme
   installDir:
-    "Krush Kill 'N Destroy Xtreme": {}
+    KKND Xtreme: {}
   launch:
-    "<base>/KKNDgame.exe":
+    "<base>/launcher.exe":
       - when:
-          - os: windows
-            store: steam
+          - store: steam
   steam:
     id: 1292170
 KryptCrawler:
@@ -528231,6 +528249,15 @@ Pegasus Door:
   steam:
     id: 794030
 Pegfinity:
+  files:
+    "<winAppData>/Godot/app_userdata/Pegfinity":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: pegfinity
   installDir:
     Pegfinity: {}
   launch:
@@ -763871,6 +763898,8 @@ The Walking Dead Onslaught:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: the-walking-dead-saints-sinners-chapter-2-retribut
   installDir:
     The Walking Dead Saints & Sinners - Chapter 2 Retribution: {}
   steam:

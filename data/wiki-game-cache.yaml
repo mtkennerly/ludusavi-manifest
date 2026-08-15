@@ -72139,7 +72139,7 @@ Duskfade:
     - 4023080
     - 4934950
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Duskfade\\Saved\\SaveGames\\settings.sav}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Duskfade\\Saved\\Config\\Windows|{{P|localappdata}}\\Duskfade\\Saved\\SaveGames\\settings.sav}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Duskfade\\Saved\\SaveGames\\}}"
 "Duskless: The Clockwork Army":
   pageId: 135240
@@ -129074,19 +129074,25 @@ Krunker:
   templates:
     - "{{Game data/saves|DOS}}"
 "Krush Kill 'N Destroy 2: Krossfire":
+  cloud:
+    steam: true
   gog: 1207659196
   pageId: 131933
   steam: 1292180
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Options.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Savegame}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\Savegame|{{p|game}}\\Campaign}}"
 "Krush Kill 'N Destroy Xtreme":
+  cloud:
+    steam: true
   gog: 1207659107
   lutris: kknd-krush-kill-n-destroy-xtreme
   pageId: 131931
   steam: 1292170
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\game*.sav}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\savegame}}"
 "Krusty's Super Fun House":
   pageId: 201709
 KryptCrawler:
@@ -172314,8 +172320,12 @@ Pegasus Door:
   pageId: 99808
   steam: 794030
 Pegfinity:
+  lutris: pegfinity
   pageId: 217063
   steam: 3947040
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pegfinity}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Pegfinity}}"
 Peggle:
   lutris: peggle-deluxe
   pageId: 15440
@@ -248668,6 +248678,7 @@ The Walking Dead Onslaught:
 "The Walking Dead: Saints & Sinners - Chapter 2: Retribution":
   cloud:
     steam: true
+  lutris: the-walking-dead-saints-sinners-chapter-2-retribut
   pageId: 181805
   steam: 1947500
 "The Walking Dead: Season One":

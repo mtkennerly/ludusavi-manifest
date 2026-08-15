@@ -472758,7 +472758,12 @@
       type: none
   nameLocalized:
     brazilian: "Bug Fables: O Broto da Eternidade"
+    german: "Bug Fables: Der immerwährende Sprössling"
     japanese: バグ・フェイブルズ ～ムシたちとえいえんの若木～
+    koreana: "곤충우화: 영생의 묘목"
+    russian: "Жучиные истории: Легенда о бессмертнике"
+    schinese: "虫虫寓言:永恆之树苗"
+    tchinese: "蟲蟲寓言:永恆之樹苗"
 1082720:
   cloud:
     saves:
@@ -541423,18 +541428,42 @@
       executable: MissileCommandRecharged.x86_64
       type: none
 1292170:
-  installDir: "Krush Kill 'N Destroy Xtreme"
+  cloud:
+    saves:
+      - path: savegame
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: KKND Xtreme
   launch:
+    - executable: launcher.exe
+      type: default
     - config:
-        oslist: windows
-      executable: KKNDgame.exe
+        betakey: legacy
+      executable: kknd.exe
       type: default
 1292180:
-  installDir: Krush Kill ‘N Destroy 2 Krossfire
+  cloud:
+    saves:
+      - path: savegame
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+      - path: campaign
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+      - path: uconfig
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: KKND 2 Krossfire
   launch:
+    - executable: launcher.exe
+      type: default
     - config:
-        oslist: windows
-      executable: KKND2.exe
+        betakey: legacy
+      executable: kknd2.exe
       type: default
 1292460:
   cloud:

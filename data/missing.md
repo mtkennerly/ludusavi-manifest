@@ -19672,7 +19672,6 @@
 * [Peewee Dodgeball Championships](https://www.pcgamingwiki.com/wiki/?curid=91348)
 * [Pegasus Door](https://www.pcgamingwiki.com/wiki/?curid=68889)
 * [Pegasus-5: Gone Astray](https://www.pcgamingwiki.com/wiki/?curid=99808)
-* [Pegfinity](https://www.pcgamingwiki.com/wiki/?curid=217063)
 * [Pekka Kana 2](https://www.pcgamingwiki.com/wiki/?curid=18866)
 * [Peku - Space Dragon](https://www.pcgamingwiki.com/wiki/?curid=134424)
 * [Pelican Harbor](https://www.pcgamingwiki.com/wiki/?curid=202835)
