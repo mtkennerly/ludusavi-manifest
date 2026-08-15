@@ -28098,6 +28098,42 @@ Akane the Kunoichi:
             store: steam
   steam:
     id: 1098370
+Akatori:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ContrastGames/Akatori/*.datsave":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/ContrastGames/Akatori/*.mask":
+      when:
+        - store: steam
+    "<xdgConfig>/unity3d/ContrastGames/Akatori/*.datsave":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/unity3d/ContrastGames/Akatori/*.mask":
+      when:
+        - os: linux
+          store: steam
+  id:
+    lutris: akatori
+    steamExtra:
+      - 5025690
+      - 5026500
+  installDir:
+    Akatori: {}
+  launch:
+    "<base>/Akatori.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Akatori.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1442520
 Akda:
   installDir:
     akda: {}
@@ -446261,8 +446297,6 @@ Mega Man Battle Network Legacy Collection Vol. 2:
   steam:
     id: 1798020
 Mega Man Legacy Collection:
-  cloud:
-    steam: true
   files:
     "<winAppData>/MegaMan":
       tags:
@@ -446280,8 +446314,6 @@ Mega Man Legacy Collection:
   steam:
     id: 363440
 Mega Man Legacy Collection 2:
-  cloud:
-    steam: true
   files:
     "<winAppData>/MegaMan2":
       tags:
@@ -585323,6 +585355,15 @@ Return Zero VR:
     ReturnZeroVR: {}
   steam:
     id: 496160
+Return from Core:
+  cloud:
+    steam: true
+  id:
+    lutris: return-from-core
+    steamExtra:
+      - 2345850
+  steam:
+    id: 2171630
 Return of Red Riding Hood Enhanced Edition:
   cloud:
     steam: true
@@ -605982,15 +606023,18 @@ SC2VN - The eSports Visual Novel:
   steam:
     id: 404480
 SCAD:
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/NAISU/SCAD/*.json":
+    "<home>/AppData/LocalLow/NAISU/SCAD":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/Library/Application Support/NAISU/SCAD/*.json":
-      when:
-        - os: mac
-          store: steam
+  id:
+    lutris: scad
+    steamExtra:
+      - 4756350
   installDir:
     SCAD: {}
   launch:

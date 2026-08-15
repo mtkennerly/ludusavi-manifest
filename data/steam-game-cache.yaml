@@ -557324,6 +557324,36 @@
         oslist: macos
       executable: "Contents\\MacOS\\Prank Call"
       type: default
+1442520:
+  cloud:
+    saves:
+      - path: ContrastGames/Akatori
+        pattern: "*.datsave"
+        root: WinAppDataLocalLow
+      - path: ContrastGames/Akatori
+        pattern: "*.mask"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: ContrastGames/Akatori
+            replace: unity3d/ContrastGames/Akatori
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Akatori
+  launch:
+    - config:
+        oslist: windows
+      description: PC Version
+      executable: Akatori.exe
+    - config:
+        oslist: linux
+      description: Steam Deck Version
+      executable: Akatori.x86_64
+  nameLocalized:
+    schinese: 赤鸟
+    tchinese: 赤鳥
 1442530:
   cloud:
     saves:
@@ -608886,6 +608916,12 @@
         oslist: windows
       executable: Game.exe
       type: default
+2171630:
+  nameLocalized:
+    english: Return from Core
+    japanese: リターン・フロム・コア
+    schinese: 地心归途
+    tchinese: 地心歸途
 2171840:
   installDir: Project FANTASY
   launch:

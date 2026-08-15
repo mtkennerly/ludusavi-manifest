@@ -8908,7 +8908,14 @@ Akane the Kunoichi:
   steamSide:
     - 1136430
 Akatori:
+  cloud:
+    steam: true
+  lutris: akatori
   pageId: 219231
+  steam: 1442520
+  steamSide:
+    - 5025690
+    - 5026500
 Akda:
   pageId: 78422
   steam: 761630
@@ -144995,16 +145002,12 @@ Mega Man Battle Network Legacy Collection Vol. 2:
     - "{{Game data/config|Windows|{{P|game}}\\exe\\launcher_config.ini}}"
     - "{{Game data/saves|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\1798020\\remote}}"
 Mega Man Legacy Collection:
-  cloud:
-    steam: true
   pageId: 27304
   steam: 363440
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\MegaMan\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\MegaMan\\}}"
 Mega Man Legacy Collection 2:
-  cloud:
-    steam: true
   pageId: 65480
   steam: 495050
   templates:
@@ -190785,8 +190788,6 @@ Return Fire:
     - "{{Game data/saves|Windows|{{P|hkcu}}\\SOFTWARE\\Silent Software, Inc.\\Return Fire\\1.0\\Levels}}"
 Return Fire 2:
   pageId: 215328
-Return From Core:
-  pageId: 218117
 Return Home:
   pageId: 130484
   steam: 451940
@@ -190801,6 +190802,16 @@ Return Of The Zombie King:
 Return Zero VR:
   pageId: 36155
   steam: 496160
+Return from Core:
+  cloud:
+    steam: true
+  lutris: return-from-core
+  pageId: 218117
+  renamedFrom:
+    - Return From Core
+  steam: 2171630
+  steamSide:
+    - 2345850
 Return of Red Riding Hood Enhanced Edition:
   cloud:
     steam: true
@@ -197516,10 +197527,15 @@ SC2VN - The eSports Visual Novel:
     - "{{Game data/config|Windows|{{p|game}}\\renpy\\config.py}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\SC2VN-1424038548\\}}"
 SCAD:
+  cloud:
+    steam: true
+  lutris: scad
   pageId: 217228
   steam: 2854620
+  steamSide:
+    - 4756350
   templates:
-    - "{{Game data/saves|Windows|{{folder|{{p|userprofile}}\\AppData\\LocalLow\\NAISU\\SCAD\\}}}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\NAISU\\SCAD\\}}"
 SCAR Squadra Corse Alfa Romeo:
   pageId: 4212
   templates:
@@ -255667,6 +255683,8 @@ Towerborne:
 Towers:
   pageId: 100574
   steam: 848840
+"Towers II: Plight of the Stargazer":
+  pageId: 219457
 Towers of Altrac - Epic Defense Battles:
   cloud:
     steam: true
