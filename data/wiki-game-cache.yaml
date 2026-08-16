@@ -246964,10 +246964,14 @@ The Sinking City:
 The Sinking City 2:
   cloud:
     gog: true
+    steam: true
   gog: 1653226562
   lutris: the-sinking-city-2
   pageId: 193625
   steam: 2825860
+  steamSide:
+    - 4265460
+    - 4684710
 The Sinking City Remastered:
   cloud:
     epic: true

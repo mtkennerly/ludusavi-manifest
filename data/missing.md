@@ -28008,7 +28008,6 @@
 * [The Simpsons: Cartoon Studio](https://www.pcgamingwiki.com/wiki/?curid=176603)
 * [The Sims Online](https://www.pcgamingwiki.com/wiki/?curid=97231)
 * [The Singularity Wish](https://www.pcgamingwiki.com/wiki/?curid=94397)
-* [The Sinking City 2](https://www.pcgamingwiki.com/wiki/?curid=193625)
 * [The Six Dragons](https://www.pcgamingwiki.com/wiki/?curid=113124)
 * [The Skeleton](https://www.pcgamingwiki.com/wiki/?curid=99752)
 * [The Skin Stapler](https://www.pcgamingwiki.com/wiki/?curid=216966)

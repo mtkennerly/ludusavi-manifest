@@ -635199,7 +635199,90 @@
   nameLocalized:
     schinese: "旁观者：列车长 Beholder: Conductor"
     tchinese: "旁觀者：列車長 Beholder: Conductor"
-2825860: {}
+2825860:
+  cloud:
+    saves:
+      - path: TSC2/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: The Sinking City 2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Default
+      executable: "PlayGround\\Binaries\\Win64\\TheSinkingCity2.exe"
+      type: option1
+    - arguments: "-Telemetry"
+      config:
+        betakey: development asleepinthedeep drybonevalley team_playtest unstable becoming closure divinations uplift development_st dev_st_cand orison arena pakhomov_celltransform dev_prev
+        osarch: "64"
+        oslist: windows
+      description: build in Development configuration
+      executable: ".\\PlayGround\\Binaries\\Win64\\PlayGround.exe"
+      type: option1
+    - arguments: LocalizationQA=2 UserNameQA=LOC
+      config:
+        betakey: floods
+        osarch: "64"
+        oslist: windows
+      description: Test for Localization
+      executable: ".\\PlayGround\\Binaries\\Win64\\PlayGround-Win64-Test.exe"
+      type: option1
+    - config:
+        betakey: shipping_st dev_prev megalodon
+        osarch: "64"
+        oslist: windows
+      description: Shipping
+      executable: "PlayGround\\Binaries\\Win64\\PlayGround-Win64-Shipping.exe"
+      type: option1
+    - config:
+        betakey: megalodon andromeda
+        osarch: "64"
+        oslist: windows
+      description: Test for Localization
+      executable: ".\\PlayGround\\Binaries\\Win64\\PlayGround-Win64-Test.exe"
+      type: option1
+    - arguments: "-Telemetry"
+      config:
+        betakey: sunspots
+        osarch: "64"
+        oslist: windows
+      description: build in Test configuration
+      executable: ".\\PlayGround\\Binaries\\Win64\\PlayGround-Win64-Test.exe"
+      type: option1
+    - arguments: "-Telemetry"
+      config:
+        betakey: sunspots
+        osarch: "64"
+        oslist: windows
+      description: build in Development configuration
+      executable: ".\\PlayGround\\Binaries\\Win64\\PlayGround.exe"
+      type: option1
+    - arguments: "-clearpsodrivercache -logpso"
+      config:
+        betakey: team_playtest
+        osarch: "64"
+        oslist: windows
+      description: Test Build with PSO logging
+      executable: "PlayGround\\Binaries\\Win64\\PlayGround-Win64-Test.exe"
+      type: option2
+    - config:
+        betakey: shipping
+        osarch: "64"
+        oslist: windows
+      description: Shipping
+      executable: "PlayGround\\Binaries\\Win64\\TheSinkingCity2.exe"
+      type: option1
+    - config:
+        betakey: development asleepinthedeep drybonevalley team_playtest unstable becoming closure divinations uplift preview_demo development_st dev_st_cand partner_preview_demo orison shipping_st arena pakhomov_celltransform
+        osarch: "64"
+        oslist: windows
+      description: build in Test configuration
+      executable: ".\\PlayGround\\Binaries\\Win64\\PlayGround-Win64-Test.exe"
+      type: option1
 2825880:
   cloud:
     saves:

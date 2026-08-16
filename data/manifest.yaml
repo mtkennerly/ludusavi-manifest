@@ -758902,10 +758902,21 @@ The Sinking City:
 The Sinking City 2:
   cloud:
     gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/TSC2/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1653226562
   id:
     lutris: the-sinking-city-2
+    steamExtra:
+      - 4265460
+      - 4684710
+  installDir:
+    The Sinking City 2: {}
   steam:
     id: 2825860
 The Sinking City Remastered:
