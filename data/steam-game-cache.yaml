@@ -595231,7 +595231,7 @@
       type: option1
     - arguments: "-LOG"
       config:
-        betakey: "daily,weekly,erbbranch,2k_internal,staging,day_15,freeride,sptm,hotfix"
+        betakey: "daily,weekly,erbbranch,2k_internal,staging,freeride,sptm,hotfix,manoh"
       description: Nero - Test (Optimization / Logs)
       executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
       type: option3
@@ -595242,12 +595242,12 @@
       type: option1
     - arguments: "-LOG"
       config:
-        betakey: "daily,weekly,2k_internal,staging,day_15,freeride,sptm,hotfix"
+        betakey: "daily,weekly,2k_internal,staging,freeride,sptm,hotfix,manoh"
       description: Nero - Dev (No Optimizations / All Logs)
       executable: "\\Nero\\Binaries\\Win64\\Nero.exe"
       type: option1
     - config:
-        betakey: "daily_shipping,weekly_shipping,staging_shipping,external_tech_shipping,release,day_15_shipping,preview,compat_testing,freeride_shipping,sptm_shipping,hotfix_shipping"
+        betakey: "daily_shipping,weekly_shipping,staging_shipping,external_tech_shipping,release,preview,compat_testing,freeride_shipping,sptm_shipping,hotfix_shipping,manoh_shipping,compat_shipping"
       description: Nero - Shipping (No Cheats)
       executable: "\\MafiaTheOldCountry\\Binaries\\Win64\\MafiaTheOldCountry.exe"
       type: option1
@@ -595277,7 +595277,7 @@
     - arguments: "-LOG -ExecCmds=\"H13.DebugOverlay.Enable 0, DISABLEALLSCREENMESSAGES, Slate.GameLayer.DebugCanvasVisible 0, H13.Entitlements.GrantAllEntitlements\" -enableDLC -enableFreeride"
       config:
         betakey: "staging,manoh"
-      description: "Nero - Test, All DLCs Unlocked, No Debug UI"
+      description: "Nero - Test, All DLCs Unlocked (No Debug UI)"
       executable: "\\Nero\\Binaries\\Win64\\Nero-Win64-Test.exe"
       type: option1
     - arguments: "-LOG"
@@ -656273,6 +656273,15 @@
         platforms:
           - Windows
         root: WinAppDataLocalLow
+      - path: "Rike Games/Bills Must Be Paid/FullGame/{64BitSteamID}"
+        pattern: save*.json
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: Library/Application Support
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacHome
   installDir: Bills Must Be Paid
   launch:
     - config:

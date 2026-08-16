@@ -26697,6 +26697,7 @@ Big Walk:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\House House\\Big Walk}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\House House\\Big Walk\\user_data\\save_games}}"
+    - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support/House House/Big Walk/user_data/save_games}}"
 BigBoy - Visual Crime Novel:
   pageId: 104443
   steam: 908690
@@ -26833,6 +26834,7 @@ Bills Must Be Paid:
   steam: 4421010
   steamSide:
     - 4577620
+    - 5020040
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Rike Games\\Bills Must Be Paid\\FullGame}}"
 Billy:
@@ -240821,7 +240823,7 @@ The Inner World:
   pageId: 60472
   steam: 613470
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}Software\\Studio Fizbin\\The Last Wind Monk|{{p|userprofile\\appdata\\locallow}}\\Studio Fizbin\\The Last Wind Monk\\TheInnerWorld2\\settings.tiw2}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Studio Fizbin\\The Last Wind Monk|{{p|userprofile\\appdata\\locallow}}\\Studio Fizbin\\The Last Wind Monk\\TheInnerWorld2\\settings.tiw2}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Studio Fizbin/The Last Windmonk/prefs|{{p|xdgconfighome}}/unity3d/Studio Fizbin/The Last Windmonk/TheInnerWorld2/settings.tiw2}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Studio Fizbin\\The Last Wind Monk\\TheInnerWorld2\\savegames\\*.tiw2}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Studio Fizbin/The Last Windmonk/TheInnerWorld2/savegames/saveFile-*.tiw2}}"
