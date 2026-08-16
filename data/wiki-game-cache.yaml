@@ -18427,6 +18427,9 @@ Atomaders 2:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Save.cdf<ref>{{Refcheck|user=Stormshadow429|date=2023-03-27|comment=The game loses its current configuration if this file is reset or deleted.}}</ref>}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Save.cdf}}"
+Atomcraft:
+  pageId: 219476
+  steam: 2803490
 Atomega:
   cloud:
     steam: true
@@ -194886,6 +194889,8 @@ Rogues or Heroes:
 Roidrekt:
   pageId: 128209
   steam: 891340
+Roketz:
+  pageId: 219478
 Roland Garros French Open 2000:
   pageId: 205338
   templates:
@@ -209192,6 +209197,7 @@ Sky Labyrinth:
 Sky Mercenaries:
   cloud:
     steam: true
+  gog: 1866104143
   pageId: 49105
   steam: 336090
 Sky Nations:

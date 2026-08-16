@@ -46890,6 +46890,17 @@ Arctic Awakening:
   cloud:
     gog: true
     steam: true
+  files:
+    "<home>/AppData/LocalLow/GoldFire Studios/Arctic Awakening/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/GoldFire Studios/Arctic Awakening/Saves":
+      tags:
+        - save
+      when:
+        - os: mac
   gog:
     id: 1925961964
   id:
@@ -57131,6 +57142,28 @@ Atomaders 2:
         - save
       when:
         - os: windows
+Atomcraft:
+  files:
+    "<home>/.local/share/godot/app_userdata/Atomcraft":
+      when:
+        - os: linux
+          store: steam
+    "<winAppData>/godot/app_userdata/Atomcraft":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Atomcraft: {}
+  launch:
+    "<base>/AtomCraft.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "'--rendering-method forward_plus --rendering-driver vulkan --render-thread separate"
+        when:
+          - store: steam
+  steam:
+    id: 2803490
 Atomega:
   cloud:
     steam: true
@@ -146131,6 +146164,16 @@ Command & Conquer:
           - store: steam
   steam:
     id: 2229830
+Command & Conquer (2013):
+  cloud:
+    origin: true
+  files:
+    "<winDocuments>/Command & Conquer":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 "Command & Conquer 3: Tiberium Wars":
   cloud:
     origin: true
@@ -344745,6 +344788,13 @@ Holopoint:
 Holstin:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Sonka/Holstin":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   gog:
     id: 1454162753
   id:
@@ -488775,6 +488825,16 @@ Neva:
         - config
       when:
         - os: windows
+    "<home>/Library/Application Support/com.Company.ProductName/<storeUserId>/Save01":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/com.Company.ProductName/<storeUserId>/Save01/Config.gs":
+      tags:
+        - config
+      when:
+        - os: mac
     "<home>/Library/Application Support/com.devolverdigital.neva/<storeUserId>/Save01":
       tags:
         - save
@@ -603333,6 +603393,13 @@ RuneTech:
   steam:
     id: 857890
 Runefall:
+  files:
+    "<winLocalAppData>/Runefall":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Runefall: {}
   launch:
@@ -642019,6 +642086,8 @@ Sky Labyrinth:
 Sky Mercenaries:
   cloud:
     steam: true
+  gog:
+    id: 1866104143
   installDir:
     Sky Mercenaries: {}
   launch:
@@ -713818,14 +713887,6 @@ Tatsu:
   steam:
     id: 445070
 Tattletail:
-  files:
-    "<home>/AppData/LocalLow/Waygetter Electronics/Tattletail/*.txt":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/unity.Waygetter Electronics.Tattletail/*.txt":
-      when:
-        - os: mac
-          store: steam
   installDir:
     Tattletail: {}
   launch:
@@ -713837,6 +713898,11 @@ Tattletail:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Waygetter Electronics/Tattletail:
+      tags:
+        - config
+        - save
   steam:
     id: 568090
 Tattoo Tycoon:
@@ -766566,21 +766632,16 @@ The Zachtronics Solitaire Collection:
   cloud:
     steam: true
   files:
-    "<base>/<storeUserId>/save.dat":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/The Zachtronics Solitaire Collection/<storeUserId>/save.dat":
-      when:
-        - os: mac
-          store: steam
-    "<winDocuments>/My Games/The Zachtronics Solitaire Collection/<storeUserId>/save.dat":
+    "<winDocuments>/My Games/The Zachtronics Solitaire Collection/<storeUserId>/config.cfg":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<xdgData>/The Zachtronics Solitaire Collection/<storeUserId>/save.dat":
+    "<winDocuments>/My Games/The Zachtronics Solitaire Collection/<storeUserId>/save.dat":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
+        - os: windows
   gog:
     id: 1992450334
   id:

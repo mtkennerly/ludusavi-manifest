@@ -634548,6 +634548,30 @@
       description: Play
       executable: LeetLauncher.exe
       type: default
+2803490:
+  cloud:
+    saves:
+      - path: "godot\\app_userdata\\Atomcraft"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+      - path: ".local/share/godot/app_userdata/Atomcraft"
+        pattern: "*"
+        platforms:
+          - Linux
+        recursive: true
+        root: LinuxHome
+  installDir: Atomcraft
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: AtomCraft.exe
+    - arguments: "'--rendering-method forward_plus --rendering-driver vulkan --render-thread separate"
+      description: Separate render-thread (may increase frame rate)
+      executable: AtomCraft.exe
 2803590:
   installDir: MontezumaDC
   launch:
