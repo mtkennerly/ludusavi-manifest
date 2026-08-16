@@ -118980,14 +118980,10 @@ Carmageddon TDR 2000:
     "<root>/userdata/<storeUserId>/505170/remote":
       tags:
         - config
-      when:
-        - os: windows
-          store: steam
-    "<winDocuments>/Carmageddon Max Damage/savegames":
-      tags:
         - save
       when:
         - os: windows
+          store: steam
   gog:
     id: 1904451332
   installDir:
@@ -132393,6 +132389,9 @@ Christmas Defence:
     id: 565630
 "Christmas Eve: Midnight's Call Collector's Edition":
   alias: "Christmas Eve: Midnight's Call"
+Christmas Magic:
+  id:
+    lutris: christmas-magic
 Christmas Mahjong:
   installDir:
     Christmas Mahjong: {}
@@ -397412,10 +397411,6 @@ Krunker.io:
     id: 1207659196
   installDir:
     KKND 2 Krossfire: {}
-  launch:
-    "<base>/launcher.exe":
-      - when:
-          - store: steam
   steam:
     id: 1292180
 "Krush Kill 'N Destroy Xtreme":
@@ -397438,10 +397433,6 @@ Krunker.io:
     lutris: kknd-krush-kill-n-destroy-xtreme
   installDir:
     KKND Xtreme: {}
-  launch:
-    "<base>/launcher.exe":
-      - when:
-          - store: steam
   steam:
     id: 1292170
 KryptCrawler:
@@ -475531,6 +475522,8 @@ My Island:
   steam:
     id: 1004270
 My Kingdom for the Princess:
+  id:
+    lutris: my-kingdom-for-the-princess
   installDir:
     My Kingdom for the Princess: {}
   launch:
@@ -499758,6 +499751,10 @@ Nuclear Option:
       - when:
           - bit: 64
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Shockfront/NuclearOption:
+      tags:
+        - config
   steam:
     id: 2168680
 Nuclear Power Station Creator:
@@ -588306,6 +588303,10 @@ Riddle Joker:
   steam:
     id: 1277930
 Riddle Tower:
+  id:
+    lutris: riddle-tower
+    steamExtra:
+      - 3192900
   installDir:
     Riddle Tower: {}
   launch:
@@ -654541,6 +654542,18 @@ Sonic Pico Park:
 Sonic Project Hero:
   files:
     "<base>/Sonic - Project Hero_Data/hero_settings.bin":
+      tags:
+        - config
+      when:
+        - os: windows
+Sonic Project Hero Rewired:
+  files:
+    "<base>/Sonic Project Hero Rewired_Data/hero_save.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Sonic Project Hero Rewired_Data/hero_settings.bin":
       tags:
         - config
       when:
@@ -831094,6 +831107,11 @@ Warring States:
         - config
   steam:
     id: 282680
+"Warrior Cats: Clans of the Forest":
+  cloud:
+    steam: true
+  steam:
+    id: 3960600
 Warrior Fighter:
   installDir:
     Warrior Fighter: {}

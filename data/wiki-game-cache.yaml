@@ -38483,7 +38483,7 @@ Carmageddon TDR 2000:
   steam: 505170
   templates:
     - "{{Game data/config|Windows|{{p|steam}}\\Data_Misc\\config|{{p|steam}}\\userdata\\{{p|uid}}\\505170\\remote\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Carmageddon Max Damage\\savegames}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\505170\\remote\\}}"
 "Carmageddon: Reincarnation":
   cloud:
     steam: true
@@ -42648,6 +42648,7 @@ Christmas Defence:
     - "Christmas Eve: Midnight's Call Collector's Edition"
   steam: 565630
 Christmas Magic:
+  lutris: christmas-magic
   pageId: 219395
 Christmas Mahjong:
   pageId: 113894
@@ -154795,6 +154796,7 @@ My Island:
   pageId: 127567
   steam: 1004270
 My Kingdom for the Princess:
+  lutris: my-kingdom-for-the-princess
   pageId: 218009
   steam: 2347120
 My Lady:
@@ -162904,6 +162906,8 @@ Nuclear Option:
   steam: 2168680
   steamSide:
     - 3067700
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Shockfront\\NuclearOption\\}}"
 Nuclear Power Station Creator:
   pageId: 122470
   steam: 970660
@@ -191730,9 +191734,12 @@ Riddle Joker:
     - "{{Game data/saves|Windows|{{p|game}}\\savedata\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1277930\\remote\\}}"
 Riddle Tower:
+  lutris: riddle-tower
   malformed: true
   pageId: 217157
   steam: 3044540
+  steamSide:
+    - 3192900
   templates:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\RT\\Riddle Tower}}"
 "Riddle of the Sphinx: The Awakening (Enhanced Edition)":
@@ -213036,6 +213043,11 @@ Sonic Project Hero:
   pageId: 207897
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Sonic - Project Hero_Data\\hero_settings.bin}}"
+Sonic Project Hero Rewired:
+  pageId: 219470
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Sonic Project Hero Rewired_Data\\hero_settings.bin}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Sonic Project Hero Rewired_Data\\hero_save.bin}}"
 Sonic R:
   lutris: sonic-r
   pageId: 25000
@@ -220779,6 +220791,8 @@ StateShift:
 Static:
   pageId: 130291
   steam: 1043560
+"Static Dread: The Submarine":
+  pageId: 219459
 "Static: Investigator Training":
   pageId: 48224
   steam: 354720
@@ -271856,6 +271870,11 @@ Warring States:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\polynation\\Warring States\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\polynation\\Warring States\\}}"
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\282680\\remote\\}}"
+"Warrior Cats: Clans of the Forest":
+  cloud:
+    steam: true
+  pageId: 219468
+  steam: 3960600
 Warrior Fighter:
   pageId: 114432
   steam: 941670

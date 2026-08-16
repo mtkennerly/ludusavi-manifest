@@ -13198,7 +13198,7 @@
         oslist: linux
       description: "Launch Arma: Cold War Assault Remastered (Linux native version)."
       executable: Remastered/PoseidonGame
-      workingdir: Remastered
+      workingdir: Remastered/
     - description: "Launch Arma: Cold War Assault Legacy preferences."
       executable: ColdWarAssaultPreferences.exe
 65800:
@@ -541436,7 +541436,9 @@
         root: gameinstall
   installDir: KKND Xtreme
   launch:
-    - executable: launcher.exe
+    - config:
+        betakey: "default,update-testing"
+      executable: launcher.exe
       type: default
     - config:
         betakey: legacy
@@ -541459,7 +541461,9 @@
         root: gameinstall
   installDir: KKND 2 Krossfire
   launch:
-    - executable: launcher.exe
+    - config:
+        betakey: "default,update-testing"
+      executable: launcher.exe
       type: default
     - config:
         betakey: legacy
@@ -654176,6 +654180,7 @@
       executable: SandyBeachCleaner.exe
       type: default
 3957530: {}
+3960600: {}
 3961110:
   installDir: Sleepover reWake
   launch:
