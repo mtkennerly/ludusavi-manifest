@@ -158064,6 +158064,11 @@ Creature in the Well:
             store: steam
   steam:
     id: 852300
+Creature kitchen:
+  cloud:
+    gog: true
+  gog:
+    id: 1765156887
 Creatures:
   files:
     "<winDocuments>/Creatures/Creatures":
@@ -196153,6 +196158,31 @@ Devil Guns - Demon Bullet Hell Arena:
           - store: steam
   steam:
     id: 6550
+Devil May Cry 4:
+  files:
+    "<winDocuments>/CAPCOM/DEVILMAYCRY4":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/CAPCOM/DEVILMAYCRY4/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: devil-may-cry-4
+  installDir:
+    Devil May Cry 4: {}
+  launch:
+    "<base>/DevilMayCry4_DX10.exe":
+      - when:
+          - store: steam
+    "<base>/DevilMayCry4_DX9.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 45700
 Devil May Cry 4 Special Edition:
   alias: "Devil May Cry 4: Special Edition"
 "Devil May Cry 4: Special Edition":
@@ -654620,6 +654650,8 @@ Sonic P-06:
         - config
       when:
         - os: windows
+  id:
+    lutris: sonic-p-06
 Sonic Pico Park:
   id:
     lutris: sonic-pico-park
@@ -747446,6 +747478,7 @@ The Lord of the Rings Online:
   files:
     "<winLocalAppData>/Aspyr/War in the North/*.sav":
       tags:
+        - config
         - save
       when:
         - os: windows

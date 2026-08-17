@@ -50875,6 +50875,11 @@ Creature in the Well:
   steam: 852300
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\CITW\\Saved}}"
+Creature kitchen:
+  cloud:
+    gog: true
+  gog: 1765156887
+  pageId: 219495
 Creatures:
   gog: 1207662233
   gogSide:
@@ -63165,6 +63170,13 @@ Devil Guns - Demon Bullet Hell Arena:
   templates:
     - "{{Game data/config|Windows|{{folder|{{p|game}}}}\\DMC3SE.ini}}"
     - "{{Game data/saves|Windows|{{folder|{{p|game}}}}\\save0.sav}}"
+Devil May Cry 4:
+  lutris: devil-may-cry-4
+  pageId: 10174
+  steam: 45700
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\CAPCOM\\DEVILMAYCRY4\\config.ini }}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\CAPCOM\\DEVILMAYCRY4\\}}"
 "Devil May Cry 4: Special Edition":
   cloud:
     gog: true
@@ -175852,6 +175864,8 @@ Plain Sight:
   steam: 49900
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Content\\UserSettings.bin}}"
+Plan 9 From Outer Space:
+  pageId: 219494
 "Plan B: Terraform":
   cloud:
     steam: true
@@ -213041,6 +213055,7 @@ Sonic Origins:
     - "{{Game data/saves|Epic Games Launcher|{{p|appdata}}\\Sega\\SonicOrigins\\epic\\{{p|uid}}\\game\\data.dat}}"
     - "{{Game data/saves|Steam|{{p|appdata}}\\Sega\\SonicOrigins\\steam\\{{p|uid}}\\game\\data.dat}}"
 Sonic P-06:
+  lutris: sonic-p-06
   pageId: 175664
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Sonic the Hedgehog_Data\\Settings.bin}}"
@@ -243198,6 +243213,7 @@ The Lord of the Rings Online:
   pageId: 219328
   steam: 2523770
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Aspyr\\War in the North\\*.sav}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Aspyr\\War in the North\\*.sav}}"
 "The Lord of the Rings: War of the Ring":
   pageId: 22965
