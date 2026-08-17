@@ -61656,13 +61656,20 @@
         osarch: "64"
         oslist: linux
       description: Launch
-      executable: Sunless Sea.x86_64
+      executable: Sunless Sea
       type: default
     - config:
         osarch: "32"
         oslist: linux
       description: Launch
       executable: Sunless Sea.x86
+      type: default
+    - config:
+        betakey: legacy
+        osarch: "64"
+        oslist: linux
+      description: Launch
+      executable: Sunless Sea.x86_64
       type: default
 304670:
   cloud:
@@ -103406,6 +103413,8 @@
         oslist: linux
       description: Launch
       executable: hook.x86_64
+  nameLocalized:
+    schinese: 钩子
 367600:
   installDir: Skyshine
   launch:
