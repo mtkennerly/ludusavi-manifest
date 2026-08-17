@@ -653149,7 +653149,21 @@
   nameLocalized:
     schinese: 猿公剑
     tchinese: 猿公劍
-3849000: {}
+3849000:
+  cloud:
+    saves:
+      - path: The_Holy_Fool/Saved
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: The Lantern of the Laughless Saint
+  launch:
+    - config:
+        oslist: windows
+      executable: The_Holy_Fool.exe
+      type: default
 3849030: {}
 3851090:
   nameLocalized:
@@ -655889,6 +655903,7 @@
         oslist: windows
       executable: "TheSkinStapler\\TheSkinStapler.exe"
       type: default
+4316480: {}
 4317460: {}
 4317690: {}
 4323990:

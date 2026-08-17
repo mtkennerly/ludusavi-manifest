@@ -377383,6 +377383,9 @@ Jazz Jackrabbit 2:
   gog:
     id: 1917711239
   id:
+    gogExtra:
+      - 1351891846
+      - 1597842603
     lutris: jazz-jackrabbit-2
 "Jazz Lightning : Castle Dungeons":
   installDir:
@@ -521566,6 +521569,9 @@ Pale Echoes:
           - store: steam
   steam:
     id: 377190
+Pale Hunt:
+  steam:
+    id: 4316480
 Pale Lands VR:
   installDir:
     PaleLandsVR: {}
@@ -742817,8 +742823,20 @@ The Language of Love:
   steam:
     id: 1027620
 The Lantern of the Laughless Saint:
+  files:
+    "<winLocalAppData>/The_Holy_Fool/Saved":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: the-lantern-of-the-laughless-saint
+  installDir:
+    The Lantern of the Laughless Saint: {}
+  launch:
+    "<base>/The_Holy_Fool.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3849000
 The Lar:
