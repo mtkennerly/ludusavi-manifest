@@ -22892,7 +22892,6 @@
 * [Satan's Castle](https://www.pcgamingwiki.com/wiki/?curid=87355)
 * [Satanist](https://www.pcgamingwiki.com/wiki/?curid=42764)
 * [Satellite Odyssey: Jupiter](https://www.pcgamingwiki.com/wiki/?curid=217237)
-* [Satellite Odyssey: Prologue](https://www.pcgamingwiki.com/wiki/?curid=217239)
 * [Satellite Rush](https://www.pcgamingwiki.com/wiki/?curid=43905)
 * [Saturated Outer Space](https://www.pcgamingwiki.com/wiki/?curid=132844)
 * [Saturday of Piercing Screams](https://www.pcgamingwiki.com/wiki/?curid=144101)

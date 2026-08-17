@@ -613848,6 +613848,17 @@ Satellite Command:
   steam:
     id: 3352140
 "Satellite Odyssey: Prologue":
+  files:
+    "<base>/Satellite Odyssey Prologue_Data/Data/SavedGame":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Satellite Odyssey Prologue_Data/Data/Settings.xml":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: satellite-odyssey-prologue
   installDir:
@@ -813614,6 +813625,8 @@ Vampire of the Sands:
   steam:
     id: 1290270
 "Vampire: The Masquerade - Oaths & Ashes":
+  gog:
+    id: 1980751921
   id:
     lutris: vampire-the-masquerade-oaths-and-ashes
     steamExtra:

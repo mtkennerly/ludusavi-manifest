@@ -129382,7 +129382,6 @@ KurtzPel:
   cloud:
     steam: true
   lutris: kusan-city-of-wolves
-  malformed: true
   pageId: 219261
   renamedFrom:
     - "Kusan : city of wolves"
@@ -200070,6 +200069,9 @@ Satellite Command:
   lutris: satellite-odyssey-prologue
   pageId: 217239
   steam: 2579270
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Satellite Odyssey Prologue_Data\\Data\\Settings.xml}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Satellite Odyssey Prologue_Data\\Data\\SavedGame}}"
 Satellite Reign:
   cloud:
     steam: true
@@ -265863,6 +265865,7 @@ Vampire of the Sands:
   templates:
     - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\1290270\\remote\\}}"
 "Vampire: The Masquerade - Oaths & Ashes":
+  gog: 1980751921
   lutris: vampire-the-masquerade-oaths-and-ashes
   pageId: 217731
   steam: 4191110
