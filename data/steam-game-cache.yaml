@@ -634650,13 +634650,13 @@
     - executable: Meteorite/Binaries/Win64/HaloCampaignEvolved.exe
       type: default
     - config:
-        betakey: 3pp-streaming capture-hold color-stable compat-test hs-build-review2 main-d met-ar moe-playtest playtest-d qa-d rel-2602-d rel-2604-minmax-d rel-2605-cu1-d rel-2605-flighting-d rel-2606-cu2-d rel-i343-meteorite-2605-cu1 review-demo shield-testing sq-bugbash sq-coop sqpackaged-d meteorite-playtest rel-2607-cu3-d rel-2607-cu4-d
+        betakey: 3pp-streaming capture-hold color-stable compat-test hs-build-review2 main-d met-ar moe-playtest playtest-d qa-d rel-2602-d rel-2604-minmax-d rel-2605-cu1-d rel-2605-flighting-d rel-2606-cu2-d rel-i343-meteorite-2605-cu1 review-demo shield-testing sq-bugbash sq-coop sqpackaged-d meteorite-playtest rel-2607-cu3-d rel-2607-cu4-d dev-apiary-d
       description: Dev
       executable: Meteorite/Binaries/Win64/HaloCampaignEvolved-Win64-Development.exe
       type: option1
     - arguments: "-disablePSOCacheBuster"
       config:
-        betakey: 3pp-streaming capture-hold color-stable compat-test hs-build-review2 main-d met-ar moe-playtest playtest-d qa-d rel-2602-d rel-2604-minmax-d rel-2605-cu1-d rel-2605-flighting-d rel-2606-cu2-d rel-i343-meteorite-2605-cu1 review-demo shield-testing sq-bugbash sq-coop sqpackaged-d meteorite-playtest rel-2607-cu3-d rel-2607-cu4-d
+        betakey: 3pp-streaming capture-hold color-stable compat-test hs-build-review2 main-d met-ar moe-playtest playtest-d qa-d rel-2602-d rel-2604-minmax-d rel-2605-cu1-d rel-2605-flighting-d rel-2606-cu2-d rel-i343-meteorite-2605-cu1 review-demo shield-testing sq-bugbash sq-coop sqpackaged-d meteorite-playtest rel-2607-cu3-d rel-2607-cu4-d dev-apiary-d
       description: Test
       executable: Meteorite/Binaries/Win64/HaloCampaignEvolved-Win64-Test.exe
       type: option2
@@ -647855,6 +647855,13 @@
     - config:
         oslist: linux
       executable: kingslegacy2_steam_linux_x64
+      type: default
+3453070:
+  installDir: COTTOn RockWithYou -ORIENTAL NIGHT DREAMS-
+  launch:
+    - config:
+        oslist: windows
+      executable: game.exe
       type: default
 3454590:
   cloud:

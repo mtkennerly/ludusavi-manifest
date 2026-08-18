@@ -49585,6 +49585,11 @@ Cotton Reboot! High Tension!:
   templates:
     - "{{Game data/config|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\1364760\\remote\\}}"
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\1364760\\remote\\}}"
+"Cotton Rock With You: Oriental Night Dreams":
+  cloud:
+    steam: true
+  pageId: 219508
+  steam: 3453070
 Couch Party Game Night:
   pageId: 112032
   steam: 833770
@@ -219870,6 +219875,7 @@ StarForge:
   pageId: 43750
   steam: 458030
 StarLancer:
+  lutris: starlancer
   pageId: 19079
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\starlancer.ini}}"

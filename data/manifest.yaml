@@ -154139,6 +154139,18 @@ Cotton Reboot!:
             store: steam
   steam:
     id: 1364760
+"Cotton Rock With You: Oriental Night Dreams":
+  cloud:
+    steam: true
+  installDir:
+    COTTOn RockWithYou -ORIENTAL NIGHT DREAMS-: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3453070
 "Cotton Rock'n'Roll":
   alias: "Cotton Rock 'n' Roll: Superlative Night Dreams"
 Couch Party Game Night:
@@ -675123,6 +675135,8 @@ StarLancer:
         - config
       when:
         - os: windows
+  id:
+    lutris: starlancer
 "StarLightRiders: HyperJump":
   installDir:
     StarLightRiders HyperJump: {}

@@ -5619,6 +5619,7 @@
 * [Costume Party](https://www.pcgamingwiki.com/wiki/?curid=179007)
 * [Cottage Garden](https://www.pcgamingwiki.com/wiki/?curid=89244)
 * [Cotton Reboot! High Tension!](https://www.pcgamingwiki.com/wiki/?curid=217254)
+* [Cotton Rock With You: Oriental Night Dreams](https://www.pcgamingwiki.com/wiki/?curid=219508)
 * [Couch Party Game Night](https://www.pcgamingwiki.com/wiki/?curid=112032)
 * [Couch Storm: Battle Royale](https://www.pcgamingwiki.com/wiki/?curid=138566)
 * [Couch Versus](https://www.pcgamingwiki.com/wiki/?curid=125857)
