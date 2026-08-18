@@ -47100,6 +47100,7 @@ Command & Conquer Remastered Collection:
   cloud:
     origin: true
     steam: true
+  lutris: command-conquertm-renegade
   pageId: 1078
   steam: 2229890
   templates:
@@ -51054,6 +51055,7 @@ Creepy Tale 2:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1248296550
   pageId: 173208
   steam: 1550510
@@ -115875,6 +115877,9 @@ I ♥ You!:
 I-Fluid:
   pageId: 13638
   steam: 23200
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Res\\DriverFonc.dlu}}"
+    - "{{Game data/config|Windows|{{P|game}}\\Res\\driverEvas.dlu}}"
 I-Ninja:
   pageId: 33055
   templates:
@@ -123226,6 +123231,12 @@ Jomp the Jumper:
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/AtTheGates/Saved Games/}}"
 Jonah Lomu Rugby:
   pageId: 91336
+Jonah Lomu Rugby Challenge 4:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 219515
+  steam: 3251300
 "Jonah's Path":
   pageId: 42513
   steam: 493810
@@ -142763,7 +142774,11 @@ Mark After Dark:
   pageId: 71946
   steam: 713980
 Mark of the Deep:
+  cloud:
+    steam: true
+    xbox: true
   pageId: 218126
+  steam: 1933370
 Mark of the Ninja:
   cloud:
     steam: true
@@ -248307,8 +248322,17 @@ The Triumphant Return of Diabolos:
   pageId: 178406
   steam: 1342070
 The Troma Project:
+  cloud:
+    gog: true
+  gog: 2078057020
+  gogSide:
+    - 1285440151
+    - 1289196571
+    - 1836480766
   pageId: 45874
   steam: 279640
+  steamSide:
+    - 4959150
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 The Truck Game:
@@ -260786,11 +260810,15 @@ Twisted Sails:
   pageId: 90018
   steam: 782630
 Twisted Tower:
+  cloud:
+    steam: true
   pageId: 190119
   steam: 1575990
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Atmos Games, LLC\\Twisted Tower Demo\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Atmos Games, LLC\\Twisted Tower\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Atmos Games, LLC\\Twisted Tower Demo\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Atmos Games, LLC\\Twisted Tower\\}}"
 Twisted Weapons:
   pageId: 113036
   steam: 658840
@@ -280443,7 +280471,10 @@ Yotsunoha:
   pageId: 113454
   steam: 880150
 You Are Empty:
+  cloud:
+    steam: true
   pageId: 6712
+  steam: 4760480
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE\\savegames}}"

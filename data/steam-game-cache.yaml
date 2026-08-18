@@ -47070,6 +47070,11 @@
       description: Bonus Content
       executable: "BonerMaterial\\START.exe"
       type: option2
+    - config:
+        oslist: windows
+        ownsdlc: "4959150"
+      description: Bonus Vault
+      executable: ddc.cmd
 279720:
   installDir: The I of the Dragon
   launch:
@@ -540451,19 +540456,19 @@
       description: Play Retail
       executable: "OakGame\\Binaries\\Win64\\Borderlands4.exe"
     - config:
-        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2"
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Test) - gbxinternal
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Test.exe"
     - config:
-        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2"
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Shipping) - gbxinternal
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Shipping.exe"
     - config:
-        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2"
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Development) - gbxinternal
@@ -540655,6 +540660,12 @@
         oslist: windows
       description: Play OakGame (Test-NoStats) - gbxinternal3
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Test-NoStats.exe"
+    - config:
+        betakey: age_ratings_dlc
+        osarch: "64"
+        oslist: windows
+      description: Play OakGame (Test) - age_ratings_dlc
+      executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Test.exe"
   nameLocalized:
     japanese: ボーダーランズ®4
     koreana: 보더랜드® 4
@@ -567993,7 +568004,27 @@
       description: Marketing Build
       executable: sins2_dev.exe
       type: option1
-1575990: {}
+1575990:
+  cloud:
+    saves:
+      - path: "\\Atmos Games, LLC\\Twisted Tower"
+        pattern: "*.save"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "\\Atmos Games, LLC\\Twisted Tower\\{64BitSteamID}"
+        pattern: "*.save"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Twisted Tower
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Play Twisted Tower
+      executable: Twisted Tower.exe
+      type: default
 1576240:
   installDir: The Shadow of Yidhra
   launch:
@@ -574803,7 +574834,8 @@
 1659040:
   installDir: HITMAN 3
   launch:
-    - config:
+    - arguments: "-SKIP_LAUNCHER"
+      config:
         oslist: windows
       executable: Launcher.exe
       type: default
@@ -574812,6 +574844,10 @@
       description: Launch game (MacOS)
       executable: Hitman WOA.app
       type: default
+    - config:
+        oslist: windows
+      description: Configure PC Options
+      executable: Launcher.exe
     - arguments: "-ao VR_ALLOWINSTANTSWITCH 1 -SKIP_LAUNCHER"
       executable: Launcher.exe
       type: vr
@@ -594708,6 +594744,21 @@
       type: default
   nameLocalized:
     schinese: 月之深渊
+1933370:
+  cloud:
+    saves:
+      - path: MarkOfTheDeep/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+      - path: MarkOfTheDeep/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Mark of the Deep
+  launch:
+    - executable: MarkOfTheDeep.exe
+  nameLocalized:
+    schinese: 深渊之印
+    tchinese: 深渊之印
 1933650:
   cloud:
     saves:
@@ -644445,6 +644496,15 @@
         oslist: macos
       description: On MacOS
       executable: lf2.app
+3251300:
+  installDir: Jonah Lomu Rugby Challenge 4
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Launch
+      executable: Rugby.exe
+      type: default
 3253530:
   installDir: Pit of Goblin
   launch:
@@ -656906,6 +656966,10 @@
 4744030: {}
 4752390: {}
 4757750: {}
+4760480:
+  nameLocalized:
+    russian: "You Are Empty: Абсолютное издание"
+    ukrainian: "You Are Empty: Абсолютне видання"
 4767480: {}
 4769040: {}
 4808850: {}
