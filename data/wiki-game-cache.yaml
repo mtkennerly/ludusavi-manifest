@@ -218294,6 +218294,8 @@ Stamp Boy:
 "Stampede: Racing Royale":
   pageId: 202393
   steam: 1851350
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Sumo Digital Ltd\\Stampede Racing Royale}}"
 "Stand Out: VR Battle Royale":
   pageId: 77178
   steam: 748370

@@ -468756,10 +468756,31 @@ Mortal Shell:
   steam:
     id: 1110910
 Mortal Shell II:
+  files:
+    "<base>/MortalShell2/Saved/SaveGames/MetaSaveGame.sav":
+      when:
+        - store: steam
+    "<base>/MortalShell2/Saved/SaveGames/WorldState_*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/MortalShell2/Saved/SaveGames/MetaSaveGame.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/MortalShell2/Saved/SaveGames/WorldState_*.sav":
+      when:
+        - store: steam
   id:
     lutris: mortal-shell-ii
     steamExtra:
       - 4711740
+  installDir:
+    Sparta: {}
+  launch:
+    "<base>/MortalShell2.exe":
+      - arguments: "-ExecCmds=\"S.Sep24Playtest 0\""
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 2584270
 Mortal Sin:
@@ -670679,6 +670700,10 @@ Stamp Boy:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Sumo Digital Ltd/Stampede Racing Royale:
+      tags:
+        - config
   steam:
     id: 1851350
 "Stand Out: VR Battle Royale":

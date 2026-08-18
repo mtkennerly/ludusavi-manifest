@@ -575037,6 +575037,9 @@
       description: Default Launch
       executable: Windswept.exe
       type: default
+  nameLocalized:
+    schinese: 随风飘荡
+    tchinese: 隨風飄蕩
 1661330:
   nameLocalized:
     japanese: サクリファイア
@@ -627761,6 +627764,27 @@
     - executable: TheElysianWoods.exe
       type: default
 2584270:
+  cloud:
+    saves:
+      - path: MortalShell2/Saved/SaveGames
+        pattern: WorldState_*.sav
+        root: gameinstall
+      - path: MortalShell2/Saved/SaveGames
+        pattern: MetaSaveGame.sav
+        root: gameinstall
+      - path: MortalShell2/Saved/SaveGames
+        pattern: WorldState_*.sav
+        root: WinAppDataLocal
+      - path: MortalShell2/Saved/SaveGames
+        pattern: MetaSaveGame.sav
+        root: WinAppDataLocal
+  installDir: Sparta
+  launch:
+    - arguments: "-ExecCmds=\"S.Sep24Playtest 0\""
+      config:
+        oslist: windows
+      description: Play Mortal Shell II
+      executable: MortalShell2.exe
   nameLocalized:
     schinese: 《致命躯壳 II》
 2585830:
