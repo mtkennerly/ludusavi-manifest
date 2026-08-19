@@ -654790,7 +654790,39 @@
         oslist: windows
       executable: Feed the Reactor.exe
       type: default
-4012810: {}
+4012810:
+  cloud:
+    saves:
+      - path: "My Games\\mages_steam\\STEINS;GATE REBOOT\\{64BitSteamID}"
+        pattern: "*.bin"
+        platforms:
+          - Windows
+        root: WinMyDocuments
+      - path: "My Games\\mages_steam\\STEINS;GATE REBOOT\\{64BitSteamID}"
+        pattern: "*.txt"
+        platforms:
+          - Windows
+        root: WinMyDocuments
+  installDir: SGRE
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: "STEINS;GATE RE:BOOT Main Game"
+      executable: sgre_steam.exe
+      type: option1
+    - config:
+        ownsdlc: "4860250"
+      description: オクテット
+      executable: game.exe
+      type: option1
+    - config:
+        betakey: private_beta
+        osarch: "64"
+        oslist: windows
+      description: デバッグ版
+      executable: sgre_steam_d.exe
+      type: option2
 4016270: {}
 4016300:
   installDir: Beer Machine

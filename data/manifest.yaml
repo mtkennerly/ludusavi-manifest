@@ -175961,6 +175961,7 @@ Darkest Dungeon:
       - 1128594953
       - 1452238359
       - 1452693347
+      - 1589545552
       - 1902657506
       - 1957260232
     steamExtra:
@@ -175969,6 +175970,7 @@ Darkest Dungeon:
       - 702540
       - 735730
       - 1117860
+      - 4964110
   installDir:
     DarkestDungeon: {}
   launch:
@@ -398057,6 +398059,8 @@ Kulzas Tomb:
   steam:
     id: 942920
 "Kumarn: The Wandering Spirit":
+  id:
+    lutris: kumarn-the-wandering-spirit
   steam:
     id: 3888420
 Kumo:
@@ -546775,12 +546779,16 @@ Possessor(s):
     gog: true
     steam: true
   files:
-    "<base>/Pose/Saved/SaveGames/<storeUserId>/*.sav":
+    "<winLocalAppData>/Pose/Saved/Config":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
     "<winLocalAppData>/Pose/Saved/SaveGames/<storeUserId>/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   gog:
     id: 1839377078
   id:
@@ -680933,6 +680941,17 @@ Steins;Gate Elite:
   steam:
     id: 819030
 "Steins;Gate Re:Boot":
+  files:
+    "<winDocuments>/My Games/mages_steam/STEINS;GATE REBOOT/<storeUserId>/*.bin":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/mages_steam/STEINS;GATE REBOOT/<storeUserId>/*.txt":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    SGRE: {}
   steam:
     id: 4012810
 "Steins;Gate: Linear Bounded Phenogram":
@@ -759387,6 +759406,7 @@ The Sinking City:
     id: 750130
 The Sinking City 2:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -759397,8 +759417,16 @@ The Sinking City 2:
   gog:
     id: 1653226562
   id:
+    gogExtra:
+      - 1207836582
+      - 1310231644
+      - 1320520340
+      - 1571927298
+      - 2062079148
     lutris: the-sinking-city-2
     steamExtra:
+      - 4265340
+      - 4265420
       - 4265460
       - 4684710
   installDir:

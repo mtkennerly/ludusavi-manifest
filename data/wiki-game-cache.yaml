@@ -56816,6 +56816,7 @@ Darkest Dungeon:
     - 1128594953
     - 1452238359
     - 1452693347
+    - 1589545552
     - 1902657506
     - 1957260232
   pageId: 22744
@@ -56826,6 +56827,7 @@ Darkest Dungeon:
     - 702540
     - 735730
     - 1117860
+    - 4964110
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Darkest\\persist.options.json}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Red Hook Studios/Darkest/profile_*}}"
@@ -129286,6 +129288,7 @@ Kulzas Tomb:
   pageId: 112884
   steam: 942920
 "Kumarn: The Wandering Spirit":
+  lutris: kumarn-the-wandering-spirit
   pageId: 207039
   steam: 3888420
 Kumo:
@@ -178238,6 +178241,9 @@ Possessor(s):
   lutris: possessor-s
   pageId: 206865
   steam: 2132890
+  templates:
+    - "{{Game data/config|Windows|{{Path|localappdata}}\\Pose\\Saved\\Config\\}}"
+    - "{{Game data/saves|Windows|{{Path|localappdata}}\\Pose\\Saved\\SaveGames\\{{Path|uid}}\\*.sav}}"
 Post Apocalyptic Mayhem:
   pageId: 41003
   steam: 91900
@@ -247099,13 +247105,22 @@ The Sinking City:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TSCGame\\Saved\\SaveGames\\}}"
 The Sinking City 2:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1653226562
+  gogSide:
+    - 1207836582
+    - 1310231644
+    - 1320520340
+    - 1571927298
+    - 2062079148
   lutris: the-sinking-city-2
   pageId: 193625
   steam: 2825860
   steamSide:
+    - 4265340
+    - 4265420
     - 4265460
     - 4684710
 The Sinking City Remastered:

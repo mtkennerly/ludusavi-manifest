@@ -25255,7 +25255,6 @@
 * [Stefanos Sizzling Pizza Pie](https://www.pcgamingwiki.com/wiki/?curid=98796)
 * [Stein.world](https://www.pcgamingwiki.com/wiki/?curid=132639)
 * [Steins;Gate Octet of Shifting Space](https://www.pcgamingwiki.com/wiki/?curid=207735)
-* [Steins;Gate Re:Boot](https://www.pcgamingwiki.com/wiki/?curid=207724)
 * [Stellaluna](https://www.pcgamingwiki.com/wiki/?curid=186460)
 * [Stellar 2D](https://www.pcgamingwiki.com/wiki/?curid=47069)
 * [Stellar Impact](https://www.pcgamingwiki.com/wiki/?curid=40797)
