@@ -602988,6 +602988,10 @@
       executable: game.exe
   nameLocalized:
     japanese: ドラゴンボール ゲキシン スクアドラ
+2072680:
+  installDir: Jack the Nipper
+  launch:
+    - executable: Jack.exe
 2073030:
   cloud:
     saves:
@@ -612382,6 +612386,11 @@
       executable: StormWorkshopTool/StormWorkshopTool.exe
       type: editor
       workingdir: StormWorkshopTool
+2231000:
+  installDir: Match Day
+  launch:
+    - executable: game.exe
+      type: none
 2231020: {}
 2231080:
   installDir: Sword of Fargoal
@@ -632708,6 +632717,23 @@
       type: option1
   nameLocalized:
     japanese: イースX -NORDICS-
+2732020:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: TV Studio Story
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: TVスタジオ物語
+    koreana: 방송사 스토리 (TV Studio Story)
+    schinese: 开拍！电视制作物语 (TV Studio Story)
+    tchinese: 開拍！電視製作物語 (TV Studio Story)
 2732820:
   cloud:
     saves:
@@ -635829,6 +635855,23 @@
 2847780:
   nameLocalized:
     schinese: 离火长明2
+2848360:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: Cavern Adventurers
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: 洞窟ぼうけん団
+    koreana: 동굴 탐험대 스토리 (Cavern Adventurers)
+    schinese: 洞窟冒险团物语 (Cavern Adventurers)
+    tchinese: 洞窟冒險團物語 (Cavern Adventurers)
 2849080:
   cloud:
     saves:
@@ -640503,6 +640546,23 @@
   nameLocalized:
     japanese: ラストプリズン～監獄都市に堕ちる花乙女リリア～
     schinese: 乱欲牢城~监狱都市的花之少女~
+3042830:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: LegendsOfHeropolisDX
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: 発進!!ヒーロー基地DX
+    koreana: 히어로 기지 스토리DX (Legends of Heropolis DX)
+    schinese: 前进！！英雄战队物语 DX (Legends of Heropolis DX)
+    tchinese: 前進！！英雄戰隊物語 DX (Legends of Heropolis DX)
 3043580:
   cloud:
     saves:
@@ -642283,6 +642343,23 @@
   launch:
     - executable: TERRIFIER The ArtCade Game.exe
 3131640: {}
+3132250:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: HeianCityStory
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: "平安京ものがたり "
+    koreana: 헤이안 스토리 (Heian City Story)
+    schinese: 平安古都物语 (Heian City Story)
+    tchinese: 平安古都物語 (Heian City Story)
 3132930:
   cloud:
     saves:
@@ -646169,6 +646246,23 @@
   launch:
     - executable: Retrowave 2.exe
 3333990: {}
+3334710:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: ProWrestlerStory
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: プロレスリング物語
+    koreana: 프로레슬링 스토리 (Pro Wrestler Story)
+    schinese: 摔跤擂台物语 (Pro Wrestler Story)
+    tchinese: 摔角擂臺物語 (Pro Wrestler Story)
 3335310: {}
 3335460:
   nameLocalized:
@@ -650308,6 +650402,23 @@
     japanese: BAROQUE ～ふと目を覚ますと異形になっていた～ Revive
     schinese: BAROQUE ~ 一觉醒来成异形 ~ Revive
     tchinese: BAROQUE ~ 一覺醒來成異形 ~ Revive
+3601190:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: SkatingRinkStory
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: 銀盤スケートリンク物語
+    koreana: 눈꽃 스케이트장 스토리 (Skating Rink Story)
+    schinese: 银盘滑冰场物语 (Skating Rink Story)
+    tchinese: 銀盤滑冰場物語 (Skating Rink Story)
 3602290:
   installDir: FEMBOY FUTA HOUSE
   launch:
@@ -654083,6 +654194,23 @@
         oslist: windows
       description: screenshot
       executable: TDF.exe
+3936590:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: FinalFrontierStory
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: 探検パイロット惑星
+    koreana: 스텔라 개척 스토리 (Final Frontier Story)
+    schinese: 探险异星飞行队 (Final Frontier Story)
+    tchinese: 探險異星飛行隊 (Final Frontier Story)
 3936610:
   cloud:
     saves:
@@ -655643,6 +655771,23 @@
         oslist: macos
       executable: Chicky Blocks.app
 4212050: {}
+4212210:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: DemonCastleStory
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: 魔王城ものがたり
+    koreana: 마왕성 스토리 (Demon Castle Story)
+    schinese: 魔王城物语 (Demon Castle Story)
+    tchinese: 魔王城物語 (Demon Castle Story)
 4213960:
   nameLocalized:
     czech: "Posel smrti: Pouto krve"
@@ -656493,6 +656638,23 @@
       executable: BillsMustBePaid.app
   nameLocalized:
     schinese: 账单必须支付 Bills Must Be Paid
+4424950:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}"
+        pattern: "*"
+        root: gameinstall
+  installDir: SkyshipQuestStory
+  launch:
+    - config:
+        oslist: windows
+      executable: KairoGames.exe
+      type: default
+  nameLocalized:
+    japanese: 飛空艇クエスト島
+    koreana: 비행선 퀘스트 스토리 (Skyship Quest Story)
+    schinese: 飞空艇探险物语 (Skyship Quest Story)
+    tchinese: 飛空艇探險物語 (Skyship Quest Story)
 4431400:
   nameLocalized:
     russian: "Смерш: Охотник на волков"
