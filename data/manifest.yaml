@@ -468989,19 +468989,19 @@ Mortal Shell:
   steam:
     id: 1110910
 Mortal Shell II:
+  cloud:
+    steam: true
   files:
-    "<base>/MortalShell2/Saved/SaveGames/MetaSaveGame.sav":
+    "<winLocalAppData>/MortalShell2/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
-    "<base>/MortalShell2/Saved/SaveGames/WorldState_*.sav":
+        - os: windows
+    "<winLocalAppData>/MortalShell2/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winLocalAppData>/MortalShell2/Saved/SaveGames/MetaSaveGame.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/MortalShell2/Saved/SaveGames/WorldState_*.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: mortal-shell-ii
     steamExtra:
@@ -494188,6 +494188,11 @@ Ninja Avenger Dragon Blade:
             store: steam
   steam:
     id: 603790
+"Ninja Baseball League-Man: Bases Loaded":
+  cloud:
+    steam: true
+  steam:
+    id: 3418870
 Ninja Blade:
   files:
     "<winDocuments>/NinjaBlade":

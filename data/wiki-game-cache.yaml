@@ -152646,11 +152646,16 @@ Mortal Shell:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\MortalShell\\Dungeonhaven\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\MortalShell\\Dungeonhaven\\Saved\\SaveGames\\}}"
 Mortal Shell II:
+  cloud:
+    steam: true
   lutris: mortal-shell-ii
   pageId: 205170
   steam: 2584270
   steamSide:
     - 4711740
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}/MortalShell2/Config/Windows}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}/MortalShell2/Saved/SaveGames}}"
 Mortal Sin:
   cloud:
     steam: true
@@ -160962,6 +160967,11 @@ Ninja Avenger Dragon Blade:
     steam: true
   pageId: 59226
   steam: 603790
+"Ninja Baseball League-Man: Bases Loaded":
+  cloud:
+    steam: true
+  pageId: 219550
+  steam: 3418870
 Ninja Blade:
   lutris: ninja-blade
   pageId: 9088

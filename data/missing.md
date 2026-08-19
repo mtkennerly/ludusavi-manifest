@@ -18459,6 +18459,7 @@
 * [Nine Hentai Babes](https://www.pcgamingwiki.com/wiki/?curid=145951)
 * [Nine Worlds: A Viking Saga](https://www.pcgamingwiki.com/wiki/?curid=69850)
 * [Ninja Avenger Dragon Blade](https://www.pcgamingwiki.com/wiki/?curid=59226)
+* [Ninja Baseball League-Man: Bases Loaded](https://www.pcgamingwiki.com/wiki/?curid=219550)
 * [Ninja Cats vs Samurai Dogs](https://www.pcgamingwiki.com/wiki/?curid=50636)
 * [Ninja Code](https://www.pcgamingwiki.com/wiki/?curid=114886)
 * [Ninja Combat](https://www.pcgamingwiki.com/wiki/?curid=168785)
