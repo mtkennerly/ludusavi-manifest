@@ -21269,14 +21269,14 @@
       executable: payday2_win32_release.exe
       type: option1
     - config:
-        betakey: public
+        betakey: public nightly
         osarch: "64"
         oslist: windows
       executable: PAYDAY2.exe
       type: default
     - arguments: "-vr"
       config:
-        betakey: public
+        betakey: public nightly
         osarch: "64"
         oslist: windows
         ownsdlc: "826090"
@@ -636104,6 +636104,25 @@
         oslist: windows
       executable: HYPNOS.exe
       type: default
+2861740:
+  cloud:
+    saves:
+      - path: userdata/database
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+      - path: userdata/save
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+      - path: userdata/replay
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: dong1-fang1-zi1-zhi4-shu1
+  launch:
+    - executable: game.exe
+      type: default
 2863640:
   cloud:
     saves:
@@ -656126,7 +656145,50 @@
 4358690:
   nameLocalized:
     schinese: 守墓人2
-4370990: {}
+4370990:
+  cloud:
+    saves:
+      - path: Games On A Chair/FEED IT
+        pattern: SaveFile.es3
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Games On A Chair/FEED IT
+        pattern: RewiredSaveData.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Games On A Chair/FEED IT
+        pattern: SaveFile.es3
+        platforms:
+          - MacOS
+        root: MacAppSupport
+      - path: Games On A Chair/FEED IT
+        pattern: RewiredSaveData.json
+        platforms:
+          - MacOS
+        root: MacAppSupport
+      - path: ".config/unity3d/Games On A Chair/FEED IT"
+        pattern: SaveFile.es3
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: ".config/unity3d/Games On A Chair/FEED IT"
+        pattern: RewiredSaveData.json
+        platforms:
+          - Linux
+        root: LinuxHome
+  installDir: FEED IT
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: FEED IT.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: "FEED IT.app\\Contents\\MacOS\\FEED IT"
+      type: default
 4372990:
   nameLocalized:
     english: EVO Card
@@ -656613,7 +656675,17 @@
     japanese: みんなでポイっと！プリニーすごろく
     koreana: 다 함께 즐기자! 프리니 보드 배틀
     tchinese: 全民丟丟樂！普利尼雙六大冒險
-4509630: {}
+4509630:
+  cloud:
+    saves:
+      - path: James Sutton/The Eternal Woods
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Eternal Woods
+  launch:
+    - executable: The Eternal Woods.exe
 4514070: {}
 4514310: {}
 4516190: {}
