@@ -106235,6 +106235,13 @@ Brumm:
             store: steam
   steam:
     id: 537660
+Brunswick Circuit Pro Bowling:
+  files:
+    "<base>/savegame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
 Brush Up VR:
   installDir:
     Brush Up VR: {}
@@ -468996,7 +469003,7 @@ Mortal Shell II:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/MortalShell2/Config/Windows":
+    "<winLocalAppData>/MortalShell2/Saved/Config/Windows":
       tags:
         - config
       when:
@@ -480957,6 +480964,18 @@ NEVRDEAD:
             store: steam
   steam:
     id: 624690
+NFL Blitz 2000:
+  files:
+    "<base>/<storeUserId>.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/blitz.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 NFL Pro Era:
   installDir:
     NFL Pro Era: {}
@@ -799166,6 +799185,8 @@ Twisted Tower:
         - save
       when:
         - os: windows
+  id:
+    lutris: twisted-tower
   installDir:
     Twisted Tower: {}
   launch:

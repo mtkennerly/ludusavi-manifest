@@ -34359,6 +34359,8 @@ Brumm:
   steam: 537660
 Brunswick Circuit Pro Bowling:
   pageId: 211017
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\savegame.dat}}"
 Brush Up VR:
   pageId: 57099
   steam: 567840
@@ -152657,7 +152659,7 @@ Mortal Shell II:
   steamSide:
     - 4711740
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}/MortalShell2/Config/Windows}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}/MortalShell2/Saved/Config/Windows}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}/MortalShell2/Saved/SaveGames}}"
 Mortal Sin:
   cloud:
@@ -156556,6 +156558,11 @@ NFL:
   pageId: 201150
 NFL Blitz:
   pageId: 194697
+NFL Blitz 2000:
+  pageId: 219572
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\blitz.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\{{p|uid}}.DAT}}"
 NFL Fever 2000:
   pageId: 194695
 "NFL Football Pro '99 - Sports Illustrated":
@@ -226698,6 +226705,8 @@ Super Orb Collector:
     steam: true
   pageId: 128070
   steam: 1031640
+Super OsWALD:
+  pageId: 219574
 Super Pac-Man:
   pageId: 162095
 Super Panda Adventures:
@@ -260910,6 +260919,7 @@ Twisted Sails:
 Twisted Tower:
   cloud:
     steam: true
+  lutris: twisted-tower
   pageId: 190119
   steam: 1575990
   templates:
