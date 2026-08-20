@@ -179496,6 +179496,7 @@ Prince of Persia 3D:
   steam: 13600
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Hardware.ini}}"
+    - "{{Game data/config|GOG.com|{{p|game}}\\gog.toml}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\}}"
 "Prince of Persia: The Sands of Time Remake":
   pageId: 163291
@@ -242035,6 +242036,9 @@ The Last NightMary - A Lenda do Cabeça de Cuia:
     - 446860
 The Last Ninja:
   pageId: 212621
+The Last Ninja Collection + Bonus Games:
+  pageId: 219570
+  steam: 3501570
 The Last One:
   pageId: 65134
   steam: 601380
@@ -247636,6 +247640,7 @@ The Succubi Trap:
   steam: 729320
 The Suffering:
   gog: 1268478205
+  lutris: the-suffering
   pageId: 19669
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\GameConfig.ini{{note|note=Default}}|{{p|userprofile\\Documents}}\\My Games\\The Suffering\\Torque.ini{{note|note=When using AiO Unofficial Patch and setting <code>PerUserConfigAndSaves</code> in {{p|game}}\\Torque.ini to 1}}}}"

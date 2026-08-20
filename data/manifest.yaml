@@ -550653,6 +550653,11 @@ Prince of Persia 3D:
         - save
       when:
         - os: windows
+    "<base>/gog.toml":
+      tags:
+        - config
+      when:
+        - store: gog
   gog:
     id: 1207658747
   id:
@@ -554827,10 +554832,92 @@ Project OutFox:
   steam:
     id: 1751820
 Project P.I.T.T.:
+  files:
+    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/*.save":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/*.save.bak":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/keybindings.cfg":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/locale.cfg":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/profile.cfg":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/settings.cfg":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Godot/app_userdata/Project P.I.T.T/*.save":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Project P.I.T.T/*.save.bak":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Project P.I.T.T/keybindings.cfg":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Project P.I.T.T/locale.cfg":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Project P.I.T.T/profile.cfg":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Project P.I.T.T/settings.cfg":
+      when:
+        - store: steam
+    "<xdgData>/godot/app_userdata/Project P.I.T.T/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/godot/app_userdata/Project P.I.T.T/*.save.bak":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/godot/app_userdata/Project P.I.T.T/keybindings.cfg":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/godot/app_userdata/Project P.I.T.T/locale.cfg":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/godot/app_userdata/Project P.I.T.T/profile.cfg":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/godot/app_userdata/Project P.I.T.T/settings.cfg":
+      when:
+        - os: linux
+          store: steam
   id:
     lutris: project-pitt
     steamExtra:
       - 4636730
+  installDir:
+    Project P.I.T.T: {}
+  launch:
+    "<base>/projectpitt.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/projectpitt.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/projectpitt.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 4026250
 Project Pastorate:
@@ -744264,6 +744351,16 @@ The Last NightMary - A Lenda do Cabeça de Cuia:
           - store: steam
   steam:
     id: 407300
+The Last Ninja Collection + Bonus Games:
+  installDir:
+    The Last Ninja Collection: {}
+  launch:
+    "<base>/Last Ninja Collection.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3501570
 The Last One:
   installDir:
     The Last One: {}
@@ -761024,6 +761121,8 @@ The Suffering:
         - os: windows
   gog:
     id: 1268478205
+  id:
+    lutris: the-suffering
 The Suffering of Larina:
   steam:
     id: 690090

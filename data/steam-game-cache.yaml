@@ -648694,6 +648694,13 @@
     koreana: 오늘도 같이 자동차 정비
     schinese: 修车吧！兄弟！
     tchinese: 修車吧！兄弟！
+3501570:
+  installDir: The Last Ninja Collection
+  launch:
+    - config:
+        oslist: windows
+      executable: Last Ninja Collection.exe
+      type: default
 3503440:
   cloud:
     saves:
@@ -654880,7 +654887,54 @@
       executable: Netoo.app
       type: default
 4022950: {}
-4026250: {}
+4026250:
+  cloud:
+    saves:
+      - path: "Godot\\app_userdata\\Project P.I.T.T"
+        pattern: "*.save"
+        root: WinAppDataRoaming
+      - path: "Godot\\app_userdata\\Project P.I.T.T"
+        pattern: "*.save.bak"
+        root: WinAppDataRoaming
+      - path: "Godot\\app_userdata\\Project P.I.T.T"
+        pattern: profile.cfg
+        root: WinAppDataRoaming
+      - path: "Godot\\app_userdata\\Project P.I.T.T"
+        pattern: settings.cfg
+        root: WinAppDataRoaming
+      - path: "Godot\\app_userdata\\Project P.I.T.T"
+        pattern: keybindings.cfg
+        root: WinAppDataRoaming
+      - path: "Godot\\app_userdata\\Project P.I.T.T"
+        pattern: locale.cfg
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Godot\\app_userdata\\Project P.I.T.T"
+            replace: godot/app_userdata/Project P.I.T.T
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: Project P.I.T.T
+  launch:
+    - config:
+        oslist: windows
+      executable: projectpitt.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: projectpitt.app
+      type: default
+    - config:
+        oslist: linux
+      executable: projectpitt.x86_64
+      type: default
 4026510: {}
 4026900: {}
 4031890:
