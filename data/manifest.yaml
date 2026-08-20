@@ -58447,6 +58447,28 @@ Aura of Worlds:
             store: steam
   steam:
     id: 444130
+Aurelia:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Aurelia":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Aurelia/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Aurelia: {}
+  launch:
+    "<base>/Aurelia.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1231560
 "Auri's Tales":
   installDir:
     "Auri'sTales": {}
@@ -866279,6 +866301,9 @@ Zoombinis:
             store: steam
   steam:
     id: 577460
+Zoopunk:
+  id:
+    lutris: zoopunk
 "Zorbit's Orbits":
   installDir:
     Zorbits: {}

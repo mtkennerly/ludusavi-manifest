@@ -18868,6 +18868,14 @@ Aura of Worlds:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Auralux Constellations\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Auralux Constellations\\}}"
+Aurelia:
+  cloud:
+    steam: true
+  pageId: 219578
+  steam: 1231560
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Aurelia\\settings.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Aurelia\\}}"
 "Auri's Tales":
   pageId: 123888
   steam: 987060
@@ -283280,6 +283288,7 @@ Zoop:
 Zoopunk:
   cloud:
     xbox: true
+  lutris: zoopunk
   pageId: 211144
 "Zorbit's Orbits":
   pageId: 75027

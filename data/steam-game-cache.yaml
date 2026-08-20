@@ -533531,6 +533531,22 @@
         oslist: windows
       executable: Game_x64.exe
       type: default
+1231560:
+  cloud:
+    saves:
+      - path: Aurelia
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Aurelia
+        pattern: "*.save"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Aurelia
+  launch:
+    - executable: Aurelia.exe
 1231880:
   cloud:
     saves:
