@@ -598641,6 +598641,11 @@
       executable: Crow Country.exe
       type: default
 1996090:
+  installDir: Vapor World Over The Mind
+  launch:
+    - config:
+        oslist: windows
+      executable: Vapor World Over The Mind.exe
   nameLocalized:
     schinese: 蒸汽世界
     tchinese: 蒸氣世界

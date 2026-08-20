@@ -23064,6 +23064,10 @@ Battle Chess 4000:
   pageId: 8632
   steam: 678620
 "Battle Chess: Game of Kings":
+  cloud:
+    gog: true
+    steam: true
+  gog: 1123635349
   pageId: 45308
   steam: 200150
   templates:
@@ -39321,6 +39325,7 @@ Castles:
     gog: true
   gog: 1207663063
   gogSide:
+    - 1145335432
     - 1207658678
   lutris: castles
   pageId: 14491
@@ -39630,10 +39635,12 @@ Cataclismo:
   gog: 1966220998
   gogSide:
     - 1992101679
+    - 2062545933
   pageId: 196563
   steam: 1422440
   steamSide:
     - 4396100
+    - 5001640
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Digital Sun\\Cataclismo\\SavesMP\\Settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Digital Sun\\Cataclismo\\SavesMP\\}}"
@@ -119810,7 +119817,9 @@ Interplanetary Hunter:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\TJR Games\\Interplanetary - Enhanced Edition\\|{{P|game}}\\PlayerData\\}}"
 Interplay Solitaire:
   cloud:
+    gog: true
     steam: true
+  gog: 1927749465
   pageId: 62292
   steam: 630690
 Interpoint:
@@ -188643,6 +188652,7 @@ Redline Ultimate Racing:
   pageId: 81504
   steam: 791570
 "Redneck Deer Huntin'":
+  gog: 1647235151
   pageId: 63943
   steam: 580930
 Redneck Kentucky and the Next Generation Chickens:
@@ -217936,7 +217946,7 @@ Spy Hunter:
 Spy Hunter (2003):
   pageId: 56849
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Midway\\SpyHunter\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Midway\\SpyHunter}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SPYHUNTER_PROFILES.DAT}}"
 "Spy Hunter: Nowhere to Run":
   pageId: 89938
@@ -266294,9 +266304,14 @@ Vaping Simulator:
   pageId: 69659
   steam: 692540
 "Vapor World: Over the Mind":
+  cloud:
+    steam: true
+    xbox: true
   lutris: vapor-world-over-the-mind
   pageId: 207029
   steam: 1996090
+  steamSide:
+    - 2203010
 VaporFly:
   pageId: 144188
   steam: 1119770

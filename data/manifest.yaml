@@ -71589,6 +71589,9 @@ Battle Chess 4000:
   steam:
     id: 678620
 "Battle Chess: Game of Kings":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<root>/userdata/<storeUserId>/200150/remote":
       tags:
@@ -71601,6 +71604,8 @@ Battle Chess 4000:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1123635349
   installDir:
     Battlechess Game of Kings: {}
   launch:
@@ -121512,6 +121517,7 @@ Castles:
     id: 1207663063
   id:
     gogExtra:
+      - 1145335432
       - 1207658678
     lutris: castles
     steamExtra:
@@ -122436,8 +122442,10 @@ Cataclismo:
   id:
     gogExtra:
       - 1992101679
+      - 2062545933
     steamExtra:
       - 4396100
+      - 5001640
   installDir:
     Cataclismo: {}
   launch:
@@ -369344,6 +369352,7 @@ Interplanetary Hunter:
     id: 650220
 Interplay Solitaire:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.config/unity3d/Interplay Entertainment Corp_/Interplay Solitaire/data/*.dat":
@@ -369379,6 +369388,8 @@ Interplay Solitaire:
       when:
         - os: mac
           store: steam
+  gog:
+    id: 1927749465
   installDir:
     Interplay Solitaire: {}
   launch:
@@ -579188,6 +579199,8 @@ Redline Ultimate Racing:
   steam:
     id: 791570
 "Redneck Deer Huntin'":
+  gog:
+    id: 1647235151
   installDir:
     "Redneck Deer Huntin'": {}
   launch:
@@ -814947,8 +814960,19 @@ Vaping Simulator:
   steam:
     id: 692540
 "Vapor World: Over the Mind":
+  cloud:
+    steam: true
   id:
     lutris: vapor-world-over-the-mind
+    steamExtra:
+      - 2203010
+  installDir:
+    Vapor World Over The Mind: {}
+  launch:
+    "<base>/Vapor World Over The Mind.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1996090
 VaporFly:
