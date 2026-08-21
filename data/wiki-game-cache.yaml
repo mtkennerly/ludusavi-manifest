@@ -82722,14 +82722,18 @@ Fairspace:
     steam: true
   pageId: 45968
   steam: 321350
-Fairtravel Battle:
+Fairtravel Battle CCG:
   cloud:
     steam: true
   pageId: 157331
+  renamedFrom:
+    - Fairtravel Battle
   steam: 917820
   templates:
     - "{{Game data/saves|Windows|%localappdata%\\..\\LocalLow\\Flaming Torch Games\\Fairtravel Battle\\Profiles}}"
     - "{{Game data/saves|Linux|~/.config/unity3d/Flaming Torch Games/Fairtravel Battle/Profiles}}"
+    - "{{Game data/saves|OS X|~/Application Support/com.ftg.fairtravelbattle/Profiles}}"
+    - "{{Game data/saves|Steam|Same as the other platforms but with a subholder inside Profiles named after the player's steam ID}}"
 Fairune Collection:
   pageId: 93748
   steam: 783180
@@ -156599,6 +156603,8 @@ NFL:
   pageId: 201150
 NFL Blitz:
   pageId: 194697
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\blitz.ini}}"
 NFL Blitz 2000:
   pageId: 219572
   templates:
@@ -158348,7 +158354,8 @@ Neighbours Back from Hell:
   cloud:
     gog: true
     steam: true
-  gog: 2053240278
+  gogSide:
+    - 1316303871
   lutris: neighbours-back-from-hell
   pageId: 164159
   renamedFrom:
@@ -196238,9 +196245,11 @@ Rugby 2004:
 Rugby 2005:
   pageId: 94969
 Rugby Challenge:
+  lutris: rugby-challenge
   pageId: 120693
   steam: 20840
 Rugby Challenge 2:
+  lutris: rugby-challenge-2
   pageId: 8965
   steam: 226760
 Rugby Challenge 2006:
@@ -196831,8 +196840,11 @@ RuneScape:
 "RuneScape: Dragonwilds":
   cloud:
     steam: true
+  lutris: runescape-dragonwilds
   pageId: 203521
   steam: 1374490
+  steamSide:
+    - 3637470
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\RSDragonwilds\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\RSDragonwilds\\Saved}}"
@@ -205065,6 +205077,7 @@ SharpShooter3D:
 Shatter:
   cloud:
     steam: true
+  lutris: shatter
   pageId: 4686
   steam: 20820
   steamSide:

@@ -18304,7 +18304,6 @@
 * [Nexus](https://www.pcgamingwiki.com/wiki/?curid=130565)
 * [NeXus: One Core](https://www.pcgamingwiki.com/wiki/?curid=48587)
 * [NFL](https://www.pcgamingwiki.com/wiki/?curid=201150)
-* [NFL Blitz](https://www.pcgamingwiki.com/wiki/?curid=194697)
 * [NFL Fever 2000](https://www.pcgamingwiki.com/wiki/?curid=194695)
 * [NFL Football Pro '99 - Sports Illustrated](https://www.pcgamingwiki.com/wiki/?curid=201744)
 * [NFL GameDay 99](https://www.pcgamingwiki.com/wiki/?curid=201743)

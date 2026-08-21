@@ -397100,7 +397100,23 @@
         oslist: macos
       executable: BeastModonMac.app
       type: default
-917820: {}
+917820:
+  installDir: Fairtravel Battle
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Fairtravel Battle\\Fairtravel Battle.exe"
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: "Fairtravel Battle\\FairtravelBattle.x86_64"
+      type: default
+    - config:
+        oslist: macos
+      executable: "Fairtravel Battle.app\\Contents\\MacOS\\FairtravelBattle"
+      type: default
 917830:
   installDir: Anima
   launch:
@@ -559490,6 +559506,10 @@
   launch:
     - executable: "link2ea://launchgame/1462570?platform=steam&theme=lir"
       type: none
+    - config:
+        betakey: eax_test
+      description: New launch method
+      executable: "steam2ea://launchgame/1462570?platform=steam&theme=lir"
   nameLocalized:
     japanese: "ロスト・イン・ランダム "
     tchinese: 《Lost in Random™》

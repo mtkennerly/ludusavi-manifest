@@ -255805,6 +255805,8 @@ Fairspace:
   steam:
     id: 321350
 Fairtravel Battle:
+  alias: Fairtravel Battle CCG
+Fairtravel Battle CCG:
   cloud:
     steam: true
   files:
@@ -255813,11 +255815,38 @@ Fairtravel Battle:
         - save
       when:
         - os: linux
+    "<home>/Application Support/com.ftg.fairtravelbattle/Profiles":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winLocalAppData>/../LocalLow/Flaming Torch Games/Fairtravel Battle/Profiles":
       tags:
         - save
       when:
         - os: windows
+    "Same as the other platforms but with a subholder inside Profiles named after the player's steam ID":
+      tags:
+        - save
+      when:
+        - store: steam
+  installDir:
+    Fairtravel Battle: {}
+  launch:
+    "<base>/Fairtravel Battle.app/Contents/MacOS/FairtravelBattle":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Fairtravel Battle/Fairtravel Battle.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Fairtravel Battle/FairtravelBattle.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 917820
 Fairune Collection:
@@ -481097,6 +481126,13 @@ NEVRDEAD:
             store: steam
   steam:
     id: 624690
+NFL Blitz:
+  files:
+    "<base>/blitz.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 NFL Blitz 2000:
   files:
     "<base>/<storeUserId>.DAT":
@@ -486352,9 +486388,9 @@ Neighbours Back from Hell:
         - save
       when:
         - os: windows
-  gog:
-    id: 2053240278
   id:
+    gogExtra:
+      - 1316303871
     lutris: neighbours-back-from-hell
   installDir:
     Neighbours back From Hell: {}
@@ -602133,6 +602169,8 @@ Rugby 20:
   steam:
     id: 846730
 Rugby Challenge:
+  id:
+    lutris: rugby-challenge
   installDir:
     RugbyChallenge: {}
   launch:
@@ -602145,6 +602183,8 @@ Rugby Challenge:
   steam:
     id: 20840
 Rugby Challenge 2:
+  id:
+    lutris: rugby-challenge-2
   installDir:
     Rugby Challenge 2: {}
   launch:
@@ -603944,6 +603984,10 @@ RuneScape:
         - config
       when:
         - os: windows
+  id:
+    lutris: runescape-dragonwilds
+    steamExtra:
+      - 3637470
   installDir:
     RSDragonwilds: {}
   steam:
@@ -629525,6 +629569,7 @@ Shatter:
       when:
         - os: windows
   id:
+    lutris: shatter
     steamExtra:
       - 20828
   installDir:
