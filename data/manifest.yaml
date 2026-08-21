@@ -75649,6 +75649,12 @@ Beast of Reincarnation:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/BeastOfReincarnation/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/BeastOfReincarnation/Saved/Config/Windows":
       tags:
         - config
@@ -75660,6 +75666,12 @@ Beast of Reincarnation:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/Fictions.ProjectAibou_qj8vnfjar8dk2/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: beast-of-reincarnation
     steamExtra:
@@ -272815,6 +272827,8 @@ Flem:
 Flesh:
   alias: Flesh & Wire
 Flesh & Wire:
+  id:
+    lutris: flesh-and-wire
   steam:
     id: 3592940
 Flesh Eaters:
@@ -317992,6 +318006,9 @@ Gun Monkeys:
         - config
   steam:
     id: 239450
+Gun Nose:
+  id:
+    lutris: gun-nose
 Gun Rage:
   cloud:
     steam: true
@@ -332384,6 +332401,42 @@ Hellbender:
         - config
       when:
         - os: windows
+"Hellblade II: Senua's Saga":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Hellblade2/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Hellblade2/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Hellblade2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Packages/Microsoft.Superb_8wekyb3d8bbwe/SystemAppData/wgs/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
+  installDir:
+    "Senua's Saga Hellblade II": {}
+  launch:
+    "<base>/Hellblade2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2461850
 "Hellblade: Senua's Sacrifice":
   cloud:
     gog: true
@@ -623511,43 +623564,9 @@ Senua:
   steam:
     id: 3676410
 "Senua's Saga: Hellblade II":
-  cloud:
-    steam: true
-  files:
-    "<winLocalAppData>/Hellblade2/Saved/Config/WinGDK":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: microsoft
-    "<winLocalAppData>/Hellblade2/Saved/Config/Windows":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/Hellblade2/Saved/SaveGames":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/Packages/Microsoft.Superb_8wekyb3d8bbwe/SystemAppData/wgs/<storeUserId>":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: microsoft
-  installDir:
-    "Senua's Saga Hellblade II": {}
-  launch:
-    "<base>/Hellblade2.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2461850
+  alias: "Hellblade II: Senua's Saga"
 "Senua’s Saga: Hellblade II":
-  alias: "Senua's Saga: Hellblade II"
+  alias: "Hellblade II: Senua's Saga"
 Senza Peso:
   installDir:
     SenzaPeso: {}
@@ -659691,8 +659710,43 @@ Space Grunts 2:
   steam:
     id: 1125370
 Space Grunts 3:
+  alias: "Space Grunts: Chrono Shard"
+"Space Grunts: Chrono Shard":
   cloud:
     steam: true
+  files:
+    "<home>/Library/Application Support/spacegrunts3/*.*":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/spacegrunts3/*.*":
+      when:
+        - store: steam
+    "<xdgConfig>/spacegrunts3/*.*":
+      when:
+        - os: linux
+          store: steam
+  gog:
+    id: 1452596391
+  id:
+    lutris: space-grunts-chrono-shard
+    steamExtra:
+      - 3481400
+  installDir:
+    Space Grunts 3: {}
+  launch:
+    "<base>/spacegrunts3":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/spacegrunts3.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/spacegrunts3.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3403540
 Space Guard:
@@ -820574,6 +820628,8 @@ Virtually Real Life:
   steam:
     id: 1209610
 Virtue and a Sledgehammer:
+  id:
+    lutris: virtue-and-a-sledgehammer
   steam:
     id: 3743260
 Virtuelle Moorhuhn Jagd:

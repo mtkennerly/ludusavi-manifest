@@ -24511,7 +24511,6 @@
 * [Space God](https://www.pcgamingwiki.com/wiki/?curid=82414)
 * [Space Googy](https://www.pcgamingwiki.com/wiki/?curid=92742)
 * [Space Grunts](https://www.pcgamingwiki.com/wiki/?curid=34047)
-* [Space Grunts 3](https://www.pcgamingwiki.com/wiki/?curid=202727)
 * [Space Guard](https://www.pcgamingwiki.com/wiki/?curid=122235)
 * [Space Hamster in Turmoil](https://www.pcgamingwiki.com/wiki/?curid=103053)
 * [Space Harrier](https://www.pcgamingwiki.com/wiki/?curid=176884)

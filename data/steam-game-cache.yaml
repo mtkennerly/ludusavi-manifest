@@ -602570,7 +602570,9 @@
       executable: CrimsonSnow.exe
   nameLocalized:
     schinese: 猩红之雪
-2067820: {}
+2067820:
+  nameLocalized:
+    schinese: 复古时空
 2067850:
   installDir: Drakensang Online
   launch:
@@ -647491,7 +647493,37 @@
         oslist: windows
       executable: Clean Up Earth.exe
       type: default
-3403540: {}
+3403540:
+  cloud:
+    saves:
+      - path: spacegrunts3
+        pattern: "*.*"
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgConfigHome
+  installDir: Space Grunts 3
+  launch:
+    - config:
+        oslist: windows
+      executable: spacegrunts3.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: spacegrunts3
+      type: default
+    - config:
+        oslist: macos
+      executable: spacegrunts3.app
+      type: default
 3404260:
   cloud:
     saves:
@@ -651055,8 +651087,8 @@
     - executable: ArmoredCore_MobileMission.exe
 3633680:
   nameLocalized:
-    japanese: シー・オブ・レムナンツ
-    koreana: 렘넌트의 바다
+    japanese: シーオブレムナンツ
+    koreana: 렘넌트의바다
     schinese: 遗忘之海
     tchinese: 遺忘之海
 3634520:

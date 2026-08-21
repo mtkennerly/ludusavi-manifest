@@ -24473,7 +24473,9 @@ Beast of Reincarnation:
     - 4146830
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BeastOfReincarnation\\Saved\\Config\\Windows\\|{{P|localappdata}}\\BeastOfReincarnation\\Saved\\SaveGames\\}}"
+    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\BeastOfReincarnation\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BeastOfReincarnation\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Fictions.ProjectAibou_qj8vnfjar8dk2\\SystemAppData\\wgs}}"
 Beastiarium:
   pageId: 54339
   steam: 545150
@@ -88585,6 +88587,7 @@ Flem:
   steamSide:
     - 369430
 Flesh & Wire:
+  lutris: flesh-and-wire
   pageId: 214094
   renamedFrom:
     - Flesh
@@ -103153,6 +103156,7 @@ Gun Monkeys:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Size Five Games\\Gun Monkeys\\}}"
     - "{{Game data/config|Steam|{{p|steam}}/userdata/{{P|uid}}/239450/remote/}}"
 Gun Nose:
+  lutris: gun-nose
   pageId: 216403
 Gun Rage:
   cloud:
@@ -107915,6 +107919,20 @@ Hellbender:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\system\\HELLBEND.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\data\\*.hel}}"
+"Hellblade II: Senua's Saga":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 154854
+  renamedFrom:
+    - "Senua’s Saga: Hellblade II"
+    - "Senua's Saga: Hellblade II"
+  steam: 2461850
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Hellblade2\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Hellblade2\\Saved\\Config\\WinGDK\\}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Hellblade2\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.Superb_8wekyb3d8bbwe\\SystemAppData\\wgs\\{{P|uid}}}}"
 "Hellblade: Senua's Sacrifice":
   cloud:
     gog: true
@@ -203085,19 +203103,6 @@ Senua:
     steam: true
   pageId: 217447
   steam: 3676410
-"Senua's Saga: Hellblade II":
-  cloud:
-    steam: true
-    xbox: true
-  pageId: 154854
-  renamedFrom:
-    - "Senua’s Saga: Hellblade II"
-  steam: 2461850
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Hellblade2\\Saved\\Config\\Windows\\}}"
-    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Hellblade2\\Saved\\Config\\WinGDK\\}}"
-    - "{{Game data/saves|Steam|{{p|localappdata}}\\Hellblade2\\Saved\\SaveGames\\}}"
-    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.Superb_8wekyb3d8bbwe\\SystemAppData\\wgs\\{{P|uid}}}}"
 Senza Peso:
   pageId: 51398
   steam: 496190
@@ -214665,11 +214670,17 @@ Space Grunts 2:
     - "{{Game data/saves|Windows|{{p|appdata}}\\spacegrunts2\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/spacegrunts2}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/spacegrunts2/}}"
-Space Grunts 3:
+"Space Grunts: Chrono Shard":
   cloud:
     steam: true
+  gog: 1452596391
+  lutris: space-grunts-chrono-shard
   pageId: 202727
+  renamedFrom:
+    - Space Grunts 3
   steam: 3403540
+  steamSide:
+    - 3481400
 Space Guard:
   pageId: 122235
   steam: 975010
@@ -268158,6 +268169,7 @@ Virtually Real Life:
   pageId: 156226
   steam: 1209610
 Virtue and a Sledgehammer:
+  lutris: virtue-and-a-sledgehammer
   pageId: 217475
   steam: 3743260
 Virtuelle Moorhuhn Jagd:
