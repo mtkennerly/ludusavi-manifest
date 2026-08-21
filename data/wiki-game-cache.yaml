@@ -174603,6 +174603,8 @@ Pin Town:
 "Pinata Smash: Incremental Circus":
   pageId: 219233
   steam: 4918810
+  steamSide:
+    - 4941930
 Pinball:
   pageId: 75471
   steam: 745120
@@ -235904,6 +235906,7 @@ The Blood of Dawnwalker:
   cloud:
     steam: true
     xbox: true
+  gog: 1889754300
   lutris: the-blood-of-dawnwalker
   pageId: 200865
   steam: 3751260

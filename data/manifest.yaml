@@ -535263,6 +535263,9 @@ Pimp Tight:
   steam:
     id: 555100
 "Pinata Smash: Incremental Circus":
+  id:
+    steamExtra:
+      - 4941930
   steam:
     id: 4918810
 Pinball:
@@ -725703,6 +725706,8 @@ The Blood Eclipse:
 The Blood of Dawnwalker:
   cloud:
     steam: true
+  gog:
+    id: 1889754300
   id:
     lutris: the-blood-of-dawnwalker
   steam:
@@ -817802,10 +817807,24 @@ Vexius:
   steam:
     id: 757190
 Vholume:
+  files:
+    "<winLocalAppData>/VHOLUME/Saved/Ghosts/**/*.json.gz":
+      when:
+        - store: steam
+    "<winLocalAppData>/VHOLUME/Saved/SaveGames":
+      when:
+        - store: steam
   id:
     lutris: vholume
     steamExtra:
       - 4245250
+  installDir:
+    VHOLUME: {}
+  launch:
+    "<base>/VHOLUME/Binaries/Win64/VHOLUME-Win64-Shipping.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4131730
 ViKubb:

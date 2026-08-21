@@ -648053,7 +648053,9 @@
   nameLocalized:
     japanese: 初音ミク ロジックペイントS+
 3447740: {}
-3448650: {}
+3448650:
+  nameLocalized:
+    schinese: 异形：火力精英2
 3448680: {}
 3448930:
   installDir: Untitled Hand Game Titled Edition
@@ -655615,7 +655617,22 @@
   installDir: eBaseball PRO SPIRIT
   launch:
     - executable: "Game\\prospi.exe"
-4131730: {}
+4131730:
+  cloud:
+    saves:
+      - path: VHOLUME/Saved/SaveGames
+        pattern: "*"
+        root: WinAppDataLocal
+      - path: VHOLUME/Saved/Ghosts
+        pattern: "*.json.gz"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: VHOLUME
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: "VHOLUME\\Binaries\\Win64\\VHOLUME-Win64-Shipping.exe"
 4132890: {}
 4138130: {}
 4139880:

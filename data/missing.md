@@ -30033,7 +30033,6 @@
 * [Vestige of the Past](https://www.pcgamingwiki.com/wiki/?curid=144981)
 * [Veteran Combat](https://www.pcgamingwiki.com/wiki/?curid=48685)
 * [Vette](https://www.pcgamingwiki.com/wiki/?curid=186108)
-* [Vholume](https://www.pcgamingwiki.com/wiki/?curid=216999)
 * [VHS Bodycam](https://www.pcgamingwiki.com/wiki/?curid=210508)
 * [VHSoverdose](https://www.pcgamingwiki.com/wiki/?curid=40072)
 * [Viaerium](https://www.pcgamingwiki.com/wiki/?curid=73853)
