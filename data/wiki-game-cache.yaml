@@ -42549,6 +42549,7 @@ Chop:
   steam: 755920
 Chop Chop Inc.:
   pageId: 219338
+  steam: 4369130
 Chop Chop Princess!:
   pageId: 74948
   steam: 718740
@@ -50331,6 +50332,7 @@ Crate Punks:
   pageId: 53670
   steam: 517960
 Craving Wisps:
+  lutris: craving-wisps
   pageId: 217053
   steam: 4334910
 Crawl:
@@ -55867,7 +55869,10 @@ Dark Burial:
     - "Dark Cases: The Blood Ruby Collector's Edition"
   steam: 569150
 Dark Castle:
+  cloud:
+    steam: true
   pageId: 204127
+  steam: 4706290
 Dark Chess:
   cloud:
     steam: true
@@ -94893,8 +94898,18 @@ Gallery One:
   pageId: 104251
   steam: 912260
 Gallipoli:
+  lutris: gallipoli
   pageId: 218466
   steam: 3065940
+  steamSide:
+    - 4202450
+    - 4202460
+    - 4202470
+    - 4202490
+    - 4202500
+    - 4584010
+    - 4584020
+    - 4768090
 Gallows:
   pageId: 90606
   steam: 816550
@@ -113756,7 +113771,15 @@ How I Escaped Futa Prison:
   pageId: 184278
   steam: 2269230
 How Many Dudes?:
+  cloud:
+    steam: true
+  lutris: how-many-dudes
   pageId: 219134
+  steam: 3934270
+  steamSide:
+    - 4248000
+    - 4769790
+    - 4815310
 How Mosquito Became Human:
   pageId: 123431
   steam: 862230
@@ -127348,6 +127371,7 @@ Kingdom Heroes 2:
 "Kingdom II: Shadoan":
   cloud:
     steam: true
+  gog: 1560253148
   pageId: 77442
   steam: 4352730
 "Kingdom O' Magic":
@@ -176155,6 +176179,7 @@ Planet Coaster 2:
     - 3902620
     - 4129920
     - 4492160
+    - 4961870
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Planet Coaster 2\\{{p|uid}}\\Config\\*.config.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Frontier Developments\\Planet Coaster 2\\{{p|uid}}\\Saves\\}}"
@@ -185406,6 +185431,7 @@ Ragnarok Online 2:
   pageId: 65614
   steam: 660330
 Rags to Riches:
+  gog: 1773018230
   pageId: 214786
   steam: 4353020
 Ragtag Adventurers:
@@ -225803,6 +225829,7 @@ Super Catscape:
   pageId: 132014
   steam: 1048260
 Super Cauldron:
+  gog: 1129963925
   pageId: 208282
   steam: 3799620
 Super Chain Crusher Horizon:
@@ -238551,6 +238578,8 @@ The Eternal Life of Goldman:
   pageId: 202873
   steam: 2254950
 The Eternal Woods:
+  cloud:
+    steam: true
   pageId: 218956
   steam: 4509630
   steamSide:
@@ -254592,6 +254621,7 @@ Torn Tales:
 Tornado:
   cloud:
     steam: true
+  gog: 2089396593
   pageId: 195299
   steam: 2557370
   templates:
@@ -274128,6 +274158,10 @@ Wheel of Fortune (1998):
     - "{{Game data/config|Windows|{{p|game}}}}"
 "Wheel of Fortune: 2nd Edition":
   pageId: 200354
+WheelMates:
+  lutris: wheelmates
+  pageId: 219592
+  steam: 3905450
 Wheelbarrow Warrior:
   pageId: 108768
   steam: 729820
@@ -280322,6 +280356,16 @@ Yet Another Zombie Defense HD:
     steam: true
   pageId: 68148
   steam: 674750
+Yet Another Zombie Survivors:
+  cloud:
+    steam: true
+  malformed: true
+  pageId: 219595
+  steam: 2163330
+  steamSide:
+    - 2265230
+    - 2281990
+    - 4377470
 Yet another tower defence:
   pageId: 113770
   steam: 923890

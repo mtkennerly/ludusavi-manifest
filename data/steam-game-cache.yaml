@@ -608672,6 +608672,13 @@
   launch:
     - description: Play Game
       executable: Dreamcutter1.3.exe
+2163330:
+  installDir: Yet Another Zombie Survivors
+  launch:
+    - executable: Yet Another Zombie Survivors.exe
+      type: default
+  nameLocalized:
+    schinese: Yet Another Zombie Survivors - 又一个僵尸幸存者
 2165040: {}
 2165340:
   installDir: Quiz.com
@@ -641192,6 +641199,19 @@
     schinese: 失落星船：马拉松
     tchinese: 失落星船：馬拉松
 3065940:
+  cloud:
+    saves:
+      - path: "WW1 Game Series/Gallipoli/Steam/{64BitSteamID}"
+        pattern: SaveData_User.dat*
+        root: WinAppDataLocalLow
+  installDir: Gallipoli
+  launch:
+    - arguments: gallipoli
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Gallipoli/Gallipoli.exe
+      type: default
   nameLocalized:
     schinese: 加里波利
 3067930:
@@ -653791,6 +653811,10 @@
     schinese: ONE PIECE 海洋盛宴
     tchinese: ONE PIECE 海洋盛宴
     thai: ONE PIECE ภัตตาคารเลิศรสลอยทะเล (ชื่อชั่วคราว)
+3905450:
+  nameLocalized:
+    schinese: WheelMates (双轮成行)
+    tchinese: WheelMates (雙輪成行)
 3906660:
   cloud:
     saves:
@@ -654139,6 +654163,53 @@
     koreana: 고요한 시골 정원 이야기
     schinese: 静谧田园
     tchinese: 靜謐田園
+3934270:
+  cloud:
+    saves:
+      - path: "HowManyDudes/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "HowManyDudes/{64BitSteamID}"
+            replace: ".config/HowManyDudes/{64BitSteamID}"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "HowManyDudes/{64BitSteamID}"
+            replace: "com.bscotch.hmd/{64BitSteamID}"
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: How Many Dudes
+  launch:
+    - config:
+        oslist: windows
+      executable: HowManyDudes.exe
+      type: default
+    - config:
+        betakey: "develop, runtime, runtime_candidate, candidate, staging,  public-test"
+        oslist: windows
+      description: with Diagnostic Logging
+      executable: debug.bat
+      type: option1
+    - config:
+        oslist: macos
+      executable: "HowManyDudes.app\\Contents\\MacOS\\HowManyDudes"
+      type: default
+    - config:
+        betakey: "develop, runtime, runtime_candidate, candidate, staging,  public-test"
+        oslist: macos
+      description: with Diagnostic Logging
+      executable: "HowManyDudes.app\\Contents\\Resources\\debug.sh"
+      type: option1
+  nameLocalized:
+    koreana: "How Many Dudes: 몇 놈 필요함?"
+    schinese: 多少兄弟？
 3935020:
   cloud:
     saves:
@@ -656403,6 +656474,22 @@
 4358690:
   nameLocalized:
     schinese: 守墓人2
+4369130:
+  cloud:
+    saves:
+      - path: NullRef Entertainment/ChopChopInc
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: ChopChopInc
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ChopChopInc.exe
+      type: default
 4370990:
   cloud:
     saves:
@@ -657272,6 +657359,44 @@
     - executable: PenguinHotel.exe
   nameLocalized:
     japanese: めっちゃカメレオン
+4706290:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*"
+        root: SteamCloudDocuments
+    overrides:
+      - addPath: Dark Castle
+        os: Windows
+        osCompare: "="
+        root: SteamCloudDocuments
+        useInstead: WinSavedGames
+      - addPath: /Library/Preferences/games.ludit.darkcastle
+        os: MacOS
+        osCompare: "="
+        root: SteamCloudDocuments
+        useInstead: MacHome
+      - addPath: Dark Castle
+        os: Linux
+        osCompare: "="
+        root: SteamCloudDocuments
+        useInstead: LinuxXdgDataHome
+  installDir: Dark Castle
+  launch:
+    - config:
+        oslist: linux
+      executable: Linux/Dark Castle
+      type: default
+      workingdir: Linux
+    - config:
+        oslist: windows
+      executable: Win32/Dark Castle.exe
+      type: default
+      workingdir: Win32
+    - config:
+        oslist: macos
+      executable: Dark Castle.app
+      type: default
 4712350:
   cloud:
     saves:

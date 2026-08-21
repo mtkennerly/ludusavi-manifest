@@ -132087,6 +132087,22 @@ Chop:
             store: steam
   steam:
     id: 755920
+Chop Chop Inc.:
+  files:
+    "<home>/AppData/LocalLow/NullRef Entertainment/ChopChopInc":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    ChopChopInc: {}
+  launch:
+    "<base>/ChopChopInc.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4369130
 Chop Chop Princess!:
   installDir:
     Chop Chop Princess: {}
@@ -156468,6 +156484,8 @@ Crate Punks:
   steam:
     id: 517960
 Craving Wisps:
+  id:
+    lutris: craving-wisps
   steam:
     id: 4334910
 Crawl:
@@ -173123,6 +173141,28 @@ Dark Burial:
     id: 569150
 "Dark Cases: The Blood Ruby Collector's Edition":
   alias: "Dark Cases: The Blood Ruby"
+Dark Castle:
+  cloud:
+    steam: true
+  installDir:
+    Dark Castle: {}
+  launch:
+    "<base>/Dark Castle.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Linux/Dark Castle":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Linux"
+    "<base>/Win32/Dark Castle.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Win32"
+  steam:
+    id: 4706290
 Dark Chess:
   cloud:
     steam: true
@@ -292989,6 +293029,30 @@ Gallery One:
   steam:
     id: 912260
 Gallipoli:
+  files:
+    "<home>/AppData/LocalLow/WW1 Game Series/Gallipoli/Steam/<storeUserId>/SaveData_User.dat*":
+      when:
+        - store: steam
+  id:
+    lutris: gallipoli
+    steamExtra:
+      - 4202450
+      - 4202460
+      - 4202470
+      - 4202490
+      - 4202500
+      - 4584010
+      - 4584020
+      - 4768090
+  installDir:
+    Gallipoli: {}
+  launch:
+    "<base>/Gallipoli/Gallipoli.exe":
+      - arguments: gallipoli
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3065940
 Gallows:
@@ -350240,6 +350304,40 @@ How I Escaped Futa Prison:
             store: steam
   steam:
     id: 2269230
+How Many Dudes?:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/HowManyDudes/<storeUserId>":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/com.bscotch.hmd/<storeUserId>":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/HowManyDudes/<storeUserId>":
+      when:
+        - store: steam
+  id:
+    lutris: how-many-dudes
+    steamExtra:
+      - 4248000
+      - 4769790
+      - 4815310
+  installDir:
+    How Many Dudes: {}
+  launch:
+    "<base>/HowManyDudes.app/Contents/MacOS/HowManyDudes":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/HowManyDudes.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3934270
 How Mosquito Became Human:
   steam:
     id: 862230
@@ -392022,6 +392120,8 @@ Kingdom Heroes 2:
     "<base>/INTRPLAY/SHADOANP/*.DAT":
       when:
         - store: steam
+  gog:
+    id: 1560253148
   installDir:
     Kingdom II Shadoan: {}
   launch:
@@ -539901,6 +540001,7 @@ Planet Coaster 2:
       - 3902620
       - 4129920
       - 4492160
+      - 4961870
   installDir:
     Planet Coaster 2: {}
   launch:
@@ -569560,6 +569661,8 @@ Ragnarok Online 2:
   steam:
     id: 660330
 Rags to Riches:
+  gog:
+    id: 1773018230
   installDir:
     Rags to Riches: {}
   launch:
@@ -694124,6 +694227,8 @@ Super Catscape:
   steam:
     id: 1048260
 Super Cauldron:
+  gog:
+    id: 1129963925
   installDir:
     Super Cauldron: {}
   launch:
@@ -733769,6 +733874,8 @@ The Eternal Life of Goldman:
   steam:
     id: 2254950
 The Eternal Woods:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/James Sutton/The Eternal Woods":
       when:
@@ -782134,6 +782241,8 @@ Tornado:
         - os: windows
         - os: mac
         - os: linux
+  gog:
+    id: 2089396593
   installDir:
     Tornado: {}
   launch:
@@ -838213,6 +838322,11 @@ Wheel of Fate:
     Wheel of Fate: {}
   steam:
     id: 1105740
+WheelMates:
+  id:
+    lutris: wheelmates
+  steam:
+    id: 3905450
 Wheelbarrow Warrior:
   installDir:
     WheelbarrowWarrior: {}
@@ -857111,6 +857225,22 @@ Yet Another Zombie Defense HD:
             store: steam
   steam:
     id: 674750
+Yet Another Zombie Survivors:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 2265230
+      - 2281990
+      - 4377470
+  installDir:
+    Yet Another Zombie Survivors: {}
+  launch:
+    "<base>/Yet Another Zombie Survivors.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2163330
 Yet another tower defence:
   files:
     "<home>/AppData/LocalLow/FantasyLi/YetAnotherTowerDefense/Save/*.sav":
