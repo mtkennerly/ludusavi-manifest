@@ -21,4 +21,3 @@
 * [Riding to Bounce City](https://www.pcgamingwiki.com/wiki/?curid=218655)
 * [Screamer 4x4](https://www.pcgamingwiki.com/wiki/?curid=2856)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
-* [Yet Another Zombie Survivors](https://www.pcgamingwiki.com/wiki/?curid=219595)

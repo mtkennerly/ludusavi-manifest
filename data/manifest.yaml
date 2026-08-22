@@ -100658,13 +100658,17 @@ Boxes Inc.:
   steam:
     id: 851820
 "Boxes: Lost Fragments":
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Big Loop Studios/Boxes Lost Fragments/*.dat":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
   id:
-    lutris: boxes
+    lutris: boxes-lost-fragments
     steamExtra:
       - 2300500
   installDir:
@@ -100673,6 +100677,10 @@ Boxes Inc.:
     "<base>/Boxes Lost Fragments.exe":
       - when:
           - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Big Loop Studios/Boxes Lost Fragments:
+      tags:
+        - config
   steam:
     id: 2019810
 BoxesWithGuns:
@@ -143029,10 +143037,6 @@ Cold Fear:
     lutris: cold-fear
   installDir:
     Cold Fear: {}
-  launch:
-    "<base>/coldfear_retail.exe":
-      - when:
-          - store: steam
   steam:
     id: 15270
 Cold Hearts:
@@ -220772,7 +220776,11 @@ Dune Sea:
     lutris: dune-awakening
     steamExtra:
       - 3596810
+      - 3596900
       - 3596920
+      - 3596930
+      - 3604200
+      - 4156640
   installDir:
     DuneAwakening: {}
   steam:
@@ -534554,8 +534562,6 @@ Pigeon Fight:
   steam:
     id: 520370
 Pigeon Simulator:
-  cloud:
-    steam: true
   files:
     "<winAppData>/PigeonSimulator/Saved/Config/WinGDK":
       tags:
@@ -536184,6 +536190,11 @@ Pipes Racer:
 Pipes!:
   steam:
     id: 755890
+Pipes.exe:
+  id:
+    lutris: pipes-dot-exe
+  steam:
+    id: 3688240
 Piping Hot:
   installDir:
     Piping Hot: {}
@@ -635472,13 +635483,19 @@ SiN:
           - store: steam
   steam:
     id: 1300
-"SiN: Reloaded":
+SiN Reloaded:
   cloud:
     steam: true
   gog:
     id: 1627068096
+  id:
+    lutris: sin-reloaded-1
+    steamExtra:
+      - 4679680
   steam:
     id: 632950
+"SiN: Reloaded":
+  alias: SiN Reloaded
 SiNKR:
   cloud:
     steam: true
@@ -690483,6 +690500,7 @@ Sudden Strike 5:
     steamExtra:
       - 4108030
       - 4108050
+      - 4519150
   installDir:
     Sudden Strike 5: {}
   launch:
@@ -746095,9 +746113,20 @@ The Legend of Excalipurr:
 "The Legend of Heroes: Zero no Kiseki Kai":
   alias: "The Legend of Heroes: Trails from Zero"
 The Legend of Khiimori:
+  files:
+    "<base>/LegendOfKhiimori/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/LegendOfKhiimori/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 3669260
+  installDir:
+    The Legend of Khiimori: {}
   steam:
     id: 2697000
 The Legend of Korra:
@@ -857349,6 +857378,7 @@ Yet Another Zombie Survivors:
   cloud:
     steam: true
   id:
+    lutris: yet-another-zombie-survivors
     steamExtra:
       - 2265230
       - 2281990

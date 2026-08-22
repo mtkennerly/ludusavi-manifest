@@ -5307,7 +5307,15 @@
 15270:
   installDir: Cold Fear
   launch:
-    - executable: coldfear_retail.exe
+    - config:
+        betakey: default
+      executable: coldfear_retail.exe
+    - config:
+        betakey: gog-test
+        oslist: windows
+      description: GOG Build Testing
+      executable: game/ColdFear_retail.exe
+      type: default
 15290:
   installDir: Lost Via Domus
   launch:
@@ -627817,6 +627825,34 @@
       description: Seafarer with Cheats
       executable: "Windows\\OrcaCheats.exe"
       workingdir: Windows
+    - config:
+        betakey: outsourcing
+        osarch: "64"
+        oslist: windows
+      description: Seafarer with Cheats
+      executable: "Windows\\OrcaCheats.exe"
+      workingdir: Windows
+    - config:
+        betakey: dev_network
+        osarch: "64"
+        oslist: windows
+      description: Seafarer with Cheats
+      executable: "Windows\\OrcaCheats.exe"
+      workingdir: Windows
+    - config:
+        betakey: network
+        osarch: "64"
+        oslist: windows
+      description: Seafarer
+      executable: "Windows\\OrcaCheats.exe"
+      workingdir: Windows
+    - config:
+        betakey: ad_stable_cheats
+        osarch: "64"
+        oslist: windows
+      description: Seafarer with Cheats
+      executable: "Windows\\OrcaCheats.exe"
+      workingdir: Windows
   nameLocalized:
     japanese: シーフェアラー：シップシミュレーター
     schinese: 海员人生：行船模拟
@@ -631415,6 +631451,26 @@
   launch:
     - executable: God For A Day.exe
 2697000:
+  cloud:
+    saves:
+      - path: LegendOfKhiimori/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: gameinstall
+      - path: LegendOfKhiimori/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: The Legend of Khiimori
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: The Legend of Khiimori (new executable)
+      executable: LegendOfKhiimori.exe
+      type: option1
   nameLocalized:
     german: Die Legende von Khiimori
 2697470:
@@ -651822,6 +651878,7 @@
   nameLocalized:
     japanese: モルドワッシャー
     schinese: " 厨房清洁大师"
+3688240: {}
 3689520:
   cloud:
     saves:

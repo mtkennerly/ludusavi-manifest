@@ -32582,11 +32582,16 @@ Boxes Inc.:
   pageId: 93017
   steam: 851820
 "Boxes: Lost Fragments":
-  lutris: boxes
+  cloud:
+    steam: true
+  lutris: boxes-lost-fragments
   pageId: 219063
   steam: 2019810
   steamSide:
     - 2300500
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Big Loop Studios\\Boxes Lost Fragments\\*.dat|{{P|hkcu}}\\Software\\Big Loop Studios\\Boxes Lost Fragments}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Big Loop Studios\\Boxes Lost Fragments\\*.dat}}"
 BoxesWithGuns:
   pageId: 48226
   steam: 342520
@@ -71179,7 +71184,11 @@ Dune Sea:
   steam: 1172710
   steamSide:
     - 3596810
+    - 3596900
     - 3596920
+    - 3596930
+    - 3604200
+    - 4156640
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Config\\WindowsClient\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\DuneSandbox\\Saved\\Cloud\\|{{p|userprofile}}\\Documents\\DuneAwakening\\}}"
@@ -86014,6 +86023,8 @@ Fetch It Again:
 Feud:
   pageId: 124565
   steam: 863400
+Feud (1987):
+  pageId: 219628
 Feudal Alloy:
   cloud:
     gog: true
@@ -161038,6 +161049,8 @@ Nine Sols:
 Nine-Tailed Okitsune Tale:
   pageId: 212211
   steam: 2348650
+Ninja:
+  pageId: 219632
 Ninja Avenger Dragon Blade:
   cloud:
     steam: true
@@ -174357,7 +174370,6 @@ Pigeon Fight:
   steam: 520370
 Pigeon Simulator:
   cloud:
-    steam: true
     xbox: true
   pageId: 210860
   steam: 1496260
@@ -174923,6 +174935,10 @@ Pipes Racer:
 Pipes!:
   pageId: 76998
   steam: 755890
+Pipes.exe:
+  lutris: pipes-dot-exe
+  pageId: 219624
+  steam: 3688240
 Piping Hot:
   pageId: 150043
   steam: 1168160
@@ -206989,12 +207005,18 @@ SiN:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SE1\\cfg\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SE1\\SAVE\\}}"
-"SiN: Reloaded":
+SiN Reloaded:
   cloud:
     steam: true
+    xbox: true
   gog: 1627068096
+  lutris: sin-reloaded-1
   pageId: 163180
+  renamedFrom:
+    - "SiN: Reloaded"
   steam: 632950
+  steamSide:
+    - 4679680
 SiNKR:
   cloud:
     steam: true
@@ -222655,6 +222677,8 @@ Storm:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Storm Saves\\general.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Storm Saves\\Storm.sav}}"
+Storm (1986):
+  pageId: 219626
 "Storm Area 51: AYY LMAO Edition":
   pageId: 144345
   renamedFrom:
@@ -224808,6 +224832,7 @@ Sudden Strike 5:
   steamSide:
     - 4108030
     - 4108050
+    - 4519150
   templates:
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Kite Games\\Sudden Strike 5\\SaveData\\Steam\\{{p|uid}}\\*.save}}"
 Sudeki:
@@ -280387,7 +280412,7 @@ Yet Another Zombie Defense HD:
 Yet Another Zombie Survivors:
   cloud:
     steam: true
-  malformed: true
+  lutris: yet-another-zombie-survivors
   pageId: 219595
   steam: 2163330
   steamSide:
