@@ -6995,7 +6995,7 @@ $1 Ride:
     id: 772470
 80 Days:
   files:
-    80 Days/setup.ini:
+    "<base>/setup.ini":
       tags:
         - config
       when:
@@ -450991,8 +450991,9 @@ Metal Gear Solid - Master Collection Version:
   id:
     steamExtra:
       - 3859630
+      - 4184400
   steam:
-    id: 4184400
+    id: 2492670
 "Metal Gear Solid Delta: Snake Eater":
   alias: "Metal Gear Solid Δ: Snake Eater"
 "Metal Gear Solid V: Ground Zeroes":
@@ -451109,8 +451110,9 @@ Metal Gear Solid - Master Collection Version:
   id:
     steamExtra:
       - 3859630
+      - 4184360
   steam:
-    id: 4184360
+    id: 2492660
 Metal Gear Survive:
   cloud:
     steam: true
@@ -451142,8 +451144,9 @@ Metal Gear Survive:
   id:
     steamExtra:
       - 3859630
+      - 4184420
   steam:
-    id: 4184420
+    id: 3036720
 Metal Heads:
   installDir:
     Metal Heads: {}
@@ -742520,12 +742523,12 @@ The Journey to Fairytales:
     id: 385410
 "The Journeyman Project 2: Buried in Time":
   files:
-    "&*42;.btg":
+    "<base>/*.btg":
       tags:
         - save
       when:
         - os: windows
-    "&*42;.sav":
+    "<base>/*.sav":
       tags:
         - save
       when:
@@ -807445,6 +807448,8 @@ United Force of Osiris (pre Alpha):
   steam:
     id: 958290
 United Heist:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/CoopPuzzle/Saved/Config/Windows":
       tags:

@@ -624611,6 +624611,12 @@
       type: none
   nameLocalized:
     japanese: ロジアート グリモワール
+2492660:
+  nameLocalized:
+    japanese: METAL GEAR SOLID PEACE WALKER (MASTER COLLECTION版)
+2492670:
+  nameLocalized:
+    japanese: METAL GEAR SOLID 4 GUNS OF THE PATRIOTS (MASTER COLLECTION版)
 2492730:
   cloud:
     saves:
@@ -640492,6 +640498,7 @@
         oslist: macos
       executable: ACaseOfFraud/ACaseOfFraud.app
       type: default
+3036720: {}
 3037180:
   cloud:
     saves:

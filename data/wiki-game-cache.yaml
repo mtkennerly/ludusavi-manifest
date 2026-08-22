@@ -2207,7 +2207,7 @@ $1 Ride:
 80 Days:
   pageId: 195195
   templates:
-    - "{{Game data/config|Windows|80 Days\\setup.ini}}"
+    - "{{Game data/config|Windows|{{p|game}}\\setup.ini}}"
 80 Days (2015):
   cloud:
     gog: true
@@ -146520,9 +146520,10 @@ Metal Gear Solid - Master Collection Version:
   cloud:
     steam: true
   pageId: 213729
-  steam: 4184400
+  steam: 2492670
   steamSide:
     - 3859630
+    - 4184400
 "Metal Gear Solid V: Ground Zeroes":
   cloud:
     steam: true
@@ -146566,9 +146567,10 @@ Metal Gear Solid - Master Collection Version:
   cloud:
     steam: true
   pageId: 213731
-  steam: 4184360
+  steam: 2492660
   steamSide:
     - 3859630
+    - 4184360
 Metal Gear Survive:
   cloud:
     steam: true
@@ -146581,9 +146583,10 @@ Metal Gear Survive:
   cloud:
     steam: true
   pageId: 217589
-  steam: 4184420
+  steam: 3036720
   steamSide:
     - 3859630
+    - 4184420
 Metal Heads:
   pageId: 145397
   steam: 1132670
@@ -241426,7 +241429,7 @@ The Journeyman Project:
   gog: 1207658872
   pageId: 131674
   templates:
-    - "{{Game data/saves|Windows|&#42;.btg|&#42;.sav}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\*.btg|{{p|game}}\\*.sav}}"
 "The Journeyman Project 3: Legacy of Time":
   gog: 1207659009
   pageId: 131676
@@ -263652,6 +263655,8 @@ United Force of Osiris (pre Alpha):
   pageId: 122454
   steam: 958290
 United Heist:
+  cloud:
+    steam: true
   lutris: united-heist
   pageId: 216308
   steam: 2119740
