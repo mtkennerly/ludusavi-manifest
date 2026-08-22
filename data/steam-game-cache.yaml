@@ -2129,6 +2129,12 @@
       description: "Launch Garry's Mod (64-bit)"
       executable: bin/win64/gmod.exe
       type: none
+    - config:
+        betakey: dev
+        osarch: "64"
+        oslist: windows
+      description: "Launch Garry's Mod (64-bit)"
+      executable: gmod_win64.exe
 4100:
   installDir: Poker Superstars II
   launch:

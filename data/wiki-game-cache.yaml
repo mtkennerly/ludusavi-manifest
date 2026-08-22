@@ -19643,6 +19643,9 @@ Awe:
 Awe of Despair:
   pageId: 76022
   steam: 739730
+Awesome Cop:
+  lutris: polda-2
+  pageId: 219653
 Awesome Machine:
   pageId: 64763
   steam: 626160
@@ -30311,8 +30314,6 @@ Bloodthief:
   steamSide:
     - 4026810
 Bloodville:
-  cloud:
-    steam: true
   lutris: bloodville
   pageId: 211062
   steam: 3802770
@@ -95620,6 +95621,7 @@ Garrison Gauntlet:
 "Garry's Mod":
   cloud:
     steam: true
+  lutris: garrys-mod
   pageId: 86
   steam: 4000
   templates:
@@ -152734,6 +152736,7 @@ Mortal Shell II:
   pageId: 205170
   steam: 2584270
   steamSide:
+    - 4711720
     - 4711740
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}/MortalShell2/Saved/Config/Windows}}"
@@ -244772,6 +244775,8 @@ The Oregon Trail (2021):
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\TheOregonTrail\\Saved\\Config\\WindowsNoEditor\\*.ini}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/TheOregonTrail/Data/Library/Application Support/Savegames|~/Library/Containers/TheOregonTrail/Data/Documents/Savegames}}"
+"The Oregon Trail: 5th Edition":
+  pageId: 219651
 The Orion Conspiracy:
   pageId: 211621
 The Orion Suns:
