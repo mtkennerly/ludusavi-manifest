@@ -19668,6 +19668,7 @@
 * [Peer Gynt the Game](https://www.pcgamingwiki.com/wiki/?curid=150219)
 * [PeeTee Babybuu](https://www.pcgamingwiki.com/wiki/?curid=95937)
 * [Peewee Dodgeball Championships](https://www.pcgamingwiki.com/wiki/?curid=91348)
+* [Peg Champ](https://www.pcgamingwiki.com/wiki/?curid=219655)
 * [Pegasus Door](https://www.pcgamingwiki.com/wiki/?curid=68889)
 * [Pegasus-5: Gone Astray](https://www.pcgamingwiki.com/wiki/?curid=99808)
 * [Pekka Kana 2](https://www.pcgamingwiki.com/wiki/?curid=18866)

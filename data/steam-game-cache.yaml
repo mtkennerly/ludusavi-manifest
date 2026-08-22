@@ -28460,6 +28460,11 @@
       executable: engine/Magicka2.app
       workingdir: engine
 238430:
+  cloud:
+    saves:
+      - path: engine/sessions
+        pattern: "*.savf"
+        root: gameinstall
   installDir: Contagion
   launch:
     - arguments: "-steam"
@@ -28468,13 +28473,13 @@
       description: Play Contagion
       executable: contagion.exe
       type: none
-    - arguments: "-steam"
+    - arguments: "-steam -game contagion"
       config:
-        betakey: engine_update
+        betakey: remaster
         osarch: "64"
         oslist: windows
-      description: Contagion 64-Bit
-      executable: contagion_x64.exe
+      description: Contagion 64-Bit (DirectX 11)
+      executable: x64/monoengine_x64.exe
       type: option2
   nameLocalized:
     koreana: 컨테이젼
@@ -534457,6 +534462,10 @@
   launch:
     - executable: "link2ea://launchgame/1238820?platform=steam&theme=bf3"
       type: none
+    - config:
+        betakey: eax_test
+      description: New launch method
+      executable: "steam2ea://launchgame/1238820?platform=steam&theme=bf3"
   nameLocalized:
     japanese: "バトルフィールド 3 "
     schinese: 《Battlefield 3™》
@@ -631574,6 +631583,16 @@
         oslist: windows
       description: dx11 launch
       executable: ContractVille.exe
+    - arguments: "-ngxdisableota -ngxdisable"
+      config:
+        oslist: windows
+      description: "May resolve Black Screen Issue - DX12 NGX Disabled (Can't Use DLSS)"
+      executable: ContractVille.exe
+    - arguments: "-dx11 -ngxdisableota -ngxdisable"
+      config:
+        oslist: windows
+      description: "May resolve Black Screen Issue - DX11 NGX Disabled (Can't Use DLSS)"
+      executable: ContractVille.exe
   nameLocalized:
     japanese: コントラクト・ヴィレ
     schinese: 合同村
@@ -651794,7 +651813,7 @@
       executable: Nioh3.exe
       type: default
     - config:
-        betakey: "profile,test,rating,power_check,power_check_old,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile,profile_1_0_5_0"
+        betakey: "profile,test,rating,power_check,power_check_old,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile,profile_1_0_5_0,profile_1_0_6_0,profile_1_0_7_0,dlc1_profile,profile_2_0_1_0,profile_2_0_0_2"
         osarch: "64"
         oslist: windows
       description: Daylight.exe
@@ -655035,9 +655054,10 @@
       executable: sgre_steam.exe
       type: option1
     - config:
+        betakey: o_beta
         ownsdlc: "4860250"
       description: オクテット
-      executable: game.exe
+      executable: SG_Octet.exe
       type: option1
     - config:
         betakey: private_beta
@@ -657631,6 +657651,7 @@
         oslist: windows
       description: Default
       executable: Cellar Keeper.exe
+4936660: {}
 5036490: {}
 34004563: {}
 3221903386: {}

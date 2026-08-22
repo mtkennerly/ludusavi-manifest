@@ -150761,6 +150761,14 @@ ContractVille:
         when:
           - os: windows
             store: steam
+      - arguments: "-ngxdisableota -ngxdisable"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "-dx11 -ngxdisableota -ngxdisable"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 2698780
 Contracted:
@@ -528944,6 +528952,13 @@ Peepo Island:
 Peer Gynt the Game:
   steam:
     id: 1175370
+Peg Champ:
+  id:
+    lutris: peg-champ
+    steamExtra:
+      - 4949410
+  steam:
+    id: 4936660
 Pegasus Door:
   installDir:
     Pegasus Door: {}
@@ -546581,6 +546596,11 @@ Portal 2 Sixense Perceptual Pack:
     "<base>/portal2_dlc2/cfg":
       tags:
         - config
+      when:
+        - os: windows
+    "<base>/portal2_sixense/SAVE/<storeUserId>":
+      tags:
+        - save
       when:
         - os: windows
     "<base>/portal2_sixense/cfg":

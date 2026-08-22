@@ -172528,6 +172528,12 @@ Peer Gynt the Game:
   steam: 1175370
 Peewee Dodgeball Championships:
   pageId: 91348
+Peg Champ:
+  lutris: peg-champ
+  pageId: 219655
+  steam: 4936660
+  steamSide:
+    - 4949410
 Pegasus Door:
   pageId: 68889
   steam: 699790
@@ -178218,6 +178224,7 @@ Portal 2 Sixense Perceptual Pack:
   steam: 247120
   templates:
     - "{{Game data/config|Windows|{{p|game}}/portal2/cfg/|{{p|game}}/portal2_dlc2/cfg/|{{p|game}}/portal2_sixense/cfg/|{{p|game}}/update/cfg/}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\portal2_sixense\\SAVE\\{{p|uid}}}}"
 "Portal 2: Community Edition":
   cloud:
     steam: true
