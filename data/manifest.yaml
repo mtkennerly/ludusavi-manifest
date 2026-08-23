@@ -114277,6 +114277,22 @@ Call of Duty Black Ops Cold War:
   steam:
     id: 10180
 "Call of Duty: Modern Warfare 2 Campaign Remastered":
+  files:
+    "<base>/players2/<storeUserId>/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/players2/<storeUserId>/settings_c.zip.h2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/players2/<storeUserId>/settings_s.zip.h2":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: call-of-duty-modern-warfare-2-campaign-remastered
 "Call of Duty: Modern Warfare 3":
@@ -371756,6 +371772,13 @@ Iron Blade:
           - store: steam
   steam:
     id: 1087730
+Iron Blight:
+  id:
+    lutris: iron-blight
+    steamExtra:
+      - 4129130
+  steam:
+    id: 4001350
 Iron Blood VR:
   installDir:
     Iron Blood VR: {}

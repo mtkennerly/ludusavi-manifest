@@ -36966,8 +36966,8 @@ Call of Duty 2:
   lutris: call-of-duty-modern-warfare-2-campaign-remastered
   pageId: 158844
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\{{folder|players2}}\\{{P|uid}}\\{{file|config.cfg}}}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\{{folder|players2}}\\{{P|uid}}\\{{file|settings_c.zip.h2}}|{{p|game}}\\{{folder|players2}}\\{{P|uid}}\\{{file|settings_s.zip.h2}}}}"
+    - "{{Game data/config|Windows|{{p|game}}\\players2\\{{P|uid}}\\config.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\players2\\{{P|uid}}\\settings_c.zip.h2|{{p|game}}\\players2\\{{P|uid}}\\settings_s.zip.h2}}"
 "Call of Duty: Modern Warfare 3":
   cloud:
     steam: true
@@ -120571,6 +120571,12 @@ Iron Blade:
   lutris: iron-blade
   pageId: 138617
   steam: 1087730
+Iron Blight:
+  lutris: iron-blight
+  pageId: 219666
+  steam: 4001350
+  steamSide:
+    - 4129130
 Iron Blood:
   pageId: 208923
 Iron Blood VR:
@@ -133692,6 +133698,8 @@ Lethal Strike:
 Lethal VR:
   pageId: 52111
   steam: 532270
+Lethal Weapon:
+  pageId: 219665
 Lethe - Episode One:
   cloud:
     steam: true

@@ -621117,14 +621117,14 @@
         osarch: "64"
         oslist: windows
       description: SWAT Commander – DirectX 12
-      executable: SWATCommander.exe
+      executable: SWATCommanderPrologue.exe
       type: option1
     - arguments: "-dx11"
       config:
         osarch: "64"
         oslist: windows
       description: SWAT Commander – DirectX 11
-      executable: SWATCommander.exe
+      executable: SWATCommanderPrologue.exe
       type: option2
 2428810:
   cloud:
@@ -654979,6 +654979,7 @@
         oslist: windows
       executable: Spartan Survivors.exe
       type: default
+4001350: {}
 4002600: {}
 4004630: {}
 4005370:
