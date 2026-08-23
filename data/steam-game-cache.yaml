@@ -651328,6 +651328,7 @@
       type: default
   nameLocalized:
     japanese: アーネスト・エバンスCOLLECTION
+3640820: {}
 3641000:
   cloud:
     saves:
@@ -653819,6 +653820,21 @@
   launch:
     - executable: "Dear me, I was.exe"
 3892510: {}
+3893290:
+  nameLocalized:
+    brazilian: "Stray Dog: nobody cares"
+    english: "Stray Dog: nobody cares"
+    french: "Stray Dog: nobody cares"
+    german: "Stray Dog: nobody cares"
+    italian: "Stray Dog: nobody cares"
+    japanese: "Stray Dog: nobody cares"
+    koreana: "Stray Dog: nobody cares"
+    latam: "Stray Dog: nobody cares"
+    polish: "Stray Dog: nobody cares"
+    russian: "Stray Dog: nobody cares"
+    schinese: 只狗：路边一条
+    spanish: "Stray Dog: nobody cares"
+    tchinese: 隻犬：路邊一條
 3894520:
   cloud:
     saves:
@@ -655643,6 +655659,38 @@
     schinese: 70年代风格机器人动画 杰比-X
     spanish: "Geppy-X, anime de robots setentero"
     tchinese: 70年代風格機器人動畫《蓋比X》
+4120790:
+  cloud:
+    saves:
+      - path: ApelsinkaGames/The Sorting Bureau
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+      - path: ApelsinkaGames/The Sorting Bureau/Photos
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: The Sorting Bureau
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: The Sorting Bureau.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: The Sorting Bureau.app
+      type: default
+  nameLocalized:
+    japanese: 整理工房 The Sorting Bureau
+    koreana: 분류 공방 The Sorting Bureau
+    russian: Бюро Сортировки
+    schinese: 整理工坊 The Sorting Bureau
+    tchinese: 整理工坊 The Sorting Bureau
 4120860:
   installDir: Rock Paper Kill
   launch:

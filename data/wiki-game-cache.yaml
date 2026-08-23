@@ -33674,9 +33674,14 @@ Brigador Killers:
     - "{{Game data/config|Windows|{{p|game}}\\Settings.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 Brigandine Abyss:
+  cloud:
+    steam: true
   lutris: brigandine-abyss
   pageId: 218411
   steam: 3211430
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BrigandineAbyss\\Saved_Release\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BrigandineAbyss\\Saved_Release\\SaveGames\\}}"
 "Brigandine: The Legend of Runersia":
   cloud:
     steam: true
@@ -68222,6 +68227,7 @@ Dracula Unleashed:
   gog: 1207661553
   gogSide:
     - 1207659251
+  lutris: dracula-the-resurrection
   pageId: 36412
   steam: 289800
   templates:
@@ -97230,11 +97236,12 @@ Ghostbusters II:
   pageId: 190613
   steam: 2383990
 "Ghostbusters: The Video Game":
+  lutris: ghostbusters-the-video-game
   pageId: 13798
   steam: 9870
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\GHOSTBUSTERS (tm)\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\GHOSTBUSTERS (tm)\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\GHOSTBUSTERS (tm)}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\GHOSTBUSTERS (tm)}}"
 "Ghostbusters: The Video Game Remastered":
   pageId: 137763
   steam: 1449280
@@ -181050,6 +181057,7 @@ Project Skylab 2:
   pageId: 132353
   steam: 1050080
 Project Snowblind:
+  lutris: project-snowblind
   pageId: 970
   steam: 7010
   templates:
@@ -217584,13 +217592,14 @@ Split or Steal:
 Split/Second:
   cloud:
     steam: true
+  lutris: splitsecond
   pageId: 16881
   renamedFrom:
     - Split Second
   steam: 297860
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Disney Interactive Studios\\Split Second\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Disney Interactive Studios\\Split Second\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Disney Interactive Studios\\Split Second}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Disney Interactive Studios\\Split Second}}"
 Splitgate:
   cloud:
     steam: true
@@ -223350,6 +223359,9 @@ Stray Children:
   steam: 3649490
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\oniongames\\StrayChildren\\dat\\*.dat}}"
+"Stray Dog: Nobody Cares":
+  pageId: 219671
+  steam: 3893290
 "Stray Gods: The Roleplaying Musical":
   cloud:
     gog: true
@@ -245991,6 +246003,10 @@ The Return of Medusa:
 "The Return: Survival":
   pageId: 132897
   steam: 959210
+The Revanchist:
+  lutris: the-revanchist
+  pageId: 219669
+  steam: 3640820
 The Revenge of Johnny Bonasera:
   pageId: 51477
   steam: 536430
@@ -247298,6 +247314,9 @@ The Skin Stapler:
     - 4343530
     - 4919810
     - 4919860
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TheSkinStapler\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\TheSkinStapler\\Saved\\SaveGames\\}}"
 The Sky Climber:
   pageId: 120711
   steam: 958690
@@ -247462,6 +247481,14 @@ The Sorrowvirus:
   renamedFrom:
     - "The Sorrowvirus: A Faceless Short Story"
   steam: 1177110
+The Sorting Bureau:
+  cloud:
+    steam: true
+  lutris: the-sorting-bureau
+  pageId: 219689
+  steam: 4120790
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\ApelsinkaGames\\The Sorting Bureau\\}}"
 The Soul Hunter:
   pageId: 132296
   steam: 1047140
@@ -254331,6 +254358,8 @@ Top Gun (2010):
   pageId: 212323
 "Top Gun: Fire at Will":
   pageId: 208976
+"Top Gun: Hard Lock":
+  pageId: 219674
 Top Hat:
   pageId: 49831
   steam: 315940
@@ -277535,6 +277564,8 @@ World Championship Boxing Manager 2:
   steamSide:
     - 1933270
     - 2083190
+World Championship Poker 2 featuring Howard Lederer:
+  pageId: 219672
 World Championship Pool 2004:
   lutris: world-championship-pool-2004
   pageId: 208223
@@ -278406,6 +278437,8 @@ Worms 3D:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Default.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\data\\SaveGame.xom}}"
+Worms Across Worlds:
+  pageId: 219687
 Worms Armageddon:
   gog: 1462173886
   lutris: worms-armageddon

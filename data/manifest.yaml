@@ -104290,6 +104290,19 @@ Brigador Killers:
   steam:
     id: 652410
 Brigandine Abyss:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BrigandineAbyss/Saved_Release/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BrigandineAbyss/Saved_Release/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: brigandine-abyss
   steam:
@@ -211307,6 +211320,7 @@ Dracula Origin:
   id:
     gogExtra:
       - 1207659251
+    lutris: dracula-the-resurrection
   installDir:
     Dracula The Resurrection: {}
   launch:
@@ -300156,6 +300170,8 @@ Ghostbusters (2016):
         - config
       when:
         - os: windows
+  id:
+    lutris: ghostbusters-the-video-game
   installDir:
     Ghostbusters: {}
   launch:
@@ -555510,6 +555526,8 @@ Project Snowblind:
         - save
       when:
         - os: windows
+  id:
+    lutris: project-snowblind
   installDir:
     Project Snowblind: {}
   launch:
@@ -668477,6 +668495,8 @@ Split/Second:
         - save
       when:
         - os: windows
+  id:
+    lutris: splitsecond
   installDir:
     SplitSecond: {}
   launch:
@@ -686053,6 +686073,9 @@ Stray Children:
           - store: steam
   steam:
     id: 3649490
+"Stray Dog: Nobody Cares":
+  steam:
+    id: 3893290
 "Stray Gods: The Roleplaying Musical":
   cloud:
     gog: true
@@ -756106,6 +756129,11 @@ The Return of Bantara:
 "The Return: Survival":
   steam:
     id: 959210
+The Revanchist:
+  id:
+    lutris: the-revanchist
+  steam:
+    id: 3640820
 The Revenge of Johnny Bonasera:
   installDir:
     Johnny Bonasera: {}
@@ -759954,6 +759982,17 @@ The Skies:
   steam:
     id: 337950
 The Skin Stapler:
+  files:
+    "<winLocalAppData>/TheSkinStapler/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TheSkinStapler/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1755267062
   id:
@@ -760405,6 +760444,31 @@ The Sorrowvirus:
     id: 1177110
 "The Sorrowvirus: A Faceless Short Story":
   alias: The Sorrowvirus
+The Sorting Bureau:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ApelsinkaGames/The Sorting Bureau":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: the-sorting-bureau
+  installDir:
+    The Sorting Bureau: {}
+  launch:
+    "<base>/The Sorting Bureau.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/The Sorting Bureau.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4120790
 The Soul Hunter:
   installDir:
     THE SOUL HUNTER: {}
