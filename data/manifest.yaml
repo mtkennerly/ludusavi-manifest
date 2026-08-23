@@ -536989,14 +536989,11 @@ Pitfall Planet:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Bonfire Games/Pitfall Planet/*.pitfall":
+    "<home>/AppData/LocalLow/Bonfire Games/Pitfall Planet":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
-    "<home>/Library/Application Support/Bonfire Games/Pitfall Planet/*.pitfall":
-      when:
-        - os: mac
-          store: steam
   installDir:
     Pitfall Planet: {}
   launch:

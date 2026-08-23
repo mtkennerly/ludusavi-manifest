@@ -175200,6 +175200,8 @@ Pitfall Planet:
     steam: true
   pageId: 43237
   steam: 464900
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Bonfire Games\\Pitfall Planet}}"
 "Pitfall: The Lost Expedition":
   pageId: 136257
 "Pitfall: The Mayan Adventure":
