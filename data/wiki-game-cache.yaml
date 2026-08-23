@@ -80530,8 +80530,8 @@ Evolva:
   pageId: 39862
   steam: 771430
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Computer Artworks\\Evolva\\1.0\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\SaveGames\\|{{p|game}}\\GenoHunters\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Computer Artworks\\Evolva\\1.0}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGames\\|{{p|game}}\\GenoHunters}}"
 Evolvation:
   pageId: 36908
   steam: 510840
@@ -81379,6 +81379,8 @@ Extreme Warfare Revenge:
 Extreme flight:
   pageId: 136388
   steam: 1068320
+"Extreme-G (Extreme-G: Recompiled)":
+  pageId: 219692
 Extreme-G 2:
   cloud:
     steam: true
@@ -144017,6 +144019,8 @@ Matchbox Driving Adventures:
     xbox: true
   pageId: 212401
   steam: 2322330
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Casual Brothers\\Matchbox\\Matchbox}}"
 "Matchpoint: Tennis Championships":
   cloud:
     steam: true
@@ -152803,6 +152807,7 @@ Mortyr 2093 - 1944:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\game{{p|uid}}.sav}}"
 "Mortyr 2: For Ever":
+  lutris: mortyr-ii
   pageId: 39990
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\ar.cfg|{{p|game}}\\save\\keys.cfg}}"
@@ -218128,10 +218133,11 @@ Squad:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\SquadGame\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\SquadGame\\Saved\\SaveGames\\}}"
-Squad 44 (Post Scriptum):
+Squad 44:
   pageId: 79403
   renamedFrom:
     - Post Scriptum
+    - Squad 44 (Post Scriptum)
   steam: 736220
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}/PostScriptum/}}"
@@ -232255,6 +232261,8 @@ TapRPG 2 - The Second One:
 TapSonic World Champion VR:
   pageId: 96159
   steam: 837640
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Neowiz\\TapSonicWCVR\\{{p|uid}}}}"
 Tape to Tape:
   cloud:
     steam: true
@@ -247220,6 +247228,9 @@ The Sims Pet Stories:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\TSData\\Res\\Config}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Electronic Arts\\The Sims™ Pet Stories\\}}"
+The Simulation:
+  pageId: 219704
+  steam: 3394500
 "The Sin Collector: Repentless":
   cloud:
     steam: true
@@ -247276,6 +247287,9 @@ The Sinking City 2:
     - 4265420
     - 4265460
     - 4684710
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TSC2\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\TSC2\\Saved\\SaveGames\\}}"
 The Sinking City Remastered:
   cloud:
     epic: true

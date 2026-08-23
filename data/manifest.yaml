@@ -443252,10 +443252,11 @@ Matchbox Driving Adventures:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Casual Brothers/Matchbox/Matchbox/SaveData.*":
+    "<home>/AppData/LocalLow/Casual Brothers/Matchbox/Matchbox":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
   installDir:
     Matchbox: {}
   launch:
@@ -469419,6 +469420,8 @@ Mortyr 2093 - 1944:
         - config
       when:
         - os: windows
+  id:
+    lutris: mortyr-ii
 Mos Speedrun 2:
   cloud:
     steam: true
@@ -547201,7 +547204,7 @@ Post Mortem:
   steam:
     id: 46550
 Post Scriptum:
-  alias: Squad 44 (Post Scriptum)
+  alias: Squad 44
 Post Soviet Zombies:
   files:
     "<base>/SavesDir/*.sav":
@@ -670202,7 +670205,7 @@ Squad:
             store: steam
   steam:
     id: 393380
-Squad 44 (Post Scriptum):
+Squad 44:
   files:
     "<winLocalAppData>/PostScriptum":
       tags:
@@ -670219,6 +670222,8 @@ Squad 44 (Post Scriptum):
             store: steam
   steam:
     id: 736220
+Squad 44 (Post Scriptum):
+  alias: Squad 44
 Squad 51 vs. the Flying Saucers:
   cloud:
     steam: true
@@ -714126,9 +714131,11 @@ TapRPG 2 - The Second One:
     id: 878590
 TapSonic World Champion VR:
   files:
-    "<home>/AppData/LocalLow/Neowiz/Champion/**/*.sav":
+    "<home>/AppData/LocalLow/Neowiz/TapSonicWCVR/<storeUserId>":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     TapSonic World Champion VR: {}
   steam:
@@ -759793,6 +759800,9 @@ The Sims Pet Stories:
         - save
       when:
         - os: windows
+The Simulation:
+  steam:
+    id: 3394500
 "The Sin Collector: Repentless":
   cloud:
     steam: true
@@ -759876,10 +759886,16 @@ The Sinking City 2:
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/TSC2/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/TSC2/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/TSC2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1653226562
   id:
