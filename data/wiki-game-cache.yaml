@@ -122880,6 +122880,7 @@ Jetrunner:
   pageId: 211567
   steam: 2865670
 "Jets'n'Guns":
+  lutris: jetsnguns-gold
   pageId: 36455
   steam: 262260
   templates:
@@ -135147,6 +135148,7 @@ Links E6:
     - 1663022
 "Links LS: 1998 Edition":
   gog: 1151948886
+  lutris: links-ls-1998-edition
   pageId: 169419
 "Links: The Challenge of Golf":
   cloud:
@@ -138739,6 +138741,15 @@ Lumina:
     steam: true
   pageId: 138777
   steam: 1063050
+Lumina Veil:
+  cloud:
+    steam: true
+  lutris: lumina-veil
+  pageId: 219721
+  steam: 2840000
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\EternalTerror\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\EternalTerror\\Saved\\SaveGames\\}}"
 Luminary:
   cloud:
     steam: true
@@ -167535,7 +167546,7 @@ Original War:
   pageId: 15733
   steam: 235320
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}\\UserProfiles}}"
 Orion:
   pageId: 34591
@@ -183436,7 +183447,8 @@ Quake II Enhanced:
     gog: true
     steam: true
     xbox: true
-  gog: 1443696817
+  gogSide:
+    - 1947927225
   pageId: 189143
   steam: 2320
   templates:
@@ -190631,6 +190643,9 @@ Resonance of Fate 4K/HD Edition:
   lutris: resonance-a-plague-tale-legacy
   pageId: 205275
   steam: 2713000
+  templates:
+    - "{{Game data/config|Steam|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\2713000\\remote}}"
 "Resort Boss: Golf":
   cloud:
     steam: true

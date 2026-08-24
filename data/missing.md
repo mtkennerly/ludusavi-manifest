@@ -21811,7 +21811,6 @@
 * [Resistor](https://www.pcgamingwiki.com/wiki/?curid=187886)
 * [ReSizE](https://www.pcgamingwiki.com/wiki/?curid=73213)
 * [Resized](https://www.pcgamingwiki.com/wiki/?curid=81673)
-* [Resonance: A Plague Tale Legacy](https://www.pcgamingwiki.com/wiki/?curid=205275)
 * [Resort Boss: Golf](https://www.pcgamingwiki.com/wiki/?curid=95549)
 * [Respawn Man](https://www.pcgamingwiki.com/wiki/?curid=34135)
 * [Respublica](https://www.pcgamingwiki.com/wiki/?curid=148609)

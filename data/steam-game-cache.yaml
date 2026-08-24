@@ -635862,6 +635862,21 @@
     japanese: なつもん！　２０世紀の夏休み
     schinese: 深夏时光！　二十世纪的暑假
     tchinese: 深夏時光！　二十世紀的暑假
+2840000:
+  cloud:
+    saves:
+      - path: EternalTerror/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Lumina Veil
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Lumina Veil.exe
+      type: default
+  nameLocalized:
+    schinese: 破幕荧光
 2840190:
   cloud:
     saves:

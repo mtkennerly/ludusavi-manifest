@@ -378776,6 +378776,8 @@ Jetrunner:
         - save
       when:
         - os: windows
+  id:
+    lutris: jetsnguns-gold
   installDir:
     JnG Gold: {}
   launch:
@@ -415943,6 +415945,8 @@ Links E6:
 "Links LS: 1998 Edition":
   gog:
     id: 1151948886
+  id:
+    lutris: links-ls-1998-edition
 "Links: The Challenge of Golf":
   cloud:
     gog: true
@@ -426997,6 +427001,32 @@ Lumina:
             store: steam
   steam:
     id: 1063050
+Lumina Veil:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/EternalTerror/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/EternalTerror/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: lumina-veil
+  installDir:
+    Lumina Veil: {}
+  launch:
+    "<base>/Lumina Veil.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2840000
 Luminary:
   cloud:
     steam: true
@@ -563139,8 +563169,9 @@ Quake II Enhanced:
         - save
       when:
         - os: windows
-  gog:
-    id: 1443696817
+  id:
+    gogExtra:
+      - 1947927225
   installDir:
     Quake 2: {}
   launch:
@@ -584821,6 +584852,18 @@ Resonance of Fate 4K/HD Edition:
 "Resonance: A Plague Tale Legacy":
   cloud:
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2713000/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Resonance A Plague Tale Legacy/ENGINESETTINGS":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: resonance-a-plague-tale-legacy
   steam:
