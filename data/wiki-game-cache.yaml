@@ -107758,6 +107758,12 @@ Hell Architect:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Woodland Games\\HellArchitect}}"
 Hell Cab:
   pageId: 205001
+Hell Cleaners:
+  lutris: hell-cleaners
+  pageId: 219714
+  steam: 4554270
+  steamSide:
+    - 4784910
 Hell Clock:
   cloud:
     steam: true
@@ -132381,6 +132387,8 @@ Legendary Mahjong:
 Legendary gun:
   pageId: 148977
   steam: 1099070
+"Legendo's The Three Musketeers":
+  pageId: 219712
 Legends:
   pageId: 144170
   steam: 1134130
@@ -145257,6 +145265,8 @@ Mega Man X Legacy Collection 2:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\743900\\remote\\RXC2\\savedata.dat}}"
+Mega Man X Regenesis:
+  pageId: 219705
 Mega Man X3:
   pageId: 32054
   templates:
@@ -261869,6 +261879,8 @@ Ufflegrim:
 Uganda Know De Way:
   pageId: 81452
   steam: 788850
+Ugh!:
+  pageId: 219707
 "UglyDolls: An Imperfect Adventure":
   pageId: 132613
   steam: 895450

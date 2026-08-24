@@ -331949,6 +331949,13 @@ Hell Architect:
             store: steam
   steam:
     id: 1063980
+Hell Cleaners:
+  id:
+    lutris: hell-cleaners
+    steamExtra:
+      - 4784910
+  steam:
+    id: 4554270
 Hell Clock:
   cloud:
     steam: true
