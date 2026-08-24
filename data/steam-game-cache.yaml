@@ -39146,6 +39146,13 @@
       description: Legacy Win 32-bit version
       executable: _windows/Darkest.exe
       type: option3
+    - config:
+        betakey: steam_deck
+        osarch: "64"
+        oslist: windows
+      description: Mod Manager
+      executable: DD1 Mod Manager.exe
+      type: option1
 262080:
   installDir: BluBeeGames
   launch:
@@ -600412,6 +600419,22 @@
         oslist: windows
       executable: ShiningJumpJump.exe
       type: default
+2019300:
+  cloud:
+    saves:
+      - path: dokimon/
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Dokimon
+  launch:
+    - config:
+        oslist: windows
+      executable: Dokimon.exe
+      type: default
+  nameLocalized:
+    japanese: ドキモンクエスト
 2019760:
   cloud:
     saves:
@@ -607483,6 +607506,20 @@
         osarch: "64"
         oslist: windows
       description: "Once Human: Raid Zone"
+      executable: ONCE_HUMAN.exe
+      type: option1
+    - arguments: "--start_from_launcher=1 --game_language=en -normal --launcher_stable_mode=1"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Once Human Compatibility Mode (Use if game crashes)
+      executable: ONCE_HUMAN.exe
+      type: option1
+    - arguments: "--start_from_launcher=1 --game_language=en -raidzone --launcher_stable_mode=1"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: "Once Human: Raid Zone Compatibility Mode (Use if game crashes)"
       executable: ONCE_HUMAN.exe
       type: option1
   nameLocalized:
@@ -644385,7 +644422,11 @@
 3230400:
   installDir: Madden NFL 26
   launch:
-    - executable: "link2ea://launchgame/3230400?platform=steam&theme=madden26"
+    - executable: "steam2ea://launchgame/3230400?platform=steam&theme=madden26"
+    - config:
+        betakey: eax_test
+      description: eax test - old launch mode
+      executable: "link2ea://launchgame/3230400?platform=steam&theme=madden26"
   nameLocalized:
     brazilian: EA SPORTS™ Madden NFL 26
     czech: EA SPORTS™ Madden NFL 26

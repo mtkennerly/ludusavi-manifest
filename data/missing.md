@@ -16014,7 +16014,6 @@
 * [Madden NFL 23](https://www.pcgamingwiki.com/wiki/?curid=178046)
 * [Madden NFL 24](https://www.pcgamingwiki.com/wiki/?curid=187864)
 * [Madden NFL 25](https://www.pcgamingwiki.com/wiki/?curid=195112)
-* [Madden NFL 26](https://www.pcgamingwiki.com/wiki/?curid=203831)
 * [Madden NFL 27](https://www.pcgamingwiki.com/wiki/?curid=218676)
 * [Madden NFL 98](https://www.pcgamingwiki.com/wiki/?curid=195622)
 * [Maddening Euphoria](https://www.pcgamingwiki.com/wiki/?curid=73290)

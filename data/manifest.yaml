@@ -205479,6 +205479,26 @@ Doki Doki Ragnarok:
             store: steam
   steam:
     id: 1578330
+Dokimon Quest:
+  files:
+    "<winLocalAppData>/dokimon/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: dokimon
+    steamExtra:
+      - 3236490
+      - 3314520
+  installDir:
+    Dokimon: {}
+  launch:
+    "<base>/Dokimon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2019300
 Dokkaebi Hentai Adventures:
   id:
     steamExtra:
@@ -432414,6 +432434,13 @@ Madden NFL 25:
   steam:
     id: 2582560
 Madden NFL 26:
+  files:
+    "<winDocuments>/Madden NFL 26":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Madden NFL 26: {}
   steam:
@@ -767045,6 +767072,9 @@ The Witcher Adventure Game:
         - config
   steam:
     id: 303800
+The Witcher IV:
+  id:
+    lutris: the-witcher-iv
 "The Witches' Tea Party":
   installDir:
     "The Witches' Tea Party": {}
@@ -779110,8 +779140,13 @@ Toltec and the mysteries of the Secret Island:
       tags:
         - save
       when:
-        - os: windows
-          store: uplay
+        - store: uplay
+    "<root>/savegames/<storeUserId>/62412":
+      tags:
+        - save
+      when:
+        - store: steam
+        - store: uplay
     "<winDocuments>/My Games/Ghost Recon Breakpoint":
       tags:
         - config

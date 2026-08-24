@@ -66371,6 +66371,13 @@ Doki Doki Ragnarok:
     - 1907610
 Doki Maternal:
   pageId: 215603
+Dokimon Quest:
+  lutris: dokimon
+  pageId: 219735
+  steam: 2019300
+  steamSide:
+    - 3236490
+    - 3314520
 Dokkaebi Hentai Adventures:
   pageId: 87131
   steam: 805500
@@ -140448,6 +140455,9 @@ Madden NFL 25:
 Madden NFL 26:
   pageId: 203831
   steam: 3230400
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\documents}}\\Madden NFL 26\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\documents}}\\Madden NFL 26\\}}"
 Madden NFL 27:
   pageId: 218676
   renamedFrom:
@@ -249720,6 +249730,7 @@ The Witcher Adventure Game:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Canexplode\\The Witcher Board Game\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\CD Projekt RED S.A.\\The Witcher AG\\}}"
 The Witcher IV:
+  lutris: the-witcher-iv
   pageId: 200142
 The Witcher Remake:
   pageId: 216930
@@ -253545,7 +253556,8 @@ Tom & Jerry:
     - 2231410
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\documents}}\\My Games\\Ghost Recon Breakpoint\\}}"
-    - "{{Game data/saves|Windows|{{P|uplay}}\\savegames\\{{P|uid}}\\11903\\}}"
+    - "{{Game data/saves|Uplay|{{p|Uplay}}\\savegames\\{{path|uid}}\\11903\\}}"
+    - "{{Game data/saves|Steam|{{p|Uplay}}\\savegames\\{{path|uid}}\\62412\\}}"
 "Tom Clancy's Ghost Recon Frontline":
   pageId: 172059
 "Tom Clancy's Ghost Recon Phantoms":
