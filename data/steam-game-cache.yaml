@@ -623197,11 +623197,20 @@
   cloud:
     saves:
       - path: TormentedSouls2/Saved/SaveGames
-        pattern: "*.sav"
+        pattern: Slot*.sav
         root: WinAppDataLocal
       - path: TormentedSouls2/Saved/SaveGames
-        pattern: "*.sav"
-        root: gameinstall
+        pattern: TS2MetaData.sav
+        root: WinAppDataLocal
+      - path: TormentedSouls2/Saved/SaveGames
+        pattern: AutoSave.sav
+        root: WinAppDataLocal
+      - path: TormentedSouls2/Saved/SaveGames
+        pattern: Demo*.sav
+        root: WinAppDataLocal
+      - path: TormentedSouls2/Saved/SaveGames
+        pattern: CollectibleSave.sav
+        root: WinAppDataLocal
   installDir: Tormented Souls 2
   launch:
     - config:

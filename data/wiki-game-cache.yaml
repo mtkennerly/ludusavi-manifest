@@ -171069,6 +171069,8 @@ Paragon:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Overprime\\Saved\\Config\\WindowsClient\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Overprime\\Saved\\SaveGames\\}}"
 Paralives:
+  cloud:
+    steam: true
   pageId: 157497
   steam: 1118520
   templates:
@@ -267308,6 +267310,10 @@ Vholume:
   steam: 4131730
   steamSide:
     - 4245250
+    - 5133400
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\VHOLUME\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\VHOLUME\\Saved\\SaveGames}}"
 ViKubb:
   pageId: 150255
   steam: 681790

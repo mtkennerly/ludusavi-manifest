@@ -524674,6 +524674,8 @@ Paragon:
   steam:
     id: 1531430
 Paralives:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Paralives/Paralives/MyOptions.mod":
       tags:
@@ -818016,16 +818018,21 @@ Vexius:
     id: 757190
 Vholume:
   files:
-    "<winLocalAppData>/VHOLUME/Saved/Ghosts/**/*.json.gz":
+    "<winLocalAppData>/VHOLUME/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
     "<winLocalAppData>/VHOLUME/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: vholume
     steamExtra:
       - 4245250
+      - 5133400
   installDir:
     VHOLUME: {}
   launch:
