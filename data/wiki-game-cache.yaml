@@ -9719,6 +9719,14 @@ Alien Breed:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\AlienBreed2AssaultGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\UnrealEngine3\\AlienBreed2AssaultGame\\SaveData\\}}"
+Alien Breed 35th Anniversary Collection:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  gog: 1236856891
+  pageId: 219744
+  steam: 4870460
 "Alien Breed 3: Descent":
   cloud:
     gog: true
@@ -15727,6 +15735,7 @@ Armored Fighter:
   pageId: 121775
   steam: 952370
 Armored Fist 3:
+  lutris: armored-fist-3
   pageId: 41286
   steam: 32710
   templates:
@@ -27894,6 +27903,7 @@ Black Moon:
   steam: 734440
 Black Moon Chronicles:
   gog: 1432715627
+  lutris: black-moon-chronicles
   pageId: 36788
   steam: 501500
   templates:
@@ -50941,6 +50951,7 @@ Creatures 2:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Creatures\\Creatures 2}}"
 Creatures 3:
   gog: 1207658812
+  lutris: creatures-3
   pageId: 22069
   steam: 1797350
 Creatures Docking Station:
@@ -76058,6 +76069,9 @@ Elona:
 "Elpida: Crônicas de uma guerreira":
   pageId: 135387
   steam: 1069290
+Elroy Goes Bugzerk:
+  pageId: 219750
+  steam: 5093680
 Elroy and the Aliens:
   cloud:
     steam: true
@@ -179650,6 +179664,8 @@ Prince of Persia 3D:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Prince Of Persia The Lost Crown\\}}"
 "Prince of Persia: The Sands of Time":
+  cloud:
+    gog: true
   gog: 1207658747
   lutris: prince-of-persia-the-sands-of-time
   pageId: 4312
@@ -195137,6 +195153,7 @@ Roguebreaker:
   pageId: 99644
   steam: 731420
 Roguecraft DX:
+  gog: 1196903604
   pageId: 216473
   steam: 3674680
 Roguelands:
@@ -210930,10 +210947,17 @@ Smasher:
   pageId: 124264
   steam: 989230
 Smashing Bottles:
+  cloud:
+    steam: true
   pageId: 217075
   steam: 4637870
   steamSide:
     - 4675800
+    - 4995180
+    - 4995210
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Smashing Bottles\\settings.dat}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Smashing Bottles\\SmashingBottlesSaveData.dat}}"
 Smashing the Battle:
   pageId: 43041
   steam: 467930
@@ -233944,6 +233968,12 @@ Terrain of Magical Expertise:
 Terramancer:
   pageId: 156621
   steam: 1050170
+Terranigma:
+  cloud:
+    steam: true
+  gog: 1344650022
+  pageId: 219736
+  steam: 4193690
 Terraria:
   cloud:
     steam: true
@@ -250263,7 +250293,9 @@ TheoTown:
     - "{{Game data/config|Windows|{{P|userprofile}}\\TheoTown\\settings.json|{{P|userprofile}}\\TheoTown\\key_mapping.json}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\TheoTown\\regions}}"
 Theocracy:
+  gog: 1355762673
   pageId: 75256
+  steam: 4834790
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\.gamesettings|{{p|game}}\\mvos.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\*.tsg}}"

@@ -30668,6 +30668,15 @@ Alien Breed:
           - store: steam
   steam:
     id: 22650
+Alien Breed 35th Anniversary Collection:
+  cloud:
+    epic: true
+    gog: true
+    steam: true
+  gog:
+    id: 1236856891
+  steam:
+    id: 4870460
 "Alien Breed 3: Descent":
   cloud:
     gog: true
@@ -49056,6 +49065,8 @@ Armored Fist 3:
         - save
       when:
         - os: windows
+  id:
+    lutris: armored-fist-3
   installDir:
     Armored Fist 3: {}
   launch:
@@ -86155,6 +86166,8 @@ Black Moon Chronicles:
         - os: windows
   gog:
     id: 1432715627
+  id:
+    lutris: black-moon-chronicles
   installDir:
     Black Moon Chronicles: {}
   launch:
@@ -158253,6 +158266,8 @@ Creatures 2:
 Creatures 3:
   gog:
     id: 1207658812
+  id:
+    lutris: creatures-3
   steam:
     id: 1797350
 Creatures Docking Station:
@@ -235454,6 +235469,9 @@ Elona:
             store: steam
   steam:
     id: 1069290
+Elroy Goes Bugzerk:
+  steam:
+    id: 5093680
 Elroy and the Aliens:
   cloud:
     steam: true
@@ -331974,6 +331992,13 @@ Hell Cleaners:
     lutris: hell-cleaners
     steamExtra:
       - 4784910
+  installDir:
+    HellCleaners: {}
+  launch:
+    "<base>/HellCleaners.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4554270
 Hell Clock:
@@ -371820,6 +371845,13 @@ Iron Blight:
     lutris: iron-blight
     steamExtra:
       - 4129130
+  installDir:
+    Iron Blight: {}
+  launch:
+    "<base>/Iron Blight.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4001350
 Iron Blood VR:
@@ -529061,10 +529093,22 @@ Peer Gynt the Game:
   steam:
     id: 1175370
 Peg Champ:
+  files:
+    "<winAppData>/Godot/app_userdata/peg_champ/*.pegc":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: peg-champ
     steamExtra:
       - 4949410
+  installDir:
+    Peg Champ: {}
+  launch:
+    "<base>/peg_champ_beta.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4936660
 Pegasus Door:
@@ -551030,6 +551074,8 @@ Prince of Persia 3D:
   steam:
     id: 2751000
 "Prince of Persia: The Sands of Time":
+  cloud:
+    gog: true
   files:
     "<base>/Hardware.ini":
       tags:
@@ -598574,6 +598620,8 @@ Roguebreaker:
   steam:
     id: 731420
 Roguecraft DX:
+  gog:
+    id: 1196903604
   steam:
     id: 3674680
 Roguelands:
@@ -648001,9 +648049,43 @@ Smasher:
   steam:
     id: 989230
 Smashing Bottles:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/Smashing Bottles/SmashingBottlesSaveData.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Smashing Bottles/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     steamExtra:
       - 4675800
+      - 4995180
+      - 4995210
+  installDir:
+    Smashing Bottles: {}
+  launch:
+    "<base>/Linux/SmashingBottles.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Mac/Smashing Bottles.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/SmashingBottles/SmashingBottles.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-driver opengl3"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 4637870
 Smashing the Battle:
@@ -719439,6 +719521,13 @@ Terramancer:
           - store: steam
   steam:
     id: 1050170
+Terranigma:
+  cloud:
+    steam: true
+  gog:
+    id: 1344650022
+  steam:
+    id: 4193690
 Terraria:
   cloud:
     steam: true
@@ -768688,6 +768777,10 @@ Theocracy:
         - save
       when:
         - os: windows
+  gog:
+    id: 1355762673
+  steam:
+    id: 4834790
 Theocracy (2022):
   files:
     "<base>/DATA/options.dat":

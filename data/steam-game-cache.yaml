@@ -655061,7 +655061,12 @@
         oslist: windows
       executable: Spartan Survivors.exe
       type: default
-4001350: {}
+4001350:
+  installDir: Iron Blight
+  launch:
+    - config:
+        oslist: windows
+      executable: Iron Blight.exe
 4002600: {}
 4004630: {}
 4005370:
@@ -656123,6 +656128,9 @@
       executable: "Steam\\jsp2.app"
       type: default
 4193660: {}
+4193690:
+  nameLocalized:
+    japanese: 天地創造
 4197610:
   cloud:
     saves:
@@ -657348,7 +657356,13 @@
     russian: САТУРН. НАСЛЕДИЕ
 4540840: {}
 4549480: {}
-4554270: {}
+4554270:
+  installDir: HellCleaners
+  launch:
+    - config:
+        oslist: windows
+      executable: HellCleaners.exe
+      type: default
 4557490:
   cloud:
     saves:
@@ -657563,7 +657577,24 @@
     english: Carpet Cleaning Simulator
     japanese: 絨毯を洗うゲーム
     schinese: Carpet Cleaning Simulator
-4637870: {}
+4637870:
+  installDir: Smashing Bottles
+  launch:
+    - config:
+        oslist: windows
+      description: Vulkan (Recommended)
+      executable: SmashingBottles/SmashingBottles.exe
+    - config:
+        oslist: macos
+      executable: "Mac\\Smashing Bottles.app"
+    - config:
+        oslist: linux
+      executable: "Linux\\SmashingBottles.x86_64"
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: windows
+      description: Compatibility Mode (for older and integrated GPUs)
+      executable: SmashingBottles/SmashingBottles.exe
 4638740: {}
 4650440:
   cloud:
@@ -657727,6 +657758,7 @@
 4832970: {}
 4834760: {}
 4834780: {}
+4834790: {}
 4834810: {}
 4834830: {}
 4834840: {}
@@ -657734,6 +657766,7 @@
 4849120: {}
 4856150: {}
 4863030: {}
+4870460: {}
 4877950: {}
 4886450:
   nameLocalized:
@@ -657767,7 +657800,21 @@
         oslist: windows
       description: Default
       executable: Cellar Keeper.exe
-4936660: {}
+4936660:
+  cloud:
+    saves:
+      - path: "Godot\\app_userdata\\peg_champ"
+        pattern: "*.pegc"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Peg Champ
+  launch:
+    - config:
+        oslist: windows
+      executable: peg_champ_beta.exe
+      type: default
 5036490: {}
+5093680: {}
 34004563: {}
 3221903386: {}
