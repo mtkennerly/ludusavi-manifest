@@ -190671,9 +190671,6 @@ Resonance of Fate 4K/HD Edition:
   lutris: resonance-a-plague-tale-legacy
   pageId: 205275
   steam: 2713000
-  templates:
-    - "{{Game data/config|Steam|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
-    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\2713000\\remote}}"
 "Resort Boss: Golf":
   cloud:
     steam: true
@@ -272061,7 +272058,8 @@ Warlords:
   cloud:
     gog: true
     steam: true
-  gog: 1972111803
+  gogSide:
+    - 1484514614
   pageId: 152299
   steam: 2916210
   templates:
@@ -272098,7 +272096,8 @@ Warlords II:
   cloud:
     gog: true
     steam: true
-  gog: 1972111803
+  gogSide:
+    - 1421600680
   pageId: 152308
   steam: 2916210
   templates:

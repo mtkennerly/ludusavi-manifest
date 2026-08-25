@@ -584927,18 +584927,6 @@ Resonance of Fate 4K/HD Edition:
 "Resonance: A Plague Tale Legacy":
   cloud:
     steam: true
-  files:
-    "<root>/userdata/<storeUserId>/2713000/remote":
-      tags:
-        - save
-      when:
-        - store: steam
-    "<winAppData>/Resonance A Plague Tale Legacy/ENGINESETTINGS":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: steam
   id:
     lutris: resonance-a-plague-tale-legacy
   steam:
@@ -831613,8 +831601,9 @@ Warlords:
       when:
         - os: dos
         - os: windows
-  gog:
-    id: 1972111803
+  id:
+    gogExtra:
+      - 1484514614
   installDir:
     Warlords I + II: {}
   launch:
@@ -831705,8 +831694,9 @@ Warlords II:
       when:
         - os: dos
         - os: windows
-  gog:
-    id: 1972111803
+  id:
+    gogExtra:
+      - 1421600680
   installDir:
     Warlords I + II: {}
   launch:
