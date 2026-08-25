@@ -648208,6 +648208,23 @@
     japanese: 初音ミク ロジックペイントS+
 3447740: {}
 3448650:
+  cloud:
+    saves:
+      - path: "AFE2/Saved/SaveGames/{64BitSteamID}/"
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Aliens Fireteam Elite 2
+  launch:
+    - description: "Play Aliens: Fireteam Elite 2 (Endeavor)"
+      executable: AFE2.exe
+      type: default
+    - arguments: "-ResX=1920 -ResY=1080"
+      config:
+        betakey: "build_and_deploy_two,progteam_one"
+        oslist: windows
+      description: AFE2 (new)
+      executable: AFE2.exe
   nameLocalized:
     schinese: 异形：火力精英2
 3448680: {}
@@ -657743,6 +657760,7 @@
     japanese: フォーチュンミル
     koreana: 포춘 밀
     schinese: 财富磨坊
+4734550: {}
 4743930: {}
 4744030: {}
 4752390: {}

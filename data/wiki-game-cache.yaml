@@ -10231,6 +10231,9 @@ Aliens&Asteroids:
 "Aliens: Fireteam Elite 2":
   pageId: 216582
   steam: 3448650
+  steamSide:
+    - 4941380
+    - 4941390
 Alight:
   pageId: 136058
   steam: 1050270
@@ -32250,6 +32253,7 @@ Botfestation:
   cloud:
     gog: true
     steam: true
+  gog: 2062297091
   pageId: 193693
   steam: 2161050
   templates:
@@ -36465,8 +36469,15 @@ Cabernet:
     gog: true
     steam: true
   gog: 1333742671
+  gogSide:
+    - 1446164689
+    - 1986065499
+    - 2050610206
   pageId: 203492
   steam: 2401410
+  steamSide:
+    - 3283960
+    - 3545650
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\SOFTWARE\\Party for Introverts\\Cabernet}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE\\Appdata\\LocalLow}}\\Party for Introverts\\Cabernet}}"
@@ -44626,6 +44637,7 @@ Click the Button:
   steam: 3946950
   steamSide:
     - 4805850
+    - 5110650
 Click to Continue:
   lutris: click-to-continue
   pageId: 216130
@@ -70984,6 +70996,7 @@ Duel Jousting:
   pageId: 75996
   steam: 751540
 Duel Princess:
+  gog: 1387622228
   pageId: 203846
 Duel Survival:
   pageId: 71908
@@ -74142,6 +74155,7 @@ Easy Delivery Co.:
     gog: true
     steam: true
     xbox: true
+  gog: 1186701134
   pageId: 208544
   steam: 3293010
   templates:
@@ -92990,6 +93004,7 @@ Fruit for the Village:
 Fruitbus:
   cloud:
     steam: true
+  gog: 1969775197
   pageId: 216650
   steam: 2484130
   templates:
@@ -187789,6 +187804,7 @@ Reanimal:
   pageId: 197182
   steam: 2129530
   steamSide:
+    - 2129530
     - 3954470
     - 4019420
     - 4112550
@@ -195334,6 +195350,11 @@ RollerCoaster Tycoon Classic:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.Atari.RCT-Classic}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Atari\\Rollercoaster Tycoon Classic\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.Atari.RCT-Classic}}"
+RollerCoaster Tycoon Wonderworks:
+  cloud:
+    steam: true
+  pageId: 219779
+  steam: 4734550
 RollerCoaster Tycoon World:
   cloud:
     steam: true
