@@ -656020,6 +656020,9 @@
         oslist: windows
       description: development 빌드
       executable: "ProjectRE\\Binaries\\Win64\\YmirSteam.exe"
+4173010:
+  nameLocalized:
+    japanese: じゃじゃ丸の百鬼夜行伝
 4173620:
   cloud:
     saves:
@@ -657814,6 +657817,7 @@
         oslist: windows
       executable: peg_champ_beta.exe
       type: default
+4980620: {}
 5036490: {}
 5093680: {}
 34004563: {}

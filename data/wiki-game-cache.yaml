@@ -39445,6 +39445,11 @@ Castlevania Dominus Collection:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\MercurySteam\\Castlevania Lords of Shadow 2\\{{p|uid}}\\game.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\MercurySteam\\Castlevania Lords of Shadow 2\\{{p|uid}}\\}}"
+"Castlevania: Symphony of Horrors":
+  pageId: 219766
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\CastlevaniaSOH\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\CastlevaniaSOH\\Saved\\SaveGames}}"
 Castra:
   cloud:
     steam: true
@@ -161265,6 +161270,11 @@ Ninja Guy:
   steam: 1195070
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\City Connection\\JajaHell\\JAJACOLESYSTEM.bin}}"
+"Ninja JaJaMaru: Yokai Night Parade":
+  cloud:
+    steam: true
+  pageId: 219771
+  steam: 4173010
 Ninja Jajamaru-kun:
   pageId: 175915
 Ninja Jump:
@@ -170176,6 +170186,10 @@ Pairs:
 Pakicetus:
   pageId: 152915
   steam: 1105240
+Pako:
+  pageId: 219765
+  templates:
+    - "{{Game data/saves|DOS|{{p|game}}\\Pako.sav|{{p|game}}\\Pako.hi}}"
 Palace of Cards:
   pageId: 77916
   steam: 347950
@@ -200148,6 +200162,10 @@ Sanitarium:
     - "{{Game data/config|Steam|{{P|appdata}}\\DotEmu\\Sanitarium\\|{{P|programdata}}\\DotEmu\\Sanitarium\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\SAVES\\}}"
     - "{{Game data/saves|Steam|{{P|appdata}}\\DotEmu\\Sanitarium\\SAVES\\{{LocalizedPath|EN}}\\|{{P|steam}}\\userdata\\{{P|uid}}\\284050\\remote\\{{LocalizedPath|EN}}\\}}"
+Sanitarium Enhanced:
+  gog: 1517593592
+  pageId: 219767
+  steam: 4980620
 Sanitarium Rush:
   pageId: 141792
   steam: 1125450
