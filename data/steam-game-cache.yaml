@@ -54323,11 +54323,14 @@
       description: Launch
       executable: redprelauncher.exe
   nameLocalized:
-    czech: "Zaklínač 3: Divoký hon"
-    polish: "Wiedźmin 3: Dziki Gon"
-    russian: "Ведьмак 3: Дикая Охота"
-    schinese: 巫师 3：狂猎
-    ukrainian: "Відьмак 3: Дикий гін"
+    czech: "Zaklínač 3: Divoký hon - Kompletní edice"
+    japanese: ウィッチャー３　ワイルドハント　コンプリートエディション
+    koreana: "더 위쳐 3: 와일드 헌트 - 컴플리트 에디션"
+    polish: "Wiedźmin 3: Dziki Gon - Edycja Kompletna"
+    russian: "«Ведьмак 3: Дикая Охота — Полное издание»"
+    schinese: 《巫师 3：狂猎 - 完全版》
+    tchinese: 巫師 3：狂獵 - 完全版
+    ukrainian: "«Відьмак 3: Дикий Гін — Повне Видання»"
 292090:
   installDir: Rube Works
   launch:
