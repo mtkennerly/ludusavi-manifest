@@ -66417,6 +66417,8 @@ Doki Doki Ragnarok:
 Doki Maternal:
   pageId: 215603
 Dokimon Quest:
+  cloud:
+    steam: true
   lutris: dokimon
   pageId: 219735
   steam: 2019300
@@ -113939,6 +113941,9 @@ How to Cope with Boredom and Loneliness:
   steam: 797390
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\PointBleepStudios\\Point Bleep TV\\HTC\\Settings\\Settings.txt|{{p|hkcu}}\\Software\\PointBleepStudios\\Point Bleep TV\\}}"
+How to Fish:
+  pageId: 219725
+  steam: 4001890
 How to Fool a Liar King:
   cloud:
     steam: true

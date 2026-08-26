@@ -205603,6 +205603,8 @@ Doki Doki Ragnarok:
   steam:
     id: 1578330
 Dokimon Quest:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/dokimon/*.sav":
       when:
@@ -350842,6 +350844,16 @@ How to Cope with Boredom and Loneliness:
         - config
   steam:
     id: 797390
+How to Fish:
+  installDir:
+    How to Fish: {}
+  launch:
+    "<base>/How to Fish/How to Fish.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4001890
 How to Fool a Liar King:
   cloud:
     steam: true

@@ -12949,6 +12949,7 @@
 * [How To Be A Real Dude](https://www.pcgamingwiki.com/wiki/?curid=134961)
 * [How to be Best Russian Game Developer](https://www.pcgamingwiki.com/wiki/?curid=97936)
 * [How to Become a Ninja: Part 1](https://www.pcgamingwiki.com/wiki/?curid=153234)
+* [How to Fish](https://www.pcgamingwiki.com/wiki/?curid=219725)
 * [How to kill a fly H2KAF](https://www.pcgamingwiki.com/wiki/?curid=217087)
 * [How To Make Your Grandpa Happy](https://www.pcgamingwiki.com/wiki/?curid=52157)
 * [How to Meat People](https://www.pcgamingwiki.com/wiki/?curid=75572)

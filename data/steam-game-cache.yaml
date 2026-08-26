@@ -655169,6 +655169,16 @@
     - config:
         oslist: windows
       executable: Iron Blight.exe
+4001890:
+  installDir: How to Fish
+  launch:
+    - config:
+        oslist: windows
+      executable: How to Fish/How to Fish.exe
+      type: default
+  nameLocalized:
+    koreana: 낚시 방법
+    schinese: 渔力全开
 4002600: {}
 4004630: {}
 4005370:
