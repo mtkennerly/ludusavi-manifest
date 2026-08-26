@@ -33700,6 +33700,9 @@ Brigandine Abyss:
   lutris: brigandine-abyss
   pageId: 218411
   steam: 3211430
+  steamSide:
+    - 4859070
+    - 4884860
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BrigandineAbyss\\Saved_Release\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BrigandineAbyss\\Saved_Release\\SaveGames\\}}"
@@ -109762,6 +109765,8 @@ Heroes of Might and Magic III:
   lutris: heroes-of-might-and-magic-iii
   pageId: 4634
   steam: 4921760
+  steamSide:
+    - 5061200
   templates:
     - "{{Game data/config|Windows|{{P|hklm}}\\Software\\{{P|wow64}}\\New World Computing\\Heroes of Might and Magic® III\\1.0}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Games}}"
@@ -155990,6 +155995,8 @@ Mystical (2015):
 Mystical Ninja Starring Goemon:
   lutris: mystical-ninja-starring-goemon
   pageId: 199708
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Goemon64Recompiled\\saves}}"
 Mystical Power Plant:
   lutris: touhou-doumeiju-mystical-power-plant
   pageId: 208364
@@ -165655,6 +165662,7 @@ Once Human:
   pageId: 192572
   steam: 2139460
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Content\\Documents\\GraphicConfig.xml}}"
     - "{{Game data/config|Steam|{{p|game}}\\Documents\\GraphicConfig.xml}}"
 Once More:
   pageId: 157313
@@ -190742,6 +190750,10 @@ Resonance of Fate 4K/HD Edition:
   lutris: resonance-a-plague-tale-legacy
   pageId: 205275
   steam: 2713000
+  templates:
+    - "{{Game data/config|Microsoft Store|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
+    - "{{Game data/config|Steam|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\2713000\\remote}}"
 "Resort Boss: Golf":
   cloud:
     steam: true

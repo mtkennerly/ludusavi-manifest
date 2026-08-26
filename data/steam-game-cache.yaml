@@ -129128,10 +129128,10 @@
   installDir: Turok 2 - Seeds of Evil
   launch:
     - config:
-        betakey: default
+        betakey: "default,beta"
         osarch: "64"
         oslist: windows
-      executable: horus_Shipping_Playfab_Steam_x64.exe
+      executable: Turok2.exe
       type: default
     - config:
         betakey: kex3
@@ -590447,8 +590447,8 @@
 1883810:
   nameLocalized:
     koreana: "블러드스테인드: 스칼렛 인게이지먼트"
-    schinese: 赤痕：绯红契约
-    tchinese: 血咒之城：緋紅之誓
+    schinese: 赤痕：绯红誓约
+    tchinese: 血咒之城：緋紅誓約
 1884300:
   cloud:
     saves:
@@ -644017,6 +644017,25 @@
     tchinese: "The Elf on the Shelf®: 聖誕節英雄"
     turkish: "The Elf on the Shelf®: Noel Kahramanları"
 3211430:
+  cloud:
+    saves:
+      - path: BrigandineAbyss/Saved_Release/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ".config/Epic/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: HPN_NPJ
+  launch:
+    - arguments: "-saveddirsuffix=Release"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: BrigandineAbyss.exe
+      type: default
   nameLocalized:
     english: BRIGANDINE ABYSS
     french: BRIGANDINE ABYSS
@@ -654778,7 +654797,15 @@
       executable: Pool.exe
       type: default
 3946090: {}
-3946950: {}
+3946950:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Click the Button
+  launch:
+    - executable: Click the Button.exe
 3947040:
   installDir: Pegfinity
   launch:

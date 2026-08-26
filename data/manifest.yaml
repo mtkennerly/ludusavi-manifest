@@ -104372,6 +104372,18 @@ Brigandine Abyss:
         - os: windows
   id:
     lutris: brigandine-abyss
+    steamExtra:
+      - 4859070
+      - 4884860
+  installDir:
+    HPN_NPJ: {}
+  launch:
+    "<base>/BrigandineAbyss.exe":
+      - arguments: "-saveddirsuffix=Release"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3211430
 "Brigandine: The Legend of Runersia":
@@ -138731,11 +138743,21 @@ Click the Business:
   steam:
     id: 959980
 Click the Button:
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
   id:
     lutris: click-the-button
     steamExtra:
       - 4805850
       - 5110650
+  installDir:
+    Click the Button: {}
+  launch:
+    "<base>/Click the Button.exe":
+      - when:
+          - store: steam
   steam:
     id: 3946950
 Click to Continue:
@@ -338029,6 +338051,8 @@ Heroes of Might and Magic III:
     gogExtra:
       - 1718139055
     lutris: heroes-of-might-and-magic-iii
+    steamExtra:
+      - 5061200
   installDir:
     Heroes Of Might And Magic III: {}
   launch:
@@ -479396,6 +479420,12 @@ Mystical (2015):
   steam:
     id: 387270
 Mystical Ninja Starring Goemon:
+  files:
+    "<winLocalAppData>/Goemon64Recompiled/saves":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: mystical-ninja-starring-goemon
 Mystical Power Plant:
@@ -508079,6 +508109,11 @@ Once Ever After:
     id: 951860
 Once Human:
   files:
+    "<base>/Content/Documents/GraphicConfig.xml":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/Documents/GraphicConfig.xml":
       tags:
         - config
@@ -585112,6 +585147,20 @@ Resonance of Fate 4K/HD Edition:
 "Resonance: A Plague Tale Legacy":
   cloud:
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2713000/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/Resonance A Plague Tale Legacy/ENGINESETTINGS":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+        - os: windows
+          store: steam
   id:
     lutris: resonance-a-plague-tale-legacy
   steam:
