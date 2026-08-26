@@ -432541,6 +432541,10 @@
   launch:
     - executable: Boston.exe
       type: default
+  nameLocalized:
+    japanese: ポリスシミュレーター：パトロールオフィサーズ
+    schinese: 警察模拟器：巡警
+    tchinese: 《模擬警察：巡警人生》
 997030:
   cloud:
     saves:
@@ -606050,6 +606054,12 @@
       description: The Game
       executable: LegendsOfAmberland2.exe
       type: default
+    - arguments: "-safemode"
+      config:
+        oslist: windows
+      description: Legends of Amberland II (safe mode)
+      executable: LegendsOfAmberland2.exe
+      type: option1
 2111170:
   cloud:
     saves:
@@ -621386,6 +621396,34 @@
         oslist: windows
       executable: whodidit-steam.exe
       type: default
+2431080:
+  cloud:
+    saves:
+      - path: blooddungeon
+        pattern: blood.sav
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: blooddungeon
+            replace: com.messhof.blooddungeon
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Blood Dungeon
+  launch:
+    - config:
+        oslist: windows
+      executable: BloodDungeon.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: blooddungeon.app
+  nameLocalized:
+    japanese: ブラッドダンジョン
+    schinese: 地牢大出血
+    tchinese: 地牢大出血
 2431700:
   installDir: Vampire The Masquerade - Justice
   launch:
@@ -646207,11 +646245,11 @@
       executable: CrimsonDesert_Steam.app
       type: default
   nameLocalized:
-    english: Crimson Desert
-    japanese: 紅の砂漠
-    koreana: 붉은사막
-    schinese: 红色沙漠
-    tchinese: 赤血沙漠
+    english: Crimson Desert Enhanced
+    japanese: 紅の砂漠 Enhanced
+    koreana: 붉은사막 Enhanced
+    schinese: 红色沙漠：增强版
+    tchinese: 赤血沙漠：強化版
 3323210: {}
 3323490:
   cloud:
@@ -647580,6 +647618,24 @@
     - config:
         oslist: windows
       executable: Creepy Shift House For Sale.exe
+3400960:
+  cloud:
+    saves:
+      - path: autoWeapons
+        pattern: "*.ini"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Oaken Tower
+  launch:
+    - config:
+        oslist: windows
+      description: Start the game
+      executable: oakenTower.exe
+      type: default
+  nameLocalized:
+    schinese: 橡木塔
 3401490:
   cloud:
     saves:
@@ -651095,6 +651151,12 @@
     schinese: 幻兽♡帕鲁！ ～已经不想只做朋友了～
     tchinese: 幻獸♡帕魯！ ～已經不想只做朋友(帕魯)了～
 3620530: {}
+3621390:
+  nameLocalized:
+    japanese: レインボーシックス タクティクス
+    koreana: 레인보우 식스 택틱스
+    schinese: 彩虹六号：战术行动
+    tchinese: 《虹彩六號：戰略行動》
 3621410:
   installDir: The Expedition
   launch:
@@ -652266,6 +652328,7 @@
       executable: TMNT-EC.exe
       type: openxr
 3714430: {}
+3714800: {}
 3717070:
   installDir: WWE 2K26
   launch:
@@ -653193,6 +653256,12 @@
         oslist: macos
       executable: CheeseRolling.app/Contents/MacOS/CheeseRolling
       type: default
+3809850:
+  nameLocalized:
+    japanese: ヒーローズ・オブ・マイト・アンド・マジックIII リメイク
+    koreana: 히어로즈 오브 마이트 앤 매직 III 리메이크
+    schinese: 魔法门之英雄无敌III 重制版
+    tchinese: 《魔法門之英雄無敵 III》重製版
 3809900:
   installDir: Habbo Hotel Origins
   launch:
@@ -654821,6 +654890,19 @@
       executable: ysx_pn_dev_debug.exe
       type: option1
 3949550:
+  cloud:
+    saves:
+      - path: Amsterdam/Saved/SaveGames/
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: 1666Amsterdam
+  launch:
+    - config:
+        oslist: windows
+      executable: "Amsterdam\\Binaries\\Win64\\1666Amsterdam.exe"
+      workingdir: "Amsterdam\\Binaries\\Win64"
   nameLocalized:
     schinese: 1666：阿姆斯特丹
 3949740:
@@ -656040,6 +656122,43 @@
 4173010:
   nameLocalized:
     japanese: じゃじゃ丸の百鬼夜行伝
+4173110:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Cirno! Lifts a Boulder
+        pattern: "*.icecold"
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Cirno! Lifts a Boulder
+            replace: ".local/share/godot/app_userdata/Cirno! Lifts a Boulder"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: Cirno! Lifts a Boulder
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Cirno! Lifts a Boulder.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Cirno! Lifts a Boulder.x86_64
+  nameLocalized:
+    brazilian: Cirno! Ergue uma Rocha
+    finnish: Cirno! Nostaa lohkareen
+    german: Cirno! Hebt einen Felsen
+    indonesian: Cirno! Angkat Batu Raksasa
+    italian: Cirno! Solleva un masso
+    japanese: 大岩持ち上げ！チルノちゃん！
+    koreana: 치르노! 바위를 들어라
+    norwegian: Cirno! Løfter en Kampestein
+    polish: Cirno! Dźwiga Głaz
+    schinese: 琪露诺！搬开巨石
+    tchinese: 琪露諾！舉起巨石吧
 4173620:
   cloud:
     saves:
@@ -657805,6 +657924,10 @@
       executable: Neurohunter.exe
       type: default
 4918810: {}
+4921760:
+  installDir: Heroes Of Might And Magic III
+  launch:
+    - executable: Heroes3.exe
 4932120: {}
 4935510:
   cloud:

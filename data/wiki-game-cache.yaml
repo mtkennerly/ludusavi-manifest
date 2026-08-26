@@ -680,6 +680,7 @@ $1 Ride:
   steam: 3949550
   steamSide:
     - 4519690
+    - 5101950
 16bit Trader:
   cloud:
     steam: true
@@ -29882,6 +29883,12 @@ Blood Day:
 Blood Drift:
   pageId: 82389
   steam: 798140
+Blood Dungeon:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 219794
+  steam: 2431080
 Blood Feed:
   pageId: 56158
   steam: 575950
@@ -43498,6 +43505,14 @@ Circus Empire:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\{{p|uid}}\\*.sav}}"
+Cirno! Lifts a Boulder:
+  cloud:
+    steam: true
+  pageId: 219789
+  steam: 4173110
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Cirno! Lifts a Boulder\\fairysave.icecold}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Cirno! Lifts a Boulder\\levelsave.icecold}}"
 "Cirno's Perfect Summer Vacation":
   pageId: 156619
   steam: 1211650
@@ -59412,12 +59427,14 @@ Death Race:
   pageId: 113634
   steam: 908750
 Death Rally:
+  lutris: death-rally
   pageId: 30466
   steam: 358270
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\dr.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\DR.SG* (* being a saveslot number)}}"
 Death Rally (2012):
+  lutris: death-rally-classic
   pageId: 51116
   steam: 108700
   templates:
@@ -109742,6 +109759,7 @@ Heroes of Might and Magic III:
     - 1718139055
   lutris: heroes-of-might-and-magic-iii
   pageId: 4634
+  steam: 4921760
   templates:
     - "{{Game data/config|Windows|{{P|hklm}}\\Software\\{{P|wow64}}\\New World Computing\\Heroes of Might and Magic® III\\1.0}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Games}}"
@@ -109752,6 +109770,9 @@ Heroes of Might and Magic III - HD Edition:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Ubisoft\\Heroes of Might & Magic III - HD Edition\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Ubisoft\\Heroes of Might & Magic III - HD Edition\\pref\\}}"
+Heroes of Might and Magic III Remake:
+  pageId: 219788
+  steam: 3809850
 Heroes of Might and Magic IV:
   cloud:
     gog: true
@@ -132444,6 +132465,7 @@ Legends of Aethereus:
   cloud:
     gog: true
     steam: true
+  gog: 1849781464
   pageId: 209880
   steam: 2110840
   templates:
@@ -141854,6 +141876,8 @@ Maize:
   templates:
     - "{{Game data/config|Windows|{{p|LOCALAPPDATA}}\\Maize\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|LOCALAPPDATA}}\\Maize\\Saved\\SaveGames}}"
+Majestic:
+  pageId: 219793
 Majestic Nights:
   cloud:
     steam: true
@@ -150448,6 +150472,7 @@ Mokoko X:
   cloud:
     gog: true
     steam: true
+  gog: 1688255471
   pageId: 206493
   steam: 1785000
   steamSide:
@@ -152092,6 +152117,7 @@ Moon Landing VR:
   pageId: 95017
   steam: 651080
 Moon Mystery:
+  gog: 1263921885
   lutris: moon-mystery
   pageId: 208374
   steam: 1933840
@@ -163754,6 +163780,15 @@ Oaken:
   templates:
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Laki Studios/Oaken/}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/Laki Studios/Oaken/save/}}"
+Oaken Tower:
+  cloud:
+    steam: true
+  lutris: oaken-tower
+  pageId: 219786
+  steam: 3400960
+  steamSide:
+    - 3692220
+    - 4596710
 Oakwood:
   pageId: 123483
   steam: 890970
@@ -177637,6 +177672,7 @@ Police Patrol:
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\}}"
 Police Simulator Patrol Officers:
   cloud:
+    steam: true
     xbox: true
   pageId: 170657
   steam: 997010
@@ -204285,6 +204321,12 @@ Shadow Warrior 3:
   lutris: shadow-warrior-3
   pageId: 161666
   steam: 1036890
+  steamSide:
+    - 677366
+    - 677367
+    - 1876260
+    - 1895090
+    - 1913640
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\SW3\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\SW3\\Saved\\Config\\WinGDK\\}}"
@@ -217348,6 +217390,7 @@ Spirit Arena:
 "Spirit City: Lofi Sessions":
   cloud:
     steam: true
+  lutris: spirit-city-lofi-sessions--2
   pageId: 202818
   steam: 2113850
   steamSide:
@@ -253684,6 +253727,9 @@ Tom & Jerry:
     - "{{Game data/config|Mac OS|{{p|game}}\\settings.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
     - "{{Game data/saves|Mac OS|{{p|game}}\\save}}"
+"Tom Clancy's Rainbow 6 Tactics":
+  pageId: 219782
+  steam: 3621390
 "Tom Clancy's Rainbow Six":
   gog: 1207658752
   lutris: tom-clancys-rainbow-six
@@ -272070,6 +272116,10 @@ Warlock Revenge:
 "Warlock's Tower":
   pageId: 50948
   steam: 530370
+"Warlock: Dungeons & Dragons":
+  lutris: warlock-dungeons-and-dragons
+  pageId: 219790
+  steam: 3714800
 "Warlock: Master of the Arcane":
   pageId: 2203
   steam: 203630
