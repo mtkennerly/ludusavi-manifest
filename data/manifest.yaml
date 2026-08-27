@@ -422,6 +422,8 @@ $1 Ride:
         - save
       when:
         - os: linux
+  id:
+    flatpak: com.play0ad.zeroad
 0 Day:
   installDir:
     0 Day: {}
