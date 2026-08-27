@@ -31873,30 +31873,6 @@ Aliens Invaded Our Planet:
           - store: steam
   steam:
     id: 873930
-Aliens Versus Predator:
-  files:
-    "<winLocalAppData>/Rebellion/AvP Classic/User_Profiles":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Rebellion/AvP Classic/video.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-  gog:
-    id: 1207665883
-  id:
-    lutris: aliens-versus-predator-classic-2000
-  installDir:
-    Aliens versus Predator Classic: {}
-  launch:
-    "<base>/Launcher/AvpGoldLauncher.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 3730
 Aliens Versus Predator 2:
   files:
     "<base>/Save/Player_0":
@@ -31936,6 +31912,30 @@ Aliens in the Yard:
     AliensInTheYard: {}
   steam:
     id: 648190
+Aliens versus Predator:
+  files:
+    "<winLocalAppData>/Rebellion/AvP Classic/User_Profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Rebellion/AvP Classic/video.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1207665883
+  id:
+    lutris: aliens-versus-predator-classic-2000
+  installDir:
+    Aliens versus Predator Classic: {}
+  launch:
+    "<base>/Launcher/AvpGoldLauncher.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3730
 Aliens vs. Predator (2010):
   files:
     "<winLocalAppData>/AliensVsPredator":
@@ -132524,6 +132524,11 @@ Chosen 2:
             store: steam
   steam:
     id: 569970
+Chosen by Odin:
+  cloud:
+    steam: true
+  steam:
+    id: 1120230
 Chowderchu:
   installDir:
     Chowderchu: {}
@@ -424066,8 +424071,45 @@ Lotus-Simulator:
       when:
         - os: dos
 "Lou's Lagoon":
+  files:
+    "<home>/.config/unity3d/Tiny Roar GmbH/Lou's Lagoon/SaveGameVersion_6/*.savegame":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Tiny Roar GmbH/Lou's Lagoon/SlotShared.savegame":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Tiny Roar GmbH/Lou's Lagoon/SaveGameVersion_6/**/*.savegame":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Tiny Roar GmbH/Lou's Lagoon/SlotShared.savegame":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.TinyRoarGmbH.LousLagoon/SaveGameVersion_6/*.savegame":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/unity.TinyRoarGmbH.LousLagoon/SlotShared.savegame":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: lous-lagoon
+    steamExtra:
+      - 3499130
+      - 4831360
+      - 4831380
+      - 4890570
+      - 5026610
+  installDir:
+    "Lou's Lagoon": {}
+  launch:
+    "<base>/Lou's Lagoon.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2100020
 Loud on Planet X:
@@ -451465,10 +451507,25 @@ Metal Gear Solid - Master Collection Version:
 "Metal Gear Solid: Peace Walker - Master Collection Version":
   cloud:
     steam: true
+  files:
+    "<base>/mgspw_savedata_win":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3859630
       - 4184360
+  installDir:
+    MGS_PW: {}
+  launch:
+    "<base>/launcher/launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/launcher"
   steam:
     id: 2492660
 Metal Gear Survive:
@@ -451503,6 +451560,12 @@ Metal Gear Survive:
     steamExtra:
       - 3859630
       - 4184420
+  installDir:
+    MGS_BC2: {}
+  launch:
+    "<base>/MGS MC2 Bonus Content.exe":
+      - when:
+          - store: steam
   steam:
     id: 3036720
 Metal Heads:
@@ -496508,10 +496571,16 @@ No More Room in Hell:
     id: 224260
 No More Room in Hell 2:
   files:
-    "<winLocalAppData>/NMRiH2/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/NMRiH2/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/NMRiH2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: no-more-room-in-hell-2
     steamExtra:
@@ -585208,6 +585277,16 @@ Resonance of Fate 4K/HD Edition:
           store: steam
   id:
     lutris: resonance-a-plague-tale-legacy
+    steamExtra:
+      - 3837640
+  installDir:
+    Resonance A Plague Tale Legacy: {}
+  launch:
+    "<base>/Resonance.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2713000
 Resort:
@@ -648335,7 +648414,7 @@ Smashing Bottles:
   cloud:
     steam: true
   files:
-    "<winAppData>/Godot/app_userdata/Smashing Bottles/SmashingBottlesSaveData.dat":
+    "<winAppData>/Godot/app_userdata/Smashing Bottles":
       tags:
         - save
       when:
@@ -823796,6 +823875,9 @@ Volvox:
             store: steam
   steam:
     id: 392600
+"Volvy’s Adventure: Reslimed":
+  steam:
+    id: 4523120
 Vomitoreum:
   cloud:
     steam: true

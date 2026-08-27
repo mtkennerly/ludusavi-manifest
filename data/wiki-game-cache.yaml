@@ -10138,16 +10138,6 @@ Aliens Invaded Our Planet:
   steam: 873930
 Aliens Online:
   pageId: 200277
-Aliens Versus Predator:
-  gog: 1207665883
-  lutris: aliens-versus-predator-classic-2000
-  pageId: 8248
-  renamedFrom:
-    - Aliens versus Predator
-  steam: 3730
-  templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\video.cfg}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\User_Profiles}}"
 Aliens Versus Predator 2:
   lutris: aliens-versus-predator-2
   pageId: 754
@@ -10167,6 +10157,17 @@ Aliens in the Attic:
 Aliens in the Yard:
   pageId: 64596
   steam: 648190
+Aliens versus Predator:
+  gog: 1207665883
+  lutris: aliens-versus-predator-classic-2000
+  pageId: 8248
+  renamedFrom:
+    - Aliens versus Predator
+    - Aliens Versus Predator
+  steam: 3730
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\video.cfg}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\User_Profiles}}"
 Aliens vs. Predator (2010):
   lutris: aliens-vs-predator
   pageId: 4437
@@ -42681,6 +42682,11 @@ Chosen 2:
     steam: true
   pageId: 58896
   steam: 569970
+Chosen by Odin:
+  cloud:
+    steam: true
+  pageId: 219825
+  steam: 1120230
 Chowderchu:
   pageId: 45099
   steam: 431740
@@ -137847,6 +137853,12 @@ Lotus-Simulator:
   lutris: lous-lagoon
   pageId: 210643
   steam: 2100020
+  steamSide:
+    - 3499130
+    - 4831360
+    - 4831380
+    - 4890570
+    - 5026610
 "Loud House: Outta Control":
   pageId: 157979
 Loud on Planet X:
@@ -146706,6 +146718,9 @@ Metal Gear Solid - Master Collection Version:
   steamSide:
     - 3859630
     - 4184360
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\mgspw_savedata_win\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\mgspw_savedata_win\\}}"
 Metal Gear Survive:
   cloud:
     steam: true
@@ -161797,6 +161812,9 @@ No More Room in Hell 2:
     - 4250540
     - 4250550
     - 4250630
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\NMRiH2\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\NMRiH2\\Saved\\SaveGames\\}}"
 No More Snow:
   gog: 1914400841
   lutris: no-more-snow
@@ -190766,6 +190784,8 @@ Resonance of Fate 4K/HD Edition:
   lutris: resonance-a-plague-tale-legacy
   pageId: 205275
   steam: 2713000
+  steamSide:
+    - 3837640
   templates:
     - "{{Game data/config|Microsoft Store|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
     - "{{Game data/config|Steam|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
@@ -211068,7 +211088,7 @@ Smashing Bottles:
     - 4995210
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Smashing Bottles\\settings.dat}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Smashing Bottles\\SmashingBottlesSaveData.dat}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Smashing Bottles\\}}"
 Smashing the Battle:
   pageId: 43041
   steam: 467930
@@ -269250,6 +269270,9 @@ Volvox:
     steam: true
   pageId: 45383
   steam: 392600
+"Volvy’s Adventure: Reslimed":
+  pageId: 219823
+  steam: 4523120
 Vomitoreum:
   cloud:
     steam: true

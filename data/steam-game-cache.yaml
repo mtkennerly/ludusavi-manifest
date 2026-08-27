@@ -54296,12 +54296,25 @@
       description: Test Config
       executable: "Dev\\NMRiH2.exe"
       type: option1
+      workingdir: Dev
     - arguments: "-epicsandboxidoverride=f8bf474b836f4303ae3ac469ebe5f447"
       config:
         ownsdlc: "3320920"
       description: Dev Config
       executable: "Dev\\NMRiH2.exe"
       type: option2
+      workingdir: Dev
+    - arguments: "-epicsandboxidoverride=f8bf474b836f4303ae3ac469ebe5f447"
+      config:
+        ownsdlc: "3320920"
+      description: Shipping (No EAC)
+      executable: "NMRiH2\\Binaries\\Win64\\NMRiH2-Win64-Shipping.exe"
+    - arguments: "-epicsandboxidoverride=f8bf474b836f4303ae3ac469ebe5f447"
+      config:
+        ownsdlc: "3320920"
+      description: Dev Config (No EAC)
+      executable: "Dev\\NMRiH2\\Binaries\\Win64\\NMRiH2.exe"
+      workingdir: Dev
 292030:
   cloud:
     saves:
@@ -489856,6 +489869,10 @@
       executable: MakeWar.app
       type: default
 1120220: {}
+1120230:
+  nameLocalized:
+    schinese: 奥丁神契 Chosen by Odin
+    tchinese: 奧丁神契 Chosen by Odin
 1120240:
   installDir: Ded Inside
   launch:
@@ -605442,8 +605459,39 @@
   launch:
     - executable: Home Deco Puzzles.exe
 2100020:
+  cloud:
+    saves:
+      - path: "Tiny Roar GmbH/Lou's Lagoon"
+        pattern: SlotShared.savegame
+        root: WinAppDataLocalLow
+      - path: "Tiny Roar GmbH/Lou's Lagoon/SaveGameVersion_6"
+        pattern: "*.savegame"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Tiny Roar GmbH/Lou's Lagoon"
+            replace: ".config/unity3d/Tiny Roar GmbH/Lou's Lagoon"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Tiny Roar GmbH/Lou's Lagoon"
+            replace: unity.TinyRoarGmbH.LousLagoon
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: "Lou's Lagoon"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Lou's Lagoon.exe"
+      type: default
   nameLocalized:
-    schinese: 卢湖快递
+    schinese: 卢湖采风
 2100150:
   installDir: SOTD
   launch:
@@ -625081,6 +625129,20 @@
   nameLocalized:
     japanese: ロジアート グリモワール
 2492660:
+  cloud:
+    saves:
+      - path: "mgspw_savedata_win/{64BitSteamID}"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: MGS_PW
+  launch:
+    - config:
+        oslist: windows
+      executable: launcher/launcher.exe
+      workingdir: launcher
   nameLocalized:
     japanese: METAL GEAR SOLID PEACE WALKER (MASTER COLLECTION版)
 2492670:
@@ -632830,6 +632892,19 @@
     schinese: 虚之少女
     tchinese: 虛之少女
 2713000:
+  installDir: Resonance A Plague Tale Legacy
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Resonance.exe
+    - arguments: "-crashRpt -disableExceptionPopup"
+      config:
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "2713100"
+      description: with Crash Reporting
+      executable: Resonance_DEV_x64.exe
   nameLocalized:
     schinese: 共鸣：瘟疫传说传承
 2714620:
@@ -637070,7 +637145,9 @@
       executable: Restaurats.exe
   nameLocalized:
     schinese: 鼠鼠餐厅
-2871520: {}
+2871520:
+  nameLocalized:
+    schinese: 深馅地牢
 2872240: {}
 2873080:
   cloud:
@@ -641029,7 +641106,10 @@
         oslist: macos
       executable: ACaseOfFraud/ACaseOfFraud.app
       type: default
-3036720: {}
+3036720:
+  installDir: MGS_BC2
+  launch:
+    - executable: MGS MC2 Bonus Content.exe
 3037180:
   cloud:
     saves:
@@ -657916,6 +657996,7 @@
 4514070: {}
 4514310: {}
 4516190: {}
+4523120: {}
 4527520: {}
 4532500:
   nameLocalized:
