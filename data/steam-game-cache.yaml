@@ -603289,6 +603289,369 @@
       type: default
     - executable: Eo.exe
 2075800:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+      - path: SWZeroCompany/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Star Wars Zero Company
+  launch:
+    - arguments: "-slnoota"
+      config:
+        betakey: "default, valve_review"
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™
+      executable: SWZeroCompany.exe
+      type: default
+    - arguments: "-execcmds=\"br.profiling.drawgpugraph 0\""
+      config:
+        betakey: milestone
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno
+      executable: Bruno.exe
+      type: default
+    - arguments: "-logpso -brlogpso -slnoota"
+      config:
+        betakey: "mainline-latest, eap_dev, mainline-qa-approved"
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™ (Test)
+      executable: "Test\\SWZeroCompany.exe"
+      type: option2
+      workingdir: Test
+    - config:
+        betakey: performance-benchmark
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno
+      executable: Bruno.exe
+      type: default
+    - arguments: BR_Automation_Root?automatedtest=BespinBenchmark -skiplogotrain
+      config:
+        betakey: performance-benchmark
+        osarch: "64"
+        oslist: windows
+      description: Bespin Benchmark
+      executable: Bruno.exe
+      type: option1
+    - arguments: BR_Automation_Root?automatedtest=RylothBenchmark -skiplogotrain
+      config:
+        betakey: performance-benchmark
+        osarch: "64"
+        oslist: windows
+      description: Ryloth Benchmark
+      executable: Bruno.exe
+      type: option2
+    - arguments: "-uxrtest"
+      config:
+        betakey: uxr5
+        oslist: windows
+      description: uxr5
+      executable: Bruno.exe
+      type: default
+    - config:
+        betakey: uxr1
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno
+      executable: Bruno.exe
+      type: default
+    - arguments: "-uxrtest"
+      config:
+        betakey: uxr6
+        oslist: windows
+      description: uxr6
+      executable: Bruno.exe
+      type: default
+    - arguments: "-uxrtest -execcmds=\"br.profiling.drawgpugraph 0,br.showversionstring 0,disableallscreenmessages 1,br.SaveGame.AutoSaves.StrategyTurn.Enable 1\""
+      config:
+        betakey: aim-assist
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™
+      executable: "Test\\SWZeroCompany.exe"
+    - arguments: "-execcmds=\"br.profiling.drawgpugraph 0\" -logErrorsToTelemetry=true"
+      config:
+        betakey: dbc-trailer
+        osarch: "64"
+        oslist: windows
+      description: Bruno (Development)
+      executable: "Development\\Bruno.exe"
+      type: option1
+      workingdir: Development
+    - arguments: "-execcmds=\"br.profiling.drawgpugraph 0\" -logErrorsToTelemetry=true"
+      config:
+        betakey: dbc-trailer
+        osarch: "64"
+        oslist: windows
+      description: Bruno (Test)
+      executable: "Test\\Bruno.exe"
+      type: option1
+      workingdir: Test
+    - arguments: "-uxrtest -execcmds=\"br.profiling.drawgpugraph 0,br.showversionstring 0,disableallscreenmessages 1,br.SaveGame.AutoSaves.StrategyTurn.Enable 1\""
+      config:
+        betakey: uxr7
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno
+      executable: "Test\\Bruno.exe"
+      type: default
+    - arguments: "-uxrtest -execcmds=\"br.profiling.drawgpugraph 0,br.showversionstring 0,disableallscreenmessages 1,br.SaveGame.AutoSaves.StrategyTurn.Enable 1\""
+      config:
+        betakey: community-council
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno
+      executable: Bruno.exe
+      type: default
+    - config:
+        betakey: external-amd
+        osarch: "64"
+        oslist: windows
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+      type: default
+    - config:
+        betakey: external-amd
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno ( Dev )
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+    - arguments: BR_Automation_Root?automatedtest=BulkBenchmarks
+      config:
+        betakey: external-amd
+        osarch: "64"
+        oslist: windows
+      description: Run Benchmarks ( Dev )
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+    - arguments: "-europa"
+      config:
+        betakey: uxr2
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno
+      executable: Bruno.exe
+      type: default
+    - arguments: "-noop"
+      config:
+        betakey: external-amd
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno ( Test )
+      executable: "Test\\Bruno\\Binaries\\Win64\\Bruno-Win64-Test.exe"
+    - arguments: BR_Automation_Root?automatedtest=BulkBenchmarks
+      config:
+        betakey: external-amd
+        osarch: "64"
+        oslist: windows
+      description: Run Benchmarks ( Test )
+      executable: "Test\\Bruno\\Binaries\\Win64\\Bruno-Win64-Test.exe"
+    - config:
+        betakey: external-intel-graphics
+        osarch: "64"
+        oslist: windows
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+      type: default
+    - config:
+        betakey: external-intel-graphics
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno ( Dev )
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+    - arguments: BR_Automation_Root?automatedtest=BulkBenchmarks
+      config:
+        betakey: external-intel-graphics
+        osarch: "64"
+        oslist: windows
+      description: Run Benchmarks ( Dev )
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+    - arguments: "-noop"
+      config:
+        betakey: external-intel-graphics
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno ( Test )
+      executable: "Test\\Bruno\\Binaries\\Win64\\Bruno-Win64-Test.exe"
+    - arguments: BR_Automation_Root?automatedtest=BulkBenchmarks
+      config:
+        betakey: external-intel-graphics
+        osarch: "64"
+        oslist: windows
+      description: Run Benchmarks ( Test )
+      executable: "Test\\Bruno\\Binaries\\Win64\\Bruno-Win64-Test.exe"
+    - config:
+        betakey: external-nvidia
+        osarch: "64"
+        oslist: windows
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+      type: default
+    - config:
+        betakey: external-nvidia
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno ( Dev )
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+    - arguments: BR_Automation_Root?automatedtest=BulkBenchmarks
+      config:
+        betakey: external-nvidia
+        osarch: "64"
+        oslist: windows
+      description: Run Benchmarks ( Dev )
+      executable: "Development\\Bruno\\Binaries\\Win64\\Bruno.exe"
+    - arguments: "-uxrtest"
+      config:
+        betakey: uxr4
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno
+      executable: Bruno.exe
+      type: default
+    - arguments: "-noop"
+      config:
+        betakey: external-nvidia
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno ( Test )
+      executable: "Test\\Bruno\\Binaries\\Win64\\Bruno-Win64-Test.exe"
+    - arguments: BR_Automation_Root?automatedtest=BulkBenchmarks
+      config:
+        betakey: external-nvidia
+        osarch: "64"
+        oslist: windows
+      description: Run Benchmarks ( Test )
+      executable: "Test\\Bruno\\Binaries\\Win64\\Bruno-Win64-Test.exe"
+    - arguments: "-uxrtest -execcmds=\"br.profiling.drawgpugraph 0,br.showversionstring 0,disableallscreenmessages 1,br.SaveGame.AutoSaves.StrategyTurn.Enable 1\""
+      config:
+        betakey: uxr8.0
+        osarch: "64"
+        oslist: windows
+      description: Play Bruno
+      executable: "Test\\Bruno.exe"
+      type: default
+    - arguments: "-logpso -brlogpso"
+      config:
+        betakey: "mainline-latest-shipping, magid"
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™ (Shipping)
+      executable: SWZeroCompany.exe
+      type: default
+    - arguments: "-logpso -brlogpso"
+      config:
+        betakey: "stable-latest, qv-staging"
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™ (Test)
+      executable: "Test\\SWZeroCompany.exe"
+      type: option2
+      workingdir: Test
+    - arguments: "-slnoota -logpso -brlogpso"
+      config:
+        betakey: "stable-latest-shipping, press-latest-shipping, private-mdonovan, private-cweick"
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™ (Shipping)
+      executable: SWZeroCompany.exe
+      type: default
+    - arguments: "-execcmds=\"br.profiling.drawgpugraph 0\" -logErrorsToTelemetry=true"
+      config:
+        betakey: dbc-trailer2
+        osarch: "64"
+        oslist: windows
+      description: Bruno (Development)
+      executable: "Development\\Bruno.exe"
+      type: option1
+      workingdir: Development
+    - arguments: "-execcmds=\"br.profiling.drawgpugraph 0\" -logErrorsToTelemetry=true"
+      config:
+        betakey: dbc-trailer2
+      description: Bruno (Test)
+      executable: "Test\\Bruno.exe"
+      type: option1
+      workingdir: Test
+    - arguments: "-logErrorsToTelemetry=true"
+      config:
+        betakey: pc-gamer-feb-2026
+        osarch: "64"
+        oslist: windows
+      description: Bruno (Development)
+      executable: "Development\\Bruno.exe"
+      type: option1
+      workingdir: Development
+    - config:
+        betakey: pc-gamer-feb-2026
+        osarch: "64"
+        oslist: windows
+      description: Bruno (Test)
+      executable: "Test\\Bruno.exe"
+      type: option2
+      workingdir: Test
+    - arguments: "-logpso -brlogpso -logErrorsToTelemetry=true"
+      config:
+        betakey: "stable-latest, qv-staging, press-latest"
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™ (Development)
+      executable: "Development\\SWZeroCompany.exe"
+      type: option1
+      workingdir: Development
+    - arguments: "-uxrtest -execcmds=\"br.profiling.drawgpugraph 0,br.showversionstring 0,disableallscreenmessages 1,br.SaveGame.AutoSaves.StrategyTurn.Enable 1\""
+      config:
+        betakey: uxr9
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™
+      executable: "Test\\SWZeroCompany.exe"
+      type: default
+    - config:
+        betakey: "catlab,catlab_2"
+        oslist: windows
+      executable: SWZeroCompany.exe
+      type: default
+    - arguments: "-logpso -brlogpso"
+      config:
+        betakey: "external-intel-graphics-shipping, external-nvidia, external-intel-graphics, external-amd"
+      description: " Star Wars Zero Company™ (Shipping)"
+      executable: SWZeroCompany.exe
+      type: default
+    - arguments: "-logpso -brlogpso -logErrorsToTelemetry=true"
+      config:
+        betakey: "mainline-latest, eap_dev"
+        oslist: windows
+      description: Star Wars Zero Company™ (Development)
+      executable: "Development\\SWZeroCompany.exe"
+      type: option1
+      workingdir: Development
+    - arguments: "-logpso -brlogpso -logErrorsToTelemetry=true"
+      config:
+        betakey: eacc_spx
+        oslist: windows
+      description: Star Wars Zero Company™ (Development)
+      executable: "Development\\SWZeroCompany.exe"
+      type: option1
+      workingdir: Development
+    - arguments: "-logpso -brlogpso"
+      config:
+        betakey: mainline-qa-approved
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™ (Shipping)
+      executable: SWZeroCompany.exe
+      type: default
+    - config:
+        betakey: test-branch-please-ignore
+        osarch: "64"
+        oslist: windows
+      description: Star Wars Zero Company™
+      executable: "Development\\SWZeroCompany.exe"
+      type: default
+      workingdir: Development
   nameLocalized:
     brazilian: STAR WARS Zero Company™
     czech: STAR WARS Zero Company™
@@ -607723,6 +608086,10 @@
         osarch: "64"
         oslist: windows
       executable: MTGA.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: MTGA.app
       type: default
 2142330:
   cloud:
@@ -624717,6 +625084,19 @@
   nameLocalized:
     japanese: METAL GEAR SOLID PEACE WALKER (MASTER COLLECTION版)
 2492670:
+  cloud:
+    saves:
+      - path: "mgs4_savedata_win/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: METAL GEAR SOLID 4
+  launch:
+    - config:
+        oslist: windows
+      executable: Launcher/launcher.exe
+      type: default
+      workingdir: launcher
   nameLocalized:
     japanese: METAL GEAR SOLID 4 GUNS OF THE PATRIOTS (MASTER COLLECTION版)
 2492730:
@@ -631209,6 +631589,30 @@
   nameLocalized:
     schinese: 传说酒馆
     tchinese: 傳說酒館
+2684630:
+  cloud:
+    saves:
+      - path: Endacopia
+        pattern: agssave.*
+        recursive: true
+        root: WinSavedGames
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: WinSavedGames
+        useInstead: WinSavedGames
+  installDir: Endacopia
+  launch:
+    - config:
+        oslist: windows
+      executable: Windows/Endacopia.exe
+      type: default
+    - config:
+        oslist: windows
+      description: options for Endacopia
+      executable: Windows/winsetup.exe
+      type: config
 2684780:
   installDir: Chromatic Isle
   launch:
@@ -657919,6 +658323,12 @@
     japanese: フォーチュンミル
     koreana: 포춘 밀
     schinese: 财富磨坊
+4732690:
+  nameLocalized:
+    japanese: アークナイツ：エンドフィールド
+    koreana: "명일방주: 엔드필드"
+    schinese: 明日方舟：终末地
+    tchinese: 明日方舟：終末地
 4734550: {}
 4743930: {}
 4744030: {}

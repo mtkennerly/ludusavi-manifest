@@ -15445,6 +15445,7 @@ Arknights:
   pageId: 218538
 "Arknights: Endfield":
   pageId: 190804
+  steam: 4732690
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Gryphline\\Endfield}}"
 Arkshot:
@@ -76212,6 +76213,8 @@ Elves vs Goblins Defender:
   gog: 1403214533
   lutris: elvira-mistress-of-the-dark
   pageId: 147029
+"Elvira: The Arcade Game":
+  pageId: 219820
 Elypse:
   pageId: 195507
   steam: 1725340
@@ -76959,6 +76962,15 @@ EndCycle VS:
 EndZ Village:
   pageId: 138586
   steam: 999190
+Endacopia:
+  cloud:
+    steam: true
+  lutris: endacopia
+  pageId: 219814
+  steam: 2684630
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Endacopia\\acsetup.cfg}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Endacopia}}"
 Endangered:
   pageId: 41631
   steam: 500980
@@ -124225,6 +124237,8 @@ Jurassic City Walk:
 "Jurassic Island: The Dinosaur Zoo":
   pageId: 45513
   steam: 378420
+Jurassic Park:
+  pageId: 219809
 Jurassic Park Classic Games Collection:
   cloud:
     steam: true
@@ -129460,6 +129474,7 @@ Kulzas Tomb:
   pageId: 112884
   steam: 942920
 "Kumarn: The Wandering Spirit":
+  gog: 1994955151
   lutris: kumarn-the-wandering-spirit
   pageId: 207039
   steam: 3888420
@@ -160330,6 +160345,8 @@ Nick:
 Nick Bounty and the Dame with the Blue Chewed Shoe:
   pageId: 122876
   steam: 958880
+"Nick Faldo's Championship Golf":
+  pageId: 219807
 Nick Jr. Party Adventure:
   cloud:
     steam: true
@@ -162308,7 +162325,6 @@ Nodiatis:
   steam: 541190
 Noel The Mortal Fate:
   cloud:
-    steam: true
     xbox: true
   pageId: 94495
   renamedFrom:
