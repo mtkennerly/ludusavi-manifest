@@ -48595,6 +48595,8 @@ Armajet:
   steam:
     id: 895670
 Armatus:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Aperion/Saved/Config/Windows":
       tags:
@@ -117282,6 +117284,29 @@ Captain The Runner:
   steam:
     id: 878500
 "Captain Tsubasa 2: World Fighters":
+  files:
+    "<base>/CaptainTsubasa2WF/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/CaptainTsubasa2WF/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: captain-tsubasa-ii-world-fighters
+    steamExtra:
+      - 4196700
+      - 4196710
+      - 4196720
+      - 4199240
+      - 4280300
+      - 4280310
+  installDir:
+    CaptainTsubasa2WF: {}
+  launch:
+    "<base>/start_protected_game.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2172910
 "Captain Tsubasa: Rise of New Champions":
@@ -187989,6 +188014,18 @@ Deer Hunter II:
             store: steam
   steam:
     id: 1212190
+Deer Hunter Tournament:
+  files:
+    "<winDocuments>/DHT/GameSettings.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/DHT/Profiles":
+      tags:
+        - save
+      when:
+        - os: windows
 "Deer Hunter: Reloaded":
   files:
     "<home>/AppData/LocalLow/GameMill/DeerHunterReloaded/<storeUserId>/DH_Save/*.dat":
@@ -403183,6 +403220,22 @@ Last Alive:
             store: steam
   steam:
     id: 722890
+Last Breath:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4480000
+  installDir:
+    Last Breath: {}
+  launch:
+    "<base>/LastBreath.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4298500
 Last Bronx:
   files:
     "<base>/LASTBRONX.DAT":
@@ -451511,7 +451564,7 @@ Metal Gear Solid - Master Collection Version:
   cloud:
     steam: true
   files:
-    "<base>/mgspw_savedata_win":
+    "<base>/mgspw_savedata_win/<storeUserId>":
       tags:
         - config
         - save
@@ -451559,6 +451612,13 @@ Metal Gear Survive:
 "Metal Gear: Ghost Babel - Master Collection Version":
   cloud:
     steam: true
+  files:
+    "<base>/winbackup":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3859630
@@ -780640,14 +780700,14 @@ Tomb Raider I–III Remastered:
     gog: true
     steam: true
   files:
-    "<winAppData>/TRX/<storeUserId>/*.sav":
-      tags:
-        - save
-      when:
-        - os: windows
     "<winAppData>/TRX/<storeUserId>/savegame.dat":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/TRX/savegame.dat":
+      tags:
+        - save
       when:
         - os: windows
     "<winAppData>/TRX_EGS/<storeUserId>/savegame.dat":
@@ -829388,6 +829448,7 @@ Wardialler:
     id: 1077860
 Wardogs:
   id:
+    lutris: wardogs
     steamExtra:
       - 4809930
       - 4809960

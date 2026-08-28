@@ -21283,14 +21283,14 @@
       executable: payday2_win32_release.exe
       type: option1
     - config:
-        betakey: public nightly
+        betakey: public candidate nightly
         osarch: "64"
         oslist: windows
       executable: PAYDAY2.exe
       type: default
     - arguments: "-vr"
       config:
-        betakey: public nightly
+        betakey: public candidate nightly
         osarch: "64"
         oslist: windows
         ownsdlc: "826090"
@@ -453470,6 +453470,8 @@
       executable: app_digister/Digimon Story CS.exe
       type: default
       workingdir: app_digister
+  nameLocalized:
+    japanese: デジモンストーリー サイバースルゥース ハッカーズメモリー
 1042560:
   cloud:
     saves:
@@ -587876,6 +587878,10 @@
       description: with DX11.
       executable: Greylock.exe
       type: option3
+    - arguments: "-ngxdisable -noraytracing"
+      description: black screen fix for 10 series cards
+      executable: Greylock.exe
+      type: option3
 1836860:
   cloud:
     saves:
@@ -609564,6 +609570,20 @@
       executable: mybabydragon.app
       type: default
 2172910:
+  cloud:
+    saves:
+      - path: CaptainTsubasa2WF/Saved/SaveGames/
+        pattern: "*.sav"
+        root: gameinstall
+      - path: "CaptainTsubasa2WF/Saved/SaveGames/{Steam3AccountID}/"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: CaptainTsubasa2WF
+  launch:
+    - config:
+        oslist: windows
+      executable: start_protected_game.exe
+      type: default
   nameLocalized:
     japanese: キャプテン翼２ WORLD FIGHTERS
     koreana: 캡틴 츠바사 2 월드 파이터즈
@@ -657269,6 +657289,13 @@
     english: "A Whisper of Fall: Jinyiwei"
     schinese: 一盏秋声：锦衣卫
     tchinese: 一盞秋聲：錦衣衛
+4298500:
+  installDir: Last Breath
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: LastBreath.exe
 4304060: {}
 4304930:
   cloud:

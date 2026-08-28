@@ -15596,6 +15596,7 @@ Armajet:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SuperBitMachine\\Armajet\\}}"
 Armatus:
   cloud:
+    steam: true
     xbox: true
   lutris: armatus
   pageId: 211135
@@ -30647,6 +30648,8 @@ Blue Crystal:
     steam: true
   pageId: 132634
   steam: 556200
+"Blue Dragon (re:Blue)":
+  pageId: 219861
 Blue Effect VR:
   pageId: 40116
   steam: 522020
@@ -37896,8 +37899,16 @@ Captain The Runner:
   pageId: 98616
   steam: 878500
 "Captain Tsubasa 2: World Fighters":
+  lutris: captain-tsubasa-ii-world-fighters
   pageId: 215129
   steam: 2172910
+  steamSide:
+    - 4196700
+    - 4196710
+    - 4196720
+    - 4199240
+    - 4280300
+    - 4280310
 "Captain Tsubasa: Rise of New Champions":
   cloud:
     steam: true
@@ -60673,6 +60684,11 @@ Deer Hunter 2004:
 Deer Hunter II:
   pageId: 155316
   steam: 1212190
+Deer Hunter Tournament:
+  pageId: 219858
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\DHT\\GameSettings.txt}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\DHT\\Profiles}}"
 "Deer Hunter: Reloaded":
   pageId: 72371
   steam: 361370
@@ -103092,6 +103108,8 @@ Guilty Summer Kiss:
 Guilty Summer Kiss 2 - Bloody Secret:
   pageId: 96489
   steam: 867600
+Guimo:
+  pageId: 219860
 Guinea-Pig:
   pageId: 80426
   steam: 781700
@@ -111779,6 +111797,8 @@ Hogwarts Legacy:
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\WarnerBros.Interactive.PHX_ktmk1xygcecda\\SystemAppData\\wgs\\{{P|uid}}}}"
 Hogwash:
   pageId: 148384
+Hoi:
+  pageId: 219856
 "Hokan: Monster Slayer":
   pageId: 94072
   steam: 856770
@@ -131033,6 +131053,13 @@ Last Alive:
     steam: true
   pageId: 79184
   steam: 722890
+Last Breath:
+  cloud:
+    steam: true
+  pageId: 219854
+  steam: 4298500
+  steamSide:
+    - 4480000
 Last Bronx:
   lutris: last-bronx
   pageId: 170469
@@ -146722,8 +146749,8 @@ Metal Gear Solid - Master Collection Version:
     - 3859630
     - 4184360
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\mgspw_savedata_win\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\mgspw_savedata_win\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\mgspw_savedata_win\\{{P|uid}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\mgspw_savedata_win\\{{P|uid}}}}"
 Metal Gear Survive:
   cloud:
     steam: true
@@ -146740,6 +146767,9 @@ Metal Gear Survive:
   steamSide:
     - 3859630
     - 4184420
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\winbackup}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\winbackup}}"
 Metal Heads:
   pageId: 145397
   steam: 1132670
@@ -254134,7 +254164,7 @@ Tomb Raider I–III Remastered:
   steam: 2478970
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\TRX\\{{p|uid}}\\savegame.dat}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\TRX\\{{p|uid}}\\*.sav}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\TRX\\savegame.dat}}"
     - "{{Game data/saves|Epic Games Launcher|{{p|appdata}}\\TRX_EGS\\{{p|uid}}\\savegame.dat}}"
 "Tomb Raider: Anniversary":
   cloud:
@@ -271075,6 +271105,7 @@ Wardialler:
   pageId: 135899
   steam: 1077860
 Wardogs:
+  lutris: wardogs
   pageId: 214510
   steam: 1867240
   steamSide:
