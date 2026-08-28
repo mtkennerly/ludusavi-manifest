@@ -146671,6 +146671,9 @@ Metal Gear Solid - Master Collection Version:
   steamSide:
     - 3859630
     - 4184400
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\mgs4_savedata_win\\{{P|uid}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\mgs4_savedata_win\\{{P|uid}}}}"
 "Metal Gear Solid V: Ground Zeroes":
   cloud:
     steam: true
@@ -172283,6 +172286,8 @@ Patterns:
 PaulPaul - Act 1:
   pageId: 103019
   steam: 892560
+Paulie Python:
+  pageId: 219841
 "Paulo's Wing":
   pageId: 58005
   steam: 592720
@@ -220121,9 +220126,16 @@ Star Wars Outlaws:
   templates:
     - "{{Game data/config|Windows|{{p|windir}}\\Yodesk.ini}}"
 "Star Wars: Zero Company":
+  cloud:
+    steam: true
   lutris: star-wars-zero-company
   pageId: 203635
   steam: 2075800
+  steamSide:
+    - 3701350
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\SWZeroCompany\\Saved\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\SWZeroCompany\\Saved\\SaveGames\\*.sav}}"
 Star Wolves:
   cloud:
     steam: true
@@ -259856,6 +259868,8 @@ Trivial Combat:
 Triwave:
   pageId: 122512
   steam: 932090
+Troddlers:
+  pageId: 219849
 Trog!:
   pageId: 209271
 Troid Blaster:
@@ -273985,6 +273999,15 @@ Welkin Road:
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Radiant Zero Studios\\Welkin Road|{{p|userprofile\\Documents}}\\Welkin Road\\Settings.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Welkin Road\\{{p|UID}}\\SaveGame.dat}}"
+Well Dweller:
+  cloud:
+    steam: true
+  gog: 1571381382
+  lutris: well-dweller
+  pageId: 219847
+  steam: 3699590
+  steamSide:
+    - 4540890
 WellTown:
   pageId: 127587
   steam: 974150
@@ -274878,6 +274901,9 @@ Whipseey and the Lost Atlas:
 Whirlight - No Time to Trip:
   cloud:
     steam: true
+  gog: 1783203305
+  gogSide:
+    - 1187431124
   lutris: whirlight-no-time-to-trip
   pageId: 213744
   renamedFrom:
