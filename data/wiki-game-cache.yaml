@@ -118380,6 +118380,10 @@ Indiana Jones and the Infernal Machine:
   templates:
     - "{{Game data/saves|DOS|{{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
+Indiana Jones and the Temple of Doom:
+  pageId: 219865
+Indiana Jones in Revenge of the Ancients:
+  pageId: 219867
 Indie Assault:
   pageId: 47361
   steam: 354910
@@ -187641,6 +187645,8 @@ Real World Golf:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Real World Golf\\settings}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
+Real World Golf 2007:
+  pageId: 219869
 Real World Racing:
   cloud:
     steam: true
