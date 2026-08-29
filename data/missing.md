@@ -7337,6 +7337,7 @@
 * [Diorama No.3: The Marchland](https://www.pcgamingwiki.com/wiki/?curid=43756)
 * [Diorama Worlds](https://www.pcgamingwiki.com/wiki/?curid=60708)
 * [Dioxide](https://www.pcgamingwiki.com/wiki/?curid=217131)
+* [Dire Echo](https://www.pcgamingwiki.com/wiki/?curid=219871)
 * [Direct](https://www.pcgamingwiki.com/wiki/?curid=67227)
 * [Direct Hit: Missile War](https://www.pcgamingwiki.com/wiki/?curid=49799)
 * [Directionless](https://www.pcgamingwiki.com/wiki/?curid=42794)

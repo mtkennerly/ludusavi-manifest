@@ -32897,6 +32897,26 @@ Allspace:
             store: steam
   steam:
     id: 1000860
+Allumeria:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/Allumeria":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Allumeria: {}
+  launch:
+    "<base>/Allumeria.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3516590
 Allumette:
   installDir:
     Allumette: {}
@@ -149156,6 +149176,8 @@ Conflict Zone:
   steam:
     id: 8100
 "Conflict: Desert Storm":
+  cloud:
+    steam: true
   files:
     "<winDocuments>/SCi/DesertStorm":
       tags:
@@ -200728,6 +200750,19 @@ Diplomacy Is Not an Option:
           - store: steam
   steam:
     id: 1272320
+Dire Echo:
+  id:
+    lutris: dire-echo
+  installDir:
+    Dire Echo: {}
+  launch:
+    "<base>/Dire_Echo.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3743180
 Direct:
   installDir:
     Direct: {}
@@ -429779,6 +429814,25 @@ MAKE IT as an Artist:
             store: steam
   steam:
     id: 577390
+MAMIYA:
+  files:
+    "<base>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Mamiya: {}
+  launch:
+    "<base>/MAMIYA.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/MAMIYA.exe":
+      - arguments: "--in-process-gpu --disable-direct-composition"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1394930
 MAN STANDING:
   installDir:
     Man Standing: {}

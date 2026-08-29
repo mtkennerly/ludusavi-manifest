@@ -19344,6 +19344,14 @@
       executable: thief2.exe
       workingdir: ""
 211780:
+  cloud:
+    saves:
+      - path: "SCI\\DesertStorm"
+        pattern: "*.sav"
+        root: WinMyDocuments
+      - path: "Documents\\Sci\\DesertStorm"
+        pattern: "*.sav"
+        root: WindowsHome
   installDir: conflict_desert_storm
   launch:
     - arguments: ""
@@ -552864,6 +552872,23 @@
   nameLocalized:
     japanese: "不良少女 Detained: Too Good for School"
     schinese: 不良少女：留级生
+1394930:
+  cloud:
+    saves:
+      - path: "."
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Mamiya
+  launch:
+    - arguments: "--in-process-gpu --disable-direct-composition"
+      config:
+        oslist: windows
+      executable: MAMIYA.exe
+    - config:
+        oslist: macos
+      executable: MAMIYA.app
+  nameLocalized:
+    japanese: 世界滅亡共有幻想マミヤ
 1395030:
   cloud:
     saves:
@@ -649811,6 +649836,24 @@
     english: Ballshit
     schinese: 无基之谈
     tchinese: 無基之談
+3516590:
+  cloud:
+    saves:
+      - path: My Games/Allumeria/cloud/
+        pattern: "*"
+        recursive: true
+        root: WinMyDocuments
+      - path: Allumeria/cloud/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Allumeria
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Allumeria.exe
+      type: default
 3516780:
   cloud:
     saves:
@@ -653097,6 +653140,14 @@
     - config:
         oslist: linux
       executable: VitalShell_Linux.exe.x86_64
+3743180:
+  installDir: Dire Echo
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Dire_Echo.exe
+      type: default
 3743220:
   cloud:
     saves:

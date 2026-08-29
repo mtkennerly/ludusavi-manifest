@@ -10494,6 +10494,14 @@ Allods Online:
 Allspace:
   pageId: 126358
   steam: 1000860
+Allumeria:
+  cloud:
+    steam: true
+  pageId: 219878
+  steam: 3516590
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Allumeria\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Allumeria\\}}"
 Allumette:
   pageId: 51728
   steam: 460850
@@ -47950,6 +47958,8 @@ Conflict Zone:
     - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Eidos\\CDO\\Device Settings}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Eidos\\ConflictDeniedOps}}"
 "Conflict: Desert Storm":
+  cloud:
+    steam: true
   gog: 1207658998
   lutris: conflict-desert-storm
   pageId: 21194
@@ -64741,6 +64751,10 @@ Diplomacy Is Not an Option:
     - 1887370
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Door 407\\Diplomacy is Not an Option\\DNOPersistentData\\}}"
+Dire Echo:
+  lutris: dire-echo
+  pageId: 219871
+  steam: 3743180
 Direct:
   pageId: 67227
   steam: 675720
@@ -139619,6 +139633,9 @@ MAIn COMPetition:
 MAKE IT as an Artist:
   pageId: 58973
   steam: 577390
+MAMIYA:
+  pageId: 219875
+  steam: 1394930
 MAN STANDING:
   pageId: 156192
   steam: 1201840
