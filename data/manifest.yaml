@@ -122380,12 +122380,17 @@ Cat Quest III:
   cloud:
     steam: true
   files:
-    "<winDocuments>/Cat Quest III/cq3_save*.dat":
+    "<winLocalAppData>/Cat Quest III/cq3_autosave*.dat":
       tags:
         - save
       when:
         - os: windows
-    "<winDocuments>/Cat Quest III/cq3_settings.dat":
+    "<winLocalAppData>/Cat Quest III/cq3_save*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Cat Quest III/cq3_settings.dat":
       tags:
         - config
       when:
@@ -695190,6 +695195,15 @@ Super Chicken Catchers:
   steam:
     id: 869750
 "Super Chipflake Ü: Quest for the Uncooked Schnitzel":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/SalsaShark Studios/ChipflakeOZA/Save/*.sf":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/SalsaShark Studios/ChipflakeOZA/Save/*.sf":
+      when:
+        - store: steam
   id:
     lutris: super-chipflake-u-quest-for-the-uncooked-schnitzel
   installDir:
@@ -730644,6 +730658,10 @@ The Curse of Womanland:
         - os: windows
         - os: windows
           store: steam
+  id:
+    lutris: the-curse-of-womanland
+    steamExtra:
+      - 4186990
   installDir:
     The Curse of Womanland: {}
   launch:
@@ -733875,6 +733893,7 @@ The Elementalist:
     id: 973410
 The Elephant Collection:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/Library/Application Support/ElephantCollection/**/*.sol":

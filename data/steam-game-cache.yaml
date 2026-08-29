@@ -641914,6 +641914,14 @@
     english: Reimu Needs Help!? Aunn-chan to the Rescue!
 3064040: {}
 3064060:
+  cloud:
+    saves:
+      - path: SalsaShark Studios/ChipflakeOZA/Save
+        pattern: "*.sf"
+        root: WinAppDataLocalLow
+      - path: ".config/unity3d/SalsaShark Studios/ChipflakeOZA/Save"
+        pattern: "*.sf"
+        root: LinuxHome
   installDir: Super Chipflake Ü Quest for the uncooked Schnitzel
   launch:
     - config:
