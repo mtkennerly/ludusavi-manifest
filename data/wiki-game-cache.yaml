@@ -29471,6 +29471,13 @@ Blitzkrieg:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Run}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Run\\saves}}"
+Blitzkrieg 2:
+  gog: 1207664013
+  gogSide:
+    - 1207659119
+  lutris: blitzkrieg-2
+  pageId: 13949
+  steam: 313500
 Blitzkrieg 3:
   cloud:
     steam: true
@@ -34984,6 +34991,8 @@ Building Blocks:
 Building Killer:
   pageId: 143848
   steam: 1136680
+Building Panic:
+  pageId: 219927
 Building Relationships:
   cloud:
     steam: true
@@ -114013,8 +114022,11 @@ How to Cope with Boredom and Loneliness:
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\PointBleepStudios\\Point Bleep TV\\HTC\\Settings\\Settings.txt|{{p|hkcu}}\\Software\\PointBleepStudios\\Point Bleep TV\\}}"
 How to Fish:
+  lutris: how-to-fish
   pageId: 219725
   steam: 4001890
+  steamSide:
+    - 4539520
 How to Fool a Liar King:
   cloud:
     steam: true
@@ -163835,6 +163847,7 @@ OTTTD:
     - "{{Game data/config|Windows|{{P|game}}\\ExtraSettings.dat}}"
 OTXO:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1497384733
@@ -190869,6 +190882,7 @@ Resonance of Fate 4K/HD Edition:
   templates:
     - "{{Game data/config|Microsoft Store|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
     - "{{Game data/config|Steam|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\FocusHomeInteractiveSA.APlagueTaleFelons_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\2713000\\remote}}"
 "Resort Boss: Golf":
   cloud:
@@ -261404,10 +261418,8 @@ Twisted Tower:
   pageId: 190119
   steam: 1575990
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Atmos Games, LLC\\Twisted Tower Demo\\}}"
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Atmos Games, LLC\\Twisted Tower\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Atmos Games, LLC\\Twisted Tower Demo\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Atmos Games, LLC\\Twisted Tower\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Atmos Games, LLC\\Twisted Tower\\|{{p|hkcu}}\\Software\\Atmos Games, LLC\\Twisted Tower Demo\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Atmos Games, LLC\\Twisted Tower\\|{{p|userprofile}}\\AppData\\LocalLow\\Atmos Games, LLC\\Twisted Tower Demo\\}}"
 Twisted Weapons:
   pageId: 113036
   steam: 658840
