@@ -14068,6 +14068,9 @@ Apico:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/APICO/saves/settings.json}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\APICO}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/APICO/saves/}}"
+"Apidya' Special":
+  pageId: 219938
+  steam: 3956980
 Aplestia:
   pageId: 82125
   steam: 791600
@@ -100011,6 +100014,10 @@ GooCubelets 2:
 GooHuebelets:
   pageId: 70605
   steam: 712220
+Gooba Ball:
+  lutris: gooba-ball
+  pageId: 219936
+  steam: 2878140
 Gooberries:
   pageId: 138766
   steam: 1081070
@@ -135886,6 +135893,8 @@ Little Rocket Lab:
     xbox: true
   pageId: 209586
   steam: 2451100
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\TeenageAstronauts\\LittleRocketLab\\*.save}}"
 Little Samson:
   cloud:
     steam: true
@@ -157776,6 +157785,8 @@ National Park Girls:
     - 1046190
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\game\\saves | {{P|appdata}}\\RenPy\\NationalParkGirlsLOPE\\ | {{P|appdata}}\\RenPy\\NationalParkGirls-1531944291\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/RenPy/NationalParkGirlsLOPE/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.renpy/NationalParkGirlsLOPE/}}"
 National Rugby Manager:
   pageId: 80645
   steam: 752640
@@ -180349,6 +180360,9 @@ Privateers:
 Prixel:
   pageId: 121121
   steam: 961110
+"PrizeFighter: Heavyweight Edition":
+  pageId: 219941
+  steam: 2919760
 Pro Basketball Manager 2016:
   lutris: pro-basketball-manager-2016
   pageId: 45002
@@ -216410,6 +216424,7 @@ Spartan Fist:
 Spartan Survivors:
   cloud:
     steam: true
+  lutris: spartan-survivors--1
   pageId: 218394
   steam: 3997630
 Spartan VR:

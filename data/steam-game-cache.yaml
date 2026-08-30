@@ -450846,6 +450846,7 @@
       executable: NationalParkGirls.exe
       type: option1
   nameLocalized:
+    koreana: "내셔널 파크 걸즈: Love Our Parks 에디션"
     schinese: 国立公园少女：心系公园版
 1036600:
   installDir: Junglex
@@ -637329,6 +637330,10 @@
       description: No-VR Mode
       executable: Anne Frank House VR.exe
       type: default
+2878140:
+  installDir: Gooba Ball
+  launch:
+    - executable: Gooba Ball.exe
 2878220:
   cloud:
     saves:
@@ -638269,6 +638274,10 @@
       description: Test Build
       executable: launcher.exe
       type: option1
+2919760:
+  installDir: PrizeFighter - Heavyweight Edition
+  launch:
+    - executable: PrizeFighter - Heavyweight Edition.exe
 2920390:
   cloud:
     saves:
@@ -655594,6 +655603,14 @@
         osarch: "64"
         oslist: windows
       executable: SandyBeachCleaner.exe
+      type: default
+3956980:
+  installDir: "Apidya' Special"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: apidya.exe
       type: default
 3957530: {}
 3960600: {}
