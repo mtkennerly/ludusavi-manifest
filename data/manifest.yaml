@@ -138802,10 +138802,15 @@ Click the Business:
   steam:
     id: 959980
 Click the Button:
+  cloud:
+    steam: true
   files:
-    "<base>/SavesDir/*.sav":
+    "<winAppData>/Godot/app_userdata/ClickTheButton/save.json":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: click-the-button
     steamExtra:
@@ -138815,8 +138820,23 @@ Click the Button:
     Click the Button: {}
   launch:
     "<base>/Click the Button.exe":
-      - when:
-          - store: steam
+      - arguments: "--rendering-method forward_plus --rendering-driver vulkan"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-method gl_compatibility --rendering-driver opengl3"
+        when:
+          - os: windows
+            store: steam
+    "<base>/ClickTheButton.x86_64":
+      - arguments: "--rendering-method forward_plus --rendering-driver vulkan"
+        when:
+          - os: linux
+            store: steam
+      - arguments: "--rendering-method gl_compatibility --rendering-driver opengl3"
+        when:
+          - os: linux
+            store: steam
   steam:
     id: 3946950
 Click to Continue:
@@ -387490,6 +387510,9 @@ Kebab It Up!:
       when:
         - os: windows
           store: steam
+  id:
+    steamExtra:
+      - 800020
   installDir:
     Kebab it Up!: {}
   launch:
@@ -422647,6 +422670,8 @@ Lost In Dungeon:
   steam:
     id: 1159590
 Lost In Maze:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Vertexity Studio/Lost In Maze/*.dat":
       when:

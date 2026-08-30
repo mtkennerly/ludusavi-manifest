@@ -655368,12 +655368,38 @@
 3946950:
   cloud:
     saves:
-      - path: SavesDir
-        pattern: "*.sav"
-        root: gameinstall
+      - path: Godot/app_userdata/ClickTheButton
+        pattern: save.json
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: godot/app_userdata/ClickTheButton
+        pattern: save.json
+        platforms:
+          - Linux
+        root: LinuxXdgDataHome
   installDir: Click the Button
   launch:
-    - executable: Click the Button.exe
+    - arguments: "--rendering-method forward_plus --rendering-driver vulkan"
+      config:
+        oslist: windows
+      description: Play (Recommended)
+      executable: Click the Button.exe
+    - arguments: "--rendering-method gl_compatibility --rendering-driver opengl3"
+      config:
+        oslist: windows
+      description: "Compatibility mode (older PCs, or if the game won't start)"
+      executable: Click the Button.exe
+    - arguments: "--rendering-method forward_plus --rendering-driver vulkan"
+      config:
+        oslist: linux
+      description: Play (Recommended)
+      executable: ClickTheButton.x86_64
+    - arguments: "--rendering-method gl_compatibility --rendering-driver opengl3"
+      config:
+        oslist: linux
+      description: "Compatibility mode (older PCs, or if the game won't start)"
+      executable: ClickTheButton.x86_64
 3947040:
   installDir: Pegfinity
   launch:

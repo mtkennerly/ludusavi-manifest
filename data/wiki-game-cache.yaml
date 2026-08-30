@@ -15819,6 +15819,8 @@ Armory League:
     steam: true
   pageId: 100258
   steam: 835620
+Armour-Geddon:
+  pageId: 219895
 Armoured Alliance:
   pageId: 127317
   steam: 955410
@@ -15892,6 +15894,8 @@ Army Men II:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
+Army Moves:
+  pageId: 219892
 Army Racer:
   pageId: 213946
 "Army Ranger: Mogadishu":
@@ -44676,12 +44680,17 @@ Click the Business:
   pageId: 121321
   steam: 959980
 Click the Button:
+  cloud:
+    steam: true
   lutris: click-the-button
   pageId: 219046
   steam: 3946950
   steamSide:
     - 4805850
     - 5110650
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\ClickTheButton\\save.json}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\ClickTheButton\\save.json}}"
 Click to Continue:
   lutris: click-to-continue
   pageId: 216130
@@ -46440,6 +46449,8 @@ Color Defense:
     steam: true
   pageId: 156218
   steam: 1151920
+Color Eggs:
+  pageId: 219889
 Color Guardian:
   pageId: 114166
   steam: 937130
@@ -125815,6 +125826,8 @@ Kebab It Up!:
     steam: true
   pageId: 78550
   steam: 745400
+  steamSide:
+    - 800020
 "Kedemara - The Orphan's Ballad (Ch.1 & 2)":
   pageId: 150018
   renamedFrom:
@@ -137398,6 +137411,8 @@ Lost In Dungeon:
   pageId: 149340
   steam: 1159590
 Lost In Maze:
+  cloud:
+    steam: true
   pageId: 78376
   steam: 763010
 Lost In Sweets:
