@@ -28501,24 +28501,19 @@
       description: Launch
       executable: BattleBlockTheater.exe
     - config:
-        betakey: legacy
-        oslist: linux
-      description: Launch
-      executable: BattleBlockTheater.sh
-    - config:
         oslist: macos
       description: Launch
       executable: BattleBlockTheater.app
     - arguments: "-beta"
       config:
-        betakey: release_beta
+        betakey: "release_beta,main"
         oslist: windows
       description: Beta Launch
       executable: BattleBlockTheater.exe
       type: option1
     - arguments: "-beta"
       config:
-        betakey: release_beta
+        betakey: "release_beta,main"
         oslist: macos
       description: Beta Launch
       executable: BattleBlockTheater.app

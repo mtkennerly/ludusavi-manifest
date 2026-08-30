@@ -240390,9 +240390,14 @@ Enola:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Enotria/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Enotria/Saved/Config/Windows/GameUserSettings.ini":
       tags:
         - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Enotria/Saved/SaveGames/*.sav":
+      tags:
+        - save
       when:
         - os: windows
   id:
@@ -667903,7 +667908,7 @@ Spiral Knights:
         - config
       when:
         - os: linux
-    "<winAppData>/Spiral Knights":
+    Computer/HKEY_CURRENT_USER/Software/JavaSoft/Prefs/projectx:
       tags:
         - config
       when:

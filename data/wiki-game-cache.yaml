@@ -20649,6 +20649,8 @@ Back to the Dawn:
 Back to the Egg!:
   pageId: 69591
   steam: 705640
+"Back to the Future: Part II":
+  pageId: 219899
 "Back to the Future: Part III":
   pageId: 212694
 "Back to the Future: The Game":
@@ -77618,7 +77620,8 @@ Enola:
   pageId: 207279
   steam: 2102450
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Enotria\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Enotria\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Enotria\\Saved\\SaveGames\\*.sav}}"
 Enshrouded:
   cloud:
     steam: true
@@ -177014,6 +177017,8 @@ Platinum Pinball:
 Platonic Paranoia:
   pageId: 135293
   steam: 1071720
+Platoon (1987):
+  pageId: 219912
 Platoon (2002):
   pageId: 219190
 Platoon Leader:
@@ -186368,6 +186373,8 @@ Rama:
 Ramayana:
   pageId: 47807
   steam: 371790
+Rambo III:
+  pageId: 219914
 "Rambo: First Blood Part II":
   pageId: 218497
 "Rambo: The Video Game":
@@ -217487,7 +217494,7 @@ Spiral Knights:
   pageId: 5955
   steam: 99900
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Spiral Knights}}"
+    - "{{Game data/config|Windows|Computer\\HKEY_CURRENT_USER\\Software\\JavaSoft\\Prefs\\projectx}}"
     - "{{Game data/config|Linux|{{P|linuxhome}}/.java/.userPrefs/projectx}}"
 Spiral Splatter:
   pageId: 66450
@@ -219701,6 +219708,8 @@ Star Waker:
 Star Warped:
   lutris: star-warped
   pageId: 197479
+Star Wars (1989):
+  pageId: 219916
 Star Wars Battlefront (2015):
   cloud:
     origin: true
@@ -224900,6 +224909,8 @@ Subtype Grounds:
   renamedFrom:
     - One Step Ahead
   steam: 860020
+Suburban Commando:
+  pageId: 219918
 Suburban Scavengers:
   pageId: 98200
   steam: 687950
@@ -236289,6 +236300,8 @@ The Blue Zula VR Concert Series:
 The Blueness of a Wound:
   pageId: 157047
   steam: 1212530
+The Blues Brothers:
+  pageId: 219903
 The BoX:
   pageId: 45411
   steam: 424750
@@ -241044,6 +241057,8 @@ The Hunt - Rebuilt:
 "The Hunt - Sophie's Journey":
   pageId: 135030
   steam: 1052890
+The Hunt for Red October (1990):
+  pageId: 219906
 The Hunt in the Forest:
   pageId: 132306
   steam: 1050810
@@ -241789,6 +241804,8 @@ The Jungle Book:
   gog: 1121892325
   pageId: 79093
   steam: 561110
+The Jungle Book (1988):
+  pageId: 219908
 "The Jungle Book: Groove Party":
   pageId: 172557
   templates:
@@ -244775,6 +244792,8 @@ The Neon Boy:
 The Nest:
   pageId: 33717
   steam: 473910
+"The Neverending Story II: The Arcade Game":
+  pageId: 219910
 The Neverhood:
   lutris: the-neverhood
   pageId: 24251
@@ -275221,6 +275240,8 @@ Who Did It?:
     steam: true
   pageId: 188206
   steam: 2430280
+Who Framed Roger Rabbit:
+  pageId: 219920
 Who Is Mike - A Visual Novel:
   pageId: 37703
   steam: 377430
