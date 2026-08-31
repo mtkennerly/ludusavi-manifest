@@ -94579,6 +94579,18 @@ Blue Crystal:
             store: steam
   steam:
     id: 556200
+"Blue Dragon (re:Blue)":
+  files:
+    "<base>/profiles/default/reblue.toml":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/profiles/default/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 Blue Effect VR:
   installDir:
     Blue Effect VR: {}
@@ -103317,8 +103329,20 @@ Breathedge:
 Breathedge 2:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Breathedge2Game/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   id:
     lutris: breathedge-2
+  installDir:
+    Breathedge2: {}
+  launch:
+    "<base>/Breathedge2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2412960
 Breathing Fear:
@@ -351091,6 +351115,12 @@ How to Cope with Boredom and Loneliness:
   steam:
     id: 797390
 How to Fish:
+  files:
+    "<home>/AppData/LocalLow/Dazed Games/How to Fish/Saves/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: how-to-fish
     steamExtra:
@@ -516428,6 +516458,17 @@ Out of Ammo:
 Out of Coverage:
   steam:
     id: 1049740
+"Out of Hand: Deluxe":
+  cloud:
+    steam: true
+  installDir:
+    Out of Hand Deluxe: {}
+  launch:
+    "<base>/Out of Hand Deluxe/Out of Hand Deluxe.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3193680
 Out of Line:
   cloud:
     epic: true
@@ -546874,9 +546915,22 @@ Popucom:
   cloud:
     steam: true
   files:
-    "<base>/Save/<storeUserId>":
+    "<base>/Save/<storeUserId>/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<home>/AppData/LocalLow/HyperGryph/Popucom/Settings/settings.data":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: popucom
+    steamExtra:
+      - 3025670
+      - 3025970
+      - 3929360
   installDir:
     POPUCOM: {}
   launch:
@@ -625224,6 +625278,18 @@ Serious Sam Fusion 2017:
   steam:
     id: 1623420
 "Serious Sam: Shatterverse":
+  cloud:
+    steam: true
+  files:
+    "<base>/SeriousSamShatterverse/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: serious-sam-shatterverse
+  installDir:
+    Serious Sam Shatterverse: {}
   steam:
     id: 2067210
 "Serious Sam: Siberian Mayhem":
@@ -747962,9 +748028,13 @@ The Life and Suffering of Sir Brante:
     id: 2051960062
   id:
     gogExtra:
+      - 1379140928
       - 1656945959
+      - 1826236033
+    lutris: the-life-and-suffering-of-sir-brante
     steamExtra:
       - 1460090
+      - 1566770
   installDir:
     The Life and Suffering of Sir Brante: {}
   launch:
@@ -835059,6 +835129,23 @@ Waveform Wipeout:
             store: steam
   steam:
     id: 897560
+Wavekin:
+  cloud:
+    steam: true
+  files:
+    "<base>/PlayerData/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Wavekin: {}
+  launch:
+    "<base>/Wavekin.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3930190
 Waves:
   files:
     "<base>/UDKGame/Config":
@@ -839298,6 +839385,8 @@ What the Car?:
         - config
       when:
         - os: mac
+  id:
+    lutris: what-the-car
   installDir:
     WHAT THE CAR: {}
   launch:

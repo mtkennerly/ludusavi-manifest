@@ -30674,6 +30674,9 @@ Blue Crystal:
   steam: 556200
 "Blue Dragon (re:Blue)":
   pageId: 219861
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\profiles\\default\\reblue.toml|ref=<ref name=\"reblue-data-location\">{{Refurl|url=https://github.com/zolaware/reblue#where-is-my-save-data-and-configuration-stored|title=re:Blue - Save data and configuration location|date=2026-08-31}}</ref>}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\profiles\\default\\saves\\|ref=<ref name=\"reblue-data-location\" />}}"
 Blue Effect VR:
   pageId: 40116
   steam: 522020
@@ -34435,10 +34438,14 @@ Brume:
 Brumm:
   pageId: 52400
   steam: 537660
+Brunswick Billiards Pro Pool 3D:
+  pageId: 219965
 Brunswick Circuit Pro Bowling:
   pageId: 211017
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\savegame.dat}}"
+Brunswick Pro Pool 3D II:
+  pageId: 219972
 Brush Up VR:
   pageId: 57099
   steam: 567840
@@ -36446,6 +36453,10 @@ Cabal Online:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Cfg\\console.cfg|{{p|game}}\\Data\\Cfg\\keys.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\Saves}}"
+"Cabela's Big Game Hunter II":
+  pageId: 219959
+"Cabela's Big Game Hunter III":
+  pageId: 219962
 "Cabela's Big Game Hunter Pro Hunts":
   cloud:
     steam: true
@@ -114052,6 +114063,8 @@ How to Fish:
   steam: 4001890
   steamSide:
     - 4539520
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Dazed Games\\How to Fish\\Saves\\*.txt}}"
 How to Fool a Liar King:
   cloud:
     steam: true
@@ -168345,6 +168358,11 @@ Out of Ammo:
 Out of Coverage:
   pageId: 132727
   steam: 1049740
+"Out of Hand: Deluxe":
+  cloud:
+    steam: true
+  pageId: 219983
+  steam: 3193680
 Out of Line:
   cloud:
     epic: true
@@ -178389,10 +178407,18 @@ Poptropica:
 Popucom:
   cloud:
     steam: true
+  lutris: popucom
   pageId: 189692
   renamedFrom:
     - POPUCOM
   steam: 2543180
+  steamSide:
+    - 3025670
+    - 3025970
+    - 3929360
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\HyperGryph\\Popucom\\Settings\\settings.data}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\{{p|uid}}\\*.sav}}"
 "Population: One":
   pageId: 165978
   steam: 691260
@@ -201854,7 +201880,6 @@ Screamer 2:
 Screamer 4x4:
   gog: 1207664523
   lutris: screamer-4x4
-  malformed: true
   pageId: 2856
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Saved}}"
@@ -203738,8 +203763,14 @@ Serious Sam Fusion 2017:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Devolver Digital\\Serious Sam: Kamikaze Attack!\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Devolver Digital\\Serious Sam: Kamikaze Attack!\\}}"
 "Serious Sam: Shatterverse":
+  cloud:
+    steam: true
+    xbox: true
+  lutris: serious-sam-shatterverse
   pageId: 214977
   steam: 2067210
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SeriousSamShatterverse\\Saved\\SaveGames\\*.sav}}"
 "Serious Sam: Siberian Mayhem":
   cloud:
     gog: true
@@ -243431,11 +243462,15 @@ The Life and Suffering of Sir Brante:
     gog: true
   gog: 2051960062
   gogSide:
+    - 1379140928
     - 1656945959
+    - 1826236033
+  lutris: the-life-and-suffering-of-sir-brante
   pageId: 166538
   steam: 1272160
   steamSide:
     - 1460090
+    - 1566770
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\SEVER\\The Life and Suffering of Sir Brante\\GameSettings.txt|{{P|hkcu}}\\SOFTWARE\\SEVER\\The Life and Suffering of Sir Brante\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SEVER\\The Life and Suffering of Sir Brante\\Saves\\}}"
@@ -273261,6 +273296,13 @@ Waveform:
 Waveform Wipeout:
   pageId: 105051
   steam: 897560
+Wavekin:
+  cloud:
+    steam: true
+  pageId: 219970
+  steam: 3930190
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\PlayerData\\*.sav}}"
 Waves:
   pageId: 3807
   steam: 107600
@@ -274580,6 +274622,7 @@ What the Buck?!:
 What the Car?:
   cloud:
     steam: true
+  lutris: what-the-car
   pageId: 193556
   renamedFrom:
     - WHAT THE CAR?

@@ -602663,6 +602663,17 @@
       type: option1
       workingdir: "DOSBox\\Configuration"
 2067210:
+  cloud:
+    saves:
+      - path: SeriousSamShatterverse/Saved/SaveGames/
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Serious Sam Shatterverse
+  launch:
+    - config:
+        betakey: "default, public, development, qa_functional, qa_compliance,devolver_devshare,testing, mastering"
+      executable: SeriousSamShatterverse.exe
+      type: default
   nameLocalized:
     schinese: 英雄萨姆：破碎宇宙
 2067350:
@@ -620999,7 +621010,21 @@
   nameLocalized:
     english: SWOLLEN TO BURSTING UNTIL I AM DISAPPEARING ON PURPOSE
 2411790: {}
-2412960: {}
+2412960:
+  cloud:
+    saves:
+      - path: Breathedge2Game/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Breathedge2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Breathedge2.exe
+      type: default
+  nameLocalized:
+    schinese: 呼吸边缘2
 2413050:
   installDir: Retrowave World
   launch:
@@ -644343,6 +644368,10 @@
         oslist: macos
       executable: Smack Monkey.app
       type: default
+3193680:
+  installDir: Out of Hand Deluxe
+  launch:
+    - executable: Out of Hand Deluxe/Out of Hand Deluxe.exe
 3193770:
   installDir: The Exit 8 VR
   launch:
@@ -654979,6 +655008,16 @@
       config:
         oslist: windows
       executable: system/SplinterCell2.exe
+      type: default
+3930190:
+  cloud:
+    saves:
+      - path: PlayerData
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Wavekin
+  launch:
+    - executable: Wavekin.exe
       type: default
 3930330:
   nameLocalized:
