@@ -30261,7 +30261,7 @@ Bloodline:
   pageId: 120426
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Default.cfe|{{p|game}}\\system.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 Bloodline Champions:
   lutris: bloodline-champions
   pageId: 38289
@@ -36430,6 +36430,8 @@ Cabal Online:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Casa\\Cfg\\console.cfg}}"
     - "{{Game data/saves|Windows|{{p|ProgramData}}\\Cabela's African Safari Saves\\}}"
+"Cabela's Big Game Hunter":
+  pageId: 219950
 "Cabela's Big Game Hunter 2004 Season":
   pageId: 197048
   templates:
@@ -36504,6 +36506,10 @@ Cabal Online:
   pageId: 194571
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\coa09_dx9\\Cfg\\Console.cfg}}"
+"Cabela's Sportsman's Challenge":
+  pageId: 219947
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\csc.ini}}"
 Cabernet:
   cloud:
     epic: true
@@ -40063,6 +40069,16 @@ Catsby:
     steam: true
   pageId: 60894
   steam: 590270
+"Cattails: Wildwood Story":
+  cloud:
+    steam: true
+  pageId: 219955
+  steam: 1882500
+  steamSide:
+    - 2004330
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Cattails_Wildwood_Story\\settings.dat}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Cattails_Wildwood_Story\\saves\\}}"
 Cattle Admission Challenge:
   pageId: 155771
   steam: 1215500
@@ -44900,6 +44916,8 @@ Clinically Dead:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Codemasters\\Clive Barker's Jericho\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Codemasters\\Clive Barker's Jericho\\}}"
+"Clive Barker's Nightbreed: The Interactive Movie":
+  pageId: 219953
 "Clive Barker's Undying":
   gog: 1207659191
   lutris: clive-barkers-undying
@@ -154411,6 +154429,18 @@ Murders in Space:
   gog: 1349792117
   pageId: 165146
   steam: 1255420
+Murders on the Yangtze River:
+  cloud:
+    steam: true
+    xbox: true
+  lutris: murders-on-the-yangtze-river
+  pageId: 219932
+  steam: 1746030
+  steamSide:
+    - 2068780
+    - 2808420
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\OMESCAPE\\山河旅探\\SaveData}}"
 "Murderwave: Digital Slaughter":
   pageId: 141827
   steam: 817980
@@ -256504,6 +256534,8 @@ Toy Generals:
 Toy Goblins:
   pageId: 70014
   steam: 679080
+Toy Golf:
+  pageId: 219944
 "Toy Golf: Extreme":
   pageId: 216119
 Toy Gun Office Simulator:

@@ -556129,6 +556129,13 @@
         betakey: tech_rnd
         oslist: windows
       executable: "Nightfall\\Binaries\\Win64\\NightfallClient.exe"
+    - arguments: "-log -noEAC"
+      config:
+        betakey: release_candidate_test
+        oslist: windows
+      description: test
+      executable: "Nightfall\\Binaries\\Win64\\NightfallClient-Win64-Test.exe"
+      type: option1
     - config:
         betakey: mainline_development
         osarch: "64"
@@ -556162,7 +556169,7 @@
         osarch: "64"
         oslist: windows
       description: Unprotected Mainline_Development
-      executable: "Nightfall\\Binaries\\Win64\\NightfallClient.exe"
+      executable: "Nightfall\\Binaries\\Win64\\NightfallClient-Win64-Test.exe"
       type: option1
     - arguments: "-noEAC"
       config:
@@ -581784,6 +581791,28 @@
         oslist: macos
       executable: Deluge.app
       type: default
+1746030:
+  cloud:
+    saves:
+      - path: OMESCAPE/山河旅探/SaveData
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: 山河旅探
+  launch:
+    - config:
+        oslist: windows
+      executable: shanhelvtan.exe
+    - config:
+        oslist: macos
+      executable: shanhelvtan.app
+  nameLocalized:
+    english: Murders on the Yangtze River
+    sc_schinese: 山河旅探
+    schinese: 山河旅探 - Murders on the Yangtze River
+    tchinese: 山河旅探 Murders on the Yangtze River
 1746560:
   cloud:
     saves:
@@ -590468,6 +590497,45 @@
 1882261: {}
 1882262: {}
 1882370: {}
+1882500:
+  cloud:
+    saves:
+      - path: Cattails_Wildwood_Story
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: Cattails_Wildwood_Story/saves
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+      - path: Cattails_Wildwood_Story/colors
+        pattern: "*.png"
+        root: WinAppDataLocal
+      - path: Cattails_Wildwood_Story/mods
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+      - path: Cattails_Wildwood_Story/demo_saves
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Cattails_Wildwood_Story
+            replace: com.falcondevelopment.cattailswildwoodstory
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Cattails Wildwood Story
+  launch:
+    - config:
+        oslist: windows
+      executable: Cattails - Wildwood Story.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: CattailsWildwoodStory.app
+      type: default
 1883260:
   cloud:
     saves:
