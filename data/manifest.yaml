@@ -841164,6 +841164,8 @@ White Creek:
         - save
       when:
         - os: windows
+  id:
+    lutris: white-day-2-the-flower-that-tells-lies
   installDir:
     White Day 2 The Flower That Tells Lies - Complete Edition: {}
   launch:
