@@ -5924,8 +5924,14 @@ Across Flash:
 Across The Moment:
   cloud:
     steam: true
+  lutris: across-the-moment
   pageId: 61671
   steam: 611780
+  steamSide:
+    - 675570
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\ATM10_01\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\ATM10_01\\Saved\\SaveGames}}"
 Across the Grooves:
   cloud:
     steam: true
@@ -10231,6 +10237,9 @@ Aliens&Asteroids:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Endeavor\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\ColdIronStudiosLLC.AliensFireteam_r52mqvf2yh3da\\SystemAppData\\wgs\\}}"
 "Aliens: Fireteam Elite 2":
+  cloud:
+    steam: true
+    xbox: true
   pageId: 216582
   steam: 3448650
   steamSide:
@@ -67123,6 +67132,11 @@ Donkey Kong:
   pageId: 218016
   renamedFrom:
     - Donkey Kong 64
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\DK64Recompiled\\|ref=<ref name=\"config-location\">{{Refurl|url=https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/tag/1.0.0|title=GitHub - DK64 Rekongpiled 1.0.0|date=2026-08-31}}</ref>}}"
+    - "{{Game data/config|Linux|{{p|xdgconfig}}\\DK64Recompiled\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\DK64Recompiled\\saves\\|ref=<ref name=\"recomp-readme\"/>}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfig}}\\DK64Recompiled\\saves\\|ref=<ref name=\"recomp-readme\"/>}}"
 "Donkey Kong: Redux":
   pageId: 200596
 Donkey Xote:
@@ -205756,6 +205770,7 @@ ShellShock Live:
 Shelldiver:
   cloud:
     steam: true
+    xbox: true
   lutris: shelldiver
   pageId: 211055
   steam: 3862670

@@ -653242,10 +653242,30 @@
   launch:
     - config:
         oslist: windows
+      description: Play Vital Shell (Recommended)
       executable: VitalShell.exe
+      type: default
     - config:
         oslist: linux
       executable: VitalShell_Linux.exe.x86_64
+    - arguments: "--rendering-driver d3d12"
+      config:
+        oslist: windows
+      description: DirectX 12 (fallback for graphics & driver problems)
+      executable: VitalShell.exe
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: windows
+      description: "OpenGL (integrated graphics, lower performance)"
+      executable: VitalShell.exe
+    - config:
+        betakey: mod-development
+        oslist: windows
+      description: Vital Shell Workshop Utility
+      executable: VitalShellWorkshopUtility.exe
+  nameLocalized:
+    schinese: 魔幻机甲
+    tchinese: 魔幻機甲
 3743180:
   installDir: Dire Echo
   launch:

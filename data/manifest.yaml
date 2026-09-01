@@ -18710,6 +18710,17 @@ Across Flash:
 Across The Moment:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/ATM10_01/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: across-the-moment
+    steamExtra:
+      - 675570
   steam:
     id: 611780
 Across the Grooves:
@@ -32101,6 +32112,8 @@ Aliens&Asteroids:
   steam:
     id: 1549970
 "Aliens: Fireteam Elite 2":
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/AFE2/Saved/SaveGames/<storeUserId>/**/*.sav":
       when:
@@ -207909,6 +207922,20 @@ Donjon Defense:
           - store: steam
   steam:
     id: 757230
+Donkey Kong 64:
+  alias: "Donkey Kong 64 (DK64: Rekongpiled)"
+"Donkey Kong 64 (DK64: Rekongpiled)":
+  files:
+    "<winLocalAppData>/DK64Recompiled":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/DK64Recompiled/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 Donkey Xote:
   files:
     "<base>/SaveGame.sav":
@@ -822347,6 +822374,14 @@ Vital Shell:
   launch:
     "<base>/VitalShell.exe":
       - when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-driver d3d12"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-driver opengl3"
+        when:
           - os: windows
             store: steam
     "<base>/VitalShell_Linux.exe.x86_64":
