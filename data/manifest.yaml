@@ -78987,6 +78987,7 @@ Bendy and the Dark Revival:
 Bendy and the Ink Machine:
   cloud:
     epic: true
+    steam: true
   files:
     "<home>/.config/unity3d/Joey Drew Studios/Bendy and the Ink Machine/Saves":
       tags:
@@ -79016,16 +79017,6 @@ Bendy and the Ink Machine:
     "<base>/BATIM.app":
       - when:
           - os: mac
-            store: steam
-    "<base>/BATIM.x86":
-      - when:
-          - bit: 32
-            os: linux
-            store: steam
-    "<base>/BATIM.x86_64":
-      - when:
-          - bit: 64
-            os: linux
             store: steam
     "<base>/Bendy and the Ink Machine.exe":
       - when:

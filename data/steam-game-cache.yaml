@@ -246508,16 +246508,6 @@
         oslist: macos
       executable: BATIM.app
       type: none
-    - config:
-        osarch: "32"
-        oslist: linux
-      executable: BATIM.x86
-      type: none
-    - config:
-        osarch: "64"
-        oslist: linux
-      executable: BATIM.x86_64
-      type: none
 622670:
   cloud:
     saves:
