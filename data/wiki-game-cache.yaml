@@ -30964,6 +30964,9 @@ Boardfall Zero:
   lutris: boardfall-zero
   pageId: 219258
   steam: 4152060
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\BoardFall\\*.txt}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\BoardFall\\}}"
 Boardwalk Carnival Game:
   pageId: 144496
   steam: 1140950
@@ -33693,6 +33696,13 @@ Brig 12:
 Brigador Killers:
   pageId: 139682
   steam: 903930
+  steamSide:
+    - 4665530
+    - 4997530
+    - 5010550
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\}}"
 "Brigador: Up-Armored Edition":
   cloud:
     steam: true
@@ -36453,6 +36463,8 @@ Cabal Online:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Cfg\\console.cfg|{{p|game}}\\Data\\Cfg\\keys.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\Saves}}"
+"Cabela's Big Game Hunter 4":
+  pageId: 219996
 "Cabela's Big Game Hunter II":
   pageId: 219959
 "Cabela's Big Game Hunter III":
@@ -102485,6 +102497,9 @@ Groove Gunner:
 Groove Runner:
   pageId: 153444
   steam: 1197500
+"Groovekeeper: Sort the Record Shop":
+  pageId: 219993
+  steam: 4953280
 Groovy:
   pageId: 34441
   steam: 372490
@@ -122200,6 +122215,13 @@ Jacked:
   pageId: 185897
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\data\\pc\\savegame.txt}}"
+Jackie Chan Stuntmaster (ReChan):
+  pageId: 219991
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\userfiles\\game.ini}}"
+    - "{{Game data/config|Linux|unknown}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\userfiles\\}}"
+    - "{{Game data/saves|Linux|unknown}}"
 Jackpot Poker by PokerStars:
   pageId: 37042
   steam: 455020

@@ -390196,7 +390196,14 @@
       description: Virtual Desktop mode (Quest/Pico)
       executable: Tranzient.exe
       type: option3
-903930: {}
+903930:
+  installDir: Brigador Killers
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: brigadorkillers.exe
+      type: default
 903950:
   installDir: Last Oasis
   launch:
@@ -658725,6 +658732,7 @@
         oslist: windows
       executable: peg_champ_beta.exe
       type: default
+4953280: {}
 4980620: {}
 5036490: {}
 5093680: {}

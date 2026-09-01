@@ -95439,6 +95439,17 @@ Board Quizz Adventure:
   steam:
     id: 1032440
 Boardfall Zero:
+  files:
+    "<winLocalAppData>/BoardFall":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/BoardFall/*.txt":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: boardfall-zero
   installDir:
@@ -104357,6 +104368,19 @@ Brig 12:
   steam:
     id: 296210
 Brigador Killers:
+  id:
+    steamExtra:
+      - 4665530
+      - 4997530
+      - 5010550
+  installDir:
+    Brigador Killers: {}
+  launch:
+    "<base>/brigadorkillers.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 903930
 "Brigador: Up-Armored Edition":
@@ -316052,6 +316076,9 @@ Groove Runner:
             store: steam
   steam:
     id: 1197500
+"Groovekeeper: Sort the Record Shop":
+  steam:
+    id: 4953280
 Groovy:
   id:
     steamExtra:
@@ -376655,6 +376682,24 @@ Jacked:
         - os: windows
   id:
     lutris: jacked--1
+Jackie Chan Stuntmaster (ReChan):
+  files:
+    "<base>/userfiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/userfiles/game.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    unknown:
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
 Jackpot Poker by PokerStars:
   installDir:
     Jackpot Poker by PokerStars: {}
