@@ -34413,9 +34413,6 @@ Brothers in Hell:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Moonsaurus Games\\Brothers in Hell\\playerPreferences.json}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Moonsaurus Games\\Brothers in Hell\\}}"
 "Brothers: A Tale of Two Sons":
-  cloud:
-    discord: true
-    origin: true
   gog: 1171070121
   lutris: brothers-a-tale-of-two-sons
   pageId: 10047
@@ -69045,10 +69042,12 @@ Dragon of Legends:
 "Dragon's Checkers":
   pageId: 104995
   steam: 879110
-"Dragon's Dogma II":
+"Dragon's Dogma 2":
   cloud:
     steam: true
   pageId: 187798
+  renamedFrom:
+    - "Dragon's Dogma II"
   steam: 2054970
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
@@ -129707,6 +129706,8 @@ Kung Fu Ping Pong:
   steam: 212030
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Config.exe|{{p|game}}\\Content\\data\\Config.XNA.xml}}"
+"Kung Fu: Deadly Arts":
+  pageId: 220016
 "Kung Fury: Street Rage":
   pageId: 25390
   steam: 373180
@@ -266447,6 +266448,7 @@ Valor & Victory:
 Valor Mortis:
   cloud:
     steam: true
+    xbox: true
   lutris: valor-mortis
   pageId: 207268
   steam: 2828710

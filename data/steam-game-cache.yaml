@@ -630111,6 +630111,20 @@
       executable: "Five Nights at Freddy's Into the Pit.exe"
       type: default
 2638890:
+  installDir: OnimushaWotS
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: OnimushaWotS.exe
+      type: default
+    - config:
+        betakey: dev_q_a_pm
+        osarch: "64"
+        oslist: windows
+      description: runtime_il2cpp.exe
+      executable: runtime_il2cpp.exe
+      type: option2
   nameLocalized:
     japanese: 鬼武者 Way of the Sword
     koreana: 귀무자 Way of the Sword
@@ -653400,6 +653414,38 @@
     schinese: 超级枪弹辩驳２×２
     tchinese: 超級槍彈辯駁２×２
 3751260:
+  cloud:
+    saves:
+      - path: Dawnwalker/Saved/SaveGames
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: The Blood of Dawnwalker
+  launch:
+    - config:
+        oslist: windows
+      executable: "Dawnwalker\\Binaries\\Win64\\Dawnwalker.exe"
+      type: default
+      workingdir: "Dawnwalker\\Binaries\\Win64"
+    - config:
+        betakey: daily_shipping
+        oslist: windows
+      executable: "Dawnwalker\\Binaries\\Win64\\Dawnwalker.exe"
+      type: default
+      workingdir: "Dawnwalker\\Binaries\\Win64"
+    - config:
+        betakey: rw_outsource_hc
+        osarch: "64"
+        oslist: windows
+      executable: "Dawnwalker\\Binaries\\Win64\\Dawnwalker-Win64-Test.exe"
+      type: default
+      workingdir: "Dawnwalker\\Binaries\\Win64"
+    - arguments: "Dawnwalker\\Binaries\\Win64"
+      config:
+        betakey: it_test
+        osarch: "64"
+        oslist: windows
+      executable: "Dawnwalker\\Binaries\\Win64\\Dawnwalker-Win64-Shipping.exe"
+      type: default
   nameLocalized:
     koreana: The Blood of Dawnwalker 더 블러드 오브 던워커
     schinese: The Blood of Dawnwalker 黎明行者之血

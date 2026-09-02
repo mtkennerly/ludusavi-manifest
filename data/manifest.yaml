@@ -106369,8 +106369,6 @@ Brothers in Hell:
   steam:
     id: 2428990
 "Brothers: A Tale of Two Sons":
-  cloud:
-    origin: true
   files:
     "<winDocuments>/My Games/Brothers - A Tale of Two Sons":
       tags:
@@ -213581,7 +213579,7 @@ Dragon of Legends:
             store: steam
   steam:
     id: 879110
-"Dragon's Dogma II":
+"Dragon's Dogma 2":
   cloud:
     steam: true
   files:
@@ -213603,6 +213601,8 @@ Dragon of Legends:
           - store: steam
   steam:
     id: 2054970
+"Dragon's Dogma II":
+  alias: "Dragon's Dogma 2"
 "Dragon's Dogma Online":
   files:
     "<winLocalAppData>/CAPCOM/Dragon's Dogma Online":
@@ -511088,6 +511088,14 @@ Onimod Land:
         - store: steam
   id:
     lutris: onimusha-way-of-the-sword
+  installDir:
+    OnimushaWotS: {}
+  launch:
+    "<base>/OnimushaWotS.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2638890
 Oninaki:
@@ -726827,10 +726835,22 @@ The Blood Eclipse:
 The Blood of Dawnwalker:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Dawnwalker/Saved/SaveGames":
+      when:
+        - store: steam
   gog:
     id: 1889754300
   id:
     lutris: the-blood-of-dawnwalker
+  installDir:
+    The Blood of Dawnwalker: {}
+  launch:
+    "<base>/Dawnwalker/Binaries/Win64/Dawnwalker.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Dawnwalker/Binaries/Win64"
   steam:
     id: 3751260
 The Bloodline:
