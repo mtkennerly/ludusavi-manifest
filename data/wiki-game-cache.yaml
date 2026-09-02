@@ -681,6 +681,9 @@ $1 Ride:
   steamSide:
     - 4519690
     - 5101950
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Amsterdam\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Amsterdam\\Saved\\SaveGames\\}}"
 16bit Trader:
   cloud:
     steam: true
@@ -14329,6 +14332,7 @@ April Grove:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Project_C\\Saved\\Config\\WindowsNoEditor\\|{{p|localappdata}}\\Project_C\\Saved\\SaveGames\\Local\\OptionsData.sav}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Project_C\\Saved\\SaveGames\\}}"
 Aqua Fish:
+  lutris: aqua-fish
   pageId: 78453
   steam: 763090
 "Aqua Kitty: Milk Mine Defender":
@@ -51567,6 +51571,8 @@ Crimson Metal:
   pageId: 61476
   steam: 606960
 Crimson Moon:
+  cloud:
+    steam: true
   lutris: crimson-moon--1
   pageId: 216962
   steam: 4317690
@@ -81511,6 +81517,11 @@ Extreme Forklifting 2:
 Extreme Formula Championship:
   pageId: 93180
   steam: 833810
+Extreme Mountain Biking:
+  pageId: 220007
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\XMB.CFG|{{p|game}}\\XMBRenderer.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\HighScores.dat}}"
 Extreme Offroad Monster Simulator:
   pageId: 150001
   steam: 1164440
@@ -97272,6 +97283,7 @@ Ghost Land:
   steam: 1109110
 Ghost Master:
   gog: 1207658687
+  lutris: ghost-master
   pageId: 3162
   steam: 6200
   templates:
@@ -181367,8 +181379,8 @@ Project Reforged:
 Project Reignition:
   pageId: 202149
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\save\\config.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\save\\*.dat}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Sonic and the Secret Rings Remake\\config.cfg}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Sonic and the Secret Rings Remake\\saves\\*.dat}}"
 Project Remedium:
   cloud:
     steam: true
@@ -218355,6 +218367,12 @@ Spring It!:
 Spring of Decadence:
   pageId: 99474
   steam: 884050
+"Springs, Eternal":
+  cloud:
+    steam: true
+  lutris: springs-eternal
+  pageId: 220003
+  steam: 3677850
 "Sprint Cars: Road to Knoxville":
   lutris: sprint-cars-road-to-knoxville
   pageId: 41351
@@ -255135,6 +255153,9 @@ Tormentum II:
   steam: 931060
   steamSide:
     - 4733980
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\OhNoo Studio\\Tormentum II}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\OhNoo Studio\\Tormentum II}}"
 "Tormentum: Dark Sorrow":
   cloud:
     gog: true
@@ -280600,6 +280621,7 @@ Yakuza 5 Remastered:
   gog: 1086074447
   gogSide:
     - 1734118373
+  lutris: yakuza-6-the-song-of-life
   pageId: 165649
   steam: 1388590
   steamSide:

@@ -2225,10 +2225,16 @@ $1 Ride:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Amsterdam/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Amsterdam/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<winLocalAppData>/Amsterdam/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: 1666-amsterdam
     steamExtra:
@@ -44846,6 +44852,8 @@ April Grove:
   steam:
     id: 960980
 Aqua Fish:
+  id:
+    lutris: aqua-fish
   installDir:
     Aqua Fish: {}
   launch:
@@ -159998,8 +160006,21 @@ Crimson Metal:
   steam:
     id: 606960
 Crimson Moon:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/CrimsonMoonNG/Saved/SaveGames/*.*":
+      when:
+        - store: steam
   id:
     lutris: crimson-moon--1
+  installDir:
+    Crimson Moon: {}
+  launch:
+    "<base>/CrimsonMoonNG.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4317690
 Crimson Nights:
@@ -252301,6 +252322,23 @@ Extreme Formula Championship:
             store: steam
   steam:
     id: 833810
+Extreme Mountain Biking:
+  files:
+    "<base>/HighScores.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/XMB.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/XMBRenderer.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 Extreme Offroad Monster Simulator:
   installDir:
     Extreme Offroad Monster Simulator: {}
@@ -300156,6 +300194,8 @@ Ghost Master:
         - os: windows
   gog:
     id: 1207658687
+  id:
+    lutris: ghost-master
   installDir:
     Ghost Master: {}
   launch:
@@ -556218,14 +556258,14 @@ Project Rampage VR:
     id: 808550
 Project Reignition:
   files:
-    "<base>/save/*.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<base>/save/config.cfg":
+    "<winAppData>/Godot/app_userdata/Sonic and the Secret Rings Remake/config.cfg":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Sonic and the Secret Rings Remake/saves/*.dat":
+      tags:
+        - save
       when:
         - os: windows
 Project Remedium:
@@ -614309,6 +614349,11 @@ Sandbox:
   installDir:
     sbox: {}
   launch:
+    "<base>/sbox":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
     "<base>/sbox.exe":
       - when:
           - bit: 64
@@ -670552,6 +670597,13 @@ Spring It!:
 Spring of Decadence:
   steam:
     id: 884050
+"Springs, Eternal":
+  cloud:
+    steam: true
+  id:
+    lutris: springs-eternal
+  steam:
+    id: 3677850
 "Sprint Cars: Road to Knoxville":
   files:
     "<base>/save_data":
@@ -783294,20 +783346,11 @@ Tormentum II:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/OhNoo Studio/Tormentum II/*.jpg":
+    "<home>/AppData/LocalLow/OhNoo Studio/Tormentum II":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/OhNoo Studio/Tormentum II/*.save":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/OhNoo Studio/Tormentum II/*.jpg":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/OhNoo Studio/Tormentum II/*.save":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: tormentum-ii
     steamExtra:
@@ -783328,6 +783371,10 @@ Tormentum II:
           - bit: 64
             os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/OhNoo Studio/Tormentum II:
+      tags:
+        - config
   steam:
     id: 931060
 "Tormentum: Dark Sorrow":
@@ -839655,6 +839702,13 @@ Wheel of Fate:
 WheelMates:
   id:
     lutris: wheelmates
+  installDir:
+    WheelMates: {}
+  launch:
+    "<base>/LyraGame.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3905450
 Wheelbarrow Warrior:
@@ -857436,6 +857490,7 @@ Yakuza 5 Remastered:
   id:
     gogExtra:
       - 1734118373
+    lutris: yakuza-6-the-song-of-life
     steamExtra:
       - 1478720
   installDir:

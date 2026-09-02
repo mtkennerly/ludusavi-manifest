@@ -230007,6 +230007,12 @@
       description: Play s&box
       executable: sbox.exe
       type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: Play s&box
+      executable: sbox
+      type: default
 590840:
   installDir: Attack of the Giant Mutant Lizard
   launch:
@@ -403181,6 +403187,13 @@
             replace: OhNoo Studio/Tormentum II
         root: WinAppDataLocalLow
         useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: OhNoo Studio/Tormentum II
+            replace: ".config/unity3d/OhNoo Studio/Tormentum II"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
   installDir: Tormentum II
   launch:
     - config:
@@ -652576,6 +652589,7 @@
 3674680: {}
 3676410: {}
 3677050: {}
+3677850: {}
 3678970:
   cloud:
     saves:
@@ -654831,6 +654845,12 @@
     tchinese: ONE PIECE 海洋盛宴
     thai: ONE PIECE ภัตตาคารเลิศรสลอยทะเล (ชื่อชั่วคราว)
 3905450:
+  installDir: WheelMates
+  launch:
+    - config:
+        oslist: windows
+      executable: LyraGame.exe
+      type: default
   nameLocalized:
     schinese: WheelMates (双轮成行)
     tchinese: WheelMates (雙輪成行)
@@ -657542,7 +657562,18 @@
       type: default
 4316480: {}
 4317460: {}
-4317690: {}
+4317690:
+  cloud:
+    saves:
+      - path: "\\CrimsonMoonNG\\Saved\\SaveGames"
+        pattern: "*.*"
+        root: WinAppDataLocal
+  installDir: Crimson Moon
+  launch:
+    - config:
+        oslist: windows
+      executable: CrimsonMoonNG.exe
+      type: default
 4323990:
   installDir: EMPULSE
   launch:
