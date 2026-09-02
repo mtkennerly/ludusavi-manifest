@@ -81951,6 +81951,20 @@ Big Battle And Defence Simulator:
             store: steam
   steam:
     id: 3220050
+Big Biz Tycoon:
+  files:
+    "<base>/VT*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+Big Biz Tycoon! 2:
+  files:
+    "<base>/game.INI":
+      tags:
+        - config
+      when:
+        - os: windows
 Big Blue - Memory:
   installDir:
     Big Blue Memory: {}
@@ -370310,6 +370324,8 @@ Intersolar Overdrive:
 "Interstate '82":
   gog:
     id: 1207659076
+  id:
+    lutris: interstate-82
 Interstellar Invaders:
   installDir:
     Interstellar Invaders: {}

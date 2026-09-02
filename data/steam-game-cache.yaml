@@ -209845,13 +209845,34 @@
         oslist: windows
       executable: "bin\\helldivers2.exe"
       type: default
-    - arguments: "--bundle-dir data --release"
+    - arguments: "--bundle-dir cdata --release"
       config:
-        betakey: nixxes_3
+        betakey: "nixxes_3, nixxes_5"
         osarch: "64"
         ownsdlc: "1999180"
       description: Easy Anti Cheat
       executable: start_protected_game.exe
+    - arguments: "-anticheat_settings=SettingsProfile.json --bundle-dir data --release"
+      config:
+        betakey: "nixxes_3, nixxes_5"
+        osarch: "64"
+        ownsdlc: "1999180"
+      description: profile_1
+      executable: start_protected_game.exe
+    - arguments: "-anticheat_settings=SettingsProfileProtected.json --bundle-dir cdata --release"
+      config:
+        betakey: "nixxes_3, nixxes_5"
+        osarch: "64"
+        ownsdlc: "1999180"
+      description: profile_2
+      executable: start_protected_game.exe
+    - arguments: "--bundle-dir cdata --release"
+      config:
+        betakey: "nixxes_3, nixxes_5"
+        osarch: "64"
+        ownsdlc: "1999180"
+      description: profile_3
+      executable: "bin\\profile-protected\\stingray_win64_profile.exe"
     - arguments: "--bundle-dir data"
       config:
         osarch: "64"

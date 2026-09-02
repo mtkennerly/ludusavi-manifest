@@ -6207,6 +6207,7 @@
 * [CyberRebeat -The Fifth Domain of Warfare-](https://www.pcgamingwiki.com/wiki/?curid=108172)
 * [CyberRunner](https://www.pcgamingwiki.com/wiki/?curid=144049)
 * [CyberSpeed](https://www.pcgamingwiki.com/wiki/?curid=211320)
+* [Cyberstreet](https://www.pcgamingwiki.com/wiki/?curid=220027)
 * [CyberTaxi: Lunatic Nights](https://www.pcgamingwiki.com/wiki/?curid=208699)
 * [CyberThreat](https://www.pcgamingwiki.com/wiki/?curid=36169)
 * [Cyberwar](https://www.pcgamingwiki.com/wiki/?curid=201410)

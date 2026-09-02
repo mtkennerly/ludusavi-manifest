@@ -26581,6 +26581,14 @@ Big Battle And Defence Simulator:
 "Big Beautiful Women: Giantess Dating Action":
   pageId: 214073
   steam: 3220050
+Big Biz Tycoon:
+  pageId: 220022
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\VT*.sav}}"
+Big Biz Tycoon! 2:
+  pageId: 220025
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\game.INI}}"
 Big Blue - Memory:
   pageId: 87982
   steam: 778540
@@ -54503,6 +54511,8 @@ Cyberpunk SFX:
 Cyberpunk Sex Simulator:
   pageId: 148449
   steam: 1175950
+Cyberstreet:
+  pageId: 220027
 Cyberswine:
   pageId: 128817
   templates:
@@ -120167,6 +120177,7 @@ Intersolar Overdrive:
     - "{{Game data/saves|Windows|{{p|game}}\\*.cmp|{{p|game}}\\savegame.dir}}"
 "Interstate '82":
   gog: 1207659076
+  lutris: interstate-82
   pageId: 14568
 Interstellar Invaders:
   pageId: 72193
