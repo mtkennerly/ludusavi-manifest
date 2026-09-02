@@ -467300,7 +467300,38 @@
         oslist: windows
       executable: pod.exe
       type: default
-1070500: {}
+1070500:
+  cloud:
+    saves:
+      - path: Danga Games/He Who Watches
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Danga Games/He Who Watches
+            replace: Danga Games/He Who Watches
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Danga Games/He Who Watches
+            replace: ".config/unity3d/Danga Games/He Who Watches"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: HeWhoWatches
+  launch:
+    - config:
+        oslist: windows
+      executable: He Who Watches.exe
+    - config:
+        oslist: macos
+      executable: He Who Watches.app
+    - config:
+        oslist: linux
+      executable: He Who Watches
 1070510:
   cloud:
     saves:
@@ -552600,6 +552631,41 @@
       config:
         oslist: windows
       executable: hl2.exe
+      type: default
+1390070:
+  cloud:
+    saves:
+      - path: AdInfernum_Data/Resources/ProfileData
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: AdInfernum.app/Contents/Resources/ProfileData
+        pattern: "*"
+        platforms:
+          - MacOS
+        recursive: true
+        root: gameinstall
+      - path: AdInfernum_Data/Resources/ProfileData
+        pattern: "*"
+        platforms:
+          - Linux
+        recursive: true
+        root: gameinstall
+  installDir: Ad Infernum
+  launch:
+    - config:
+        oslist: windows
+      executable: AdInfernum.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: AdInfernum.app
+      type: default
+    - config:
+        oslist: linux
+      executable: AdInfernum.x86_64
       type: default
 1390190:
   cloud:
@@ -657440,6 +657506,37 @@
       executable: CODES.BAT
 4259930: {}
 4260840: {}
+4262410:
+  cloud:
+    saves:
+      - path: Entropy/TheAuroraChronicles/Saves
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: The Aurora Chronicles
+  launch:
+    - config:
+        oslist: windows
+      executable: TheAuroraChronicles.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: TheAuroraChronicles.app
+      type: default
+    - config:
+        oslist: linux
+      executable: TheAuroraChronicles.x86_64
+      type: default
 4262620: {}
 4264230:
   cloud:
@@ -658280,12 +658377,20 @@
 4475520: {}
 4484200: {}
 4487840:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.pl1"
+        root: gameinstall
   installDir: Hard Truck 2 King of the Road
   launch:
     - config:
         oslist: windows
       executable: king.exe
       type: default
+    - description: Graphics Configuration Tool
+      executable: HT2GraphicsConfig.exe
+      type: option1
   nameLocalized:
     russian: Дальнобойщики 2
 4491360:

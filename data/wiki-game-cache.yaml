@@ -6188,6 +6188,15 @@ Ad Fundum:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Oldbut Gold\\Ad Fundum\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Oldbut Gold\\Ad Fundum\\Saves\\}}"
+Ad Infernum:
+  cloud:
+    steam: true
+  lutris: ad-infernum
+  pageId: 220034
+  steam: 1390070
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\AdInfernum_Data\\Resources\\ProfileData}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\AdInfernum_Data\\Resources\\ProfileData}}"
 Ad Infinitum:
   cloud:
     epic: true
@@ -41984,6 +41993,8 @@ Chickens Madness:
     steam: true
   pageId: 77353
   steam: 645650
+Chickie Egg:
+  pageId: 220033
 Chicks and Tricks VR:
   pageId: 149460
   steam: 1134200
@@ -74177,6 +74188,7 @@ Earthworm Jim 2:
   gog: 1207663113
   gogSide:
     - 1207658672
+  lutris: earthworm-jim-2
   pageId: 13980
   steam: 38490
   templates:
@@ -81578,6 +81590,8 @@ Extreme Tactical Executioners:
   steam: 1126950
 Extreme Tactics:
   pageId: 211024
+Extreme Tennis:
+  pageId: 220044
 Extreme Truck Simulator:
   pageId: 127781
   steam: 1020600
@@ -103850,6 +103864,8 @@ Gunsmith:
   pageId: 78802
   steam: 620190
 Gunsmith Simulator:
+  cloud:
+    steam: true
   pageId: 139524
   steam: 1101120
 Gunspell - Steam Edition:
@@ -105940,6 +105956,8 @@ Hard Truck:
     - "{{Game data/config|Windows|{{p|game}}\\truck.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.pl}}"
 Hard Truck 2:
+  cloud:
+    steam: true
   gog: 1731168163
   lutris: hard-truck-2-king-of-the-road
   pageId: 31153
@@ -123073,6 +123091,7 @@ JetFighter 2015:
 "JetFighter: The Adventure":
   pageId: 186520
 JetFly:
+  malformed: true
   pageId: 68430
   steam: 683810
 JetX:
@@ -172800,6 +172819,8 @@ Peaceful Days:
   pageId: 151343
   steam: 1156360
 Peak:
+  cloud:
+    steam: true
   lutris: peak
   pageId: 205648
   renamedFrom:
@@ -177964,6 +177985,10 @@ Police Stories 2:
 Police Stunt Cars:
   pageId: 141831
   steam: 1124190
+Police Tactical Training:
+  pageId: 220049
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\default.cfg|{{p|game}}\\defcmds.cfg|{{p|game}}\\DefEquip.cfg|{{p|game}}\\player.cfg}}"
 "Police Tactics: Imperio":
   pageId: 38751
   steam: 378800
@@ -188224,6 +188249,9 @@ Rebels & Redcoats:
   steam: 1025540
 "Rebels: Prison Escape":
   pageId: 207489
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\controls.cfg|{{p|game}}\\donut.cfg|{{p|game}}\\rebels.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
 Rebirth:
   pageId: 125769
   steam: 972920
@@ -221658,6 +221686,9 @@ Stealth Bastard Deluxe:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/StealthBastard/}}"
 "Stealth Combat: Ultimate War":
   pageId: 197930
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\SCom.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\}}"
 Stealth Force 2:
   pageId: 196883
 "Stealth Inc. 2: A Game of Clones":
@@ -235820,6 +235851,20 @@ The Atomy:
 The Aura Warrior:
   pageId: 139292
   steam: 1081320
+The Aurora Chronicles:
+  cloud:
+    steam: true
+  pageId: 220040
+  steam: 4262410
+  steamSide:
+    - 4287070
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Entropy\\TheAuroraChronicles\\Saves\\}}"
+    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Entropy/TheAuroraChronicles/Saves/}}"
+    - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Entropy/TheAuroraChronicles/Saves/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Entropy\\TheAuroraChronicles\\Saves\\}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Entropy/TheAuroraChronicles/Saves/}}"
+    - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/Entropy/TheAuroraChronicles/Saves/}}"
 The Automatician:
   pageId: 65837
   steam: 657700

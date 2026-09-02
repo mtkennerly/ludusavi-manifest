@@ -19522,6 +19522,35 @@ Ad Fundum:
         - config
   steam:
     id: 2647820
+Ad Infernum:
+  cloud:
+    steam: true
+  files:
+    "<base>/AdInfernum_Data/Resources/ProfileData":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: ad-infernum
+  installDir:
+    Ad Infernum: {}
+  launch:
+    "<base>/AdInfernum.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/AdInfernum.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/AdInfernum.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1390070
 Ad Infinitum:
   cloud:
     epic: true
@@ -229527,6 +229556,7 @@ Earthworm Jim 2:
   id:
     gogExtra:
       - 1207658672
+    lutris: earthworm-jim-2
   installDir:
     Earthworm Jim: {}
   launch:
@@ -320025,6 +320055,8 @@ Gunsmith:
   steam:
     id: 620190
 Gunsmith Simulator:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Game Hunters/Gunsmith Simulator/SavedGame/**/*.sgx":
       when:
@@ -326282,6 +326314,8 @@ Hard Truck:
       when:
         - os: windows
 Hard Truck 2:
+  cloud:
+    steam: true
   files:
     "<base>/*.pl1":
       tags:
@@ -329288,10 +329322,37 @@ He Needs His Medicine:
   steam:
     id: 1590360
 He Who Watches:
+  files:
+    "<home>/.config/unity3d/Danga Games/He Who Watches/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Danga Games/He Who Watches/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Danga Games/He Who Watches/*.sav":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: he-who-watches
     steamExtra:
       - 2381760
+  installDir:
+    HeWhoWatches: {}
+  launch:
+    "<base>/He Who Watches":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/He Who Watches.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/He Who Watches.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1070500
 He Will Shoot:
@@ -529574,6 +529635,8 @@ Peaceful Days:
   steam:
     id: 1156360
 Peak:
+  cloud:
+    steam: true
   id:
     lutris: peak
   installDir:
@@ -545260,6 +545323,28 @@ Police Stunt Cars:
             store: steam
   steam:
     id: 1124190
+Police Tactical Training:
+  files:
+    "<base>/DefEquip.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/default.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/defcmds.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/player.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
 "Police Tactics: Imperio":
   installDir:
     Project Hero: {}
@@ -577491,6 +577576,28 @@ Rebels & Redcoats:
             store: steam
   steam:
     id: 1025540
+"Rebels: Prison Escape":
+  files:
+    "<base>/controls.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/donut.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/rebels.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savegame":
+      tags:
+        - save
+      when:
+        - os: windows
 Rebirth:
   installDir:
     Rebirth: {}
@@ -680658,6 +680765,18 @@ Stealth Bastard Deluxe:
             store: steam
   steam:
     id: 209190
+"Stealth Combat: Ultimate War":
+  files:
+    "<base>/SCom.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SavedGames":
+      tags:
+        - save
+      when:
+        - os: windows
 "Stealth Inc. 2: A Game of Clones":
   files:
     "<winLocalAppData>/Curve Digital/Stealth Inc. 2":
@@ -725016,6 +725135,48 @@ The Aura Warrior:
             store: steam
   steam:
     id: 1081320
+The Aurora Chronicles:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Entropy/TheAuroraChronicles/Saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Entropy/TheAuroraChronicles/Saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<xdgConfig>/unity3d/Entropy/TheAuroraChronicles/Saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+  id:
+    steamExtra:
+      - 4287070
+  installDir:
+    The Aurora Chronicles: {}
+  launch:
+    "<base>/TheAuroraChronicles.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TheAuroraChronicles.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/TheAuroraChronicles.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4262410
 The Automatician:
   installDir:
     The Automatician: {}
