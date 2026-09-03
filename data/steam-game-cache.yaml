@@ -122922,7 +122922,7 @@
   launch:
     - config:
         oslist: windows
-      executable: TankBattle1944.exe
+      executable: Tank Battle 1944.exe
       type: default
     - config:
         oslist: macos

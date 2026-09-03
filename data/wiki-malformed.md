@@ -3,6 +3,7 @@
 * [Aooni (2008)](https://www.pcgamingwiki.com/wiki/?curid=207717)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
 * [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
+* [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
@@ -21,3 +22,4 @@
 * [Riddle Tower](https://www.pcgamingwiki.com/wiki/?curid=217157)
 * [Riding to Bounce City](https://www.pcgamingwiki.com/wiki/?curid=218655)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
+* [Tom Clancy's Rainbow Six 3: Raven Shield](https://www.pcgamingwiki.com/wiki/?curid=6307)

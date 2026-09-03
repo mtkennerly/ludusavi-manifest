@@ -67563,6 +67563,7 @@ Doom of the Clawn:
     steam: true
     xbox: true
   lutris: doom-the-dark-ages
+  malformed: true
   pageId: 195569
   steam: 3017860
   steamSide:
@@ -113453,6 +113454,7 @@ Hot Wheels World Race:
 "Hot Wheels: Infinite Rush":
   cloud:
     steam: true
+  lutris: hot-wheels-infinite-rush
   pageId: 217320
   steam: 2821390
 "Hot Wheels: Jetz":
@@ -232436,7 +232438,7 @@ Tank Battle Mania:
   pageId: 44367
   steam: 396320
   templates:
-    - "{{Game data/saves|Windows|{{path|localappdata}}\\TankBattle1944}}"
+    - "{{Game data/saves|Windows|{{path|localappdata}}\\Tank Battle 1944}}"
 "Tank Battle: 1945":
   pageId: 57976
   steam: 540250
@@ -254137,6 +254139,7 @@ Tom & Jerry:
     - "{{Game data/saves|Windows|{{p|game}}\\data\\save}}"
 "Tom Clancy's Rainbow Six 3: Raven Shield":
   lutris: tom-clancys-rainbow-six-3-gold-edition
+  malformed: true
   pageId: 6307
   steam: 19830
   steamSide:
@@ -275810,7 +275813,7 @@ Wild Metal Country:
   steam: 12190
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\DMA Design\\Wild Metal Country\\3DMA Settings}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\WinEnv\\Configs\\FrontEnd\\PLAYERS}}"
+    - "{{Game data/saves|Windows|Player Profile : {{p|game}}\\WinEnv\\Configs\\FrontEnd\\PLAYERS <br> In-game Saves : {{p|game}}\\WinEnv\\Scenes\\Level45.scn, Level46.scn, Level47.scn, Level48.scn, Level49.scn, Level50.scn <br> Level Archive : {{p|game}}\\WinEnv\\Scenes\\ARCHIVE}}"
 Wild RTS:
   pageId: 77188
   steam: 753140

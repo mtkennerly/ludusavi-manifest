@@ -349360,6 +349360,8 @@ Hot Wheels World Race:
 "Hot Wheels: Infinite Rush":
   cloud:
     steam: true
+  id:
+    lutris: hot-wheels-infinite-rush
   steam:
     id: 2821390
 "Hot Wheels: Micro Racers":
@@ -714210,7 +714212,7 @@ Tank Battle Mania:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/TankBattle1944":
+    "<winLocalAppData>/Tank Battle 1944":
       tags:
         - save
       when:
@@ -714218,13 +714220,13 @@ Tank Battle Mania:
   installDir:
     Tank Battle 1944: {}
   launch:
+    "<base>/Tank Battle 1944.exe":
+      - when:
+          - os: windows
+            store: steam
     "<base>/TankBattle1944.app":
       - when:
           - os: mac
-            store: steam
-    "<base>/TankBattle1944.exe":
-      - when:
-          - os: windows
             store: steam
   steam:
     id: 396320
@@ -842858,12 +842860,6 @@ Wild Mage - Phantom Twilight:
   steam:
     id: 771770
 Wild Metal Country:
-  files:
-    "<base>/WinEnv/Configs/FrontEnd/PLAYERS":
-      tags:
-        - save
-      when:
-        - os: windows
   installDir:
     Wild Metal Country: {}
   launch:
