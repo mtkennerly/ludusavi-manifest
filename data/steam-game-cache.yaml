@@ -181401,6 +181401,9 @@
         oslist: windows
       executable: "ArkhamVR\\Binaries\\Win64\\ArkhamVR.exe"
       type: vr
+502870:
+  nameLocalized:
+    russian: "Ил-2 Штурмовик: Битва за Москву"
 502880:
   installDir: The Janitor
   launch:
@@ -644407,7 +644410,17 @@
   launch:
     - executable: Driveloop.exe
       type: default
-3183760: {}
+3183760:
+  cloud:
+    saves:
+      - path: "tinyBuild LLC\\SpeedRunners 2_ King of Speed"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Speedrunners 2 King of Speed
+  launch:
+    - executable: SpeedRunners 2.exe
 3183970:
   cloud:
     saves:
@@ -649648,6 +649661,8 @@
 3486530:
   nameLocalized:
     japanese: ステューピッド・ネバー・ダイズ（Stupid Never Dies）
+    schinese: 愚者不灭（Stupid Never Dies）
+    tchinese: 愚者不滅（Stupid Never Dies）
 3487390:
   cloud:
     saves:
@@ -652404,7 +652419,19 @@
   nameLocalized:
     english: Stray Children
     japanese: ストレイチルドレン
-3650170: {}
+3650170:
+  cloud:
+    saves:
+      - path: Marsu2Steam/Saved/SaveGames
+        pattern: Slot *.sav
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Marsupilami 2
+  launch:
+    - config:
+        oslist: windows
+      executable: Marsu2Steam.exe
+      type: default
 3652470: {}
 3653600:
   installDir: This Isnt Just Tower Defense

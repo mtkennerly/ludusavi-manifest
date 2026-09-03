@@ -24978,6 +24978,14 @@ Beat Saber:
     - 4550640
     - 4550650
     - 4756020
+    - 4886340
+    - 4886350
+    - 4886360
+    - 4886370
+    - 4886380
+    - 4886390
+    - 4886400
+    - 4886410
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Hyperbolic Magnetism\\Beat Saber\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Hyperbolic Magnetism\\Beat Saber\\*.dat}}"
@@ -87174,8 +87182,13 @@ Final Fantasy VII Remake Intergrade:
     - "{{Game data/saves|Steam|{{P|userprofile\\Documents}}\\My Games\\FINAL FANTASY VII REMAKE\\Steam\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\39EA002F.EXED1_n746a19ndrrjg\\SystemAppData\\wgs\\}}"
 Final Fantasy VII Revelation:
+  cloud:
+    epic: true
+    steam: true
   pageId: 217305
   steam: 4354570
+  steamSide:
+    - 4910840
 "Final Fantasy VII: Ever Crisis":
   pageId: 191339
   steam: 2484110
@@ -116441,6 +116454,9 @@ IL-2 Sturmovik:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\conf.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\USER\\{{p|uid}}}}"
+"IL-2 Sturmovik: Battle of Moscow":
+  pageId: 220073
+  steam: 502870
 "IL-2 Sturmovik: Battle of Stalingrad":
   pageId: 19363
   steam: 307960
@@ -126073,6 +126089,7 @@ Keeper:
   cloud:
     steam: true
     xbox: true
+  gog: 1428536898
   lutris: keeper--5
   pageId: 205304
   steam: 3043580
@@ -145497,7 +145514,9 @@ Mega Coin Squad:
   steam: 312510
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Big Pixel Studios\\Mega Coin Squad\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Big Pixel Studios/Mega Coin Squad/perfs}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Big Pixel Studios\\Mega Coin Squad\\}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Big Pixel Studios/Mega Coin Squad/perfs}}"
 Mega Hasan:
   pageId: 155594
   steam: 1217100
@@ -147423,6 +147442,7 @@ Metro 2033 Redux:
     - "{{Game data/saves|Epic Games Launcher|{{p|userprofile}}\\Documents\\4A Games\\Metro 2033\\}}"
 Metro 2039:
   cloud:
+    epic: true
     steam: true
     xbox: true
   lutris: metro-2039
@@ -216930,6 +216950,8 @@ SpeedRunners:
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/SpeedRunners/}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\207140\\remote\\}}"
 "SpeedRunners 2: King of Speed":
+  cloud:
+    steam: true
   lutris: speedrunners-2-king-of-speed
   pageId: 214048
   steam: 3183760
@@ -224790,8 +224812,11 @@ Stupid Invaders:
     - "{{Game data/config|Windows|{{p|game}}\\Save\\config.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\*.dat}}"
 Stupid Never Dies:
+  lutris: stupid-never-dies
   pageId: 211977
   steam: 3486530
+  steamSide:
+    - 4880100
 Stupid Quest - Medieval Adventures:
   cloud:
     steam: true
