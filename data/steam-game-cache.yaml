@@ -633818,8 +633818,9 @@
     - config:
         osarch: "64"
         oslist: linux
+      description: using Vulkan (preferred)
       executable: "linux\\garagerally.x86_64"
-      type: default
+      type: option1
       workingdir: "linux\\"
     - arguments: "--rendering-driver opengl3"
       config:
@@ -633831,9 +633832,24 @@
       workingdir: "win\\"
     - config:
         oslist: macos
+      description: using Vulkan (preferred)
       executable: "macOS\\Parking Garage Rally Circuit.app\\Contents\\MacOS\\Parking Garage Rally Circuit"
-      type: default
+      type: option1
       workingdir: "macos\\"
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: macos
+      description: using OpenGL3 Compatibility Mode
+      executable: "macOS\\Parking Garage Rally Circuit.app\\Contents\\MacOS\\Parking Garage Rally Circuit"
+      type: option2
+      workingdir: "macos\\"
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: linux
+      description: using OpenGL3 Compatibility Mode
+      executable: "linux\\garagerally.x86_64"
+      type: option2
+      workingdir: "linux\\"
 2738170: {}
 2738230:
   cloud:

@@ -32150,9 +32150,16 @@ Aliens&Asteroids:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/AFE2/Saved/SaveGames/<storeUserId>/**/*.sav":
+    "<winLocalAppData>/AFE2/Saved/Config":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/AFE2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 4941380
@@ -326899,6 +326906,45 @@ Hare In The Hat:
 Harem Wars:
   steam:
     id: 657250
+"Harley-Davidson: Race Across America":
+  files:
+    "<base>/BESTTIMES.CFG":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/HARLEY.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/harley.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/hconfig.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+"Harley-Davidson: Race Around the World":
+  files:
+    "<base>/HISCORES.CFG":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Profile.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/SETTINGS.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
 "Harley-Davidson: Race to the Rally":
   files:
     "<base>/Harley/Cfg/console.cfg":
@@ -526570,18 +526616,6 @@ Parking Garage Rally Circuit:
       - 3162910
   installDir:
     Parking Garage Rally Circuit: {}
-  launch:
-    "<base>/linux/garagerally.x86_64":
-      - when:
-          - bit: 64
-            os: linux
-            store: steam
-        workingDir: "<base>/linux"
-    "<base>/macOS/Parking Garage Rally Circuit.app/Contents/MacOS/Parking Garage Rally Circuit":
-      - when:
-          - os: mac
-            store: steam
-        workingDir: "<base>/macos"
   steam:
     id: 2737300
 Parking Lot Royale:
@@ -727011,6 +727045,7 @@ The Blood Eclipse:
     id: 955290
 The Blood of Dawnwalker:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Dawnwalker/Saved/SaveGames":
@@ -727019,7 +727054,13 @@ The Blood of Dawnwalker:
   gog:
     id: 1889754300
   id:
+    gogExtra:
+      - 1117162862
+      - 1760234784
+      - 2108573629
     lutris: the-blood-of-dawnwalker
+    steamExtra:
+      - 4417550
   installDir:
     The Blood of Dawnwalker: {}
   launch:

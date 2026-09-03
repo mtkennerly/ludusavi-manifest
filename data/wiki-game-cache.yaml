@@ -10257,6 +10257,9 @@ Aliens&Asteroids:
   steamSide:
     - 4941380
     - 4941390
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\AFE2\\Saved\\Config\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\AFE2\\Saved\\SaveGames\\}}"
 Alight:
   pageId: 136058
   steam: 1050270
@@ -41774,11 +41777,21 @@ Chessmaster 10th Edition:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Users\\{{p|uid}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\Users\\{{p|uid}}\\}}"
+Chessmaster 3000:
+  pageId: 220057
+Chessmaster 4000:
+  pageId: 220061
+Chessmaster 4000 Turbo:
+  pageId: 220059
+Chessmaster 5000:
+  pageId: 220063
 Chessmaster 5500:
   pageId: 6286
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.CMG}}"
+Chessmaster 6000:
+  pageId: 220065
 Chessmaster 9000:
   gog: 1207658756
   lutris: chessmaster-9000
@@ -106176,13 +106189,23 @@ Hare Raising Havoc:
 Harem Wars:
   pageId: 77411
   steam: 657250
+"Harley-Davidson: Race Across America":
+  pageId: 220051
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\HARLEY.CFG|{{p|game}}\\harley.ini|{{p|game}}\\hconfig.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\BESTTIMES.CFG}}"
 "Harley-Davidson: Race Around the World":
   pageId: 197141
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Profile.cfg|{{p|game}}\\SETTINGS.CFG}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\HISCORES.CFG}}"
 "Harley-Davidson: Race to the Rally":
   pageId: 179634
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Harley\\Cfg\\console.cfg}}"
     - "{{Game data/saves|Windows|{{p|ProgramData}}\\Harley-Davidson_ Race to the Rally Saves\\}}"
+"Harley-Davidson: The Road to Sturgis":
+  pageId: 220053
 "Harley-Davidson: Wheels of Freedom":
   pageId: 219152
 Harlow:
@@ -236467,12 +236490,19 @@ The Blood Eclipse:
   steam: 955290
 The Blood of Dawnwalker:
   cloud:
+    gog: true
     steam: true
     xbox: true
   gog: 1889754300
+  gogSide:
+    - 1117162862
+    - 1760234784
+    - 2108573629
   lutris: the-blood-of-dawnwalker
   pageId: 200865
   steam: 3751260
+  steamSide:
+    - 4417550
 The Bloodline:
   pageId: 151577
   steam: 1159290
@@ -237162,6 +237192,8 @@ The Chasm:
 The Chemist:
   pageId: 89234
   steam: 716380
+The Chessmaster 2000:
+  pageId: 220055
 The Chickenator:
   pageId: 188905
   templates:
