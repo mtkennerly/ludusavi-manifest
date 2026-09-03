@@ -29128,7 +29128,6 @@
 * [Travel Riddles: Trip To Italy](https://www.pcgamingwiki.com/wiki/?curid=64270)
 * [Travel VR](https://www.pcgamingwiki.com/wiki/?curid=89238)
 * [Travelling around the world on a hot air balloon](https://www.pcgamingwiki.com/wiki/?curid=143944)
-* [Traverser](https://www.pcgamingwiki.com/wiki/?curid=47333)
 * [Travildorn](https://www.pcgamingwiki.com/wiki/?curid=89603)
 * [Trawl](https://www.pcgamingwiki.com/wiki/?curid=43057)
 * [TRE HUN: Unity-Chan x Action](https://www.pcgamingwiki.com/wiki/?curid=128032)

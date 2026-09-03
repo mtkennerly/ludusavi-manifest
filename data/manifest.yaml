@@ -792928,6 +792928,17 @@ Travelling around the world on a hot air balloon:
   steam:
     id: 1137200
 Traverser:
+  files:
+    "<base>/Saves/SaveGameState":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/UDKGame/Config":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Traverser: {}
   launch:

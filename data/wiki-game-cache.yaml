@@ -85506,6 +85506,8 @@ Fate of the World:
     - "{{Game data/config|Steam|{{p|game}}/win_config.ini}}"
     - "{{Game data/saves|Windows|{{P|steam}}/userdata/{{p|uid}}/511680/remote/savedata/FESAVSYSTEM.bin<ref>{{Refurl|url=https://www.reddit.com/r/fateextella/comments/6r1s4k/where_is_the_save_data_file/|title=Where is the Save Data file?|date=2017-08-02}}</ref>}}"
 Fate/Extra Record:
+  cloud:
+    steam: true
   pageId: 207713
 Fate/Hollow Ataraxia:
   pageId: 164556
@@ -111757,7 +111759,7 @@ Hive Jump:
   steam: 2545740
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Graphite Lab\\Hive Jump Survivors\\saves\\Save.sav}}"
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Graphite Lab/Hive Jump Survivors/saves\\Save.sav}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Graphite Lab/Hive Jump Survivors/saves/Save.sav}}"
 Hive Quest:
   pageId: 96183
   steam: 843280
@@ -259023,6 +259025,9 @@ Travelling around the world on a hot air balloon:
 Traverser:
   pageId: 47333
   steam: 327520
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\UDKGame\\Config\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves\\SaveGameState\\}}"
 Travildorn:
   pageId: 89603
   steam: 816750

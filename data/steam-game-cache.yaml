@@ -21291,14 +21291,14 @@
       executable: payday2_win32_release.exe
       type: option1
     - config:
-        betakey: public candidate nightly
+        betakey: public candidate nightly test17
         osarch: "64"
         oslist: windows
       executable: PAYDAY2.exe
       type: default
     - arguments: "-vr"
       config:
-        betakey: public candidate nightly
+        betakey: public candidate nightly test17
         osarch: "64"
         oslist: windows
         ownsdlc: "826090"
