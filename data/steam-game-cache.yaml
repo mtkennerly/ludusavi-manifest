@@ -552726,6 +552726,17 @@
   launch:
     - executable: webbed.exe
       type: default
+1390370:
+  installDir: Winds Rhapsody
+  launch:
+    - config:
+        oslist: windows
+      executable: Game.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Game.app
+      type: default
 1390410:
   cloud:
     saves:
@@ -644565,6 +644576,11 @@
         platforms:
           - Windows
         root: WinAppDataLocalLow
+      - path: Dark Machine/White Knuckle/Sessions/
+        pattern: "*.session"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
   installDir: White Knuckle
   launch:
     - executable: White Knuckle.exe
@@ -649028,7 +649044,22 @@
     schinese: 这龙带刀
     tchinese: 這龍帶刀
 3440200: {}
-3441990: {}
+3441990:
+  cloud:
+    saves:
+      - path: "Moonless Formless/Withering Realms/{64BitSteamID}"
+        pattern: save*
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: WinAppDataLocalLow
+  installDir: Withering Realms
+  launch:
+    - executable: Withering Realms.exe
+      type: default
 3444480:
   cloud:
     saves:
@@ -657804,7 +657835,16 @@
     japanese: アイアン ブランブル
     schinese: 铁棘
 4333430: {}
-4334910: {}
+4334910:
+  cloud:
+    saves:
+      - path: "\\FireExit\\Craving Wisps\\"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Craving Wisps
+  launch:
+    - executable: Craving Wisps.exe
+      type: default
 4335460: {}
 4339870:
   installDir: Goreagulation

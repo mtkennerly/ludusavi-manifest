@@ -36450,6 +36450,9 @@ American Truck Simulator:
       - 3025440
       - 3146090
       - 3272290
+      - 3749870
+      - 3793190
+      - 3793200
       - 3872930
       - 4348660
   installDir:
@@ -156951,8 +156954,18 @@ Crate Punks:
   steam:
     id: 517960
 Craving Wisps:
+  files:
+    "<home>/AppData/LocalLow/FireExit/Craving Wisps":
+      when:
+        - store: steam
   id:
     lutris: craving-wisps
+  installDir:
+    Craving Wisps: {}
+  launch:
+    "<base>/Craving Wisps.exe":
+      - when:
+          - store: steam
   steam:
     id: 4334910
 Crawl:
@@ -319017,6 +319030,8 @@ Gundam Evolution:
   steam:
     id: 1816670
 Gundam Rogue Orbit:
+  id:
+    lutris: gundam-rogue-orbit
   steam:
     id: 1963680
 GundeadliGne:
@@ -428785,6 +428800,9 @@ Lupinball:
       when:
         - os: mac
           store: steam
+  id:
+    steamExtra:
+      - 705190
   installDir:
     Lupinball: {}
   launch:
@@ -840048,6 +840066,8 @@ Wheel of Fate:
 WheelMates:
   id:
     lutris: wheelmates
+    steamExtra:
+      - 5108990
   installDir:
     WheelMates: {}
   launch:
@@ -841662,6 +841682,7 @@ White Knuckle:
     "<home>/AppData/LocalLow/Dark Machine/White Knuckle":
       tags:
         - config
+        - save
       when:
         - os: windows
   installDir:
@@ -844763,6 +844784,22 @@ Windrose:
             store: steam
   steam:
     id: 2201910
+Winds Rhapsody:
+  id:
+    lutris: winds-rhapsody
+  installDir:
+    Winds Rhapsody: {}
+  launch:
+    "<base>/Game.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Game.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1390370
 Winds of Change:
   cloud:
     steam: true
@@ -847095,8 +847132,20 @@ With Loneliness:
   steam:
     id: 516230
 Withering Realms:
+  files:
+    "<home>/AppData/LocalLow/Moonless Formless/Withering Realms/<storeUserId>/save*":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
   id:
     lutris: withering-realms
+  installDir:
+    Withering Realms: {}
+  launch:
+    "<base>/Withering Realms.exe":
+      - when:
+          - store: steam
   steam:
     id: 3441990
 Withering Rooms:
@@ -848969,6 +849018,9 @@ Wolfpack:
             store: steam
   steam:
     id: 490920
+Wolfschanze:
+  id:
+    lutris: wolfschanze
 Wolfsong:
   installDir:
     Wolfsong: {}

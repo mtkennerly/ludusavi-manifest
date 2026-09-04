@@ -11707,6 +11707,9 @@ American Truck Simulator:
     - 3025440
     - 3146090
     - 3272290
+    - 3749870
+    - 3793190
+    - 3793200
     - 3872930
     - 4348660
   templates:
@@ -41803,6 +41806,8 @@ Chessmaster 5500:
     - "{{Game data/saves|Windows|{{p|game}}\\*.CMG}}"
 Chessmaster 6000:
   pageId: 220065
+Chessmaster 7000:
+  pageId: 220095
 Chessmaster 9000:
   gog: 1207658756
   lutris: chessmaster-9000
@@ -103576,6 +103581,7 @@ Gundam Evolution:
     - "{{Game data/config|Windows|{{P|localappdata}}\\EvoGame\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\EvoGame\\}}"
 Gundam Rogue Orbit:
+  lutris: gundam-rogue-orbit
   pageId: 217288
   steam: 1963680
 GundeadliGne:
@@ -139394,6 +139400,8 @@ Lupinball:
     steam: true
   pageId: 61560
   steam: 429360
+  steamSide:
+    - 705190
 Lupus in Fabula:
   cloud:
     steam: true
@@ -274931,6 +274939,8 @@ WheelMates:
   lutris: wheelmates
   pageId: 219592
   steam: 3905450
+  steamSide:
+    - 5108990
 Wheelbarrow Warrior:
   pageId: 108768
   steam: 729820
@@ -275443,6 +275453,7 @@ White Knuckle:
   steam: 3195790
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Dark Machine\\White Knuckle}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Dark Machine\\White Knuckle}}"
 White Line Fever:
   lutris: white-line-fever
   pageId: 217005
@@ -276422,6 +276433,10 @@ Windrose:
     xbox: true
   pageId: 218076
   steam: 2201910
+Winds Rhapsody:
+  lutris: winds-rhapsody
+  pageId: 220102
+  steam: 1390370
 Winds of Change:
   cloud:
     steam: true
@@ -277785,6 +277800,7 @@ Wolfpack:
 Wolfram:
   pageId: 170208
 Wolfschanze:
+  lutris: wolfschanze
   pageId: 217586
 Wolfsong:
   pageId: 44748
