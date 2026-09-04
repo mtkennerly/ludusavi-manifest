@@ -236532,6 +236532,8 @@ The Blood of Dawnwalker:
   steam: 3751260
   steamSide:
     - 4417550
+  templates:
+    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\Dawnwalker\\Saved\\GOGSaveGames}}"
 The Bloodline:
   pageId: 151577
   steam: 1159290
@@ -253080,6 +253082,13 @@ Tiny Force Deluxe:
     steam: true
   pageId: 72246
   steam: 688620
+Tiny Fortress:
+  pageId: 216381
+  renamedFrom:
+    - Tiny Towers
+  steam: 4352900
+  steamSide:
+    - 4613880
 Tiny Garden:
   cloud:
     steam: true
@@ -253226,11 +253235,6 @@ Tiny Toast:
   steam: 587750
 "Tiny Toon Adventures: Buster and the Beanstalk":
   pageId: 126702
-Tiny Towers:
-  pageId: 216381
-  steam: 4352900
-  steamSide:
-    - 4613880
 Tiny Town VR:
   pageId: 66150
   steam: 653930

@@ -727100,9 +727100,12 @@ The Blood of Dawnwalker:
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/Dawnwalker/Saved/SaveGames":
+    "<winLocalAppData>/Dawnwalker/Saved/GOGSaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: gog
   gog:
     id: 1889754300
   id:
@@ -777201,6 +777204,12 @@ Tiny Force Deluxe:
             store: steam
   steam:
     id: 688620
+Tiny Fortress:
+  id:
+    steamExtra:
+      - 4613880
+  steam:
+    id: 4352900
 Tiny Garden:
   cloud:
     steam: true
@@ -777662,11 +777671,7 @@ Tiny Toast:
   steam:
     id: 587750
 Tiny Towers:
-  id:
-    steamExtra:
-      - 4613880
-  steam:
-    id: 4352900
+  alias: Tiny Fortress
 Tiny Town VR:
   installDir:
     Tiny Town VR: {}
