@@ -59802,6 +59802,8 @@ Avast Ye:
   steam:
     id: 1064170
 "Avatar Legends: The Fighting Game":
+  cloud:
+    steam: true
   installDir:
     Avatar Legends The Fighting Game: {}
   launch:
@@ -198326,7 +198328,12 @@ Dice A Million:
   launch:
     "<base>/dice a million.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
+    "<base>/diceamillion2.app":
+      - when:
+          - os: mac
+            store: steam
   steam:
     id: 3430340
 Dice Defenders:
@@ -684326,6 +684333,9 @@ Still Wakes the Deep:
 "Still Wakes the Deep: Siren’s Rest":
   steam:
     id: 3465690
+Stillmere:
+  steam:
+    id: 3149450
 Stilt Fella:
   cloud:
     steam: true
@@ -727120,12 +727130,22 @@ The Blood of Dawnwalker:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/Dawnwalker/Saved/Config/Windows/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Dawnwalker/Saved/GOGSaveGames":
       tags:
         - save
       when:
         - os: windows
           store: gog
+    "<winLocalAppData>/Dawnwalker/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1889754300
   id:

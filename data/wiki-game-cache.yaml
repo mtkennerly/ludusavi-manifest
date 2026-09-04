@@ -19291,6 +19291,9 @@ Avast Ye:
   pageId: 140938
   steam: 1064170
 "Avatar Legends: The Fighting Game":
+  cloud:
+    steam: true
+    xbox: true
   pageId: 209623
   steam: 2424420
 Avatar of the Wolf:
@@ -216959,6 +216962,7 @@ SpeedRunners:
 "SpeedRunners 2: King of Speed":
   cloud:
     steam: true
+    xbox: true
   lutris: speedrunners-2-king-of-speed
   pageId: 214048
   steam: 3183760
@@ -222954,6 +222958,9 @@ Still Wakes the Deep:
 "Still Wakes the Deep: Siren’s Rest":
   pageId: 205413
   steam: 3465690
+Stillmere:
+  pageId: 220092
+  steam: 3149450
 Stilt Fella:
   cloud:
     steam: true
@@ -236544,6 +236551,8 @@ The Blood of Dawnwalker:
   steamSide:
     - 4417550
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Dawnwalker\\Saved\\Config\\Windows\\*.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Dawnwalker\\Saved\\SaveGames\\*.sav}}"
     - "{{Game data/saves|GOG.com|{{p|localappdata}}\\Dawnwalker\\Saved\\GOGSaveGames}}"
 The Bloodline:
   pageId: 151577
