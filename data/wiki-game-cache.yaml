@@ -51566,9 +51566,11 @@ Crimson Desert:
     - 4024620
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
-    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
+    - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
+    - "{{Game data/config|Mac App Store|{{P|osxhome}}/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/{{p|uid}}}}"
-    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Pearl Abyss/CD/save}}"
+    - "{{Game data/saves|Mac App Store|{{P|osxhome}}/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save}}"
 Crimson Earth:
   pageId: 61762
   steam: 616360
@@ -143670,6 +143672,8 @@ Marvel Trading Card Game:
     - 4848600
     - 5030920
     - 5030930
+  templates:
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\MTFSSteam\\Saved\\SAVE\\{{P|uid}}\\}}"
 "Marvel vs. Capcom Fighting Collection: Arcade Classics":
   cloud:
     steam: true
@@ -166730,11 +166734,14 @@ Onimod Land:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\761600\\remote\\PCConfig.dat}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\761600\\remote\\Save.dat}}"
 "Onimusha: Way of the Sword":
+  cloud:
+    steam: true
   lutris: onimusha-way-of-the-sword
   pageId: 200169
   steam: 2638890
   templates:
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3974650\\remote\\win64_save}}"
+    - "{{Game data/config|Windows|{{P|game}}\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3974650\\remote\\win64_save\\}}"
 Oninaki:
   cloud:
     steam: true
@@ -230839,6 +230846,10 @@ TOEM:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\SomethingWeMade.TOEM_3b9evzcrg4em8\\SystemAppData\\wgs}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/se.SomethingWeMade.TOEM/Save/}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/Something We Made/TOEM/Save/}}"
+TOEM 2:
+  lutris: toem-2
+  pageId: 220090
+  steam: 2900640
 TOGETHER BnB:
   pageId: 168101
   steam: 1239020

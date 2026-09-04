@@ -159888,6 +159888,16 @@ Crimson Desert:
   cloud:
     steam: true
   files:
+    "<home>/Library/Application Support/Pearl Abyss/CD/save":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Pearl Abyss/CD/save/user_engine_option_save.xml":
+      tags:
+        - config
+      when:
+        - os: mac
     "<home>/Library/Containers/com.pearlabyss.CrimsonDesert/Data/Library/Application Support/Pearl Abyss/CD/save":
       tags:
         - save
@@ -441921,8 +441931,11 @@ Marvel Snap:
     steam: true
   files:
     "<winLocalAppData>/MTFSSteam/Saved/SAVE/<storeUserId>":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: steam
   id:
     lutris: marvel-tokon-fighting-souls
     steamExtra:
@@ -511243,6 +511256,8 @@ Onimod Land:
   steam:
     id: 761600
 "Onimusha: Way of the Sword":
+  cloud:
+    steam: true
   files:
     "<root>/userdata/<storeUserId>/3974650/remote/win64_save":
       tags:
@@ -709133,6 +709148,11 @@ TOEM:
             store: steam
   steam:
     id: 1307580
+TOEM 2:
+  id:
+    lutris: toem-2
+  steam:
+    id: 2900640
 TOGETHER - TO GET HER:
   alias: Together
 TOGETHER BnB:
