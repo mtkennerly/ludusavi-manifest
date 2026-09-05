@@ -64778,16 +64778,18 @@ Backyard Baseball:
   cloud:
     steam: true
   files:
+    "<winDir>/System32/hegames":
+      tags:
+        - save
+      when:
+        - os: windows
     "C:/hegames.ini":
       tags:
         - config
       when:
         - os: windows
-    "C:/windows/system32/hegames":
-      tags:
-        - save
-      when:
-        - os: windows
+  id:
+    lutris: backyard-baseball-97
   installDir:
     Backyard Baseball 97: {}
   launch:
@@ -64840,6 +64842,8 @@ Backyard Baseball 2001:
         - config
       when:
         - os: windows
+  id:
+    lutris: backyard-baseball-01
   installDir:
     Backyard Baseball 2001: {}
   launch:
@@ -64875,6 +64879,8 @@ Backyard Basketball:
     "<home>/AppData/LocalLow/Mega Cat Studios/Backyard Basketball 2001/<storeUserId>":
       when:
         - store: steam
+  id:
+    lutris: backyard-basketball-01
   installDir:
     Backyard Basketball 01: {}
   launch:
@@ -64913,6 +64919,8 @@ Backyard Football:
         - save
       when:
         - os: windows
+  id:
+    lutris: backyard-football-99
   installDir:
     Backyard Football: {}
   launch:
@@ -64945,6 +64953,23 @@ Backyard Football 2006:
         - config
       when:
         - os: windows
+Backyard Hockey:
+  files:
+    "<winPublic>/Documents/Backyard Hockey Data Files":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: backyard-hockey-02
+  installDir:
+    Backyard Hockey 02: {}
+  launch:
+    "<base>/hockey.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3170590
 Backyard Hockey 2005:
   files:
     "<base>/Code/globalSettings.dat":
@@ -64967,6 +64992,8 @@ Backyard Soccer:
     "<home>/AppData/LocalLow/Mega Cat Studios/Backyard Soccer 1998/<storeUserId>":
       when:
         - store: steam
+  id:
+    lutris: backyard-soccer-98
   installDir:
     Backyard Soccer 98: {}
   launch:
@@ -209750,6 +209777,20 @@ Dopamine:
     DOPAMINE: {}
   steam:
     id: 527300
+"Dora the Explorer: Backpack Adventure":
+  files:
+    "<base>/savegame":
+      tags:
+        - save
+      when:
+        - os: windows
+"Dora the Explorer: Lost City Adventure":
+  files:
+    "<base>/savegame":
+      tags:
+        - save
+      when:
+        - os: windows
 DoraKone:
   installDir:
     DoraKone: {}
@@ -213087,9 +213128,21 @@ Dragon Quest VII Reimagined:
   cloud:
     steam: true
   files:
-    "<winDocuments>/My Games/DRAGON QUEST VII/Steam/<storeUserId>/release/Saved/SaveGames":
+    "<winDocuments>/My Games/DRAGON QUEST VII/Steam/<storeUserId>/release/Saved/SaveGames/GameSaveData*.sav":
       tags:
         - save
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/DRAGON QUEST VII/Steam/<storeUserId>/release/Saved/SaveGames/LanguageSaveData998.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/DRAGON QUEST VII/Steam/<storeUserId>/release/Saved/SaveGames/SystemSaveData999.sav":
+      tags:
+        - config
       when:
         - os: windows
           store: steam
@@ -458664,6 +458717,11 @@ Minecraft Dungeons:
             store: steam
   steam:
     id: 1672970
+Minecraft Dungeons II:
+  id:
+    lutris: minecraft-dungeons-ii
+  steam:
+    id: 1912410
 Minecraft Legends:
   files:
     "<winAppData>/Minecraft Legends/<storeUserId>":
@@ -523080,6 +523138,18 @@ Pako:
       when:
         - os: dos
     "<base>/Pako.sav":
+      tags:
+        - save
+      when:
+        - os: dos
+Pako 2 (DOS):
+  files:
+    "<base>/PAKO2.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/PAKO2.HI":
       tags:
         - save
       when:
@@ -722547,6 +722617,13 @@ Thanatos:
         - config
   steam:
     id: 2366980
+Thank You Bus Driver:
+  cloud:
+    steam: true
+  gog:
+    id: 1235237947
+  steam:
+    id: 5067360
 Thanks For Listening:
   installDir:
     Thanks for Listening: {}
@@ -840176,6 +840253,17 @@ Wheel of Fate:
   steam:
     id: 1105740
 WheelMates:
+  files:
+    "<winLocalAppData>/CarGame/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/CarGame/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: wheelmates
     steamExtra:
@@ -864870,6 +864958,12 @@ Zero Wing:
       when:
         - os: windows
           store: gog
+    "<home>/Saved Games/Zero Wing 2P/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
     "<home>/Saved Games/Zero Wing GoG":
       tags:
         - save
@@ -864882,6 +864976,24 @@ Zero Wing:
       when:
         - os: windows
           store: gog
+    "<home>/Saved Games/Zero Wing/<storeUserId>/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Zero Wing/<storeUserId>/hiscore.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<home>/Saved Games/Zero Wing/<storeUserId>/settings.cfg":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1958853343
   id:
@@ -868262,9 +868374,21 @@ Zooistry:
     id: 707800
 Zool Redimensioned:
   files:
-    "<winLocalAppData>/ZoolRedimensioned/Saved/SaveGames/*.sav":
+    "<winAppData>/ZoolRedimensioned/config.json":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winAppData>/ZoolRedimensioned/inputmapconfig.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/ZoolRedimensioned/savedata.json":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Zool Redimensioned: {}
   launch:

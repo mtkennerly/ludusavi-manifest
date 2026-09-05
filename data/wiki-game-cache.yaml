@@ -20803,11 +20803,12 @@ Backworlds:
 Backyard Baseball:
   cloud:
     steam: true
+  lutris: backyard-baseball-97
   pageId: 147045
   steam: 3170540
   templates:
     - "{{Game data/config|Windows|C:\\hegames.ini}}"
-    - "{{Game data/saves|Windows|C:\\windows\\system32\\hegames}}"
+    - "{{Game data/saves|Windows|{{p|windir}}\\System32\\hegames}}"
 Backyard Baseball (2026):
   cloud:
     steam: true
@@ -20816,6 +20817,7 @@ Backyard Baseball (2026):
 Backyard Baseball 2001:
   cloud:
     steam: true
+  lutris: backyard-baseball-01
   pageId: 82611
   steam: 3104970
   templates:
@@ -20835,6 +20837,7 @@ Backyard Baseball 2005:
 Backyard Basketball:
   cloud:
     steam: true
+  lutris: backyard-basketball-01
   pageId: 213275
   steam: 3170580
 Backyard Brawl:
@@ -20843,6 +20846,7 @@ Backyard Brawl:
 Backyard Football:
   cloud:
     steam: true
+  lutris: backyard-football-99
   pageId: 147049
   steam: 3170570
   templates:
@@ -20859,6 +20863,12 @@ Backyard Football 2006:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Atari\\Backyard Football 2006\\GlobalSetings}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Atari\\Backyard Football 2006\\{{p|uid}}.pro}}"
+Backyard Hockey:
+  lutris: backyard-hockey-02
+  pageId: 220148
+  steam: 3170590
+  templates:
+    - "{{Game data/saves|Windows|{{P|public}}\\Documents\\Backyard Hockey Data Files\\}}"
 Backyard Hockey 2005:
   pageId: 212348
   templates:
@@ -20871,6 +20881,7 @@ Backyard Skateboarding:
 Backyard Soccer:
   cloud:
     steam: true
+  lutris: backyard-soccer-98
   pageId: 199884
   steam: 3170410
 Backyard Soccer MLS Edition:
@@ -67772,6 +67783,14 @@ Doors to the City:
 Dopamine:
   pageId: 51602
   steam: 527300
+"Dora the Explorer: Backpack Adventure":
+  pageId: 220171
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
+"Dora the Explorer: Lost City Adventure":
+  pageId: 220173
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
 DoraKone:
   pageId: 132136
   steam: 1034880
@@ -68879,7 +68898,8 @@ Dragon Quest VII Reimagined:
   pageId: 208300
   steam: 2499860
   templates:
-    - "{{Game data/saves|Steam|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST VII\\Steam\\{{p|uid}}\\release\\Saved\\SaveGames}}"
+    - "{{Game data/config|Steam|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST VII\\Steam\\{{p|uid}}\\release\\Saved\\SaveGames\\LanguageSaveData998.sav|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST VII\\Steam\\{{p|uid}}\\release\\Saved\\SaveGames\\SystemSaveData999.sav}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\documents}}\\My Games\\DRAGON QUEST VII\\Steam\\{{p|uid}}\\release\\Saved\\SaveGames\\GameSaveData*.sav}}"
 Dragon Quest X:
   pageId: 59146
   templates:
@@ -149293,6 +149313,10 @@ Minecraft Dungeons:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.Lovika_8wekyb3d8bbwe\\LocalCache\\Local\\Dungeons\\Saved\\Config\\WindowsNoEditor\\|{{P|localappdata}}\\Dungeons\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Mojang Studios\\Dungeons\\{{P|uid}}}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.Lovika_8wekyb3d8bbwe\\LocalCache\\Local\\Dungeons\\{{P|uid}}|{{P|localappdata}}\\Dungeons\\{{P|uid}}|{{P|userprofile}}\\Saved Games\\Mojang Studios\\Dungeons\\{{P|uid}}}}"
+Minecraft Dungeons II:
+  lutris: minecraft-dungeons-ii
+  pageId: 220155
+  steam: 1912410
 Minecraft Legends:
   cloud:
     xbox: true
@@ -170582,6 +170606,11 @@ Pako:
   pageId: 219765
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\Pako.sav|{{p|game}}\\Pako.hi}}"
+Pako 2 (DOS):
+  pageId: 220167
+  templates:
+    - "{{Game data/config|DOS|{{p|game}}\\PAKO2.CFG}}"
+    - "{{Game data/saves|DOS|{{p|game}}\\PAKO2.HI}}"
 Palace of Cards:
   pageId: 77916
   steam: 347950
@@ -235068,6 +235097,12 @@ Thanatos:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Coal Supper\\Thank Goodness You're Here!\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Coal Supper\\Thank Goodness You're Here!\\saves\\}}"
+Thank You Bus Driver:
+  cloud:
+    steam: true
+  gog: 1235237947
+  pageId: 220175
+  steam: 5067360
 Thanks For Listening:
   pageId: 153318
   steam: 1142440
@@ -237658,6 +237693,8 @@ The Cooking Game:
 The Cooking Game VR:
   pageId: 96307
   steam: 857180
+The Cool Croc Twins:
+  pageId: 220169
 The Copper Canyon Shoot Out:
   pageId: 132632
   steam: 1045060
@@ -274973,6 +275010,9 @@ WheelMates:
   steam: 3905450
   steamSide:
     - 5108990
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}/CarGame/Saved/Config}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}/CarGame/Saved/SaveGames}}"
 Wheelbarrow Warrior:
   pageId: 108768
   steam: 729820
@@ -283080,7 +283120,9 @@ Zero Wing:
   pageId: 180851
   steam: 2011900
   templates:
+    - "{{Game data/saves|Steam|{{p|userprofile}}\\Saved Games\\Zero Wing\\{{p|uid}}\\settings.cfg}}"
     - "{{Game data/config|GOG.com|{{p|userprofile}}\\Saved Games\\Zero Wing GoG\\settings.cfg}}"
+    - "{{Game data/saves|Steam|{{p|userprofile}}\\Saved Games\\Zero Wing\\{{p|uid}}\\SaveGames\\|{{p|userprofile}}\\Saved Games\\Zero Wing\\{{p|uid}}\\hiscore.bin|{{p|userprofile}}\\Saved Games\\Zero Wing 2P\\{{p|uid}}\\}}"
     - "{{Game data/saves|GOG.com|{{p|userprofile}}\\Saved Games\\Zero Wing GoG\\|{{p|userprofile}}\\Saved Games\\Zero Wing 2P GoG\\}}"
 Zero Zion:
   pageId: 136072
@@ -284143,6 +284185,9 @@ Zool 2:
 Zool Redimensioned:
   pageId: 174223
   steam: 1647730
+  templates:
+    - "{{Game data/config|Windows|{{p|APPDATA}}\\ZoolRedimensioned\\config.json|{{p|APPDATA}}\\ZoolRedimensioned\\inputmapconfig.json}}"
+    - "{{Game data/saves|Windows|{{p|APPDATA}}\\ZoolRedimensioned\\savedata.json}}"
 Zoological Era:
   pageId: 114914
   steam: 950600
