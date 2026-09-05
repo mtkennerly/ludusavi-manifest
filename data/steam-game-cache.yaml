@@ -39150,7 +39150,7 @@
       executable: _windows/Darkest.exe
       type: option3
     - config:
-        betakey: steam_deck
+        betakey: "steam_deck,ratdungeon,ratdungeon2"
         osarch: "64"
         oslist: windows
       description: Mod Manager
@@ -585595,6 +585595,18 @@
         oslist: windows
       executable: CCLauncher.exe
       type: config
+1802700:
+  installDir: I Told You So!
+  launch:
+    - config:
+        oslist: windows
+      executable: ITYS.exe
+    - config:
+        oslist: linux
+      executable: ITYS.sh
+    - config:
+        oslist: macos
+      executable: ITYS.app
 1803140:
   cloud:
     saves:

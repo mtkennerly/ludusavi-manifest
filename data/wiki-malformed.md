@@ -3,6 +3,7 @@
 * [Aooni (2008)](https://www.pcgamingwiki.com/wiki/?curid=207717)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
 * [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
+* [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)

@@ -6533,6 +6533,7 @@
 * [DarkEnd](https://www.pcgamingwiki.com/wiki/?curid=49486)
 * [Darker](https://www.pcgamingwiki.com/wiki/?curid=208725)
 * [Darkest Depths](https://www.pcgamingwiki.com/wiki/?curid=130295)
+* [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
 * [Darkest Hour: A Hearts of Iron Game](https://www.pcgamingwiki.com/wiki/?curid=33261)
 * [Darkest Hour: Europe '44-'45](https://www.pcgamingwiki.com/wiki/?curid=176243)
 * [Darkest Hunters](https://www.pcgamingwiki.com/wiki/?curid=63920)

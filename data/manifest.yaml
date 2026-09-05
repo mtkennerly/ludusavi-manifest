@@ -176505,37 +176505,6 @@ Darkest Depths:
   steam:
     id: 1041130
 Darkest Dungeon:
-  cloud:
-    epic: true
-    gog: true
-    steam: true
-  files:
-    "<home>/.local/share/Red Hook Studios/Darkest":
-      tags:
-        - save
-      when:
-        - os: linux
-    "<home>/.local/share/Red Hook Studios/Darkest/profile_*":
-      tags:
-        - config
-      when:
-        - os: linux
-    "<root>/userdata/<storeUserId>/262060/remote/profile_*":
-      tags:
-        - config
-        - save
-      when:
-        - store: steam
-    "<winDocuments>/Darkest/persist.options.json":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winDocuments>/Darkest/profile_*":
-      tags:
-        - save
-      when:
-        - os: windows
   gog:
     id: 1450711444
   id:
@@ -357182,6 +357151,50 @@ I Support Breast Cancer Research:
       - 1046682
   steam:
     id: 1035640
+I Told You So!:
+  files:
+    "<base>/game/saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<base>/game/saves/persistent":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/.renpy/ITYS-1603137035":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<winAppData>/RenPy/ITYS-1603137035":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: i-told-you-so
+  installDir:
+    I Told You So!: {}
+  launch:
+    "<base>/ITYS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ITYS.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/ITYS.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1802700
 I Walk Among Zombies Vol. 1:
   installDir:
     I Walk Among Zombies: {}
@@ -556516,6 +556529,16 @@ Project Rampage VR:
     id: 808550
 Project Reignition:
   files:
+    "<home>/deck/.local/share/godot/app_userdata/Sonic and the Secret Rings Remake/config.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/deck/.local/share/godot/app_userdata/Sonic and the Secret Rings Remake/saves/*.dat":
+      tags:
+        - save
+      when:
+        - os: linux
     "<winAppData>/Godot/app_userdata/Sonic and the Secret Rings Remake/config.cfg":
       tags:
         - config

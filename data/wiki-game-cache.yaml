@@ -57047,10 +57047,6 @@ Darkest Depths:
   pageId: 130295
   steam: 1041130
 Darkest Dungeon:
-  cloud:
-    epic: true
-    gog: true
-    steam: true
   gog: 1450711444
   gogSide:
     - 1128594953
@@ -57059,6 +57055,7 @@ Darkest Dungeon:
     - 1589545552
     - 1902657506
     - 1957260232
+  malformed: true
   pageId: 22744
   steam: 262060
   steamSide:
@@ -57068,13 +57065,6 @@ Darkest Dungeon:
     - 735730
     - 1117860
     - 4964110
-  templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Darkest\\persist.options.json}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Red Hook Studios/Darkest/profile_*}}"
-    - "{{Game data/config|Steam|{{p|steam}}/userdata/{{p|uid}}/262060/remote/profile_*{{cn|date=August 2025}}}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Darkest\\profile_*\\}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Red Hook Studios/Darkest/}}"
-    - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/262060/remote/profile_*/}}"
 Darkest Dungeon II:
   cloud:
     epic: true
@@ -116026,6 +116016,15 @@ I Support Breast Cancer Research:
     - 1046680
     - 1046681
     - 1046682
+I Told You So!:
+  lutris: i-told-you-so
+  pageId: 220142
+  steam: 1802700
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\game\\saves\\persistent}}"
+    - "{{Game data/config|Linux|{{p|game}}/game/saves/|{{p|linuxhome}}/.renpy/ITYS-1603137035/}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\game\\saves\\|{{p|appdata}}\\RenPy\\ITYS-1603137035\\}}"
+    - "{{Game data/saves|Linux|{{p|game}}/game/saves/|{{p|linuxhome}}/.renpy/ITYS-1603137035/}}"
 I Walk Among Zombies Vol. 1:
   pageId: 143256
   steam: 942850
@@ -181493,7 +181492,9 @@ Project Reignition:
   pageId: 202149
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Sonic and the Secret Rings Remake\\config.cfg}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}\\deck\\.local\\share\\godot\\app_userdata\\Sonic and the Secret Rings Remake\\config.cfg}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Sonic and the Secret Rings Remake\\saves\\*.dat}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}\\deck\\.local\\share\\godot\\app_userdata\\Sonic and the Secret Rings Remake\\saves\\*.dat}}"
 Project Remedium:
   cloud:
     steam: true
