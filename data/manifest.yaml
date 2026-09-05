@@ -324095,8 +324095,26 @@ Halloween with Veronica:
   steam:
     id: 720600
 "Halloween: The Game":
+  cloud:
+    steam: true
+  files:
+    "<base>/Ravage/Saved/SaveGames/STEAM/Campaign*.sav":
+      when:
+        - store: steam
+    "<base>/Ravage/Saved/SaveGames/STEAM/UserSettings*.sav":
+      when:
+        - store: steam
   id:
     lutris: halloween-the-game
+  installDir:
+    Halloween: {}
+  launch:
+    "<base>/start_protected_game.exe":
+      - arguments: "-steam"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3219630
 HalloweenStory:
@@ -363150,6 +363168,11 @@ In Celebration of Violence:
     id: 509570
 In Cold Blood:
   files:
+    "<base>/engine/icb.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/engine/linc/saves":
       tags:
         - save
@@ -554508,6 +554531,13 @@ Professional Baseball Spirits 2024-2025:
             store: steam
   steam:
     id: 2051010
+Professional Bull Rider:
+  files:
+    "<base>/PBR.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Professional Bull Rider 2:
   files:
     "<base>/PBR.ini":
@@ -769853,6 +769883,19 @@ Theme Park Inc.:
         - os: windows
   id:
     lutris: theme-park-manager-simcoaster-theme-park-inc
+Theme Park Mystery:
+  gog:
+    id: 1852729690
+  installDir:
+    ThemeParkMystery: {}
+  launch:
+    "<base>/dosbox_windows/dosbox.exe":
+      - arguments: "\"TPARK.COM\" -conf \"dosbox_themeparkmystery.conf\" -noconsole"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1518370
 Theme Park Simulator:
   installDir:
     Theme Park Simulator: {}
@@ -858534,6 +858577,16 @@ Ye Fenny - Revenge of the Evil Good Shepherd:
             store: steam
   steam:
     id: 633930
+Yeah Yeah Beebiss II:
+  installDir:
+    Yeah Yeah Beebiss II: {}
+  launch:
+    "<base>/Yeah Yeah Beebiss II.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1871700
 Year Walk:
   files:
     "<home>/AppData/LocalLow/Simogo/Year Walk/gamedata.bin":

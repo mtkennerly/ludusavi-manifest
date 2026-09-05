@@ -563584,6 +563584,14 @@
         oslist: windows
       executable: Aeterna Noctis.exe
       type: default
+1518370:
+  installDir: ThemeParkMystery
+  launch:
+    - arguments: "\"TPARK.COM\" -conf \"dosbox_themeparkmystery.conf\" -noconsole"
+      config:
+        oslist: windows
+      executable: "dosbox_windows\\dosbox.exe"
+      type: none
 1518770:
   cloud:
     saves:
@@ -590139,6 +590147,12 @@
         osarch: "64"
         oslist: linux
       executable: Hook2.x86_64
+1871700:
+  installDir: Yeah Yeah Beebiss II
+  launch:
+    - config:
+        oslist: windows
+      executable: Yeah Yeah Beebiss II.exe
 1871750:
   cloud:
     saves:
@@ -645061,7 +645075,23 @@
     - config:
         oslist: macos
       executable: GameMaker 25th Anniversary.app
-3219630: {}
+3219630:
+  cloud:
+    saves:
+      - path: "Ravage\\Saved\\SaveGames\\STEAM"
+        pattern: Campaign*.sav
+        root: gameinstall
+      - path: "Ravage\\Saved\\SaveGames\\STEAM"
+        pattern: UserSettings*.sav
+        root: gameinstall
+  installDir: Halloween
+  launch:
+    - arguments: "-steam"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: start_protected_game.exe
+      type: default
 3220050:
   installDir: Big Beautiful Women
   launch:

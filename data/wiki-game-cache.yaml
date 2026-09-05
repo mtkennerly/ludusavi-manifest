@@ -105142,6 +105142,8 @@ Halloween with Veronica:
   pageId: 72950
   steam: 720600
 "Halloween: The Game":
+  cloud:
+    steam: true
   lutris: halloween-the-game
   pageId: 207293
   renamedFrom:
@@ -117900,6 +117902,7 @@ In Cold Blood:
   lutris: in-cold-blood
   pageId: 131935
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\engine\\icb.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\engine\\linc\\saves}}"
 In Darkness:
   pageId: 81077
@@ -180895,6 +180898,10 @@ Professional Baseball Spirits 2024-2025:
     steam: true
   pageId: 201144
   steam: 2051010
+Professional Bull Rider:
+  pageId: 220122
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\PBR.ini}}"
 Professional Bull Rider 2:
   pageId: 212827
   templates:
@@ -216989,6 +216996,8 @@ Speedball 2 HD:
   steam: 251690
   templates:
     - "{{Game data/saves|Steam|{{p|appdata}}\\Speedball2_steam}}"
+"Speedball 2: Brutal Deluxe":
+  pageId: 220121
 "Speedball 2: Evolution":
   pageId: 166366
 "Speedball 2: Tournament":
@@ -250804,6 +250813,10 @@ Theme Park Inc.:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\data}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
+Theme Park Mystery:
+  gog: 1852729690
+  pageId: 220126
+  steam: 1518370
 Theme Park Simulator:
   pageId: 157013
   steam: 1202780
@@ -252301,6 +252314,8 @@ Tiger Woods 99 PGA Tour Golf:
   pageId: 133134
 Tiger Woods PGA Tour 06:
   pageId: 188295
+Tiger Woods PGA Tour 07:
+  pageId: 220124
 Tiger Woods PGA Tour 08:
   pageId: 171553
 Tiger Woods PGA Tour 12:
@@ -281007,6 +281022,9 @@ Ye Fenny - Revenge of the Evil Good Shepherd:
     steam: true
   pageId: 75125
   steam: 633930
+Yeah Yeah Beebiss II:
+  pageId: 220128
+  steam: 1871700
 Year Walk:
   pageId: 15680
   steam: 269050
