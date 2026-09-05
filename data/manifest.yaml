@@ -202953,6 +202953,7 @@ Disparity:
     id: 715460
 Dispatch:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Dispatch/Config/WindowsNoEditor":
@@ -503883,6 +503884,8 @@ Obscure Realm:
   steam:
     id: 589440
 Obscuritas:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/VIS_Games/Obscuritas":
       tags:
@@ -503896,6 +503899,8 @@ Obscuritas:
         - os: windows
   gog:
     id: 1457696008
+  id:
+    lutris: obscuritas
   installDir:
     Obscuritas: {}
   launch:
@@ -589360,6 +589365,9 @@ Rezrog:
             store: steam
   steam:
     id: 2002880
+Rhapsody in Scarlet:
+  steam:
+    id: 3353430
 "Rhapsody: A Musical Adventure":
   cloud:
     steam: true
@@ -708608,6 +708616,44 @@ TEXT:
             store: steam
   steam:
     id: 954590
+"TFC2: Collapse of The Bronze Age":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Wield Interactive/TFC2/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/AppData/LocalLow/Wield Interactive/TFC2/Saves/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Library/Application Support/Wield Interactive/TFC2/Saves":
+      tags:
+        - save
+      when:
+        - os: mac
+  installDir:
+    The Fertile Crescent 2: {}
+  launch:
+    "<base>/TFC2.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TFC2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/game.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 4158610
 "TFC: The Fertile Crescent":
   cloud:
     steam: true

@@ -21970,6 +21970,7 @@
 * [RGB RUN](https://www.pcgamingwiki.com/wiki/?curid=122199)
 * [RGBCELLS](https://www.pcgamingwiki.com/wiki/?curid=102903)
 * [RGBverse](https://www.pcgamingwiki.com/wiki/?curid=60872)
+* [Rhapsody in Scarlet](https://www.pcgamingwiki.com/wiki/?curid=220135)
 * [RHCs StretchingVr](https://www.pcgamingwiki.com/wiki/?curid=92666)
 * [Rheksetor: Waves of Fury](https://www.pcgamingwiki.com/wiki/?curid=79129)
 * [RHEM](https://www.pcgamingwiki.com/wiki/?curid=207999)

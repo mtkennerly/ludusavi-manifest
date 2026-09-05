@@ -65616,6 +65616,7 @@ Disparity:
   steam: 715460
 Dispatch:
   cloud:
+    epic: true
     steam: true
     xbox: true
   lutris: dispatch--3
@@ -164297,7 +164298,10 @@ Obscure Realm:
   pageId: 73484
   steam: 589440
 Obscuritas:
+  cloud:
+    steam: true
   gog: 1457696008
+  lutris: obscuritas
   pageId: 34232
   steam: 441680
   templates:
@@ -192159,6 +192163,9 @@ Rezrog:
     steam: true
   pageId: 184791
   steam: 2002880
+Rhapsody in Scarlet:
+  pageId: 220135
+  steam: 3353430
 "Rhapsody: A Musical Adventure":
   cloud:
     steam: true
@@ -230688,6 +230695,15 @@ TERROR SQUID:
 TEXT:
   pageId: 121496
   steam: 954590
+"TFC2: Collapse of The Bronze Age":
+  cloud:
+    steam: true
+  pageId: 220141
+  steam: 4158610
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Wield Interactive\\TFC2\\Saves\\*.txt}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Wield Interactive/TFC2/Saves/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Wield Interactive/TFC2/Saves/}}"
 "TFC: The Fertile Crescent":
   cloud:
     steam: true

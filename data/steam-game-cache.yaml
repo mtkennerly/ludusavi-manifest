@@ -448670,6 +448670,9 @@
       description: "Battlefall: State of Conflict ( DEVELOPER MODE )"
       executable: Battlefall_State_of_Conflict_Developer.exe
       type: option1
+    - config:
+        betakey: developer2
+      executable: 3D FPS.exe
 1031770:
   installDir: WarriorHinora
   launch:
@@ -611159,6 +611162,11 @@
   nameLocalized:
     japanese: 剣と魔法と学園モノ。Anniversary Edition
 2195910:
+  cloud:
+    saves:
+      - path: Rowye/Darkenstein3D
+        pattern: Darkenstein Save.json
+        root: WinAppDataLocalLow
   installDir: Darkenstein 3D
   launch:
     - config:
@@ -647631,6 +647639,7 @@
     japanese: Dead Take / デッドテイク
     schinese: Dead Take / 遗映
     tchinese: Dead Take / 遺映
+3353430: {}
 3354750:
   installDir: Skate
   launch:
@@ -657067,6 +657076,44 @@
       executable: The5thFloor.exe
   nameLocalized:
     schinese: 黑暗密友：望升院
+4158610:
+  cloud:
+    saves:
+      - path: Wield Interactive/TFC2/Saves/
+        pattern: "*.txt"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Wield Interactive/TFC2/Saves/
+            replace: Wield Interactive/TFC2/Saves/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Wield Interactive/TFC2/Saves/
+            replace: ".config/unity3d/Wield Interactive/TFC2/Saves/"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: The Fertile Crescent 2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TFC2.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: TFC2.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: game.x86_64
+      type: default
 4159720: {}
 4160210:
   cloud:
