@@ -575673,6 +575673,11 @@
       description: Launch
       executable: gzdoom.app/Contents/MacOS/gzdoom
       type: default
+    - arguments: "--no-sandbox"
+      config:
+        oslist: linux
+      executable: launchbeyond.sh
+      type: default
 1665270:
   cloud:
     saves:
@@ -653006,7 +653011,7 @@
       executable: Nioh3.exe
       type: default
     - config:
-        betakey: "profile,test,rating,power_check,power_check_old,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile,profile_1_0_5_0,profile_1_0_6_0,profile_1_0_7_0,dlc1_profile,profile_2_0_1_0,profile_2_0_0_2"
+        betakey: "profile,test,rating,power_check,power_check_old,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile,profile_1_0_5_0,profile_1_0_6_0,profile_1_0_7_0,dlc1_profile,profile_2_0_0_1,profile_2_0_0_2,profile_2_0_1_0"
         osarch: "64"
         oslist: windows
       description: Daylight.exe

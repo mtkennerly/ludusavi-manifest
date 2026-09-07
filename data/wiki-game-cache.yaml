@@ -223979,6 +223979,8 @@ Stray:
   lutris: stray
   pageId: 161032
   steam: 1332010
+  steamSide:
+    - 2086160
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Hk_project\\Saved\\Config\\WindowsNoEditor\\*.ini}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/Stray/MacNoEditor/}}"
