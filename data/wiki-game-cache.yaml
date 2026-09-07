@@ -18056,6 +18056,7 @@ Atari Vault:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Atari+\\Atari Vault\\}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/.config/unity3d/Atari+/Atari Vault}}"
 "Atari: 80 Classic Games in One!":
+  lutris: atari-80-classic-games-in-one
   pageId: 87772
   steam: 2790
 "Atelier Ayesha: The Alchemist of Dusk DX":
@@ -252558,6 +252559,7 @@ Timberborn:
     - 1237620
     - 1752670
   templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Timberborn\\PlayerData}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Timberborn\\Saves|{{P|userprofile\\Documents}}\\Timberborn\\ExperimentalSaves{{note|Only used for the Experimental branch of the game.}}}}"
 Timberman:
   cloud:

@@ -624930,21 +624930,21 @@
       executable: forzahorizon6.exe
       type: default
     - config:
-        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install"
+        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install,sideload"
         osarch: "64"
         oslist: windows
       description: Forte Profile
       executable: forza_x64_profile.exe
       type: option1
     - config:
-        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install"
+        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install,sideload"
         osarch: "64"
         oslist: windows
       description: Forte Release
       executable: forza_x64_release.exe
       type: option2
     - config:
-        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install"
+        betakey: "forte_main_install,forte_stage_install,forte_rc_install,forte_hf_install,forte_feat_install,forte_dlc1_install,forte_dlc2_install,sideload"
         osarch: "64"
         oslist: windows
       description: Forte Release Final
