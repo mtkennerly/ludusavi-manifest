@@ -119636,6 +119636,8 @@ Carnal:
   steam:
     id: 1586290
 Carnal Instinct:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/Carnal_Instinct":
       tags:
@@ -204537,6 +204539,35 @@ Divinoids:
   steam:
     id: 1251670
 Divinum:
+  files:
+    "<home>/.config/unity3d/Sigil Games/Divinum/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Sigil Games/Divinum/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.Sigil-Games.Divinum/*.sav":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Divinum: {}
+  launch:
+    "<base>/divinum":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/divinum.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/divinum.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1148130
 Divo:
@@ -847439,6 +847470,8 @@ With Loneliness:
   steam:
     id: 516230
 Withering Realms:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Moonless Formless/Withering Realms/<storeUserId>/save*":
       when:
@@ -847461,14 +847494,17 @@ Withering Rooms:
   files:
     "<home>/AppData/LocalLow/Moonless Formless/Withering Rooms/<storeUserId>":
       tags:
+        - config
         - save
       when:
         - os: windows
   gog:
     id: 1800514090
   id:
+    lutris: withering-rooms
     steamExtra:
       - 2197120
+      - 2926600
   installDir:
     Withering Rooms: {}
   launch:

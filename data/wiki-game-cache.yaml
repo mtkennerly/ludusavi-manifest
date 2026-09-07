@@ -38743,6 +38743,8 @@ Carnal:
   pageId: 178720
   steam: 1586290
 Carnal Instinct:
+  cloud:
+    steam: true
   pageId: 174786
   steam: 1495320
   templates:
@@ -277330,6 +277332,8 @@ With Loneliness:
   pageId: 36706
   steam: 516230
 Withering Realms:
+  cloud:
+    steam: true
   lutris: withering-realms
   pageId: 216713
   steam: 3441990
@@ -277337,13 +277341,16 @@ Withering Rooms:
   cloud:
     steam: true
   gog: 1800514090
+  lutris: withering-rooms
   pageId: 182500
   renamedFrom:
     - American Theft 80s
   steam: 2006140
   steamSide:
     - 2197120
+    - 2926600
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Moonless Formless\\Withering Rooms\\{{p|uid}}}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Moonless Formless\\Withering Rooms\\{{p|uid}}}}"
 "Within Whispers: The Fall":
   pageId: 70393

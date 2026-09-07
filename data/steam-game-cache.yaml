@@ -503265,7 +503265,43 @@
   launch:
     - executable: ThisPicture.exe
       type: none
-1148130: {}
+1148130:
+  cloud:
+    saves:
+      - path: Sigil Games/Divinum
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Sigil Games/Divinum
+            replace: com.Sigil-Games.Divinum
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Sigil Games/Divinum
+            replace: ".config/unity3d/Sigil Games/Divinum"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Divinum
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: divinum.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: divinum.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: divinum
+      type: default
 1148150:
   installDir: Man of the House
   launch:

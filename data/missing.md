@@ -7478,7 +7478,6 @@
 * [Divine Knockout](https://www.pcgamingwiki.com/wiki/?curid=183732)
 * [Divine Souls](https://www.pcgamingwiki.com/wiki/?curid=49757)
 * [Diving Trunks](https://www.pcgamingwiki.com/wiki/?curid=63966)
-* [Divinum](https://www.pcgamingwiki.com/wiki/?curid=151513)
 * [Divo](https://www.pcgamingwiki.com/wiki/?curid=40663)
 * [DIY Simulator](https://www.pcgamingwiki.com/wiki/?curid=136442)
 * [DiyMachinery](https://www.pcgamingwiki.com/wiki/?curid=93661)
