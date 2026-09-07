@@ -7701,6 +7701,7 @@
 * [Dora the Explorer: Dance to the Rescue](https://www.pcgamingwiki.com/wiki/?curid=220204)
 * [Dora the Explorer: Fairytale Adventure](https://www.pcgamingwiki.com/wiki/?curid=220200)
 * [Dora's 3-D Pyramid Adventure](https://www.pcgamingwiki.com/wiki/?curid=220216)
+* [Dora's Carnival Adventure](https://www.pcgamingwiki.com/wiki/?curid=220228)
 * [Doraemon: Monopoly](https://www.pcgamingwiki.com/wiki/?curid=161636)
 * [DoraKone](https://www.pcgamingwiki.com/wiki/?curid=132136)
 * [Dorian Morris Adventure](https://www.pcgamingwiki.com/wiki/?curid=121738)

@@ -77637,6 +77637,8 @@ Beekyr:
   steam:
     id: 1012280
 Beekyr Reloaded:
+  cloud:
+    steam: true
   files:
     "<winAppData>/kaleidogames.BeekyrReloaded/**/*.*":
       when:
@@ -719896,6 +719898,15 @@ Teratini VR:
     TeratiniVR: {}
   steam:
     id: 553530
+Terep2:
+  files:
+    "<base>/SIM.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+  id:
+    lutris: terep-2
 Teria:
   installDir:
     Teria: {}
@@ -825266,6 +825277,8 @@ Vortex Attack:
   steam:
     id: 357890
 Vortex Attack EX:
+  cloud:
+    steam: true
   files:
     "<winAppData>/KaleidoGames/VortexAttackEX/**/*.*":
       when:
