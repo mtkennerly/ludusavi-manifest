@@ -31158,6 +31158,7 @@ Boiling Bolt:
   steam: 462250
 "Boiling Point: Road to Hell":
   gog: 1866033492
+  lutris: boiling-point-road-to-hell
   pageId: 4643
   steam: 2000760
   templates:
@@ -54723,6 +54724,8 @@ Cyrano Story:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Alice & Smith\\Cyrano Story\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Alice _ Smith\\Cyrano Story\\}}"
+Cyril Cyberpunk:
+  pageId: 220262
 Cyto:
   pageId: 49963
   steam: 302650
@@ -58670,6 +58673,7 @@ Dead Rising 4:
 Dead Rising Deluxe Remaster:
   cloud:
     steam: true
+  lutris: dead-rising-deluxe-remaster
   pageId: 196098
   steam: 2527390
   templates:
@@ -62702,6 +62706,7 @@ Despera Drops:
   steam: 3291080
 "Desperados 2: Cooper's Revenge":
   gog: 1207658985
+  lutris: desperados-2-coopers-revenge
   pageId: 19593
   steam: 9710
   templates:
@@ -105890,6 +105895,9 @@ Happy Wars:
     - 318077
     - 332190
     - 332191
+Happy Wheels:
+  pageId: 220258
+  steam: 4705510
 Happy Words:
   pageId: 134534
   steam: 1014810
@@ -166820,6 +166828,7 @@ Onimod Land:
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\761600\\remote\\Save.dat}}"
 "Onimusha: Way of the Sword":
   cloud:
+    epic: true
     steam: true
   lutris: onimusha-way-of-the-sword
   pageId: 200169
@@ -166827,6 +166836,7 @@ Onimod Land:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3974650\\remote\\win64_save\\}}"
+    - "{{Game data/saves|Epic Games Store|{{P|appdata}}\\Capcom\\OnimushaWotS\\{{P|uid}}\\}}"
 Oninaki:
   cloud:
     steam: true
@@ -178218,6 +178228,14 @@ Poly Bridge 3:
 Poly Defense:
   pageId: 128177
   steam: 1031160
+Poly Fighter:
+  pageId: 220256
+  steam: 3977340
+  steamSide:
+    - 4398040
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\HeartLoop Games\\Poly Fighter\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\HeartLoop Games\\Poly Fighter\\}}"
 Poly Fishing:
   cloud:
     steam: true
@@ -253149,6 +253167,8 @@ Tintin in Tibet:
   pageId: 190790
 "Tintin: Destination Adventure":
   pageId: 178215
+"Tintin: Prisoners of the Sun":
+  pageId: 220260
 "Tiny & Big in Grandpa's Leftovers":
   cloud:
     steam: true
@@ -264608,8 +264628,15 @@ Unknown:
 "Unknown 9: Awakening":
   cloud:
     steam: true
+  lutris: unknown-9-awakening
   pageId: 198200
   steam: 1477940
+  steamSide:
+    - 2280170
+    - 2385220
+    - 2385221
+    - 2385222
+    - 2385223
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\U9\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\U9\\Saved\\SaveGames}}"

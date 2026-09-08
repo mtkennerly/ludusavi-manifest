@@ -656231,6 +656231,7 @@
     - config:
         oslist: windows
       executable: MantaMadness.exe
+3977340: {}
 3977380:
   cloud:
     saves:
@@ -659005,7 +659006,10 @@
 4603230: {}
 4605200: {}
 4605490: {}
-4610590: {}
+4610590:
+  installDir: Dirty Laundry
+  launch:
+    - executable: Dirty Laundry.exe
 4611990:
   cloud:
     saves:
@@ -659144,6 +659148,7 @@
     - executable: PenguinHotel.exe
   nameLocalized:
     japanese: めっちゃカメレオン
+4705510: {}
 4706290:
   cloud:
     saves:
