@@ -670982,10 +670982,31 @@ Sprawl:
   steam:
     id: 1549690
 Sprawl Zero:
+  files:
+    "<winLocalAppData>/Silas/Saved/SaveGames/*_CHECKPOINT.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Silas/Saved/SaveGames/Achievements.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Silas/Saved/SaveGames/Profiles.sav":
+      when:
+        - store: steam
   id:
     lutris: sprawl-zero
     steamExtra:
       - 4247830
+      - 4993840
+      - 5059870
+  installDir:
+    SPRAWL 0: {}
+  launch:
+    "<base>/Silas.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/Silas/Binaries/Win64"
   steam:
     id: 3748520
 Spray Dynamite X Radioactive Insects:
@@ -815420,7 +815441,7 @@ Valheim:
   installDir:
     Valheim: {}
   launch:
-    "<base>/Valheim.app":
+    "<base>/valheim.app":
       - when:
           - os: mac
             store: steam

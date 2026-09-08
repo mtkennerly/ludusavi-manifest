@@ -385897,7 +385897,7 @@
       type: default
     - config:
         oslist: macos
-      executable: Valheim.app
+      executable: valheim.app
       type: default
     - arguments: "-force-glcore"
       config:
@@ -653765,6 +653765,25 @@
     - executable: defiance.exe
       type: default
 3748520:
+  cloud:
+    saves:
+      - path: Silas/Saved/SaveGames
+        pattern: Achievements.sav
+        root: WinAppDataLocal
+      - path: Silas/Saved/SaveGames
+        pattern: Profiles.sav
+        root: WinAppDataLocal
+      - path: Silas/Saved/SaveGames
+        pattern: "*_CHECKPOINT.sav"
+        root: WinAppDataLocal
+  installDir: SPRAWL 0
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Silas.exe
+      type: default
+      workingdir: "Silas\\Binaries\\Win64"
   nameLocalized:
     schinese: 畸域零
 3749580: {}

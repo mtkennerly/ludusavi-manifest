@@ -24932,7 +24932,6 @@
 * [Spotter](https://www.pcgamingwiki.com/wiki/?curid=112920)
 * [Spoxel](https://www.pcgamingwiki.com/wiki/?curid=77397)
 * [SPQR: The Empire's Darkest Hour](https://www.pcgamingwiki.com/wiki/?curid=210250)
-* [Sprawl Zero](https://www.pcgamingwiki.com/wiki/?curid=215981)
 * [Spray Girl](https://www.pcgamingwiki.com/wiki/?curid=121769)
 * [Spring Bonus](https://www.pcgamingwiki.com/wiki/?curid=60758)
 * [Spring Breeze](https://www.pcgamingwiki.com/wiki/?curid=72280)
