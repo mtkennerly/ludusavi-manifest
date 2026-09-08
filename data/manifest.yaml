@@ -497380,15 +497380,15 @@ No More Room in Hell:
   installDir:
     nmrih: {}
   launch:
-    "<base>/hl2.sh":
-      - arguments: "-steam -game nmrih"
-        when:
-          - os: linux
-            store: steam
     "<base>/nmrih.exe":
       - arguments: "-steam -game nmrih"
         when:
           - os: windows
+            store: steam
+    "<base>/nmrih.sh":
+      - arguments: "-steam -game nmrih"
+        when:
+          - os: linux
             store: steam
   steam:
     id: 224260
@@ -617802,6 +617802,16 @@ Scarlet Nexus:
             store: steam
   steam:
     id: 775500
+Scarlet Skips:
+  installDir:
+    Scarlet Skips: {}
+  launch:
+    "<base>/ScarletSkips.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4513480
 Scarlet Smiling Skull:
   installDir:
     Scarlet Smiling Skull: {}
@@ -626227,6 +626237,16 @@ Servant of the Lake:
         - config
       when:
         - os: windows
+    "<home>/Library/Application Support/RustyLake/ServantOfTheLake/Serialization/SaveFiles":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/RustyLake/ServantOfTheLake/Serialization/SaveFiles/Settings.json":
+      tags:
+        - config
+      when:
+        - os: mac
   id:
     lutris: servant-of-the-lake
     steamExtra:
@@ -749484,6 +749504,7 @@ The Long Dark:
         - config
         - save
       when:
+        - os: mac
         - os: linux
   gog:
     id: 1447763046
@@ -853089,6 +853110,35 @@ Wormhole City:
           - store: steam
   steam:
     id: 434300
+Worming from Home:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Zach and Mason/Worming from Home/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Zach and Mason/Worming from Home/*.json":
+      when:
+        - os: mac
+          store: steam
+  id:
+    steamExtra:
+      - 4329950
+      - 4872050
+      - 5060730
+  installDir:
+    Worming from Home: {}
+  launch:
+    "<base>/Worming from Home macOS.app/Contents/MacOS/Worming from Home":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Worming from Home.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3547270
 Wormix:
   installDir:
     Bombix: {}

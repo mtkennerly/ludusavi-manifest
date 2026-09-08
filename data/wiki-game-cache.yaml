@@ -169301,6 +169301,8 @@ Overcraft:
 Overdosed - A Trip To Hell:
   pageId: 42942
   steam: 413830
+Overdrive:
+  pageId: 220248
 Overdriven Reloaded:
   cloud:
     steam: true
@@ -201425,6 +201427,9 @@ Scarlet Nexus:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\NAMCOBANDAIGamesInc.CODERed_gdy2aq6ez762w\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\SCARLET NEXUS\\Saved\\SaveGames\\{{p|uid}}\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\ScarletNexus\\Saved\\SaveGames\\{{note|Applies when game was run without Steam.}}}}"
+Scarlet Skips:
+  pageId: 220246
+  steam: 4513480
 Scarlet Smiling Skull:
   pageId: 110652
   steam: 930700
@@ -204104,7 +204109,9 @@ Servant of the Lake:
     - 3996940
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\RustyLake\\ServantOfTheLake\\Serialization\\SaveFiles\\Settings.json}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/RustyLake/ServantOfTheLake/Serialization/SaveFiles/Settings.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\RustyLake\\ServantOfTheLake\\Serialization\\SaveFiles\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/RustyLake/ServantOfTheLake/Serialization/SaveFiles/}}"
 Servo:
   pageId: 34296
   steam: 305510
@@ -244020,6 +244027,7 @@ The Long Dark:
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\27620HinterlandStudio.30233944AADE4_y1bt56c4151zw\\SystemAppData\\wgs}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/Hinterland/TheLongDark/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Hinterland\\TheLongDark\\}}"
+    - "{{Game data/saves|OS X|{{p|xdgdatahome}}/Hinterland/TheLongDark/}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Hinterland/TheLongDark/}}"
 The Long Drive:
   lutris: the-long-drive
@@ -279230,6 +279238,15 @@ Worldy Cup:
 Wormhole City:
   pageId: 55926
   steam: 434300
+Worming from Home:
+  cloud:
+    steam: true
+  pageId: 220244
+  steam: 3547270
+  steamSide:
+    - 4329950
+    - 4872050
+    - 5060730
 Wormix:
   pageId: 74886
   steam: 662830

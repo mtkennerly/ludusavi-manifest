@@ -23349,8 +23349,15 @@
       config:
         oslist: linux
       description: Play No More Room in Hell
-      executable: hl2.sh
+      executable: nmrih.sh
       type: default
+    - arguments: "-steam -game nmrih"
+      config:
+        betakey: devtest
+        oslist: linux
+      description: nmrih.sh
+      executable: nmrih.sh
+      type: option1
 224300:
   installDir: legacy_kain_defiance
   launch:
@@ -650777,6 +650784,31 @@
       description: Live-test specific build launching
       executable: ChampionsTacticsGame.exe
       type: default
+3547270:
+  cloud:
+    saves:
+      - path: Zach and Mason/Worming from Home
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Zach and Mason/Worming from Home
+            replace: Zach and Mason/Worming from Home
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Worming from Home
+  launch:
+    - config:
+        oslist: windows
+      executable: Worming from Home.exe
+    - config:
+        oslist: macos
+      executable: Worming from Home macOS.app/Contents/MacOS/Worming from Home
+  nameLocalized:
+    schinese: 居家扮工虫
+    tchinese: 居家蟲事
 3547420:
   cloud:
     saves:
@@ -658770,6 +658802,12 @@
   installDir: Eternal Woods
   launch:
     - executable: The Eternal Woods.exe
+4513480:
+  installDir: Scarlet Skips
+  launch:
+    - config:
+        oslist: windows
+      executable: ScarletSkips.exe
 4514070: {}
 4514310: {}
 4516190: {}
