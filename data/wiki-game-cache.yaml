@@ -15710,6 +15710,8 @@ Armies of Riddle E.X. (Extreme):
   pageId: 157369
   steam: 968190
 Armikrog:
+  cloud:
+    gog: true
   gog: 1433157800
   gogSide:
     - 1433320879
@@ -138044,6 +138046,9 @@ Lost in Random:
     - 3478380
     - 3573930
     - 3639340
+  templates:
+    - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|UID}}\\2564520\\remote\\settingsSave}}"
+    - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|UID}}\\2564520\\remote\\}}"
 "Lost in Reefs: Antarctic":
   pageId: 51710
   steam: 541970

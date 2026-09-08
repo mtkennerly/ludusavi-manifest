@@ -48916,6 +48916,8 @@ Armies of Riddle E.X. (Extreme):
   steam:
     id: 968190
 Armikrog:
+  cloud:
+    gog: true
   files:
     "<home>/.config/unity3d/PencilTestStudios/Armikrog/*.dat":
       tags:
@@ -424388,6 +424390,17 @@ Lost in Random:
   cloud:
     gog: true
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/2564520/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/2564520/remote/settingsSave":
+      tags:
+        - save
+      when:
+        - store: steam
   gog:
     id: 1792486781
   id:
@@ -552322,7 +552335,7 @@ Prince of Persia 3D:
     Prince of Persia The Lost Crown: {}
   launch:
     "<base>/TheLostCrown.exe":
-      - arguments: "-uplay_steam_mode EnableAlternateAppId"
+      - arguments: "-upc_ucs_mode -uplay_steam_mode EnableAlternateAppId"
         when:
           - os: windows
             store: steam

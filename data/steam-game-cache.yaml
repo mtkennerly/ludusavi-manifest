@@ -559751,12 +559751,7 @@
 1462570:
   installDir: Lost in Random
   launch:
-    - executable: "link2ea://launchgame/1462570?platform=steam&theme=lir"
-      type: none
-    - config:
-        betakey: eax_test
-      description: New launch method
-      executable: "steam2ea://launchgame/1462570?platform=steam&theme=lir"
+    - executable: "steam2ea://launchgame/1462570?platform=steam&theme=lir"
   nameLocalized:
     japanese: "ロスト・イン・ランダム "
     tchinese: 《Lost in Random™》
@@ -634513,7 +634508,7 @@
 2751000:
   installDir: Prince of Persia The Lost Crown
   launch:
-    - arguments: "-uplay_steam_mode EnableAlternateAppId"
+    - arguments: "-upc_ucs_mode -uplay_steam_mode EnableAlternateAppId"
       config:
         oslist: windows
       executable: TheLostCrown.exe
