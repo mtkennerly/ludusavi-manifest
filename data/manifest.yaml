@@ -168315,11 +168315,14 @@ Cyanide & Happiness - Freakpocalypse:
   steam:
     id: 928840
 Cyber Agent:
+  cloud:
+    steam: true
   files:
-    "<home>/AppData/LocalLow/BambuseaeGames/CyberAgent/*.es3":
+    "<home>/AppData/LocalLow/BambuseaeGames/CyberAgent/SaveData.es3":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Cyber Agent: {}
   launch:

@@ -54257,8 +54257,12 @@ Cyanide & Happiness - Freakpocalypse:
   pageId: 110556
   steam: 928840
 Cyber Agent:
+  cloud:
+    steam: true
   pageId: 173522
   steam: 1274300
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\BambuseaeGames\\CyberAgent\\SaveData.es3}}"
 Cyber Arena:
   pageId: 74161
   steam: 733230
