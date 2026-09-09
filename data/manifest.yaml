@@ -209903,6 +209903,24 @@ Dopamine:
         - save
       when:
         - os: windows
+"Dora the Explorer: World Adventure!":
+  files:
+    "<base>/SAVED":
+      tags:
+        - save
+      when:
+        - os: windows
+"Dora: Rainforest Rescue":
+  id:
+    lutris: dora-rainforest-rescue
+  installDir:
+    Project MAP: {}
+  launch:
+    "<base>/Dora Rainforest Rescue.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3273550
 DoraKone:
   installDir:
     DoraKone: {}
@@ -236459,6 +236477,18 @@ Elysion:
           - store: steam
   steam:
     id: 1070110
+Elysium:
+  files:
+    "<winLocalAppData>/Elysium/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Elysium/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 Elysium VR:
   cloud:
     steam: true
@@ -452205,6 +452235,7 @@ Metal Gear Solid - Master Collection Version:
       when:
         - os: windows
   id:
+    lutris: metal-gear-solid-4-guns-of-the-patriots-master-col
     steamExtra:
       - 3859630
       - 4184400
@@ -452769,6 +452800,9 @@ Metal Slug XX:
         workingDir: "<base>/metal_slug_launcher"
   steam:
     id: 2963870
+"Metal Slug: Ultimate Collection":
+  steam:
+    id: 3975260
 Metal Soldiers 2:
   installDir:
     Metal Soldiers 2: {}
@@ -516502,6 +516536,13 @@ OtterBash:
             store: steam
   steam:
     id: 668800
+Otterly Lost:
+  id:
+    steamExtra:
+      - 4064140
+      - 4079110
+  steam:
+    id: 3861710
 Otto and the Ancient Worlds:
   cloud:
     steam: true

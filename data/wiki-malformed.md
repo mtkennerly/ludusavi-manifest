@@ -12,7 +12,6 @@
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Knights of the Temple II](https://www.pcgamingwiki.com/wiki/?curid=126719)
 * [Life Is Strange: Reunion](https://www.pcgamingwiki.com/wiki/?curid=213008)
-* [Martian Gothic: Unification](https://www.pcgamingwiki.com/wiki/?curid=35446)
 * [Marvel's Spider-Man: Miles Morales](https://www.pcgamingwiki.com/wiki/?curid=178032)
 * [Meet the Robinsons](https://www.pcgamingwiki.com/wiki/?curid=81386)
 * [Nova Roma](https://www.pcgamingwiki.com/wiki/?curid=214061)

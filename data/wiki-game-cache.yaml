@@ -67830,10 +67830,20 @@ Dopamine:
   pageId: 220173
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
+"Dora the Explorer: Swiper's Big Adventure":
+  pageId: 220291
+"Dora the Explorer: World Adventure!":
+  pageId: 220288
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SAVED}}"
 "Dora's 3-D Pyramid Adventure":
   pageId: 220216
 "Dora's Carnival Adventure":
   pageId: 220228
+"Dora: Rainforest Rescue":
+  lutris: dora-rainforest-rescue
+  pageId: 220293
+  steam: 3273550
 DoraKone:
   pageId: 132136
   steam: 1034880
@@ -76459,6 +76469,9 @@ Elysion:
   steam: 1070110
 Elysium:
   pageId: 218940
+  templates:
+    - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\Local\\Elysium\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\Local\\Elysium\\Saved\\SaveGames\\}}"
 Elysium VR:
   cloud:
     steam: true
@@ -143659,7 +143672,6 @@ Martial Law (DropDGames):
   steamSide:
     - 3643590
 "Martian Gothic: Unification":
-  malformed: true
   pageId: 35446
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Martian Gothic}}"
@@ -147014,6 +147026,7 @@ Metal Gear Solid - Master Collection Version:
 "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version":
   cloud:
     steam: true
+  lutris: metal-gear-solid-4-guns-of-the-patriots-master-col
   pageId: 213729
   steam: 2492670
   steamSide:
@@ -147252,6 +147265,9 @@ Metal Slug XX:
 "Metal Slug: Awakening":
   pageId: 196515
   steam: 2963870
+"Metal Slug: Ultimate Collection":
+  pageId: 220290
+  steam: 3975260
 Metal Soldiers 2:
   pageId: 77102
   steam: 753380
@@ -168424,6 +168440,12 @@ Otter of My Life:
 OtterBash:
   pageId: 65586
   steam: 668800
+Otterly Lost:
+  pageId: 220295
+  steam: 3861710
+  steamSide:
+    - 4064140
+    - 4079110
 Otto Matic:
   pageId: 191663
 Otto and the Ancient Worlds:

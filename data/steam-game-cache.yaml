@@ -646200,6 +646200,31 @@
       description: Non Meta Headset
       executable: Atlas.exe
       type: vr
+3273550:
+  installDir: Project MAP
+  launch:
+    - executable: Dora Rainforest Rescue.exe
+  nameLocalized:
+    brazilian: "Dora™: Resgate na Floresta Tropical"
+    danish: "Dora™: Redningsaktion i regnskoven"
+    dutch: Dora™ Regenwoudredding
+    finnish: "Dora™: Sademetsän pelastus"
+    french: "Dora™ : Sauvetage en forêt tropicale"
+    german: "Dora™: Regenwald in Gefahr"
+    italian: "Dora™: Salvataggio nella Foresta Pluviale"
+    japanese: "ドーラ™: ジャングルレスキュー"
+    koreana: "도라™: 열대우림 구조대"
+    latam: "Dora™: Rescate de la selva"
+    norwegian: "Dora™: Redning i regnskogen"
+    polish: "Dora™: Na ratunek lasowi deszczowemu"
+    portuguese: "Dora™: Resgate na Floresta Tropical"
+    russian: "Дора™: На помощь джунглям."
+    schinese: Dora™：热带雨林大营救
+    spanish: "Dora™: Rescate en el Bosque Tropical"
+    swedish: "Dora™: Rädda regnskogen"
+    tchinese: Dora™：雨林拯救 雨林救援行動
+    turkish: "Dora™: Yağmur Ormanı'nı Kurtarma"
+    ukrainian: "Дора™: Порятунок Тропічного лісу"
 3273980:
   cloud:
     saves:
@@ -654968,6 +654993,7 @@
       type: default
   nameLocalized:
     schinese: 时空迷踪
+3861710: {}
 3862670:
   cloud:
     saves:
@@ -656258,6 +656284,7 @@
         oslist: linux
       executable: TimeOfMonsters
 3970690: {}
+3975260: {}
 3976150:
   installDir: "Sonki's Lagoon"
   launch:
