@@ -6141,6 +6141,7 @@
 * [Cursor Challenge](https://www.pcgamingwiki.com/wiki/?curid=43783)
 * [Curve Fever](https://www.pcgamingwiki.com/wiki/?curid=145015)
 * [Curvy](https://www.pcgamingwiki.com/wiki/?curid=68988)
+* [Custom Hobo](https://www.pcgamingwiki.com/wiki/?curid=220285)
 * [Custom Order Maid 3D2 It's a Night Magic](https://www.pcgamingwiki.com/wiki/?curid=141415)
 * [Customer Cums First!](https://www.pcgamingwiki.com/wiki/?curid=155296)
 * [Cut Cut Buffet](https://www.pcgamingwiki.com/wiki/?curid=58332)

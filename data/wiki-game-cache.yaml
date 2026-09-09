@@ -54118,6 +54118,11 @@ Curves:
 Curvy:
   pageId: 68988
   steam: 699360
+Custom Hobo:
+  cloud:
+    steam: true
+  pageId: 220285
+  steam: 1865270
 "Custom Order Maid 3D2 It's a Night Magic":
   pageId: 141415
   renamedFrom:
@@ -138099,7 +138104,7 @@ Lost in the Ocean VR:
   pageId: 53397
   steam: 542520
 Lost in the Roots:
-  malformed: true
+  lutris: lost-in-the-roots
   pageId: 215872
   steam: 2872240
 Lost in the Tomb:
