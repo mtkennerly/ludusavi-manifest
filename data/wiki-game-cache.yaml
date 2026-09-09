@@ -104053,6 +104053,8 @@ Guts and Goals:
 Guts and Syringes:
   pageId: 90201
   steam: 654800
+Guy Spy and the Crystals of Armageddon:
+  pageId: 220283
 "Gwent: Rogue Mage":
   cloud:
     gog: true
@@ -108730,6 +108732,8 @@ Helskate:
     steam: true
   pageId: 195259
   steam: 1295630
+Helter Skelter:
+  pageId: 220273
 Helvetii:
   pageId: 139724
   steam: 1094590
@@ -223255,7 +223259,7 @@ Stoneshard:
     - 869760
   templates:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/StoneShard/}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Local\\StoneShard\\characters_v1\\*.sav|{{P|userprofile}}\\AppData\\Local\\StoneShard\\characters_v1\\*.map}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Local\\StoneShard\\characters_v1\\*}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/StoneShard/}}"
 Stonetowers:
   cloud:
@@ -225838,6 +225842,8 @@ Summer Challenge:
   pageId: 162373
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\*.SGL|{{p|game}}\\*.RP?}}"
+Summer Challenge (1988):
+  pageId: 220275
 Summer Days in the Joyful Countryside:
   pageId: 218024
   steam: 3606380
@@ -256643,6 +256649,8 @@ Tower Stacker:
 "Tower Tank: TD Reversal":
   pageId: 125237
   steam: 993490
+Tower Toppler:
+  pageId: 220278
 Tower Unite:
   cloud:
     steam: true
@@ -270917,6 +270925,16 @@ WanderLust (2021):
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\HFTGames\\WanderLust\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\HFTGames\\WanderLust\\}}"
+Wanderburg:
+  cloud:
+    steam: true
+  lutris: wanderburg
+  pageId: 220269
+  steam: 3624140
+  steamSide:
+    - 3624200
+    - 4268810
+    - 5026240
 Wanderer:
   pageId: 136224
   renamedFrom:
@@ -275721,6 +275739,8 @@ Whitetail Challenge:
 Whitevale Defender:
   pageId: 92299
   steam: 841320
+Whizz:
+  pageId: 220280
 "Who Am I: The Tale of Dorothy":
   cloud:
     steam: true
@@ -280566,6 +280586,8 @@ Xenomarine:
 Xenomorph:
   pageId: 80350
   steam: 768990
+Xenon:
+  pageId: 220271
 "Xenon 2: Megablast":
   pageId: 107044
 Xenon Racer:

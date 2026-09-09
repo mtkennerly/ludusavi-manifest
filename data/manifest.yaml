@@ -101040,9 +101040,28 @@ Boxplosion:
 Boxroom:
   cloud:
     steam: true
+  files:
+    "<home>/.config/unity3d/NestedLoop/BOXROOM/Saves":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/NestedLoop/BOXROOM/Saves":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/NestedLoop/BOXROOM/Saves":
+      when:
+        - os: mac
+          store: steam
   id:
     steamExtra:
       - 4385060
+  installDir:
+    My Game Room: {}
+  launch:
+    "<base>/BOXROOM.exe":
+      - when:
+          - store: steam
   steam:
     id: 4335460
 Boxville:
@@ -685179,12 +685198,7 @@ Stoneshard:
         - save
       when:
         - os: linux
-    "<home>/AppData/Local/StoneShard/characters_v1/*.map":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<home>/AppData/Local/StoneShard/characters_v1/*.sav":
+    "<home>/AppData/Local/StoneShard/characters_v1":
       tags:
         - save
       when:
@@ -828351,6 +828365,27 @@ WanderLust (2021):
         - config
   steam:
     id: 1507420
+Wanderburg:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Randwerk/Wanderburg":
+      when:
+        - store: steam
+  id:
+    lutris: wanderburg
+    steamExtra:
+      - 3624200
+      - 4268810
+      - 5026240
+  installDir:
+    Wanderburg Game: {}
+  launch:
+    "<base>/Wanderburg.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3624140
 Wanderer of Teandria:
   files:
     "<winLocalAppData>/Wanderer/*.wndr":

@@ -652279,6 +652279,27 @@
     koreana: 자판기 시뮬레이터
     schinese: 自动售货机模拟器
     tchinese: 自動售貨機模擬器
+3624140:
+  cloud:
+    saves:
+      - path: Randwerk/Wanderburg
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Wanderburg Game
+  launch:
+    - executable: Wanderburg.exe
+      type: default
+    - arguments: "-force-vulkan"
+      config:
+        oslist: linux
+      description: Optimized for Steam Deck (Vulkan)
+      executable: Wanderburg.exe
+      type: option1
+  nameLocalized:
+    japanese: Wanderburg ワンダーバーグ
+    koreana: Wanderburg 완더버그
+    schinese: 吞吞堡垒 Wanderburg
 3624590:
   installDir: Yasuke Hentai Simulator
   launch:
@@ -658118,7 +658139,30 @@
   launch:
     - executable: Craving Wisps.exe
       type: default
-4335460: {}
+4335460:
+  cloud:
+    saves:
+      - path: "NestedLoop\\BOXROOM\\Saves"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Library/Application Support/NestedLoop/BOXROOM/Saves
+        pattern: "*"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacHome
+      - path: ".config/unity3d/NestedLoop/BOXROOM/Saves"
+        pattern: "*"
+        platforms:
+          - Linux
+        recursive: true
+        root: LinuxHome
+  installDir: My Game Room
+  launch:
+    - executable: BOXROOM.exe
 4339870:
   installDir: Goreagulation
   launch:
