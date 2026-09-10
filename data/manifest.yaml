@@ -243033,6 +243033,13 @@ Erefia:
 Ergastulum:
   alias: "Ergastulum: Dungeon Nightmares III"
 "Ergastulum: Dungeon Nightmares III":
+  files:
+    "<base>/Ergastulum_Data":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Ergastulum: {}
   launch:
@@ -314222,6 +314229,7 @@ GreedFall 2:
   alias: "GreedFall: The Dying World"
 "GreedFall: The Dying World":
   cloud:
+    gog: true
     steam: true
   files:
     "<winDocuments>/GreedFall 2/*.fsav":
@@ -314237,6 +314245,12 @@ GreedFall 2:
   gog:
     id: 2015990447
   id:
+    gogExtra:
+      - 1679898328
+      - 1869920024
+      - 1885332703
+      - 2008928616
+      - 2146961055
     lutris: greedfall-ii-the-dying-world
     steamExtra:
       - 4066020
@@ -421315,10 +421329,21 @@ Loop Hero:
   steam:
     id: 1282730
 Loop Miner:
+  files:
+    "<winLocalAppData>/Loop_Miner/*.ini":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: loop-miner
     steamExtra:
       - 4765590
+  installDir:
+    Loop Miner: {}
+  launch:
+    "<base>/Loop Miner.exe":
+      - when:
+          - store: steam
   steam:
     id: 4715320
 LoopCraft:
@@ -724722,13 +724747,26 @@ The Alien Cube:
 "The Alighieri Circle: Dante's Bloodline":
   cloud:
     epic: true
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/TheAlighieriCircle":
+      when:
+        - store: steam
   gog:
     id: 1716484150
   id:
     lutris: the-alighieri-circle-dantes-bloodline
     steamExtra:
       - 4391700
+  installDir:
+    "The Alighieri Circle Dante's Bloodline": {}
+  launch:
+    "<base>/TheAlighieriCircle.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4262620
 The Alley:

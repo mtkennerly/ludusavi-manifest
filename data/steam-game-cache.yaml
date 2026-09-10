@@ -658104,7 +658104,19 @@
         oslist: linux
       executable: TheAuroraChronicles.x86_64
       type: default
-4262620: {}
+4262620:
+  cloud:
+    saves:
+      - path: TheAlighieriCircle
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: "The Alighieri Circle Dante's Bloodline"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TheAlighieriCircle.exe
 4264230:
   cloud:
     saves:
@@ -659450,7 +659462,17 @@
         oslist: windows
       executable: HypnoTiles.exe
       type: default
-4715320: {}
+4715320:
+  cloud:
+    saves:
+      - path: Loop_Miner
+        pattern: "*.ini"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Loop Miner
+  launch:
+    - executable: Loop Miner.exe
 4716160: {}
 4729320:
   nameLocalized:

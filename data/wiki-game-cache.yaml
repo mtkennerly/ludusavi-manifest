@@ -78476,6 +78476,9 @@ Erefia:
   renamedFrom:
     - Ergastulum
   steam: 598430
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Ergastulum_Data}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Ergastulum_Data}}"
 Eric the Unready:
   cloud:
     gog: true
@@ -101908,8 +101911,15 @@ GreedFall:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\GreedFall\\{{code|*}}.fsav}}"
 "GreedFall: The Dying World":
   cloud:
+    gog: true
     steam: true
   gog: 2015990447
+  gogSide:
+    - 1679898328
+    - 1869920024
+    - 1885332703
+    - 2008928616
+    - 2146961055
   lutris: greedfall-ii-the-dying-world
   pageId: 192535
   renamedFrom:
@@ -235765,6 +235775,7 @@ The Alien Cube:
 "The Alighieri Circle: Dante's Bloodline":
   cloud:
     epic: true
+    gog: true
     steam: true
   gog: 1716484150
   lutris: the-alighieri-circle-dantes-bloodline
