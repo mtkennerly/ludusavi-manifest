@@ -34326,6 +34326,9 @@ Broken of Darkness:
   steam: 3886200
   steamSide:
     - 4005770
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\DontLie\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\DontLie\\Saved\\SaveGames\\}}"
 "BrokenLore: Don't Play":
   pageId: 215963
   steam: 4549480
@@ -51647,6 +51650,9 @@ Crimson Moon:
   lutris: crimson-moon--1
   pageId: 216962
   steam: 4317690
+  steamSide:
+    - 4859730
+    - 4984080
 Crimson Nights:
   pageId: 55744
   steam: 538390
@@ -86298,7 +86304,8 @@ Fernbus Simulator:
   pageId: 36566
   steam: 427100
   templates:
-    - "{{Game data/saves|Windows|{{p|localappdata}}\\Fernbus\\Saved}}"
+    - "{{Game data/config|Windows|\n{{p|localappdata}}\\Fernbus\\Settings|\n{{p|localappdata}}\\Fernbus\\Saved\\Config\\Windows|\n{{p|localappdata}}\\Fernbus\\Saved\\Profiles\\<profile>\\Settings\n}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Fernbus\\Saved\\Profiles}}"
 Fernz Gate:
   cloud:
     xbox: true
@@ -109737,6 +109744,11 @@ Hero of the Kingdom III:
 Hero of the Kingdom IV:
   pageId: 157891
   steam: 4605200
+"Hero of the Kingdom: Echoes":
+  cloud:
+    steam: true
+  pageId: 220300
+  steam: 5131800
 "Hero of the Kingdom: The Lost Tales 1":
   cloud:
     gog: true
@@ -113561,6 +113573,7 @@ Hot Wheels World Race:
 "Hot Wheels: Infinite Rush":
   cloud:
     steam: true
+    xbox: true
   lutris: hot-wheels-infinite-rush
   pageId: 217320
   steam: 2821390
@@ -268875,6 +268888,7 @@ Virtua Fighter 2 (2010):
 Virtua Fighter 5 R.E.V.O. World Stage:
   cloud:
     steam: true
+    xbox: true
   lutris: virtua-fighter-5-revo
   pageId: 199440
   renamedFrom:
@@ -271713,6 +271727,9 @@ Wardogs:
   steamSide:
     - 4809930
     - 4809960
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Wardogs\\Saved\\Config\\WindowsClient\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Wardogs\\Saved\\SaveGames\\}}"
 Wardwell House:
   pageId: 155530
   steam: 1180030

@@ -362343,6 +362343,17 @@
 846430: {}
 846440: {}
 846470:
+  cloud:
+    saves:
+      - path: MossGame/Saved/SaveGames
+        pattern: SaveGame*.sav
+        root: WinAppDataLocal
+    overrides:
+      - addPath: com.polyarc.MossGame/files/UE4Game/MossGame/
+        os: Android
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: AndroidInternalData
   installDir: Moss
   launch:
     - arguments: "-regenerateinis"
@@ -362368,6 +362379,29 @@
       description: Old MossGame Shipping Path
       executable: "MossGame\\Binaries\\Win64\\MossGame-Win64-Shipping.exe"
       type: vr
+    - config:
+        betakey: main_test
+        oslist: android
+      description: main_test branch launch
+      executable: Moss-Android-Test-arm64.apk
+      type: openxr
+    - config:
+        betakey: main_development
+        oslist: android
+      description: main_development branch launch
+      executable: Moss-arm64.apk
+      type: openxr
+    - config:
+        betakey: main_shipping
+        oslist: android
+      description: main_shipping branch launch
+      executable: Moss-Android-Shipping-arm64.apk
+      type: openxr
+    - config:
+        oslist: android
+      description: Shipping Version
+      executable: Moss-Android-Shipping-arm64.apk
+      type: openxr
 846490:
   installDir: Dragon Defense
   launch:
@@ -589871,7 +589905,116 @@
         oslist: linux
       executable: wordle5.x86_64
       type: default
-1867240: {}
+1867240:
+  installDir: Wardogs
+  launch:
+    - arguments: "-PragmaEnvironment=live"
+      executable: WardogsLauncher-Shipping.exe
+      type: default
+    - arguments: "-PragmaEnvironment=playtest"
+      config:
+        betakey: "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,milestone_dev_latest,qa_testing"
+      description: WARDOGS // Development // Playtest
+      executable: Wardogs/Binaries/Win64/WardogsClient.exe
+    - arguments: "-PragmaEnvironment=Staging"
+      config:
+        betakey: "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,milestone_dev_latest,qa_testing"
+      description: WARDOGS // Development // Staging
+      executable: Wardogs/Binaries/Win64/WardogsClient.exe
+    - arguments: "-LogPSO -OnlineConfigTags=playtest -PragmaEnvironment=playtest"
+      config:
+        betakey: "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,milestone_dev_latest,qa_testing,qa_verified,main_internal,early_access_0_1_internal"
+      description: WARDOGS // Test // Playtest
+      executable: Wardogs/Binaries/Win64/WardogsClient-Win64-Test.exe
+    - arguments: "-col -PragmaEnvironment=staging"
+      config:
+        betakey: "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,early_access_0_1_internal,any_brain,qa_testing,qa_verified,live_staging_internal"
+      description: WARDOGS // Test // Staging
+      executable: Wardogs/Binaries/Win64/WardogsClient-Win64-Test.exe
+    - arguments: "-PragmaEnvironment=playtest"
+      config:
+        betakey: "main,playtest,banked_staging,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,icarus_bronze,icarus_silver,icarus_gold,milestone_shipping_latest,milestone_dev_latest,qa_testing,release_staging,qa_verified"
+      description: WARDOGS // Shipping // Playtest
+      executable: start_protected_game.exe
+    - arguments: "-col -PragmaEnvironment=staging"
+      config:
+        betakey: "main,playtest,banked_staging,community_provider_client,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,icarus_bronze,icarus_silver,icarus_gold,milestone_shipping_latest,qa_testing,qa_verified,early_access_0_1_internal,live_staging_internal,any_brain"
+      description: WARDOGS // Shipping // Staging
+      executable: WardogsLauncher-Shipping.exe
+    - arguments: "-PragmaEnvironment=playtest"
+      config:
+        betakey: "early_access_0_1_internal, x-marley, any_brain"
+      description: WARDOGS // Shipping // Playtest
+      executable: start_protected_game.exe
+    - arguments: "-PragmaEnvironment=public"
+      config:
+        betakey: "release_staging,x-scooby"
+      description: WARDOGS // Shipping // Public
+      executable: start_protected_game.exe
+    - arguments: "-PragmaEnvironment=staging"
+      config:
+        betakey: "x-lassie,x-marley"
+      description: WARDOGS // Shipping // Elytra
+      executable: WardogsLauncher-Shipping.exe
+    - arguments: "-securelogs -PragmaEnvironment=staging"
+      config:
+        betakey: "external_test_partner,etp_two"
+      description: WARDOGS // Shipping // Staging
+      executable: Wardogs/Binaries/Win64/WardogsClient-Win64-Shipping.exe
+    - config:
+        betakey: "main,playtest,banked_staging,community_provider_client,x-astro,x-bolt,x-clifford,x-droopy,x-fang,x-gromit,x-lassie,x-marley,x-scooby,x-toto,icarus_bronze,icarus_silver,icarus_gold,milestone_shipping_latest,qa_testing,qa_verified,early_access_0_1_internal,any_brain,main_internal"
+      description: WARDOGS // Test // Functest
+      executable: "Wardogs\\Binaries\\Win64\\WardogsClient-Win64-Test.exe"
+    - arguments: "-PragmaEnvironment=live"
+      config:
+        betakey: "live_staging_internal,live_staging_external"
+      description: WARDOGS // Shipping // Live
+      executable: start_protected_game.exe
+    - arguments: "-PragmaEnvironment=staging"
+      config:
+        betakey: early_access_0_1_external
+      description: WARDOGS // Shipping // Staging
+      executable: WardogsLauncher-Shipping.exe
+    - arguments: "-PragmaEnvironment=staging -AntiCheat -EnableAnyBrain"
+      config:
+        betakey: live_staging_internal
+      description: Test // Staging // Staging
+      executable: WardogsLauncher-Test.exe
+    - arguments: "-PragmaEnvironment=staging -AntiCheat -EnableAnyBrain"
+      config:
+        betakey: "live_staging_internal,live_staging_external,default_internal"
+      description: Shipping // Staging // Staging
+      executable: WardogsLauncher-Shipping.exe
+    - arguments: "-PragmaEnvironment=staging"
+      config:
+        betakey: "live_staging_internal,"
+      description: Shipping // Staging // None
+      executable: Wardogs/Binaries/Win64/WardogsClient-Win64-Shipping.exe
+    - arguments: "-PragmaEnvironment=live"
+      config:
+        betakey: live_staging_internal
+      description: Shipping // Live // None
+      executable: Wardogs/Binaries/Win64/WardogsClient-Win64-Shipping.exe
+    - arguments: "-PragmaEnvironment=live -AntiCheat -EnableAnyBrain"
+      config:
+        betakey: live_staging_internal
+      description: Test // Live // Prod
+      executable: WardogsLauncher-Test-Prod.exe
+    - arguments: "-PragmaEnvironment=live -AntiCheat -EnableAnyBrain"
+      config:
+        betakey: live_staging_internal
+      description: Shipping // Live // Prod
+      executable: WardogsLauncher-Shipping-Prod.exe
+    - arguments: "-PragmaEnvironment=live -AntiCheat -EnableAnyBrain"
+      config:
+        betakey: "live_prod_external,banked_internal,default_internal,banked_default"
+      description: Shipping // Live // Prod
+      executable: WardogsLauncher-Shipping.exe
+    - arguments: "-PragmaEnvironment=live"
+      config:
+        betakey: live_prod_external
+      description: default_test
+      executable: WardogsLauncher-Shipping.exe
 1867260:
   installDir: Way Down
   launch:
@@ -636338,7 +636481,16 @@
       executable: SubversiveMemories.exe
   nameLocalized:
     schinese: 颠覆回忆 - Subversive Memories
-2821390: {}
+2821390:
+  cloud:
+    saves:
+      - path: Hotwheels3/Saved/SaveGames/
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: HOT WHEELS™ Infinite Rush
+  launch:
+    - executable: hotwheels3.exe
 2821610:
   cloud:
     saves:
@@ -655155,6 +655307,13 @@
       type: default
 3884860: {}
 3886200:
+  installDir: DON’T LIE
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DontLie.exe
+      type: default
   nameLocalized:
     schinese: 破碎怪谈：切勿欺骗
     tchinese: 破碎怪談：切勿欺騙
@@ -658137,9 +658296,15 @@
 4317690:
   cloud:
     saves:
-      - path: "\\CrimsonMoonNG\\Saved\\SaveGames"
+      - path: "CrimsonMoonNG\\Saved\\SaveGames"
         pattern: "*.*"
         root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
   installDir: Crimson Moon
   launch:
     - config:
@@ -659400,5 +659565,10 @@
 5036490: {}
 5067360: {}
 5093680: {}
+5131800:
+  nameLocalized:
+    russian: "Герой Королевства: Отголоски"
+    schinese: 王国英雄：餘音
+    ukrainian: "Герой Королівства: Відлуння"
 34004563: {}
 3221903386: {}

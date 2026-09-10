@@ -106093,10 +106093,29 @@ Broken of Darkness:
   steam:
     id: 2283250
 "BrokenLore: Don't Lie":
+  files:
+    "<winLocalAppData>/DontLie/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/DontLie/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: brokenlore-dont-lie
     steamExtra:
       - 4005770
+  installDir:
+    DON’T LIE: {}
+  launch:
+    "<base>/DontLie.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3886200
 "BrokenLore: Don't Play":
@@ -160156,11 +160175,18 @@ Crimson Moon:
   cloud:
     steam: true
   files:
+    "<home>/CrimsonMoonNG/Saved/SaveGames/*.*":
+      when:
+        - os: linux
+          store: steam
     "<winLocalAppData>/CrimsonMoonNG/Saved/SaveGames/*.*":
       when:
         - store: steam
   id:
     lutris: crimson-moon--1
+    steamExtra:
+      - 4859730
+      - 4984080
   installDir:
     Crimson Moon: {}
   launch:
@@ -265746,9 +265772,19 @@ Fernbus Simulator:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Fernbus/Saved":
+    "<winLocalAppData>/Fernbus/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Fernbus/Saved/Profiles":
       tags:
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Fernbus/Settings":
+      tags:
+        - config
       when:
         - os: windows
   installDir:
@@ -337569,6 +337605,11 @@ Hero of the Kingdom III:
 Hero of the Kingdom IV:
   steam:
     id: 4605200
+"Hero of the Kingdom: Echoes":
+  cloud:
+    steam: true
+  steam:
+    id: 5131800
 "Hero of the Kingdom: The Lost Tales 1":
   cloud:
     gog: true
@@ -349606,8 +349647,18 @@ Hot Wheels World Race:
 "Hot Wheels: Infinite Rush":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Hotwheels3/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
   id:
     lutris: hot-wheels-infinite-rush
+  installDir:
+    HOT WHEELS™ Infinite Rush: {}
+  launch:
+    "<base>/hotwheels3.exe":
+      - when:
+          - store: steam
   steam:
     id: 2821390
 "Hot Wheels: Micro Racers":
@@ -830775,11 +830826,29 @@ Wardialler:
   steam:
     id: 1077860
 Wardogs:
+  files:
+    "<winLocalAppData>/Wardogs/Saved/Config/WindowsClient":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Wardogs/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: wardogs
     steamExtra:
       - 4809930
       - 4809960
+  installDir:
+    Wardogs: {}
+  launch:
+    "<base>/WardogsLauncher-Shipping.exe":
+      - arguments: "-PragmaEnvironment=live"
+        when:
+          - store: steam
   steam:
     id: 1867240
 Wardwell House:
