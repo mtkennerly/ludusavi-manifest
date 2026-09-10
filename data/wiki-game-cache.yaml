@@ -103794,6 +103794,8 @@ Gunmetal Gothic:
   lutris: gunmetal-gothic
   pageId: 205006
   steam: 2248150
+  steamSide:
+    - 5005460
 GunnRunner:
   cloud:
     steam: true
@@ -191250,7 +191252,7 @@ Resonance of Fate 4K/HD Edition:
   steamSide:
     - 3837640
   templates:
-    - "{{Game data/config|Microsoft Store|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
+    - "{{Game data/config|Microsoft Store|{{p|userprofile\\documents}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
     - "{{Game data/config|Steam|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\FocusHomeInteractiveSA.APlagueTaleFelons_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\2713000\\remote}}"
@@ -266681,8 +266683,11 @@ Valheim:
   cloud:
     steam: true
     xbox: true
+  lutris: valheim
   pageId: 113522
   steam: 892970
+  steamSide:
+    - 1620250
   templates:
     - "{{Game data/config|Windows|{{p|HKCU}}\\SOFTWARE\\IronGate\\Valheim}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/IronGate/Valheim/prefs}}"
