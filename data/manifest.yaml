@@ -621148,7 +621148,9 @@ Seal World:
     id: 1684410
 Seal of Evil:
   cloud:
+    epic: true
     gog: true
+    steam: true
   files:
     "<base>/System":
       when:

@@ -127827,6 +127827,7 @@ Kingdom Hearts HD 2.8 Final Chapter Prologue:
 Kingdom Hearts III:
   cloud:
     steam: true
+    xbox: true
   pageId: 166575
   steam: 2552450
   templates:
@@ -202551,7 +202552,9 @@ Seal World:
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/SealDev/Seal World}}"
 Seal of Evil:
   cloud:
+    epic: true
     gog: true
+    steam: true
   gog: 1973516426
   lutris: seal-of-evil
   pageId: 172593
