@@ -656819,6 +656819,20 @@
       type: default
 4026510: {}
 4026900: {}
+4027450:
+  cloud:
+    saves:
+      - path: "SquareEnix\\TornekosMysteryDungeon\\Steam\\{64BitSteamID}\\SaveGames"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: TornekosMysteryDungeon
+  launch:
+    - config:
+        oslist: windows
+      executable: TornekosMysteryDungeon.exe
+  nameLocalized:
+    english: "Dragon Quest Heroes: Torneko's Mystery Dungeon -Classic HD-"
+    japanese: トルネコの大冒険 不思議のダンジョン　ちょっとステキなリマスター
 4031890:
   nameLocalized:
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"

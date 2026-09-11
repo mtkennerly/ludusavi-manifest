@@ -213195,6 +213195,22 @@ Dragon Quest Heroes II:
             store: steam
   steam:
     id: 574050
+"Dragon Quest Heroes: Torneko's Mystery Dungeon -Classic HD-":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/SquareEnix/TornekosMysteryDungeon/Steam/<storeUserId>/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    TornekosMysteryDungeon: {}
+  launch:
+    "<base>/TornekosMysteryDungeon.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4027450
 Dragon Quest I & II HD-2D Remake:
   cloud:
     steam: true
@@ -222674,6 +222690,9 @@ Dungeon Munchies:
             store: steam
   steam:
     id: 799640
+Dungeon Nightmares:
+  id:
+    lutris: dungeon-nightmares
 "Dungeon Nightmares II: The Memory":
   files:
     "<home>/AppData/LocalLow/K Monkey/Dungeon Nightmares II _ The Memory/gameoptions.dat":

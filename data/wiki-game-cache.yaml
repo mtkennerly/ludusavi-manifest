@@ -35643,6 +35643,8 @@ Burning Out:
     - 2065290
     - 2065300
     - 2065301
+Burning Soldier:
+  pageId: 220335
 BurningBridges VR:
   pageId: 90062
   steam: 818430
@@ -68916,6 +68918,11 @@ Dragon Quest Heroes II:
   steam: 574050
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\SQUARE ENIX\\DRAGON QUEST HEROES II\\}}"
+"Dragon Quest Heroes: Torneko's Mystery Dungeon -Classic HD-":
+  cloud:
+    steam: true
+  pageId: 220331
+  steam: 4027450
 Dragon Quest I & II HD-2D Remake:
   cloud:
     steam: true
@@ -71845,6 +71852,9 @@ Dungeon Munchies:
     steam: true
   pageId: 128509
   steam: 799640
+Dungeon Nightmares:
+  lutris: dungeon-nightmares
+  pageId: 220341
 "Dungeon Nightmares II: The Memory":
   pageId: 34039
   steam: 382090
@@ -181108,6 +181118,8 @@ Professor Chuckenhope:
 Professor Fizzwizzle and the Molten Mystery:
   pageId: 41141
   steam: 50910
+Professor Layton and the Curious Village Remake:
+  pageId: 220333
 Professor Layton and the New World of Steam:
   pageId: 215534
 Professor Lupo and His Horrible Pets:
@@ -190235,6 +190247,8 @@ Remorses:
   steam: 2292160
   steamSide:
     - 4694130
+Remote Control:
+  pageId: 220337
 "Remothered: Broken Porcelain":
   cloud:
     gog: true
