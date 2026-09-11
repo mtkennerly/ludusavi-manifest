@@ -34320,8 +34320,6 @@ Broken of Darkness:
   pageId: 212260
   steam: 2283250
 "BrokenLore: Don't Lie":
-  cloud:
-    xbox: true
   lutris: brokenlore-dont-lie
   pageId: 210156
   renamedFrom:
@@ -78487,13 +78485,14 @@ Erefia:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 "Ergastulum: Dungeon Nightmares III":
+  lutris: ergastulum
   pageId: 76384
   renamedFrom:
     - Ergastulum
   steam: 598430
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Ergastulum_Data}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Ergastulum_Data}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\K Monkey\\Ergastulum}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\K Monkey\\Ergastulum}}"
 Eric the Unready:
   cloud:
     gog: true
@@ -81462,6 +81461,7 @@ Expelled:
   steam: 727530
 Expendable:
   gog: 1207658789
+  lutris: expendable
   pageId: 21166
   steam: 804000
   templates:
@@ -123781,11 +123781,13 @@ Join Us:
   pageId: 217647
   steam: 3401960
 "Joint Operations: Typhoon Rising":
+  lutris: joint-operations-typhoon-rising
   pageId: 41232
   steam: 32770
 Joint Strike Fighter:
   pageId: 190640
 Joint Task Force:
+  lutris: joint-task-force
   pageId: 38271
   steam: 6400
   templates:

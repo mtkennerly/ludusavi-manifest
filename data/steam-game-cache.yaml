@@ -8178,6 +8178,12 @@
   installDir: Joint Operations Combined Arms
   launch:
     - executable: runme.exe
+    - config:
+        betakey: "internal,jointops2024"
+      description: "Joint Operations: Tactical Assault Coalition (Community Project)"
+      executable: "JOTAC\\JOTAC.exe"
+      type: option1
+      workingdir: JOTAC
 32800:
   cloud:
     saves:

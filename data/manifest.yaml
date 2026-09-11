@@ -243070,13 +243070,8 @@ Erefia:
 Ergastulum:
   alias: "Ergastulum: Dungeon Nightmares III"
 "Ergastulum: Dungeon Nightmares III":
-  files:
-    "<base>/Ergastulum_Data":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
+  id:
+    lutris: ergastulum
   installDir:
     Ergastulum: {}
   launch:
@@ -243088,6 +243083,11 @@ Ergastulum:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/K Monkey/Ergastulum:
+      tags:
+        - config
+        - save
   steam:
     id: 598430
 Eric the Unready:
@@ -252042,6 +252042,8 @@ Expendable:
         - os: windows
   gog:
     id: 1207658789
+  id:
+    lutris: expendable
   installDir:
     Expendable: {}
   launch:
@@ -381172,6 +381174,8 @@ Join Us:
   steam:
     id: 3401960
 "Joint Operations: Typhoon Rising":
+  id:
+    lutris: joint-operations-typhoon-rising
   installDir:
     Joint Operations Combined Arms: {}
   launch:
@@ -381193,6 +381197,8 @@ Joint Task Force:
         - config
       when:
         - os: windows
+  id:
+    lutris: joint-task-force
   installDir:
     Joint Task Force: {}
   launch:
