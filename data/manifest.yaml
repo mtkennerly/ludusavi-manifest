@@ -172286,6 +172286,8 @@ Damnation:
         - config
       when:
         - os: windows
+  id:
+    lutris: damnation
   installDir:
     Damnation: {}
   launch:
@@ -222705,6 +222707,8 @@ Dungeon Nightmares:
         - config
       when:
         - os: linux
+  id:
+    lutris: dungeon-nightmares-ii-the-memory
   installDir:
     Dungeon Nightmares II - The Memory: {}
   launch:
@@ -222716,6 +222720,10 @@ Dungeon Nightmares:
       - when:
           - os: windows
             store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/K Monkey/Dungeon Nightmares II : The Memory":
+      tags:
+        - config
   steam:
     id: 382090
 Dungeon Of Dragon Knight:
