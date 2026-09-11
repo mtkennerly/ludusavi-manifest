@@ -24493,6 +24493,9 @@ Beardy the Digger:
     steam: true
   pageId: 148627
   steam: 1144630
+Bearly Awesome:
+  pageId: 220324
+  steam: 3560160
 "Bears Can't Drift!?":
   pageId: 41743
   steam: 338040
@@ -94335,6 +94338,9 @@ GO HEROES:
 GO-4-Soldier-1:
   pageId: 152753
   steam: 1182720
+GODSCALE:
+  pageId: 220323
+  steam: 3956990
 GOLF in PAPER:
   pageId: 134608
   steam: 1060060
@@ -126814,6 +126820,9 @@ Kill Knight:
     - 3229490
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\PlaySide Studios\\KILL KNIGHT}}"
+"Kill Source: Neon Hemorrhage":
+  pageId: 220329
+  steam: 4590020
 Kill Switch:
   pageId: 87762
   templates:
@@ -256318,6 +256327,14 @@ Touhou Kikamu ~ Elegant Impermanence of Sakura:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\team.luastg.xiliusha\\THEIS\\setting.cfg}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\team.luastg.xiliusha\\THEIS\\replay\\|{{p|appdata}}\\team.luastg.xiliusha\\THEIS\\score\\|{{p|appdata}}\\team.luastg.xiliusha\\THEIS\\snapshot\\}}"
+"Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil":
+  cloud:
+    steam: true
+  pageId: 220328
+  steam: 4659620
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\replay\\}}"
 Touhou La La Dui:
   pageId: 198417
   steam: 2493340
@@ -277388,6 +277405,9 @@ Witchbrook:
 Witchcraft:
   pageId: 74584
   steam: 577000
+"Witchcraft: Candy Hunt":
+  pageId: 220321
+  steam: 2373360
 "Witchcraft: Pandoras Box":
   pageId: 153665
   steam: 1203400

@@ -75654,6 +75654,16 @@ Beardy the Digger:
             store: steam
   steam:
     id: 1144630
+Bearly Awesome:
+  installDir:
+    Bearly Awesome: {}
+  launch:
+    "<base>/Bearly Awesome.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3560160
 "Bears Can't Drift!?":
   installDir:
     BCD: {}
@@ -290905,6 +290915,9 @@ GO-4-Soldier-1:
             store: steam
   steam:
     id: 1182720
+GODSCALE:
+  steam:
+    id: 3956990
 GOLF in PAPER:
   installDir:
     GOLF in PAPER: {}
@@ -390377,6 +390390,17 @@ Kill Knight:
             store: steam
   steam:
     id: 2694420
+"Kill Source: Neon Hemorrhage":
+  installDir:
+    Kill Source Neon Hemorrhage: {}
+  launch:
+    "<base>/Kill Source Neon Hemorrhage.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4590020
 Kill Switch:
   files:
     "<base>/Saves":
@@ -786468,6 +786492,24 @@ Touhou Kikamu ~ Elegant Impermanence of Sakura:
             store: steam
   steam:
     id: 1252320
+"Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil":
+  cloud:
+    steam: true
+  files:
+    "<base>/replay":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    th06nc: {}
+  launch:
+    "<base>/th06nc.exe":
+      - when:
+          - bit: 64
+            store: steam
+  steam:
+    id: 4659620
 Touhou La La Dui:
   files:
     "<base>/LaLaDui_Data/ScreenShot":
@@ -847544,6 +847586,15 @@ Witchcraft:
             store: steam
   steam:
     id: 577000
+"Witchcraft: Candy Hunt":
+  installDir:
+    Witchcraft Candy Hunt: {}
+  launch:
+    "<base>/Witchcraft Candy Hunt.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2373360
 "Witchcraft: Pandoras Box":
   installDir:
     Witchcraft Pandoras Box: {}

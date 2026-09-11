@@ -619644,6 +619644,10 @@
     japanese: ソードアート・オンライン インテグラル・ファクター
     koreana: 소드 아트 온라인 인테그럴 팩터
     tchinese: 刀劍神域 關鍵鬥士
+2373360:
+  installDir: Witchcraft Candy Hunt
+  launch:
+    - executable: Witchcraft Candy Hunt.exe
 2373630:
   cloud:
     saves:
@@ -651307,6 +651311,13 @@
     japanese: カプセル恋人
     schinese: 胶囊恋人
     tchinese: 膠囊戀人
+3560160:
+  installDir: Bearly Awesome
+  launch:
+    - config:
+        oslist: windows
+      executable: Bearly Awesome.exe
+      type: default
 3560870: {}
 3561220:
   cloud:
@@ -656404,6 +656415,7 @@
         oslist: windows
       executable: apidya.exe
       type: default
+3956990: {}
 3957530: {}
 3960600: {}
 3961110:
@@ -659266,6 +659278,15 @@
     tchinese: 西瓜遊戲
 4573410: {}
 4581370: {}
+4590020:
+  installDir: Kill Source Neon Hemorrhage
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: "Play Kill Source: Neon Hemorrhage"
+      executable: Kill Source Neon Hemorrhage.exe
+      type: default
 4603230: {}
 4605200: {}
 4605490: {}
@@ -659380,6 +659401,36 @@
   nameLocalized:
     japanese: カラドリウス2/ダークエレメント
 4658830: {}
+4659620:
+  cloud:
+    saves:
+      - path: ""
+        pattern: score.dat
+        root: gameinstall
+      - path: replay
+        pattern: "*.rpy"
+        root: gameinstall
+      - path: ""
+        pattern: th06.cfg
+        root: gameinstall
+  installDir: th06nc
+  launch:
+    - config:
+        osarch: "64"
+      executable: th06nc.exe
+  nameLocalized:
+    brazilian: "Touhou Koumakyou: Um Novo Clássico - a Encarnação do Demônio Escarlate"
+    french: "Touhou Koumakyou: un classique modernisé - the Embodiment of Scarlet Devil"
+    german: "Touhou Koumakyou: Im neuen Gewand - the Embodiment of Scarlet Devil"
+    italian: "Touhou Koumakyou: un Classico Modernizzato - The Embodiment of Scarlet Devil"
+    japanese: 東方紅魔郷：New Classic　～ the Embodiment of Scarlet Devil.
+    koreana: "동방홍마향: New Classic　～ the Embodiment of Scarlet Devil"
+    latam: "Touhou Koumakyou: Nuevo Clásico - the Embodiment of Scarlet Devil"
+    portuguese: "Touhou Koumakyou: Um Novo Clássico - a Encarnação do Demônio Escarlate"
+    russian: "Touhou Koumakyou: New Classic - The Embodiment of Scarlet Devil"
+    schinese: 东方红魔乡：新典　～ the Embodiment of Scarlet Devil.
+    spanish: "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil"
+    tchinese: 東方紅魔鄉：新典　～ the Embodiment of Scarlet Devil.
 4665290:
   nameLocalized:
     japanese: "エイリアン : 最後の生存者"
