@@ -28529,8 +28529,14 @@ Blackwind:
   steamSide:
     - 1723300
 Blackwood:
+  cloud:
+    steam: true
+  lutris: blackwood
   pageId: 220356
   steam: 3639070
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\AttritoM7 Productions\\Blackwood\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\AttritoM7 Productions\\Blackwood\\blackwood.sav}}"
 Blackwood Crossing:
   gog: 1195142914
   pageId: 39632

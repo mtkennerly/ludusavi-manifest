@@ -1188,6 +1188,11 @@
       description: Dissolution of Eternity (Original)
       executable: glquake.exe
       type: option1
+    - config:
+        betakey: "nightly,beta"
+      description: Rerelease Shaderfix
+      executable: rerelease/Quake_x64_steam.exe
+      type: option1
 2320:
   cloud:
     saves:

@@ -87907,6 +87907,20 @@ Blackwind:
   steam:
     id: 1567520
 Blackwood:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/AttritoM7 Productions/Blackwood/blackwood.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: blackwood
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/AttritoM7 Productions/Blackwood:
+      tags:
+        - config
   steam:
     id: 3639070
 Blackwood Crossing:
