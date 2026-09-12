@@ -20866,6 +20866,8 @@ Backyard Football 2002:
   templates:
     - "{{Game data/config|Windows|C:\\hegames.ini}}"
     - "{{Game data/saves|Windows|C:\\hegames\\Football2002\\Coaches}}"
+Backyard Football 2004:
+  pageId: 220374
 Backyard Football 2006:
   pageId: 212352
   templates:
@@ -62095,6 +62097,10 @@ Demonschool:
     steam: true
   pageId: 217401
   steam: 1900250
+"Demonworld: Dark Armies":
+  pageId: 220376
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGames}}"
 Den of Wolves:
   pageId: 200183
   steam: 1818140
@@ -184742,6 +184748,8 @@ Quiet Sleep:
 Quiet as a Stone:
   pageId: 98490
   steam: 872060
+Quik the Thunder Rabbit:
+  pageId: 220381
 Quilly:
   pageId: 149348
   steam: 1137630
@@ -212912,6 +212920,7 @@ Sol Cesto:
   steam: 2738490
   templates:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\SolCesto\\User Data\\Default\\}}"
+    - "{{Game data/saves|Epic Games Launcher|{{P|localappdata}}\\SolCesto\\EBWebView\\Default\\ {{note|Version 1.01.4b. The Epic build is a Construct 3 WebView2 export, so it writes to EBWebView instead of User Data.}}}}"
 Sol Cresta:
   cloud:
     steam: true
@@ -255035,6 +255044,8 @@ Tonka Search & Rescue:
   pageId: 198238
 Tonka Space Station:
   pageId: 199311
+"Tony & Friends in Kellogg's Land":
+  pageId: 220383
 "Tony Hawk's American Wasteland":
   pageId: 18776
   templates:

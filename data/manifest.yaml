@@ -192551,6 +192551,13 @@ Demonschool:
             store: steam
   steam:
     id: 1900250
+"Demonworld: Dark Armies":
+  files:
+    "<base>/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 Den of Wolves:
   steam:
     id: 1818140
@@ -653692,6 +653699,12 @@ Sol Cesto:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/SolCesto/EBWebView/Default":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: epic
     "<winLocalAppData>/SolCesto/User Data/Default":
       tags:
         - save

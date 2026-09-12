@@ -534063,8 +534063,7 @@
 1233570:
   installDir: Mirrors Edge Catalyst
   launch:
-    - executable: "link2ea://launchgame/1233570?platform=steam&theme=mec"
-      type: none
+    - executable: "steam2ea://launchgame/1233570?platform=steam&theme=mec"
   nameLocalized:
     japanese: ミラーズエッジ™ カタリスト
     schinese: 《镜之边缘：Catalyst》
