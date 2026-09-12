@@ -641101,6 +641101,19 @@
 3018390:
   nameLocalized:
     thai: PSYCHO DEAD
+3018890:
+  installDir: The ultimate Math teaching game
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Windows version
+      executable: the_ultimate_math_teaching_game.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: Linux Ubuntu version
+      executable: the_ultimate_math_teaching_game.x86_64
 3018910:
   cloud:
     saves:
@@ -646326,6 +646339,37 @@
     japanese: プロサッカークラブをつくろう！
     schinese: SEGA 新创造球会
     tchinese: SEGA 新創造球會
+3271280:
+  cloud:
+    saves:
+      - path: "SaveData/Fu{64BitSteamID}/"
+        pattern: "*.json"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - addPath: Team Lazerbeam/Shroom and Gloom/
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - addPath: Team Lazerbeam/Shroom and Gloom/
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: Shroom and Gloom
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Shroom and Gloom.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Shroom and Gloom.app
+      type: default
+  nameLocalized:
+    schinese: 菇域幽城
 3272300:
   installDir: Yasuke Simulator
   launch:
@@ -649370,6 +649414,10 @@
   installDir: Slingbot Survivors
   launch:
     - executable: Slingbot Survivors.exe
+3436970:
+  installDir: Mournight
+  launch:
+    - executable: Mournight.exe
 3438850:
   cloud:
     saves:
@@ -652684,6 +652732,7 @@
         oslist: windows
       executable: DFDT.exe
       type: default
+3639070: {}
 3639650:
   cloud:
     saves:
@@ -653192,7 +653241,14 @@
       executable: FALLSTRUKTUR.app
       type: default
 3674590: {}
-3674680: {}
+3674680:
+  installDir: Roguecraft
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Roguecraft_DX.exe
+      type: default
 3676410: {}
 3677050: {}
 3677850: {}
@@ -658312,6 +658368,12 @@
         osarch: "64"
         oslist: windows
       executable: LastBreath.exe
+4300090:
+  nameLocalized:
+    japanese: Neat！～お片付け屋さんの物語～
+    koreana: 마음까지 정리해요
+    schinese: 焕然一新的收纳生活
+    tchinese: 煥然一新的收納生活
 4304060: {}
 4304930:
   cloud:
@@ -658926,6 +658988,7 @@
     turkish: "Call of Duty®: Modern Warfare® 4"
     ukrainian: "Call of Duty®: Modern Warfare® 4"
 4436520: {}
+4440650: {}
 4441710: {}
 4444610: {}
 4444800:
@@ -659001,6 +659064,7 @@
       executable: LEAVES 3.app
       type: default
 4461560: {}
+4462580: {}
 4465790: {}
 4466620:
   cloud:
@@ -659545,6 +659609,14 @@
   launch:
     - executable: Loop Miner.exe
 4716160: {}
+4724610:
+  installDir: Terraform Manager Simulator
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Looter Shooter.exe
+      type: default
 4729320:
   nameLocalized:
     english: Swords of Legends
@@ -659655,6 +659727,7 @@
       type: default
 4953280: {}
 4980620: {}
+4991330: {}
 5036490: {}
 5067360: {}
 5093680: {}

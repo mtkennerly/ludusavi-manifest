@@ -40658,6 +40658,18 @@ Anime PuzzleZzz:
           - store: steam
   steam:
     id: 875670
+Anime Shop Simulator:
+  files:
+    "<home>/AppData/LocalLow/OneMoreTime/Anime Shop Simulator":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/OneMoreTime/Anime Shop Simulator/settingsSave.es3":
+      tags:
+        - config
+      when:
+        - os: windows
 Anime Solitaire:
   steam:
     id: 905030
@@ -87894,6 +87906,9 @@ Blackwind:
             store: steam
   steam:
     id: 1567520
+Blackwood:
+  steam:
+    id: 3639070
 Blackwood Crossing:
   gog:
     id: 1195142914
@@ -90288,6 +90303,13 @@ Blightbound:
 Blighted:
   steam:
     id: 2974160
+Blighten:
+  id:
+    steamExtra:
+      - 4587240
+      - 4905910
+  steam:
+    id: 4462580
 Blightmare:
   cloud:
     steam: true
@@ -385578,6 +385600,9 @@ Kaet Must Die!:
             store: steam
   steam:
     id: 691650
+Kage:
+  steam:
+    id: 4440650
 "Kageroh: Shadow Corridor":
   files:
     "<winLocalAppData>/Kageroh/Saved/Config/WindowsNoEditor":
@@ -472626,6 +472651,15 @@ Mournful Sword:
             store: steam
   steam:
     id: 1122930
+Mournight:
+  installDir:
+    Mournight: {}
+  launch:
+    "<base>/Mournight.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3436970
 Mourning Inc.:
   installDir:
     Mourning Inc: {}
@@ -486261,6 +486295,13 @@ NearPrime VR - Net Burn:
             store: steam
   steam:
     id: 286540
+Neat!:
+  id:
+    steamExtra:
+      - 4491540
+      - 4587840
+  steam:
+    id: 4300090
 Nebuchadnezzar:
   cloud:
     gog: true
@@ -519644,6 +519685,9 @@ Overhead:
           - store: steam
   steam:
     id: 765260
+Overheat:
+  steam:
+    id: 4991330
 Overhell:
   steam:
     id: 477980
@@ -600168,6 +600212,14 @@ Roguebreaker:
 Roguecraft DX:
   gog:
     id: 1196903604
+  installDir:
+    Roguecraft: {}
+  launch:
+    "<base>/Roguecraft_DX.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3674680
 Roguelands:
@@ -636655,6 +636707,39 @@ Shroom:
             store: steam
   steam:
     id: 712440
+Shroom and Gloom:
+  cloud:
+    steam: true
+  files:
+    "<base>/SaveData/Fu<storeUserId>/**/*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Team Lazerbeam/Shroom and Gloom/SaveData/Fu<storeUserId>/**/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Team Lazerbeam/Shroom and Gloom/SaveData/Fu<storeUserId>/**/*.json":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: shroom-and-gloom--1
+    steamExtra:
+      - 3602770
+  installDir:
+    Shroom and Gloom: {}
+  launch:
+    "<base>/Shroom and Gloom.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Shroom and Gloom.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3271280
 Shrooms:
   installDir:
     Shrooms: {}
@@ -665382,6 +665467,7 @@ Spark in the Dark:
     lutris: spark-in-the-dark
     steamExtra:
       - 1783940
+      - 4767580
   installDir:
     Spark in the Dark: {}
   launch:
@@ -766011,6 +766097,22 @@ The Ultimate Heist:
             store: steam
   steam:
     id: 758400
+The Ultimate Math Teaching Game:
+  installDir:
+    The ultimate Math teaching game: {}
+  launch:
+    "<base>/the_ultimate_math_teaching_game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/the_ultimate_math_teaching_game.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 3018890
 The Ultimate Showdown:
   installDir:
     The Ultimate Showdown: {}
@@ -865387,6 +865489,17 @@ Zero Hour:
         - config
   steam:
     id: 1359090
+Zero Hour Night:
+  installDir:
+    Terraform Manager Simulator: {}
+  launch:
+    "<base>/Looter Shooter.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4724610
 Zero Killed:
   installDir:
     Zero Killed: {}

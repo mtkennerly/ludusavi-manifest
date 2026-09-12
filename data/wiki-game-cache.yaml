@@ -13061,6 +13061,11 @@ Anime Pixel Girls:
 Anime PuzzleZzz:
   pageId: 99432
   steam: 875670
+Anime Shop Simulator:
+  pageId: 220346
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\OneMoreTime\\Anime Shop Simulator\\settingsSave.es3}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\OneMoreTime\\Anime Shop Simulator}}"
 Anime Solitaire:
   pageId: 108348
   steam: 905030
@@ -28521,6 +28526,9 @@ Blackwind:
   steam: 1567520
   steamSide:
     - 1723300
+Blackwood:
+  pageId: 220356
+  steam: 3639070
 Blackwood Crossing:
   gog: 1195142914
   pageId: 39632
@@ -29365,6 +29373,12 @@ Blightbound:
 Blighted:
   pageId: 205209
   steam: 2974160
+Blighten:
+  pageId: 220369
+  steam: 4462580
+  steamSide:
+    - 4587240
+    - 4905910
 Blightmare:
   cloud:
     steam: true
@@ -29592,6 +29606,8 @@ Block:
 Block Blowout:
   pageId: 52373
   steam: 542730
+Block Breaker:
+  pageId: 220370
 Block Busters:
   cloud:
     steam: true
@@ -125245,6 +125261,9 @@ Kaede the Eliminator:
 Kaet Must Die!:
   pageId: 69016
   steam: 691650
+Kage:
+  pageId: 220355
+  steam: 4440650
 "Kageroh: Shadow Corridor":
   pageId: 128232
   steam: 1025250
@@ -153945,6 +153964,9 @@ Mountaineer:
 Mournful Sword:
   pageId: 145099
   steam: 1122930
+Mournight:
+  pageId: 220363
+  steam: 3436970
 Mourning Inc.:
   pageId: 179062
   steam: 1398170
@@ -158402,6 +158424,12 @@ NearPrime VR - Net Burn:
 "Nearwood - Collector's Edition":
   pageId: 37973
   steam: 286540
+Neat!:
+  pageId: 220364
+  steam: 4300090
+  steamSide:
+    - 4491540
+    - 4587840
 Nebuchadnezzar:
   cloud:
     gog: true
@@ -167097,6 +167125,8 @@ Oops!!! Puzzles!!!:
 Opai Puzzle:
   pageId: 103653
   steam: 907680
+"Opal Productions: Animals":
+  pageId: 220367
 Opaldune:
   lutris: opaldune
   pageId: 219314
@@ -169442,6 +169472,9 @@ Overgrowth:
 Overhead:
   pageId: 82906
   steam: 765260
+Overheat:
+  pageId: 220372
+  steam: 4991330
 Overhell:
   pageId: 42832
   steam: 477980
@@ -207581,6 +207614,14 @@ Shrinking Pains:
 Shroom:
   pageId: 70487
   steam: 712440
+Shroom and Gloom:
+  cloud:
+    steam: true
+  lutris: shroom-and-gloom--1
+  pageId: 220352
+  steam: 3271280
+  steamSide:
+    - 3602770
 Shrooms:
   pageId: 47968
   steam: 361330
@@ -216738,6 +216779,7 @@ Spark in the Dark:
   steam: 1315180
   steamSide:
     - 1783940
+    - 4767580
 Spark of Light:
   pageId: 130086
   steam: 1029070
@@ -249547,6 +249589,9 @@ The Ultimate Heist:
     steam: true
   pageId: 78220
   steam: 758400
+The Ultimate Math Teaching Game:
+  pageId: 220349
+  steam: 3018890
 The Ultimate Showdown:
   pageId: 46436
   steam: 403010
@@ -283310,6 +283355,9 @@ Zero Hour:
   steam: 1359090
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\M7 production & Attrito\\Zero Hour}}"
+Zero Hour Night:
+  pageId: 220366
+  steam: 4724610
 "Zero Hour: America's Medic":
   pageId: 201970
 Zero Killed:
