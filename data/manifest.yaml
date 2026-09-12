@@ -48753,6 +48753,15 @@ Armed Seven:
             store: steam
   steam:
     id: 349690
+Armed Snake:
+  installDir:
+    Armed Snake: {}
+  launch:
+    "<base>/Armed Snake.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4829840
 Armed Warrior VR:
   installDir:
     Armed Warrior VR: {}
@@ -181728,6 +181737,33 @@ Dead Rising Deluxe Remaster:
         - store: steam
   id:
     lutris: dead-rising-deluxe-remaster
+    steamExtra:
+      - 2851890
+      - 2851900
+      - 2851910
+      - 2851920
+      - 2851930
+      - 2851940
+      - 2851950
+      - 2851960
+      - 2851970
+      - 2851980
+      - 2851990
+      - 2852000
+      - 2852010
+      - 2852020
+      - 2852030
+      - 2852040
+      - 2852050
+      - 2852060
+      - 2852070
+      - 2852080
+      - 2892640
+      - 3214130
+      - 3659690
+      - 3659770
+      - 3659830
+      - 3668680
   installDir:
     DEAD RISING DELUXE REMASTER: {}
   launch:
@@ -235963,6 +235999,28 @@ Ellen and the Degenerates RPG:
 Ellie:
   steam:
     id: 1012140
+Ellingby House:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Jepfore Games Limited/Ellingby House/saved_games":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: ellingby-house
+    steamExtra:
+      - 3737270
+  installDir:
+    Ellingby House: {}
+  launch:
+    "<base>/ellingby_house.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3247290
 Elliot Quest:
   cloud:
     steam: true
@@ -449672,6 +449730,11 @@ Melty Blood Actress Again Current Code:
             store: steam
   steam:
     id: 411370
+"Melty Blood: Twi-Lumina":
+  cloud:
+    steam: true
+  steam:
+    id: 4113000
 "Melty Blood: Type Lumina":
   files:
     "<base>/winsave":
@@ -472673,6 +472736,8 @@ Mournful Sword:
   steam:
     id: 1122930
 Mournight:
+  id:
+    lutris: mournight
   installDir:
     Mournight: {}
   launch:
@@ -659605,6 +659670,27 @@ Soulstone Survivors:
             store: steam
   steam:
     id: 2066020
+Soulstonia:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/EpicRuneTime/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winLocalAppData>/RuneTime/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4432160
+      - 4432170
+      - 4442140
+  steam:
+    id: 4432150
 Sound Balling:
   steam:
     id: 674610

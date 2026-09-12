@@ -1746,6 +1746,7 @@
 * [Armadusa](https://www.pcgamingwiki.com/wiki/?curid=136550)
 * [Armed Against the Undead](https://www.pcgamingwiki.com/wiki/?curid=35252)
 * [Armed Fantasia: To the End of the Wilderness](https://www.pcgamingwiki.com/wiki/?curid=185976)
+* [Armed Snake](https://www.pcgamingwiki.com/wiki/?curid=220400)
 * [Armed Warrior VR](https://www.pcgamingwiki.com/wiki/?curid=73875)
 * [Armed!](https://www.pcgamingwiki.com/wiki/?curid=180690)
 * [Armies of Riddle CCG Fantasy Battle Card Game](https://www.pcgamingwiki.com/wiki/?curid=50745)

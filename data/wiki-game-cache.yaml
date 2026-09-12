@@ -15664,6 +15664,9 @@ Armed Seven:
     steam: true
   pageId: 15695
   steam: 349690
+Armed Snake:
+  pageId: 220400
+  steam: 4829840
 Armed Warrior VR:
   pageId: 73875
   steam: 720310
@@ -58721,6 +58724,33 @@ Dead Rising Deluxe Remaster:
   lutris: dead-rising-deluxe-remaster
   pageId: 196098
   steam: 2527390
+  steamSide:
+    - 2851890
+    - 2851900
+    - 2851910
+    - 2851920
+    - 2851930
+    - 2851940
+    - 2851950
+    - 2851960
+    - 2851970
+    - 2851980
+    - 2851990
+    - 2852000
+    - 2852010
+    - 2852020
+    - 2852030
+    - 2852040
+    - 2852050
+    - 2852060
+    - 2852070
+    - 2852080
+    - 2892640
+    - 3214130
+    - 3659690
+    - 3659770
+    - 3659830
+    - 3668680
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\2527390\\remote\\win64_save\\}}"
@@ -76316,6 +76346,14 @@ Ellen and the Degenerates RPG:
 Ellie:
   pageId: 125817
   steam: 1012140
+Ellingby House:
+  cloud:
+    steam: true
+  lutris: ellingby-house
+  pageId: 220403
+  steam: 3247290
+  steamSide:
+    - 3737270
 Elliot Quest:
   cloud:
     steam: true
@@ -146251,7 +146289,10 @@ Melty Blood Actress Again Current Code:
     - "{{Game data/config|Windows|{{p|game}}\\System\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\System\\}}"
 "Melty Blood: Twi-Lumina":
+  cloud:
+    steam: true
   pageId: 216234
+  steam: 4113000
 "Melty Blood: Type Lumina":
   pageId: 169467
   steam: 1372280
@@ -153977,6 +154018,7 @@ Mournful Sword:
   pageId: 145099
   steam: 1122930
 Mournight:
+  lutris: mournight
   pageId: 220363
   steam: 3436970
 Mourning Inc.:
@@ -214837,6 +214879,18 @@ Soulstone Survivors:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.GameSmithing.SoulstoneSurvivors.plist}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Game Smithing\\Soulstone Survivors}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.GameSmithing.SoulstoneSurvivors/}}"
+Soulstonia:
+  cloud:
+    steam: true
+  pageId: 220390
+  steam: 4432150
+  steamSide:
+    - 4432160
+    - 4432170
+    - 4442140
+  templates:
+    - "{{Game data/saves|Windows|%LOCALAPPDATA%\\RuneTime\\Saved\\SaveGames}}"
+    - "{{Game data/saves|OS X|~/Library/Application Support/EpicRuneTime/Saved/SaveGames}}"
 Sound Balling:
   pageId: 66033
   steam: 674610

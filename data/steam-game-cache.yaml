@@ -21302,14 +21302,14 @@
       executable: payday2_win32_release.exe
       type: option1
     - config:
-        betakey: public candidate nightly test17
+        betakey: public candidate marketing nightly ovk_externals ovk_partners playtest qa staging
         osarch: "64"
         oslist: windows
       executable: PAYDAY2.exe
       type: default
     - arguments: "-vr"
       config:
-        betakey: public candidate nightly test17
+        betakey: public candidate marketing nightly ovk_externals ovk_partners playtest qa staging
         osarch: "64"
         oslist: windows
         ownsdlc: "826090"
@@ -645950,6 +645950,21 @@
         oslist: linux
       executable: Rhell.x86_64
       type: default
+3247290:
+  cloud:
+    saves:
+      - path: Jepfore Games Limited/Ellingby House/saved_games
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Ellingby House
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ellingby_house.exe
+      type: default
 3247750:
   cloud:
     saves:
@@ -657330,6 +657345,7 @@
     - config:
         oslist: windows
       executable: Nickelodeon Extreme Tennis.exe
+4113000: {}
 4113570: {}
 4115450:
   nameLocalized:
@@ -658966,6 +658982,7 @@
 4431400:
   nameLocalized:
     russian: "Смерш: Охотник на волков"
+4432150: {}
 4434610: {}
 4435490:
   nameLocalized:
@@ -659666,6 +659683,10 @@
 4824610:
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"
+4829840:
+  installDir: Armed Snake
+  launch:
+    - executable: Armed Snake.exe
 4832970: {}
 4834760: {}
 4834780: {}
