@@ -236014,9 +236014,15 @@ Ellingby House:
     steam: true
   files:
     "<winAppData>/Jepfore Games Limited/Ellingby House/saved_games":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winAppData>/Jepfore Games Limited/Ellingby House/settings":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: ellingby-house
     steamExtra:
@@ -585982,12 +585988,7 @@ Resident Evil 6:
       when:
         - os: windows
           store: steam
-    "<winDocuments>/capcom/RESIDENT EVIL 6/config.ini":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winDocuments>/capcom/RESIDENT EVIL 6/mapping.ini":
+    "<winDocuments>/capcom/RESIDENT EVIL 6":
       tags:
         - config
       when:
@@ -820401,6 +820402,8 @@ Vexius:
   steam:
     id: 757190
 Vholume:
+  cloud:
+    steam: true
   files:
     "<winLocalAppData>/VHOLUME/Saved/Config/Windows":
       tags:

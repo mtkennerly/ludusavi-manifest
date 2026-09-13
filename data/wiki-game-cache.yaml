@@ -76369,6 +76369,9 @@ Ellingby House:
   steam: 3247290
   steamSide:
     - 3737270
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Jepfore Games Limited\\Ellingby House\\settings}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Jepfore Games Limited\\Ellingby House\\saved_games\\}}"
 Elliot Quest:
   cloud:
     steam: true
@@ -191113,7 +191116,7 @@ Resident Evil 6:
     - 232590
     - 236080
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\capcom\\RESIDENT EVIL 6\\config.ini|{{p|userprofile\\Documents}}\\capcom\\RESIDENT EVIL 6\\mapping.ini}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\capcom\\RESIDENT EVIL 6\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\221040\\remote\\}}"
 "Resident Evil 7 Teaser: Beginning Hour":
   cloud:
@@ -268351,6 +268354,8 @@ Vexius:
   pageId: 77881
   steam: 757190
 Vholume:
+  cloud:
+    steam: true
   lutris: vholume
   pageId: 216999
   steam: 4131730
