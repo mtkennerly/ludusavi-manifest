@@ -187733,8 +187733,7 @@ Deep Rock Galactic:
     Deep Rock Galactic RogueCore: {}
   launch:
     "<base>/RogueCore.exe":
-      - arguments: "-serverlist=serverlist.ghostship.dk"
-        when:
+      - when:
           - bit: 64
             os: windows
             store: steam
@@ -473705,6 +473704,19 @@ Mr. Parkour 3:
     lutris: mr-parkour-3
   steam:
     id: 1456920
+Mr. Pogo:
+  id:
+    lutris: mr-pogo
+  installDir:
+    Mr Pogo: {}
+  launch:
+    "<base>/Mr Pogo.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2272800
 Mr. Prepper:
   cloud:
     steam: true
@@ -600645,6 +600657,10 @@ Rollcage:
 Rollcage Stage II:
   id:
     lutris: rollcage-stage-ii
+  registry:
+    HKEY_CURRENT_USER/Software/Psygnosis/Rollcage Stage II/BootSys:
+      tags:
+        - save
 Rolled Out!:
   installDir:
     rolledout: {}
@@ -786833,9 +786849,19 @@ Touhou Kikamu ~ Elegant Impermanence of Sakura:
   cloud:
     steam: true
   files:
-    "<base>/replay":
+    "<base>/replay/*.rpy":
       tags:
         - save
+      when:
+        - os: windows
+    "<base>/score.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/th06.cfg":
+      tags:
+        - config
       when:
         - os: windows
   installDir:

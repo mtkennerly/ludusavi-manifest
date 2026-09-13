@@ -615299,6 +615299,14 @@
       description: Launch Condor (sony_may_2024)
       executable: Game_RmdWin7_R.exe
       type: default
+2272800:
+  installDir: Mr Pogo
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Mr Pogo.exe
+      type: default
 2273430:
   cloud:
     saves:
@@ -629540,8 +629548,7 @@
         root: gameinstall
   installDir: Deep Rock Galactic RogueCore
   launch:
-    - arguments: "-serverlist=serverlist.ghostship.dk"
-      config:
+    - config:
         osarch: "64"
         oslist: windows
       executable: RogueCore.exe

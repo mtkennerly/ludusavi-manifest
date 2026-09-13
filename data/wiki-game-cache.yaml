@@ -154336,6 +154336,10 @@ Mr. Parkour 3:
   lutris: mr-parkour-3
   pageId: 165069
   steam: 1456920
+Mr. Pogo:
+  lutris: mr-pogo
+  pageId: 220446
+  steam: 2272800
 Mr. Prepper:
   cloud:
     steam: true
@@ -196002,6 +196006,9 @@ Rollcage:
 Rollcage Stage II:
   lutris: rollcage-stage-ii
   pageId: 133997
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Psygnosis\\Rollcage Stage II\\BootSys}}"
 Rolled Out!:
   pageId: 171932
   steam: 873270
@@ -256510,8 +256517,8 @@ Touhou Kikamu ~ Elegant Impermanence of Sakura:
   pageId: 220328
   steam: 4659620
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\replay\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\th06.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\score.dat|{{p|game}}\\replay\\*.rpy}}"
 Touhou La La Dui:
   pageId: 198417
   steam: 2493340
