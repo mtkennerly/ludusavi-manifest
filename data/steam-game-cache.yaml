@@ -540091,6 +540091,13 @@
     koreana: 애스트럴 어센트
     schinese: 星界战士
     tchinese: 星界戰士
+1280950:
+  installDir: Interstate Drifter 2000
+  launch:
+    - config:
+        oslist: windows
+      executable: Interstate Drifter 2000.exe
+      type: default
 1281040:
   cloud:
     saves:
@@ -552209,6 +552216,13 @@
   launch:
     - executable: My Cute Commissar.exe
       type: none
+1383770:
+  installDir: Interstate Drifter 1999
+  launch:
+    - config:
+        oslist: windows
+      executable: Interstate Drifter 1999.exe
+      type: default
 1383960:
   installDir: Nickelodeon Kart Racers 2 Grand Prix
   launch:
@@ -576890,6 +576904,13 @@
         osarch: "64"
         oslist: windows
       executable: anubis_Shipping_Steam_x64.exe
+      type: default
+1678930:
+  installDir: Ultimo Soccer UDC
+  launch:
+    - config:
+        oslist: windows
+      executable: Ultimo Soccer UDC.exe
       type: default
 1679210:
   cloud:
@@ -655433,6 +655454,48 @@
   installDir: Dearmeiwas
   launch:
     - executable: "Dear me, I was.exe"
+3892270:
+  cloud:
+    saves:
+      - path: TENSTACK/Gamble With Your Friends
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: TENSTACK/Gamble With Your Friends/Saves
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: unity3d/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: Gamble With Your Friends
+  launch:
+    - arguments: "-force-d3d12"
+      config:
+        oslist: windows
+      description: Gamble With Your Friends using DX 12 (for higher-end devices)
+      executable: Gamble With Your Friends.exe
+      type: option1
+    - arguments: "-force-d3d11"
+      config:
+        oslist: windows
+      description: Gamble With Your Friends using DX 11 (for lower-end devices)
+      executable: Gamble With Your Friends.exe
+      type: option2
+    - arguments: "-force-vulkan"
+      config:
+        oslist: windows
+      description: Gamble With Your Friends using Vulkan (for performance)
+      executable: Gamble With Your Friends.exe
+      type: option3
+  nameLocalized:
+    russian: Казино с друзьями
+    schinese: 朋友，梭哈吧
 3892510: {}
 3893290:
   nameLocalized:
@@ -659679,6 +659742,9 @@
 4767480: {}
 4769040: {}
 4808850: {}
+4810160:
+  nameLocalized:
+    schinese: 达巴 水痕之地
 4810650: {}
 4824610:
   nameLocalized:

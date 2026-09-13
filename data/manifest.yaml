@@ -171522,6 +171522,11 @@ Dab on Darkness!:
 "Dab, Dance & Twerk":
   steam:
     id: 767440
+Daba Land of Water Scar:
+  id:
+    lutris: daba-land-of-water-scar
+  steam:
+    id: 4810160
 Dabda:
   steam:
     id: 665600
@@ -270436,6 +270441,8 @@ FireStarter:
         - os: windows
   gog:
     id: 1434372124
+  id:
+    lutris: firestarter
 FireTry:
   cloud:
     steam: true
@@ -294145,6 +294152,34 @@ Gamble Fight Plus:
           - store: steam
   steam:
     id: 1028130
+Gamble With Your Friends:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/TENSTACK/Gamble With Your Friends/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/TENSTACK/Gamble With Your Friends/Saves/*.json":
+      when:
+        - os: windows
+          store: steam
+    "<xdgConfig>/unity3d/TENSTACK/Gamble With Your Friends/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/unity3d/TENSTACK/Gamble With Your Friends/Saves/*.json":
+      when:
+        - os: linux
+          store: steam
+  id:
+    lutris: gamble-with-your-friends
+    steamExtra:
+      - 4635620
+  installDir:
+    Gamble With Your Friends: {}
+  steam:
+    id: 3892270
 Gamble of Gods:
   installDir:
     Gamble of Gods: {}
@@ -370941,6 +370976,28 @@ Intersolar Overdrive:
     id: 1207659076
   id:
     lutris: interstate-82
+Interstate Drifter 1999:
+  id:
+    lutris: interstate-drifter-1999
+  installDir:
+    Interstate Drifter 1999: {}
+  launch:
+    "<base>/Interstate Drifter 1999.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1383770
+Interstate Drifter 2000:
+  installDir:
+    Interstate Drifter 2000: {}
+  launch:
+    "<base>/Interstate Drifter 2000.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1280950
 Interstellar Invaders:
   installDir:
     Interstellar Invaders: {}
@@ -444688,6 +444745,7 @@ Matchbox Driving Adventures:
       when:
         - os: windows
   id:
+    lutris: matchpoint-tennis-championships
     steamExtra:
       - 1712010
       - 1824930
@@ -805623,6 +805681,18 @@ Ultimo Reino:
             store: steam
   steam:
     id: 974520
+Ultimo Soccer UDC:
+  id:
+    lutris: ultimo-soccer-udc
+  installDir:
+    Ultimo Soccer UDC: {}
+  launch:
+    "<base>/Ultimo Soccer UDC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1678930
 Ultimus bellum:
   files:
     "<home>/.config/unity3d/Lions Crayons/Ultimus bellum/*.gd":

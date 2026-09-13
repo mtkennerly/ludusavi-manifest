@@ -8807,6 +8807,8 @@ Airport Simulator 2019:
   renamedFrom:
     - Airport Simulator 2018
   steam: 678890
+Airport Tycoon:
+  pageId: 220423
 Airport Tycoon 2:
   pageId: 8871
 Airport Tycoon 3:
@@ -50144,6 +50146,10 @@ Cow Catcher Simulator:
 Cow Milking Simulator:
   pageId: 74876
   steam: 624710
+CowHunter:
+  pageId: 220406
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}}}"
 Cowbots and Aliens:
   pageId: 39353
   steam: 517670
@@ -55372,6 +55378,10 @@ Dab on Darkness!:
 "Dab, Dance & Twerk":
   pageId: 78396
   steam: 767440
+Daba Land of Water Scar:
+  lutris: daba-land-of-water-scar
+  pageId: 220410
+  steam: 4810160
 Dabda:
   pageId: 64741
   steam: 665600
@@ -85012,6 +85022,8 @@ Farm Heroes Saga:
   pageId: 214045
 Farm It!:
   pageId: 167285
+Farm Land USA:
+  pageId: 220426
 "Farm Life: Natures Adventure":
   pageId: 36185
   steam: 511330
@@ -87934,6 +87946,7 @@ Fire in the Goal:
   steam: 535160
 FireStarter:
   gog: 1434372124
+  lutris: firestarter
   pageId: 57497
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\BASE\\*.cfg}}"
@@ -95383,6 +95396,14 @@ Gamble Fight Plus:
     steam: true
   pageId: 132470
   steam: 1028130
+Gamble With Your Friends:
+  cloud:
+    steam: true
+  lutris: gamble-with-your-friends
+  pageId: 220417
+  steam: 3892270
+  steamSide:
+    - 4635620
 Gamble of Gods:
   pageId: 120788
   steam: 912730
@@ -120449,6 +120470,13 @@ Intersolar Overdrive:
   gog: 1207659076
   lutris: interstate-82
   pageId: 14568
+Interstate Drifter 1999:
+  lutris: interstate-drifter-1999
+  pageId: 220414
+  steam: 1383770
+Interstate Drifter 2000:
+  pageId: 220419
+  steam: 1280950
 Interstellar Invaders:
   pageId: 72193
   steam: 680190
@@ -144617,6 +144645,7 @@ Matchbox Driving Adventures:
 "Matchpoint: Tennis Championships":
   cloud:
     steam: true
+  lutris: matchpoint-tennis-championships
   pageId: 179138
   steam: 1345760
   steamSide:
@@ -263344,6 +263373,10 @@ Ultimate Zombie Defense 2:
 Ultimo Reino:
   pageId: 122460
   steam: 974520
+Ultimo Soccer UDC:
+  lutris: ultimo-soccer-udc
+  pageId: 220425
+  steam: 1678930
 Ultimus bellum:
   pageId: 74530
   steam: 566430
