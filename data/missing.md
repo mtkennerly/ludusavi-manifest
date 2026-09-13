@@ -6619,6 +6619,7 @@
 * [Dawn of the Plow](https://www.pcgamingwiki.com/wiki/?curid=45783)
 * [Dawn of the Robot Empire](https://www.pcgamingwiki.com/wiki/?curid=43644)
 * [Dawn of Warriors](https://www.pcgamingwiki.com/wiki/?curid=51855)
+* [Dawn Patrol](https://www.pcgamingwiki.com/wiki/?curid=220443)
 * [Dawn's Light](https://www.pcgamingwiki.com/wiki/?curid=36620)
 * [Dawn's Light 2](https://www.pcgamingwiki.com/wiki/?curid=53039)
 * [Dawnfall](https://www.pcgamingwiki.com/wiki/?curid=152777)

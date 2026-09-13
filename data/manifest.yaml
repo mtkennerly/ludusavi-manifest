@@ -2389,6 +2389,8 @@ $1 Ride:
         - os: windows
   gog:
     id: 2034202455
+  id:
+    lutris: 18-wheels-of-steel-american-long-haul
   installDir:
     18 Wheels of Steel American Long Haul: {}
   launch:
@@ -2440,6 +2442,8 @@ $1 Ride:
         - os: windows
   gog:
     id: 1935795441
+  id:
+    lutris: 18-wheels-of-steel-extreme-trucker
   installDir:
     18 Wheels of Steel Extreme Trucker: {}
   launch:
@@ -2464,6 +2468,8 @@ $1 Ride:
         - os: windows
   gog:
     id: 1775839845
+  id:
+    lutris: 18-wheels-of-steel-extreme-trucker-2
   installDir:
     18 WoS Extreme Trucker 2: {}
   launch:
@@ -349585,6 +349591,23 @@ Hot Pool:
             store: steam
   steam:
     id: 727610
+"Hot Rod: Garage to Glory":
+  files:
+    "<base>/Cfgs/GameSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Cfgs/Names.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Saves/<storeUserId>.sav":
+      tags:
+        - save
+      when:
+        - os: windows
 Hot Runback - VR Runner:
   installDir:
     Hot Runback - VR Runner: {}
@@ -354301,6 +354324,8 @@ Hunting Unlimited:
         - save
       when:
         - os: windows
+  id:
+    lutris: hunting-unlimited-1
   installDir:
     Hunting Unlimited 1: {}
   launch:
@@ -354321,6 +354346,8 @@ Hunting Unlimited 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: hunting-unlimited-2
   installDir:
     Hunting Unlimited 2: {}
   launch:
@@ -354420,6 +354447,8 @@ Hunting Unlimited 3:
         - save
       when:
         - os: windows
+  id:
+    lutris: hunting-unlimited-3
   installDir:
     Hunting Unlimited 3: {}
   launch:
@@ -553852,6 +553881,8 @@ Prison Test:
   steam:
     id: 862150
 "Prison Tycoon 3: Lockdown":
+  id:
+    lutris: prison-tycoon-3-lockdown
   installDir:
     Prison Tycoon 3: {}
   launch:
@@ -805879,6 +805910,13 @@ Ultra Space Battle Brawl:
 Ultra Strangeness:
   steam:
     id: 986520
+Ultra Wheels Street Jam:
+  files:
+    "<base>/SETTINGS.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
 Ultra foodmess:
   installDir:
     Ultra Foodmess: {}

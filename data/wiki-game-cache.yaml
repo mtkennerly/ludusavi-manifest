@@ -723,6 +723,7 @@ $1 Ride:
   cloud:
     gog: true
   gog: 2034202455
+  lutris: 18-wheels-of-steel-american-long-haul
   pageId: 25378
   steam: 12520
   templates:
@@ -742,6 +743,7 @@ $1 Ride:
   cloud:
     gog: true
   gog: 1935795441
+  lutris: 18-wheels-of-steel-extreme-trucker
   pageId: 24873
   steam: 33730
   templates:
@@ -751,6 +753,7 @@ $1 Ride:
   cloud:
     gog: true
   gog: 1775839845
+  lutris: 18-wheels-of-steel-extreme-trucker-2
   pageId: 25376
   steam: 362780
   templates:
@@ -57814,6 +57817,8 @@ Dawn Break -Origin-:
 Dawn City:
   pageId: 78314
   steam: 768110
+Dawn Patrol:
+  pageId: 220443
 Dawn of Andromeda:
   pageId: 39382
   steam: 427570
@@ -113592,6 +113597,11 @@ Hot Pool:
   steam: 727610
 "Hot Rod: American Street Drag":
   pageId: 197137
+"Hot Rod: Garage to Glory":
+  pageId: 220431
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Cfgs\\GameSettings.ini|{{p|game}}\\Cfgs\\Names.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saves\\{{p|uid}}.sav}}"
 Hot Runback - VR Runner:
   pageId: 72686
   steam: 721400
@@ -115180,12 +115190,14 @@ Hunting Simulator VR:
   pageId: 123948
   steam: 983840
 Hunting Unlimited:
+  lutris: hunting-unlimited-1
   pageId: 165133
   steam: 1267940
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\ho_user\\config.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\ho_user\\saves\\}}"
 Hunting Unlimited 2:
+  lutris: hunting-unlimited-2
   pageId: 165131
   steam: 1330790
   templates:
@@ -115217,6 +115229,7 @@ Hunting Unlimited 2011:
   pageId: 52167
   steam: 545930
 Hunting Unlimited 3:
+  lutris: hunting-unlimited-3
   pageId: 165129
   steam: 1330820
   templates:
@@ -180800,6 +180813,7 @@ Prison Test:
   pageId: 94753
   steam: 862150
 "Prison Tycoon 3: Lockdown":
+  lutris: prison-tycoon-3-lockdown
   pageId: 41381
   steam: 12510
 "Prison Tycoon 4: SuperMax":
@@ -263425,6 +263439,10 @@ Ultra Space Battle Brawl:
 Ultra Strangeness:
   pageId: 126408
   steam: 986520
+Ultra Wheels Street Jam:
+  pageId: 220428
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\SETTINGS.CFG}}"
 Ultra foodmess:
   pageId: 176276
   steam: 1221640
