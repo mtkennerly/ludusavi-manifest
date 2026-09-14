@@ -648797,6 +648797,17 @@
     koreana: 괴수 8호 THE GAME
     schinese: 怪兽 8号 THE GAME
     tchinese: 怪獸 8號 THE GAME
+3393280:
+  cloud:
+    saves:
+      - path: "\\OneMoreTime\\Anime Shop Simulator"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+  installDir: Anime Shop Simulator
+  launch:
+    - executable: Anime Shop Simulator.exe
+  nameLocalized:
+    schinese: 动漫商店模拟器
 3394030: {}
 3394500: {}
 3395320: {}
@@ -659756,6 +659767,7 @@
 4824610:
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"
+4829820: {}
 4829840:
   installDir: Armed Snake
   launch:

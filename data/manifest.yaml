@@ -32337,6 +32337,11 @@ Alkimya:
     Alchemist Adventure: {}
   steam:
     id: 521620
+"Alkimya: House of Wisdom":
+  cloud:
+    steam: true
+  steam:
+    id: 4829820
 "All Alone: VR":
   installDir:
     All Alone VR: {}
@@ -40676,6 +40681,21 @@ Anime Shop Simulator:
         - config
       when:
         - os: windows
+  id:
+    lutris: anime-shop-simulator--1
+    steamExtra:
+      - 3444060
+      - 3444070
+      - 5175820
+      - 5175830
+  installDir:
+    Anime Shop Simulator: {}
+  launch:
+    "<base>/Anime Shop Simulator.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3393280
 Anime Solitaire:
   steam:
     id: 905030
@@ -371023,6 +371043,19 @@ Interstate Drifter 1999:
   steam:
     id: 1383770
 Interstate Drifter 2000:
+  files:
+    "<winLocalAppData>/Interstate_Drifter_2000":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Interstate_Drifter_2000/ID2000.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: interstate-drifter-2000
   installDir:
     Interstate Drifter 2000: {}
   launch:
@@ -371829,6 +371862,8 @@ Intrepid Izzy:
         - save
       when:
         - os: windows
+  id:
+    lutris: intrepid-izzy
   installDir:
     Intrepid Izzy: {}
   launch:
@@ -509466,6 +509501,22 @@ Once Again:
   steam:
     id: 2025610
 Once Alive:
+  files:
+    "<winLocalAppData>/Once_Alive/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Once_Alive/Saved/SaveGames/*Slot*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Once_Alive/Saved/SaveGames/OtherOptions.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: once-alive
     steamExtra:
@@ -606849,6 +606900,8 @@ Rush Rush Rally Reloaded:
         - save
       when:
         - os: windows
+  id:
+    lutris: rush-rush-rally-reloaded
   installDir:
     Rush Rush Rally Reloaded: {}
   launch:
@@ -698650,6 +698703,16 @@ Super Mario Bros. Remastered:
         - config
       when:
         - os: windows
+    "<xdgData>/SMB1R/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/SMB1R/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
 Super Mario Unimaker:
   files:
     "<winLocalAppData>/UniMaker/settings.ini":
@@ -805357,6 +805420,20 @@ Ultimate Panic Flight:
             store: steam
   steam:
     id: 797550
+Ultimate Pinball:
+  files:
+    "<base>/resolution.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+Ultimate Pinball Gold:
+  files:
+    "<base>/resolution.dat":
+      tags:
+        - config
+      when:
+        - os: windows
 Ultimate Poker:
   installDir:
     Ultimate Poker: {}

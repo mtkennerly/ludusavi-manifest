@@ -10312,6 +10312,11 @@ Alkahest:
 Alkimya:
   pageId: 59255
   steam: 521620
+"Alkimya: House of Wisdom":
+  cloud:
+    steam: true
+  pageId: 220462
+  steam: 4829820
 "All Alone: VR":
   pageId: 58985
   steam: 604830
@@ -13067,7 +13072,14 @@ Anime PuzzleZzz:
   pageId: 99432
   steam: 875670
 Anime Shop Simulator:
+  lutris: anime-shop-simulator--1
   pageId: 220346
+  steam: 3393280
+  steamSide:
+    - 3444060
+    - 3444070
+    - 5175820
+    - 5175830
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\OneMoreTime\\Anime Shop Simulator\\settingsSave.es3}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\OneMoreTime\\Anime Shop Simulator}}"
@@ -21701,9 +21713,9 @@ BallisticNG:
     - 1596120
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\User\\Config\\Controller\\|{{P|game}}\\User\\Config\\ini\\}}"
-    - "{{Game data/config|Linux|{{P|game}}/User/Config/Controller/|{{P|game}}/User/Config/ini/|{{P|game}}/game/User/Config/Controller/|{{P|game}}/game/User/Config/ini/}}"
+    - "{{Game data/config|Linux|{{P|game}}/User/Config/Controller/|{{P|game}}/User/Config/ini/|{{P|game}}/game/User/Config/Controller/<ref name=\"gog_version\">GOG.com version</ref>|{{P|game}}/game/User/Config/ini/<ref name=\"gog_version\" />}}"
     - "{{Game data/saves|Windows|{{p|game}}\\User\\Save\\}}"
-    - "{{Game data/saves|Linux|{{p|game}}/User/Save/|{{p|game}}/game/User/Save/}}"
+    - "{{Game data/saves|Linux|{{p|game}}/User/Save/|{{p|game}}/game/User/Save/<ref name=\"gog_version\" />}}"
 Ballistick:
   pageId: 39290
   steam: 518620
@@ -120491,8 +120503,12 @@ Interstate Drifter 1999:
   pageId: 220414
   steam: 1383770
 Interstate Drifter 2000:
+  lutris: interstate-drifter-2000
   pageId: 220419
   steam: 1280950
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Interstate_Drifter_2000\\ID2000.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Interstate_Drifter_2000}}"
 Interstellar Invaders:
   pageId: 72193
   steam: 680190
@@ -120736,6 +120752,7 @@ Intravenous 3:
 Intrepid Izzy:
   cloud:
     steam: true
+  lutris: intrepid-izzy
   pageId: 212940
   steam: 908560
   templates:
@@ -166263,6 +166280,9 @@ Once Alive:
   steam: 2336440
   steamSide:
     - 3394140
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Once_Alive\\Saved\\Config\\Windows\\|{{P|localappdata}}\\Once_Alive\\Saved\\SaveGames\\OtherOptions.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Once_Alive\\Saved\\SaveGames\\*Slot*.sav}}"
 "Once Bitten, Twice Dead!":
   pageId: 47365
   steam: 360590
@@ -197991,6 +198011,7 @@ Rush Rover:
 Rush Rush Rally Reloaded:
   cloud:
     steam: true
+  lutris: rush-rush-rally-reloaded
   pageId: 212747
   steam: 2065610
   templates:
@@ -227509,7 +227530,9 @@ Super Mario Bros. Remastered:
   pageId: 208329
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\SMB1R\\settings.cfg}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}\\SMB1R\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\SMB1R\\saves\\}}"
+    - "{{Game data/saves|Linux|{{p|xdgdatahome}}\\SMB1R\\saves}}"
 Super Mario Unimaker:
   lutris: super-mario-unimaker
   pageId: 197341
@@ -263276,6 +263299,14 @@ Ultimate Paintball Challenge:
 Ultimate Panic Flight:
   pageId: 88638
   steam: 797550
+Ultimate Pinball:
+  pageId: 220451
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\resolution.dat}}"
+Ultimate Pinball Gold:
+  pageId: 220466
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\resolution.dat}}"
 Ultimate Poker:
   pageId: 144157
   steam: 1050350
