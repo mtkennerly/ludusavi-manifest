@@ -17053,8 +17053,8 @@ Assassin 2015:
   steam: 242050
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed IV Black Flag\\*.ini|{{p|userprofile\\Documents}}\\Assassin's Creed IV Black Flag\\GFXSettings.*.xml}}"
-    - "{{Game data/saves|Uplay|{{p|uplay}}\\savegames\\{{p|uid}}\\273\\}}"
-    - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\437\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\273\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\437\\}}"
 "Assassin's Creed Mirage":
   cloud:
     uplay: true
@@ -17077,8 +17077,8 @@ Assassin 2015:
     - 937892
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Assassin's Creed Odyssey\\ACOdyssey.ini}}"
-    - "{{Game data/saves|Uplay|{{p|uplay}}\\savegames\\{{p|uid}}\\5059\\}}"
-    - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\5092\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\5059\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\5092\\}}"
 "Assassin's Creed Origins":
   cloud:
     uplay: true
@@ -17097,8 +17097,8 @@ Assassin 2015:
   steam: 311560
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Assassin's Creed Rogue\\AssassinRogue.ini}}"
-    - "{{Game data/saves|Uplay|{{P|uplay}}\\savegames\\{{p|uid}}\\895\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1186\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1661\\}}"
-    - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\934\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1187\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1662\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\895\\|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\1186\\|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\1661\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\934\\|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\1187\\|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\1662\\}}"
 "Assassin's Creed Shadows":
   cloud:
     uplay: true
@@ -17120,8 +17120,8 @@ Assassin 2015:
   steam: 368500
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Assassin's Creed Syndicate\\AC.ini}}"
-    - "{{Game data/saves|Uplay|{{P|uplay}}\\savegames\\{{p|uid}}\\1875\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1955\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1956\\}}"
-    - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\1957\\|{{P|uplay}}\\savegames\\{{p|uid}}\\1958\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\1875\\|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\1955\\|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\1956\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\1957\\|{{P|ubisoftconnect}}\\savegames\\{{p|uid}}\\1958\\}}"
 "Assassin's Creed Unity":
   cloud:
     uplay: true
@@ -42151,8 +42151,8 @@ Child of Light:
   steam: 256290
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Child of Light\\{{p|uid}}\\}}"
-    - "{{Game data/saves|Uplay|{{p|Uplay}}\\savegames\\{{path|uid}}\\609\\}}"
-    - "{{Game data/saves|Steam|{{p|Uplay}}\\savegames\\{{path|uid}}\\611\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{path|uid}}\\609\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{path|uid}}\\611\\}}"
     - "{{Game data/saves|Windows|{{p|programdata}}\\Orbit\\611\\}}"
 Child of the Wind:
   pageId: 61662
@@ -84785,8 +84785,8 @@ Far Cry 3 Blood Dragon:
   steam: 233270
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Far Cry 3 Blood Dragon\\*.xml|{{p|localappdata}}\\My Games\\Far Cry 3 Blood Dragon\\InputUserActionMap.xml}}"
-    - "{{Game data/saves|Uplay|{{p|uplay}}\\savegames\\{{p|uid}}\\205\\}}"
-    - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\205\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\205\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\205\\}}"
 Far Cry 4:
   cloud:
     uplay: true
@@ -120511,6 +120511,9 @@ Interstate Drifter 1999:
   lutris: interstate-drifter-1999
   pageId: 220414
   steam: 1383770
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Interstate_Drifter_1999\\ID1999.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Interstate_Drifter_1999}}"
 Interstate Drifter 2000:
   lutris: interstate-drifter-2000
   pageId: 220419
@@ -153671,6 +153674,10 @@ Mothmen 1966:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\LCB\\Mothmen1966\\NaninovelData\\Saves}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\LCB\\Mothmen1966\\NaninovelData\\Saves}}"
+Moto Extreme:
+  pageId: 220492
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\MOTOX.CFG|{{p|game}}\\PLAYER1.CFG|{{p|game}}\\PLAYER2.CFG}}"
 Moto RKD dash:
   pageId: 42724
   steam: 470590
@@ -165128,7 +165135,7 @@ Ode:
   pageId: 140569
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Reflections, A Ubisoft Studio\\Ode\\}}"
-    - "{{Game data/saves|Uplay|{{p|uplay}}\\savegames\\{{p|uid}}\\9797\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\9797\\}}"
 Ode to a Moon:
   pageId: 142093
   steam: 1056680
@@ -202680,6 +202687,9 @@ Sea Salt:
   gog: 1748426963
   pageId: 126265
   steam: 983350
+Sea Sniffers:
+  pageId: 220494
+  steam: 3045520
 Sea of Fatness:
   pageId: 73233
   steam: 721740
@@ -222741,9 +222751,9 @@ Steep:
     - 550040
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\STEEP\\Default\\STEEP.ini}}"
-    - "{{Game data/saves|Epic Games Store|{{p|uplay}}\\savegames\\{{p|uid}}\\3279\\}}"
-    - "{{Game data/saves|Steam|{{p|uplay}}\\savegames\\{{p|uid}}\\3280\\}}"
-    - "{{Game data/saves|Uplay|{{p|uplay}}\\savegames\\{{p|uid}}\\3279\\}}"
+    - "{{Game data/saves|Epic Games Store|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\3279\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\3280\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\3279\\}}"
 Stefanos Sizzling Pizza Pie:
   pageId: 98796
   steam: 884210
@@ -247784,7 +247794,7 @@ The Settlers Online:
     - 2880590
     - 2888500
   templates:
-    - "{{Game data/saves|Uplay|{{p|uplay}}\\savegames\\{{p|uid}}\\3037\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\3037\\}}"
 "The Settlers: Rise of Cultures":
   pageId: 181564
   templates:
@@ -266999,7 +267009,7 @@ Valiant:
   pageId: 194791
   steam: 2741360
   templates:
-    - "{{Game data/saves|Uplay|{{p|uplay}}\\savegames\\{{p|uid}}\\9662\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|uplay}}\\savegames\\{{p|uid}}\\9662\\}}"
 "Valiant Hearts: The Great War":
   cloud:
     uplay: true
@@ -278368,6 +278378,11 @@ Wolfstride:
 Wolves Team:
   pageId: 149799
   steam: 1145580
+Woman Simulator:
+  pageId: 220497
+  steam: 4072240
+  steamSide:
+    - 4366130
 "Woman's Prison":
   pageId: 176130
   steam: 1527980

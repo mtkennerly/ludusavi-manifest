@@ -534519,6 +534519,10 @@
   launch:
     - executable: "link2ea://launchgame/1237970?platform=steam&theme=tf2"
       type: none
+    - config:
+        betakey: eax_test
+      description: New launch method
+      executable: "steam2ea://launchgame/1237970?platform=steam&theme=tf2"
 1237980:
   installDir: STAR WARS Battlefront
   launch:
@@ -641985,6 +641989,11 @@
         oslist: windows
       executable: "Riddle Tower\\Riddle Tower.exe"
       type: default
+3045520:
+  nameLocalized:
+    japanese: シー スニッファーズ
+    schinese: 探海拍档
+    tchinese: 探海拍檔
 3045530:
   nameLocalized:
     schinese: 终焉镇
@@ -657270,6 +657279,7 @@
   nameLocalized:
     schinese: 超级高尔夫大乱斗
     tchinese: 超級高爾夫大亂鬥
+4072240: {}
 4078430:
   nameLocalized:
     japanese: スター・ウォーズ：ギャラクティック・レーサー™
@@ -658082,7 +658092,22 @@
     czech: "Posel smrti: Pouto krve"
     english: "Messenger of Death: Blood Bond"
 4216180: {}
-4221990: {}
+4221990:
+  installDir: Fish Lab
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Fishlab.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: fishlab
+      type: default
+    - config:
+        oslist: macos
+      executable: Fishlab.app
 4223290:
   nameLocalized:
     japanese: "ロックマン: デュアル オーバーライド"
@@ -659317,7 +659342,14 @@
 4536610:
   nameLocalized:
     schinese: 城市蓝图
-4538140: {}
+4538140:
+  installDir: Rehaunted
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Rehaunted.exe
+      type: default
 4540480:
   nameLocalized:
     english: SATURN. LEGACY

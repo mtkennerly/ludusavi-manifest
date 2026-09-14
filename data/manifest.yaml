@@ -271367,6 +271367,23 @@ Fish Lab:
   id:
     steamExtra:
       - 4601570
+  installDir:
+    Fish Lab: {}
+  launch:
+    "<base>/Fishlab.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Fishlab.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/fishlab":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 4221990
 Fish Lake:
@@ -371041,6 +371058,17 @@ Intersolar Overdrive:
   id:
     lutris: interstate-82
 Interstate Drifter 1999:
+  files:
+    "<winLocalAppData>/Interstate_Drifter_1999":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Interstate_Drifter_1999/ID1999.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: interstate-drifter-1999
   installDir:
@@ -471565,6 +471593,23 @@ Mothmen 1966:
             store: steam
   steam:
     id: 1755030
+Moto Extreme:
+  files:
+    "<base>/MOTOX.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/PLAYER1.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/PLAYER2.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
 Moto RKD dash:
   installDir:
     motoRKDdash: {}
@@ -582625,6 +582670,14 @@ Regular Human Basketball:
 Rehaunted:
   id:
     lutris: rehaunted
+  installDir:
+    Rehaunted: {}
+  launch:
+    "<base>/Rehaunted.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4538140
 Rehtona:
@@ -621303,6 +621356,9 @@ Sea Salt:
             store: steam
   steam:
     id: 983350
+Sea Sniffers:
+  steam:
+    id: 3045520
 Sea of Fatness:
   installDir:
     Sea Of Fatness: {}
@@ -850336,6 +850392,12 @@ Wolves Team:
     wolves team: {}
   steam:
     id: 1145580
+Woman Simulator:
+  id:
+    steamExtra:
+      - 4366130
+  steam:
+    id: 4072240
 "Woman's Prison":
   installDir:
     "Woman's Prison": {}
