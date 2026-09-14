@@ -236319,6 +236319,9 @@ Elona:
 Elroy Goes Bugzerk:
   steam:
     id: 5093680
+Elroy Hits the Pavement:
+  steam:
+    id: 5227630
 Elroy and the Aliens:
   cloud:
     steam: true
@@ -236357,6 +236360,9 @@ Elroy and the Aliens:
             store: steam
   steam:
     id: 1082190
+"Elroy's Costume Closet":
+  steam:
+    id: 5233100
 Else Heart.Break():
   files:
     "<base>/ElseHeartbreak_Data/Saves":
@@ -238274,6 +238280,8 @@ Empires of the Undergrowth:
         - os: windows
   gog:
     id: 1669042393
+  id:
+    lutris: empires-dawn-of-the-modern-world
   installDir:
     Empires Dawn of the Modern World: {}
   launch:
@@ -577489,6 +577497,29 @@ Reality:
             store: steam
   steam:
     id: 561970
+Reality Break:
+  files:
+    "<home>/AppData/LocalLow/Element Games/Reality Break":
+      tags:
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1186521704
+  id:
+    gogExtra:
+      - 2000798982
+    steamExtra:
+      - 4012290
+  installDir:
+    Reality Break: {}
+  launch:
+    "<base>/Reality Break.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1473060
 Reality Falls:
   steam:
     id: 734470

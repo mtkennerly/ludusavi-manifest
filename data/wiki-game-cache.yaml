@@ -76471,6 +76471,9 @@ Elona:
 Elroy Goes Bugzerk:
   pageId: 219750
   steam: 5093680
+Elroy Hits the Pavement:
+  pageId: 220470
+  steam: 5227630
 Elroy and the Aliens:
   cloud:
     steam: true
@@ -76481,6 +76484,9 @@ Elroy and the Aliens:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Motiviti\\Elroy and the Aliens\\{{p|uid}}\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Motiviti/Elroy and the Aliens/{{p|uid}}}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Motiviti/Elroy and the Aliens/{{p|uid}}}}"
+"Elroy's Costume Closet":
+  pageId: 220472
+  steam: 5233100
 Else Heart.Break():
   gog: 1442485613
   pageId: 31768
@@ -77091,6 +77097,7 @@ Empires of the Undergrowth:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\EotU\\Saved\\SaveGames\\}}"
 "Empires: Dawn of the Modern World":
   gog: 1669042393
+  lutris: empires-dawn-of-the-modern-world
   pageId: 24429
   steam: 2690
   templates:
@@ -188334,6 +188341,16 @@ Realities:
 Reality:
   pageId: 54307
   steam: 561970
+Reality Break:
+  gog: 1186521704
+  gogSide:
+    - 2000798982
+  pageId: 220476
+  steam: 1473060
+  steamSide:
+    - 4012290
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Element Games/Reality Break/}}"
 Reality Falls:
   pageId: 122728
   steam: 734470
@@ -280391,6 +280408,8 @@ X-Plane 8:
   pageId: 191383
 X-Plane 9:
   pageId: 191381
+X-Scooter:
+  pageId: 220474
 X-Team:
   pageId: 156189
   steam: 290850

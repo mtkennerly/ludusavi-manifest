@@ -560763,6 +560763,29 @@
         oslist: windows
       executable: Flock.exe
       type: default
+1473060:
+  cloud:
+    saves:
+      - path: Element Games/Reality Break
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+  installDir: Reality Break
+  launch:
+    - config:
+        oslist: windows
+      executable: Reality Break.exe
+      type: default
+    - config:
+        betakey: utility
+        oslist: windows
+      description: Video Recording playtest build
+      executable: Slate playtest with cheats.exe
+      type: option1
+  nameLocalized:
+    japanese: 輪廻のヴァルキュリア
+    koreana: 윤회의 발큐리아
+    schinese: 轮回的瓦尔基里
+    tchinese: 輪回的瓦爾基里
 1473350:
   cloud:
     saves:
@@ -659846,5 +659869,7 @@
     russian: "Герой Королевства: Отголоски"
     schinese: 王国英雄：餘音
     ukrainian: "Герой Королівства: Відлуння"
+5227630: {}
+5233100: {}
 34004563: {}
 3221903386: {}
