@@ -48822,6 +48822,8 @@ Control Freak:
   pageId: 120923
   steam: 964450
 Control Resonant:
+  cloud:
+    steam: true
   lutris: control-resonant--1
   pageId: 182878
   renamedFrom:
@@ -158552,6 +158554,8 @@ NearPrime VR - Net Burn:
   pageId: 37973
   steam: 286540
 Neat!:
+  cloud:
+    steam: true
   pageId: 220364
   steam: 4300090
   steamSide:
@@ -212999,6 +213003,9 @@ Sok:
   renamedFrom:
     - Sokoban Classic
   steam: 765940
+  steamSide:
+    - 1376280
+    - 1740440
 Sok Izi:
   pageId: 91904
   steam: 839340
@@ -226341,6 +226348,9 @@ Sun Haven:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Pixel Sprout Studios\\Sun Haven\\Settings\\|{{p|hkcu}}\\Software\\Pixel Sprout Studios\\Sun Haven\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Pixel Sprout Studios\\Sun Haven\\Saves\\}}"
+Sun Ultimate War:
+  pageId: 220481
+  steam: 4715270
 Sun Wukong VS Robot:
   pageId: 126023
   renamedFrom:
@@ -265228,6 +265238,7 @@ Unreal:
   steam: 13250
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\System\\*.ini}}"
+    - "{{Game data/config|Windows|{{p|game}}\\System64\\*.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Unreal (1991):
   pageId: 154970

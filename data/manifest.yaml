@@ -151691,6 +151691,8 @@ Control Freak:
   steam:
     id: 964450
 Control Resonant:
+  cloud:
+    steam: true
   id:
     lutris: control-resonant--1
   steam:
@@ -486530,10 +486532,32 @@ NearPrime VR - Net Burn:
   steam:
     id: 286540
 Neat!:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Korova games/Neat/Saves/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Korova games/Neat/Saves/*.json":
+      when:
+        - os: mac
+          store: steam
   id:
     steamExtra:
       - 4491540
       - 4587840
+  installDir:
+    Neat: {}
+  launch:
+    "<base>/Neat.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Neat.exe":
+      - arguments: "-window-mode borderless"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 4300090
 Nebuchadnezzar:
@@ -653745,6 +653769,10 @@ Sok:
       when:
         - os: windows
           store: steam
+  id:
+    steamExtra:
+      - 1376280
+      - 1740440
   installDir:
     SOK: {}
   launch:
@@ -694673,6 +694701,15 @@ Sun Haven:
         - config
   steam:
     id: 1432860
+Sun Ultimate War:
+  installDir:
+    game: {}
+  launch:
+    "<base>/game/SunWar.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4715270
 Sun Wukong VS Robot:
   installDir:
     Sun Wukong VS Robot: {}
@@ -811398,6 +811435,11 @@ Unreal:
       when:
         - os: windows
     "<base>/System/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/System64/*.ini":
       tags:
         - config
       when:

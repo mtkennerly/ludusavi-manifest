@@ -120307,156 +120307,134 @@
 392160:
   cloud:
     saves:
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: inputmap*.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: uidata.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}/save"
         pattern: "*.xml.gz"
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: constructionplans.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: loadouts.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: userdata.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
-      - path: "Egosoft\\X4\\{Steam3AccountID}\\constructionplan"
+      - path: "Egosoft/X4/{Steam3AccountID}/constructionplan"
         pattern: "*.xml"
-        platforms:
-          - Windows
         root: WinMyDocuments
-      - path: "Egosoft\\X4\\{Steam3AccountID}\\loadout"
+      - path: "Egosoft/X4/{Steam3AccountID}/loadout"
         pattern: "*.xml"
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}/constructionplan"
         pattern: "*.xml"
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
       - path: ".config/EgoSoft/X4/{Steam3AccountID}/loadout"
         pattern: "*.xml"
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: userdata_signed.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: userdata_signed.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
-      - path: "Egosoft\\X4\\{Steam3AccountID}\\save"
+      - path: "Egosoft/X4/{Steam3AccountID}/save"
         pattern: "*.xml"
-        platforms:
-          - Windows
         root: WinMyDocuments
-      - path: "Egosoft\\X4\\{Steam3AccountID}\\customgamestart"
+      - path: "Egosoft/X4/{Steam3AccountID}/customgamestart"
         pattern: "*.xml"
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}/customgamestart"
         pattern: "*.xml"
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: ventureconfig.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: ventureconfig.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: colors.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: colors.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: inputfeedback.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: inputfeedback.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
-      - path: "Egosoft\\X4\\{Steam3AccountID}\\colorprofile"
+      - path: "Egosoft/X4/{Steam3AccountID}/colorprofile"
         pattern: "*.xml"
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}/colorprofile"
         pattern: "*.xml"
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
-      - path: "Egosoft\\X4\\{Steam3AccountID}\\save"
+      - path: "Egosoft/X4/{Steam3AccountID}/save"
         pattern: "*.xml.gz"
-        platforms:
-          - Windows
         root: WinMyDocuments
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: constructionplans.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: loadouts.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
-      - path: "Egosoft\\X4\\{Steam3AccountID}"
+      - path: "Egosoft/X4/{Steam3AccountID}"
         pattern: userdata.xml
-        platforms:
-          - Windows
         root: WinMyDocuments
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: inputmap*.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
       - path: ".config/EgoSoft/X4/{Steam3AccountID}"
         pattern: uidata.xml
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
       - path: ".config/EgoSoft/X4/{Steam3AccountID}/save"
         pattern: "*.xml"
         platforms:
-          - Linux
+          - MacOS
         root: LinuxHome
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Egosoft/X4/{Steam3AccountID}"
+            replace: ".config/EgoSoft/X4/{Steam3AccountID}"
+        root: WinMyDocuments
+        useInstead: LinuxHome
   installDir: X4 Foundations
   launch:
     - config:
@@ -120467,6 +120445,8 @@
         oslist: linux
       executable: testandlaunch
       type: default
+  nameLocalized:
+    schinese: X4：基石
 392190:
   installDir: "VRUnicorns #SelfieTennis"
   launch:
@@ -657297,7 +657277,9 @@
     schinese: 星球大战：银河赛车手™
     tchinese: 星際大戰：銀河賽車手™
 4082030: {}
-4084710: {}
+4084710:
+  nameLocalized:
+    schinese: 雷曼：传奇再叙
 4090420:
   cloud:
     saves:
@@ -658493,6 +658475,28 @@
         oslist: windows
       executable: LastBreath.exe
 4300090:
+  cloud:
+    saves:
+      - path: Korova games/Neat/Saves
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Korova games/Neat/Saves
+            replace: Korova games/Neat/Saves
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Neat
+  launch:
+    - arguments: "-window-mode borderless"
+      config:
+        oslist: windows
+      executable: Neat.exe
+    - config:
+        oslist: macos
+      executable: Neat.app
   nameLocalized:
     japanese: Neat！～お片付け屋さんの物語～
     koreana: 마음까지 정리해요
@@ -659722,6 +659726,20 @@
         oslist: windows
       executable: HypnoTiles.exe
       type: default
+4715270:
+  installDir: game
+  launch:
+    - executable: game/SunWar.exe
+  nameLocalized:
+    brazilian: Guerra Solar Suprema
+    french: Guerre Solaire Ultime
+    german: Ultimativer Sonnenkrieg
+    japanese: 太陽究極戦争
+    koreana: 태양 궁극 전쟁
+    russian: "Солнечная Битва: Финал"
+    schinese: 究极太阳战争
+    spanish: Guerra Solar Suprema
+    tchinese: 究極太陽戰爭
 4715320:
   cloud:
     saves:
