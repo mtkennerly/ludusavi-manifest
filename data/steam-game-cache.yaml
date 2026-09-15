@@ -161309,7 +161309,9 @@
       executable: GRW.exe
       type: default
   nameLocalized:
+    japanese: ゴーストリコン ワイルドランズ
     schinese: 幽灵行动：荒野
+    tchinese: 《火線獵殺：野境》
 460940:
   installDir: FathersIsland
   launch:
@@ -205424,7 +205426,7 @@
 546560:
   cloud:
     saves:
-      - path: game/hlvr/SAVE
+      - path: game/hlvr/save
         pattern: "*"
         recursive: true
         root: gameinstall
@@ -659914,6 +659916,7 @@
 5036490: {}
 5067360: {}
 5093680: {}
+5109940: {}
 5131800:
   nameLocalized:
     russian: "Герой Королевства: Отголоски"
@@ -659921,5 +659924,6 @@
     ukrainian: "Герой Королівства: Відлуння"
 5227630: {}
 5233100: {}
+5244970: {}
 34004563: {}
 3221903386: {}

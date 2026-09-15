@@ -10701,6 +10701,11 @@ A Normal Lost Phone:
         - config
   steam:
     id: 523210
+A Normal Quiz Game where you try to solve questions but the questions have tricks and gimmicks and if you get them wrong you have to beat a wacky punishment but they are kinda fun so you lowkey wanna do them even if it means getting the question wrong.:
+  cloud:
+    steam: true
+  steam:
+    id: 5109940
 A Nova Califórnia:
   installDir:
     The New California: {}
@@ -80625,6 +80630,46 @@ Beyond All Reason:
         - config
       when:
         - os: windows
+    "<home>/.var/app/info.beyondallreason.bar/data/LuaUI/Config":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.var/app/info.beyondallreason.bar/data/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/info.beyondallreason.bar/data/bar_hotkeys_custom.lua":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.var/app/info.beyondallreason.bar/data/config.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.var/app/info.beyondallreason.bar/data/demos":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/info.beyondallreason.bar/data/screenshots":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/info.beyondallreason.bar/data/springsettings.cfg":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.var/app/info.beyondallreason.bar/data/uikeys.txt":
+      tags:
+        - config
+      when:
+        - os: linux
 "Beyond Arm's Reach":
   steam:
     id: 713360
@@ -236365,6 +236410,9 @@ Elroy and the Aliens:
 "Elroy's Costume Closet":
   steam:
     id: 5233100
+"Elroy: King of the Jungle":
+  steam:
+    id: 5244970
 Else Heart.Break():
   files:
     "<base>/ElseHeartbreak_Data/Saves":
@@ -286007,6 +286055,12 @@ Frisky Business:
   steam:
     id: 794700
 Fritz Chess 14:
+  files:
+    "<winDocuments>/ChessBase/MyWork":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 318770
@@ -483065,6 +483119,11 @@ NHL Eastside Hockey Manager 2007:
         - config
       when:
         - os: windows
+NHRA Drag Racing:
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Tantrum Entertainment/NHRA Drag Racing/1.0:
+      tags:
+        - config
 "NHRA Drag Racing: Quarter Mile Showdown":
   files:
     "<base>/NHRA.ini":
@@ -756662,6 +756721,13 @@ The Plague Doctor of Wippra:
   steam:
     id: 1811740
 The Plan (2013):
+  files:
+    "<home>/.config/unity3d/Krillbite Studio/The Plan/prefs":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   installDir:
     The Plan: {}
   launch:
@@ -851092,6 +851158,12 @@ Woodlands:
   steam:
     id: 495350
 Woodle Tree Adventures:
+  files:
+    "<home>/.config/unity3d/Administrator/WoodleTree/prefs":
+      tags:
+        - save
+      when:
+        - os: linux
   installDir:
     WoodleTreeAdventures: {}
   launch:

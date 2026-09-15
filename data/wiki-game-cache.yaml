@@ -3330,6 +3330,11 @@ A Normal Lost Phone:
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Accidental Queens/A Normal Lost Phone/}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Accidental Queens\\A Normal Lost Phone\\save}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Accidental Queens/A Normal Lost Phone/save}}"
+A Normal Quiz Game where you try to solve questions but the questions have tricks and gimmicks and if you get them wrong you have to beat a wacky punishment but they are kinda fun so you lowkey wanna do them even if it means getting the question wrong.:
+  cloud:
+    steam: true
+  pageId: 220500
+  steam: 5109940
 A Nova Califórnia:
   pageId: 70379
   steam: 699510
@@ -26200,9 +26205,9 @@ Beyond All Reason:
   pageId: 192516
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\data\\springsettings.cfg|{{P|game}}\\data\\config.json|{{P|game}}\\data\\uikeys.txt|{{P|game}}\\data\\bar_hotkeys_custom.lua|{{P|game}}\\data\\LuaUI\\Config\\}}"
-    - "{{Game data/config|Linux|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/springsettings.cfg|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/config.json|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/uikeys.txt|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/bar_hotkeys_custom.lua|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/LuaUI/Config/}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.var/app/info.beyondallreason.bar/data/springsettings.cfg|{{p|linuxhome}}/.var/app/info.beyondallreason.bar/data/config.json|{{p|linuxhome}}/.var/app/info.beyondallreason.bar/data/uikeys.txt|{{p|linuxhome}}/.var/app/info.beyondallreason.bar/data/bar_hotkeys_custom.lua|{{p|linuxhome}}/.var/app/info.beyondallreason.bar/data/LuaUI/Config/}}"
     - "{{Game data/saves|Windows|{{P|game}}\\data\\Saves\\|{{P|game}}\\data\\demos\\|{{P|game}}\\data\\screenshots\\}}"
-    - "{{Game data/saves|Linux|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/Saves/|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/demos/|{{linuxhome}}/.var/app/info.beyondallreason.bar/data/screenshots/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.var/app/info.beyondallreason.bar/data/Saves/|{{p|linuxhome}}/.var/app/info.beyondallreason.bar/data/demos/|{{p|linuxhome}}/.var/app/info.beyondallreason.bar/data/screenshots/}}"
 "Beyond Arm's Reach":
   pageId: 70709
   steam: 713360
@@ -76489,6 +76494,9 @@ Elroy and the Aliens:
 "Elroy's Costume Closet":
   pageId: 220472
   steam: 5233100
+"Elroy: King of the Jungle":
+  pageId: 220502
+  steam: 5244970
 Else Heart.Break():
   gog: 1442485613
   pageId: 31768
@@ -92758,6 +92766,8 @@ Fritz Chess 14:
     - 517750
     - 517751
     - 517752
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\ChessBase\\MyWork}}"
 Fritz Chess 15:
   pageId: 44513
   steam: 427480
@@ -144600,6 +144610,8 @@ MasterChef THE OFFICIAL VIDEO GAME:
   steam: 2287010
 "MasterChef: Let's Cook":
   pageId: 170591
+Masterblazer:
+  pageId: 220505
 Mastermind (1998):
   pageId: 214841
 Masteroid:
@@ -157493,6 +157505,10 @@ NHL Hockey:
   cloud:
     steam: true
   pageId: 201763
+NHRA Drag Racing:
+  pageId: 220509
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Tantrum Entertainment\\NHRA Drag Racing\\1.0}}"
 "NHRA Drag Racing: Quarter Mile Showdown":
   pageId: 217077
   templates:
@@ -246409,7 +246425,9 @@ The Plan (2013):
   steam: 250600
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Krillbite Studio\\The Plan\\}}"
+    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/unity3d/Krillbite Studio/The Plan/prefs}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\SOFTWARE\\Krillbite Studio\\The Plan\\HasFinished_h1734553517}}"
+    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/unity3d/Krillbite Studio/The Plan/prefs}}"
 The Plane Effect:
   cloud:
     gog: true
@@ -254610,8 +254628,8 @@ Tom & Jerry:
     - 2231410
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\documents}}\\My Games\\Ghost Recon Breakpoint\\}}"
-    - "{{Game data/saves|Uplay|{{p|Uplay}}\\savegames\\{{path|uid}}\\11903\\}}"
-    - "{{Game data/saves|Steam|{{p|Uplay}}\\savegames\\{{path|uid}}\\62412\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{path|uid}}\\11903\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{path|uid}}\\62412\\}}"
 "Tom Clancy's Ghost Recon Frontline":
   pageId: 172059
 "Tom Clancy's Ghost Recon Phantoms":
@@ -254633,8 +254651,8 @@ Tom & Jerry:
     - 719690
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\Ghost Recon Wildlands\\}}"
-    - "{{Game data/saves|Uplay|{{p|Uplay}}\\savegames\\{{path|uid}}\\1771\\}}"
-    - "{{Game data/saves|Steam|{{p|Uplay}}\\savegames\\{{path|uid}}\\3559\\}}"
+    - "{{Game data/saves|Ubisoft Connect|{{p|ubisoftconnect}}\\savegames\\{{path|uid}}\\1771\\}}"
+    - "{{Game data/saves|Steam|{{p|ubisoftconnect}}\\savegames\\{{path|uid}}\\3559\\}}"
 "Tom Clancy's Ghost Recon: Future Soldier":
   lutris: tom-clancys-ghost-recon-future-soldier
   pageId: 2977
@@ -276238,6 +276256,8 @@ Why So Evil:
 Why War?:
   pageId: 82682
   steam: 795440
+Why did the Chicken Cross the Road:
+  pageId: 220503
 Why is the Princess in a Magic Forest?!:
   pageId: 52592
   steam: 518740
@@ -278587,6 +278607,7 @@ Woodle Tree Adventures:
   steam: 299460
   templates:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Administrator\\WoodleTree}}"
+    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/unity3d/Administrator/WoodleTree/prefs}}"
 Woodlock Manor:
   pageId: 180330
   steam: 2061510
