@@ -14376,6 +14376,18 @@ ALILIA-亚利利亚的精灵们:
             store: steam
   steam:
     id: 1047680
+ALIS:
+  files:
+    "<winLocalAppData>/Alis/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Alis/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
 ALLBLACK Phase 1:
   files:
     "<base>/ALLBLACKPhase1-1.6-market/game/saves":
@@ -327830,6 +327842,16 @@ Harry Potter and the Order of the Phoenix:
     lutris: harry-potter-and-the-philosophers-stone
 Harry Potter and the Prisoner of Azkaban:
   files:
+    "<winDocuments>/Harry Potter and the Prisoner of Azkaban":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/Harry Potter and the Prisoner of Azkaban/Save":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/Harry Potter™ and the Prisoner of Azkaban":
       tags:
         - config
@@ -483122,6 +483144,11 @@ NHL Eastside Hockey Manager 2007:
 NHRA Drag Racing:
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Tantrum Entertainment/NHRA Drag Racing/1.0:
+      tags:
+        - config
+NHRA Drag Racing 2:
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Motorsims/NHRA2 Drag Racing/1.0:
       tags:
         - config
 "NHRA Drag Racing: Quarter Mile Showdown":

@@ -4483,6 +4483,11 @@ ALIEN FIELD:
 ALILIA-亚利利亚的精灵们:
   pageId: 132286
   steam: 1047680
+ALIS:
+  pageId: 220514
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Alis\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Alis\\Saved\\SaveGames\\}}"
 ALLBLACK Phase 1:
   pageId: 143955
   steam: 1134450
@@ -106593,8 +106598,8 @@ Harry Potter and the Prisoner of Azkaban:
   lutris: harry-potter-and-the-prisoner-of-azkaban
   pageId: 19536
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Harry Potter™ and the Prisoner of Azkaban\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Harry Potter™ and the Prisoner of Azkaban\\Save\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Harry Potter™ and the Prisoner of Azkaban\\|{{p|userprofile\\Documents}}\\Harry Potter and the Prisoner of Azkaban\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Harry Potter™ and the Prisoner of Azkaban\\Save\\|{{p|userprofile\\Documents}}\\Harry Potter and the Prisoner of Azkaban\\Save\\}}"
 "Harry Potter: Puzzles & Spells":
   pageId: 175296
 "Harry Potter: Quidditch Champions":
@@ -157509,6 +157514,10 @@ NHRA Drag Racing:
   pageId: 220509
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Tantrum Entertainment\\NHRA Drag Racing\\1.0}}"
+NHRA Drag Racing 2:
+  pageId: 220512
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Motorsims\\NHRA2 Drag Racing\\1.0\\}}"
 "NHRA Drag Racing: Quarter Mile Showdown":
   pageId: 217077
   templates:
