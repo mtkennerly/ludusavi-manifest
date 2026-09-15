@@ -61882,6 +61882,11 @@ Demon Gaze Extra:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Clouded Leopard Entertainment Inc.\\DEMON GAZE EXTRA\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\DEMON GAZE EXTRA\\Steam\\{{p|uid}}\\*.SAV}}"
+Demon Goblin and Mr. Knight:
+  cloud:
+    steam: true
+  pageId: 220522
+  steam: 3526830
 Demon Grade VR:
   pageId: 74822
   steam: 574410
@@ -197826,6 +197831,7 @@ RuneScape:
   steam: 1374490
   steamSide:
     - 3637470
+    - 4908050
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\RSDragonwilds\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\RSDragonwilds\\Saved}}"
@@ -199033,6 +199039,7 @@ SNK 40th Anniversary Collection:
 "SNK Heroines: Tag Team Frenzy":
   cloud:
     steam: true
+  lutris: snk-heroines-tag-team-frenzy
   pageId: 128902
   steam: 794580
   steamSide:
@@ -231081,6 +231088,7 @@ TCG Card Shop Simulator:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\OPNeonGames\\Card Shop Simulator|{{p|userprofile\\appdata\\locallow}}\\OPNeonGames\\Card Shop Simulator\\savedGames_KeybindSetting.gd}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\OPNeonGames\\Card Shop Simulator\\savedGames_*}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\OPNEONGAMES.TCGCardShopSimulator_19j6by82ahhzr\\SystemAppData\\wgs}}"
 TD Heroes:
   pageId: 148427
   renamedFrom:
@@ -256186,6 +256194,11 @@ Total Tank Simulator:
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/feral-interactive/Total War SHOGUN 2/}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\The Creative Assembly\\Shogun2\\}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/feral-interactive/SaveData}}"
+"Total War: Shogun 2 - Complete Edition":
+  cloud:
+    steam: true
+  pageId: 220519
+  steam: 3846830
 "Total War: Shogun 2 - Fall of the Samurai":
   cloud:
     steam: true
@@ -257874,6 +257887,11 @@ Train Sim World 6:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld6\\Saved\\Config}}"
     - "{{Game data/config|Microsoft Store|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld6WGDK\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Documents\\My Games\\TrainSimWorld6\\Saved\\SaveGames}}"
+Train Sim World 7:
+  cloud:
+    steam: true
+  pageId: 220517
+  steam: 4678800
 Train Simulator:
   cloud:
     steam: true

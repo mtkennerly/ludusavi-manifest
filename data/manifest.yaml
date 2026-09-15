@@ -191683,6 +191683,24 @@ Demon Gaze Extra:
         - config
   steam:
     id: 1732340
+Demon Goblin and Mr. Knight:
+  cloud:
+    steam: true
+  files:
+    "<base>/Goblin Lili & Mr. Knight/save/**/*.rmmzsave":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Demon Goblin and Mr. Knight: {}
+  launch:
+    "<base>/Goblin Lili & Mr. Knight/Game.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3526830
 Demon Grade VR:
   installDir:
     Demon Grade: {}
@@ -285960,10 +285978,20 @@ Fright Light:
   steam:
     id: 520290
 Fright Train:
+  files:
+    "<winLocalAppData>/FrightTrain/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   id:
     lutris: fright-train
     steamExtra:
       - 4458010
+  installDir:
+    Fright Train: {}
+  launch:
+    "<base>/FrightTrain.exe":
+      - when:
+          - store: steam
   steam:
     id: 4132890
 FrightShow Fighter:
@@ -412094,6 +412122,11 @@ Let Hawaii Happen VR:
   steam:
     id: 534460
 Let It Die:
+  files:
+    "<base>/Savedata/<storeUserId>/brggame.*":
+      when:
+        - os: windows
+          store: steam
   installDir:
     LET IT DIE: {}
   launch:
@@ -565016,8 +565049,7 @@ Quake:
     Quake: {}
   launch:
     "<base>/rerelease/Quake_x64_steam.exe":
-      - arguments: +d3d11_compileShaders 1
-        when:
+      - when:
           - store: steam
   steam:
     id: 2310
@@ -565127,8 +565159,7 @@ Quake Enhanced:
     Quake: {}
   launch:
     "<base>/rerelease/Quake_x64_steam.exe":
-      - arguments: +d3d11_compileShaders 1
-        when:
+      - when:
           - store: steam
   steam:
     id: 2310
@@ -606290,6 +606321,7 @@ RuneScape:
     lutris: runescape-dragonwilds
     steamExtra:
       - 3637470
+      - 4908050
   installDir:
     RSDragonwilds: {}
   steam:
@@ -610088,6 +610120,7 @@ SNK 40th Anniversary Collection:
       when:
         - os: windows
   id:
+    lutris: snk-heroines-tag-team-frenzy
     steamExtra:
       - 1016150
   installDir:
@@ -709514,6 +709547,12 @@ TCG Card Shop Simulator:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Packages/OPNEONGAMES.TCGCardShopSimulator_19j6by82ahhzr/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: tcg-card-shop-simulator
     steamExtra:
@@ -785957,6 +785996,11 @@ Total Tank Simulator:
         workingDir: "<base>/launcher"
   steam:
     id: 34330
+"Total War: Shogun 2 - Complete Edition":
+  cloud:
+    steam: true
+  steam:
+    id: 3846830
 "Total War: Shogun 2 - Fall of the Samurai":
   cloud:
     steam: true
@@ -790983,6 +791027,23 @@ Train Sim World 6:
             store: steam
   steam:
     id: 3656800
+Train Sim World 7:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/My Games/TrainSimWorld7/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Train Sim World 7: {}
+  launch:
+    "<base>/WindowsNoEditor/TrainSimWorld.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4678800
 Train Simulator:
   cloud:
     steam: true

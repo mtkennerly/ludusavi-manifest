@@ -1174,8 +1174,7 @@
         root: WinSavedGames
   installDir: Quake
   launch:
-    - arguments: +d3d11_compileShaders 1
-      executable: rerelease/Quake_x64_steam.exe
+    - executable: rerelease/Quake_x64_steam.exe
       type: default
     - description: Quake (Original)
       executable: glquake.exe
@@ -1187,11 +1186,6 @@
     - arguments: "-rogue"
       description: Dissolution of Eternity (Original)
       executable: glquake.exe
-      type: option1
-    - config:
-        betakey: "nightly,beta"
-      description: Rerelease Shaderfix
-      executable: rerelease/Quake_x64_steam.exe
       type: option1
 2320:
   cloud:
@@ -336706,6 +336700,13 @@
     - executable: SNKHEROINES.exe
       type: default
 794600:
+  cloud:
+    saves:
+      - path: "Savedata/{64BitSteamID}"
+        pattern: brggame.*
+        platforms:
+          - Windows
+        root: gameinstall
   installDir: LET IT DIE
   launch:
     - config:
@@ -551206,12 +551207,6 @@
       executable: Aqua-Coyote.exe
       type: default
     - config:
-        betakey: "trunk.dev.latest,trunk.dev.stable"
-        ownsdlc: "4179820"
-      description: Shadows of Ashenfall
-      executable: ShadowsOfAshenfall/RSDragonwilds.exe
-      type: option2
-    - config:
         betakey: trunk.dev.latest
         ownsdlc: "4179820"
       description: "Runescape: Dragonwilds"
@@ -650780,6 +650775,28 @@
       description: Horripilant (DirectX 12)
       executable: Horripilant.exe
       type: option1
+3526830:
+  cloud:
+    saves:
+      - path: Goblin Lili & Mr. Knight/save
+        pattern: "*.rmmzsave"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: Demon Goblin and Mr. Knight
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Goblin Lili & Mr. Knight\\Game.exe"
+      type: default
 3527290:
   cloud:
     saves:
@@ -655223,6 +655240,15 @@
         oslist: macos
       executable: "Glass Masquerade 4.app\\Contents\\MacOS\\Glass Masquerade 4"
       type: default
+3846830:
+  nameLocalized:
+    japanese: トータルウォー：ショーグン２ コンプリートエディション
+    koreana: "토탈워: 쇼군 2 - 컴플리트 에디션"
+    latam: "Total War: SHOGUN 2 - Edición completa"
+    portuguese: "Total War: SHOGUN 2 - Edição Completa"
+    schinese: 《全面战争：幕府将军2》完全版
+    spanish: "Edición completa de Total War: SHOGUN 2"
+    tchinese: 全軍破敵：幕府將軍2 完整版
 3846900:
   nameLocalized:
     schinese: 猿公剑
@@ -657595,7 +657621,28 @@
         oslist: windows
       description: Launch
       executable: "VHOLUME\\Binaries\\Win64\\VHOLUME-Win64-Shipping.exe"
-4132890: {}
+4132890:
+  cloud:
+    saves:
+      - path: FrightTrain/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: FrightTrain/Saved/SaveGames
+            replace: "home/deck/.steam/steam/steamapps/compatdata/710070/pfx/dosdevices/c:/users/steamuser/AppData/Local/FrightTrain/Saved/SaveGames"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: Fright Train
+  launch:
+    - executable: FrightTrain.exe
+  nameLocalized:
+    japanese: ドッグハザード：デストレイン
+    koreana: "도그하자드: 광견 열차"
+    schinese: 狗化危机：狂犬列车
+    tchinese: 狗化危機：狂犬列車
 4138130: {}
 4138160:
   installDir: Kawaii Survivors
@@ -659690,6 +659737,20 @@
     schinese: 血色鹿影
     tchinese: 血色鹿影
 4669960: {}
+4678800:
+  cloud:
+    saves:
+      - path: "My Games/TrainSimWorld7/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinMyDocuments
+  installDir: Train Sim World 7
+  launch:
+    - config:
+        oslist: windows
+      executable: "WindowsNoEditor\\TrainSimWorld.exe"
+      type: default
 4683260: {}
 4686060: {}
 4687500:
