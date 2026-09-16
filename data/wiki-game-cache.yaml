@@ -10171,14 +10171,6 @@ Aliens Invaded Our Planet:
   steam: 873930
 Aliens Online:
   pageId: 200277
-Aliens Versus Predator 2:
-  lutris: aliens-versus-predator-2
-  pageId: 754
-  renamedFrom:
-    - Aliens versus Predator 2
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\autoexec.cfg}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Save\\Player_0}}"
 Aliens X:
   pageId: 66681
   steam: 685230
@@ -10201,6 +10193,15 @@ Aliens versus Predator:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\video.cfg}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Rebellion\\AvP Classic\\User_Profiles}}"
+Aliens versus Predator 2:
+  lutris: aliens-versus-predator-2
+  pageId: 754
+  renamedFrom:
+    - Aliens versus Predator 2
+    - Aliens Versus Predator 2
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\autoexec.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\Player_0}}"
 Aliens vs. Predator (2010):
   lutris: aliens-vs-predator
   pageId: 4437
@@ -12824,6 +12825,9 @@ Angvik:
 "Anicon - Animal Complex - Sheep's Path":
   pageId: 103805
   steam: 611390
+Aniimo:
+  pageId: 220546
+  steam: 4126040
 AnimVR:
   pageId: 93281
   steam: 508690
@@ -48161,6 +48165,8 @@ Conflict Zone:
   pageId: 81936
   steam: 784950
 "Conflict: Denied Ops":
+  cloud:
+    steam: true
   pageId: 26313
   steam: 8100
   templates:
@@ -173521,6 +173527,9 @@ Penguins vs. Bugs:
 Peninsular War Battles:
   pageId: 68392
   steam: 675950
+Penis Bird:
+  pageId: 220542
+  steam: 5102980
 Penko Park:
   cloud:
     steam: true
@@ -212274,6 +212283,11 @@ SnipZ:
 Sniper Blacklist:
   pageId: 41667
   steam: 402280
+"Sniper Camouflage Orange Spy Warrior I Buried Two Bodies in the Garden and the Police Haven't Figured Out Yet That They're Missing Because They Were a Lonely Old Couple Who Had No Relatives Simulator 2026":
+  cloud:
+    steam: true
+  pageId: 220544
+  steam: 4323130
 Sniper Commando Attack:
   pageId: 141720
   steam: 1076950
@@ -282659,6 +282673,9 @@ Yu-Gi-Oh! Master Duel:
   pageId: 99043
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\..\\Yu-Gi-Oh! Power of Chaos Common\\*.ydc|{{P|game}}\\..\\Yu-Gi-Oh! Power of Chaos Common\\*.ydr|{{P|game}}\\..\\Yu-Gi-Oh! Power of Chaos Common\\system.dat|{{p|hklm}}\\SOFTWARE\\KONAMI\\Yu-Gi-Oh! Power Of Chaos\\flcrc}}"
+Yu-Gi-Oh! Tag Force GX:
+  pageId: 220540
+  steam: 4416300
 Yucatan:
   cloud:
     steam: true

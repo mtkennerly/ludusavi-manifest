@@ -31942,20 +31942,6 @@ Aliens Invaded Our Planet:
           - store: steam
   steam:
     id: 873930
-Aliens Versus Predator 2:
-  files:
-    "<base>/Save/Player_0":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<base>/autoexec.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    lutris: aliens-versus-predator-2
 Aliens X:
   installDir:
     Aliens X: {}
@@ -32005,6 +31991,20 @@ Aliens versus Predator:
           - store: steam
   steam:
     id: 3730
+Aliens versus Predator 2:
+  files:
+    "<base>/Save/Player_0":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/autoexec.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: aliens-versus-predator-2
 Aliens vs. Predator (2010):
   files:
     "<winLocalAppData>/AliensVsPredator":
@@ -39994,6 +39994,23 @@ Angvik:
             store: steam
   steam:
     id: 611390
+Aniimo:
+  installDir:
+    Aniimo: {}
+  launch:
+    "<base>/Aniimo.exe":
+      - arguments: "-force-d3d11"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-force-d3d12"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4126040
 AnimVR:
   installDir:
     ANIMVR: {}
@@ -149601,6 +149618,8 @@ Conflict Zone:
   steam:
     id: 784950
 "Conflict: Denied Ops":
+  cloud:
+    steam: true
   files:
     "<winDocuments>/Eidos/ConflictDeniedOps":
       tags:
@@ -531426,6 +531445,9 @@ Peninsular War Battles:
             store: steam
   steam:
     id: 675950
+Penis Bird:
+  steam:
+    id: 5102980
 Penko Park:
   cloud:
     steam: true
@@ -651623,6 +651645,21 @@ Sniper Blacklist:
             store: steam
   steam:
     id: 402280
+"Sniper Camouflage Orange Spy Warrior I Buried Two Bodies in the Garden and the Police Haven't Figured Out Yet That They're Missing Because They Were a Lonely Old Couple Who Had No Relatives Simulator 2026":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/TheOnlyWayOut/Sniper Simulator 2026":
+      when:
+        - store: steam
+  installDir:
+    Sniper Simulator 2026: {}
+  launch:
+    "<base>/Sniper Simulator 2026.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4323130
 Sniper Commando Attack:
   installDir:
     Sniper Commando Strike: {}
@@ -863254,6 +863291,9 @@ Yu-Gi-Oh! Master Duel:
     HKEY_LOCAL_MACHINE/SOFTWARE/KONAMI/Yu-Gi-Oh! Power Of Chaos/flcrc:
       tags:
         - save
+Yu-Gi-Oh! Tag Force GX:
+  steam:
+    id: 4416300
 Yucatan:
   cloud:
     steam: true

@@ -657624,6 +657624,26 @@
   installDir: NZ78
   launch:
     - executable: Windows/nz78.exe
+4126040:
+  installDir: Aniimo
+  launch:
+    - arguments: "-force-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DX11 Enabled (Recommend)
+      executable: Aniimo.exe
+    - arguments: "-force-d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DX12 Enabled (Support frame generation)
+      executable: Aniimo.exe
+  nameLocalized:
+    japanese: アニモ
+    koreana: 애니모
+    schinese: 伊莫
+    tchinese: 伊莫
 4127530:
   cloud:
     saves:
@@ -658666,6 +658686,15 @@
         oslist: windows
       executable: CrimsonMoonNG.exe
       type: default
+4323130:
+  cloud:
+    saves:
+      - path: "TheOnlyWayOut\\Sniper Simulator 2026\\"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Sniper Simulator 2026
+  launch:
+    - executable: Sniper Simulator 2026.exe
 4323990:
   installDir: EMPULSE
   launch:
@@ -659158,6 +659187,9 @@
   nameLocalized:
     schinese: 万物皆可嗦
     tchinese: 萬物皆可嗦
+4416300:
+  nameLocalized:
+    japanese: 遊戯王 TAG FORCE GX
 4418080: {}
 4421010:
   cloud:
@@ -660024,6 +660056,7 @@
 5036490: {}
 5067360: {}
 5093680: {}
+5102980: {}
 5109940: {}
 5131800:
   nameLocalized:
