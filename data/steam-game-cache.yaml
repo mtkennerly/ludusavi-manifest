@@ -97816,7 +97816,7 @@
   installDir: Mafia III
   launch:
     - config:
-        betakey: "public,newtest"
+        betakey: "public,newtest,checkpoint"
         osarch: "64"
         oslist: windows
       executable: mafia3definitiveedition.exe
@@ -97826,7 +97826,7 @@
       executable: Mafia3.app
       type: none
     - config:
-        betakey: "public,newtest"
+        betakey: "public,newtest,checkpoint"
         osarch: "64"
         oslist: windows
       description: "Mafia III: Definitive Edition Launcher"
@@ -534559,6 +534559,10 @@
   launch:
     - executable: "link2ea://launchgame/1238000?platform=steam&theme=mea"
       type: none
+    - config:
+        betakey: eax_test
+      description: New launch method
+      executable: "steam2ea://launchgame/1238000?platform=steam&theme=mea"
   nameLocalized:
     brazilian: "Edição Deluxe do Mass Effect™: Andromeda"
     czech: "Mass Effect™: Andromeda – edice Deluxe"
@@ -534612,8 +534616,7 @@
 1238080:
   installDir: BurnoutPR
   launch:
-    - executable: "link2ea://launchgame/1238080?platform=steam&theme=bprm"
-      type: none
+    - executable: "steam2ea://launchgame/1238080?platform=steam&theme=bprm"
   nameLocalized:
     tchinese: 《橫衝直撞：狂飆樂園》重製版
 1238340:
@@ -545772,6 +545775,10 @@
   launch:
     - executable: "link2ea://launchgame/1328670?platform=steam&theme=met"
       type: none
+    - config:
+        betakey: eax_test
+      description: New launch method
+      executable: "steam2ea://launchgame/1328670?platform=steam&theme=met"
   nameLocalized:
     french: Mass Effect™ Édition Légendaire
     polish: Mass Effect™ Edycja legendarna
@@ -652868,7 +652875,23 @@
         oslist: windows
       executable: DFDT.exe
       type: default
-3639070: {}
+3639070:
+  cloud:
+    saves:
+      - path: AttritoM7 Productions/Blackwood
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: BLACKWOOD
+  launch:
+    - description: DX 11 Build
+      executable: Blackwood.exe
+      type: default
+    - arguments: "-force-d3d12"
+      description: DX 12 Build
+      executable: Blackwood.exe
+      type: option1
 3639650:
   cloud:
     saves:

@@ -28568,6 +28568,8 @@ Blackwood:
   lutris: blackwood
   pageId: 220356
   steam: 3639070
+  steamSide:
+    - 5237010
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\AttritoM7 Productions\\Blackwood\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\AttritoM7 Productions\\Blackwood\\blackwood.sav}}"
@@ -47684,6 +47686,7 @@ Commandos 3 HD Remaster:
   gogSide:
     - 1207658800
   lutris: commandos-behind-enemy-lines
+  malformed: true
   pageId: 561
   steam: 6800
   templates:
@@ -106689,6 +106692,7 @@ Harvest Life:
   pageId: 168129
 "Harvest Moon: The Winds of Anthos":
   cloud:
+    epic: true
     steam: true
   pageId: 188347
   steam: 2140650
@@ -157537,6 +157541,10 @@ NHRA Drag Racing 2:
   pageId: 220512
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Motorsims\\NHRA2 Drag Racing\\1.0\\}}"
+NHRA Drag Racing Main Event:
+  pageId: 220555
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Motorsims\\NHRA Pro Stock Drag Racing\\1.0\\}}"
 "NHRA Drag Racing: Quarter Mile Showdown":
   pageId: 217077
   templates:
@@ -208646,6 +208654,7 @@ Silent Hill:
   pageId: 40190
 Silent Hill 2:
   cloud:
+    epic: true
     gog: true
     steam: true
     xbox: true
@@ -208683,6 +208692,7 @@ Silent Hill 3:
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
 Silent Hill f:
   cloud:
+    epic: true
     gog: true
     steam: true
     xbox: true
@@ -248921,6 +248931,8 @@ The Storytale:
     xbox: true
   pageId: 200029
   steam: 1682400
+  steamSide:
+    - 1682760
 "The Stranger: Interactive Game":
   pageId: 140761
   steam: 1113110
@@ -255048,7 +255060,7 @@ Tomb Raider II:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.txt}}"
     - "{{Game data/saves|Windows|{{P|game}}\\savegame.*}}"
-Tomb Raider IV-VI Remastered:
+Tomb Raider IV–VI Remastered:
   cloud:
     epic: true
     gog: true
@@ -255058,6 +255070,8 @@ Tomb Raider IV-VI Remastered:
     - 1446538488
   lutris: tomb-raider-iv-vi-remastered
   pageId: 198391
+  renamedFrom:
+    - Tomb Raider IV-VI Remastered
   steam: 2525380
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\TRX2\\{{p|uid}}\\savegame.dat}}"
