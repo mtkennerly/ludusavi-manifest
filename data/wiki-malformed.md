@@ -14,6 +14,7 @@
 * [Life Is Strange: Reunion](https://www.pcgamingwiki.com/wiki/?curid=213008)
 * [Marvel's Spider-Man: Miles Morales](https://www.pcgamingwiki.com/wiki/?curid=178032)
 * [Meet the Robinsons](https://www.pcgamingwiki.com/wiki/?curid=81386)
+* [Mr. Pogo](https://www.pcgamingwiki.com/wiki/?curid=220446)
 * [Nova Roma](https://www.pcgamingwiki.com/wiki/?curid=214061)
 * [Omega Labyrinth Life](https://www.pcgamingwiki.com/wiki/?curid=153458)
 * [Phineas and Ferb: New Inventions](https://www.pcgamingwiki.com/wiki/?curid=48629)

@@ -111610,6 +111610,8 @@ Hill Climb Racing 2:
 Hill Quest:
   pageId: 79882
   steam: 773610
+"Hill Stret Blues: The Computer Game":
+  pageId: 220538
 Hillbilly Apocalypse:
   pageId: 122276
   steam: 603000
@@ -154396,8 +154398,12 @@ Mr. Parkour 3:
   steam: 1456920
 Mr. Pogo:
   lutris: mr-pogo
+  malformed: true
   pageId: 220446
   steam: 2272800
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Mr_Pogo\\pogoscore.ini}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Mr_Pogo}}"
 Mr. Prepper:
   cloud:
     steam: true
@@ -165221,6 +165227,8 @@ Of Ash and Steel:
   lutris: of-ash-and-steel
   pageId: 200287
   steam: 2893820
+  steamSide:
+    - 5059740
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\Local\\ofAshAndSteelGame\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\Local\\ofAshAndSteelGame\\Saved\\SaveGames}}"
@@ -228715,6 +228723,7 @@ Superhot:
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/SUPERHOT_Team/SUPERHOT/super.hot|{{p|xdgconfighome}}/unity3d/SUPERHOT_Team/SUPERHOT/super_2.hot|{{p|xdgconfighome}}/unity3d/SUPERHOT_Team/SUPERHOT/super_3.hot}}"
 Superhot VR:
   cloud:
+    steam: true
     xbox: true
   lutris: superhot-vr
   pageId: 62544
@@ -248539,6 +248548,9 @@ The Smurfs:
     - "{{Game data/saves|Windows|{{P|game}}\\_save\\Smurfs\\*}}"
 "The Smurfs: The Teletransportsmurf":
   pageId: 173668
+"The Smurfs: Village Party":
+  pageId: 220533
+  steam: 2800630
 The Sniper VR:
   pageId: 60868
   steam: 615630

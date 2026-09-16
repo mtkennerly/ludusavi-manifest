@@ -473910,6 +473910,17 @@ Mr. Parkour 3:
   steam:
     id: 1456920
 Mr. Pogo:
+  files:
+    "<winLocalAppData>/Mr_Pogo":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Mr_Pogo/pogoscore.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: mr-pogo
   installDir:
@@ -506432,6 +506443,8 @@ Of Ash and Steel:
     id: 1113561740
   id:
     lutris: of-ash-and-steel
+    steamExtra:
+      - 5059740
   installDir:
     ofAshAndSteel: {}
   steam:
@@ -702361,6 +702374,8 @@ Superhot:
   steam:
     id: 322500
 Superhot VR:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/SUPERHOT_Team/SUPERHOT_VR/VRsuper.hot":
       tags:
@@ -762907,6 +762922,16 @@ The Smurfs - Mission Vileaf:
           - store: steam
   steam:
     id: 1502560
+"The Smurfs: Village Party":
+  installDir:
+    The Smurfs - Village Party: {}
+  launch:
+    "<base>/TheSmurfsVillageParty.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2800630
 The Sniper VR:
   installDir:
     The Sniper VR: {}
