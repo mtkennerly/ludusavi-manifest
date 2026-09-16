@@ -60547,6 +60547,7 @@ Deconstruction Lab:
 Deconstruction Simulator:
   cloud:
     steam: true
+    xbox: true
   lutris: deconstruction-simulator
   pageId: 209209
   steam: 2487150
@@ -134671,6 +134672,7 @@ Lie In My Heart:
   steam: 1116490
 Lies of P:
   cloud:
+    discord: true
     steam: true
     xbox: true
   lutris: lies-of-p
@@ -197843,6 +197845,7 @@ RuneScape:
 "RuneScape: Dragonwilds":
   cloud:
     steam: true
+    xbox: true
   lutris: runescape-dragonwilds
   pageId: 203521
   steam: 1374490
@@ -256223,6 +256226,7 @@ Total Tank Simulator:
 "Total War: Shogun 2 - Complete Edition":
   cloud:
     steam: true
+  gog: 1688411272
   pageId: 220519
   steam: 3846830
 "Total War: Shogun 2 - Fall of the Samurai":
@@ -257916,6 +257920,7 @@ Train Sim World 6:
 Train Sim World 7:
   cloud:
     steam: true
+    xbox: true
   pageId: 220517
   steam: 4678800
 Train Simulator:
