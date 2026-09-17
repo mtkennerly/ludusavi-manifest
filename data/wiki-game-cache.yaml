@@ -41899,6 +41899,8 @@ Chessmaster 6000:
   pageId: 220065
 Chessmaster 7000:
   pageId: 220095
+Chessmaster 8000:
+  pageId: 220577
 Chessmaster 9000:
   gog: 1207658756
   lutris: chessmaster-9000
@@ -45082,6 +45084,8 @@ Clinically Dead:
   lutris: clive-barkers-hellraiser-revival
   pageId: 206384
   steam: 1551980
+  steamSide:
+    - 5184670
 "Clive Barker's Jericho":
   lutris: clive-barkers-jericho
   pageId: 7720
@@ -126627,6 +126631,12 @@ Kerbal Space Program 2:
 Kerfuffight:
   pageId: 144476
   steam: 1084090
+Kernel Hearts:
+  cloud:
+    steam: true
+  lutris: kernel-hearts
+  pageId: 220580
+  steam: 2902170
 Kero Blaster:
   cloud:
     gog: true
@@ -157202,8 +157212,6 @@ NBA Action 98:
   lutris: nba-action-98
   pageId: 187985
 NBA Basketball 2000:
-  cloud:
-    steam: true
   pageId: 201750
 NBA Bounce:
   cloud:
@@ -157551,6 +157559,12 @@ NHL Hockey:
   cloud:
     steam: true
   pageId: 201763
+"NHRA Championship Drag Racing: Speed for All":
+  lutris: nhra-championship-drag-racing-speed-for-all
+  pageId: 178428
+  renamedFrom:
+    - "NHRA: Speed for All"
+  steam: 1681880
 NHRA Drag Racing:
   pageId: 220509
   templates:
@@ -157567,9 +157581,6 @@ NHRA Drag Racing Main Event:
   pageId: 217077
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\NHRA.ini}}"
-"NHRA: Speed for All":
-  pageId: 178428
-  steam: 1681880
 NIGHT FALLEN:
   pageId: 121353
   steam: 943030

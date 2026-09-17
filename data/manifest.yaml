@@ -139839,6 +139839,8 @@ Clinically Dead:
     steam: true
   id:
     lutris: clive-barkers-hellraiser-revival
+    steamExtra:
+      - 5184670
   steam:
     id: 1551980
 "Clive Barker's Jericho":
@@ -389636,6 +389638,26 @@ Kerfuffight:
             store: steam
   steam:
     id: 1084090
+Kernel Hearts:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/MahouPrototype/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: kernel-hearts
+  installDir:
+    Kernel Hearts: {}
+  launch:
+    "<base>/KernelHearts.exe":
+      - when:
+          - store: steam
+      - arguments: "-dx11"
+        when:
+          - store: steam
+  steam:
+    id: 2902170
 Kero Blaster:
   cloud:
     gog: true
@@ -483258,6 +483280,19 @@ NHL Eastside Hockey Manager 2007:
         - config
       when:
         - os: windows
+"NHRA Championship Drag Racing: Speed for All":
+  id:
+    lutris: nhra-championship-drag-racing-speed-for-all
+  installDir:
+    NHRA Championship Drag Racing Speed For All: {}
+  launch:
+    "<base>/NHRA/Binaries/Win64/NHRA-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1681880
 NHRA Drag Racing:
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Tantrum Entertainment/NHRA Drag Racing/1.0:
@@ -483281,16 +483316,7 @@ NHRA Drag Racing Main Event:
       when:
         - os: windows
 "NHRA: Speed for All":
-  installDir:
-    NHRA Championship Drag Racing Speed For All: {}
-  launch:
-    "<base>/NHRA/Binaries/Win64/NHRA-Win64-Shipping.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1681880
+  alias: "NHRA Championship Drag Racing: Speed for All"
 NIGHT FALLEN:
   installDir:
     NIGHT FALLEN: {}

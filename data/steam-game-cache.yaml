@@ -638484,6 +638484,23 @@
   nameLocalized:
     japanese: トーエム2
     schinese: TOEM 2 摄影冒险2
+2902170:
+  cloud:
+    saves:
+      - path: MahouPrototype/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Kernel Hearts
+  launch:
+    - executable: KernelHearts.exe
+    - arguments: "-dx11"
+      description: DirectX11 (Use only if the game crashes)
+      executable: KernelHearts.exe
+  nameLocalized:
+    japanese: カーネル・ハーツ
+    koreana: 커널 하트
+    schinese: 内核之心
+    tchinese: 核桃心
 2903160:
   cloud:
     saves:
