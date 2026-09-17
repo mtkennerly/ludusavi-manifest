@@ -81333,6 +81333,14 @@ Exo One:
 Exo Racing:
   pageId: 123580
   steam: 875320
+Exo Rally Championship:
+  cloud:
+    steam: true
+  pageId: 220564
+  steam: 2262020
+  templates:
+    - "{{Game data/config|Windows|%localappdata%low\\Exbleative\\Exo Rally Championship\\SteamUsers\\}}"
+    - "{{Game data/saves|Windows|%localappdata%low\\Exbleative\\Exo Rally Championship\\SteamUsers\\}}"
 Exo TD:
   pageId: 94060
   steam: 856170
@@ -88301,10 +88309,15 @@ Fish Fillets 2:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles\\}}"
 Fish Lab:
+  cloud:
+    steam: true
   pageId: 219389
   steam: 4221990
   steamSide:
     - 4601570
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Fish Lab\\settings.bin}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Fish Lab\\save_game_*.bin}}"
 Fish Lake:
   pageId: 54814
   steam: 529610
@@ -215998,6 +216011,11 @@ Space Mechanic Simulator:
 Space Mega Force Man:
   pageId: 178327
   steam: 1232260
+Space Menace:
+  cloud:
+    steam: true
+  pageId: 220560
+  steam: 2000040
 "Space Mercenary Shooter : Episode 1":
   pageId: 140830
   steam: 1096630
@@ -238623,6 +238641,7 @@ The Dark Mod:
     - "{{Game data/config|Linux|{{p|game}}\\Darkmod.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\fms\\}}"
 The Dark Occult:
+  lutris: the-dark-occult
   pageId: 110098
   steam: 921780
   templates:

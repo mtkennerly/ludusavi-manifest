@@ -251410,6 +251410,25 @@ Exo Racing:
             store: steam
   steam:
     id: 875320
+Exo Rally Championship:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>low/Exbleative/Exo Rally Championship/SteamUsers":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Exo Rally Championship: {}
+  launch:
+    "<base>/Exo Rally Championship.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2262020
 Exo TD:
   installDir:
     Exo TD: {}
@@ -271469,6 +271488,19 @@ Fish Fillets 2:
   steam:
     id: 33950
 Fish Lab:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Fish Lab/save_game_*.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Fish Lab/settings.bin":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     steamExtra:
       - 4601570
@@ -662878,6 +662910,44 @@ Space Mega Force Man:
             store: steam
   steam:
     id: 1232260
+Space Menace:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Only4Gamers/Space Menace/*.json":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Only4Gamers/Space Menace/SaveFiles/*.json":
+      when:
+        - store: steam
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Only4Gamers/Space Menace/*.json":
+      when:
+        - store: steam
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Only4Gamers/Space Menace/SaveFiles/*.json":
+      when:
+        - store: steam
+        - os: mac
+          store: steam
+  installDir:
+    Space Menace: {}
+  launch:
+    "<base>/Space Menace.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Space Menace.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2000040
 "Space Mercenary Shooter : Episode 1":
   installDir:
     Space Mercenary Shooter  Episode 1: {}
@@ -733112,6 +733182,8 @@ The Dark Occult:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-dark-occult
   installDir:
     The Dark Occult: {}
   launch:

@@ -599596,6 +599596,43 @@
     koreana: 라이자의 아틀리에3 ~종극의 연금술사와 비밀의 열쇠~
     schinese: 莱莎的炼金工房３ ～终结之炼金术士与秘密钥匙～
     tchinese: 萊莎的鍊金工房３ ～終結之鍊金術士與秘密鑰匙～
+2000040:
+  cloud:
+    saves:
+      - path: Only4Gamers/Space Menace
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+      - path: Only4Gamers/Space Menace/SaveFiles
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+      - path: Only4Gamers/Space Menace/SaveFiles
+        pattern: "*.json"
+        root: MacAppSupport
+      - path: Only4Gamers/Space Menace
+        pattern: "*.json"
+        root: MacAppSupport
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: MacAppSupport
+        useInstead: WinAppDataLocalLow
+  installDir: Space Menace
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Space Menace.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Space Menace.app
+      type: default
 2000120:
   cloud:
     saves:
@@ -615049,6 +615086,20 @@
       type: default
   nameLocalized:
     schinese: "流明物语：特雷的回忆 "
+2262020:
+  cloud:
+    saves:
+      - path: "Exbleative/Exo Rally Championship/SteamUsers/{64BitSteamID}/SyncData"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Exo Rally Championship
+  launch:
+    - config:
+        oslist: windows
+      executable: Exo Rally Championship.exe
+  nameLocalized:
+    schinese: Exo Rally Championship 异星拉力锦标赛
 2262610:
   cloud:
     saves:

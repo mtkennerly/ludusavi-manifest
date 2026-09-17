@@ -9863,7 +9863,6 @@
 * [First Winter](https://www.pcgamingwiki.com/wiki/?curid=93140)
 * [FirstPlanet](https://www.pcgamingwiki.com/wiki/?curid=127536)
 * [Fish for Gold](https://www.pcgamingwiki.com/wiki/?curid=66173)
-* [Fish Lab](https://www.pcgamingwiki.com/wiki/?curid=219389)
 * [Fish Lake](https://www.pcgamingwiki.com/wiki/?curid=54814)
 * [Fish man avoiding fishing](https://www.pcgamingwiki.com/wiki/?curid=138986)
 * [Fish or Die](https://www.pcgamingwiki.com/wiki/?curid=46635)
