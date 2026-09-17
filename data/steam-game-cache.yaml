@@ -2098,11 +2098,12 @@
         root: gameinstall
   installDir: GarrysMod
   launch:
-    - arguments: "-steam -game garrysmod"
+    - arguments: "-steam"
       config:
         oslist: windows
       description: "Play Garry's Mod"
       executable: gmod.exe
+      type: default
     - arguments: "-steam -game garrysmod"
       config:
         oslist: macos
@@ -2117,22 +2118,21 @@
       config:
         betakey: x86-64
         oslist: windows
-      description: "Launch Garry's Mod (32-bit)"
+      description: "Play Garry's Mod (x86-64 beta, Legacy 32-bit version)"
       executable: bin/gmod.exe
-      type: none
     - arguments: "-steam -game garrysmod"
       config:
         betakey: x86-64
         osarch: "64"
         oslist: windows
-      description: "Launch Garry's Mod (64-bit)"
+      description: "Play Garry's Mod (x86-64 beta, 64-bit)"
       executable: bin/win64/gmod.exe
-      type: none
-    - config:
-        betakey: dev
+    - arguments: "-steam"
+      config:
+        betakey: "dev,prerelease,public"
         osarch: "64"
         oslist: windows
-      description: "Launch Garry's Mod (64-bit)"
+      description: "Play Garry's Mod (64-bit)"
       executable: gmod_win64.exe
 4100:
   installDir: Poker Superstars II
@@ -652940,7 +652940,7 @@
       executable: Blackwood.exe
       type: default
     - arguments: "-force-d3d12"
-      description: DX 12 Build
+      description: DX 12 Build (Not Always Stable)
       executable: Blackwood.exe
       type: option1
 3639650:
@@ -658305,6 +658305,38 @@
     schinese: "ROCKMAN: Dual Override"
     tchinese: "ROCKMAN: Dual Override"
 4225980:
+  cloud:
+    saves:
+      - path: Falcom/Trails in the Sky 2nd Chapter/savedata
+        pattern: "*"
+        recursive: true
+        root: WinSavedGames
+  installDir: Trails in the Sky 2nd Chapter
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Play Trails in the Sky 2nd Chapter
+      executable: sora_2nd.exe
+      type: default
+    - arguments: "-resume_latest"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Resume from the latest save data
+      executable: sora_2nd.exe
+    - arguments: "-reset_graphics"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Reset graphics and display settings before playing
+      executable: sora_2nd.exe
+    - config:
+        betakey: development_f_debug
+        osarch: "64"
+        oslist: windows
+      description: Application contains english development messages.
+      executable: sora_2nd_en.exe
   nameLocalized:
     japanese: 空の軌跡 the 2nd
     koreana: 하늘의 궤적 the 2nd
@@ -658323,6 +658355,9 @@
       type: default
 4234320: {}
 4241920:
+  installDir: AviaoPre4
+  launch:
+    - executable: AVIAO4.exe
   nameLocalized:
     brazilian: "AVIÃOZINHO DO TRÁFICO PRÉ 4: SOBRARAM DEMONIOS DO PORTAL PRO INFERNO NA FAVELA QUE ABRI E AGORA TENHO QUE SALVAR OS MAMADAS DO RONALDO"
     portuguese: "AVIÃOZINHO DO TRÁFICO PRÉ 4: SOBRARAM DEMONIOS DO PORTAL PRO INFERNO NA FAVELA QUE ABRI E AGORA TENHO QUE SALVAR OS MAMADAS DO RONALDO"

@@ -196510,6 +196510,7 @@ Romancing Monarchy:
   steam: 890940
 Romancing SaGa 2:
   cloud:
+    gog: true
     steam: true
     xbox: true
   pageId: 77807
@@ -197865,6 +197866,7 @@ RuneScape:
     - "{{Game data/config|Windows|{{p|programdata}}\\jagex\\runescape\\globalsettings.jcache|{{p|localappdata}}\\jagex\\runescape\\settings.jcache}}"
 "RuneScape: Dragonwilds":
   cloud:
+    epic: true
     steam: true
     xbox: true
   lutris: runescape-dragonwilds
@@ -257833,6 +257835,9 @@ Trails in the Sky 2nd Chapter:
     steam: true
   pageId: 218768
   steam: 4225980
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\FALCOM\\Trails in the Sky 2nd Chapter\\setting.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\FALCOM\\Trails in the Sky 2nd Chapter\\savedata\\}}"
 Trails of the Black Sun:
   pageId: 150537
   steam: 1152940
