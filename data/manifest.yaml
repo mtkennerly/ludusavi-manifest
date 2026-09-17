@@ -57524,6 +57524,8 @@ Atomic Heart:
   steam:
     id: 668580
 Atomic Heart 2:
+  id:
+    lutris: atomic-heart-ii
   steam:
     id: 3788800
 Atomic Heist:
@@ -415500,6 +415502,11 @@ Light It:
             store: steam
   steam:
     id: 591640
+Light No Fire:
+  id:
+    lutris: light-no-fire
+  steam:
+    id: 2719590
 Light Of Gallery:
   steam:
     id: 1017540

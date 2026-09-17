@@ -534597,8 +534597,7 @@
 1238040:
   installDir: Dragon Age II
   launch:
-    - executable: "link2ea://launchgame/1238040?platform=steam&theme=daII"
-      type: none
+    - executable: "steam2ea://launchgame/1238040?platform=steam&theme=daII"
   nameLocalized:
     french: "Dragon Age II : Édition Ultimate"
     italian: "Dragon Age II: Edizione Ultimate"
@@ -633778,6 +633777,10 @@
       executable: SamuraiWarriors4DX.exe
   nameLocalized:
     japanese: 戦国無双４ DX
+2719590:
+  nameLocalized:
+    schinese: Light No Fire 无火之光
+    tchinese: Light No Fire 無火之光
 2719750:
   cloud:
     saves:

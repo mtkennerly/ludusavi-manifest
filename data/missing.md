@@ -15415,6 +15415,7 @@
 * [Light Hunters: Battalion of Darkness](https://www.pcgamingwiki.com/wiki/?curid=149929)
 * [Light in the Dark (D1ONE)](https://www.pcgamingwiki.com/wiki/?curid=79119)
 * [Light It](https://www.pcgamingwiki.com/wiki/?curid=59631)
+* [Light No Fire](https://www.pcgamingwiki.com/wiki/?curid=220576)
 * [Light Of Gallery](https://www.pcgamingwiki.com/wiki/?curid=130331)
 * [Light of Mine](https://www.pcgamingwiki.com/wiki/?curid=74191)
 * [Light of the Locked World](https://www.pcgamingwiki.com/wiki/?curid=139769)

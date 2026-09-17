@@ -18590,6 +18590,7 @@ Atomic Heart:
 Atomic Heart 2:
   cloud:
     xbox: true
+  lutris: atomic-heart-ii
   pageId: 205176
   steam: 3788800
 Atomic Heist:
@@ -135154,6 +135155,10 @@ Light It:
     steam: true
   pageId: 59631
   steam: 591640
+Light No Fire:
+  lutris: light-no-fire
+  pageId: 220576
+  steam: 2719590
 Light Of Gallery:
   pageId: 130331
   steam: 1017540
