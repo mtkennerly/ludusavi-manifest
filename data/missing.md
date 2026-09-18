@@ -2481,6 +2481,7 @@
 * [Barbie Beauty Boutique](https://www.pcgamingwiki.com/wiki/?curid=170650)
 * [Barbie Explorer](https://www.pcgamingwiki.com/wiki/?curid=170618)
 * [Barbie Fashion Designer](https://www.pcgamingwiki.com/wiki/?curid=170638)
+* [Barbie Fashion Show](https://www.pcgamingwiki.com/wiki/?curid=220600)
 * [Barbie Horse Adventures: Mystery Ride](https://www.pcgamingwiki.com/wiki/?curid=191496)
 * [Barbie Pet Rescue](https://www.pcgamingwiki.com/wiki/?curid=170646)
 * [Barbie Rewind](https://www.pcgamingwiki.com/wiki/?curid=217413)

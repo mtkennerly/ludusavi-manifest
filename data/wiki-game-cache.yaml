@@ -22235,6 +22235,8 @@ Barbie Explorer:
 Barbie Fashion Designer:
   lutris: barbie-fashion-designer
   pageId: 170638
+Barbie Fashion Show:
+  pageId: 220600
 "Barbie Fashion Show: An Eye for Style":
   pageId: 215776
   templates:
@@ -135582,6 +135584,7 @@ Limbo:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Limbo/}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/PlayDead/Limbo/}}"
     - "{{Game data/saves|Windows|{{p|game}}|{{p|game}}\\save_game\\savegame.txt<!--GOG.com-->}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\16902PlaydeadAPS.PlaydeadsLIMBO_2m6wzp0cmt084\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Limbo/}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/PlayDead/Limbo/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/48000/remote/}}"
@@ -248984,6 +248987,7 @@ The Storytale:
   cloud:
     steam: true
     xbox: true
+  lutris: the-strange-story-of-brian-fisher-chapter-1
   pageId: 154168
   steam: 1165840
 "The Strange Story Of Brian Fisher: Chapter 2":
@@ -250123,12 +250127,16 @@ The Vanishing of Ethan Carter:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\The Vanishing of Ethan Carter\\AstronautsGame\\SaveData\\SaveGame_0.sav}}"
 The Vanishing of Ethan Carter Redux:
   cloud:
+    epic: true
     steam: true
-  gog: 1207665373
+  gog: 1442218265
   gogSide:
     - 1207665543
+  lutris: the-vanishing-of-ethan-carter-redux
   pageId: 28603
   steam: 400430
+  steamSide:
+    - 319930
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\EthanCarter\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\The Vanishing of Ethan Carter Redux\\SavedGames\\}}"

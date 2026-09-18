@@ -416816,6 +416816,12 @@ Limbo:
         - save
       when:
         - store: steam
+    "<winLocalAppData>/Packages/16902PlaydeadAPS.PlaydeadsLIMBO_2m6wzp0cmt084/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<xdgData>/PlayDead/Limbo":
       tags:
         - config
@@ -764248,6 +764254,8 @@ The Storytale:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: the-strange-story-of-brian-fisher-chapter-1
   installDir:
     The Strange Story Of Brian Fisher Chapter 1: {}
   launch:
@@ -767538,6 +767546,7 @@ The Vanishing of Ethan Carter:
     id: 258520
 The Vanishing of Ethan Carter Redux:
   cloud:
+    epic: true
     steam: true
   files:
     "<winDocuments>/My Games/The Vanishing of Ethan Carter Redux/SavedGames":
@@ -767551,10 +767560,13 @@ The Vanishing of Ethan Carter Redux:
       when:
         - os: windows
   gog:
-    id: 1207665373
+    id: 1442218265
   id:
     gogExtra:
       - 1207665543
+    lutris: the-vanishing-of-ethan-carter-redux
+    steamExtra:
+      - 319930
   installDir:
     The Vanishing of Ethan Carter Redux: {}
   launch:
