@@ -256205,11 +256205,6 @@ Factorio:
           - bit: 32
             os: windows
             store: steam
-    "<base>/bin/i386/factorio":
-      - when:
-          - bit: 32
-            os: linux
-            store: steam
     "<base>/bin/x64/Factorio.exe":
       - when:
           - bit: 64
@@ -850019,6 +850014,10 @@ WizzBall:
   steam:
     id: 629780
 "Wo Long 2: Wings of Ember":
+  id:
+    lutris: wo-long-2-wings-of-ember
+    steamExtra:
+      - 4818230
   steam:
     id: 4507990
 "Wo Long: Fallen Dynasty":

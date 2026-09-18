@@ -141297,11 +141297,6 @@
       executable: bin/x64/factorio
       type: default
     - config:
-        osarch: "32"
-        oslist: linux
-      executable: bin/i386/factorio
-      type: default
-    - config:
         oslist: macos
       executable: factorio.app
       type: default
