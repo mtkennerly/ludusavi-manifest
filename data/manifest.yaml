@@ -64208,6 +64208,11 @@ Babylonia:
             store: steam
   steam:
     id: 1119890
+Babylonian Twins:
+  cloud:
+    steam: true
+  steam:
+    id: 4981370
 Bacchus:
   steam:
     id: 1134510
@@ -648075,6 +648080,13 @@ Sleigh Runner:
 Sleight:
   steam:
     id: 545360
+Sleight of Hand:
+  cloud:
+    steam: true
+  id:
+    lutris: sleight-of-hand
+  steam:
+    id: 2857810
 Slender Hentai Edition:
   installDir:
     Slender Hentai Edition: {}

@@ -20631,6 +20631,11 @@ Babylon 2055 Pinball:
 Babylonia:
   pageId: 141622
   steam: 1119890
+Babylonian Twins:
+  cloud:
+    steam: true
+  pageId: 220588
+  steam: 4981370
 Bacchus:
   pageId: 144999
   steam: 1134510
@@ -38802,6 +38807,8 @@ Carmen Sandiego Returns:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\MOHAWK.W32}}"
     - "{{Game data/saves|Windows|{{p|game}}\\ACME Support\\Group}}"
+Carnage:
+  pageId: 220590
 Carnage Battle Arena:
   cloud:
     steam: true
@@ -211272,6 +211279,12 @@ Sleigh Runner:
 Sleight:
   pageId: 52314
   steam: 545360
+Sleight of Hand:
+  cloud:
+    steam: true
+  lutris: sleight-of-hand
+  pageId: 220592
+  steam: 2857810
 Slender Hentai Edition:
   pageId: 178510
   steam: 1501570
