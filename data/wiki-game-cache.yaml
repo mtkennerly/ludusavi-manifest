@@ -22276,6 +22276,8 @@ Barbie and the Three Musketeers:
 Barbie as the Island Princess:
   lutris: barbie-as-the-island-princess
   pageId: 198140
+Barbie as the Princess and the Pauper:
+  pageId: 220586
 Barbie in the 12 Dancing Princesses:
   lutris: barbie-in-the-12-dancing-princesses--1
   pageId: 197321
@@ -30095,6 +30097,9 @@ Blood Money (1989):
 Blood Moon:
   pageId: 132631
   steam: 1023030
+"Blood Moon Serenade: Complete Edition":
+  pageId: 220583
+  steam: 4673270
 "Blood Moon: The Last Stand":
   pageId: 89415
   steam: 806480
@@ -177331,6 +177336,8 @@ Planet of Lana II:
 Planet of Mubu:
   pageId: 60097
   steam: 602170
+Planet of the Apes:
+  pageId: 87863
 "Planet of the Apes: Last Frontier":
   pageId: 100486
   steam: 789910
@@ -208773,6 +208780,7 @@ Silent Hunter:
     - "{{Game data/config|Windows| {{p|userprofile\\Documents}}\\SH4\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SH4\\}}"
 "Silent Hunter 5: Battle of the Atlantic":
+  lutris: silent-hunter-5-battle-of-the-atlantic
   pageId: 41163
   steam: 48110
   templates:
@@ -208780,6 +208788,7 @@ Silent Hunter:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SH5\\data\\cfg\\SaveGames}}"
 Silent Hunter II:
   gog: 1207658770
+  lutris: silent-hunter-2
   malformed: true
   pageId: 21224
   renamedFrom:
@@ -222900,6 +222909,8 @@ Steins;Gate Octet of Shifting Space:
     - Steins;Gate Octet of Shifting Space
     - "Steins;Gate: Variant Space Octet"
 "Steins;Gate Re:Boot":
+  cloud:
+    steam: true
   pageId: 207724
   renamedFrom:
     - "STEINS;GATE RE:BOOT"
@@ -254807,6 +254818,7 @@ Tom & Jerry:
 "Tom Clancy's Rainbow Six Extraction":
   cloud:
     uplay: true
+  lutris: tom-clancys-rainbow-six-extraction
   pageId: 138439
   renamedFrom:
     - "Tom Clancy's Rainbow Six Quarantine"

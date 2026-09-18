@@ -92706,6 +92706,19 @@ Blood Moon:
             store: steam
   steam:
     id: 1023030
+"Blood Moon Serenade: Complete Edition":
+  files:
+    "<base>/BloodMoonSerenade/saves/*.json":
+      when:
+        - store: steam
+  installDir:
+    Blood Moon Calling Complete Edition: {}
+  launch:
+    "<base>/blood-moon-serenade.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4673270
 "Blood Moon: The Last Stand":
   installDir:
     Bloodmoon The Last Stand: {}
@@ -640250,6 +640263,8 @@ Silent Hunter 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: silent-hunter-5-battle-of-the-atlantic
   installDir:
     Silent Hunter 5: {}
   launch:
@@ -640273,6 +640288,8 @@ Silent Hunter II:
         - os: windows
   gog:
     id: 1207658770
+  id:
+    lutris: silent-hunter-2
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Ultimation/SilentHunterII:
       tags:
@@ -683990,12 +684007,18 @@ Steins;Gate Elite:
   steam:
     id: 819030
 "Steins;Gate Re:Boot":
+  cloud:
+    steam: true
   files:
     "<winDocuments>/My Games/mages_steam/STEINS;GATE REBOOT/<storeUserId>/*.bin":
       when:
         - os: windows
           store: steam
     "<winDocuments>/My Games/mages_steam/STEINS;GATE REBOOT/<storeUserId>/*.txt":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/My Games/mages_steam/STEINS;GATE REBOOT/<storeUserId>/SG_Octet":
       when:
         - os: windows
           store: steam
@@ -782166,6 +782189,8 @@ Toltec and the mysteries of the Secret Island:
         - config
       when:
         - os: windows
+  id:
+    lutris: tom-clancys-rainbow-six-extraction
   installDir:
     Tom Clancy’s Rainbow Six Extraction: {}
   launch:
