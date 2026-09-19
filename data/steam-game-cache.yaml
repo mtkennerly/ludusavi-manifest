@@ -637198,6 +637198,24 @@
       executable: afop.exe
 2841600: {}
 2841650:
+  cloud:
+    saves:
+      - path: Denki Ltd/Sniper Dan
+        pattern: Progress.txt
+        root: WinAppDataLocalLow
+      - path: Denki Ltd/Sniper Dan/Photos
+        pattern: "*.jpg"
+        root: WinAppDataLocalLow
+      - path: Denki Ltd/Sniper Dan
+        pattern: Continue.txt
+        root: WinAppDataLocalLow
+  installDir: Sniper Dan
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Sniper Dan.exe
+      type: default
   nameLocalized:
     japanese: スナイパー・ダン：ワンショットの何でも屋
     koreana: 스나이퍼댄
@@ -643920,7 +643938,19 @@
     koreana: 노움들
     schinese: 矮人防线
     tchinese: 矮人防線
-3133670: {}
+3133670:
+  installDir: Hunter The Reckoning — Day For Night
+  launch:
+    - config:
+        oslist: windows
+      executable: DayForNight.exe
+    - config:
+        oslist: macos
+      executable: Hunter The Reckoning Day For Night.app/Contents/MacOS/Hunter The Reckoning Day For Night
+    - arguments: "--no-sandbox"
+      config:
+        oslist: linux
+      executable: DayForNight
 3134780:
   cloud:
     saves:
@@ -645602,6 +645632,9 @@
     russian: "Плач неприкаянных лебедей: Десять дней после падения города"
     schinese: 哀鸿：城破十日记
     tchinese: 哀鴻：城破十日記
+3222640:
+  nameLocalized:
+    schinese: 西部拓荒纪
 3222830:
   installDir: Project Gabby
   launch:
@@ -648895,7 +648928,34 @@
         osarch: "64"
         oslist: windows
       executable: Castle of Heart Retold.exe
-3387160: {}
+3387160:
+  cloud:
+    saves:
+      - path: United Heist- Facility Zero
+        pattern: "*.tres"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: ".local/share/\"United Heist- Facility Zero\""
+        pattern: "*.tres"
+        platforms:
+          - Linux
+        root: LinuxHome
+  installDir: United Heist Facility Zero
+  launch:
+    - arguments: "--rendering-driver d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: UnitedHeistFacilityZero.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: UnitedHeistFacilityZero.x86_64
+    - config:
+        oslist: windows
+      description: Start as Vulkan
+      executable: UnitedHeistFacilityZero.exe
 3388530:
   installDir: Banana Massacre
   launch:
@@ -648927,6 +648987,7 @@
     koreana: 괴수 8호 THE GAME
     schinese: 怪兽 8号 THE GAME
     tchinese: 怪獸 8號 THE GAME
+3393110: {}
 3393280:
   cloud:
     saves:
@@ -649583,6 +649644,7 @@
         osarch: "64"
         oslist: linux
       executable: "That's not my neighbor (Steam).x86_64"
+3431300: {}
 3432750:
   installDir: Laundering Simulator
   launch:
@@ -650084,6 +650146,15 @@
     turkish: "Star Trek: Bilinmeyen Üsler"
     ukrainian: "Star Trek: Незвідані аванпости"
 3470930:
+  cloud:
+    saves:
+      - path: Casual Brothers/The Grinch 2 Saving Christmas
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: The Grinch 2 Saving Christmas
+  launch:
+    - executable: The Grinch 2 Saving Christmas.exe
   nameLocalized:
     brazilian: "O Grinch 2: Salvando o Natal "
     french: "Le Grinch 2 : À la rescousse de Noël"
@@ -654546,7 +654617,12 @@
     - config:
         oslist: windows
       executable: fluff.exe
-3777850: {}
+3777850:
+  installDir: The Walking Dead Streets of Survival
+  launch:
+    - config:
+        oslist: windows
+      executable: TWD.exe
 3779190:
   installDir: The Puppy
   launch:
@@ -655965,6 +656041,21 @@
       type: default
 3918930: {}
 3919810: {}
+3920160:
+  installDir: SEXNATURAL MILFs Must Be Filled 😈💦
+  launch:
+    - config:
+        oslist: windows
+      executable: SEXNATURAL MILFs Must Be Filled.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: SEXNATURAL MILFs Must Be Filled.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: SEXNATURAL MILFs Must Be Filled.app
+      type: default
 3920610:
   cloud:
     saves:

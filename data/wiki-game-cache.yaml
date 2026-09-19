@@ -2945,7 +2945,12 @@ A Grim Tale of Vices:
   steam: 987140
 A Guidebook of Babel:
   cloud:
+    gog: true
     steam: true
+  gog: 1757334912
+  gogSide:
+    - 1270706807
+    - 1948186806
   pageId: 195711
   steam: 1467920
   templates:
@@ -4649,6 +4654,8 @@ AR-K:
 "AR-K: The Great Escape":
   pageId: 37219
   steam: 368890
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Gato Salvaje\\ArkIII}}"
 ARC:
   pageId: 144459
   steam: 1124550
@@ -8425,6 +8432,13 @@ Aion:
     - 29650
     - 29660
     - 29670
+Aion 2:
+  lutris: aion-2
+  pageId: 220640
+  steam: 3393110
+  steamSide:
+    - 4972180
+    - 4972320
 Air:
   pageId: 150026
   steam: 1144520
@@ -12431,6 +12445,9 @@ Ancients of Ooga:
 And All Would Cry Beware!:
   pageId: 135553
   steam: 1071510
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Renegade Sector Games\\AndAllWouldCryBeware\\CaptainMcCalleryOptions.sav}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Renegade Sector Games\\AndAllWouldCryBeware\\AndAllWouldCryBeware*.sav}}"
 And I Must Scream:
   pageId: 129775
   steam: 1022180
@@ -12828,6 +12845,8 @@ Angvik:
 Aniimo:
   pageId: 220546
   steam: 4126040
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Aniimo\\Aniimo}}"
 AnimVR:
   pageId: 93281
   steam: 508690
@@ -22295,6 +22314,8 @@ Barbie in the 12 Dancing Princesses:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Mattel\\Barbie (TM)\\Barbie (TM) In The 12 Dancing Princesses}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save Games\\}}"
+"Barbie of Swan Lake: The Enchanted Forest":
+  pageId: 220638
 "Barbie: Project Friendship":
   cloud:
     epic: true
@@ -47994,8 +48015,8 @@ Conan Exiles:
   pageId: 33428
   steam: 440900
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\ConanSandbox\\Saved\\Config\\WindowsNoEditor\\|{{p|game}}\\ConanSandbox\\Config\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\ConanSandbox\\Saved\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\ConanSandbox\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\ConanSandbox\\Saved\\*.db}}"
 Conan Unconquered:
   cloud:
     steam: true
@@ -59577,11 +59598,12 @@ Dear Esther:
   cloud:
     steam: true
   gog: 1305464490
+  lutris: dear-esther-landmark-edition
   pageId: 57929
   steam: 520720
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\The Chinese Room & Robert Briscoe @ LittleLostPoly.co.uk\\DearEsther\\PlayerPrefs.txt<ref>{{Refcheck|user=Taylor.mabby654|date=2024-10-01|}}</ref>}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\The Chinese Room & Robert Briscoe @ LittleLostPoly.co.uk\\DearEsther\\PlayerPrefs.txt<ref>{{Refcheck|user=Taylor.mabby654|date=2024-10-01|}}</ref>}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\The Chinese Room & Robert Briscoe @ LittleLostPoly.co.uk\\DearEsther\\PlayerPrefs.txt<ref>{{Refcheck|user=Taylor.mabby654|date=2024-10-01|}}</ref>}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\The Chinese Room & Robert Briscoe @ LittleLostPoly.co.uk\\DearEsther\\PlayerPrefs.txt<ref>{{Refcheck|user=Taylor.mabby654|date=2024-10-01|}}</ref>}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\520720\\remote\\playerprefs.dat}}"
 Dear Leader:
   pageId: 90590
@@ -72492,6 +72514,7 @@ Dungeons of Hinterberg:
   pageId: 196398
   steam: 1983260
   templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Microbird\\Dungeons of Hinterberg\\Steam\\UserSettings.hbsettings|{{p|hkcu}}\\Software\\\\Microbird\\Dungeons of Hinterberg\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Microbird\\Dungeons of Hinterberg\\Steam\\1983260\\{{p|uid}}\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\CurveDigital.DungeonsOfHinterberg_1ezqdnbhnc70m\\SystemAppData\\wgs\\}}"
 Dungeons of Kragmor:
@@ -95194,6 +95217,8 @@ Galactic Tree Frog:
 Galactic Vanguard:
   pageId: 209303
   steam: 3308800
+Galactic Warrior Rats:
+  pageId: 220636
 Galacticare:
   cloud:
     steam: true
@@ -115241,6 +115266,7 @@ Hunter of Antiques:
 "Hunter: The Reckoning - Day for Night":
   cloud:
     steam: true
+  lutris: hunter-the-reckoning-day-for-night--1
   pageId: 214967
   steam: 3133670
 "Hunter: The Reckoning - Deathwish":
@@ -204781,6 +204807,9 @@ Sexbot Quality Assurance Simulator:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\SexBotQA_Assets\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\SexBotQA_Assets\\Saved\\SaveGames\\}}"
+"Sexnatural: MILFs Must Be Filled":
+  pageId: 220629
+  steam: 3920160
 Sextris Effect:
   pageId: 138555
   steam: 1088130
@@ -211708,6 +211737,13 @@ Slow Damage:
 "Slow Down, Bull":
   pageId: 48168
   steam: 333580
+Slow Roads:
+  cloud:
+    steam: true
+  pageId: 220631
+  steam: 3431300
+  steamSide:
+    - 4551650
 Slow.Bullet VR:
   pageId: 132544
   steam: 1047910
@@ -213531,6 +213567,7 @@ Soldiers of the Universe:
   steam: 640050
 "Soldiers: Heroes of World War II":
   gog: 1207658664
+  lutris: soldiers-heroes-of-world-war-ii
   pageId: 3707
   steam: 11480
   templates:
@@ -250327,11 +250364,14 @@ The Walking Dead Onslaught:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\The Walking Dead Season Two\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/The Walking Dead - Season Two/}}"
 "The Walking Dead: Streets of Survival":
+  cloud:
+    xbox: true
   lutris: the-walking-dead-streets-of-survival--1
   pageId: 217683
   steam: 3777850
   steamSide:
     - 4718570
+    - 4857030
 "The Walking Dead: Survival Instinct":
   cloud:
     steam: true
@@ -276641,6 +276681,14 @@ Wild West Dynasty:
 Wild West Online:
   pageId: 93619
   steam: 743860
+Wild West Pioneers:
+  cloud:
+    steam: true
+  pageId: 220633
+  steam: 3222640
+  steamSide:
+    - 3700780
+    - 4102220
 "Wild West Saga:Idle Tycoon":
   pageId: 93684
   steam: 842150
