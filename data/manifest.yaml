@@ -14830,6 +14830,11 @@ AR-K:
         - save
       when:
         - os: windows
+    "<home>/AppData/LocalLow/Gato_Salvaje/ark2/datos.txt":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 351070
@@ -14854,6 +14859,13 @@ AR-K:
           - bit: 64
             os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Gato_Salvaje/ark1:
+      tags:
+        - config
+    HKEY_CURRENT_USER/Software/Gato_Salvaje/ark2:
+      tags:
+        - config
   steam:
     id: 269890
 "AR-K: End Game":

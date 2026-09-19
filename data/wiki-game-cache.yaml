@@ -4647,7 +4647,8 @@ AR-K:
   steamSide:
     - 351070
   templates:
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Gato_Salvaje\\ark1\\datos.txt}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Gato_Salvaje\\ark1|{{p|hkcu}}\\Software\\Gato_Salvaje\\ark2}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Gato_Salvaje\\ark1\\datos.txt|{{P|userprofile}}\\AppData\\LocalLow\\Gato_Salvaje\\ark2\\datos.txt}}"
 "AR-K: End Game":
   pageId: 122654
   steam: 958910
