@@ -478864,6 +478864,18 @@ My Safe House:
             store: steam
   steam:
     id: 805980
+My Scene Goes Hollywood:
+  files:
+    "<base>/MySceneHW.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/launch.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 My Secret Pets!:
   installDir:
     My Secret Pets!: {}

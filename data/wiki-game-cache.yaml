@@ -156058,6 +156058,10 @@ My Russian Trip:
 My Safe House:
   pageId: 92099
   steam: 805980
+My Scene Goes Hollywood:
+  pageId: 220651
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\launch.ini|{{p|game}}\\MySceneHW.ini}}"
 My Secret Pets!:
   pageId: 43097
   steam: 447180
