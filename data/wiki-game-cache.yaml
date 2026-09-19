@@ -22304,6 +22304,8 @@ Barbie and the Three Musketeers:
   pageId: 158717
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Barbie3M\\savedata.dat}}"
+"Barbie as Rapunzel: A Creative Adventure":
+  pageId: 220660
 Barbie as the Island Princess:
   lutris: barbie-as-the-island-princess
   pageId: 198140
@@ -88466,6 +88468,19 @@ Fishing Planet:
 Fishing Simulator:
   pageId: 112148
   steam: 904410
+Fishing Star World Tour:
+  cloud:
+    steam: true
+  lutris: fishing-star-world-tour
+  pageId: 220661
+  steam: 4350360
+  templates:
+    - "{{Game data/config|Windows| {{Path|hkcu}}\\fws\\fishingstarworldtour\\ }}"
+    - "{{Game data/config|OS X| }}"
+    - "{{Game data/config|Linux| }}"
+    - "{{Game data/saves|Windows| {{Path|userprofile\\appdata\\locallow}}\\fws\\fishingstarworldtour\\save\\ }}"
+    - "{{Game data/saves|OS X| }}"
+    - "{{Game data/saves|Linux| }}"
 Fishing on the Fly:
   pageId: 64892
   steam: 660560
@@ -156058,6 +156073,8 @@ My Russian Trip:
 My Safe House:
   pageId: 92099
   steam: 805980
+My Scene:
+  pageId: 220658
 My Scene Goes Hollywood:
   pageId: 220651
   templates:
@@ -206466,6 +206483,8 @@ Shellshock:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\SHELLSHOCK_NAM67\\Input_PC.ini|{{p|userprofile\\Documents}}\\SHELLSHOCK_NAM67\\TOD_PC.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SHELLSHOCK_NAM67\\profile{{p|uid}}\\}}"
+Shelly Club:
+  pageId: 220666
 Shelter:
   gog: 1207659503
   pageId: 9537
@@ -246253,6 +246272,7 @@ The Painscreek Killings:
   steam: 624270
   steamSide:
     - 1172960
+    - 4371030
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\EQ Studios\\The Painscreek Killings|{{P|userprofile\\appdata\\locallow}}\\EQ Studios\\The Painscreek Killings\\SaveData\\saveOptionData.txt}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\EQ Studios\\The Painscreek Killings\\SaveData\\saveData.txt}}"

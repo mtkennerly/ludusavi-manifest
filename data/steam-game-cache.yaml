@@ -653930,7 +653930,9 @@
   installDir: Wrack Remake
   launch:
     - executable: Wrack.exe
-3710600: {}
+3710600:
+  nameLocalized:
+    schinese: "Warhammer 40,000: 黑暗异端"
 3710840:
   cloud:
     saves:
@@ -658981,6 +658983,40 @@
     japanese: "太古の神:哪吒"
     schinese: "古神:风里希"
     tchinese: "古神:風裡希"
+4350360:
+  cloud:
+    saves:
+      - path: "fws/fishingstarworldtour/save/{64BitSteamID}"
+        pattern: SaveData
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: unity3d/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: FishingStarWorldTour
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: fishingstarworldtour.exe
+    - config:
+        oslist: macos
+      executable: fishingstar.app
+    - config:
+        oslist: linux
+      executable: fishingstar.x86_64
+  nameLocalized:
+    english: Fishing Star World Tour
+    japanese: 釣りスタ ワールドツアー
+    schinese: Fishing Star World Tour
+    tchinese: Fishing Star World Tour
 4352730:
   cloud:
     saves:

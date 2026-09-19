@@ -271871,6 +271871,39 @@ Fishing Planet:
 Fishing Simulator:
   steam:
     id: 904410
+Fishing Star World Tour:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/fws/fishingstarworldtour/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: fishing-star-world-tour
+  installDir:
+    FishingStarWorldTour: {}
+  launch:
+    "<base>/fishingstar.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/fishingstar.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/fishingstarworldtour.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/fws/fishingstarworldtour:
+      tags:
+        - config
+  steam:
+    id: 4350360
 Fishing on the Fly:
   files:
     "<base>/SavedKismetVariables/*.bin":
@@ -756088,6 +756121,7 @@ The Painscreek Killings:
     lutris: the-painscreek-killings
     steamExtra:
       - 1172960
+      - 4371030
   installDir:
     The Painscreek Killings: {}
   launch:
