@@ -374034,18 +374034,25 @@ Iron Tides:
   installDir:
     Iron Warriors: {}
   launch:
-    "<base>/Docs/IW Manual.pdf":
-      - when:
-          - store: steam
-    "<base>/Iron Warrior Quick Start.pdf":
-      - when:
-          - store: steam
     "<base>/builded.bat":
       - when:
-          - store: steam
-    "<base>/start.bat":
+          - os: windows
+            store: steam
+    "<base>/cfg.bat":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/core.bat":
       - when:
           - store: steam
+    "<base>/missed.bat":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/start.bat":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1670
 Iron Wings:

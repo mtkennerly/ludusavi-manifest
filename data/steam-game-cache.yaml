@@ -875,13 +875,26 @@
 1670:
   installDir: Iron Warriors
   launch:
-    - executable: start.bat
-    - description: Launch Iron Warriors Editor
+    - config:
+        oslist: windows
+      executable: start.bat
+    - config:
+        oslist: windows
+      description: Launch Buildings Editor
       executable: builded.bat
-    - description: View Iron Warriors Quickstart
-      executable: Iron Warrior Quick Start.pdf
-    - description: View Iron Warriors Manual (Recommended)
-      executable: "Docs\\IW Manual.pdf"
+    - config:
+        oslist: windows
+      description: Launch Mission Editor
+      executable: missed.bat
+    - config:
+        oslist: windows
+      description: Configure settings
+      executable: cfg.bat
+    - description: Launch program editor (for advanced users)
+      executable: core.bat
+  nameLocalized:
+    polish: "T-72: Bałkany w ogniu!"
+    russian: "Т-72: Балканы в огне"
 1690:
   installDir: SpaceEmpiresV
   launch:
