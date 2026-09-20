@@ -11841,6 +11841,12 @@ Amira:
 "Amiss 13: The Curse":
   pageId: 72090
   steam: 684830
+Amju Pet Zoo:
+  pageId: 220718
+Amju Super Cool Pool:
+  pageId: 220716
+Amju Super Golf:
+  pageId: 220717
 "Ammo Pigs: Armed and Delicious":
   pageId: 108080
   steam: 877480
@@ -14802,6 +14808,9 @@ Arcade USA:
 Arcadecraft:
   pageId: 50218
   steam: 297330
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\Arcadecraft Save 1_0\\Player1\\Options.txt|{{p|hkcu}}\\Software\\Firebase\\Arcadecraft}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\Arcadecraft Save 1_0\\Player1\\ArcadeGame.txt|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\Arcadecraft Save 1_0\\Player1\\Milestones.txt|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\Arcadecraft Save 1_0\\Player1\\Scores.txt}}"
 Arcadegeddon:
   cloud:
     epic: true
@@ -139352,6 +139361,11 @@ Ludus:
 Ludwig:
   pageId: 50131
   steam: 263120
+"Lufia I & II: The Sinistrals Saga":
+  cloud:
+    steam: true
+  pageId: 220712
+  steam: 4027620
 Luftrausers:
   cloud:
     steam: true
@@ -194056,6 +194070,7 @@ Rising Islands:
   templates:
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Lone Hero Studios\\Rising Islands}}"
 Rising Kingdoms:
+  lutris: rising-kingdoms
   pageId: 141292
   steam: 827050
 Rising Lands:
@@ -268320,6 +268335,20 @@ Vengeance of Mr. Peppermint:
 Vengeful Bat Dungeon Crawler:
   pageId: 132194
   steam: 1054620
+"Vengeful Guardian: Moonrider":
+  cloud:
+    steam: true
+  gog: 1626572092
+  gogSide:
+    - 2058799215
+  pageId: 185829
+  steam: 1942010
+  steamSide:
+    - 2118480
+    - 2216530
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\vengeful-guardian-moonrider}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\vengeful-guardian-moonrider}}"
 Vengeful Heart:
   pageId: 139597
   steam: 1101310
@@ -269675,6 +269704,8 @@ Virtue and a Sledgehammer:
   lutris: virtue-and-a-sledgehammer
   pageId: 217475
   steam: 3743260
+  steamSide:
+    - 3743280
 Virtuelle Moorhuhn Jagd:
   pageId: 196682
   templates:
@@ -277621,6 +277652,8 @@ Winter Novel:
     - 487130
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\*.bin}}"
+Winter Olympic Games:
+  pageId: 220722
 Winter Polaris:
   pageId: 153398
   steam: 1150550

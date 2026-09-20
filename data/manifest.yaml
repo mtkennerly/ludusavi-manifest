@@ -46088,6 +46088,27 @@ Arcade USA:
       when:
         - os: windows
 Arcadecraft:
+  files:
+    "<winDocuments>/SavedGames/Arcadecraft/Arcadecraft Save 1_0/Player1/ArcadeGame.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/SavedGames/Arcadecraft/Arcadecraft Save 1_0/Player1/Milestones.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/SavedGames/Arcadecraft/Arcadecraft Save 1_0/Player1/Options.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/SavedGames/Arcadecraft/Arcadecraft Save 1_0/Player1/Scores.txt":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Arcadecraft: {}
   launch:
@@ -46095,6 +46116,10 @@ Arcadecraft:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Firebase/Arcadecraft:
+      tags:
+        - config
   steam:
     id: 297330
 Arcadegeddon:
@@ -428353,6 +428378,11 @@ Ludwig:
             store: steam
   steam:
     id: 263120
+"Lufia I & II: The Sinistrals Saga":
+  cloud:
+    steam: true
+  steam:
+    id: 4027620
 Luftrausers:
   cloud:
     steam: true
@@ -594539,6 +594569,8 @@ Rising Islands:
   steam:
     id: 452450
 Rising Kingdoms:
+  id:
+    lutris: rising-kingdoms
   installDir:
     Rising Kingdoms: {}
   launch:
@@ -761602,7 +761634,7 @@ The Seven Deadly Seas:
   installDir:
     The Seven Deadly Sins Origin: {}
   launch:
-    "<base>/start_protected_game.exe":
+    "<base>/SevenDeadlySins_Origin.exe":
       - when:
           - bit: 64
             os: windows
@@ -779081,6 +779113,10 @@ Tiny Glade:
   installDir:
     Tiny Glade: {}
   launch:
+    "<base>/TinyGlade.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/tiny-glade":
       - when:
           - bit: 64
@@ -820095,6 +820131,33 @@ Vengeful Bat Dungeon Crawler:
             store: steam
   steam:
     id: 1054620
+"Vengeful Guardian: Moonrider":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/vengeful-guardian-moonrider":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  gog:
+    id: 1626572092
+  id:
+    gogExtra:
+      - 2058799215
+    steamExtra:
+      - 2118480
+      - 2216530
+  installDir:
+    Vengeful Guardian Moonrider: {}
+  launch:
+    "<base>/Vengeful Guardian Moonrider.exe":
+      - arguments: "--force_high_performance_gpu"
+        when:
+          - store: steam
+  steam:
+    id: 1942010
 Vengeful Heart:
   files:
     "<base>/SavesDir/*.sav":
@@ -824137,6 +824200,8 @@ Virtually Real Life:
 Virtue and a Sledgehammer:
   id:
     lutris: virtue-and-a-sledgehammer
+    steamExtra:
+      - 3743280
   steam:
     id: 3743260
 Virtuelle Moorhuhn Jagd:

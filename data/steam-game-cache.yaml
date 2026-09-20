@@ -447841,6 +447841,13 @@
       description: Torchlight III (Developers Playground)
       executable: Frontiers.exe
       type: none
+    - arguments: "-tl.environment=tl3"
+      config:
+        betakey: tl3-dev
+        osarch: "64"
+        oslist: windows
+      description: Torchlight III (XD Test Server)
+      executable: Frontiers.exe
     - arguments: "-tl.environment=dev"
       config:
         betakey: release-test
@@ -611613,6 +611620,13 @@
             replace: ".local/share/Tiny Glade/Steam/{64BitSteamID}/saves"
         root: WinSavedGames
         useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Tiny Glade/Steam/{64BitSteamID}/saves"
+            replace: ".local/share/Tiny Glade/Steam/{64BitSteamID}/saves"
+        root: WinSavedGames
+        useInstead: MacHome
   installDir: Tiny Glade
   launch:
     - config:
@@ -611653,6 +611667,10 @@
       description: Vulkan extension settings
       executable: tiny-glade
       type: config
+    - config:
+        oslist: macos
+      executable: TinyGlade.app
+      type: default
 2199080:
   cloud:
     saves:
@@ -653600,7 +653618,7 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: start_protected_game.exe
+      executable: SevenDeadlySins_Origin.exe
   nameLocalized:
     english: "The Seven Deadly Sins: Origin"
     japanese: 七つの大罪：Origin
@@ -657306,6 +657324,13 @@
   nameLocalized:
     english: "Dragon Quest Heroes: Torneko's Mystery Dungeon -Classic HD-"
     japanese: トルネコの大冒険 不思議のダンジョン　ちょっとステキなリマスター
+4027620:
+  nameLocalized:
+    english: Lufia I & II The Sinistrals Saga
+    japanese: エストポリス伝記 I＆II
+    koreana: 에스트폴리스 전기 I&II
+    schinese: 四狂神战记：I&II
+    tchinese: 四狂神戰記：I&II
 4031890:
   nameLocalized:
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"
