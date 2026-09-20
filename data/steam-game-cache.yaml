@@ -19647,39 +19647,28 @@
     saves:
       - path: My Games/FasterThanLight
         pattern: prof.sav
-        platforms:
-          - Windows
         root: WinMyDocuments
-      - path: FasterThanLight
-        pattern: prof.sav
-        platforms:
-          - MacOS
-        root: MacAppSupport
-      - path: FasterThanLight
-        pattern: prof.sav
-        platforms:
-          - Linux
-        root: LinuxXdgDataHome
       - path: My Games/FasterThanLight
         pattern: ae_prof.sav
-        platforms:
-          - Windows
         root: WinMyDocuments
-      - path: FasterThanLight
-        pattern: ae_prof.sav
-        platforms:
-          - MacOS
-        root: MacAppSupport
-      - path: FasterThanLight
-        pattern: ae_prof.sav
-        platforms:
-          - Linux
-        root: LinuxXdgDataHome
       - path: My Games/FasterThanLight
         pattern: continue.sav
-        platforms:
-          - Windows
         root: WinMyDocuments
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: My Games/FasterThanLight
+            replace: FasterThanLight
+        root: WinMyDocuments
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: My Games/FasterThanLight
+            replace: FasterThanLight
+        root: WinMyDocuments
+        useInstead: LinuxXdgDataHome
   installDir: FTL Faster Than Light
   launch:
     - config:
@@ -354964,6 +354953,13 @@
       executable: MSFC.exe
       type: default
 832360:
+  cloud:
+    saves:
+      - path: Arcade Oven/Hotel Magnate/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
   installDir: Hotel Magnate
   launch:
     - config:
@@ -634054,6 +634050,15 @@
     - config:
         oslist: windows
       executable: Rainbow Cotton.exe
+2730270:
+  installDir: Sputnika Game
+  launch:
+    - config:
+        oslist: windows
+      executable: SputnikaGame.exe
+    - config:
+        oslist: linux
+      executable: SputnikaGame.x86_64
 2730810:
   cloud:
     saves:
@@ -656872,6 +656877,15 @@
         oslist: macos
       executable: /Contents/MacOS/SleepoverreWake
       type: default
+3962020:
+  installDir: EXD
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Launch in SteamVR
+      executable: EXD.exe
+      type: vr
 3965750:
   nameLocalized:
     japanese: DEBUG NEPHEMEE -デバッグネフェミー-

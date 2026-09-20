@@ -22332,6 +22332,8 @@ Barbie in the 12 Dancing Princesses:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\OutrightGames.ProjectPink_bnrbc155f0j86\\SystemAppData\\wgs}}"
 "Barbie: Super Sports":
   pageId: 170642
+"Barbie: Team Gymnastics":
+  pageId: 220679
 "Barclay: The Marrowdale Murder":
   pageId: 59228
   steam: 605470
@@ -59315,6 +59317,7 @@ Deadlock (2016):
   steam: 513790
 "Deadlock 2: Shrine Wars":
   gog: 1207660543
+  lutris: deadlock-2-shrine-wars
   pageId: 21131
   steam: 328450
   templates:
@@ -74056,6 +74059,9 @@ EW/WE:
 EXCHANGE:
   pageId: 113360
   steam: 854400
+"EXD: Extra Dimensional":
+  pageId: 220673
+  steam: 3962020
 "EXE: Mainframe":
   pageId: 121998
   steam: 822450
@@ -82886,7 +82892,7 @@ FSX SpacePort:
   pageId: 3559
   steam: 212680
   templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\FasterThanLight\\settings.ini}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Roaming\\FasterThanLight\\settings.ini}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/fasterthanlight/settings.ini}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/FasterThanLight/settings.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\FasterThanLight\\}}"
@@ -110861,6 +110867,7 @@ Hexplore:
   cloud:
     gog: true
   gog: 2084944775
+  lutris: hexplore
   pageId: 154779
   steam: 1257900
   templates:
@@ -112320,6 +112327,7 @@ Hoggy 2:
   steam: 617270
 Hogs of War:
   gog: 1207665593
+  lutris: hogs-of-war
   pageId: 34388
   steam: 389900
 Hogwarts Legacy:
@@ -175859,8 +175867,12 @@ Pinstripe:
   gog: 1503191590
   gogSide:
     - 1556868718
+  lutris: pinstripe
   pageId: 39304
   steam: 331480
+  steamSide:
+    - 332740
+    - 616440
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Atmos Games, LLC\\Pinstripe\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Atmos Games, LLC\\Pinstripe\\}}"
@@ -219165,6 +219177,12 @@ Spunk and Moxie:
     steam: true
   pageId: 43143
   steam: 449310
+Sputnika Game:
+  lutris: sputnika-game--1
+  pageId: 220676
+  steam: 2730270
+  templates:
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/egunan/SputnikaGame/Saves/*.json}}"
 "Spy Bros. (Pipi & Bibi's DX)":
   pageId: 191613
   steam: 2106860
