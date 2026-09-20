@@ -436,6 +436,7 @@ $1 Ride:
     id: 639880
 007 First Light:
   cloud:
+    epic: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/3768760":
@@ -522604,7 +522605,7 @@ PUBG Training Camp:
     PUBG: {}
   launch:
     "<base>/TslGame/Binaries/Win64/ExecPubg.exe":
-      - arguments: "-LobbyUrl=https://prod-live-front.playbattlegrounds.com?provider=steam -EnableScreenshotWhenCrash -CrashSendLog -HitchFpsPercentage=5 -NoAce -EnableIntegrityCheck -CohDiskCache"
+      - arguments: "-LobbyUrl=https://prod-live-front.playbattlegrounds.com?provider=steam -EnableScreenshotWhenCrash -CrashSendLog -HitchFpsPercentage=5 -NoAce -EnableIntegrityCheck"
         when:
           - bit: 64
             os: windows

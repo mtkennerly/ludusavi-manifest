@@ -223464,18 +223464,18 @@
 578080:
   installDir: PUBG
   launch:
-    - arguments: "-LobbyUrl=https://prod-live-front.playbattlegrounds.com?provider=steam -EnableScreenshotWhenCrash -CrashSendLog -HitchFpsPercentage=5 -NoAce -EnableIntegrityCheck -CohDiskCache"
+    - arguments: "-LobbyUrl=https://prod-live-front.playbattlegrounds.com?provider=steam -EnableScreenshotWhenCrash -CrashSendLog -HitchFpsPercentage=5 -NoAce -EnableIntegrityCheck"
       config:
         osarch: "64"
         oslist: windows
       executable: "TslGame\\Binaries\\Win64\\ExecPubg.exe"
       type: default
-    - arguments: "-LobbyUrl=https://prod-live-front.playbattlegrounds.com/index.html"
+    - arguments: "-LobbyUrl=https://prod-live-front.playbattlegrounds.com?provider=steam -EnableScreenshotWhenCrash -CrashSendLog -HitchFpsPercentage=5 -NoAce -EnableIntegrityCheck -CohDiskCache -KoreanRating"
       config:
-        betakey: internal
+        betakey: internal-test
         osarch: "64"
         oslist: windows
-      executable: "TslGame\\Binaries\\Win64\\TslGame_BE.exe"
+      executable: "TslGame\\Binaries\\Win64\\ExecPubg.exe"
       type: default
     - arguments: "-LobbyUrl=https://prod-live-front.playbattlegrounds.com/index.html"
       config:
