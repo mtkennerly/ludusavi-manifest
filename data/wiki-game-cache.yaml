@@ -4658,6 +4658,7 @@ AR-K:
   steam: 368890
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Gato Salvaje\\ArkIII}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Gato Salvaje\\ArkIII\\}}"
 ARC:
   pageId: 144459
   steam: 1124550
@@ -10535,6 +10536,8 @@ Alliance of the Sacred Suns:
   gog: 1387169703
   pageId: 142077
   steam: 1113400
+"Alliance: Future Combat":
+  pageId: 220750
 Allied General:
   pageId: 177932
 Allied Nations:
@@ -10561,8 +10564,11 @@ Allspace:
 Allumeria:
   cloud:
     steam: true
+  lutris: allumeria
   pageId: 219878
   steam: 3516590
+  steamSide:
+    - 4247370
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Allumeria\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Allumeria\\}}"
@@ -78147,6 +78153,7 @@ Entity Researchers:
     - 2001380
 "Entomorph: Plague of the Darkfall":
   gog: 1207659993
+  lutris: entomorph-plague-of-the-darkfall
   pageId: 14527
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\plague.cfg}}"
@@ -89719,8 +89726,9 @@ Flower:
   steam: 966330
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Flower\\Flower.cfg}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\Flower\\SAVEGAME.BIN<br>{{p|steamlibrary}}\\userdata\\{{p|uid}}\\966330\\remote}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\Flower\\SAVEGAME.BIN}}"
     - "{{Game data/saves|GOG.com|{{P|localappdata}}\\GOG.com\\Galaxy\\Applications\\51964741675694916\\Storage\\Shared\\Files\\SAVEGAME.BIN}}"
+    - "{{Game data/saves|Steam|{{p|steamlibrary}}\\userdata\\{{p|uid}}\\966330\\remote}}"
 Flower Design:
   pageId: 55825
   steam: 546070
@@ -119819,6 +119827,8 @@ Ingression:
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Espale Studios/Ingression/saves/Espale Studios/Ingression}}"
 "Inhabited Island: Prisoner of Power":
   pageId: 195314
+"Inherent Evil: The Haunted Hotel":
+  pageId: 220744
 "Inherit the Earth: Quest for the Orb":
   gog: 1207659231
   pageId: 36402
@@ -277045,6 +277055,8 @@ Will You Snail?:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Will_You_Snail\\SettoIngs23-2.set}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Will_You_Snail}}"
+Will of Steel:
+  pageId: 220748
 Will of the Gods:
   pageId: 36676
   steam: 503960

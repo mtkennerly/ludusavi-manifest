@@ -14873,6 +14873,12 @@ AR-K:
   steam:
     id: 958910
 "AR-K: The Great Escape":
+  files:
+    "<home>/AppData/LocalLow/Gato Salvaje/ArkIII":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     ARK The Great Sphere: {}
   launch:
@@ -33040,6 +33046,10 @@ Allumeria:
         - save
       when:
         - os: windows
+  id:
+    lutris: allumeria
+    steamExtra:
+      - 4247370
   installDir:
     Allumeria: {}
   launch:
@@ -241649,6 +241659,8 @@ Entity Researchers:
         - os: windows
   gog:
     id: 1207659993
+  id:
+    lutris: entomorph-plague-of-the-darkfall
 Entre-Deux:
   installDir:
     Entre Deux: {}
@@ -275752,6 +275764,11 @@ Flower:
     "<winDocuments>/Flower/Flower.cfg":
       tags:
         - config
+      when:
+        - os: windows
+    "<winDocuments>/Flower/SAVEGAME.BIN":
+      tags:
+        - save
       when:
         - os: windows
     "<winLocalAppData>/GOG.com/Galaxy/Applications/51964741675694916/Storage/Shared/Files/SAVEGAME.BIN":
