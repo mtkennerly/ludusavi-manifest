@@ -79772,6 +79772,14 @@ Eternights:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Studio Sai\\Eternights\\Saves\\settings\\settings.sav}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Studio Sai\\Eternights\\Saves}}"
+"Eternity Lost: Mystery of Aurum":
+  cloud:
+    steam: true
+  pageId: 220754
+  steam: 5095280
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\userData\\*.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\userData\\*.bin|{{p|game}}\\userData\\*.diff|{{p|game}}\\userData\\*.backup}}"
 Eternity Warriors VR:
   cloud:
     steam: true
@@ -82934,7 +82942,7 @@ FSX SpacePort:
   pageId: 3559
   steam: 212680
   templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\Roaming\\FasterThanLight\\settings.ini}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\FasterThanLight\\settings.ini}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/fasterthanlight/settings.ini}}"
     - "{{Game data/config|Linux|{{P|xdgdatahome}}/FasterThanLight/settings.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\FasterThanLight\\}}"
@@ -192351,6 +192359,7 @@ Reus 2:
     - 1188267060
     - 1227600218
     - 1393809785
+    - 1445635262
     - 1556747210
     - 2005515160
   pageId: 195421
@@ -192360,6 +192369,7 @@ Reus 2:
     - 3333960
     - 3564800
     - 4131780
+    - 4704830
   templates:
     - "{{Game data/saves|Windows|{{path|userprofile\\appdata\\locallow}}\\Abbey Games\\Reus 2|{{path|userprofile\\appdata\\locallow}}\\Abbey Games\\{{LocalizedPath|造物主 2}}<ref>{{refurl|url=https://steamdb.info/app/1875060/info/|title=SteamDB name_localized schinese|date=2024}}</ref>}}"
 Reveal:
@@ -207526,6 +207536,9 @@ Shoot Loop VR:
 Shoot Many Robots:
   pageId: 2741
   steam: 96400
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Demiurge Studios\\Shoot Many Robots\\{{p|uid}}}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Demiurge Studios\\Shoot Many Robots\\{{p|uid}}}}"
 Shoot Paint:
   pageId: 58425
   steam: 600450

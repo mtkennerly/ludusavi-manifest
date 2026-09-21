@@ -604156,7 +604156,7 @@
       type: default
     - arguments: "-logpso -brlogpso"
       config:
-        betakey: "stable-latest, qv-staging"
+        betakey: "stable-latest, qv-staging, epic"
         osarch: "64"
         oslist: windows
       description: Star Wars Zero Company™ (Test)
@@ -604206,7 +604206,7 @@
       workingdir: Test
     - arguments: "-logpso -brlogpso -logErrorsToTelemetry=true"
       config:
-        betakey: "stable-latest, qv-staging, press-latest"
+        betakey: "stable-latest, qv-staging, press-latest, epic"
         osarch: "64"
         oslist: windows
       description: Star Wars Zero Company™ (Development)
@@ -604248,6 +604248,14 @@
       executable: "Development\\SWZeroCompany.exe"
       type: option1
       workingdir: Development
+    - arguments: "-slnoota"
+      config:
+        betakey: patch1-hotfix
+        osarch: "64"
+        oslist: windows
+      description: Play Patch 1 Hotfix
+      executable: SWZeroCompany.exe
+      type: default
     - arguments: "-logpso -brlogpso"
       config:
         betakey: mainline-qa-approved
@@ -660465,6 +660473,48 @@
 5036490: {}
 5067360: {}
 5093680: {}
+5095280:
+  cloud:
+    saves:
+      - path: userData
+        pattern: "*.cfg"
+        recursive: true
+        root: gameinstall
+      - path: userData
+        pattern: "*.bin"
+        recursive: true
+        root: gameinstall
+      - path: userData
+        pattern: "*.diff"
+        recursive: true
+        root: gameinstall
+      - path: userData
+        pattern: "*.backup"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: userData
+            replace: Eternity Lost - Mystery of Aurum
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: "Eternity Lost Mystery of Aurum Collector's Edition"
+  launch:
+    - config:
+        oslist: windows
+      executable: aurum.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: aurum_mac_steam.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: aurum_steam_linux_x64
+      type: default
 5102980: {}
 5109940: {}
 5131800:

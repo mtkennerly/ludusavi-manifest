@@ -23595,7 +23595,6 @@
 * [Shoot Girl](https://www.pcgamingwiki.com/wiki/?curid=124171)
 * [Shoot Loop VR](https://www.pcgamingwiki.com/wiki/?curid=72676)
 * [Shoot Mania VR: Fun Zombies](https://www.pcgamingwiki.com/wiki/?curid=57985)
-* [Shoot Many Robots](https://www.pcgamingwiki.com/wiki/?curid=2741)
 * [Shoot Paint](https://www.pcgamingwiki.com/wiki/?curid=58425)
 * [Shoot Pump Shoot](https://www.pcgamingwiki.com/wiki/?curid=155640)
 * [Shoot Shoot Mega Pack](https://www.pcgamingwiki.com/wiki/?curid=58467)

@@ -246874,6 +246874,48 @@ Eternights:
           - store: steam
   steam:
     id: 1402110
+"Eternity Lost: Mystery of Aurum":
+  cloud:
+    steam: true
+  files:
+    "<base>/userData/*.backup":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/userData/*.bin":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/userData/*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/userData/*.diff":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Eternity Lost Mystery of Aurum Collector's Edition": {}
+  launch:
+    "<base>/aurum.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/aurum_mac_steam.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/aurum_steam_linux_x64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 5095280
 Eternity Warriors VR:
   cloud:
     steam: true
@@ -255739,7 +255781,7 @@ FSX SpacePort:
         - config
       when:
         - os: mac
-    "<winAppData>/Roaming/FasterThanLight/settings.ini":
+    "<winAppData>/FasterThanLight/settings.ini":
       tags:
         - config
       when:
@@ -589451,6 +589493,7 @@ Reus 2:
       - 1188267060
       - 1227600218
       - 1393809785
+      - 1445635262
       - 1556747210
       - 2005515160
     steamExtra:
@@ -589458,6 +589501,7 @@ Reus 2:
       - 3333960
       - 3564800
       - 4131780
+      - 4704830
   installDir:
     Reus2: {}
   launch:
@@ -636032,6 +636076,13 @@ Shoot Loop VR:
   steam:
     id: 496960
 Shoot Many Robots:
+  files:
+    "<winLocalAppData>/Demiurge Studios/Shoot Many Robots/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   installDir:
     Shoot Many Robots: {}
   launch:
