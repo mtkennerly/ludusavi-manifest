@@ -5422,6 +5422,8 @@ Abzû:
   gog: 1622602219
   pageId: 35826
   steam: 384190
+  steamSide:
+    - 577450
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\AbzuGame\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\505GAMESS.P.A.35784A6D3DB4D_tefn33qh9azfc\\LocalState\\AbzuGame\\Saved\\Config\\UWP\\}}"
@@ -9774,6 +9776,7 @@ Alien Breed 35th Anniversary Collection:
     epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1236856891
   pageId: 219744
   steam: 4870460
@@ -15443,6 +15446,9 @@ Arima:
 "Aritana and the Harpy's Feather":
   pageId: 49761
   steam: 314360
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Duaik\\Aritana}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\aritana_Data\\data*.dk}}"
 Arizona Derby:
   cloud:
     steam: true
@@ -16652,6 +16658,9 @@ Asdivine Hearts:
     xbox: true
   pageId: 44734
   steam: 406110
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\execreate\\AsdivineHearts|{{p|game}}\\AsdivineHearts_Data\\save\\savedata0}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\AsdivineHearts_Data\\save\\savedata*}}"
 Asdivine Hearts II:
   cloud:
     xbox: true
@@ -18521,6 +18530,9 @@ Atma:
 AtmaSphere:
   pageId: 80988
   steam: 753660
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\MazenGames\\AtmaSphereFinal}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\MazenGames\\AtmaSphereFinal}}"
 Atmocity:
   cloud:
     steam: true
@@ -36749,6 +36761,8 @@ Cactus Canyon:
 Cactus Jumper:
   pageId: 81442
   steam: 791960
+Cadaver:
+  pageId: 220742
 Cadence:
   pageId: 39057
   steam: 362800
@@ -46451,17 +46465,21 @@ Colin McRae Rally 04:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{P|wow64}}\\Codemasters\\Colin McRae Rally 04\\|{{P|game}}\\netopts|{{P|game}}\\network.cfg|{{P|game}}\\OPTIONS|{{P|game}}\\SpecSelection.bin}}"
     - "{{Game data/saves|Windows|{{P|game}}\\BESTTIMES_GHOSTS|{{P|game}}\\CHAMPIONSHIP_SLOT_*}}"
 Colin McRae Rally 2.0:
+  lutris: colin-mcrae-rally-20
+  malformed: true
   pageId: 22766
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Configuration\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\gamesave\\|{{P|game}}\\pps\\}}"
 Colin McRae Rally 2005:
   gog: 1207658663
+  lutris: colin-mcrae-rally-2005
   pageId: 5076
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{P|wow64}}\\Codemasters\\Colin McRae Rally 2005\\|{{P|game}}\\SG\\OPTIONS}}"
     - "{{Game data/saves|Windows|{{P|game}}\\SG\\BESTTIMES_GHOSTS|{{P|game}}\\SG\\CAREER_SLOT_*|{{P|game}}\\SG\\CHAMPIONSHIP_SLOT_*}}"
 Colin McRae Rally 3:
+  lutris: colin-mcrae-rally-3
   pageId: 29108
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Codemasters\\Colin McRae Rally 3\\}}"
@@ -66888,7 +66906,14 @@ Dolmenjord - Viking Islands:
   pageId: 186769
   steam: 1899950
 Doloc Town:
-  pageId: 219386
+  cloud:
+    steam: true
+  lutris: doloc-town
+  pageId: 220723
+  steam: 2285550
+  steamSide:
+    - 3617060
+    - 4864710
 Dolphin:
   cloud:
     steam: true
@@ -107053,6 +107078,7 @@ Haunted Bloodlines:
   pageId: 217124
   steam: 2725610
 Haunted Chocolatier:
+  lutris: concernedapes-haunted-chocolatier
   pageId: 172410
 Haunted Dream House:
   pageId: 76243
@@ -135083,6 +135109,14 @@ Lifeforce Tenka:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Psygnosis\\Tenka\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\tenka.sav}}"
+Lifeguard Holic:
+  cloud:
+    steam: true
+  pageId: 220731
+  steam: 4090260
+  steamSide:
+    - 4166970
+    - 5009630
 Lifeless:
   pageId: 33512
   steam: 419520
@@ -140574,6 +140608,8 @@ MTV Total Request Live Trivia:
   pageId: 208070
 "MTV: Club Dead":
   pageId: 207351
+"MTV: Music Generator":
+  pageId: 220736
 "MTX: Mototrax":
   lutris: mtx-mototrax
   pageId: 191592
@@ -148251,6 +148287,12 @@ Micro Cosmic Worlds:
   steam: 655580
 Micro Machines:
   pageId: 211129
+"Micro Machines 2: Turbo Tournament":
+  pageId: 220740
+Micro Machines V3:
+  pageId: 220738
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\savetest.bin}}"
 Micro Machines V4:
   pageId: 87806
   templates:
@@ -189009,6 +189051,13 @@ Reclaim! Azhe-giiwewining:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Grassroots Indigenous Multimedia\\Reclaim!\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Grassroots Indigenous Multimedia\\Reclaim!\\}}"
+Reclaiming the Lost:
+  cloud:
+    steam: true
+  pageId: 220727
+  steam: 3112280
+  steamSide:
+    - 3133000
 Recluses:
   pageId: 157005
   steam: 1217880
@@ -193210,6 +193259,9 @@ Riders of Icarus:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\ICARUS\\USER\\UserConfig}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\ICARUS\\USER\\SaveGames}}"
+"Rideshare \"Stimulator\"":
+  pageId: 220733
+  steam: 2366590
 Ridge:
   pageId: 42529
   steam: 492600
@@ -207739,6 +207791,9 @@ Shots Fired:
 Shoujo City:
   pageId: 78563
   steam: 764230
+Shouldermen:
+  pageId: 220735
+  steam: 2671050
 Shout of Survival:
   pageId: 42213
   steam: 491070
@@ -237105,6 +237160,10 @@ The Binding of Isaac:
   steam: 250900
   steamSide:
     - 322660
+    - 401920
+    - 570660
+    - 1426300
+    - 3353470
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Rebirth\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Afterbirth\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Afterbirth+\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Repentance\\|{{p|userprofile\\Documents}}\\My Games\\Binding of Isaac Repentance+\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Binding of Isaac Rebirth/}}"

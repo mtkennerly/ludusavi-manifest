@@ -17333,6 +17333,9 @@ Abzû:
           store: microsoft
   gog:
     id: 1622602219
+  id:
+    steamExtra:
+      - 577450
   installDir:
     ABZU: {}
   launch:
@@ -19304,6 +19307,21 @@ Active Crowds:
   steam:
     id: 683050
 Active Matter:
+  installDir:
+    ActiveMatter: {}
+  launch:
+    "<base>/active_matter_BE.exe":
+      - arguments: "-forcestart -config:circuit:t=am-production -skip_pkg_validation"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/linux64/active_matter":
+      - arguments: "-config:circuit:t=am-production -skip_pkg_validation"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 2887580
 Active Neurons - Puzzle game:
@@ -48012,6 +48030,12 @@ Arima:
   steam:
     id: 1101670
 "Aritana and the Harpy's Feather":
+  files:
+    "<base>/aritana_Data/data*.dk":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     AritanaHF: {}
   launch:
@@ -48023,6 +48047,10 @@ Arima:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Duaik/Aritana:
+      tags:
+        - config
   steam:
     id: 314360
 Arizona Derby:
@@ -51760,6 +51788,17 @@ Asdivine Dios:
   steam:
     id: 1015550
 Asdivine Hearts:
+  files:
+    "<base>/AsdivineHearts_Data/save/savedata*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/AsdivineHearts_Data/save/savedata0":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Asdivine Hearts: {}
   launch:
@@ -51773,6 +51812,10 @@ Asdivine Hearts:
         when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/execreate/AsdivineHearts:
+      tags:
+        - config
   steam:
     id: 406110
 Asdivine Hearts II:
@@ -57296,6 +57339,11 @@ AtmaSphere:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/MazenGames/AtmaSphereFinal:
+      tags:
+        - config
+        - save
   steam:
     id: 753660
 Atmocity:
@@ -144189,6 +144237,8 @@ Colin McRae Rally 2.0:
         - save
       when:
         - os: windows
+  id:
+    lutris: colin-mcrae-rally-20
 Colin McRae Rally 2005:
   files:
     "<base>/SG/BESTTIMES_GHOSTS":
@@ -144213,6 +144263,8 @@ Colin McRae Rally 2005:
         - os: windows
   gog:
     id: 1207658663
+  id:
+    lutris: colin-mcrae-rally-2005
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Codemasters/Colin McRae Rally 2005:
       tags:
@@ -144224,6 +144276,8 @@ Colin McRae Rally 3:
         - save
       when:
         - os: windows
+  id:
+    lutris: colin-mcrae-rally-3
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Codemasters/Colin McRae Rally 3:
       tags:
@@ -206697,6 +206751,16 @@ Dolmenjord - Viking Islands:
             store: steam
   steam:
     id: 1899950
+Doloc Town:
+  cloud:
+    steam: true
+  id:
+    lutris: doloc-town
+    steamExtra:
+      - 3617060
+      - 4864710
+  steam:
+    id: 2285550
 Dolphin:
   cloud:
     steam: true
@@ -329191,6 +329255,9 @@ Haunted Bloodlines:
     lutris: haunted-bloodlines
   steam:
     id: 2725610
+Haunted Chocolatier:
+  id:
+    lutris: concernedapes-haunted-chocolatier
 Haunted Dream House:
   installDir:
     Hunted Dream House: {}
@@ -415172,6 +415239,26 @@ Lifeforce Tenka:
     HKEY_CURRENT_USER/Software/Psygnosis/Tenka:
       tags:
         - config
+Lifeguard Holic:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BigSStudio/Lifeguard Holic":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 4166970
+      - 5009630
+  installDir:
+    Lifeguard Holic: {}
+  launch:
+    "<base>/Lifeguard Holic.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4090260
 Lifeless:
   files:
     "<winLocalAppData>/Lifeless/Saved/SaveGames/*.sav":
@@ -455400,6 +455487,13 @@ Micro Cosmic Worlds:
     Micro Cosmic Worlds: {}
   steam:
     id: 655580
+Micro Machines V3:
+  files:
+    "<base>/savetest.bin":
+      tags:
+        - save
+      when:
+        - os: windows
 Micro Machines V4:
   files:
     "<base>/<storeUserId>.pro":
@@ -579430,6 +579524,38 @@ Reclaim! Azhe-giiwewining:
             store: steam
   steam:
     id: 4200480
+Reclaiming the Lost:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      when:
+        - store: steam
+    "<home>/game/saves":
+      when:
+        - os: mac
+          store: steam
+  id:
+    steamExtra:
+      - 3133000
+  installDir:
+    Reclaiming the Lost: {}
+  launch:
+    "<base>/ReclaimingtheLost.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ReclaimingtheLost.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/ReclaimingtheLost.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3112280
 Recluses:
   installDir:
     recluses: {}
@@ -592147,6 +592273,9 @@ Riders of Icarus:
             store: steam
   steam:
     id: 442080
+"Rideshare \"Stimulator\"":
+  steam:
+    id: 2366590
 Ridge:
   installDir:
     Ridge: {}
@@ -636831,6 +636960,16 @@ Shoujo City:
             store: steam
   steam:
     id: 764230
+Shouldermen:
+  installDir:
+    Shouldermen: {}
+  launch:
+    "<base>/Shouldermen.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2671050
 Shout of Survival:
   installDir:
     SOS Shout Of Survival: {}
@@ -728472,6 +728611,10 @@ The Binding of Isaac:
       - 1990507827
     steamExtra:
       - 322660
+      - 401920
+      - 570660
+      - 1426300
+      - 3353470
   installDir:
     The Binding of Isaac Rebirth: {}
   launch:

@@ -2,6 +2,7 @@
 * [70s-Style Robot Anime Geppy-X](https://www.pcgamingwiki.com/wiki/?curid=215906)
 * [Aooni (2008)](https://www.pcgamingwiki.com/wiki/?curid=207717)
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
+* [Colin McRae Rally 2.0](https://www.pcgamingwiki.com/wiki/?curid=22766)
 * [Commandos: Behind Enemy Lines](https://www.pcgamingwiki.com/wiki/?curid=561)
 * [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
 * [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)

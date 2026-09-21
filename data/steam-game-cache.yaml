@@ -615922,6 +615922,10 @@
         oslist: macos
       executable: charruasoccer.app
       type: default
+2285550:
+  nameLocalized:
+    schinese: 多洛可小镇
+    tchinese: 多洛可小鎮
 2285630:
   cloud:
     saves:
@@ -619566,6 +619570,7 @@
   launch:
     - executable: Flint.exe
       type: default
+2366590: {}
 2366980:
   cloud:
     saves:
@@ -631915,6 +631920,13 @@
     schinese: 乌龟骑士
     spanish: Jinetes de tortugas
     tchinese: 烏龜騎士
+2671050:
+  installDir: Shouldermen
+  launch:
+    - config:
+        oslist: windows
+      executable: Shouldermen.exe
+      type: default
 2671230:
   cloud:
     saves:
@@ -638322,7 +638334,23 @@
   launch:
     - executable: SuperAliceDolls.exe
       type: default
-2887580: {}
+2887580:
+  installDir: ActiveMatter
+  launch:
+    - arguments: "-forcestart -config:circuit:t=am-production -skip_pkg_validation"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: active_matter_BE.exe
+      type: default
+    - arguments: "-config:circuit:t=am-production -skip_pkg_validation"
+      config:
+        osarch: "64"
+        oslist: linux
+      executable: linux64/active_matter
+      type: default
+  nameLocalized:
+    schinese: 活性物质
 2887910:
   installDir: BUMP! Superbrawl
   launch:
@@ -643648,6 +643676,37 @@
       description: VFREVO.exe を実行（EAC無効）
       executable: runtime/media/VFREVO.exe
       workingdir: runtime/media/
+3112280:
+  cloud:
+    saves:
+      - path: "game\\saves"
+        pattern: "*"
+        root: gameinstall
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: SavesDir
+            replace: Libary/Renpy/ReclaimingtheLost-1672083320
+        root: gameinstall
+        useInstead: MacHome
+  installDir: Reclaiming the Lost
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ReclaimingtheLost.exe
+      type: default
+    - config:
+        oslist: linux
+      description: Launch
+      executable: ReclaimingtheLost.sh
+      type: default
+    - config:
+        oslist: macos
+      description: Launch
+      executable: ReclaimingtheLost.app
+      type: default
 3112730:
   cloud:
     saves:
@@ -657614,6 +657673,27 @@
 4084710:
   nameLocalized:
     schinese: 雷曼：传奇再叙
+4090260:
+  cloud:
+    saves:
+      - path: "BigSStudio\\Lifeguard Holic"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Lifeguard Holic
+  launch:
+    - executable: Lifeguard Holic.exe
+  nameLocalized:
+    english: Lifeguard Holic
+    japanese: ライフガード・ホリック
+    koreana: 라이프가드 홀릭
+    russian: Lifeguard Holic
+    schinese: 救生员狂热
+    spanish: Lifeguard Holic
+    tchinese: 救生員狂熱
+    thai: ไลฟ์การ์ด ฮอลลิก
 4090420:
   cloud:
     saves:
