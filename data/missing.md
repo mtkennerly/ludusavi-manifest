@@ -9380,6 +9380,7 @@
 * [Fallen Gods](https://www.pcgamingwiki.com/wiki/?curid=195261)
 * [Fallen Kingdom](https://www.pcgamingwiki.com/wiki/?curid=74932)
 * [Fallen Knight](https://www.pcgamingwiki.com/wiki/?curid=152330)
+* [Fallen Lords: Condemnation](https://www.pcgamingwiki.com/wiki/?curid=220756)
 * [Fallen Mage](https://www.pcgamingwiki.com/wiki/?curid=53830)
 * [Fallen Sky Online](https://www.pcgamingwiki.com/wiki/?curid=121468)
 * [Fallen Temple](https://www.pcgamingwiki.com/wiki/?curid=43724)

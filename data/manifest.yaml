@@ -326859,6 +326859,17 @@ Happy Wars:
   steam:
     id: 246280
 Happy Wheels:
+  installDir:
+    Happy Wheels: {}
+  launch:
+    "<base>/Happy Wheels.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/happy-wheels":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 4705510
 Happy Words:
@@ -415302,7 +415313,7 @@ Lifeguard Holic:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/BigSStudio/Lifeguard Holic":
+    "<home>/AppData/LocalLow/BigSStudio/Lifeguard Holic/Saves":
       when:
         - os: windows
           store: steam

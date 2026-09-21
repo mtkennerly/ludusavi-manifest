@@ -657684,7 +657684,7 @@
 4090260:
   cloud:
     saves:
-      - path: "BigSStudio\\Lifeguard Holic"
+      - path: "BigSStudio\\Lifeguard Holic/Saves"
         pattern: "*"
         platforms:
           - Windows
@@ -660265,7 +660265,17 @@
     - executable: PenguinHotel.exe
   nameLocalized:
     japanese: めっちゃカメレオン
-4705510: {}
+4705510:
+  installDir: Happy Wheels
+  launch:
+    - config:
+        oslist: windows
+      executable: Happy Wheels.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: happy-wheels
+      type: default
 4706290:
   cloud:
     saves:
