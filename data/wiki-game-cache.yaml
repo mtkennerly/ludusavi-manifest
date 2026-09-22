@@ -48925,6 +48925,7 @@ Control Freak:
   steam: 964450
 Control Resonant:
   cloud:
+    epic: true
     steam: true
   lutris: control-resonant--1
   pageId: 182878
@@ -51754,6 +51755,11 @@ Crimson Desert:
   steam: 3321460
   steamSide:
     - 4024620
+    - 4024630
+    - 4193060
+    - 4572870
+    - 4783050
+    - 5001840
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/Pearl Abyss/CD/save/user_engine_option_save.xml}}"
@@ -79115,6 +79121,10 @@ Escape Simulator 2:
     steam: true
   pageId: 199961
   steam: 2879840
+  steamSide:
+    - 3499320
+    - 3804140
+    - 4575720
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Pine Studio\\Escape Simulator 2\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Pine Studio\\Escape Simulator 2\\*.sav|{{p|game}}\\Pine Studio\\Escape Simulator 2\\LevelSaves\\*.sav|{{p|userprofile\\appdata\\locallow}}\\Pine Studio\\Escape Simulator 2\\}}"
@@ -88480,6 +88490,16 @@ Fishdom 3:
 Fisher Fans VR:
   pageId: 67133
   steam: 654110
+Fisher-Price Learning in Toyland:
+  pageId: 220774
+"Fisher-Price Read & Play: A Day at the Beach with the Fuzzooly Family":
+  pageId: 220766
+"Fisher-Price Read & Play: The Lie":
+  pageId: 220768
+"Fisher-Price Read & Play: Yolanda Yellsalot":
+  pageId: 220776
+"Fisher-Price: Dream DollHouse: Where Dreams Come To Life":
+  pageId: 220761
 Fishermurs:
   pageId: 58513
   steam: 564210
@@ -102072,6 +102092,8 @@ Graze Counter:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Navegante Entertainment\\Greak_ Memories of Azur\\Data\\}}"
     - "{{Game data/saves|GOG.com|{{P|game}}\\Greak Memories of Azur_Data\\Data\\}}"
     - "{{Game data/saves|Steam|{{P|userprofile}}\\AppData\\LocalLow\\Navegante Entertainment\\Greak_ Memories of Azur\\Data\\}}"
+"Great Adventures by Fisher-Price: Castle":
+  pageId: 220770
 Great Ball of Fire:
   pageId: 134658
   steam: 1061970
@@ -188625,6 +188647,9 @@ Really Big Sky:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\record.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\record.dat}}"
+Really Illegal Golf:
+  pageId: 220765
+  steam: 4115520
 ReallyGoodBattle:
   pageId: 80948
   steam: 686040
@@ -276641,6 +276666,9 @@ Wicked Seed:
   steam: 2767530
   steamSide:
     - 3634260
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Dead Right Games\\Wicked Seed\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Dead Right Games\\Wicked Seed\\}}"
 Wicked Witches:
   pageId: 45471
   steam: 411630
@@ -277072,6 +277100,8 @@ Will You Snail?:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Will_You_Snail}}"
 Will of Steel:
   pageId: 220748
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Bin\\WOS\\cfg.dat}}"
 Will of the Gods:
   pageId: 36676
   steam: 503960

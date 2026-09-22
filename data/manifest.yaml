@@ -151935,6 +151935,7 @@ Control Freak:
     id: 964450
 Control Resonant:
   cloud:
+    epic: true
     steam: true
   id:
     lutris: control-resonant--1
@@ -160348,6 +160349,11 @@ Crimson Desert:
     lutris: crimson-desert
     steamExtra:
       - 4024620
+      - 4024630
+      - 4193060
+      - 4572870
+      - 4783050
+      - 5001840
   installDir:
     Crimson Desert: {}
   launch:
@@ -244776,6 +244782,11 @@ Escape Simulator 2:
         - save
       when:
         - os: mac
+  id:
+    steamExtra:
+      - 3499320
+      - 3804140
+      - 4575720
   installDir:
     Escape Simulator 2: {}
   launch:
@@ -578218,6 +578229,9 @@ Really Big Sky:
           - store: steam
   steam:
     id: 201570
+Really Illegal Golf:
+  steam:
+    id: 4115520
 ReallyGoodBattle:
   installDir:
     ReallyGoodBattle: {}
@@ -844736,10 +844750,12 @@ Wicked Seed:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Dead Right Games/Wicked Seed/*.es3":
+    "<home>/AppData/LocalLow/Dead Right Games/Wicked Seed":
+      tags:
+        - config
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: wicked-seed
     steamExtra:
@@ -846147,6 +846163,13 @@ Will You Snail?:
             store: steam
   steam:
     id: 1115050
+Will of Steel:
+  files:
+    "<base>/Bin/WOS/cfg.dat":
+      tags:
+        - config
+      when:
+        - os: windows
 Will of the Gods:
   installDir:
     Will of the Gods: {}

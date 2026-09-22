@@ -638226,6 +638226,17 @@
         oslist: macos
       executable: EscapeSimulator2.app
       type: default
+    - arguments: "-force-d3d12"
+      config:
+        betakey: open_beta
+      description: DX 12
+      executable: Escape Simulator 2.exe
+      type: option1
+    - arguments: es_vr
+      config:
+        oslist: windows
+      executable: Escape Simulator 2.exe
+      type: vr
   nameLocalized:
     english: Escape Simulator 2
     japanese: 脱出ルームシミュレーター2
@@ -657859,6 +657870,7 @@
   nameLocalized:
     schinese: 影之刃零
     tchinese: 影之刃零
+4115520: {}
 4119360:
   cloud:
     saves:
