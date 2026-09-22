@@ -239979,7 +239979,7 @@ Endless Legend 2:
   cloud:
     steam: true
   files:
-    "<winDocuments>/Endless Legend 2/Save Files":
+    "<winLocalAppData>/Amplitude Studios/Endless Legend 2/Save Files":
       tags:
         - save
       when:
@@ -556126,6 +556126,9 @@ Professor Fizzwizzle and the Molten Mystery:
             store: steam
   steam:
     id: 50910
+Professor Layton and the New World of Steam:
+  steam:
+    id: 3384600
 Professor Lupo and His Horrible Pets:
   cloud:
     steam: true

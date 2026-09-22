@@ -537697,6 +537697,10 @@
   launch:
     - executable: "link2ea://launchgame/1262580?platform=steam&theme=nfspb"
       type: none
+    - config:
+        betakey: eax_test
+      description: New launch method
+      executable: "steam2ea://launchgame/1262580?platform=steam&theme=nfspb"
 1262600:
   installDir: Need for Speed(TM) Rivals
   launch:
@@ -649086,6 +649090,7 @@
   nameLocalized:
     english: Call of Clans
     tchinese: 部落召喚
+3384600: {}
 3384890:
   installDir: Ascent DX
   launch:

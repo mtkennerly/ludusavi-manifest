@@ -77656,7 +77656,7 @@ Endless Legend 2:
   pageId: 201055
   steam: 3407390
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Endless Legend 2\\Save Files\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Amplitude Studios\\Endless Legend 2\\Save Files\\}}"
 Endless Maneuver:
   pageId: 123560
   steam: 979530
@@ -181576,6 +181576,7 @@ Professor Layton and the Curious Village Remake:
   pageId: 220333
 Professor Layton and the New World of Steam:
   pageId: 215534
+  steam: 3384600
 Professor Lupo and His Horrible Pets:
   cloud:
     steam: true
