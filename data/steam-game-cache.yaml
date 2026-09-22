@@ -431217,7 +431217,19 @@
   launch:
     - executable: MonsterHentai.exe
       type: default
-992840: {}
+992840:
+  cloud:
+    saves:
+      - path: MajesticTwelve/CarWashSimulator
+        pattern: "*.es3"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Car Wash
+  launch:
+    - config:
+        oslist: windows
+      executable: CarWashSimulator.exe
+      type: default
 992870:
   installDir: The Secret of Gillwood
   launch:
@@ -475200,7 +475212,19 @@
         oslist: windows
       executable: Led It Rain VR.exe
       type: vr
-1088190: {}
+1088190:
+  cloud:
+    saves:
+      - path: "\\PlayWay\\Prison Simulator VR\\Data"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Prison Simulator VR
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Prison Simulator VR.exe
+      type: openxr
 1088400:
   cloud:
     saves:
@@ -528495,7 +528519,14 @@
   launch:
     - executable: Hentai Like a Boss 2.exe
       type: none
-1208170: {}
+1208170:
+  installDir: SamuraiRoninsRevenge
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Katanas.exe
+      type: default
 1208180: {}
 1208220:
   cloud:
@@ -573556,7 +573587,38 @@
   launch:
     - executable: portal2.exe
       type: default
-1636440: {}
+1636440:
+  cloud:
+    saves:
+      - path: Townfall/Saved/SaveGames
+        pattern: SaveGame.sav
+        root: WinAppDataLocal
+      - path: Townfall/Saved/SaveGames
+        pattern: SaveGameSlot*.sav
+        root: WinAppDataLocal
+      - path: Townfall/Saved/SaveGames
+        pattern: ProfileData.sav
+        root: WinAppDataLocal
+  installDir: Townfall
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Townfall.exe
+      type: default
+    - arguments: "-clearPSODriverCache -logPSO"
+      config:
+        betakey: local
+        osarch: "64"
+        oslist: windows
+      description: Run townfall with pso generation enabled.
+      executable: Townfall.exe
+    - config:
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "4663210"
+      description: "SILENT HILL: Townfall - Bonus Application"
+      executable: BonusApp/Townfall_BonusContent.exe
 1636660:
   cloud:
     saves:
@@ -616821,7 +616883,24 @@
   nameLocalized:
     japanese: デス・オブ・ア・ウィッシュ
     schinese: 梦碎之境
-2302320: {}
+2302320:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Poke ALL Toads
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Godot/app_userdata/Poke ALL Toads
+        pattern: "*.cfg"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Poke ALL Toads
+  launch:
+    - config:
+        oslist: windows
+      executable: Poke ALL Toads.exe
 2302470: {}
 2303320:
   cloud:
@@ -624718,7 +624797,14 @@
 2471970:
   installDir: Planetary Life
   launch:
-    - executable: PlanetaryLife.exe
+    - arguments: "--rendering-driver vulkan --rendering-method forward_plus"
+      executable: PlanetaryLife.exe
+    - arguments: "--rendering-driver d3d12 --rendering-method forward_plus"
+      description: Planetary Life (DirectX mode)
+      executable: PlanetaryLife.exe
+    - arguments: "--rendering-driver opengl3 --rendering-device gl_compatibility --rendering-method gl_compatibility"
+      description: Planetary Life (Compatibility mode)
+      executable: PlanetaryLife.exe
 2473480:
   cloud:
     saves:
@@ -626314,6 +626400,33 @@
   nameLocalized:
     japanese: "Project:;COLD case.mirage（プロジェクトコールド ケースミラージュ）"
 2502780:
+  cloud:
+    saves:
+      - path: "Bear\\Saved\\SaveGames"
+        pattern: MetaSaveSlot_*.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Bear\\Saved\\SaveGames"
+        pattern: GameSaveSlot_*.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Bear\\Saved\\SaveGames"
+        pattern: AchievementsData.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Bear\\Saved\\SaveGames"
+        pattern: EnhancedInputUserSettings.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "Bear\\Saved\\SaveGames"
+        pattern: UserInterfaceSettings.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: ESD64108
   launch:
     - config:
@@ -629783,7 +629896,20 @@
   nameLocalized:
     schinese: 暴走甜心！
     tchinese: 暴走甜心！
-2611170: {}
+2611170:
+  cloud:
+    saves:
+      - path: DAVYxJONES/Saved/SaveGames
+        pattern: "*.sh.sav"
+        root: WinAppDataLocal
+  installDir: DAVYxJONES
+  launch:
+    - arguments: "-UseSteam"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: DAVYxJONES.exe
+      type: default
 2612660:
   installDir: kama3_3ec67dc4e
   launch:
@@ -640360,7 +640486,9 @@
     russian: hololive Treasure Mountain
     schinese: hololive 宝藏山
     tchinese: hololive 寶藏山
-2974160: {}
+2974160:
+  nameLocalized:
+    schinese: 黯蚀之地 Blighted
 2975180:
   installDir: Break the Empire
   launch:
@@ -655782,6 +655910,17 @@
         oslist: macos
       executable: "Avernum 4 Greed and Glory.app\\Contents\\MacOS\\Avernum 4 Greed and Glory"
       type: default
+3882410:
+  nameLocalized:
+    english: "Qliphah in Providence's Shadow"
+    french: "Qliphah in Providence's Shadow"
+    german: "Qliphah in Providence's Shadow"
+    italian: "Qliphah in Providence's Shadow"
+    japanese: 神貌のクリファ
+    koreana: 신모의 클리파
+    schinese: 神貌之树逆卡巴拉
+    spanish: "Qliphah in Providence's Shadow"
+    tchinese: 神貌之樹逆卡巴拉
 3883910: {}
 3884520:
   cloud:
@@ -657180,7 +657319,10 @@
   nameLocalized:
     koreana: 낚시 방법
     schinese: 渔力全开
-4002600: {}
+4002600:
+  nameLocalized:
+    japanese: マイ・ヘルパーズ
+    schinese: 我的小助手
 4004630: {}
 4005370:
   cloud:
@@ -660271,6 +660413,9 @@
         oslist: windows
       executable: COYP.exe
       type: default
+4694470:
+  nameLocalized:
+    schinese: 清扫至天明
 4704690:
   installDir: MECCHA CHAMELEON
   launch:

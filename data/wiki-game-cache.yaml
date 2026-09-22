@@ -46199,6 +46199,9 @@ Coffee Talk Tokyo:
   gog: 1655473839
   pageId: 200390
   steam: 3161220
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Chorus Worldwide\\CTT|\n{{P|userprofile}}\\AppData\\LocalLow\\Chorus Worldwide\\CTT}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Chorus Worldwide\\CTT}}"
 Coffee Trainer VR:
   pageId: 112168
   steam: 910210
@@ -72764,6 +72767,9 @@ Duskfade:
 Dust On Wheels:
   pageId: 130020
   steam: 1043020
+Dust Till Dawn:
+  pageId: 220797
+  steam: 4694470
 "Dust and Echos: Vengeance":
   pageId: 103975
   steam: 877400
@@ -126783,6 +126789,9 @@ Kernel Hearts:
   lutris: kernel-hearts
   pageId: 220580
   steam: 2902170
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\MahouPrototype\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\MahouPrototype\\Saved\\SaveGames\\}}"
 Kero Blaster:
   cloud:
     gog: true
@@ -184343,6 +184352,15 @@ Qipa World-Hello Big Adventure:
   steam: 975710
 Qix:
   pageId: 175905
+"Qliphah in Providence's Shadow":
+  cloud:
+    steam: true
+  lutris: qliphah-in-providences-shadow
+  pageId: 220789
+  steam: 3882410
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Qliphah\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Saved\\SaveGames\\{{P|uid}}\\}}"
 Qomp:
   cloud:
     gog: true
@@ -208958,6 +208976,8 @@ Silent Hill f:
 "Silent Hill: The Arcade":
   pageId: 195781
 "Silent Hill: Townfall":
+  cloud:
+    steam: true
   lutris: silent-hill-townfall
   pageId: 213717
   steam: 1636440

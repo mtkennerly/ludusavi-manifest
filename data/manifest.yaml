@@ -118577,6 +118577,17 @@ Car Tuning Simulator:
   steam:
     id: 1754150
 Car Wash Simulator:
+  files:
+    "<home>/AppData/LocalLow/MajesticTwelve/CarWashSimulator/**/*.es3":
+      when:
+        - store: steam
+  installDir:
+    Car Wash: {}
+  launch:
+    "<base>/CarWashSimulator.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 992840
 "Car Washer: Summer of the Ninja":
@@ -143384,13 +143395,12 @@ Coffee Talk Tokyo:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Chorus Worldwide/CTT/SaveData/Steam/<storeUserId>":
+    "<home>/AppData/LocalLow/Chorus Worldwide/CTT":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Chorus Worldwide/CTT/SaveData/Steam/<storeUserId>":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   gog:
     id: 1655473839
   installDir:
@@ -143405,6 +143415,10 @@ Coffee Talk Tokyo:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/Chorus Worldwide/CTT:
+      tags:
+        - config
   steam:
     id: 3161220
 Coffee Trainer VR:
@@ -178997,6 +179011,19 @@ Davigo:
   steam:
     id: 1116540
 Davy X Jones:
+  files:
+    "<winLocalAppData>/DAVYxJONES/Saved/SaveGames/*.sh.sav":
+      when:
+        - store: steam
+  installDir:
+    DAVYxJONES: {}
+  launch:
+    "<base>/DAVYxJONES.exe":
+      - arguments: "-UseSteam"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2611170
 "Davyria: Heroes of Eternity":
@@ -225361,6 +225388,9 @@ Dust On Wheels:
           - store: steam
   steam:
     id: 1043020
+Dust Till Dawn:
+  steam:
+    id: 4694470
 "Dust and Echos: Vengeance":
   installDir:
     Dust and Echos Vengeance: {}
@@ -389955,9 +389985,16 @@ Kernel Hearts:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/MahouPrototype/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/MahouPrototype/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/MahouPrototype/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: kernel-hearts
   installDir:
@@ -543568,7 +543605,14 @@ Planetary Life:
     Planetary Life: {}
   launch:
     "<base>/PlanetaryLife.exe":
-      - when:
+      - arguments: "--rendering-driver vulkan --rendering-method forward_plus"
+        when:
+          - store: steam
+      - arguments: "--rendering-driver d3d12 --rendering-method forward_plus"
+        when:
+          - store: steam
+      - arguments: "--rendering-driver opengl3 --rendering-device gl_compatibility --rendering-method gl_compatibility"
+        when:
           - store: steam
   steam:
     id: 2471970
@@ -546097,6 +546141,13 @@ Poke ALL Toads:
         - config
       when:
         - os: windows
+  installDir:
+    Poke ALL Toads: {}
+  launch:
+    "<base>/Poke ALL Toads.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2302320
 Poker Championship:
@@ -554620,6 +554671,12 @@ Prison Simulator:
   steam:
     id: 842180
 Prison Simulator VR:
+  files:
+    "<home>/AppData/LocalLow/PlayWay/Prison Simulator VR/Data":
+      when:
+        - store: steam
+  installDir:
+    Prison Simulator VR: {}
   steam:
     id: 1088190
 Prison Test:
@@ -565006,6 +565063,24 @@ Qipa World-Hello Big Adventure:
             store: steam
   steam:
     id: 975710
+"Qliphah in Providence's Shadow":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Qliphah/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Saved/SaveGames/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: qliphah-in-providences-shadow
+  steam:
+    id: 3882410
 Qomp:
   cloud:
     gog: true
@@ -615530,6 +615605,14 @@ Samurai Shodown V Special:
   steam:
     id: 1076550
 Samurai Simulator:
+  installDir:
+    SamuraiRoninsRevenge: {}
+  launch:
+    "<base>/Katanas.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1208170
 Samurai Sword VR:
@@ -640633,8 +640716,28 @@ Silent Hill f:
   steam:
     id: 19000
 "Silent Hill: Townfall":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Townfall/Saved/SaveGames/ProfileData.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Townfall/Saved/SaveGames/SaveGame.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Townfall/Saved/SaveGames/SaveGameSlot*.sav":
+      when:
+        - store: steam
   id:
     lutris: silent-hill-townfall
+  installDir:
+    Townfall: {}
+  launch:
+    "<base>/Townfall.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 1636440
 Silent Hope:
