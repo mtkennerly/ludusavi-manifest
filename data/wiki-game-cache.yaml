@@ -23623,6 +23623,7 @@ Battle of Cubes:
     - 396440
     - 410810
 Battle of Europe:
+  lutris: battle-of-europe
   pageId: 49625
   steam: 321710
   templates:
@@ -67447,9 +67448,9 @@ Donkey Kong:
     - Donkey Kong 64
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\DK64Recompiled\\|ref=<ref name=\"config-location\">{{Refurl|url=https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/tag/1.0.0|title=GitHub - DK64 Rekongpiled 1.0.0|date=2026-08-31}}</ref>}}"
-    - "{{Game data/config|Linux|{{p|xdgconfig}}\\DK64Recompiled\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}\\DK64Recompiled\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\DK64Recompiled\\saves\\|ref=<ref name=\"recomp-readme\"/>}}"
-    - "{{Game data/saves|Linux|{{p|xdgconfig}}\\DK64Recompiled\\saves\\|ref=<ref name=\"recomp-readme\"/>}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}\\DK64Recompiled\\saves\\|ref=<ref name=\"recomp-readme\"/>}}"
 "Donkey Kong: Redux":
   pageId: 200596
 Donkey Xote:
@@ -70489,6 +70490,11 @@ Dresden Files Cooperative Card Game:
 Dress-up Traveller:
   pageId: 149885
   steam: 1129010
+Dressmaker:
+  cloud:
+    steam: true
+  pageId: 220801
+  steam: 4019220
 Drew and the Floating Labyrinth:
   pageId: 48783
   steam: 346200
@@ -101786,15 +101792,22 @@ Graveyard Keeper:
   pageId: 58471
   steam: 599140
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Lazy Bear Games\\Graveyard Keeper\\setting}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Lazy Bear Games\\Graveyard Keeper\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.Lazy Bear Games.Graveyard Keeper.plist}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Lazy Bear Games/Graveyard Keeper/prefs}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lazy Bear Games\\Graveyard Keeper}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lazy Bear Games\\Graveyard Keeper\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Lazy Bear Games/Graveyard Keeper}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Lazy Bear Games/Graveyard Keeper}}"
 Graveyard Keeper 2:
+  cloud:
+    steam: true
+  gog: 1546179524
+  lutris: graveyard-keeper-ii
   pageId: 215513
   steam: 4358690
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Lazy Bear Games\\Graveyard Keeper 2\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lazy Bear Games\\Graveyard Keeper 2\\*.dat|{{p|userprofile}}\\AppData\\LocalLow\\Lazy Bear Games\\Graveyard Keeper 2\\*.info}}"
 Graveyard Shift:
   pageId: 51951
   steam: 511190
@@ -102100,6 +102113,10 @@ Graze Counter:
     - "{{Game data/saves|Steam|{{P|userprofile}}\\AppData\\LocalLow\\Navegante Entertainment\\Greak_ Memories of Azur\\Data\\}}"
 "Great Adventures by Fisher-Price: Castle":
   pageId: 220770
+"Great Adventures by Fisher-Price: Pirate Ship":
+  pageId: 220810
+"Great Adventures by Fisher-Price: Wild Western Town":
+  pageId: 220812
 Great Ball of Fire:
   pageId: 134658
   steam: 1061970
@@ -106271,6 +106288,9 @@ Happy Wars:
 Happy Wheels:
   pageId: 220258
   steam: 4705510
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\HappyWheels\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\HappyWheels\\}}"
 Happy Words:
   pageId: 134534
   steam: 1014810
@@ -154637,6 +154657,10 @@ Mr. Prepper:
 Mr. Pumpkin Adventure:
   pageId: 42483
   steam: 491220
+Mr. Records:
+  gog: 1897263287
+  pageId: 220803
+  steam: 3053470
 Mr. Rescue:
   pageId: 171448
   templates:
@@ -241581,6 +241605,11 @@ The Guest:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Team Gotham\\The Guest\\|{{p|game}}\\TheGuest_Data\\options_data.xml}}"
     - "{{Game data/saves|Windows|{{P|game}}\\TheGuestSteam_Test_Data\\SavedDir\\save_data.xml}}"
+"The Guild 1 Remake: Europa 1410":
+  pageId: 206713
+  renamedFrom:
+    - "The Guild: Europa 1410"
+  steam: 2977260
 The Guild 3:
   cloud:
     steam: true
@@ -241616,9 +241645,6 @@ The Guild II:
     - "{{Game data/saves|Windows|{{p|game}}\\savegames\\}}"
 "The Guild II: Venice":
   pageId: 181043
-"The Guild: Europa 1410":
-  pageId: 206713
-  steam: 2977260
 The Guilt and the Shadow:
   pageId: 48825
   steam: 332630

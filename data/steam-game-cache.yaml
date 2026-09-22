@@ -640513,8 +640513,27 @@
     schinese: 索拉斯塔2
 2976250: {}
 2977260:
+  cloud:
+    saves:
+      - path: "Europa1410\\Saved\\SaveGames\\Games"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: The Guild - Europa 1410
+  launch:
+    - config:
+        oslist: windows
+      executable: Europa1410.exe
+      type: default
+    - config:
+        betakey: "alphamilestone,alphamilestonedev"
+        oslist: windows
+      executable: TheGuildRemake.exe
+      type: default
   nameLocalized:
-    german: Die Gilde - Europa 1410
+    german: "Die Gilde 1 Remake: Europa 1410"
 2977620:
   cloud:
     saves:
@@ -642494,6 +642513,10 @@
   installDir: Nicktoons and The Dice of Destiny
   launch:
     - executable: Dice.exe
+3053470:
+  nameLocalized:
+    schinese: 唱片先生
+    tchinese: 唱片先生
 3053950:
   installDir: DungeonRampage
   launch:
@@ -646992,8 +647015,29 @@
   launch:
     - executable: rogue_loops.exe
 3275400:
+  cloud:
+    saves:
+      - path: Patlabor/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: deck/.local/share/Steam/steamapps/compatdata/3275400/pfx/drive_c/users/steamuser/Documents/My Games/Patlabor/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Linux
+        root: LinuxHome
+  installDir: Patlabor
+  launch:
+    - arguments: "-SaveToUserDir"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Patlabor.exe
+      type: default
   nameLocalized:
     english: PATLABOR the Case Files
+    japanese: 機動警察パトレイバー the Case Files
     koreana: PATLABOR the Case Files
     schinese: PATLABOR the Case Files
     tchinese: PATLABOR the Case Files
@@ -654150,6 +654194,34 @@
       executable: golden_tee.exe
       type: default
 3699590:
+  cloud:
+    saves:
+      - path: WellDweller
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+      - path: WellDweller
+        pattern: "*.sav"
+        recursive: true
+        root: LinuxXdgConfigHome
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: WellDweller
+            replace: WellDweller
+        root: WinAppDataLocal
+        useInstead: LinuxXdgConfigHome
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: WellDweller
+            replace: WellDweller
+        root: LinuxXdgConfigHome
+        useInstead: WinAppDataLocal
+  installDir: Well Dweller
+  launch:
+    - executable: WellDweller.exe
   nameLocalized:
     japanese: 井戸の鳥 (Well Dweller)
     schinese: 黯井微光 (Well Dweller)
@@ -655148,7 +655220,10 @@
     japanese: 桜御前
     schinese: 樱御前
 3802140: {}
-3802620: {}
+3802620:
+  installDir: "Chud Logic's Gockbound"
+  launch:
+    - executable: "Chud Logic's Gockbound.exe"
 3802770: {}
 3805420:
   installDir: A Few Quick Matches
@@ -657477,6 +657552,31 @@
         oslist: macos
       executable: Netoo.app
       type: default
+4019220:
+  cloud:
+    saves:
+      - path: Cozy Lives/Dressmaker
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Cozy Lives/Dressmaker
+        pattern: "*"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacDocuments
+  installDir: Dressmaker
+  launch:
+    - config:
+        oslist: windows
+      executable: Dressmaker.exe
+    - config:
+        oslist: macos
+      executable: Dressmaker.app
+  nameLocalized:
+    schinese: 针影裁梦
 4022950: {}
 4026170:
   installDir: Boardfall
@@ -657925,6 +658025,15 @@
       executable: run.sh
       type: option1
 4094660:
+  cloud:
+    saves:
+      - path: Rivage/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Project Singularity
+  launch:
+    - executable: Rivage.exe
   nameLocalized:
     schinese: 她在时间之外
 4094670:
@@ -659419,6 +659528,23 @@
     schinese: Pickmos / 精灵皮可
     tchinese: Pickmos / 精靈皮可
 4358690:
+  cloud:
+    saves:
+      - path: Lazy Bear Games/Graveyard Keeper 2
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Lazy Bear Games/Graveyard Keeper 2
+        pattern: "*.info"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Graveyard Keeper 2
+  launch:
+    - config:
+        oslist: windows
+      executable: GraveyardKeeper2.exe
   nameLocalized:
     schinese: 守墓人2
 4369130:
