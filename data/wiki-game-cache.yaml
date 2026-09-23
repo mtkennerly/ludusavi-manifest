@@ -22271,6 +22271,8 @@ Barbearian:
   steam: 813450
 "Barbie Adventure: Riding Club":
   pageId: 170644
+Barbie Beach Vacation:
+  pageId: 220823
 Barbie Beauty Boutique:
   pageId: 170650
 "Barbie Diaries: High School Mystery":
@@ -48941,6 +48943,9 @@ Control Resonant:
     - Control 2
     - "Control: Resonant"
   steam: 3669870
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Remedy\\CONTROLResonant\\renderer.ini}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3669870\\remote\\}}"
 Control Room Alpha:
   lutris: control-room-alpha
   pageId: 210829
@@ -71724,6 +71729,7 @@ Dune Sea:
 "Dune: Awakening":
   cloud:
     steam: true
+    xbox: true
   lutris: dune-awakening
   pageId: 183730
   steam: 1172710
@@ -76738,6 +76744,7 @@ Elysion:
   steam: 1070110
 Elysium:
   pageId: 218940
+  steam: 5219090
   templates:
     - "{{Game data/config|Windows|%USERPROFILE%\\AppData\\Local\\Elysium\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|%USERPROFILE%\\AppData\\Local\\Elysium\\Saved\\SaveGames\\}}"
@@ -126815,6 +126822,7 @@ Kerfuffight:
 Kernel Hearts:
   cloud:
     steam: true
+    xbox: true
   lutris: kernel-hearts
   pageId: 220580
   steam: 2902170
@@ -141165,6 +141173,12 @@ Mad Hunter:
 Mad Hunting Simulator VR:
   pageId: 125343
   steam: 988340
+Mad King Redemption:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 220820
+  steam: 2369580
 Mad Machines:
   pageId: 88239
   steam: 611260
@@ -167822,6 +167836,11 @@ Operation Lone Wolf:
   steam: 1685960
   steamSide:
     - 1811180
+Operation Night Strikers:
+  cloud:
+    steam: true
+  pageId: 220825
+  steam: 3099790
 Operation Osama Bin Laden:
   pageId: 108960
   steam: 834920
@@ -200847,6 +200866,7 @@ Samson:
   cloud:
     epic: true
     steam: true
+    xbox: true
   lutris: samson
   pageId: 211707
   steam: 3634520
@@ -206158,6 +206178,7 @@ Shape Shifter (2016):
 Shape of Dreams:
   cloud:
     steam: true
+    xbox: true
   lutris: shape-of-dreams
   pageId: 215804
   steam: 2444750
@@ -209015,6 +209036,9 @@ Silent Hill f:
   lutris: silent-hill-townfall
   pageId: 213717
   steam: 1636440
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}/AppData/Local/Townfall/Saved/Config/Windows}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}/AppData/Local/Townfall/Saved/SaveGames}}"
 Silent Hope:
   cloud:
     steam: true
@@ -241582,6 +241606,7 @@ The Grinch:
 "The Grinch 2: Saving Christmas":
   cloud:
     steam: true
+    xbox: true
   pageId: 217782
   steam: 3470930
 "The Grinch: Christmas Adventures":
@@ -247753,6 +247778,12 @@ The Royal Marines Commando:
   templates:
     - "{{Game data/config|Windows|{{p|Public}}\\Documents\\City Interactive\\Royal Marines Commando\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|Public}}\\Documents\\City Interactive\\Royal Marines Commando\\Profiles\\|{{p|Public}}\\Documents\\City Interactive\\Royal Marines Commando\\Save\\}}"
+The Royal Writ:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 220821
+  steam: 3333700
 "The Rugrats Movie: Activity Challenge":
   pageId: 216273
 "The Ruins: VR Escape the Room":

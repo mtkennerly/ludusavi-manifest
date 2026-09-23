@@ -151959,8 +151959,26 @@ Control Resonant:
   cloud:
     epic: true
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3669870/remote":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Remedy/CONTROLResonant/renderer.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: control-resonant--1
+  installDir:
+    CONTROL Resonant: {}
+  launch:
+    "<base>/CONTROLResonant.exe":
+      - when:
+          - store: steam
   steam:
     id: 3669870
 Control Room Alpha:
@@ -237068,6 +237086,8 @@ Elysium:
         - save
       when:
         - os: windows
+  steam:
+    id: 5219090
 Elysium VR:
   cloud:
     steam: true
@@ -434099,6 +434119,31 @@ Mad Hunting Simulator VR:
     Mad Hunting Simulator VR: {}
   steam:
     id: 988340
+Mad King Redemption:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SECRET MISSION/Mad King Redemption/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/SECRET MISSION/Mad King Redemption/gamesettings.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Mad King Redemption: {}
+  launch:
+    "<base>/Mad King Redemption.app/Contents/MacOS/Mad King Redemption":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Mad King Redemption/Mad King Redemption.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2369580
 Mad Machines:
   files:
     "<home>/AppData/LocalLow/Hero Blocks/Mad Machines/Unity/<storeUserId>/Analytics":
@@ -514152,6 +514197,18 @@ Operation Lone Wolf:
       - 1811180
   steam:
     id: 1685960
+Operation Night Strikers:
+  cloud:
+    steam: true
+  installDir:
+    Operation Night Strikers: {}
+  launch:
+    "<base>/OperationNightStrikers.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3099790
 Operation Osama Bin Laden:
   installDir:
     Operation Osam Bin Laden: {}
@@ -640925,15 +640982,16 @@ Silent Hill f:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Townfall/Saved/SaveGames/ProfileData.sav":
+    "<home>/AppData/Local/Townfall/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winLocalAppData>/Townfall/Saved/SaveGames/SaveGame.sav":
+        - os: windows
+    "<home>/AppData/Local/Townfall/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winLocalAppData>/Townfall/Saved/SaveGames/SaveGameSlot*.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: silent-hill-townfall
   installDir:
@@ -760615,6 +760673,22 @@ The Royal Marines Commando:
           - store: steam
   steam:
     id: 837600
+The Royal Writ:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/TheRoyalWrit/*.save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    The Royal Writ: {}
+  launch:
+    "<base>/TheRoyalWrit.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3333700
 "The Ruins: VR Escape the Room":
   installDir:
     The Ruins VR Escape the Room: {}

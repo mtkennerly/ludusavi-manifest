@@ -514791,45 +514791,13 @@
         root: WinAppDataLocal
   installDir: DuneAwakening
   launch:
-    - config:
-        betakey: "default, default-test"
-        osarch: "64"
-        oslist: windows
-      executable: "Launcher\\FuncomLauncher.exe"
-      type: default
-    - config:
-        betakey: marketing
-        osarch: "64"
-        oslist: windows
-      description: Test Configuration
-      executable: DuneSandbox-Win64-Test.exe
-      type: option2
-    - config:
-        betakey: marketing
-        osarch: "64"
-        oslist: windows
-      description: Shipping Configuration
-      executable: DuneSandbox-Win64-Shipping.exe
-      type: option3
-    - config:
-        betakey: "staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test"
-      description: Development build with Funcom Launcher
-      executable: "Launcher\\FuncomLauncher.exe"
-    - config:
-        betakey: buildreview
-      executable: "Launcher\\FuncomLauncher.exe"
-    - config:
-        betakey: "ninja,staging,hotfix,hotfix_alt,reserve"
-        osarch: "64"
-        oslist: windows
-      executable: "Launcher\\FuncomLauncher.exe"
-      type: default
-    - arguments: "-buildidoverride=1537 -enableallregions -fls=staging"
+    - arguments: "-battleye"
       config:
-        betakey: age_ratings
+        betakey: "default,staging,hotfix,hotfix_alt,reserve,ninja"
         osarch: "64"
         oslist: windows
-      executable: "Launcher\\FuncomLauncher.exe"
+      description: Dune with BattlEye (all multiplayer servers and single-player)
+      executable: DuneSandbox.exe
       type: default
     - arguments: "-ExecCmds=\"ShowFlag.VersionOsd 0\""
       config:
@@ -514846,33 +514814,34 @@
       executable: DuneSandbox.exe
       type: option1
     - config:
-        betakey: "staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test\t"
+        betakey: "default-test,staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test"
         osarch: "64"
         oslist: windows
-      description: Development build
+      description: Shipping build without BattlEye
+      executable: DuneSandbox-Win64-Shipping.exe
+      type: option3
+    - config:
+        betakey: "default-test,staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test"
+        osarch: "64"
+        oslist: windows
+      description: Development build without BattlEye
       executable: DuneSandbox.exe
       type: option1
     - config:
-        betakey: "staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test"
+        betakey: "default-test,staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test"
         osarch: "64"
         oslist: windows
-      description: Test build
+      description: Test build without BattlEye
       executable: DuneSandbox-Win64-Test.exe
       type: option2
-    - config:
-        betakey: "staging-test,hotfix-test,hotfix_alt-test,hardware-partners,reserve-test"
+    - arguments: "-nobattleye"
+      config:
+        betakey: "staging,hotfix,hotfix_alt,reserve,ninja"
         osarch: "64"
         oslist: windows
-      description: Shipping build
-      executable: DuneSandbox-Win64-Shipping.exe
-      type: default
-    - config:
-        betakey: marketing
-        osarch: "64"
-        oslist: windows
-      description: Development Configuration
+      description: Dune without BattlEye (single-player and BattlEye-disabled private or self-hosted servers)
       executable: DuneSandbox.exe
-      type: option1
+      type: option2
   nameLocalized:
     japanese: "Dune: Awakening デューン：アウェイクニング"
     koreana: "Dune: Awakening 듄 ：어웨이크닝"
@@ -584639,6 +584608,11 @@
       config:
         betakey: playtest
       executable: Hell Clock.exe
+    - arguments: "--unlockAllDlc"
+      config:
+        betakey: "ptr-2.0, press"
+      executable: Hell Clock.exe
+      type: default
   nameLocalized:
     schinese: 地狱丧钟 Hell Clock
 1783050:
@@ -619837,6 +619811,32 @@
   installDir: "Hunchback's Dungeon"
   launch:
     - executable: hunchback.exe
+2369580:
+  cloud:
+    saves:
+      - path: SECRET MISSION/Mad King Redemption
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: SECRET MISSION/Mad King Redemption
+        pattern: gamesettings.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Mad King Redemption
+  launch:
+    - config:
+        oslist: windows
+      executable: "Mad King Redemption\\Mad King Redemption.exe"
+    - config:
+        oslist: macos
+      executable: Mad King Redemption.app/Contents/MacOS/Mad King Redemption
+  nameLocalized:
+    japanese: 輪廻戦記
+    koreana: 윤회 전기
+    schinese: 轮回战纪
+    tchinese: 輪迴戰紀
 2369900:
   installDir: Castlevania Dominus Collection
   launch:
@@ -623407,6 +623407,9 @@
         root: WinAppDataLocalLow
       - path: Lizard Smoothie/Shape of Dreams/QuickSave
         pattern: r_stats*.json
+        root: WinAppDataLocalLow
+      - path: Lizard Smoothie/Shape of Dreams/QuickSave
+        pattern: r_cloudbase*.json
         root: WinAppDataLocalLow
   installDir: Shape of Dreams
   launch:
@@ -643533,6 +643536,12 @@
         oslist: windows
       executable: "Liar's Bar.exe"
       type: default
+3099790:
+  installDir: Operation Night Strikers
+  launch:
+    - config:
+        oslist: windows
+      executable: OperationNightStrikers.exe
 3100370:
   cloud:
     saves:
@@ -648339,6 +648348,22 @@
   installDir: Retrowave 2
   launch:
     - executable: Retrowave 2.exe
+3333700:
+  cloud:
+    saves:
+      - path: TheRoyalWrit
+        pattern: "*.save"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: The Royal Writ
+  launch:
+    - executable: TheRoyalWrit.exe
+  nameLocalized:
+    japanese: 皇帝の新しいカード
+    koreana: 왕의 새 카드
+    schinese: 国王的新牌
+    tchinese: 國王的新牌
 3333990: {}
 3334710:
   cloud:
@@ -653853,6 +653878,70 @@
       type: option1
 3669620: {}
 3669870:
+  installDir: CONTROL Resonant
+  launch:
+    - config:
+        betakey: milestone
+      executable: profile/Game_x64_prof.exe
+    - config:
+        betakey: development
+      description: Development executable
+      executable: development/Game_x64_dev.exe
+    - config:
+        betakey: marketing_dev
+      executable: development/Game_x64_dev.exe
+    - config:
+        betakey: main_shipping
+      executable: CONTROLResonant.exe
+    - config:
+        betakey: release_shipping
+      executable: CONTROLResonant.exe
+    - config:
+        betakey: sgf_build
+      executable: profile/Game_x64_prof.exe
+    - config:
+        betakey: sgf_build_rc2
+      executable: profile/Game_x64_prof.exe
+    - config:
+        betakey: live_development
+      executable: development/Game_x64_dev.exe
+    - config:
+        betakey: live_profile
+      executable: profile/Game_x64_prof.exe
+    - config:
+        betakey: cert2_gm_shipping
+      executable: CONTROLResonant.exe
+    - config:
+        betakey: cert2_gm_development
+      executable: development/Game_x64_dev.exe
+    - config:
+        betakey: juha
+      executable: profile/Game_x64_prof.exe
+    - config:
+        betakey: annapurna
+      executable: profile/Game_x64_prof.exe
+    - config:
+        betakey: static_shipping
+      executable: CONTROLResonant.exe
+    - config:
+        betakey: static_development
+      executable: development/Game_x64_dev.exe
+    - executable: CONTROLResonant.exe
+    - config:
+        betakey: main_development
+      executable: development/Game_x64_dev.exe
+    - config:
+        betakey: release_development
+      executable: development/Game_x64_dev.exe
+    - config:
+        betakey: test
+      executable: development/Game_x64_dev.exe
+    - config:
+        betakey: release_profile
+      executable: profile/Game_x64_prof.exe
+    - config:
+        betakey: main_profile
+      executable: profile/Game_x64_prof.exe
   nameLocalized:
     japanese: CONTROL Resonant（コントロール レゾナント）
     koreana: CONTROL Resonant (컨트롤：레조넌트)
@@ -660927,6 +661016,7 @@
     russian: "Герой Королевства: Отголоски"
     schinese: 王国英雄：餘音
     ukrainian: "Герой Королівства: Відлуння"
+5219090: {}
 5227630: {}
 5233100: {}
 5244970: {}
