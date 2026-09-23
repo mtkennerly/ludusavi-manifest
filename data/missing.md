@@ -2214,6 +2214,8 @@
 * [Axes and Arrows](https://www.pcgamingwiki.com/wiki/?curid=46126)
 * [Axiel](https://www.pcgamingwiki.com/wiki/?curid=156017)
 * [Axion](https://www.pcgamingwiki.com/wiki/?curid=45320)
+* [Axis & Allies](https://www.pcgamingwiki.com/wiki/?curid=220819)
+* [Axis & Allies: Iron Blitz](https://www.pcgamingwiki.com/wiki/?curid=220817)
 * [Axis Football 2015](https://www.pcgamingwiki.com/wiki/?curid=47273)
 * [Axis Football 2016](https://www.pcgamingwiki.com/wiki/?curid=41966)
 * [Axis Football 2017](https://www.pcgamingwiki.com/wiki/?curid=68090)

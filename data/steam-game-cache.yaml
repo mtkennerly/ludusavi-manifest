@@ -607524,7 +607524,14 @@
   nameLocalized:
     japanese: サルファー
     schinese: 火湖
-2124360: {}
+2124360:
+  installDir: HYPER PRIMATE
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Launch HYPER PRIMATE for Windows
+      executable: HYPER PRIMATE.exe
 2124380:
   cloud:
     saves:
@@ -630269,6 +630276,106 @@
         oslist: windows
       executable: AffectionateAnnie.exe
       type: default
+2621930:
+  cloud:
+    saves:
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.achievement"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.collection"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.collection"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.conversion"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.inventory"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.itemUpgrader"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.playtime"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.quest"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.skilltree"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.yarnstorage"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.conversion"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.inventory"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.itemUpgrader"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.playtime"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.quest"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.skilltree"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Glory Jam/Grim Trials/save
+        pattern: "*.yarnstorage"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: ".local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save"
+        pattern: "*.achievement"
+        platforms:
+          - Linux
+        root: LinuxHome
+  installDir: Grim Trials
+  launch:
+    - executable: Grim Trials.exe
+      type: default
+  nameLocalized:
+    schinese: 少女死神养成计划
+    tchinese: 少女死神養成計畫
 2622000:
   installDir: Astral Party
   launch:

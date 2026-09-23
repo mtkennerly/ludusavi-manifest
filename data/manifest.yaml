@@ -316400,6 +316400,90 @@ Grim Sight:
     id: 758580
 "Grim Tales: The Wishes Collector's Edition":
   alias: "Grim Tales: The Wishes"
+Grim Trials:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.achievement":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.collection":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.conversion":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.inventory":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.itemUpgrader":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.playtime":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.quest":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.skilltree":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/Steam/steamapps/compatdata/2621930/pfx/drive_c/users/steamuser/AppData/LocalLow/Glory Jam/Grim Trials/save/*.yarnstorage":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.achievement":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.collection":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.conversion":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.inventory":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.itemUpgrader":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.playtime":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.quest":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.skilltree":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Glory Jam/Grim Trials/save/*.yarnstorage":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Grim Trials: {}
+  launch:
+    "<base>/Grim Trials.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2621930
 Grim Wanderings:
   installDir:
     Grim wanderings: {}
@@ -355889,6 +355973,14 @@ Hyper Primate:
         - save
       when:
         - os: windows
+  installDir:
+    HYPER PRIMATE: {}
+  launch:
+    "<base>/HYPER PRIMATE.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2124360
 Hyper Princess Pitch:
@@ -721996,10 +722088,12 @@ Terminal Velocity:
     gogExtra:
       - 1624869208
       - 1645176851
+      - 1832512955
     lutris: terminator-dark-fate-defiance
     steamExtra:
       - 2842170
       - 3650450
+      - 4157110
   installDir:
     Terminator Dark Fate - Defiance: {}
   launch:
