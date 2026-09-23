@@ -110656,7 +110656,7 @@ Heroes of the Offworld Arena:
 Heroes of the Pacific:
   pageId: 208065
   templates:
-    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Codemasters\\Heroes Of The Pacific}}"
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Codemasters\\Heroes Of The Pacific|{{p|hklm}}\\SOFTWARE\\Ubisoft\\Heroes Of The Pacific}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 Heroes of the Seven Seas:
   pageId: 51718
@@ -120746,6 +120746,8 @@ Intersolar Overdrive:
   gog: 1207659076
   lutris: interstate-82
   pageId: 14568
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.def|{{p|game}}\\i82perf.ini|{{p|game}}\\bindings.usr}}"
 Interstate Drifter 1999:
   lutris: interstate-drifter-1999
   pageId: 220414
@@ -168979,6 +168981,7 @@ OtterBash:
   pageId: 65586
   steam: 668800
 Otterly Lost:
+  lutris: otterly-lost
   pageId: 220295
   steam: 3861710
   steamSide:
@@ -180770,6 +180773,7 @@ Prince of Persia 3D:
   pageId: 191668
   steam: 2751000
   templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Ubisoft\\Prince Of Persia The Lost Crown}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Prince Of Persia The Lost Crown\\}}"
 "Prince of Persia: The Sands of Time":
   cloud:
@@ -211977,8 +211981,6 @@ Slow Roads:
     steam: true
   pageId: 220631
   steam: 3431300
-  steamSide:
-    - 4551650
 Slow.Bullet VR:
   pageId: 132544
   steam: 1047910
@@ -252124,6 +252126,7 @@ Thief Town:
 "Thief: The Dark Project Remastered":
   cloud:
     steam: true
+    xbox: true
   gog: 1477689565
   lutris: thief-the-dark-project-remastered
   pageId: 217454

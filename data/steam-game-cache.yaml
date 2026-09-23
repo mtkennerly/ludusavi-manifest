@@ -372864,7 +372864,7 @@
       type: default
     - config:
         oslist: macos
-      executable: "SongsOfConquest.app\\Contents\\MacOS\\SongsOfConquest"
+      executable: SongsOfConquest.app
       type: default
     - config:
         betakey: "prototype, twoandahalfd"
@@ -372876,7 +372876,7 @@
         betakey: "prototype, twoandahalfd"
         oslist: macos
       description: (develop)
-      executable: "AdventuresAndConquest.app\\Contents\\MacOS\\AdventuresAndConquest"
+      executable: AdventuresAndConquest.app
       type: default
   nameLocalized:
     schinese: 征服之歌
@@ -555542,6 +555542,10 @@
         pattern: "*"
         recursive: true
         root: WinAppDataLocalLow
+      - path: Digital Sun/Cataclismo/SavesMP/DLC_WarMap/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
     overrides:
       - addPath: unity3d/
         os: Linux
@@ -650074,7 +650078,53 @@
         osarch: "64"
         oslist: linux
       executable: "That's not my neighbor (Steam).x86_64"
-3431300: {}
+3431300:
+  cloud:
+    saves:
+      - path: slowroads/profiles
+        pattern: "*.roads"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: ".config/slowroads/profiles"
+        pattern: "*.roads"
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: slowroads/profiles
+        pattern: "*.roads"
+        platforms:
+          - MacOS
+        root: MacAppSupport
+      - path: slowroads/
+        pattern: radio-streams.json
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: ".config/slowroads/"
+        pattern: radio-streams.json
+        platforms:
+          - Linux
+        root: LinuxHome
+      - path: slowroads/
+        pattern: radio-streams.json
+        platforms:
+          - MacOS
+        root: MacAppSupport
+  installDir: Slow Roads
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: slowroads.exe
+      type: default
+    - arguments: "--no-sandbox --ozone-platform=x11"
+      config:
+        osarch: "64"
+        oslist: linux
+      description: Launch with x11
+      executable: slowroads
+      type: default
 3432750:
   installDir: Laundering Simulator
   launch:
@@ -656056,7 +656106,22 @@
       type: default
   nameLocalized:
     schinese: 时空迷踪
-3861710: {}
+3861710:
+  cloud:
+    saves:
+      - path: "SoulworksInteractive\\OtterlyLost"
+        pattern: "*.save"
+        root: WinAppDataLocalLow
+      - path: "SoulworksInteractive\\OtterlyLost"
+        pattern: "*.bac"
+        root: WinAppDataLocalLow
+  installDir: Otterly Lost
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: OtterlyLost.exe
+      type: default
 3862670:
   cloud:
     saves:

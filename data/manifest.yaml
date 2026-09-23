@@ -340295,6 +340295,9 @@ Heroes of the Pacific:
     HKEY_LOCAL_MACHINE/SOFTWARE/Codemasters/Heroes Of The Pacific:
       tags:
         - config
+    HKEY_LOCAL_MACHINE/SOFTWARE/Ubisoft/Heroes Of The Pacific:
+      tags:
+        - config
 Heroes of the Seven Seas:
   installDir:
     Heroes of the Seven Seas: {}
@@ -371753,6 +371756,22 @@ Intersolar Overdrive:
       - 1207658836
     lutris: interstate-76
 "Interstate '82":
+  files:
+    "<base>/bindings.usr":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/config.def":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/i82perf.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1207659076
   id:
@@ -517900,10 +517919,26 @@ OtterBash:
   steam:
     id: 668800
 Otterly Lost:
+  files:
+    "<home>/AppData/LocalLow/SoulworksInteractive/OtterlyLost/*.bac":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/SoulworksInteractive/OtterlyLost/*.save":
+      when:
+        - store: steam
   id:
+    lutris: otterly-lost
     steamExtra:
       - 4064140
       - 4079110
+  installDir:
+    Otterly Lost: {}
+  launch:
+    "<base>/OtterlyLost.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3861710
 Otto and the Ancient Worlds:
@@ -553814,6 +553849,10 @@ Prince of Persia 3D:
         when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Ubisoft/Prince Of Persia The Lost Crown:
+      tags:
+        - config
   steam:
     id: 2751000
 "Prince of Persia: The Sands of Time":
@@ -650485,9 +650524,45 @@ Slots & Daggers:
 Slow Roads:
   cloud:
     steam: true
-  id:
-    steamExtra:
-      - 4551650
+  files:
+    "<home>/.config/slowroads/profiles/*.roads":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/slowroads/radio-streams.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/slowroads/profiles/*.roads":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/slowroads/radio-streams.json":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/slowroads/profiles/*.roads":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/slowroads/radio-streams.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Slow Roads: {}
+  launch:
+    "<base>/slowroads":
+      - arguments: "--no-sandbox --ozone-platform=x11"
+        when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/slowroads.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3431300
 Slow.Bullet VR:
@@ -657898,7 +657973,7 @@ Songs of Conquest:
   installDir:
     SongsOfConquest: {}
   launch:
-    "<base>/SongsOfConquest.app/Contents/MacOS/SongsOfConquest":
+    "<base>/SongsOfConquest.app":
       - when:
           - os: mac
             store: steam
