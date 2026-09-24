@@ -251191,7 +251191,28 @@
         oslist: windows
       executable: May16_v2DaliVR.exe
       type: vr
-632950: {}
+632950:
+  cloud:
+    saves:
+      - path: Nightdive Studios/SiN Reloaded/base/save
+        pattern: "*.pak.zst"
+        platforms:
+          - Windows
+        root: WinSavedGames
+  installDir: SiN Reloaded
+  launch:
+    - config:
+        betakey: "default,press"
+        osarch: "64"
+        oslist: windows
+      executable: SiNReloaded.exe
+      type: default
+    - config:
+        betakey: "comunity,beta"
+        osarch: "64"
+        oslist: windows
+      executable: isis_Shipping_Steam_x64.exe
+      type: default
 633060:
   installDir: Orwell Ignorance is Strength
   launch:
@@ -519591,6 +519612,8 @@
         oslist: macos
       executable: Wrath.app
       type: default
+  nameLocalized:
+    schinese: 开拓者：正义之怒
 1184400:
   cloud:
     saves:
@@ -636215,6 +636238,18 @@
         oslist: windows
       executable: RENTAL.exe
       type: default
+2796640:
+  installDir: The Magus Circle
+  launch:
+    - config:
+        oslist: windows
+      executable: The Magus Circle.exe
+    - config:
+        oslist: macos
+      executable: The-Magus-Circle.app/Contents/MacOS/The Magus Circle
+    - config:
+        oslist: linux
+      executable: TheMagusCircle.x86_64
 2799050: {}
 2799350:
   cloud:
@@ -641271,7 +641306,7 @@
       type: default
       workingdir: "ph_ft\\work\\bin\\x64"
     - config:
-        betakey: "dev-daily,patch05-daily,patch06-daily"
+        betakey: "dev-daily,patch05-daily,patch06-daily,patch07-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "3061860"
@@ -641280,7 +641315,7 @@
       workingdir: "ph_ft\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
-        betakey: "dev-daily,third-party,patch05-daily,patch05-hotfix,patch06-daily"
+        betakey: "dev-daily,third-party,patch05-daily,patch05-hotfix,patch06-daily,patch07-daily"
         osarch: "64"
         oslist: windows
         ownsdlc: "3061860"
@@ -641289,7 +641324,7 @@
       workingdir: "ph_ft\\work\\bin\\x64"
     - arguments: "-nopopups"
       config:
-        betakey: "dev-daily,patch05-daily,patch05-hotfix,patch06-daily"
+        betakey: "dev-daily,patch05-daily,patch05-hotfix,patch06-daily,patch07-daily"
         osarch: "64"
         oslist: windows
       description: "Launch [RWP][NOPOPUPS]"
@@ -641305,7 +641340,7 @@
       executable: "ph_ft\\work\\bin\\x64\\DyingLightGame_TheBeast_x64_rwp.exe"
       workingdir: "ph_ft\\work\\bin\\x64"
   nameLocalized:
-    schinese: 《消逝的光芒：困兽》失地复苏版
+    schinese: 《消逝的光芒：困兽》
 3008300:
   cloud:
     saves:
@@ -655341,6 +655376,16 @@
     schinese: 原子之心 2
     tchinese: 原子之心 2
 3789050: {}
+3789080:
+  cloud:
+    saves:
+      - path: HIROTONFA_AmericanRevolutionSmuggler
+        pattern: "*.rmmzsave"
+        root: WinAppDataRoaming
+  installDir: HIROTONFA’s American Revolution Smuggler
+  launch:
+    - arguments: "--in-process-gpu"
+      executable: Game.exe
 3794610:
   cloud:
     saves:

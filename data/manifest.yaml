@@ -343052,6 +343052,7 @@ High Templar VR:
     id: 588550
 High on Life:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Oregon/Saved/Config/WinGDK":
@@ -343076,6 +343077,8 @@ High on Life:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 2040120327
   id:
     lutris: high-on-life
     steamExtra:
@@ -344809,6 +344812,27 @@ Hirogami:
           - store: steam
   steam:
     id: 3135840
+"Hirotonfa's American Revolution Smuggler":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/HIROTONFA_AmericanRevolutionSmuggler/*.rmmzsave":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4129720
+  installDir:
+    HIROTONFA’s American Revolution Smuggler: {}
+  launch:
+    "<base>/Game.exe":
+      - arguments: "--in-process-gpu"
+        when:
+          - store: steam
+  steam:
+    id: 3789080
 His Chuunibyou Cannot Be Cured!:
   installDir:
     His Chunnibyou Cannot Be Cured: {}
@@ -638847,13 +638871,22 @@ SiN:
     id: 1300
 SiN Reloaded:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<home>/Saved Games/Nightdive Studios/SiN Reloaded/base/save/*.pak.zst":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1627068096
   id:
     lutris: sin-reloaded-1
     steamExtra:
       - 4679680
+  installDir:
+    SiN Reloaded: {}
   steam:
     id: 632950
 "SiN: Reloaded":
@@ -752972,6 +753005,24 @@ The Magnificent Trufflepigs:
             store: steam
   steam:
     id: 1529550
+The Magus Circle:
+  installDir:
+    The Magus Circle: {}
+  launch:
+    "<base>/The Magus Circle.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/The-Magus-Circle.app/Contents/MacOS/The Magus Circle":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/TheMagusCircle.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2796640
 The Mahjong Huntress:
   cloud:
     steam: true

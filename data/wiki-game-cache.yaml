@@ -45085,6 +45085,8 @@ Clid the Snail:
   steam: 1597580
   steamSide:
     - 1739980
+Clif Danger:
+  pageId: 220848
 Cliff Empire:
   cloud:
     steam: true
@@ -111478,8 +111480,10 @@ High Treason:
   pageId: 180692
 High on Life:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 2040120327
   lutris: high-on-life
   pageId: 181153
   renamedFrom:
@@ -112014,6 +112018,15 @@ Hirogami:
     steam: true
   pageId: 205140
   steam: 3135840
+"Hirotonfa's American Revolution Smuggler":
+  cloud:
+    steam: true
+  pageId: 220850
+  steam: 3789080
+  steamSide:
+    - 4129720
+  templates:
+    - "{{Game data/saves|Windows|{{p|appdata}}\\HIROTONFA_AmericanRevolutionSmuggler\\*.rmmzsave}}"
 His Chuunibyou Cannot Be Cured!:
   pageId: 70569
   steam: 694520
@@ -208363,6 +208376,7 @@ SiN:
     - "{{Game data/saves|Windows|{{p|game}}\\SE1\\SAVE\\}}"
 SiN Reloaded:
   cloud:
+    gog: true
     steam: true
     xbox: true
   gog: 1627068096
@@ -208373,6 +208387,8 @@ SiN Reloaded:
   steam: 632950
   steamSide:
     - 4679680
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\SiN Reloaded\\base\\save\\*.pak.zst}}"
 SiNKR:
   cloud:
     steam: true
@@ -245282,6 +245298,9 @@ The Magnificent Trufflepigs:
     steam: true
   pageId: 167153
   steam: 1529550
+The Magus Circle:
+  pageId: 220852
+  steam: 2796640
 The Mahjong Huntress:
   cloud:
     steam: true
@@ -277373,6 +277392,8 @@ WinKings:
     steam: true
   pageId: 51471
   steam: 428920
+WinWorm:
+  pageId: 220857
 Wincars Racer:
   pageId: 53425
   steam: 451060
