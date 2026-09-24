@@ -656827,7 +656827,11 @@
     - executable: Marvel.exe
       type: default
 3932120: {}
-3932790: {}
+3932790:
+  installDir: Monday Dreams
+  launch:
+    - executable: GFD.exe
+      type: default
 3932890:
   installDir: Escape from Tarkov
   launch:

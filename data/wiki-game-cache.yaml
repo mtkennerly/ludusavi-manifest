@@ -96269,8 +96269,7 @@ Garfield Lasagna Party:
   lutris: garfield-caught-in-the-act
   pageId: 88455
 "Garfield: Escape From Monday":
-  cloud:
-    xbox: true
+  lutris: garfield-escape-from-monday
   pageId: 216596
   steam: 3932790
 "Garfield: It's All about Phonics - Kindergarten":
@@ -120761,7 +120760,8 @@ Intersolar Overdrive:
   lutris: interstate-82
   pageId: 14568
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\config.def|{{p|game}}\\i82perf.ini|{{p|game}}\\bindings.usr}}"
+    - "{{Game data/config|Windows|{{p|game}}\\config.def|{{p|game}}\\i82perf.ini|{{p|game}}\\bindings.usr|{{p|game}}\\Bindings\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 Interstate Drifter 1999:
   lutris: interstate-drifter-1999
   pageId: 220414
@@ -232475,17 +232475,34 @@ Tails of Iron:
     gog: true
     steam: true
   gog: 1621159343
+  gogSide:
+    - 1189042668
+    - 1209670251
+    - 1387230374
+    - 1417182616
+    - 1954984750
   lutris: tails-of-iron
   pageId: 171603
   steam: 1283410
+  steamSide:
+    - 1677120
+    - 1792940
+    - 2715450
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\TOI_Data\\Resources\\SaveFiles\\PlayerProfile.JSON}}"
     - "{{Game data/saves|Windows|{{P|game}}\\TOI_Data\\Resources\\SaveFiles\\PlayerSettings.JSON}}"
 "Tails of Iron 2: Whiskers of Winter":
   cloud:
+    epic: true
     steam: true
+  lutris: tails-of-iron-2-whiskers-of-winter
   pageId: 201253
   steam: 2473480
+  steamSide:
+    - 3058540
+    - 3119400
+    - 3246590
+    - 3349180
   templates:
     - "{{Game data/config|Windows|{{P|game}}/TOI2_Data/Resources/SaveFiles\\}}"
     - "{{Game data/saves|Windows|{{P|game}}/TOI2_Data/Resources/SaveFiles\\}}"

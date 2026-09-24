@@ -296633,6 +296633,14 @@ Garfield Lasagna Party:
   id:
     lutris: garfield-caught-in-the-act
 "Garfield: Escape From Monday":
+  id:
+    lutris: garfield-escape-from-monday
+  installDir:
+    Monday Dreams: {}
+  launch:
+    "<base>/GFD.exe":
+      - when:
+          - store: steam
   steam:
     id: 3932790
 "Garfield: Saving Arlene":
@@ -371769,6 +371777,11 @@ Intersolar Overdrive:
     lutris: interstate-76
 "Interstate '82":
   files:
+    "<base>/Bindings":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/bindings.usr":
       tags:
         - config
@@ -371782,6 +371795,11 @@ Intersolar Overdrive:
     "<base>/i82perf.ini":
       tags:
         - config
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
       when:
         - os: windows
   gog:
@@ -713730,7 +713748,17 @@ Tails of Iron:
   gog:
     id: 1621159343
   id:
+    gogExtra:
+      - 1189042668
+      - 1209670251
+      - 1387230374
+      - 1417182616
+      - 1954984750
     lutris: tails-of-iron
+    steamExtra:
+      - 1677120
+      - 1792940
+      - 2715450
   installDir:
     Tails of Iron: {}
   launch:
@@ -713762,6 +713790,7 @@ Tails of Iron:
     id: 1283410
 "Tails of Iron 2: Whiskers of Winter":
   cloud:
+    epic: true
     steam: true
   files:
     "<base>/TOI2_Data/Resources/SaveFiles":
@@ -713770,6 +713799,13 @@ Tails of Iron:
         - save
       when:
         - os: windows
+  id:
+    lutris: tails-of-iron-2-whiskers-of-winter
+    steamExtra:
+      - 3058540
+      - 3119400
+      - 3246590
+      - 3349180
   installDir:
     Tails of Iron 2 Whiskers of Winter: {}
   launch:
