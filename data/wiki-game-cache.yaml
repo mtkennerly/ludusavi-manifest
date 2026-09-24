@@ -88521,6 +88521,8 @@ Fisher-Price Learning in Toyland:
   pageId: 220768
 "Fisher-Price Read & Play: Yolanda Yellsalot":
   pageId: 220776
+"Fisher-Price Ready for School: Kindergarten":
+  pageId: 220842
 "Fisher-Price: Dream DollHouse: Where Dreams Come To Life":
   pageId: 220761
 Fishermurs:
@@ -106302,6 +106304,8 @@ Happy Wars:
     - 332190
     - 332191
 Happy Wheels:
+  cloud:
+    steam: true
   pageId: 220258
   steam: 4705510
   templates:
@@ -112456,6 +112460,14 @@ Hogwarts Legacy:
   lutris: hogwarts-legacy
   pageId: 163501
   steam: 990080
+  steamSide:
+    - 1377040
+    - 1386970
+    - 1880830
+    - 1880831
+    - 1880832
+    - 1880833
+    - 1880837
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Hogwarts Legacy\\Saved\\Config\\WindowsNoEditor|{{p|localappdata}}\\Hogwarts\\Saved\\Config\\WindowNoEditor{{P|uid}}{{note|Only uses {{folder|Hogwarts}} when streaming to other devices.<ref name=\"streaming\"/>}}|{{p|localappdata}}\\Phoenix\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Hogwarts Legacy\\Saved\\SaveGames\\{{P|uid}}|{{p|localappdata}}\\HogwartsLegacy\\Saved\\SaveGames\\{{P|uid}}{{note|Used by the Epic Games Launcher}}|{{p|localappdata}}\\Hogwarts\\Saved\\SaveGames\\{{P|uid}}{{note|Only uses {{folder|Hogwarts}} when streaming to other devices.<ref name=\"streaming\">{{Refurl|url=https://www.reddit.com/r/HarryPotterGame/comments/10wvual/lost_save_on_pc/|title=Lost save on PC - Reddit|date=2023-02-17}}</ref>}}|{{p|localappdata}}\\Phoenix\\Saved\\SaveGames\\{{P|uid}}}}"
@@ -114657,6 +114669,8 @@ How to Cope with Boredom and Loneliness:
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\PointBleepStudios\\Point Bleep TV\\HTC\\Settings\\Settings.txt|{{p|hkcu}}\\Software\\PointBleepStudios\\Point Bleep TV\\}}"
 How to Fish:
+  cloud:
+    steam: true
   lutris: how-to-fish
   pageId: 219725
   steam: 4001890
@@ -183978,6 +183992,10 @@ Puzzle Quest 2:
   steam: 47540
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\namco\\puzzle quest 2}}"
+Puzzle Quest 3:
+  lutris: puzzle-quest-3
+  pageId: 220845
+  steam: 1380410
 "Puzzle Quest: Challenge of the Warlords":
   cloud:
     steam: true

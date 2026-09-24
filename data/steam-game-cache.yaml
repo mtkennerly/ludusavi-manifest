@@ -551968,6 +551968,12 @@
       description: Windowed Mode
       executable: Dread X Collection 2.exe
       type: option1
+1380410:
+  installDir: Vengeance
+  launch:
+    - description: Launch the Game EXE
+      executable: PuzzleQuest3.exe
+      type: none
 1380420:
   cloud:
     saves:
@@ -596101,6 +596107,7 @@
       executable: GodotWorkshopUtility.app
       type: editor
   nameLocalized:
+    sc_schinese: 土豆兄弟(Brotato)
     schinese: 土豆兄弟(Brotato)
 1942330:
   cloud:
@@ -657651,6 +657658,11 @@
         oslist: windows
       executable: Iron Blight.exe
 4001890:
+  cloud:
+    saves:
+      - path: "Dazed Games/How to Fish/Saves/{64BitSteamID}"
+        pattern: "*"
+        root: WinAppDataLocalLow
   installDir: How to Fish
   launch:
     - config:
@@ -660797,7 +660809,9 @@
 4687500:
   nameLocalized:
     schinese: 穿越火线：潜伏
-4691270: {}
+4691270:
+  nameLocalized:
+    schinese: 英雄连：决定版 Company of Heroes - Definitive Edition
 4693030:
   installDir: Congratulations On Your Purchase
   launch:

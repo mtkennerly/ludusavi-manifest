@@ -327075,6 +327075,8 @@ Happy Wars:
   steam:
     id: 246280
 Happy Wheels:
+  cloud:
+    steam: true
   files:
     "<winAppData>/HappyWheels":
       tags:
@@ -346187,6 +346189,14 @@ Hogwarts Legacy:
         - os: windows
   id:
     lutris: hogwarts-legacy
+    steamExtra:
+      - 1377040
+      - 1386970
+      - 1880830
+      - 1880831
+      - 1880832
+      - 1880833
+      - 1880837
   installDir:
     Hogwarts Legacy: {}
   launch:
@@ -352564,6 +352574,8 @@ How to Cope with Boredom and Loneliness:
   steam:
     id: 797390
 How to Fish:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Dazed Games/How to Fish/Saves/*.txt":
       tags:
@@ -563909,6 +563921,17 @@ Puzzle Quest 2:
           - store: steam
   steam:
     id: 47540
+Puzzle Quest 3:
+  id:
+    lutris: puzzle-quest-3
+  installDir:
+    Vengeance: {}
+  launch:
+    "<base>/PuzzleQuest3.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1380410
 "Puzzle Quest: Challenge of the Warlords":
   cloud:
     steam: true
