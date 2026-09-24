@@ -48945,6 +48945,8 @@ Control Resonant:
     - Control 2
     - "Control: Resonant"
   steam: 3669870
+  steamSide:
+    - 4403940
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Remedy\\CONTROLResonant\\renderer.ini}}"
     - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3669870\\remote\\}}"
@@ -88525,6 +88527,8 @@ Fisher-Price Learning in Toyland:
   pageId: 220776
 "Fisher-Price Ready for School: Kindergarten":
   pageId: 220842
+"Fisher-Price Ready for School: Kindergarten Edition":
+  pageId: 220860
 "Fisher-Price: Dream DollHouse: Where Dreams Come To Life":
   pageId: 220761
 Fishermurs:
@@ -275490,6 +275494,7 @@ Welkin Road:
 Well Dweller:
   cloud:
     steam: true
+    xbox: true
   gog: 1571381382
   lutris: well-dweller
   pageId: 219847
@@ -282199,6 +282204,11 @@ Yemon:
 Yerah:
   pageId: 89288
   steam: 717380
+Yerba Buena:
+  cloud:
+    steam: true
+  pageId: 220859
+  steam: 2330110
 "Yes, Master!":
   pageId: 139562
   steam: 1090900

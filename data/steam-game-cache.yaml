@@ -618186,6 +618186,22 @@
       executable: PinballFX.exe
       type: default
 2329690: {}
+2330110:
+  cloud:
+    saves:
+      - path: Mad About Pandas/YerbaBuena
+        pattern: savegame.json
+        root: WinAppDataLocalLow
+      - path: Mad About Pandas/YerbaBuena Demo
+        pattern: savegame.json
+        root: WinAppDataLocalLow
+  installDir: Yerba Buena
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: YerbaBuena.exe
+      type: default
 2330430:
   cloud:
     saves:
@@ -661036,7 +661052,19 @@
 4849120: {}
 4856150: {}
 4863030: {}
-4870460: {}
+4870460:
+  cloud:
+    saves:
+      - path: "\\Antstream\\Alien Breed"
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Alien Breed 35th Anniversary
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Alien Breed.exe
+      type: default
 4877950: {}
 4886450:
   nameLocalized:

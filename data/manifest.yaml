@@ -30814,8 +30814,20 @@ Alien Breed 35th Anniversary Collection:
     epic: true
     gog: true
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Antstream/Alien Breed":
+      when:
+        - store: steam
   gog:
     id: 1236856891
+  installDir:
+    Alien Breed 35th Anniversary: {}
+  launch:
+    "<base>/Alien Breed.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4870460
 "Alien Breed 3: Descent":
@@ -151973,6 +151985,8 @@ Control Resonant:
         - os: windows
   id:
     lutris: control-resonant--1
+    steamExtra:
+      - 4403940
   installDir:
     CONTROL Resonant: {}
   launch:
@@ -861658,6 +861672,26 @@ Yerah:
     Yerah: {}
   steam:
     id: 717380
+Yerba Buena:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Mad About Pandas/YerbaBuena Demo/savegame.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Mad About Pandas/YerbaBuena/savegame.json":
+      when:
+        - store: steam
+  installDir:
+    Yerba Buena: {}
+  launch:
+    "<base>/YerbaBuena.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2330110
 "Yes, Master!":
   files:
     "<winAppData>/Yes, Master!":
