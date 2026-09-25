@@ -659042,6 +659042,12 @@
 4193690:
   nameLocalized:
     japanese: 天地創造
+4193730:
+  installDir: The NewZealand Story Untold Adventure
+  launch:
+    - config:
+        oslist: windows
+      executable: The NewZealand Story Untold Adventure.exe
 4197610:
   cloud:
     saves:

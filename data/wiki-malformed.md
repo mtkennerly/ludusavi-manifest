@@ -9,6 +9,7 @@
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)
+* [Interstate '82](https://www.pcgamingwiki.com/wiki/?curid=14568)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [JetFly](https://www.pcgamingwiki.com/wiki/?curid=68430)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)

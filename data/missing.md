@@ -27803,6 +27803,7 @@
 * [The New Girl](https://www.pcgamingwiki.com/wiki/?curid=91910)
 * [The New Kid on the Block](https://www.pcgamingwiki.com/wiki/?curid=186450)
 * [The New Queen](https://www.pcgamingwiki.com/wiki/?curid=56354)
+* [The NewZealand Story: Untold Adventure](https://www.pcgamingwiki.com/wiki/?curid=220870)
 * [The Next Day After Friday](https://www.pcgamingwiki.com/wiki/?curid=88170)
 * [The Next Door](https://www.pcgamingwiki.com/wiki/?curid=44040)
 * [The Next World](https://www.pcgamingwiki.com/wiki/?curid=44243)

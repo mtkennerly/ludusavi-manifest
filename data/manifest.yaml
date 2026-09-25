@@ -755603,6 +755603,16 @@ The New Queen:
     id: 1073990
 The New World:
   alias: "Colony Ship: A Post-Earth Role Playing Game"
+"The NewZealand Story: Untold Adventure":
+  installDir:
+    The NewZealand Story Untold Adventure: {}
+  launch:
+    "<base>/The NewZealand Story Untold Adventure.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4193730
 The Next Big Thing:
   cloud:
     gog: true
@@ -782938,6 +782948,11 @@ Tokyo Xtreme Racer:
         - save
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 3959440
+      - 3959450
+      - 4781590
   installDir:
     TokyoXtremeRacer: {}
   steam:

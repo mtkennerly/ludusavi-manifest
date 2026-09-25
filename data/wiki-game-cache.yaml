@@ -120782,6 +120782,7 @@ Intersolar Overdrive:
 "Interstate '82":
   gog: 1207659076
   lutris: interstate-82
+  malformed: true
   pageId: 14568
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.def|{{p|game}}\\i82perf.ini|{{p|game}}\\bindings.usr|{{p|game}}\\Bindings\\}}"
@@ -246094,6 +246095,9 @@ The New Queen:
 "The New Universes: ~ Eine Neue Reise Beginnt ~ Chapter 1":
   pageId: 141461
   steam: 1073990
+"The NewZealand Story: Untold Adventure":
+  pageId: 220870
+  steam: 4193730
 The Next Big Thing:
   cloud:
     gog: true
@@ -255066,6 +255070,10 @@ Tokyo Xtreme Racer:
     steam: true
   pageId: 197217
   steam: 2634950
+  steamSide:
+    - 3959440
+    - 3959450
+    - 4781590
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\TokyoXtremeRacer\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\TokyoXtremeRacer\\Saved\\SaveGames\\}}"
