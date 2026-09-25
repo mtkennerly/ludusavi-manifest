@@ -514699,7 +514699,7 @@
       type: default
     - arguments: "-steam +steam_environment dev +vtx_environment dev"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300 r5-301
         osarch: "64"
         oslist: windows
       description: Dev Endpoints (EOS)
@@ -514707,11 +514707,27 @@
       type: option1
     - arguments: "-steam"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300 r5-301
         osarch: "64"
         oslist: windows
       description: Prod Endpoints (EOS)
       executable: start_protected_game.exe
+      type: option1
+    - arguments: "--environment staging -steam +steam_environment dev +vtx_environment dev"
+      config:
+        betakey: r5dev r5-301
+        osarch: "64"
+        oslist: windows
+      description: Dev Endpoints (Javelin)
+      executable: EAAntiCheat.GameServiceLauncher.exe
+      type: option1
+    - arguments: "-steam"
+      config:
+        betakey: r5dev r5-301
+        osarch: "64"
+        oslist: windows
+      description: Prod Endpoints (Javelin)
+      executable: EAAntiCheat.GameServiceLauncher.exe
       type: option1
   nameLocalized:
     japanese: エーペックスレジェンズ
@@ -596604,6 +596620,9 @@
   nameLocalized:
     schinese: 亡灵巫师
     tchinese: 亡靈巫師
+1949610:
+  nameLocalized:
+    japanese: ルミナス・ナイツ
 1949810:
   installDir: RocketMania
   launch:
