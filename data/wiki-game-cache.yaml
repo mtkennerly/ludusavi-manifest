@@ -42920,7 +42920,13 @@ Chop Chop Princess!:
   steam: 718740
 Chop Goblins:
   cloud:
+    gog: true
     steam: true
+  gog: 1928696370
+  gogSide:
+    - 1130101325
+    - 1967949726
+    - 2054922957
   pageId: 184926
   steam: 1935660
 Chop It:
@@ -57267,6 +57273,7 @@ Darkenstein 3D:
   steam: 2195910
   steamSide:
     - 3007770
+    - 5224130
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Rowye\\Darkenstein3D}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Rowye\\Darkenstein3D}}"
@@ -59073,6 +59080,8 @@ Dead Watch:
   steamSide:
     - 4326150
 Dead Weight:
+  cloud:
+    steam: true
   pageId: 210180
   steam: 2646720
 Dead Wishes:
@@ -219329,6 +219338,9 @@ Sprawl Zero:
     - 4247830
     - 4993840
     - 5059870
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Silas\\Saved\\Config\\Windows\\GameUserSettings.ini|{{P|localappdata}}\\Silas\\Saved\\SaveGames\\Settings.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Silas\\Saved\\SaveGames\\Profiles.sav|{{P|localappdata}}\\Silas\\Saved\\SaveGames\\SlotX_CHECKPOINT.sav}}"
 Spray Dynamite X Radioactive Insects:
   pageId: 122400
   steam: 967960
@@ -219738,6 +219750,7 @@ Squirrel Sphere:
   pageId: 88738
   steam: 776790
 Squirrel Stapler:
+  gog: 2106890500
   pageId: 192753
   steam: 2535830
 Squirrel with a Gun:
@@ -247036,7 +247049,9 @@ The Polynesian Cultural Center VR Experience:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.polynomial/}}"
 The Pony Factory:
   cloud:
+    gog: true
     steam: true
+  gog: 2140908917
   pageId: 192740
   steam: 2536530
 The Portal Dimension - Bizarre Huntseeker:

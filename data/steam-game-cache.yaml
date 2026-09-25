@@ -646106,6 +646106,16 @@
     schinese: 哀鸿：城破十日记
     tchinese: 哀鴻：城破十日記
 3222640:
+  cloud:
+    saves:
+      - path: Toplitz Productions/WildWestPioneers/Saves
+        pattern: "*.wwp"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Wild West Pioneers
+  launch:
+    - executable: WWP.exe
   nameLocalized:
     schinese: 西部拓荒纪
 3222830:
@@ -658939,6 +658949,12 @@
         root: WinAppDataLocalLow
       - path: BunchoNerds/I Know a Guy
         pattern: Statistics.json
+        root: WinAppDataLocalLow
+      - path: BunchoNerds/I Know a Guy
+        pattern: Save_*.jpg
+        root: WinAppDataLocalLow
+      - path: BunchoNerds/I Know a Guy/SavedPhotos
+        pattern: "*.jpg"
         root: WinAppDataLocalLow
   installDir: I Know a Guy
   launch:

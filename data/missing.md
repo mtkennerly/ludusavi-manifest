@@ -31206,7 +31206,6 @@
 * [Wild West and Wizards](https://www.pcgamingwiki.com/wiki/?curid=135494)
 * [Wild West Dynasty](https://www.pcgamingwiki.com/wiki/?curid=172017)
 * [Wild West Online](https://www.pcgamingwiki.com/wiki/?curid=93619)
-* [Wild West Pioneers](https://www.pcgamingwiki.com/wiki/?curid=220633)
 * [Wild West Saga:Idle Tycoon](https://www.pcgamingwiki.com/wiki/?curid=93684)
 * [Wild West Supermarket Simulator](https://www.pcgamingwiki.com/wiki/?curid=218026)
 * [Wild West VR](https://www.pcgamingwiki.com/wiki/?curid=96643)

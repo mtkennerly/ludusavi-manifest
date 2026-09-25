@@ -132958,11 +132958,19 @@ Chop Chop Princess!:
     id: 718740
 Chop Goblins:
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/user/*.sav":
       when:
         - store: steam
+  gog:
+    id: 1928696370
+  id:
+    gogExtra:
+      - 1130101325
+      - 1967949726
+      - 2054922957
   installDir:
     Chop Goblins: {}
   launch:
@@ -176984,6 +176992,7 @@ Darkenstein 3D:
   id:
     steamExtra:
       - 3007770
+      - 5224130
   installDir:
     Darkenstein 3D: {}
   launch:
@@ -182625,6 +182634,8 @@ Dead Watch:
   steam:
     id: 3464670
 Dead Weight:
+  cloud:
+    steam: true
   files:
     "<winAppData>/Godot/app_userdata/Dead_weight/saves2646720/*.res":
       when:
@@ -358312,7 +358323,13 @@ I Know Everything:
   cloud:
     steam: true
   files:
+    "<home>/AppData/LocalLow/BunchoNerds/I Know a Guy/Save_*.jpg":
+      when:
+        - store: steam
     "<home>/AppData/LocalLow/BunchoNerds/I Know a Guy/Save_*.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/BunchoNerds/I Know a Guy/SavedPhotos/*.jpg":
       when:
         - store: steam
     "<home>/AppData/LocalLow/BunchoNerds/I Know a Guy/Statistics.json":
@@ -673001,15 +673018,26 @@ Sprawl:
     id: 1549690
 Sprawl Zero:
   files:
-    "<winLocalAppData>/Silas/Saved/SaveGames/*_CHECKPOINT.sav":
+    "<winLocalAppData>/Silas/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winLocalAppData>/Silas/Saved/SaveGames/Achievements.sav":
-      when:
-        - store: steam
+        - os: windows
     "<winLocalAppData>/Silas/Saved/SaveGames/Profiles.sav":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Silas/Saved/SaveGames/Settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Silas/Saved/SaveGames/SlotX_CHECKPOINT.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: sprawl-zero
     steamExtra:
@@ -674431,6 +674459,8 @@ Squirrel Sphere:
   steam:
     id: 776790
 Squirrel Stapler:
+  gog:
+    id: 2106890500
   installDir:
     Squirrel Stapler: {}
   steam:
@@ -758464,11 +758494,14 @@ The Polynesian Cultural Center VR Experience:
     id: 67000
 The Pony Factory:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/David Szymanski/The Pony Factory/*.dat":
       when:
         - store: steam
+  gog:
+    id: 2140908917
   installDir:
     The Pony Factory: {}
   steam:
@@ -846109,10 +846142,21 @@ Wild West Online:
 Wild West Pioneers:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Toplitz Productions/WildWestPioneers/Saves/*.wwp":
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 3700780
       - 4102220
+  installDir:
+    Wild West Pioneers: {}
+  launch:
+    "<base>/WWP.exe":
+      - when:
+          - store: steam
   steam:
     id: 3222640
 "Wild West Saga:Idle Tycoon":
