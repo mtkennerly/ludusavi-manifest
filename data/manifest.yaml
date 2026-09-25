@@ -61206,6 +61206,17 @@ Away from beauty 色即是空:
   steam:
     id: 573110
 "Away: The Survival Series":
+  files:
+    "<winLocalAppData>/Away/Saved/Config/WindowsNoEditor/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Away/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     AWAY The Survival Series: {}
   launch:
@@ -423586,6 +423597,10 @@ Lorelei and the Laser Eyes:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: lorelei-and-the-laser-eyes
+    steamExtra:
+      - 2940730
   installDir:
     Lorelei and the Laser Eyes: {}
   launch:
@@ -638893,6 +638908,11 @@ SiN Reloaded:
     gog: true
     steam: true
   files:
+    "<home>/Saved Games/Nightdive Studios/SiN Reloaded":
+      tags:
+        - save
+      when:
+        - os: windows
     "<home>/Saved Games/Nightdive Studios/SiN Reloaded/base/save/*.pak.zst":
       tags:
         - save
