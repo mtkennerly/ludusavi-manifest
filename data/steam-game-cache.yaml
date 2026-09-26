@@ -268676,10 +268676,15 @@
         oslist: windows
       executable: Mechabellum.exe
       type: default
+    - config:
+        oslist: macos
+      executable: Mechabellum.app
+      type: default
   nameLocalized:
     english: Mechabellum
     sc_schinese: 钢铁指挥官
     schinese: 钢铁指挥官
+    tchinese: 鋼鐵指揮官
 669340:
   cloud:
     saves:

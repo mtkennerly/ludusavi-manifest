@@ -151871,6 +151871,11 @@ Control:
         - store: epic
         - store: gog
         - store: steam
+    "<home>/Library/Application Support/com.remedygames.control-ue-steam/renderer.ini":
+      tags:
+        - config
+      when:
+        - os: mac
     "<home>/Library/Containers/com.remedygames.control-ue/Data/Library/Application Support/com.remedygames.control-ue/nlps-storage/Default-Apple-User":
       tags:
         - save
@@ -448422,6 +448427,10 @@ Mechabellum:
   installDir:
     Mechabellum: {}
   launch:
+    "<base>/Mechabellum.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Mechabellum.exe":
       - when:
           - bit: 64
