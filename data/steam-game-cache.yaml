@@ -114114,6 +114114,17 @@
         oslist: windows
       description: Launch
       executable: FAMenu.exe
+383110:
+  installDir: BattleSquadron
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: BSquadMenu.exe
+    - config:
+        oslist: macos
+      description: Launch
+      executable: BattleSquadron.app
 383120:
   installDir: Empyrion - Galactic Survival
   launch:
@@ -534662,8 +534673,7 @@
 1238060:
   installDir: Dead Space 3
   launch:
-    - executable: "link2ea://launchgame/1238060?platform=steam&theme=ds3"
-      type: none
+    - executable: "steam2ea://launchgame/1238060?platform=steam&theme=ds3"
   nameLocalized:
     koreana: 데드 스페이스 3
     tchinese: 絕命異次元3

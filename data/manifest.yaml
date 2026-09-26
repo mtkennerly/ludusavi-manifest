@@ -34907,6 +34907,10 @@ Always the Same Blue Sky...:
   steam:
     id: 363410
 Am I Nima:
+  id:
+    lutris: am-i-nima
+    steamExtra:
+      - 3317110
   steam:
     id: 3224600
 Amairo Chocolate:
@@ -72795,6 +72799,20 @@ Battle Species:
             store: steam
   steam:
     id: 910750
+"Battle Squadron: The Destruction of the Barrax Empire":
+  installDir:
+    BattleSquadron: {}
+  launch:
+    "<base>/BSquadMenu.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/BattleSquadron.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 383110
 Battle Squares:
   installDir:
     BattleSquares: {}

@@ -11174,8 +11174,11 @@ Always the Same Blue Sky...:
     - "{{Game data/config|Windows|{{p|appdata}}\\RenPy\\Always The Same Blue Sky-1334743217\\persistent}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\Always The Same Blue Sky-1334743217\\*.save}}"
 Am I Nima:
+  lutris: am-i-nima
   pageId: 219300
   steam: 3224600
+  steamSide:
+    - 3317110
 Amairo Chocolate:
   cloud:
     gog: true
@@ -23532,6 +23535,9 @@ Battle Sorcerers:
 Battle Species:
   pageId: 113638
   steam: 910750
+"Battle Squadron: The Destruction of the Barrax Empire":
+  pageId: 220891
+  steam: 383110
 Battle Squares:
   pageId: 108254
   steam: 681990
@@ -54445,6 +54451,8 @@ Cutthroat:
 Cutthroat Gunboat:
   pageId: 65728
   steam: 661220
+"Cutthroats: Terror on the High Seas":
+  pageId: 220889
 CyClones:
   cloud:
     gog: true
