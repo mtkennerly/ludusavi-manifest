@@ -4893,6 +4893,9 @@ AVARIAvs:
 AVSEQ:
   pageId: 13237
   steam: 207670
+  templates:
+    - "{{Game data/config|Windows|{{ii}} Configuration files are in the same location as the save files.}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\BIG ROBOT Ltd\\AVSEQ}}"
 AWA:
   pageId: 33516
   steam: 489580
@@ -14819,7 +14822,7 @@ Arcadecraft:
   steam: 297330
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\Arcadecraft Save 1_0\\Player1\\Options.txt|{{p|hkcu}}\\Software\\Firebase\\Arcadecraft}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\Arcadecraft Save 1_0\\Player1\\ArcadeGame.txt|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\Arcadecraft Save 1_0\\Player1\\Milestones.txt|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\Arcadecraft Save 1_0\\Player1\\Scores.txt}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SavedGames\\Arcadecraft\\}}"
 Arcadegeddon:
   cloud:
     epic: true
@@ -18537,7 +18540,6 @@ AtmaSphere:
   pageId: 80988
   steam: 753660
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\MazenGames\\AtmaSphereFinal}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\MazenGames\\AtmaSphereFinal}}"
 Atmocity:
   cloud:
@@ -19132,6 +19134,9 @@ Australian Road Trains:
 Australian Trip:
   pageId: 77289
   steam: 757870
+  templates:
+    - "{{Game data/config|Windows|{{ii}} Configuration files are in the same folder as the save files.}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\AustralianTrip\\User Data\\Default\\IndexedDB\\}}"
 Author Clicker:
   cloud:
     steam: true
@@ -19713,6 +19718,9 @@ Awaken - Astral Blade:
 Awakened:
   pageId: 35170
   steam: 493770
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\GenuineFlipFlopsGames(www.Genuineflip-flops.com)\\Awakened}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\GenuineFlipFlopsGames(www.Genuineflip-flops.com)\\Awakened}}"
 Awakening of Celestial:
   pageId: 94385
   steam: 812590
@@ -19762,6 +19770,8 @@ Awaria:
 Away:
   pageId: 113144
   steam: 757910
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Inversion Software\\Away}}"
 "Away From Earth: Moon":
   pageId: 125601
   steam: 1008530
@@ -20029,6 +20039,9 @@ Azai - TD:
 Aztaka:
   pageId: 41204
   steam: 37100
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Aztaka.cfg}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Aztaka\\Profiles\\}}"
 Aztec Number:
   pageId: 96401
   steam: 864370
@@ -57403,6 +57416,7 @@ Darkness Rollercoaster - Ultimate Shooter Edition:
   pageId: 149754
   steam: 1142850
 "Darkness Within 2: The Dark Lineage":
+  lutris: darkness-within-2-the-dark-lineage
   pageId: 49175
   steam: 298950
   steamSide:
@@ -57411,6 +57425,9 @@ Darkness Rollercoaster - Ultimate Shooter Edition:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Darkness Within 2\\config.txt}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Darkness Within 2\\}}"
 "Darkness Within: In Pursuit of Loath Nolder":
+  cloud:
+    steam: true
+  lutris: darkness-within-in-pursuit-of-loath-nolder
   pageId: 49339
   steam: 298930
   steamSide:
@@ -137448,6 +137465,9 @@ Look Outside:
   steam: 3373660
   steamSide:
     - 3580350
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\save\\config.rmmzsave}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 Looking Back:
   pageId: 141798
   steam: 1068680
@@ -174250,6 +174270,8 @@ Perfect Universe:
 Perfect Weapon:
   gog: 2114931848
   pageId: 187015
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\Software\\American Softworks\\Perfect Weapon}}"
 Perfect World International:
   pageId: 43522
   steam: 442110
@@ -258411,6 +258433,9 @@ Train Sim World 7:
     xbox: true
   pageId: 220517
   steam: 4678800
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\TrainSimWorld7\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\Documents\\My Games\\TrainSimWorld7\\Saved\\SaveGames}}"
 Train Simulator:
   cloud:
     steam: true

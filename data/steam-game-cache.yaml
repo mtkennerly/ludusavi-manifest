@@ -637181,7 +637181,7 @@
       executable: ".\\PlayGround\\Binaries\\Win64\\PlayGround-Win64-Test.exe"
       type: option1
     - config:
-        betakey: shipping_st dev_prev megalodon
+        betakey: shipping_st dev_prev megalodon preview
         osarch: "64"
         oslist: windows
       description: Shipping
@@ -637196,7 +637196,7 @@
       type: option1
     - arguments: "-Telemetry"
       config:
-        betakey: sunspots
+        betakey: sunspots dev_prev
         osarch: "64"
         oslist: windows
       description: build in Test configuration
