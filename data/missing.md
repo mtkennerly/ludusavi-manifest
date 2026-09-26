@@ -26624,7 +26624,6 @@
 * [Terra Incognito - Antarctica 1911](https://www.pcgamingwiki.com/wiki/?curid=124484)
 * [Terra Lander II: Rockslide Rescue](https://www.pcgamingwiki.com/wiki/?curid=171835)
 * [Terra Memoria](https://www.pcgamingwiki.com/wiki/?curid=194062)
-* [Terra Nova: Strike Force Centauri](https://www.pcgamingwiki.com/wiki/?curid=23867)
 * [Terra Randoma](https://www.pcgamingwiki.com/wiki/?curid=145296)
 * [Terra Tanks: Defenders of the Earth](https://www.pcgamingwiki.com/wiki/?curid=76287)
 * [Terraform](https://www.pcgamingwiki.com/wiki/?curid=47974)

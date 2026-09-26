@@ -120817,7 +120817,6 @@ Intersolar Overdrive:
 "Interstate '82":
   gog: 1207659076
   lutris: interstate-82
-  malformed: true
   pageId: 14568
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.def|{{p|game}}\\i82perf.ini|{{p|game}}\\bindings.usr|{{p|game}}\\Bindings\\}}"
@@ -125536,6 +125535,13 @@ KAKUDO:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\KAKUDO\\Saved\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\KAKUDO\\Saved\\}}"
+"KALPA: Cosmic Symphony":
+  cloud:
+    steam: true
+  pageId: 220896
+  steam: 2717010
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\QueseraGames\\KALPA CosmicSymphony\\}}"
 "KAMASUTRA \\ 爱经":
   pageId: 120739
   steam: 965160

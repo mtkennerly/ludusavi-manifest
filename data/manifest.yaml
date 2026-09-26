@@ -386171,6 +386171,25 @@ KAKUDO:
     KAKUDO: {}
   steam:
     id: 2063510
+"KALPA: Cosmic Symphony":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/QueseraGames/KALPA CosmicSymphony":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    KALPA CosmicSymphony: {}
+  launch:
+    "<base>/KALPA CosmicSymphony.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2717010
 "KAMASUTRA \\ 爱经":
   steam:
     id: 965160
@@ -722836,6 +722855,10 @@ Terra Nil:
 "Terra Nova: Strike Force Centauri":
   cloud:
     gog: true
+  files:
+    "<base>/TNOVA/*.RES":
+      when:
+        - store: steam
   gog:
     id: 1434984562
   id:
@@ -722843,42 +722866,24 @@ Terra Nil:
   installDir:
     Terra Nova Strike Force Centauri: {}
   launch:
-    "<base>/Terra Nova.app":
+    "<base>/_DOSBOX/TerraNova.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+        workingDir: "<base>/_DOSBOX"
+    "<base>/_DOSBOX/TerraNovaSFC.command":
       - when:
           - os: mac
             store: steam
-    "<base>/dosbox_linux/daum/launch_terranova_game_daum.sh":
-      - when:
-          - os: linux
-            store: steam
-        workingDir: "<base>/dosbox_linux/daum"
-    "<base>/dosbox_linux/launch_terranova_config.sh":
-      - when:
-          - os: linux
-            store: steam
-        workingDir: "<base>/dosbox_linux"
-    "<base>/dosbox_linux/launch_terranova_game.sh":
-      - when:
-          - os: linux
-            store: steam
-        workingDir: "<base>/dosbox_linux"
-    "<base>/dosbox_windows/daum/dosbox.exe":
-      - arguments: "-conf dosbox_terranova.conf -conf dosbox_terranova_launch_windows.conf -noconsole"
+        workingDir: "<base>/_DOSBOX"
+    "<base>/_DOSBOX/dosbox-staging.exe":
+      - arguments: "-conf dosbox_terranova_windows.conf -conf dosbox_terranova_windows_launch.conf -noprimaryconf -noconsole"
         when:
-          - os: windows
+          - bit: 64
+            os: windows
             store: steam
-        workingDir: "<base>/dosbox_windows/daum"
-    "<base>/dosbox_windows/dosbox.exe":
-      - arguments: "-conf dosbox_terranova.conf -conf dosbox_terranova_launch_windows.conf -noconsole"
-        when:
-          - os: windows
-            store: steam
-        workingDir: "<base>/dosbox_windows"
-      - arguments: "-conf dosbox_terranova.conf -conf dosbox_terranova_config_windows.conf -noconsole"
-        when:
-          - os: windows
-            store: steam
-        workingDir: "<base>/dosbox_windows"
+        workingDir: "<base>/_DOSBOX"
   steam:
     id: 368600
 Terra Randoma:

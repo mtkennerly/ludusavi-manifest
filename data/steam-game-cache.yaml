@@ -104122,47 +104122,30 @@
       executable: AlbertandOtto.x86
       type: none
 368600:
+  cloud:
+    saves:
+      - path: TNOVA
+        pattern: "*.RES"
+        root: gameinstall
   installDir: Terra Nova Strike Force Centauri
   launch:
-    - arguments: "-conf dosbox_terranova.conf -conf dosbox_terranova_launch_windows.conf -noconsole"
+    - arguments: "-conf dosbox_terranova_windows.conf -conf dosbox_terranova_windows_launch.conf -noprimaryconf -noconsole"
       config:
+        osarch: "64"
         oslist: windows
-      description: Launch
-      executable: "dosbox_windows\\dosbox.exe"
-      workingdir: "dosbox_windows\\"
-    - arguments: "-conf dosbox_terranova.conf -conf dosbox_terranova_launch_windows.conf -noconsole"
-      config:
-        oslist: windows
-      description: Play Terra Nova in DOSBox Daum
-      executable: "dosbox_windows\\daum\\dosbox.exe"
-      workingdir: "dosbox_windows\\daum\\"
-    - arguments: "-conf dosbox_terranova.conf -conf dosbox_terranova_config_windows.conf -noconsole"
-      config:
-        oslist: windows
-      description: Terra Nova - Configuration
-      executable: "dosbox_windows\\dosbox.exe"
-      type: none
-      workingdir: "dosbox_windows\\"
-    - config:
-        oslist: linux
-      description: Launch
-      executable: "dosbox_linux\\launch_terranova_game.sh"
-      workingdir: "dosbox_linux\\"
-    - config:
-        oslist: linux
-      description: Play Terra Nova in DOSBox Daum
-      executable: "dosbox_linux\\daum\\launch_terranova_game_daum.sh"
-      workingdir: "dosbox_linux\\daum\\"
-    - config:
-        oslist: linux
-      description: Terra Nova - Configuration
-      executable: "dosbox_linux\\launch_terranova_config.sh"
-      type: none
-      workingdir: "dosbox_linux\\"
+      executable: "_DOSBOX\\dosbox-staging.exe"
+      type: default
+      workingdir: "_DOSBOX\\"
     - config:
         oslist: macos
-      description: Launch
-      executable: Terra Nova.app
+      executable: _DOSBOX/TerraNovaSFC.command
+      type: default
+      workingdir: _DOSBOX/
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: _DOSBOX/TerraNova.sh
+      workingdir: _DOSBOX/
 368610:
   cloud:
     saves:
@@ -634058,6 +634041,24 @@
       description: The Rise of the Golden Idol (Compatibility)
       executable: game.exe
       type: option1
+2717010:
+  cloud:
+    saves:
+      - path: "\\QueseraGames\\KALPA CosmicSymphony\\"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: KALPA CosmicSymphony
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: KALPA CosmicSymphony.exe
+      type: default
+  nameLocalized:
+    japanese: "カルパ: コズミック シンフォニー(KALPA: Cosmic Symphony)"
+    koreana: "칼파: 코스믹 심포니(KALPA: Cosmic Symphony)"
 2717260:
   installDir: "I'm counting to 6"
   launch:
