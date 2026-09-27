@@ -146,6 +146,7 @@ $1 Ride:
     epic: true
     steam: true
     xbox: true
+  lutris: 007-first-light
   pageId: 205132
   steam: 3768760
   steamSide:
@@ -49265,6 +49266,7 @@ Coral Island:
   cloud:
     steam: true
     xbox: true
+  lutris: coral-island
   pageId: 177802
   steam: 1158160
   steamSide:
@@ -65866,6 +65868,11 @@ Disney Universe:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Disney Interactive Studios\\Chicken Little 2}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Disney Interactive Studios\\Chicken Little 2\\SaveGames}}"
+"Disney's Dinosaur Activity Center":
+  pageId: 220898
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\engine.ini|{{p|game}}\\tango.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saved}}"
 "Disney's Hercules":
   gog: 1117508714
   pageId: 40470
@@ -107562,11 +107569,15 @@ He Needs His Medicine:
   pageId: 192350
   steam: 1590360
 He Who Watches:
+  cloud:
+    steam: true
   lutris: he-who-watches
   pageId: 219293
   steam: 1070500
   steamSide:
     - 2381760
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Danga Games\\He Who Watches\\*.sav}}"
 He Will Shoot:
   pageId: 173706
   steam: 1814200
@@ -167492,7 +167503,7 @@ Onimod Land:
   steam: 2638890
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\}}"
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3974650\\remote\\win64_save\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\2638890\\remote\\win64_save\\}}"
     - "{{Game data/saves|Epic Games Store|{{P|appdata}}\\Capcom\\OnimushaWotS\\{{P|uid}}\\}}"
 Oninaki:
   cloud:
@@ -271823,6 +271834,8 @@ Wally and the FANTASTIC PREDATORS:
   steam: 1077450
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Wally_and_the_FANTASTIC_PREDATORS\\default\\*.sav}}"
+Walnuts:
+  pageId: 220902
 "Walt Disney World Quest: Magical Racing Tour":
   pageId: 17957
   templates:

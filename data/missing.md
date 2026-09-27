@@ -30643,6 +30643,7 @@
 * [Wallrunners](https://www.pcgamingwiki.com/wiki/?curid=91236)
 * [Walls in Dead](https://www.pcgamingwiki.com/wiki/?curid=91939)
 * [Wallslide](https://www.pcgamingwiki.com/wiki/?curid=42335)
+* [Walnuts](https://www.pcgamingwiki.com/wiki/?curid=220902)
 * [Wampee Helicopters](https://www.pcgamingwiki.com/wiki/?curid=134548)
 * [Wamu Wamu 2](https://www.pcgamingwiki.com/wiki/?curid=155337)
 * [Wanda - A Beautiful Apocalypse](https://www.pcgamingwiki.com/wiki/?curid=42700)

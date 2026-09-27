@@ -454,6 +454,7 @@ $1 Ride:
         - os: windows
           store: epic
   id:
+    lutris: 007-first-light
     steamExtra:
       - 3950810
       - 3950820
@@ -152832,6 +152833,7 @@ Coral Island:
       when:
         - os: windows
   id:
+    lutris: coral-island
     steamExtra:
       - 2273380
       - 2471180
@@ -203435,6 +203437,23 @@ Disney Universe:
     id: 338300
 "Disney's Dinosaur":
   alias: Dinosaur
+"Disney's Dinosaur Activity Center":
+  files:
+    "<base>/Saved":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/engine.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/tango.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 "Disney's Hercules":
   files:
     "<base>/DISNEY.INI":
@@ -330657,18 +330676,14 @@ He Needs His Medicine:
   steam:
     id: 1590360
 He Who Watches:
+  cloud:
+    steam: true
   files:
-    "<home>/.config/unity3d/Danga Games/He Who Watches/*.sav":
-      when:
-        - os: linux
-          store: steam
     "<home>/AppData/LocalLow/Danga Games/He Who Watches/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Danga Games/He Who Watches/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: he-who-watches
     steamExtra:
@@ -513150,7 +513165,7 @@ Onimod Land:
     epic: true
     steam: true
   files:
-    "<root>/userdata/<storeUserId>/3974650/remote/win64_save":
+    "<root>/userdata/<storeUserId>/2638890/remote/win64_save":
       tags:
         - save
       when:
@@ -751094,11 +751109,17 @@ The Life and Suffering of Prince Jerian:
   files:
     "<home>/AppData/LocalLow/Schisma/The Life and Suffering of Prince Jerian/Saves/**/*.dat":
       when:
-        - os: windows
-          store: steam
+        - store: steam
     "<home>/AppData/LocalLow/Schisma/The Life and Suffering of Prince Jerian/Saves/**/*.txt":
       when:
-        - os: windows
+        - store: steam
+    "<home>/Library/Application Support/Schisma/The Life and Suffering of Prince Jerian/Saves/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Schisma/The Life and Suffering of Prince Jerian/Saves/*.txt":
+      when:
+        - os: mac
           store: steam
   id:
     lutris: the-life-and-suffering-of-prince-jerian
@@ -751110,6 +751131,10 @@ The Life and Suffering of Prince Jerian:
   installDir:
     The Life and Suffering of Prince Jerian: {}
   launch:
+    "<base>/The Life and Suffering of Prince Jerian.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/The Life and Suffering of Prince Jerian.exe":
       - when:
           - bit: 64

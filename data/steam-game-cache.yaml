@@ -639902,16 +639902,20 @@
     saves:
       - path: "Schisma\\The Life and Suffering of Prince Jerian\\Saves\\"
         pattern: "*.dat"
-        platforms:
-          - Windows
         recursive: true
         root: WinAppDataLocalLow
       - path: "Schisma\\The Life and Suffering of Prince Jerian\\Saves\\"
         pattern: "*.txt"
-        platforms:
-          - Windows
         recursive: true
         root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Schisma\\The Life and Suffering of Prince Jerian\\Saves\\"
+            replace: Schisma/The Life and Suffering of Prince Jerian/Saves/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: The Life and Suffering of Prince Jerian
   launch:
     - config:
@@ -639919,6 +639923,9 @@
         oslist: windows
       executable: The Life and Suffering of Prince Jerian.exe
       type: default
+    - config:
+        oslist: macos
+      executable: The Life and Suffering of Prince Jerian.app
 2936810: {}
 2937110: {}
 2938840:
@@ -659706,7 +659713,7 @@
 4317690:
   cloud:
     saves:
-      - path: "CrimsonMoonNG\\Saved\\SaveGames"
+      - path: CrimsonMoonNG/Saved/SaveGames
         pattern: "*.*"
         root: WinAppDataLocal
     overrides:
