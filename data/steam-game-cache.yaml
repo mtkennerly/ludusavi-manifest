@@ -627958,6 +627958,13 @@
     - config:
         osarch: "64"
         oslist: windows
+      description: "Play Warhammer 40,000: Mechanicus II"
+      executable: Mechanicus2.exe
+    - arguments: "-force-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Play in compatability mode (DX 11)
       executable: Mechanicus2.exe
 2532490:
   cloud:
@@ -654111,6 +654118,30 @@
     koreana: CONTROL Resonant (컨트롤：레조넌트)
     schinese: "控制: 共振"
     tchinese: "控制: 共振"
+3670810:
+  cloud:
+    saves:
+      - path: Vilegacy/Catch Flex
+        pattern: progress.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Vilegacy/Catch Flex
+        pattern: progress.json
+        platforms:
+          - MacOS
+        root: MacAppSupport
+      - path: ".config/unity3d/Vilegacy/Catch Flex"
+        pattern: progress.json
+        platforms:
+          - Linux
+        root: LinuxHome
+  installDir: Catch Flex
+  launch:
+    - config:
+        oslist: windows
+      executable: Catch Flex.exe
+      type: default
 3671710:
   cloud:
     saves:

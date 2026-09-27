@@ -15645,6 +15645,7 @@ Arma 3:
 Arma Reforger:
   cloud:
     steam: true
+    xbox: true
   pageId: 177696
   steam: 1874880
   steamSide:
@@ -40102,6 +40103,15 @@ Catch & Release:
 Catch Canvas:
   pageId: 39007
   steam: 459550
+Catch Flex:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 220920
+  steam: 3670810
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Vilegacy\\Catch Flex}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Vilegacy\\Catch Flex\\progress.json}}"
 Catch Me:
   pageId: 33409
   steam: 421030
@@ -174308,6 +174318,7 @@ Perfect Universe:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\willsykes\\perfectuniverse\\PlayerPrefs.txt}}"
 Perfect Weapon:
   gog: 2114931848
+  lutris: perfect-weapon
   pageId: 187015
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\Software\\American Softworks\\Perfect Weapon}}"
@@ -249329,6 +249340,7 @@ The Stalin Subway:
     - "{{Game data/config|Windows|{{p|game}}\\SAVES\\config.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVES\\}}"
 "The Stalin Subway: Red Veil":
+  lutris: the-stalin-subway-red-veil
   pageId: 31670
   steam: 311120
   templates:

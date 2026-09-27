@@ -123595,6 +123595,28 @@ Catch Canvas:
             store: steam
   steam:
     id: 459550
+Catch Flex:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Vilegacy/Catch Flex/progress.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Catch Flex: {}
+  launch:
+    "<base>/Catch Flex.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Vilegacy/Catch Flex:
+      tags:
+        - config
+  steam:
+    id: 3670810
 Catch Me:
   steam:
     id: 421030
@@ -533628,6 +533650,8 @@ Perfect Universe:
 Perfect Weapon:
   gog:
     id: 2114931848
+  id:
+    lutris: perfect-weapon
   registry:
     HKEY_LOCAL_MACHINE/Software/American Softworks/Perfect Weapon:
       tags:
@@ -765136,6 +765160,8 @@ The Stalin Subway:
         - config
       when:
         - os: windows
+  id:
+    lutris: the-stalin-subway-red-veil
   installDir:
     The Stalin Subway Red Veil: {}
   launch:
@@ -834863,6 +834889,11 @@ Warhalla:
   launch:
     "<base>/Mechanicus2.exe":
       - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-force-d3d11"
+        when:
           - bit: 64
             os: windows
             store: steam
