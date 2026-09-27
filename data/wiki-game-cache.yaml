@@ -23417,9 +23417,11 @@ Battle Knights:
   pageId: 154239
   steam: 1172400
 Battle Mages:
+  lutris: battle-mages
   pageId: 51051
   steam: 302470
 "Battle Mages: Sign of Darkness":
+  lutris: battle-mages-sign-of-darkness
   pageId: 49857
   steam: 311060
 Battle Master:
@@ -45330,6 +45332,7 @@ Close Combat:
     gog: true
     steam: true
   gog: 1981721026
+  lutris: close-combat-3-the-russian-front
   pageId: 8692
   steam: 2916180
   templates:
@@ -45370,6 +45373,7 @@ Close Combat:
     gog: true
     steam: true
   gog: 2016902862
+  lutris: close-combat-5-invasion-normandy-utah-beach-to-che
   pageId: 8706
   steam: 2916200
   templates:
@@ -45406,6 +45410,7 @@ Close Combat:
     gog: true
     steam: true
   gog: 1714577252
+  lutris: close-combat-4-the-battle-of-the-bulge
   pageId: 8697
   steam: 2916190
   templates:
@@ -83442,6 +83447,7 @@ Fair Islands VR:
   pageId: 40024
   steam: 526960
 Fair Strike:
+  lutris: fair-strike
   pageId: 48128
   steam: 352120
 Fairgame$:
@@ -137063,6 +137069,7 @@ LocoSoccer:
   pageId: 45347
   steam: 396360
 Locoland:
+  lutris: locoland
   pageId: 47741
   steam: 352130
 Locomancer:
@@ -168015,6 +168022,7 @@ Operation Wolfsburg:
 "Operation: Inner Space":
   pageId: 183828
 "Operation: Matriarchy":
+  lutris: operation-matriarchy
   pageId: 44770
   steam: 435420
   templates:
@@ -229248,6 +229256,7 @@ Superhot VR:
     - "{{Game data/config|Windows|{{p|userprofile\\AppData\\LocalLow}}\\SUPERHOT_Team\\SHMCD\\config.cfg|{{p|userprofile\\AppData\\LocalLow}}\\SUPERHOT_Team\\SHMCD\\launcher-game-settings.json}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/SUPERHOT_Team/SHMCD/config.cfg|{{p|xdgconfighome}}/unity3d/SUPERHOT_Team/SHMCD/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\SUPERHOT_Team\\SHMCD\\sh.mcd}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.superhotgame.shmcd/shmcd.save}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/SUPERHOT_Team/SHMCD/shmcd.save}}"
 Superior Wizards:
   pageId: 113818

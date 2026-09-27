@@ -540378,8 +540378,7 @@
 1282690:
   installDir: Crysis 3
   launch:
-    - executable: "link2ea://launchgame/1282690?platform=steam&theme=c3"
-      type: none
+    - executable: "steam2ea://launchgame/1282690?platform=steam&theme=c3"
   nameLocalized:
     japanese: "クライシス 3 "
     koreana: "크라이시스 3 "
@@ -627428,6 +627427,11 @@
     saves:
       - path: Aspyr/War in the North
         pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Aspyr/War in the North
+        pattern: UserSettings.dat
         platforms:
           - Windows
         root: WinAppDataLocal
