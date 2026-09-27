@@ -90247,6 +90247,8 @@ Fobia - St. Dinfna Hotel:
   lutris: fobia-st-dinfna-hotel
   pageId: 180041
   steam: 1298140
+  steamSide:
+    - 1305020
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Fobia\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Fobia\\Saved\\SaveGames}}"
@@ -134240,6 +134242,8 @@ Lemmings:
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
+"Lemmings 2: The Tribes":
+  pageId: 220914
 Lemmings 3D:
   pageId: 189125
   templates:
@@ -152859,6 +152863,8 @@ Monsters!:
     - "{{Game data/saves|Windows|{{p|game}}\\BIN\\Savegame#.dat}}"
 "Monsters, Inc. Scream Team Training":
   pageId: 194936
+"Monsters, Inc. Wreck Room Arcade: Eight Ball Chaos":
+  pageId: 220911
 "Monsters: Survival":
   pageId: 128627
   renamedFrom:
@@ -175889,6 +175895,8 @@ Pinball 2018:
   steam: 856430
 Pinball 3:
   pageId: 94986
+Pinball Builder:
+  pageId: 220917
 "Pinball Deluxe: Reloaded":
   cloud:
     steam: true
@@ -179243,6 +179251,7 @@ Pool of Radiance:
   gog: 1432640961
   gogSide:
     - 1436871302
+  lutris: pool-of-radiance
   pageId: 19758
   steam: 1882370
   templates:
@@ -204207,6 +204216,8 @@ Semispheres:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Vivid Helix\\Semispheres\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\semispheres.sav3}}"
+Semper Fi:
+  pageId: 220919
 Senalux:
   cloud:
     steam: true
@@ -220206,6 +220217,8 @@ Star Crusade CCG:
     - 477810
     - 492330
     - 492331
+Star Crusader:
+  pageId: 220904
 Star Destroyer:
   pageId: 125424
   steam: 997340
@@ -279888,6 +279901,10 @@ World of Goo 2:
     - 917260
     - 969070
     - 1083250
+    - 4944540
+    - 4972740
+    - 4972760
+    - 5130590
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Noble Empire\\World of Guns\\}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Noble Empire/World of Guns/}}"

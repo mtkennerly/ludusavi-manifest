@@ -277228,6 +277228,8 @@ Fobia - St. Dinfna Hotel:
         - os: windows
   id:
     lutris: fobia-st-dinfna-hotel
+    steamExtra:
+      - 1305020
   installDir:
     FobiaStDinfnaHotel: {}
   launch:
@@ -548969,6 +548971,7 @@ Pool of Radiance:
   id:
     gogExtra:
       - 1436871302
+    lutris: pool-of-radiance
   steam:
     id: 1882370
 "Pool of Radiance: Ruins of Myth Drannor":
@@ -854742,6 +854745,10 @@ World of Goo 2:
       - 917260
       - 969070
       - 1083250
+      - 4944540
+      - 4972740
+      - 4972760
+      - 5130590
   installDir:
     WOG: {}
   launch:
