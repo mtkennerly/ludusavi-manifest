@@ -98202,6 +98202,7 @@ Ghostship Chronicles:
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\BethesdaSoftworks.ProjectSnowfall_3275kfvn8vcwc\\SystemAppData\\wgs\\{{P|uid}}}}"
     - "{{Game data/saves|Steam|{{p|userprofile}}\\Saved Games\\TangoGameworks\\GhostWire Tokyo (STEAM)\\Saved\\SaveGames}}"
 "Ghostwire: Tokyo - Prelude":
+  lutris: ghostwire-tokyo-prelude
   pageId: 175667
   steam: 1817250
 Ghoul:
@@ -133345,6 +133346,7 @@ Legend of the Tetrarchs:
 "Legenda: Poselství trůnu 2":
   pageId: 195188
 Legendary:
+  lutris: legendary
   pageId: 12941
   steam: 16730
   templates:
@@ -138394,6 +138396,7 @@ Lost Orbit:
     - "LOST ORBIT: Terminal Velocity"
   steam: 372320
 Lost Planet 2:
+  lutris: lost-planet-2
   pageId: 10497
   steam: 45750
   templates:
@@ -138402,6 +138405,7 @@ Lost Planet 2:
 Lost Planet 3:
   cloud:
     steam: true
+  lutris: lost-planet-3
   pageId: 9068
   steam: 226720
   steamSide:
@@ -138417,12 +138421,14 @@ Lost Planet 3:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\LostPlanetGame\\LostPlanetGame\\Config\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\LostPlanetGame\\LostPlanetGame\\SaveData\\}}"
 "Lost Planet: Extreme Condition":
+  lutris: lost-planet-extreme-condition
   pageId: 19815
   steam: 6510
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\capcom\\lostplanet\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\capcom\\lostplanet\\*.LostplanetSave-capcom}}"
 "Lost Planet: Extreme Condition Colonies Edition":
+  lutris: lost-planet-extreme-condition-colonies-edition
   pageId: 20036
   steam: 45720
   templates:
@@ -178755,6 +178761,17 @@ Police Air Transporter:
 Police Car Chase:
   pageId: 110724
   steam: 932130
+Police Chief Simulator:
+  cloud:
+    steam: true
+  lutris: police-chief-simulator
+  pageId: 220927
+  steam: 2938460
+  steamSide:
+    - 4532800
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\PoliceChiefSimulator\\Saved\\Config}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\PoliceChiefSimulator\\Saved\\SaveGames}}"
 "Police Enforcement VR : 1-King-27":
   pageId: 92191
   steam: 796860
@@ -194172,6 +194189,7 @@ Rise of the Ancients:
   pageId: 42816
   steam: 485950
 Rise of the Argonauts:
+  lutris: rise-of-the-argonauts
   pageId: 28642
   steam: 12770
   templates:

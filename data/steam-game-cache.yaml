@@ -4535,6 +4535,10 @@
         oslist: linux
       description: Launch
       executable: Empire.sh
+  nameLocalized:
+    koreana: "토탈워: 엠파이어 - 데피니티브 에디션"
+    schinese: 全面战争：帝国 - 终极版
+    tchinese: 全軍破敵：帝國－終極版
 10510:
   installDir: The Incredible Hulk
   launch:
@@ -639939,6 +639943,26 @@
       executable: The Life and Suffering of Prince Jerian.app
 2936810: {}
 2937110: {}
+2938460:
+  cloud:
+    saves:
+      - path: "PoliceChiefSimulator\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Police Chief Simulator
+  launch:
+    - arguments: "-dx12"
+      config:
+        oslist: windows
+      description: DirectX 12
+      executable: PoliceChiefSimulator.exe
+      type: option2
+    - arguments: "-dx11"
+      description: DirectX 11
+      executable: PoliceChiefSimulator.exe
+      type: option1
 2938840:
   installDir: The Trials 2
   launch:

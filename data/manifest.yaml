@@ -302428,6 +302428,8 @@ Ghostship Chronicles:
   steam:
     id: 1475810
 "Ghostwire: Tokyo - Prelude":
+  id:
+    lutris: ghostwire-tokyo-prelude
   installDir:
     Ghostwire Tokyo Prelude: {}
   launch:
@@ -409794,6 +409796,8 @@ Legendary:
         - config
       when:
         - os: windows
+  id:
+    lutris: legendary
   installDir:
     Legendary: {}
   launch:
@@ -425200,6 +425204,8 @@ Lost Planet 2:
         - config
       when:
         - os: windows
+  id:
+    lutris: lost-planet-2
   installDir:
     Lost Planet 2: {}
   launch:
@@ -425223,6 +425229,7 @@ Lost Planet 3:
       when:
         - os: windows
   id:
+    lutris: lost-planet-3
     steamExtra:
       - 233920
       - 233940
@@ -425253,6 +425260,8 @@ Lost Planet 3:
         - config
       when:
         - os: windows
+  id:
+    lutris: lost-planet-extreme-condition
   installDir:
     lost planet extreme condition: {}
   launch:
@@ -425272,6 +425281,8 @@ Lost Planet 3:
         - save
       when:
         - os: windows
+  id:
+    lutris: lost-planet-extreme-condition-colonies-edition
   installDir:
     Lost Planet Colonies: {}
   launch:
@@ -547172,6 +547183,28 @@ Police Air Transporter:
 Police Car Chase:
   steam:
     id: 932130
+Police Chief Simulator:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/PoliceChiefSimulator/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/PoliceChiefSimulator/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: police-chief-simulator
+    steamExtra:
+      - 4532800
+  installDir:
+    Police Chief Simulator: {}
+  steam:
+    id: 2938460
 "Police Enforcement VR : 1-King-27":
   installDir:
     Police Enforcement VR  1-King-27: {}
@@ -594726,6 +594759,8 @@ Rise of the Argonauts:
         - config
       when:
         - os: windows
+  id:
+    lutris: rise-of-the-argonauts
   installDir:
     Rise of the Argonauts: {}
   launch:
