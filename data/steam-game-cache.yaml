@@ -534633,8 +534633,7 @@
 1238020:
   installDir: Mass Effect 3
   launch:
-    - executable: "link2ea://launchgame/1238020?platform=steam&theme=me3"
-      type: none
+    - executable: "steam2ea://launchgame/1238020?platform=steam&theme=me3"
     - executable: "Binaries\\MassEffect3Config.exe"
       type: config
   nameLocalized:
@@ -635365,6 +635364,9 @@
     saves:
       - path: KeepDriving
         pattern: "*"
+        root: WinAppDataLocal
+      - path: KeepDriving/savedata
+        pattern: "*"
         recursive: true
         root: WinAppDataLocal
   installDir: Keep Driving
@@ -651862,7 +651864,29 @@
     koreana: Metal Garden | 메탈 가든
     schinese: Metal Garden | 机械荒庭
     ukrainian: Metal Garden | Сад Металу
-3541630: {}
+3541630:
+  cloud:
+    saves:
+      - path: deCo/HR Human Remains
+        pattern: save.s
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: deCo/HR Human Remains
+        pattern: save.d
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: deCo/HR Human Remains
+        pattern: prefs.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: HR Human Remains
+  launch:
+    - config:
+        oslist: windows
+      executable: HR Human Remains.exe
 3542380:
   cloud:
     saves:
@@ -655983,6 +656007,66 @@
     - config:
         oslist: windows
       executable: Patch me if you can.exe
+3832490:
+  cloud:
+    saves:
+      - path: AntivirusSurvivors
+        pattern: "*.save"
+        root: WinAppDataRoaming
+      - path: AntivirusSurvivors/profiles
+        pattern: "*.json"
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: AntivirusSurvivors
+            replace: AntivirusSurvivors
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: AntivirusSurvivors
+            replace: ".local/share/AntivirusSurvivors"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: Antivirus Survivors 2003 Professional
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: AVS03Pro.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: AVS03Pro.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: AVS03Pro.app
+      type: default
+    - arguments: "--rendering-driver opengl3"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Compatibility Mode
+      executable: AVS03Pro.exe
+      type: option1
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: macos
+      description: Compatibility Mode
+      executable: AVS03Pro.app
+      type: option1
+    - arguments: "--rendering-driver opengl3"
+      config:
+        osarch: "64"
+        oslist: linux
+      description: Compatibility Mode
+      executable: AVS03Pro.x86_64
+      type: option1
 3832650:
   cloud:
     saves:

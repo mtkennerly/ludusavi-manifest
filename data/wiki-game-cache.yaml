@@ -13887,6 +13887,16 @@ Antitetrise:
     steam: true
   pageId: 121543
   steam: 955750
+Antivirus Survivors 2003 Professional:
+  cloud:
+    steam: true
+  lutris: antivirus-survivors-2003-professional
+  pageId: 220942
+  steam: 3832490
+  steamSide:
+    - 3833260
+    - 4320630
+    - 5241570
 Antonball Deluxe:
   pageId: 202583
   steam: 1382320
@@ -15003,6 +15013,8 @@ Arcfall:
 Arch Drift:
   pageId: 127375
   steam: 1016890
+ArchLord:
+  pageId: 220934
 ArchMMO 2:
   pageId: 132436
   steam: 1058660
@@ -18944,8 +18956,11 @@ Audio Infection:
   pageId: 122288
   steam: 911580
 Audio Trip:
+  malformed: true
   pageId: 145059
   steam: 826540
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Kinemotik Studios\\Audio Trip\\}}"
 AudioBeats:
   pageId: 56046
   steam: 570860
@@ -25795,6 +25810,10 @@ Beku:
 Bell Ringer:
   pageId: 44088
   steam: 424830
+Bella Sara:
+  pageId: 220932
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Win32\\InputConfig.xml|{{p|hklm}}\\SOFTWARE\\Redmile\\EquestrianChallenge}}"
 Belladonna:
   pageId: 48559
   steam: 351340
@@ -36772,6 +36791,8 @@ Cabal Online:
   pageId: 194571
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\coa09_dx9\\Cfg\\Console.cfg}}"
+"Cabela's Outdoor Trivia Challenge":
+  pageId: 220938
 "Cabela's Sportsman's Challenge":
   pageId: 219947
   templates:
@@ -59558,6 +59579,7 @@ Deadly Path:
 "Deadly Premonition 2: A Blessing in Disguise":
   cloud:
     steam: true
+  lutris: deadly-premonition-2-a-blessing-in-disguise
   pageId: 167699
   steam: 1271100
   templates:
@@ -66200,6 +66222,9 @@ Dive Inside:
   steam: 3590290
   steamSide:
     - 4321140
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\DropRateStudio\\Dive or Die\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\DropRateStudio\\Dive or Die\\}}"
 Dive to the Titanic:
   pageId: 41034
   steam: 65200
@@ -77952,6 +77977,7 @@ Enemy Engaged 2:
   steam: 1581150
 "Enemy Engaged: Comanche vs Hokum":
   gog: 1207658761
+  lutris: enemy-engaged-comanche-vs-hokum
   pageId: 7759
   renamedFrom:
     - "Enemy Engaged: RAH-66 Comanche versus Ka-52 Hokum"
@@ -95468,6 +95494,7 @@ Galak Zed:
   cloud:
     steam: true
   gog: 1446111517
+  lutris: galak-z-the-dimensional
   pageId: 23025
   steam: 300580
   templates:
@@ -97853,6 +97880,7 @@ Ghost Master:
     - "{{Game data/config|Windows|{{p|game}}\\GhostData\\SpDrv.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GhostData\\SaveGames\\}}"
 "Ghost Master: Resurrection":
+  lutris: ghost-master-resurrection
   pageId: 199328
   steam: 3289090
 Ghost Mountain Roller Coaster:
@@ -106383,8 +106411,6 @@ Happy Wars:
     - 332190
     - 332191
 Happy Wheels:
-  cloud:
-    steam: true
   pageId: 220258
   steam: 4705510
   templates:
@@ -116537,6 +116563,8 @@ I Have No Change:
   lutris: i-have-no-change
   pageId: 213097
   steam: 3426150
+  steamSide:
+    - 3431570
 "I Have No Mouth, and I Must Scream":
   cloud:
     epic: true
@@ -126674,7 +126702,9 @@ Keep Defending:
     - 881070
 Keep Driving:
   cloud:
+    gog: true
     steam: true
+  gog: 1270437113
   lutris: keep-driving
   pageId: 202796
   steam: 2756920
@@ -143876,6 +143906,7 @@ Marinatide:
     - "{{Game data/config|Windows|{{p|game}}\\System\\*ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Marine Park Empire:
+  gog: 1383684577
   lutris: marine-park-empire
   pageId: 46572
   steam: 294730
@@ -146179,6 +146210,7 @@ Medieval Survival:
   cloud:
     gog: true
   gog: 1397939414
+  lutris: medieval-total-war-collection
   pageId: 7624
   steam: 345260
   templates:
@@ -250366,6 +250398,7 @@ The Twins:
 "The Typing of The Dead: Overkill":
   cloud:
     steam: true
+  lutris: the-typing-of-the-dead-overkill
   pageId: 11856
   steam: 246580
   steamSide:
@@ -250380,6 +250413,7 @@ The Twins:
     - "{{Game data/config|Windows|{{p|appdata}}\\Sega\\Typing of the Dead Overkill}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Sega\\Typing of the Dead Overkill}}"
 The Typing of the Dead:
+  lutris: the-typing-of-the-dead
   pageId: 80224
   templates:
     - "{{Game data/saves|Windows|The 'pol' directory where you installed the game.}}"
@@ -257238,6 +257272,7 @@ Touhou Kikamu ~ Elegant Impermanence of Sakura:
 "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil":
   cloud:
     steam: true
+  lutris: touhou-koumakyou-new-classic-the-embodiment-of-sca
   pageId: 220328
   steam: 4659620
   templates:
@@ -278741,6 +278776,7 @@ Wizards:
   steam: 1163690
 Wizards & Warriors:
   gog: 1266995554
+  lutris: wizards-warriors
   pageId: 131831
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
@@ -285355,6 +285391,7 @@ Zoo Constructor:
   pageId: 127722
   steam: 868260
 Zoo Empire:
+  gog: 1385536342
   lutris: zoo-empire
   pageId: 46576
   steam: 286750

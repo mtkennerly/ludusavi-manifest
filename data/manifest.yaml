@@ -43479,6 +43479,57 @@ Antitetrise:
             store: steam
   steam:
     id: 955750
+Antivirus Survivors 2003 Professional:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/AntivirusSurvivors/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.local/share/AntivirusSurvivors/profiles/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/AntivirusSurvivors/*.save":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/AntivirusSurvivors/profiles/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/AntivirusSurvivors/*.save":
+      when:
+        - store: steam
+    "<winAppData>/AntivirusSurvivors/profiles/*.json":
+      when:
+        - store: steam
+  id:
+    lutris: antivirus-survivors-2003-professional
+    steamExtra:
+      - 3833260
+      - 4320630
+      - 5241570
+  installDir:
+    Antivirus Survivors 2003 Professional: {}
+  launch:
+    "<base>/AVS03Pro.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/AVS03Pro.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/AVS03Pro.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 3832490
 Antonball Deluxe:
   installDir:
     Antonball Deluxe: {}
@@ -58573,6 +58624,12 @@ Audio Infection:
   steam:
     id: 911580
 Audio Trip:
+  files:
+    "<home>/AppData/LocalLow/Kinemotik Studios/Audio Trip":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Audio Trip: {}
   steam:
@@ -79094,6 +79151,17 @@ Bell Ringer:
             store: steam
   steam:
     id: 424830
+Bella Sara:
+  files:
+    "<base>/Win32/InputConfig.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Redmile/EquestrianChallenge:
+      tags:
+        - config
 Belladonna:
   files:
     "<winLocalAppData>/Neckbolt/Belladonna":
@@ -184055,6 +184123,8 @@ Deadly Path:
         - save
       when:
         - os: windows
+  id:
+    lutris: deadly-premonition-2-a-blessing-in-disguise
   installDir:
     Deadly Premonition 2: {}
   launch:
@@ -204458,36 +204528,12 @@ Dive Inside:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/*.data":
+    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/*.dm":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/*.sav":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/Unlocks":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dead waters/Version.json":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/*.data":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/*.dm":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/*.sav":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/Unlocks":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/DropRateStudio/Dive or Die/Version.json":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: dive-or-die-children-of-rain
     steamExtra:
@@ -240834,6 +240880,8 @@ Enemy:
 "Enemy Engaged: Comanche vs Hokum":
   gog:
     id: 1207658761
+  id:
+    lutris: enemy-engaged-comanche-vs-hokum
 "Enemy Engaged: RAH-66 Comanche versus Ka-52 Hokum":
   alias: "Enemy Engaged: Comanche vs Hokum"
 Enemy Front:
@@ -294047,6 +294095,8 @@ Galak Zed:
         - os: linux
   gog:
     id: 1446111517
+  id:
+    lutris: galak-z-the-dimensional
   installDir:
     Galak-Z: {}
   launch:
@@ -301443,6 +301493,8 @@ Ghost Master:
     "<winLocalAppData>/GhostMasterRemake/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  id:
+    lutris: ghost-master-resurrection
   installDir:
     Ghost Master Resurrection: {}
   launch:
@@ -322694,11 +322746,31 @@ HOVR:
   steam:
     id: 501870
 "HR: Human Remains":
+  files:
+    "<home>/AppData/LocalLow/deCo/HR Human Remains/prefs.json":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/deCo/HR Human Remains/save.d":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/deCo/HR Human Remains/save.s":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: hr-human-remains
     steamExtra:
       - 3599950
       - 4632440
+  installDir:
+    HR Human Remains: {}
+  launch:
+    "<base>/HR Human Remains.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3541630
 HRDINA:
@@ -327239,8 +327311,6 @@ Happy Wars:
   steam:
     id: 246280
 Happy Wheels:
-  cloud:
-    steam: true
   files:
     "<winAppData>/HappyWheels":
       tags:
@@ -358350,6 +358420,8 @@ I Have Lived:
 I Have No Change:
   id:
     lutris: i-have-no-change
+    steamExtra:
+      - 3431570
   steam:
     id: 3426150
 "I Have No Mouth, and I Must Scream":
@@ -389608,6 +389680,7 @@ Keep Defending:
     id: 527720
 Keep Driving:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/KeepDriving/savedata":
@@ -389616,6 +389689,8 @@ Keep Driving:
         - save
       when:
         - os: windows
+  gog:
+    id: 1270437113
   id:
     lutris: keep-driving
   installDir:
@@ -442277,6 +442352,8 @@ Marine Park Empire:
         - config
       when:
         - os: windows
+  gog:
+    id: 1383684577
   id:
     lutris: marine-park-empire
   installDir:
@@ -449312,6 +449389,8 @@ Medieval Survival:
         - store: steam
   gog:
     id: 1397939414
+  id:
+    lutris: medieval-total-war-collection
   installDir:
     Total War Medieval 1 Gold: {}
   launch:
@@ -768131,6 +768210,7 @@ The Twins:
       when:
         - os: windows
   id:
+    lutris: the-typing-of-the-dead-overkill
     steamExtra:
       - 255210
       - 259210
@@ -768154,6 +768234,8 @@ The Typing of the Dead:
         - save
       when:
         - os: windows
+  id:
+    lutris: the-typing-of-the-dead
 The Typing of the Dead 2:
   files:
     "<winAppData>/SEGA/THE TYPING OF THE DEAD II":
@@ -788798,6 +788880,8 @@ Touhou Kikamu ~ Elegant Impermanence of Sakura:
         - config
       when:
         - os: windows
+  id:
+    lutris: touhou-koumakyou-new-classic-the-embodiment-of-sca
   installDir:
     th06nc: {}
   launch:
@@ -851282,6 +851366,8 @@ Wizards & Warriors:
         - os: windows
   gog:
     id: 1266995554
+  id:
+    lutris: wizards-warriors
 Wizards Tourney:
   files:
     "<home>/AppData/LocalLow/A BONFIRE OF SOULS/Wizards Tourney/<storeUserId>":
@@ -871304,6 +871390,8 @@ Zoo Empire:
         - save
       when:
         - os: windows
+  gog:
+    id: 1385536342
   id:
     lutris: zoo-empire
   installDir:
