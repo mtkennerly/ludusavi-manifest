@@ -2215,6 +2215,7 @@
 * [Axis Football 2017](https://www.pcgamingwiki.com/wiki/?curid=68090)
 * [Axis Football 2018](https://www.pcgamingwiki.com/wiki/?curid=110764)
 * [Axis Football 2019](https://www.pcgamingwiki.com/wiki/?curid=144909)
+* [Axol's Quest](https://www.pcgamingwiki.com/wiki/?curid=220923)
 * [Aya's Journey](https://www.pcgamingwiki.com/wiki/?curid=69448)
 * [Ayahuasca](https://www.pcgamingwiki.com/wiki/?curid=155488)
 * [Ayni Fairyland](https://www.pcgamingwiki.com/wiki/?curid=108230)

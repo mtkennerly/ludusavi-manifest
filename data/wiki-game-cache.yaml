@@ -8181,6 +8181,7 @@ Aggelos:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini|{{P|game}}\\screen.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\sauvegarde*.ini|{{p|game}}\\curseur.ini}}"
 "Aggression: Europe Under Fire":
+  lutris: aggression-europe-under-fire
   pageId: 50468
   steam: 289580
 Aggressors of Dark Kombat:
@@ -19969,6 +19970,9 @@ Axis Football 2021:
     steam: true
   pageId: 172106
   steam: 1641830
+"Axol's Quest":
+  pageId: 220923
+  steam: 4029480
 "Axyos: Battlecards":
   pageId: 130054
   renamedFrom:
@@ -25733,6 +25737,7 @@ Bejeweled:
   templates:
     - "{{Game data/saves|Windows|{{p|programdata}}\\Steam\\Bejeweled\\userdata\\}}"
 Bejeweled 2:
+  lutris: bejeweled-2-deluxe
   pageId: 12258
   steam: 3300
   templates:
@@ -26154,6 +26159,7 @@ Bet on Man:
     - "{{Game data/config|Windows|{{p|game}}\\Mods\\Bos_AddOn2\\Settings\\|{{p|game}}\\Mods\\Bos_AddOn2\\Tuning\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Mods\\Bos_AddOn2\\Saves}}"
 "Bet on Soldier: Blood Sport":
+  lutris: bet-on-soldier
   pageId: 49171
   renamedFrom:
     - "Bet On Soldier: Blood Sport"
@@ -238852,6 +238858,7 @@ The Cross Horror Game:
   gogSide:
     - 1236960892
     - 1571077515
+  lutris: the-crows-eye
   pageId: 56940
   steam: 449510
   steamSide:

@@ -658081,6 +658081,14 @@
     koreana: 에스트폴리스 전기 I&II
     schinese: 四狂神战记：I&II
     tchinese: 四狂神戰記：I&II
+4029480:
+  installDir: "Axol's Quest"
+  launch:
+    - arguments: "--in-process-gpu"
+      config:
+        oslist: windows
+      executable: Game.exe
+      type: default
 4031890:
   nameLocalized:
     japanese: "Palworld: Palfarm / パルワールド: パルファーム"
