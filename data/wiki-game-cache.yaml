@@ -197522,6 +197522,8 @@ Roving in the Dark:
 RowRow:
   pageId: 126014
   steam: 1001200
+"Rowan's Battle of Britain":
+  pageId: 220944
 "Roy Cluse: Itsy-Bitsy Edition":
   cloud:
     steam: true
@@ -214448,6 +214450,8 @@ Songbird Symphony:
   pageId: 109568
   steam: 909820
   templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Joysteak\\Songbird Symphony}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Joysteak\\Songbird Symphony}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Joysteak/Songbird Symphony/standalone/{{p|uid}}/sbs.sav}}"
 Songbringer:
   cloud:
@@ -268530,6 +268534,15 @@ Ved:
     - 2085110
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Karaclan\\VED\\*.txt}}"
+"Ved: Recure":
+  cloud:
+    steam: true
+  lutris: ved-recure
+  pageId: 220954
+  steam: 3255500
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\SummerClip\\VED\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SummerClip\\VED\\VedGameSave\\}}"
 Vee Rethak - Deep Under The Mountain:
   pageId: 59099
   steam: 584070
@@ -274147,6 +274160,7 @@ Warrior Fighter:
   steam: 941670
 Warrior Kings:
   gog: 1438006945
+  lutris: warrior-kings
   pageId: 36361
   steam: 297570
   templates:

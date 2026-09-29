@@ -646826,6 +646826,41 @@
   launch:
     - description: Startup launcher.(temp)
       executable: lunar_launcher.exe
+3255500:
+  cloud:
+    saves:
+      - path: "SummerClip\\VED\\"
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "SummerClip\\VED\\GameSaveBackup"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "SummerClip\\VED\\VedGameSave"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: Ved疗愈所
+  launch:
+    - executable: ved.exe
+  nameLocalized:
+    japanese: Ved：リキュア
+    sc_schinese: "Ved: 疗愈所"
+    schinese: "Ved: 疗愈所"
+    tchinese: Ved：療愈所
 3255890:
   cloud:
     saves:

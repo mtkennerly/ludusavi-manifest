@@ -22545,6 +22545,7 @@
 * [Rover The Dragonslayer](https://www.pcgamingwiki.com/wiki/?curid=34431)
 * [Roving in the Dark](https://www.pcgamingwiki.com/wiki/?curid=103753)
 * [RoVR](https://www.pcgamingwiki.com/wiki/?curid=68518)
+* [Rowan's Battle of Britain](https://www.pcgamingwiki.com/wiki/?curid=220944)
 * [RowRow](https://www.pcgamingwiki.com/wiki/?curid=126014)
 * [Royal Agents: Sweet Zombie](https://www.pcgamingwiki.com/wiki/?curid=68982)
 * [Royal Alchemist](https://www.pcgamingwiki.com/wiki/?curid=114340)

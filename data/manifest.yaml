@@ -658222,6 +658222,11 @@ Songbird Symphony:
         - save
       when:
         - os: mac
+    "<winLocalAppData>/Joysteak/Songbird Symphony":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Songbird Symphony: {}
   launch:
@@ -658233,6 +658238,10 @@ Songbird Symphony:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Joysteak/Songbird Symphony:
+      tags:
+        - config
   steam:
     id: 909820
 Songbringer:
@@ -820567,6 +820576,30 @@ Ved:
             store: steam
   steam:
     id: 1182420
+"Ved: Recure":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SummerClip/VED":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/SummerClip/VED/VedGameSave":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: ved-recure
+  installDir:
+    Ved疗愈所: {}
+  launch:
+    "<base>/ved.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3255500
 Vee Rethak - Deep Under The Mountain:
   steam:
     id: 584070
@@ -836887,6 +836920,8 @@ Warrior Kings:
         - os: windows
   gog:
     id: 1438006945
+  id:
+    lutris: warrior-kings
   installDir:
     Warrior Kings: {}
   launch:
