@@ -44278,7 +44278,7 @@ Apex Legends:
   installDir:
     Apex Legends: {}
   launch:
-    "<base>/start_protected_game.exe":
+    "<base>/EAAntiCheat.GameServiceLauncher.exe":
       - arguments: "-steam"
         when:
           - bit: 64
@@ -226043,6 +226043,21 @@ Dusty Raging Fist:
             store: steam
   steam:
     id: 385130
+Dverghold:
+  files:
+    "<home>/AppData/LocalLow/Kvltgames/Dverghold/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Dverghold: {}
+  launch:
+    "<base>/Dverghold.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4216280
 DwarVRs:
   installDir:
     DwarVRs: {}
@@ -250013,6 +250028,8 @@ Evil Dead:
         - save
       when:
         - os: windows
+  id:
+    lutris: evil-dead-the-game
   installDir:
     ED: {}
   launch:
@@ -323749,6 +323766,7 @@ Hades II:
   id:
     gogExtra:
       - 1207658759
+    lutris: haegemonia-legions-of-iron
   installDir:
     Haegemonia Legions of Iron: {}
   launch:

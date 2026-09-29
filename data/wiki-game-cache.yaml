@@ -73007,6 +73007,11 @@ Dusty Raging Fist:
     steam: true
   pageId: 46606
   steam: 385130
+Dverghold:
+  pageId: 220976
+  steam: 4216280
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Kvltgames\\Dverghold\\Saves\\}}"
 DwarVRs:
   pageId: 80956
   steam: 769930
@@ -80947,6 +80952,7 @@ Evil Dead:
   cloud:
     epic: true
     steam: true
+  lutris: evil-dead-the-game
   pageId: 165645
   steam: 1493750
   templates:
@@ -105186,6 +105192,7 @@ Hades II:
   gog: 1207661583
   gogSide:
     - 1207658759
+  lutris: haegemonia-legions-of-iron
   pageId: 17497
   steam: 294770
   templates:

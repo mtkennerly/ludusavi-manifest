@@ -834,14 +834,22 @@
         oslist: linux
       executable: run_steam.sh
     - config:
-        betakey: test
         oslist: macos
-      description: Mac OS X 10.13 and Later (Also Apple Silicon).
-      executable: MacOSX10.13/Defcon.app
+      description: Legacy Version of DEFCON (2012)
+      executable: 1.64/Defcon.app
+      type: option2
     - config:
-        betakey: test
-      description: Earlier than Mac OS X 10.13
-      executable: Original/Defcon.app
+        oslist: windows
+      description: Legacy Version of DEFCON (2012)
+      executable: 1.62/Defcon.exe
+      type: option2
+      workingdir: "1.62"
+    - config:
+        oslist: linux
+      description: Legacy version of DEFCON (2012)
+      executable: 1.62/run_steam.sh
+      type: option2
+      workingdir: "1.62"
 1530:
   installDir: Multiwinia
   launch:
@@ -514764,7 +514772,7 @@
         osarch: "64"
         oslist: windows
       description: R5 Launch
-      executable: start_protected_game.exe
+      executable: EAAntiCheat.GameServiceLauncher.exe
       type: default
     - arguments: "-steam +steam_environment dev +vtx_environment dev"
       config:
@@ -659551,6 +659559,10 @@
     czech: "Posel smrti: Pouto krve"
     english: "Messenger of Death: Blood Bond"
 4216180: {}
+4216280:
+  installDir: Dverghold
+  launch:
+    - executable: Dverghold.exe
 4221990:
   installDir: Fish Lab
   launch:
