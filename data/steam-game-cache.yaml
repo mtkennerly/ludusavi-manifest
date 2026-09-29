@@ -628177,10 +628177,24 @@
       executable: FlightSimulator2024.exe
       type: default
     - config:
-        betakey: "poitoudonkey, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a, beta_test, brumby_beta, bnr_vt, dichotomie_test_01, prezsyl"
+        betakey: "poitoudonkey, ms_boom_m, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a, beta_test, brumby_beta, bnr_vt, dichotomie_test_01, prezsyl, bnr_vt_bis, hackney_mbf, ms_reno_mbf, ms_reno_mbf_2, \tms_dev_only_reno_mbf, mustang_nd, previous_su_mbf"
         osarch: "64"
         oslist: windows
       description: Launch MSFS 2024 Dev Build
+      executable: KittyHawkx64_Steam_PCMBF.exe
+    - arguments: "-NCARGamescom"
+      config:
+        betakey: "fs2024_gamescom, hackney"
+        osarch: "64"
+        oslist: windows
+      description: Launch Reno GAMESCOM
+      executable: FlightSimulator2024.exe
+    - arguments: "-NCARGamescom"
+      config:
+        betakey: "fs2024_gamescom_mbf, hackney_mbf"
+        osarch: "64"
+        oslist: windows
+      description: Launch Reno GAMESCOM Dev
       executable: KittyHawkx64_Steam_PCMBF.exe
 2537920:
   cloud:
@@ -631948,6 +631962,7 @@
         oslist: windows
       executable: POOLS.exe
       type: openxr
+2663960: {}
 2666220:
   installDir: Marble Maid 2 The Negative Levels
   launch:
@@ -653633,6 +653648,7 @@
         osarch: "64"
         oslist: windows
       executable: CJSteam.exe
+3635880: {}
 3636060:
   cloud:
     saves:
@@ -658271,6 +658287,21 @@
   installDir: The Last Elixir
   launch:
     - executable: TheLastElixir.exe
+      type: default
+4047270:
+  cloud:
+    saves:
+      - path: OrcIncremental/CloudSave
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Orc Incremental
+  launch:
+    - config:
+        oslist: windows
+      executable: Orc Incremental.exe
       type: default
 4048740:
   installDir: Bip and Bop

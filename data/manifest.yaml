@@ -17743,11 +17743,8 @@ Ace Attorney Investigations Collection:
   steam:
     id: 2288340
 "Ace Combat Zero: The Belkan War":
-  id:
-    steamExtra:
-      - 3635880
   steam:
-    id: 2288340
+    id: 3635880
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
@@ -54396,6 +54393,7 @@ Asterix & Obelix XXL 2:
   id:
     gogExtra:
       - 1692964466
+    lutris: asterix-obelix-xxl-2
   installDir:
     Asterix XXL 2: {}
   launch:
@@ -79518,6 +79516,11 @@ Bendy and the Ink Machine:
         - config
   steam:
     id: 622650
+"Bendy: The Cage":
+  id:
+    lutris: bendy-the-cage
+  steam:
+    id: 2663960
 Beneath:
   cloud:
     steam: true
@@ -396286,6 +396289,9 @@ Kira:
         - save
   steam:
     id: 801120
+Kirikou:
+  id:
+    lutris: kirikou
 Kirk Mephisto:
   id:
     lutris: kirk-mephisto
@@ -429617,6 +429623,7 @@ Lumina:
     id: 1063050
 Lumina Veil:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/EternalTerror/Saved/Config/Windows":
@@ -429629,6 +429636,8 @@ Lumina Veil:
         - save
       when:
         - os: windows
+  gog:
+    id: 1374090799
   id:
     lutris: lumina-veil
   installDir:
@@ -516081,6 +516090,24 @@ Orc Hunter VR:
     Orc Hunter VR: {}
   steam:
     id: 494530
+Orc Incremental:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/Roaming/OrcIncremental/CloudSave":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Orc Incremental: {}
+  launch:
+    "<base>/Orc Incremental.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4047270
 Orc Island:
   installDir:
     Orc Island: {}
@@ -867099,6 +867126,9 @@ Zeit²:
             store: steam
   steam:
     id: 1093800
+Zelda Classic:
+  id:
+    lutris: zelda-classic
 "Zelensky vs Poroshenko: The Destiny of Ukraine":
   cloud:
     steam: true

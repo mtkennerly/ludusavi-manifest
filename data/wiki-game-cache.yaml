@@ -5571,9 +5571,7 @@ Ace Attorney Investigations Collection:
   steam: 2288340
 "Ace Combat Zero: The Belkan War":
   pageId: 218564
-  steam: 2288340
-  steamSide:
-    - 3635880
+  steam: 3635880
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
@@ -17515,6 +17513,7 @@ Asterix & Obelix XXL 2:
   gog: 1858508334
   gogSide:
     - 1692964466
+  lutris: asterix-obelix-xxl-2
   pageId: 113476
   steam: 887060
   templates:
@@ -25933,6 +25932,10 @@ Bendy and the Ink Machine:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Joey Drew Studios\\Bendy and the Ink Machine\\Saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.TheMeatly Games.Bendy and the Ink Machine/Saves/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Joey Drew Studios/Bendy and the Ink Machine/Saves/}}"
+"Bendy: The Cage":
+  lutris: bendy-the-cage
+  pageId: 220956
+  steam: 2663960
 Beneath:
   cloud:
     steam: true
@@ -45246,6 +45249,8 @@ Clinically Dead:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Codemasters\\Clive Barker's Jericho\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Codemasters\\Clive Barker's Jericho\\}}"
+"Clive Barker's Nightbreed: The Action Game":
+  pageId: 220958
 "Clive Barker's Nightbreed: The Interactive Movie":
   pageId: 219953
 "Clive Barker's Undying":
@@ -52831,6 +52836,8 @@ Crusader Kings III:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Paradox Interactive/Crusader Kings III}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Paradox Interactive\\Crusader Kings III\\save games\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Paradox Interactive/Crusader Kings III/save games}}"
+"Crusader: Adventure Out of Time":
+  pageId: 220961
 "Crusader: No Regret":
   cloud:
     gog: true
@@ -97329,6 +97336,8 @@ Genesis of Drones:
 Genesis创世争霸:
   pageId: 129853
   steam: 755080
+Genesys:
+  pageId: 220964
 Genetic Disaster:
   pageId: 72098
   steam: 672460
@@ -118434,6 +118443,8 @@ Impostor syndrome:
 Impresja:
   pageId: 65459
   steam: 657530
+Impressionists:
+  pageId: 220967
 Impressions:
   pageId: 156655
   steam: 1220330
@@ -128921,6 +128932,9 @@ Kira:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\DefaultCompany\\Kirchhoff}}"
 Kirigiriso:
   pageId: 198769
+Kirikou:
+  lutris: kirikou
+  pageId: 172466
 Kirk Mephisto:
   lutris: kirk-mephisto
   pageId: 217116
@@ -139809,7 +139823,9 @@ Lumina:
   steam: 1063050
 Lumina Veil:
   cloud:
+    gog: true
     steam: true
+  gog: 1374090799
   lutris: lumina-veil
   pageId: 219721
   steam: 2840000
@@ -168449,6 +168465,13 @@ Orc Colony:
 Orc Hunter VR:
   pageId: 39215
   steam: 494530
+Orc Incremental:
+  cloud:
+    steam: true
+  pageId: 220965
+  steam: 4047270
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\Roaming\\OrcIncremental\\CloudSave}}"
 Orc Island:
   pageId: 95345
   steam: 863270
@@ -284059,6 +284082,7 @@ Zeit²:
   pageId: 139087
   steam: 1093800
 Zelda Classic:
+  lutris: zelda-classic
   pageId: 200813
 "Zelda's Adventure":
   pageId: 200819
