@@ -150061,6 +150061,8 @@ Minecraft Dungeons:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\Mojang Studios\\Dungeons\\{{P|uid}}}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.Lovika_8wekyb3d8bbwe\\LocalCache\\Local\\Dungeons\\{{P|uid}}|{{P|localappdata}}\\Dungeons\\{{P|uid}}|{{P|userprofile}}\\Saved Games\\Mojang Studios\\Dungeons\\{{P|uid}}}}"
 Minecraft Dungeons II:
+  cloud:
+    steam: true
   lutris: minecraft-dungeons-ii
   pageId: 220155
   steam: 1912410
@@ -168022,6 +168024,8 @@ Operation Lone Wolf:
   steam: 1685960
   steamSide:
     - 1811180
+Operation Mania:
+  pageId: 220968
 Operation Night Strikers:
   cloud:
     steam: true
@@ -178254,6 +178258,18 @@ Plazma Being:
 Please:
   pageId: 58138
   steam: 595030
+Please Be Happy:
+  cloud:
+    steam: true
+  gog: 1815674378
+  lutris: please-be-happy
+  pageId: 220972
+  steam: 844670
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Studio Élan\\Please Be Happy\\NaninovelData\\Saves\\Settings.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Studio Élan\\Please Be Happy\\*.json|{{p|userprofile\\appdata\\locallow}}\\Studio Élan\\Please Be Happy\\NaninovelData\\Saves\\*.json}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.vnstudioelan.pleasebehappy/*.json}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Studio Élan/Please Be Happy/*.json}}"
 Please Close the Doors:
   pageId: 80498
   steam: 778850
@@ -191020,6 +191036,7 @@ Remote Control:
   cloud:
     xbox: true
   gog: 1467668812
+  lutris: remothered-broken-porcelain-remastered
   pageId: 218064
   steam: 4461560
 "Remothered: Red Nun's Legacy":
@@ -191052,6 +191069,7 @@ Remote Control:
   cloud:
     xbox: true
   gog: 1391035419
+  lutris: remothered-tormented-fathers-remastered
   pageId: 218063
   steam: 4457050
 Remuage - MeltySensation:
@@ -231967,9 +231985,14 @@ TOEM:
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/se.SomethingWeMade.TOEM/Save/}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/Something We Made/TOEM/Save/}}"
 TOEM 2:
+  cloud:
+    steam: true
   lutris: toem-2
   pageId: 220090
   steam: 2900640
+  steamSide:
+    - 4414810
+    - 4694330
 TOGETHER BnB:
   pageId: 168101
   steam: 1239020
@@ -251428,6 +251451,7 @@ The Witcher:
     epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1495134320
   gogSide:
     - 1207664643
@@ -268998,6 +269022,14 @@ Verminian Trap:
 Vermis Orbita:
   pageId: 180277
   steam: 2064320
+Vernal Edge:
+  cloud:
+    steam: true
+  pageId: 220970
+  steam: 1546710
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\VernalEdge\\default\\save\\settings.json}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\VernalEdge\\default\\save\\}}"
 "Verne: The Shape of Fantasy":
   cloud:
     steam: true

@@ -54358,14 +54358,13 @@
       description: Launch
       executable: redprelauncher.exe
   nameLocalized:
-    czech: "Zaklínač 3: Divoký hon - Kompletní edice"
-    japanese: ウィッチャー３　ワイルドハント　コンプリートエディション
-    koreana: "더 위쳐 3: 와일드 헌트 - 컴플리트 에디션"
-    polish: "Wiedźmin 3: Dziki Gon - Edycja Kompletna"
-    russian: "«Ведьмак 3: Дикая Охота — Полное издание»"
-    schinese: 《巫师 3：狂猎 - 完全版》
-    tchinese: 巫師 3：狂獵 - 完全版
-    ukrainian: "«Відьмак 3: Дикий Гін — Повне Видання»"
+    czech: "Zaklínač 3: Divoký Hon – Remaster"
+    japanese: ウィッチャー３　ワイルドハント　リマスター
+    polish: "Wiedźmin 3: Dziki Gon – Remaster"
+    russian: "Ведьмак 3: Дикая Охота — Обновлённое издание"
+    schinese: 巫师3：狂猎 — 重制版
+    tchinese: 巫師3：狂獵 — 重製版
+    ukrainian: "Відьмак 3: Дикий гін — Перевидання"
 292090:
   installDir: Rube Works
   launch:
@@ -361224,6 +361223,73 @@
   nameLocalized:
     schinese: Heart of the Woods - 森灵之心
     tchinese: Heart of the Woods - 森靈之心
+844670:
+  cloud:
+    saves:
+      - path: com.vnstudioelan.pleasebehappy
+        pattern: "*.json"
+        recursive: true
+        root: MacAppSupport
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: com.vnstudioelan.pleasebehappy
+            replace: Studio Élan/Please Be Happy
+        root: MacAppSupport
+        useInstead: WinAppDataLocalLow
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: com.vnstudioelan.pleasebehappy
+            replace: unity3d/Studio Élan/Please Be Happy
+        root: MacAppSupport
+        useInstead: LinuxXdgConfigHome
+  installDir: Please Be Happy
+  launch:
+    - config:
+        oslist: windows
+      description: Launch using Vulkan (※ Default)
+      executable: PleaseBeHappy.exe
+      type: option1
+    - config:
+        oslist: macos
+      description: Launch using Metal (※ Default)
+      executable: PleaseBeHappy.app
+      type: option1
+    - config:
+        oslist: linux
+      description: Launch using Vulkan (※ Default)
+      executable: PleaseBeHappy.x86_64
+      type: option1
+    - arguments: "-force-glcore"
+      config:
+        oslist: windows
+      description: Launch using OpenGL
+      executable: PleaseBeHappy.exe
+    - arguments: "-force-d3d11"
+      config:
+        oslist: windows
+      description: Launch using Direct3D 11
+      executable: PleaseBeHappy.exe
+    - arguments: "-force-d3d12"
+      config:
+        oslist: windows
+      description: Launch using Direct3D 12
+      executable: PleaseBeHappy.exe
+    - arguments: "-force-glcore"
+      config:
+        oslist: macos
+      description: Launch using OpenGL
+      executable: PleaseBeHappy.app
+    - arguments: "-force-glcore"
+      config:
+        oslist: linux
+      description: Launch using OpenGL
+      executable: PleaseBeHappy.x86_64
+  nameLocalized:
+    schinese: Please Be Happy - 愿你幸福
+    tchinese: Please Be Happy - 愿你幸福
 844730: {}
 844740:
   installDir: SCARF
@@ -565909,6 +565975,29 @@
     english: Sword and Fairy
     schinese: 仙剑奇侠传
     tchinese: 仙劍奇俠傳
+1546710:
+  cloud:
+    saves:
+      - path: VernalEdge/default/save
+        pattern: "*.json"
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: VernalEdge/default/save
+            replace: ".config/VernalEdge/save"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: Vernal Edge
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: VernalEdge.exe
+      type: default
+  nameLocalized:
+    schinese: 芸都恩仇录
 1546920:
   installDir: Overboard!
   launch:
@@ -593850,7 +593939,19 @@
         oslist: windows
       executable: Soccer Story.exe
       type: default
-1912410: {}
+1912410:
+  installDir: Minecraft Dungeons II
+  launch:
+    - config:
+        betakey: "public, build_debug, compatibility_test, first_playable, latest\t, latest_debug,  pearl, prototype, stable, vertical_slice, cert-branch"
+        osarch: "64"
+        oslist: windows
+      executable: Dungeons.exe
+      type: default
+    - config:
+        betakey: age_ratings
+        oslist: windows
+      executable: Dungeons.exe
 1912750:
   installDir: Terra Memoria
   launch:
@@ -638954,6 +639055,24 @@
       type: vr
 2899350: {}
 2900640:
+  cloud:
+    saves:
+      - path: Save
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: TOEM 2
+  launch:
+    - config:
+        oslist: windows
+      executable: TOEM 2.exe
+    - config:
+        oslist: macos
+      executable: TOEM 2.app
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: TOEM 2.x86_64
   nameLocalized:
     japanese: トーエム2
     schinese: TOEM 2 摄影冒险2
