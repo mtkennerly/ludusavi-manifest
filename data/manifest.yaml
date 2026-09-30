@@ -226947,6 +226947,30 @@ Dynasty Feud:
 "Dynasty Warriors 3: Complete Edition Remastered":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/DW3CE_RE/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/KoeiTecmo/DW3CE_RE/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/KoeiTecmo/DW3CE_RE/Saved/SaveGames_Backup":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    DW3CE_RE: {}
+  launch:
+    "<base>/DW3CE_RE.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3841510
 "Dynasty Warriors 4: Hyper":
@@ -442282,6 +442306,7 @@ Mariachi Legends:
       when:
         - os: windows
   id:
+    lutris: maries-room
     steamExtra:
       - 855020
       - 1962190
@@ -446005,6 +446030,13 @@ Matchbox Caterpillar Construction Zone:
     HKEY_LOCAL_MACHINE/SOFTWARE/Mattel Media/Matchbox/Caterpillar Construction Zone:
       tags:
         - config
+"Matchbox Caterpillar: Adventures in Time":
+  files:
+    "<base>/OPTIONS.DAT":
+      tags:
+        - config
+      when:
+        - os: windows
 Matchbox Driving Adventures:
   cloud:
     steam: true

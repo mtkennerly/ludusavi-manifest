@@ -656338,6 +656338,18 @@
 3838790: {}
 3839180: {}
 3841510:
+  cloud:
+    saves:
+      - path: KoeiTecmo/DW3CE_RE/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: DW3CE_RE
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: DW3CE_RE.exe
+      type: default
   nameLocalized:
     japanese: 真・三國無双２ with 猛将伝 Remastered
     koreana: 진・삼국무쌍２ with 맹장전 Remastered

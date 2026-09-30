@@ -73308,6 +73308,9 @@ Dynasty Feud:
     steam: true
   pageId: 208955
   steam: 3841510
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\DW3CE_RE\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\KoeiTecmo\\DW3CE_RE\\Saved\\SaveGames|{{P|localappdata}}\\KoeiTecmo\\DW3CE_RE\\Saved\\SaveGames_Backup}}"
 "Dynasty Warriors 4: Hyper":
   lutris: dynasty-warriors-4
   pageId: 16672
@@ -143906,6 +143909,7 @@ Mariachi Legends:
   pageId: 199979
   steam: 2376260
 "Marie's Room":
+  lutris: maries-room
   pageId: 78758
   steam: 648390
   steamSide:
@@ -145151,6 +145155,10 @@ Matchbox Caterpillar Construction Zone:
   pageId: 220982
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Mattel Media\\Matchbox\\Caterpillar Construction Zone}}"
+"Matchbox Caterpillar: Adventures in Time":
+  pageId: 220984
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\OPTIONS.DAT}}"
 Matchbox Driving Adventures:
   cloud:
     steam: true
@@ -150077,6 +150085,7 @@ Minecraft Dungeons:
 Minecraft Dungeons II:
   cloud:
     steam: true
+    xbox: true
   lutris: minecraft-dungeons-ii
   pageId: 220155
   steam: 1912410

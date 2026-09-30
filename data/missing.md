@@ -8292,7 +8292,6 @@
 * [Dynamite Bunny](https://www.pcgamingwiki.com/wiki/?curid=91574)
 * [DynamixVR - D.R.I.L.L.](https://www.pcgamingwiki.com/wiki/?curid=79686)
 * [Dynasty Feud](https://www.pcgamingwiki.com/wiki/?curid=57018)
-* [Dynasty Warriors 3: Complete Edition Remastered](https://www.pcgamingwiki.com/wiki/?curid=208955)
 * [Dynetzzle Extended](https://www.pcgamingwiki.com/wiki/?curid=44144)
 * [Dysan the Shapeshifter](https://www.pcgamingwiki.com/wiki/?curid=51049)
 * [Dysfunctional Systems: Orientation](https://www.pcgamingwiki.com/wiki/?curid=66061)
