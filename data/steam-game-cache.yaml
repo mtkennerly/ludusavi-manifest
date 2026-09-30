@@ -651568,7 +651568,8 @@
 3513350:
   installDir: Wuthering Waves
   launch:
-    - config:
+    - arguments: "-krqlv=hd"
+      config:
         osarch: "64"
         oslist: windows
       executable: Wuthering Waves.exe

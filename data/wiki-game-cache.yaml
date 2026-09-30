@@ -51368,6 +51368,8 @@ Creature Card Idle:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Cenega\\Creature Conflict - The Clan Wars\\save\\creatures.set|{{p|appdata}}\\Cenega\\Creature Conflict - The Clan Wars\\save\\video.cfg}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Cenega\\Creature Conflict - The Clan Wars\\save\\}}"
+Creature Crunch:
+  pageId: 220998
 Creature Lab:
   cloud:
     steam: true
@@ -225943,6 +225945,8 @@ Stunt Simulator Multiplayer:
 Stunt Toys:
   pageId: 61112
   steam: 597720
+Stunt Track Racer:
+  pageId: 221000
 StuntMania Reloaded:
   pageId: 49329
   steam: 324750
@@ -242988,6 +242992,7 @@ The Invisible Hand:
 The Invisible Hours:
   cloud:
     steam: true
+  lutris: the-invisible-hours
   pageId: 73776
   steam: 582560
   templates:
