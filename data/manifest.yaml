@@ -627663,6 +627663,22 @@ Serenade of the Sirens:
             store: steam
   steam:
     id: 901000
+"Serene Estates: Last Guy":
+  files:
+    "<home>/AppData/LocalLow/Digital Escape Games/The Last Guy/save*.lg":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Serene Estates - Last Guy: {}
+  launch:
+    "<base>/Serene Estates - Last Guy/The Last Guy.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3724910
 Serial Cleaner:
   cloud:
     gog: true

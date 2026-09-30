@@ -655063,6 +655063,13 @@
     - executable: ShiftAtMidnight.exe
   nameLocalized:
     schinese: 午夜轮班
+3724910:
+  installDir: Serene Estates - Last Guy
+  launch:
+    - config:
+        oslist: windows
+      description: Play Serene Estates - Last Guy
+      executable: Serene Estates - Last Guy/The Last Guy.exe
 3726250:
   installDir: My Little Cafe Nightmare
   launch:

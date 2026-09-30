@@ -204774,6 +204774,11 @@ Serenade of the Sirens:
     steam: true
   pageId: 109426
   steam: 901000
+"Serene Estates: Last Guy":
+  pageId: 221002
+  steam: 3724910
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Digital Escape Games\\The Last Guy\\save*.lg}}"
 Serial Cleaner:
   cloud:
     gog: true
