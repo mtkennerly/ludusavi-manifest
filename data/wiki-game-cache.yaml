@@ -145147,6 +145147,10 @@ Match and Crash:
   steam: 677200
 Matchbox Caterpillar Big Dirt Movers:
   pageId: 218871
+Matchbox Caterpillar Construction Zone:
+  pageId: 220982
+  templates:
+    - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Mattel Media\\Matchbox\\Caterpillar Construction Zone}}"
 Matchbox Driving Adventures:
   cloud:
     steam: true
@@ -145155,6 +145159,8 @@ Matchbox Driving Adventures:
   steam: 2322330
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Casual Brothers\\Matchbox\\Matchbox}}"
+"Matchbox: Deep Sea Explorer":
+  pageId: 220978
 "Matchpoint: Tennis Championships":
   cloud:
     steam: true
@@ -147702,6 +147708,7 @@ Metal Gear Solid - Master Collection Version:
 "Metal Gear Solid V: Ground Zeroes":
   cloud:
     steam: true
+  lutris: metal-gear-solid-v-ground-zeroes
   pageId: 19092
   steam: 311340
   templates:
@@ -166288,6 +166295,7 @@ Old School Rally:
   pageId: 207036
   steam: 2824660
 Old School RuneScape:
+  lutris: old-school-runescape
   pageId: 126871
   steam: 1343370
 Old Skies:
@@ -198388,6 +198396,7 @@ RuneSage:
   pageId: 52173
   steam: 542030
 RuneScape:
+  lutris: runescape
   pageId: 17858
   steam: 1343400
   templates:

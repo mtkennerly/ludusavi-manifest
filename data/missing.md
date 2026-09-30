@@ -16497,6 +16497,7 @@
 * [Match Solitaire](https://www.pcgamingwiki.com/wiki/?curid=148539)
 * [Match Three Pirates! Heir to Davy Jones](https://www.pcgamingwiki.com/wiki/?curid=132574)
 * [Matchbox Caterpillar Big Dirt Movers](https://www.pcgamingwiki.com/wiki/?curid=218871)
+* [Matchbox: Deep Sea Explorer](https://www.pcgamingwiki.com/wiki/?curid=220978)
 * [Matchville](https://www.pcgamingwiki.com/wiki/?curid=108744)
 * [Matchy Star](https://www.pcgamingwiki.com/wiki/?curid=81089)
 * [MatchyGotchy Z](https://www.pcgamingwiki.com/wiki/?curid=113488)

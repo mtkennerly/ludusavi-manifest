@@ -446000,6 +446000,11 @@ Match Three Pirates! Heir to Davy Jones:
 Match and Crash:
   steam:
     id: 677200
+Matchbox Caterpillar Construction Zone:
+  registry:
+    HKEY_LOCAL_MACHINE/SOFTWARE/Mattel Media/Matchbox/Caterpillar Construction Zone:
+      tags:
+        - config
 Matchbox Driving Adventures:
   cloud:
     steam: true
@@ -453863,6 +453868,8 @@ Metal Gear Solid - Master Collection Version:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: metal-gear-solid-v-ground-zeroes
   installDir:
     Metal Gear Solid Ground Zeroes: {}
   launch:
@@ -509321,6 +509328,8 @@ Old School Rally:
   steam:
     id: 2824660
 Old School RuneScape:
+  id:
+    lutris: old-school-runescape
   installDir:
     Old School RuneScape: {}
   launch:
@@ -607690,6 +607699,8 @@ RuneScape:
         - config
       when:
         - os: windows
+  id:
+    lutris: runescape
   installDir:
     RuneScape: {}
   launch:
