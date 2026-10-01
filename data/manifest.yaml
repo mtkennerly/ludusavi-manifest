@@ -298361,6 +298361,8 @@ Gears of War 4:
         - os: windows
   id:
     lutris: gears-of-war-e-day
+  installDir:
+    GoWEDay: {}
   steam:
     id: 3010850
 "Gears of War: Reloaded":
@@ -303109,6 +303111,12 @@ Gigantic Army:
   steam:
     id: 1924490
 "Gigantosaurus: Dino Kart":
+  files:
+    "<winLocalAppData>/3DClouds/GIG/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Gigantosaurus Racing: {}
   launch:

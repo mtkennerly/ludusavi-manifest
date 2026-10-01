@@ -641634,7 +641634,16 @@
       type: default
   nameLocalized:
     schinese: 林间暖巢 Winter Burrow
-3010850: {}
+3010850:
+  installDir: GoWEDay
+  launch:
+    - config:
+        betakey: "goweday-ship,goweday-in-tusk50, goweday-ship-futurepatch, goweday-static-in-tusk50, goweday-ship-geforce, goweday-in-retail, goweday-valve-review-in-retail"
+        osarch: "64"
+        oslist: windows
+      description: "Gears of War: EDay Protected"
+      executable: start_protected_game.exe
+      type: default
 3011850:
   installDir: CRUELTY
   launch:
@@ -650308,7 +650317,7 @@
     polish: "Uciekające kurczaki: Wygdakani"
     portuguese: "A Fuga das Galinhas: A Missão"
     russian: "Побег из курятника: ожелточение"
-    schinese: 落跑鸡：蛋劫行动
+    schinese: 小鸡快跑：蛋劫行动
     spanish: "Chicken Run: Por las plumas"
     tchinese: 落跑雞：蛋蛋大作戰
     turkish: "Tavuklar Firarda: Gıdak Kaçışı"
