@@ -534665,12 +534665,7 @@
 1237970:
   installDir: Titanfall2
   launch:
-    - executable: "link2ea://launchgame/1237970?platform=steam&theme=tf2"
-      type: none
-    - config:
-        betakey: eax_test
-      description: New launch method
-      executable: "steam2ea://launchgame/1237970?platform=steam&theme=tf2"
+    - executable: "steam2ea://launchgame/1237970?platform=steam&theme=tf2"
 1237980:
   installDir: STAR WARS Battlefront
   launch:
@@ -579234,6 +579229,25 @@
     - config:
         oslist: macos
       executable: "Dark Crypt.app\\Contents\\MacOS\\Dark Crypt"
+      type: default
+1706510:
+  cloud:
+    saves:
+      - path: Eastshade Studios/Songs of Glimmerwick
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Eastshade Studios/Songs of Glimmerwick
+        pattern: "*.met"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Songs of Glimmerwick
+  launch:
+    - config:
+        oslist: windows
+      executable: Songs of Glimmerwick.exe
       type: default
 1707550:
   installDir: Granny 3
@@ -661465,6 +661479,7 @@
   nameLocalized:
     schinese: 达巴 水痕之地
 4810650: {}
+4819620: {}
 4824610:
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"
@@ -661554,6 +661569,7 @@
 4991330: {}
 5036490: {}
 5067360: {}
+5071780: {}
 5093680: {}
 5095280:
   cloud:

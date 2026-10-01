@@ -139492,6 +139492,9 @@ Cliché - Critical Change:
 Click & Click:
   steam:
     id: 1085380
+Click Bait:
+  steam:
+    id: 5071780
 Click Commander:
   installDir:
     Click Commander: {}
@@ -418836,6 +418839,11 @@ Lisa and the Grimoire:
         - save
       when:
         - os: windows
+    "<base>/Lisa_1/Lisa_1/*.lsd":
+      tags:
+        - save
+      when:
+        - store: steam
   installDir:
     LISA The First: {}
   launch:
@@ -418854,11 +418862,13 @@ Lisa and the Grimoire:
         - save
       when:
         - os: windows
+        - os: linux
     "<base>/Joyful/*.rvdata2":
       tags:
         - save
       when:
         - os: windows
+        - os: linux
     "<base>/mkxp/mkxp.conf":
       tags:
         - config
@@ -529989,6 +529999,9 @@ Path:
           - store: steam
   steam:
     id: 1208400
+Path Defenders:
+  steam:
+    id: 4819620
 Path Of Aurora:
   cloud:
     steam: true
@@ -658568,6 +658581,32 @@ Songs of Conquest:
         - config
   steam:
     id: 867210
+Songs of Glimmerwick:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Eastshade Studios/Songs of Glimmerwick/*.dat":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Eastshade Studios/Songs of Glimmerwick/*.met":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 4033880
+      - 5213830
+      - 5214050
+  installDir:
+    Songs of Glimmerwick: {}
+  launch:
+    "<base>/Songs of Glimmerwick.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1706510
 Songs of Silence:
   cloud:
     epic: true

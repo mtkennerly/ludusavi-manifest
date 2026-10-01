@@ -45004,6 +45004,9 @@ Cliché - Critical Change:
 Click & Click:
   pageId: 136578
   steam: 1085380
+Click Bait:
+  pageId: 221009
+  steam: 5071780
 Click Commander:
   pageId: 141119
   steam: 1106930
@@ -136308,6 +136311,7 @@ Lisa and the Grimoire:
   steam: 2743030
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\*.lsd}}"
+    - "{{Game data/saves|Steam|{{P|game}}\\Lisa_1\\Lisa_1\\*.lsd}}"
 "Lisa: The Joyful":
   pageId: 204097
 "Lisa: The Painful":
@@ -136324,6 +136328,7 @@ Lisa and the Grimoire:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\mkxp\\mkxp.conf}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.rvdata2|{{p|game}}\\Joyful\\*.rvdata2}}"
+    - "{{Game data/saves|Linux|{{p|game}}/*.rvdata2|{{p|game}}/Joyful/*.rvdata2}}"
 Lisssn:
   cloud:
     steam: true
@@ -173068,6 +173073,9 @@ Patent9:
 Path:
   pageId: 155967
   steam: 1208400
+Path Defenders:
+  pageId: 221008
+  steam: 4819620
 Path Of Aurora:
   cloud:
     steam: true
@@ -214581,6 +214589,15 @@ Songs of Conquest:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Lavapotion\\SongsOfConquest}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Lavapotion\\SongsOfConquest\\Savegames}}"
+Songs of Glimmerwick:
+  cloud:
+    steam: true
+  pageId: 221007
+  steam: 1706510
+  steamSide:
+    - 4033880
+    - 5213830
+    - 5214050
 Songs of Silence:
   cloud:
     epic: true
