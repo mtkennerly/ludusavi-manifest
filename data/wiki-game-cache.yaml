@@ -4660,6 +4660,8 @@ AR-K:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Gato Salvaje\\ArkIII}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Gato Salvaje\\ArkIII\\}}"
+ARA NGC 6397:
+  pageId: 221026
 ARC:
   pageId: 144459
   steam: 1124550
@@ -5533,6 +5535,7 @@ Ace Attorney Investigations Collection:
   cloud:
     steam: true
     xbox: true
+  lutris: ace-attorney-investigations-collection
   pageId: 195816
   steam: 2401970
   templates:
@@ -5569,9 +5572,17 @@ Ace Attorney Investigations Collection:
     steam: true
   pageId: 211975
   steam: 2288340
+  steamSide:
+    - 3594180
+    - 3635880
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\ACE COMBAT 8\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\ACE COMBAT 8\\Saved\\SaveGames\\}}"
 "Ace Combat Zero: The Belkan War":
   pageId: 218564
   steam: 3635880
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\ACE COMBAT 8\\ACZero\\settings\\setting.ini}}"
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
@@ -24399,8 +24410,10 @@ Be My Horde:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BeMyHorde\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BeMyHorde\\Saved\\SaveGames}}"
-"Be My Mom - maternity simulator, take care of your child":
+"Be My Mom - Maternity Simulator, Take Care of Your Child":
   pageId: 174946
+  renamedFrom:
+    - "Be My Mom - maternity simulator, take care of your child"
   steam: 1312660
 Be Quiet!:
   pageId: 63622
@@ -35550,6 +35563,9 @@ Bunker Punks:
 Bunker Rush:
   pageId: 93921
   steam: 852180
+Bunker Tidy Up:
+  pageId: 221021
+  steam: 5212940
 Bunny & Piggy:
   pageId: 54082
   steam: 549810
@@ -39772,8 +39788,11 @@ Castlevania Dominus Collection:
     - "{{Game data/saves|Windows|{{P|game}}\\winbackup}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\2369900\\remote\\}}"
 "Castlevania: Belmont's Curse":
+  lutris: castlevania-belmonts-curse
   pageId: 213723
   steam: 4231820
+  steamSide:
+    - 5000760
 "Castlevania: Grimoire of Souls":
   pageId: 170733
 "Castlevania: Lords of Shadow":
@@ -40874,6 +40893,8 @@ Celtabula:
   lutris: celtic-kings-rage-of-war
   pageId: 19727
   steam: 827000
+Celtica:
+  pageId: 221029
 Celtreos:
   pageId: 134994
   steam: 1065900
@@ -66472,8 +66493,17 @@ Divinoids:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Weltall Zero\\Divinoids}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Weltall Zero\\Divinoids\\saveGame.sav}}"
 Divinum:
+  cloud:
+    steam: true
+  gog: 1347090168
+  lutris: divinum
   pageId: 151513
   steam: 1148130
+  steamSide:
+    - 4196020
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Sigil Games\\Divinum\\*.prs}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Sigil Games\\Divinum\\*.sav}}"
 Divo:
   pageId: 40663
   steam: 230760
@@ -70612,6 +70642,7 @@ Dress-up Traveller:
 Dressmaker:
   cloud:
     steam: true
+  lutris: dressmaker--1
   pageId: 220801
   steam: 4019220
 Drew and the Floating Labyrinth:
@@ -77574,6 +77605,7 @@ End War RTS:
   pageId: 102437
   steam: 896650
 End of Abyss:
+  lutris: end-of-abyss
   pageId: 205229
 End of Days:
   pageId: 70529
@@ -82257,6 +82289,7 @@ F-15 Strike Eagle II:
 F-15 Strike Eagle III:
   pageId: 182929
 F-16 Multirole Fighter:
+  lutris: f-16-multirole-fighter
   pageId: 41287
   steam: 32720
   templates:
@@ -82269,6 +82302,7 @@ F-19 Stealth Fighter:
   pageId: 48314
   steam: 347250
 F-22 Lightning 3:
+  lutris: f-22-lightning-3
   pageId: 41288
   steam: 32730
   templates:
@@ -100942,6 +100976,8 @@ Gord:
   gog: 1986523815
   pageId: 192585
   steam: 1351210
+Gord@k:
+  pageId: 221031
 Gordian Quest:
   cloud:
     steam: true
@@ -135229,8 +135265,18 @@ Life Is Strange Remastered:
   cloud:
     steam: true
     xbox: true
+  lutris: life-is-strange-true-colors
   pageId: 167258
   steam: 936790
+  steamSide:
+    - 1266950
+    - 1285380
+    - 1319890
+    - 1450570
+    - 1450571
+    - 1450572
+    - 1571390
+    - 2000100
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Siren\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Siren\\Saved\\Config\\WinGDK\\}}"
@@ -145167,6 +145213,8 @@ Matchbox Caterpillar Construction Zone:
   pageId: 220982
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\Mattel Media\\Matchbox\\Caterpillar Construction Zone}}"
+"Matchbox Caterpillar Construction Zone 2: Gold Mining":
+  pageId: 221024
 "Matchbox Caterpillar: Adventures in Time":
   pageId: 220984
   templates:
@@ -146127,6 +146175,8 @@ Medal of Honor (2010):
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\MOHW\\settings\\PROF_SAVE_profile}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\MOHW\\settings\\meta.xml}}"
+MediEvil (MediEvilRecomp):
+  pageId: 221018
 Medical verdict:
   pageId: 109300
   steam: 891310
@@ -148495,6 +148545,7 @@ MiDZone:
 MiG Alley:
   pageId: 216349
 MiG-29 Fulcrum (1998):
+  lutris: mig-29-fulcrum
   pageId: 20341
   steam: 32740
   templates:
@@ -188811,6 +188862,8 @@ Reagan Gorbachev:
 "Reah: Face the Unknown":
   gog: 1911151506
   pageId: 83155
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\Reah.s*}}"
 Reaktron:
   pageId: 143825
   steam: 1029640
@@ -191852,6 +191905,7 @@ Resident Evil HD Remaster:
     steam: true
   gog: 1999933307
   lutris: resident-evil-biohazard-hd-remaster
+  malformed: true
   pageId: 20009
   steam: 304240
   templates:
@@ -213303,6 +213357,19 @@ SnowRunner:
   lutris: snowrunner
   pageId: 143572
   steam: 1465360
+  steamSide:
+    - 1533000
+    - 1533001
+    - 1533002
+    - 1533003
+    - 1533004
+    - 1533005
+    - 1533006
+    - 1533007
+    - 1533008
+    - 1533009
+    - 1533010
+    - 1533011
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\SnowRunner\\base\\storage\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\SnowRunner\\base\\storage\\}}"
@@ -222683,6 +222750,7 @@ State of Decay 2:
   cloud:
     steam: true
     xbox: true
+  lutris: state-of-decay-2
   pageId: 88993
   steam: 495420
   steamSide:
@@ -232456,6 +232524,7 @@ Tachyon Project:
   steam: 385860
 "Tachyon: The Fringe":
   gog: 1878529522
+  lutris: tachyon-the-fringe
   pageId: 26063
   steam: 32760
   templates:
@@ -256119,6 +256188,9 @@ Too Many F*cking Nazis:
     steam: true
   pageId: 215092
   steam: 3900950
+Too Many Toys!:
+  pageId: 221023
+  steam: 5028390
 Too Many Weapons:
   pageId: 62974
   steam: 646280

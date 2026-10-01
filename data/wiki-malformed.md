@@ -24,6 +24,7 @@
 * [Omega Labyrinth Life](https://www.pcgamingwiki.com/wiki/?curid=153458)
 * [Phineas and Ferb: New Inventions](https://www.pcgamingwiki.com/wiki/?curid=48629)
 * [Playboy: The Mansion](https://www.pcgamingwiki.com/wiki/?curid=75395)
+* [Resident Evil HD Remaster](https://www.pcgamingwiki.com/wiki/?curid=20009)
 * [Riddle Tower](https://www.pcgamingwiki.com/wiki/?curid=217157)
 * [Riding to Bounce City](https://www.pcgamingwiki.com/wiki/?curid=218655)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)

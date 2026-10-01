@@ -17680,6 +17680,8 @@ Ace Attorney Investigations Collection:
         - save
       when:
         - store: steam
+  id:
+    lutris: ace-attorney-investigations-collection
   installDir:
     Ace Attorney Investigations Collection: {}
   launch:
@@ -17740,9 +17742,31 @@ Ace Attorney Investigations Collection:
 "Ace Combat 8: Wings of Theve":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/ACE COMBAT 8/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/ACE COMBAT 8/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3594180
+  installDir:
+    ACE COMBAT 8: {}
   steam:
     id: 2288340
 "Ace Combat Zero: The Belkan War":
+  files:
+    "<base>/ACE COMBAT 8/ACZero/settings/setting.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   steam:
     id: 3635880
 "Ace Combat: Assault Horizon - Enhanced Edition":
@@ -75257,7 +75281,7 @@ Be My Horde:
           - store: steam
   steam:
     id: 2499520
-"Be My Mom - maternity simulator, take care of your child":
+"Be My Mom - Maternity Simulator, Take Care of Your Child":
   steam:
     id: 1312660
 Be Quiet!:
@@ -78512,6 +78536,13 @@ Behind You:
   steam:
     id: 397660
 Behind the Beyond:
+  installDir:
+    Behind the Beyond: {}
+  launch:
+    "<base>/Behind the Beyond.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1148310
 Behind the Door:
@@ -109706,6 +109737,20 @@ Bunker Rush:
             store: steam
   steam:
     id: 852180
+Bunker Tidy Up:
+  files:
+    "<home>/AppData/LocalLow/Tovarishch Games/Bunker/Saves/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Bunker Tidy Up: {}
+  launch:
+    "<base>/Bunker.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 5212940
 Bunny & Piggy:
   steam:
     id: 549810
@@ -122626,6 +122671,10 @@ Castlevania Dominus Collection:
   steam:
     id: 2369900
 "Castlevania: Belmont's Curse":
+  id:
+    lutris: castlevania-belmonts-curse
+    steamExtra:
+      - 5000760
   steam:
     id: 4231820
 "Castlevania: Lords of Shadow":
@@ -205262,18 +205311,25 @@ Divinoids:
   steam:
     id: 1251670
 Divinum:
+  cloud:
+    steam: true
   files:
-    "<home>/.config/unity3d/Sigil Games/Divinum/*.sav":
+    "<home>/AppData/LocalLow/Sigil Games/Divinum/*.prs":
+      tags:
+        - config
       when:
-        - os: linux
-          store: steam
+        - os: windows
     "<home>/AppData/LocalLow/Sigil Games/Divinum/*.sav":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/com.Sigil-Games.Divinum/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
+  gog:
+    id: 1347090168
+  id:
+    lutris: divinum
+    steamExtra:
+      - 4196020
   installDir:
     Divinum: {}
   launch:
@@ -218024,6 +218080,8 @@ Dressmaker:
       when:
         - os: mac
           store: steam
+  id:
+    lutris: dressmaker--1
   installDir:
     Dressmaker: {}
   launch:
@@ -239597,6 +239655,9 @@ End War RTS:
             store: steam
   steam:
     id: 896650
+End of Abyss:
+  id:
+    lutris: end-of-abyss
 End of Days:
   installDir:
     End of Days: {}
@@ -253991,6 +254052,8 @@ F-16 Multirole Fighter:
         - save
       when:
         - os: windows
+  id:
+    lutris: f-16-multirole-fighter
   installDir:
     F-16 Multirole Fighter: {}
   launch:
@@ -254051,6 +254114,8 @@ F-22 Lightning 3:
         - save
       when:
         - os: windows
+  id:
+    lutris: f-22-lightning-3
   installDir:
     F-22 Lightning 3: {}
   launch:
@@ -267572,6 +267637,10 @@ Fields of Mistria:
   installDir:
     Fields of Mistria: {}
   launch:
+    "<base>/Fields of Mistria.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/FieldsOfMistria":
       - when:
           - bit: 64
@@ -268242,6 +268311,17 @@ Fighting for Food:
   steam:
     id: 667580
 Fightland:
+  installDir:
+    Fightland: {}
+  launch:
+    "<base>/Fightland.app/Contents/MacOS/Fightland":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Fightland.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2699550
 Fights in Tight Spaces:
@@ -415428,6 +415508,17 @@ Life Is Strange Remastered:
         - config
       when:
         - os: windows
+  id:
+    lutris: life-is-strange-true-colors
+    steamExtra:
+      - 1266950
+      - 1285380
+      - 1319890
+      - 1450570
+      - 1450571
+      - 1450572
+      - 1571390
+      - 2000100
   installDir:
     LifeIsStrange3: {}
   launch:
@@ -455983,6 +456074,8 @@ MiDZone:
   steam:
     id: 494290
 MiG-29 Fulcrum (1998):
+  id:
+    lutris: mig-29-fulcrum
   installDir:
     MiG-29 Fulcrum: {}
   launch:
@@ -501870,6 +501963,11 @@ Norse:
 "Norse: Oath of Blood":
   cloud:
     gog: true
+  files:
+    "<winLocalAppData>/Norse/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1225623266
   id:
@@ -578665,6 +578763,12 @@ Reagan Gorbachev:
   steam:
     id: 364720
 "Reah: Face the Unknown":
+  files:
+    "<base>/Reah.s*":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1911151506
 Reaktron:
@@ -638719,11 +638823,22 @@ Shroom and Gloom:
     "<base>/SaveData/Fu<storeUserId>/**/*.json":
       when:
         - store: steam
+    "<base>/SaveData/Fu<storeUserId>/game.stats*":
+      when:
+        - store: steam
     "<home>/AppData/LocalLow/Team Lazerbeam/Shroom and Gloom/SaveData/Fu<storeUserId>/**/*.json":
       when:
         - os: windows
           store: steam
+    "<home>/AppData/LocalLow/Team Lazerbeam/Shroom and Gloom/SaveData/Fu<storeUserId>/game.stats*":
+      when:
+        - os: windows
+          store: steam
     "<home>/Library/Application Support/Team Lazerbeam/Shroom and Gloom/SaveData/Fu<storeUserId>/**/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Team Lazerbeam/Shroom and Gloom/SaveData/Fu<storeUserId>/game.stats*":
       when:
         - os: mac
           store: steam
@@ -654276,6 +654391,19 @@ SnowRunner:
           store: microsoft
   id:
     lutris: snowrunner
+    steamExtra:
+      - 1533000
+      - 1533001
+      - 1533002
+      - 1533003
+      - 1533004
+      - 1533005
+      - 1533006
+      - 1533007
+      - 1533008
+      - 1533009
+      - 1533010
+      - 1533011
   installDir:
     SnowRunner: {}
   launch:
@@ -683051,6 +683179,7 @@ State of Decay 2:
         - os: windows
           store: steam
   id:
+    lutris: state-of-decay-2
     steamExtra:
       - 1249770
   installDir:
@@ -713381,6 +713510,8 @@ Tachyon Project:
         - os: windows
   gog:
     id: 1878529522
+  id:
+    lutris: tachyon-the-fringe
   installDir:
     Tachyon The Fringe: {}
   launch:
@@ -785672,6 +785803,15 @@ Too Many F*cking Nazis:
     steam: true
   steam:
     id: 3900950
+Too Many Toys!:
+  installDir:
+    Too Many Toys!: {}
+  launch:
+    "<base>/Too Many Toys!.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 5028390
 Too Many Weapons:
   installDir:
     Too Many Weapons: {}

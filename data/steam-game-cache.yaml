@@ -503557,7 +503557,13 @@
   launch:
     - executable: War Battle Royale  Battlegrounds.exe
       type: none
-1148310: {}
+1148310:
+  installDir: Behind the Beyond
+  launch:
+    - config:
+        oslist: windows
+      executable: Behind the Beyond.exe
+      type: default
 1148320:
   installDir: Masteroid
   launch:
@@ -602398,6 +602404,16 @@
         root: WinAppDataLocalLow
   installDir: Esoteric Ebb
   launch:
+    - config:
+        betakey: linux
+        oslist: linux
+      executable: Esoteric Ebb.x86_64
+      type: default
+    - config:
+        betakey: mac
+        oslist: macos
+      executable: Esoteric Ebb.app
+      type: default
     - executable: Esoteric Ebb.exe
       type: default
   nameLocalized:
@@ -609035,6 +609051,10 @@
         osarch: "64"
         oslist: linux
       executable: FieldsOfMistria
+      type: default
+    - config:
+        oslist: macos
+      executable: Fields of Mistria.app
       type: default
 2143340:
   installDir: Dark Nights
@@ -616334,6 +616354,54 @@
     schinese: 三国志8  REMAKE
     tchinese: 三國志8  REMAKE
 2288340:
+  cloud:
+    saves:
+      - path: BANDAI NAMCO Entertainment/ACE COMBAT 8/Saved/SaveGames
+        pattern: Replay*.sav
+        root: WinAppDataLocal
+      - path: BANDAI NAMCO Entertainment/ACE COMBAT 8/Saved/SaveGames
+        pattern: Campaign.sav
+        root: WinAppDataLocal
+      - path: BANDAI NAMCO Entertainment/ACE COMBAT 8/Saved/SaveGames
+        pattern: OnlineAccount.sav
+        root: WinAppDataLocal
+  installDir: ACE COMBAT 8
+  launch:
+    - arguments: "-SaveToUserDir"
+      description: "ACE COMBAT 8 "
+      executable: start_protected_game.exe
+      type: option1
+    - config:
+        ownsdlc: "3635880"
+      description: "ACE COMBAT ZERO "
+      executable: "ACZero\\acz.exe"
+      type: option2
+    - arguments: "-SaveToUserDir -stompmalloc"
+      config:
+        betakey: "qa-debug,development"
+      description: ACE COMBAT 8 With Memory Check
+      executable: "Game\\Binaries\\Win64\\AceCombat8.exe"
+      type: option1
+    - config:
+        betakey: media
+      description: "01"
+      executable: 01.bat
+    - config:
+        betakey: media
+      description: "02"
+      executable: 02.bat
+    - config:
+        betakey: "qa-release-2,qa-debug-2,build-review-2,compat"
+        ownsdlc: "3635880"
+      description: "ACE COMBAT ZERO (Debug) "
+      executable: "ACZero\\aczTest.exe"
+      type: option2
+    - arguments: "-SaveToUserDir"
+      config:
+        betakey: "denuvo,qa-debug,development,nvidia,amdc,intel"
+      description: "ACE COMBAT 8 No EAC "
+      executable: "Game\\Binaries\\Win64\\AceCombat8.exe"
+      type: option1
   nameLocalized:
     koreana: "에이스 컴뱃 8: 시브의 날개 (ACE COMBAT 8: WINGS OF THEVE)"
     schinese: "空战奇兵8 希孚之翼 (ACE COMBAT 8: WINGS OF THEVE)"
@@ -633364,7 +633432,16 @@
     japanese: ザ クルー：モーターフェス
     schinese: 《飙酷车神：轰鸣盛典》
     tchinese: 《飆酷車神：動力慶典》
-2699550: {}
+2699550:
+  installDir: Fightland
+  launch:
+    - config:
+        oslist: windows
+      executable: Fightland.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Fightland.app/Contents/MacOS/Fightland
 2701030: {}
 2701440:
   cloud:
@@ -642942,6 +643019,13 @@
       executable: DungeonRampage.exe
       type: default
 3054690:
+  cloud:
+    saves:
+      - path: Norse/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: Norse
   launch:
     - executable: Norse.exe
@@ -647298,6 +647382,9 @@
       - path: "SaveData/Fu{64BitSteamID}/"
         pattern: "*.json"
         recursive: true
+        root: gameinstall
+      - path: "SaveData/Fu{64BitSteamID}/"
+        pattern: game.stats*
         root: gameinstall
     overrides:
       - addPath: Team Lazerbeam/Shroom and Gloom/
@@ -653799,7 +653886,14 @@
         osarch: "64"
         oslist: windows
       executable: CJSteam.exe
-3635880: {}
+3635880:
+  nameLocalized:
+    brazilian: "ACE COMBAT ZERO: THE BELKAN WAR (Versão de Steam)"
+    japanese: "ACE COMBAT ZERO: THE BELKAN WAR(Steam移植版)"
+    koreana: "ACE COMBAT ZERO: THE BELKAN WAR(Steam 이식판)"
+    latam: "ACE COMBAT ZERO: THE BELKAN WAR (versión para Steam)"
+    schinese: "ACE COMBAT ZERO: THE BELKAN WAR(Steam移植版)"
+    tchinese: "ACE COMBAT ZERO: THE BELKAN WAR(Steam移植版)"
 3636060:
   cloud:
     saves:
@@ -661576,6 +661670,10 @@
 4980620: {}
 4981370: {}
 4991330: {}
+5028390:
+  installDir: Too Many Toys!
+  launch:
+    - executable: Too Many Toys!.exe
 5036490: {}
 5067360: {}
 5071780: {}
@@ -661629,6 +661727,18 @@
     russian: "Герой Королевства: Отголоски"
     schinese: 王国英雄：餘音
     ukrainian: "Герой Королівства: Відлуння"
+5212940:
+  cloud:
+    saves:
+      - path: Tovarishch Games/Bunker/Saves
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Bunker Tidy Up
+  launch:
+    - executable: Bunker.exe
 5219090: {}
 5227630: {}
 5233100: {}
