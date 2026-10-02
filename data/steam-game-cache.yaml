@@ -27719,6 +27719,8 @@
       description: " Manual Game Update"
       executable: launcher.exe
       type: config
+  nameLocalized:
+    schinese: 战争雷霆
 236430:
   installDir: Dark Souls II
   launch:
@@ -602166,7 +602168,7 @@
 2051620:
   installDir: Enlisted
   launch:
-    - arguments: " -config:circuit:t=jupiter -game:enlisted -circuit:jupiter -noeac -skip_pkg_validation"
+    - arguments: "-forcestart -config:circuit:t=jupiter -game:enlisted -circuit:jupiter -noeac -skip_pkg_validation"
       config:
         osarch: "64"
         oslist: windows
@@ -653115,6 +653117,17 @@
       executable: Awkward Valley.exe
       type: default
 3592940: {}
+3593490:
+  cloud:
+    saves:
+      - path: We Create Stuff/Days Without Incident/
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+  installDir: DaysWithoutIncident
+  launch:
+    - config:
+        oslist: windows
+      executable: dwi.exe
 3593780:
   cloud:
     saves:

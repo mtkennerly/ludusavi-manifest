@@ -17114,6 +17114,12 @@ Assassin 2015:
   lutris: assassins-creed-ii
   pageId: 221
   steam: 33230
+  steamSide:
+    - 22803
+    - 33360
+    - 33361
+    - 33362
+    - 48173
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Ubisoft\\Assassin's Creed 2\\Assassin2.ini}}"
     - "{{Game data/saves|Windows|{{p|uplay}}\\savegames\\{{p|uid}}\\4\\}}"
@@ -22375,6 +22381,8 @@ Barbie Sparkling Ice Show:
   pageId: 197324
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Game.dat}}"
+Barbie Storymaker:
+  pageId: 221072
 Barbie and Her Magical House:
   pageId: 170648
 Barbie and Her Sisters Puppy Rescue:
@@ -58405,6 +58413,12 @@ Days Under Custody:
     steam: true
   pageId: 45509
   steam: 412730
+Days Without Incident:
+  cloud:
+    steam: true
+  lutris: days-without-incident
+  pageId: 221069
+  steam: 3593490
 Days of Purgatory:
   pageId: 78709
   steam: 684840
@@ -119326,8 +119340,11 @@ Indiecalypse:
   pageId: 150868
   steam: 1123610
 "Indigo Park: Chapter 1":
+  lutris: indigo-park
   pageId: 199492
   steam: 2504480
+  steamSide:
+    - 3722130
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\RaccoonCh1\\Saved\\Config}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\RaccoonCh1\\Saved\\SaveGames}}"
@@ -120187,6 +120204,7 @@ Injustice 2:
 "Injustice: Gods Among Us":
   cloud:
     steam: true
+  lutris: injustice-gods-among-us-ultimate-edition
   pageId: 11108
   steam: 242700
   templates:
@@ -132198,6 +132216,8 @@ Last Half of Darkness - Society of the Serpent Moon:
 "Last Half of Darkness: Society of the Serpent Moon":
   pageId: 47005
   steam: 384910
+  templates:
+    - "{{Game data/saves|Windows|{{P|steam}}\\steamapps\\common\\Last Half of Darkness - Society of the Serpent Moon\\demo\\media\\game}}"
 Last Heroes:
   cloud:
     steam: true
@@ -196750,6 +196770,8 @@ Roll Out:
     steam: true
   pageId: 64608
   steam: 661650
+Roll a Fisherman:
+  pageId: 221070
 "Roll'd":
   cloud:
     steam: true
@@ -223564,6 +223586,37 @@ Steep:
   steam: 460920
   steamSide:
     - 550040
+    - 556390
+    - 556391
+    - 556392
+    - 562850
+    - 564360
+    - 564410
+    - 564411
+    - 564412
+    - 564413
+    - 564414
+    - 564415
+    - 564416
+    - 623290
+    - 623291
+    - 686890
+    - 729770
+    - 729771
+    - 730470
+    - 732380
+    - 732381
+    - 744850
+    - 744851
+    - 951660
+    - 951661
+    - 951662
+    - 951663
+    - 951664
+    - 951665
+    - 951666
+    - 951667
+    - 951668
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\My Games\\STEEP\\Default\\STEEP.ini}}"
     - "{{Game data/saves|Epic Games Store|{{p|ubisoftconnect}}\\savegames\\{{p|uid}}\\3279\\}}"
@@ -251585,6 +251638,8 @@ The Witcher:
   steam: 20900
   steamSide:
     - 9810
+    - 20902
+    - 1229370
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\CD Projekt RED\\Witcher\\Settings\\|{{p|hkcu}}\\Software\\CD Projekt RED\\Witcher\\Bindings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\The Witcher\\saves\\}}"

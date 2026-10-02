@@ -53174,6 +53174,12 @@ Asphyxia:
         - os: windows
   id:
     lutris: assassins-creed-ii
+    steamExtra:
+      - 22803
+      - 33360
+      - 33361
+      - 33362
+      - 48173
   installDir:
     "Assassin's Creed 2": {}
   launch:
@@ -180451,6 +180457,24 @@ Days Under Custody:
             store: steam
   steam:
     id: 412730
+Days Without Incident:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/We Create Stuff/Days Without Incident/*.json":
+      when:
+        - store: steam
+  id:
+    lutris: days-without-incident
+  installDir:
+    DaysWithoutIncident: {}
+  launch:
+    "<base>/dwi.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3593490
 Days of Purgatory:
   installDir:
     DaysOfPurgatory: {}
@@ -241679,7 +241703,7 @@ Enlisted:
     Enlisted: {}
   launch:
     "<base>/enlisted_BE.exe":
-      - arguments: " -config:circuit:t=jupiter -game:enlisted -circuit:jupiter -noeac -skip_pkg_validation"
+      - arguments: "-forcestart -config:circuit:t=jupiter -game:enlisted -circuit:jupiter -noeac -skip_pkg_validation"
         when:
           - bit: 64
             os: windows
@@ -367090,6 +367114,10 @@ Indiecalypse:
         - save
       when:
         - os: windows
+  id:
+    lutris: indigo-park
+    steamExtra:
+      - 3722130
   installDir:
     Indigo Park: {}
   launch:
@@ -369571,6 +369599,8 @@ Injustice 2:
         - config
       when:
         - os: windows
+  id:
+    lutris: injustice-gods-among-us-ultimate-edition
   installDir:
     InjusticeGodsAmongUs_UltimateEdition: {}
   launch:
@@ -406066,6 +406096,13 @@ Last Half of Darkness - Society of the Serpent Moon:
   steam:
     id: 384910
 "Last Half of Darkness: Society of the Serpent Moon":
+  files:
+    "<root>/steamapps/common/Last Half of Darkness - Society of the Serpent Moon/demo/media/game":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   installDir:
     Last Half of Darkness - Society of the Serpent Moon: {}
   launch:
@@ -685710,6 +685747,37 @@ Steep:
     lutris: steep
     steamExtra:
       - 550040
+      - 556390
+      - 556391
+      - 556392
+      - 562850
+      - 564360
+      - 564410
+      - 564411
+      - 564412
+      - 564413
+      - 564414
+      - 564415
+      - 564416
+      - 623290
+      - 623291
+      - 686890
+      - 729770
+      - 729771
+      - 730470
+      - 732380
+      - 732381
+      - 744850
+      - 744851
+      - 951660
+      - 951661
+      - 951662
+      - 951663
+      - 951664
+      - 951665
+      - 951666
+      - 951667
+      - 951668
   installDir:
     Steep: {}
   launch:
@@ -771650,6 +771718,8 @@ The Witcher:
     lutris: the-witcher-enhanced-edition
     steamExtra:
       - 9810
+      - 20902
+      - 1229370
   installDir:
     The Witcher Enhanced Edition: {}
   launch:
