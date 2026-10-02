@@ -14523,6 +14523,28 @@ AL･FINE:
             store: steam
   steam:
     id: 545330
+AMA Superbike:
+  files:
+    "<base>/CommandMap.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/ControlMap.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/d3d.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/game.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 AMAZEing Adventures:
   cloud:
     steam: true
@@ -106359,6 +106381,8 @@ Broken Spell 2:
   steam:
     id: 33610
 "Broken Sword 4: The Angel of Death":
+  cloud:
+    gog: true
   files:
     "<base>/system":
       tags:
@@ -146464,6 +146488,7 @@ Comanche:
   gog:
     id: 1835921084
   id:
+    lutris: comanche
     steamExtra:
       - 1423740
   installDir:
@@ -237151,6 +237176,11 @@ Elsword:
           - store: steam
   steam:
     id: 558230
+"Elta: Defy All Gods":
+  cloud:
+    steam: true
+  steam:
+    id: 2659410
 Elteria Adventures:
   steam:
     id: 744200
@@ -308341,6 +308371,8 @@ Gods vs Humans:
   steam:
     id: 322980
 "Gods, Death & Reapers":
+  id:
+    lutris: gods-death-and-reapers--2
   steam:
     id: 3086590
 Godsend:
@@ -350880,7 +350912,7 @@ Hot Wheels Stunt Track Driver:
       when:
         - os: windows
   id:
-    lutris: hot-wheels-stunt-track-driver/
+    lutris: hot-wheels-stunt-track-driver
 Hot Wheels Unleashed:
   cloud:
     steam: true
@@ -455749,6 +455781,8 @@ Metro Warp:
     id: 1855184473
   id:
     lutris: metro-last-light
+    steamExtra:
+      - 245350
   installDir:
     Metro Last Light: {}
   launch:
@@ -500904,6 +500938,8 @@ Nocturnal 2:
     steam: true
   id:
     lutris: nocturnal-2
+    steamExtra:
+      - 4325830
   steam:
     id: 2847780
 Nocturnal Hunt:
@@ -513472,6 +513508,8 @@ Onimod Land:
         - save
       when:
         - store: steam
+  id:
+    lutris: onimusha-2-samurais-destiny
   installDir:
     Onimusha2: {}
   launch:
@@ -818878,6 +818916,23 @@ Valkyrie Elysium:
           - store: steam
   steam:
     id: 1963210
+Valkyrie Saga:
+  files:
+    "<winAppData>/Godot/app_userdata/Valkyrie Saga/*.save":
+      when:
+        - store: steam
+  installDir:
+    Valkyrie Saga: {}
+  launch:
+    "<base>/Valkyrie.exe":
+      - arguments: "--rendering-driver vulkan"
+        when:
+          - store: steam
+      - arguments: "--rendering-driver opengl3"
+        when:
+          - store: steam
+  steam:
+    id: 2663150
 Valkyrius Prime:
   files:
     "<winDocuments>/SavedGames/Valkyrius Prime/Valkyrius Prime Data/Player*/settings.sav":

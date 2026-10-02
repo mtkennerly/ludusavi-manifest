@@ -632032,6 +632032,9 @@
   installDir: Flambeau Deluxxx
   launch:
     - executable: Flambeau_Deluxxx_v1_03.exe
+2659410:
+  nameLocalized:
+    schinese: 艾尔塔：逆神
 2660410:
   installDir: CORRUPTION 2029
   launch:
@@ -632179,6 +632182,26 @@
       type: option2
   nameLocalized:
     schinese: 禁闭求生2 Grounded 2
+2663150:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Valkyrie Saga
+        pattern: "*.save"
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: Valkyrie Saga
+  launch:
+    - arguments: "--rendering-driver vulkan"
+      description: Launch with Vulkan (preferred)
+      executable: Valkyrie.exe
+    - arguments: "--rendering-driver opengl3"
+      description: Launch with OpenGL (if any texture issues)
+      executable: Valkyrie.exe
 2663530:
   cloud:
     saves:
@@ -643914,7 +643937,10 @@
         oslist: windows
       executable: LostEmberRekindledSteam.exe
       type: default
-3086590: {}
+3086590:
+  nameLocalized:
+    schinese: 收割者：诸神已死
+    tchinese: 收割者：諸神已死
 3087650:
   cloud:
     saves:
@@ -661070,6 +661096,7 @@
       workingdir: NTEGlobal
   nameLocalized:
     koreana: 이환
+    schinese: 异环
 4508570:
   cloud:
     saves:
