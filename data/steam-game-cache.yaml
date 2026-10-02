@@ -661744,6 +661744,11 @@
         oslist: windows
       executable: peg_champ_beta.exe
       type: default
+4938460:
+  installDir: Dawn of Magic
+  launch:
+    - executable: DawnOfMagic.exe
+      type: default
 4953280: {}
 4980620: {}
 4981370: {}

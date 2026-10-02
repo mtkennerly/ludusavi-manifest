@@ -175650,6 +175650,7 @@ Dark Old Sun:
       - 4693910
       - 4768220
       - 4768230
+      - 5236770
   installDir:
     Dark Pals: {}
   launch:
@@ -179401,6 +179402,8 @@ Dawn of Corruption:
   steam:
     id: 661730
 Dawn of Magic:
+  cloud:
+    steam: true
   files:
     "<base>/tbm.ini":
       tags:
@@ -179409,6 +179412,14 @@ Dawn of Magic:
         - os: windows
   id:
     lutris: dawn-of-magic
+  installDir:
+    Dawn of Magic: {}
+  launch:
+    "<base>/DawnOfMagic.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4938460
 Dawn of Magic 2:
   cloud:
     gog: true
@@ -389036,6 +389047,11 @@ Katamari Damacy Reroll:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/katamaridamacy/Saved/SaveGames/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winLocalAppData>/BANDAI NAMCO Entertainment/katamaridamacy/Saved/SaveTemporary/<storeUserId>/Setting":
       tags:
         - config
@@ -389043,11 +389059,6 @@ Katamari Damacy Reroll:
         - os: windows
         - os: windows
           store: steam
-    "<winLocalAppData>/BANDAI NAMCO Entertainment/kataramidamacy/Saved/SaveGames/<storeUserId>":
-      tags:
-        - save
-      when:
-        - os: windows
     "<winLocalAppData>/Packages/NAMCOBANDAIGamesInc.KatamariDamacyRerollWindows_gdy2aq6ez762w/SystemAppData":
       tags:
         - save
