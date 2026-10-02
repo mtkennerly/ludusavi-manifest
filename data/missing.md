@@ -21974,7 +21974,6 @@
 * [RetroFighter VR](https://www.pcgamingwiki.com/wiki/?curid=61948)
 * [RetroGunX](https://www.pcgamingwiki.com/wiki/?curid=68659)
 * [Retroids](https://www.pcgamingwiki.com/wiki/?curid=103867)
-* [RetroSpace](https://www.pcgamingwiki.com/wiki/?curid=217010)
 * [RetroVamp](https://www.pcgamingwiki.com/wiki/?curid=153039)
 * [Retrowave 2](https://www.pcgamingwiki.com/wiki/?curid=199247)
 * [Retrowave World](https://www.pcgamingwiki.com/wiki/?curid=196437)

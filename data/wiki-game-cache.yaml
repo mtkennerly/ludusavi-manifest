@@ -70162,6 +70162,8 @@ Dreadlands:
 Dreadline Express:
   pageId: 211120
   steam: 3327120
+  steamSide:
+    - 3411220
 Dreadnought:
   pageId: 17757
   steam: 835860
@@ -164414,6 +164416,11 @@ Nox Dei:
 Nubla:
   pageId: 144749
   steam: 1101000
+Nubs! Arena:
+  cloud:
+    steam: true
+  pageId: 221054
+  steam: 2337860
 "Nubs' Adventure":
   pageId: 46098
   steam: 401280
@@ -192518,6 +192525,7 @@ RetroSpace:
   steam: 2067820
   steamSide:
     - 2783450
+    - 5283820
 RetroVamp:
   pageId: 153039
   steam: 1178680
@@ -277286,9 +277294,12 @@ Wild Arena:
   pageId: 52203
   steam: 533280
 Wild Assault:
+  lutris: wild-assault
   pageId: 195916
   steam: 2827230
   steamSide:
+    - 2860000
+    - 2945280
     - 3639940
 Wild Blue Skies:
   cloud:

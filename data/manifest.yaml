@@ -162438,18 +162438,6 @@ Crossout:
       - 1193840
       - 1254240
       - 1276340
-  installDir:
-    Crossout: {}
-  launch:
-    "<base>/WFCrossOutLauncher.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-    "<base>/bin/win64/Crossout.exe":
-      - arguments: "--rend-api auto --anticheat BattlEye"
-        when:
-          - store: steam
   steam:
     id: 386180
 Crossroad:
@@ -216519,6 +216507,9 @@ Dreadlands:
   steam:
     id: 1054690
 Dreadline Express:
+  id:
+    steamExtra:
+      - 3411220
   steam:
     id: 3327120
 Dreadnought:
@@ -318254,6 +318245,12 @@ Growing My Manhole:
     lutris: growing-my-manhole
     steamExtra:
       - 4487700
+  installDir:
+    Growing My Manhole: {}
+  launch:
+    "<base>/Growing My Manhole.exe":
+      - when:
+          - store: steam
   steam:
     id: 4415120
 Growing Pains:
@@ -503470,6 +503467,40 @@ Nubla:
             store: steam
   steam:
     id: 1101000
+Nubs! Arena:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Glowfish_Rangatang/Nubs!/<storeUserId>/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Glowfish_Rangatang/Nubs!/<storeUserId>/InputSettings":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Glowfish_Rangatang/Nubs!/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Glowfish_Rangatang/Nubs!/<storeUserId>/InputSettings":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Glowfish_Rangatang.Nubs!.<storeUserId>/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/unity.Glowfish_Rangatang.Nubs!.<storeUserId>/InputSettings":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Nubs!: {}
+  launch:
+    "<base>/Nubs!.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2337860
 "Nubs' Adventure":
   installDir:
     NubsAdventure: {}
@@ -589632,10 +589663,47 @@ RetroRealms Arcade:
   steam:
     id: 2158030
 RetroSpace:
+  files:
+    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves/profile0":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves/profile1":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves/profile2":
+      when:
+        - store: steam
+    "<xdgData>/The Wild Gentlemen/Retrospace/Saves":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/The Wild Gentlemen/Retrospace/Saves/profile0":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/The Wild Gentlemen/Retrospace/Saves/profile1":
+      when:
+        - os: linux
+          store: steam
+    "<xdgData>/The Wild Gentlemen/Retrospace/Saves/profile2":
+      when:
+        - os: linux
+          store: steam
   id:
     lutris: retrospace
     steamExtra:
       - 2783450
+      - 5283820
+  installDir:
+    RetroSpace: {}
+  launch:
+    "<base>/retrospace.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2067820
 RetroVamp:
@@ -723131,13 +723199,13 @@ Terminull Brigade:
     Project Rogueteers: {}
   launch:
     "<base>/Rouge.exe":
-      - arguments: "-UserDir=RS_S2_User -dist_channel=3 -dev_wegame"
+      - arguments: "-UserDir=RS_S4_User -dist_channel=3 -dev_wegame"
         when:
           - bit: 64
             os: windows
             store: steam
     "<base>/launcher/rs_launcher.exe":
-      - arguments: "-UserDir=RS_S2_User"
+      - arguments: "-UserDir=RS_S4_User"
         when:
           - bit: 64
             os: windows
@@ -846488,7 +846556,10 @@ Wild Arena:
     id: 533280
 Wild Assault:
   id:
+    lutris: wild-assault
     steamExtra:
+      - 2860000
+      - 2945280
       - 3639940
   steam:
     id: 2827230
