@@ -99344,7 +99344,42 @@
         oslist: windows
       description: Launch
       executable: StartWordWonders.exe
-362800: {}
+362800:
+  cloud:
+    saves:
+      - path: Data/Saves
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - addPath: Made With Monster Love/Cadence/
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+      - addPath: Made With Monster Love/Cadence/
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - addPath: unity3d/Made With Monster Love/Cadence/
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxXdgConfigHome
+  installDir: Cadence
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: Cadence.exe
+    - config:
+        oslist: macos
+      description: Launch
+      executable: Cadence.app
+  nameLocalized:
+    japanese: ケーデンス
+    schinese: 律动环廊
 362810:
   cloud:
     saves:
@@ -218502,6 +218537,12 @@
         oslist: windows
       executable: MeIgigu.exe
       type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: VR MeIgigu
+      executable: MeIgiguVR.exe
+      type: vr
 569900:
   installDir: "Timeless The Forgotten Town Collector's Edition"
   launch:
@@ -637524,7 +637565,7 @@
       executable: ".\\PlayGround\\Binaries\\Win64\\PlayGround-Win64-Test.exe"
       type: option1
     - config:
-        betakey: shipping_st dev_prev megalodon preview
+        betakey: shipping_st dev_prev megalodon
         osarch: "64"
         oslist: windows
       description: Shipping
@@ -641812,6 +641853,12 @@
   nameLocalized:
     schinese: 林间暖巢 Winter Burrow
 3010850:
+  cloud:
+    saves:
+      - path: "Microsoft\\Gears of War E-Day\\Saves\\{64BitSteamID}"
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
   installDir: GoWEDay
   launch:
     - config:
@@ -643980,6 +644027,7 @@
 3090810:
   nameLocalized:
     japanese: Truckful / トラックフル
+    koreana: Truckful / 트럭풀
     schinese: Truckful / 乡野奇运
     tchinese: Truckful / 鄉野奇運
 3091260: {}
@@ -654699,7 +654747,9 @@
       type: default
 3676410: {}
 3677050: {}
-3677850: {}
+3677850:
+  nameLocalized:
+    schinese: 永泉
 3678970:
   cloud:
     saves:

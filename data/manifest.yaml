@@ -113709,6 +113709,33 @@ Cactus Jumper:
   steam:
     id: 791960
 Cadence:
+  files:
+    "<base>/Data/Saves":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Made With Monster Love/Cadence/Data/Saves":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Made With Monster Love/Cadence/Data/Saves":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/Made With Monster Love/Cadence/Data/Saves":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    Cadence: {}
+  launch:
+    "<base>/Cadence.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Cadence.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 362800
 "Cadenza: Music, Betrayal and Death":
@@ -298497,13 +298524,19 @@ Gears of War 4:
         - os: windows
 "Gears of War: E-Day":
   files:
-    "<winLocalAppData>/FairlightConcept/Saved/Config":
+    "<winLocalAppData>/Microsoft/Gears of War E-Day/Steam/<storeUserId>/Saved/Config/Windows":
       tags:
         - config
       when:
         - os: windows
+          store: steam
   id:
     lutris: gears-of-war-e-day
+    steamExtra:
+      - 4632450
+      - 4637140
+      - 4637200
+      - 5028560
   installDir:
     GoWEDay: {}
   steam:

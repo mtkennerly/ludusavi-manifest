@@ -9,6 +9,7 @@
 * [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
 * [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
+* [Gears of War: E-Day](https://www.pcgamingwiki.com/wiki/?curid=195567)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)

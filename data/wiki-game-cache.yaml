@@ -96986,13 +96986,17 @@ Gears of War 4:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Packages\\Microsoft.SpartaUWP_8wekyb3d8bbwe\\LocalState\\GearGame\\Saved\\Config\\UWP\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Packages\\Microsoft.SpartaUWP_8wekyb3d8bbwe}}"
 "Gears of War: E-Day":
-  cloud:
-    xbox: true
   lutris: gears-of-war-e-day
+  malformed: true
   pageId: 195567
   steam: 3010850
+  steamSide:
+    - 4632450
+    - 4637140
+    - 4637200
+    - 5028560
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\FairlightConcept\\Saved\\Config\\}}"
+    - "{{Game data/config|Steam|{{P|localappdata}}\\Microsoft\\Gears of War E-Day\\Steam\\{{P|uid}}\\Saved\\Config\\Windows\\}}"
 "Gears of War: Reloaded":
   cloud:
     steam: true
@@ -187870,6 +187874,8 @@ Rangi:
 Ransomware Dating Sim:
   pageId: 150956
   steam: 1169430
+"Ranx: The Video Game":
+  pageId: 221093
 Rap simulator:
   cloud:
     steam: true
@@ -198187,6 +198193,8 @@ Rules of Survival:
 "Rules of The Mafia: Trade & Blood":
   pageId: 126053
   steam: 996830
+Rules of the Game:
+  pageId: 221091
 Rum & Gun:
   cloud:
     steam: true
