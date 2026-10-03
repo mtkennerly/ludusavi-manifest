@@ -22402,6 +22402,8 @@ Barbie and the Three Musketeers:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Barbie3M\\savedata.dat}}"
 "Barbie as Rapunzel: A Creative Adventure":
   pageId: 220660
+Barbie as Sleeping Beauty:
+  pageId: 221086
 Barbie as the Island Princess:
   lutris: barbie-as-the-island-princess
   pageId: 198140
@@ -28056,8 +28058,15 @@ Black Dream:
   pageId: 90016
   steam: 810470
 Black Forest:
+  cloud:
+    gog: true
+    steam: true
   pageId: 38771
   steam: 523070
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Lemuria\\Black Forest\\*.dat}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Lemuria/Black Forest/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/Lemuria/Black Forest/}}"
 "Black Friday: The Game":
   pageId: 72810
   steam: 712700
@@ -221174,6 +221183,7 @@ Star Trek Timelines:
     - 4054540
     - 4063520
     - 4861560
+    - 4861570
     - 4873370
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\STVoyager\\Saved\\SaveGames\\{{p|uid}}\\*.sav|{{p|localappdata}}\\STVoyager\\Saved\\SaveGames\\{{p|uid}}\\*.sav}}"
@@ -240419,6 +240429,8 @@ The Emerald Tablet:
   templates:
     - "{{Game data/config|Windows|{{p|HKLM}}\\SOFTWARE\\{{p|wow64}}\\Disney Interactive\\Emperor's New Groove\\1.0\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
+"The Emperor's New Groove: Groove Center":
+  pageId: 221084
 "The Emperor's Own":
   lutris: the-emperors-own
   pageId: 206702
@@ -258315,6 +258327,8 @@ Toy Story:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\TOYSTORY.CFG}}"
     - "{{Game data/saves|Windows|{{p|game}}\\TOYSTORY.CFG}}"
+Toy Story 2 Activity Center:
+  pageId: 221088
 "Toy Story 2: Buzz Lightyear to the Rescue":
   pageId: 8328
   templates:

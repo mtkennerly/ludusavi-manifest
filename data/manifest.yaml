@@ -86345,18 +86345,25 @@ Black Dream:
   steam:
     id: 810470
 Black Forest:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<home>/AppData/LocalLow/Lemuria/Black Forest/*.dat":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/Library/Application Support/Lemuria/Black Forest/*.dat":
+        - os: windows
+    "<home>/Library/Application Support/Lemuria/Black Forest":
+      tags:
+        - save
       when:
         - os: mac
-          store: steam
-    "<xdgConfig>/Lemuria/Black Forest/*.dat":
+    "<xdgConfig>/Lemuria/Black Forest":
+      tags:
+        - save
       when:
         - os: linux
-          store: steam
   installDir:
     Black Forest: {}
   launch:
@@ -678253,6 +678260,7 @@ Star Trek Timelines:
       - 4054540
       - 4063520
       - 4861560
+      - 4861570
       - 4873370
   installDir:
     Star Trek Voyager - Across the Unknown: {}
