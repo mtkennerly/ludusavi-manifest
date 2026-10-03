@@ -132205,6 +132205,10 @@ Last Fort:
   steam: 812350
 Last Half of Darkness:
   pageId: 185569
+Last Half of Darkness (2025):
+  lutris: last-half-of-darkness--2
+  pageId: 221081
+  steam: 3096000
 Last Half of Darkness - Society of the Serpent Moon:
   pageId: 134061
   renamedFrom:
@@ -245031,6 +245035,15 @@ The Letter:
 The Lewd Knight:
   pageId: 145467
   steam: 1129520
+The Liar Princess and the Blind Prince:
+  cloud:
+    steam: true
+  lutris: the-liar-princess-and-the-blind-prince
+  pageId: 221079
+  steam: 3901910
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Nippon Ichi Software, Inc\\PrincessAndPrince\\Setting.ini}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Nippon Ichi Software, Inc\\PrincessAndPrince\\{{P|uid}}\\}}"
 The Life and Suffering of Prince Jerian:
   cloud:
     steam: true

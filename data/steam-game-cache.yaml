@@ -644010,6 +644010,10 @@
     koreana: 배드 치즈
     schinese: 烂奶酪 (Bad Cheese)
     tchinese: 爛奶酪
+3096000:
+  installDir: Last Half of Darkness
+  launch:
+    - executable: LastHalfOfDarkness.exe
 3097560:
   cloud:
     saves:
@@ -657162,6 +657166,23 @@
       executable: CelebrityPoker.exe
       type: default
 3900950: {}
+3901910:
+  cloud:
+    saves:
+      - path: "Nippon Ichi Software, Inc/PrincessAndPrince/{64BitSteamID}"
+        pattern: SAVEDATA*
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: PrincessAndPrince
+  launch:
+    - config:
+        oslist: windows
+      executable: PrincessAndPrince.exe
+      type: default
+  nameLocalized:
+    japanese: 噓つき姫と盲目王子
+    koreana: 거짓말쟁이 공주와 눈먼 왕자
+    tchinese: 說謊公主與盲眼王子
 3902520:
   installDir: Ukrainian Warfare Gostomel Heroes
   launch:

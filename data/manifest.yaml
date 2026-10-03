@@ -406075,6 +406075,17 @@ Last Evil:
 Last Fort:
   steam:
     id: 812350
+Last Half of Darkness (2025):
+  id:
+    lutris: last-half-of-darkness--2
+  installDir:
+    Last Half of Darkness: {}
+  launch:
+    "<base>/LastHalfOfDarkness.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3096000
 Last Half of Darkness - Society of the Serpent Moon:
   installDir:
     Last Half of Darkness - Society of the Serpent Moon: {}
@@ -751855,6 +751866,31 @@ The Letter - Horror Visual Novel:
 The Lewd Knight:
   steam:
     id: 1129520
+The Liar Princess and the Blind Prince:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Nippon Ichi Software, Inc/PrincessAndPrince/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Nippon Ichi Software, Inc/PrincessAndPrince/Setting.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: the-liar-princess-and-the-blind-prince
+  installDir:
+    PrincessAndPrince: {}
+  launch:
+    "<base>/PrincessAndPrince.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3901910
 The Life and Suffering of Prince Jerian:
   cloud:
     steam: true

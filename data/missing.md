@@ -15109,6 +15109,7 @@
 * [Last Encounter](https://www.pcgamingwiki.com/wiki/?curid=80669)
 * [Last Fort](https://www.pcgamingwiki.com/wiki/?curid=88152)
 * [Last Half of Darkness](https://www.pcgamingwiki.com/wiki/?curid=185569)
+* [Last Half of Darkness (2025)](https://www.pcgamingwiki.com/wiki/?curid=221081)
 * [Last Half of Darkness - Society of the Serpent Moon](https://www.pcgamingwiki.com/wiki/?curid=134061)
 * [Last Half of Darkness: Shadows of the Servants](https://www.pcgamingwiki.com/wiki/?curid=134060)
 * [Last Hope](https://www.pcgamingwiki.com/wiki/?curid=79087)
