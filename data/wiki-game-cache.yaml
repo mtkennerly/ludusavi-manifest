@@ -11665,6 +11665,8 @@ American Fugitive:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Fallen Tree Games Ltd\\American Fugitive\\SaveGame\\Profile\\PlayerProfile.dat.bson|{{P|hkcu}}\\Software\\Fallen Tree Games Ltd\\American Fugitive\\}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Fallen Tree Games Ltd\\American Fugitive\\SaveGame\\}}"
+American Gladiators:
+  pageId: 221132
 American Hero:
   cloud:
     gog: true
@@ -39321,6 +39323,8 @@ Cartoony Cars 2:
     steam: true
   pageId: 120741
   steam: 915190
+"Casanova: The Duel of the Black Rose":
+  pageId: 221121
 "Case 2: Animatronics Survival":
   cloud:
     steam: true
@@ -70342,6 +70346,8 @@ Dream Solutions:
 Dream Stone:
   pageId: 59003
   steam: 603090
+"Dream Street: Magic Time Adventure":
+  pageId: 221123
 Dream Tactics:
   cloud:
     steam: true
@@ -123994,6 +124000,8 @@ Jetrunner:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\jng2\\game.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\jng2}}"
+"Jetsons: The Computer Game":
+  pageId: 221134
 Jetstream:
   cloud:
     steam: true
@@ -135876,6 +135884,7 @@ Like Clay:
   cloud:
     steam: true
     xbox: true
+  lutris: like-a-dragon-ishin
   pageId: 181522
   steam: 1805480
   templates:
@@ -149629,6 +149638,8 @@ Mike Goes on Hike:
     steam: true
   pageId: 113646
   steam: 912000
+"Mike Read's Computer Pop Quiz":
+  pageId: 221136
 Mike Was Сursed:
   cloud:
     steam: true
@@ -153219,6 +153230,8 @@ Monty Python & the Quest for the Holy Grail:
   pageId: 90790
   templates:
     - "{{Game data/saves|Windows|{{p|windir}}\\7THLEVEL.INI|{{p|windir}}\\7THLEVEL.***}}"
+"Monty Python's Flying Circus: The Computer Game":
+  pageId: 221139
 "Monty Python's The Meaning of Life":
   pageId: 90741
 Monument:
@@ -176005,6 +176018,8 @@ Pilfer:
 Pilferer:
   pageId: 90102
   steam: 826130
+"Pilgrim: Faith as a Weapon":
+  pageId: 221113
 Pilgrimage:
   pageId: 103189
   steam: 888620
@@ -181074,6 +181089,8 @@ Primitive Shooter:
 Primitive Survival:
   pageId: 99878
   steam: 890780
+Primitive Wars:
+  pageId: 221117
 Primordia:
   cloud:
     gog: true
@@ -225688,6 +225705,8 @@ Strife (MOBA):
     - "{{Game data/saves|Windows|{{P|game}}\\strfsav*.ssg}}"
     - "{{Game data/saves|OS X|{{P|game}}/strfsav*.ssg}}"
     - "{{Game data/saves|Linux|{{P|game}}/strfsav*.ssg}}"
+Strike Base:
+  pageId: 221128
 Strike Cars:
   pageId: 109494
   steam: 906020
@@ -227552,6 +227571,8 @@ Supaplex WOW!:
 Super:
   pageId: 66281
   steam: 598170
+Super 1 Karting Simulation:
+  pageId: 221130
 Super 123:
   pageId: 73298
   steam: 711700
@@ -239394,6 +239415,8 @@ The Cycle:
     - 1947012
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Prospect\\Saved}}"
+"The Cycles: International Grand Prix Racing":
+  pageId: 221126
 The D Show:
   pageId: 179380
 The D.R.G. Initiative:
@@ -244967,6 +244990,8 @@ The Legend of the Dragonflame High School 2:
   renamedFrom:
     - 龍炎高校伝説２ The Legend of the Dragonflame High School 2
   steam: 1032040
+The Legend of the Prophet & the Assassin:
+  pageId: 221115
 "The Legend: A University Story":
   pageId: 42025
   steam: 431360
@@ -248613,6 +248638,8 @@ The Secret of Weepstone:
   steam: 3702100
   steamSide:
     - 3876150
+The Secrets of Alamût:
+  pageId: 221119
 "The Secrets of Atlantis: The Sacred Legacy":
   pageId: 195247
 The Secrets of Jesus:
