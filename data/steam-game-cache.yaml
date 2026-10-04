@@ -650010,7 +650010,71 @@
     koreana: 괴수 8호 THE GAME
     schinese: 怪兽 8号 THE GAME
     tchinese: 怪獸 8號 THE GAME
-3393110: {}
+3393110:
+  installDir: AION2
+  launch:
+    - arguments: "-steam -saveddirsuffix=Steam -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wm5XfkKf63+on2FwMbTMySlADK6unFxXQG7ygc9xqwBOLqKVDpoEKg5xfUgwT6QLKCZELDSpOQrzHvOLrb6mNgds5VAPQx/fUDJCP/EMTCt1TAMLSo6shB0XdVdBevAVY -NoDebugExecBindings"
+      config:
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -saveddirsuffix=GFN -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wm5XfkKf63+on2FwMbTMySlADK6unFxXQG7ygc9xqwBNqC8t2cl09YwgK6DcGkwQ7hfBeYw4LSYJAoTgKf8UOEtf8HW84DOhFVUY8Au5SGThfoVh/kRsObrRpp3RbE/YZ -AppVersion=7.0.0"
+      config:
+        betakey: aion2_dev_win_globaldist_gfn
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wlyICr56OxsvCG9ImAN3I7EHVnseqloysmzxTraT6S7gLGVZ1CSCvKsEXIIC14cqDCZELDSpOQrzHvOLrb6mNgXLTsFvJK7c8We0DDxwJycgdPrsOyW5hfwO2XejmrxS26pzwU6UAH4Z8uZqFrkVn1w== -NoDebugExecBindings -AppVersion=4.0.0"
+      config:
+        betakey: aion2_dev_win_globaldev
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wlyICr56OxsvCG9ImAN3I7EHVnseqloysmzxTraT6S7iLogWyQrXbD7HLgIlu8j7JA2J76IMXg5bpHZtjQm2VT9+O69/BrJcCwI0uh+FDgmxgnjY+Ip9V/6gdF8MBLAiEvvNdKf8BxFquNVrB6WMWcA== -NoDebugExecBindings -AppVersion=4.0.0"
+      config:
+        betakey: aion2_shp_win_globaldev
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wlyICr56OxsvCG9ImAN3I7EHVnseqloysmzxTraT6S7il0hvU+114cxrx9FITdifLTqQ/ZrCiwIe85qczRZ14LdyYarTIL2JtuX+el6K3K1+Qyu0qb0ZhkXuV/eNHF5exixTnzYVnMcgxbsI/ChwTYQ== -NoDebugExecBindings -AppVersion=2.0.0"
+      config:
+        betakey: aion2_shp_win_globallivecopy
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wlyICr56OxsvCG9ImAN3I7EHVnseqloysmzxTraT6S7jPqiMURgMgOVTT2IplRsGxbGrfRINj94oKsYoIa5aT0rB1MJejfEs3D1Nq7n772SkmTiHdg/P980HFFhM3AQyr -NoDebugExecBindings"
+      config:
+        betakey: aion2_dev_win_globaldist
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34w+H4XOWEY5zF0AW5yCDCq10HVnseqloysmzxTraT6S7g6L3KVL/JP77f2Tq22cQN+6ByaGY5ycQxe2YqeqMhNwkuqXrZY/AIOfn/2SqsDCftfoVh/kRsObrRpp3RbE/YZ -NoDebugExecBindings"
+      config:
+        betakey: aion2_dev_win_globaldist_rc
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wLz7BFoEZB39l26filuTXU0HVnseqloysmzxTraT6S7jOpX/zW+hqB3OVpJFodyaoUvynqwx/AsZ9aH/x5wlVslMAwtKjqyEHRd1V0F68BVg= -NoDebugExecBindings"
+      config:
+        betakey: aion2_dev_win_event
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wLz7BFoEZB39l26filuTXU0HVnseqloysmzxTraT6S7hb1cFZ3z8Iacp9v+U4LCEkR63n939sfnwilIu960Q7NYn0EbExSyqaRIamct37TfywLDFBo4GfQXhHcCq1ywPA -NoDebugExecBindings"
+      config:
+        betakey: aion2_dev_win_globalrelease
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -saveddirsuffix=Steam -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wm5XfkKf63+on2FwMbTMySlADK6unFxXQG7ygc9xqwBOLqKVDpoEKg5xfUgwT6QLKCZELDSpOQrzHvOLrb6mNgds5VAPQx/fUDJCP/EMTCt1TAMLSo6shB0XdVdBevAVY -NoDebugExecBindings"
+      config:
+        betakey: aion2_dev_win_globaldist_live
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wlyICr56OxsvCG9ImAN3I7EHVnseqloysmzxTraT6S7h8xAbOPi4vvQ8zstnLxY5UBlfGNwZoW774BsETiWnYRspf6RDvtR48udkBbLjGSWzCO9gFT0q/w1iekM7z5QVO3IxSnII8JcyeTVWX5VSBUQ== -NoDebugExecBindings"
+      config:
+        betakey: aion2_shp_win_globalrelease
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wlyICr56OxsvCG9ImAN3I7EHVnseqloysmzxTraT6S7il0hvU+114cxrx9FITdifLaGpXBEjoJMSIDnSiFPyllwACnAK4yHcyQ7/PFWT57LncsuNzWiCw5Ts1M3rx+PysMeBCAKHFRgsm9rbwcG/zW3aapoYt22XODzDzWCb2Tbg= -NoDebugExecBindings -AppVersion=2.0.0"
+      config:
+        betakey: aion2_dev_win_globallivecopy
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
+    - arguments: "-steam -NotInstalled -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wlyICr56OxsvCG9ImAN3I7EHVnseqloysmzxTraT6S7jPqiMURgMgOVTT2IplRsGxbGrfRINj94oKsYoIa5aT0rB1MJejfEs3D1Nq7n772SkmTiHdg/P980HFFhM3AQyr -NoDebugExecBindings -AppVersion=5.0.0"
+      config:
+        betakey: aion2_dev_win_globaldist_out
+        oslist: windows
+      executable: /Aion2/Binaries/Win64/AION2.exe
 3393280:
   cloud:
     saves:

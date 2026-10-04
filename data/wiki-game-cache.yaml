@@ -18530,6 +18530,8 @@ Atlantis VR:
     steam: true
   pageId: 38712
   steam: 521280
+"Atlantis: The Lost Empire - The Lost Games":
+  pageId: 221097
 "Atlantis: The Lost Empire – Trial by Fire":
   pageId: 189868
   templates:
@@ -33069,6 +33071,7 @@ Braid Anniversary Edition:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Braid, Anniversary Edition\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Braid, Anniversary Edition\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Braid, Anniversary Edition/}}"
 Brain / Out:
   pageId: 58423
   steam: 578310
@@ -109280,6 +109283,7 @@ Hellslinger:
   pageId: 135757
   steam: 1039880
 Helltaker:
+  lutris: helltaker
   pageId: 160927
   steam: 1289310
   steamSide:
@@ -113416,8 +113420,8 @@ Homura Hime:
   steamSide:
     - 4459880
   templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Crimson Wings}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Crimson Wings}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\CrimsonDusk\\HomuraHime}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\CrimsonDusk\\HomuraHime}}"
 Honey Comb Home:
   pageId: 127233
   steam: 1020810
@@ -123820,6 +123824,8 @@ Jersey Devil:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\bin\\config.pc}}"
     - "{{Game data/saves|Windows|{{p|game}}\\bin\\SAVEGAME.DAT}}"
+"Jerusalem: The Three Roads to the Holy Land":
+  pageId: 221100
 Jesters Poker:
   pageId: 87293
   steam: 800840
@@ -162083,6 +162089,8 @@ Nightmare Files - Stoned:
   lutris: nightmare-files-stoned
   pageId: 198235
   steam: 3212260
+  steamSide:
+    - 3435410
 Nightmare Game (噩梦游戏):
   pageId: 140820
   steam: 1114110

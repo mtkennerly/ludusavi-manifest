@@ -26613,6 +26613,14 @@ Aion 2:
     steamExtra:
       - 4972180
       - 4972320
+  installDir:
+    AION2: {}
+  launch:
+    "<base>/Aion2/Binaries/Win64/AION2.exe":
+      - arguments: "-steam -saveddirsuffix=Steam -lp:ygquBkDAOdLk9mpXnbmwwBC20APde3oJZRLELUEkBJefDPmnhl9xRC0kjSdQP34wm5XfkKf63+on2FwMbTMySlADK6unFxXQG7ygc9xqwBOLqKVDpoEKg5xfUgwT6QLKCZELDSpOQrzHvOLrb6mNgds5VAPQx/fUDJCP/EMTCt1TAMLSo6shB0XdVdBevAVY -NoDebugExecBindings"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 3393110
 Air:
@@ -101863,6 +101871,11 @@ Braid Anniversary Edition:
   cloud:
     steam: true
   files:
+    "<home>/Library/Application Support/Braid, Anniversary Edition":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winAppData>/Braid, Anniversary Edition":
       tags:
         - config
@@ -335760,6 +335773,7 @@ Helltaker:
       when:
         - os: linux
   id:
+    lutris: helltaker
     steamExtra:
       - 1298590
   installDir:
@@ -348777,7 +348791,7 @@ Homura Hime:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Crimson Wings":
+    "<home>/AppData/LocalLow/CrimsonDusk/HomuraHime":
       tags:
         - config
         - save
@@ -496556,6 +496570,8 @@ Nightmare Files - Clap Clap:
 Nightmare Files - Stoned:
   id:
     lutris: nightmare-files-stoned
+    steamExtra:
+      - 3435410
   steam:
     id: 3212260
 Nightmare Game (噩梦游戏):
