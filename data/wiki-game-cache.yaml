@@ -125172,6 +125172,8 @@ Jungle Jorney:
 Jungle Juggle:
   pageId: 94461
   steam: 844580
+Jungle Strike:
+  pageId: 221105
 Jungle Z:
   pageId: 128272
   steam: 1015580
@@ -245045,6 +245047,8 @@ The Leisure of Grisaia:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Frontwing\\The Fruit of Grisaia -The Leisure of Grisaia-\\*.dat | {{p|appdata}}\\フロントウイング\\グリザイアの果実 ～グリザイアの有閑～\\*.dat}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Frontwing\\The Fruit of Grisaia -The Leisure of Grisaia-\\*.dat | {{p|appdata}}\\フロントウイング\\グリザイアの果実 ～グリザイアの有閑～\\*.dat}}"
+The Lemmings Chronicles:
+  pageId: 221103
 The Leopard Catgirl in Miaoli:
   pageId: 148675
   steam: 1149510
@@ -262732,8 +262736,11 @@ Turbo Trucks:
     - "{{Game data/config|Windows|{{p|game}}\\TurboTrucks.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
 Turbo Tunnel:
+  lutris: turbo-tunnel
   pageId: 94621
   steam: 859090
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\Local\\Pipeline\\Saved\\Config\\WindowsNoEditor}}"
 Turf Wars:
   pageId: 75009
   steam: 713760

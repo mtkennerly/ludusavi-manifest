@@ -803161,6 +803161,14 @@ Turbo Trucks:
       when:
         - os: windows
 Turbo Tunnel:
+  files:
+    "<home>/AppData/Local/Pipeline/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: turbo-tunnel
   installDir:
     Turbo Tunnel: {}
   launch:
