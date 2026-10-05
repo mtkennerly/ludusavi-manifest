@@ -475754,6 +475754,20 @@ Muay Thai Fighting:
 Muchi Muchi Pork! & PinkSweets Boosted:
   cloud:
     steam: true
+  files:
+    "<winAppData>/MUCHI_PINK":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    Muchi Muchi Pork! & Pink Sweets Boosted: {}
+  launch:
+    "<base>/Muchi Muchi Pork! & Pink Sweets Boosted.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4229200
 MudRunner:

@@ -251229,13 +251229,19 @@
   installDir: SiN Reloaded
   launch:
     - config:
-        betakey: "default,press"
+        betakey: "default,beta"
         osarch: "64"
         oslist: windows
       executable: SiNReloaded.exe
       type: default
     - config:
-        betakey: "comunity,beta"
+        betakey: beta
+        osarch: "64"
+        oslist: windows
+      executable: SiNReloaded_Dedicated.exe
+      type: server
+    - config:
+        betakey: community
         osarch: "64"
         oslist: windows
       executable: isis_Shipping_Steam_x64.exe
@@ -660010,6 +660016,18 @@
     schinese: 空之轨迹 the 2nd
     tchinese: 空之軌跡 the 2nd
 4229200:
+  cloud:
+    saves:
+      - path: MUCHI_PINK
+        pattern: "*.bin"
+        root: WinAppDataRoaming
+  installDir: Muchi Muchi Pork! & Pink Sweets Boosted
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Muchi Muchi Pork! & Pink Sweets Boosted.exe
+      type: default
   nameLocalized:
     japanese: むちむちポーク！＆ピンクスゥイーツ Boosted
 4231820: {}

@@ -155174,6 +155174,8 @@ Muchi Muchi Pork! & PinkSweets Boosted:
     steam: true
   pageId: 216993
   steam: 4229200
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\MUCHI_PINK\\}}"
 MudRunner:
   cloud:
     epic: true
@@ -218851,6 +218853,8 @@ Spider-Man 3:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Activision\\Spider-Man 3\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\Spider-Man 3\\}}"
+"Spider-Man: Edge of Time (EdgeOfTimeRecompiled)":
+  pageId: 221153
 "Spider-Man: Far From Home - Virtual Reality Experience":
   pageId: 141218
   renamedFrom:
