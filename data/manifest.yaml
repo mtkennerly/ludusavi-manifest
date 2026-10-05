@@ -210753,6 +210753,9 @@ Dopamine:
         - save
       when:
         - os: windows
+"Dora the Explorer: Swiper's Big Adventure":
+  id:
+    lutris: swipers-big-adventure
 "Dora the Explorer: World Adventure!":
   files:
     "<base>/SAVED":
@@ -233317,6 +233320,7 @@ Edmonton Trolley Car:
     id: 959000
 Edolie:
   id:
+    lutris: edolie
     steamExtra:
       - 353060
   installDir:
@@ -526777,6 +526781,8 @@ Panzer Dragoon (2020):
           store: gog
   gog:
     id: 1248489555
+  id:
+    lutris: panzer-dragoon-remake
   installDir:
     Panzer Dragoon Remake: {}
   launch:
