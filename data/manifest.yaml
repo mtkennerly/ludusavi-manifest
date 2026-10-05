@@ -7884,6 +7884,8 @@ $1 Ride:
   steam:
     id: 486140
 "9th Company: Roots of Terror":
+  id:
+    lutris: 9th-company-roots-of-terror
   installDir:
     9th Company: {}
   launch:
@@ -203655,6 +203657,25 @@ Disney Universe:
           - store: steam
   steam:
     id: 316260
+Disney Villains Cursed Café:
+  files:
+    "<home>/AppData/LocalLow/Disney Interactive Studios/Cursed Cafe":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1356429543
+  id:
+    lutris: disney-villains-cursed-cafe
+  installDir:
+    Cursed Cafe: {}
+  launch:
+    "<base>/CursedCafe.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2439220
 "Disney's Aladdin":
   files:
     "<base>/SOUND.CFG":
@@ -203749,6 +203770,13 @@ Disney Universe:
         - save
   steam:
     id: 987400
+"Disney's Villains' Revenge":
+  files:
+    "<base>/SaveGame":
+      tags:
+        - save
+      when:
+        - os: windows
 Disneyland Adventures:
   cloud:
     steam: true
@@ -475762,6 +475790,7 @@ Muchi Muchi Pork! & PinkSweets Boosted:
     "<winAppData>/MUCHI_PINK":
       tags:
         - config
+        - save
       when:
         - os: windows
   installDir:
@@ -717431,6 +717460,9 @@ Tandis:
         - config
   steam:
     id: 1297210
+Tangerine Antarctic:
+  steam:
+    id: 3261450
 Tangle Tower:
   cloud:
     gog: true
@@ -759482,6 +759514,36 @@ The Portal Dimension - Bizarre Huntseeker:
             store: steam
   steam:
     id: 968480
+The Powder Toy:
+  cloud:
+    steam: true
+  files:
+    "<base>/userdata":
+      tags:
+        - config
+      when:
+        - os: windows
+        - os: linux
+  installDir:
+    Powder: {}
+  launch:
+    "<base>/Powder.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/userdata"
+    "<base>/The Powder Toy.app/Contents/MacOS/powder":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/userdata"
+    "<base>/powder":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/userdata"
+  steam:
+    id: 1148350
 The Power Factory:
   files:
     "<base>/Saves/**/*.xml":
@@ -795833,6 +795895,22 @@ Transport Fever 2:
             store: steam
   steam:
     id: 1066780
+Transport Fever 3:
+  installDir:
+    Transport Fever 3: {}
+  launch:
+    "<base>/TransportFever3.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/run.sh":
+      - when:
+          - os: mac
+            store: steam
+          - os: linux
+            store: steam
+  steam:
+    id: 3493540
 Transport Giant:
   cloud:
     gog: true
@@ -824847,12 +824925,7 @@ Villages:
   steam:
     id: 749820
 "Villains' Revenge":
-  files:
-    "<base>/SaveGame":
-      tags:
-        - save
-      when:
-        - os: windows
+  alias: "Disney's Villains' Revenge"
 VilleTown:
   installDir:
     VilleTown: {}
@@ -858974,6 +859047,12 @@ X-Note:
   steam:
     id: 337940
 "X-Out: Resurfaced":
+  files:
+    "<home>/AppData/LocalLow/United Games Entertainment GmbH/X-Out/XOut":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 2019706860
   installDir:

@@ -2483,6 +2483,7 @@ $1 Ride:
 9mm:
   pageId: 199829
 "9th Company: Roots of Terror":
+  lutris: 9th-company-roots-of-terror
   pageId: 41196
   steam: 12480
 9th Dawn Classic - Clunky controls edition:
@@ -65966,6 +65967,13 @@ Disney Universe:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Disney Interactive Studios\\Disney Universe}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Disney Interactive Studios\\Disney Universe}}"
+Disney Villains Cursed Café:
+  gog: 1356429543
+  lutris: disney-villains-cursed-cafe
+  pageId: 221187
+  steam: 2439220
+"Disney's Adventures in Typing with Timon and Pumbaa":
+  pageId: 221183
 "Disney's Aladdin":
   gog: 1364995551
   pageId: 79097
@@ -66012,6 +66020,14 @@ Disney Universe:
   pageId: 106247
 "Disney's Princess Fashion Boutique":
   pageId: 166685
+"Disney's Reading Quest with Aladdin":
+  pageId: 221173
+"Disney's Villains' Revenge":
+  pageId: 166325
+  renamedFrom:
+    - "Villains' Revenge"
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveGame}}"
 Disneyland Adventures:
   cloud:
     steam: true
@@ -100591,7 +100607,7 @@ Golf Resort Tycoon:
 Golf Resort Tycoon II:
   pageId: 90672
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\settings.bin|}}"
+    - "{{Game data/config|Windows|{{p|game}}\\settings.bin}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\saved_games}}"
 Golf for Workgroups:
   pageId: 60882
@@ -155180,6 +155196,7 @@ Muchi Muchi Pork! & PinkSweets Boosted:
   steam: 4229200
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\MUCHI_PINK\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\MUCHI_PINK\\}}"
 MudRunner:
   cloud:
     epic: true
@@ -190164,6 +190181,8 @@ Red Ronin:
 Red Room:
   pageId: 143809
   steam: 1033510
+Red Rooster:
+  pageId: 221172
 "Red Rope: Don't Fall Behind":
   cloud:
     steam: true
@@ -233822,6 +233841,9 @@ Tandis:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\BahramiGames\\Tandis\\}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/BahramiGames/Tandis/prefs}}"
     - "{{Game data/saves|Steam|{{p|game}}/save.txt}}"
+Tangerine Antarctic:
+  pageId: 221176
+  steam: 3261450
 Tangle Tower:
   cloud:
     gog: true
@@ -247552,6 +247574,16 @@ The Pony Factory:
 The Portal Dimension - Bizarre Huntseeker:
   pageId: 144279
   steam: 968480
+The Powder Toy:
+  cloud:
+    steam: true
+  pageId: 221169
+  steam: 1148350
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\userdata}}"
+    - "{{Game data/config|Linux|{{P|game}}/userdata}}"
+    - "{{Game data/config|Windows|{{P|game}}\\userdata}}"
+    - "{{Game data/config|Linux|{{P|game}}/userdata}}"
 The Power Factory:
   pageId: 69874
   steam: 707860
@@ -260335,6 +260367,9 @@ Transport Fever 2:
     - "{{Game data/saves|Windows|{{P|appdata}}\\Transport Fever 2\\save\\|{{P|appdata}}\\Transport Fever 2\\profile.lua}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Transport Fever 2/save/|~/.local/share/Transport Fever 2/profile.lua}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/1066780/local/save/|{{p|steam}}/userdata/{{p|uid}}/1066780/local/profile.lua}}"
+Transport Fever 3:
+  pageId: 221174
+  steam: 3493540
 Transport Giant:
   cloud:
     gog: true
@@ -270068,10 +270103,6 @@ Villages:
     steam: true
   pageId: 79968
   steam: 749820
-"Villains' Revenge":
-  pageId: 166325
-  templates:
-    - "{{Game data/saves|Windows|{{p|game}}/SaveGame}}"
 VilleTown:
   pageId: 40313
   steam: 527250
@@ -278432,6 +278463,8 @@ Wingspan:
 Winner Winner Chicken Dinner!:
   pageId: 80356
   steam: 781100
+Winnie The Pooh Activity Center:
+  pageId: 221185
 Winnie the Pooh:
   pageId: 38396
   steam: 319400
@@ -281519,6 +281552,8 @@ X-Note:
   gog: 2019706860
   pageId: 209311
   steam: 3047070
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\United Games Entertainment GmbH\\X-Out\\XOut}}"
 X-POINT:
   pageId: 128115
   steam: 1018720

@@ -503612,6 +503612,30 @@
         oslist: linux
       executable: runLegend.sh
       type: none
+1148350:
+  cloud:
+    saves:
+      - path: userdata
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: Powder
+  launch:
+    - config:
+        oslist: windows
+      executable: Powder.exe
+      type: default
+      workingdir: userdata
+    - config:
+        oslist: linux
+      executable: powder
+      type: default
+      workingdir: userdata
+    - config:
+        oslist: macos
+      executable: The Powder Toy.app/Contents/MacOS/powder
+      type: default
+      workingdir: userdata
 1148390:
   installDir: Alien Earth
   launch:
@@ -541258,7 +541282,7 @@
       executable: CONSCRIPT.exe
       type: default
   nameLocalized:
-    schinese: 战壕惊魂
+    schinese: "战壕惊魂: Director's Cut"
 1287000:
   installDir: COVID The Outbreak
   launch:
@@ -545928,12 +545952,7 @@
 1328670:
   installDir: Mass Effect Legendary Edition
   launch:
-    - executable: "link2ea://launchgame/1328670?platform=steam&theme=met"
-      type: none
-    - config:
-        betakey: eax_test
-      description: New launch method
-      executable: "steam2ea://launchgame/1328670?platform=steam&theme=met"
+    - executable: "steam2ea://launchgame/1328670?platform=steam&theme=met"
   nameLocalized:
     french: Mass Effect™ Édition Légendaire
     polish: Mass Effect™ Edycja legendarna
@@ -623366,6 +623385,21 @@
         oslist: windows
       executable: ProjetM1.exe
       type: default
+2439220:
+  cloud:
+    saves:
+      - path: Disney Interactive Studios/Cursed Cafe
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Cursed Cafe
+  launch:
+    - config:
+        oslist: windows
+      executable: CursedCafe.exe
+      type: default
 2439280: {}
 2439770: {}
 2439780:
@@ -647370,6 +647404,7 @@
   installDir: Cowgirl Trainer
   launch:
     - executable: Game.exe
+3261450: {}
 3262810:
   installDir: Mushroom Hunter World
   launch:
@@ -651595,6 +651630,18 @@
       description: Original (1999)
       executable: original_1999/ChickenInvaders.exe
       workingdir: original_1999
+3493540:
+  installDir: Transport Fever 3
+  launch:
+    - config:
+        oslist: windows
+      executable: TransportFever3.exe
+    - config:
+        oslist: macos
+      executable: run.sh
+    - config:
+        oslist: linux
+      executable: run.sh
 3495070:
   installDir: Train Hero
   launch:
