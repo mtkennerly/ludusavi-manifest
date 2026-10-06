@@ -72641,6 +72641,22 @@
         oslist: windows
       description: Launch
       executable: experience112.exe
+324790:
+  installDir: LEGO Minifigures Online
+  launch:
+    - config:
+        oslist: windows
+      description: Launch
+      executable: Launcher.exe
+    - config:
+        oslist: macos
+      description: LEGO Launcher
+      executable: LMO.app
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: LEGO Launcher
+      executable: Launcher
 324800:
   cloud:
     saves:
@@ -532871,8 +532887,11 @@
         root: WinMyDocuments
   installDir: The Sims 4
   launch:
-    - executable: "link2ea://launchgame/1222670?platform=steam&theme=ts4"
-      type: none
+    - executable: "steam2ea://launchgame/1222670?platform=steam&theme=ts4"
+    - config:
+        betakey: eax_test
+      description: Legacy launch method
+      executable: "link2ea://launchgame/1222670?platform=steam&theme=ts4"
 1222680:
   installDir: Need for Speed Heat
   launch:
@@ -532891,8 +532910,7 @@
 1222690:
   installDir: Dragon Age Inquisition
   launch:
-    - executable: "link2ea://launchgame/1222690?platform=steam&theme=dai"
-      type: none
+    - executable: "steam2ea://launchgame/1222690?platform=steam&theme=dai"
   nameLocalized:
     japanese: "ドラゴンエイジインクイジション "
     koreana: "드래곤 에이지™ 인퀴지션 "
@@ -532903,8 +532921,7 @@
 1222700:
   installDir: AWayOut
   launch:
-    - executable: "link2ea://launchgame/1222700?platform=steam&theme=awo"
-      type: none
+    - executable: "steam2ea://launchgame/1222700?platform=steam&theme=awo"
 1222730:
   cloud:
     saves:
@@ -534714,8 +534731,7 @@
 1237950:
   installDir: STAR WARS Battlefront II
   launch:
-    - executable: "link2ea://launchgame/1237950?platform=steam&theme=swbfii"
-      type: none
+    - executable: "steam2ea://launchgame/1237950?platform=steam&theme=swbfii"
   nameLocalized:
     japanese: STAR WARS™ バトルフロント™ II
     schinese: 《STAR WARS™ 前线™ II
@@ -534727,8 +534743,7 @@
 1237980:
   installDir: STAR WARS Battlefront
   launch:
-    - executable: "link2ea://launchgame/1237980?platform=steam&theme=swbf"
-      type: none
+    - executable: "steam2ea://launchgame/1237980?platform=steam&theme=swbf"
   nameLocalized:
     japanese: STAR WARS™ バトルフロント™
     koreana: "STAR WARS™ Battlefront™ "
@@ -534737,12 +534752,7 @@
 1238000:
   installDir: Mass Effect Andromeda
   launch:
-    - executable: "link2ea://launchgame/1238000?platform=steam&theme=mea"
-      type: none
-    - config:
-        betakey: eax_test
-      description: New launch method
-      executable: "steam2ea://launchgame/1238000?platform=steam&theme=mea"
+    - executable: "steam2ea://launchgame/1238000?platform=steam&theme=mea"
   nameLocalized:
     brazilian: "Edição Deluxe do Mass Effect™: Andromeda"
     czech: "Mass Effect™: Andromeda – edice Deluxe"
@@ -534835,20 +534845,14 @@
 1238810:
   installDir: Battlefield V
   launch:
-    - executable: "link2ea://launchgame/1238810?platform=steam&theme=bfv"
-      type: none
+    - executable: "steam2ea://launchgame/1238810?platform=steam&theme=bfv"
   nameLocalized:
     schinese: 《战地风云 5》
     tchinese: 《戰地風雲 5》
 1238820:
   installDir: Battlefield 3
   launch:
-    - executable: "link2ea://launchgame/1238820?platform=steam&theme=bf3"
-      type: none
-    - config:
-        betakey: eax_test
-      description: New launch method
-      executable: "steam2ea://launchgame/1238820?platform=steam&theme=bf3"
+    - executable: "steam2ea://launchgame/1238820?platform=steam&theme=bf3"
   nameLocalized:
     japanese: "バトルフィールド 3 "
     schinese: 《Battlefield 3™》
@@ -534856,15 +534860,13 @@
 1238840:
   installDir: Battlefield 1
   launch:
-    - executable: "link2ea://launchgame/1238840?platform=steam&theme=bf1"
-      type: none
+    - executable: "steam2ea://launchgame/1238840?platform=steam&theme=bf1"
   nameLocalized:
     japanese: "バトルフィールド 1 "
 1238860:
   installDir: Battlefield 4
   launch:
-    - executable: "link2ea://launchgame/1238860?platform=steam&theme=bf4"
-      type: none
+    - executable: "steam2ea://launchgame/1238860?platform=steam&theme=bf4"
   nameLocalized:
     japanese: "バトルフィールド 4 "
     schinese: 《Battlefield 4》™
@@ -534872,8 +534874,7 @@
 1238880:
   installDir: BFH
   launch:
-    - executable: "link2ea://launchgame/1238880?platform=steam&theme=bfh"
-      type: none
+    - executable: "steam2ea://launchgame/1238880?platform=steam&theme=bfh"
   nameLocalized:
     brazilian: Edição Ultimate de Battlefield™ Hardline
     french: Édition Ultimate de Battlefield™ Hardline
@@ -563902,8 +563903,7 @@
 1517290:
   installDir: Battlefield 2042
   launch:
-    - executable: "link2ea://launchgame/1517290?platform=steam&theme=bf2042"
-      type: none
+    - executable: "steam2ea://launchgame/1517290?platform=steam&theme=bf2042"
   nameLocalized:
     schinese: 《战地风云™ 2042》
     tchinese: 《戰地風雲™ 2042》
@@ -595925,6 +595925,14 @@
     schinese: 《WILD HEARTS™》
     tchinese: 《WILD HEARTS™》
 1938090:
+  cloud:
+    saves:
+      - path: "Activision/Call of Duty/players/{64BitSteamID}/SteamCloud"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
   installDir: Call of Duty HQ
   launch:
     - arguments: cod.exe
@@ -624624,15 +624632,15 @@
       - os: MacOS
         osCompare: "="
         pathTransforms:
-          - find: Zadbox Entertainment/Dimhaven Enigmas
-            replace: unity.Zadbox Entertainment.Dimhaven Enigmas
+          - find: Zadbox Entertainment/Dimhaven - The Lost Source
+            replace: com.Zadbox-Entertainment.Dimhaven-Enigmas
         root: WinAppDataLocalLow
         useInstead: MacAppSupport
       - os: Linux
         osCompare: "="
         pathTransforms:
-          - find: Zadbox Entertainment/Dimhaven Enigmas
-            replace: ".config/unity3d/Zadbox Entertainment/Dimhaven Enigmas"
+          - find: Zadbox Entertainment/Dimhaven - The Lost Source
+            replace: snap/steam/common/.config/unity3d/Zadbox Entertainment/Dimhaven - The Lost Source/Saved Games
         root: WinAppDataLocalLow
         useInstead: LinuxHome
   installDir: Dimhaven - The Lost Source
@@ -637129,11 +637137,6 @@
         betakey: prod_valve_review
       description: Prod Valve
       executable: EAAntiCheat.GameServiceLauncher.exe
-    - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test"
-      config:
-        betakey: test_final_stage_noac
-      executable: bf6.exe
-      type: default
     - arguments: "-Steam -DiceOnline.SteamBetaBranchNamePrefix test -protocolVersion 936582"
       config:
         betakey: test_review-nvidia
@@ -646776,7 +646779,7 @@
     english: Lenin Street Geek Shop
     japanese: レーニン通りギークショップ
     russian: Ларек на улице Ленина
-    schinese: 列宁街小摊
+    schinese: 列宁街小卖部
 3226360: {}
 3226450:
   installDir: iRacing Arcade
@@ -653987,6 +653990,18 @@
       description: Half-Life Legacy with all Workshop Content disabled
       executable: hl.exe
       type: option2
+3619760:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.ybs"
+        root: gameinstall
+  installDir: rumiaVSv_yoiyamibiscuit
+  launch:
+    - executable: rumiaVSv.exe
+  nameLocalized:
+    english: Yoiyami Biscuit
+    japanese: ヨイヤミビスケット
 3620480:
   nameLocalized:
     japanese: ぱる♡わーるど！ ～もう友達(パル)じゃいられない～
@@ -661962,6 +661977,15 @@
     ukrainian: "You Are Empty: Абсолютне видання"
 4767480: {}
 4769040: {}
+4782240:
+  nameLocalized:
+    brazilian: "Homem- Cão: Latidos em Ação"
+    japanese: ドッグマン・ワンダフルな復活
+    latam: "Hombre Perro: Vuelta a la Carga"
+    portuguese: "Homem-Cão: Latidos em Ação"
+    schinese: "神探狗狗 : 汪者归来"
+    spanish: "Polican: Vuelta a la Carga"
+    tchinese: "超狗神探 : 汪者歸來  "
 4808850: {}
 4810160:
   nameLocalized:

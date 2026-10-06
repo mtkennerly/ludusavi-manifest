@@ -26610,6 +26610,12 @@ Aion:
   steam:
     id: 261430
 Aion 2:
+  files:
+    "<winLocalAppData>/AION2/Saved_Steam/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: aion-2
     steamExtra:
@@ -83681,6 +83687,8 @@ Binary Domain:
         - save
       when:
         - store: steam
+  id:
+    lutris: binary-domain
   installDir:
     Binary Domain: {}
   launch:
@@ -115490,6 +115498,11 @@ Call of Duty Black Ops Cold War:
   steam:
     id: 476600
 "Call of Duty: Warzone 2.0":
+  files:
+    "<winLocalAppData>/Activision/Call of Duty/players/<storeUserId>/SteamCloud/**/*.*":
+      when:
+        - os: windows
+          store: steam
   installDir:
     Call of Duty HQ: {}
   launch:
@@ -200887,11 +200900,11 @@ Dimhaven - The Lost Source:
     "<home>/AppData/LocalLow/Zadbox Entertainment/Dimhaven - The Lost Source/**/*.*":
       when:
         - store: steam
-    "<home>/Library/Application Support/Zadbox Entertainment/Dimhaven - The Lost Source/*.*":
+    "<home>/Library/Application Support/com.Zadbox-Entertainment.Dimhaven-Enigmas/*.*":
       when:
         - os: mac
           store: steam
-    "<home>/Zadbox Entertainment/Dimhaven - The Lost Source/*.*":
+    "<home>/snap/steam/common/.config/unity3d/Zadbox Entertainment/Dimhaven - The Lost Source/Saved Games/*.*":
       when:
         - os: linux
           store: steam
@@ -206410,6 +206423,11 @@ Dog Jam:
             store: steam
   steam:
     id: 895120
+"Dog Man: Bark in Action":
+  cloud:
+    steam: true
+  steam:
+    id: 4782240
 "Dog Man: Mission Impawsible":
   cloud:
     steam: true
@@ -298595,7 +298613,21 @@ Gears of War 4:
       when:
         - os: windows
 "Gears of War: E-Day":
+  cloud:
+    steam: true
   files:
+    "<winLocalAppData>/FairlightConcept/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Microsoft/Gears of War E-Day/Saves":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
     "<winLocalAppData>/Microsoft/Gears of War E-Day/Steam/<storeUserId>/Saved/Config/Windows":
       tags:
         - config
@@ -325158,6 +325190,8 @@ Half-Life Legacy:
   steam:
     id: 812440
 "Half-Life: Alyx":
+  cloud:
+    steam: true
   files:
     "<base>/game/hlvr/SAVE/S*":
       tags:
@@ -411296,6 +411330,8 @@ Lego Alpha Team:
   steam:
     id: 21000
 Lego Brawls:
+  id:
+    lutris: lego-brawls
   installDir:
     LEGO® Brawls: {}
   launch:
@@ -411900,6 +411936,27 @@ Lego Marvel Super Heroes 2:
             store: steam
   steam:
     id: 405310
+Lego Minifigures Online:
+  id:
+    lutris: lego-minifigures-online
+  installDir:
+    LEGO Minifigures Online: {}
+  launch:
+    "<base>/LMO.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Launcher":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 324790
 Lego Party:
   cloud:
     steam: true
@@ -413047,6 +413104,10 @@ Lenin - The Lion:
   steam:
     id: 839850
 Lenin Street Geek Shop:
+  id:
+    lutris: lenin-street-geek-shop
+    steamExtra:
+      - 4336940
   steam:
     id: 3225880
 "Lenna's Inception":
@@ -524566,6 +524627,8 @@ Pacific General:
         - os: windows
   gog:
     id: 1430136184
+  id:
+    lutris: pacific-general
   installDir:
     Pacific General: {}
   launch:
@@ -551105,14 +551168,14 @@ Post Trauma:
     id: 1750030
 Post Void:
   files:
-    "<winLocalAppData>/Post_Void/config.ini":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/Post_Void/savedata.ini":
+    "<winLocalAppData>/Post_Void/*/savedata.dat":
       tags:
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Post_Void/*/settings.dat":
+      tags:
+        - config
       when:
         - os: windows
   installDir:
@@ -678391,17 +678454,7 @@ Star Trek Timelines:
       when:
         - os: windows
 "Star Trek: The Next Generation - A Final Unity":
-  files:
-    "<base>/SAVEGAME/SAVEGAME.*":
-      tags:
-        - save
-      when:
-        - os: dos
-    "<base>/STTNG.INI":
-      tags:
-        - config
-      when:
-        - os: dos
+  alias: "Star Trek: The Next Generation – A Final Unity"
 "Star Trek: The Next Generation - Birth of the Federation":
   files:
     "<base>/game*.sav":
@@ -678428,6 +678481,18 @@ Star Trek Timelines:
         - os: windows
   id:
     lutris: star-trek-the-next-generation-klingon-honor-guard
+"Star Trek: The Next Generation – A Final Unity":
+  files:
+    "<base>/SAVEGAME/SAVEGAME.*":
+      tags:
+        - save
+      when:
+        - os: dos
+    "<base>/STTNG.INI":
+      tags:
+        - config
+      when:
+        - os: dos
 "Star Trek: Voyager - Across the Unknown":
   cloud:
     epic: true
@@ -679106,10 +679171,19 @@ Star Wars Outlaws:
   steam:
     id: 356500
 "Star Wars: Galactic Racer":
+  cloud:
+    steam: true
   files:
-    "<winLocalAppData>/StarWarsGalacticRacer/Saved/SaveGames/<storeUserId>/**/*.sav":
+    "<winLocalAppData>/StarWarsGalacticRacer/Saved":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/StarWarsGalacticRacer/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     STAR WARS Galactic Racer: {}
   launch:
@@ -863742,6 +863816,25 @@ Yohjo Simulator:
             store: steam
   steam:
     id: 415950
+Yoiyami Biscuit:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.ybs":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: yoiyami-biscuit
+  installDir:
+    rumiaVSv_yoiyamibiscuit: {}
+  launch:
+    "<base>/rumiaVSv.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3619760
 "Yoiyami Dancers: Twilight Danmaku Dancers":
   cloud:
     steam: true
