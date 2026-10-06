@@ -230710,6 +230710,7 @@ Earthworm Jim:
   id:
     gogExtra:
       - 1207658672
+    lutris: earthworm-jim
     steamExtra:
       - 901147
   installDir:
@@ -307008,6 +307009,7 @@ Goat Simulator:
     id: 265930
 Goat Simulator 3:
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Goat2/Saved/Config/WinGDK":
@@ -566265,6 +566267,12 @@ Qipa World-Hello Big Adventure:
         - os: windows
   id:
     lutris: qliphah-in-providences-shadow
+  installDir:
+    Qliphah: {}
+  launch:
+    "<base>/Qliphah.exe":
+      - when:
+          - store: steam
   steam:
     id: 3882410
 Qomp:
@@ -589876,34 +589884,16 @@ RetroSpace:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves":
+    "<home>/LocalLow/The Wild Gentlemen/Retrospace":
+      tags:
+        - config
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves/profile0":
+        - os: windows
+    "<home>/LocalLow/The Wild Gentlemen/Retrospace/Saves":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves/profile1":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves/profile2":
-      when:
-        - store: steam
-    "<xdgData>/The Wild Gentlemen/Retrospace/Saves":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/The Wild Gentlemen/Retrospace/Saves/profile0":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/The Wild Gentlemen/Retrospace/Saves/profile1":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/The Wild Gentlemen/Retrospace/Saves/profile2":
-      when:
-        - os: linux
-          store: steam
+        - os: windows
   id:
     lutris: retrospace
     steamExtra:
@@ -659989,7 +659979,7 @@ Sonic Robo Blast 2 Kart:
         - save
       when:
         - os: windows
-    "<home>/.srb2k":
+    "<home>/.srb2kart":
       tags:
         - config
         - save

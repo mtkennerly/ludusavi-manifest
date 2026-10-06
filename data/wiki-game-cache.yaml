@@ -74752,6 +74752,7 @@ Earthworm Jim:
   gog: 1207663103
   gogSide:
     - 1207658672
+  lutris: earthworm-jim
   pageId: 8277
   steam: 38480
   steamSide:
@@ -99716,6 +99717,7 @@ Goat Simulator:
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/265930/remote/}}"
 Goat Simulator 3:
   cloud:
+    epic: true
     steam: true
     xbox: true
   pageId: 182341
@@ -192652,6 +192654,9 @@ RetroSpace:
   steamSide:
     - 2783450
     - 5283820
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\LocalLow\\The Wild Gentlemen\\Retrospace}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\LocalLow\\The Wild Gentlemen\\Retrospace\\Saves}}"
 RetroVamp:
   pageId: 153039
   steam: 1178680
@@ -215205,9 +215210,9 @@ Sonic Robo Blast 2 Kart:
   pageId: 171307
   templates:
     - "{{Game data/config|Windows|{{p|game}}/kartconfig.cfg}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.srb2k/}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.srb2kart/}}"
     - "{{Game data/saves|Windows|{{p|game}}/kartdata.dat}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb2k/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb2kart/}}"
 Sonic Rumble Party:
   lutris: sonic-rumble
   pageId: 200761

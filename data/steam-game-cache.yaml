@@ -657115,6 +657115,16 @@
       executable: "Avernum 4 Greed and Glory.app\\Contents\\MacOS\\Avernum 4 Greed and Glory"
       type: default
 3882410:
+  cloud:
+    saves:
+      - path: "Qliphah/Saved/SaveGames/{Steam3AccountID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Qliphah
+  launch:
+    - executable: Qliphah.exe
   nameLocalized:
     english: "Qliphah in Providence's Shadow"
     french: "Qliphah in Providence's Shadow"
