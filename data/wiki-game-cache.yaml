@@ -9641,8 +9641,12 @@ Alice - Behind the Mirror:
   pageId: 91781
   steam: 835700
 Alice Escaped!:
+  lutris: alice-escaped
   pageId: 195415
   steam: 1489410
+  steamSide:
+    - 1539670
+    - 2298000
 Alice Greenfingers:
   pageId: 123139
   templates:
@@ -18694,6 +18698,9 @@ Atomic Heist:
 Atomic Owl:
   cloud:
     steam: true
+  gog: 1883445070
+  gogSide:
+    - 2015358201
   lutris: atomic-owl
   pageId: 217604
   steam: 2228490
@@ -32655,6 +32662,8 @@ Bottom of the 9th:
     steam: true
   pageId: 71912
   steam: 705020
+Boulder Dash:
+  pageId: 221224
 Boulder Dash - 30th Anniversary:
   pageId: 38929
   steam: 502320
@@ -32778,6 +32787,11 @@ Boundary (2023):
 Boundel:
   pageId: 43253
   steam: 454070
+Bounder:
+  cloud:
+    steam: true
+  pageId: 221208
+  steam: 2062480
 Bounders and Cads:
   pageId: 49983
   steam: 312020
@@ -65869,8 +65883,6 @@ Disney Getaway Blast:
   cloud:
     xbox: true
   pageId: 157737
-Disney Girlfriends:
-  pageId: 168377
 Disney Hidden Worlds:
   pageId: 168994
 Disney Illusion Island:
@@ -66009,6 +66021,10 @@ Disney Villains Cursed Café:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\engine.ini|{{p|game}}\\tango.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saved}}"
+"Disney's Girlfriends":
+  pageId: 168377
+  renamedFrom:
+    - Disney Girlfriends
 "Disney's Hercules":
   gog: 1117508714
   pageId: 40470
@@ -103481,11 +103497,16 @@ Growbot:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Dumpling Media\\Growbot}}"
 Growing My Manhole:
+  cloud:
+    steam: true
   lutris: growing-my-manhole
   pageId: 219121
   steam: 4415120
   steamSide:
     - 4487700
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\Growing My Manhole\\settings.cfg}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\Growing My Manhole\\saves\\}}"
 Growing Pains:
   cloud:
     steam: true
@@ -125132,6 +125153,11 @@ Jumphobia Classic:
     steam: true
   pageId: 182871
   steam: 1781380
+Jumping Jack:
+  cloud:
+    steam: true
+  pageId: 221218
+  steam: 1978200
 Jumping Jazz Cats:
   cloud:
     steam: true
@@ -133843,6 +133869,7 @@ Lego Alpha Team:
   gogSide:
     - 1657813519
     - 1916565870
+  lutris: lego-batman-3-beyond-gotham
   pageId: 20834
   steam: 313690
   templates:
@@ -133967,6 +133994,7 @@ Lego Friends:
 Lego Harry Potter Collection:
   cloud:
     steam: true
+  lutris: lego-harry-pottertm-collection
   pageId: 197458
   steam: 2950340
   templates:
@@ -133974,6 +134002,7 @@ Lego Harry Potter Collection:
     - "{{Game data/saves|Windows|{{P|appdata}}\\LegoHarry1-4|{{P|appdata}}\\LegoHarry5-7}}"
 "Lego Harry Potter: Years 1-4":
   gog: 1423058817
+  lutris: lego-harry-potter-years-1-4
   pageId: 11791
   steam: 21130
   templates:
@@ -133983,6 +134012,7 @@ Lego Harry Potter Collection:
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Preferences/Feral Interactive/LEGO Harry Potter/SavedGames/}}"
 "Lego Harry Potter: Years 5-7":
   gog: 1423058931
+  lutris: lego-harry-potter-years-5-7
   pageId: 4071
   steam: 204120
   templates:
@@ -134040,6 +134070,7 @@ Lego Island:
 Lego Jurassic World:
   cloud:
     steam: true
+  lutris: lego-jurassic-world
   pageId: 23043
   steam: 352400
   templates:
@@ -134057,6 +134088,7 @@ Lego Loco:
 Lego Marvel Super Heroes:
   cloud:
     steam: true
+  lutris: lego-marvel-super-heroes
   pageId: 11769
   steam: 249130
   templates:
@@ -134067,6 +134099,7 @@ Lego Marvel Super Heroes:
 Lego Marvel Super Heroes 2:
   cloud:
     steam: true
+  lutris: lego-marvel-super-heroes-2
   pageId: 63367
   steam: 647830
   templates:
@@ -134077,6 +134110,7 @@ Lego Marvel Super Heroes 2:
 "Lego Marvel's Avengers":
   cloud:
     steam: true
+  lutris: lego-marvels-avengers
   pageId: 23045
   steam: 405310
   templates:
@@ -134230,6 +134264,7 @@ Lego The Lord of the Rings:
     gog: true
     steam: true
   gog: 2095741221
+  lutris: lego-lord-of-the-rings
   pageId: 4033
   steam: 214510
   templates:
@@ -134254,6 +134289,7 @@ Lego Voyagers:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\LightBrick\\LEGO Voyagers\\{{p|uid}}}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\LightBrick\\LEGO Voyagers\\{{p|uid}}\\save0}}"
 Lego Worlds:
+  lutris: lego-worlds
   pageId: 25466
   steam: 332310
   templates:
@@ -162955,6 +162991,14 @@ Nitronic Rush:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\SaveData}}"
     - "{{Game data/saves|Windows|{{P|game}}\\SaveData}}"
+Nivalis Nights:
+  cloud:
+    steam: true
+  pageId: 221200
+  steam: 1488490
+  templates:
+    - "{{Game data/config|Windows}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\ION LANDS\\Nivalis Nights\\}}"
 No Body Home:
   pageId: 122784
   steam: 794420
@@ -165625,6 +165669,8 @@ Octopath Traveler:
     xbox: true
   pageId: 133649
   steam: 921570
+  steamSide:
+    - 1083770
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\documents}}\\My Games\\Octopath_Traveler\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\My Games\\Octopath_Traveler\\{{p|uid}}\\SaveGames\\}}"
@@ -211298,6 +211344,8 @@ Sky Runner:
 Sky Sanctuary:
   pageId: 55614
   steam: 526130
+Sky Shark:
+  pageId: 221213
 Sky Shepherd:
   pageId: 134414
   steam: 1060450
@@ -213939,6 +213987,10 @@ Soko Loco Deluxe:
 Soko Match:
   pageId: 38885
   steam: 518320
+Sokoban:
+  pageId: 221219
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\*.sco}}"
 Sokoban Land DX:
   pageId: 65361
   steam: 670850
@@ -222472,6 +222524,8 @@ Starport Delta:
   lutris: starport-delta
   pageId: 122754
   steam: 888130
+Starquake:
+  pageId: 221222
 Starquake Academy:
   pageId: 123782
   steam: 978040
@@ -239077,6 +239131,8 @@ The Complex:
   steam: 1942120
 "The Computer Edition of Risk: The World Conquest Game":
   pageId: 218450
+The Computer Edition of Scrabble:
+  pageId: 221215
 The Con Simulator:
   pageId: 109866
   steam: 917020
@@ -245079,6 +245135,7 @@ The Lego Movie 2 Videogame:
   gog: 1637297034
   gogSide:
     - 1639182085
+  lutris: the-lego-movie-2-videogame-1
   pageId: 128961
   steam: 881320
   templates:
@@ -245096,6 +245153,7 @@ The Lego Movie Videogame:
     - 1282731468
     - 1639182085
     - 1838910200
+  lutris: the-lego-movie-videogame
   pageId: 20880
   steam: 267530
   templates:
@@ -245114,7 +245172,7 @@ The Lego Ninjago Movie Video Game:
   steam: 640590
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Warner Bros. Interactive Entertainment\\The LEGO Ninjago Movie Video Game\\PCCONFIG.TXT}}"
-    - "{{Game data/saves|GOG.com| {{p|localappdata}}\\GOG.com\\Galaxy\\Applications\\57913803061043887\\Storage\\Shared\\Files\\savedgames\\ }}"
+    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\GOG.com\\Galaxy\\Applications\\57913803061043887\\Storage\\Shared\\Files\\savedgames\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{P|uid}}\\640590\\remote\\savedgames\\}}"
 The Leisure of Grisaia:
   cloud:
@@ -260373,8 +260431,18 @@ Transport Fever 2:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Transport Fever 2/save/|~/.local/share/Transport Fever 2/profile.lua}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/1066780/local/save/|{{p|steam}}/userdata/{{p|uid}}/1066780/local/profile.lua}}"
 Transport Fever 3:
+  gog: 1721456477
   pageId: 221174
   steam: 3493540
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Transport Fever 3\\settings.lua}}"
+    - "{{Game data/config|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\3493540\\local\\settings.lua}}"
+    - "{{Game data/config|OS X|~/Library/Application Support/Transport Fever 3/settings.lua}}"
+    - "{{Game data/config|Linux|~/.local/share/Transport Fever 3/settings.lua}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Transport Fever 3\\save|{{p|appdata}}\\Transport Fever 3\\profile.lua}}"
+    - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\3493540\\local\\save|{{p|Steam}}\\userdata\\{{p|uid}}\\3493540\\local\\profile.lua}}"
+    - "{{Game data/saves|OS X|~/Library/Application Support/Transport Fever 3/save|~/Library/Application Support/Transport Fever 3/profile.lua}}"
+    - "{{Game data/saves|Linux|~/.local/share/Transport Fever 3/save|~/.local/share/Transport Fever 3/profile.lua}}"
 Transport Giant:
   cloud:
     gog: true

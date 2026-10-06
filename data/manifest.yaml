@@ -30345,6 +30345,11 @@ Alice Escaped!:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: alice-escaped
+    steamExtra:
+      - 1539670
+      - 2298000
   installDir:
     Alice Escaped!: {}
   launch:
@@ -57803,7 +57808,11 @@ Atomic Owl:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1883445070
   id:
+    gogExtra:
+      - 2015358201
     lutris: atomic-owl
     steamExtra:
       - 2793260
@@ -100858,6 +100867,17 @@ Boundel:
             store: steam
   steam:
     id: 454070
+Bounder:
+  cloud:
+    steam: true
+  installDir:
+    Bounder: {}
+  launch:
+    "<base>/Bounder.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2062480
 Bounders and Cads:
   installDir:
     Bounders and Cads: {}
@@ -318401,6 +318421,19 @@ Growbot:
   steam:
     id: 661680
 Growing My Manhole:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/Growing My Manhole/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Growing My Manhole/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: growing-my-manhole
     steamExtra:
@@ -384734,6 +384767,18 @@ Jumphobia XL:
             store: steam
   steam:
     id: 1781380
+Jumping Jack:
+  cloud:
+    steam: true
+  installDir:
+    Jumping Jack: {}
+  launch:
+    "<base>/JumpingJack.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1978200
 Jumping Jazz Cats:
   cloud:
     steam: true
@@ -411160,6 +411205,7 @@ Lego Alpha Team:
     gogExtra:
       - 1657813519
       - 1916565870
+    lutris: lego-batman-3-beyond-gotham
   installDir:
     LEGO Batman 3 Beyond Gotham: {}
   launch:
@@ -411476,6 +411522,8 @@ Lego Harry Potter Collection:
         - save
       when:
         - os: windows
+  id:
+    lutris: lego-harry-pottertm-collection
   installDir:
     LHPCR: {}
   launch:
@@ -411508,6 +411556,8 @@ Lego Harry Potter Collection:
         - os: windows
   gog:
     id: 1423058817
+  id:
+    lutris: lego-harry-potter-years-1-4
   installDir:
     LEGO Harry Potter: {}
   launch:
@@ -411540,6 +411590,8 @@ Lego Harry Potter Collection:
         - os: windows
   gog:
     id: 1423058931
+  id:
+    lutris: lego-harry-potter-years-5-7
   installDir:
     LEGO Harry Potter Years 5-7: {}
   launch:
@@ -411693,6 +411745,8 @@ Lego Jurassic World:
         - config
       when:
         - os: windows
+  id:
+    lutris: lego-jurassic-world
   installDir:
     LEGO Jurassic World: {}
   launch:
@@ -411750,6 +411804,8 @@ Lego Marvel Super Heroes:
         - config
       when:
         - os: windows
+  id:
+    lutris: lego-marvel-super-heroes
   installDir:
     LEGO Marvel Super Heroes: {}
   launch:
@@ -411787,6 +411843,8 @@ Lego Marvel Super Heroes 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: lego-marvel-super-heroes-2
   installDir:
     LEGO Marvel Super Heroes 2: {}
   launch:
@@ -411826,6 +411884,8 @@ Lego Marvel Super Heroes 2:
         - config
       when:
         - os: windows
+  id:
+    lutris: lego-marvels-avengers
   installDir:
     "LEGO Marvel's Avengers": {}
   launch:
@@ -412259,6 +412319,8 @@ Lego The Lord of the Rings:
         - os: windows
   gog:
     id: 2095741221
+  id:
+    lutris: lego-lord-of-the-rings
   installDir:
     LEGO Lord of the Rings: {}
   launch:
@@ -412322,6 +412384,8 @@ Lego Worlds:
         - save
       when:
         - os: windows
+  id:
+    lutris: lego-worlds
   installDir:
     LEGO Worlds: {}
   launch:
@@ -499125,6 +499189,23 @@ Nitronic Rush:
             store: steam
   steam:
     id: 482450
+Nivalis Nights:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/ION LANDS/Nivalis Nights":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Nivalis Nights: {}
+  launch:
+    "<base>/Nivalis Nights.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 1488490
 No Body Home:
   steam:
     id: 794420
@@ -507155,6 +507236,9 @@ Octopath Traveler:
       when:
         - os: windows
           store: microsoft
+  id:
+    steamExtra:
+      - 1083770
   installDir:
     OCTOPATH TRAVELER: {}
   launch:
@@ -656104,6 +656188,13 @@ Soko Match:
           - store: steam
   steam:
     id: 518320
+Sokoban:
+  files:
+    "<base>/*.sco":
+      tags:
+        - save
+      when:
+        - os: windows
 Sokoban Classic:
   alias: Sok
 Sokoban Land DX:
@@ -679015,6 +679106,25 @@ Star Wars Outlaws:
   steam:
     id: 356500
 "Star Wars: Galactic Racer":
+  files:
+    "<winLocalAppData>/StarWarsGalacticRacer/Saved/SaveGames/<storeUserId>/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    STAR WARS Galactic Racer: {}
+  launch:
+    "<base>/EpicOnlineServices/EpicOnlineServicesInstaller.exe":
+      - arguments: /install productId=960c149bc7904c03bd2e93f195e12fd9
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Launcher.exe":
+      - arguments: "-isSteam"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4078430
 "Star Wars: Hunters":
@@ -751800,6 +751910,7 @@ The Lego Movie 2 Videogame:
   id:
     gogExtra:
       - 1639182085
+    lutris: the-lego-movie-2-videogame-1
   installDir:
     The LEGO Movie 2 Videogame: {}
   launch:
@@ -751847,6 +751958,7 @@ The Lego Movie Videogame:
       - 1282731468
       - 1639182085
       - 1838910200
+    lutris: the-lego-movie-videogame
   installDir:
     The LEGO Movie - Videogame: {}
   launch:
@@ -795886,6 +795998,69 @@ Transport Fever 2:
   steam:
     id: 1066780
 Transport Fever 3:
+  files:
+    "<home>/.local/share/Transport Fever 3/profile.lua":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/Transport Fever 3/save":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/Transport Fever 3/settings.lua":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/Library/Application Support/Transport Fever 3/profile.lua":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Transport Fever 3/save":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<home>/Library/Application Support/Transport Fever 3/settings.lua":
+      tags:
+        - config
+      when:
+        - os: mac
+    "<root>/userdata/<storeUserId>/3493540/local/profile.lua":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/3493540/local/save":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/3493540/local/settings.lua":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<winAppData>/Transport Fever 3/profile.lua":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Transport Fever 3/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Transport Fever 3/settings.lua":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1721456477
   installDir:
     Transport Fever 3: {}
   launch:

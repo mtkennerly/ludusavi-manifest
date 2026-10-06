@@ -561983,6 +561983,28 @@
       type: default
   nameLocalized:
     schinese: 油尽航行
+1488490:
+  cloud:
+    saves:
+      - path: ION LANDS/Nivalis Nights
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+      - path: ION LANDS/Nivalis Nights
+        pattern: "*.txt"
+        root: WinAppDataLocalLow
+      - path: ION LANDS/Nivalis Nights
+        pattern: "*.png"
+        root: WinAppDataLocalLow
+      - path: ION LANDS/Nivalis Nights
+        pattern: "*.ini"
+        root: WinAppDataLocalLow
+  installDir: Nivalis Nights
+  launch:
+    - executable: Nivalis Nights.exe
+  nameLocalized:
+    koreana: 니발리스 나이트 Nivalis Nights
+    schinese: 《尼瓦利斯之夜》  Nivalis Nights
+    tchinese: 《夜城狂想》Nivalis NIghts
 1489410:
   cloud:
     saves:
@@ -598780,6 +598802,12 @@
     japanese: LONG GONE（ロング・ゴーン）
     schinese: LONG GONE：远逝
     tchinese: LONG GONE：遠逝
+1978200:
+  installDir: Jumping Jack
+  launch:
+    - config:
+        oslist: windows
+      executable: JumpingJack.exe
 1978210:
   installDir: The Grinch
   launch:
@@ -603071,6 +603099,10 @@
       executable: Balls.app
   nameLocalized:
     schinese: BALL x PIT — 球比伦战记
+2062480:
+  installDir: Bounder
+  launch:
+    - executable: Bounder.exe
 2062550:
   installDir: hololive ERROR the Game
   launch:
@@ -659113,6 +659145,31 @@
     tchinese: 超級高爾夫大亂鬥
 4072240: {}
 4078430:
+  cloud:
+    saves:
+      - path: "StarWarsGalacticRacer/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: STAR WARS Galactic Racer
+  launch:
+    - arguments: "-isSteam"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Launch with Epic Online Services
+      executable: Launcher.exe
+    - arguments: /install productId=960c149bc7904c03bd2e93f195e12fd9
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Reinstall Epic Online Services
+      executable: "EpicOnlineServices\\EpicOnlineServicesInstaller.exe"
+    - arguments: "-isSteam -SaveToUserDir"
+      config:
+        betakey: "dailyday0_debug, dailyday14_debug, dailydev_debug"
+      description: Launch Debug build with Cloud Saves
+      executable: Launcher.exe
   nameLocalized:
     japanese: スター・ウォーズ：ギャラクティック・レーサー™
     koreana: "스타워즈: 은하계 레이서™"
