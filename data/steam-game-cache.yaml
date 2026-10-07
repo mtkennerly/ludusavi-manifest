@@ -1804,18 +1804,19 @@
   launch:
     - config:
         oslist: windows
-      executable: kb.exe
+      executable: WorkshopModSync.exe
+      type: default
     - config:
         oslist: macos
       executable: "King's Bounty - Armored Princess.app/Contents/MacOS/PrincessLauncher.sh"
     - config:
-        betakey: internal
-        osarch: "64"
+        betakey: legacy
         oslist: windows
-      description: Launcher
-      executable: launcher-x64.exe
+      description: "King's Bounty: Armored Princess Legacy version"
+      executable: kb.exe
       type: option1
   nameLocalized:
+    russian: King’s Bounty. Принцесса в доспехах
     schinese: 国王的恩赐：戎装公主
 3230:
   installDir: Genesis Rising
@@ -7418,7 +7419,7 @@
   launch:
     - config:
         oslist: windows
-      executable: kb.exe
+      executable: WorkshopModSync.exe
       type: default
     - config:
         oslist: windows
@@ -7436,6 +7437,7 @@
       executable: launcher-x64.exe
       type: option1
   nameLocalized:
+    russian: King’s Bounty. Легенда о рыцаре
     schinese: 国王的恩赐：传奇
 25910:
   installDir: Supreme Ruler 2020
@@ -12883,6 +12885,7 @@
       executable: launcher-x64.exe
       type: option1
   nameLocalized:
+    russian: King’s Bounty. Перекрёстки миров
     schinese: 国王的恩赐：交错世界
 63940:
   cloud:
@@ -14567,11 +14570,31 @@
 97110:
   installDir: Kohan Immortal Sovereigns
   launch:
-    - executable: Kohan.exe
+    - description: Play
+      executable: Kohan.exe
+    - arguments: fullscreen
+      description: fullscreen
+      executable: Kohan.exe
+      type: option1
+    - config:
+        oslist: windows
+      description: with options launcher
+      executable: Play Kohan.exe
+      type: option2
 97120:
   installDir: Kohan Ahrimans Gift
   launch:
-    - executable: Kohan_AG.exe
+    - description: Play
+      executable: Kohan_AG.exe
+    - arguments: fullscreen
+      description: fullscreen
+      executable: Kohan_AG.exe
+      type: option1
+    - config:
+        oslist: windows
+      description: with options launcher
+      executable: Play Kohan_AG.exe
+      type: option2
 97130:
   installDir: Kohan II
   launch:
@@ -16530,6 +16553,7 @@
       executable: launcher-x64.exe
       type: option1
   nameLocalized:
+    russian: King’s Bounty. Воин Севера
     schinese: 国王的恩赐：北方勇士
 203510:
   installDir: Fortune Summoners
@@ -30847,6 +30871,11 @@
       description: Launch
       executable: Where is my Heart.app
 245010:
+  cloud:
+    saves:
+      - path: "ASYLUM\\SAVEGAME"
+        pattern: "*.*"
+        root: gameinstall
   installDir: Deathtrap Dungeon
   launch:
     - description: Launch
@@ -62457,7 +62486,7 @@
       description: Launch
       executable: The Elder Scrolls Online (Steam).app
   nameLocalized:
-    schinese: 《上古卷轴®OL》
+    schinese: 《上古卷轴OL》
 306200:
   installDir: Happy Hereafter
   launch:
@@ -97878,6 +97907,14 @@
       description: "Mafia III: Definitive Edition (Profiling EXE)"
       executable: whiskey_profiling.exe
       type: option1
+    - arguments: /steam
+      config:
+        betakey: beta_qa_internal
+        osarch: "64"
+        oslist: windows
+      description: "Mafia III: Definitive Edition (Release EXE)"
+      executable: whiskey_release.exe
+      type: option2
 360450:
   installDir: Kiai Resonance
   launch:
@@ -133389,6 +133426,11 @@
       executable: SDK/bin_x64/Exodus_SDK.exe
       type: editor
       workingdir: SDK/
+  nameLocalized:
+    japanese: メトロ エクソダス
+    koreana: 메트로 엑소더스
+    schinese: 地铁：离乡
+    tchinese: 戰慄深隧：流亡
 412050:
   installDir: HordeZ
   launch:
@@ -155701,12 +155743,9 @@
 450120:
   installDir: Capitalism Plus
   launch:
-    - arguments: "-conf dosboxCapPlus.conf -conf dosboxCapPlus_single.conf -noconsole"
-      config:
+    - config:
         oslist: windows
-      executable: "DOSBOX\\DOSBox.exe"
-      type: default
-      workingdir: "DOSBOX\\"
+      executable: CapPlus.exe
 450140:
   installDir: Seven Kingdoms Ancient Adversaries
   launch:
@@ -179506,6 +179545,7 @@
 499170:
   nameLocalized:
     schinese: 沉星之序
+    tchinese: 沉星之序
 499180:
   cloud:
     saves:
@@ -543167,7 +543207,7 @@
       executable: G1R.exe
       type: option1
     - config:
-        betakey: "calom, magicbarrier, releasebranch_dev, magicbarrier_fordistribution, releasebranch_fordistribution, clown, testgate, sneak, evaluation"
+        betakey: "calom, magicbarrier, releasebranch_dev, magicbarrier_fordistribution, releasebranch_fordistribution, clown, testgate, sneak, evaluation, milestone"
       description: Gothic 1 Remake (Shipping Exe)
       executable: G1R-Win64-Shipping.exe
       type: option1
@@ -545952,8 +545992,7 @@
 1328660:
   installDir: Need For Speed Hot Pursuit Remastered
   launch:
-    - executable: "link2ea://launchgame/1328660?platform=steam&theme=NFSHP"
-      type: none
+    - executable: "steam2ea://launchgame/1328660?platform=steam&theme=NFSHP"
   nameLocalized:
     schinese: 《极品飞车：热力追踪》重制版
     tchinese: 《極速快感™：超熱力追緝》重製版
@@ -574222,6 +574261,13 @@
         oslist: windows
       executable: BeeFense.exe
       type: default
+1641060:
+  installDir: Castles & Catapults
+  launch:
+    - config:
+        oslist: windows
+      executable: CnC.exe
+      type: default
 1641120:
   cloud:
     saves:
@@ -576337,7 +576383,7 @@
     - config:
         betakey: "ph3_internal, test"
       description: Debug
-      executable: ao_debug.exe
+      executable: ao_Debug_x64.exe
       type: option1
     - arguments: "-latest"
       description: Resume from the latest save
@@ -612233,6 +612279,12 @@
         betakey: previous_buildqa
       executable: "WM\\Binaries\\Win64\\WM-Win64-Test.exe"
       type: option1
+    - config:
+        betakey: macos_testing
+        oslist: macos
+      description: Default macOS version
+      executable: 63Days.app
+      type: default
 2202470:
   cloud:
     saves:
@@ -623983,6 +624035,19 @@
     - config:
         oslist: windows
       executable: DarkDeity2.exe
+2446740:
+  cloud:
+    saves:
+      - path: Cube Games/X-Force Under Attack
+        pattern: "*.cgsave"
+        root: WinAppDataLocalLow
+  installDir: X-Force Under Attack
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: X-Force Under Attack.exe
+      type: default
 2446760: {}
 2446820:
   installDir: Drag Her!
@@ -626540,6 +626605,12 @@
         oslist: windows
       description: Launch in VR Mode
       executable: GhostTown.exe
+      type: openxr
+    - config:
+        betakey: internaltesting
+        osarch: "64"
+        oslist: android
+      executable: GhostTown.apk
       type: openxr
 2496640:
   installDir: Futanari di Funghi
@@ -632616,6 +632687,11 @@
       - path: Impact/Saved/SaveGames
         pattern: "*.sav"
         root: gameinstall
+      - path: Android/data/com.vertigogames.ImpactDevelopment/files/UnrealGame/Impact/Impact/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Android
+        root: AndroidExternalData
   installDir: MetroAwakening
   launch:
     - config:
@@ -632623,6 +632699,16 @@
         oslist: windows
       executable: Impact.exe
       type: vr
+    - config:
+        betakey: "jenkins_ext,jenkins_ext_nightly"
+        oslist: android
+      description: Test configuration
+      executable: Impact-Android-Test-arm64.apk
+      type: openxr
+    - config:
+        oslist: android
+      executable: Impact-Android-Shipping-arm64.apk
+      type: openxr
 2670630:
   cloud:
     saves:
@@ -645239,6 +645325,7 @@
   installDir: Hydroponics Farm and Store Simulator
   launch:
     - executable: Hydroponics Farm and Store Simulator.exe
+3152710: {}
 3153020:
   cloud:
     saves:
@@ -650784,6 +650871,11 @@
         oslist: windows
       executable: WRATH Aeon of Ruin VR.exe
       type: openxr
+    - config:
+        oslist: android
+      description: Android Steam Frame Version
+      executable: WrathVR_SteamFrame.apk
+      type: openxr
 3430340:
   cloud:
     saves:
@@ -655599,6 +655691,7 @@
   nameLocalized:
     japanese: ガンズ・オブ・エスカトン
     schinese: 末世神枪
+    tchinese: 末世神槍
 3738910:
   cloud:
     saves:
@@ -656054,6 +656147,9 @@
       - path: data/DataMin/Bovine/
         pattern: hiscore_g.dat
         recursive: true
+        root: gameinstall
+      - path: data/DataMin/Planes/
+        pattern: "*.pln"
         root: gameinstall
   installDir: Plane Crazy
   launch:
@@ -657912,14 +658008,21 @@
     saves:
       - path: Mega Cat Studios/Backyard Baseball/
         pattern: "*"
+        root: WinAppDataLocalLow
+      - path: Mega Cat Studios/Backyard Baseball/TeamPhotos/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Mega Cat Studios/Backyard Baseball/Saves/
+        pattern: "*"
         recursive: true
         root: WinAppDataLocalLow
     overrides:
       - os: MacOS
         osCompare: "="
         pathTransforms:
-          - find: Mega Cat Studios/Backyard Baseball
-            replace: Mega Cat Studios/Backyard Baseball
+          - find: Mega Cat Studios/Backyard Baseball/
+            replace: Mega Cat Studios/Backyard Baseball/
         root: WinAppDataLocalLow
         useInstead: MacAppSupport
   installDir: Backyard Baseball 2026
@@ -657936,6 +658039,20 @@
         oslist: windows
       description: under focus group testing
       executable: Backyard Baseball.exe
+      type: option1
+    - arguments: "-forceAnalytics -environment development"
+      config:
+        betakey: dev3
+        oslist: windows
+      description: with telemetry enabled
+      executable: Backyard Baseball.exe
+      type: option1
+    - arguments: "-forceAnalytics -environment development"
+      config:
+        betakey: dev3
+        oslist: macos
+      description: with telemetry enabled
+      executable: Backyard Baseball.app/Contents/MacOS/Backyard Baseball
       type: option1
 3936520:
   cloud:
@@ -662104,6 +662221,7 @@
   launch:
     - executable: Too Many Toys!.exe
 5036490: {}
+5056390: {}
 5067360: {}
 5071780: {}
 5089020: {}

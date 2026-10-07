@@ -7921,6 +7921,7 @@ Age of Omens:
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\}}"
 "Age of Pirates: Caribbean Tales":
   gog: 1444806723
+  lutris: sea-dogs-caribbean-tales
   pageId: 88768
   steam: 817460
   templates:
@@ -8467,7 +8468,8 @@ Aion 2:
     - 4972180
     - 4972320
   templates:
-    - "{{Game data/config|Windows|%localappdata%\\AION2\\Saved_Steam\\Config\\Windows}}"
+    - "{{Game data/config|Windows|%localappdata%\\AION2\\Saved_Steam\\Config\\Windows ''(Steam)''}}"
+    - "{{Game data/config|Windows|%localappdata%\\AION2\\Saved_Global\\Config\\Windows ''(Purple)''}}"
 Air:
   pageId: 150026
   steam: 1144520
@@ -10171,6 +10173,7 @@ Alien vs Predator Jaguar Remake:
     - "{{Game data/saves|Epic Games Launcher|{{P|localappdata}}\\The Creative Assembly\\Alien Isolation\\}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/feral-interactive/AlienIsolation/Steam Saves ({{p|uid}})}}"
 "Alien: Isolation 2":
+  lutris: alien-isolation-2
   pageId: 217336
   steam: 4665290
 "Alien: Rogue Incursion":
@@ -21072,6 +21075,8 @@ Backyard Soccer MLS Edition:
   templates:
     - "{{Game data/config|Windows|C:\\Windows\\hegames.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
+"Backyard Sports: Baseball 2007":
+  pageId: 221318
 "Bacon Man: An Adventure":
   pageId: 41886
   steam: 327760
@@ -34589,6 +34594,7 @@ Broken of Darkness:
     - "{{Game data/config|Windows|{{P|localappdata}}\\DontLie\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\DontLie\\Saved\\SaveGames\\}}"
 "BrokenLore: Don't Play":
+  lutris: brokenlore-dont-play
   pageId: 215963
   steam: 4549480
 "BrokenLore: Don't Watch":
@@ -39794,6 +39800,10 @@ Castles:
     - 4352750
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME.*}}"
+Castles & Catapults:
+  lutris: castles-catapults
+  pageId: 221319
+  steam: 1641060
 Castles (2015):
   cloud:
     steam: true
@@ -59358,11 +59368,16 @@ Dead in time:
 Dead of Darkness:
   cloud:
     steam: true
+  lutris: dead-of-darkness
   pageId: 205995
   steam: 2157210
 Dead of Night:
   pageId: 63783
   steam: 656630
+Dead of the Brain:
+  lutris: dead-of-the-brain
+  pageId: 221271
+  steam: 5056390
 Dead or Alive 5 Last Round:
   pageId: 21264
   steam: 311730
@@ -61257,6 +61272,8 @@ Deer Hunt Legends:
   steam: 328670
 Deer Hunter:
   pageId: 211765
+Deer Hunter 2003:
+  pageId: 221322
 Deer Hunter 2004:
   pageId: 211830
   templates:
@@ -65990,6 +66007,8 @@ Disney Speedstorm:
   steam: 1537830
 Disney SpellStruck:
   pageId: 198853
+Disney Trivia Challenge:
+  pageId: 221308
 Disney Universe:
   cloud:
     steam: true
@@ -80924,6 +80943,7 @@ Everspace 2:
     - 1536953928
     - 1641000596
     - 2096288217
+  lutris: everspace-2
   pageId: 143476
   steam: 1128920
   steamSide:
@@ -98119,6 +98139,8 @@ Ghost Town:
   steam: 2496180
   steamSide:
     - 3732460
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Fireproof Games\\Ghost Town\\}}"
 "Ghost Town Mine Ride & Shootin' Gallery":
   pageId: 51673
   steam: 459010
@@ -101704,6 +101726,9 @@ Grand Theft Auto 2:
     - "{{Game data/saves|Windows|{{p|game}}\\player\\}}"
 Grand Theft Auto Advance:
   pageId: 200821
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}/userfiles/gta3.set}}"
+    - "{{Game data/saves|Windows|{{P|game}}/userfiles/GTA3sf*.b}}"
 Grand Theft Auto III:
   lutris: grand-theft-auto-iii
   pageId: 2853
@@ -106447,6 +106472,8 @@ Hanger World:
 Hangman:
   pageId: 78854
   steam: 717520
+Hangman (1991):
+  pageId: 221279
 Hangover:
   pageId: 79246
   steam: 770440
@@ -114690,6 +114717,9 @@ House M.D.:
 House Number 666:
   pageId: 148763
   steam: 1162690
+"House Of Horror: Outside Is Better":
+  pageId: 212597
+  steam: 3152710
 House Of Plague 0:
   pageId: 109216
   steam: 882380
@@ -125937,6 +125967,8 @@ Ka Mate:
   steam: 636490
 "Ka'Roo":
   pageId: 212751
+Ka-50 Hokum:
+  pageId: 221287
 "Kaan: Barbarian's Blade":
   pageId: 169071
   templates:
@@ -129808,7 +129840,6 @@ Knights of the Sky:
   steam: 347270
 Knights of the Temple II:
   lutris: knights-of-the-temple-ii
-  malformed: true
   pageId: 126719
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\KOTT2.set}}"
@@ -146180,6 +146211,7 @@ MechWarrior 3:
     - 1811346339
     - 1984078926
     - 2038424921
+    - 2116482465
     - 2142732028
   lutris: mechwarrior-5-mercenaries
   pageId: 137805
@@ -146194,6 +146226,7 @@ MechWarrior 3:
     - 2782050
     - 3799610
     - 4371500
+    - 4849350
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\MW5Mercs\\Saved\\Config\\WindowsNoEditor\\|{{P|localappdata}}\\MW5Mercs\\Saved\\SavedHOTAS\\HOTASMappings.Remap}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\MW5Mercs\\Saved\\SavedLoadouts\\|{{P|localappdata}}\\MW5Mercs\\Saved\\SaveGames\\|{{P|localappdata}}\\MW5Mercs\\Saved\\CustomSkins.json}}"
@@ -148462,6 +148495,7 @@ Metro 2033:
   steam: 43110
   steamSide:
     - 43120
+    - 43129
     - 43130
     - 43140
   templates:
@@ -151878,6 +151912,8 @@ Mole Control:
 Mole Game:
   pageId: 156537
   steam: 1158410
+"Mole's Quest":
+  pageId: 221273
 Molecats:
   pageId: 68619
   steam: 338290
@@ -221720,7 +221756,7 @@ Star Wars Outlaws:
   steam: 4078430
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\StarWarsGalacticRacer\\Saved\\}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\StarWarsGalacticRacer\\Saved\\SaveGames\\*.sav}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\StarWarsGalacticRacer\\Saved\\SaveGames\\}}"
 "Star Wars: Galaxy of Heroes":
   pageId: 197901
 "Star Wars: Hunters":
@@ -281704,6 +281740,14 @@ X-Blades:
     - "{{Game data/config|DOS|{{p|game}}\\sound\\sound.cfg}}"
     - "{{Game data/saves|DOS|{{p|userprofile}}\\game_*\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\XCOM\\game_*\\}}"
+X-Force Under Attack:
+  cloud:
+    steam: true
+  lutris: x-force-under-attack
+  pageId: 221313
+  steam: 2446740
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Cube Games\\X-Force Under Attack\\*.cgsave}}"
 "X-Games: Pro Boarder":
   pageId: 209614
 "X-Men Legends II: Rise of Apocalypse":

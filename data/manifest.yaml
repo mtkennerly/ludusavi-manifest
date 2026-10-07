@@ -25136,6 +25136,8 @@ Age of Omens:
         - os: windows
   gog:
     id: 1444806723
+  id:
+    lutris: sea-dogs-caribbean-tales
   installDir:
     Sea Dogs Caribbean Tales: {}
   launch:
@@ -26612,6 +26614,11 @@ Aion:
     id: 261430
 Aion 2:
   files:
+    "<winLocalAppData>/AION2/Saved_Global/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/AION2/Saved_Steam/Config/Windows":
       tags:
         - config
@@ -31929,6 +31936,8 @@ Alien invasion:
   steam:
     id: 214490
 "Alien: Isolation 2":
+  id:
+    lutris: alien-isolation-2
   steam:
     id: 4665290
 "Alien: Rogue Incursion":
@@ -65226,7 +65235,21 @@ Backyard Baseball (2026):
     "<home>/AppData/LocalLow/Mega Cat Studios/Backyard Baseball":
       when:
         - store: steam
+    "<home>/AppData/LocalLow/Mega Cat Studios/Backyard Baseball/Saves":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Mega Cat Studios/Backyard Baseball/TeamPhotos":
+      when:
+        - store: steam
     "<home>/Library/Application Support/Mega Cat Studios/Backyard Baseball":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Mega Cat Studios/Backyard Baseball/Saves":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Mega Cat Studios/Backyard Baseball/TeamPhotos":
       when:
         - os: mac
           store: steam
@@ -106709,6 +106732,8 @@ Broken of Darkness:
   steam:
     id: 3886200
 "BrokenLore: Don't Play":
+  id:
+    lutris: brokenlore-dont-play
   steam:
     id: 4549480
 "BrokenLore: Don't Watch":
@@ -117456,12 +117481,10 @@ Capitalism:
   installDir:
     Capitalism Plus: {}
   launch:
-    "<base>/DOSBOX/DOSBox.exe":
-      - arguments: "-conf dosboxCapPlus.conf -conf dosboxCapPlus_single.conf -noconsole"
-        when:
+    "<base>/CapPlus.exe":
+      - when:
           - os: windows
             store: steam
-        workingDir: "<base>/DOSBOX"
   steam:
     id: 450120
 Capitalism II:
@@ -122626,6 +122649,18 @@ Castles:
             store: steam
   steam:
     id: 666660
+Castles & Catapults:
+  id:
+    lutris: castles-catapults
+  installDir:
+    Castles & Catapults: {}
+  launch:
+    "<base>/CnC.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1641060
 Castles (2015):
   cloud:
     steam: true
@@ -183239,6 +183274,8 @@ Dead of Darkness:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: dead-of-darkness
   installDir:
     Dead of Darkness: {}
   launch:
@@ -183258,6 +183295,11 @@ Dead of Night:
             store: steam
   steam:
     id: 656630
+Dead of the Brain:
+  id:
+    lutris: dead-of-the-brain
+  steam:
+    id: 5056390
 Dead or Alive 5 Last Round:
   files:
     "<winDocuments>/KoeiTecmo/DOA5LR":
@@ -249838,6 +249880,7 @@ Everspace 2:
       - 1536953928
       - 1641000596
       - 2096288217
+    lutris: everspace-2
     steamExtra:
       - 1312800
       - 2606620
@@ -301977,10 +302020,11 @@ Ghost Town:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Fireproof Games/Ghost Town/*.save":
+    "<home>/AppData/LocalLow/Fireproof Games/Ghost Town":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     lutris: ghost-town--4
     steamExtra:
@@ -312783,6 +312827,18 @@ Grand Theft Auto 2:
         - config
   steam:
     id: 12180
+Grand Theft Auto Advance:
+  files:
+    "<base>/userfiles/GTA3sf*.b":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/userfiles/gta3.set":
+      tags:
+        - config
+      when:
+        - os: windows
 Grand Theft Auto III:
   files:
     "<home>/Documents/GTA3 User Files":
@@ -352254,6 +352310,9 @@ House Number 666:
             store: steam
   steam:
     id: 1162690
+"House Of Horror: Outside Is Better":
+  steam:
+    id: 3152710
 House Of Plague 0:
   steam:
     id: 882380
@@ -394265,7 +394324,7 @@ King under the Mountain:
       - when:
           - os: mac
             store: steam
-    "<base>/kb.exe":
+    "<base>/WorkshopModSync.exe":
       - when:
           - os: windows
             store: steam
@@ -394383,7 +394442,7 @@ King under the Mountain:
       - when:
           - os: mac
             store: steam
-    "<base>/kb.exe":
+    "<base>/WorkshopModSync.exe":
       - when:
           - os: windows
             store: steam
@@ -448943,6 +449002,7 @@ MechWarrior 3:
       - 1811346339
       - 1984078926
       - 2038424921
+      - 2116482465
       - 2142732028
     lutris: mechwarrior-5-mercenaries
     steamExtra:
@@ -448955,6 +449015,7 @@ MechWarrior 3:
       - 2782050
       - 3799610
       - 4371500
+      - 4849350
   installDir:
     MechWarrior 5 Mercenaries: {}
   launch:
@@ -455656,6 +455717,7 @@ Metro 2033:
   id:
     steamExtra:
       - 43120
+      - 43129
       - 43130
       - 43140
   installDir:
@@ -679274,7 +679336,7 @@ Star Wars Outlaws:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/StarWarsGalacticRacer/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/StarWarsGalacticRacer/Saved/SaveGames":
       tags:
         - save
       when:
@@ -859289,6 +859351,27 @@ X-Blades:
           - store: steam
   steam:
     id: 7760
+X-Force Under Attack:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Cube Games/X-Force Under Attack/*.cgsave":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: x-force-under-attack
+  installDir:
+    X-Force Under Attack: {}
+  launch:
+    "<base>/X-Force Under Attack.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2446740
 "X-Men Legends II: Rise of Apocalypse":
   files:
     "<winDocuments>/Activision/X-Men Legends 2/Save":
