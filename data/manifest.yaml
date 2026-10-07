@@ -191829,6 +191829,8 @@ Dementium II:
 Dementium II HD:
   cloud:
     steam: true
+  id:
+    lutris: dementium-ii-hd
   installDir:
     Dementium 2: {}
   launch:
@@ -202583,6 +202585,12 @@ Dischord:
             store: steam
   steam:
     id: 281450
+Disco Ball Simulator 2000:
+  id:
+    steamExtra:
+      - 5089460
+  steam:
+    id: 5089020
 Disco Bullets:
   steam:
     id: 1148850
@@ -298645,6 +298653,12 @@ Gears of War 4:
       when:
         - os: windows
           store: steam
+    "<winLocalAppData>/Packages/Microsoft.Fairlightbasegame_8wekyb3d8bbwe/SystemAppData/wgs":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: gears-of-war-e-day
     steamExtra:
@@ -358058,12 +358072,6 @@ I Am Alive:
     id: 1632475257
   installDir:
     I am Alive: {}
-  launch:
-    "<base>/src/SYSTEM/iamalive_game.exe":
-      - arguments: "-console"
-        when:
-          - store: steam
-        workingDir: "<base>/src/SYSTEM"
   steam:
     id: 214250
 I Am Bread:
@@ -390536,6 +390544,8 @@ Kemonomichi-White Moment-:
 Kemuri:
   id:
     lutris: kemuri
+  steam:
+    id: 2667460
 "Ken Follett's The Pillars of the Earth":
   cloud:
     epic: true

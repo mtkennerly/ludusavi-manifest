@@ -15225,6 +15225,8 @@ Arctic Eggs:
 Arctic Fleet:
   pageId: 124352
   steam: 983880
+Arctic Moves:
+  pageId: 221270
 Arctic Trucker Simulator:
   pageId: 51314
   steam: 273890
@@ -62028,6 +62030,7 @@ Dementium II:
 Dementium II HD:
   cloud:
     steam: true
+  lutris: dementium-ii-hd
   pageId: 13524
   steam: 217100
   templates:
@@ -65561,6 +65564,11 @@ Dischord:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Exe\\DISCIPLE.INI}}"
     - "{{Game data/saves|Windows|{{p|Game}}\\Savegame}}"
+Disco Ball Simulator 2000:
+  pageId: 221265
+  steam: 5089020
+  steamSide:
+    - 5089460
 Disco Bullets:
   pageId: 150836
   steam: 1148850
@@ -97069,6 +97077,7 @@ Gears of War 4:
   templates:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\FairlightConcept\\Saved\\Config\\WinGDK}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\Microsoft\\Gears of War E-Day\\Steam\\{{P|uid}}\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.Fairlightbasegame_8wekyb3d8bbwe\\SystemAppData\\wgs}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\Microsoft\\Gears of War E-Day\\Saves\\}}"
 "Gears of War: Reloaded":
   cloud:
@@ -127073,6 +127082,7 @@ Kemonomichi-White Moment-:
 Kemuri:
   lutris: kemuri
   pageId: 217186
+  steam: 2667460
 "Ken Follett's The Pillars of the Earth":
   cloud:
     epic: true

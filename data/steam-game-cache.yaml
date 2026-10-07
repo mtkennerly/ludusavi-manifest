@@ -19923,9 +19923,16 @@
   installDir: I am Alive
   launch:
     - arguments: "-console"
+      config:
+        betakey: default
       description: Launch with Console
       executable: src/SYSTEM/iamalive_game.exe
       workingdir: src/SYSTEM/
+    - config:
+        betakey: gog-test
+        oslist: windows
+      executable: I Am Alive/neutral/game/src/SYSTEM/IAmAlive_game.exe
+      type: default
 214310:
   installDir: adams_venture_3
   launch:
@@ -632464,6 +632471,7 @@
       executable: ballionaire-linux.sh
   nameLocalized:
     schinese: 弹球亿万富翁
+2667460: {}
 2667950:
   cloud:
     saves:
@@ -662098,6 +662106,7 @@
 5036490: {}
 5067360: {}
 5071780: {}
+5089020: {}
 5093680: {}
 5095280:
   cloud:
