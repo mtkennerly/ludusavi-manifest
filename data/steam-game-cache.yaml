@@ -621411,6 +621411,13 @@
     tchinese: 藍色小精靈 2：綠寶石的囚徒 (The Smurfs 2 - The Prisoner of the Green Stone)
     turkish: "Şirinler 2: Yeşil Taş’ın Tutsağı"
 2397510:
+  cloud:
+    saves:
+      - path: "FishingCactus/Corsairs/{64BitSteamID}"
+        pattern: G*.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
   installDir: Corsairs
   launch:
     - executable: Corsairs.exe
@@ -662157,5 +662164,6 @@
 5227630: {}
 5233100: {}
 5244970: {}
+5342930: {}
 34004563: {}
 3221903386: {}

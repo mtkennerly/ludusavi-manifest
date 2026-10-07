@@ -8451,6 +8451,7 @@ Ain Dodo:
   pageId: 149823
   steam: 1144280
 Aion:
+  lutris: aion
   pageId: 45266
   steam: 261430
   steamSide:
@@ -62019,6 +62020,11 @@ Demented:
 Demented Pixie:
   pageId: 54371
   steam: 559450
+Dementium II:
+  cloud:
+    steam: true
+  pageId: 221262
+  steam: 5342930
 Dementium II HD:
   cloud:
     steam: true
@@ -170614,6 +170620,80 @@ Overwatch 2:
   lutris: overwatch-2
   pageId: 151795
   steam: 2357570
+  steamSide:
+    - 259290
+    - 2437280
+    - 2443730
+    - 2443731
+    - 2443732
+    - 2443733
+    - 2443734
+    - 2528660
+    - 2528670
+    - 2584720
+    - 2584730
+    - 2618570
+    - 2618580
+    - 2707800
+    - 2809330
+    - 2923060
+    - 2923070
+    - 2961080
+    - 2961090
+    - 2977970
+    - 3031620
+    - 3031630
+    - 3039790
+    - 3039800
+    - 3039810
+    - 3157030
+    - 3157040
+    - 3157050
+    - 3259300
+    - 3259310
+    - 3317060
+    - 3317070
+    - 3317080
+    - 3364660
+    - 3364670
+    - 3364680
+    - 3526660
+    - 3526670
+    - 3526700
+    - 3665170
+    - 3665190
+    - 3665200
+    - 3813020
+    - 3813030
+    - 3819870
+    - 3943050
+    - 3943060
+    - 4044330
+    - 4044340
+    - 4186050
+    - 4186060
+    - 4186070
+    - 4186080
+    - 4374980
+    - 4375000
+    - 4375010
+    - 4485430
+    - 4586820
+    - 4586830
+    - 4586840
+    - 4586850
+    - 4586860
+    - 4815770
+    - 4815780
+    - 4815790
+    - 4815800
+    - 4921050
+    - 4921060
+    - 4921070
+    - 4921080
+    - 5026420
+    - 5026430
+    - 5026440
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Overwatch\\Settings\\Settings_v0.ini}}"
 Overwhelm:
@@ -192376,7 +192456,7 @@ Resonance of Fate 4K/HD Edition:
   steamSide:
     - 3837640
   templates:
-    - "{{Game data/config|Microsoft Store|{{p|userprofile\\documents}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
+    - "{{Game data/config|Microsoft Store|{{p|userprofile\\documents}}\\My Games\\Resonance A Plague Tale Legacy}}"
     - "{{Game data/config|Steam|{{P|appdata}}\\Resonance A Plague Tale Legacy\\ENGINESETTINGS}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\FocusHomeInteractiveSA.APlagueTaleFelons_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{p|uid}}\\2713000\\remote}}"

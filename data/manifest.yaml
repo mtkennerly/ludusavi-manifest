@@ -26594,6 +26594,7 @@ Ain Dodo:
     id: 1144280
 Aion:
   id:
+    lutris: aion
     steamExtra:
       - 29640
       - 29650
@@ -154246,6 +154247,11 @@ Corsairs Legacy:
 "Corsairs: Battle of the Caribbean":
   cloud:
     gog: true
+  files:
+    "<home>/AppData/LocalLow/FishingCactus/Corsairs/<storeUserId>/G*.sav":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1756882332
   id:
@@ -191815,6 +191821,11 @@ Demented Pixie:
             store: steam
   steam:
     id: 559450
+Dementium II:
+  cloud:
+    steam: true
+  steam:
+    id: 5342930
 Dementium II HD:
   cloud:
     steam: true
@@ -522464,6 +522475,80 @@ Overwatch 2:
         - os: windows
   id:
     lutris: overwatch-2
+    steamExtra:
+      - 259290
+      - 2437280
+      - 2443730
+      - 2443731
+      - 2443732
+      - 2443733
+      - 2443734
+      - 2528660
+      - 2528670
+      - 2584720
+      - 2584730
+      - 2618570
+      - 2618580
+      - 2707800
+      - 2809330
+      - 2923060
+      - 2923070
+      - 2961080
+      - 2961090
+      - 2977970
+      - 3031620
+      - 3031630
+      - 3039790
+      - 3039800
+      - 3039810
+      - 3157030
+      - 3157040
+      - 3157050
+      - 3259300
+      - 3259310
+      - 3317060
+      - 3317070
+      - 3317080
+      - 3364660
+      - 3364670
+      - 3364680
+      - 3526660
+      - 3526670
+      - 3526700
+      - 3665170
+      - 3665190
+      - 3665200
+      - 3813020
+      - 3813030
+      - 3819870
+      - 3943050
+      - 3943060
+      - 4044330
+      - 4044340
+      - 4186050
+      - 4186060
+      - 4186070
+      - 4186080
+      - 4374980
+      - 4375000
+      - 4375010
+      - 4485430
+      - 4586820
+      - 4586830
+      - 4586840
+      - 4586850
+      - 4586860
+      - 4815770
+      - 4815780
+      - 4815790
+      - 4815800
+      - 4921050
+      - 4921060
+      - 4921070
+      - 4921080
+      - 5026420
+      - 5026430
+      - 5026440
   installDir:
     Overwatch: {}
   launch:
@@ -588916,7 +589001,7 @@ Resonance of Fate 4K/HD Edition:
       when:
         - os: windows
           store: steam
-    "<winDocuments>/Resonance A Plague Tale Legacy/ENGINESETTINGS":
+    "<winDocuments>/My Games/Resonance A Plague Tale Legacy":
       tags:
         - config
       when:
