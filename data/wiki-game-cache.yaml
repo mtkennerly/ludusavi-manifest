@@ -8662,6 +8662,7 @@ Airborne Motocross:
   steam: 1772800
 Airborne Ranger:
   gog: 1311823581
+  lutris: airborne-ranger
   pageId: 183875
   steam: 1703070
 "Airborne Troops: Countdown to D-Day":
@@ -20993,6 +20994,8 @@ Backyard Baseball:
   templates:
     - "{{Game data/config|Windows|C:\\hegames.ini}}"
     - "{{Game data/saves|Windows|{{p|windir}}\\System32\\hegames}}"
+"Backyard Baseball '09":
+  pageId: 221328
 Backyard Baseball (2026):
   cloud:
     steam: true
@@ -21037,6 +21040,10 @@ Backyard Football:
     - "{{Game data/config|Windows|{{p|windir}}\\hegames.ini}}"
     - "{{Game data/saves|Windows|C:\\hegames}}"
     - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Mega Cat Studios\\Backyard Football 1999\\{{p|uid}}\\}}"
+"Backyard Football '08":
+  pageId: 221330
+"Backyard Football '09":
+  pageId: 221331
 Backyard Football 2002:
   pageId: 147051
   templates:
@@ -21070,6 +21077,8 @@ Backyard Soccer:
   lutris: backyard-soccer-98
   pageId: 199884
   steam: 3170410
+Backyard Soccer 2004:
+  pageId: 221337
 Backyard Soccer MLS Edition:
   pageId: 191526
   templates:
@@ -61279,6 +61288,9 @@ Deer Hunter 2004:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Game\\Profiles\\Settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Game\\Profiles\\{{p|uid}}.pro}}"
+"Deer Hunter 5: Tracking Trophies":
+  lutris: deer-hunter-5-tracking-trophies
+  pageId: 221326
 Deer Hunter II:
   pageId: 155316
   steam: 1212190
@@ -96574,6 +96586,9 @@ Garfield Lasagna Party:
   lutris: garfield-escape-from-monday
   pageId: 216596
   steam: 3932790
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\GFD\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\GFD\\Saved\\SaveGames}}"
 "Garfield: It's All about Phonics - Kindergarten":
   pageId: 90683
   renamedFrom:
@@ -218032,6 +218047,9 @@ Spaghet:
     - 459660
   templates:
     - "{{Game data/saves|Steam|{{p|game}}/game/saves/}}"
+Spam:
+  pageId: 221324
+  steam: 2902720
 "Spandex Force: Champion Rising":
   pageId: 47511
   steam: 380560
@@ -278962,6 +278980,7 @@ Witch Halloween:
 Witch Hunt:
   cloud:
     steam: true
+  lutris: witch-hunt
   pageId: 69100
   steam: 661790
   templates:

@@ -594749,6 +594749,10 @@
   installDir: PVZGW2
   launch:
     - executable: "link2ea://launchgame/1922560?platform=steam&theme=pvzgw2"
+    - config:
+        betakey: eax_test
+      description: New launch method
+      executable: "steam2ea://launchgame/1922560?platform=steam&theme=pvzgw2"
   nameLocalized:
     arabic: "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition"
     brazilian: "Plants vs. Zombies™ Garden Warfare 2: Edição Deluxe"
@@ -639509,6 +639513,16 @@
     koreana: 커널 하트
     schinese: 内核之心
     tchinese: 核桃心
+2902720:
+  installDir: SPAM
+  launch:
+    - config:
+        oslist: windows
+      executable: SPAM.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: SPAM.x86_64
 2903160:
   cloud:
     saves:
@@ -657869,6 +657883,13 @@
       type: default
 3932120: {}
 3932790:
+  cloud:
+    saves:
+      - path: /GFD/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: Monday Dreams
   launch:
     - executable: GFD.exe

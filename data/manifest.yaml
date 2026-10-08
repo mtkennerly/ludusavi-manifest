@@ -27256,6 +27256,8 @@ Airborne Motocross:
 Airborne Ranger:
   gog:
     id: 1311823581
+  id:
+    lutris: airborne-ranger
   installDir:
     Airborne Ranger: {}
   launch:
@@ -189209,6 +189211,9 @@ Deer Hunter 2004:
         - config
       when:
         - os: windows
+"Deer Hunter 5: Tracking Trophies":
+  id:
+    lutris: deer-hunter-5-tracking-trophies
 Deer Hunter II:
   installDir:
     deerhunterII: {}
@@ -297206,6 +297211,17 @@ Garfield Lasagna Party:
   id:
     lutris: garfield-caught-in-the-act
 "Garfield: Escape From Monday":
+  files:
+    "<winLocalAppData>/GFD/Saved/Config/Windows/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/GFD/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: garfield-escape-from-monday
   installDir:
@@ -668238,6 +668254,20 @@ Spaghet:
       - 459660
   steam:
     id: 388120
+Spam:
+  installDir:
+    SPAM: {}
+  launch:
+    "<base>/SPAM.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/SPAM.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 2902720
 "Spandex Force: Champion Rising":
   installDir:
     Spandex Force - Champion Rising: {}
@@ -851017,6 +851047,8 @@ Witch Hunt:
         - save
       when:
         - os: windows
+  id:
+    lutris: witch-hunt
   installDir:
     Witch Hunt: {}
   launch:
