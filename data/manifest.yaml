@@ -48880,6 +48880,8 @@ Arma Tactics:
   steam:
     id: 65790
 "Arma: Cold War Assault Remastered":
+  cloud:
+    gog: true
   files:
     "<home>/AppData/Roaming/CWR":
       tags:
@@ -119959,6 +119961,8 @@ Caribbean Legend:
       - 3398030
       - 3549890
       - 3549900
+      - 3549910
+      - 4454410
   installDir:
     Caribbean Legend: {}
   launch:
@@ -119980,6 +119984,8 @@ Caribbean Legend:
   id:
     steamExtra:
       - 4238730
+      - 4631460
+      - 4969720
   installDir:
     Caribbean Legend Age of Pirates: {}
   launch:
@@ -120153,19 +120159,22 @@ Carmageddon TDR 2000:
     gog: true
     steam: true
   files:
-    "<root>/Data_Misc/config":
+    "<base>/Data_Misc/config":
       tags:
         - config
       when:
         - os: windows
-          store: steam
     "<root>/userdata/<storeUserId>/505170/remote":
       tags:
         - config
         - save
       when:
+        - store: steam
+    "<winDocuments>/Carmageddon Max Damage/savegames":
+      tags:
+        - save
+      when:
         - os: windows
-          store: steam
   gog:
     id: 1904451332
   installDir:
@@ -261187,6 +261196,16 @@ Fantasy Kingdom Simulator:
       when:
         - os: windows
           store: steam
+    "<winLocalAppData>/Game/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Game/Saved/ImGui":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     steamExtra:
       - 3464380
@@ -280798,8 +280817,29 @@ Foretales:
   steam:
     id: 1170080
 Forever Ago:
+  files:
+    "<home>/AppData/LocalLow/Third Shift/ForeverAgo":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/57209AnnapurnaInteractive.ForeverAgo_c96c51jf6wkvm/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: forever-ago
+    steamExtra:
+      - 5247710
+  installDir:
+    Forever Ago: {}
+  launch:
+    "<base>/ForeverAgo.exe":
+      - when:
+          - store: steam
   steam:
     id: 1215940
 Forever Home:
@@ -298444,6 +298484,17 @@ Gear.Club Unlimited 2 Ultimate Edition:
   steam:
     id: 1557860
 Gear.Club Unlimited 3:
+  files:
+    "<home>/AppData/LocalLow/Eden Games/Gear.Club Unlimited 3":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Gear.Club Unlimited 3: {}
+  launch:
+    "<base>/EOSBootstrapper.exe":
+      - when:
+          - store: steam
   steam:
     id: 3659460
 GearCity:
@@ -379967,6 +380018,8 @@ Jane Westlake Adventures - The Mystery Train:
   steam:
     id: 1158430
 "Jane's Advanced Strike Fighters":
+  id:
+    lutris: janes-advanced-strike-fighters
   installDir:
     Janes Advanced Strike Fighters: {}
   launch:
@@ -434442,6 +434495,13 @@ Machinarium:
             store: steam
   steam:
     id: 40700
+Machinarium 2:
+  cloud:
+    steam: true
+  gog:
+    id: 1129068180
+  steam:
+    id: 1619280
 "Machinations: Fog of War":
   cloud:
     steam: true
@@ -484657,6 +484717,7 @@ NEO-NOW!:
     id: 503420
 "NEO: The World Ends with You":
   cloud:
+    gog: true
     steam: true
   files:
     "<winDocuments>/My Games/NEO The World Ends with You":
@@ -484671,6 +484732,8 @@ NEO-NOW!:
       when:
         - os: windows
           store: epic
+  gog:
+    id: 2118525628
   installDir:
     NEO The World Ends with You: {}
   launch:
@@ -492473,6 +492536,8 @@ Nerf ArenaBlast:
       when:
         - os: windows
 Nerf Legends:
+  id:
+    lutris: nerf-legends
   installDir:
     Nerf Legends: {}
   launch:
@@ -495568,6 +495633,8 @@ Nick Jr. Party Adventure:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: nick-jr-party-adventure
   installDir:
     Nick Junior Universe: {}
   launch:
@@ -517254,6 +517321,14 @@ Order of the Sinking Star:
     lutris: order-of-the-sinking-star
     steamExtra:
       - 4597250
+  installDir:
+    Order of the Sinking Star: {}
+  launch:
+    "<base>/sinking_star.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 499170
 "Order of the Thorne: The King's Challenge":
@@ -521222,6 +521297,7 @@ Outward:
       - 1181883665
       - 1427038628
       - 1821002034
+    lutris: outward
     steamExtra:
       - 983420
   installDir:
@@ -630862,6 +630938,15 @@ Shadow Runner:
             store: steam
   steam:
     id: 1046110
+"Shadow Sacrament: The Roots of Evil":
+  gog:
+    id: 1976494043
+  id:
+    lutris: shadow-sacrament-the-roots-of-evil
+    steamExtra:
+      - 4398820
+  steam:
+    id: 3002550
 Shadow Sorcerer:
   cloud:
     steam: true
@@ -643102,10 +643187,24 @@ Silver Knight:
 Silver Pines:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Wych Elm/Silver Pines/<storeUserId>":
+      when:
+        - store: steam
   id:
     lutris: silver-pines
     steamExtra:
       - 4540100
+      - 4677930
+      - 5153460
+  installDir:
+    Silver Pines: {}
+  launch:
+    "<base>/Carpenter.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2333000
 Silver Tale:
@@ -788638,7 +788737,7 @@ Total Tank Simulator:
       - when:
           - os: linux
             store: steam
-    "<base>/Attila.app":
+    "<base>/Total War ATTILA.app":
       - when:
           - os: mac
             store: steam
@@ -789078,6 +789177,17 @@ Total Tank Simulator:
       - when:
           - os: linux
             store: steam
+    "<base>/Warhammer2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/twmm/twmm.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+        workingDir: "<base>/twmm"
   steam:
     id: 594570
 "Total War: Warhammer III":

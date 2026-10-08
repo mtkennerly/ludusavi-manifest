@@ -8658,6 +8658,7 @@
       executable: launcher/launcher.exe
       workingdir: launcher
   nameLocalized:
+    koreana: "토탈워: 쇼군 - 컬렉션"
     schinese: 全面战争：幕府将军2
     tchinese: 全面戰爭：幕府將軍2
 34410:
@@ -73021,16 +73022,11 @@
       executable: launcher/launcher.exe
       type: none
     - config:
-        oslist: macos
-      description: Launch
-      executable: Attila.app
-    - config:
         oslist: linux
       description: Launch
       executable: Attila
       type: none
     - config:
-        betakey: "domesticated_qa_a,domesticated_qa_b"
         oslist: macos
       executable: Total War ATTILA.app
   nameLocalized:
@@ -179543,6 +179539,28 @@
       executable: "OperatorOverload.app\\Contents\\MacOS\\OperatorOverload"
       type: default
 499170:
+  cloud:
+    saves:
+      - path: Order of the Sinking Star
+        pattern: "*.history"
+        recursive: true
+        root: WinSavedGames
+      - path: Order of the Sinking Star
+        pattern: "*.sokoban_status"
+        recursive: true
+        root: WinSavedGames
+      - path: Order of the Sinking Star
+        pattern: "*.keymap"
+        recursive: true
+        root: WinSavedGames
+  installDir: Order of the Sinking Star
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX12 version
+      executable: sinking_star.exe
+      type: default
   nameLocalized:
     schinese: 沉星之序
     tchinese: 沉星之序
@@ -231811,6 +231829,17 @@
       description: Warhammer2
       executable: Warhammer2.exe
       type: option2
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: TW Mod Manager (Early Access)
+      executable: twmm/twmm.exe
+      workingdir: twmm
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Play Game (Skip Launcher)
+      executable: Warhammer2.exe
   nameLocalized:
     koreana: "토탈워: 워해머 2"
     schinese: 全面战争：战锤2
@@ -480928,6 +480957,10 @@
         oslist: macos
       executable: A Total War Saga TROY.app
       type: default
+  nameLocalized:
+    koreana: "토탈워 사가: 트로이"
+    schinese: 全面战争传奇：特洛伊
+    tchinese: 全軍破敵傳奇：特洛伊
 1099440:
   cloud:
     saves:
@@ -531180,7 +531213,19 @@
         oslist: windows
       executable: "bin\\win_x64\\GameLauncher.exe"
       type: default
-1215940: {}
+1215940:
+  cloud:
+    saves:
+      - path: "Third Shift/ForeverAgo/{64BitSteamID}/save/"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+      - path: "Third Shift/ForeverAgo/{64BitSteamID}/photos/"
+        pattern: "*.jpg"
+        root: WinAppDataLocalLow
+  installDir: Forever Ago
+  launch:
+    - executable: ForeverAgo.exe
+      type: default
 1215960:
   installDir: P-BOT
   launch:
@@ -532942,8 +532987,7 @@
 1222680:
   installDir: Need for Speed Heat
   launch:
-    - executable: "link2ea://launchgame/1222680?platform=steam&theme=nfsh"
-      type: none
+    - executable: "steam2ea://launchgame/1222680?platform=steam&theme=nfsh"
   nameLocalized:
     brazilian: Need for Speed™ Heat
     french: Need for Speed™ Heat
@@ -537865,8 +537909,7 @@
 1262540:
   installDir: Need for Speed
   launch:
-    - executable: "link2ea://launchgame/1262540?platform=steam&theme=nfs"
-      type: none
+    - executable: "steam2ea://launchgame/1262540?platform=steam&theme=nfs"
   nameLocalized:
     brazilian: "Need for Speed™ "
     french: "Need for Speed™ "
@@ -537879,17 +537922,11 @@
 1262580:
   installDir: Need for Speed Payback
   launch:
-    - executable: "link2ea://launchgame/1262580?platform=steam&theme=nfspb"
-      type: none
-    - config:
-        betakey: eax_test
-      description: New launch method
-      executable: "steam2ea://launchgame/1262580?platform=steam&theme=nfspb"
+    - executable: "steam2ea://launchgame/1262580?platform=steam&theme=nfspb"
 1262600:
   installDir: Need for Speed(TM) Rivals
   launch:
-    - executable: "link2ea://launchgame/1262600?platform=steam&theme=nfsr"
-      type: none
+    - executable: "steam2ea://launchgame/1262600?platform=steam&theme=nfsr"
 1262640:
   installDir: Brittany Home Alone
   launch:
@@ -572336,6 +572373,12 @@
         oslist: windows
       description: Launch
       executable: The Scorchfarer.exe
+1619280:
+  nameLocalized:
+    japanese: Machinarium 2 (マシナリウム2)
+    koreana: Machinarium 2 (머시나리움 2)
+    schinese: 机械迷城2 (Machinarium 2)
+    tchinese: 機械迷城2 (Machinarium 2)
 1619310:
   installDir: SWAT Commander
   launch:
@@ -607928,6 +607971,11 @@
         platforms:
           - Windows
         root: WinAppDataLocalLow
+      - path: Perfect Random/Sulfur/
+        pattern: "*.sss"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
   installDir: SULFUR
   launch:
     - config:
@@ -618776,7 +618824,22 @@
         oslist: windows
       executable: Beyond Shadowgate.exe
       type: default
-2333000: {}
+2333000:
+  cloud:
+    saves:
+      - path: "Wych Elm/Silver Pines/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Silver Pines
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Carpenter.exe
+      type: default
+  nameLocalized:
+    schinese: 银松镇
 2333240:
   cloud:
     saves:
@@ -628694,7 +628757,7 @@
       executable: FlightSimulator2024.exe
       type: default
     - config:
-        betakey: "poitoudonkey, ms_boom_m, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a, beta_test, brumby_beta, bnr_vt, dichotomie_test_01, prezsyl, bnr_vt_bis, hackney_mbf, ms_reno_mbf, ms_reno_mbf_2, \tms_dev_only_reno_mbf, mustang_nd, previous_su_mbf"
+        betakey: "poitoudonkey, ms_boom_m, pottok, quarter, quarter_bis, qa_ms_m, percheron, ms_patch_m, brumby, shire, friesian, mustang, qa_ms_cmp, qa_cert_m, qa_shield_m, ms_redbull_m, spotlight_m, qa_ms_a, beta_test, brumby_beta, bnr_vt, dichotomie_test_01, prezsyl, bnr_vt_bis, hackney_mbf, ms_reno_mbf, ms_reno_mbf_2, \tms_dev_only_reno_mbf, mustang_nd, previous_su_mbf, thoroughbred"
         osarch: "64"
         oslist: windows
       description: Launch MSFS 2024 Dev Build
@@ -638348,7 +638411,12 @@
       executable: Kingdom Rush Alliance.app
   nameLocalized:
     schinese: 王国保卫战 5：联盟
-2849490: {}
+2849490:
+  nameLocalized:
+    japanese: アウトワード Ⅱ：エクスペディション
+    koreana: "아웃워드 2: 익스페디션"
+    schinese: " 物质世界2：远征"
+    tchinese: 物質世界2：遠征
 2849680:
   installDir: Utopia Must Fall
   launch:
@@ -641956,6 +642024,7 @@
     schinese: 浣熊硬探：心跳飚车党
 3001740: {}
 3002520: {}
+3002550: {}
 3002850:
   cloud:
     saves:
@@ -645483,7 +645552,11 @@
         oslist: macos
       executable: CTT.app
       type: default
-3161310: {}
+3161310:
+  nameLocalized:
+    japanese: Hela：ちいさなねずみと魔法の森
+    schinese: Hela：鼠鼠奇旅
+    tchinese: Hela：鼠鼠奇旅
 3164230:
   nameLocalized:
     dutch: THE IRONY
@@ -654825,7 +654898,17 @@
       description: release-stage
       executable: start_offthegrid.exe
       type: default
-3659460: {}
+3659460:
+  cloud:
+    saves:
+      - path: Eden Games/Gear.Club Unlimited 3
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Gear.Club Unlimited 3
+  launch:
+    - executable: EOSBootstrapper.exe
 3660220:
   cloud:
     saves:
@@ -659339,7 +659422,9 @@
   installDir: M.O.L.E
   launch:
     - executable: Windows/MOLE.exe
-4067370: {}
+4067370:
+  nameLocalized:
+    schinese: 迷界：异常货运
 4069520:
   installDir: Super Battle Golf
   launch:

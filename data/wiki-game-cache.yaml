@@ -829,6 +829,7 @@ $1 Ride:
     - 河南1942 The Henan Famine
   steam: 1126280
 "1942: The Pacific Air War":
+  state: outdated
   gog: 1460222301
   lutris: 1942-the-pacific-air-war
   pageId: 34873
@@ -15730,6 +15731,8 @@ Arma Tactics:
     - "{{Game data/saves|Windows|{{p|game}}\\Users\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/vpltd/SavedGames}}"
 "Arma: Cold War Assault Remastered":
+  cloud:
+    gog: true
   gog: 1207658661
   pageId: 218446
   steam: 65790
@@ -31146,6 +31149,8 @@ Blue Snake Adventures:
     steam: true
   pageId: 37870
   steam: 501430
+Blue Takes You to School:
+  pageId: 221360
 Blue Tear:
   pageId: 54411
   steam: 563340
@@ -36889,6 +36894,8 @@ Cabal Online:
   pageId: 219947
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\csc.ini}}"
+"Cabela's Ultimate Deer Hunt":
+  pageId: 221391
 Cabernet:
   cloud:
     epic: true
@@ -38916,6 +38923,8 @@ Caribbean Legend:
     - 3398030
     - 3549890
     - 3549900
+    - 3549910
+    - 4454410
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE}}"
 "Caribbean Legend: Age of Pirates":
@@ -38925,6 +38934,8 @@ Caribbean Legend:
   steam: 3549020
   steamSide:
     - 4238730
+    - 4631460
+    - 4969720
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE\\}}"
 Caribbean Odyssey:
@@ -38975,8 +38986,10 @@ Carmageddon TDR 2000:
   pageId: 52456
   steam: 505170
   templates:
-    - "{{Game data/config|Windows|{{p|steam}}\\Data_Misc\\config|{{p|steam}}\\userdata\\{{p|uid}}\\505170\\remote\\}}"
-    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\505170\\remote\\}}"
+    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\505170\\remote\\}}"
+    - "{{Game data/config|Windows|{{P|game}}\\Data_Misc\\config}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\505170\\remote\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Carmageddon Max Damage\\savegames}}"
 "Carmageddon: Reincarnation":
   cloud:
     steam: true
@@ -41016,6 +41029,7 @@ Centifeed:
   pageId: 120753
   steam: 889450
 Centipede (1998):
+  state: outdated
   pageId: 199331
 "Centipede: Recharged":
   cloud:
@@ -46277,6 +46291,7 @@ Codename Silver:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Codename Panzers - Cold War\\Profiles\\001.profile\\Saved Games}}"
 "Codename: Panzers - Phase One":
+  state: outdated
   gog: 1455704049
   pageId: 34250
   steam: 411310
@@ -46651,6 +46666,7 @@ ColecoVision Flashback:
   pageId: 114246
   steam: 938170
 Colin McRae Rally:
+  state: outdated
   lutris: colin-mcrae-rally-1998
   pageId: 22760
   templates:
@@ -47733,6 +47749,7 @@ Command & Conquer Remastered Collection:
   pageId: 199620
   steam: 3106530
 "Command Adventures: Starship":
+  state: outdated
   cloud:
     steam: true
   pageId: 184714
@@ -64556,6 +64573,7 @@ Die Drei ??? - Geheimnis der Schattenhelden:
 Die Hard:
   pageId: 209842
 "Die Hard 2: Die Harder":
+  state: outdated
   pageId: 209844
 Die Hard Trilogy:
   lutris: die-hard-trilogy
@@ -85054,6 +85072,7 @@ Fantasy Kingdom Simulator:
   steamSide:
     - 3464380
   templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Game\\Saved\\Config\\Windows|{{p|localappdata}}\\Game\\Saved\\ImGui}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\LEVEL5 Inc_\\FANTASY LIFE i\\Users|{{P|steam}}\\userdata\\{{P|uid}}\\2993780}}"
 Fantasy Little Jobs:
   pageId: 144731
@@ -91365,9 +91384,17 @@ Foretales:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Alkemi\\Foretales\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\1170080\\remote\\release_game-state }}"
 Forever Ago:
+  cloud:
+    xbox: true
   lutris: forever-ago
   pageId: 214971
   steam: 1215940
+  steamSide:
+    - 5247710
+  templates:
+    - "{{Game data/config|Microsoft Store|{{p|userprofile\\appdata\\locallow}}\\Third Shift\\ForeverAgo}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\57209AnnapurnaInteractive.ForeverAgo_c96c51jf6wkvm\\SystemAppData\\wgs}}"
+    - "{{Game data/saves|Windows| }}"
 Forever Home:
   cloud:
     steam: true
@@ -95024,6 +95051,7 @@ GRAY TANK:
   pageId: 59607
   steam: 596570
 GRID (2019):
+  state: outdated
   cloud:
     steam: true
   lutris: grid-2019
@@ -97012,6 +97040,8 @@ Gear.Club Unlimited 2 Ultimate Edition:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Eden Games\\GCU2}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Eden Games\\GCU2\\}}"
 Gear.Club Unlimited 3:
+  cloud:
+    xbox: true
   pageId: 219411
   steam: 3659460
 GearCity:
@@ -102943,6 +102973,7 @@ Grim Clicker:
     - "{{Game data/config|Windows|Unknown.}}"
     - "{{Game data/saves|Windows|Unknown.}}"
 Grim Dawn:
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -122000,6 +122031,7 @@ Iron Sea Defenders:
   pageId: 38827
   steam: 431750
 "Iron Sky: Invasion":
+  state: outdated
   cloud:
     gog: true
   gog: 2125520369
@@ -123558,6 +123590,7 @@ Jane Westlake Adventures - The Mystery Train:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\}}"
 "Jane's Advanced Strike Fighters":
+  lutris: janes-advanced-strike-fighters
   pageId: 1711
   steam: 207790
 "Jane's Advanced Tactical Fighters":
@@ -141483,6 +141516,12 @@ Machinarium:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Amanita-Design.Machinarium\\|{{p|appdata}}\\Macromedia\\Flash Player\\#SharedObjects\\{{p|uid}}\\localhost\\{{p|game}}\\machinarium.sol}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|steam}}\\40700\\remote\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.macromedia/Flash_Player/#SharedObjects/{{p|uid}}/#localWithNet/|{{p|game}}/machinarium.sol}}"
+Machinarium 2:
+  cloud:
+    steam: true
+  gog: 1129068180
+  pageId: 221395
+  steam: 1619280
 "Machinations: Fog of War":
   cloud:
     steam: true
@@ -148166,6 +148205,7 @@ Metal Slug 2:
     - "{{Game data/config|Windows|{{p|localappdata}}\\mslug2\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\mslug2\\}}"
 Metal Slug 3:
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -149279,6 +149319,7 @@ Middle Ages Hero (2019):
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/241930/remote/gamedata.sav}}"
     - "{{Game data/saves|GOG.com|{{P|userprofile\\Documents}}\\WB Games\\Shadow of Mordor\\Saves\\GameData.sav}}"
 "Middle-earth: Shadow of War":
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -151597,6 +151638,7 @@ Mmmmm donuts arhhh......:
   pageId: 48585
   steam: 338980
 Mob Enforcer:
+  state: outdated
   pageId: 192222
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\autoexec.cfg|{{p|game}}\\display.cfg|{{p|game}}\\Profiles\\}}"
@@ -155193,6 +155235,8 @@ Mr. Pogo:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Mr_Pogo\\pogoscore.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Mr_Pogo}}"
+Mr. Potato Head Saves Veggie Valley:
+  pageId: 221376
 Mr. Prepper:
   cloud:
     steam: true
@@ -158167,7 +158211,9 @@ NEO-NOW!:
   steam: 503420
 "NEO: The World Ends with You":
   cloud:
+    gog: true
     steam: true
+  gog: 2118525628
   pageId: 167753
   steam: 1647550
   templates:
@@ -159765,6 +159811,7 @@ Need for Speed Rivals:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Ghost Games\\Need for Speed(TM) Rivals\\settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Ghost Games\\Need for Speed(TM) Rivals\\settings\\{{p|uid}}.sav}}"
 Need for Speed Unbound:
+  state: outdated
   cloud:
     origin: true
   pageId: 182372
@@ -160349,6 +160396,8 @@ Neon Abyss:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Veewo\\Neon Abyss\\|{{p|hkcu}}\\Software\\Veewo\\NeonAbyss\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SavesDir\\}}"
 Neon Abyss 2:
+  cloud:
+    xbox: true
   pageId: 202697
   steam: 2235200
 Neon Aileron:
@@ -160816,6 +160865,7 @@ Nerf ArenaBlast:
     - "{{Game data/config|Windows|{{p|game}}\\Nerf.ini|{{p|game}}\\User.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\User.ini}}"
 Nerf Legends:
+  lutris: nerf-legends
   pageId: 173876
   steam: 1279910
 Nerts! Online:
@@ -161816,6 +161866,7 @@ Nick Bounty and the Dame with the Blue Chewed Shoe:
 Nick Jr. Party Adventure:
   cloud:
     steam: true
+  lutris: nick-jr-party-adventure
   pageId: 198357
   steam: 2339320
 Nick Logic for Kids:
@@ -169950,6 +170001,7 @@ Outcast 1.1:
     - "{{Game data/config|Windows|{{p|game}}\\userdata\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\userdata\\savegames}}"
 "Outcast: A New Beginning":
+  state: outdated
   cloud:
     gog: true
     steam: true
@@ -170235,6 +170287,7 @@ Outward:
     - 1181883665
     - 1427038628
     - 1821002034
+  lutris: outward
   pageId: 108860
   steam: 794260
   steamSide:
@@ -206067,6 +206120,13 @@ Shadow Run:
 Shadow Runner:
   pageId: 130088
   steam: 1046110
+"Shadow Sacrament: The Roots of Evil":
+  gog: 1976494043
+  lutris: shadow-sacrament-the-roots-of-evil
+  pageId: 221354
+  steam: 3002550
+  steamSide:
+    - 4398820
 Shadow Sorcerer:
   cloud:
     steam: true
@@ -209985,6 +210045,8 @@ Silver Pines:
   steam: 2333000
   steamSide:
     - 4540100
+    - 4677930
+    - 5153460
 Silver Tale:
   pageId: 68072
   steam: 677220
@@ -221892,6 +221954,8 @@ Star Wars Outlaws:
     - "{{Game data/saves|Steam|{{p|game}}/cloudsaves/{{p|uid}}}}"
 "Star Wars: Knights of the Old Republic – Remake":
   pageId: 171361
+"Star Wars: Millennium Falcon":
+  pageId: 221362
 "Star Wars: Monopoly":
   pageId: 209449
 "Star Wars: Pit Droids":
@@ -253328,6 +253392,8 @@ Tho maz:
   pageId: 218178
 "Thomas & Friends: The Great Festival Adventure":
   pageId: 210429
+"Thomas & Friends: Thomas Saves the Day":
+  pageId: 221381
 "Thomas & Friends: Trouble on the Tracks":
   pageId: 210430
 "Thomas & Friends: Wonders of Sodor":
@@ -256558,14 +256624,31 @@ Tonka Construction:
     - "{{Game data/config|Windows|{{p|windir}}/Tonka.ini}}"
 Tonka Construction 2:
   pageId: 221350
+"Tonka Dig'n Rigs":
+  pageId: 221365
 Tonka Firefighter:
   pageId: 177509
+Tonka Garage:
+  pageId: 221355
 Tonka Monster Trucks:
   pageId: 203557
+Tonka Power Tools:
+  pageId: 221368
+Tonka Raceway:
+  pageId: 221364
 Tonka Search & Rescue:
   pageId: 198238
+Tonka Search & Rescue 2:
+  pageId: 221374
 Tonka Space Station:
   pageId: 199311
+Tonka Town:
+  pageId: 221373
+Tonka WorkShop:
+  pageId: 221358
+"Tonka: On the Job":
+  state: outdated
+  pageId: 221370
 "Tony & Friends in Kellogg's Land":
   pageId: 220383
 "Tony Hawk's American Wasteland":
@@ -257445,6 +257528,7 @@ Total Tank Simulator:
     - 2574940
     - 2951630
 "Total War: Rome II":
+  state: outdated
   cloud:
     steam: true
   gog: 1576420196
@@ -274437,6 +274521,7 @@ Warhammer Survivors:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\save\\|{{p|game}}\\Data\\GD\\adjust.cnf}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\save\\}}"
 "Warhammer: Dark Omen":
+  state: outdated
   cloud:
     gog: true
     steam: true
