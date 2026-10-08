@@ -20266,6 +20266,7 @@ B-17 Flying Fortress World War II Bombers in Action:
   steam: 1752530
 "B-17 Flying Fortress: The Mighty 8th":
   gog: 1207658968
+  lutris: b-17-flying-fortress-the-mighty-8th
   pageId: 8405
   steam: 328900
   templates:
@@ -21027,6 +21028,10 @@ Backyard Basketball:
   lutris: backyard-basketball-01
   pageId: 213275
   steam: 3170580
+Backyard Basketball 2004:
+  pageId: 221344
+Backyard Basketball 2007:
+  pageId: 221346
 Backyard Brawl:
   pageId: 120978
   steam: 954170
@@ -45346,6 +45351,7 @@ Clinically Dead:
   pageId: 206384
   steam: 1551980
   steamSide:
+    - 4664770
     - 5184670
 "Clive Barker's Jericho":
   lutris: clive-barkers-jericho
@@ -55379,7 +55385,7 @@ DEFCON:
   steam: 1520
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
-    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/uk.co.introversion.defcon.prefs}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/uk.co.introversion.defcon.prefs{{note|Legacy (2012) release}}|{{p|osxhome}}/Library/Application Support/uk.co.introversion.defcon/preferences.txt{{note|20th Anniversary release}}}}"
     - "{{Game data/config|Linux|{{p|linuxhome}}/.defcon/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.defcon/}}"
 DEFCON VR:
@@ -117047,6 +117053,9 @@ I commissioned some bees 7:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\ICommissionedSomeBees7}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\ICommissionedSomeBees7\\Progress}}"
+"I don't think the sun is real.":
+  pageId: 221348
+  steam: 4681820
 I face the darkness:
   pageId: 124036
   steam: 993880
@@ -124322,6 +124331,8 @@ Jimmy Neutron vs. Jimmy Negatron:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\JimmyGameX.tsk}}"
+"Jimmy White's 'Whirlwind' Snooker":
+  pageId: 221352
 Jimmy and the Pulsating Mass:
   pageId: 70257
   steam: 706560
@@ -215438,9 +215449,9 @@ Sonic Robo Blast 2 Kart:
   pageId: 171307
   templates:
     - "{{Game data/config|Windows|{{p|game}}/kartconfig.cfg}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.srb2kart/}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.srb2kart/kartconfig.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}/kartdata.dat}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb2kart/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb2kart/kartdata.dat}}"
 Sonic Rumble Party:
   lutris: sonic-rumble
   pageId: 200761
@@ -256544,7 +256555,9 @@ Tonight We Riot:
 Tonka Construction:
   pageId: 177121
   templates:
-    - "{{Game data/config|Windows|{{folder|{{p|windir}}}}/Tonka.ini}}"
+    - "{{Game data/config|Windows|{{p|windir}}/Tonka.ini}}"
+Tonka Construction 2:
+  pageId: 221350
 Tonka Firefighter:
   pageId: 177509
 Tonka Monster Trucks:
@@ -270598,7 +270611,9 @@ Virtua Fighter 5 R.E.V.O. World Stage:
   steam: 3112260
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\SEGA\\VFREVO\\Steam}}"
+    - "{{Game data/config|Microsoft Store|{{p|appdata}}\\SEGA\\VFREVO\\MicrosoftStore\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\SEGA\\VFREVO\\Steam\\{{p|uid}}\\system}}"
+    - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\SEGAofAmericaInc.a9115ca5cs_s751p9cej88mt\\SystemAppData\\wgs\\}}"
 Virtua Fighter PC:
   lutris: virtua-fighter-pc
   pageId: 20984

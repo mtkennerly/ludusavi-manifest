@@ -62898,6 +62898,8 @@ B-17 Flying Fortress World War II Bombers in Action:
         - os: windows
   gog:
     id: 1207658968
+  id:
+    lutris: b-17-flying-fortress-the-mighty-8th
   installDir:
     B-17 Flying Fortress: {}
   launch:
@@ -140393,10 +140395,17 @@ Clinically Dead:
 "Clive Barker's Hellraiser: Revival":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Hellraiser/Saved":
+      when:
+        - store: steam
   id:
     lutris: clive-barkers-hellraiser-revival
     steamExtra:
+      - 4664770
       - 5184670
+  installDir:
+    "Clive Barker's Hellraiser - Revival": {}
   steam:
     id: 1551980
 "Clive Barker's Jericho":
@@ -171255,6 +171264,11 @@ DEFCON:
         - save
       when:
         - os: linux
+    "<home>/Library/Application Support/uk.co.introversion.defcon/preferences.txt":
+      tags:
+        - config
+      when:
+        - os: mac
     "<home>/Library/Preferences/uk.co.introversion.defcon.prefs":
       tags:
         - config
@@ -359607,6 +359621,9 @@ I commissioned some bees 7:
             store: steam
   steam:
     id: 2146600
+"I don't think the sun is real.":
+  steam:
+    id: 4681820
 I face the darkness:
   steam:
     id: 993880
@@ -660306,9 +660323,13 @@ Sonic Robo Blast 2 Kart:
         - save
       when:
         - os: windows
-    "<home>/.srb2kart":
+    "<home>/.srb2kart/kartconfig.cfg":
       tags:
         - config
+      when:
+        - os: linux
+    "<home>/.srb2kart/kartdata.dat":
+      tags:
         - save
       when:
         - os: linux
@@ -786214,6 +786235,13 @@ Tonight We Riot:
         - save
   steam:
     id: 290690
+Tonka Construction:
+  files:
+    "<winDir>/Tonka.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 "Tony Hawk's American Wasteland":
   files:
     "<base>/Game/Save":
@@ -826037,6 +826065,12 @@ Virtua Fighter 5 R.E.V.O. World Stage:
   cloud:
     steam: true
   files:
+    "<winAppData>/SEGA/VFREVO/MicrosoftStore":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winAppData>/SEGA/VFREVO/Steam":
       tags:
         - config
@@ -826047,6 +826081,12 @@ Virtua Fighter 5 R.E.V.O. World Stage:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/SEGAofAmericaInc.a9115ca5cs_s751p9cej88mt/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: virtua-fighter-5-revo
   installDir:

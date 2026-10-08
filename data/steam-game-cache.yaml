@@ -566636,7 +566636,47 @@
     japanese: Samurai Vandalism サムライヴァンダリズム
     schinese: 叛道武士
     tchinese: 叛道武士
-1551980: {}
+1551980:
+  cloud:
+    saves:
+      - path: Hellraiser/Saved/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: "Clive Barker's Hellraiser - Revival"
+  launch:
+    - config:
+        oslist: windows
+      description: "Clive Barker's Hellraiser: Revival (Dev)"
+      executable: Hellraiser.exe
+      type: option1
+    - config:
+        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing"
+        oslist: windows
+      description: "Clive Barker's Hellraiser: Revival (Test)"
+      executable: "Hellraiser\\Binaries\\Win64\\Hellraiser-Win64-Test.exe"
+      type: option2
+    - arguments: "-NoVerifyGC -trace=cpu,gpu,frames,log,bookmarks -tracehost=10.105.47.22"
+      config:
+        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing"
+        oslist: windows
+      description: Performance Test
+      executable: Hellraiser.exe
+      type: option3
+    - arguments: "--PsoRunDev"
+      config:
+        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing"
+        oslist: windows
+      description: And Collect PSO (Dev)
+      executable: RunGameAndCollectPSO.bat
+      type: option3
+    - arguments: "--PsoRunTest"
+      config:
+        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing"
+        oslist: windows
+      description: And Collect PSO (Test)
+      executable: RunGameAndCollectPSO.bat
+      type: option3
 1552080:
   cloud:
     saves:
@@ -661971,6 +662011,7 @@
         oslist: windows
       executable: "WindowsNoEditor\\TrainSimWorld.exe"
       type: default
+4681820: {}
 4683260: {}
 4686060: {}
 4687500:
