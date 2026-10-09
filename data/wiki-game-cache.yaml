@@ -55939,6 +55939,10 @@ Dairy Farm Simulator:
 Dairy Princess:
   pageId: 152825
   steam: 1168430
+"Daisy's Garden":
+  pageId: 221404
+"Daisy's Garden 2":
+  pageId: 221407
 Daka Dara:
   pageId: 130185
   steam: 1040480
@@ -108796,11 +108800,13 @@ Hektor:
   steamSide:
     - 355590
 "Hela: Of Mice & Magic":
-  lutris: hela-of-mice-and-magic
+  cloud:
+    steam: true
+    xbox: true
+  malformed: true
   pageId: 214162
   renamedFrom:
     - Hela
-  steam: 3161310
 Heldric - The legend of the shoemaker:
   pageId: 50420
   steam: 293420
@@ -109040,8 +109046,10 @@ Hell is Others:
 Hell is Us:
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
+  gog: 1774500758
   lutris: hell-is-us
   pageId: 201505
   steam: 1620730
@@ -156133,6 +156141,17 @@ Mutazione:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Die Gute Fabrik\\Mutazione\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Die Gute Fabrik\\Mutazione\\UserDataV0.dat}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1080750\\remote\\UserDataV0.dat}}"
+Mute Crimson DX:
+  cloud:
+    steam: true
+  lutris: mute-crimson-dx
+  pageId: 221415
+  steam: 2830430
+  steamSide:
+    - 2830790
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\SavedGames\\MuteCrimsonDX\\SaveData\\AllPlayers}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\SavedGames\\MuteCrimsonDX\\SaveData\\AllPlayers}}"
 Mute Crimson+:
   cloud:
     steam: true
@@ -165925,6 +165944,11 @@ Odd Remedy:
   templates:
     - "{{Game data/config| Windows | {{p|userprofile\\appdata\\locallow}}\\Oddscure\\OddRemedy\\saves}}"
     - "{{Game data/saves| Windows | {{p|userprofile\\appdata\\locallow}}\\Oddscure\\OddRemedy\\saves}}"
+Odd Town:
+  gog: 1983259736
+  lutris: odd-town--1
+  pageId: 221417
+  steam: 2688780
 OddBallers:
   pageId: 139752
   steam: 1064070
@@ -209819,7 +209843,13 @@ Silent Hill f:
   pageId: 195781
 "Silent Hill: Townfall":
   cloud:
+    gog: true
     steam: true
+  gog: 1777950599
+  gogSide:
+    - 1613417652
+    - 1792007056
+    - 1834248788
   lutris: silent-hill-townfall
   pageId: 213717
   steam: 1636440

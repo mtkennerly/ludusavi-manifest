@@ -10,6 +10,7 @@
 * [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
+* [Hela: Of Mice & Magic](https://www.pcgamingwiki.com/wiki/?curid=214162)
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [JetFly](https://www.pcgamingwiki.com/wiki/?curid=68430)

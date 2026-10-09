@@ -118814,6 +118814,27 @@ Car Mechanic Simulator VR:
 Car Park Capital:
   cloud:
     steam: true
+  files:
+    "<base>/saves/**/*.cpcp":
+      when:
+        - store: steam
+    "<base>/saves/*.json":
+      when:
+        - store: steam
+    "<base>/saves/blueprints/**/*.cpbp":
+      when:
+        - store: steam
+    "<base>/saves/scenarios/**/*.cpcs":
+      when:
+        - store: steam
+  installDir:
+    Car Park Capital: {}
+  launch:
+    "<base>/carparkcapital.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3031880
 Car Puzzler:
@@ -334175,13 +334196,6 @@ Hektor:
             store: steam
   steam:
     id: 334070
-Hela:
-  alias: "Hela: Of Mice & Magic"
-"Hela: Of Mice & Magic":
-  id:
-    lutris: hela-of-mice-and-magic
-  steam:
-    id: 3161310
 Heldric - The legend of the shoemaker:
   installDir:
     Heldric: {}
@@ -334910,6 +334924,7 @@ Hell is Others:
 Hell is Us:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/HellIsUs/Saved/Config/Windows/GameUserSettings.ini":
@@ -334922,6 +334937,8 @@ Hell is Us:
         - save
       when:
         - os: windows
+  gog:
+    id: 1774500758
   id:
     lutris: hell-is-us
   installDir:
@@ -478398,6 +478415,35 @@ Mutazione:
         - config
   steam:
     id: 1080750
+Mute Crimson DX:
+  cloud:
+    steam: true
+  files:
+    "<winDocuments>/SavedGames/MuteCrimsonDX/SaveData/AllPlayers":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: mute-crimson-dx
+    steamExtra:
+      - 2830790
+  installDir:
+    MuteCrimsonDX: {}
+  launch:
+    "<base>/MuteCrimsonDX":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/MuteCrimsonDX.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2830430
 Mute Crimson+:
   cloud:
     steam: true
@@ -507781,6 +507827,13 @@ Odd Remedy:
             store: steam
   steam:
     id: 1745680
+Odd Town:
+  gog:
+    id: 1983259736
+  id:
+    lutris: odd-town--1
+  steam:
+    id: 2688780
 OddBallers:
   installDir:
     OddBallers: {}
@@ -519734,19 +519787,7 @@ Out of Sight:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/OutOfSight/Saved/*.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/OutOfSight/Saved/1/**/*.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/OutOfSight/Saved/2/**/*.sav":
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/OutOfSight/Saved/3/**/*.sav":
+    "<winLocalAppData>/OutOfSight/Saved/**/*.sav":
       when:
         - os: windows
           store: steam
@@ -519759,7 +519800,7 @@ Out of Sight:
     steamExtra:
       - 4054300
   installDir:
-    OutOfSight: {}
+    Out of Sight: {}
   launch:
     "<base>/OutOfSight.exe":
       - when:
@@ -629412,6 +629453,16 @@ Servo:
   steam:
     id: 305510
 "Sesame Street: Friends & Fun":
+  files:
+    "<home>/AppData/LocalLow/InfinigonGames/Sesame_Street_Friends_Fun":
+      when:
+        - store: steam
+  installDir:
+    Sesame Street Friends & Fun: {}
+  launch:
+    "<base>/Sesame_Street_Friends_Fun.exe":
+      - when:
+          - store: steam
   steam:
     id: 3930330
 Session:
@@ -642484,6 +642535,7 @@ Silent Hill f:
     id: 19000
 "Silent Hill: Townfall":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/Local/Townfall/Saved/Config/Windows":
@@ -642496,7 +642548,13 @@ Silent Hill f:
         - save
       when:
         - os: windows
+  gog:
+    id: 1777950599
   id:
+    gogExtra:
+      - 1613417652
+      - 1792007056
+      - 1834248788
     lutris: silent-hill-townfall
   installDir:
     Townfall: {}

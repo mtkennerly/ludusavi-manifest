@@ -628190,23 +628190,6 @@
         pattern: "*.sav"
         platforms:
           - Windows
-        root: WinAppDataLocal
-      - path: OutOfSight/Saved/1
-        pattern: "*.sav"
-        platforms:
-          - Windows
-        recursive: true
-        root: WinAppDataLocal
-      - path: OutOfSight/Saved/2
-        pattern: "*.sav"
-        platforms:
-          - Windows
-        recursive: true
-        root: WinAppDataLocal
-      - path: OutOfSight/Saved/3
-        pattern: "*.sav"
-        platforms:
-          - Windows
         recursive: true
         root: WinAppDataLocal
       - path: OutOfSight/Saved/Config/Windows
@@ -628214,7 +628197,7 @@
         platforms:
           - Windows
         root: WinAppDataLocal
-  installDir: OutOfSight
+  installDir: Out of Sight
   launch:
     - executable: OutOfSight.exe
   nameLocalized:
@@ -633540,6 +633523,7 @@
       description: "TRIBES 3: Rivals - Public Test Server"
       executable: TribesRivals.exe
       type: option2
+2688780: {}
 2688950:
   cloud:
     saves:
@@ -638044,6 +638028,38 @@
   installDir: Super Mining Mechs
   launch:
     - executable: Super Mining Mechs.exe
+2830430:
+  cloud:
+    saves:
+      - path: SavedGames/MuteCrimsonDX/SaveData/AllPlayers
+        pattern: save0.bin
+        root: WinMyDocuments
+      - path: IcedLizardGames/MuteCrimsonDX
+        pattern: mcdxsave.bin
+        root: WinAppDataRoaming
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: SavedGames/MuteCrimsonDX/SaveData/AllPlayers
+            replace: MuteCrimsonDX/SaveData/AllPlayers/
+        root: WinMyDocuments
+        useInstead: LinuxXdgDataHome
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: MuteCrimsonDX
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: MuteCrimsonDX.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: MuteCrimsonDX
 2833580:
   cloud:
     saves:
@@ -642952,7 +642968,43 @@
         oslist: macos
       executable: fate.app/Contents/MacOS/FATE Reawakened
       type: default
-3031880: {}
+3031880:
+  cloud:
+    saves:
+      - path: saves
+        pattern: "*.cpcp"
+        recursive: true
+        root: gameinstall
+      - path: saves/scenarios
+        pattern: "*.cpcs"
+        recursive: true
+        root: gameinstall
+      - path: saves/blueprints
+        pattern: "*.cpbp"
+        recursive: true
+        root: gameinstall
+      - path: saves
+        pattern: "*.json"
+        root: gameinstall
+  installDir: Car Park Capital
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: carparkcapital.exe
+      type: default
+    - arguments: "--glx"
+      config:
+        oslist: linux
+      description: GLX version
+      executable: carparkcapital
+      type: option1
+    - arguments: "--egl"
+      config:
+        oslist: linux
+      description: EGL version
+      executable: carparkcapital
+      type: option2
 3031890: {}
 3032830:
   cloud:
@@ -657979,6 +658031,18 @@
     - executable: Wavekin.exe
       type: default
 3930330:
+  cloud:
+    saves:
+      - path: InfinigonGames/Sesame_Street_Friends_Fun
+        pattern: "*"
+        root: WinAppDataLocalLow
+  installDir: Sesame Street Friends & Fun
+  launch:
+    - executable: Sesame_Street_Friends_Fun.exe
+    - config:
+        betakey: mktbuildbranch
+      description: Marketing build launch
+      executable: Sesame_Street.exe
   nameLocalized:
     brazilian: "Sesame Street: Amigos e Diversão"
     danish: "Sesame Street: Venner og sjov"
