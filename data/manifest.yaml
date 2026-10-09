@@ -113628,6 +113628,8 @@ Cabal Online:
         - config
       when:
         - os: windows
+  id:
+    lutris: cabelas-dangerous-hunts-2013-demo
   installDir:
     "Cabela's Dangerous Hunts": {}
   launch:
@@ -140405,9 +140407,16 @@ Clinically Dead:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Hellraiser/Saved":
+    "<winLocalAppData>/Hellraiser/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Local/Hellraiser/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: clive-barkers-hellraiser-revival
     steamExtra:
@@ -152704,6 +152713,8 @@ Cook Serve Forever:
   steam:
     id: 1000030
 "Cook, Serve, Delicious: Re-Mustard!":
+  cloud:
+    steam: true
   steam:
     id: 2139040
 Cook-Out:
@@ -171342,6 +171353,32 @@ DEFCON VR:
             store: steam
   steam:
     id: 1091320
+DERELIKT:
+  files:
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/*.drt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/data.ctg":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/settings.stg":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5242870
+  registry:
+    HKEY_CURRENT_USER/Software/Visuwyg/DERELIKT:
+      tags:
+        - config
+  steam:
+    id: 3810510
 DERU - The Art of Cooperation:
   cloud:
     steam: true
@@ -585822,10 +585859,22 @@ Relicta:
   steam:
     id: 941570
 Relief:
+  files:
+    "<home>/AppData/LocalLow/DefaultCompany/Relief/playerData.json":
+      when:
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 4110890
       - 4402910
+  installDir:
+    cardgame: {}
+  launch:
+    "<base>/Relief.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3929330
 Reliefs:
@@ -623256,6 +623305,11 @@ Scritchy Scratchy:
         - save
       when:
         - os: mac
+    "<home>/Library/Preferences/com.DefaultCompany.2D-URP.plist":
+      tags:
+        - config
+      when:
+        - os: mac
   id:
     lutris: scritchy-scratchy
     steamExtra:
@@ -627651,6 +627705,17 @@ Sensual VR:
   steam:
     id: 756520
 Sente:
+  installDir:
+    Sente: {}
+  launch:
+    "<base>/Sente.app/Contents/MacOS/Sente":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Sente.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1005180
 Sentenced:
@@ -669397,6 +669462,22 @@ Spectacular Sparky:
 "Spectacular Team: Assemble":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/SengiGames/SpectacularTeamAssemble/SavableData/**/*.sta":
+      when:
+        - store: steam
+  installDir:
+    Spectacular Team Assemble: {}
+  launch:
+    "<base>/SpectacularTeam.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/SpectacularTeamAssemble.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3203170
 Spectating Simulator The Racing:

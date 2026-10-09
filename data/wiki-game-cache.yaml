@@ -829,7 +829,6 @@ $1 Ride:
     - 河南1942 The Henan Famine
   steam: 1126280
 "1942: The Pacific Air War":
-  state: outdated
   gog: 1460222301
   lutris: 1942-the-pacific-air-war
   pageId: 34873
@@ -36856,6 +36855,7 @@ Cabal Online:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Cfg\\console.cfg}}"
     - "{{Game data/saves|Windows|{{p|ProgramData}}\\DNGH2 Saves\\}}"
 "Cabela's Dangerous Hunts 2013":
+  lutris: cabelas-dangerous-hunts-2013-demo
   pageId: 40707
   steam: 218860
   templates:
@@ -36896,6 +36896,8 @@ Cabal Online:
     - "{{Game data/config|Windows|{{p|game}}\\csc.ini}}"
 "Cabela's Ultimate Deer Hunt":
   pageId: 221391
+"Cabela's Ultimate Deer Hunt 2":
+  pageId: 221397
 Cabernet:
   cloud:
     epic: true
@@ -41029,7 +41031,6 @@ Centifeed:
   pageId: 120753
   steam: 889450
 Centipede (1998):
-  state: outdated
   pageId: 199331
 "Centipede: Recharged":
   cloud:
@@ -45367,6 +45368,9 @@ Clinically Dead:
   steamSide:
     - 4664770
     - 5184670
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Local\\Hellraiser\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Hellraiser\\Saved\\SaveGames\\}}"
 "Clive Barker's Jericho":
   lutris: clive-barkers-jericho
   pageId: 7720
@@ -46291,7 +46295,6 @@ Codename Silver:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Codename Panzers - Cold War\\Profiles\\001.profile\\Saved Games}}"
 "Codename: Panzers - Phase One":
-  state: outdated
   gog: 1455704049
   pageId: 34250
   steam: 411310
@@ -46666,7 +46669,6 @@ ColecoVision Flashback:
   pageId: 114246
   steam: 938170
 Colin McRae Rally:
-  state: outdated
   lutris: colin-mcrae-rally-1998
   pageId: 22760
   templates:
@@ -47749,7 +47751,6 @@ Command & Conquer Remastered Collection:
   pageId: 199620
   steam: 3106530
 "Command Adventures: Starship":
-  state: outdated
   cloud:
     steam: true
   pageId: 184714
@@ -49262,6 +49263,8 @@ Cook Serve Forever:
     - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\1000030\\remote\\1S_CSD3_CloudSave.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\CSD3_Foodtruck\\}}"
 "Cook, Serve, Delicious: Re-Mustard!":
+  cloud:
+    steam: true
   pageId: 188858
   steam: 2139040
 Cook-Out:
@@ -55418,6 +55421,14 @@ DEFCON VR:
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\6 Faces Team\\DEPO\\DEPO_saved*}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1091320}}"
+DERELIKT:
+  pageId: 221403
+  steam: 3810510
+  steamSide:
+    - 5242870
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\settings.stg<ref>Plain-text JSON holding options (volume, sensitivity, invert axes, vibration, control overrides, display toggles, locale). In the demo the subfolder is named <code>Debug</code>; the <code>*</code> wildcard covers a different subfolder name in the full release.</ref>|{{P|hkcu}}\\Software\\Visuwyg\\DERELIKT<ref>Unity PlayerPrefs (window/resolution settings).</ref>}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\*.drt<ref>Each save slot is a JSON <code>save_&lt;card&gt;_&lt;slot&gt;.drt</code> file. In the demo the subfolder is named <code>Debug</code>.</ref>|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\data.ctg<ref>Save catalog (slot index, location, save time, play time, last-used slot); needed for the save slots to appear in the load menu.</ref>}}"
 DERU - The Art of Cooperation:
   cloud:
     steam: true
@@ -64573,7 +64584,6 @@ Die Drei ??? - Geheimnis der Schattenhelden:
 Die Hard:
   pageId: 209842
 "Die Hard 2: Die Harder":
-  state: outdated
   pageId: 209844
 Die Hard Trilogy:
   lutris: die-hard-trilogy
@@ -95051,7 +95061,6 @@ GRAY TANK:
   pageId: 59607
   steam: 596570
 GRID (2019):
-  state: outdated
   cloud:
     steam: true
   lutris: grid-2019
@@ -102973,7 +102982,6 @@ Grim Clicker:
     - "{{Game data/config|Windows|Unknown.}}"
     - "{{Game data/saves|Windows|Unknown.}}"
 Grim Dawn:
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -122031,7 +122039,6 @@ Iron Sea Defenders:
   pageId: 38827
   steam: 431750
 "Iron Sky: Invasion":
-  state: outdated
   cloud:
     gog: true
   gog: 2125520369
@@ -128709,6 +128716,7 @@ Kingdom Elemental:
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   cloud:
     steam: true
+    xbox: true
   pageId: 166570
   steam: 2552430
   templates:
@@ -128719,6 +128727,7 @@ Kingdom Hearts HD 1.5 + 2.5 ReMIX:
 Kingdom Hearts HD 2.8 Final Chapter Prologue:
   cloud:
     steam: true
+    xbox: true
   pageId: 166573
   steam: 2552440
   templates:
@@ -148205,7 +148214,6 @@ Metal Slug 2:
     - "{{Game data/config|Windows|{{p|localappdata}}\\mslug2\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\mslug2\\}}"
 Metal Slug 3:
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -149319,7 +149327,6 @@ Middle Ages Hero (2019):
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/241930/remote/gamedata.sav}}"
     - "{{Game data/saves|GOG.com|{{P|userprofile\\Documents}}\\WB Games\\Shadow of Mordor\\Saves\\GameData.sav}}"
 "Middle-earth: Shadow of War":
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -151638,7 +151645,6 @@ Mmmmm donuts arhhh......:
   pageId: 48585
   steam: 338980
 Mob Enforcer:
-  state: outdated
   pageId: 192222
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\autoexec.cfg|{{p|game}}\\display.cfg|{{p|game}}\\Profiles\\}}"
@@ -159811,7 +159817,6 @@ Need for Speed Rivals:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Ghost Games\\Need for Speed(TM) Rivals\\settings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Ghost Games\\Need for Speed(TM) Rivals\\settings\\{{p|uid}}.sav}}"
 Need for Speed Unbound:
-  state: outdated
   cloud:
     origin: true
   pageId: 182372
@@ -170001,7 +170006,6 @@ Outcast 1.1:
     - "{{Game data/config|Windows|{{p|game}}\\userdata\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\userdata\\savegames}}"
 "Outcast: A New Beginning":
-  state: outdated
   cloud:
     gog: true
     steam: true
@@ -203660,6 +203664,7 @@ Scritchy Scratchy:
     - 4428640
     - 4517590
   templates:
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/com.DefaultCompany.2D-URP.plist<ref>{{Refcheck|user=Ngyikp|date=2026-07-02|comment=The CFBundleIdentifier for this game is generically named {{code|com.DefaultCompany.2D-URP}} shared with other games. Confirmed that changing game settings will modify this file.}}</ref>}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Lunch Money Games\\Scritchy Scratchy\\*.json}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Lunch Money Games/Scritchy Scratchy/*.json}}"
 Scroll2Read:
@@ -256647,7 +256652,6 @@ Tonka Town:
 Tonka WorkShop:
   pageId: 221358
 "Tonka: On the Job":
-  state: outdated
   pageId: 221370
 "Tony & Friends in Kellogg's Land":
   pageId: 220383
@@ -257528,7 +257532,6 @@ Total Tank Simulator:
     - 2574940
     - 2951630
 "Total War: Rome II":
-  state: outdated
   cloud:
     steam: true
   gog: 1576420196
@@ -274521,7 +274524,6 @@ Warhammer Survivors:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\save\\|{{p|game}}\\Data\\GD\\adjust.cnf}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\save\\}}"
 "Warhammer: Dark Omen":
-  state: outdated
   cloud:
     gog: true
     steam: true

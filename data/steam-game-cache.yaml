@@ -436574,7 +436574,17 @@
         oslist: macos
       executable: Delicious17.app/Contents/MacOS/Delicious17
       type: none
-1005180: {}
+1005180:
+  installDir: Sente
+  launch:
+    - config:
+        oslist: windows
+      executable: Sente.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Sente.app/Contents/MacOS/Sente
+      type: default
 1005240:
   cloud:
     saves:
@@ -520099,14 +520109,8 @@
     - description: "SCP: Fragmented Minds"
       executable: SCPFragmentedMinds.exe
       type: option1
-    - config:
-        betakey: developer
-      description: Chapter 1
-      executable: SCPFragmentedMinds.exe
-      type: option1
-    - config:
-        betakey: playtesting
-      description: Playtesting
+    - arguments: "-skipcompile"
+      description: "SCP: Fragmented Minds (skip shader compilation)"
       executable: SCPFragmentedMinds.exe
       type: option1
 1184810:
@@ -589328,7 +589332,11 @@
 1846380:
   installDir: Excalibur
   launch:
-    - executable: "link2ea://launchgame/1846380?platform=steam&theme=excalibur"
+    - executable: "steam2ea://launchgame/1846380?platform=steam&theme=excalibur"
+    - config:
+        betakey: eax_test
+      description: Legacy launch method
+      executable: "link2ea://launchgame/1846380?platform=steam&theme=excalibur"
   nameLocalized:
     schinese: 《极品飞车™：不羁》
     tchinese: 《極速快感™：桀驁不馴》
@@ -646505,7 +646513,24 @@
     - config:
         oslist: windows
       executable: Bad Dream Afterlife.exe
-3203170: {}
+3203170:
+  cloud:
+    saves:
+      - path: "SengiGames\\SpectacularTeamAssemble\\SavableData"
+        pattern: "*.sta"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Spectacular Team Assemble
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: SpectacularTeamAssemble.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: SpectacularTeam.x86_64
+      type: default
 3204020:
   cloud:
     saves:
@@ -655017,6 +655042,12 @@
       executable: development/Game_x64_dev.exe
     - executable: CONTROLResonant.exe
     - config:
+        betakey: latestlive_development
+      executable: development/Game_x64_dev.exe
+    - config:
+        betakey: latestlive_shipping
+      executable: CONTROLResonant.exe
+    - config:
         betakey: main_development
       executable: development/Game_x64_dev.exe
     - config:
@@ -655024,7 +655055,7 @@
       executable: development/Game_x64_dev.exe
     - config:
         betakey: test
-      executable: development/Game_x64_dev.exe
+      executable: CONTROLResonant.exe
     - config:
         betakey: release_profile
       executable: profile/Game_x64_prof.exe
@@ -656692,6 +656723,7 @@
         oslist: windows
       description: "Habbo Hotel: Origins [Spanish - XL Client]"
       executable: HabboHotel-oes-xl.exe
+3810510: {}
 3812600:
   cloud:
     saves:
@@ -657897,6 +657929,19 @@
       executable: Fish Fish Fish.exe
       type: default
 3929330:
+  cloud:
+    saves:
+      - path: DefaultCompany/Relief
+        pattern: playerData.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: cardgame
+  launch:
+    - config:
+        oslist: windows
+      executable: Relief.exe
+      type: default
   nameLocalized:
     japanese: 西遊怪談録
     schinese: 释厄传
