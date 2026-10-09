@@ -17791,6 +17791,12 @@ Ace Attorney Investigations Collection:
         - config
       when:
         - os: windows
+    "<root>/userdata/<storeUserId>/2288340/remote/aczero/save":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   steam:
     id: 3635880
 "Ace Combat: Assault Horizon - Enhanced Edition":
@@ -86710,6 +86716,13 @@ Black Jewel:
             store: steam
   steam:
     id: 761320
+Black Lake:
+  cloud:
+    steam: true
+  id:
+    lutris: black-lake--1
+  steam:
+    id: 4928600
 Black Legend:
   cloud:
     gog: true
@@ -305014,6 +305027,17 @@ GlassSmash:
             store: steam
   steam:
     id: 1052220
+Glasshouse:
+  cloud:
+    steam: true
+  gog:
+    id: 1272415500
+  id:
+    lutris: glasshouse
+    steamExtra:
+      - 2818570
+  steam:
+    id: 2244700
 Glassteroids:
   installDir:
     Glassteroids: {}
@@ -533502,6 +533526,12 @@ Peninsular War Battles:
   steam:
     id: 675950
 Penis Bird:
+  installDir:
+    Penis Bird: {}
+  launch:
+    "<base>/Penis_Bird.exe":
+      - when:
+          - store: steam
   steam:
     id: 5102980
 Penko Park:
@@ -554727,15 +554757,11 @@ Primal Planet:
     gog: true
     steam: true
   files:
-    "<home>/Godot/app_userdata/Primal Planet/*.save":
+    "<winAppData>/Godot/app_userdata/Primal Planet":
+      tags:
+        - save
       when:
-        - os: mac
-          store: steam
-        - os: linux
-          store: steam
-    "<winAppData>/Godot/app_userdata/Primal Planet/**/*.save":
-      when:
-        - store: steam
+        - os: windows
   gog:
     id: 1750052635
   id:
@@ -708024,6 +708050,15 @@ Sven Co-op:
         - config
       when:
         - os: windows
+"Sven: Completely Screwed":
+  installDir:
+    Sven Completely Screwed: {}
+  launch:
+    "<base>/SvenCompletelyScrewed.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2213500
 Svoboda:
   steam:
     id: 848640
@@ -729727,6 +729762,12 @@ The Ballad Singer:
   steam:
     id: 907380
 "The Ballad Singer: Knights Templar":
+  installDir:
+    The Ballad Singer Knights Templar: {}
+  launch:
+    "<base>/KnightsTemplar.exe":
+      - when:
+          - store: steam
   steam:
     id: 1820400
 "The Ballads of Reemus: When the Bed Bites":
@@ -787406,6 +787447,14 @@ Torch of Shadows:
     "<winLocalAppData>/Torch_of_Shadows/*.sav":
       when:
         - store: steam
+    "<xdgConfig>/Torch_of_Shadows/*.ini":
+      when:
+        - os: linux
+          store: steam
+    "<xdgConfig>/Torch_of_Shadows/*.sav":
+      when:
+        - os: linux
+          store: steam
   installDir:
     TorchOfShadows: {}
   launch:
@@ -802080,6 +802129,25 @@ Trucker 2:
 Truckful:
   cloud:
     steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Truckful: {}
+  launch:
+    "<base>/Truckful.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Truckful.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Truckful.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3090810
 Trucking:

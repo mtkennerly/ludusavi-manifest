@@ -502006,7 +502006,7 @@
         useInstead: MacAppSupport
   installDir: Hades II
   launch:
-    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRate=100
+    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.0 /AllowManualBugReports=false
       config:
         betakey: nightly
         osarch: "64"
@@ -502045,7 +502045,14 @@
       description: Preview Default
       executable: "./Hades II.app"
       type: default
-    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.75 /SaveCollectionDeathInterval=10 /strictpackagechecks=true /ProgressionVersion=4 /IncludeInputStateWithBugReport /AllowManualBugReports
+    - arguments: /steampowered /DirectLoadShell=true /DebugMessages=false /DebugKeysEnabled=false /ShowFPS=false /PerfDashWarnings=false /VerboseScriptLogging=false /UnsafeDebugKeysEnabled=false /UseDevSaves=false /UseInternalBugReporter=false /LiveCreateTextures=false
+      config:
+        betakey: macos
+        oslist: macos
+      description: "macOS Overlay Test Build "
+      executable: "./Hades II.app"
+      type: default
+    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.0 /SaveCollectionDeathInterval=10 /strictpackagechecks=true /ProgressionVersion=4 /IncludeInputStateWithBugReport /AllowManualBugReports=false
       config:
         betakey: public
         osarch: "64"
@@ -502075,7 +502082,7 @@
         oslist: macos
       executable: "./Hades II.app"
       type: default
-    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false /strictpackagechecks=true /ProgressionVersion=4
+    - arguments: /c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false /strictpackagechecks=true /ProgressionVersion=4 /SaveCollectionRateFloat=0.0 /AllowManualBugReports=false
       config:
         betakey: nightly
         osarch: "64"
@@ -588003,7 +588010,13 @@
   installDir: SlavicPunk Oldtimer
   launch:
     - executable: SybirPunk.exe
-1820400: {}
+1820400:
+  installDir: The Ballad Singer Knights Templar
+  launch:
+    - executable: KnightsTemplar.exe
+    - config:
+        betakey: first_playable_version
+      executable: KnightsTemplar.exe
 1821310:
   cloud:
     saves:
@@ -612861,6 +612874,19 @@
       type: default
   nameLocalized:
     schinese: 魔法门：英雄交锋决定版
+2213500:
+  installDir: Sven Completely Screwed
+  launch:
+    - executable: SvenCompletelyScrewed.exe
+      type: default
+  nameLocalized:
+    dutch: Sven - compleet genaaid
+    english: Sven - Completely Screwed
+    french: Sven - Saute-mouton en folie
+    german: Sven - durchgeknallt
+    italian: "Sven, vita a pecora"
+    russian: Свен — Овечная любовь
+    spanish: Sven - plantando nabos
 2213980:
   cloud:
     saves:
@@ -615052,6 +615078,7 @@
         oslist: macos
       executable: Lovux.app
       type: default
+2244700: {}
 2244780:
   nameLocalized:
     schinese: 深渊国度：天启
@@ -618846,6 +618873,13 @@
         oslist: windows
       executable: Carpenter.exe
       type: default
+    - arguments: "-force-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Silver Pines (DirectX 11)
+      executable: Carpenter.exe
+      type: option1
   nameLocalized:
     schinese: 银松镇
 2333240:
@@ -644384,6 +644418,22 @@
     schinese: 硝基特快
     tchinese: 硝基特快
 3090810:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Truckful
+  launch:
+    - config:
+        oslist: windows
+      executable: Truckful.exe
+    - config:
+        oslist: linux
+      executable: Truckful.x86_64
+    - config:
+        oslist: macos
+      executable: Truckful.app
   nameLocalized:
     japanese: Truckful / トラックフル
     koreana: Truckful / 트럭풀
@@ -647129,8 +647179,8 @@
       executable: DeadzoneSteam.exe
       type: default
   nameLocalized:
-    schinese: 死域Rogue
-    tchinese: 死域Rogue
+    schinese: 死域 Rogue
+    tchinese: 死域 Rogue
 3229100:
   cloud:
     saves:
@@ -659022,6 +659072,12 @@
       - path: Torch_of_Shadows
         pattern: "*.ini"
         root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxXdgConfigHome
   installDir: TorchOfShadows
   launch:
     - config:
@@ -662433,6 +662489,7 @@
   installDir: Heroes Of Might And Magic III
   launch:
     - executable: Heroes3.exe
+4928600: {}
 4932120: {}
 4935510:
   cloud:
@@ -662524,7 +662581,10 @@
         oslist: linux
       executable: aurum_steam_linux_x64
       type: default
-5102980: {}
+5102980:
+  installDir: Penis Bird
+  launch:
+    - executable: Penis_Bird.exe
 5109940: {}
 5131800:
   nameLocalized:

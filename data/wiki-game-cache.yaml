@@ -5590,6 +5590,7 @@ Ace Attorney Investigations Collection:
   steam: 3635880
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\ACE COMBAT 8\\ACZero\\settings\\setting.ini}}"
+    - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\2288340\\remote\\aczero\\save\\}}"
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
@@ -22440,6 +22441,8 @@ Barbie and the Three Musketeers:
   pageId: 158717
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Barbie3M\\savedata.dat}}"
+Barbie as Princess Bride:
+  pageId: 221443
 "Barbie as Rapunzel: A Creative Adventure":
   pageId: 220660
 Barbie as Sleeping Beauty:
@@ -28185,6 +28188,12 @@ Black Jacket:
 Black Jewel:
   pageId: 77618
   steam: 761320
+Black Lake:
+  cloud:
+    steam: true
+  lutris: black-lake--1
+  pageId: 221424
+  steam: 4928600
 Black Legend:
   cloud:
     gog: true
@@ -45920,6 +45929,8 @@ Clue:
   pageId: 213966
 "Clue Chronicles: Fatal Illusion":
   pageId: 210826
+"Clue Jr.: SpyGlass Mysteries":
+  pageId: 221428
 Clue/Cluedo:
   cloud:
     steam: true
@@ -51160,6 +51171,8 @@ Crazy Chicken X:
   pageId: 198348
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\HighScore.txt}}"
+Crazy Classics:
+  pageId: 221438
 Crazy Critters - Combat Cats:
   pageId: 144552
   steam: 1141880
@@ -99163,6 +99176,15 @@ GlassSmash:
     steam: true
   pageId: 134902
   steam: 1052220
+Glasshouse:
+  cloud:
+    steam: true
+  gog: 1272415500
+  lutris: glasshouse
+  pageId: 221422
+  steam: 2244700
+  steamSide:
+    - 2818570
 Glassteroids:
   pageId: 121710
   steam: 929530
@@ -100512,6 +100534,8 @@ Gold Rush! Anniversary:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\engine\\eldorado.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\engine\\linc\\saves\\}}"
+Golden Age of Racing:
+  pageId: 221440
 Golden Axe:
   lutris: golden-axe
   pageId: 30603
@@ -126759,6 +126783,8 @@ Karradash - The Lost Dungeons:
     steam: true
   pageId: 56982
   steam: 583150
+Kart Racer:
+  pageId: 221435
 Kart Racing Pro:
   pageId: 39440
   steam: 415600
@@ -175858,6 +175884,8 @@ Phoenix Tales:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\CAPCOM\\Phoenix Wright: Ace Attorney Trilogy / 逆転裁判123 成歩堂セレクション\\}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\F024294D.PhoenixWrightAceAttorneyTrilogy_8fty0by30jkny\\SystemAppData\\wgs\\{{p|uid}}\\}}"
     - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\787480\\remote\\systemdata}}"
+"Phoenix: Deep Space Resurrection":
+  pageId: 221430
 "Phoenotopia: Awakening":
   cloud:
     gog: true
@@ -181357,6 +181385,8 @@ Primal Planet:
   lutris: primal-planet
   pageId: 206761
   steam: 2350270
+  templates:
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Godot\\app_userdata\\Primal Planet\\}}"
 Primal Prey:
   pageId: 57169
   templates:
@@ -230990,6 +231020,9 @@ Sven Co-op:
   pageId: 155215
   renamedFrom:
     - "Sven-Goran Eriksson's World Manager"
+"Sven: Completely Screwed":
+  pageId: 221433
+  steam: 2213500
 Svoboda:
   pageId: 92791
   steam: 848640
@@ -262575,6 +262608,8 @@ Truck Racer:
     steam: true
   pageId: 40570
   steam: 256070
+Truck Racer (2009):
+  pageId: 221437
 Truck Racing by Renault Trucks:
   pageId: 161849
 "Truck World: Australia":
