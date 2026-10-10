@@ -2091,6 +2091,7 @@ $1 Ride:
   steam: 806580
 7th Legion:
   gog: 1207660773
+  lutris: 7th-legion
   pageId: 15356
   steam: 327910
   templates:
@@ -24832,6 +24833,7 @@ Beasts Shall Rise:
 Beasts and Bumpkins:
   pageId: 59313
   templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Worldweaver Productions\\Beasts and Bumpkins}}"
     - "{{Game data/saves|Windows|{{P|game}}\\savegam0.sav}}"
 Beasts of Bermuda:
   pageId: 113084
@@ -35838,6 +35840,8 @@ Burgle Bros.:
 Buried Alive VR:
   pageId: 90530
   steam: 678830
+Buried stars:
+  pageId: 221454
 "Buried: An Interactive Story":
   pageId: 44852
   steam: 434370
@@ -38559,8 +38563,14 @@ Car Mechanic Simulator VR:
 Car Park Capital:
   cloud:
     steam: true
+  lutris: car-park-capital
   pageId: 206656
   steam: 3031880
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\settings.json}}"
+    - "{{Game data/config|Linux|{{p|game}}/settings.json}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\saves\\*.cpcp|{{p|game}}\\saves\\*.json|{{p|game}}\\saves\\blueprints\\*.cpbp|{{p|game}}\\saves\\scenarios\\*.cpcs}}"
+    - "{{Game data/saves|Linux|{{p|game}}/saves/*.cpcp|{{p|game}}/saves/*.json|{{p|game}}/saves/blueprints\\*.cpbp|{{p|game}}/saves/scenarios/*.cpcs}}"
 Car Puzzler:
   cloud:
     steam: true
@@ -78854,6 +78864,7 @@ Epic Pinball:
   cloud:
     gog: true
   gog: 1965302672
+  lutris: epic-pinball
   pageId: 131802
   templates:
     - "{{Game data/config|DOS|{{Path|game}}\\CONFIG.PIN}}"
@@ -82317,10 +82328,11 @@ Extreme Painting Puzzles:
   pageId: 113830
   steam: 927670
 Extreme Pinball:
+  lutris: extrene-pinball
   pageId: 17023
   templates:
-    - "{{Game data/config|DOS|{{p|game}}\\}}"
-    - "{{Game data/saves|DOS|{{p|game}}\\}}"
+    - "{{Game data/config|DOS|{{p|game}}}}"
+    - "{{Game data/saves|DOS|{{p|game}}}}"
 Extreme Racing on Highway:
   pageId: 129745
   steam: 1034160
@@ -109558,6 +109570,7 @@ Help Will Come Tomorrow:
     - 1252110
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Arclight Creations\\Help Will Come Tomorrow\\Data\\config.json}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Arclight Creations/Help Will Come Tomorrow/Data/config.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Arclight Creations\\Help Will Come Tomorrow\\Data\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Arclight Creations/Help Will Come Tomorrow/Data/}}"
 Help! I am REALLY horny!:
@@ -130643,6 +130656,7 @@ Krunker:
   cloud:
     steam: true
   gog: 1207659196
+  lutris: kknd2-krossfire
   pageId: 131933
   steam: 1292180
   templates:
@@ -171051,6 +171065,12 @@ P.O.N.:
   lutris: pon
   pageId: 212551
   steam: 3864580
+P.T. for PC:
+  pageId: 199704
+  renamedFrom:
+    - PT for PC
+    - P.T. for PC
+    - PT for PC
 "P.T.O. II: Pacific Theater of Operations":
   lutris: pto-ii-pacific-theater-of-operations
   pageId: 203835
@@ -171426,8 +171446,6 @@ PSI Magic:
 "PT Boats: South Gambit":
   pageId: 40867
   steam: 10260
-PT for PC:
-  pageId: 199704
 PUBG Lite:
   lutris: pubg-lite
   pageId: 147904
@@ -187289,6 +187307,8 @@ Radium:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Radium}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Radium}}"
+"Radix: Beyond the Void":
+  pageId: 221456
 "Radline: Quarantine":
   pageId: 58091
   steam: 592390
@@ -218364,6 +218384,7 @@ Spartan:
   templates:
     - "{{Game data/saves|Windows|<!-- SteamDB shows 6 locations they can't all be used simultaneously -->}}"
 Spartan (2004):
+  lutris: spartan
   pageId: 199050
   steam: 1804710
 Spartan Fist:
@@ -222137,6 +222158,7 @@ Star Wars Outlaws:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\{{p|uid}}.tfr}}"
 "Star Wars: The Clone Wars - Republic Heroes":
+  lutris: star-wars-the-clone-wars-republic-heroes
   pageId: 14964
   steam: 32420
   templates:
@@ -249789,6 +249811,7 @@ The Sinking City:
     - 2003312853
     - 2031063808
     - 2147483114
+  lutris: the-sinking-city
   pageId: 97752
   steam: 750130
   steamSide:
@@ -249830,6 +249853,7 @@ The Sinking City Remastered:
     gog: true
     steam: true
   gog: 2018838490
+  lutris: the-sinking-city-remastered
   pageId: 204449
   steam: 750130
   templates:
@@ -252431,6 +252455,8 @@ The Wrestling Code:
 "The Writer: A Change of Identity":
   pageId: 51708
   steam: 533770
+The X Factor Sing:
+  pageId: 221458
 The X-Files Game:
   lutris: the-x-files-game
   pageId: 3889
@@ -264133,6 +264159,7 @@ Tyrian:
   cloud:
     gog: true
   gog: 1207658901
+  lutris: tyrian
   pageId: 13139
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\TYRIAN.CFG}}"

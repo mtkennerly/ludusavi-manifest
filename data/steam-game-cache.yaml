@@ -594231,10 +594231,6 @@
         oslist: windows
       executable: Dungeons.exe
       type: default
-    - config:
-        betakey: age_ratings
-        oslist: windows
-      executable: Dungeons.exe
 1912750:
   installDir: Terra Memoria
   launch:
@@ -616854,6 +616850,34 @@
     - config:
         oslist: macos
       executable: TerraScape.app
+    - arguments: "-epicsandboxid=p-4lydxkp6sl5zccvu6htujtlv6jd69u -epicdeploymentid=d82fe708f3024f72a6089be8b4632eb1"
+      config:
+        betakey: "testing-eos,testing"
+        oslist: windows
+      description: TerraScape EOS Stage Sandbox
+      executable: TerraScape.exe
+      type: option1
+    - arguments: "-epicsandboxid=p-4lydxkp6sl5zccvu6htujtlv6jd69u -epicdeploymentid=d82fe708f3024f72a6089be8b4632eb1"
+      config:
+        betakey: "testing-eos,testing"
+        oslist: macos
+      description: TerraScape EOS Stage Sandbox
+      executable: TerraScape.app
+      type: option1
+    - arguments: "-epicsandboxid=p-ymvcmx3ny6wyjqq3wkeflvglys4qml -epicdeploymentid=4f2e048dd0814075b6d07a1a2d4e8a3d"
+      config:
+        betakey: "testing-eos,testing"
+        oslist: windows
+      description: TerraScape EOS Dev Sandbox
+      executable: TerraScape.exe
+      type: option2
+    - arguments: "-epicsandboxid=p-ymvcmx3ny6wyjqq3wkeflvglys4qml -epicdeploymentid=4f2e048dd0814075b6d07a1a2d4e8a3d"
+      config:
+        betakey: "testing-eos,testing"
+        oslist: macos
+      description: TerraScape EOS Dev Sandbox
+      executable: TerraScape.app
+      type: option2
   nameLocalized:
     schinese: 愿景之城 TerraScape
 2290180:
