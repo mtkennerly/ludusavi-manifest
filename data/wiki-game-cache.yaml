@@ -4488,6 +4488,8 @@ ALARA Prime:
 "ALFA: Antiterror":
   pageId: 218969
   steam: 4566780
+  templates:
+    - "{{Game data/config|Windows|{{P|steam}}{{P|game}} system.cfg}}"
 ALIEN FIELD:
   pageId: 124132
   steam: 926350
@@ -20436,6 +20438,13 @@ BEAST:
     steam: true
   pageId: 145318
   steam: 1145630
+BEAST CRIMES:
+  cloud:
+    steam: true
+  pageId: 221472
+  steam: 1571090
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Link Häggman\\BeastCrimes\\NaninovelData\\Saves\\}}"
 "BEAST: Bio Exo Arena Suit Team":
   pageId: 198844
   steam: 3239670
@@ -33927,6 +33936,8 @@ Bridge Builder Racer:
     steam: true
   pageId: 140894
   steam: 1084970
+Bridge Champion with Omar Sharif:
+  pageId: 221474
 Bridge Constructor:
   cloud:
     discord: true
@@ -34002,6 +34013,8 @@ Bridge Constructor Stunts:
 Bridge Creator 2015:
   pageId: 48887
   steam: 345790
+Bridge Deluxe 2 with Omar Sharif:
+  pageId: 221477
 Bridge It +:
   cloud:
     steam: true
@@ -80511,6 +80524,7 @@ Eurobi Racing:
   pageId: 123958
   steam: 982020
 Eurofighter Typhoon:
+  lutris: eurofighter-typhoon
   pageId: 29822
   steam: 283350
   templates:
@@ -96904,6 +96918,8 @@ Gates of Skeldal:
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\sav.*}}"
     - "{{Game data/saves|Windows|{{p|game}}\\sav.*}}"
+Gates of Troy:
+  pageId: 221463
 Gates to Terra II:
   pageId: 150499
   steam: 1180530
@@ -99068,6 +99084,7 @@ Gladiator Trainer:
 "Gladiator: Sword of Vengeance":
   cloud:
     steam: true
+  lutris: gladiator-sword-of-vengeance
   pageId: 57097
   steam: 577580
   templates:
@@ -133959,6 +133976,8 @@ Legion:
 Legion 51:
   pageId: 149333
   steam: 1158280
+Legion Arena:
+  pageId: 221465
 Legion TD 2:
   lutris: legion-td-2
   pageId: 39526
@@ -166963,6 +166982,8 @@ OlympicVR:
 Omae Wa Mou Shindeiru:
   pageId: 93005
   steam: 851200
+Omar Sharif on Bridge:
+  pageId: 221470
 Omega Agent:
   cloud:
     steam: true
@@ -193960,6 +193981,8 @@ Richman 4:
   steam: 885390
 Rick Dangerous:
   pageId: 176064
+Rick Dangerous 2:
+  pageId: 221462
 Rick Henderson:
   cloud:
     steam: true
@@ -220449,6 +220472,7 @@ Squad Z:
   steam: 784030
 Squadron 42:
   pageId: 189862
+  steam: 4045720
 "Squadron: Sky Guardians":
   pageId: 65578
   steam: 673570

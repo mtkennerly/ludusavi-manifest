@@ -223313,6 +223313,12 @@
         oslist: windows
       executable: IGladiator.exe
       type: default
+    - config:
+        betakey: beta
+        osarch: "32"
+        oslist: windows
+      executable: "Gladiator\\Gladiator.exe"
+      type: default
 577640:
   cloud:
     saves:
@@ -568191,6 +568197,26 @@
       type: none
   nameLocalized:
     schinese: 西部对决 (West Hunt)
+1571090:
+  cloud:
+    saves:
+      - path: Link Häggman/BeastCrimes/NaninovelData/Saves
+        pattern: "*.nson"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Link Häggman/BeastCrimes/NaninovelData/Saves
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: BeastCrimes
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "BeastCrimes\\BeastCrimes.exe"
+      type: default
 1571170:
   cloud:
     saves:
@@ -620115,6 +620141,7 @@
     saves:
       - path: BluespyStudios/Toy Shire
         pattern: "*"
+        recursive: true
         root: WinAppDataLocalLow
     overrides:
       - os: MacOS
@@ -659373,6 +659400,7 @@
   launch:
     - executable: TheLastElixir.exe
       type: default
+4045720: {}
 4047270:
   cloud:
     saves:
@@ -661788,7 +661816,10 @@
       type: default
 4461560: {}
 4462580: {}
-4465790: {}
+4465790:
+  nameLocalized:
+    schinese: 死域 Rogue 2
+    tchinese: 死域 Rogue 2
 4466620:
   cloud:
     saves:
