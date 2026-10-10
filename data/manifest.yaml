@@ -36137,7 +36137,7 @@ America:
         - save
       when:
         - os: windows
-    "<base>/Save2 for the Expansion Pack":
+    "<base>/Save2":
       tags:
         - save
       when:
@@ -262730,6 +262730,12 @@ Farm Frenzy:
   steam:
     id: 38120
 Farm Frenzy 2:
+  files:
+    "<winProgramData>/FarmFrenzy2":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Farm Frenzy 2: {}
   launch:
@@ -459643,6 +459649,8 @@ Militia 2:
 Militsioner:
   id:
     lutris: militsioner
+    steamExtra:
+      - 4627010
   steam:
     id: 1373530
 Milk inside a Bag of Milk inside a Bag of Milk:
@@ -788127,6 +788135,12 @@ Tormentum II:
   cloud:
     steam: true
   files:
+    "<home>/.config/unity3d/OhNoo Studio/Tormentum II":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
     "<home>/AppData/LocalLow/OhNoo Studio/Tormentum II":
       tags:
         - save

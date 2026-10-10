@@ -11592,7 +11592,7 @@ America:
   pageId: 101637
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\America.ini}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Save|{{p|game}}\\Save2 for the Expansion Pack}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save|{{p|game}}\\Save2}}"
 "America's Army":
   pageId: 30487
   templates:
@@ -33912,6 +33912,8 @@ Brickadia:
 Brickfest:
   pageId: 92919
   steam: 845940
+Bricklayer:
+  pageId: 221449
 Brickochet:
   pageId: 68454
   steam: 671550
@@ -85560,6 +85562,8 @@ Farm Frenzy:
 Farm Frenzy 2:
   pageId: 41175
   steam: 38130
+  templates:
+    - "{{Game data/config|Windows|{{p|programdata}}\\FarmFrenzy2}}"
 Farm Frenzy 3:
   pageId: 41177
   steam: 38150
@@ -149984,6 +149988,8 @@ Militsioner:
   lutris: militsioner
   pageId: 217153
   steam: 1373530
+  steamSide:
+    - 4627010
 Milk inside a Bag of Milk inside a Bag of Milk:
   pageId: 173968
   steam: 1392820
@@ -196333,6 +196339,8 @@ Roche Fusion:
     - 451160
   templates:
     - "{{Game data/config|Windows|{{p|LOCALAPPDATA}}\\Rock__N__Roll_Defense\\Rnrdconfig.sav}}"
+"Rock 'n Roll (1991)":
+  pageId: 221448
 "Rock 'n' Roll Adventures":
   pageId: 88329
 Rock Band VR:
@@ -257295,7 +257303,9 @@ Tormentum II:
     - 4733980
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\OhNoo Studio\\Tormentum II}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/OhNoo Studio/Tormentum II/}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\OhNoo Studio\\Tormentum II}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/OhNoo Studio/Tormentum II/}}"
 "Tormentum: Dark Sorrow":
   cloud:
     gog: true
