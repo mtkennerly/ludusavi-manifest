@@ -45380,7 +45380,7 @@ Clinically Dead:
     - 4664770
     - 5184670
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Local\\Hellraiser\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Hellraiser\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Hellraiser\\Saved\\SaveGames\\}}"
 "Clive Barker's Jericho":
   lutris: clive-barkers-jericho
@@ -161760,6 +161760,9 @@ Next Hero:
   steam: 756490
 Next Life:
   pageId: 195181
+Next Objective:
+  pageId: 221452
+  steam: 5068970
 Next Space Rebels:
   cloud:
     gog: true

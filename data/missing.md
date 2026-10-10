@@ -18439,6 +18439,7 @@
 * [Next Hand Master](https://www.pcgamingwiki.com/wiki/?curid=155470)
 * [NEXT JUMP: Shmup Tactics](https://www.pcgamingwiki.com/wiki/?curid=61500)
 * [Next Life](https://www.pcgamingwiki.com/wiki/?curid=195181)
+* [Next Objective](https://www.pcgamingwiki.com/wiki/?curid=221452)
 * [Next Step: Mars](https://www.pcgamingwiki.com/wiki/?curid=195146)
 * [Next Stop 2](https://www.pcgamingwiki.com/wiki/?curid=52888)
 * [Next Stop 3](https://www.pcgamingwiki.com/wiki/?curid=129655)

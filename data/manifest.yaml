@@ -140441,14 +140441,14 @@ Clinically Dead:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/Hellraiser/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Hellraiser/Saved/SaveGames":
       tags:
         - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Local/Hellraiser/Saved/Config/Windows":
-      tags:
-        - config
       when:
         - os: windows
   id:
@@ -495238,6 +495238,9 @@ Next Hero:
             store: steam
   steam:
     id: 756490
+Next Objective:
+  steam:
+    id: 5068970
 Next Space Rebels:
   cloud:
     gog: true
