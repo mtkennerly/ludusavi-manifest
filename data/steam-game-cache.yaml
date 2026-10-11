@@ -636580,6 +636580,37 @@
       type: default
   nameLocalized:
     schinese: 破壕行动
+2780710:
+  cloud:
+    saves:
+      - path: AsgardsFall/Saves
+        pattern: "*"
+        root: WinAppDataLocal
+      - path: AsgardsFall/Save Files
+        pattern: "*"
+        root: WinAppDataLocal
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: AsgardsFall/Saves
+            replace: ".local/share/Steam/steamapps/compatdata/2780710/pfx/drive_c/users/steamuser/AppData/Local/AsgardsFall/Saves"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+      - addPath: ".local/share/Steam/steamapps/compatdata/2780710/pfx/drive_c/users/steamuser/AppData/Local/AsgardsFall/Save Files"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: LinuxHome
+  installDir: "Asgard's Fall"
+  launch:
+    - config:
+        oslist: windows
+      executable: AsgardsFall.exe
+      type: default
+  nameLocalized:
+    schinese: 阿斯加德的陨落
+    tchinese: 阿斯加德的陨落
 2780980:
   installDir: LOCKDOWN Protocol
   launch:
@@ -656322,6 +656353,17 @@
     english: Agreeee
     japanese: 利用規約に同意したい
     schinese: 同意用户协议
+3759690:
+  cloud:
+    saves:
+      - path: Renpy/AmplexusProtocol-1622743716
+        pattern: "*.save"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Amplexus Protocol
+  launch:
+    - executable: AmplexusProtocol.exe
 3762550:
   cloud:
     saves:

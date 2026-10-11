@@ -12080,6 +12080,9 @@ Amphora:
   steam: 331510
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\data\\profiles\\*.json}}"
+Amplexus Protocol:
+  pageId: 221558
+  steam: 3759690
 "Amplitude: A Visual Novel":
   pageId: 69836
   steam: 704680
@@ -16759,6 +16762,14 @@ Asemblance:
 "Asemblance: Oversight":
   pageId: 93696
   steam: 809950
+"Asgard's Fall: Viking Survivors":
+  cloud:
+    steam: true
+  pageId: 221556
+  steam: 2780710
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\AsgardsFall\\Save Files\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\AsgardsFall\\Save Files\\}}"
 "Asgard's Wrath":
   pageId: 165491
   templates:
@@ -32984,6 +32995,8 @@ Box PC3:
   pageId: 151969
   templates:
     - "{{Game data/config|Windows|C:\\pc3\\drakssen\\boxeo\\keywiz.cfg}}"
+Box World:
+  pageId: 221557
 "Box: The Game":
   pageId: 98664
   steam: 879850
@@ -90434,6 +90447,8 @@ Fly the Plane:
 Fly to KUMA MAKER:
   pageId: 39950
   steam: 517860
+Fly!:
+  pageId: 221546
 "Fly'N":
   pageId: 38462
   steam: 223730
@@ -142492,6 +142507,8 @@ Magic Hour:
   steam: 571500
 Magic Jigsaw Puzzles:
   pageId: 170503
+"Magic Johnson's Basketball":
+  pageId: 221551
 Magic Lantern:
   pageId: 57194
   steam: 575110
@@ -158660,6 +158677,8 @@ NUVAVULT:
 NVL:
   pageId: 77871
   steam: 756880
+NY Warriors:
+  pageId: 221549
 "NYR: New York Race":
   pageId: 89142
   templates:
@@ -209626,6 +209645,8 @@ Side Effects:
 Side Quest:
   pageId: 44623
   steam: 433570
+SideWinder:
+  pageId: 221553
 Sideral:
   pageId: 139233
   steam: 1095070

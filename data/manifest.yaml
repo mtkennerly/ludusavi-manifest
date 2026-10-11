@@ -37496,6 +37496,20 @@ Amphora:
             store: steam
   steam:
     id: 331510
+Amplexus Protocol:
+  files:
+    "<winAppData>/Renpy/AmplexusProtocol-1622743716/*.save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Amplexus Protocol: {}
+  launch:
+    "<base>/AmplexusProtocol.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3759690
 "Amplitude: A Visual Novel":
   installDir:
     AMPLITUDEVisualNovel: {}
@@ -52071,6 +52085,25 @@ Asemblance:
             store: steam
   steam:
     id: 809950
+"Asgard's Fall: Viking Survivors":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/AsgardsFall/Save Files":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    "Asgard's Fall": {}
+  launch:
+    "<base>/AsgardsFall.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2780710
 "Asgard's Wrath":
   files:
     "<winLocalAppData>/WrathGame/Saved/SaveGames":
