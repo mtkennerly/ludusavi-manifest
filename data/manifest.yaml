@@ -114022,6 +114022,8 @@ Caesar IV:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: caesars-revenge
   installDir:
     "Caesar's Revenge": {}
   launch:
@@ -200336,6 +200338,8 @@ Dig and Shoot:
   steam:
     id: 785070
 Dig or Die:
+  cloud:
+    steam: true
   files:
     "<winDocuments>/Dig or Die/<storeUserId>/Saves/**/*.save":
       when:
@@ -228715,6 +228719,8 @@ EA Sports WRC:
         - save
       when:
         - os: windows
+  id:
+    lutris: ea-sportstm-wrc
   installDir:
     EA SPORTS WRC: {}
   launch:
@@ -332143,6 +332149,12 @@ Heart of Ember CH1:
   steam:
     id: 382320
 Heart of Eternity:
+  files:
+    "C:/Users/(USERNAME)/Documents/Ñåðäöå Âå÷íîñòè":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Heart of Eternity: {}
   launch:
@@ -626827,6 +626839,7 @@ Sega Rally Revo:
       when:
         - os: windows
   id:
+    lutris: sega-rally-revo
     steamExtra:
       - 4790
   installDir:
@@ -831140,6 +831153,8 @@ WOUNDED:
         - config
       when:
         - os: windows
+  id:
+    lutris: wrc-10-fia-world-rally-championship
   installDir:
     WRC 10 FIA World Rally Championship: {}
   launch:
@@ -831193,6 +831208,8 @@ WOUNDED:
         - save
       when:
         - os: windows
+  id:
+    lutris: wrc-4-fia-world-rally-championship
   installDir:
     WRC 4: {}
   launch:
@@ -831217,6 +831234,7 @@ WOUNDED:
       when:
         - os: windows
   id:
+    lutris: wrc-5
     steamExtra:
       - 398470
       - 398471
@@ -831236,6 +831254,8 @@ WOUNDED:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: wrc-6
   installDir:
     WRC 6: {}
   steam:
@@ -831250,6 +831270,8 @@ WOUNDED:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: wrc-7
   installDir:
     WRC 7: {}
   launch:
@@ -831274,6 +831296,8 @@ WOUNDED:
         - config
       when:
         - os: windows
+  id:
+    lutris: wrc-8-fia-world-rally-championship
   installDir:
     WRC 8 FIA World Rally Championship: {}
   launch:
@@ -831299,6 +831323,8 @@ WOUNDED:
         - config
       when:
         - os: windows
+  id:
+    lutris: wrc-9-fia-world-rally-championship
   installDir:
     WRC 9 FIA World Rally Championship: {}
   launch:
@@ -831323,6 +831349,8 @@ WRC Generations:
         - config
       when:
         - os: windows
+  id:
+    lutris: wrc-generations-the-fia-wrc-official-game
   installDir:
     WRC Generations - The FIA WRC Official Game: {}
   launch:
@@ -831343,6 +831371,8 @@ WRC Powerslide:
         - save
       when:
         - os: windows
+  id:
+    lutris: wrc-powerslide
   installDir:
     WRC Powerslide: {}
   launch:
@@ -834641,8 +834671,20 @@ WarBreeds:
         - save
       when:
         - os: windows
+    "<base>/DATA/prefs.dbg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/WARBREED.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1979367321
+  id:
+    lutris: warbreeds
   installDir:
     WarBreeds: {}
   launch:
