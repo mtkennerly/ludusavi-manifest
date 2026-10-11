@@ -57418,6 +57418,8 @@ Atlantis VR:
         - os: windows
   gog:
     id: 1207658944
+  id:
+    lutris: atlantis-the-lost-tales
 Atlas:
   installDir:
     ATLAS: {}
@@ -151020,6 +151022,8 @@ Consortium:
         - os: windows
   gog:
     id: 1207664203
+  id:
+    lutris: consortium
   installDir:
     Consortium: {}
   launch:
@@ -153110,10 +153114,7 @@ Copa City:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Triple Espresso/Copa City First Football Tycoon/**/*.json":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/Triple Espresso/Copa City First Football Tycoon/Saves/**/*.json":
+    "<home>/AppData/LocalLow/Triple Espresso/Copa City":
       when:
         - store: steam
   gog:
@@ -182003,6 +182004,8 @@ Dead Island 2:
       when:
         - os: windows
           store: microsoft
+  id:
+    lutris: dead-island-2
   installDir:
     Dead Island 2: {}
   launch:
@@ -182079,6 +182082,8 @@ Dead Island 2:
   steam:
     id: 222900
 "Dead Island: Retro Revenge":
+  id:
+    lutris: dead-island-retro-revenge
   installDir:
     Dead Island Retro Revenge: {}
   launch:
@@ -182135,6 +182140,8 @@ Dead Island 2:
         - config
       when:
         - os: windows
+  id:
+    lutris: dead-island-riptide-definitive-edition
   installDir:
     DIRDE: {}
   launch:
@@ -241379,6 +241386,8 @@ Enemy:
 "Enemy Engaged: Apache vs Havoc":
   gog:
     id: 1207658733
+  id:
+    lutris: enemy-engaged-apache-vs-havoc
   installDir:
     Enemy Engaged Apache vs Havoc: {}
   launch:
@@ -584034,6 +584043,8 @@ Redline Ultimate Racing:
 "Redneck Deer Huntin'":
   gog:
     id: 1647235151
+  id:
+    lutris: redneck-deer-huntin
   installDir:
     "Redneck Deer Huntin'": {}
   launch:
@@ -584137,6 +584148,8 @@ Redneck Rampage Rides Again:
         - os: dos
   gog:
     id: 1207658674
+  id:
+    lutris: redneck-rampage-rides-again
   installDir:
     Redneck Rampage Rides Again: {}
   launch:
@@ -651976,6 +651989,8 @@ Slipstream 5000:
         - os: dos
   gog:
     id: 1207658953
+  id:
+    lutris: slipstream-5000
   installDir:
     Slipstream 5000: {}
   launch:
@@ -826829,6 +826844,8 @@ Virtual Pool 3:
       tags:
         - config
 Virtual Pool 4:
+  id:
+    lutris: virtual-pool-4
   installDir:
     Virtual Pool 4: {}
   launch:
@@ -867503,6 +867520,17 @@ Z Runaway:
 Z-Aftershock:
   steam:
     id: 652730
+Z-Company:
+  installDir:
+    Z-Company: {}
+  launch:
+    "<base>/ZCompany.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1583820
 Z-End:
   installDir:
     Z-End: {}

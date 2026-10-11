@@ -569523,6 +569523,14 @@
         ownsdlc: "3208310"
       description: Play Axon Pariah
       executable: hl2.sh
+1583820:
+  installDir: Z-Company
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ZCompany.exe
+      type: default
 1584090:
   installDir: Touhou Mystia Izakaya
   launch:
@@ -612676,12 +612684,8 @@
 2210520:
   cloud:
     saves:
-      - path: Triple Espresso/Copa City First Football Tycoon
-        pattern: "*.json"
-        recursive: true
-        root: WinAppDataLocalLow
-      - path: Triple Espresso/Copa City First Football Tycoon/Saves
-        pattern: "*.json"
+      - path: Triple Espresso/Copa City
+        pattern: "*"
         recursive: true
         root: WinAppDataLocalLow
   installDir: Copa City

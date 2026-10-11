@@ -4956,6 +4956,8 @@ AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Dejobaan Games\\Awesome\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/unity.Dejobaan Games.Awesome.plist}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Dejobaan Games/Awesome/}}"
+Aaargh!:
+  pageId: 221544
 Aaero:
   cloud:
     steam: true
@@ -18563,6 +18565,7 @@ Atlantis VR:
     - "{{Game data/saves|Windows|{{p|game}}\\*.sav}}"
 "Atlantis: The Lost Tales":
   gog: 1207658944
+  lutris: atlantis-the-lost-tales
   pageId: 7731
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\*.gam}}"
@@ -48777,6 +48780,7 @@ Consortium:
     gog: true
     steam: true
   gog: 1207664203
+  lutris: consortium
   pageId: 14127
   steam: 264240
   templates:
@@ -58970,6 +58974,7 @@ Dead Island 2:
     epic: true
     steam: true
     xbox: true
+  lutris: dead-island-2
   pageId: 17727
   steam: 934700
   templates:
@@ -58997,6 +59002,7 @@ Dead Island 2:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Deep Silver\\Dead Island: Epidemic}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\222900\\remote\\}}"
 "Dead Island: Retro Revenge":
+  lutris: dead-island-retro-revenge
   pageId: 33271
   steam: 337360
 "Dead Island: Riptide":
@@ -59014,6 +59020,7 @@ Dead Island 2:
 "Dead Island: Riptide Definitive Edition":
   cloud:
     steam: true
+  lutris: dead-island-riptide-definitive-edition
   pageId: 32949
   steam: 383180
   templates:
@@ -78284,6 +78291,7 @@ Enemy Engaged 2:
   steam: 1581200
 "Enemy Engaged: Apache vs Havoc":
   gog: 1207658733
+  lutris: enemy-engaged-apache-vs-havoc
   pageId: 7757
   steam: 1581150
 "Enemy Engaged: Comanche vs Hokum":
@@ -190863,6 +190871,7 @@ Redline Ultimate Racing:
   steam: 791570
 "Redneck Deer Huntin'":
   gog: 1647235151
+  lutris: redneck-deer-huntin
   pageId: 63943
   steam: 580930
 Redneck Kentucky and the Next Generation Chickens:
@@ -190887,6 +190896,7 @@ Redneck Rampage:
     - "{{Game data/saves|DOS|{{p|game}}\\GAME*.SAV}}"
 Redneck Rampage Rides Again:
   gog: 1207658674
+  lutris: redneck-rampage-rides-again
   pageId: 15530
   steam: 580940
   templates:
@@ -212872,6 +212882,7 @@ Slipstream:
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/ansdorGames/Slipstream/saves/game*.sav2}}"
 Slipstream 5000:
   gog: 1207658953
+  lutris: slipstream-5000
   pageId: 21284
   steam: 306350
   templates:
@@ -271013,11 +271024,14 @@ Virtual Pool 3:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Celeris\\Virtual Pool 3\\Current Version}}"
 Virtual Pool 4:
+  lutris: virtual-pool-4
   pageId: 47952
   steam: 336150
 Virtual Pool 4 Multiplayer:
   pageId: 33834
   steam: 432310
+Virtual Pool Hall:
+  pageId: 221538
 Virtual Race Car Engineer 2018:
   pageId: 73833
   steam: 728150
@@ -284579,6 +284593,9 @@ Z Runaway:
 Z-Aftershock:
   pageId: 88179
   steam: 652730
+Z-Company:
+  pageId: 221542
+  steam: 1583820
 Z-End:
   pageId: 74417
   steam: 582610
