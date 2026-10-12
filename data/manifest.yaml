@@ -87867,6 +87867,7 @@ Blackjack of Strip:
       when:
         - os: windows
   id:
+    lutris: blacklight-retribution
     steamExtra:
       - 209872
       - 209873
@@ -370012,6 +370013,13 @@ Ingression:
             store: steam
   steam:
     id: 257260
+Inherited Shadows:
+  id:
+    lutris: inherited-shadows
+    steamExtra:
+      - 4339430
+  steam:
+    id: 2939450
 Inhuman:
   cloud:
     steam: true
@@ -620496,6 +620504,8 @@ Saw:
         - config
       when:
         - os: windows
+  id:
+    lutris: saw
   installDir:
     Saw: {}
   launch:
@@ -631189,6 +631199,8 @@ Shadow Mist:
         - os: windows
   gog:
     id: 1479095781
+  id:
+    lutris: shadow-ops-red-mercury
   installDir:
     Shadow Ops Red Mercury: {}
   launch:

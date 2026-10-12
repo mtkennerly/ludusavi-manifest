@@ -4136,6 +4136,8 @@ ABI-DOS:
 ABRACA - Imagic Games:
   pageId: 43867
   steam: 345990
+ACA NeoGeo Fatal Fury 3:
+  pageId: 221560
 "ACA NeoGeo The King of Fighters '94":
   cloud:
     xbox: true
@@ -28596,6 +28598,7 @@ Blackjack of Strip:
 "Blacklight: Retribution":
   cloud:
     steam: true
+  lutris: blacklight-retribution
   pageId: 3327
   steam: 209870
   steamSide:
@@ -120475,6 +120478,12 @@ Ingression:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.itelinux/ite.prf}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Wyrmkeep\\Inherit the Earth Data\\ITE.SAV}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.itelinux/ITE.SAV}}"
+Inherited Shadows:
+  lutris: inherited-shadows
+  pageId: 221562
+  steam: 2939450
+  steamSide:
+    - 4339430
 Inhuman:
   cloud:
     steam: true
@@ -202831,6 +202840,7 @@ Saviors of Sapphire Wings / Stranger of Sword City Revisited:
   pageId: 166878
   steam: 1363840
 Saw:
+  lutris: saw
   pageId: 54701
   steam: 27300
   templates:
@@ -206294,6 +206304,7 @@ Shadow Mist:
     - 420050
 "Shadow Ops: Red Mercury":
   gog: 1479095781
+  lutris: shadow-ops-red-mercury
   pageId: 27083
   steam: 286770
   templates:
