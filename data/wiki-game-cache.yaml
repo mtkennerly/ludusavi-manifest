@@ -4678,6 +4678,7 @@ ARC:
   pageId: 144459
   steam: 1124550
 ARC Raiders:
+  lutris: arc-raiders
   pageId: 173630
   steam: 1808500
   templates:
@@ -108256,6 +108257,7 @@ Heart of Eternity:
   pageId: 209265
   steam: 3863600
   templates:
+    - "{{Game data/config|Windows|C:\\Users\\(USERNAME)\\Documents\\Ñåðäöå Âå÷íîñòè\\conf.cfg}}"
     - "{{Game data/saves|Windows|C:\\Users\\(USERNAME)\\Documents\\Ñåðäöå Âå÷íîñòè}}"
 Heart of Evil:
   pageId: 206636
@@ -118052,6 +118054,9 @@ Idle Evolution:
     steam: true
   pageId: 59512
   steam: 577730
+Idle Gem Quest:
+  pageId: 221563
+  steam: 2144290
 Idle Guardians:
   pageId: 135097
   steam: 1073860
@@ -126603,6 +126608,7 @@ Kao the Kangaroo (2022):
     - 1669230617
     - 2000108514
     - 2074692331
+  lutris: kao-the-kangaroo--1
   pageId: 163039
   renamedFrom:
     - Kao the Kangaroo (2021)
@@ -126634,6 +126640,7 @@ Kao the Kangaroo (2022):
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1048540\\remote\\}}"
 "Kao: Mystery of Volcano":
   gog: 1748253806
+  lutris: kao-the-kangaroo-mystery-of-the-volcano
   pageId: 77762
   steam: 2360030
   templates:
@@ -146571,6 +146578,7 @@ Medal of Honor (2010):
 "Medal of Honor: Above and Beyond":
   cloud:
     steam: true
+  lutris: medal-of-honor-above-and-beyond
   pageId: 147268
   steam: 1402320
   templates:
@@ -155125,8 +155133,12 @@ Mouse in Lab:
   steam: 587050
 "Mouse: P.I. For Hire":
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1567378928
+  gogSide:
+    - 2077295668
   lutris: mouse-pi-for-hire--1
   pageId: 191902
   renamedFrom:
@@ -192512,7 +192524,6 @@ Resident Evil HD Remaster:
     steam: true
   gog: 1999933307
   lutris: resident-evil-biohazard-hd-remaster
-  malformed: true
   pageId: 20009
   steam: 304240
   templates:
@@ -206553,6 +206564,7 @@ Shadow of the Road:
   cloud:
     steam: true
   gog: 1293804420
+  lutris: shadow-of-the-road
   pageId: 151637
   steam: 1173980
 Shadow of the Tomb Raider:
@@ -237897,6 +237909,7 @@ The Artifacts:
 The Artisan of Glimmith:
   cloud:
     steam: true
+  gog: 1923339241
   lutris: the-artisan-of-glimmith
   pageId: 215066
   steam: 4160210

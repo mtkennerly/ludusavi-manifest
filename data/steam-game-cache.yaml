@@ -609445,6 +609445,10 @@
     japanese: 夢灯華 Noctuary
     sc_schinese: 梦灯花 Noctuary
     tchinese: 夢燈花 Noctuary
+2144290:
+  installDir: Idle Gem Quest
+  launch:
+    - executable: Idle Gem Quest.exe
 2144350:
   installDir: Ubaste
   launch:
@@ -613348,7 +613352,7 @@
 2221490:
   installDir: "Tom Clancy's The Division 2"
   launch:
-    - arguments: "-uplay_steam_mode -disable_eos_sdk"
+    - arguments: "-uplay_steam_mode"
       config:
         osarch: "64"
         oslist: windows
@@ -613364,7 +613368,15 @@
       description: eac-retail
       executable: TheDivision2.exe
       type: default
-    - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-victor.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode"
+    - arguments: " -public_key_store_address pks.pc.dlc3cert.dev.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pl.pc.dlc3cert.dev.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode -force_enable_epicEOS -force_enable_eac_module -force_enable_eos_sdk -anticheat_settings=Settings_Release_PROD.json"
+      config:
+        betakey: dlc3-beta-release
+        osarch: "64"
+        oslist: windows
+      description: release
+      executable: Rogue_x64_Release.exe
+      type: default
+    - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-lima.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode -force_enable_epicEOS -force_enable_eac_module -force_enable_eos_sdk -anticheat_settings=Settings_Release_PROD.json -allowclmismatch"
       config:
         betakey: qc-rel
         osarch: "64"
@@ -613387,13 +613399,13 @@
       description: Release
       executable: Rogue_x64_Release.exe
       type: default
-    - arguments: "-uplay_steam_mode"
+    - arguments: "-login_ubiservices -uplay_launcher -noerrornotification -use_public_key_store -online -proxylist BUC-WKS-PR1569.ubisoft.org -proxylist_port 11001 -ssl -public_key_store_address BUC-WKS-PR1569.ubisoft.org -public_key_store_port 11000 -log_connections -nosound -disable_proxy_timeout -noafktime -startgame -nodiscardgraphs -notutorials -nofullscreentutorials -nofocussleep -noidle -retail_frontend -force_enable_epicEOS -force_enable_eos_sdk -anticheat_settings=Settings_Retail_PROD.json -force_enable_eac_module -uplay_steam_mode"
       config:
         betakey: boottestbranch
         osarch: "64"
         oslist: windows
       description: boottestbranch
-      executable: TheDivision2.exe
+      executable: EACLaunch.exe
       type: default
     - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-whiskey.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode -enable_mps_debug "
       config:
@@ -613402,7 +613414,7 @@
         oslist: windows
       description: Release
       executable: Rogue_x64_Release.exe
-    - arguments: "-proxylist msv-bfh-e12w49 -force_enable_epicEOS -force_enable_eos_sdk -nofullscreentutorials -proxylist_port 51000 -online -noserver -startgame -nophysdatecheck -ssl -noAssetScanner -no_game_proxy -sdfonly -retail_frontend -enabledebugui -nolatency -allowcutsceneskip -performance_tracking -enable_client_tracking  -uplay_launcher -upc_uat -upc_enable_dev_console -login_ubiservices -enable_mps_debug -dnatracking -allowclmismatch -sdfonly -uplay_steam_mode"
+    - arguments: "-proxylist BUC-WKS-PR1596.ubisoft.org -force_enable_epicEOS -force_enable_eos_sdk -nofullscreentutorials -proxylist_port 11001 -online -noserver -startgame -nophysdatecheck -ssl -noAssetScanner -no_game_proxy -sdfonly -retail_frontend -enabledebugui -nolatency -allowcutsceneskip -performance_tracking -enable_client_tracking  -uplay_launcher -upc_enable_dev_console -login_ubiservices -enable_mps_debug -dnatracking -allowclmismatch -sdfonly -uplay_steam_mode -anticheat_settings=Settings_Release_PROD.json -force_enable_eac_module"
       config:
         betakey: eac-release
         osarch: "64"
@@ -613410,6 +613422,8 @@
       description: eac-release
       executable: EACLaunch.exe
       type: default
+  nameLocalized:
+    schinese: 全境封锁2
 2221920:
   installDir: Immortals Fenyx Rising
   launch:

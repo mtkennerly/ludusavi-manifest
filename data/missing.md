@@ -13371,6 +13371,7 @@
 * [Idle Cooking Emperor](https://www.pcgamingwiki.com/wiki/?curid=134173)
 * [Idle Dungeons](https://www.pcgamingwiki.com/wiki/?curid=100402)
 * [Idle Earth](https://www.pcgamingwiki.com/wiki/?curid=125219)
+* [Idle Gem Quest](https://www.pcgamingwiki.com/wiki/?curid=221563)
 * [Idle Guardians](https://www.pcgamingwiki.com/wiki/?curid=135097)
 * [Idle Hero World](https://www.pcgamingwiki.com/wiki/?curid=153766)
 * [Idle Hunter](https://www.pcgamingwiki.com/wiki/?curid=108258)

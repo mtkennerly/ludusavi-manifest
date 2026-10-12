@@ -14966,6 +14966,8 @@ ARC Raiders:
         - config
       when:
         - os: windows
+  id:
+    lutris: arc-raiders
   installDir:
     Arc Raiders: {}
   launch:
@@ -332198,6 +332200,11 @@ Heart of Eternity:
         - save
       when:
         - os: windows
+    "C:/Users/(USERNAME)/Documents/Ñåðäöå Âå÷íîñòè/conf.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Heart of Eternity: {}
   launch:
@@ -362479,6 +362486,15 @@ Idle Evolution:
             store: steam
   steam:
     id: 577730
+Idle Gem Quest:
+  installDir:
+    Idle Gem Quest: {}
+  launch:
+    "<base>/Idle Gem Quest.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2144290
 Idle Guardians:
   installDir:
     Idle Guardians: {}
@@ -388770,6 +388786,7 @@ Kao the Kangaroo (2022):
       - 1669230617
       - 2000108514
       - 2074692331
+    lutris: kao-the-kangaroo--1
     steamExtra:
       - 2052960
       - 2052961
@@ -388846,6 +388863,8 @@ Kao the Kangaroo (2022):
         - os: windows
   gog:
     id: 1748253806
+  id:
+    lutris: kao-the-kangaroo-mystery-of-the-volcano
   installDir:
     Kao the Kangaroo Mystery of the Volcano: {}
   launch:
@@ -449794,6 +449813,8 @@ Medal of Honor (2010):
         - save
       when:
         - os: windows
+  id:
+    lutris: medal-of-honor-above-and-beyond
   installDir:
     respawn-entertainment-medal-of-honor-above-and-beyond: {}
   steam:
@@ -475049,6 +475070,7 @@ Mouse in Lab:
     id: 587050
 "Mouse: P.I. For Hire":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Fumi Games/MOUSE/Save":
@@ -475057,7 +475079,11 @@ Mouse in Lab:
         - save
       when:
         - os: windows
+  gog:
+    id: 1567378928
   id:
+    gogExtra:
+      - 2077295668
     lutris: mouse-pi-for-hire--1
     steamExtra:
       - 3879460
@@ -631919,6 +631945,8 @@ Shadow of the Road:
     steam: true
   gog:
     id: 1293804420
+  id:
+    lutris: shadow-of-the-road
   steam:
     id: 1173980
 Shadow of the Tomb Raider:
@@ -729449,6 +729477,8 @@ The Artisan of Glimmith:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1923339241
   id:
     lutris: the-artisan-of-glimmith
     steamExtra:
