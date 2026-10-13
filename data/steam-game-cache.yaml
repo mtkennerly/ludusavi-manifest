@@ -3175,6 +3175,12 @@
       description: Setup
       executable: trl.exe
 7010:
+  cloud:
+    saves:
+      - path: Project Snowblind
+        pattern: "*.*"
+        recursive: true
+        root: WinMyDocuments
   installDir: Project Snowblind
   launch:
     - executable: Snowblind.exe
@@ -9805,6 +9811,12 @@
   installDir: The Guild 2 Renaissance
   launch:
     - executable: GuildII.exe
+      type: default
+    - config:
+        betakey: " patch_4.6,testgate,patch_4.6_closedbeta"
+      description: Launcher
+      executable: GuildIILauncher.exe
+      type: config
 39690:
   cloud:
     saves:
@@ -121707,12 +121719,12 @@
       executable: dowser
       type: default
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0 1.19.1.0
         oslist: macos
       description: Launch game (skip launcher)
       executable: hoi4.app
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0 1.19.1.0
         oslist: linux
       description: Launch game (skip launcher)
       executable: run_hoi4
@@ -121761,7 +121773,7 @@
       description: Launch game (1.7.1 and older)
       executable: hoi4
     - config:
-        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0
+        betakey: public atlantis_rising atlantis_rising_backup chonky_cats chonky_cats_backup maine_coon maine_coon_backup closed_beta marketing open_beta open_balance_beta preview 1.8.2 1.9.x 1.10.5 1.10.8 1.11.13 1.12.14 1.13.7 1.14.3 1.14.5 1.14.10 1.15.3 1.15.4 1.16.0 1.16.1 1.16.2 1.16.3 1.16.4 1.16.5 1.16.6 1.16.7 1.16.8 1.16.9 1.16.10 1.17.3.0 1.17.5.2 1.18.3.0 1.19.1.0
         oslist: windows
       description: Launch game (skip launcher)
       executable: hoi4.exe
@@ -174790,7 +174802,7 @@
     - executable: "TheBus\\Binaries\\Win64\\TheBus.exe"
       type: default
   nameLocalized:
-    schinese: The Bus - 城市公交模拟
+    schinese: 巴士
 491560:
   installDir: Momonga Pinball Adventures
   launch:
@@ -508498,6 +508510,18 @@
         oslist: linux
       executable: runFireZone.sh
       type: none
+1157850:
+  installDir: Interphase
+  launch:
+    - arguments: "\"INTERPHS.EXE\" -conf \"dosbox_interphase.conf\" -noconsole"
+      config:
+        oslist: windows
+      executable: "dosbox_windows\\dosbox.exe"
+      type: none
+    - config:
+        oslist: linux
+      executable: runInterphase.sh
+      type: none
 1157860:
   installDir: waterloo
   launch:
@@ -564062,6 +564086,14 @@
         oslist: windows
       executable: "dosbox_windows\\dosbox.exe"
       type: none
+1518380:
+  installDir: TheKillingCloud
+  launch:
+    - arguments: "\"KILLING.EXE\" -conf \"dosbox_killingcloud.conf\" -noconsole"
+      config:
+        oslist: windows
+      executable: "dosbox_windows\\dosbox.exe"
+      type: none
 1518770:
   cloud:
     saves:
@@ -589424,7 +589456,12 @@
     - config:
         oslist: windows
       executable: BurnhouseLane.exe
-1846700: {}
+1846700:
+  nameLocalized:
+    japanese: Witchbrook (ウィッチブルック)
+    koreana: Witchbrook (위치브룩)
+    schinese: 巫奇魔法学院 Witchbrook
+    tchinese: 巫奇魔法學院 Witchbrook
 1846920:
   cloud:
     saves:
@@ -603670,8 +603707,8 @@
   cloud:
     saves:
       - path: SeriousSamShatterverse/Saved/SaveGames/
-        pattern: "*.sav"
-        root: gameinstall
+        pattern: "*"
+        root: WinAppDataLocal
   installDir: Serious Sam Shatterverse
   launch:
     - config:
@@ -614532,6 +614569,11 @@
       type: default
   nameLocalized:
     schinese: 霓虹深渊2
+2235230:
+  installDir: Super Cycle
+  launch:
+    - executable: game.exe
+      type: none
 2235340:
   cloud:
     saves:
@@ -638090,6 +638132,30 @@
         oslist: linux
       executable: high-seas.x86_64
 2828710:
+  cloud:
+    saves:
+      - path: ValorMortis/Saved/SaveGames
+        pattern: Autosave0.sav
+        root: WinAppDataLocal
+      - path: ValorMortis/Saved/SaveGames
+        pattern: "*.bak"
+        root: WinAppDataLocal
+      - path: ValorMortis/Saved/SaveGames
+        pattern: "*.sig"
+        root: WinAppDataLocal
+      - path: ValorMortis/Saved/SaveGames
+        pattern: AchievementsSaveGame.sav
+        root: WinAppDataLocal
+      - path: ValorMortis/Saved/SaveGames
+        pattern: UserSettingsSaveGame.sav
+        root: WinAppDataLocal
+  installDir: Valor Mortis
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ValorMortis.exe
+      type: default
   nameLocalized:
     schinese: 不朽遗志 Valor Mortis
 2828860:
@@ -639087,6 +639153,36 @@
   nameLocalized:
     schinese: 鼠鼠餐厅
 2871520:
+  cloud:
+    saves:
+      - path: Behold Studios/Deep Dish Dungeon/
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Library/Application Support/Behold Studios/Deep Dish Dungeon/
+        pattern: "*.*"
+        platforms:
+          - MacOS
+        recursive: true
+        root: MacHome
+      - path: unity3d/Behold Studios/Deep Dish Dungeon/
+        pattern: "*.*"
+        platforms:
+          - Linux
+        recursive: true
+        root: LinuxXdgConfigHome
+  installDir: Deep Dish Dungeon
+  launch:
+    - config:
+        oslist: windows
+      executable: Deep Dish Dungeon.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Deep Dish Dungeon.app
+      type: default
   nameLocalized:
     schinese: 深馅地牢
 2872240: {}
@@ -657435,6 +657531,33 @@
       executable: "Glass Masquerade 4.app\\Contents\\MacOS\\Glass Masquerade 4"
       type: default
 3846830:
+  installDir: Shogun 2 Complete Edition
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: shogun2_complete_edition.exe
+    - config:
+        betakey: "storm, tempest"
+        osarch: "64"
+        oslist: windows
+      description: Wasabi - Legacy Retail
+      executable: shogun2.retail.x64.exe
+      type: option1
+    - config:
+        betakey: "storm, tempest"
+        osarch: "64"
+        oslist: windows
+      description: Wasabi - Legacy Profile
+      executable: shogun2.profile.x64.exe
+      type: option2
+    - config:
+        betakey: "hurricane, pangolin"
+        osarch: "64"
+        oslist: windows
+      description: Wasabi - Legacy Retail
+      executable: shogun2.retail.x64.exe
+      type: option2
   nameLocalized:
     japanese: トータルウォー：ショーグン２ コンプリートエディション
     koreana: "토탈워: 쇼군 2 - 컴플리트 에디션"
@@ -658363,7 +658486,7 @@
   launch:
     - executable: village.exe
     - config:
-        betakey: "test,fornisa,debug"
+        betakey: "test,fornisa,debug,debug1.10,debug1.31"
       description: debug
       executable: villageR.exe
   nameLocalized:
@@ -660747,7 +660870,35 @@
       type: default
   nameLocalized:
     japanese: むちむちポーク！＆ピンクスゥイーツ Boosted
-4231820: {}
+4231820:
+  cloud:
+    saves:
+      - path: "KONAMI/Castlevania Belmont's Curse"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "EvilEmpire/Castlevania Belmont's Curse"
+            replace: "unity.EvilEmpire.Castlevania Belmont's Curse"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "EvilEmpire/Castlevania Belmont's Curse"
+            replace: ".config/unity3d/EvilEmpire/Castlevania Belmont's Curse"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: "Castlevania Belmont's Curse"
+  launch:
+    - executable: "Castlevania Belmont's Curse.exe"
+    - config:
+        ownsdlc: "4740130"
+      description: Digital Sound and Art Gallery
+      executable: "Digital Sound and Art Gallery\\CVBC Digital Sound And Art Gallery.exe"
+      workingdir: Digital Sound and Art Gallery
 4233530:
   installDir: Legacy of Kain Ascendance
   launch:

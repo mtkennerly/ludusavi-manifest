@@ -9,6 +9,7 @@
 * [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
 * [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
+* [Frostpunk 2](https://www.pcgamingwiki.com/wiki/?curid=170738)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
 * [Hela: Of Mice & Magic](https://www.pcgamingwiki.com/wiki/?curid=214162)
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)

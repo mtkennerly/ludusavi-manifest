@@ -18540,9 +18540,11 @@ Atlantis Evolution:
   cloud:
     gog: true
   gog: 1294416884
+  lutris: atlantis-evolution-1
   pageId: 131257
 "Atlantis II: Beyond Atlantis":
   gog: 1207658951
+  lutris: atlantis-2-beyond-atlantis
   pageId: 7732
   steam: 362920
   templates:
@@ -23132,6 +23134,7 @@ Batman Returns:
     - "{{Game data/config|Windows|{{P|game}}\\VideoSettings.txt}}"
     - "{{Game data/saves|Windows|{{P|game}}\\GameData\\SteamSaves\\}}"
 "Batman: Arkham VR":
+  lutris: batman-arkham-vr
   pageId: 60782
   steam: 502820
   templates:
@@ -39965,6 +39968,8 @@ Castlevania Dominus Collection:
     - "{{Game data/saves|Windows|{{P|game}}\\winbackup}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\2369900\\remote\\}}"
 "Castlevania: Belmont's Curse":
+  cloud:
+    steam: true
   lutris: castlevania-belmonts-curse
   pageId: 213723
   steam: 4231820
@@ -69101,6 +69106,7 @@ Draconic Route:
   gog: 1207661573
   gogSide:
     - 1207659251
+  lutris: dracula-3-the-path-of-the-dragon
   pageId: 36416
   steam: 289840
   templates:
@@ -93967,6 +93973,7 @@ Frostpunk 2:
     - 1800456002
     - 1967910805
     - 2072738332
+  malformed: true
   pageId: 170738
   steam: 1601580
   steamSide:
@@ -121312,6 +121319,10 @@ Internet Cafe Simulator:
 Internet Simulator:
   pageId: 82814
   steam: 758050
+Interphase:
+  gog: 1757215264
+  pageId: 221614
+  steam: 1157850
 Interplanetary:
   pageId: 16966
   steam: 278910
@@ -135195,6 +135206,8 @@ Let the Cat in:
 "Let's Play with Nanai!":
   pageId: 146110
   steam: 851350
+"Let's Ride! Corral Club":
+  pageId: 221629
 "Let's Ride! Silver Buckle Stables":
   gog: 2067932503
   pageId: 174762
@@ -147371,6 +147384,8 @@ Melody of Iris:
   lutris: melodys-escape-2
   pageId: 178243
   steam: 1829470
+  steamSide:
+    - 5007770
   templates:
     - "{{Game data/config|Steam|{{p|hkcu}}\\SOFTWARE\\Icetesy\\Melody's Escape 2\\}}"
     - "{{Game data/saves|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Icetesy\\Melody's Escape 2\\}}"
@@ -157042,6 +157057,7 @@ My Racing Career:
 My Riding Stables:
   cloud:
     steam: true
+  lutris: my-riding-stables
   pageId: 51057
   steam: 276300
 "My Riding Stables: Life with Horses":
@@ -159920,7 +159936,7 @@ Necromonads:
   pageId: 49947
   steam: 302390
   templates:
-    - "{{Game data/saves|Windows|{{p|game}}\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 Necronomistore:
   pageId: 134745
   steam: 1063360
@@ -170917,6 +170933,7 @@ Overlord II:
   pageId: 178282
   steam: 1782150
 "Overlord: Fellowship of Evil":
+  lutris: overlord-fellowship-of-evil
   pageId: 35314
   steam: 306670
 Overnight Interview:
@@ -223129,6 +223146,8 @@ Starquake Academy:
 "Starr Mazer: DSP":
   pageId: 36750
   steam: 462100
+Starring Charlie Chaplin:
+  pageId: 221617
 "Starry Nights: Helix":
   pageId: 53876
   steam: 546180
@@ -228664,6 +228683,11 @@ Super Cyborg:
     steam: true
   pageId: 37834
   steam: 341550
+Super Cycle:
+  cloud:
+    steam: true
+  pageId: 221620
+  steam: 2235230
 Super DX-Ball:
   pageId: 151803
   templates:
@@ -232036,18 +232060,6 @@ Syberia:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Syberia/}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Syberia Saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/com.microids.syberia.univ/Data/Library/Application Support/Syberia/}}"
-Syberia - Remastered:
-  cloud:
-    gog: true
-    steam: true
-    xbox: true
-  gog: 1221479835
-  lutris: syberia-remastered
-  pageId: 204663
-  steam: 3660220
-  templates:
-    - "{{Game data/config|Steam|{{P|localappdata}}\\Virtuallyz Gaming\\Syberia - Remastered\\SteamSaves\\settings.dat}}"
-    - "{{Game data/saves|Steam|{{P|localappdata}}\\Virtuallyz Gaming\\Syberia - Remastered\\SteamSaves\\{{P|uid}}\\slot_*.dat}}"
 Syberia 3:
   cloud:
     gog: true
@@ -232075,6 +232087,20 @@ Syberia II:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Containers/com.microids.syberia2.univ/Data/Library/Application Support/Syberia 2/options.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Syberia 2 Saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/com.microids.syberia2.univ/Data/Library/Application Support/Syberia 2/}}"
+"Syberia: Remastered":
+  cloud:
+    gog: true
+    steam: true
+    xbox: true
+  gog: 1221479835
+  lutris: syberia-remastered
+  pageId: 204663
+  renamedFrom:
+    - Syberia - Remastered
+  steam: 3660220
+  templates:
+    - "{{Game data/config|Steam|{{P|localappdata}}\\Virtuallyz Gaming\\Syberia - Remastered\\SteamSaves\\settings.dat}}"
+    - "{{Game data/saves|Steam|{{P|localappdata}}\\Virtuallyz Gaming\\Syberia - Remastered\\SteamSaves\\{{P|uid}}\\slot_*.dat}}"
 "Syberia: The World Before":
   cloud:
     gog: true
@@ -237547,6 +237573,8 @@ The Adventures of Nick & Willikins:
 The Adventures of Perseus:
   pageId: 129829
   steam: 1031590
+The Adventures of Robin Hood:
+  pageId: 221623
 "The Adventures of Sam Carlisle: The Hunt for the Lost Treasure":
   pageId: 74401
   steam: 726500
@@ -244306,6 +244334,10 @@ The Killing Antidote:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TheKillingAntidote\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TheKillingAntidote\\}}"
+The Killing Cloud:
+  gog: 1121778705
+  pageId: 221631
+  steam: 1518380
 The Kindeman Remedy:
   cloud:
     gog: true
@@ -268969,6 +269001,9 @@ Valor Mortis:
   lutris: valor-mortis
   pageId: 207268
   steam: 2828710
+  steamSide:
+    - 4641840
+    - 5250300
 Valor Time:
   pageId: 109292
   steam: 890820

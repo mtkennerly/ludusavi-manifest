@@ -57354,6 +57354,8 @@ Atlantis Evolution:
     gog: true
   gog:
     id: 1294416884
+  id:
+    lutris: atlantis-evolution-1
 "Atlantis II: Beyond Atlantis":
   files:
     "<base>/atlant2.cfg":
@@ -57368,6 +57370,8 @@ Atlantis Evolution:
         - os: windows
   gog:
     id: 1207658951
+  id:
+    lutris: atlantis-2-beyond-atlantis
   installDir:
     Atlantis 2 Beyond Atlantis: {}
   launch:
@@ -71652,6 +71656,8 @@ Batla:
         - save
       when:
         - os: windows
+  id:
+    lutris: batman-arkham-vr
   installDir:
     Batman Arkham VR: {}
   steam:
@@ -122983,10 +122989,30 @@ Castlevania Dominus Collection:
   steam:
     id: 2369900
 "Castlevania: Belmont's Curse":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/KONAMI/Castlevania Belmont's Curse/*.sav":
+      when:
+        - store: steam
+    "<home>/KONAMI/Castlevania Belmont's Curse/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/KONAMI/Castlevania Belmont's Curse/*.sav":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: castlevania-belmonts-curse
     steamExtra:
       - 5000760
+  installDir:
+    "Castlevania Belmont's Curse": {}
+  launch:
+    "<base>/Castlevania Belmont's Curse.exe":
+      - when:
+          - store: steam
   steam:
     id: 4231820
 "Castlevania: Lords of Shadow":
@@ -188487,10 +188513,34 @@ Deep Dark Labyrinth:
 Deep Dark L♂byrinth:
   alias: Deep Dark Labyrinth
 Deep Dish Dungeon:
+  files:
+    "<home>/AppData/LocalLow/Behold Studios/Deep Dish Dungeon/**/*.*":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/Behold Studios/Deep Dish Dungeon/**/*.*":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/Behold Studios/Deep Dish Dungeon/**/*.*":
+      when:
+        - os: linux
+          store: steam
   id:
     lutris: deep-dish-dungeon
     steamExtra:
       - 3618740
+  installDir:
+    Deep Dish Dungeon: {}
+  launch:
+    "<base>/Deep Dish Dungeon.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Deep Dish Dungeon.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2871520
 Deep Diving Simulator:
@@ -212986,6 +213036,7 @@ Draconic Route:
   id:
     gogExtra:
       - 1207659251
+    lutris: dracula-3-the-path-of-the-dragon
   installDir:
     Dracula The Path of the Dragon: {}
   launch:
@@ -372584,6 +372635,23 @@ Internet Simulator:
             store: steam
   steam:
     id: 758050
+Interphase:
+  gog:
+    id: 1757215264
+  installDir:
+    Interphase: {}
+  launch:
+    "<base>/dosbox_windows/dosbox.exe":
+      - arguments: "\"INTERPHS.EXE\" -conf \"dosbox_interphase.conf\" -noconsole"
+        when:
+          - os: windows
+            store: steam
+    "<base>/runInterphase.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1157850
 Interplanetary:
   files:
     "<home>/.TJR/Interplanetary/save":
@@ -451894,6 +451962,8 @@ Melody of Iris:
           store: steam
   id:
     lutris: melodys-escape-2
+    steamExtra:
+      - 5007770
   installDir:
     "Melody's Escape 2": {}
   launch:
@@ -480703,6 +480773,8 @@ My Riding Stables:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: my-riding-stables
   installDir:
     My Riding Stables: {}
   launch:
@@ -522751,6 +522823,8 @@ Overlord II:
   steam:
     id: 1782150
 "Overlord: Fellowship of Evil":
+  id:
+    lutris: overlord-fellowship-of-evil
   installDir:
     OverlordFOE: {}
   launch:
@@ -700476,6 +700550,17 @@ Super Cyborg:
             store: steam
   steam:
     id: 341550
+Super Cycle:
+  cloud:
+    steam: true
+  installDir:
+    Super Cycle: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2235230
 Super DX-Ball:
   files:
     "<winDocuments>/My Games/Super DX-Ball *":
@@ -710812,34 +710897,7 @@ Syberia:
   steam:
     id: 46500
 Syberia - Remastered:
-  cloud:
-    gog: true
-    steam: true
-  files:
-    "<winLocalAppData>/Virtuallyz Gaming/Syberia - Remastered/SteamSaves/<storeUserId>/slot_*.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/Virtuallyz Gaming/Syberia - Remastered/SteamSaves/settings.dat":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: steam
-  gog:
-    id: 1221479835
-  id:
-    lutris: syberia-remastered
-  installDir:
-    Syberia Remastered: {}
-  launch:
-    "<base>/SyberiaHD.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 3660220
+  alias: "Syberia: Remastered"
 Syberia 3:
   cloud:
     gog: true
@@ -710917,6 +710975,35 @@ Syberia II:
             store: steam
   steam:
     id: 46510
+"Syberia: Remastered":
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/Virtuallyz Gaming/Syberia - Remastered/SteamSaves/<storeUserId>/slot_*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Virtuallyz Gaming/Syberia - Remastered/SteamSaves/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1221479835
+  id:
+    lutris: syberia-remastered
+  installDir:
+    Syberia Remastered: {}
+  launch:
+    "<base>/SyberiaHD.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3660220
 "Syberia: The World Before":
   cloud:
     gog: true
@@ -748772,6 +748859,19 @@ The Killing Antidote:
             store: steam
   steam:
     id: 2254890
+The Killing Cloud:
+  gog:
+    id: 1121778705
+  installDir:
+    TheKillingCloud: {}
+  launch:
+    "<base>/dosbox_windows/dosbox.exe":
+      - arguments: "\"KILLING.EXE\" -conf \"dosbox_killingcloud.conf\" -noconsole"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1518380
 The Kindeman Remedy:
   cloud:
     gog: true
@@ -789519,6 +789619,14 @@ Total Tank Simulator:
     steam: true
   gog:
     id: 1688411272
+  installDir:
+    Shogun 2 Complete Edition: {}
+  launch:
+    "<base>/shogun2_complete_edition.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3846830
 "Total War: Shogun 2 - Fall of the Samurai":
@@ -820490,8 +820598,35 @@ Valor & Victory:
 Valor Mortis:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/ValorMortis/Saved/SaveGames/*.bak":
+      when:
+        - store: steam
+    "<winLocalAppData>/ValorMortis/Saved/SaveGames/*.sig":
+      when:
+        - store: steam
+    "<winLocalAppData>/ValorMortis/Saved/SaveGames/AchievementsSaveGame.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/ValorMortis/Saved/SaveGames/Autosave0.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/ValorMortis/Saved/SaveGames/UserSettingsSaveGame.sav":
+      when:
+        - store: steam
   id:
     lutris: valor-mortis
+    steamExtra:
+      - 4641840
+      - 5250300
+  installDir:
+    Valor Mortis: {}
+  launch:
+    "<base>/ValorMortis.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2828710
 Valor Time:
