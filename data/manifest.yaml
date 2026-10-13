@@ -112904,6 +112904,11 @@ CHROMATOSE:
     id: 1003900
 "CIA Operative: Solo Missions":
   files:
+    "<base>/main/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
     "<base>/main/config.cfg":
       tags:
         - config
@@ -397792,6 +397797,10 @@ Klepto:
   steam:
     id: 403590
 Klocki:
+  cloud:
+    steam: true
+  id:
+    lutris: klocki
   installDir:
     klocki: {}
   launch:
@@ -848286,6 +848295,8 @@ Wild Mage - Phantom Twilight:
   steam:
     id: 771770
 Wild Metal Country:
+  id:
+    lutris: wild-metal-country
   installDir:
     Wild Metal Country: {}
   launch:
@@ -851762,6 +851773,19 @@ Witch Blood:
             store: steam
   steam:
     id: 925690
+Witch Cabin Cleanup:
+  installDir:
+    Witch Cabin Cleanup: {}
+  launch:
+    "<base>/WCC.exe":
+      - when:
+          - store: steam
+      - arguments: "-dx11"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4991240
 Witch College:
   installDir:
     Witch College: {}

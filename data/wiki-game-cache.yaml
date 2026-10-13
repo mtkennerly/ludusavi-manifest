@@ -36614,6 +36614,7 @@ CHROMATOSE:
   pageId: 176662
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\main\\config.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\main\\*.sav}}"
 CICADS 3301:
   pageId: 121541
   steam: 953180
@@ -90461,6 +90462,10 @@ Fly!:
   pageId: 221546
 Fly! 2K:
   pageId: 221580
+"Fly! 2K: German Edition":
+  pageId: 221605
+Fly! II:
+  pageId: 221607
 "Fly!: Cessna Over San Francisco - Special Edition":
   pageId: 221577
 "Fly!: Piper and Cessna in San Francisco - Special Edition":
@@ -129704,6 +129709,9 @@ Klepto:
   pageId: 35156
   steam: 403590
 Klocki:
+  cloud:
+    steam: true
+  lutris: klocki
   pageId: 37108
   steam: 499440
   templates:
@@ -278316,6 +278324,7 @@ Wild Mage - Phantom Twilight:
   pageId: 81810
   steam: 771770
 Wild Metal Country:
+  lutris: wild-metal-country
   pageId: 14464
   steam: 12190
   templates:
@@ -279436,6 +279445,9 @@ Witch Blood:
     steam: true
   pageId: 110382
   steam: 925690
+Witch Cabin Cleanup:
+  pageId: 221609
+  steam: 4991240
 Witch College:
   pageId: 164509
   steam: 1116020

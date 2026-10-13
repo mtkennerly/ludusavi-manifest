@@ -21097,6 +21097,9 @@
   launch:
     - description: Start Age of Conan
       executable: ConanPatcher.exe
+    - config:
+        betakey: yourenotquitedead
+      executable: AgeOfConan.exe
 217790:
   cloud:
     saves:
@@ -179754,9 +179757,11 @@
             replace: "Rainbow Train/klocki/{64BitSteamID}"
         root: WinAppDataLocalLow
         useInstead: MacAppSupport
-      - addPath: ".config/unity3d/Rainbow Train/klocki/{64BitSteamID}"
-        os: Linux
+      - os: Linux
         osCompare: "="
+        pathTransforms:
+          - find: "Rainbow Train/klocki/{64BitSteamID}"
+            replace: ".config/unity3d/Rainbow Train/klocki/{64BitSteamID}"
         root: WinAppDataLocalLow
         useInstead: LinuxHome
   installDir: klocki
@@ -662676,6 +662681,16 @@
 4953280: {}
 4980620: {}
 4981370: {}
+4991240:
+  installDir: Witch Cabin Cleanup
+  launch:
+    - description: Default
+      executable: WCC.exe
+    - arguments: "-dx11"
+      config:
+        oslist: windows
+      description: "DX11 (Less Crashes, Worse Graphics)"
+      executable: WCC.exe
 4991330: {}
 5028390:
   installDir: Too Many Toys!
