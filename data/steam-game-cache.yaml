@@ -55837,11 +55837,12 @@
         oslist: windows
       description: Launch
       executable: RimWorldWin.exe
-    - arguments: "-disable-compute-shaders"
-      config:
+    - config:
+        betakey: unstable
         oslist: macos
-      description: Launch
-      executable: RimWorldMac.app
+      description: Play 1.7 Unstable
+      executable: RimWorld.app
+      type: default
     - config:
         betakey: alpha4
         osarch: "64"
@@ -55849,16 +55850,52 @@
       description: RimWorld Alpha 4
       executable: RimWorldWin.exe
       type: none
+    - config:
+        betakey: phoenix
+        osarch: "64"
+        oslist: windows
+      description: Launch - Phoenix
+      executable: RimWorld.exe
+    - config:
+        betakey: phoenix
+        osarch: "64"
+        oslist: linux
+      description: Launch - Phoenix
+      executable: RimWorld
+    - config:
+        betakey: phoenix
+        oslist: macos
+      description: Launch - Phoenix
+      executable: RimWorld.app
+    - arguments: "-disable-compute-shaders"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Launch
+      executable: RimWorldWin64.exe
+    - arguments: "-disable-compute-shaders"
+      config:
+        oslist: macos
+      description: Launch
+      executable: RimWorldMac.app
     - arguments: "-disable-compute-shaders"
       config:
         oslist: linux
       description: Launch
       executable: start_RimWorld.sh
-    - arguments: "-disable-compute-shaders"
-      config:
+    - config:
+        betakey: unstable
+        oslist: linux
+      description: Play 1.7 Unstable
+      executable: RimWorld
+      type: default
+    - config:
+        betakey: unstable
         osarch: "64"
         oslist: windows
-      executable: RimWorldWin64.exe
+      description: Play 1.7 Unstable
+      executable: RimWorld.exe
+      type: default
     - config:
         betakey: beta18
         osarch: "64"
@@ -479315,6 +479352,8 @@
         oslist: macos
       executable: Solasta.app
       type: none
+  nameLocalized:
+    schinese: 索拉斯塔：魔导师之冠
 1096560:
   cloud:
     saves:
@@ -560363,11 +560402,34 @@
         pattern: "*.sav"
         recursive: true
         root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: TheCrust/Saved/SaveGames
+            replace: Epic/TheCrust/Saved/SaveGames
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: TheCrust/Saved/SaveGames
+            replace: ".config/Epic/TheCrust/Saved/SaveGames"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
   installDir: The Crust
   launch:
     - config:
         oslist: windows
       executable: TheCrust.exe
+    - config:
+        oslist: macos
+      executable: TheCrust-Mac-Shipping.app
+      type: default
+    - config:
+        oslist: linux
+      executable: TheCrust.sh
+      type: default
 1465510:
   cloud:
     saves:
@@ -561272,41 +561334,8 @@
       executable: wordle4.exe
       type: default
 1477070:
-  cloud:
-    saves:
-      - path: "MeowNature/Depersonalization-Release/{64BitSteamID}"
-        pattern: "*"
-        recursive: true
-        root: WinAppDataLocalLow
-    overrides:
-      - os: MacOS
-        osCompare: "="
-        pathTransforms:
-          - find: "MeowNature/Depersonalization-Release/{64BitSteamID}"
-            replace: "com.mfzr.Depersonalization/{64BitSteamID}"
-        root: WinAppDataLocalLow
-        useInstead: MacAppSupport
-      - os: Linux
-        osCompare: "="
-        pathTransforms:
-          - find: "MeowNature/Depersonalization-Release/{64BitSteamID}"
-            replace: ".config/unity3d/MeowNature/Depersonalization-Release/{64BitSteamID}"
-        root: WinAppDataLocalLow
-        useInstead: LinuxHome
-  installDir: Depersonalization
-  launch:
-    - config:
-        oslist: windows
-      description: unity的游戏直接启动程序
-      executable: Depersonalization-Release.exe
-      type: default
-    - config:
-        oslist: macos
-      executable: Depersonalization-Release.app
-      type: default
   nameLocalized:
     koreana: 인격해체
-    sc_schinese: 人格解体
     schinese: 人格解体
 1477380: {}
 1477480:
@@ -600388,6 +600417,26 @@
         pattern: "*.timeline"
         recursive: true
         root: gameinstall
+      - path: PlayerData/TotalConversions
+        pattern: "*.save"
+        recursive: true
+        root: gameinstall
+      - path: PlayerData/TotalConversions
+        pattern: "*.autosave"
+        recursive: true
+        root: gameinstall
+      - path: PlayerData/TotalConversions
+        pattern: "*.checkpoint"
+        recursive: true
+        root: gameinstall
+      - path: PlayerData/TotalConversions
+        pattern: "*.timeline"
+        recursive: true
+        root: gameinstall
+      - path: PlayerData/TotalConversions
+        pattern: "*.dat"
+        recursive: true
+        root: gameinstall
   installDir: HeartOfTheMachine
   launch:
     - config:
@@ -601121,102 +601170,19 @@
 2012510:
   installDir: Stormgate
   launch:
-    - arguments: "-noEOS -env ptr -dx12 -login steam"
+    - arguments: "-dx12 -login steam"
       config:
         osarch: "64"
         oslist: windows
       description: Stormgate - Recommended
       executable: Stormgate.exe
       type: option1
-    - arguments: "-env stage -login steam"
-      config:
-        betakey: dev_fetch_old_build
-      description: Stormgate - Stage + DX11
-      executable: start_protected_game.exe
-      type: option1
-    - arguments: "-env stage -login steam"
-      config:
-        betakey: reducedviolence_testing
-      description: Stormgate - Reduced Violence Staging
-      executable: start_protected_game.exe
-      type: option1
-    - arguments: "-noEOS -env stage -login steam"
-      config:
-        betakey: tournament_replay
-        osarch: "64"
-        oslist: windows
-      description: Stormgate - Tournament Replay
-      executable: Stormgate.exe
-      type: option1
-    - arguments: "-env qtr -noEOS -dx12 -login steam"
-      config:
-        betakey: 3v3_playtest
-        osarch: "64"
-        oslist: windows
-      description: Stormgate - 3v3 Playtest
-      executable: Stormgate.exe
-      type: option1
-    - arguments: "-noEOS -env qtr -dx11"
-      config:
-        betakey: launch_preview
-        osarch: "64"
-        oslist: windows
-      description: Stormgate - Launch Preview (DX11)
-      executable: Stormgate.exe
-      type: option1
-    - arguments: "-noEOS -env qtr -dx12"
-      config:
-        betakey: launch_preview
-        osarch: "64"
-        oslist: windows
-      description: Stormgate - Launch Preview (DX12)
-      executable: Stormgate.exe
-      type: option1
-    - arguments: "-noEOS -env ptr -dx12 -ugc"
-      config:
-        betakey: editor_testing
-        osarch: "64"
-        oslist: windows
-      description: Stormgate - Editor Testing (DX12)
-      executable: Stormgate.exe
-      type: option1
-    - arguments: "-noEOS -env ptr -dx12 -ugc"
-      config:
-        betakey: editor_testing
-        osarch: "64"
-        oslist: windows
-      description: Stormgate - Editor Testing (DX11)
-      executable: Stormgate.exe
-      type: option1
-    - arguments: "-noEOS -env ptr -dx11 -login steam"
+    - arguments: "-dx11 -login steam"
       config:
         osarch: "64"
         oslist: windows
       description: Stormgate - DX11
       executable: Stormgate.exe
-      type: option1
-    - arguments: "-env stage -noEOS -dx11 -ugc -login steam"
-      config:
-        betakey: staging_cinnamon
-      description: Stormgate - Stage + DX11
-      executable: Stormgate.exe
-      type: option1
-    - arguments: "-env stage -noEOS -dx12 -login steam"
-      config:
-        betakey: staging_cinnamon
-      description: Stormgate - Stage + DX12
-      executable: Stormgate.exe
-      type: option1
-    - config:
-        betakey: staging_cinnamon
-      description: Stormgate - Custom launch arguments
-      executable: start_protected_game.exe
-      type: option1
-    - arguments: "-env stage -login steam"
-      config:
-        betakey: localization_testing
-      description: Stormgate - Localization Testing
-      executable: start_protected_game.exe
       type: option1
   nameLocalized:
     koreana: 스톰게이트
@@ -628437,7 +628403,12 @@
         oslist: windows
       executable: PleasureParty2.exe
       type: default
-2529960: {}
+2529960:
+  installDir: Alpha Nomos
+  launch:
+    - executable: AlphaNomos.exe
+  nameLocalized:
+    schinese: 音刃法则
 2530170:
   cloud:
     saves:
@@ -633313,6 +633284,13 @@
       type: editor
   nameLocalized:
     russian: Америка на шпалах
+2680280:
+  installDir: PAPERHEAD
+  launch:
+    - executable: PAPERHEAD.exe
+    - arguments: "-force-d3d11"
+      description: IF YOUR GAMES CRASHES ON THE DEFAULT LAUNCH OPTION USE THIS
+      executable: PAPERHEAD.exe
 2680330:
   cloud:
     saves:
@@ -641581,6 +641559,14 @@
   launch:
     - executable: Sexy Futa Mecha Battles of Islands.exe
 2975950:
+  cloud:
+    saves:
+      - path: "Solasta 2/Saved/SaveGames/User_{Steam3AccountID}/"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
   installDir: Solasta 2
   launch:
     - arguments: "-d3d12 -sm6"
@@ -645542,7 +645528,7 @@
   launch:
     - config:
         oslist: windows
-      executable: adfusa.exe
+      executable: adf.exe
 3146520:
   installDir: WEBFISHING
   launch:
@@ -658972,6 +658958,22 @@
       description: Launch in SteamVR
       executable: EXD.exe
       type: vr
+    - arguments: "-dx11 -hmd=SteamVR"
+      config:
+        betakey: closed-beta
+        osarch: "64"
+        oslist: windows
+      description: Play with SteamVR (DirectX 11)
+      executable: EXD.exe
+      type: vr
+    - arguments: "-dx11 -hmd=OpenXRHMD -EXDOpenXROnly -DisablePlugins=OculusOpenXR"
+      config:
+        betakey: closed-beta
+        osarch: "64"
+        oslist: windows
+      description: Play with OpenXR (DirectX 11)
+      executable: EXD.exe
+      type: openxr
 3965750:
   nameLocalized:
     japanese: DEBUG NEPHEMEE -デバッグネフェミー-
@@ -660204,6 +660206,22 @@
         oslist: windows
       executable: BoardFall.exe
       type: default
+4152490:
+  installDir: Spy Drops Prologue
+  launch:
+    - config:
+        oslist: windows
+      executable: SpyDropsGaiden.exe
+    - config:
+        oslist: linux
+      executable: SpyDropsGaiden.x86_64
+    - config:
+        oslist: macos
+      executable: SpyDropsGaiden.app/Contents/MacOS/SpyDropsGaiden
+  nameLocalized:
+    japanese: スパイドロップス　外伝
+    schinese: 间谍密令外传 Spy Drops Gaiden
+    tchinese: 間諜密令外传 Spy Drops Gaiden
 4153760: {}
 4157130:
   cloud:
@@ -662734,5 +662752,6 @@
 5233100: {}
 5244970: {}
 5342930: {}
+5396900: {}
 34004563: {}
 3221903386: {}

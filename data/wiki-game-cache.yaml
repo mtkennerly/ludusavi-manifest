@@ -11819,7 +11819,15 @@ American Truck Simulator:
 American VR Coasters:
   pageId: 65006
   steam: 610260
-"Amerzone - The Explorer's Legacy (2025)":
+"Amerzone: The Explorer's Legacy":
+  gog: 1207658847
+  lutris: amerzone-the-explorers-legacy
+  pageId: 7549
+  steam: 302190
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Launch\\Settings.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Saved_*.bin}}"
+"Amerzone: The Explorer's Legacy (2025)":
   cloud:
     epic: true
     gog: true
@@ -11833,19 +11841,12 @@ American VR Coasters:
   renamedFrom:
     - "Amerzone: The Explorer's Legacy (2024)"
     - "Amerzone - The Explorer's Legacy (2024)"
+    - "Amerzone - The Explorer's Legacy (2025)"
   steam: 2429190
   steamSide:
     - 3544420
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Microids Studio Paris\\Amerzone\\Saves\\{{p|uid}}\\}}"
-"Amerzone: The Explorer's Legacy":
-  gog: 1207658847
-  lutris: amerzone-the-explorers-legacy
-  pageId: 7549
-  steam: 302190
-  templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Launch\\Settings.ini}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\Saved_*.bin}}"
 Amethlion:
   pageId: 108100
   steam: 915820
@@ -67266,6 +67267,9 @@ Dokimon Quest:
   steamSide:
     - 3236490
     - 3314520
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\dokimon\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\dokimon\\}}"
 Dokkaebi Hentai Adventures:
   pageId: 87131
   steam: 805500
@@ -90453,6 +90457,12 @@ Fly to KUMA MAKER:
   steam: 517860
 Fly!:
   pageId: 221546
+Fly! 2K:
+  pageId: 221580
+"Fly!: Cessna Over San Francisco - Special Edition":
+  pageId: 221577
+"Fly!: Piper and Cessna in San Francisco - Special Edition":
+  pageId: 221584
 "Fly'N":
   pageId: 38462
   steam: 223730
@@ -92251,6 +92261,28 @@ Forza Horizon 4:
   lutris: forza-horizon-4
   pageId: 97177
   steam: 1293830
+  steamSide:
+    - 1443010
+    - 1443011
+    - 1443012
+    - 1443013
+    - 1443014
+    - 1443015
+    - 1443016
+    - 1443017
+    - 1443018
+    - 1443019
+    - 1443020
+    - 1443021
+    - 1443022
+    - 1443023
+    - 1443024
+    - 1443025
+    - 1443026
+    - 1443027
+    - 1443028
+    - 1443029
+    - 1443040
   templates:
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.SunriseBaseGame_8wekyb3d8bbwe\\TempState\\scratch\\User_PCLocalStorageDirectory\\ConnectedStorage\\ForzaUserConfigSelections\\}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\ForzaHorizon4\\User_PCLocalStorageDirectory\\ConnectedStorage\\ForzaUserConfigSelections\\}}"
@@ -92262,6 +92294,18 @@ Forza Horizon 5:
     xbox: true
   pageId: 169274
   steam: 1551360
+  steamSide:
+    - 1613280
+    - 1613281
+    - 1613282
+    - 1613283
+    - 1613284
+    - 1613285
+    - 1648020
+    - 1764060
+    - 1764061
+    - 1764062
+    - 1764063
   templates:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.624F8B84B80_8wekyb3d8bbwe\\LocalCache\\Local\\User_GamingLocalStorageDirectory\\ConnectedStorage\\ForzaUserConfigSelections\\UserConfigSelections}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\ForzaHorizon5\\User_SteamLocalStorageDirectory\\ConnectedStorage\\ForzaUserConfigSelections\\}}"
@@ -108285,8 +108329,12 @@ Heart of the Machine:
     gog: true
     steam: true
   gog: 1576750056
+  gogSide:
+    - 1680347485
   pageId: 214383
   steam: 2001070
+  steamSide:
+    - 4565610
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\PlayerData\\Settings\\*.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\PlayerData\\Saves\\*.save|{{p|game}}\\PlayerData\\Saves\\*.autosave|{{p|game}}\\PlayerData\\Saves\\*.checkpoint|{{p|game}}\\PlayerData\\Saves\\*.timeline}}"
@@ -134607,20 +134655,6 @@ Leila:
     steam: true
   pageId: 66486
   steam: 664640
-Leisure Suit Larry - Wet Dreams Dry Twice:
-  cloud:
-    gog: true
-    steam: true
-  gog: 2147483119
-  gogSide:
-    - 2118773017
-  pageId: 162416
-  steam: 1373430
-  steamSide:
-    - 1432870
-  templates:
-    - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Dry Twice}}"
-    - "{{Game data/saves|Windows|{{p|HKCU}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Dry Twice\\savegames}}"
 "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work":
   cloud:
     gog: true
@@ -134751,9 +134785,29 @@ Leisure Suit Larry in the Land of the Lounge Lizards:
   steamSide:
     - 938590
     - 975530
+    - 1460880
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Don't Dry\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Don't Dry\\savegames\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Don't Dry\\savegames\\}}"
+"Leisure Suit Larry: Wet Dreams Dry Twice":
+  cloud:
+    gog: true
+    steam: true
+  gog: 2147483119
+  gogSide:
+    - 2118773017
+  lutris: leisure-suit-larry-wet-dreams-dry-twice
+  pageId: 162416
+  renamedFrom:
+    - Leisure Suit Larry - Wet Dreams Dry Twice
+  steam: 1373430
+  steamSide:
+    - 1432870
+    - 1452390
+    - 1452430
+  templates:
+    - "{{Game data/config|Windows|{{p|HKCU}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Dry Twice}}"
+    - "{{Game data/saves|Windows|{{p|HKCU}}\\Software\\Assemble Entertainment\\Leisure Suit Larry - Wet Dreams Dry Twice\\savegames}}"
 Leisure Town:
   pageId: 108372
   steam: 920510
@@ -138157,6 +138211,8 @@ Loopmancer:
 Loops of Zen:
   pageId: 68076
   steam: 563710
+Loopz:
+  pageId: 221575
 Loot Box Achievement Simulator:
   pageId: 100306
   steam: 877820
@@ -152594,6 +152650,8 @@ Monopoly Tycoon:
 "Monopoly: Star Wars - Heroes vs. Villains":
   pageId: 216112
   steam: 3936610
+"Monopoly: World Cup France 98 Edition":
+  pageId: 221572
 Monovert DX:
   pageId: 130070
   steam: 1033130
@@ -157371,6 +157429,7 @@ Mysterious Insects:
   pageId: 80633
   steam: 760240
 "Mysterious Journey II: Chameleon":
+  gog: 1334820000
   lutris: mysterious-journey-ii-chameleon
   pageId: 75390
   templates:
@@ -170004,6 +170063,8 @@ Out of Sight:
   steam: 2526310
   steamSide:
     - 4054300
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\OutOfSight\\Saved}}"
 Out of Sight VR:
   cloud:
     steam: true
@@ -172871,6 +172932,16 @@ Papercraft:
   steam: 905660
   steamSide:
     - 905660
+Paperhead:
+  cloud:
+    steam: true
+  lutris: paperhead
+  pageId: 221587
+  steam: 2680280
+  steamSide:
+    - 2682750
+    - 5113440
+    - 5113460
 "Papers, Please":
   cloud:
     steam: true
@@ -180068,6 +180139,7 @@ Pool of Radiance:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE\\}}"
 "Pool of Radiance: Ruins of Myth Drannor":
   gog: 1405279681
+  lutris: pool-of-radiance-ruins-of-myth-drannor
   pageId: 157681
   steam: 4834760
   templates:
@@ -211710,6 +211782,9 @@ Sky Flight:
 Sky Force Anniversary:
   cloud:
     steam: true
+  gog: 2008603289
+  gogSide:
+    - 1783450385
   lutris: sky-force-anniversary
   pageId: 37680
   steam: 355050
@@ -211720,7 +211795,11 @@ Sky Force Anniversary:
     - "{{Game data/saves|Windows|{{p|steam}}/UserData/{{p|uid}}/355050/remote/CloudData.dat}}"
 Sky Force Reloaded:
   cloud:
+    gog: true
     steam: true
+  gog: 1513590615
+  gogSide:
+    - 2093321210
   pageId: 66482
   steam: 667600
   templates:
@@ -220452,6 +220531,11 @@ Spy Chameleon - RGB Agent:
 Spy DNA:
   pageId: 153712
   steam: 614730
+Spy Drops Gaiden:
+  pageId: 221581
+  steam: 4152490
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Rainy Frog Ltd\\SpyDropsGaiden}}"
 "Spy Fox 2: Some Assembly Required":
   cloud:
     steam: true
@@ -236152,6 +236236,7 @@ Terminal Velocity:
   cloud:
     gog: true
   gog: 1207659136
+  lutris: terminal-velocity
   pageId: 13600
   steam: 358370
   templates:
@@ -236792,6 +236877,7 @@ Test Drive Unlimited Solar Crown:
 "Test Drive: Off-Road 2":
   pageId: 215748
 "Test Drive: Off-Road 3":
+  lutris: test-drive-off-road-3
   pageId: 120492
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\tdor3.cfg}}"
@@ -251476,6 +251562,9 @@ The Underground Watcher/地下监察员:
 The Undying Plague:
   pageId: 48236
   steam: 349440
+The Unfinished Horror Game:
+  pageId: 221570
+  steam: 5396900
 The Unfinished Swan:
   cloud:
     epic: true
@@ -256871,6 +256960,7 @@ Tonka Construction:
   pageId: 177121
   templates:
     - "{{Game data/config|Windows|{{p|windir}}/Tonka.ini}}"
+    - "{{Game data/saves|Windows|{{p|windir}}/Tonka.ini}}"
 Tonka Construction 2:
   pageId: 221350
 "Tonka Dig'n Rigs":
@@ -256887,6 +256977,8 @@ Tonka Raceway:
   pageId: 221364
 Tonka Search & Rescue:
   pageId: 198238
+  templates:
+    - "{{Game data/config|Mac OS}}"
 Tonka Search & Rescue 2:
   pageId: 221374
 Tonka Space Station:
