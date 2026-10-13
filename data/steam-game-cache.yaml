@@ -661934,6 +661934,11 @@
       executable: SiNiSistar2.app
 4475520: {}
 4484200: {}
+4485020:
+  installDir: The Crimson Hunt
+  launch:
+    - executable: The Crimson Hunt.exe
+      type: default
 4487840:
   cloud:
     saves:

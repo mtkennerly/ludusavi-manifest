@@ -371588,6 +371588,8 @@ Inspector - 生化战警:
   steam:
     id: 1153710
 "Inspector Gadget: Mad Time Party":
+  cloud:
+    gog: true
   installDir:
     Inspector Gadget - Mad Time Party: {}
   launch:
@@ -735375,6 +735377,19 @@ The Crimson Diamond:
             store: steam
   steam:
     id: 1098770
+The Crimson Hunt:
+  id:
+    lutris: the-crimson-hunt
+    steamExtra:
+      - 4662870
+  installDir:
+    The Crimson Hunt: {}
+  launch:
+    "<base>/The Crimson Hunt.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4485020
 The Crimson Maid:
   cloud:
     epic: true

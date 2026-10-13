@@ -61991,6 +61991,8 @@ Deliverace:
 Deliverance:
   pageId: 46645
   steam: 397200
+Deliverance (1993):
+  pageId: 221597
 Delivered!:
   pageId: 135212
   steam: 1049630
@@ -121024,6 +121026,8 @@ Inspector - 生化战警:
   pageId: 149242
   steam: 1153710
 "Inspector Gadget: Mad Time Party":
+  cloud:
+    gog: true
   pageId: 189745
   steam: 2409500
 "Inspector Gadget: Mission 1 – Global Terror!":
@@ -206176,6 +206180,8 @@ Sexy Space Airlines:
 SexyHub ❤️:
   pageId: 157285
   steam: 1063800
+Seymour Goes to Hollywood:
+  pageId: 221599
 Sfinx:
   pageId: 147190
   templates:
@@ -239893,6 +239899,12 @@ The Crimson Diamond:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\Saved Games\\The Crimson Diamond - Full Game v1.0\\acsetup.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\The Crimson Diamond - Full Game v1.0\\}}"
+The Crimson Hunt:
+  lutris: the-crimson-hunt
+  pageId: 221601
+  steam: 4485020
+  steamSide:
+    - 4662870
 The Crimson Maid:
   cloud:
     epic: true
