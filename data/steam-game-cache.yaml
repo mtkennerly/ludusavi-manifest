@@ -12610,91 +12610,91 @@
         oslist: windows
       description: English
       executable: scummvm.exe
-    - arguments: "-c language-select.ini riven"
+    - arguments: "-i language-select.ini riven"
       config:
         osarch: "64"
         oslist: windows
       description: English
       executable: scummvm.exe
       type: default
-    - arguments: "-c bundle:/language-select.ini riven"
+    - arguments: "-i bundle:/language-select.ini riven"
       config:
         oslist: macos
       description: "English "
       executable: Riven The Sequel to Myst.app
-    - arguments: "-c language-select.ini riven-fr"
+    - arguments: "-i language-select.ini riven-fr"
       config:
         osarch: "64"
         oslist: windows
       description: Français (French)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini riven-fr"
+    - arguments: "-i bundle:/language-select.ini riven-fr"
       config:
         oslist: macos
       description: Français (French)
       executable: Riven The Sequel to Myst.app
-    - arguments: "-c language-select.ini riven-de"
+    - arguments: "-i language-select.ini riven-de"
       config:
         osarch: "64"
         oslist: windows
       description: Deutsch (German)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini riven-de"
+    - arguments: "-i bundle:/language-select.ini riven-de"
       config:
         oslist: macos
       description: Deutsch (German)
       executable: Riven The Sequel to Myst.app
-    - arguments: "-c language-select.ini riven-it"
+    - arguments: "-i language-select.ini riven-it"
       config:
         osarch: "64"
         oslist: windows
       description: Italiano (Italian)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini riven-it"
+    - arguments: "-i bundle:/language-select.ini riven-it"
       config:
         oslist: macos
       description: Italiano (Italian)
       executable: Riven The Sequel to Myst.app
-    - arguments: "-c language-select.ini riven-jp"
+    - arguments: "-i language-select.ini riven-jp"
       config:
         osarch: "64"
         oslist: windows
       description: 日本語 (Japanese)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini riven-jp"
+    - arguments: "-i bundle:/language-select.ini riven-jp"
       config:
         oslist: macos
       description: 日本語 (Japanese)
       executable: Riven The Sequel to Myst.app
-    - arguments: "-c language-select.ini riven-es"
+    - arguments: "-i language-select.ini riven-es"
       config:
         osarch: "64"
         oslist: windows
       description: Español (Spanish)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini riven-es"
+    - arguments: "-i bundle:/language-select.ini riven-es"
       config:
         oslist: macos
       description: Español (Spanish)
       executable: Riven The Sequel to Myst.app
-    - arguments: "-c language-select.ini riven-pl"
+    - arguments: "-i language-select.ini riven-pl"
       config:
         osarch: "64"
         oslist: windows
       description: Polski (Polish)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini riven-pl"
+    - arguments: "-i bundle:/language-select.ini riven-pl"
       config:
         oslist: macos
       description: Polski (Polish)
       executable: Riven The Sequel to Myst.app
-    - arguments: "-c language-select.ini riven-ru"
+    - arguments: "-i language-select.ini riven-ru"
       config:
         osarch: "64"
         oslist: windows
       description: Pусский (Russian)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini riven-ru"
+    - arguments: "-i bundle:/language-select.ini riven-ru"
       config:
         oslist: macos
       description: Pусский (Russian)
@@ -12759,59 +12759,59 @@
         useInstead: MacAppSupport
   installDir: Myst Masterpiece
   launch:
-    - arguments: "-c language-select.ini myst-me"
+    - arguments: "-i language-select.ini myst-me"
       config:
         osarch: "64"
         oslist: windows
       description: English
       executable: scummvm.exe
       type: default
-    - arguments: "-c bundle:/language-select.ini myst-me"
+    - arguments: "-i bundle:/language-select.ini myst-me"
       config:
         oslist: macos
       description: English
       executable: Myst Masterpiece Edition.app
       type: default
-    - arguments: "-c language-select.ini myst-me-fr"
+    - arguments: "-i language-select.ini myst-me-fr"
       config:
         osarch: "64"
         oslist: windows
       description: Français (French)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst-me-fr"
+    - arguments: "-i bundle:/language-select.ini myst-me-fr"
       config:
         oslist: macos
       description: Français (French)
       executable: Myst Masterpiece Edition.app
-    - arguments: "-c language-select.ini myst-me-es"
+    - arguments: "-i language-select.ini myst-me-es"
       config:
         osarch: "64"
         oslist: windows
       description: Español (Spanish)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst-me-es"
+    - arguments: "-i bundle:/language-select.ini myst-me-es"
       config:
         oslist: macos
       description: Español (Spanish)
       executable: Myst Masterpiece Edition.app
-    - arguments: "-c language-select.ini myst-me-de"
+    - arguments: "-i language-select.ini myst-me-de"
       config:
         osarch: "64"
         oslist: windows
       description: Deutsch (German)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst-me-de"
+    - arguments: "-i bundle:/language-select.ini myst-me-de"
       config:
         oslist: macos
       description: Deutsch (German)
       executable: Myst Masterpiece Edition.app
-    - arguments: "-c language-select.ini myst-me-pl"
+    - arguments: "-i language-select.ini myst-me-pl"
       config:
         osarch: "64"
         oslist: windows
       description: Polski (Polish)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst-me-pl"
+    - arguments: "-i bundle:/language-select.ini myst-me-pl"
       config:
         oslist: macos
       description: Polski (Polish)
@@ -401340,70 +401340,70 @@
         oslist: windows
       description: English
       executable: residualvm.exe
-    - arguments: "-c language-select.ini myst3-win"
+    - arguments: "-i language-select.ini myst3-win"
       config:
         osarch: "64"
         oslist: windows
       description: English
       executable: scummvm.exe
       type: default
-    - arguments: "-c bundle:/language-select.ini myst3-win"
+    - arguments: "-i bundle:/language-select.ini myst3-win"
       config:
         oslist: macos
       description: English
       executable: Myst III Exile.app
       type: default
-    - arguments: "-c language-select.ini myst3-win-fr"
+    - arguments: "-i language-select.ini myst3-win-fr"
       config:
         osarch: "64"
         oslist: windows
       description: Français (French)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst3-win-fr"
+    - arguments: "-i bundle:/language-select.ini myst3-win-fr"
       config:
         oslist: macos
       description: Français (French)
       executable: Myst III Exile.app
-    - arguments: "-c language-select.ini myst3-win-de"
+    - arguments: "-i language-select.ini myst3-win-de"
       config:
         osarch: "64"
         oslist: windows
       description: Deutsch (German)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst3-win-de"
+    - arguments: "-i bundle:/language-select.ini myst3-win-de"
       config:
         oslist: macos
       description: Deutsch (German)
       executable: Myst III Exile.app
-    - arguments: "-c language-select.ini myst3-win-nl"
+    - arguments: "-i language-select.ini myst3-win-nl"
       config:
         osarch: "64"
         oslist: windows
       description: Dutch (Netherlands)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst3-win-nl"
+    - arguments: "-i bundle:/language-select.ini myst3-win-nl"
       config:
         oslist: macos
       description: Dutch (Netherlands)
       executable: Myst III Exile.app
-    - arguments: "-c language-select.ini myst3-win-it"
+    - arguments: "-i language-select.ini myst3-win-it"
       config:
         osarch: "64"
         oslist: windows
       description: Italiano (Italian)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst3-win-it"
+    - arguments: "-i bundle:/language-select.ini myst3-win-it"
       config:
         oslist: macos
       description: Italiano (Italian)
       executable: Myst III Exile.app
-    - arguments: "-c language-select.ini myst3-win-es"
+    - arguments: "-i language-select.ini myst3-win-es"
       config:
         osarch: "64"
         oslist: windows
       description: Español (Spanish)
       executable: scummvm.exe
-    - arguments: "-c bundle:/language-select.ini myst3-win-es"
+    - arguments: "-i bundle:/language-select.ini myst3-win-es"
       config:
         oslist: macos
       description: Español (Spanish)
@@ -555576,6 +555576,7 @@
     - arguments: en
       description: Launch Configuration Tool
       executable: ConfigurationTool.exe
+      type: config
 1420300:
   cloud:
     saves:
@@ -638175,7 +638176,7 @@
       executable: ValorMortis.exe
       type: default
   nameLocalized:
-    schinese: 不朽遗志 Valor Mortis
+    schinese: 不朽遗志
 2828860:
   cloud:
     saves:
@@ -640595,6 +640596,53 @@
       executable: MONOPOLY.exe
       type: default
 2929250:
+  cloud:
+    saves:
+      - path: My Games/over the hill/Saves
+        pattern: "*.json"
+        root: WinMyDocuments
+      - path: My Games/over the hill/Saves/FogOfWar
+        pattern: "*.fow"
+        root: WinMyDocuments
+      - path: My Games/over the hill/Saves/Animals
+        pattern: "*.png"
+        root: WinMyDocuments
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinMyDocuments
+        useInstead: MacHome
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinMyDocuments
+        useInstead: LinuxHome
+  installDir: over the hill
+  launch:
+    - config:
+        betakey: "legacy-pun2 "
+        osarch: "64"
+        oslist: windows
+      description: Use this for the legacy build
+      executable: Overlander.exe
+      type: default
+    - arguments: "-msTessOnce 1"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: over the hill.exe
+      type: default
+    - config:
+        betakey: macos
+        oslist: macos
+      executable: over the hill.app
+      type: default
+    - arguments: "-msTessOnce 1"
+      config:
+        oslist: linux
+      executable: over the hill.x86_64
+      type: default
   nameLocalized:
     schinese: 越过山丘 over the hill
 2929290:
@@ -645204,7 +645252,28 @@
   installDir: NBA BOUNCE
   launch:
     - executable: NBA Bounce.exe
-3115160: {}
+3115160:
+  cloud:
+    saves:
+      - path: "Boltgun2/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+      - path: "Boltgun2/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Boltgun2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Boltgun2.exe
+      type: default
+  nameLocalized:
+    schinese: 战锤40K：爆矢枪2
 3115220:
   cloud:
     saves:

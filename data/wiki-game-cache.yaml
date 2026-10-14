@@ -13985,6 +13985,8 @@ Anubis Dungeon:
   steam: 756870
 Anubis II:
   pageId: 202358
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}/SaveGame}}"
 "Anubis' Challenge":
   pageId: 121936
   steam: 971130
@@ -31368,6 +31370,8 @@ Boardfall:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\BoardFall\\*.txt}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\BoardFall\\}}"
+Boards and Blades 2:
+  pageId: 221699
 Boardwalk Carnival Game:
   pageId: 144496
   steam: 1140950
@@ -39167,6 +39171,11 @@ Carnal Instinct:
 Carnival Ball:
   pageId: 68348
   steam: 676300
+"Carnival Cruise Lines Tycoon 2005: Island Hopping":
+  pageId: 221709
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\settings.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\data\\profiles\\{{p|uid}}.ini}}"
 Carnival Games:
   cloud:
     epic: true
@@ -77651,6 +77660,7 @@ Empire of the Gods:
   pageId: 44808
   steam: 436140
 "Empire: Total War":
+  lutris: empire-total-war
   pageId: 253
   steam: 10500
   steamSide:
@@ -82384,6 +82394,8 @@ Extreme Assault:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\INIT.CFG|{{p|game}}\\SETUP.INI}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME}}"
+Extreme Boards & Blades:
+  pageId: 221703
 Extreme Burger Defense:
   pageId: 186802
   templates:
@@ -82917,6 +82929,8 @@ F29 Retaliator:
   pageId: 16940
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\}}"
+F40 Pursuit Simulator:
+  pageId: 221690
 FAITH:
   pageId: 146578
   templates:
@@ -88527,6 +88541,8 @@ Fire:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Daedalic Entertainment GmbH\\Fire\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Saves\\{{P|uid}}\\}}"
+Fire & Forget:
+  pageId: 221713
 Fire & Forget - The Final Assault:
   pageId: 59755
   steam: 404290
@@ -108333,8 +108349,8 @@ Heart of Eternity:
   pageId: 209265
   steam: 3863600
   templates:
-    - "{{Game data/config|Windows|C:\\Users\\(USERNAME)\\Documents\\Ñåðäöå Âå÷íîñòè\\conf.cfg}}"
-    - "{{Game data/saves|Windows|C:\\Users\\(USERNAME)\\Documents\\Ñåðäöå Âå÷íîñòè}}"
+    - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Ñåðäöå Âå÷íîñòè\\conf.cfg}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Ñåðäöå Âå÷íîñòè}}"
 Heart of Evil:
   pageId: 206636
 "Heart of Moon : The Mask of Seasons":
@@ -108593,6 +108609,8 @@ Heave Ho 2:
     steam: true
   pageId: 214360
   steam: 2802740
+Heaven & Earth:
+  pageId: 221707
 Heaven & Hell (2003):
   pageId: 92471
   renamedFrom:
@@ -145770,8 +145788,14 @@ Matchbox Driving Adventures:
   steam: 2322330
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Casual Brothers\\Matchbox\\Matchbox}}"
+"Matchbox: Cross Town Heroes":
+  pageId: 221695
 "Matchbox: Deep Sea Explorer":
   pageId: 220978
+"Matchbox: Emergency Patrol":
+  pageId: 221692
+"Matchbox: Rescue Rigs":
+  pageId: 221697
 "Matchpoint: Tennis Championships":
   cloud:
     steam: true
@@ -159214,6 +159238,7 @@ Napoleon 1813:
   pageId: 212149
   steam: 4253970
 "Napoleon: Total War":
+  lutris: napoleon-total-war
   pageId: 4456
   steam: 34030
   steamSide:
@@ -170681,10 +170706,18 @@ Over the Hedge:
 Over the Hill:
   cloud:
     steam: true
+  lutris: over-the-hill
   pageId: 205758
   renamedFrom:
     - Over the hill
   steam: 2929250
+  steamSide:
+    - 5147400
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\documents}}\\My Games\\over the hill\\Settings}}"
+    - "{{Game data/config|Linux|{{P|linuxhome}}/My Games/over the hill/Settings}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\documents}}\\My Games\\over the hill\\Saves}}"
+    - "{{Game data/saves|Linux|{{P|linuxhome}}/My Games/over the hill/Saves}}"
 OverKill:
   pageId: 74860
   steam: 740950
@@ -188666,6 +188699,14 @@ Ratatan:
   lutris: ratatan
   pageId: 208754
   steam: 2949320
+  steamSide:
+    - 3369960
+    - 3449820
+    - 3540170
+    - 4838850
+    - 4838860
+    - 4838880
+    - 4838890
   templates:
     - "{{Game data/config|Windows|%localappdata%low\\RatataArts\\Ratatan}}"
     - "{{Game data/saves|Windows|%localappdata%low\\RatataArts\\Ratatan}}"

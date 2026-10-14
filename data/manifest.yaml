@@ -43782,6 +43782,13 @@ Antz Extreme Racing:
 Anubis Dungeon:
   steam:
     id: 756870
+Anubis II:
+  files:
+    "<base>/SaveGame":
+      tags:
+        - save
+      when:
+        - os: windows
 "Anubis' Challenge":
   files:
     "<base>/Save/*.save":
@@ -120590,6 +120597,18 @@ Carnal Instinct:
 Carnival Ball:
   steam:
     id: 676300
+"Carnival Cruise Lines Tycoon 2005: Island Hopping":
+  files:
+    "<base>/data/profiles/<storeUserId>.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
 Carnival Games:
   cloud:
     epic: true
@@ -239364,6 +239383,7 @@ Empire of the Gods:
       when:
         - os: linux
   id:
+    lutris: empire-total-war
     steamExtra:
       - 10600
       - 10601
@@ -332321,12 +332341,12 @@ Heart of Ember CH1:
     id: 382320
 Heart of Eternity:
   files:
-    "C:/Users/(USERNAME)/Documents/Ñåðäöå Âå÷íîñòè":
+    "<winDocuments>/Ñåðäöå Âå÷íîñòè":
       tags:
         - save
       when:
         - os: windows
-    "C:/Users/(USERNAME)/Documents/Ñåðäöå Âå÷íîñòè/conf.cfg":
+    "<winDocuments>/Ñåðäöå Âå÷íîñòè/conf.cfg":
       tags:
         - config
       when:
@@ -481870,48 +481890,48 @@ Myst:
     Myst Masterpiece: {}
   launch:
     "<base>/Myst Masterpiece Edition.app":
-      - arguments: "-c bundle:/language-select.ini myst-me"
+      - arguments: "-i bundle:/language-select.ini myst-me"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst-me-fr"
+      - arguments: "-i bundle:/language-select.ini myst-me-fr"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst-me-es"
+      - arguments: "-i bundle:/language-select.ini myst-me-es"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst-me-de"
+      - arguments: "-i bundle:/language-select.ini myst-me-de"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst-me-pl"
+      - arguments: "-i bundle:/language-select.ini myst-me-pl"
         when:
           - os: mac
             store: steam
     "<base>/scummvm.exe":
-      - arguments: "-c language-select.ini myst-me"
+      - arguments: "-i language-select.ini myst-me"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst-me-fr"
+      - arguments: "-i language-select.ini myst-me-fr"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst-me-es"
+      - arguments: "-i language-select.ini myst-me-es"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst-me-de"
+      - arguments: "-i language-select.ini myst-me-de"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst-me-pl"
+      - arguments: "-i language-select.ini myst-me-pl"
         when:
           - bit: 64
             os: windows
@@ -481993,57 +482013,57 @@ Myst (upcoming):
     Myst III Exile: {}
   launch:
     "<base>/Myst III Exile.app":
-      - arguments: "-c bundle:/language-select.ini myst3-win"
+      - arguments: "-i bundle:/language-select.ini myst3-win"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst3-win-fr"
+      - arguments: "-i bundle:/language-select.ini myst3-win-fr"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst3-win-de"
+      - arguments: "-i bundle:/language-select.ini myst3-win-de"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst3-win-nl"
+      - arguments: "-i bundle:/language-select.ini myst3-win-nl"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst3-win-it"
+      - arguments: "-i bundle:/language-select.ini myst3-win-it"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini myst3-win-es"
+      - arguments: "-i bundle:/language-select.ini myst3-win-es"
         when:
           - os: mac
             store: steam
     "<base>/scummvm.exe":
-      - arguments: "-c language-select.ini myst3-win"
+      - arguments: "-i language-select.ini myst3-win"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst3-win-fr"
+      - arguments: "-i language-select.ini myst3-win-fr"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst3-win-de"
+      - arguments: "-i language-select.ini myst3-win-de"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst3-win-nl"
+      - arguments: "-i language-select.ini myst3-win-nl"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst3-win-it"
+      - arguments: "-i language-select.ini myst3-win-it"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini myst3-win-es"
+      - arguments: "-i language-select.ini myst3-win-es"
         when:
           - bit: 64
             os: windows
@@ -487355,6 +487375,7 @@ Napoleon 1813:
       when:
         - os: windows
   id:
+    lutris: napoleon-total-war
     steamExtra:
       - 34170
       - 34171
@@ -500263,10 +500284,6 @@ No More Heroes:
   installDir:
     No More Heroes: {}
   launch:
-    "<base>/ConfigurationTool.exe":
-      - arguments: en
-        when:
-          - store: steam
     "<base>/nmh.exe":
       - when:
           - os: windows
@@ -522005,6 +522022,45 @@ Over the Hedge:
 Over the Hill:
   cloud:
     steam: true
+  files:
+    "<home>/My Games/over the hill/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/My Games/over the hill/Settings":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<winDocuments>/My Games/over the hill/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/over the hill/Settings":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: over-the-hill
+    steamExtra:
+      - 5147400
+  installDir:
+    over the hill: {}
+  launch:
+    "<base>/over the hill.exe":
+      - arguments: "-msTessOnce 1"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/over the hill.x86_64":
+      - arguments: "-msTessOnce 1"
+        when:
+          - os: linux
+            store: steam
   steam:
     id: 2929250
 OverKill:
@@ -577287,6 +577343,14 @@ Ratatan:
         - os: windows
   id:
     lutris: ratatan
+    steamExtra:
+      - 3369960
+      - 3449820
+      - 3540170
+      - 4838850
+      - 4838860
+      - 4838880
+      - 4838890
   installDir:
     Ratatan: {}
   launch:
@@ -597898,75 +597962,75 @@ Riven:
     Riven: {}
   launch:
     "<base>/Riven The Sequel to Myst.app":
-      - arguments: "-c bundle:/language-select.ini riven"
+      - arguments: "-i bundle:/language-select.ini riven"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini riven-fr"
+      - arguments: "-i bundle:/language-select.ini riven-fr"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini riven-de"
+      - arguments: "-i bundle:/language-select.ini riven-de"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini riven-it"
+      - arguments: "-i bundle:/language-select.ini riven-it"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini riven-jp"
+      - arguments: "-i bundle:/language-select.ini riven-jp"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini riven-es"
+      - arguments: "-i bundle:/language-select.ini riven-es"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini riven-pl"
+      - arguments: "-i bundle:/language-select.ini riven-pl"
         when:
           - os: mac
             store: steam
-      - arguments: "-c bundle:/language-select.ini riven-ru"
+      - arguments: "-i bundle:/language-select.ini riven-ru"
         when:
           - os: mac
             store: steam
     "<base>/scummvm.exe":
-      - arguments: "-c language-select.ini riven"
+      - arguments: "-i language-select.ini riven"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini riven-fr"
+      - arguments: "-i language-select.ini riven-fr"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini riven-de"
+      - arguments: "-i language-select.ini riven-de"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini riven-it"
+      - arguments: "-i language-select.ini riven-it"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini riven-jp"
+      - arguments: "-i language-select.ini riven-jp"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini riven-es"
+      - arguments: "-i language-select.ini riven-es"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini riven-pl"
+      - arguments: "-i language-select.ini riven-pl"
         when:
           - bit: 64
             os: windows
             store: steam
-      - arguments: "-c language-select.ini riven-ru"
+      - arguments: "-i language-select.ini riven-ru"
         when:
           - bit: 64
             os: windows
@@ -836490,6 +836554,22 @@ Warhalla:
   steam:
     id: 3533730
 "Warhammer 40,000: Boltgun II":
+  files:
+    "<base>/Boltgun2/Saved/SaveGames/<storeUserId>/**/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/Boltgun2/Saved/SaveGames/<storeUserId>/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Boltgun2: {}
+  launch:
+    "<base>/Boltgun2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3115160
 "Warhammer 40,000: Carnage Champions":
