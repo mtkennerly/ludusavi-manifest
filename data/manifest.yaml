@@ -99427,6 +99427,8 @@ BorderZone:
         - os: windows
   gog:
     id: 1134401292
+  id:
+    lutris: borderzone
   installDir:
     BorderZone: {}
   launch:
@@ -479183,10 +479185,38 @@ My Beastly Lovers:
   steam:
     id: 776610
 "My Beautiful Faraway, Please Don't Be Cruel To Me":
+  files:
+    "<home>/Library/Application Support/Godot/app_userdata/MyBeautifulFaraway/savegame.json":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Godot/app_userdata/MyBeautifulFaraway/savegame.json":
+      when:
+        - store: steam
+    "<xdgData>/godot/app_userdata/MyBeautifulFaraway/savegame.json":
+      when:
+        - os: linux
+          store: steam
   id:
     lutris: my-beautiful-faraway-please-dont-be-cruel-to-me
     steamExtra:
       - 4610050
+      - 4964230
+  installDir:
+    "My Beautiful Faraway, Please Don't Be Cruel To Me": {}
+  launch:
+    "<base>/MyBeautifulFaraway.app/Contents/MacOS/MyBeautifulFaraway":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/MyBeautifulFaraway.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/MyBeautifulFaraway.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 4516190
 My Beautiful Paper Smile:

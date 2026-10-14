@@ -662177,7 +662177,36 @@
       executable: ScarletSkips.exe
 4514070: {}
 4514310: {}
-4516190: {}
+4516190:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/MyBeautifulFaraway
+        pattern: savegame.json
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/MyBeautifulFaraway
+            replace: godot/app_userdata/MyBeautifulFaraway
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: "My Beautiful Faraway, Please Don't Be Cruel To Me"
+  launch:
+    - config:
+        oslist: windows
+      executable: MyBeautifulFaraway.exe
+    - config:
+        oslist: macos
+      executable: "MyBeautifulFaraway.app\\Contents\\MacOS\\MyBeautifulFaraway"
+    - config:
+        oslist: linux
+      executable: MyBeautifulFaraway.x86_64
 4523120: {}
 4527520: {}
 4532500:

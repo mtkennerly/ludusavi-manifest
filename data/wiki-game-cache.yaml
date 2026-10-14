@@ -27260,6 +27260,8 @@ Billy Hatcher and the Giant Egg:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\SEGA\\Billy Hatcher\\gegg.ini}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\SEGA\\Billy Hatcher\\gegg.bin}}"
+Billy the Kid:
+  pageId: 221639
 "Billy the Wizard: Rocket Broomstick Racing":
   pageId: 88339
 Bin Weevils Arty Arcade:
@@ -32330,6 +32332,7 @@ BorderZone:
     gog: true
     steam: true
   gog: 1134401292
+  lutris: borderzone
   pageId: 50393
   steam: 289220
   templates:
@@ -124066,6 +124069,8 @@ Jazz Jackrabbit 2:
 "Jazz Lightning : Castle Dungeons":
   pageId: 151397
   steam: 1179570
+Jazz and Faust:
+  pageId: 221637
 Jazzpunk:
   gog: 1207660673
   gogSide:
@@ -156544,6 +156549,7 @@ My Beastly Lovers:
   steam: 4516190
   steamSide:
     - 4610050
+    - 4964230
 My Beautiful Paper Smile:
   cloud:
     steam: true
@@ -249140,6 +249146,8 @@ The Saboteur:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\The Saboteur™\\SaveGames\\config.ini|{{p|userprofile\\Documents}}\\My Games\\The Saboteur™\\SaveGames\\settings.dat|{{p|game}}\\InputTemplates.txt}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\The Saboteur™\\SaveGames\\*.profile}}"
+The Sacred Amulet:
+  pageId: 221634
 "The Sacred Stone: A Story Adventure":
   pageId: 44756
   steam: 432410
