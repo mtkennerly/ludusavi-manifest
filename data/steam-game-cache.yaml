@@ -537955,6 +537955,26 @@
       type: none
   nameLocalized:
     japanese: 戦国エース
+1262190:
+  cloud:
+    saves:
+      - path: game/saves
+        pattern: "*"
+        root: gameinstall
+  installDir: Without a Voice
+  launch:
+    - config:
+        oslist: windows
+      executable: WithoutaVoice.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: WithoutaVoice.app
+      type: default
+    - config:
+        oslist: linux
+      executable: WithoutaVoice.sh
+      type: default
 1262240:
   installDir: PVZ Battle for Neighborville
   launch:
@@ -660241,6 +660261,10 @@
         oslist: windows
       description: Launch
       executable: "VHOLUME\\Binaries\\Win64\\VHOLUME-Win64-Shipping.exe"
+4132170:
+  installDir: Slime Girl Smoothies Encore!
+  launch:
+    - executable: SlimegirlMixer.exe
 4132890:
   cloud:
     saves:
@@ -661346,6 +661370,10 @@
         oslist: windows
       executable: CrimsonMoonNG.exe
       type: default
+4321030:
+  installDir: MalO On Camera Deluxxx
+  launch:
+    - executable: Mal.O On Camera Deluxxxe.exe
 4323130:
   cloud:
     saves:
@@ -661567,6 +661595,14 @@
       executable: GraveyardKeeper2.exe
   nameLocalized:
     schinese: 守墓人2
+4359170:
+  installDir: Bratki
+  launch:
+    - config:
+        oslist: windows
+      executable: cbt_fullscreen.exe
+  nameLocalized:
+    russian: Братки
 4369130:
   cloud:
     saves:
@@ -662857,6 +662893,20 @@
     - executable: DawnOfMagic.exe
       type: default
 4953280: {}
+4959180:
+  installDir: Blaster!
+  launch:
+    - description: launch game
+      executable: Blaster!.exe
+      type: default
+    - config:
+        ownsdlc: "5173900"
+      description: Wallpapers
+      executable: ddc.cmd
+    - config:
+        oslist: linux
+      description: Play Blaster! (Linux)
+      executable: Start_BLASTER.sh
 4980620: {}
 4981370: {}
 4991240:
@@ -662876,9 +662926,28 @@
     - executable: Too Many Toys!.exe
 5036490: {}
 5056390: {}
-5067360: {}
+5067360:
+  cloud:
+    saves:
+      - path: ThankYouBusDriver/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Thank You Bus Driver
+  launch:
+    - config:
+        oslist: windows
+      executable: ThankYouBusDriver.exe
+      type: default
 5068970: {}
 5071780: {}
+5074790:
+  installDir: Starcalibur
+  launch:
+    - config:
+        oslist: windows
+      executable: StarCalibur.exe
+  nameLocalized:
+    russian: Звёздный меч
 5089020: {}
 5093680: {}
 5095280:

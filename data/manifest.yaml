@@ -90119,6 +90119,21 @@ Blaster Simulator:
             store: steam
   steam:
     id: 446450
+Blaster! (2026):
+  gog:
+    id: 1952785258
+  installDir:
+    Blaster!: {}
+  launch:
+    "<base>/Blaster!.exe":
+      - when:
+          - store: steam
+    "<base>/Start_BLASTER.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 4959180
 Blastercell:
   cloud:
     steam: true
@@ -102537,6 +102552,16 @@ Brathian:
             store: steam
   steam:
     id: 868430
+Bratki:
+  installDir:
+    Bratki: {}
+  launch:
+    "<base>/cbt_fullscreen.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4359170
 Bratz 4 Real:
   files:
     "<base>/Users":
@@ -233806,6 +233831,7 @@ Eets:
         - save
       when:
         - os: windows
+        - os: linux
   installDir:
     Eets: {}
   launch:
@@ -278709,6 +278735,7 @@ Football Manager 2012:
     id: 71270
 Football Manager 2013:
   id:
+    lutris: football-manager-2013
     steamExtra:
       - 216610
   installDir:
@@ -279094,6 +279121,8 @@ Football Manager 2020 Touch:
         - config
       when:
         - os: windows
+  id:
+    lutris: football-manager-2020-touch
   installDir:
     Football Manager 2020 Touch: {}
   launch:
@@ -279273,6 +279302,8 @@ Football Manager 2021 Touch:
     "<winLocalAppData>/Sports Interactive/Football Manager 2021 Touch/cloud/views/*.fmf":
       when:
         - store: steam
+  id:
+    lutris: football-manager-2021-touch
   installDir:
     Football Manager 2021 Touch: {}
   launch:
@@ -279516,6 +279547,7 @@ Football Manager Touch 2016:
         - os: linux
           store: steam
   id:
+    lutris: football-manager-touch-2016
     steamExtra:
       - 403760
       - 403761
@@ -279682,6 +279714,8 @@ Football Manager Touch 2018:
       when:
         - os: linux
           store: steam
+  id:
+    lutris: football-manager-touch-2018
   installDir:
     Football Manager Touch 2018: {}
   launch:
@@ -440711,6 +440745,15 @@ Making*Lovers:
             store: steam
   steam:
     id: 1200720
+MalO On Camera Deluxxx:
+  installDir:
+    MalO On Camera Deluxxx: {}
+  launch:
+    "<base>/Mal.O On Camera Deluxxxe.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4321030
 Malatzshia:
   files:
     "<base>/SavesDir/*.sav":
@@ -651432,6 +651475,15 @@ Slime Girl Smoothies:
           - store: steam
   steam:
     id: 1630420
+Slime Girl Smoothies Encore!:
+  installDir:
+    Slime Girl Smoothies Encore!: {}
+  launch:
+    "<base>/SlimegirlMixer.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4132170
 Slime Jumper:
   cloud:
     steam: true
@@ -681308,6 +681360,16 @@ StarBreak:
             store: steam
   steam:
     id: 420790
+StarCalibur:
+  installDir:
+    Starcalibur: {}
+  launch:
+    "<base>/StarCalibur.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 5074790
 StarCraft:
   files:
     "<home>/Library/Application Support/Blizzard/StarCraft/CSettings.json":
@@ -727048,8 +727110,19 @@ Thanatos:
 Thank You Bus Driver:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/ThankYouBusDriver/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
   gog:
     id: 1235237947
+  installDir:
+    Thank You Bus Driver: {}
+  launch:
+    "<base>/ThankYouBusDriver.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 5067360
 Thanks For Listening:
@@ -820629,21 +820702,16 @@ Valor Mortis:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/ValorMortis/Saved/SaveGames/*.bak":
+    "<winLocalAppData>/ValorMortis/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winLocalAppData>/ValorMortis/Saved/SaveGames/*.sig":
+        - os: windows
+    "<winLocalAppData>/ValorMortis/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winLocalAppData>/ValorMortis/Saved/SaveGames/AchievementsSaveGame.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/ValorMortis/Saved/SaveGames/Autosave0.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/ValorMortis/Saved/SaveGames/UserSettingsSaveGame.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: valor-mortis
     steamExtra:
@@ -852927,6 +852995,52 @@ Without Within 3:
             store: steam
   steam:
     id: 676130
+Without a Voice:
+  cloud:
+    steam: true
+  files:
+    "<base>/game/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+        - os: linux
+    "<home>/.renpy/WithoutaVoice":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Library/RenPy/WithoutaVoice":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/RenPy/WithoutaVoice":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: without-a-voice
+    steamExtra:
+      - 1262200
+  installDir:
+    Without a Voice: {}
+  launch:
+    "<base>/WithoutaVoice.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/WithoutaVoice.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/WithoutaVoice.sh":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 1262190
 "Withstand: Apotheosis":
   files:
     "<base>/savedata/game*":

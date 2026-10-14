@@ -29391,6 +29391,10 @@ Blaster Simulator:
   steam: 446450
 Blaster!:
   pageId: 220207
+Blaster! (2026):
+  gog: 1952785258
+  pageId: 221663
+  steam: 4959180
 Blastercell:
   cloud:
     steam: true
@@ -33332,6 +33336,9 @@ Brataccas:
 Brathian:
   pageId: 96513
   steam: 868430
+Bratki:
+  pageId: 221669
+  steam: 4359170
 Bratz:
   pageId: 136325
 Bratz 4 Real:
@@ -51150,6 +51157,8 @@ Crazy Cage:
   renamedFrom:
     - CRAZY CAGE
   steam: 1129340
+Crazy Cars:
+  pageId: 221675
 "Crazy Cars: Hit the Road":
   pageId: 59749
   steam: 359290
@@ -75878,6 +75887,7 @@ Eets:
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\User\\Profiles\\*.prf}}"
     - "{{Game data/saves|OS X|{{p|game}}/Contents/Resources/User/ProfilesUser/Profiles}}"
+    - "{{Game data/saves|Linux|{{p|game}}/User/Profiles/*.prf}}"
 Eets Munchies:
   cloud:
     steam: true
@@ -90904,6 +90914,7 @@ Football Manager 2012:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Sports Interactive\\Football Manager 2012\\}}"
 Football Manager 2013:
+  lutris: football-manager-2013
   pageId: 3874
   steam: 207890
   steamSide:
@@ -90983,6 +90994,7 @@ Football Manager 2020:
 Football Manager 2020 Touch:
   cloud:
     steam: true
+  lutris: football-manager-2020-touch
   pageId: 145617
   steam: 1100620
   templates:
@@ -90999,6 +91011,7 @@ Football Manager 2021:
 Football Manager 2021 Touch:
   cloud:
     steam: true
+  lutris: football-manager-2021-touch
   pageId: 163788
   steam: 1263860
 Football Manager 2022:
@@ -91052,6 +91065,7 @@ Football Manager Live:
 Football Manager Touch 2016:
   cloud:
     steam: true
+  lutris: football-manager-touch-2016
   pageId: 36109
   steam: 392790
   steamSide:
@@ -91076,6 +91090,7 @@ Football Manager Touch 2017:
 Football Manager Touch 2018:
   cloud:
     steam: true
+  lutris: football-manager-touch-2018
   pageId: 68504
   steam: 624120
 Football Manager Touch 2019:
@@ -143711,6 +143726,9 @@ Making*Lovers:
   steam: 1200720
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\UserData\\*|{{p|game}}\\*.gdb}}"
+MalO On Camera Deluxxx:
+  pageId: 221644
+  steam: 4321030
 Malatzshia:
   pageId: 69854
   steam: 670400
@@ -155644,6 +155662,7 @@ MudRunner:
   cloud:
     epic: true
     steam: true
+    xbox: true
   lutris: spintires-mudrunner
   pageId: 68707
   steam: 675010
@@ -212859,6 +212878,9 @@ Slime Girl Smoothies:
   steam: 1630420
   steamSide:
     - 2466050
+Slime Girl Smoothies Encore!:
+  pageId: 221641
+  steam: 4132170
 Slime Jumper:
   cloud:
     steam: true
@@ -222616,6 +222638,9 @@ StarBallMadNess:
 StarBreak:
   pageId: 43109
   steam: 420790
+StarCalibur:
+  pageId: 221673
+  steam: 5074790
 StarCraft:
   lutris: starcraft
   pageId: 303
@@ -269012,6 +269037,9 @@ Valor Mortis:
   steamSide:
     - 4641840
     - 5250300
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}/ValorMortis/Saved/Config/Windows}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}/ValorMortis/Saved/SaveGames}}"
 Valor Time:
   pageId: 109292
   steam: 890820
@@ -279785,6 +279813,18 @@ Without Within 3:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\game\\saves\\persistent<!--identical-->|\n{{P|appdata}}\\RenPy\\wowi3-1409958485\\persistent}}"
     - "{{Game data/saves|Windows|{{P|game}}\\game\\saves\\*.save<!--identical-->|\n{{P|appdata}}\\RenPy\\wowi3-1409958485\\*.save}}"
+Without a Voice:
+  cloud:
+    steam: true
+  lutris: without-a-voice
+  pageId: 221677
+  steam: 1262190
+  steamSide:
+    - 1262200
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\game\\saves\\|{{p|appdata}}\\RenPy\\WithoutaVoice\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/RenPy/WithoutaVoice/}}"
+    - "{{Game data/saves|Linux|{{p|game}}/game/saves/|{{p|linuxhome}}/.renpy/WithoutaVoice/}}"
 "Withstand: Apotheosis":
   pageId: 47017
   steam: 366600
