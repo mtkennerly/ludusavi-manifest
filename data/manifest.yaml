@@ -848460,6 +848460,22 @@ Wild Mage - Phantom Twilight:
   steam:
     id: 771770
 Wild Metal Country:
+  files:
+    "<base>/WinEnv/Configs/FrontEnd/PLAYERS":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/WinEnv/Scenes/ARCHIVE":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/WinEnv/Scenes/Level*.scn":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: wild-metal-country
   installDir:

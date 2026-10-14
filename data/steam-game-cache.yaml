@@ -340265,19 +340265,17 @@
       description: VAIL
       executable: VAIL.exe
       type: openxr
-    - arguments: "-vulkan"
-      config:
-        osarch: "64"
-        oslist: linux
-      description: VAIL (Vulkan)
-      executable: VAIL.exe
-      type: openxr
     - arguments: "-d3d11"
       config:
         osarch: "64"
         oslist: windows
       description: VAIL (PICO Compatibility)
       executable: VAIL.exe
+      type: openxr
+    - config:
+        oslist: android
+      description: VAIL Steam Frame
+      executable: VAIL-arm64.apk
       type: openxr
 801600:
   installDir: 夜雪冰娇

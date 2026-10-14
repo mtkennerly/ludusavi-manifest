@@ -278372,7 +278372,7 @@ Wild Metal Country:
   steam: 12190
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\DMA Design\\Wild Metal Country\\3DMA Settings}}"
-    - "{{Game data/saves|Windows|Player Profile : {{p|game}}\\WinEnv\\Configs\\FrontEnd\\PLAYERS <br> In-game Saves : {{p|game}}\\WinEnv\\Scenes\\Level45.scn, Level46.scn, Level47.scn, Level48.scn, Level49.scn, Level50.scn <br> Level Archive : {{p|game}}\\WinEnv\\Scenes\\ARCHIVE}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\WinEnv\\Configs\\FrontEnd\\PLAYERS|{{p|game}}\\WinEnv\\Scenes\\Level##.scn|{{p|game}}\\WinEnv\\Scenes\\ARCHIVE}}"
 Wild RTS:
   pageId: 77188
   steam: 753140
