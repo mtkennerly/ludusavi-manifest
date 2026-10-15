@@ -4094,6 +4094,7 @@ A2 Racer II:
   lutris: a2-racer-iv-the-cops-revenge
   pageId: 88289
   templates:
+    - "{{Game data/config|Windows|{{p|game}}}}"
     - "{{Game data/saves|Windows |{{p|game}}\\SaveGame0.RCR}}"
 A2Be - A Science-Fiction Narrative:
   pageId: 95019
@@ -36902,6 +36903,10 @@ Cabal Online:
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\Saves}}"
 "Cabela's Big Game Hunter 4":
   pageId: 219996
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\BGH4.INI}}"
+"Cabela's Big Game Hunter 5: Platinum Series":
+  pageId: 221740
 "Cabela's Big Game Hunter 6":
   pageId: 221736
 "Cabela's Big Game Hunter II":
@@ -63297,6 +63302,7 @@ Desolatium:
     - "DESOLATIUM - CHAPTER I: SANATORIUM"
   steam: 1130390
 Desolus:
+  lutris: desolus
   pageId: 126464
   steam: 1003460
 Desordre:
@@ -98706,12 +98712,24 @@ Ghostship Chronicles:
 "Ghostwire: Tokyo":
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
+  gog: 1180670910
+  gogSide:
+    - 1203320424
+    - 1383417467
+    - 1486490536
+    - 1772404570
   pageId: 161009
   renamedFrom:
     - "GhostWire: Tokyo"
   steam: 1475810
+  steamSide:
+    - 1702820
+    - 1702821
+    - 1944840
+    - 2650130
   templates:
     - "{{Game data/config|Epic Games Store|{{p|userprofile}}\\Saved Games\\TangoGameworks\\GhostWire Tokyo (EGS)\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|Microsoft Store|{{p|userprofile}}\\Saved Games\\TangoGameworks\\GhostWire Tokyo (Xbox)\\Saved\\Config\\WinGDK\\}}"
@@ -103723,6 +103741,7 @@ Ground Control:
     - "{{Game data/saves|Windows|{{p|game}}\\data\\games\\game*}}"
 "Ground Control II: Operation Exodus":
   gog: 1207658782
+  lutris: ground-control-2-operation-exodus-special-edition
   pageId: 13187
   steam: 254840
   templates:
@@ -113201,6 +113220,7 @@ Holiday Racer:
   pageId: 171128
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 "Holiday Simulator: Wacky Sleigh Ride":
   pageId: 55480
   steam: 571180
@@ -150761,6 +150781,11 @@ Minecraft Dungeons II:
   lutris: minecraft-dungeons-ii
   pageId: 220155
   steam: 1912410
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Dungeons2\\Saved\\Config\\Windows}}"
+    - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Dungeons2\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Dungeons2\\Saved\\SaveGames}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\Microsoft.MinecraftDungeons2_8wekyb3d8bbwe\\SystemAppData\\wgs\\<user-id>}}"
 Minecraft Legends:
   cloud:
     xbox: true
@@ -223483,6 +223508,7 @@ Starsiege:
     - "{{Game data/config|Windows|{{p|game}}\\defaultPrefs.cs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savedGames}}"
 "Starsiege: Tribes":
+  lutris: starsiege-tribes
   pageId: 417
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config\\ClientPrefs.cs}}"
@@ -254145,6 +254171,7 @@ Throne of Darkness:
   cloud:
     gog: true
   gog: 2060341617
+  lutris: throne-of-darkness
   pageId: 131833
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Config}}"
@@ -262107,6 +262134,7 @@ Tribe of Pok:
   pageId: 43013
   steam: 388830
 Tribes 2:
+  lutris: tribes-2
   pageId: 20125
 "Tribes 3: Rivals":
   pageId: 193059
@@ -262123,6 +262151,7 @@ Tribes of Midgard:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TOM\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TOM\\Saved\\SaveGames}}"
 "Tribes: Ascend":
+  lutris: tribes-ascend
   pageId: 98
   steam: 17080
   templates:
@@ -285875,7 +285904,7 @@ Zeus vs Monsters:
 "Zeus: Master of Olympus":
   cloud:
     gog: true
-  gog: 1207659039
+  gog: 120765903
   lutris: zeus-poseidon-acropolis
   pageId: 5741
   steam: 566050

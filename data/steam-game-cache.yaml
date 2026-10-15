@@ -435815,7 +435815,32 @@
       description: Terrorarium on PC
       executable: Terrorarium.exe
       type: option1
-1003460: {}
+1003460:
+  cloud:
+    saves:
+      - path: The Quantum Astrophysicists Guild/DESOLUS
+        pattern: "*Save*"
+        root: gameinstall
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocalLow
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+  installDir: Desolus
+  launch:
+    - config:
+        oslist: windows
+      executable: Desolus.exe
+    - config:
+        oslist: macos
+      executable: Desolus.app
+      type: default
 1003480:
   installDir: Fireboy & Watergirl Elements
   launch:
@@ -629795,7 +629820,27 @@
         osarch: "64"
         oslist: windows
       executable: Obesity Simulator.exe
-2572060: {}
+2572060:
+  cloud:
+    saves:
+      - path: pixel-washer/Local Storage/leveldb
+        pattern: "*"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: pixel-washer/Local Storage/leveldb
+            replace: pixel-washer/Local Storage/leveldb
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Pixel Washer
+  launch:
+    - config:
+        oslist: windows
+      executable: pixel-washer.exe
+      type: default
 2574840:
   installDir: GoForaPunch_SakiSanobashi
   launch:
@@ -659738,8 +659783,37 @@
   installDir: Bip and Bop
   launch:
     - executable: ProjAS.exe
-4049170: {}
-4049180: {}
+4049170:
+  cloud:
+    saves:
+      - path: Disney/Toy Story Retro Roundup!/saves
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Toy Story Retro Roundup
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Toy Story Retro Roundup!.exe
+      type: default
+4049180:
+  cloud:
+    saves:
+      - path: Disney/Toy Story 3 Complete Edition/
+        pattern: Saved Game
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Toy Story 3 Complete Edition
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Toy Story 3 Complete Edition.exe
+      type: default
 4051470:
   nameLocalized:
     schinese: 破碎怪谈：东京塔

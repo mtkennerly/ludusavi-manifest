@@ -113715,6 +113715,13 @@ Cabal Online:
         - save
       when:
         - os: windows
+"Cabela's Big Game Hunter 4":
+  files:
+    "<base>/BGH4.INI":
+      tags:
+        - config
+      when:
+        - os: windows
 "Cabela's Big Game Hunter Pro Hunts":
   cloud:
     steam: true
@@ -195706,6 +195713,31 @@ Desolatium:
   steam:
     id: 1130390
 Desolus:
+  files:
+    "<base>/The Quantum Astrophysicists Guild/DESOLUS/*Save*":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/The Quantum Astrophysicists Guild/DESOLUS/*Save*":
+      when:
+        - os: windows
+          store: steam
+    "<home>/Library/Application Support/The Quantum Astrophysicists Guild/DESOLUS/*Save*":
+      when:
+        - os: mac
+          store: steam
+  id:
+    lutris: desolus
+  installDir:
+    Desolus: {}
+  launch:
+    "<base>/Desolus.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Desolus.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1003460
 Desordre:
@@ -303302,6 +303334,7 @@ Ghostship Chronicles:
 "Ghostwire: Tokyo":
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<home>/Saved Games/TangoGameworks/GhostWire Tokyo (EGS)/Saved/Config/WindowsNoEditor":
@@ -303340,6 +303373,19 @@ Ghostship Chronicles:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1180670910
+  id:
+    gogExtra:
+      - 1203320424
+      - 1383417467
+      - 1486490536
+      - 1772404570
+    steamExtra:
+      - 1702820
+      - 1702821
+      - 1944840
+      - 2650130
   installDir:
     Ghostwire Tokyo: {}
   launch:
@@ -318654,6 +318700,8 @@ Ground Control:
         - os: windows
   gog:
     id: 1207658782
+  id:
+    lutris: ground-control-2-operation-exodus-special-edition
   installDir:
     Ground Control II: {}
   launch:
@@ -461682,6 +461730,23 @@ Minecraft Dungeons:
 Minecraft Dungeons II:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Dungeons2/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Dungeons2/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Dungeons2/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: minecraft-dungeons-ii
   installDir:
@@ -543293,10 +543358,25 @@ Pixel War:
   steam:
     id: 697700
 Pixel Washer:
+  files:
+    "<home>/Library/Application Support/pixel-washer/Local Storage/leveldb":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/pixel-washer/Local Storage/leveldb":
+      when:
+        - store: steam
   id:
     lutris: pixel-washer
     steamExtra:
       - 3145410
+  installDir:
+    Pixel Washer: {}
+  launch:
+    "<base>/pixel-washer.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 2572060
 Pixel World:
@@ -684082,6 +684162,8 @@ Starsiege:
         - config
       when:
         - os: windows
+  id:
+    lutris: starsiege-tribes
 Starsky & Hutch:
   id:
     lutris: starsky-hutch
@@ -777986,6 +778068,8 @@ Throne of Darkness:
         - os: windows
   gog:
     id: 2060341617
+  id:
+    lutris: throne-of-darkness
 Throne of Lies:
   files:
     "<home>/AppData/LocalLow/Imperium42 Game Studio/Throne of Lies":
@@ -793426,6 +793510,19 @@ Toy Story:
       when:
         - os: windows
 "Toy Story 3: Complete Edition":
+  files:
+    "<winAppData>/Disney/Toy Story 3 Complete Edition/**/Saved Game":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Toy Story 3 Complete Edition: {}
+  launch:
+    "<base>/Toy Story 3 Complete Edition.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4049180
 "Toy Story 3: The Video Game":
@@ -793465,6 +793562,19 @@ Toy Story Mania!:
   steam:
     id: 317580
 "Toy Story: Retro Roundup!":
+  files:
+    "<winAppData>/Disney/Toy Story Retro Roundup!/saves":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Toy Story Retro Roundup: {}
+  launch:
+    "<base>/Toy Story Retro Roundup!.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4049170
 Toy Tanks:
@@ -800033,6 +800143,9 @@ Tribe of Pok:
             store: steam
   steam:
     id: 388830
+Tribes 2:
+  id:
+    lutris: tribes-2
 "Tribes 3: Rivals":
   installDir:
     TRIBES 3 Rivals: {}
@@ -800080,6 +800193,8 @@ Tribes of Midgard - Open Beta:
         - config
       when:
         - os: windows
+  id:
+    lutris: tribes-ascend
   installDir:
     Tribes: {}
   launch:
@@ -871128,7 +871243,7 @@ Zeus vs Monsters:
       when:
         - store: steam
   gog:
-    id: 1207659039
+    id: 120765903
   id:
     lutris: zeus-poseidon-acropolis
   installDir:
