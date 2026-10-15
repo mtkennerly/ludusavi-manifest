@@ -24100,7 +24100,7 @@
       type: server
     - config:
         oslist: linux
-      description: Launch Game Server
+      description: Game Server
       executable: svends_run
       type: server
     - description: Game Manual
@@ -644192,7 +644192,19 @@
       type: default
   nameLocalized:
     english: Reimu Needs Help!? Aunn-chan to the Rescue!
-3064040: {}
+3064040:
+  cloud:
+    saves:
+      - path: "BMC\\Saved\\SaveGames\\{64BitSteamID}"
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: BMC
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: BMC.exe
 3064060:
   cloud:
     saves:
@@ -646944,7 +646956,10 @@
       executable: ss.exe
       type: default
 3205170: {}
-3206220: {}
+3206220:
+  nameLocalized:
+    schinese: 脑弹
+    tchinese: 腦彈
 3207300:
   cloud:
     saves:

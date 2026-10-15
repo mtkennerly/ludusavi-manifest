@@ -36902,6 +36902,8 @@ Cabal Online:
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\Saves}}"
 "Cabela's Big Game Hunter 4":
   pageId: 219996
+"Cabela's Big Game Hunter 6":
+  pageId: 221736
 "Cabela's Big Game Hunter II":
   pageId: 219959
 "Cabela's Big Game Hunter III":
@@ -90917,16 +90919,18 @@ Football Manager 2009:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Sports Interactive\\Football Manager 2009\\}}"
 Football Manager 2010:
+  lutris: football-manager-2010
+  malformed: true
   pageId: 92556
   steam: 34009
-  templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Sports Interactive\\Football Manager 2010\\}}"
 Football Manager 2011:
+  lutris: football-manager-2011
   pageId: 92552
   steam: 34220
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Sports Interactive\\Football Manager 2011\\}}"
 Football Manager 2012:
+  lutris: football-manager-2012
   pageId: 1412
   steam: 71270
   templates:
@@ -90940,6 +90944,7 @@ Football Manager 2013:
 Football Manager 2014:
   cloud:
     steam: true
+  lutris: football-manager-2014
   pageId: 9568
   steam: 231670
   templates:
@@ -90957,6 +90962,7 @@ Football Manager 2015:
 Football Manager 2016:
   cloud:
     steam: true
+  lutris: football-manager-2016
   pageId: 36105
   steam: 378120
   steamSide:
@@ -169411,7 +169417,7 @@ Order of the Sinking Star:
   steamSide:
     - 4597250
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Order of the Sinking Star\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Order of the Sinking Star\\settings.menu_state}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Order of the Sinking Star\\}}"
 "Order of the Thorne: The King's Challenge":
   gog: 1444830704
@@ -237302,6 +237308,9 @@ Thank You Bus Driver:
   gog: 1235237947
   pageId: 220175
   steam: 5067360
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\ThankYouBusDriver\\Saved\\Config\\Windows\\<ref>Verified on the Steam version, October 14, 2026. Settings (graphics, audio, accessibility, resolution) are stored in <code>GameUserSettings.ini</code>; most other <code>.ini</code> files in this folder are empty.</ref>}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\ThankYouBusDriver\\Saved\\SaveGames\\*.sav<ref>Verified on the Steam version, October 14, 2026. <code>DefaultSaveSlot.sav</code> holds progress (tutorial, runs completed, player level, Thank Yous, run history per day variant); <code>BDUserData.sav</code> is a separate user-data file written alongside the settings. The <code>steam_autocloud.vdf</code> file in this folder is Steam Cloud metadata, not save data.</ref>}}"
 Thanks For Listening:
   pageId: 153318
   steam: 1142440

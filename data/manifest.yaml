@@ -96136,6 +96136,18 @@ Blueshift:
 "Bluey's Happy Snaps":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/BMC/Saved/SaveGames/<storeUserId>/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    BMC: {}
+  launch:
+    "<base>/BMC.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3064040
 "Bluey's Quest for the Gold Pen":
@@ -278715,12 +278727,8 @@ Football Manager 2009:
   steam:
     id: 10540
 Football Manager 2010:
-  files:
-    "<winDocuments>/Sports Interactive/Football Manager 2010":
-      tags:
-        - save
-      when:
-        - os: windows
+  id:
+    lutris: football-manager-2010
   steam:
     id: 34009
 Football Manager 2011:
@@ -278730,6 +278738,8 @@ Football Manager 2011:
         - save
       when:
         - os: windows
+  id:
+    lutris: football-manager-2011
   installDir:
     Football Manager 2011: {}
   launch:
@@ -278750,6 +278760,8 @@ Football Manager 2012:
         - save
       when:
         - os: windows
+  id:
+    lutris: football-manager-2012
   installDir:
     Football Manager 2012: {}
   launch:
@@ -278809,6 +278821,8 @@ Football Manager 2014:
         - save
       when:
         - os: linux
+  id:
+    lutris: football-manager-2014
   installDir:
     Football Manager 2014: {}
   launch:
@@ -278918,6 +278932,7 @@ Football Manager 2016:
         - os: linux
           store: steam
   id:
+    lutris: football-manager-2016
     steamExtra:
       - 383900
       - 383901
@@ -517884,8 +517899,12 @@ Order of the Sinking Star:
   files:
     "<home>/Saved Games/Order of the Sinking Star":
       tags:
-        - config
         - save
+      when:
+        - os: windows
+    "<home>/Saved Games/Order of the Sinking Star/settings.menu_state":
+      tags:
+        - config
       when:
         - os: windows
   id:
@@ -727233,9 +727252,16 @@ Thank You Bus Driver:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/ThankYouBusDriver/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/ThankYouBusDriver/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/ThankYouBusDriver/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1235237947
   installDir:
