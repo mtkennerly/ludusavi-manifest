@@ -48573,6 +48573,15 @@ Arkhelom 3D:
   steam:
     id: 373670
 "Arknights: Endfield":
+  installDir:
+    Arknights Endfield: {}
+  launch:
+    "<base>/Endfield.exe":
+      - when:
+          - store: steam
+      - arguments: "-force-d3d11"
+        when:
+          - store: steam
   registry:
     HKEY_CURRENT_USER/Software/Gryphline/Endfield:
       tags:
@@ -90134,7 +90143,8 @@ Blaster! (2026):
   launch:
     "<base>/Blaster!.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
     "<base>/Start_BLASTER.sh":
       - when:
           - os: linux
@@ -281751,6 +281761,25 @@ Forgotten Fields:
 Forgotten Gifts:
   steam:
     id: 997450
+"Forgotten Haven: The First Call":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Infotrium Inc_/Forgotten Haven_ The First Call/savegame.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Forgotten Haven The First Call: {}
+  launch:
+    "<base>/ForgottenHaven.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 5051490
 Forgotten Heroes:
   steam:
     id: 510220
@@ -307872,6 +307901,23 @@ Goblin Harvest - The Mighty Quest:
             store: steam
   steam:
     id: 604060
+Goblin Nest:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/goblin_nest/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Goblin Nest: {}
+  launch:
+    "<base>/GoblinNest.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3782910
 "Goblin Quest: Escape!":
   cloud:
     steam: true
@@ -441102,6 +441148,15 @@ Mall Tycoon 3:
         - config
       when:
         - os: windows
+Mall of America Tycoon:
+  files:
+    "<base>/game.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: mall-of-america-tycoon
 Mallow Drops:
   cloud:
     steam: true
@@ -646968,6 +647023,9 @@ Sker Ritual:
             store: steam
   steam:
     id: 1492070
+"Sker: The Bleeding Veil":
+  steam:
+    id: 4119440
 Sketch Tales:
   installDir:
     Sketch Tales: {}
@@ -773163,6 +773221,15 @@ The Witch & the 66 Mushrooms:
           - store: steam
   steam:
     id: 972160
+"The Witch's Warehouse Management":
+  installDir:
+    "The Witch's Warehouse Management": {}
+  launch:
+    "<base>/The Witch's Warehouse Management.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3981660
 "The Witch's Yarn":
   installDir:
     "The Witch's Yarn": {}

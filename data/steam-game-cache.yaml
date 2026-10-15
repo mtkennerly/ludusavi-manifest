@@ -656769,6 +656769,15 @@
         oslist: windows
       executable: TheLastSip.exe
       type: default
+3782910:
+  cloud:
+    saves:
+      - path: goblin_nest
+        pattern: "*.json"
+        root: WinAppDataLocal
+  installDir: Goblin Nest
+  launch:
+    - executable: GoblinNest.exe
 3784030:
   cloud:
     saves:
@@ -659266,6 +659275,10 @@
   launch:
     - executable: Leaf it Alone.exe
       type: default
+3981660:
+  installDir: "The Witch's Warehouse Management"
+  launch:
+    - executable: "The Witch's Warehouse Management.exe"
 3983000:
   nameLocalized:
     japanese: パラサイト・ミュータント
@@ -660174,6 +660187,9 @@
   installDir: It Reaches
   launch:
     - executable: ItReaches.exe
+4119440:
+  nameLocalized:
+    schinese: 斯盖尔：血色帷幕
 4119710: {}
 4120310:
   cloud:
@@ -662841,6 +662857,12 @@
     koreana: 포춘 밀
     schinese: 财富磨坊
 4732690:
+  installDir: Arknights Endfield
+  launch:
+    - executable: Endfield.exe
+    - arguments: "-force-d3d11"
+      description: DirectX 11
+      executable: Endfield.exe
   nameLocalized:
     japanese: アークナイツ：エンドフィールド
     koreana: "명일방주: 엔드필드"
@@ -662965,10 +662987,13 @@
 4959180:
   installDir: Blaster!
   launch:
-    - description: launch game
+    - config:
+        oslist: windows
+      description: launch game
       executable: Blaster!.exe
       type: default
     - config:
+        oslist: windows
         ownsdlc: "5173900"
       description: Wallpapers
       executable: ddc.cmd
@@ -662976,6 +663001,7 @@
         oslist: linux
       description: Play Blaster! (Linux)
       executable: Start_BLASTER.sh
+      type: default
 4980620: {}
 4981370: {}
 4991240:
@@ -662994,6 +663020,26 @@
   launch:
     - executable: Too Many Toys!.exe
 5036490: {}
+5051490:
+  cloud:
+    saves:
+      - path: Infotrium Inc_/Forgotten Haven_ The First Call
+        pattern: savegame.json
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Infotrium Inc_/Forgotten Haven_ The First Call
+        pattern: savegame.json.bak
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Forgotten Haven The First Call
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ForgottenHaven.exe
+      type: default
 5056390: {}
 5067360:
   cloud:

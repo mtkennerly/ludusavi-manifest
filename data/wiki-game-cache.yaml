@@ -56661,6 +56661,8 @@ Dark Castle:
     steam: true
   pageId: 204127
   steam: 4706290
+Dark Century:
+  pageId: 221731
 Dark Chess:
   cloud:
     steam: true
@@ -91745,6 +91747,13 @@ Forgotten Fields:
 Forgotten Gifts:
   pageId: 125404
   steam: 997450
+"Forgotten Haven: The First Call":
+  cloud:
+    steam: true
+  pageId: 221722
+  steam: 5051490
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Infotrium Inc_\\Forgotten Haven_ The First Call\\savegame.json}}"
 Forgotten Heroes:
   pageId: 41637
   steam: 510220
@@ -95769,6 +95778,8 @@ Galactic Civilizations IV:
 Galactic Command Echo Squad SE:
   pageId: 50590
   steam: 285670
+Galactic Conqueror:
+  pageId: 221729
 Galactic Conquerors:
   pageId: 46767
   steam: 385680
@@ -100161,6 +100172,13 @@ Goblin Harvest - The Mighty Quest:
     steam: true
   pageId: 58793
   steam: 604060
+Goblin Nest:
+  cloud:
+    steam: true
+  pageId: 221718
+  steam: 3782910
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\goblin_nest\\*.json}}"
 "Goblin Quest: Escape!":
   cloud:
     steam: true
@@ -143839,6 +143857,12 @@ Mall Tycoon 3:
   pageId: 32965
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.dat}}"
+Mall of America Tycoon:
+  lutris: mall-of-america-tycoon
+  malformed: true
+  pageId: 221715
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\game.ini}}"
 Mallow Drops:
   cloud:
     steam: true
@@ -211006,6 +211030,8 @@ Sinistry Silinium:
 Sink or Skim:
   pageId: 78621
   steam: 761290
+Sink or Swim:
+  pageId: 221733
 Sinking Island:
   cloud:
     gog: true
@@ -211520,6 +211546,9 @@ Sker Ritual:
     - 2695180
     - 2702210
     - 2715950
+"Sker: The Bleeding Veil":
+  pageId: 221726
+  steam: 4119440
 Sketch Tales:
   pageId: 38135
   steam: 384090
@@ -252539,6 +252568,9 @@ The Witch & the 66 Mushrooms:
   steam: 972160
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
+"The Witch's Warehouse Management":
+  pageId: 221724
+  steam: 3981660
 "The Witch's Yarn":
   pageId: 50482
   steam: 287740
