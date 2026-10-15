@@ -527238,7 +527238,7 @@
       type: default
   nameLocalized:
     japanese: Enshrouded~霧の王国~
-    koreana: 인슈라오디드 (Enshrouded)
+    koreana: Enshrouded
     schinese: 雾锁王国 (Enshrouded)
     tchinese: 霧鎖王國 (Enshrouded)
 1203630:
@@ -660826,6 +660826,7 @@
 4191110:
   nameLocalized:
     japanese: ヴァンパイア：ザ・マスカレード — 誓約と灰
+4193180: {}
 4193270:
   cloud:
     saves:

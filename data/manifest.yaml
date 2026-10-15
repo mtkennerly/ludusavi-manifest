@@ -38860,6 +38860,8 @@ Ancient Warfare 3:
         - config
       when:
         - os: windows
+  id:
+    lutris: ancient-wars-sparta-definitive-edition
   installDir:
     Ancient Wars Sparta: {}
   launch:
@@ -220403,6 +220405,13 @@ Drosoph Hotel:
             store: steam
   steam:
     id: 717020
+"Drova II: Torn Lands":
+  cloud:
+    steam: true
+  gog:
+    id: 2147392504
+  steam:
+    id: 4193180
 "Drova: Forsaken Kin":
   cloud:
     gog: true
@@ -220422,6 +220431,8 @@ Drosoph Hotel:
     id: 1254250206
   id:
     lutris: drova-forsaken-kin
+    steamExtra:
+      - 1585800
   installDir:
     Drova - Forsaken Kin: {}
   launch:

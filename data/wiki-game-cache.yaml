@@ -12482,6 +12482,7 @@ Ancient Warfare 3:
   pageId: 95525
   steam: 868350
 "Ancient Wars: Sparta":
+  lutris: ancient-wars-sparta-definitive-edition
   pageId: 89817
   steam: 8010
   templates:
@@ -66205,6 +66206,8 @@ Disney Villains Cursed Café:
   lutris: disney-villains-cursed-cafe
   pageId: 221187
   steam: 2439220
+"Disney's Activity Center: Toy Story":
+  pageId: 221766
 "Disney's Adventures in Typing with Timon and Pumbaa":
   pageId: 221183
 "Disney's Aladdin":
@@ -71474,6 +71477,12 @@ Dropzone:
 Drosoph Hotel:
   pageId: 89266
   steam: 717020
+"Drova II: Torn Lands":
+  cloud:
+    steam: true
+  gog: 2147392504
+  pageId: 221757
+  steam: 4193180
 "Drova: Forsaken Kin":
   cloud:
     gog: true
@@ -71482,6 +71491,8 @@ Drosoph Hotel:
   lutris: drova-forsaken-kin
   pageId: 199111
   steam: 1585180
+  steamSide:
+    - 1585800
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Just2D\\Drova\\Sprint_24\\}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Just2D/Drova/Sprint_24/}}"
@@ -129541,6 +129552,8 @@ Kirigiriso:
 Kirikou:
   lutris: kirikou
   pageId: 172466
+Kirikou and the Wild Beasts:
+  pageId: 221762
 Kirk Mephisto:
   lutris: kirk-mephisto
   pageId: 217116
