@@ -546117,6 +546117,26 @@
       executable: Succubus Hunter.txt
       type: option3
 1327120: {}
+1327920:
+  cloud:
+    saves:
+      - path: Symphonic Games/Maestro VR
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: Symphonic Games/Maestro VR
+        pattern: "*.sav.bak"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: MaestroVR
+  launch:
+    - arguments: "-popupwindow"
+      config:
+        oslist: windows
+      executable: Maestro VR.exe
+      type: openxr
 1328350:
   cloud:
     saves:

@@ -67952,6 +67952,7 @@ Donut County:
   gog: 1402984756
   gogSide:
     - 1837490372
+  lutris: donut-county
   pageId: 69421
   steam: 702670
   steamSide:
@@ -105149,6 +105150,7 @@ Guy Spy and the Crystals of Armageddon:
   gogSide:
     - 1130692937
     - 1251269536
+  lutris: gwent-rogue-mage
   pageId: 179088
   steam: 1711950
   steamSide:
@@ -142364,6 +142366,14 @@ Maestro:
   steam: 2701700
   steamSide:
     - 3078020
+Maestro VR:
+  cloud:
+    steam: true
+  lutris: maestro-vr
+  pageId: 221782
+  steam: 1327920
+  steamSide:
+    - 3293890
 "Maestro: Dark Talent":
   pageId: 127599
   steam: 995930
@@ -171611,6 +171621,8 @@ PEG:
     steam: true
   pageId: 72039
   steam: 699600
+"PGA Championship Golf 2000: Titanium Edition":
+  pageId: 221786
 PGA Tour 2K21:
   pageId: 160478
   steam: 1016120
@@ -182461,6 +182473,8 @@ Pro Basketball Manager 2019:
   lutris: pro-basketball-manager-2019
   pageId: 122064
   steam: 880470
+Pro Bass Fishing 2003:
+  pageId: 221784
 Pro Cycling Manager 2012:
   cloud:
     steam: true
@@ -252679,9 +252693,13 @@ The Witcher:
     gog: true
     steam: true
   gog: 1207658930
-  lutris: the-witcher-2-assassins-of-kings-enhanced-edition
+  lutris: the-witcher-2-assassins-of-kings
   pageId: 251
   steam: 20920
+  steamSide:
+    - 206783
+    - 228460
+    - 1229350
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Witcher 2\\Config\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.vpltd.TheWitcher2/GameDocuments/Witcher 2/config/}}"

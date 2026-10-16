@@ -209615,6 +209615,7 @@ Donut County:
   id:
     gogExtra:
       - 1837490372
+    lutris: donut-county
     steamExtra:
       - 931370
   installDir:
@@ -322848,6 +322849,7 @@ Guts and Syringes:
     gogExtra:
       - 1130692937
       - 1251269536
+    lutris: gwent-rogue-mage
     steamExtra:
       - 1971540
   installDir:
@@ -436654,6 +436656,26 @@ Maestro:
     Maestro: {}
   steam:
     id: 2701700
+Maestro VR:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Symphonic Games/Maestro VR/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/Symphonic Games/Maestro VR/*.sav.bak":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: maestro-vr
+    steamExtra:
+      - 3293890
+  installDir:
+    MaestroVR: {}
+  steam:
+    id: 1327920
 "Maestro: Dark Talent":
   installDir:
     "Maestro Dark Talent Collector's Edition": {}
@@ -773563,7 +773585,11 @@ The Witcher:
   gog:
     id: 1207658930
   id:
-    lutris: the-witcher-2-assassins-of-kings-enhanced-edition
+    lutris: the-witcher-2-assassins-of-kings
+    steamExtra:
+      - 206783
+      - 228460
+      - 1229350
   installDir:
     the witcher 2: {}
   launch:
