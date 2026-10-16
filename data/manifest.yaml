@@ -295794,6 +295794,8 @@ Gallery One:
   steam:
     id: 912260
 Gallipoli:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/WW1 Game Series/Gallipoli/Steam/<storeUserId>/SaveData_User.dat*":
       when:
@@ -723844,6 +723846,12 @@ Tenebris Somnia:
     lutris: tenebris-somnia
     steamExtra:
       - 2578120
+  installDir:
+    Tenebris Somnia: {}
+  launch:
+    "<base>/TenebrisSomnia.exe":
+      - when:
+          - store: steam
   steam:
     id: 2121510
 Tenebrous Dungeon:
@@ -797642,6 +797650,8 @@ Transport Fever 3:
         - os: windows
   gog:
     id: 1721456477
+  id:
+    lutris: transport-fever-3
   installDir:
     Transport Fever 3: {}
   launch:

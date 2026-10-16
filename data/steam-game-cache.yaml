@@ -607994,7 +607994,16 @@
       executable: FemboyBangers2-32.exe
       type: default
 2121270: {}
-2121510: {}
+2121510:
+  cloud:
+    saves:
+      - path: TenebrisSomnia/Saved/SaveGames
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: Tenebris Somnia
+  launch:
+    - executable: TenebrisSomnia.exe
+      type: default
 2121980:
   cloud:
     saves:

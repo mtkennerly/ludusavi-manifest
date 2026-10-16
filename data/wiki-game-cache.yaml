@@ -96224,6 +96224,8 @@ Gallery One:
   pageId: 104251
   steam: 912260
 Gallipoli:
+  cloud:
+    steam: true
   lutris: gallipoli
   pageId: 218466
   steam: 3065940
@@ -148044,6 +148046,8 @@ Mercenary Kings:
 Mercenary Leto:
   pageId: 104933
   steam: 893710
+"Mercer Mayer's Little Critter and the Great Race":
+  pageId: 221792
 Mercfighter:
   pageId: 66631
   steam: 676540
@@ -158274,6 +158278,8 @@ NASCAR Racing:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\n{{Game data/config|Mac OS|}}\n}}"
     - "{{Game data/saves|DOS|{{p|game}}\n{{Game data/saves|Mac OS|}}\n}}"
+NASCAR Racing 1999 Edition:
+  pageId: 221796
 NASCAR Racing 2:
   pageId: 189554
 NASCAR Racing 2002 Season:
@@ -171621,8 +171627,12 @@ PEG:
     steam: true
   pageId: 72039
   steam: 699600
+PGA Championship Golf 2000:
+  pageId: 221789
 "PGA Championship Golf 2000: Titanium Edition":
   pageId: 221786
+"PGA Championship Golf: 1999 Edition":
+  pageId: 221797
 PGA Tour 2K21:
   pageId: 160478
   steam: 1016120
@@ -261316,6 +261326,7 @@ Transport Fever 2:
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/1066780/local/save/|{{p|steam}}/userdata/{{p|uid}}/1066780/local/profile.lua}}"
 Transport Fever 3:
   gog: 1721456477
+  lutris: transport-fever-3
   pageId: 221174
   steam: 3493540
   templates:
