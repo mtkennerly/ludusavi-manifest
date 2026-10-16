@@ -611555,6 +611555,34 @@
       executable: launcher_pc_retail.bat
   nameLocalized:
     schinese: "Warhammer 40,000: 星际战士2"
+2184080:
+  cloud:
+    saves:
+      - path: Moonlight Kids/Echo Weaver
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+      - path: Moonlight Kids/Echo Weaver
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Moonlight Kids/Echo Weaver
+            replace: Moonlight Kids/Echo Weaver
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Echo Weaver
+  launch:
+    - config:
+        oslist: windows
+      executable: Echo Weaver.exe
+      type: default
+    - config:
+        oslist: macos
+      description: Mac
+      executable: "Echo Weaver.app\\Contents\\MacOS\\Echo Weaver"
+      type: default
 2184570:
   installDir: memo05
   launch:
@@ -653786,6 +653814,37 @@
       description: DirectX 12 - Use for the best perfomance (only high end PCs)
       executable: Bleak Haven.exe
       type: config
+3569420:
+  cloud:
+    saves:
+      - path: Featherweight Games/ChainedBeasts/
+        pattern: SaveData
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Featherweight Games/ChainedBeasts/
+            replace: ".config/unity3d/Featherweight Games/ChainedBeasts/"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Featherweight Games/ChainedBeasts/
+            replace: unity.Featherweight Games.ChainedBeasts/
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Chained Beasts
+  launch:
+    - config:
+        oslist: windows
+      executable: ChainedBeasts.exe
+    - config:
+        oslist: macos
+      executable: ChainedBeasts.app
+  nameLocalized:
+    schinese: " 链兽角斗"
 3571710:
   cloud:
     saves:

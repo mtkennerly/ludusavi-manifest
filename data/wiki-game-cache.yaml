@@ -33842,6 +33842,8 @@ Breathedge 2:
   lutris: breathedge-2
   pageId: 201823
   steam: 2412960
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Breathedge2Game\\Saved\\SaveGames}}"
 Breathing Fear:
   pageId: 51308
   steam: 535400
@@ -41240,6 +41242,12 @@ Chain of Command:
 ChainMan:
   pageId: 64325
   steam: 646300
+Chained Beasts:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 221773
+  steam: 3569420
 Chained Echoes:
   cloud:
     gog: true
@@ -75415,6 +75423,12 @@ Echo Royale:
   steam: 762010
 Echo VR:
   pageId: 128782
+Echo Weaver:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 221772
+  steam: 2184080
 Echo of Combats:
   pageId: 127393
   steam: 931070
@@ -155524,6 +155538,8 @@ Mr Nibbles Forever:
 Mr Zig:
   pageId: 154095
   steam: 1162100
+Mr. & Mrs. Potato Head Go on Vacation:
+  pageId: 221775
 Mr. Barrel:
   cloud:
     steam: true
@@ -236205,6 +236221,7 @@ TendyTrainer:
   steam: 983120
 Tenebris Somnia:
   cloud:
+    steam: true
     xbox: true
   gog: 2084941195
   gogSide:
@@ -236214,6 +236231,9 @@ Tenebris Somnia:
   steam: 2121510
   steamSide:
     - 2578120
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\TenebrisSomnia\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\TenebrisSomnia\\Saved\\SaveGames\\}}"
 Tenebrous Dungeon:
   pageId: 128179
   steam: 1016420
@@ -259352,6 +259372,8 @@ Toy Story 2 Activity Center:
 "Toy Story 3: Complete Edition":
   pageId: 217162
   steam: 4049180
+  templates:
+    - "{{Game data/saves|Windows| %AppData%\\Roaming\\Disney\\Toy Story 3 Complete Edition\\savedata}}"
 "Toy Story 3: The Video Game":
   cloud:
     steam: true

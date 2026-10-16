@@ -104266,9 +104266,11 @@ Breathedge 2:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Breathedge2Game/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Breathedge2Game/Saved/SaveGames":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: breathedge-2
   installDir:
@@ -127194,6 +127196,34 @@ ChainMan:
     ChainMan: {}
   steam:
     id: 646300
+Chained Beasts:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Featherweight Games/ChainedBeasts/SaveData":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Featherweight Games/ChainedBeasts/SaveData":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/unity.Featherweight Games.ChainedBeasts/SaveData":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Chained Beasts: {}
+  launch:
+    "<base>/ChainedBeasts.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/ChainedBeasts.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3569420
 Chained Echoes:
   cloud:
     gog: true
@@ -232485,6 +232515,37 @@ Echo Royale:
             store: steam
   steam:
     id: 762010
+Echo Weaver:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Moonlight Kids/Echo Weaver/*.dat":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Moonlight Kids/Echo Weaver/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Moonlight Kids/Echo Weaver/*.dat":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Moonlight Kids/Echo Weaver/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Echo Weaver: {}
+  launch:
+    "<base>/Echo Weaver.app/Contents/MacOS/Echo Weaver":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Echo Weaver.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2184080
 Echo of Combats:
   installDir:
     Echo of Combats: {}
@@ -723740,6 +723801,19 @@ TendyTrainer:
   steam:
     id: 983120
 Tenebris Somnia:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TenebrisSomnia/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TenebrisSomnia/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 2084941195
   id:
@@ -793543,10 +793617,11 @@ Toy Story:
         - os: windows
 "Toy Story 3: Complete Edition":
   files:
-    "<winAppData>/Disney/Toy Story 3 Complete Edition/**/Saved Game":
+    "<winAppData>/Roaming/Disney/Toy Story 3 Complete Edition/savedata":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Toy Story 3 Complete Edition: {}
   launch:
