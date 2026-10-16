@@ -8741,6 +8741,7 @@
 * [Encore Card Games Collection](https://www.pcgamingwiki.com/wiki/?curid=156135)
 * [Encore Casino Games Collection](https://www.pcgamingwiki.com/wiki/?curid=155987)
 * [Encounter of Galaxies](https://www.pcgamingwiki.com/wiki/?curid=61290)
+* [Encryption](https://www.pcgamingwiki.com/wiki/?curid=221768)
 * [End of Abyss](https://www.pcgamingwiki.com/wiki/?curid=205229)
 * [End of Days](https://www.pcgamingwiki.com/wiki/?curid=70529)
 * [End of Realms](https://www.pcgamingwiki.com/wiki/?curid=145193)

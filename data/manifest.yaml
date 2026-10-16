@@ -90140,6 +90140,14 @@ Blaster Simulator:
 Blaster! (2026):
   gog:
     id: 1952785258
+  id:
+    gogExtra:
+      - 1275219184
+      - 1730479498
+      - 2121942105
+    steamExtra:
+      - 4994300
+      - 5173900
   installDir:
     Blaster!: {}
   launch:
@@ -142685,6 +142693,8 @@ Clutch:
   steam:
     id: 35310
 Clutch (2027):
+  id:
+    lutris: clutch--1
   steam:
     id: 3061930
 Clutchball:
@@ -240240,6 +240250,9 @@ Encounter of Galaxies:
           - store: steam
   steam:
     id: 615390
+Encryption:
+  steam:
+    id: 3348610
 End Space:
   installDir:
     End Space: {}
@@ -341260,8 +341273,10 @@ Heroes of Science and Fiction:
   id:
     gogExtra:
       - 1604810943
+      - 1918421028
     steamExtra:
       - 4844630
+      - 4865610
   installDir:
     Silence of the Siren: {}
   launch:
@@ -508402,6 +508417,12 @@ Odd Town:
     id: 1983259736
   id:
     lutris: odd-town--1
+  installDir:
+    Odd Town: {}
+  launch:
+    "<base>/Odd Town.exe":
+      - when:
+          - store: steam
   steam:
     id: 2688780
 OddBallers:

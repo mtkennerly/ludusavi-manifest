@@ -633712,7 +633712,10 @@
       description: "TRIBES 3: Rivals - Public Test Server"
       executable: TribesRivals.exe
       type: option2
-2688780: {}
+2688780:
+  installDir: Odd Town
+  launch:
+    - executable: Odd Town.exe
 2688950:
   cloud:
     saves:
@@ -644193,7 +644196,9 @@
     german: "Instinct: Die Hölle von Yanggang"
     japanese: Instinct インスティンクト
     russian: Инстинкт
-3061930: {}
+3061930:
+  nameLocalized:
+    schinese: CLUTCH 离合：红线
 3062610:
   cloud:
     saves:
@@ -649918,6 +649923,7 @@
     english: "GIRLS' FRONTLINE"
     schinese: 少女前线
 3348210: {}
+3348610: {}
 3350030:
   installDir: The Permanent Residence  Souls Kept
   launch:

@@ -29397,8 +29397,15 @@ Blaster!:
   pageId: 220207
 Blaster! (2026):
   gog: 1952785258
+  gogSide:
+    - 1275219184
+    - 1730479498
+    - 2121942105
   pageId: 221663
   steam: 4959180
+  steamSide:
+    - 4994300
+    - 5173900
 Blastercell:
   cloud:
     steam: true
@@ -46103,6 +46110,7 @@ Clutch:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Clutch}}"
 Clutch (2027):
+  lutris: clutch--1
   pageId: 217329
   steam: 3061930
 Clutchball:
@@ -77934,6 +77942,9 @@ Encore Casino Games Collection:
 Encounter of Galaxies:
   pageId: 61290
   steam: 615390
+Encryption:
+  pageId: 221768
+  steam: 3348610
 End Space:
   pageId: 80619
   steam: 753900
@@ -111255,10 +111266,12 @@ Heroes of Science and Fiction:
   gog: 1765610130
   gogSide:
     - 1604810943
+    - 1918421028
   pageId: 215933
   steam: 2147380
   steamSide:
     - 4844630
+    - 4865610
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Oxymoron Games\\Silence of the Siren\\Saves\\|{{p|userprofile\\appdata\\locallow}}\\Oxymoron Games\\Silence of the Siren\\Autosaves\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Oxymoron Games/Silence of the Siren/Saves|{{p|linuxhome}}/.config/unity3d/Oxymoron Games/Silence of the Siren/Autosaves}}"
