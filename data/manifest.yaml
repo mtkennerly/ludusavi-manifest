@@ -242457,13 +242457,18 @@ Enshrouded:
   cloud:
     steam: true
   files:
-    "<home>/Saved Games/Enshrouded":
+    "<home>/Saved Games/keen games/Enshrouded":
       tags:
         - config
       when:
         - os: windows
           store: steam
-    "<root>/userdata/<storeUserId>/1203620/remote":
+    "<root>/userdata/<storeUserId>/1203620/remote/*.json":
+      tags:
+        - config
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/1203620/remote/*.ksd":
       tags:
         - save
       when:
@@ -271965,6 +271970,27 @@ Fire With Fire Tower Attack and Defense:
             store: steam
   steam:
     id: 351630
+Fire and Ashes:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/SavesDir/*.sav":
+      when:
+        - store: steam
+  gog:
+    id: 2146521586
+  id:
+    lutris: fire-and-ashes
+  installDir:
+    FireAndAshes: {}
+  launch:
+    "<base>/FireAndAshes.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1751730
 "Fire and Fury: English Civil War":
   installDir:
     Fire and Fury English Civil War: {}
@@ -645789,7 +645815,6 @@ Sinner:
     id: 1086500
 "Sinner: Sacrifice for Redemption":
   cloud:
-    origin: true
     steam: true
   files:
     "<winLocalAppData>/Packages/AnotherIndie.SINNERforWindows10_zrgg4v79ydekg/LocalCache/Local/blackstar_uproject/Saved/Config/WindowsNoEditor":
@@ -645814,6 +645839,8 @@ Sinner:
         - save
       when:
         - os: windows
+  id:
+    lutris: sinner-sacrifice-for-redemption
   installDir:
     SINNER: {}
   launch:
@@ -793710,6 +793737,8 @@ Toy Story:
         - save
       when:
         - os: windows
+  id:
+    lutris: toy-story-3
   installDir:
     Toy Story 3: {}
   launch:

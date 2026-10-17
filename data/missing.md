@@ -27928,6 +27928,7 @@
 * [The Movie Trivia Challenge](https://www.pcgamingwiki.com/wiki/?curid=96911)
 * [THE MULLER-POWELL PRINCIPLE: Foreword](https://www.pcgamingwiki.com/wiki/?curid=199195)
 * [The Multipath Adventures of Superman: Menace of Metallo](https://www.pcgamingwiki.com/wiki/?curid=128830)
+* [The Mummy Mystery](https://www.pcgamingwiki.com/wiki/?curid=221815)
 * [The Mummy Pharaoh](https://www.pcgamingwiki.com/wiki/?curid=114766)
 * [The Munsters](https://www.pcgamingwiki.com/wiki/?curid=218399)
 * [The Murder Room VR](https://www.pcgamingwiki.com/wiki/?curid=62994)

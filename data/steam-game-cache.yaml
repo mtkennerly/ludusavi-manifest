@@ -583134,6 +583134,18 @@
   launch:
     - executable: DodonpachiDX.exe
       type: none
+1751730:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: FireAndAshes
+  launch:
+    - config:
+        oslist: windows
+      executable: FireAndAshes.exe
+      type: default
 1751820: {}
 1752220:
   installDir: Relumine

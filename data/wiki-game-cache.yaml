@@ -78620,8 +78620,8 @@ Enshrouded:
   pageId: 192570
   steam: 1203620
   templates:
-    - "{{Game data/config|Steam|{{p|userprofile}}\\Saved Games\\Enshrouded\\ | {{p|game}}\\ }}"
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1203620\\remote\\{{note|Save games are stored in the {{P|userprofile}}\\Saved Games\\Enshrouded folder, if Steam Cloud is '''disabled'''. }}}}"
+    - "{{Game data/config|Steam|{{p|userprofile}}\\Saved Games\\keen games\\Enshrouded\\|{{P|steam}}\\userdata\\{{p|uid}}\\1203620\\remote\\*.json}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1203620\\remote\\*.ksd{{note|Save games are stored in the {{P|userprofile}}\\Saved Games\\Enshrouded folder, if Steam Cloud is '''disabled'''. }}}}"
 "Enshrouded World: Home Truths":
   cloud:
     steam: true
@@ -88680,6 +88680,14 @@ Fire Shark:
 Fire With Fire Tower Attack and Defense:
   pageId: 43897
   steam: 351630
+Fire and Ashes:
+  cloud:
+    gog: true
+    steam: true
+  gog: 2146521586
+  lutris: fire-and-ashes
+  pageId: 221817
+  steam: 1751730
 "Fire and Fury: English Civil War":
   pageId: 123880
   steam: 715270
@@ -211159,8 +211167,8 @@ Sinner:
 "Sinner: Sacrifice for Redemption":
   cloud:
     discord: true
-    origin: true
     steam: true
+  lutris: sinner-sacrifice-for-redemption
   pageId: 69755
   steam: 691280
   templates:
@@ -247322,6 +247330,8 @@ The Mummy Demastered:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.txt|{{p|hkcu}}\\Software\\Wayforward\\Mummy\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\slot*.save}}"
+The Mummy Mystery:
+  pageId: 221815
 The Mummy Pharaoh:
   pageId: 114766
   steam: 948120
@@ -259416,6 +259426,7 @@ Toy Story 2 Activity Center:
 "Toy Story 3: The Video Game":
   cloud:
     steam: true
+  lutris: toy-story-3
   pageId: 32410
   steam: 300820
   templates:
