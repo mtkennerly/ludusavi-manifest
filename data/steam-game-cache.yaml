@@ -652188,6 +652188,22 @@
     tchinese: "鬼靈精 2：拯救聖誕節 "
     ukrainian: "Ґрінч 2: Рятуючи Різдво "
 3470960:
+  cloud:
+    saves:
+      - path: BANDAI NAMCO Entertainment/Tales of Eternia Remastered
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Tales of Eternia Remastered
+  launch:
+    - config:
+        oslist: windows
+      executable: Tales of Eternia Remastered.exe
+    - config:
+        oslist: windows
+        ownsdlc: "4167460"
+      description: Digital Artbook & Soundtrack
+      executable: "Artbook and Soundtrack\\Digital Artbook and SoundTrack.exe"
   nameLocalized:
     japanese: テイルズ オブ エターニア リマスター
     koreana: 테일즈 오브 이터니아 리마스터

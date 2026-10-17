@@ -19254,6 +19254,10 @@ Auto Chess:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\AutoChess\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\AutoChess\\Saved\\SaveGames\\}}"
+Auto Concentration:
+  pageId: 221839
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\AUTOCON.T10}}"
 Auto Dealership Tycoon:
   pageId: 45918
   steam: 393920
@@ -183401,6 +183405,7 @@ Project RPG:
   pageId: 156772
   steam: 1207850
 Project Rabbit:
+  lutris: project-rabbit
   pageId: 216669
   steam: 4683260
 Project Rampage VR:
@@ -220431,6 +220436,8 @@ Sponchies:
   steam: 593670
 SpongeBob SolitairePants:
   pageId: 182885
+SpongeBob SquarePants Collapse:
+  pageId: 221830
 "SpongeBob SquarePants Diner Dash: 2 Times the Trouble":
   pageId: 194657
 "SpongeBob SquarePants: Battle for Bikini Bottom":
@@ -242662,6 +242669,8 @@ The Game of Life 2:
   steam: 1455630
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Marmalade Game Studio\\Game Of Life 2}}"
+"The Game of Life: SpongeBob SquarePants Edition":
+  pageId: 221832
 The Gamer Challenge:
   pageId: 66645
   steam: 671460
@@ -248291,6 +248300,7 @@ The Pinball Wizard:
 The Pines:
   cloud:
     steam: true
+  lutris: the-pines
   pageId: 215530
   steam: 4271520
 The Pink Panther in Hokus Pokus Pink:
@@ -251220,6 +251230,7 @@ The Talos Principle 2:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Talos2\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Talos2\\Saved\\SaveGames\\}}"
 The Talos Principle 3:
+  lutris: the-talos-principle-iii
   pageId: 216602
   steam: 3703630
 The Talos Principle VR:

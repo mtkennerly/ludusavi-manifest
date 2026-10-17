@@ -59482,6 +59482,13 @@ Auto Chess:
             store: steam
   steam:
     id: 1530300
+Auto Concentration:
+  files:
+    "<base>/AUTOCON.T10":
+      tags:
+        - save
+      when:
+        - os: windows
 Auto Dealership Tycoon:
   installDir:
     Auto Dealership Tycoon: {}
@@ -560493,6 +560500,8 @@ Project RPG:
   steam:
     id: 1207850
 Project Rabbit:
+  id:
+    lutris: project-rabbit
   steam:
     id: 4683260
 Project Rampage VR:
@@ -717849,6 +717858,17 @@ Tales of Escape:
   steam:
     id: 587860
 Tales of Eternia Remastered:
+  files:
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/Tales of Eternia Remastered":
+      when:
+        - store: steam
+  installDir:
+    Tales of Eternia Remastered: {}
+  launch:
+    "<base>/Tales of Eternia Remastered.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3470960
 Tales of Glacier (VR):
@@ -760530,6 +760550,8 @@ The Pinball Wizard:
 The Pines:
   cloud:
     steam: true
+  id:
+    lutris: the-pines
   steam:
     id: 4271520
 The Pink Panther in Hokus Pokus Pink:
@@ -769176,6 +769198,8 @@ The Talos Principle 2:
   steam:
     id: 835960
 The Talos Principle 3:
+  id:
+    lutris: the-talos-principle-iii
   steam:
     id: 3703630
 The Talos Principle VR:
