@@ -658094,6 +658094,7 @@
     schinese: 神貌之树逆卡巴拉
     spanish: "Qliphah in Providence's Shadow"
     tchinese: 神貌之樹逆卡巴拉
+3883610: {}
 3883910: {}
 3884520:
   cloud:
@@ -659688,7 +659689,6 @@
       executable: "SG_Octet\\SG_Octet.exe"
       type: option2
     - config:
-        betakey: private_beta
         osarch: "64"
         oslist: windows
       description: デバッグ版

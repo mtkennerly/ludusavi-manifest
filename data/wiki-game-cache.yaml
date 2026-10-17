@@ -38737,6 +38737,9 @@ CarX Drift Racing Online:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\CarX Technologies\\Drift Racing Online|{{p|userprofile}}\\AppData\\LocalLow\\CarX Technologies\\Drift Racing Online\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\CarX Technologies\\Drift Racing Online\\Cache}}"
+CarX Rally:
+  pageId: 221819
+  steam: 3883610
 CarX Street:
   cloud:
     steam: true
@@ -135348,6 +135351,8 @@ Let the Cat in:
   steam: 851350
 "Let's Ride! Corral Club":
   pageId: 221629
+"Let's Ride! Friends Forever":
+  pageId: 221822
 "Let's Ride! Silver Buckle Stables":
   gog: 2067932503
   pageId: 174762
@@ -144222,6 +144227,8 @@ Manipulator of Figure 3:
 Maniyugi Tokoyo:
   pageId: 88838
   steam: 756840
+Mankind:
+  pageId: 221828
 Mankind Defender:
   pageId: 61211
   steam: 751580
@@ -158826,6 +158833,11 @@ NHRA Drag Racing Main Event:
   pageId: 217077
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\NHRA.ini}}"
+"NHRA Drag Racing: Top Fuel Thunder":
+  pageId: 221824
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\UserData\\settings.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\UserData\\Replay}}"
 NIGHT FALLEN:
   pageId: 121353
   steam: 943030
@@ -198915,6 +198927,7 @@ Rugrats Munchin Land:
 "Rugrats: Adventures in Gameland":
   cloud:
     steam: true
+  lutris: rugrats-adventures-in-gameland
   pageId: 197761
   renamedFrom:
     - "Rugrats: Adventures In Gameland"
@@ -201330,6 +201343,8 @@ Saga of the North Wind:
 "Saga of the Void: Admirals":
   pageId: 51433
   steam: 535410
+"Saga: Rage of the Vikings":
+  pageId: 221826
 Sage 3D:
   pageId: 100354
   steam: 670760
@@ -220419,10 +220434,11 @@ SpongeBob SolitairePants:
 "SpongeBob SquarePants Diner Dash: 2 Times the Trouble":
   pageId: 194657
 "SpongeBob SquarePants: Battle for Bikini Bottom":
+  lutris: spongebob-squarepants-battle-for-bikini-bottom--3
   pageId: 16581
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\}}"
+    - "{{Game data/config|Windows|{{p|game}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated":
   cloud:
     gog: true
@@ -240919,6 +240935,8 @@ The Dinosaur Operation:
   pageId: 94130
   steam: 603640
 The DioField Chronicle:
+  cloud:
+    steam: true
   pageId: 175685
   steam: 1399080
   templates:
