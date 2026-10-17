@@ -81894,12 +81894,25 @@ Beyond The Veil (2019):
   steam:
     id: 1020670
 Beyond These Stars:
+  files:
+    "<home>/AppData/LocalLow/Balancing Monkey Games/Beyond These Stars/Saves":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1107179410
   id:
     lutris: beyond-these-stars
     steamExtra:
       - 2546270
+  installDir:
+    Beyond These Stars: {}
+  launch:
+    "<base>/Beyond These Stars.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2295060
 Beyond Zork:
@@ -217154,9 +217167,23 @@ Dreadlands:
   steam:
     id: 1054690
 Dreadline Express:
+  files:
+    "<home>/AppData/LocalLow/DavidKonecny/DreadlineExpress/steam<storeUserId>/Saves/**/*.data":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/DavidKonecny/DreadlineExpress/steam<storeUserId>/Saves/**/*.json":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 3411220
+  installDir:
+    DreadlineExpress: {}
+  launch:
+    "<base>/DreadlineExpress.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3327120
 Dreadnought:
@@ -318491,6 +318518,9 @@ Grobda Remix:
   steam:
     id: 739000
 Grobnopolis Last Days:
+  id:
+    steamExtra:
+      - 4670260
   steam:
     id: 3851090
 Groggers!:
@@ -691094,12 +691124,6 @@ Stranded Deep:
         - config
       when:
         - os: mac
-    "<winLocalAppData>/Packages/BeamTeamPublishing.StrandedDeepPC_z3g0437ken9pg/SystemAppData/wgs":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: microsoft
     "<xdgConfig>/unity3d/Beam Team Games/Stranded Deep/Data":
       tags:
         - save
@@ -773908,6 +773932,12 @@ The Wolf Among Us:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/Packages/TelltaleGames.TheWolfAmongUs-ATelltaleGamesSeries_4p9dzwrngadje/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1432213513
   installDir:
@@ -782518,6 +782548,8 @@ Tiny Bunny:
 Tiny Chills - Not From Ear:
   id:
     lutris: tiny-chills-not-from-ear
+    steamExtra:
+      - 5237240
   steam:
     id: 3878740
 Tiny Combat Arena:
@@ -787609,6 +787641,8 @@ Tonka Construction:
         - save
       when:
         - os: windows
+  id:
+    lutris: tony-hawks-pro-skater-hd
   installDir:
     "Tony Hawk's Pro Skater HD": {}
   launch:

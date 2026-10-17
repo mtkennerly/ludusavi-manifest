@@ -617334,6 +617334,21 @@
       executable: CLAIRE.exe
 2293380: {}
 2295060:
+  cloud:
+    saves:
+      - path: Balancing Monkey Games/Beyond These Stars/Saves
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Beyond These Stars
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Beyond These Stars.exe
+      type: default
   nameLocalized:
     japanese: Beyond These Stars ビヨンド・ジーズ・スターズ
     koreana: Beyond These Stars 비욘드 디스 스타즈
@@ -649653,7 +649668,23 @@
   nameLocalized:
     english: Sofia in Exchange for Lies
     schinese: 苏菲亚的谎言与代价
-3327120: {}
+3327120:
+  cloud:
+    saves:
+      - path: "DavidKonecny/DreadlineExpress/steam{64BitSteamID}/Saves"
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "DavidKonecny/DreadlineExpress/steam{64BitSteamID}/Saves"
+        pattern: "*.data"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: DreadlineExpress
+  launch:
+    - config:
+        oslist: windows
+      executable: DreadlineExpress.exe
+      type: default
 3327430: {}
 3328180:
   installDir: Snoopy and The Great Mystery Club
@@ -657993,7 +658024,9 @@
     koreana: 사냥의 밤：소브린 신디케이트
     schinese: 狩猎之夜：主权辛迪加
     tchinese: 狩獵之夜：主權辛迪加
-3878740: {}
+3878740:
+  nameLocalized:
+    schinese: 佈堪入耳
 3880350:
   installDir: WTF AM I PLAYING
   launch:

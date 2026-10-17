@@ -36657,6 +36657,8 @@ CINEVEO - VR Cinema:
     steam: true
   pageId: 45443
   steam: 304580
+"CJ's Elephant Antics":
+  pageId: 221805
 CLARC:
   gog: 1207664563
   pageId: 19738
@@ -55626,6 +55628,8 @@ DJ Beats - Waifus:
 DJ Mole:
   pageId: 87221
   steam: 806880
+DJ Puff:
+  pageId: 221808
 DJ Whip VR:
   pageId: 120749
   steam: 943970
@@ -103679,6 +103683,8 @@ Grobda Remix:
 Grobnopolis Last Days:
   pageId: 219280
   steam: 3851090
+  steamSide:
+    - 4670260
 Groggers!:
   pageId: 53204
   steam: 536920
@@ -224592,6 +224598,8 @@ Steep:
 Stefanos Sizzling Pizza Pie:
   pageId: 98796
   steam: 884210
+Steg the Slug:
+  pageId: 221813
 Stein.world:
   pageId: 132639
   steam: 1049660
@@ -225810,7 +225818,6 @@ Stranded Deep:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/com.BeamTeamGames.StrandedDeep/Data/Options.json}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Beam Team Games/Stranded Deep/Data/Options.json}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Beam Team Games\\Stranded Deep\\Data\\}}"
-    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\BeamTeamPublishing.StrandedDeepPC_z3g0437ken9pg\\SystemAppData\\wgs}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/com.BeamTeamGames.StrandedDeep/Data/}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Beam Team Games/Stranded Deep/Data/}}"
 Stranded II:
@@ -252842,6 +252849,7 @@ The Wolf Among Us:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\TheWolfAmongUs\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/TheWolfAmongUs/}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\The Wolf Among Us\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\TelltaleGames.TheWolfAmongUs-ATelltaleGamesSeries_4p9dzwrngadje\\SystemAppData\\wgs}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/TheWolfAmongUs/}}"
 The Wolf Among Us 2:
   pageId: 154605
@@ -255581,6 +255589,8 @@ Tiny Chills - Not From Ear:
   lutris: tiny-chills-not-from-ear
   pageId: 214744
   steam: 3878740
+  steamSide:
+    - 5237240
 Tiny Combat Arena:
   cloud:
     steam: true
@@ -257300,6 +257310,7 @@ Tonka WorkShop:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Aspyr Media\\Tony Hawks Pro Skater 4f\\Settings|{{p|game}}\\Game\\config.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Game\\Save\\}}"
 "Tony Hawk's Pro Skater HD":
+  lutris: tony-hawks-pro-skater-hd
   pageId: 3662
   steam: 207210
   templates:
@@ -281165,6 +281176,10 @@ World Racing 2:
   pageId: 14274
 "World Series Baseball '96":
   pageId: 171006
+World Series of Poker:
+  pageId: 221801
+"World Series of Poker 2008: Battle for the Bracelets":
+  pageId: 221803
 "World Series of Poker: Full House Pro":
   pageId: 178671
 "World Series of Poker: Tournament of Champions":
@@ -286207,6 +286222,8 @@ Zombasite:
 Zombeer:
   pageId: 48851
   steam: 262190
+Zombi (1990):
+  pageId: 221811
 Zombi (2015):
   cloud:
     uplay: true
