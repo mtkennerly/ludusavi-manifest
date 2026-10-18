@@ -411775,6 +411775,8 @@ Legion:
         - config
       when:
         - os: windows
+  id:
+    lutris: legion-gold
   installDir:
     Legion: {}
   launch:
@@ -717895,10 +717897,15 @@ Tales of Escape:
   steam:
     id: 587860
 Tales of Eternia Remastered:
+  cloud:
+    steam: true
   files:
-    "<winLocalAppData>/BANDAI NAMCO Entertainment/Tales of Eternia Remastered":
+    "<winLocalAppData>/BANDAI NAMCO Entertainment/Tales of Eternia Remastered/Saved":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Tales of Eternia Remastered: {}
   launch:

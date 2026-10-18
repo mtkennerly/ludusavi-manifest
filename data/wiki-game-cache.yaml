@@ -7283,6 +7283,8 @@ After the Fall:
 After the Inferno:
   pageId: 180244
   steam: 2027360
+After the War (1989):
+  pageId: 221866
 AfterBeat:
   cloud:
     steam: true
@@ -82673,6 +82675,8 @@ F-15 Strike Eagle II:
   pageId: 182927
 F-15 Strike Eagle III:
   pageId: 182929
+F-16 Aggressor:
+  pageId: 221879
 F-16 Multirole Fighter:
   lutris: f-16-multirole-fighter
   pageId: 41287
@@ -113283,6 +113287,8 @@ Holiday Bonus GOLD:
 Holiday Escape:
   pageId: 108478
   steam: 911050
+Holiday Island:
+  pageId: 221869
 Holiday Lemmings (1994):
   pageId: 176264
 Holiday Racer:
@@ -134271,6 +134277,7 @@ Legie:
 Legio:
   pageId: 174615
 Legion:
+  lutris: legion-gold
   pageId: 157531
   steam: 1284080
   templates:
@@ -234408,8 +234415,13 @@ Tales of Escape:
   pageId: 59474
   steam: 587860
 Tales of Eternia Remastered:
+  cloud:
+    steam: true
   pageId: 217580
   steam: 3470960
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\Tales of Eternia Remastered\\Saved\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\BANDAI NAMCO Entertainment\\Tales of Eternia Remastered\\Saved\\}}"
 Tales of Glacier (VR):
   pageId: 71696
   steam: 676880
