@@ -255114,6 +255114,13 @@ F/A-18E Super Hornet:
           - store: steam
   steam:
     id: 776050
+F1 2000:
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
 F1 2010:
   files:
     "<winDocuments>/My Games/FormulaOne/hardwaresettings/hardware_settings_config.xml":
@@ -462057,10 +462064,14 @@ Minecraft Legends:
         - save
       when:
         - os: mac
+    "<winDocuments>/Telltale Games/Minecraft - Story Mode":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/Telltale Games/Minecraft Story Mode":
       tags:
         - config
-        - save
       when:
         - os: windows
   gog:
@@ -487984,6 +487995,17 @@ Narcosis:
             store: steam
   steam:
     id: 637860
+"Nargül: Humans Are Among Us":
+  files:
+    "<home>/AppData/LocalLow/3DDDgames/NARGUL - Humans are among us":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    NARGUL-HumansAreAmongUs: {}
+  steam:
+    id: 1646810
 "Narin: The Orange Room":
   cloud:
     steam: true
@@ -580932,6 +580954,9 @@ Realm of Ink:
         - os: windows
   id:
     lutris: realm-of-ink
+    steamExtra:
+      - 2708460
+      - 2710500
   installDir:
     Realm of Ink: {}
   launch:
@@ -618656,6 +618681,8 @@ Sanctum:
         - config
       when:
         - os: windows
+  id:
+    lutris: sanctum
   installDir:
     Sanctum: {}
   launch:
@@ -618701,6 +618728,8 @@ Sanctum 2:
         - save
       when:
         - os: linux
+  id:
+    lutris: sanctum-2
   installDir:
     Sanctum2: {}
   launch:
@@ -628194,6 +628223,12 @@ Sengoku Rance:
         - os: windows
   gog:
     id: 1567591607
+  installDir:
+    Sengoku Rance: {}
+  launch:
+    "<base>/Rance7.exe":
+      - when:
+          - store: steam
   steam:
     id: 3867170
 Senity:
@@ -704175,6 +704210,8 @@ Super Sanctum TD:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: super-sanctum-td
   installDir:
     SanctumTD: {}
   launch:
@@ -773498,6 +773535,23 @@ The Witch & the 66 Mushrooms:
           - store: steam
   steam:
     id: 891170
+"The Witch's Bakery":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Sunny Lab/The Witch's Bakery/GameFiles/Slot_0/*.lunne":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "The Witch's Bakery": {}
+  launch:
+    "<base>/The Witch's Bakery.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2967950
 "The Witch's House MV":
   cloud:
     gog: true
@@ -793812,19 +793866,31 @@ Toy Story Mania!:
   steam:
     id: 317580
 "Toy Story: Retro Roundup!":
+  cloud:
+    steam: true
   files:
-    "<winAppData>/Disney/Toy Story Retro Roundup!/saves":
+    "<winAppData>/Disney/Toy Story Retro Roundup!/saves/*.bst0":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winAppData>/Disney/Toy Story Retro Roundup!/saves/*.bst1":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Disney/Toy Story Retro Roundup!/saves/*.bst2":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Disney/Toy Story Retro Roundup!/settings_main.json":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     Toy Story Retro Roundup: {}
-  launch:
-    "<base>/Toy Story Retro Roundup!.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 4049170
 Toy Tanks:

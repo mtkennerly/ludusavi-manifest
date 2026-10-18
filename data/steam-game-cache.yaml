@@ -574923,6 +574923,14 @@
     russian: "Citizens: Дальние Земли"
     schinese: 海岛物语
     tchinese: 海島物語
+1646810:
+  installDir: NARGUL-HumansAreAmongUs
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: NARGUL - Humans are among us.exe
+      type: vr
 1646850:
   cloud:
     saves:
@@ -641784,6 +641792,20 @@
     - executable: Shotgun Cop Man.exe
   nameLocalized:
     schinese: Shotgun Cop Man - 霰弹警长
+2967950:
+  cloud:
+    saves:
+      - path: "Sunny Lab/The Witch's Bakery/GameFiles/Slot_0/"
+        pattern: "*.lunne"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: "The Witch's Bakery"
+  launch:
+    - config:
+        oslist: windows
+      executable: "The Witch's Bakery.exe"
+      type: default
 2967990:
   installDir: Train Sim World 5
   launch:
@@ -658018,7 +658040,23 @@
   nameLocalized:
     schinese: 兰斯01+02
 3867170:
+  cloud:
+    saves:
+      - path: SaveData
+        pattern: "*.sav"
+        root: gameinstall
+      - path: SaveData
+        pattern: "*.asd"
+        root: gameinstall
+      - path: SaveData
+        pattern: "*.as2"
+        root: gameinstall
+  installDir: Sengoku Rance
+  launch:
+    - executable: Rance7.exe
+      type: default
   nameLocalized:
+    japanese: " 戦国ランス"
     schinese: 兰斯7 战国兰斯
 3871570: {}
 3873970:
@@ -659951,8 +659989,16 @@
     - config:
         osarch: "64"
         oslist: windows
+      description: Default Version
       executable: Toy Story Retro Roundup!.exe
-      type: default
+      type: option1
+    - arguments: "--low_latency"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Extra-Low Latency Version (For faster PCs)
+      executable: Toy Story Retro Roundup!.exe
+      type: option2
 4049180:
   cloud:
     saves:

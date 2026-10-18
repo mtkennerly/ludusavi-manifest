@@ -29415,6 +29415,8 @@ Blastercell:
     steam: true
   pageId: 62190
   steam: 608540
+Blasteroids:
+  pageId: 221847
 Blasteron:
   pageId: 74970
   steam: 720850
@@ -82774,6 +82776,8 @@ F/A-18E Super Hornet:
     - "{{Game data/saves|Windows|{{p|game}}\\LOG}}"
 F1 2000:
   pageId: 23330
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 F1 2001:
   pageId: 25244
 F1 2002:
@@ -89588,6 +89592,8 @@ Flappy Galaxy:
   steam: 720480
   steamSide:
     - 722310
+Flappy Urho:
+  pageId: 221849
 FlappyU:
   pageId: 91886
   steam: 822740
@@ -120224,6 +120230,8 @@ Inferno Puzzle:
 Infernum:
   pageId: 126104
   steam: 998590
+Infestation:
+  pageId: 221860
 Infestation (2000):
   pageId: 40389
   templates:
@@ -121427,6 +121435,8 @@ International Golf Pro:
   pageId: 218731
 International Karate:
   pageId: 81835
+International Moto X:
+  pageId: 221855
 International Rally Championship:
   pageId: 22653
   templates:
@@ -150913,7 +150923,7 @@ Minecraft Legends:
     - 456630
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Minecraft Story Mode\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Minecraft Story Mode\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Minecraft - Story Mode\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/}}"
 "Minecraft: Story Mode - Season Two":
   cloud:
@@ -159470,6 +159480,11 @@ Narcosis:
 "Narcotics Police: Black and White":
   pageId: 62933
   steam: 637860
+"Nargül: Humans Are Among Us":
+  pageId: 221841
+  steam: 1646810
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\3DDDgames\\NARGUL - Humans are among us}}"
 "Narin: The Orange Room":
   cloud:
     steam: true
@@ -190012,6 +190027,9 @@ Realm of Ink:
   lutris: realm-of-ink
   pageId: 214239
   steam: 2597080
+  steamSide:
+    - 2708460
+    - 2710500
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\MapleLeap\\Realm of Ink\\GameSave\\}}"
 Realm of Perpetual Guilds:
@@ -202442,6 +202460,7 @@ Sanctuary VR:
 Sanctum:
   cloud:
     steam: true
+  lutris: sanctum
   pageId: 3952
   steam: 91600
   templates:
@@ -202450,6 +202469,7 @@ Sanctum:
 Sanctum 2:
   cloud:
     steam: true
+  lutris: sanctum-2
   pageId: 7145
   steam: 210770
   templates:
@@ -229931,6 +229951,7 @@ Super Samurai Rampage:
 Super Sanctum TD:
   cloud:
     steam: true
+  lutris: super-sanctum-td
   pageId: 16189
   steam: 235250
   templates:
@@ -239626,6 +239647,8 @@ The Chant:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Chant\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Chant\\Saved\\SaveGames}}"
+The Chaos Engine:
+  pageId: 221851
 The Chaos Engine (2013):
   cloud:
     steam: true
@@ -252699,6 +252722,11 @@ The Witch & the 66 Mushrooms:
   renamedFrom:
     - Witch & 66 Mushrooms
   steam: 891170
+"The Witch's Bakery":
+  cloud:
+    steam: true
+  pageId: 221843
+  steam: 2967950
 "The Witch's House MV":
   cloud:
     gog: true
@@ -259471,8 +259499,13 @@ Toy Story Mania!:
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\SaveGames\\}}"
 "Toy Story: Retro Roundup!":
+  cloud:
+    steam: true
   pageId: 217164
   steam: 4049170
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Disney\\Toy Story Retro Roundup!\\settings_main.json}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Disney\\Toy Story Retro Roundup!\\saves\\*.bst0|{{p|appdata}}\\Disney\\Toy Story Retro Roundup!\\saves\\*.bst1|{{p|appdata}}\\Disney\\Toy Story Retro Roundup!\\saves\\*.bst2}}"
 "Toy Story: Smash It!":
   pageId: 174491
 Toy Tanks:
@@ -269486,6 +269519,7 @@ Vampire of the Sands:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\DrawDistance\\VtM Coteries of New York\\Saves\\Settings.save|{{P|hkcu}}\\Software\\DrawDistance\\VtM Coteries of New York\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\DrawDistance\\VtM Coteries of New York\\Saves\\}}"
+    - "{{Game data/saves|OS X|{{P|home}}~\\Library\\Application Support\\com.ifun4all.vtmcony\\Saves}}"
 "Vampire: The Masquerade - Eternal Whispers":
   pageId: 217460
   steam: 4102480
