@@ -51642,7 +51642,7 @@
     - config:
         oslist: macos
       description: Launch
-      executable: MiniMetro.app/Contents/MacOS/MiniMetro
+      executable: MiniMetro.app
     - config:
         oslist: linux
       description: Launch
@@ -124663,6 +124663,11 @@
       description: Speedrun - DOS Mac Version
       executable: "Speedrun\\Mac\\Contents\\MacOS\\Launcher"
       type: option1
+  nameLocalized:
+    brazilian: "Little Big Adventure 2 - Twinsen's Odyssey"
+    koreana: 리틀 빅 어드벤처 2
+    latam: "Little Big Adventure 2 - Twinsen's Odyssey"
+    tchinese: 小大冒險2
 398020:
   cloud:
     saves:
@@ -494054,7 +494059,7 @@
       type: default
     - config:
         oslist: macos
-      executable: Mini Motorways.app/Contents/MacOS/Mini Motorways
+      executable: Mini Motorways.app
       type: default
 1127520:
   installDir: TREE HOUSE  AVOCADO MAYHEM
@@ -533464,21 +533469,18 @@
 1225560:
   installDir: Unravel
   launch:
-    - executable: "link2ea://launchgame/1225560?platform=steam&theme=un"
-      type: none
+    - executable: "steam2ea://launchgame/1225560?platform=steam&theme=un"
 1225570:
   installDir: UnravelTwo
   launch:
-    - executable: "link2ea://launchgame/1225570?platform=steam&theme=un2"
-      type: none
+    - executable: "steam2ea://launchgame/1225570?platform=steam&theme=un2"
   nameLocalized:
     schinese: 《Unravel Two》
     tchinese: 《Unravel Two》
 1225580:
   installDir: Fe
   launch:
-    - executable: "link2ea://launchgame/1225580?platform=steam&theme=fe"
-      type: none
+    - executable: "steam2ea://launchgame/1225580?platform=steam&theme=fe"
   nameLocalized:
     tchinese: 《Fe》
 1225590:
@@ -581778,7 +581780,7 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: imentet_Shipping_Steam_x64.exe
+      executable: KillingTimeResurrected.exe
       type: default
 1733240:
   cloud:
@@ -583529,6 +583531,13 @@
         oslist: macos
       executable: Contents/MacOS/Launcher
       type: default
+    - config:
+        betakey: "native, modding"
+        oslist: windows
+      executable: TimeCommando.exe
+      type: default
+  nameLocalized:
+    japanese: タイムコマンドー
 1759350:
   cloud:
     saves:
@@ -629276,7 +629285,9 @@
     italian: "Broken Sword - Il Segreto dei Templari: Reforged"
     polish: "Broken Sword - Cień templariuszy: Reforged"
     russian: "Сломанный меч – Тень Тамплиеров: Перекованное издание"
+    schinese: 断剑：圣殿骑士之影
     spanish: "Broken Sword - La Leyenda de los Templarios: Reforged"
+    tchinese: 斷劍：聖殿騎士之影
     turkish: "Broken Sword - Tapınakçıların Gölgesi: Reforged"
 2545360:
   installDir: LMSR
@@ -636921,6 +636932,13 @@
   launch:
     - executable: Launch The Tortoise And The Hare.exe
       type: default
+    - arguments: "--zoom-splash=white -c \"tortoise.ini\" tortoise"
+      config:
+        oslist: windows
+      description: English (US)
+      executable: "EnglishUS\\ScummVM\\scummvm.exe"
+      type: option1
+      workingdir: "EnglishUS\\"
 2786660:
   cloud:
     saves:
@@ -649891,11 +649909,13 @@
     brazilian: "Broken Sword - O Espelho Fumegante: Reforged"
     czech: "Broken Sword - Dýmající zrcadlo: Reforged"
     french: "Les Chevaliers de Baphomet - Les Boucliers de Quetzalcoatl: Reforged"
-    german: "Baphomets Fluch - Die Spiegel der Finsternis: Reforged"
+    german: "Baphomets Fluch – Die Spiegel der Finsternis: Reforged"
     italian: "Broken Sword - La Profezia dei Maya: Reforged"
-    polish: "Broken Sword: Dymiące Zwierciadło: Reforged"
+    polish: "Broken Sword - Dymiące Zwierciadło: Reforged"
     russian: "Сломанный меч – Дымящееся Зеркало: Перекованное издание"
+    schinese: 断剑：烟镜
     spanish: "Broken Sword - Las Fuerzas del Mal: Reforged"
+    tchinese: 斷劍：煙鏡
     turkish: "Broken Sword - Puslu Ayna: Reforged"
 3337850: {}
 3339880:
@@ -662086,13 +662106,21 @@
 4384550:
   installDir: Call of Duty Black Ops 6
   launch:
-    - arguments: cod.exe
+    - arguments: cod-cod24.exe
       config:
         osarch: "64"
         oslist: windows
       description: Launch Bootstrapper.exe
       executable: bootstrapper.exe
       type: default
+    - arguments: cod-cod24.exe
+      config:
+        betakey: beta2
+        osarch: "64"
+        oslist: windows
+      description: Launch Bootstrapper.exe
+      executable: bootstrapper.exe
+      type: config
   nameLocalized:
     arabic: "Call of Duty®: Black Ops 6"
     brazilian: "Call of Duty®: Black Ops 6"
