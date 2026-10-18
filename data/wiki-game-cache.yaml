@@ -137839,6 +137839,8 @@ Locked-in Syndrome:
 Loco Dojo:
   pageId: 65313
   steam: 667800
+Loco Mania:
+  pageId: 221882
 Loco Motive:
   cloud:
     gog: true
@@ -183438,6 +183440,7 @@ Project Rampage VR:
 Project Reforged:
   pageId: 213050
 Project Reignition:
+  lutris: project-reignition
   pageId: 202149
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Godot\\app_userdata\\Sonic and the Secret Rings Remake\\config.cfg}}"
@@ -209443,6 +209446,8 @@ Shredders:
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\FoamPunch.Shredders_6gtbvqvkrbpn2\\SystemAppData\\wgs\\}}"
 "Shrek 2 Activity Center: Twisted Fairy Tale Fun":
   pageId: 207561
+Shrek 2 Remastered:
+  pageId: 221883
 "Shrek 2: Team Action":
   pageId: 25043
   templates:
@@ -214492,6 +214497,10 @@ Snowman:
 Snowmania:
   pageId: 79077
   steam: 764830
+Snowmobile Championship 2000:
+  pageId: 221886
+Snowmobile Racing:
+  pageId: 221885
 Snowrifters VEX:
   pageId: 139099
   steam: 1020420
@@ -250684,7 +250693,7 @@ The Spectrum Retreat:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ripstone\\The Spectrum Retreat\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\My Games\\TheSpectrumRetreat\\Saves\\SpectrumData}}"
-    - "{{Game data/saves|Steam|{{p|PUBLIC}}\\Documents\\Steam\\{{p|uid}}\\763250}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\763250\\remote}}"
 The Spell - A Kinetic Novel:
   cloud:
     steam: true

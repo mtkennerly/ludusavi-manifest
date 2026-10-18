@@ -16421,6 +16421,13 @@
       executable: editor.exe
     - description: Configure
       executable: config.exe
+    - config:
+        betakey: internal
+        osarch: "64"
+        oslist: windows
+      description: Launcher
+      executable: launcher-x64.exe
+      type: option1
 202970:
   cloud:
     saves:
@@ -662515,7 +662522,7 @@
   launch:
     - config:
         oslist: windows
-      executable: king.exe
+      executable: WorkshopModSync.exe
       type: default
     - description: Graphics Configuration Tool
       executable: HT2GraphicsConfig.exe

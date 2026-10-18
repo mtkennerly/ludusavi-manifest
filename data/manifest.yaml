@@ -328912,7 +328912,7 @@ Hard Truck 2:
   installDir:
     Hard Truck 2 King of the Road: {}
   launch:
-    "<base>/king.exe":
+    "<base>/WorkshopModSync.exe":
       - when:
           - os: windows
             store: steam
@@ -560555,6 +560555,8 @@ Project Reignition:
         - save
       when:
         - os: windows
+  id:
+    lutris: project-reignition
 Project Remedium:
   cloud:
     steam: true
@@ -767425,17 +767427,16 @@ The Spectrum Retreat:
     epic: true
     steam: true
   files:
+    "<root>/userdata/<storeUserId>/763250/remote":
+      tags:
+        - save
+      when:
+        - store: steam
     "<winDocuments>/My Games/TheSpectrumRetreat/Saves/SpectrumData":
       tags:
         - save
       when:
         - os: windows
-    "<winPublic>/Documents/Steam/<storeUserId>/763250":
-      tags:
-        - save
-      when:
-        - os: windows
-          store: steam
   installDir:
     Spectrum: {}
   launch:
