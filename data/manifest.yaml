@@ -93715,6 +93715,8 @@ Blood will be Spilled:
         - os: windows
   gog:
     id: 1971203245
+  id:
+    lutris: blood-refreshed-supply
   installDir:
     Blood - Refreshed Supply: {}
   launch:
@@ -115557,6 +115559,12 @@ Call of Duty Black Ops Cold War:
   steam:
     id: 115300
 "Call of Duty: Modern Warfare 4":
+  files:
+    "<winLocalAppData>/Activision/Call of Duty/players/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
   steam:
     id: 4435490
 "Call of Duty: Modern Warfare II":
@@ -121605,13 +121613,14 @@ Cartoony Cars 2:
 "Case 2: Animatronics Survival":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Case/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  id:
+    lutris: case-2-animatronics-survival
   installDir:
     CASE 2 Animatronics Survival: {}
-  launch:
-    "<base>/Case2.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
     id: 722960
 Case 8:
@@ -121630,6 +121639,45 @@ Case Opener Guns:
             store: steam
   steam:
     id: 976720
+"Case Records: Fear of Abduction":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/AuroraCityofHorrors/Saved/SaveGames/Slot1.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: case-records-fear-of-abduction
+  installDir:
+    CASE RECORDS Fear of Abduction: {}
+  launch:
+    "<base>/AuroraCityofHorrors.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2826400
+"Case Records: Lost Night":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/ToyFactory/Saved/DefoltSlot/*.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: case-records-lost-night
+  installDir:
+    CASE RECORDS Lost Night: {}
+  launch:
+    "<base>/ToyFactory.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3520330
 Case Simulator Weapons and Armors:
   id:
     steamExtra:
@@ -212942,6 +212990,9 @@ Dr. Green:
         - config
   steam:
     id: 409160
+Dr. Matben:
+  steam:
+    id: 2907670
 Dr. Pills:
   steam:
     id: 836790
@@ -218612,22 +218663,7 @@ Dreamwild:
   steam:
     id: 2168450
 "Dreamworks Spirit Lucky's Big Adventure":
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/aheartfulofgames/Dreamworks Spirit Lucky's Big Adventure":
-      when:
-        - store: steam
-  installDir:
-    Spirit: {}
-  launch:
-    "<base>/Spirit.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 1270720
+  alias: "Spirit: Lucky's Big Adventure"
 Dredge:
   cloud:
     epic: true
@@ -257937,6 +257973,21 @@ Fading Afternoon:
             store: steam
   steam:
     id: 1687000
+Fading Echo:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/UE_YGRO/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Project Ygrό: {}
+  launch:
+    "<base>/FadingEcho.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2467880
 Fading Hearts:
   files:
     "<base>/renpy/config.py":
@@ -272486,13 +272537,14 @@ Fireside Feelings:
   steam:
     id: 2990600
 Firestone Idle RPG:
-  cloud:
-    epic: true
-    steam: true
   files:
-    "<base>/SavesDir/*.sav":
+    "Stored on the developer's servers.":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+        - os: mac
+        - os: linux
   installDir:
     Firestone: {}
   launch:
@@ -314140,6 +314192,13 @@ Grape Jelly:
   steam:
     id: 716940
 Graphite:
+  installDir:
+    Graphite: {}
+  launch:
+    "<base>/Graphite.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3080560
 Grapple:
@@ -439032,6 +439091,23 @@ Magilore:
             store: steam
   steam:
     id: 724520
+"Magin: The Rat Project Stories":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/The Rat Project/Magin_ The Rat Project Stories/Slot_*.save":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    The Rat Project: {}
+  launch:
+    "<base>/Magin The Rat Project Stories.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1205270
 Magistrangers:
   installDir:
     Magistrangers: {}
@@ -579915,6 +579991,9 @@ ReThink 5:
             store: steam
   steam:
     id: 3363310
+"ReThink: Evolved Free":
+  steam:
+    id: 4081880
 "ReThink: Lite":
   installDir:
     ReThink Lite: {}
@@ -636061,6 +636140,26 @@ Sheepo:
             store: steam
   steam:
     id: 1568400
+Shell of a King:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/RosuneStudios/Shell of a King/File*":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: shell-of-a-king
+  installDir:
+    Shell of a King: {}
+  launch:
+    "<base>/Shell of a King.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2384130
 "ShellBlast: Legacy Edition":
   installDir:
     ShellBlast Legacy Edition: {}
@@ -673766,6 +673865,25 @@ Spirit of the North 2:
             store: steam
   steam:
     id: 1778840
+"Spirit: Lucky's Big Adventure":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/aheartfulofgames/Dreamworks Spirit Lucky's Big Adventure":
+      when:
+        - store: steam
+  id:
+    lutris: dreamworks-spirit-luckys-big-adventure
+  installDir:
+    Spirit: {}
+  launch:
+    "<base>/Spirit.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 1270720
 SpiritSphere:
   installDir:
     SpiritSphere: {}
@@ -689771,6 +689889,27 @@ Stonekeep:
             store: steam
   steam:
     id: 613240
+Stonemachia:
+  files:
+    "<winLocalAppData>/Stonemachia/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Stonemachia/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Stonemachia: {}
+  launch:
+    "<base>/Stonemachia.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2982610
 Stonerid:
   cloud:
     steam: true
@@ -762336,8 +762475,7 @@ The Rare Nine:
   steam:
     id: 726800
 The Rat Project:
-  steam:
-    id: 1205270
+  alias: "Magin: The Rat Project Stories"
 The Raven Remastered:
   cloud:
     gog: true

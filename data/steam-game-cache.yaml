@@ -299943,12 +299943,19 @@
       type: default
 722940: {}
 722960:
+  cloud:
+    saves:
+      - path: "Case\\Saved\\SaveGames"
+        pattern: "*.sav"
+        root: WinAppDataLocal
   installDir: CASE 2 Animatronics Survival
   launch:
     - config:
+        osarch: "64"
         oslist: windows
+      description: Steam Version
       executable: Case2.exe
-      type: default
+      type: option1
 722990:
   cloud:
     saves:
@@ -440482,11 +440489,12 @@
         oslist: linux
       executable: Firestone.x86_64
   nameLocalized:
-    japanese: "ファイアストン - 放置系英雄RPG "
-    koreana: 화의석 - 방치 영웅  RPG
-    russian: Firestone - фэнтези кликер РПГ онлайн ММО
-    schinese: 火之石 - 放置英雄RPG
-    tchinese: 火之石 - 放置英雄RPG
+    japanese: ファイアストン - 放置クリッカーオンラインRPG
+    koreana: 파이어스톤 - 방치 클릭커 온라인 RPG
+    russian: Firestone - кликер idle онлайн RPG
+    schinese: 火之石 – 放置点击英雄RPG
+    tchinese: 火之石 – 英雄放置点击RPG
+    ukrainian: Firestone – клікер idle онлайн RPG
 1013340:
   installDir: brainCloud Bombers
   launch:
@@ -527813,6 +527821,23 @@
     schinese: Tentacle Girl
     tchinese: 觸手少女
 1205270:
+  cloud:
+    saves:
+      - path: The Rat Project/Magin_ The Rat Project Stories
+        pattern: Slot_*.save
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: The Rat Project
+  launch:
+    - config:
+        oslist: windows
+      executable: Magin The Rat Project Stories.exe
+    - config:
+        oslist: windows
+        ownsdlc: "2731250"
+      description: Bonus Content
+      executable: open_bonus_win.bat
   nameLocalized:
     schinese: 魔忌 - Magin
     tchinese: 魔忌 - Magin
@@ -621322,6 +621347,24 @@
         oslist: windows
       executable: SwayzeGame.exe
       type: default
+2384130:
+  cloud:
+    saves:
+      - path: RosuneStudios/Shell of a King/File1
+        pattern: "*.BRUH"
+        root: WinAppDataLocalLow
+      - path: RosuneStudios/Shell of a King/File2
+        pattern: "*.BRUH"
+        root: WinAppDataLocalLow
+      - path: RosuneStudios/Shell of a King/File3
+        pattern: "*.BRUH"
+        root: WinAppDataLocalLow
+  installDir: Shell of a King
+  launch:
+    - config:
+        oslist: windows
+      executable: Shell of a King.exe
+      type: default
 2384430:
   installDir: driving-strikers
   launch:
@@ -625582,6 +625625,22 @@
       description: "Orebound ( DirectX 11 ) "
       executable: OreBound.exe
       type: option1
+2467880:
+  cloud:
+    saves:
+      - path: "UE_YGRO/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Project Ygrό
+  launch:
+    - executable: FadingEcho.exe
+  nameLocalized:
+    bulgarian: Фейдинг Ехо
+    greek: Φέιντινγκ Έκο
+    japanese: フェイディング・エコー
+    koreana: 페이딩 에코
+    schinese: 断曲余音
+    tchinese: 消逝迴響
 2468250: {}
 2468400:
   installDir: Hot Wheels Monster Trucks Stunt Mayhem
@@ -638246,6 +638305,20 @@
   nameLocalized:
     schinese: 死亡呼啸
     tchinese: 死亡呼嘯
+2826400:
+  cloud:
+    saves:
+      - path: AuroraCityofHorrors/Saved/SaveGames
+        pattern: Slot1.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: CASE RECORDS Fear of Abduction
+  launch:
+    - config:
+        oslist: windows
+      executable: AuroraCityofHorrors.exe
+      type: default
 2826800:
   installDir: Amanda the Adventurer 2
   launch:
@@ -640230,6 +640303,7 @@
         oslist: windows
       executable: April_24th.exe
       type: default
+2907670: {}
 2909010:
   installDir: Deathtrip
   launch:
@@ -642054,6 +642128,17 @@
   nameLocalized:
     schinese: 陷阱派对
     tchinese: 陷阱派對
+2982610:
+  cloud:
+    saves:
+      - path: Stonemachia/Saved/SaveGames/
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Stonemachia
+  launch:
+    - config:
+        oslist: windows
+      executable: Stonemachia.exe
 2983140:
   cloud:
     saves:
@@ -644687,7 +644772,13 @@
   launch:
     - executable: goosebumps.exe
 3080520: {}
-3080560: {}
+3080560:
+  installDir: Graphite
+  launch:
+    - config:
+        oslist: windows
+      executable: Graphite.exe
+      type: default
 3081320:
   cloud:
     saves:
@@ -652963,6 +653054,21 @@
         oslist: linux
       executable: dom_amd64
       type: default
+3520330:
+  cloud:
+    saves:
+      - path: ToyFactory/Saved/DefoltSlot
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: CASE RECORDS Lost Night
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: ToyFactory.exe
+      type: default
 3522140:
   cloud:
     saves:
@@ -660307,6 +660413,7 @@
     koreana: "스타워즈: 은하계 레이서™"
     schinese: 星球大战：银河赛车手™
     tchinese: 星際大戰：銀河賽車手™
+4081880: {}
 4082030: {}
 4084710:
   nameLocalized:

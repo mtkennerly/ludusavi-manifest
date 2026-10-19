@@ -30530,6 +30530,7 @@ Blood will be Spilled:
     gog: true
     steam: true
   gog: 1971203245
+  lutris: blood-refreshed-supply
   pageId: 209091
   steam: 3884520
   templates:
@@ -37568,6 +37569,8 @@ Call of Duty 2:
 "Call of Duty: Modern Warfare 4":
   pageId: 216958
   steam: 4435490
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Activision\\Call of Duty\\players\\{{p|uid}}\\}}"
 "Call of Duty: Modern Warfare II":
   pageId: 178173
   steam: 3595230
@@ -39528,6 +39531,7 @@ Cartoony Cars 2:
 "Case 2: Animatronics Survival":
   cloud:
     steam: true
+  lutris: case-2-animatronics-survival
   pageId: 94070
   steam: 722960
 Case 8:
@@ -39539,6 +39543,18 @@ Case 9:
 Case Opener Guns:
   pageId: 122074
   steam: 976720
+"Case Records: Fear of Abduction":
+  cloud:
+    steam: true
+  lutris: case-records-fear-of-abduction
+  pageId: 221933
+  steam: 2826400
+"Case Records: Lost Night":
+  cloud:
+    steam: true
+  lutris: case-records-lost-night
+  pageId: 221937
+  steam: 3520330
 Case Simulator Weapons and Armors:
   pageId: 121714
   steam: 973200
@@ -69132,6 +69148,9 @@ Dr. Green:
   steam: 409160
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\CrowsCrowsCrows\\Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald\\}}"
+Dr. Matben:
+  pageId: 221931
+  steam: 2907670
 Dr. Pills:
   pageId: 91863
   steam: 836790
@@ -70971,11 +70990,6 @@ Dreamsweeper:
 Dreamwild:
   pageId: 193005
   steam: 2168450
-"Dreamworks Spirit Lucky's Big Adventure":
-  cloud:
-    steam: true
-  pageId: 176848
-  steam: 1270720
 Dredge:
   cloud:
     epic: true
@@ -83860,6 +83874,12 @@ Fading Afternoon:
     steam: true
   pageId: 192301
   steam: 1687000
+Fading Echo:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 221942
+  steam: 2467880
 Fading Hearts:
   pageId: 50686
   steam: 259720
@@ -88880,11 +88900,12 @@ Fireside Feelings:
   steamSide:
     - 3805590
 Firestone Idle RPG:
-  cloud:
-    epic: true
-    steam: true
   pageId: 149458
   steam: 1013320
+  templates:
+    - "{{Game data/saves|Windows|Stored on the developer's servers.}}"
+    - "{{Game data/saves|OS X|Stored on the developer's servers.}}"
+    - "{{Game data/saves|Linux|Stored on the developer's servers.}}"
 Firewatch:
   cloud:
     gog: true
@@ -143287,6 +143308,13 @@ Magikiras:
 Magilore:
   pageId: 74552
   steam: 724520
+"Magin: The Rat Project Stories":
+  cloud:
+    steam: true
+  pageId: 157440
+  renamedFrom:
+    - The Rat Project
+  steam: 1205270
 Magistrangers:
   pageId: 143928
   steam: 1129110
@@ -189639,6 +189667,9 @@ ReThink 5:
 "ReThink: Evolved 6":
   pageId: 211931
   steam: 3363310
+"ReThink: Evolved Free":
+  pageId: 215526
+  steam: 4081880
 "ReThink: Lite":
   pageId: 192099
   steam: 2481710
@@ -208055,6 +208086,14 @@ Sheepo:
     - 2779500
 "Sheila Rae, the Brave":
   pageId: 187064
+Shell of a King:
+  cloud:
+    steam: true
+  lutris: shell-of-a-king
+  pageId: 221938
+  steam: 2384130
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\RosuneStudios\\Shell of a King\\File*\\}}"
 "ShellBlast: Legacy Edition":
   pageId: 94443
   steam: 841440
@@ -220203,6 +220242,14 @@ Spirit of the North 2:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\SOTN2\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\SOTN2\\Saved\\SaveGames\\}}"
+"Spirit: Lucky's Big Adventure":
+  cloud:
+    steam: true
+  lutris: dreamworks-spirit-luckys-big-adventure
+  pageId: 176848
+  renamedFrom:
+    - "Dreamworks Spirit Lucky's Big Adventure"
+  steam: 1270720
 "Spirit: Stallion of the Cimarron - Forever Free":
   pageId: 183567
 SpiritSphere:
@@ -225497,6 +225544,12 @@ Stonekeep:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\CONFIG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME}}"
+Stonemachia:
+  pageId: 221940
+  steam: 2982610
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Stonemachia\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Stonemachia\\Saved\\SaveGames\\}}"
 Stonerid:
   cloud:
     steam: true
@@ -248980,9 +249033,6 @@ The Ranch of Rivershine:
 The Rare Nine:
   pageId: 74223
   steam: 726800
-The Rat Project:
-  pageId: 157440
-  steam: 1205270
 The Raven Project:
   pageId: 217729
 The Raven Remastered:
@@ -271992,6 +272042,8 @@ Vixen Wars:
 Vixens From Outer Space:
   pageId: 105165
   steam: 855970
+"Viz: The Game":
+  pageId: 221935
 "Vlad Circus: Curse of Asmodeus":
   cloud:
     steam: true
