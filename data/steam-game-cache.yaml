@@ -652568,7 +652568,9 @@
       executable: SelectQuiz.exe
       type: default
 3495990: {}
-3498700: {}
+3498700:
+  nameLocalized:
+    schinese: "星际弹球 "
 3498980:
   installDir: MIA Mission in Asia
   launch:
@@ -658363,7 +658365,10 @@
   nameLocalized:
     english: Conquer the Tower
     schinese: 登上自由解放之塔
-3897690: {}
+3897690:
+  installDir: Fries Drive
+  launch:
+    - executable: Fries Drive.exe
 3897800:
   cloud:
     saves:
@@ -663346,6 +663351,7 @@
   launch:
     - executable: Too Many Toys!.exe
 5036490: {}
+5037250: {}
 5051490:
   cloud:
     saves:

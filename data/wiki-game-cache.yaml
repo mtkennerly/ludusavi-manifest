@@ -36560,14 +36560,6 @@ CART Precision Racing:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\system}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saved Races}}"
-"CASE: Animatronics":
-  cloud:
-    steam: true
-  pageId: 38224
-  steam: 489360
-  templates:
-    - "{{Game data/config|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\489360\\remote}}"
-    - "{{Game data/saves|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\489360\\remote}}"
 "CASTILLO: Shattered Mirrors":
   pageId: 178679
   steam: 1870970
@@ -39552,6 +39544,25 @@ Case Simulator Weapons and Armors:
   steam: 973200
   steamSide:
     - 974780
+"Case: Animatronics":
+  cloud:
+    epic: true
+    steam: true
+  lutris: case-animatronics
+  pageId: 38224
+  renamedFrom:
+    - "CASE: Animatronics"
+  steam: 489360
+  steamSide:
+    - 500650
+  templates:
+    - "{{Game data/config|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\489360\\remote}}"
+    - "{{Game data/saves|Windows|{{p|Steam}}\\userdata\\{{p|uid}}\\489360\\remote}}"
+"Case: Animatronics Redux":
+  cloud:
+    steam: true
+  pageId: 221925
+  steam: 5037250
 Casey Powell Lacrosse 16:
   cloud:
     steam: true
@@ -40397,6 +40408,8 @@ Catch & Release:
   steam: 679750
   templates:
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\679750\\remote\\}}"
+"Catch 'Em":
+  pageId: 221906
 Catch Canvas:
   pageId: 39007
   steam: 459550
@@ -61497,12 +61510,20 @@ Deer Hunter 2004:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Game\\Profiles\\Settings.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Game\\Profiles\\{{p|uid}}.pro}}"
+"Deer Hunter 3: The Legend Continues":
+  lutris: deer-hunter-3-the-legend-continues
+  pageId: 221915
+"Deer Hunter 4: World-Class Record Bucks":
+  lutris: deer-hunter-4-world-class-record-bucks
+  pageId: 221912
 "Deer Hunter 5: Tracking Trophies":
   lutris: deer-hunter-5-tracking-trophies
   pageId: 221326
 Deer Hunter II:
   pageId: 155316
   steam: 1212190
+"Deer Hunter II: The Hunt Continues":
+  pageId: 221918
 Deer Hunter Tournament:
   pageId: 219858
   templates:
@@ -78717,6 +78738,8 @@ Enternal Liiivie:
 Entertainment Hero:
   pageId: 79750
   steam: 777540
+Entity:
+  pageId: 221902
 Entity Researchers:
   cloud:
     steam: true
@@ -147271,6 +147294,8 @@ Mega Meteor Madness:
 Mega Milk Story:
   pageId: 94044
   steam: 851030
+Mega Morph:
+  pageId: 221904
 Mega Overload:
   cloud:
     steam: true
@@ -181373,6 +181398,7 @@ PowersVR:
   steam: 589250
 Powerslide:
   gog: 1207659116
+  lutris: powerslide
   pageId: 14211
   steam: 675970
 Pox Nora:
@@ -205669,6 +205695,8 @@ Sensible Blood Rugby Sevens:
 Sensible Soccer 2006:
   gog: 1207658668
   pageId: 21554
+Sensible Soccer 98:
+  pageId: 221910
 Sensible World of Soccer 96/97:
   cloud:
     gog: true

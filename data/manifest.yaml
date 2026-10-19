@@ -112664,46 +112664,6 @@ CART Precision Racing:
         - config
       when:
         - os: windows
-"CASE: Animatronics":
-  cloud:
-    steam: true
-  files:
-    "<root>/userdata/<storeUserId>/489360/remote":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    CASE Animatronics: {}
-  launch:
-    "<base>/case.app/Contents/MacOS/case":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/case.x86":
-      - when:
-          - bit: 32
-            os: linux
-            store: steam
-    "<base>/case.x86_64":
-      - when:
-          - bit: 64
-            os: linux
-            store: steam
-    "<base>/case32.exe":
-      - when:
-          - bit: 32
-            os: windows
-            store: steam
-    "<base>/case64.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 489360
 "CASTILLO: Shattered Mirrors":
   files:
     "<base>/SavesDir/*.sav":
@@ -121683,6 +121643,56 @@ Case Simulator Weapons and Armors:
             store: steam
   steam:
     id: 973200
+"Case: Animatronics":
+  cloud:
+    epic: true
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/489360/remote":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: case-animatronics
+    steamExtra:
+      - 500650
+  installDir:
+    CASE Animatronics: {}
+  launch:
+    "<base>/case.app/Contents/MacOS/case":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/case.x86":
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    "<base>/case.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/case32.exe":
+      - when:
+          - bit: 32
+            os: windows
+            store: steam
+    "<base>/case64.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 489360
+"Case: Animatronics Redux":
+  cloud:
+    steam: true
+  steam:
+    id: 5037250
 Casey Powell Lacrosse 16:
   cloud:
     steam: true
@@ -189646,6 +189656,12 @@ Deer Hunter 2004:
         - config
       when:
         - os: windows
+"Deer Hunter 3: The Legend Continues":
+  id:
+    lutris: deer-hunter-3-the-legend-continues
+"Deer Hunter 4: World-Class Record Bucks":
+  id:
+    lutris: deer-hunter-4-world-class-record-bucks
 "Deer Hunter 5: Tracking Trophies":
   id:
     lutris: deer-hunter-5-tracking-trophies
@@ -287620,6 +287636,12 @@ Fries Drive:
   id:
     steamExtra:
       - 4185570
+  installDir:
+    Fries Drive: {}
+  launch:
+    "<base>/Fries Drive.exe":
+      - when:
+          - store: steam
   steam:
     id: 3897690
 Fright:
@@ -553964,6 +553986,8 @@ PowersVR:
 Powerslide:
   gog:
     id: 1207659116
+  id:
+    lutris: powerslide
   installDir:
     Powerslide: {}
   launch:
