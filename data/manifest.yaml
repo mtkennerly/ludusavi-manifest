@@ -497824,8 +497824,36 @@ Nighthaw-X3000:
 Nighthawks:
   cloud:
     gog: true
+  files:
+    "<base>/saves/**/*.*":
+      when:
+        - store: steam
+    "<home>/.local/share/Nighthawks/saves/**/*.*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Nighthawks/saves/**/*.*":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Nighthawks/saves/**/*.*":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1732837498
+  installDir:
+    Nighthawks: {}
+  launch:
+    "<base>/nighthawks.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/nighthawks.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 1221950
 Nightingale:
@@ -550076,6 +550104,12 @@ Poly Fighter:
   id:
     steamExtra:
       - 4398040
+  installDir:
+    Poly Fighter: {}
+  launch:
+    "<base>/Poly Fighter.exe":
+      - when:
+          - store: steam
   steam:
     id: 3977340
 Poly Fishing:
@@ -866872,7 +866906,7 @@ You Know The Drill:
   cloud:
     steam: true
   files:
-    "<home>/.local/share/godot/app_userdata/You Know The Drill!/saves/*.save":
+    "<home>/.local/share/godot/app_userdata/You Know the Drill!/saves/*.save":
       when:
         - os: linux
           store: steam
@@ -866888,6 +866922,10 @@ You Know The Drill:
   launch:
     "<base>/yktd.exe":
       - when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-driver vulkan"
+        when:
           - os: windows
             store: steam
     "<base>/yktd.x86_64":

@@ -1266,6 +1266,8 @@ $1 Ride:
     - "{{Game data/saves|Windows|{{p|game}}\\SCORES.BST}}"
 3-D Ultra Pinball:
   pageId: 192442
+"3-D Ultra Pinball: Creep Night":
+  pageId: 221946
 "3-D Ultra Pinball: Thrillride":
   pageId: 196080
   templates:
@@ -134654,8 +134656,6 @@ Lego Jurassic World:
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/352400/}}"
 "Lego Legacy: Heroes Unboxed":
   pageId: 166617
-Lego Legends of Chima Online:
-  pageId: 221249
 Lego Loco:
   pageId: 7943
   templates:

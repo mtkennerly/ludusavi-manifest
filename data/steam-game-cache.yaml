@@ -532865,7 +532865,63 @@
         oslist: linux
       executable: SCPFoundation-1.0-pc/SCPFoundation.sh
       type: default
-1221950: {}
+1221950:
+  cloud:
+    saves:
+      - path: saves
+        pattern: "*.*"
+        recursive: true
+        root: gameinstall
+    overrides:
+      - addPath: Nighthawks/
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataRoaming
+      - addPath: Nighthawks/
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+      - addPath: ".local/share/Nighthawks/"
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxHome
+  installDir: Nighthawks
+  launch:
+    - config:
+        oslist: windows
+      description: Nighthawks
+      executable: nighthawks.exe
+      type: option1
+    - config:
+        oslist: macos
+      executable: nighthawks.app
+      type: default
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: windows
+      description: Nighthawks (Compatibility Mode)
+      executable: nighthawks.exe
+      type: option1
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: nighthawks.x86_64
+      type: default
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: macos
+      description: Nighthawks (Compatibility Mode)
+      executable: nighthawks.app
+      type: option1
+    - arguments: "-forcelinux"
+      config:
+        oslist: linux
+      description: Nighthawks (Desktop Mode)
+      executable: nighthawks.x86_64
+      type: option3
 1221990:
   installDir: Chronicle Unit Eight
   launch:
@@ -657813,7 +657869,7 @@
         osCompare: "="
         pathTransforms:
           - find: Godot/app_userdata/You Know the Drill!/saves
-            replace: ".local/share/godot/app_userdata/You Know The Drill!/saves"
+            replace: ".local/share/godot/app_userdata/You Know the Drill!/saves"
         root: WinAppDataRoaming
         useInstead: LinuxHome
   installDir: You Know The Drill
@@ -657824,6 +657880,11 @@
     - config:
         oslist: linux
       executable: yktd.x86_64
+    - arguments: "--rendering-driver vulkan"
+      config:
+        oslist: windows
+      description: Fix for black screen and other graphical issues on high-end PCs
+      executable: yktd.exe
   nameLocalized:
     schinese: 你懂的钻头 You Know The Drill
     tchinese: 你懂的钻头 You Know The Drill
@@ -659622,7 +659683,17 @@
     - config:
         oslist: windows
       executable: MantaMadness.exe
-3977340: {}
+3977340:
+  cloud:
+    saves:
+      - path: HeartLoop Games/Poly Fighter
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+  installDir: Poly Fighter
+  launch:
+    - executable: Poly Fighter.exe
+  nameLocalized:
+    schinese: 百变格斗家
 3977380:
   cloud:
     saves:
