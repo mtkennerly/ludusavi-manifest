@@ -28414,6 +28414,24 @@ Aker Fern:
 "Akhenaten: Rule as Pharaoh":
   steam:
     id: 719160
+Akiba Lost:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/IzanagiGames/AKIBA LOST":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: akiba-lost
+    steamExtra:
+      - 4441050
+      - 4885210
+      - 4889930
+  steam:
+    id: 4131220
 "Akiba's Trip: Hellbound & Debriefed":
   cloud:
     gog: true
@@ -245453,6 +245471,12 @@ Escape From Cozy Island:
     lutris: escape-from-crimson-manor-trapped-together
     steamExtra:
       - 4214870
+  installDir:
+    Escape From Crimson Manor Trapped Together: {}
+  launch:
+    "<base>/Escape From Crimson Manor.exe":
+      - when:
+          - store: steam
   steam:
     id: 2345430
 Escape From Darkmoor Manor:
@@ -266591,6 +266615,8 @@ Fearmonium:
 Fearwoods:
   id:
     lutris: fearwoods
+    steamExtra:
+      - 4025550
   steam:
     id: 3296990
 "Feast Your Eyes: Little Marshmallow":
@@ -336103,7 +336129,7 @@ Helldivers 2:
   installDir:
     Helldivers 2: {}
   launch:
-    "<base>/bin/helldivers2.exe":
+    "<base>/start_protected_game.exe":
       - arguments: "--bundle-dir data --release"
         when:
           - bit: 64
@@ -533654,6 +533680,8 @@ Payday 3:
   steam:
     id: 1272080
 "Payday: Aces High":
+  id:
+    lutris: payday-aces-high
   steam:
     id: 3456660
 "Payday: The Heist":
@@ -558526,6 +558554,11 @@ Probably Archery:
             store: steam
   steam:
     id: 263420
+Probably Stolen:
+  cloud:
+    steam: true
+  steam:
+    id: 4348910
 Procyon:
   cloud:
     steam: true
@@ -638546,6 +638579,22 @@ Shipped:
             store: steam
   steam:
     id: 1037190
+Shipping Store Simulator 2037:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Playstrom/Shipping Store Simulator 2037/FileData/Release":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Shipping Store Simulator 2037: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4098030
 Ships 2017:
   installDir:
     Ship Special: {}

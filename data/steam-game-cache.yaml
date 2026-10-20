@@ -210008,36 +210008,22 @@
       config:
         osarch: "64"
         oslist: windows
-      executable: "bin\\helldivers2.exe"
+      executable: start_protected_game.exe
       type: default
-    - arguments: "--bundle-dir cdata --release"
+    - arguments: "--bundle-dir data --release"
       config:
-        betakey: "nixxes_3, nixxes_5"
+        betakey: "nixxes_3, nixxes_5, nixxes_7, charlie, delta, echo"
         osarch: "64"
         ownsdlc: "1999180"
       description: Easy Anti Cheat
       executable: start_protected_game.exe
-    - arguments: "-anticheat_settings=SettingsProfile.json --bundle-dir data --release"
+    - arguments: "-anticheat_settings=SettingsProfileProtected.json --bundle-dir data --release"
       config:
-        betakey: "nixxes_3, nixxes_5"
-        osarch: "64"
-        ownsdlc: "1999180"
-      description: profile_1
-      executable: start_protected_game.exe
-    - arguments: "-anticheat_settings=SettingsProfileProtected.json --bundle-dir cdata --release"
-      config:
-        betakey: "nixxes_3, nixxes_5"
+        betakey: "nixxes_3, nixxes_5, nixxes_7, charlie"
         osarch: "64"
         ownsdlc: "1999180"
       description: profile_2
       executable: start_protected_game.exe
-    - arguments: "--bundle-dir cdata --release"
-      config:
-        betakey: "nixxes_3, nixxes_5"
-        osarch: "64"
-        ownsdlc: "1999180"
-      description: profile_3
-      executable: "bin\\profile-protected\\stingray_win64_profile.exe"
     - arguments: "--bundle-dir data"
       config:
         osarch: "64"
@@ -210062,6 +210048,8 @@
       description: stingray_win64_profile.exe !THIS PRODUCES A LOT OF DATA!
       executable: "bin\\profile\\stingray_win64_profile.exe"
       type: option2
+  nameLocalized:
+    schinese: HELLDIVERS™ 绝地潜兵2
 553880:
   installDir: Archangel
   launch:
@@ -619693,7 +619681,10 @@
     tchinese: 《暗黑破壞神® IV》
     thai: Diablo® IV
     turkish: Diablo® IV
-2345430: {}
+2345430:
+  installDir: Escape From Crimson Manor Trapped Together
+  launch:
+    - executable: Escape From Crimson Manor.exe
 2346550:
   installDir: Rise of Eros
   launch:
@@ -630216,7 +630207,7 @@
       type: default
     - arguments: "-logPSO"
       config:
-        betakey: qa-internal
+        betakey: "qa-internal,internal,qa-test"
       description: with -logPSO
       executable: Stygian.exe
       type: option1
@@ -660645,6 +660636,19 @@
         oslist: linux
       executable: spookY2K.sh
       type: default
+4098030:
+  cloud:
+    saves:
+      - path: "Playstrom\\Shipping Store Simulator 2037\\FileData\\Release\\"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Shipping Store Simulator 2037
+  launch:
+    - executable: game.exe
+      type: none
 4102480: {}
 4105240:
   cloud:
@@ -660845,6 +660849,11 @@
   installDir: eBaseball PRO SPIRIT
   launch:
     - executable: "Game\\prospi.exe"
+4131220:
+  nameLocalized:
+    english: AKIBA LOST
+    schinese: AKIBA LOST (秋叶原迷踪)
+    tchinese: AKIBA LOST (秋葉原迷蹤)
 4131730:
   cloud:
     saves:
@@ -662051,6 +662060,10 @@
     japanese: "太古の神:哪吒"
     schinese: "古神:风里希"
     tchinese: "古神:風裡希"
+4348910:
+  nameLocalized:
+    russian: Probably Stolen – симулятор магазина в киберпанке
+    schinese: 深空当铺：可能是偷的
 4350360:
   cloud:
     saves:
