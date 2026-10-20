@@ -15168,6 +15168,11 @@ Archery Kings VR:
 Archery Practice VR:
   pageId: 57764
   steam: 587830
+Archi Vista:
+  pageId: 221965
+  steam: 2513150
+  steamSide:
+    - 5374740
 Archibald:
   pageId: 87978
   steam: 811360
@@ -38683,6 +38688,12 @@ Car Park Capital:
     - "{{Game data/config|Linux|{{p|game}}/settings.json}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\*.cpcp|{{p|game}}\\saves\\*.json|{{p|game}}\\saves\\blueprints\\*.cpbp|{{p|game}}\\saves\\scenarios\\*.cpcs}}"
     - "{{Game data/saves|Linux|{{p|game}}/saves/*.cpcp|{{p|game}}/saves/*.json|{{p|game}}/saves/blueprints\\*.cpbp|{{p|game}}/saves/scenarios/*.cpcs}}"
+Car Parking Multiplayer 2:
+  pageId: 221969
+  steam: 4252340
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Olzhas\\Car Parking 2\\GraphicsSettings.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Olzhas\\Car Parking 2\\SaveFile.es3}}"
 Car Puzzler:
   cloud:
     steam: true
@@ -50741,6 +50752,10 @@ Cozy Game Restoration:
   lutris: cozy-game-restoration
   pageId: 216715
   steam: 3581230
+  steamSide:
+    - 4668150
+    - 4742270
+    - 5338940
 Cozy Grove:
   cloud:
     epic: true
@@ -55061,6 +55076,8 @@ CyberThreat:
   steam: 516590
 Cyberball:
   pageId: 208117
+Cyberball (1990):
+  pageId: 221975
 "Cyberbykes: Shadow Racer VR":
   pageId: 202639
 Cybercube:
@@ -55765,6 +55782,8 @@ DOWN MEANS UP:
 "DPET : Desktop Pet Engine":
   pageId: 178357
   steam: 1980920
+DQ Tycoon:
+  pageId: 221959
 DR LIVESEY ROM AND DEATH EDITION:
   pageId: 202274
   steam: 2181930
@@ -88897,6 +88916,7 @@ Fires at Midnight:
 Fireside Feelings:
   cloud:
     steam: true
+  lutris: fireside-feelings
   pageId: 210113
   steam: 2990600
   steamSide:
@@ -98388,6 +98408,8 @@ Getting Over It with Bennett Foddy:
     steam: true
   pageId: 1951
   steam: 200630
+"Gettysburg: Civil War Battles":
+  pageId: 221964
 "Gettysburg: The Tide Turns":
   pageId: 65419
   steam: 602510
@@ -146971,6 +146993,8 @@ MediEvil (MediEvilRecomp):
 Medical verdict:
   pageId: 109300
   steam: 891310
+Medicalat:
+  pageId: 221953
 Medieval - Embers of War:
   cloud:
     steam: true
@@ -160183,6 +160207,8 @@ Necromancer Accountant:
   steam: 696160
 "Necromania: Trap of Darkness":
   pageId: 212465
+Necromantics:
+  pageId: 221982
 Necromonads:
   pageId: 45884
   steam: 391630
@@ -165428,6 +165454,11 @@ Number Guesser:
 Number Hunt:
   pageId: 94517
   steam: 851770
+"Number Machine: Math Factory":
+  pageId: 221971
+  steam: 2231090
+  steamSide:
+    - 2243290
 Number World:
   cloud:
     steam: true
@@ -166385,8 +166416,10 @@ Octonaut - 星のタコ:
 Octopath Traveler:
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
+  gog: 1323465345
   pageId: 133649
   steam: 921570
   steamSide:
@@ -177188,6 +177221,8 @@ Pinball Mania:
 Pinball Parlor:
   pageId: 55720
   steam: 514570
+Pinball Prelude:
+  pageId: 221984
 Pinball Wicked:
   pageId: 64572
   steam: 595960
@@ -189530,8 +189565,11 @@ Re.poly:
   pageId: 174427
   steam: 1502770
 "ReBlade: The Death Spiral":
+  lutris: reblade-the-death-spiral
   pageId: 213212
   steam: 3489340
+  steamSide:
+    - 4513800
 ReBoot (2016):
   pageId: 52077
   renamedFrom:
@@ -192182,11 +192220,15 @@ Remote Control:
   steam: 4461560
 "Remothered: Red Nun's Legacy":
   cloud:
+    epic: true
+    steam: true
     xbox: true
   gog: 1933416452
   lutris: remothered-red-nuns-legacy
   pageId: 214598
   steam: 3335310
+  steamSide:
+    - 5312670
 "Remothered: Tormented Fathers":
   cloud:
     gog: true
@@ -193393,6 +193435,12 @@ Retribution:
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\}}"
+Retrieval:
+  cloud:
+    steam: true
+  lutris: retrieval
+  pageId: 221979
+  steam: 2999120
 Retro Block VR:
   pageId: 64073
   steam: 660820
@@ -196171,8 +196219,25 @@ Road Rash:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Electronic Arts\\RoadRash 95\\}}"
     - "{{Game data/saves|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Electronic Arts\\RoadRash 95\\}}"
 Road Redemption:
+  cloud:
+    gog: true
+  gog: 1293472819
+  gogSide:
+    - 1099740426
+    - 1580530983
+    - 1875799615
+    - 1900293362
+    - 2069506895
+    - 2081693308
   pageId: 20759
   steam: 300380
+  steamSide:
+    - 524890
+    - 625500
+    - 725880
+    - 727050
+    - 727440
+    - 1180010
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Road Redemption\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/documents/roadredemption}}"
@@ -196355,6 +196420,7 @@ Roanoke:
   pageId: 81990
   steam: 795140
 "Roark's Attack on Titan Fan Game":
+  lutris: roarks-attack-on-titan-fan-game
   pageId: 205423
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\RoarkInc\\raot}}"
@@ -196942,6 +197008,8 @@ Rock Paper Scissors Champion:
 Rock Simulator:
   pageId: 152937
   steam: 1187510
+Rock Tour:
+  pageId: 221957
 Rock Zombie:
   pageId: 49283
   steam: 328640
@@ -199986,6 +200054,8 @@ Rustmourne:
   lutris: rustmourne
   pageId: 217711
   steam: 3775210
+  steamSide:
+    - 5011020
 Rusty:
   pageId: 175137
 Rusty Hearts:
@@ -204544,6 +204614,20 @@ SeaWorld Adventure Parks Tycoon 2:
 Seabed Prelude:
   pageId: 57914
   steam: 529730
+Seabun:
+  cloud:
+    steam: true
+  pageId: 221955
+  steam: 4990820
+  steamSide:
+    - 5398240
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Seabun\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Seabun/}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.local/share/Seabun/}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Seabun\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Seabun/}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Seabun/}}"
 Seacurity Breach:
   cloud:
     steam: true
@@ -223353,6 +223437,8 @@ Stargazer Christmas:
 Stargazer Program:
   pageId: 93934
   steam: 828250
+Stargoose Warrior:
+  pageId: 221977
 Stargunner:
   cloud:
     gog: true
@@ -253051,8 +253137,12 @@ The Wolf Among Us:
 The Wolf Among Us 2:
   pageId: 154605
 The Wolf Among Us Remastered:
+  cloud:
+    steam: true
   pageId: 217307
   steam: 3884860
+  steamSide:
+    - 5280090
 "The Wolf's Bite":
   pageId: 65738
   steam: 656040
@@ -258263,6 +258353,8 @@ Total Party Kill:
     steam: true
   pageId: 139244
   steam: 1091250
+Total Pinball 25:
+  pageId: 221961
 Total Pro Golf 3:
   pageId: 49847
   steam: 308320
@@ -265508,6 +265600,8 @@ Ultimate Chicken Horse:
     - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Clever Endeavour Games\\Ultimate Chicken Horse\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse/}}"
+"Ultimate Civil War Battles: Robert E. Lee vs Ulysses S. Grant":
+  pageId: 221967
 Ultimate Coaster X:
   pageId: 129647
   steam: 734330

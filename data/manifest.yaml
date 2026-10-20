@@ -47140,6 +47140,12 @@ Archery Kings VR:
 Archery Practice VR:
   steam:
     id: 587830
+Archi Vista:
+  id:
+    steamExtra:
+      - 5374740
+  steam:
+    id: 2513150
 Archibald:
   installDir:
     Archibald: {}
@@ -119051,6 +119057,31 @@ Car Park Capital:
             store: steam
   steam:
     id: 3031880
+Car Parking Multiplayer 2:
+  files:
+    "<home>/AppData/LocalLow/Olzhas/Car Parking 2/GraphicsSettings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Olzhas/Car Parking 2/SaveFile.es3":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    CPM2: {}
+  launch:
+    "<base>/CPM2.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Car Parking 2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4252340
 Car Puzzler:
   cloud:
     steam: true
@@ -156997,6 +157028,10 @@ Cows VS Vikings:
 Cozy Game Restoration:
   id:
     lutris: cozy-game-restoration
+    steamExtra:
+      - 4668150
+      - 4742270
+      - 5338940
   steam:
     id: 3581230
 Cozy Grove:
@@ -272525,6 +272560,7 @@ Fireside Feelings:
   cloud:
     steam: true
   id:
+    lutris: fireside-feelings
     steamExtra:
       - 3805590
   installDir:
@@ -505472,6 +505508,12 @@ Number Hunt:
     Number Hunt: {}
   steam:
     id: 851770
+"Number Machine: Math Factory":
+  id:
+    steamExtra:
+      - 2243290
+  steam:
+    id: 2231090
 Number World:
   cloud:
     steam: true
@@ -508482,6 +508524,7 @@ Octonaut - 星のタコ:
 Octopath Traveler:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winDocuments>/My Games/Octopath_Traveler/<storeUserId>/SaveGames":
@@ -508500,6 +508543,8 @@ Octopath Traveler:
       when:
         - os: windows
           store: microsoft
+  gog:
+    id: 1323465345
   id:
     steamExtra:
       - 1083770
@@ -540321,9 +540366,16 @@ Pilot Brothers:
   installDir:
     Pilot Brothers: {}
   launch:
-    "<base>/bin/Pilot Brothers.exe":
+    "<base>/bin/Launcher-ia32.exe":
       - when:
-          - os: windows
+          - bit: 32
+            os: windows
+            store: steam
+        workingDir: "<base>/bin"
+    "<base>/bin/launcher-x64.exe":
+      - when:
+          - bit: 64
+            os: windows
             store: steam
         workingDir: "<base>/bin"
   steam:
@@ -579579,6 +579631,10 @@ Re;Lord 1 ~The Witch of Herfort and Stuffed Animals~:
   steam:
     id: 1502770
 "ReBlade: The Death Spiral":
+  id:
+    lutris: reblade-the-death-spiral
+    steamExtra:
+      - 4513800
   steam:
     id: 3489340
 ReBoot:
@@ -587596,10 +587652,15 @@ Remorses:
   steam:
     id: 4461560
 "Remothered: Red Nun's Legacy":
+  cloud:
+    epic: true
+    steam: true
   gog:
     id: 1933416452
   id:
     lutris: remothered-red-nuns-legacy
+    steamExtra:
+      - 5312670
   steam:
     id: 3335310
 "Remothered: Tormented Fathers":
@@ -590941,6 +591002,13 @@ Retreat to Enen:
           - store: steam
   steam:
     id: 1556490
+Retrieval:
+  cloud:
+    steam: true
+  id:
+    lutris: retrieval
+  steam:
+    id: 2999120
 Retro Block VR:
   installDir:
     Retro Block VR: {}
@@ -599358,6 +599426,8 @@ Road Rash:
         - config
         - save
 Road Redemption:
+  cloud:
+    gog: true
   files:
     "<home>/.config/unity3d/DarkSeas/Road Redemption - Early Access":
       tags:
@@ -599394,6 +599464,23 @@ Road Redemption:
         - save
       when:
         - os: windows
+  gog:
+    id: 1293472819
+  id:
+    gogExtra:
+      - 1099740426
+      - 1580530983
+      - 1875799615
+      - 1900293362
+      - 2069506895
+      - 2081693308
+    steamExtra:
+      - 524890
+      - 625500
+      - 725880
+      - 727050
+      - 727440
+      - 1180010
   installDir:
     RoadRedemption: {}
   launch:
@@ -599919,6 +600006,8 @@ Roanoke:
         - config
       when:
         - os: windows
+  id:
+    lutris: roarks-attack-on-titan-fan-game
 Roarr! The Adventures of Rampage Rex:
   installDir:
     Roarr!: {}
@@ -611120,6 +611209,8 @@ Rustler:
 Rustmourne:
   id:
     lutris: rustmourne
+    steamExtra:
+      - 5011020
   steam:
     id: 3775210
 Rusty Hearts:
@@ -625121,6 +625212,33 @@ Seabed Prelude:
     Seabed Prelude: {}
   steam:
     id: 529730
+Seabun:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/Seabun":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/Seabun":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<winAppData>/Seabun":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5398240
+  steam:
+    id: 4990820
 Seacurity Breach:
   cloud:
     steam: true
@@ -774344,6 +774462,11 @@ The Wolf Among Us:
   steam:
     id: 250320
 The Wolf Among Us Remastered:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 5280090
   steam:
     id: 3884860
 "The Wolf's Bite":

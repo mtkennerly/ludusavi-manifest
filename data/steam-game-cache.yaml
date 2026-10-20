@@ -80453,17 +80453,16 @@
   installDir: Pilot Brothers
   launch:
     - config:
+        osarch: "32"
         oslist: windows
-      description: Launch
-      executable: bin/Pilot Brothers.exe
+      executable: bin/Launcher-ia32.exe
+      type: default
       workingdir: bin
     - config:
-        betakey: internal
         osarch: "64"
         oslist: windows
-      description: Launcher
       executable: bin/launcher-x64.exe
-      type: option1
+      type: default
       workingdir: bin
 336770:
   installDir: Pilot Brothers 2
@@ -614430,6 +614429,20 @@
   launch:
     - executable: game.exe
       type: none
+2231090:
+  nameLocalized:
+    brazilian: "Number Machine: Fábrica Matemática"
+    french: "Number Machine: Usine Mathématique"
+    german: "Number Machine: Mathematische Fabrik"
+    japanese: "Number Machine: 数学工場"
+    koreana: "Number Machine: 수학 공장"
+    latam: "Number Machine: Fábrica Matemática"
+    polish: "Number Machine: Matematyczna Fabryka"
+    portuguese: "Number Machine: Fábrica Matemática"
+    russian: "Number Machine: Математическая фабрика"
+    schinese: "Number Machine: 数学工厂"
+    spanish: "Number Machine: Fábrica Matemática"
+    ukrainian: "Number Machine: Математична фабрика"
 2231190:
   cloud:
     saves:
@@ -627960,6 +627973,7 @@
     - config:
         oslist: windows
       executable: DoronkoWanko.exe
+2513150: {}
 2513280:
   cloud:
     saves:
@@ -642614,6 +642628,7 @@
     tchinese: 異世界歸來的我錯過了愛情
     thai: กลับจากต่างโลก ฉันพลาดความรัก
     vietnamese: "Trở Về Từ Thế Giới Khác, Tôi Đã Bỏ Lỡ Tình Yêu"
+2999120: {}
 2999670: {}
 3001200:
   cloud:
@@ -661653,6 +661668,17 @@
     japanese: ねこねこマジック
     koreana: 먀법사
     schinese: 喵出法随
+4252340:
+  installDir: CPM2
+  launch:
+    - config:
+        oslist: windows
+      executable: Car Parking 2.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: CPM2.x86_64
+      type: default
 4253770:
   nameLocalized:
     japanese: 朧村正怪奇譚
@@ -663456,6 +663482,29 @@
   installDir: Heroes Of Might And Magic III
   launch:
     - executable: Heroes3.exe
+  nameLocalized:
+    brazilian: Heroes Of Might And Magic III
+    danish: Heroes Of Might And Magic III
+    dutch: Heroes Of Might And Magic III
+    english: Heroes Of Might And Magic III
+    finnish: Heroes Of Might And Magic III
+    french: Heroes Of Might And Magic III
+    german: Heroes Of Might And Magic III
+    italian: Heroes of Might and Magic III
+    japanese: ヒーローズ・オブ・マイト・アンド・マジックIII
+    koreana: 히어로즈 오브 마이트 앤 매직 III
+    latam: Heroes of Might and Magic III
+    norwegian: Heroes Of Might And Magic III
+    polish: Heroes Of Might And Magic III
+    portuguese: Heroes Of Might And Magic III
+    russian: Heroes of Might and Magic III
+    schinese: 魔法门之英雄无敌III
+    spanish: Heroes of Might and Magic III
+    swedish: Heroes Of Might And Magic III
+    tchinese: 《魔法門之英雄無敵 III》
+    thai: Heroes Of Might And Magic III
+    turkish: Heroes Of Might And Magic III
+    ukrainian: Heroes Of Might And Magic III
 4928600: {}
 4932120: {}
 4935510:
@@ -663513,6 +663562,7 @@
       type: default
 4980620: {}
 4981370: {}
+4990820: {}
 4991240:
   installDir: Witch Cabin Cleanup
   launch:
