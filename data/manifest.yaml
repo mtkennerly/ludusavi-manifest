@@ -765,6 +765,9 @@ $1 Ride:
             store: steam
   steam:
     id: 1015140
+10 Million Pixels:
+  steam:
+    id: 4738100
 10 Minute Barbarian:
   installDir:
     10 Minute Barbarian: {}
@@ -40309,6 +40312,11 @@ Anima Flux:
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1133349270
+  id:
+    gogExtra:
+      - 1187788294
   installDir:
     Anima Gate of Memories I & II Remastered: {}
   launch:
@@ -279238,6 +279246,8 @@ Football Manager 2015:
       when:
         - os: linux
           store: steam
+  id:
+    lutris: football-manager-2015
   installDir:
     Football Manager 2015: {}
   launch:
@@ -359437,6 +359447,7 @@ I Am Your Beast:
   id:
     steamExtra:
       - 3258570
+      - 4578110
   installDir:
     I Am Your Beast: {}
   launch:
@@ -640790,6 +640801,9 @@ Shredders:
         - config
   steam:
     id: 1874170
+Shrek 2 Remastered:
+  steam:
+    id: 2523740
 "Shrek 2: Team Action":
   files:
     "<base>/Game/Save":
@@ -670329,6 +670343,12 @@ Sparkour:
   steam:
     id: 2449800
 "Sparky Rush: Purrils in Pawsville!":
+  installDir:
+    Sparky Rush Purrils in Pawsville!: {}
+  launch:
+    "<base>/Vapor Snake.exe":
+      - when:
+          - store: steam
   steam:
     id: 3592020
 "Sparky's Hunt":

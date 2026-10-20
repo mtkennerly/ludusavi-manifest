@@ -628426,6 +628426,7 @@
       description: Pender Test
       executable: "Binaries_x64\\WarGame-Steam-SteamTest.exe"
       type: option3
+2523740: {}
 2523770:
   cloud:
     saves:
@@ -654420,7 +654421,10 @@
   nameLocalized:
     schinese: 生死深潜：雨之子民
     tchinese: 生死深潛：雨之子民
-3592020: {}
+3592020:
+  installDir: Sparky Rush Purrils in Pawsville!
+  launch:
+    - executable: Vapor Snake.exe
 3592140:
   installDir: Anima Gate of Memories I & II Remastered
   launch:
@@ -663452,6 +663456,7 @@
     schinese: 明日方舟：终末地
     tchinese: 明日方舟：終末地
 4734550: {}
+4738100: {}
 4743930: {}
 4744030: {}
 4752390: {}

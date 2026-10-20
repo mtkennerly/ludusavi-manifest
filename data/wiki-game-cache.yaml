@@ -258,6 +258,9 @@ $1 Ride:
     - 10 Miles to Safety
     - 10 Miles To Safety
   steam: 1015140
+10 Million Pixels:
+  pageId: 222007
+  steam: 4738100
 10 Minute Barbarian:
   pageId: 44804
   steam: 389120
@@ -12964,6 +12967,9 @@ Anima Flux:
 "Anima Gate of Memories: I & II Remastered":
   cloud:
     steam: true
+  gog: 1133349270
+  gogSide:
+    - 1187788294
   pageId: 205151
   steam: 3592140
   templates:
@@ -91135,6 +91141,7 @@ Football Manager 2014:
 Football Manager 2015:
   cloud:
     steam: true
+  lutris: football-manager-2015
   pageId: 67453
   steam: 295270
 Football Manager 2016:
@@ -117190,6 +117197,7 @@ I Am Your Beast:
   steam: 1876590
   steamSide:
     - 3258570
+    - 4578110
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Strange Scaffold\\I Am Your Beast\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Strange Scaffold\\I Am Your Beast\\*.sav}}"
@@ -209671,6 +209679,7 @@ Shredders:
   pageId: 207561
 Shrek 2 Remastered:
   pageId: 221883
+  steam: 2523740
 "Shrek 2: Team Action":
   pageId: 25043
   templates:
@@ -234307,6 +234316,7 @@ Tainted Fate:
 "Tainted Grail: The Fall of Avalon":
   cloud:
     steam: true
+    xbox: true
   gog: 1887281589
   gogSide:
     - 1376503597

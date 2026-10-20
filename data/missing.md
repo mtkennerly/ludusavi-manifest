@@ -30,6 +30,7 @@
 * [1-2-Swift](https://www.pcgamingwiki.com/wiki/?curid=57105)
 * [1-Bit Revival: The Residuals of Null](https://www.pcgamingwiki.com/wiki/?curid=130036)
 * [10 Miles to Safety](https://www.pcgamingwiki.com/wiki/?curid=148685)
+* [10 Million Pixels](https://www.pcgamingwiki.com/wiki/?curid=222007)
 * [10 Minute Barbarian](https://www.pcgamingwiki.com/wiki/?curid=44804)
 * [10 Minute Tower](https://www.pcgamingwiki.com/wiki/?curid=42063)
 * [10 Second Shuriken](https://www.pcgamingwiki.com/wiki/?curid=145152)
