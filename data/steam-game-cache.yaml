@@ -417464,6 +417464,26 @@
       executable: SURVIVORS LEFT X.exe
       type: default
 961010:
+  cloud:
+    saves:
+      - path: "The Hand of Glory\\Savegames"
+        pattern: "*.dat"
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "The Hand of Glory\\Savegames"
+            replace: "The Hand of Glory\\Savegames"
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "The Hand of Glory\\Savegames"
+            replace: ".local/Share/The Hand of Glory\\Savegames"
+        root: WinAppDataLocal
+        useInstead: LinuxHome
   installDir: The Hand of Glory
   launch:
     - config:
@@ -541853,6 +541873,14 @@
         oslist: windows
       executable: Neyyah.exe
       type: default
+    - config:
+        oslist: macos
+      executable: Neyyah.app
+      type: default
+    - config:
+        oslist: linux
+      executable: start
+      type: default
 1289990:
   cloud:
     saves:
@@ -640714,6 +640742,7 @@
         oslist: windows
       executable: pixelhunt.exe
       type: default
+2922250: {}
 2922960:
   installDir: Baldis Advanced 3D Math Class
   launch:
@@ -651491,6 +651520,12 @@
     - config:
         osarch: "64"
         oslist: windows
+      executable: Endless Legend 2.exe
+    - arguments: "-force-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Play ENDLESS Legend™ 2 using DirectX 11
       executable: Endless Legend 2.exe
   nameLocalized:
     japanese: ENDLESS Legend™ 2 エンドレス・レジェンド 2

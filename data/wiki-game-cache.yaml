@@ -1254,6 +1254,8 @@ $1 Ride:
   steam: 864190
 3-D TableSports:
   pageId: 217763
+3-D Ultra Cool Pool:
+  pageId: 222002
 3-D Ultra Lionel Train Town:
   pageId: 16494
   templates:
@@ -22413,6 +22415,12 @@ Banzo - Marks of Slavery:
 Baptism:
   pageId: 76565
   steam: 747160
+Baptiste:
+  lutris: baptiste
+  pageId: 222005
+  steam: 2922250
+  steamSide:
+    - 2922270
 Baptize Billy:
   pageId: 91514
   steam: 786950
@@ -162372,7 +162380,13 @@ Nexus 5X:
     - "{{Game data/saves|Windows|{{p|game}}\\save|{{p|appdata}}\\Nexus - The Jupiter Incident\\save}}"
 Neyyah:
   cloud:
+    gog: true
     steam: true
+  gog: 1528554507
+  gogSide:
+    - 1287118854
+    - 1623167881
+    - 1799109882
   lutris: neyyah
   pageId: 208590
   steam: 1289720
@@ -243529,9 +243543,21 @@ The Han Dynasty Imperial Mausoleums:
   steam: 568330
 The Hand of Glory:
   cloud:
+    gog: true
     steam: true
+  gog: 1338405553
+  gogSide:
+    - 1785498767
+    - 1835120204
+  lutris: the-hand-of-glory
   pageId: 122810
   steam: 961010
+  steamSide:
+    - 989730
+    - 1934010
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\The Hand of Glory\\config.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\The Hand of Glory\\Savegames\\}}"
 The Hand of Merlin:
   cloud:
     epic: true

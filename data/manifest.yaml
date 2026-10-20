@@ -69599,6 +69599,13 @@ Baptism:
             store: steam
   steam:
     id: 747160
+Baptiste:
+  id:
+    lutris: baptiste
+    steamExtra:
+      - 2922270
+  steam:
+    id: 2922250
 Baptize Billy:
   installDir:
     Baptize Billy: {}
@@ -241219,6 +241226,11 @@ Endless Legend 2:
   launch:
     "<base>/Endless Legend 2.exe":
       - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "-force-d3d11"
+        when:
           - bit: 64
             os: windows
             store: steam
@@ -496382,23 +496394,38 @@ Nexus 5X:
     id: 6420
 Neyyah:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Defy Reality Entertainment/Neyyah/Savegames/*.DAT":
       when:
         - os: windows
           store: steam
+  gog:
+    id: 1528554507
   id:
+    gogExtra:
+      - 1287118854
+      - 1623167881
+      - 1799109882
     lutris: neyyah
     steamExtra:
       - 3539930
   installDir:
     Neyyah: {}
   launch:
+    "<base>/Neyyah.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Neyyah.exe":
       - when:
           - bit: 64
             os: windows
+            store: steam
+    "<base>/start":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 1289720
@@ -745894,7 +745921,29 @@ The Han Dynasty Imperial Mausoleums:
     id: 568330
 The Hand of Glory:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/The Hand of Glory/Savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/The Hand of Glory/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1338405553
+  id:
+    gogExtra:
+      - 1785498767
+      - 1835120204
+    lutris: the-hand-of-glory
+    steamExtra:
+      - 989730
+      - 1934010
   installDir:
     The Hand of Glory: {}
   launch:
