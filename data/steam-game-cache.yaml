@@ -160949,6 +160949,7 @@
       workingdir: Game
 459900: {}
 459910: {}
+459920: {}
 459940:
   installDir: Deer Man
   launch:
@@ -533619,7 +533620,7 @@
       type: none
 1225890:
   nameLocalized:
-    schinese: 腐烂的乌托邦
+    schinese: 腐托邦
 1225910:
   installDir: Desert of Despair
   launch:
@@ -644177,6 +644178,8 @@
     - executable: Dice.exe
 3053470:
   nameLocalized:
+    japanese: ミスター・レコード
+    koreana: 미스터 레코드
     schinese: 唱片先生
     tchinese: 唱片先生
 3053950:
@@ -644797,6 +644800,19 @@
   launch:
     - executable: VHS.exe
 3074850:
+  cloud:
+    saves:
+      - path: savedata
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: Utawarerumono ZAN 2
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: UtawarerumonoZAN2.exe
+      type: default
   nameLocalized:
     japanese: うたわれるもの斬2
     tchinese: 受讚頌者斬2
@@ -646130,7 +646146,18 @@
         oslist: windows
       executable: RLDB.exe
       type: default
-3149450: {}
+3149450:
+  cloud:
+    saves:
+      - path: "\\Stillmere\\Saved\\SaveGames"
+        pattern: "*"
+        root: gameinstall
+      - path: "\\Stillmere\\Saved\\SaveGames\\DISv4"
+        pattern: "*"
+        root: gameinstall
+  installDir: A Place Out Here
+  launch:
+    - executable: SurvivalGame.exe
 3149840:
   installDir: Skuf Fishing
   launch:
@@ -649949,7 +649976,9 @@
         oslist: windows
       executable: DreadlineExpress.exe
       type: default
-3327430: {}
+3327430:
+  nameLocalized:
+    schinese: 尸甲战车
 3328180:
   installDir: Snoopy and The Great Mystery Club
   launch:
@@ -663727,6 +663756,7 @@
         oslist: windows
       description: Default
       executable: Cellar Keeper.exe
+4935930: {}
 4936660:
   cloud:
     saves:

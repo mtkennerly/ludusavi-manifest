@@ -4659,6 +4659,8 @@ $1 Ride:
   steam:
     id: 745670
 3D Ultra Minigolf Adventures:
+  id:
+    lutris: 3d-ultra-minigolf-adventures-deluxe
   installDir:
     3D Ultra Mini Golf Adventures: {}
   launch:
@@ -10837,6 +10839,22 @@ A Pixel Story:
             store: steam
   steam:
     id: 339460
+A Place Out Here:
+  files:
+    "<base>/Stillmere/Saved/SaveGames":
+      when:
+        - store: steam
+    "<base>/Stillmere/Saved/SaveGames/DISv4":
+      when:
+        - store: steam
+  installDir:
+    A Place Out Here: {}
+  launch:
+    "<base>/SurvivalGame.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3149450
 A Place for the Unwilling:
   cloud:
     steam: true
@@ -192502,6 +192520,8 @@ Dementium II HD:
     "<winLocalAppData>/Dementium - The Ward/saves/*.*":
       when:
         - store: steam
+  id:
+    lutris: dementium-the-ward
   installDir:
     Dementium - The Ward: {}
   launch:
@@ -306290,6 +306310,14 @@ GloGo:
             store: steam
   steam:
     id: 764080
+Glob & the Missing Globbies:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4950650
+  steam:
+    id: 4935930
 Global ATC Simulator:
   installDir:
     Global ATC Simulator: {}
@@ -476761,6 +476789,9 @@ Mr. Pumpkin Adventure:
 Mr. Records:
   gog:
     id: 1897263287
+  id:
+    steamExtra:
+      - 4869950
   steam:
     id: 3053470
 Mr. Rescue:
@@ -630576,6 +630607,11 @@ Serious Sam Fusion 2017:
           - store: steam
   steam:
     id: 41060
+"Serious Sam: The Third Encounter":
+  cloud:
+    steam: true
+  steam:
+    id: 459920
 "Serious Sam: Tormental":
   cloud:
     steam: true
@@ -689863,8 +689899,7 @@ Still Wakes the Deep:
   steam:
     id: 3465690
 Stillmere:
-  steam:
-    id: 3149450
+  alias: A Place Out Here
 Stilt Fella:
   cloud:
     steam: true
@@ -819096,6 +819131,18 @@ Usurper:
   steam:
     id: 1151450
 "Utawarerumono: ZAN 2":
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
+  installDir:
+    Utawarerumono ZAN 2: {}
+  launch:
+    "<base>/UtawarerumonoZAN2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3074850
 Uterine Supremacy:

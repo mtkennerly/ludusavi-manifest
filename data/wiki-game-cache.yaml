@@ -1494,6 +1494,7 @@ $1 Ride:
   pageId: 75554
   steam: 745670
 3D Ultra Minigolf Adventures:
+  lutris: 3d-ultra-minigolf-adventures-deluxe
   pageId: 41261
   steam: 10140
 3D Visual Novel Maker:
@@ -3384,6 +3385,11 @@ A Pixel Story:
   steam: 339460
   steamSide:
     - 357440
+A Place Out Here:
+  pageId: 220092
+  renamedFrom:
+    - Stillmere
+  steam: 3149450
 A Place for the Unwilling:
   cloud:
     steam: true
@@ -62373,6 +62379,7 @@ Dementium II HD:
 "Dementium: The Ward":
   cloud:
     steam: true
+  lutris: dementium-the-ward
   pageId: 209664
   steam: 3909960
 "Demeo x Dungeons & Dragons: Battlemarked":
@@ -99734,6 +99741,13 @@ Glo:
 GloGo:
   pageId: 80553
   steam: 764080
+Glob & the Missing Globbies:
+  cloud:
+    steam: true
+  pageId: 222039
+  steam: 4935930
+  steamSide:
+    - 4950650
 Global ATC Simulator:
   pageId: 49369
   steam: 270830
@@ -155858,6 +155872,8 @@ Mr. Records:
   gog: 1897263287
   pageId: 220803
   steam: 3053470
+  steamSide:
+    - 4869950
 Mr. Rescue:
   pageId: 171448
   templates:
@@ -160558,6 +160574,7 @@ Need for Speed Unbound:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\EA Games\\Need for Speed Underground 2\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\NFS Underground 2\\}}"
 "Need for Speed: World":
+  malformed: true
   pageId: 6921
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Need for Speed World\\Settings\\UserSettings.xml}}"
@@ -206313,6 +206330,11 @@ Serious Sam Fusion 2017:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Scripts\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SaveGame\\}}"
+"Serious Sam: The Third Encounter":
+  cloud:
+    steam: true
+  pageId: 222037
+  steam: 459920
 "Serious Sam: Tormental":
   cloud:
     steam: true
@@ -225592,9 +225614,6 @@ Still Wakes the Deep:
 "Still Wakes the Deep: Siren’s Rest":
   pageId: 205413
   steam: 3465690
-Stillmere:
-  pageId: 220092
-  steam: 3149450
 Stilt Fella:
   cloud:
     steam: true

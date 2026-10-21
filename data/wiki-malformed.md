@@ -24,6 +24,7 @@
 * [Meet the Robinsons](https://www.pcgamingwiki.com/wiki/?curid=81386)
 * [Momodora: Reverie under the Moonlight](https://www.pcgamingwiki.com/wiki/?curid=34172)
 * [Mr. Pogo](https://www.pcgamingwiki.com/wiki/?curid=220446)
+* [Need for Speed: World](https://www.pcgamingwiki.com/wiki/?curid=6921)
 * [Nova Roma](https://www.pcgamingwiki.com/wiki/?curid=214061)
 * [Omega Labyrinth Life](https://www.pcgamingwiki.com/wiki/?curid=153458)
 * [Phineas and Ferb: New Inventions](https://www.pcgamingwiki.com/wiki/?curid=48629)
