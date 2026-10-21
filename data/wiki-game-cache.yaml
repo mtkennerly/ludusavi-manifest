@@ -38702,8 +38702,10 @@ Car Mechanic Simulator 2021:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Red Dot Games\\Car Mechanic Simulator 2021}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Red Dot Games\\Car Mechanic Simulator 2021\\Save}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\5901F20F.CarMechanicSimulator2021_t06nbjdc8fw86\\SystemAppData\\wgs}}"
-Car Mechanic Simulator 2026:
+Car Mechanic Simulator 2027:
   pageId: 215081
+  renamedFrom:
+    - Car Mechanic Simulator 2026
   steam: 2692660
 Car Mechanic Simulator VR:
   pageId: 139618
@@ -123421,6 +123423,9 @@ IxSHE Tell:
     steam: true
   pageId: 164367
   steam: 1340120
+"Iz and Auggie: Escape from Dimension Q":
+  pageId: 222014
+  steam: 5461430
 "Izanami's Dream Battle":
   cloud:
     steam: true
@@ -243069,6 +243074,9 @@ The Ghost of You:
 The Ghosts of Hackney Mills:
   pageId: 74674
   steam: 739240
+"The Gigglebone Gang: World Tour":
+  pageId: 222011
+  steam: 5460970
 The Girl and the Robot:
   pageId: 36201
   steam: 270070
@@ -262072,6 +262080,7 @@ Treadnauts:
 Treasure Adventure Game:
   gog: 1207659013
   pageId: 7837
+  steam: 863940
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save_data}}"
@@ -270411,6 +270420,9 @@ Vektron Revenge:
 Velev:
   pageId: 203301
   steam: 2790930
+"Velma's Costume Closet":
+  pageId: 222016
+  steam: 5464760
 Velocibox:
   pageId: 38057
   steam: 317710

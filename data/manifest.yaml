@@ -28433,6 +28433,14 @@ Akiba Lost:
       - 4441050
       - 4885210
       - 4889930
+  installDir:
+    AKIBA LOST: {}
+  launch:
+    "<base>/AKIBA LOST.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4131220
 "Akiba's Trip: Hellbound & Debriefed":
@@ -43649,6 +43657,10 @@ Antivirus Survivors 2003 Professional:
       when:
         - os: linux
           store: steam
+    "<home>/.local/share/AntivirusSurvivors/profiles/<storeUserId>/*.json":
+      when:
+        - os: linux
+          store: steam
     "<home>/Library/Application Support/AntivirusSurvivors/*.save":
       when:
         - os: mac
@@ -43657,10 +43669,17 @@ Antivirus Survivors 2003 Professional:
       when:
         - os: mac
           store: steam
+    "<home>/Library/Application Support/AntivirusSurvivors/profiles/<storeUserId>/*.json":
+      when:
+        - os: mac
+          store: steam
     "<winAppData>/AntivirusSurvivors/*.save":
       when:
         - store: steam
     "<winAppData>/AntivirusSurvivors/profiles/*.json":
+      when:
+        - store: steam
+    "<winAppData>/AntivirusSurvivors/profiles/<storeUserId>/*.json":
       when:
         - store: steam
   id:
@@ -119037,6 +119056,8 @@ Car Mechanic Simulator 2021:
   steam:
     id: 1190000
 Car Mechanic Simulator 2026:
+  alias: Car Mechanic Simulator 2027
+Car Mechanic Simulator 2027:
   steam:
     id: 2692660
 Car Mechanic Simulator VR:
@@ -192438,6 +192459,18 @@ Demented Pixie:
 Dementium II:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Dementium II/saves/*.*":
+      when:
+        - store: steam
+  installDir:
+    Dementium II: {}
+  launch:
+    "<base>/Dementium II.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 5342930
 Dementium II HD:
@@ -378918,6 +378951,9 @@ IxSHE Tell:
           - store: steam
   steam:
     id: 1340120
+"Iz and Auggie: Escape from Dimension Q":
+  steam:
+    id: 5461430
 "Izanami's Dream Battle":
   cloud:
     steam: true
@@ -680178,6 +680214,18 @@ Star Trek Timelines:
       when:
         - os: windows
 "Star Trek: Outposts Unknown":
+  installDir:
+    Star Trek Outposts Unknown: {}
+  launch:
+    "<base>/StarTrekOutpostsUnknown.app/Contents/MacOS/StarTrekOutpostsUnknown":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/StarTrekOutpostsUnknown.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3469910
 "Star Trek: Resurgence":
@@ -744407,6 +744455,9 @@ The Ghosts of Hackney Mills:
             store: steam
   steam:
     id: 739240
+"The Gigglebone Gang: World Tour":
+  steam:
+    id: 5460970
 The Girl and the Robot:
   id:
     steamExtra:
@@ -799478,6 +799529,15 @@ Treasure Adventure Game:
         - os: windows
   gog:
     id: 1207659013
+  installDir:
+    TreasureAdventureGame: {}
+  launch:
+    "<base>/tag_launcher.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 863940
 Treasure Adventure World:
   cloud:
     steam: true
@@ -824208,6 +824268,9 @@ Velev:
             store: steam
   steam:
     id: 2790930
+"Velma's Costume Closet":
+  steam:
+    id: 5464760
 Velocibox:
   installDir:
     Velocibox: {}

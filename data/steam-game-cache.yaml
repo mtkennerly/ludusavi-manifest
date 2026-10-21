@@ -371325,6 +371325,13 @@
         oslist: windows
       executable: lostsky.exe
       type: default
+863940:
+  installDir: TreasureAdventureGame
+  launch:
+    - config:
+        oslist: windows
+      executable: tag_launcher.exe
+      type: default
 863980:
   cloud:
     saves:
@@ -652383,12 +652390,65 @@
       executable: cricket26.exe
       type: default
 3469910:
+  installDir: Star Trek Outposts Unknown
+  launch:
+    - config:
+        betakey: _mld
+        oslist: macos
+      description: MFG8MLD
+      executable: MFG8MLD.app/Contents/MacOS/MFG8MLD
+    - config:
+        betakey: _rlrp
+        oslist: macos
+      description: "Play Star Trek: Outposts Unknown (rlrp)"
+      executable: StarTrekOutpostsUnknown.app/Contents/MacOS/StarTrekOutpostsUnknown
+    - config:
+        betakey: _dlrp
+        oslist: macos
+      description: MFG8DLRP
+      executable: MFG8DLRP.app/Contents/MacOS/MFG8DLRP
+    - config:
+        betakey: _mlr
+        oslist: macos
+      description: MFG8MLR
+      executable: MFG8MLR.app/Contents/MacOS/MFG8MLR
+    - config:
+        betakey: _dlr
+        oslist: macos
+      description: MFG8DLR
+      executable: MFG8DLR.app/Contents/MacOS/MFG8DLR
+      type: default
+    - config:
+        betakey: demo
+        oslist: macos
+      description: MFG8MLR
+      executable: MFG8MLR.app/Contents/MacOS/MFG8MLR
+    - config:
+        betakey: _mlr
+        oslist: macos
+      description: MFG8MLR
+      executable: MFG8MLR.app/Contents/MacOS/MFG8MLR
+    - config:
+        oslist: macos
+      description: StarTrekOutpostsUnknown
+      executable: StarTrekOutpostsUnknown.app/Contents/MacOS/StarTrekOutpostsUnknown
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: StarTrekOutpostsUnknown.exe
+    - config:
+        betakey: _mlrp
+        oslist: macos
+      description: "Play Star Trek: Outposts Unknown (mlrp)"
+      executable: MFG8MLRP.app/Contents/MacOS/MFG8MLRP
   nameLocalized:
     brazilian: "Star Trek: Fronteiras Desconhecidas"
     danish: "Star Trek: Ukendte Udposter"
     dutch: "Star Trek: Buitenposten Onbekend"
     finnish: "Star Trek: Tuntemattomat Tukikohdat"
     french: "Star Trek: Avant-postes Inconnus"
+    german: "Star Trek: Unbekannte Außenposten"
     italian: "Star Trek: Avamposti Sconosciuti"
     japanese: "Star Trek: 未知の前哨基地"
     koreana: "Star Trek: 미지의 전초기지"
@@ -652397,10 +652457,10 @@
     polish: "Star Trek: Nieznane Placówki"
     portuguese: "Star Trek: Postos Desconhecidos"
     russian: "Star Trek: Неизвестные аванпосты"
-    schinese: "Star Trek: 未知前哨站"
+    schinese: 星际迷航：未知前哨站
     spanish: "Star Trek: Puestos de avanzada desconocidos"
     swedish: "Star Trek: Utposter Okända"
-    tchinese: "Star Trek: 未知前哨站"
+    tchinese: "星艦奇航記: 未知前哨站"
     turkish: "Star Trek: Bilinmeyen Üsler"
     ukrainian: "Star Trek: Незвідані аванпости"
 3470930:
@@ -657808,6 +657868,9 @@
       - path: AntivirusSurvivors/profiles
         pattern: "*.json"
         root: WinAppDataRoaming
+      - path: "AntivirusSurvivors/profiles/{Steam3AccountID}"
+        pattern: "*.json"
+        root: WinAppDataRoaming
     overrides:
       - os: MacOS
         osCompare: "="
@@ -660889,6 +660952,34 @@
   launch:
     - executable: "Game\\prospi.exe"
 4131220:
+  cloud:
+    saves:
+      - path: IzanagiGames/AKIBA LOST
+        pattern: novel*
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: IzanagiGames/AKIBA LOST
+        pattern: config*
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: IzanagiGames/AKIBA LOST
+        pattern: progress*
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: IzanagiGames/AKIBA LOST
+        pattern: keybind*
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: AKIBA LOST
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: AKIBA LOST.exe
   nameLocalized:
     english: AKIBA LOST
     schinese: AKIBA LOST (秋叶原迷踪)
@@ -663746,7 +663837,21 @@
 5227630: {}
 5233100: {}
 5244970: {}
-5342930: {}
+5342930:
+  cloud:
+    saves:
+      - path: Dementium II/saves
+        pattern: "*.*"
+        root: WinAppDataLocal
+  installDir: Dementium II
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Dementium II.exe
 5396900: {}
+5460970: {}
+5461430: {}
+5464760: {}
 34004563: {}
 3221903386: {}
