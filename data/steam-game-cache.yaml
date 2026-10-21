@@ -515076,7 +515076,7 @@
       type: default
     - arguments: "-steam +steam_environment dev +vtx_environment dev"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300 r5-301
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300 r5-301 r5-310
         osarch: "64"
         oslist: windows
       description: Dev Endpoints (EOS)
@@ -515084,7 +515084,7 @@
       type: option1
     - arguments: "-steam"
       config:
-        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300 r5-301
+        betakey: r5dev non_rebase_build r5-260 r5-261 r5-270 r5-271 r5-280 r5-281 r5-290 r5-291 r5-300 r5-301 r5-310
         osarch: "64"
         oslist: windows
       description: Prod Endpoints (EOS)
@@ -515092,7 +515092,7 @@
       type: option1
     - arguments: "--environment staging -steam +steam_environment dev +vtx_environment dev"
       config:
-        betakey: r5dev r5-301
+        betakey: r5dev r5-301 r5-310
         osarch: "64"
         oslist: windows
       description: Dev Endpoints (Javelin)
@@ -515100,7 +515100,7 @@
       type: option1
     - arguments: "-steam"
       config:
-        betakey: r5dev r5-301
+        betakey: r5dev r5-301 r5-310
         osarch: "64"
         oslist: windows
       description: Prod Endpoints (Javelin)
@@ -663929,6 +663929,7 @@
 5227630: {}
 5233100: {}
 5244970: {}
+5306540: {}
 5342930:
   cloud:
     saves:
@@ -663942,6 +663943,8 @@
         oslist: windows
       executable: Dementium II.exe
 5396900: {}
+5442080: {}
+5460730: {}
 5460970: {}
 5461430: {}
 5464760: {}
