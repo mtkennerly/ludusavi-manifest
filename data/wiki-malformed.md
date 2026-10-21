@@ -16,6 +16,7 @@
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [JetFly](https://www.pcgamingwiki.com/wiki/?curid=68430)
+* [Kernel Hearts](https://www.pcgamingwiki.com/wiki/?curid=220580)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Life Is Strange: Reunion](https://www.pcgamingwiki.com/wiki/?curid=213008)
 * [Mall of America Tycoon](https://www.pcgamingwiki.com/wiki/?curid=221715)

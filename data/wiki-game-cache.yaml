@@ -4287,6 +4287,10 @@ AFL 26:
   lutris: afl-26
   pageId: 208037
   steam: 3468640
+AFL 98:
+  pageId: 222031
+AFL 99:
+  pageId: 222028
 AFL Evolution:
   pageId: 60800
   steam: 435020
@@ -116041,6 +116045,11 @@ Hundred Swords:
 Hunger:
   pageId: 63952
   steam: 581740
+Hunger (2026):
+  cloud:
+    epic: true
+  pageId: 222025
+  steam: 1752080
 Hunger Apartment:
   cloud:
     steam: true
@@ -127789,6 +127798,7 @@ Kernel Hearts:
     steam: true
     xbox: true
   lutris: kernel-hearts
+  malformed: true
   pageId: 220580
   steam: 2902170
   templates:
@@ -198575,6 +198585,23 @@ Root Letter:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\EastFog\\Root Of Evil :The Tailor}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\EastFog\\Root Of Evil _The Tailor\\The_Tailor.txt}}"
+"Roots in the Sky: The Hand of Glory 2":
+  cloud:
+    gog: true
+    steam: true
+  gog: 1910404586
+  gogSide:
+    - 1768727131
+    - 1788507471
+  lutris: roots-in-the-sky-the-hand-of-glory-2
+  pageId: 222021
+  steam: 2062380
+  steamSide:
+    - 2285560
+    - 5167490
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Madit Entertainment\\Roots in the Sky - The Hand of Glory 2\\config.ini}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Madit Entertainment\\Roots in the Sky - The Hand of Glory 2\\Savegames\\}}"
 Roots of Insanity:
   lutris: roots-of-insanity
   pageId: 58846
@@ -255174,6 +255201,8 @@ Tiger Woods PGA Tour 12:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Tiger Woods PGA TOUR 12 The Masters\\UserProfiles\\{{P|uid}}\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Tiger Woods PGA TOUR 12 The Masters\\UserProfiles\\{{P|uid}}\\}}"
+Tiger Woods PGA Tour 2000:
+  pageId: 222026
 Tiger Woods PGA Tour 2001:
   pageId: 195623
 Tiger Woods PGA Tour 2002:
@@ -255191,6 +255220,8 @@ Tiger Woods PGA Tour 2004:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\EA SPORTS\\Tiger Woods PGA TOUR 2004\\Interface|{{p|hkcu}}\\SOFTWARE\\EA SPORTS\\Tiger Woods PGA TOUR 2004\\RenderSettings}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Tiger Woods PGA TOUR 2004\\Save}}"
+Tiger Woods PGA Tour 2005:
+  pageId: 222019
 Tiger-Heli:
   cloud:
     steam: true
@@ -267243,6 +267274,11 @@ Unhack 2:
 Unhappy Ever After:
   pageId: 56114
   steam: 552350
+Unharvest:
+  pageId: 222029
+  steam: 5138990
+  steamSide:
+    - 5165160
 Unheard:
   cloud:
     steam: true

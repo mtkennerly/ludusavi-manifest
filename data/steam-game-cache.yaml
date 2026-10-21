@@ -583267,6 +583267,7 @@
       executable: FireAndAshes.exe
       type: default
 1751820: {}
+1752080: {}
 1752220:
   installDir: Relumine
   launch:
@@ -603481,6 +603482,20 @@
     - config:
         oslist: windows
       executable: DoNotOpen.exe
+      type: default
+2062380:
+  installDir: Roots in the Sky - The Hand of Glory 2
+  launch:
+    - config:
+        oslist: windows
+      executable: Roots in the Sky.exe
+    - config:
+        oslist: linux
+      executable: start
+      type: default
+    - config:
+        oslist: macos
+      executable: Roots in the Sky - The Hand of Glory 2.app
       type: default
 2062430:
   cloud:
@@ -652709,6 +652724,52 @@
     - executable: TennisAntics_Manual.pdf
       type: manual
 3486530:
+  cloud:
+    saves:
+      - path: "StupidNeverDies/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: gameinstall
+      - path: "StupidNeverDies/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.json"
+        root: gameinstall
+      - path: "StupidNeverDies/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocal
+      - path: "StupidNeverDies/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.json"
+        root: WinAppDataLocal
+  installDir: StupidNeverDies
+  launch:
+    - config:
+        oslist: windows
+      description: Default
+      executable: StupidNeverDies.exe
+      type: default
+    - arguments: "-ExecCmds=\"Automation RunTests GPT.Pkg.SequentialTest.BootTest;Quit\" -log -logpso"
+      config:
+        betakey: main_ci
+        oslist: windows
+      description: BootTest
+      executable: StupidNeverDies.exe
+      type: option1
+    - arguments: "-ExecCmds=DisableAllScreenMessages"
+      config:
+        betakey: for_event_2
+      description: for Event
+      executable: StupidNeverDies.exe
+      type: option1
+    - config:
+        betakey: "ut-2,ut2_debug,ut2_test_debug"
+        oslist: windows
+      description: UT2
+      executable: Romeo.exe
+      type: option1
+    - config:
+        betakey: 0204_shooting
+        oslist: windows
+      description: 0204_shooting
+      executable: Romeo.exe
+      type: option1
   nameLocalized:
     japanese: ステューピッド・ネバー・ダイズ（Stupid Never Dies）
     schinese: 愚者不灭（Stupid Never Dies）
@@ -663821,6 +663882,7 @@
     russian: "Герой Королевства: Отголоски"
     schinese: 王国英雄：餘音
     ukrainian: "Герой Королівства: Відлуння"
+5138990: {}
 5212940:
   cloud:
     saves:
@@ -663840,7 +663902,7 @@
 5342930:
   cloud:
     saves:
-      - path: Dementium II/saves
+      - path: Dementium II/Saves
         pattern: "*.*"
         root: WinAppDataLocal
   installDir: Dementium II
