@@ -110781,6 +110781,13 @@ Buried Alive VR:
     Buried Alive VR: {}
   steam:
     id: 678830
+Buried stars:
+  files:
+    "<home>/AppData/LocalLow/LINE Games/BURIED STARS":
+      tags:
+        - save
+      when:
+        - os: windows
 "Buried: An Interactive Story":
   installDir:
     Buried An Interactive Story: {}
@@ -150436,6 +150443,9 @@ Concrete and Steel:
   steam:
     id: 444830
 Concubine:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<winLocalAppData>/Concubine/Saved/Config/Windows":
       tags:
@@ -433130,6 +433140,16 @@ Lyne:
         - config
   steam:
     id: 266010
+"Lynked: Banner of the Spark":
+  installDir:
+    Lynked Banner of the Spark: {}
+  launch:
+    "<base>/Saturn.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3159570
 Lynne:
   files:
     "<base>/game/saves":
@@ -669238,6 +669258,16 @@ SpaceShot:
             store: steam
   steam:
     id: 675940
+SpaceTanks:
+  installDir:
+    Space Tanks: {}
+  launch:
+    "<base>/Space_Tanks.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4185150
 SpaceTone:
   cloud:
     steam: true
@@ -695691,6 +695721,7 @@ Stupid Never Dies:
   id:
     lutris: stupid-never-dies
     steamExtra:
+      - 4228930
       - 4880100
   installDir:
     StupidNeverDies: {}
@@ -744560,6 +744591,9 @@ The Ghosts of Hackney Mills:
             store: steam
   steam:
     id: 739240
+"The Gigglebone Gang: AlphaBonk Farm":
+  steam:
+    id: 5450950
 "The Gigglebone Gang: Infinity City":
   steam:
     id: 5460730

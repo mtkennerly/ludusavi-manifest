@@ -623215,6 +623215,12 @@
     tchinese: 愛麗婭的明日盛典! Flowering Sky
 2425910: {}
 2426120:
+  cloud:
+    saves:
+      - path: Concubine/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
   installDir: Concubine
   launch:
     - executable: Concubine.exe
@@ -646329,6 +646335,17 @@
     koreana: 어쌔신 크리드 섀도우스
     schinese: 刺客信条：影
     tchinese: 刺客教條：暗影者
+3159570:
+  installDir: Lynked Banner of the Spark
+  launch:
+    - config:
+        oslist: windows
+      executable: Saturn.exe
+      type: default
+  nameLocalized:
+    japanese: "Lynked: 火花の旗"
+    schinese: 《联结：星火之盟》
+    tchinese: 《超能連結：星火戰旗》
 3159750:
   nameLocalized:
     schinese: 奶头乐TV
@@ -661431,6 +661448,13 @@
 4184360: {}
 4184400: {}
 4184420: {}
+4185150:
+  installDir: Space Tanks
+  launch:
+    - config:
+        oslist: windows
+      executable: Space_Tanks.exe
+      type: default
 4190070:
   cloud:
     saves:
@@ -663944,6 +663968,7 @@
       executable: Dementium II.exe
 5396900: {}
 5442080: {}
+5450950: {}
 5460730: {}
 5460970: {}
 5461430: {}

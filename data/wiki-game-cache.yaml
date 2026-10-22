@@ -35984,6 +35984,8 @@ Buried Alive VR:
   steam: 678830
 Buried stars:
   pageId: 221454
+  templates:
+    - "{{Game data/saves|Windows|%USERPROFILE%/AppData/LocalLow/LINE Games/BURIED STARS/}}"
 "Buried: An Interactive Story":
   pageId: 44852
   steam: 434370
@@ -48642,6 +48644,9 @@ Concrete and Steel:
   pageId: 42860
   steam: 444830
 Concubine:
+  cloud:
+    gog: true
+    steam: true
   lutris: concubine
   pageId: 206972
   steam: 2426120
@@ -141306,6 +141311,9 @@ Lyne:
     - "{{Game data/saves|Steam|{{p|game}}/saves/lyne.sav}}"
     - "{{Game data/saves|OS X|{{p|game}}/saves/lyne.sav}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Thomas Bowker/LYNE/lyne.sav}}"
+"Lynked: Banner of the Spark":
+  pageId: 222061
+  steam: 3159570
 Lynne:
   pageId: 103345
   steam: 885640
@@ -174785,6 +174793,9 @@ Pax Augusta:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\RogerGassmann\\PaxAugusta\\*.dat}}"
 Pax Corpus:
   pageId: 208501
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}}}"
 Pax Dei:
   pageId: 209207
   steam: 1995520
@@ -187225,6 +187236,8 @@ RICO:
 RIFF VR for Arcades:
   pageId: 120845
   steam: 932920
+"RIM: Battle Planets":
+  pageId: 222056
 RIP:
   pageId: 36462
   steam: 2540
@@ -218791,6 +218804,9 @@ SpaceRoads:
 SpaceShot:
   pageId: 70136
   steam: 675940
+SpaceTanks:
+  pageId: 222059
+  steam: 4185150
 SpaceTone:
   cloud:
     steam: true
@@ -227503,6 +227519,7 @@ Stupid Never Dies:
   pageId: 211977
   steam: 3486530
   steamSide:
+    - 4228930
     - 4880100
 Stupid Quest - Medieval Adventures:
   cloud:
@@ -243123,6 +243140,9 @@ The Ghost of You:
 The Ghosts of Hackney Mills:
   pageId: 74674
   steam: 739240
+"The Gigglebone Gang: AlphaBonk Farm":
+  pageId: 222054
+  steam: 5450950
 "The Gigglebone Gang: Infinity City":
   pageId: 222044
   steam: 5460730
