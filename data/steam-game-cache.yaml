@@ -19386,7 +19386,7 @@
         oslist: windows
       description: RaceRoom (VR)
       executable: Game/x64/RRRE64.exe
-      type: vr
+      type: openxr
       workingdir: Game/x64
     - config:
         osarch: "64"
@@ -19394,6 +19394,20 @@
       description: RaceRoom with DXVK
       executable: Game/x64dxvk/RRRE64.exe
       type: option2
+      workingdir: Game/x64dxvk
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: RaceRoom with DXVK
+      executable: Game/x64dxvk/RRRE64.exe
+      type: default
+      workingdir: Game/x64dxvk
+    - arguments: "-vr"
+      config:
+        osarch: "64"
+      description: RaceRoom (VR) with DXVK
+      executable: Game/x64dxvk/RRRE64.exe
+      type: openxr
       workingdir: Game/x64dxvk
 211580:
   installDir: Wanderlust Rebirth
@@ -550870,6 +550884,7 @@
     koreana: Corsair Cove 커세어 코브
     schinese: 纵横秘湾 Corsair Cove
     tchinese: 縱橫秘灣 Corsair Cove
+1368180: {}
 1368340:
   installDir: Beneath a Steel Sky
   launch:
@@ -606004,6 +606019,14 @@
     schinese: 我委托了一些蜜蜂6
     spanish: Mi gran comisión de abejas 6
     swedish: Jag anlitade några bin 6
+2087540:
+  installDir: Escape From Playtime
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: EscapeFromPlaytime.exe
+      type: default
 2088020: {}
 2088080:
   installDir: KEEK
@@ -618325,7 +618348,37 @@
         oslist: linux
       executable: "Linux\\LegendSkye"
       type: default
-2315050: {}
+2315050:
+  cloud:
+    saves:
+      - path: SavesDir
+        pattern: "*.data"
+        root: gameinstall
+  installDir: We Were Here Tomorrow
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: We Were Here Tomorrow.exe
+      type: default
+    - config:
+        betakey: "development1,development2,niftysweatpants,stalepolarbear"
+        osarch: "64"
+        oslist: windows
+      description: We Were Here Tomorrow Playtest (Old versions)
+      executable: GreasyJunkyard6.exe
+      type: option2
+    - arguments: "-force-d3d11"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: We Were Here Tomorrow in Safe Mode (DX11)
+      executable: We Were Here Tomorrow.exe
+      type: option1
+  nameLocalized:
+    koreana: 우리는 여기에 있었다 투모로우
+    schinese: 我们曾到此：明日遗踪
+    tchinese: 我們曾到此：明日
 2315400:
   cloud:
     saves:
@@ -648279,6 +648332,13 @@
     - config:
         oslist: windows
       executable: Mycopunk.exe
+    - arguments: "-force-d3d12"
+      config:
+        betakey: dx12
+        oslist: windows
+      description: Mycopunk - DX12 (Experimental)
+      executable: Mycopunk.exe
+      type: option1
   nameLocalized:
     japanese: "Mycopunk: 俺たちキノコバスターズ"
     koreana: "Mycopunk: 곰팡이 버스터즈"

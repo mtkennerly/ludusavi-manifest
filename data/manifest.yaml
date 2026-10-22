@@ -246501,6 +246501,32 @@ Escape from Paradise 2:
           - store: steam
   steam:
     id: 47120
+Escape from Playtime:
+  files:
+    "<winLocalAppData>/EscapeFromPlaytime/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/EscapeFromPlaytime/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5309180
+      - 5401680
+  installDir:
+    Escape From Playtime: {}
+  launch:
+    "<base>/EscapeFromPlaytime.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2087540
 Escape from Pleasure Planet:
   installDir:
     Escape from Pleasure Planet: {}
@@ -256493,6 +256519,8 @@ FIFA 17:
         - config
       when:
         - os: windows
+  id:
+    lutris: fifa-17
 FIFA 18:
   cloud:
     origin: true
@@ -263852,8 +263880,6 @@ Farming Incremental But With Guns:
         - save
       when:
         - os: windows
-  id:
-    lutris: farming-incremental-but-with-guns
   installDir:
     Farming Incremental But With Guns: {}
   launch:
@@ -573908,6 +573934,7 @@ RaceRoom Racing Experience:
       when:
         - os: windows
   id:
+    lutris: raceroom-racing-experience
     steamExtra:
       - 272770
       - 331800
@@ -573920,6 +573947,13 @@ RaceRoom Racing Experience:
       - 455280
   installDir:
     raceroom racing experience: {}
+  launch:
+    "<base>/Game/x64dxvk/RRRE64.exe":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+        workingDir: "<base>/Game/x64dxvk"
   steam:
     id: 211500
 RaceXXL Space:
@@ -799976,6 +800010,8 @@ Treasure of Nadia:
         - os: windows
   gog:
     id: 1592693763
+  id:
+    lutris: treasure-of-nadia
   installDir:
     Treasure of Nadia: {}
   launch:
@@ -843809,6 +843845,18 @@ We Were Here Together:
 We Were Here Tomorrow:
   cloud:
     steam: true
+  files:
+    "<base>/SavesDir/*.data":
+      when:
+        - store: steam
+  installDir:
+    We Were Here Tomorrow: {}
+  launch:
+    "<base>/We Were Here Tomorrow.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2315050
 We Were Here Too:
@@ -850274,6 +850322,11 @@ Wildcat Gun Machine:
             store: steam
   steam:
     id: 1288610
+Wildekin:
+  id:
+    lutris: wildekin
+  steam:
+    id: 1368180
 Wildermyth:
   cloud:
     gog: true

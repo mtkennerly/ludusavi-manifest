@@ -79917,6 +79917,15 @@ Escape from Paradise 2:
   steam: 47120
 Escape from Paradise City:
   pageId: 91637
+Escape from Playtime:
+  pageId: 222069
+  steam: 2087540
+  steamSide:
+    - 5309180
+    - 5401680
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\EscapeFromPlaytime\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\EscapeFromPlaytime\\Saved\\SaveGames\\}}"
 Escape from Pleasure Planet:
   pageId: 54808
   steam: 504410
@@ -83362,6 +83371,7 @@ FIFA 16:
 FIFA 17:
   cloud:
     origin: true
+  lutris: fifa-17
   pageId: 33188
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\FIFA 17\\}}"
@@ -86027,7 +86037,6 @@ Farming Giant:
 Farming Incremental But With Guns:
   cloud:
     steam: true
-  lutris: farming-incremental-but-with-guns
   pageId: 219318
   steam: 4651120
   templates:
@@ -187687,6 +187696,7 @@ Race.a.bit:
   pageId: 34099
   steam: 336030
 RaceRoom Racing Experience:
+  lutris: raceroom-racing-experience
   pageId: 40660
   steam: 211500
   steamSide:
@@ -262259,6 +262269,7 @@ Treasure of Nadia:
   cloud:
     gog: true
   gog: 1592693763
+  lutris: treasure-of-nadia
   pageId: 195553
   steam: 1737100
   templates:
@@ -279171,6 +279182,10 @@ Wildcat Gun Machine:
     - 1315490
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Daedalic Entertainment GmbH\\Wildcat Gun Machine\\*.es3}}"
+Wildekin:
+  lutris: wildekin
+  pageId: 222076
+  steam: 1368180
 Wildermyth:
   cloud:
     gog: true
