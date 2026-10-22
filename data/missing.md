@@ -1683,6 +1683,7 @@
 * [Arctic Trucker Simulator](https://www.pcgamingwiki.com/wiki/?curid=51314)
 * [Arctico](https://www.pcgamingwiki.com/wiki/?curid=49263)
 * [Arcturus: The Curse and Loss of Divinity](https://www.pcgamingwiki.com/wiki/?curid=172619)
+* [Ardennes Offensive](https://www.pcgamingwiki.com/wiki/?curid=222098)
 * [Ardent Seas](https://www.pcgamingwiki.com/wiki/?curid=175702)
 * [Are You Afraid of the Dark? The Tale of Orpheo's Curse](https://www.pcgamingwiki.com/wiki/?curid=203499)
 * [Are You Alone?](https://www.pcgamingwiki.com/wiki/?curid=89539)

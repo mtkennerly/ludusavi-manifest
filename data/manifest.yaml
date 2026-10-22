@@ -270260,6 +270260,9 @@ Final Fantasy Resonance:
       when:
         - os: windows
           store: steam
+  id:
+    steamExtra:
+      - 4347910
   installDir:
     FINAL FANTASY RESONANCE: {}
   launch:
@@ -284553,6 +284556,40 @@ Foundry:
             store: steam
   steam:
     id: 983870
+Fountains:
+  cloud:
+    steam: true
+  files:
+    "<home>.local/share/godot/app_userdata/Fountains/saves_RELEASE/*.fsave":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Fountains/saves_RELEASE/*.fsave":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/Godot/app_userdata/Fountains/saves_RELEASE/**/*.fsave":
+      when:
+        - store: steam
+  installDir:
+    FOUNTAINS: {}
+  launch:
+    "<base>/FOUNTAINS.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/FOUNTAINS.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/FOUNTAINS.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  steam:
+    id: 1841240
 Four Color Jump:
   installDir:
     Four color jumps: {}

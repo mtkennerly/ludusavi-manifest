@@ -15316,6 +15316,8 @@ Arctico:
   steam: 325210
 "Arcturus: The Curse and Loss of Divinity":
   pageId: 172619
+Ardennes Offensive:
+  pageId: 222098
 Ardent Seas:
   pageId: 175702
   steam: 1355680
@@ -88141,6 +88143,8 @@ Final Fantasy Resonance:
     xbox: true
   pageId: 217559
   steam: 3259780
+  steamSide:
+    - 4347910
 Final Fantasy Tactics - The Ivalice Chronicles:
   cloud:
     steam: true
@@ -92731,6 +92735,11 @@ Foundry:
   steam: 983870
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\LocalLow\\Channel 3 Entertainment\\Foundry\\save}}"
+Fountains:
+  cloud:
+    steam: true
+  pageId: 222090
+  steam: 1841240
 Four Color Jump:
   pageId: 218649
   steam: 1656640
@@ -149211,6 +149220,7 @@ Metro 2033 Redux:
     xbox: true
   gog: 1436434037
   lutris: metro-2033-redux
+  malformed: true
   pageId: 17417
   steam: 286690
   templates:

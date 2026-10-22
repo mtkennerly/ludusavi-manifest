@@ -589185,6 +589185,51 @@
       description: Play the game
       executable: Christmas Massacre.exe
       type: default
+1841240:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Fountains/saves_RELEASE/
+        pattern: "*.fsave"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: /Godot/app_userdata/Fountains/saves_RELEASE/
+            replace: /Library/Application Support/Godot/app_userdata/Fountains/saves_RELEASE/
+        root: WinAppDataRoaming
+        useInstead: MacHome
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: /Godot/app_userdata/Fountains/saves_RELEASE/
+            replace: ".local/share/godot/app_userdata/Fountains/saves_RELEASE/"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: FOUNTAINS
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Launch FOUNTAINS on Windows
+      executable: FOUNTAINS.exe
+      type: default
+    - config:
+        oslist: macos
+      description: Launch FOUNTAINS on MacOS
+      executable: FOUNTAINS.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: Launch FOUNTAINS on Linux
+      executable: FOUNTAINS.x86_64
+      type: default
+  nameLocalized:
+    japanese: ファウンテンズ (FOUNTAINS)
+    schinese: 永泉传说 FOUNTAINS
+    tchinese: 永泉傳說 FOUNTAINS
 1841780:
   installDir: It follows you
   launch:
