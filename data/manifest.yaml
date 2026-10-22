@@ -94516,8 +94516,20 @@ Bloodthief:
   steam:
     id: 2533600
 Bloodville:
+  files:
+    "<winLocalAppData>/BLOODVILLE/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: bloodville
+  installDir:
+    BLOODVILLE: {}
+  launch:
+    "<base>/BLOODVILLE.exe":
+      - when:
+          - bit: 64
+            store: steam
   steam:
     id: 3802770
 "Bloodwings: Pumpkinhead's Revenge":
@@ -107275,6 +107287,23 @@ Brotato:
             store: steam
   steam:
     id: 1942280
+Brothel Master:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BrothelSim/Saved/SaveGames/save.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Brothel Master: {}
+  launch:
+    "<base>/BrothelMaster.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3892630
 Brother Bear:
   files:
     "<winProgramData>/Disney Interactive/Brother Bear/System":
@@ -270222,6 +270251,21 @@ Final Fantasy IX:
 Final Fantasy Resonance:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/FFRS/Steam/<storeUserId>/GameSaveData*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/FFRS_DEMO/Steam/<storeUserId>/GameSaveData*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    FINAL FANTASY RESONANCE: {}
+  launch:
+    "<base>/FFRS.exe":
+      - when:
+          - store: steam
   steam:
     id: 3259780
 Final Fantasy Tactics - The Ivalice Chronicles:
@@ -352529,6 +352573,7 @@ Hotel Architect:
     id: 1602000
 Hotel Barcelona:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/The Cult Games Ltd/HOTEL BARCELONA/*.data":
@@ -352536,6 +352581,14 @@ Hotel Barcelona:
         - save
       when:
         - os: windows
+  gog:
+    id: 1296112477
+  id:
+    gogExtra:
+      - 1082855294
+      - 1216529154
+    steamExtra:
+      - 4582750
   installDir:
     HOTEL BARCELONA: {}
   launch:
@@ -428551,6 +428604,10 @@ Love Language Japanese:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Initiative Media/Love Language Japanese:
+      tags:
+        - save
   steam:
     id: 445800
 Love Letter:
@@ -503020,6 +503077,14 @@ Nomad:
             store: steam
   steam:
     id: 378370
+Nomad Drive:
+  id:
+    steamExtra:
+      - 4451030
+      - 4568400
+      - 5199100
+  steam:
+    id: 2223980
 Nomad Fleet:
   installDir:
     Nomad Fleet: {}
@@ -514210,6 +514275,8 @@ One Piece Odyssey:
 "One Piece: Grand Gourmet":
   cloud:
     steam: true
+  id:
+    lutris: one-piece-grand-gourmet
   steam:
     id: 3905010
 "One Piece: Pirate Warriors 3":
@@ -827380,6 +827447,22 @@ Vikings Wars:
           - store: steam
   steam:
     id: 1216930
+"Vikings: Sex and Blood":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Viking/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Vikings Sex and Blood: {}
+  launch:
+    "<base>/VikingsSexAndBlood.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2774580
 "Vikings: Wolves of Midgard":
   cloud:
     steam: true
@@ -827826,6 +827909,16 @@ Vintage Hero:
     id: 667240
 Vintage Story:
   files:
+    "<home>/.config/VintagestoryData/Saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.config/VintagestoryData/clientsettings.json":
+      tags:
+        - config
+      when:
+        - os: linux
     "<home>/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Saves":
       tags:
         - save

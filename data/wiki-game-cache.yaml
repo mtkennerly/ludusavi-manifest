@@ -34851,6 +34851,11 @@ Brotato:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Brotato\\{{p|uid}}\\*.json}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Brotato/{{p|uid}}/*.json}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Brotato/{{p|uid}}/save_*.json}}"
+Brothel Master:
+  cloud:
+    steam: true
+  pageId: 222079
+  steam: 3892630
 Brother Bear:
   pageId: 97679
   templates:
@@ -93492,6 +93497,8 @@ Freelancer:
 Freemium Way:
   pageId: 64117
   steam: 504030
+Freestyle BMX:
+  pageId: 222085
 "Freestyle2: Street Basketball":
   pageId: 48310
   steam: 339610
@@ -114971,10 +114978,17 @@ Hotel Architect:
   steam: 1602000
 Hotel Barcelona:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1296112477
+  gogSide:
+    - 1082855294
+    - 1216529154
   pageId: 209246
   steam: 2286600
+  steamSide:
+    - 4582750
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\The Cult Games Ltd\\HOTEL BARCELONA\\*.data}}"
 Hotel Blind:
@@ -139888,6 +139902,8 @@ Love Is In The Space:
 Love Language Japanese:
   pageId: 112948
   steam: 445800
+  templates:
+    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Initiative Media\\Love Language Japanese}}"
 Love Letter:
   pageId: 113814
   steam: 926520
@@ -164631,6 +164647,13 @@ Nomad:
   steam: 378370
   steamSide:
     - 431430
+Nomad Drive:
+  pageId: 222083
+  steam: 2223980
+  steamSide:
+    - 4451030
+    - 4568400
+    - 5199100
 Nomad Fleet:
   pageId: 43524
   steam: 371010
@@ -168316,6 +168339,7 @@ One Piece Odyssey:
 "One Piece: Grand Gourmet":
   cloud:
     steam: true
+  lutris: one-piece-grand-gourmet
   pageId: 217675
   steam: 3905010
 "One Piece: Pirate Warriors 3":
@@ -192223,6 +192247,8 @@ Remind Yourself:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Super Slam Alaska\\Config.ini|{{p|userprofile\\Documents}}\\Super Slam Alaska\\Config.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Super Slam Alaska\\*.sav}}"
+"Remington Top Shot: Interactive Target Shooting":
+  pageId: 222087
 Remnant II:
   cloud:
     epic: true
@@ -271473,6 +271499,11 @@ VikingJourney:
 Vikings Wars:
   pageId: 155520
   steam: 1216930
+"Vikings: Sex and Blood":
+  cloud:
+    steam: true
+  pageId: 222078
+  steam: 2774580
 "Vikings: The Strategy of Ultimate Conquest":
   pageId: 185945
   templates:
@@ -271621,9 +271652,9 @@ Vintage Story:
   pageId: 190446
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\VintagestoryData\\clientsettings.json}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/clientsettings.json}}"
+    - "{{Game data/config|Linux|{{p|linuxhome}}/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/clientsettings.json|{{p|linuxhome}}/.config/VintagestoryData/clientsettings.json}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\VintagestoryData\\Saves}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Saves|{{p|linuxhome}}/ApplicationData/vintagestory/Saves}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Saves|{{p|linuxhome}}/ApplicationData/vintagestory/Saves|{{p|linuxhome}}/.config/VintagestoryData/Saves}}"
 Vintage VR:
   pageId: 43227
   steam: 466720

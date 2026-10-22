@@ -613787,6 +613787,7 @@
   launch:
     - executable: CastingFrankStone.exe
       type: option2
+2223980: {}
 2224160:
   installDir: Citadel Stormer 2
   launch:
@@ -636945,6 +636946,18 @@
   launch:
     - executable: TheBossGangsters.exe
       type: default
+2774580:
+  cloud:
+    saves:
+      - path: "Viking\\Saved\\SaveGames"
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Vikings Sex and Blood
+  launch:
+    - config:
+        oslist: windows
+      executable: VikingsSexAndBlood.exe
 2776090:
   installDir: Lay of the Land
   launch:
@@ -648572,6 +648585,21 @@
     schinese: 红色的炼金术士和白色的守护者 ～蕾斯莱莉娅娜的炼金工房～
     tchinese: 紅色的鍊金術士和白色的守護者 ～蕾斯萊莉婭娜的鍊金工房～
 3259780:
+  cloud:
+    saves:
+      - path: "FFRS/Steam/{64BitSteamID}"
+        pattern: GameSaveData*.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: "FFRS_DEMO/Steam/{64BitSteamID}"
+        pattern: GameSaveData*.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: FINAL FANTASY RESONANCE
+  launch:
+    - executable: FFRS.exe
   nameLocalized:
     english: FINAL FANTASY RESONANCE
     japanese: ファイナルファンタジー レゾナンス
@@ -657691,7 +657719,19 @@
   installDir: "Chud Logic's Gockbound"
   launch:
     - executable: "Chud Logic's Gockbound.exe"
-3802770: {}
+3802770:
+  cloud:
+    saves:
+      - path: "\\BLOODVILLE\\Saved\\SaveGames\\"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: BLOODVILLE
+  launch:
+    - config:
+        osarch: "64"
+      executable: BLOODVILLE.exe
 3805420:
   installDir: A Few Quick Matches
   launch:
@@ -658729,6 +658769,20 @@
     russian: Казино с друзьями
     schinese: 朋友，梭哈吧
 3892510: {}
+3892630:
+  cloud:
+    saves:
+      - path: "BrothelSim\\Saved\\SaveGames"
+        pattern: save.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Brothel Master
+  launch:
+    - config:
+        oslist: windows
+      executable: BrothelMaster.exe
+      type: default
 3893290:
   nameLocalized:
     brazilian: "Stray Dog: nobody cares"
@@ -658898,7 +658952,6 @@
     koreana: 원피스 그랜드 레스토랑
     schinese: ONE PIECE 海洋盛宴
     tchinese: ONE PIECE 海洋盛宴
-    thai: ONE PIECE ภัตตาคารเลิศรสลอยทะเล (ชื่อชั่วคราว)
 3905450:
   installDir: WheelMates
   launch:
