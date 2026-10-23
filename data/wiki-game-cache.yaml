@@ -25355,6 +25355,8 @@ Beat Saber:
     - 4886390
     - 4886400
     - 4886410
+    - 5191250
+    - 5308330
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Hyperbolic Magnetism\\Beat Saber\\settings.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Hyperbolic Magnetism\\Beat Saber\\*.dat}}"
@@ -48666,6 +48668,7 @@ Concubine:
   cloud:
     gog: true
     steam: true
+  gog: 1237009719
   lutris: concubine
   pageId: 206972
   steam: 2426120
@@ -89038,6 +89041,8 @@ Firestone Idle RPG:
     - "{{Game data/saves|Windows|Stored on the developer's servers.}}"
     - "{{Game data/saves|OS X|Stored on the developer's servers.}}"
     - "{{Game data/saves|Linux|Stored on the developer's servers.}}"
+"Firewall: Man vs. Machine":
+  pageId: 222161
 Firewatch:
   cloud:
     gog: true
@@ -129818,6 +129823,16 @@ Kinkshamed:
 Kinky Fight Club:
   pageId: 174790
   steam: 1237530
+"KinnikuNeko: Super Muscle Cat":
+  cloud:
+    epic: true
+    steam: true
+  lutris: kinnikuneko-super-muscle-cat
+  pageId: 222154
+  steam: 1332950
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Kamotachi\\KinnikuNeko SUPER MUSCLE CAT}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Kamotachi\\KinnikuNeko SUPER MUSCLE CAT}}"
 Kinnikuman Muscle Fight:
   pageId: 179306
 "Kio's Adventure":
@@ -143764,6 +143779,8 @@ Mahjongg The Ultimate Collection 2:
   pageId: 42263
   steam: 503480
 Mahou Arms:
+  cloud:
+    steam: true
   pageId: 181773
   steam: 1165870
   templates:
@@ -154436,8 +154453,9 @@ Moonlighter:
   steam: 2350790
   steamSide:
     - 3670000
-    - 4036250
     - 4935250
+    - 5026660
+    - 5031290
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\11BitStudios\\Moonlighter 2 The Endless Vault\\*.bin}}"
 Moonlit Mayhem:
@@ -155255,6 +155273,7 @@ Moto Racer 2:
     - "{{Game data/saves|Windows|{{p|game}}\\data\\config.bin}}"
 Moto Racer 3:
   gog: 1207658897
+  lutris: moto-racer-3-gold-edition
   pageId: 13530
   steam: 324110
   templates:
@@ -161168,6 +161187,16 @@ Neon Blocks 87:
 Neon Boost:
   pageId: 135371
   steam: 1057850
+"Neon Breaker: Endless Arcade":
+  cloud:
+    steam: true
+  pageId: 222152
+  steam: 5054650
+  templates:
+    - "{{Game data/config|Windows|%LOCALAPPDATA%\\NeonBreaker\\settings.cfg}}"
+    - "{{Game data/config|OS X|~/Library/Application Support/NeonBreaker/settings.cfg}}"
+    - "{{Game data/saves|Windows|%LOCALAPPDATA%\\NeonBreaker\\}}"
+    - "{{Game data/saves|OS X|~/Library/Application Support/NeonBreaker/}}"
 Neon Brood:
   pageId: 93563
   steam: 801360
@@ -239536,6 +239565,7 @@ The Book of Unwritten Tales:
   pageId: 12794
   steam: 215160
   steamSide:
+    - 215180
     - 215200
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Book of Unwritten Tales\\}}"
@@ -275998,6 +276028,11 @@ Warm Village:
 Warma:
   pageId: 98058
   steam: 697630
+"Warmachine: Rogue-Scout":
+  cloud:
+    steam: true
+  pageId: 222159
+  steam: 5006180
 "Warmachine: Tactics":
   pageId: 18492
   steam: 253510
@@ -282042,6 +282077,9 @@ World of Goo 2:
     - 4972740
     - 4972760
     - 5130590
+    - 5130600
+    - 5130610
+    - 5130730
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Noble Empire\\World of Guns\\}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Noble Empire/World of Guns/}}"

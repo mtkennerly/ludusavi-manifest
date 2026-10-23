@@ -546970,6 +546970,23 @@
         oslist: macos
       executable: Snake
       type: default
+1332950:
+  cloud:
+    saves:
+      - path: Kamotachi/KinnikuNeko SUPER MUSCLE CAT
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Kamotachi/KinnikuNeko SUPER MUSCLE CAT
+            replace: ".config/unity3d/Kamotachi/KinnikuNeko SUPER MUSCLE CAT"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: KinnikuNeko SUPER MUSCLE CAT
+  launch:
+    - executable: KinnikuNeko SUPER MUSCLE CAT.exe
 1332970:
   installDir: Dab on Darkness!
   launch:
@@ -620146,10 +620163,20 @@
         useInstead: LinuxXdgConfigHome
   installDir: Moonlighter 2 The Endless Vault
   launch:
-    - config:
+    - arguments: "-force-d3d11"
+      config:
+        osarch: "64"
         oslist: windows
+      description: DirectX 11
       executable: Moonlighter 2 The Endless Vault.exe
-      type: default
+      type: option1
+    - arguments: "-force-d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: DirectX 12 (less stable)
+      executable: Moonlighter 2 The Endless Vault.exe
+      type: option2
   nameLocalized:
     schinese: 夜勤人2：无尽宝库
 2351330:
@@ -664038,6 +664065,12 @@
       description: "DX11 (Less Crashes, Worse Graphics)"
       executable: WCC.exe
 4991330: {}
+5006180:
+  installDir: Warmachine Rogue-Scout
+  launch:
+    - config:
+        oslist: windows
+      executable: Warmachine Rogue-Scout.exe
 5028390:
   installDir: Too Many Toys!
   launch:
@@ -664064,6 +664097,7 @@
         oslist: windows
       executable: ForgottenHaven.exe
       type: default
+5054650: {}
 5056390: {}
 5067360:
   cloud:
