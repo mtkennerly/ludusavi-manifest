@@ -464337,6 +464337,15 @@
       executable: AeonsEnd.x86_64
       type: none
 1063660:
+  cloud:
+    saves:
+      - path: "Joey Drew Studios\\Bendy and the Dark Revival\\data"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "Joey Drew Studios\\Bendy and the Dark Revival\\images"
+        pattern: "*"
+        root: WinAppDataLocalLow
   installDir: Bendy and the Dark Revival
   launch:
     - config:
@@ -649764,6 +649773,13 @@
     thai: The Sims™ 2 Legacy Collection
     turkish: The Sims™ 2 Legacy Collection
     ukrainian: The Sims™ 2 Legacy Collection
+3314580:
+  installDir: TrashDay
+  launch:
+    - config:
+        oslist: windows
+      description: Trash Day
+      executable: Trash.exe
 3314790:
   cloud:
     saves:
@@ -663073,30 +663089,7 @@
     russian: "Смерш: Охотник на волков"
 4432150: {}
 4434610: {}
-4435490:
-  nameLocalized:
-    arabic: "Call of Duty®: Modern Warfare® 4"
-    brazilian: "Call of Duty®: Modern Warfare® 4"
-    danish: "Call of Duty®: Modern Warfare® 4"
-    dutch: "Call of Duty®: Modern Warfare® 4"
-    finnish: "Call of Duty®: Modern Warfare® 4"
-    french: "Call of Duty®: Modern Warfare® 4"
-    german: "Call of Duty®: Modern Warfare® 4"
-    italian: "Call of Duty®: Modern Warfare® 4"
-    japanese: "Call of Duty®: Modern Warfare® 4"
-    koreana: "콜 오브 듀티®: 모던 워페어 4"
-    latam: "Call of Duty®: Modern Warfare® 4"
-    norwegian: "Call of Duty®: Modern Warfare® 4"
-    polish: "Call of Duty®: Modern Warfare® 4"
-    portuguese: "Call of Duty®: Modern Warfare® 4"
-    russian: "Call of Duty®: Modern Warfare® 4"
-    schinese: 使命召唤®：现代战争® 4
-    spanish: "Call of Duty®: Modern Warfare® 4"
-    swedish: "Call of Duty®: Modern Warfare® 4"
-    tchinese: 決勝時刻®：現代戰爭® 4
-    thai: "Call of Duty®: Modern Warfare® 4"
-    turkish: "Call of Duty®: Modern Warfare® 4"
-    ukrainian: "Call of Duty®: Modern Warfare® 4"
+4435490: {}
 4436520: {}
 4440650: {}
 4441710: {}

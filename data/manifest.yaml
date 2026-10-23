@@ -79796,6 +79796,9 @@ Ben and Ed - Blood Party:
   steam:
     id: 500260
 Bendy and the Dark Revival:
+  cloud:
+    epic: true
+    steam: true
   files:
     "<home>/AppData/LocalLow/Joey Drew Studios/Bendy and the Dark Revival/data":
       tags:
@@ -79804,6 +79807,10 @@ Bendy and the Dark Revival:
         - os: windows
   gog:
     id: 1466311710
+  id:
+    lutris: bendy-and-the-dark-revival
+    steamExtra:
+      - 4297080
   installDir:
     Bendy and the Dark Revival: {}
   launch:
@@ -115690,6 +115697,8 @@ Call of Duty Black Ops Cold War:
         - save
       when:
         - os: windows
+  id:
+    lutris: call-of-duty-modern-warfare-4
   steam:
     id: 4435490
 "Call of Duty: Modern Warfare II":
@@ -457049,6 +457058,11 @@ Metro 2033 Redux:
         - save
       when:
         - os: mac
+    "<root>/userdata/<storeUserId>/286690/remote/user.cfg":
+      tags:
+        - config
+      when:
+        - store: steam
     "<winDocuments>/4A Games/Metro 2033":
       tags:
         - save
@@ -799315,6 +799329,42 @@ Trash Bomber:
           - store: steam
   steam:
     id: 2067760
+Trash Day:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/OffByOne/Trash/achievements.json*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/OffByOne/Trash/options.json*":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/OffByOne/Trash/save_*":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5386580
+      - 5394290
+  installDir:
+    TrashDay: {}
+  launch:
+    "<base>/Trash.exe":
+      - when:
+          - os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/OffByOne/Trash:
+      tags:
+        - config
+  steam:
+    id: 3314580
 Trash Rage:
   installDir:
     Trash Rage: {}
@@ -840697,6 +840747,10 @@ Warring States:
 "Warrior Cats: Clans of the Forest":
   cloud:
     steam: true
+  id:
+    lutris: warrior-cats-clans-of-the-forest
+    steamExtra:
+      - 4467800
   steam:
     id: 3960600
 Warrior Fighter:

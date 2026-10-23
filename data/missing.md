@@ -9320,6 +9320,7 @@
 * [Extreme Real Reality HD Remix](https://www.pcgamingwiki.com/wiki/?curid=72071)
 * [Extreme Roads USA](https://www.pcgamingwiki.com/wiki/?curid=50119)
 * [Extreme Rock Climbing](https://www.pcgamingwiki.com/wiki/?curid=222120)
+* [Extreme Rodeo](https://www.pcgamingwiki.com/wiki/?curid=222126)
 * [Extreme School Driving Simulator](https://www.pcgamingwiki.com/wiki/?curid=127389)
 * [Extreme Skiing VR](https://www.pcgamingwiki.com/wiki/?curid=52183)
 * [Extreme Sprint 3010](https://www.pcgamingwiki.com/wiki/?curid=213888)

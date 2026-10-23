@@ -26097,11 +26097,17 @@ Ben and Ed - Blood Party:
   pageId: 62302
   steam: 500260
 Bendy and the Dark Revival:
+  cloud:
+    epic: true
+    steam: true
   gog: 1466311710
+  lutris: bendy-and-the-dark-revival
   pageId: 183212
   renamedFrom:
     - Awaking Godsoul
   steam: 1063660
+  steamSide:
+    - 4297080
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Joey Drew Studios\\Bendy and the Dark Revival\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Joey Drew Studios\\Bendy and the Dark Revival\\data\\}}"
@@ -37629,6 +37635,7 @@ Call of Duty 2:
     - "{{Game data/config|Windows|{{p|game}}\\players2\\config.cfg|{{p|game}}\\players2\\config_mp.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\players2\\settings_c.zip.iw5|{{p|game}}\\players2\\settings_s.zip.iw5|{{p|game}}\\players2\\save}}"
 "Call of Duty: Modern Warfare 4":
+  lutris: call-of-duty-modern-warfare-4
   pageId: 216958
   steam: 4435490
   templates:
@@ -82667,6 +82674,8 @@ Extreme Roads USA:
   steam: 273740
 Extreme Rock Climbing:
   pageId: 222120
+Extreme Rodeo:
+  pageId: 222126
 Extreme School Driving Simulator:
   pageId: 127389
   steam: 809340
@@ -149249,6 +149258,7 @@ Metro 2033 Redux:
   steam: 286690
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\4A Games\\Metro 2033\\{{p|uid}}\\user.cfg}}"
+    - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\286690\\remote\\user.cfg}}"
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\Packages\\DeepSilver.Metro2033Redux_hmv7qcest37me\\SystemAppData\\wgs\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Metro_Redux_2033/}}"
     - "{{Game data/config|Linux|{{P|Game}}/{{p|uid}}/user.cfg}}"
@@ -262047,6 +262057,17 @@ Trash Bomber:
   steam: 2067760
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\LocalLow\\Khud0\\Trash Bomber\\}}"
+Trash Day:
+  cloud:
+    steam: true
+  pageId: 222123
+  steam: 3314580
+  steamSide:
+    - 5386580
+    - 5394290
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\OffByOne\\Trash\\options.json*<ref>Verified on the Steam version, October 22, 2026. <code>options.json</code> (plus an <code>options.json.bak</code> backup) holds all menu settings. Its <code>_cloud</code> block (field of view, camera distance, invert look, language, voice mode, key bindings, character and accent color) is synced through Steam Cloud; its <code>_disk</code> block (resolution, screen mode, quality, anti-aliasing, V-sync, max FPS, brightness, volumes, sensitivity, deadzones, microphone, telemetry) stays local.</ref>|{{P|hkcu}}\\Software\\OffByOne\\Trash<ref>Unity PlayerPrefs location. Unverified: inferred from the company and product names in <code>Trash_Data\\app.info</code>; the game itself stores its settings in <code>options.json</code>.</ref>}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\OffByOne\\Trash\\save_*<ref>Verified on the Steam version, October 22, 2026. <code>save_1.json</code> holds the session (lobby name, scene, play time, loot found, wagon state, checkpoint) and <code>save_1.png</code> is its load-screen thumbnail; each has a <code>.bak</code> copy.</ref>|{{P|userprofile\\appdata\\locallow}}\\OffByOne\\Trash\\achievements.json*<ref>Verified on the Steam version, October 22, 2026. Tracks progress toward multi-step Steam achievements (e.g. instruments played, flamingos found per scene).</ref>}}"
 Trash It:
   pageId: 218111
 Trash Rage:
@@ -276120,8 +276141,11 @@ Warring States:
 "Warrior Cats: Clans of the Forest":
   cloud:
     steam: true
+  lutris: warrior-cats-clans-of-the-forest
   pageId: 219468
   steam: 3960600
+  steamSide:
+    - 4467800
 Warrior Fighter:
   pageId: 114432
   steam: 941670
