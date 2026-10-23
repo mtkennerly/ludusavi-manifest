@@ -62050,6 +62050,8 @@ Deiland:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Chibig\\Deiland\\Save\\Main}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Chibig\\Deiland\\Save\\Main}}"
+Dein Sportpferd:
+  pageId: 222130
 Deios II // DEIDIA:
   pageId: 54754
   steam: 495760
@@ -65758,6 +65760,8 @@ Dirt Track Racing:
   pageId: 192688
 Dirt Track Racing 2:
   pageId: 102041
+"Dirt Track Racing: Australia":
+  pageId: 222140
 "Dirt Track Racing: Sprint Cars":
   pageId: 192681
 Dirty Bomb:
@@ -82608,6 +82612,8 @@ Extravaganza Rising:
   steam: 501030
   steamSide:
     - 501460
+Extreme Angler:
+  pageId: 222142
 Extreme Assault:
   pageId: 160459
   templates:
@@ -82649,7 +82655,7 @@ Extreme Offroad Monster Simulator:
 Extreme Paintbrawl:
   pageId: 27300
   templates:
-    - "{{Game data/config|DOS|{{p|game}}\\engine\\PaintB.cfg }}"
+    - "{{Game data/config|DOS|{{p|game}}\\engine\\PaintB.cfg}}"
 Extreme Paintbrawl 2:
   pageId: 91663
 Extreme Paintbrawl 4:
@@ -88172,10 +88178,14 @@ Final Fantasy Resonance:
   cloud:
     steam: true
     xbox: true
+  malformed: true
   pageId: 217559
   steam: 3259780
   steamSide:
     - 4347910
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\FFRS\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\FFRS\\Steam\\{{p|uid}}\\}}"
 Final Fantasy Tactics - The Ivalice Chronicles:
   cloud:
     steam: true
@@ -175117,6 +175127,8 @@ Pearl Diversion:
   pageId: 167397
 Pearl Harbor Attack! Attack!:
   pageId: 192745
+"Pearl Harbor: Defend the Fleet":
+  pageId: 222138
 "Pearl Harbor: Zero Hour":
   pageId: 194517
   templates:
@@ -206705,6 +206717,9 @@ Sex Diary - Futanari Jail:
 Sex Kills:
   pageId: 157217
   steam: 1027910
+"Sex King: From Rags to Sexcess":
+  pageId: 222144
+  steam: 4467560
 Sex Search:
   pageId: 178741
   steam: 1914680
@@ -222858,6 +222873,7 @@ Star Wars Outlaws:
 "Star Wars: Galactic Racer":
   cloud:
     steam: true
+  malformed: true
   pageId: 211969
   steam: 4078430
   templates:
@@ -236200,6 +236216,8 @@ Teck Boxing 3D:
 Tecroroid Assault:
   pageId: 126149
   steam: 984870
+Ted Nugent Wild Hunting Adventure:
+  pageId: 222136
 Ted by Dawn:
   pageId: 47453
   steam: 381090
@@ -272081,6 +272099,8 @@ Virtual Surfing:
 "Virtual Temple: Order of the Golden Dawn":
   pageId: 66075
   steam: 653970
+Virtual U:
+  pageId: 222131
 Virtual Villagers Origins 2:
   pageId: 121292
   steam: 949050

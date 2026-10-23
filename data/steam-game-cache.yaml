@@ -663193,6 +663193,17 @@
     - config:
         oslist: macos
       executable: SiNiSistar2.app
+4467560:
+  installDir: Sex King From Rags to Sexcess
+  launch:
+    - config:
+        oslist: windows
+      executable: Sex King.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Sexking.app
+      type: default
 4475520: {}
 4484200: {}
 4485020:

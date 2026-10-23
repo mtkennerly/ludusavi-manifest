@@ -270290,14 +270290,16 @@ Final Fantasy Resonance:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/FFRS/Steam/<storeUserId>/GameSaveData*.sav":
+    "<winLocalAppData>/FFRS/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
-    "<winLocalAppData>/FFRS_DEMO/Steam/<storeUserId>/GameSaveData*.sav":
+    "<winLocalAppData>/FFRS/Steam/<storeUserId>":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   id:
     steamExtra:
       - 4347910
@@ -631699,6 +631701,20 @@ Sex Kills:
           - store: steam
   steam:
     id: 1027910
+"Sex King: From Rags to Sexcess":
+  installDir:
+    Sex King From Rags to Sexcess: {}
+  launch:
+    "<base>/Sex King.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Sexking.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 4467560
 Sex Search:
   installDir:
     Sex Search: {}

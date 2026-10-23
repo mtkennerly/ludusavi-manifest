@@ -9,6 +9,7 @@
 * [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
 * [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
+* [Final Fantasy Resonance](https://www.pcgamingwiki.com/wiki/?curid=217559)
 * [Football Manager 2010](https://www.pcgamingwiki.com/wiki/?curid=92556)
 * [Frostpunk 2](https://www.pcgamingwiki.com/wiki/?curid=170738)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
@@ -34,4 +35,5 @@
 * [Riddle Tower](https://www.pcgamingwiki.com/wiki/?curid=217157)
 * [Riding to Bounce City](https://www.pcgamingwiki.com/wiki/?curid=218655)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
+* [Star Wars: Galactic Racer](https://www.pcgamingwiki.com/wiki/?curid=211969)
 * [Tom Clancy's Rainbow Six 3: Raven Shield](https://www.pcgamingwiki.com/wiki/?curid=6307)
