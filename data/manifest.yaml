@@ -17812,13 +17812,21 @@ Ace Attorney Investigations Collection:
   id:
     steamExtra:
       - 3594180
+      - 3635880
   installDir:
     ACE COMBAT 8: {}
   steam:
     id: 2288340
 "Ace Combat Zero: The Belkan War":
+  cloud:
+    steam: true
   files:
     "<base>/ACE COMBAT 8/ACZero/settings/setting.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/ACZero/settings/setting.ini":
       tags:
         - config
       when:
@@ -17829,8 +17837,13 @@ Ace Attorney Investigations Collection:
       when:
         - os: windows
           store: steam
+  id:
+    steamExtra:
+      - 3635880
+  installDir:
+    ACE COMBAT ZERO THE BELKAN WAR (Steam Version): {}
   steam:
-    id: 3635880
+    id: 5370600
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
     steam: true
@@ -170542,6 +170555,14 @@ Cyberpunk 2077:
         - config
       when:
         - os: windows
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/CDPROJEKTSA.4d0e9834-20b1-4580-9bdc-4501ef2ffaac_0xkrdv0gjmk28/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     gogExtra:
       - 1256837418
@@ -201629,7 +201650,12 @@ Dimetrosaur:
   steam:
     id: 887550
 Dimhaven - The Lost Source:
+  alias: "Dimhaven: The Lost Source"
+Dimhaven Enigmas:
+  alias: "Dimhaven: The Lost Source"
+"Dimhaven: The Lost Source":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/Zadbox Entertainment/Dimhaven - The Lost Source/**/*.*":
@@ -201643,10 +201669,15 @@ Dimhaven - The Lost Source:
       when:
         - os: linux
           store: steam
+  gog:
+    id: 1308963382
   id:
+    gogExtra:
+      - 1949666569
     lutris: dimhaven-the-lost-source
     steamExtra:
       - 3010310
+      - 5215080
   installDir:
     Dimhaven - The Lost Source: {}
   launch:
@@ -201664,8 +201695,6 @@ Dimhaven - The Lost Source:
             store: steam
   steam:
     id: 2458980
-Dimhaven Enigmas:
-  alias: Dimhaven - The Lost Source
 Diminutive:
   id:
     steamExtra:
@@ -375109,6 +375138,13 @@ Invicta Beam:
   steam:
     id: 2060870
 Invincible VS:
+  files:
+    "<winLocalAppData>/TagFighter/Saved/SaveGames/<storeUserId>/EnhancedInputUserSettings.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/TagFighter/Saved/SaveGames/<storeUserId>/Slot*.sav":
+      when:
+        - store: steam
   id:
     lutris: invincible-vs
     steamExtra:
@@ -514312,8 +514348,19 @@ One Piece Odyssey:
 "One Piece: Grand Gourmet":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/OPGG/saves/<storeUserId>":
+      when:
+        - store: steam
   id:
     lutris: one-piece-grand-gourmet
+  installDir:
+    ONE PIECE Grand Gourmet: {}
+  launch:
+    "<base>/OPGG.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3905010
 "One Piece: Pirate Warriors 3":
@@ -839905,6 +839952,8 @@ Warlords Battlecry:
         - os: windows
   gog:
     id: 1207659110
+  id:
+    lutris: warlords-battlecry
 Warlords Battlecry II:
   files:
     "<winDocuments>/Warlords Battlecry II":
@@ -839924,6 +839973,8 @@ Warlords Battlecry III:
         - os: windows
   gog:
     id: 1207658725
+  id:
+    lutris: warlords-battlecry-iii
   installDir:
     Warlords Battlecry III: {}
   launch:

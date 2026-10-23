@@ -5616,10 +5616,15 @@ Ace Attorney Investigations Collection:
     - "{{Game data/config|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\ACE COMBAT 8\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\BANDAI NAMCO Entertainment\\ACE COMBAT 8\\Saved\\SaveGames\\}}"
 "Ace Combat Zero: The Belkan War":
+  cloud:
+    steam: true
   pageId: 218564
-  steam: 3635880
+  steam: 5370600
+  steamSide:
+    - 3635880
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\ACE COMBAT 8\\ACZero\\settings\\setting.ini}}"
+    - "{{Game data/config|Windows|{{P|game}}\\ACZero\\settings\\setting.ini{{Note|When installed standalone}}}}"
+    - "{{Game data/config|Windows|{{P|game}}\\ACE COMBAT 8\\ACZero\\settings\\setting.ini{{Note|When installed as a DLC launch option for Ace Combat 8: Wings of Theve}}}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\2288340\\remote\\aczero\\save\\}}"
 "Ace Combat: Assault Horizon - Enhanced Edition":
   cloud:
@@ -55213,6 +55218,7 @@ Cyberpunk 2077:
     epic: true
     gog: true
     steam: true
+    xbox: true
   gogSide:
     - 1256837418
     - 1274966284
@@ -55233,8 +55239,10 @@ Cyberpunk 2077:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\CD Projekt Red\\Cyberpunk 2077}}"
     - "{{Game data/config|OS X|{{P|osxhome}}/Library/Application Support/CD Projekt Red/Cyberpunk 2077}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\CD Projekt Red\\Cyberpunk 2077}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\CD Projekt Red\\Cyberpunk 2077}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/CD Projekt Red/Cyberpunk 2077/saves}}"
+    - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\CDPROJEKTSA.4d0e9834-20b1-4580-9bdc-4501ef2ffaac_0xkrdv0gjmk28\\SystemAppData\\wgs\\}}"
 Cyberpunk 3776:
   pageId: 48403
   steam: 343170
@@ -65316,16 +65324,22 @@ Dimensity:
 Dimetrosaur:
   pageId: 109260
   steam: 887550
-Dimhaven - The Lost Source:
+"Dimhaven: The Lost Source":
   cloud:
+    gog: true
     steam: true
+  gog: 1308963382
+  gogSide:
+    - 1949666569
   lutris: dimhaven-the-lost-source
   pageId: 187859
   renamedFrom:
     - Dimhaven Enigmas
+    - Dimhaven - The Lost Source
   steam: 2458980
   steamSide:
     - 3010310
+    - 5215080
 Diminutive:
   pageId: 141220
   steam: 694400
@@ -82594,6 +82608,8 @@ Extreme Assault:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME}}"
 Extreme Boards & Blades:
   pageId: 221703
+Extreme Bullrider:
+  pageId: 222118
 Extreme Burger Defense:
   pageId: 186802
   templates:
@@ -82649,6 +82665,8 @@ Extreme Real Reality HD Remix:
 Extreme Roads USA:
   pageId: 50119
   steam: 273740
+Extreme Rock Climbing:
+  pageId: 222120
 Extreme School Driving Simulator:
   pageId: 127389
   steam: 809340
@@ -82682,6 +82700,10 @@ Extreme Tux Racer:
     - "{{Game data/saves|Linux|$HOME/.etr/}}"
 Extreme Warfare Revenge:
   pageId: 181134
+Extreme Watersports:
+  pageId: 222122
+Extreme Wintersports:
+  pageId: 222114
 Extreme flight:
   pageId: 136388
   steam: 1068320
@@ -119164,6 +119186,8 @@ Imperium Romanum:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Data\\Game\\user.config}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\Saves}}"
+"Imperivm: Great Battles of Rome":
+  pageId: 222110
 "Imperivm: Great Battles of Rome HD Edition":
   pageId: 170819
   renamedFrom:
@@ -218850,6 +218874,8 @@ SpaceRoads:
 SpaceShot:
   pageId: 70136
   steam: 675940
+SpaceStationSim:
+  pageId: 222112
 SpaceTanks:
   pageId: 222059
   steam: 4185150
@@ -272001,6 +272027,10 @@ Virtual Safari:
   pageId: 212851
 Virtual Skipper:
   pageId: 191479
+Virtual Skipper 2:
+  pageId: 222107
+Virtual Skipper 3:
+  pageId: 222105
 Virtual Skipper 4:
   pageId: 191477
 Virtual Skipper 5:
@@ -275852,6 +275882,7 @@ Warlords Awakening:
   steam: 838330
 Warlords Battlecry:
   gog: 1207659110
+  lutris: warlords-battlecry
   pageId: 10417
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Options.dat}}"
@@ -275864,6 +275895,7 @@ Warlords Battlecry II:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Warlords Battlecry II\\}}"
 Warlords Battlecry III:
   gog: 1207658725
+  lutris: warlords-battlecry-iii
   pageId: 10422
   steam: 433280
   templates:

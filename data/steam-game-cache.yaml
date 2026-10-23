@@ -541232,19 +541232,19 @@
       description: Play Retail
       executable: "OakGame\\Binaries\\Win64\\Borderlands4.exe"
     - config:
-        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3"
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3,poeinternalplaytest"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Test) - gbxinternal
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Test.exe"
     - config:
-        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3"
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3,poeinternalplaytest"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Shipping) - gbxinternal
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Shipping.exe"
     - config:
-        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3"
+        betakey: "gbxinternal,gbxinternal_h,gbxinternal_r,gbxinternal_r2,gbxinternal_t,gbxinternal_t2,gbxinternal_t3,poeinternalplaytest"
         osarch: "64"
         oslist: windows
       description: Play OakGame (Development) - gbxinternal
@@ -541442,6 +541442,30 @@
         oslist: windows
       description: Play OakGame (Test) - age_ratings_dlc
       executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Test.exe"
+    - config:
+        betakey: gbxinternal_g
+        osarch: "64"
+        oslist: windows
+      description: Play OakGame (Test) - gbxinternal_g
+      executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Test.exe"
+    - config:
+        betakey: gbxinternal_g
+        osarch: "64"
+        oslist: windows
+      description: Play OakGame (Shipping) - gbxinternal_g
+      executable: "OakGame\\Binaries\\Win64\\OakGame-Win64-Shipping.exe"
+    - config:
+        betakey: gbxinternal_g
+        osarch: "64"
+        oslist: windows
+      description: Play OakGame (Development) - gbxinternal_g
+      executable: "OakGame\\Binaries\\Win64\\OakGame.exe"
+    - config:
+        betakey: gbxinternal_g
+        osarch: "64"
+        oslist: windows
+      description: Play Borderlands4 Bootstrap
+      executable: Borderlands4.exe
   nameLocalized:
     japanese: ボーダーランズ®4
     koreana: 보더랜드® 4
@@ -620160,6 +620184,14 @@
     schinese: 秘境战盟
     tchinese: 秘境戰盟
 2353060:
+  cloud:
+    saves:
+      - path: "TagFighter/Saved/SaveGames/{64BitSteamID}"
+        pattern: Slot*.sav
+        root: WinAppDataLocal
+      - path: "TagFighter/Saved/SaveGames/{64BitSteamID}"
+        pattern: EnhancedInputUserSettings.sav
+        root: WinAppDataLocal
   installDir: InvincibleVS
   launch:
     - description: InvincibleVS
@@ -658992,6 +659024,17 @@
     schinese: 迷失在太空废墟中的母亲
     tchinese: 迷失在太空廢墟中的母親
 3905010:
+  cloud:
+    saves:
+      - path: "OPGG/saves/{64BitSteamID}"
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: ONE PIECE Grand Gourmet
+  launch:
+    - config:
+        oslist: windows
+      executable: OPGG.exe
+      type: default
   nameLocalized:
     japanese: ONE PIECE 海のごちそうレストラン
     koreana: 원피스 그랜드 레스토랑
@@ -664124,6 +664167,30 @@
         osarch: "64"
         oslist: windows
       executable: Dementium II.exe
+5370600:
+  cloud:
+    saves:
+      - path: BANDAI NAMCO Entertainment/ACE COMBAT 8/Saved/SaveGames
+        pattern: Replay*.sav
+        root: WinAppDataLocal
+      - path: BANDAI NAMCO Entertainment/ACE COMBAT 8/Saved/SaveGames
+        pattern: Campaign.sav
+        root: WinAppDataLocal
+      - path: BANDAI NAMCO Entertainment/ACE COMBAT 8/Saved/SaveGames
+        pattern: OnlineAccount.sav
+        root: WinAppDataLocal
+  installDir: ACE COMBAT ZERO THE BELKAN WAR (Steam Version)
+  launch:
+    - config:
+        oslist: windows
+      description: "ACE COMBAT ZERO "
+      executable: "ACZero\\acz.exe"
+      type: option1
+    - config:
+        betakey: qa-debug
+      description: "ACE COMBAT ZERO (Debug) "
+      executable: "ACZero\\aczTest.exe"
+      type: option1
 5396900: {}
 5442080: {}
 5450950: {}
