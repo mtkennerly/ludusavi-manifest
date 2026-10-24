@@ -28242,6 +28242,11 @@ Black Forest:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Lemuria\\Black Forest\\*.dat}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Lemuria/Black Forest/}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}/Lemuria/Black Forest/}}"
+"Black Friday Janitor: Clean the Whole Mall":
+  cloud:
+    steam: true
+  pageId: 222170
+  steam: 3396010
 "Black Friday: The Game":
   pageId: 72810
   steam: 712700
@@ -64800,6 +64805,11 @@ Dice Gambit:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Chromatic Ink\\Dice Gambit}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Chromatic Ink\\Dice Gambit}}"
+Dice Hoarder:
+  cloud:
+    steam: true
+  pageId: 222166
+  steam: 3687090
 Dice Keeper:
   pageId: 134676
   steam: 1047020
@@ -160052,6 +160062,10 @@ Nauseous Pines:
 Nautical Life:
   pageId: 90154
   steam: 817200
+Nautical Survival:
+  lutris: nautical-survival
+  pageId: 222164
+  steam: 2860990
 Nauticrawl:
   cloud:
     steam: true
@@ -183832,6 +183846,11 @@ Project Snowblind:
 Project SolarBot:
   pageId: 144721
   steam: 1144690
+Project Solaris:
+  pageId: 222176
+  steam: 3002740
+  steamSide:
+    - 3400280
 Project Songbird:
   lutris: project-songbird
   pageId: 215001
@@ -186485,6 +186504,13 @@ Queen of Thieves:
     steam: true
   pageId: 56372
   steam: 524200
+"Queen's Domain":
+  cloud:
+    steam: true
+  pageId: 222174
+  steam: 1799840
+  steamSide:
+    - 4081520
 "Queen's Garden: Halloween":
   cloud:
     steam: true
@@ -208516,6 +208542,14 @@ Sheltered 2:
   steam: 1289380
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\AppData\\LocalLow}}\\Unicube\\Sheltered2}}"
+Shelve the Potions!:
+  cloud:
+    steam: true
+  pageId: 222168
+  steam: 4928820
+  steamSide:
+    - 4959170
+    - 4959200
 Shenmue I & II:
   cloud:
     steam: true
@@ -211063,6 +211097,8 @@ Silver Pines:
     - 4540100
     - 4677930
     - 5153460
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Wych Elm\\Silver Pines\\{{P|uid}}}}"
 Silver Tale:
   pageId: 68072
   steam: 677220

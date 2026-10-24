@@ -586431,6 +586431,7 @@
     - config:
         oslist: windows
       executable: Daydream_Mosaics_2.exe
+1799840: {}
 1799850:
   installDir: Transformation Tycoon
   launch:
@@ -639415,6 +639416,13 @@
       executable: Moonripple_Lake.app
       type: default
 2859880: {}
+2860990:
+  installDir: Nautical Survival
+  launch:
+    - config:
+        oslist: windows
+      executable: Nautical Survival.exe
+      type: default
 2861080:
   nameLocalized:
     schinese: " 闹鬼爪子 Haunted Paws"
@@ -642898,6 +642906,15 @@
 3001740: {}
 3002520: {}
 3002550: {}
+3002740:
+  installDir: Project Solaris
+  launch:
+    - config:
+        oslist: windows
+      executable: ProjectSolaris.exe
+  nameLocalized:
+    japanese: プロジェクト・ソラリス (Project Solaris)
+    schinese: 索拉丽斯炼成计划 Project Solaris
 3002850:
   cloud:
     saves:
@@ -651494,6 +651511,24 @@
         oslist: windows
       executable: Mashina.exe
       type: default
+3396010:
+  cloud:
+    saves:
+      - path: "BlackFridayJanitor\\Saved\\SaveGames\\cloud"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: blackfridayjanitor
+  launch:
+    - arguments: "-dx12"
+      description: "- DirectX 12 (Recommended)"
+      executable: BlackFridayJanitor.exe
+      type: option1
+    - arguments: "-dx11"
+      description: "- DirectX 11 (Only if DirectX 12 doesn't work)"
+      executable: BlackFridayJanitor.exe
+      type: option1
 3396340:
   installDir: Em-8ER
   launch:
@@ -656558,6 +656593,7 @@
       type: option2
   nameLocalized:
     schinese: 裂隙防线 Repel The Rifts
+3687090: {}
 3688130:
   cloud:
     saves:
@@ -660069,7 +660105,21 @@
       type: default
 3956990: {}
 3957530: {}
-3960600: {}
+3960600:
+  cloud:
+    saves:
+      - path: "Wrc\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Warrior Cats Clans of the Forest
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Wrc\\Binaries\\Win64\\Wrc-Win64-ShippingDRM.exe"
+      type: default
 3961110:
   installDir: Sleepover reWake
   launch:
@@ -663996,6 +664046,28 @@
     turkish: Heroes Of Might And Magic III
     ukrainian: Heroes Of Might And Magic III
 4928600: {}
+4928820:
+  cloud:
+    saves:
+      - path: "Knight Owl Games/Shelve the Potions!/{64BitSteamID}"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Knight Owl Games/Shelve the Potions!/{64BitSteamID}"
+            replace: ".local/share/steam/steamapps/compatdata/2521630/pfx/drive_c/users/steamuser/AppData/LocalLow/Knight Owl Games/Shelve the Potions!/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgDataHome
+  installDir: Shelf the Potions!
+  launch:
+    - executable: Shelve the Potions!.exe
+  nameLocalized:
+    japanese: 猫がまた薬を壊した！
+    schinese: 猫咪又把药水打翻了
+    tchinese: 貓咪又把藥水打翻了！
 4932120: {}
 4935510:
   cloud:

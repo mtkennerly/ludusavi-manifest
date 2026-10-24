@@ -86695,6 +86695,18 @@ Black Forest:
             store: steam
   steam:
     id: 523070
+"Black Friday Janitor: Clean the Whole Mall":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/BlackFridayJanitor/Saved/SaveGames/cloud/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    blackfridayjanitor: {}
+  steam:
+    id: 3396010
 "Black Friday: The Game":
   installDir:
     Black Friday The Game: {}
@@ -200087,6 +200099,11 @@ Dice Gambit:
           - store: steam
   steam:
     id: 1812860
+Dice Hoarder:
+  cloud:
+    steam: true
+  steam:
+    id: 3687090
 Dice Keeper:
   installDir:
     Dice Keeper: {}
@@ -489352,6 +489369,18 @@ Nautical Life:
             store: steam
   steam:
     id: 817200
+Nautical Survival:
+  id:
+    lutris: nautical-survival
+  installDir:
+    Nautical Survival: {}
+  launch:
+    "<base>/Nautical Survival.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2860990
 Nauticrawl:
   cloud:
     steam: true
@@ -561360,6 +561389,19 @@ Project SolarBot:
             store: steam
   steam:
     id: 1144690
+Project Solaris:
+  id:
+    steamExtra:
+      - 3400280
+  installDir:
+    Project Solaris: {}
+  launch:
+    "<base>/ProjectSolaris.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3002740
 Project Songbird:
   id:
     lutris: project-songbird
@@ -569867,6 +569909,14 @@ Queen of Thieves:
             store: steam
   steam:
     id: 524200
+"Queen's Domain":
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 4081520
+  steam:
+    id: 1799840
 "Queen's Garden: Halloween":
   cloud:
     steam: true
@@ -637069,6 +637119,29 @@ Sheltered 2:
           - store: steam
   steam:
     id: 1289380
+Shelve the Potions!:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Knight Owl Games/Shelve the Potions!/<storeUserId>":
+      when:
+        - store: steam
+    "<xdgData>/.local/share/steam/steamapps/compatdata/2521630/pfx/drive_c/users/steamuser/AppData/LocalLow/Knight Owl Games/Shelve the Potions!/<storeUserId>":
+      when:
+        - os: linux
+          store: steam
+  id:
+    steamExtra:
+      - 4959170
+      - 4959200
+  installDir:
+    Shelf the Potions!: {}
+  launch:
+    "<base>/Shelve the Potions!.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4928820
 Shenmue I & II:
   cloud:
     steam: true
@@ -645043,8 +645116,10 @@ Silver Pines:
     steam: true
   files:
     "<home>/AppData/LocalLow/Wych Elm/Silver Pines/<storeUserId>":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   id:
     lutris: silver-pines
     steamExtra:
@@ -840827,10 +840902,23 @@ Warring States:
 "Warrior Cats: Clans of the Forest":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Wrc/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: warrior-cats-clans-of-the-forest
     steamExtra:
       - 4467800
+  installDir:
+    Warrior Cats Clans of the Forest: {}
+  launch:
+    "<base>/Wrc/Binaries/Win64/Wrc-Win64-ShippingDRM.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3960600
 Warrior Fighter:
