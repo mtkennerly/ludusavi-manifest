@@ -118958,6 +118958,8 @@ Car Mechanic Simulator 2014:
   steam:
     id: 270850
 Car Mechanic Simulator 2015:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Red Dot Games/Car Mechanic Simulator 2015/profile*":
       tags:
@@ -118965,6 +118967,7 @@ Car Mechanic Simulator 2015:
       when:
         - os: windows
   id:
+    lutris: car-mechanic-simulator-2015
     steamExtra:
       - 361820
       - 361840
@@ -167827,6 +167830,19 @@ Cubway:
             store: steam
   steam:
     id: 511160
+Cucina Stellata:
+  id:
+    steamExtra:
+      - 5307250
+  installDir:
+    Cucina Stellata ✦ Starred Cuisine: {}
+  launch:
+    "<base>/Cucina Stellata ✦ Starred Cuisine.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3976340
 Cuckold Simulator:
   alias: "Cuckold Simulator: Life as a Beta Male Cuck"
 "Cuckold Simulator: Life as a Beta Male Cuck":
@@ -696046,19 +696062,15 @@ Stupid Invaders:
       when:
         - os: windows
 Stupid Never Dies:
+  cloud:
+    steam: true
   files:
-    "<base>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.json":
+    "<base>/StupidNeverDies/Saved/SaveGames/<storeUserId>":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
-    "<base>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.sav":
-      when:
-        - store: steam
-    "<winLocalAppData>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.json":
-      when:
-        - store: steam
-    "<winLocalAppData>/StupidNeverDies/Saved/SaveGames/<storeUserId>/*.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: stupid-never-dies
     steamExtra:
@@ -847893,6 +847905,9 @@ Where Cards Fall:
             store: steam
   steam:
     id: 589450
+Where Did I Park?:
+  steam:
+    id: 5195880
 Where Dolls Hang:
   steam:
     id: 4581370

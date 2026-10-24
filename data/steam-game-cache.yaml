@@ -660192,6 +660192,14 @@
     - config:
         oslist: windows
       executable: MantaMadness.exe
+3976340:
+  installDir: Cucina Stellata ✦ Starred Cuisine
+  launch:
+    - config:
+        oslist: windows
+      executable: Cucina Stellata ✦ Starred Cuisine.exe
+  nameLocalized:
+    schinese: 脍炙人口
 3977340:
   cloud:
     saves:
@@ -664248,6 +664256,7 @@
     schinese: 王国英雄：餘音
     ukrainian: "Герой Королівства: Відлуння"
 5138990: {}
+5195880: {}
 5212940:
   cloud:
     saves:

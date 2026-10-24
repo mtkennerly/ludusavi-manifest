@@ -38659,6 +38659,9 @@ Car Mechanic Simulator 2014:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Red Dot Games\\Car Mechanic Simulator}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Red Dot Games\\Car Mechanic Simulator}}"
 Car Mechanic Simulator 2015:
+  cloud:
+    steam: true
+  lutris: car-mechanic-simulator-2015
   pageId: 34569
   steam: 320300
   steamSide:
@@ -54296,6 +54299,11 @@ Cubway:
   steam: 511160
   steamSide:
     - 511200
+Cucina Stellata:
+  pageId: 222188
+  steam: 3976340
+  steamSide:
+    - 5307250
 "Cuckold Simulator: Life as a Beta Male Cuck":
   cloud:
     steam: true
@@ -227678,12 +227686,17 @@ Stupid Invaders:
     - "{{Game data/config|Windows|{{p|game}}\\Save\\config.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\*.dat}}"
 Stupid Never Dies:
+  cloud:
+    steam: true
   lutris: stupid-never-dies
   pageId: 211977
   steam: 3486530
   steamSide:
     - 4228930
     - 4880100
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\StupidNeverDies\\Saved\\SaveGames\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\StupidNeverDies\\Saved\\SaveGames\\{{P|uid}}\\}}"
 Stupid Quest - Medieval Adventures:
   cloud:
     steam: true
@@ -261815,6 +261828,8 @@ Transformation Tycoon:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Activision\\TRANSFORMERS - Devastation|{{p|userprofile\\Documents}}\\TRANSFORMERS_Devastation\\SystemData.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\TRANSFORMERS_Devastation\\GameData.dat}}"
 "Transformers: EarthSpark - Expedition":
+  cloud:
+    xbox: true
   pageId: 191298
   steam: 1955800
 "Transformers: Fall of Cybertron":
@@ -278452,6 +278467,9 @@ Where Are We Now:
 Where Cards Fall:
   pageId: 58178
   steam: 589450
+Where Did I Park?:
+  pageId: 222196
+  steam: 5195880
 Where Dolls Hang:
   pageId: 217149
   steam: 4581370
