@@ -555357,6 +555357,10 @@
       description: Launch
       executable: skDig64.exe
       type: default
+  nameLocalized:
+    japanese: Shovel Knight Dig（ショベルナイト ディグ）
+    schinese: 铲子骑士迪格
+    tchinese: 鏟子騎士挖掘
 1416230:
   cloud:
     saves:
@@ -657491,6 +657495,34 @@
     koreana: 리리의 세계
     schinese: 粒粒的小人国
     tchinese: 粒粒的小人國
+3767740:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Outhold
+        pattern: "*.cfg"
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+  installDir: Outhold
+  launch:
+    - config:
+        oslist: windows
+      executable: windows/outhold_windows.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: outhold_macos.app
+      type: default
+    - arguments: "--rendering-driver opengl3"
+      config:
+        oslist: windows
+      description: "Compatibility Mode (OpenGL3) - Use this on older systems, if the above launch option crashes or performs badly"
+      executable: windows/outhold_windows.exe
+      type: option1
 3768450:
   installDir: Better Fortress 2
   launch:
@@ -661207,6 +661239,18 @@
     schinese: 影之刃零
     tchinese: 影之刃零
 4115520: {}
+4117730:
+  cloud:
+    saves:
+      - path: Slayblade
+        pattern: "*.save"
+        root: WinAppDataLocal
+  installDir: Slayblade
+  launch:
+    - executable: Slayblade.exe
+  nameLocalized:
+    schinese: 旋刃陀螺
+    tchinese: 旋刃陀螺
 4119360:
   cloud:
     saves:
@@ -664010,6 +664054,7 @@
       executable: Alien Breed.exe
       type: default
 4877950: {}
+4878690: {}
 4886450:
   nameLocalized:
     japanese: Hexzen ヘクスゼン
@@ -664156,6 +664201,7 @@
   launch:
     - executable: Too Many Toys!.exe
 5036490: {}
+5037200: {}
 5037250: {}
 5051490:
   cloud:
@@ -664273,6 +664319,7 @@
 5227630: {}
 5233100: {}
 5244970: {}
+5254020: {}
 5306540: {}
 5342930:
   cloud:

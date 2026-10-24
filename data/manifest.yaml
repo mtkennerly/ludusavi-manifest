@@ -64351,6 +64351,10 @@ BRKÖUT:
   steam:
     id: 616690
 "BROK - Natal Tail, A New Christmas":
+  gog:
+    id: 1435190833
+  id:
+    lutris: brok-natal-tail-a-new-christmas
   installDir:
     BROKChristmas: {}
   launch:
@@ -203491,6 +203495,13 @@ Discontinue:
     Discontinue: {}
   steam:
     id: 1061220
+Discord Times:
+  files:
+    "<base>/_Global.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Discounty:
   cloud:
     steam: true
@@ -209416,6 +209427,12 @@ Don Bradman Cricket 17:
             store: steam
   steam:
     id: 793600
+"Don't Pick Up":
+  id:
+    steamExtra:
+      - 5208890
+  steam:
+    id: 4878690
 "Don't Play This Game":
   steam:
     id: 679240
@@ -365297,6 +365314,13 @@ Immunity:
           - store: steam
   steam:
     id: 811470
+Imp:
+  files:
+    "<base>/config.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Imp of the Sun:
   files:
     "<winLocalAppData>/IotS/Saved/Config/WindowsNoEditor":
@@ -387685,6 +387709,11 @@ Just VR Slingshot Target Practice:
     Just VR Slingshot Target Practice: {}
   steam:
     id: 586990
+Just Volleyball:
+  cloud:
+    steam: true
+  steam:
+    id: 5037200
 Just a Cleric:
   files:
     "<base>/SAVES/*.ini":
@@ -503264,6 +503293,7 @@ Nomad:
     id: 378370
 Nomad Drive:
   id:
+    lutris: nomad-drive
     steamExtra:
       - 4451030
       - 4568400
@@ -522153,6 +522183,36 @@ Outerverse:
             store: steam
   steam:
     id: 1293540
+Outhold:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Godot/app_userdata/Outhold":
+      tags:
+        - save
+      when:
+        - os: mac
+    "<winAppData>/Godot/app_userdata/Outhold":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: outhold
+  installDir:
+    Outhold: {}
+  launch:
+    "<base>/outhold_macos.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/windows/outhold_windows.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3767740
 Outland:
   cloud:
     steam: true
@@ -651928,6 +651988,21 @@ Slayaway Camp:
         - config
   steam:
     id: 530390
+Slayblade:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Slayblade/*.save":
+      when:
+        - store: steam
+  installDir:
+    Slayblade: {}
+  launch:
+    "<base>/Slayblade.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4117730
 Slayer Shock:
   cloud:
     steam: true
@@ -736185,6 +736260,9 @@ The Coin Game:
             store: steam
   steam:
     id: 598980
+The Coin Goblin:
+  steam:
+    id: 5254020
 The Cold War Era:
   id:
     steamExtra:
@@ -806876,6 +806954,9 @@ Turok (2015):
             store: steam
   steam:
     id: 1996770
+"Turok: Dinosaur Hunter":
+  id:
+    lutris: turok-dinosaur-hunter
 "Turok: Dinosaur Hunter (2015)":
   alias: Turok (2015)
 "Turok: Escape from Lost Valley":

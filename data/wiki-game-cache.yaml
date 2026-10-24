@@ -20738,6 +20738,8 @@ BRKÖUT:
   pageId: 69872
   steam: 616690
 "BROK - Natal Tail, A New Christmas":
+  gog: 1435190833
+  lutris: brok-natal-tail-a-new-christmas
   pageId: 200220
   steam: 3361210
 BSL Winter Game Challenge:
@@ -66017,6 +66019,11 @@ Discolored:
 Discontinue:
   pageId: 138677
   steam: 1061220
+Discord Times:
+  pageId: 222200
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\_Global.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\}}"
 Discounty:
   cloud:
     steam: true
@@ -67984,6 +67991,11 @@ Don Bradman Cricket 17:
 "Don't Pick On The Fat Kid":
   pageId: 95093
   steam: 793600
+"Don't Pick Up":
+  pageId: 222206
+  steam: 4878690
+  steamSide:
+    - 5208890
 "Don't Play This Game":
   pageId: 67607
   steam: 679240
@@ -104228,6 +104240,8 @@ Gruel:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\settings.json}}"
     - "{{Game data/saves|Windows|{{P|game}}\\gruel.sav}}"
+Grumpa:
+  pageId: 222208
 Grumpy Witch:
   pageId: 128694
   steam: 580900
@@ -119086,6 +119100,10 @@ Immunity:
     steam: true
   pageId: 152813
   steam: 811470
+Imp:
+  pageId: 222213
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.ini}}"
 Imp of the Sun:
   gog: 1756748165
   pageId: 167614
@@ -126404,6 +126422,11 @@ Just Us:
 Just VR Slingshot Target Practice:
   pageId: 58017
   steam: 586990
+Just Volleyball:
+  cloud:
+    steam: true
+  pageId: 222201
+  steam: 5037200
 Just a Cleric:
   pageId: 34783
   steam: 467330
@@ -164753,6 +164776,7 @@ Nomad:
   steamSide:
     - 431430
 Nomad Drive:
+  lutris: nomad-drive
   pageId: 222083
   steam: 2223980
   steamSide:
@@ -170905,6 +170929,16 @@ Outerverse:
   gog: 2076435096
   pageId: 174061
   steam: 1293540
+Outhold:
+  cloud:
+    steam: true
+  lutris: outhold
+  pageId: 222205
+  steam: 3767740
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}/Godot/app_userdata/Outhold}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}/Godot/app_userdata/Outhold}}"
+    - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Godot/app_userdata/Outhold}}"
 Outland:
   cloud:
     steam: true
@@ -183104,6 +183138,8 @@ Pro Wrestling X:
 ProBoon:
   pageId: 108808
   steam: 769480
+ProBowl 3D:
+  pageId: 222218
 "ProStroke Golf: World Tour 2007":
   pageId: 207992
   templates:
@@ -213294,6 +213330,11 @@ Slayaway Camp:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Blue Wizard\\slayaway camp\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Blue Wizard\\slayaway camp\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Blue Wizard/slayaway camp}}"
+Slayblade:
+  cloud:
+    steam: true
+  pageId: 222198
+  steam: 4117730
 Slayer Shock:
   cloud:
     steam: true
@@ -236193,6 +236234,8 @@ Tears of a Dragon:
 Tearstone:
   pageId: 63984
   steam: 645440
+Tech Bike Freestyle:
+  pageId: 222216
 Tech Corp.:
   pageId: 109572
   steam: 909970
@@ -240416,6 +240459,9 @@ The Coin Game:
   steam: 598980
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\devotid\\TheCoinGame\\}}"
+The Coin Goblin:
+  pageId: 222214
+  steam: 5254020
 The Cold War Era:
   pageId: 38835
   steam: 504280
@@ -264623,6 +264669,7 @@ Turok (2015):
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\Turok 3\\kexengine.cfg}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\Turok 3\\saves\\*.sav}}"
 "Turok: Dinosaur Hunter":
+  lutris: turok-dinosaur-hunter
   pageId: 30285
 "Turok: Escape from Lost Valley":
   pageId: 141387
