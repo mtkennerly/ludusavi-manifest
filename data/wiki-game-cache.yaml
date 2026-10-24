@@ -41249,8 +41249,16 @@ Celsius:
   pageId: 143839
   steam: 1130640
 Celsius Strays:
+  cloud:
+    steam: true
+  gog: 1426577730
+  gogSide:
+    - 1468565130
+  lutris: celsius-strays--1
   pageId: 218215
   steam: 4271620
+  steamSide:
+    - 4272400
 Celtabula:
   pageId: 72021
   steam: 706200
@@ -72050,6 +72058,8 @@ Duck Game:
 Duck Hunt Challenge:
   pageId: 122340
   steam: 934550
+Duck Hunter Pro:
+  pageId: 222234
 Duck Hunting:
   pageId: 60738
   steam: 619330
@@ -80847,6 +80857,7 @@ Euro Truck Simulator 2:
     - 2780810
     - 2932420
     - 3034950
+    - 3796990
     - 4159240
     - 4348650
   templates:
@@ -93817,6 +93828,8 @@ Frio2 - Memory of My Sister:
 Frio3 - Parting and Meeting:
   pageId: 127465
   steam: 782050
+Frisbee Golf:
+  pageId: 222236
 Frisky Business:
   pageId: 57337
   steam: 588240
@@ -137979,6 +137992,8 @@ Living Dark:
 "Living Legends: Wrath of the Beast":
   pageId: 110418
   steam: 926130
+"Living Puzzles: Triazzle":
+  pageId: 222232
 Living The Deal:
   pageId: 70261
   steam: 647550
@@ -175150,6 +175165,7 @@ Peaceful Days:
 Peak:
   cloud:
     steam: true
+    xbox: true
   lutris: peak
   pageId: 205648
   renamedFrom:
@@ -175214,6 +175230,8 @@ Pearl Harbor Attack! Attack!:
   pageId: 192745
 "Pearl Harbor: Defend the Fleet":
   pageId: 222138
+"Pearl Harbor: The Day of Infamy":
+  pageId: 222221
 "Pearl Harbor: Zero Hour":
   pageId: 194517
   templates:
@@ -286229,6 +286247,8 @@ Zeal:
     steam: true
   pageId: 105519
   steam: 703280
+Zebco Pro Fishing 3D:
+  pageId: 222244
 Zebra Logic Master:
   pageId: 145447
   steam: 1135730
