@@ -22861,6 +22861,8 @@ Baseball Club:
 Baseball Kings VR:
   pageId: 87571
   steam: 802300
+Baseball Mogul:
+  pageId: 222284
 Baseball Mogul 2015:
   pageId: 47137
   steam: 388270
@@ -37306,6 +37308,7 @@ Caketomino:
   pageId: 38639
   steam: 517770
 "Cakey's Twisted Bakery":
+  lutris: cakeys-twisted-bakery
   pageId: 200715
   steam: 3028500
 "Cakey's Twisted Bakery 2":
@@ -98815,6 +98818,11 @@ Ghost of a Tale:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\SeithCG\\GhostofaTale}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Ghost of a Tale\\}}"
+Ghost of a Tale 2:
+  cloud:
+    steam: true
+  pageId: 222272
+  steam: 5141030
 Ghost on the Shore:
   cloud:
     gog: true
@@ -109412,10 +109420,11 @@ Hektor:
   cloud:
     steam: true
     xbox: true
-  malformed: true
+  lutris: hela-of-mice-and-magic
   pageId: 214162
   renamedFrom:
     - Hela
+  steam: 3161310
 Heldric - The legend of the shoemaker:
   pageId: 50420
   steam: 293420
@@ -125269,6 +125278,11 @@ Johnny Bung:
   steam: 476030
 "Johnny Herbert's Grand Prix Championship 1998":
   pageId: 215780
+Johnny Rocket:
+  pageId: 112872
+  renamedFrom:
+    - ✌ Johnny Rocket
+  steam: 942300
 Johns.game:
   pageId: 58892
   steam: 597240
@@ -149350,10 +149364,10 @@ Metro 2033 Redux:
   cloud:
     discord: true
     gog: true
+    steam: true
     xbox: true
   gog: 1436434037
   lutris: metro-2033-redux
-  malformed: true
   pageId: 17417
   steam: 286690
   templates:
@@ -164274,6 +164288,8 @@ No Rest for the Wicked:
   lutris: no-rest-for-the-wicked--1
   pageId: 194481
   steam: 1371980
+  steamSide:
+    - 4600710
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Moon Studios\\NoRestForTheWicked\\DataStore\\*.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Moon Studios\\NoRestForTheWicked\\DataStore\\*.dat}}"
@@ -165157,6 +165173,13 @@ Northgard:
     - "{{Game data/config|Linux|{{p|game}}/game/prefs.sav}}"
     - "{{Game data/saves|Windows|{{P|game}}\\save}}"
     - "{{Game data/saves|Linux|{{P|game}}/game/save}}"
+Northgard Battlegrounds:
+  cloud:
+    steam: true
+  pageId: 222276
+  steam: 4487060
+  steamSide:
+    - 5090100
 Northland:
   gog: 1207663833
   gogSide:
@@ -174476,6 +174499,9 @@ Path of Achra:
     steam: true
   pageId: 194080
   steam: 2128270
+  templates:
+    - "{{Game data/config|Steam|<User Folder>\\AppData\\Roaming\\Godot\\app_userdata\\PoA\\settings-data.json}}"
+    - "{{Game data/saves|Steam|<User Folder>\\AppData\\Roaming\\Godot\\app_userdata\\PoA\\game-data.json}}"
 Path of Exile:
   cloud:
     steam: true
@@ -214480,6 +214506,8 @@ Snaliens:
   steam: 1214850
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\JFerreira\\Snaliens\\}}"
+"Snap-on presents Gearhead Garage: The Virtual Mechanic":
+  pageId: 222279
 SnappleNoid:
   pageId: 70373
   steam: 710080
@@ -263869,6 +263897,13 @@ Trouble Travel TT:
   steam: 460630
   templates:
     - "{{Game data/saves|Windows|{{p|game}}/savedata.dat}}"
+Troublemaker:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1560920637
+  pageId: 222264
+  steam: 1498740
 Troubles Land:
   pageId: 46482
   steam: 397240
@@ -272587,6 +272622,11 @@ Viviette:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Data\\Save\\}}"
+Vixen 357:
+  cloud:
+    steam: true
+  pageId: 222270
+  steam: 4365560
 Vixen Wars:
   pageId: 179078
   steam: 1254530
@@ -286272,6 +286312,8 @@ Zeal:
   steam: 703280
 Zebco Pro Fishing 3D:
   pageId: 222244
+"Zebco Pro Fishing 3D: Tournament Edition":
+  pageId: 222282
 Zebra Logic Master:
   pageId: 145447
   steam: 1135730
@@ -288233,9 +288275,6 @@ Zzzzz:
 ♞ The Tactics of War ♞:
   pageId: 112672
   steam: 937780
-✌ Johnny Rocket:
-  pageId: 112872
-  steam: 942300
 《鬼畜战记：金坷垃传说》:
   pageId: 141421
   steam: 1087960

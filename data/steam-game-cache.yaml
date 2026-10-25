@@ -415993,6 +415993,8 @@
         oslist: macos
       executable: "Catizens.app\\Contents\\MacOS\\Catizens"
       type: default
+    - executable: game.exe
+      type: none
   nameLocalized:
     schinese: 喵星总动员 | Catizens
     tchinese: 喵星總動員 | Catizens
@@ -551422,8 +551424,12 @@
         pattern: "*.cerimal"
         recursive: true
         root: WinAppDataLocalLow
-      - path: SavesDirMoon Studios/NoRestForTheWicked/DataStorePTR
+      - path: "Moon Studios/NoRestForTheWicked/Saves/{64BitSteamID}"
         pattern: "*.cerimal"
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "Moon Studios/NoRestForTheWicked/Saves/{64BitSteamID}"
+        pattern: "*.cerimal.bak*"
         recursive: true
         root: WinAppDataLocalLow
   installDir: NoRestForTheWicked
@@ -563175,6 +563181,36 @@
     - config:
         oslist: windows
       executable: KOFXV_Steam.exe
+      type: default
+1498740:
+  cloud:
+    saves:
+      - path: Troublemaker/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: WinAppDataLocal
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxXdgDataHome
+  installDir: Troublemaker
+  launch:
+    - config:
+        oslist: windows
+      executable: Troublemaker.exe
       type: default
 1499120:
   cloud:
@@ -662830,6 +662866,16 @@
       executable: cbt_fullscreen.exe
   nameLocalized:
     russian: Братки
+4365560:
+  cloud:
+    saves:
+      - path: saves
+        pattern: "*"
+        root: gameinstall
+  installDir: Vixen 357
+  launch:
+    - executable: Vixen357.exe
+      type: default
 4369130:
   cloud:
     saves:
@@ -663352,6 +663398,9 @@
   launch:
     - executable: The Crimson Hunt.exe
       type: default
+4487060:
+  nameLocalized:
+    schinese: Northgard Battlegrounds 北境战场
 4487840:
   cloud:
     saves:
@@ -664314,6 +664363,7 @@
     schinese: 王国英雄：餘音
     ukrainian: "Герой Королівства: Відлуння"
 5138990: {}
+5141030: {}
 5195880: {}
 5212940:
   cloud:

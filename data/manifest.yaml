@@ -114604,6 +114604,8 @@ Caketomino:
   steam:
     id: 517770
 "Cakey's Twisted Bakery":
+  id:
+    lutris: cakeys-twisted-bakery
   installDir:
     "Cakey's Twisted Bakery": {}
   launch:
@@ -124886,6 +124888,9 @@ Catizens:
         when:
           - os: windows
             store: steam
+    "<base>/game.exe":
+      - when:
+          - store: steam
   steam:
     id: 957660
 Catlateral Damage:
@@ -303328,6 +303333,11 @@ Ghost of a Tale:
         - config
   steam:
     id: 417290
+Ghost of a Tale 2:
+  cloud:
+    steam: true
+  steam:
+    id: 5141030
 Ghost on the Shore:
   cloud:
     gog: true
@@ -335285,6 +335295,15 @@ Hektor:
             store: steam
   steam:
     id: 334070
+Hela:
+  alias: "Hela: Of Mice & Magic"
+"Hela: Of Mice & Magic":
+  cloud:
+    steam: true
+  id:
+    lutris: hela-of-mice-and-magic
+  steam:
+    id: 3161310
 Heldric - The legend of the shoemaker:
   installDir:
     Heldric: {}
@@ -384181,6 +384200,24 @@ Johnny Bung:
             store: steam
   steam:
     id: 476030
+Johnny Rocket:
+  installDir:
+    Johnny Rocket: {}
+  launch:
+    "<base>/Johnny Rocket.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/JohnnyRocket.app/Contents/MacOS/JohnnyRocket":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/JohnnyRocket.linux/JohnnyRocket.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 942300
 Johns.game:
   installDir:
     johnsgame: {}
@@ -457167,6 +457204,7 @@ Metro 2033:
 Metro 2033 Redux:
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/<storeUserId>/user.cfg":
       tags:
@@ -501713,6 +501751,8 @@ No Rest for the Wicked:
         - os: windows
   id:
     lutris: no-rest-for-the-wicked--1
+    steamExtra:
+      - 4600710
   installDir:
     NoRestForTheWicked: {}
   launch:
@@ -504272,6 +504312,14 @@ Northgard:
             store: steam
   steam:
     id: 466560
+Northgard Battlegrounds:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 5090100
+  steam:
+    id: 4487060
 Northland:
   files:
     "<base>/Saves/singleplayer/savegames/**/*.sav":
@@ -804345,6 +804393,26 @@ Trouble Witches Origin - Episode1 Daughters of Amalgam -:
             store: steam
   steam:
     id: 460630
+Troublemaker:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<winLocalAppData>/Troublemaker/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  gog:
+    id: 1560920637
+  installDir:
+    Troublemaker: {}
+  launch:
+    "<base>/Troublemaker.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1498740
 Troubles Land:
   installDir:
     Troubles Land: {}
@@ -830292,6 +830360,21 @@ Vivisector - Beast Within:
         - os: windows
   id:
     lutris: vivisector-beast-within
+Vixen 357:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves":
+      when:
+        - store: steam
+  installDir:
+    Vixen 357: {}
+  launch:
+    "<base>/Vixen357.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4365560
 Vixen Wars:
   installDir:
     Vixen Wars: {}
@@ -877443,23 +877526,7 @@ Zzzzz:
   steam:
     id: 937780
 ✌ Johnny Rocket:
-  installDir:
-    Johnny Rocket: {}
-  launch:
-    "<base>/Johnny Rocket.exe":
-      - when:
-          - os: windows
-            store: steam
-    "<base>/JohnnyRocket.app/Contents/MacOS/JohnnyRocket":
-      - when:
-          - os: mac
-            store: steam
-    "<base>/JohnnyRocket.linux/JohnnyRocket.x86_64":
-      - when:
-          - os: linux
-            store: steam
-  steam:
-    id: 942300
+  alias: Johnny Rocket
 《鬼畜战记：金坷垃传说》:
   installDir:
     JINKELA: {}
