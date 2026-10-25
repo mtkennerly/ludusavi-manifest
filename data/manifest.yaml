@@ -69852,6 +69852,9 @@ Barbie Fashion Designer:
         - os: windows
   id:
     lutris: barbie-horse-adventures-riding-camp
+Barbie Horse Ride & Rescue:
+  steam:
+    id: 4436840
 Barbie Horse Trails:
   files:
     "<home>/AppData/LocalLow/Outright Games Ltd/Barbie":
@@ -119264,6 +119267,10 @@ Car Parking Multiplayer 2:
     "<base>/Car Parking 2.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/CarParking2.app":
+      - when:
+          - os: mac
             store: steam
   steam:
     id: 4252340
@@ -345062,7 +345069,6 @@ High on Life 2:
         - os: windows
     "<winLocalAppData>/Packages/2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj/SystemAppData":
       tags:
-        - config
         - save
       when:
         - os: windows
@@ -483302,6 +483308,9 @@ Mysterious Insects:
   gog:
     id: 1334820000
   id:
+    gogExtra:
+      - 1632954325
+      - 1751021680
     lutris: mysterious-journey-ii-chameleon
 Mysterious Realms RPG:
   cloud:
@@ -804234,6 +804243,11 @@ Tropico 4:
         - save
       when:
         - os: mac
+    "<winAppData>/Tropico 4/Users.lua":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winAppData>/Tropico 4/users":
       tags:
         - save

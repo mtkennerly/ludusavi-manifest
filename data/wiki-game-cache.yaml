@@ -22530,11 +22530,16 @@ Barbie Fashion Show:
   pageId: 198080
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Barbie Horse Adventures - Riding Camp\\SaveGame\\}}"
+Barbie Horse Ride & Rescue:
+  pageId: 222337
+  steam: 4436840
 Barbie Horse Trails:
   cloud:
     xbox: true
   pageId: 210109
   steam: 2786660
+Barbie Magic Hair Styler:
+  pageId: 222335
 Barbie Mermaid Adventure:
   pageId: 220619
 Barbie Pet Rescue:
@@ -112558,7 +112563,6 @@ High on Life 2:
   templates:
     - "{{Game data/config|Steam|{{P|localappdata}}\\HighOnLife2\\Saved\\Config\\Windows\\}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\HighOnLife2\\Saved\\Config\\WinGDK\\}}"
-    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj\\SystemAppData\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\HighOnLife2\\Saved\\SaveGames\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\2637SquanchGamesInc.HighOnLife2_mh7dg3tfmz2cj\\SystemAppData\\}}"
 High on Life VR:
@@ -143102,6 +143106,8 @@ Magic Duels:
     steam: true
   pageId: 135157
   steam: 1059830
+"Magic Fairy Tales: Barbie as Rapunzel":
+  pageId: 222332
 "Magic Farm 2: Fairy Lands":
   pageId: 132310
   renamedFrom:
@@ -158055,6 +158061,9 @@ Mysterious Insects:
   steam: 760240
 "Mysterious Journey II: Chameleon":
   gog: 1334820000
+  gogSide:
+    - 1632954325
+    - 1751021680
   lutris: mysterious-journey-ii-chameleon
   pageId: 75390
   templates:
@@ -263869,7 +263878,7 @@ Tropico 4:
     - 205637
     - 205638
   templates:
-    - "{{Game data/saves|Windows|{{P|APPDATA}}\\Tropico 4\\users\\}}"
+    - "{{Game data/saves|Windows|{{P|APPDATA}}\\Tropico 4\\Users.lua|{{P|APPDATA}}\\Tropico 4\\users\\}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Feral Interactive/Tropico 4/AppData/users/}}"
 Tropico 5:
   cloud:
