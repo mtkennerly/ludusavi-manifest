@@ -4817,6 +4817,12 @@ ASKA:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Sand Sailor Studio\\Aska\\data\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Sand Sailor Studio\\Aska\\data\\}}"
+ASPIS:
+  cloud:
+    steam: true
+  lutris: aspis
+  pageId: 222287
+  steam: 3129420
 ASRECorp:
   pageId: 42155
   steam: 498580
@@ -12139,6 +12145,8 @@ Amplexus Protocol:
 Ampu-Tea:
   pageId: 50151
   steam: 289090
+AmsterDoom:
+  pageId: 222307
 Amulet Zero 零物语 - Optimize:
   cloud:
     steam: true
@@ -22488,6 +22496,8 @@ Barbie Beach Vacation:
   pageId: 220823
 Barbie Beauty Boutique:
   pageId: 170650
+Barbie Beauty Styler:
+  pageId: 222326
 "Barbie Diaries: High School Mystery":
   pageId: 170620
   templates:
@@ -22510,6 +22520,8 @@ Barbie Fashion Show:
   pageId: 215776
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\BarbieFashionShow2008}}"
+"Barbie Generation Girl: Gotta Groove":
+  pageId: 222309
 "Barbie Horse Adventures: Mystery Ride":
   lutris: barbie-horse-adventures-mystery-ride
   pageId: 191496
@@ -22572,6 +22584,8 @@ Barbie in the 12 Dancing Princesses:
     - "{{Game data/saves|Windows|{{p|game}}\\Save Games\\}}"
 "Barbie of Swan Lake: The Enchanted Forest":
   pageId: 220638
+"Barbie: Magic Genie Bottle":
+  pageId: 222328
 "Barbie: Project Friendship":
   cloud:
     epic: true
@@ -90134,6 +90148,12 @@ Flex Apocalypse Racing:
   steam: 1000790
   steamSide:
     - 1001580
+Flick:
+  lutris: flick
+  pageId: 222324
+  steam: 4450660
+  steamSide:
+    - 5267890
 FlickSync - Mad Hatter VR:
   pageId: 90158
   steam: 827170
@@ -90334,6 +90354,9 @@ FlipOut!:
 FlipWitch - Forbidden Sex Hex:
   cloud:
     steam: true
+  gog: 1196438244
+  gogSide:
+    - 1968799206
   pageId: 174875
   steam: 1748620
   templates:
@@ -94546,6 +94569,7 @@ Fruit for the Village:
   steam: 528930
 Fruitbus:
   cloud:
+    gog: true
     steam: true
   gog: 1969775197
   pageId: 216650
@@ -114333,6 +114357,9 @@ Hookbots:
   lutris: hooked-on-you-a-dead-by-daylight-dating-simtm
   pageId: 180422
   steam: 1866180
+Hookeye:
+  pageId: 222305
+  steam: 4670350
 Hooklings:
   pageId: 144667
   steam: 1018240
@@ -121831,6 +121858,8 @@ Interregnum-Alpha:
     gog: true
     steam: true
   gog: 1500286266
+  gogSide:
+    - 1285751719
   pageId: 128619
   steam: 1016770
   templates:
@@ -151138,6 +151167,7 @@ MindsEye:
     - 1447749925
     - 1490532977
     - 1564697638
+    - 1716948078
     - 1749653555
     - 1779285224
     - 2010638935
@@ -164138,6 +164168,8 @@ No More Heroes:
     gog: true
     steam: true
   gog: 1952635766
+  gogSide:
+    - 1993197743
   lutris: no-more-heroes
   pageId: 168922
   steam: 1420290
@@ -164149,6 +164181,8 @@ No More Heroes:
     gog: true
     steam: true
   gog: 2123918043
+  gogSide:
+    - 1993197743
   pageId: 168925
   steam: 1420300
   templates:
@@ -164160,6 +164194,11 @@ No More Heroes 3:
     steam: true
     xbox: true
   gog: 1608160993
+  gogSide:
+    - 1251489693
+    - 1408957560
+    - 1944219414
+    - 1993197743
   pageId: 177067
   renamedFrom:
     - No More Heroes III
@@ -164831,6 +164870,9 @@ Nomad Drive:
     - 4451030
     - 4568400
     - 5199100
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Indie Devil\\Nomad Drive\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Indie Devil\\Nomad Drive\\}}"
 Nomad Fleet:
   pageId: 43524
   steam: 371010
@@ -190347,6 +190389,10 @@ Real Horror Stories Ultimate Edition:
   steam: 1047670
 "Real Madrid: The Game":
   pageId: 196929
+Real Pool:
+  pageId: 222288
+Real Pool 2:
+  pageId: 222299
 Real Pool 3D - Poolians:
   pageId: 78144
   steam: 670290
@@ -191581,6 +191627,8 @@ Red points:
     steam: true
   pageId: 56366
   steam: 541240
+"RedCat: Spookkasteel":
+  pageId: 222303
 RedEyes:
   pageId: 95965
   steam: 711710
@@ -205441,6 +205489,14 @@ Secrets of Rætikon:
     - "{{Game data/saves|Windows|{{p|game}}\\save\\sync\\master\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Secrets of Raetikon/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.secrets-of-raetikon/sync/master/}}"
+Secrets of Velendar Castle - Escape Room:
+  gog: 1475441601
+  lutris: secrets-of-velendar-castle-escape-room
+  pageId: 222316
+  steam: 4016880
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\mc2games\\SecretsOfVelendarCastle}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\mc2games\\SecretsOfVelendarCastle}}"
 Secrets of War:
   pageId: 135311
   steam: 1062050
@@ -208589,6 +208645,8 @@ Shellshock:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\SHELLSHOCK_NAM67\\profile{{p|uid}}\\}}"
 Shelly Club:
   pageId: 220666
+Shelly Club Pet Parade:
+  pageId: 222318
 Shelter:
   gog: 1207659503
   pageId: 9537
@@ -227696,6 +227754,7 @@ Stuart Little 2:
   pageId: 214444
 Stubbs the Zombie in Rebel Without a Pulse:
   cloud:
+    gog: true
     steam: true
   gog: 1862877679
   lutris: stubbs-the-zombie-in-rebel-without-a-pulse
@@ -263786,7 +263845,7 @@ Tropico 3:
   pageId: 310
   steam: 23490
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\config.lua}}"
+    - "{{Game data/config|Windows|{{p|game}}\\config.lua|{{p|appdata}}\\Tropico 3\\UserConfig2.lua}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Tropico 3\\ExSaves\\}}"
 Tropico 4:
   cloud:
@@ -278789,7 +278848,12 @@ While I Sleep I Am Debug:
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\619150\\remote\\}}"
 While We Wait Here:
   cloud:
+    gog: true
     steam: true
+  gog: 1985859739
+  gogSide:
+    - 1283879645
+    - 1866861783
   pageId: 195852
   steam: 2213120
   templates:
@@ -279281,7 +279345,13 @@ Wienne:
   steam: 1180370
 Wife Quest:
   cloud:
+    gog: true
     steam: true
+  gog: 1465434701
+  gogSide:
+    - 1196876641
+    - 1506609383
+    - 1863214247
   lutris: wife-quest
   pageId: 175538
   steam: 1554600
@@ -281785,6 +281855,8 @@ Work girl打工妹日记:
 Workhard:
   pageId: 144777
   steam: 1138280
+Working Woman Barbie:
+  pageId: 222329
 Workshop Simulator:
   cloud:
     gog: true

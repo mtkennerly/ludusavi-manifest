@@ -555832,6 +555832,7 @@
     - arguments: en
       description: Launch Configuration Tool
       executable: ConfigurationTool.exe
+      type: config
 1420350:
   cloud:
     saves:
@@ -646153,6 +646154,25 @@
         oslist: windows
       executable: PBABowling4.exe
       type: default
+3129420:
+  cloud:
+    saves:
+      - path: "ASPIS\\Saved\\SaveGames\\"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+  installDir: ASPIS
+  launch:
+    - arguments: "-SaveToUserDir"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Aspis.exe
+      type: default
+  nameLocalized:
+    russian: АСПИС
 3130400:
   installDir: Terrifier The ARTcade Game
   launch:
@@ -660568,6 +660588,10 @@
         oslist: windows
       executable: game.exe
       type: default
+4016880:
+  installDir: Secrets of Velendar Castle - Escape Room
+  launch:
+    - executable: SecretsOfVelendarCastle.exe
 4017520:
   cloud:
     saves:
@@ -663298,6 +663322,7 @@
     - config:
         oslist: windows
       executable: Biomechanical_Toy.exe
+4450660: {}
 4450800:
   installDir: IdolsOfAsh
   launch:
@@ -663876,6 +663901,7 @@
     schinese: 血色鹿影
     tchinese: 血色鹿影
 4669960: {}
+4670350: {}
 4673270:
   cloud:
     saves:
