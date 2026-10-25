@@ -106271,11 +106271,15 @@ Brok the InvestiGator:
       - 1129298921
       - 1191894002
       - 1428415487
-      - 1611369673
       - 2127411015
     lutris: brok-the-investigator
     steamExtra:
       - 1318790
+      - 1538690
+      - 2116310
+      - 2156870
+      - 2931330
+      - 4309650
   installDir:
     Brok: {}
   launch:
@@ -106293,6 +106297,13 @@ Brok the InvestiGator:
             store: steam
   steam:
     id: 949480
+"Brok: The Brawl Bar":
+  cloud:
+    steam: true
+  gog:
+    id: 1611369673
+  id:
+    lutris: brok-the-investigator-the-brawl-bar
 Broke Girl:
   steam:
     id: 1077580
@@ -267538,10 +267549,18 @@ Femboy Besties:
   steam:
     id: 1572450
 Femboy Futa House:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Femboy Futa House":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     FEMBOY FUTA HOUSE: {}
   launch:
-    "<base>/FEMBOY FUTA HOUSE/FEMBOY FUTA HOUSE.exe":
+    "<base>/FEMBOY FUTA HOUSE.exe":
       - when:
           - bit: 64
             os: windows
@@ -714115,6 +714134,9 @@ Sébastien Loeb Rally EVO:
       tags:
         - config
         - save
+"Söldner: Secret Wars":
+  id:
+    lutris: soldner-secret-wars--1
 "Söldner: Secret Wars Remastered":
   cloud:
     steam: true
@@ -768552,6 +768574,16 @@ The Spatials:
             store: steam
   steam:
     id: 450700
+"The Spectre Files: Deathstalker":
+  installDir:
+    The Spectre Files Deathstalker: {}
+  launch:
+    "<base>/SpectreFiles.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1356760
 The Spectrum Retreat:
   cloud:
     epic: true

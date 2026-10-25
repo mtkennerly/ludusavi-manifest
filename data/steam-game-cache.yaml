@@ -549664,6 +549664,13 @@
         oslist: macos
       executable: goddess.app
       type: default
+1356760:
+  installDir: The Spectre Files Deathstalker
+  launch:
+    - config:
+        oslist: windows
+      executable: SpectreFiles.exe
+      type: default
 1357210:
   cloud:
     saves:
@@ -655130,18 +655137,23 @@
     schinese: 银盘滑冰场物语 (Skating Rink Story)
     tchinese: 銀盤滑冰場物語 (Skating Rink Story)
 3602290:
+  cloud:
+    saves:
+      - path: "TopHouse\\Femboy Futa House"
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+      - path: "TopHouse\\Femboy Futa House\\NaninovelData\\Saves"
+        pattern: "*.nson"
+        root: WinAppDataLocalLow
+      - path: "TopHouse\\Femboy Futa House\\NaninovelData\\Saves"
+        pattern: "*.json"
+        root: WinAppDataLocalLow
   installDir: FEMBOY FUTA HOUSE
   launch:
     - config:
         osarch: "64"
         oslist: windows
-      description: the game via launcher
-      executable: tophouse-launcher.exe
-      type: config
-    - config:
-        osarch: "64"
-        oslist: windows
-      executable: FEMBOY FUTA HOUSE/FEMBOY FUTA HOUSE.exe
+      executable: FEMBOY FUTA HOUSE.exe
       type: default
     - config:
         betakey: beta_mac

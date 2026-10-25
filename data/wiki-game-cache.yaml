@@ -15305,6 +15305,8 @@ Arctic Fleet:
   steam: 983880
 Arctic Moves:
   pageId: 221270
+Arctic Stud Poker Run:
+  pageId: 222260
 Arctic Trucker Simulator:
   pageId: 51314
   steam: 273890
@@ -34521,11 +34523,22 @@ Brok the InvestiGator:
   steam: 949480
   steamSide:
     - 1318790
+    - 1538690
+    - 2116310
+    - 2156870
+    - 2931330
+    - 4309650
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Brokgame\\saves\\config.ini}}"
     - "{{Game data/config|Linux|{{P|linuxhome}}/.config/Brokgame/saves/config.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Brokgame\\saves\\}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/Brokgame/saves/}}"
+"Brok: The Brawl Bar":
+  cloud:
+    steam: true
+  gog: 1611369673
+  lutris: brok-the-investigator-the-brawl-bar
+  pageId: 222248
 Broke Girl:
   pageId: 147315
   steam: 1077580
@@ -87268,8 +87281,12 @@ Femboy Besties:
   pageId: 172997
   steam: 1572450
 Femboy Futa House:
+  cloud:
+    steam: true
   pageId: 208467
   steam: 3602290
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Femboy Futa House}}"
 Femboys of the Phalanx:
   pageId: 173006
   steam: 1565080
@@ -233426,6 +233443,9 @@ Sébastien Loeb Rally EVO:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\SideQuest Studios\\SoldnerX\\}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\SideQuest Studios\\SoldnerX\\}}"
+"Söldner: Secret Wars":
+  lutris: soldner-secret-wars--1
+  pageId: 222251
 "Söldner: Secret Wars Remastered":
   cloud:
     steam: true
@@ -251274,6 +251294,9 @@ The Spatials:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TSGalactology}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TSGalactology}}"
+"The Spectre Files: Deathstalker":
+  pageId: 222262
+  steam: 1356760
 The Spectrum Retreat:
   cloud:
     epic: true
