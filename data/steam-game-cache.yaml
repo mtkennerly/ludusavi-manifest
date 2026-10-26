@@ -317296,6 +317296,7 @@
       description: Launch
       executable: mac_steam.app/Contents/MacOS/mac_steam
       type: none
+756510: {}
 756520:
   installDir: Sensual VR
   launch:
@@ -582408,10 +582409,21 @@
         root: WinAppDataRoaming
   installDir: Reka
   launch:
-    - config:
-        oslist: windows
+    - arguments: "-force-d3d11"
+      description: Default (Launch with DirectX 11)
       executable: Reka.exe
       type: default
+    - arguments: "-force-d3d11"
+      description: Default (Launch with DirectX 11)
+      executable: Reka.exe
+    - arguments: "-force-d3d12"
+      description: Launch with DirectX 12
+      executable: Reka.exe
+    - arguments: "-force-vulkan"
+      description: Launch with Vulkan
+      executable: Reka.exe
+  nameLocalized:
+    schinese: 蕾卡的移动工坊
 1739000:
   installDir: Franchise Hockey Manager 8
   launch:
@@ -629454,6 +629466,7 @@
     - description: The Pony Factory (Classic)
       executable: "goodies\\The Pony Factory (Dread X Collection Version)\\The Pony Factory.exe"
       type: option2
+2537270: {}
 2537590:
   installDir: MSFS2024
   launch:

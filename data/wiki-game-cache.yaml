@@ -1661,6 +1661,11 @@ $1 Ride:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\428 Shibuya Scramble\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\648580\\remote\\}}"
+"4:AM":
+  pageId: 222396
+  steam: 2537270
+  steamSide:
+    - 4711490
 "4:LOOP":
   pageId: 211956
   steam: 3355360
@@ -36932,6 +36937,7 @@ CS2D:
   lutris: csi-fatal-conspiracy
   pageId: 201597
 "CSI: Hard Evidence":
+  lutris: csi-hard-evidence
   pageId: 59994
   steam: 21730
   templates:
@@ -36940,6 +36946,7 @@ CS2D:
 "CSI: Miami":
   pageId: 158988
 "CSI: NY - The Game":
+  lutris: csi-ny-the-game
   pageId: 59989
   steam: 21750
 CSR Racing:
@@ -55655,6 +55662,7 @@ D3D Inside:
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\358090\\remote\\*.sav}}"
 "D: The Game":
   gog: 1852354510
+  lutris: d-the-game
   pageId: 35367
   steam: 510590
 DAEMMERLICHT:
@@ -115038,6 +115046,7 @@ Hot Wheels Unleashed:
   cloud:
     steam: true
     xbox: true
+  lutris: hot-wheels-unleashedtm-2-turbocharged
   pageId: 188314
   steam: 2051120
   templates:
@@ -115054,6 +115063,7 @@ Hot Wheels World Race:
     - "{{Game data/config|Windows|{{p|game}}\\Config.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
 "Hot Wheels World's Best Driver":
+  lutris: hot-wheelstm-worlds-best-drivertm
   pageId: 40596
   steam: 236530
   templates:
@@ -158917,6 +158927,7 @@ NBA 2K25 Arcade Edition:
 NBA 2K26:
   cloud:
     steam: true
+  lutris: nba-2k26
   pageId: 208066
   steam: 3472040
 NBA 2K27:
@@ -158925,6 +158936,9 @@ NBA 2K27:
     xbox: true
   pageId: 222349
   steam: 4356430
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\2K Sports\\NBA 2K27\\VideoSettings.cfg}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\79ACB67D.NBA2K27PC_yn88nk35a38zw\\SystemAppData\\wgs}}"
 NBA 2K9:
   pageId: 60423
   steam: 7740
@@ -192299,6 +192313,9 @@ Reka:
   lutris: reka
   pageId: 197693
   steam: 1737870
+  steamSide:
+    - 1783630
+    - 3179550
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\RekaGame\\Saves\\{{p|uid}}\\*.xml}}"
 Rekindling:
@@ -216272,9 +216289,11 @@ Song of Farca:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Wooden Monkeys/Song of Farca}}"
 Song of Horror:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1957403324
+  lutris: song-of-horror
   pageId: 144865
   steam: 1096570
   steamSide:
@@ -264427,6 +264446,11 @@ Tube Tycoon:
     steam: true
   pageId: 90892
   steam: 611040
+Tube2K:
+  pageId: 222393
+  steam: 756510
+  steamSide:
+    - 4907870
 TubeLife:
   cloud:
     steam: true
