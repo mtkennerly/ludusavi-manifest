@@ -6865,6 +6865,8 @@ Adventures of musical tones and their notes:
 Adventures of the Worm:
   pageId: 67577
   steam: 681410
+"Adventures with Barbie: Ocean Discovery":
+  pageId: 222342
 "Adventurezator: When Pigs Fly":
   cloud:
     steam: true
@@ -22498,6 +22500,8 @@ Barbie Beauty Boutique:
   pageId: 170650
 Barbie Beauty Styler:
   pageId: 222326
+Barbie Cool Looks Fashion Designer:
+  pageId: 222340
 "Barbie Diaries: High School Mystery":
   pageId: 170620
   templates:
@@ -22589,8 +22593,12 @@ Barbie in the 12 Dancing Princesses:
     - "{{Game data/saves|Windows|{{p|game}}\\Save Games\\}}"
 "Barbie of Swan Lake: The Enchanted Forest":
   pageId: 220638
+"Barbie: Jewelry Designer":
+  pageId: 222344
 "Barbie: Magic Genie Bottle":
   pageId: 222328
+"Barbie: Photo Designer":
+  pageId: 222346
 "Barbie: Project Friendship":
   cloud:
     epic: true
@@ -119371,6 +119379,9 @@ Impossible Geometry:
 Impossible Jumpy Quest:
   pageId: 91025
   steam: 787050
+Impossible Mission II:
+  pageId: 222351
+  steam: 1400680
 Impossible Quest:
   cloud:
     steam: true
@@ -158094,6 +158105,11 @@ Mysterium:
 "Mystery Case Files: Escape from Ravenhearst":
   pageId: 44696
   steam: 438560
+"Mystery Case Files: Huntsville":
+  pageId: 41148
+  steam: 50960
+  templates:
+    - "{{Game data/saves|Windows|HKEY_CURRENT_USER\\Software\\Big Fish Games\\Games\\Mystery Case Files - Huntsville\\}}"
 "Mystery Case Files: Key to Ravenhearst":
   pageId: 136378
   steam: 1082470
@@ -158877,6 +158893,12 @@ NBA 2K26:
     steam: true
   pageId: 208066
   steam: 3472040
+NBA 2K27:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 222349
+  steam: 4356430
 NBA 2K9:
   pageId: 60423
   steam: 7740

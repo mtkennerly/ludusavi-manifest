@@ -176507,6 +176507,9 @@
         oslist: windows
       executable: Barrow Hill.exe
       type: none
+  nameLocalized:
+    french: "Barrow Hill: Le Cercle Maudit"
+    german: "Barrow Hill: Der Fluch der Kelten"
 494370:
   cloud:
     saves:
@@ -515305,6 +515308,24 @@
       type: none
 1172790: {}
 1172800:
+  cloud:
+    saves:
+      - path: Perfect Tides
+        pattern: "*"
+        root: WinSavedGames
+    overrides:
+      - addPath: ".local/share/AGS/Perfect Tides"
+        os: Linux
+        osCompare: "="
+        root: WinSavedGames
+        useInstead: LinuxHome
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Perfect Tides
+            replace: Perfect Tides/
+        root: WinSavedGames
+        useInstead: MacAppSupport
   installDir: Perfect Tides
   launch:
     - config:
@@ -554205,6 +554226,27 @@
         oslist: windows
       executable: Nomads.exe
       type: default
+1400680:
+  installDir: Impossible Mission II
+  launch:
+    - arguments: "-conf im2.conf -noconsole"
+      config:
+        oslist: windows
+      description: original resolution
+      executable: DOSBox.exe
+      type: option1
+    - arguments: "-conf im2-720.conf -noconsole"
+      config:
+        oslist: windows
+      description: 720p resolution
+      executable: DOSBox.exe
+      type: option2
+    - arguments: "-conf im2-1080.conf -noconsole"
+      config:
+        oslist: windows
+      description: 1080p resolution
+      executable: DOSBox.exe
+      type: option3
 1400830: {}
 1401400:
   cloud:
@@ -594183,6 +594225,15 @@
         osarch: "64"
         oslist: windows
       executable: Gloomgrave.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Gloomgrave.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Gloomgrave_x86_64
       type: default
 1907400:
   cloud:
@@ -662860,6 +662911,25 @@
     - config:
         oslist: macos
       executable: Greedy Greedy Gnomes.app
+4356430:
+  installDir: NBA 2K27
+  launch:
+    - arguments: "-anticheat_settings=QASettings.json"
+      config:
+        betakey: "silver,silver2,protection,silvercompatrun,exttest2"
+      description: Play NBA 2K27 (QA Environment)
+      executable: start_protected_game.exe
+      type: default
+    - description: Play NBA 2K27
+      executable: start_protected_game.exe
+      type: default
+    - description: NBA 2K27 without EAC (offline only)
+      executable: NBA2K27.exe
+      type: option1
+  nameLocalized:
+    japanese: 『NBA 2K27』
+    schinese: 《NBA 2K27》
+    tchinese: 《NBA 2K27》
 4358270:
   nameLocalized:
     english: Pickmos

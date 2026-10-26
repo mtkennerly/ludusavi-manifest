@@ -306932,10 +306932,19 @@ Gloomgrave:
   installDir:
     Gloomgrave: {}
   launch:
+    "<base>/Gloomgrave.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Gloomgrave.exe":
       - when:
           - bit: 64
             os: windows
+            store: steam
+    "<base>/Gloomgrave_x86_64":
+      - when:
+          - bit: 64
+            os: linux
             store: steam
   steam:
     id: 1907000
@@ -365989,6 +365998,11 @@ Impossible Jumpy Quest:
             store: steam
   steam:
     id: 787050
+Impossible Mission II:
+  installDir:
+    Impossible Mission II: {}
+  steam:
+    id: 1400680
 Impossible Quest:
   cloud:
     steam: true
@@ -483393,6 +483407,21 @@ Mysterium:
             store: steam
   steam:
     id: 438560
+"Mystery Case Files: Huntsville":
+  files:
+    HKEY_CURRENT_USER/Software/Big Fish Games/Games/Mystery Case Files - Huntsville:
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Mystery Case Files Huntsville: {}
+  launch:
+    "<base>/Huntsville.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 50960
 "Mystery Case Files: Key to Ravenhearst":
   installDir:
     "Mystery Case Files Key to Ravenhearst Collector's Edition": {}
@@ -485701,6 +485730,17 @@ NBA 2K26:
           - store: steam
   steam:
     id: 3472040
+NBA 2K27:
+  cloud:
+    steam: true
+  installDir:
+    NBA 2K27: {}
+  launch:
+    "<base>/start_protected_game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4356430
 NBA 2K9:
   installDir:
     NBA 2K9: {}
