@@ -103969,6 +103969,12 @@ Break the Empire:
           - store: steam
   steam:
     id: 2975180
+Break the Piñatas:
+  id:
+    steamExtra:
+      - 5211050
+  steam:
+    id: 5210430
 Break the Targets:
   cloud:
     steam: true
@@ -476787,6 +476793,13 @@ Mr Joshua Carrot:
             store: steam
   steam:
     id: 1113340
+"Mr Magpie's Harmless Card Game":
+  id:
+    lutris: mr-magpies-harmless-card-game
+    steamExtra:
+      - 3796720
+  steam:
+    id: 3616280
 Mr Makeshifter:
   installDir:
     Mr Makeshifter: {}

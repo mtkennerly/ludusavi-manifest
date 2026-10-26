@@ -655519,6 +655519,10 @@
       description: "Dive into a 3D side-scrolling adventure where fierce anthropomorphic animal warriors battle through breathtaking worlds in fast-paced, action-packed combat!"
       executable: "Taiwan Coolfox Game\\Taiwan Coolfox Game.exe"
       type: default
+3616280:
+  nameLocalized:
+    english: "Mr Magpie's Harmless Card Game"
+    schinese: 喜鹊先生贪心卡牌
 3616550:
   installDir: Car Dealership Simulator 2
   launch:
@@ -664466,6 +664470,7 @@
 5138990: {}
 5141030: {}
 5195880: {}
+5210430: {}
 5212940:
   cloud:
     saves:

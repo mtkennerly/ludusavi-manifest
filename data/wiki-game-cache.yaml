@@ -5334,6 +5334,8 @@ Absolute Drift:
 Absolute Fall:
   pageId: 138752
   steam: 1091670
+Absolute Obedience:
+  pageId: 222364
 Absolute Pinball:
   pageId: 213174
 "Absolute Tactics: Daughters of Mercy":
@@ -22546,8 +22548,14 @@ Barbie Magic Hair Styler:
   pageId: 222335
 Barbie Mermaid Adventure:
   pageId: 220619
+Barbie Nail Designer:
+  pageId: 222378
+"Barbie Party Print 'n Play":
+  pageId: 222379
 Barbie Pet Rescue:
   pageId: 170646
+"Barbie Print 'n Play":
+  pageId: 222382
 Barbie Rewind:
   pageId: 217413
   steam: 4082030
@@ -22557,6 +22565,8 @@ Barbie Sparkling Ice Show:
     - "{{Game data/saves|Windows|{{p|game}}\\Game.dat}}"
 Barbie Storymaker:
   pageId: 221072
+Barbie Totally Tattoos:
+  pageId: 222384
 Barbie and Her Magical House:
   pageId: 170648
 Barbie and Her Sisters Puppy Rescue:
@@ -22593,6 +22603,8 @@ Barbie in the 12 Dancing Princesses:
     - "{{Game data/saves|Windows|{{p|game}}\\Save Games\\}}"
 "Barbie of Swan Lake: The Enchanted Forest":
   pageId: 220638
+"Barbie: Digital Makeover":
+  pageId: 222386
 "Barbie: Jewelry Designer":
   pageId: 222344
 "Barbie: Magic Genie Bottle":
@@ -22610,6 +22622,8 @@ Barbie in the 12 Dancing Princesses:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Outright Games Ltd\\Barbie Project Friendship}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\OutrightGames.ProjectPink_bnrbc155f0j86\\SystemAppData\\wgs}}"
+"Barbie: Sticker Designer":
+  pageId: 222376
 "Barbie: Super Sports":
   pageId: 170642
 "Barbie: Team Gymnastics":
@@ -33813,6 +33827,11 @@ Break the Cube:
 Break the Empire:
   pageId: 203231
   steam: 2975180
+Break the Piñatas:
+  pageId: 222361
+  steam: 5210430
+  steamSide:
+    - 5211050
 Break the Targets:
   cloud:
     steam: true
@@ -79040,6 +79059,8 @@ Envoy of Nezphere:
 Envy the Dead:
   pageId: 39958
   steam: 453960
+"Enzai: Falsely Accused":
+  pageId: 222371
 Eo:
   pageId: 180409
   steam: 2075340
@@ -88269,7 +88290,6 @@ Final Fantasy Resonance:
   cloud:
     steam: true
     xbox: true
-  malformed: true
   pageId: 217559
   steam: 3259780
   steamSide:
@@ -155984,6 +156004,12 @@ Mr Husky:
 Mr Joshua Carrot:
   pageId: 155895
   steam: 1113340
+"Mr Magpie's Harmless Card Game":
+  lutris: mr-magpies-harmless-card-game
+  pageId: 222369
+  steam: 3616280
+  steamSide:
+    - 3796720
 Mr Makeshifter:
   pageId: 46763
   steam: 395480
@@ -235419,6 +235445,8 @@ Talismania:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\GameHouse\\Talismania}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\GameHouse\\Talismania}}"
+Talk With Me Barbie:
+  pageId: 222387
 Talk to Aya:
   pageId: 74496
   steam: 731930
@@ -282777,6 +282805,14 @@ Worldwide Sports Fishing:
 Worldy Cup:
   pageId: 41693
   steam: 510080
+Worm Wars:
+  pageId: 222357
+Worm Wars 2:
+  pageId: 222358
+Worm Wars 3:
+  pageId: 222359
+Worm Wars 4:
+  pageId: 222360
 "Worm.is: The Game":
   pageId: 43201
   steam: 466910
