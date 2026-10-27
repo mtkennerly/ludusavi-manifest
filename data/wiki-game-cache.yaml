@@ -7464,6 +7464,13 @@ Afterparty:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\Night School Studio\\Afterparty}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Night School Studio\\Afterparty\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\762220\\}}"
+"Aftershock: Coastline":
+  lutris: aftershock-coastline
+  pageId: 222403
+  steam: 2450040
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Alex Rassloff\\Aftershock: Coastline}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Alex Rassloff\\Aftershock_ Coastline\\SaveData}}"
 Again:
   pageId: 87309
   steam: 810570
@@ -58607,6 +58614,8 @@ Dawn of Magic 2:
   lutris: dawn-of-magic-2
   pageId: 41239
   steam: 33540
+  steamSide:
+    - 33550
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\tbm.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\profiles}}"
@@ -75907,15 +75916,27 @@ Ecotone:
   pageId: 34837
   steam: 446070
 Ecstatica:
+  cloud:
+    gog: true
+    steam: true
   gog: 1333226285
+  gogSide:
+    - 1335460878
+    - 1942439921
   pageId: 164114
   steam: 4834840
+  steamSide:
+    - 5418140
+    - 5418150
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\saved\\}}"
     - "{{Game data/config|Windows|{{p|game}}\\saved\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\saved\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saved\\}}"
 Ecstatica II:
+  cloud:
+    gog: true
+    steam: true
   gog: 1434747230
   pageId: 166171
   steam: 4834850
@@ -93110,6 +93131,8 @@ Fracture the Flag:
 Fractured Blooms:
   pageId: 205189
   steam: 3730310
+"Fractured Fairy Tales: The Frog Prince":
+  pageId: 222410
 Fractured Lands:
   cloud:
     steam: true
@@ -100138,6 +100161,9 @@ Glory of Deep Skies:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\script\\th_gods\\Data\\|{{p|game}}\\script\\th_gods\\replay\\}}"
+Glory of the Heroes:
+  pageId: 222408
+  steam: 2239670
 Glory of the Roman Empire:
   pageId: 275
 Glory of the Self-Styled Diehard Girl:
@@ -152950,7 +152976,6 @@ Momodora III:
   gog: 1079762750
   gogSide:
     - 2146639323
-  malformed: true
   pageId: 34172
   renamedFrom:
     - "Momodora: Reverie Under the Moonlight"
@@ -168562,6 +168587,9 @@ One More Roll:
     steam: true
   pageId: 121033
   steam: 911520
+One Mote:
+  pageId: 222414
+  steam: 5480410
 One Move Away:
   lutris: one-move-away
   pageId: 200135
@@ -176568,6 +176596,8 @@ Phantom Astronaut Lucid VR:
   pageId: 149344
   steam: 1146810
 Phantom Blade Zero:
+  cloud:
+    steam: true
   lutris: phantom-blade-0
   pageId: 208385
   steam: 4115450
@@ -195611,6 +195641,9 @@ Ring the City:
   steam: 1070320
 "Ring: The Legend of the Nibelungen":
   pageId: 192587
+Ringfort:
+  pageId: 222413
+  steam: 5480400
 Ringies:
   pageId: 51039
   steam: 394480
@@ -227951,11 +227984,18 @@ Stupid Raft Battle Simulator:
   cloud:
     steam: true
   gog: 1777704954
+  gogSide:
+    - 1411519552
+    - 1729223972
+    - 1947569167
+    - 2108929928
   lutris: stygian-outer-gods
   pageId: 202155
   steam: 2581410
   steamSide:
     - 4060460
+    - 5404580
+    - 5445690
 "Stygian: Reign of the Old Ones":
   cloud:
     gog: true
@@ -256558,6 +256598,9 @@ Tiny Metal:
 Tiny Mortals VR:
   pageId: 136389
   steam: 1061460
+Tiny Night Market:
+  pageId: 222415
+  steam: 5480430
 Tiny Pasture:
   cloud:
     steam: true
@@ -279882,6 +279925,8 @@ William and the Lands of Rage:
 "William's Love Prelude":
   pageId: 155775
   steam: 1215650
+Williams Arcade Classics:
+  pageId: 222406
 Willow:
   pageId: 218455
 "Willowbrook Stables: Search for the Golden Horseshoes":

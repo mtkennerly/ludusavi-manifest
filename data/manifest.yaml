@@ -23486,6 +23486,29 @@ Afterparty:
         - config
   steam:
     id: 762220
+"Aftershock: Coastline":
+  files:
+    "<home>/AppData/LocalLow/Alex Rassloff/Aftershock_ Coastline/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: aftershock-coastline
+  installDir:
+    Aftershock Coastline: {}
+  launch:
+    "<base>/Aftershock Coastline.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/Alex Rassloff/Aftershock: Coastline":
+      tags:
+        - config
+  steam:
+    id: 2450040
 Again:
   steam:
     id: 810570
@@ -180345,19 +180368,14 @@ Dawn of Magic 2:
     id: 1839978015
   id:
     lutris: dawn-of-magic-2
+    steamExtra:
+      - 33550
   installDir:
     Dawn of Magic II: {}
   launch:
-    "<base>/launcher-ia32.exe":
+    "<base>/dawnofmagic2.exe":
       - when:
-          - bit: 32
-            os: windows
-            store: steam
-    "<base>/launcher-x64.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
+          - store: steam
   steam:
     id: 33540
 Dawn of Man:
@@ -233614,6 +233632,9 @@ Ecotone:
   steam:
     id: 446070
 Ecstatica:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/saved":
       tags:
@@ -233624,9 +233645,25 @@ Ecstatica:
         - os: windows
   gog:
     id: 1333226285
+  id:
+    gogExtra:
+      - 1335460878
+      - 1942439921
+    steamExtra:
+      - 5418140
+      - 5418150
+  installDir:
+    Ecstatica: {}
+  launch:
+    "<base>/Ecstatica.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834840
 Ecstatica II:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/saved":
       tags:
@@ -233637,6 +233674,12 @@ Ecstatica II:
         - os: windows
   gog:
     id: 1434747230
+  installDir:
+    Ecstatica II: {}
+  launch:
+    "<base>/Ecstatica II.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834850
 Ectolibrium:
@@ -307212,6 +307255,17 @@ Glory of Deep Skies:
         - os: windows
   id:
     lutris: touhou-mukyuushi-glory-of-deep-skies
+Glory of the Heroes:
+  installDir:
+    Glory to the Heroes: {}
+  launch:
+    "<base>/GloryToTheHeroes.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 2239670
 Glory of the Self-Styled Diehard Girl:
   installDir:
     Glory of the Self-Styled Diehard girl: {}
@@ -514493,6 +514547,9 @@ One More Roll:
             store: steam
   steam:
     id: 911520
+One Mote:
+  steam:
+    id: 5480410
 One Move Away:
   files:
     "<home>/AppData/LocalLow/Ramage Games/One Move Away/<storeUserId>/*.sav":
@@ -538351,8 +538408,23 @@ Phantom Astronaut Lucid VR:
   steam:
     id: 1146810
 Phantom Blade Zero:
+  cloud:
+    steam: true
+  files:
+    "<base>/ProjectPBZ/Saved/SaveGames/Steam/<storeUserId>/**/*.sav":
+      when:
+        - os: windows
+          store: steam
   id:
     lutris: phantom-blade-0
+  installDir:
+    PBZ: {}
+  launch:
+    "<base>/steam/PBZ.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4115450
 Phantom Brave PC:
@@ -596893,6 +596965,9 @@ Ring the City:
             store: steam
   steam:
     id: 1070320
+Ringfort:
+  steam:
+    id: 5480400
 Ringies:
   installDir:
     Ringies: {}
@@ -696479,9 +696554,16 @@ Stupid Raft Battle Simulator:
   gog:
     id: 1777704954
   id:
+    gogExtra:
+      - 1411519552
+      - 1729223972
+      - 1947569167
+      - 2108929928
     lutris: stygian-outer-gods
     steamExtra:
       - 4060460
+      - 5404580
+      - 5445690
   installDir:
     Stygian - Outer Gods: {}
   launch:
@@ -784395,6 +784477,9 @@ Tiny Mortals VR:
     Tiny Mortals VR: {}
   steam:
     id: 1061460
+Tiny Night Market:
+  steam:
+    id: 5480430
 Tiny Pasture:
   cloud:
     steam: true

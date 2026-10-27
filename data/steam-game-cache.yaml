@@ -8338,18 +8338,17 @@
   launch:
     - executable: Tropico2.exe
 33540:
+  cloud:
+    saves:
+      - path: profiles
+        pattern: "*"
+        root: gameinstall
   installDir: Dawn of Magic II
   launch:
-    - config:
-        osarch: "64"
-        oslist: windows
-      executable: launcher-x64.exe
+    - executable: dawnofmagic2.exe
       type: default
-    - config:
-        osarch: "32"
-        oslist: windows
-      executable: launcher-ia32.exe
-      type: default
+  nameLocalized:
+    russian: "Магия Крови: Время Теней"
 33570:
   installDir: Patrician III
   launch:
@@ -615323,6 +615322,16 @@
   launch:
     - arguments: "-uplay_steam_mode -sound2d"
       executable: "bin\\WatchDogsLegion.exe"
+2239670:
+  installDir: Glory to the Heroes
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: GloryToTheHeroes.exe
+      type: default
+  nameLocalized:
+    ukrainian: Героям Слава
 2239710:
   installDir: Into the Dead Our Darkest Days
   launch:
@@ -624909,6 +624918,15 @@
       executable: Dungeonborne.exe
       type: default
 2449800: {}
+2450040:
+  installDir: Aftershock Coastline
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Aftershock Coastline Executable
+      executable: Aftershock Coastline.exe
+      type: default
 2450450:
   installDir: MEGATON MUSASHI W
   launch:
@@ -656654,7 +656672,7 @@
       executable: Nioh3.exe
       type: default
     - config:
-        betakey: "profile,test,rating,power_check,power_check_old,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile,profile_1_0_5_0,profile_1_0_6_0,profile_1_0_7_0,dlc1_profile,profile_2_0_0_1,profile_2_0_0_2,profile_2_0_1_0"
+        betakey: "profile,test,rating,power_check,power_check_old,valve_profile,v1.01_profile,profile_1,profile_1_0_2_2,profile_1_0_3_0,profile_1_0_3_1,profile_1_0_3_2,profile_1_0_3_3,profile_1_0_3_4,profile_1_0_4_0,v1.04_profile,v1.04_bugfix_profile,profile_1_0_4_1,profile_1_0_4_2,profile_1_0_4_3,v1.05_profile,profile_1_0_5_0,profile_1_0_6_0,profile_1_0_7_0,dlc1_profile,profile_2_0_0_1,profile_2_0_0_2,profile_2_0_1_0,profile_2_0_2_0"
         osarch: "64"
         oslist: windows
       description: Daylight.exe
@@ -661375,6 +661393,21 @@
 4113000: {}
 4113570: {}
 4115450:
+  cloud:
+    saves:
+      - path: "ProjectPBZ/Saved/SaveGames/Steam/{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: PBZ
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "steam\\PBZ.exe"
+      type: default
   nameLocalized:
     schinese: 影之刃零
     tchinese: 影之刃零
@@ -664214,8 +664247,80 @@
 4834790: {}
 4834810: {}
 4834830: {}
-4834840: {}
-4834850: {}
+4834840:
+  cloud:
+    saves:
+      - path: SNEG/Ecstatica/Save Slots
+        pattern: 000*.ecs
+        root: WinAppDataRoaming
+      - path: SNEG/Ecstatica
+        pattern: controls.bin
+        root: WinAppDataRoaming
+      - path: SNEG/Ecstatica
+        pattern: settings.json
+        root: WinAppDataRoaming
+      - path: SNEG/Ecstatica
+        pattern: store.bin
+        root: WinAppDataRoaming
+      - path: SNEG/Ecstatica/Save Slots
+        pattern: 000*.png
+        root: WinAppDataRoaming
+  installDir: Ecstatica
+  launch:
+    - executable: Ecstatica.exe
+      type: default
+    - arguments: "-noconsole -conf \"ecstatica-1-base.conf\" -conf \"ecstatica-1-graphics.conf\" -conf \"ecstatica-1-game-combined.conf\""
+      config:
+        oslist: windows
+        ownsdlc: "5418150"
+      description: Play Original Game (DOSBox)
+      executable: DOSBox/DOSBOX/DOSBox.exe
+      workingdir: DOSBox
+    - arguments: "-conf ecstatica-1-graphics.conf"
+      config:
+        oslist: windows
+        ownsdlc: "5418150"
+      description: Configure Original Game Graphics (DOSBox)
+      executable: DOSBox/DOSBOX/ConfigTool.exe
+      type: config
+      workingdir: DOSBox
+4834850:
+  cloud:
+    saves:
+      - path: SNEG/Ecstatica II/Save Slots
+        pattern: 000*.ecs
+        root: WinAppDataRoaming
+      - path: SNEG/Ecstatica II/Save Slots
+        pattern: 000*.png
+        root: WinAppDataRoaming
+      - path: SNEG/Ecstatica II
+        pattern: settings.json
+        root: WinAppDataRoaming
+      - path: SNEG/Ecstatica II
+        pattern: store.bin
+        root: WinAppDataRoaming
+      - path: SNEG/Ecstatica II
+        pattern: controls.bin
+        root: WinAppDataRoaming
+  installDir: Ecstatica II
+  launch:
+    - executable: Ecstatica II.exe
+      type: default
+    - arguments: "-noconsole -conf ecstatica-2-base.conf -conf ecstatica-2-graphics.conf -conf ecstatica-2-game-combined.conf"
+      config:
+        oslist: windows
+        ownsdlc: "5418170"
+      description: Play Original Game (DOSBox)
+      executable: DOSBox/DOSBOX/DOSBox.exe
+      workingdir: DOSBox
+    - arguments: "-conf ecstatica-2-graphics.conf"
+      config:
+        oslist: windows
+        ownsdlc: "5418170"
+      description: Configure Original Game Graphics (DOSBox)
+      executable: DOSBox/DOSBOX/ConfigTool.exe
+      type: config
+      workingdir: DOSBox
 4849120: {}
 4856150: {}
 4863030: {}
@@ -664332,10 +664437,17 @@
       executable: peg_champ_beta.exe
       type: default
 4938460:
+  cloud:
+    saves:
+      - path: profiles
+        pattern: "*"
+        root: gameinstall
   installDir: Dawn of Magic
   launch:
     - executable: DawnOfMagic.exe
       type: default
+  nameLocalized:
+    russian: Магия Крови
 4953280: {}
 4959180:
   installDir: Blaster!
@@ -664545,5 +664657,8 @@
 5460970: {}
 5461430: {}
 5464760: {}
+5480400: {}
+5480410: {}
+5480430: {}
 34004563: {}
 3221903386: {}
