@@ -492980,6 +492980,18 @@ Neon Boost:
         - config
       when:
         - os: windows
+  installDir:
+    Neon Breaker: {}
+  launch:
+    "<base>/Neon Breaker.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/NeonBreaker.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 5054650
 Neon Brood:
@@ -859112,6 +859124,8 @@ World War II Online:
       tags:
         - config
 "World War II: Panzer Claws":
+  id:
+    lutris: world-war-ii-panzer-claws
   installDir:
     World War II Panzer Claws: {}
   launch:
@@ -859166,6 +859180,8 @@ World War II Online:
   steam:
     id: 1019250
 "World War III: Black Gold":
+  id:
+    lutris: world-war-iii-black-gold
   installDir:
     World War III Black Gold: {}
   launch:

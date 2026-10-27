@@ -129505,6 +129505,8 @@ Kingdom Elemental:
     steam: true
   pageId: 50320
   steam: 285350
+Kingdom Hearts 358/2 Days:
+  pageId: 222427
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   cloud:
     steam: true
@@ -149479,10 +149481,10 @@ Metro 2033 Redux:
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Metro_Redux_2033/}}"
     - "{{Game data/config|Linux|{{P|Game}}/{{p|uid}}/user.cfg}}"
     - "{{Game data/config|GOG.com|{{p|localappdata}}\\4A Games\\Metro 2033\\user.cfg}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\4A Games\\Metro 2033\\{{p|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\4A Games\\Metro 2033\\{{p|uid}}|'''(Next-Gen)'''Steam\\userdata\\{{p|uid}}\\286690\\remote}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\DeepSilver.Metro2033Redux_hmv7qcest37me\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Metro_Redux_2033/}}"
-    - "{{Game data/saves|Linux|{{P|Game}}/{{p|uid}}/}}"
+    - "{{Game data/saves|Linux|{{P|Game}}/{{p|uid}}}}"
     - "{{Game data/saves|GOG.com|{{p|userprofile}}\\Documents\\4A Games\\Metro 2033\\}}"
     - "{{Game data/saves|Epic Games Launcher|{{p|userprofile}}\\Documents\\4A Games\\Metro 2033\\}}"
 Metro 2039:
@@ -173353,6 +173355,8 @@ Panty Slide VR:
   renamedFrom:
     - PANTY SLIDE VR
   steam: 990500
+Panza Kick Boxing:
+  pageId: 222418
 Panzar:
   pageId: 40509
   steam: 240320
@@ -193500,6 +193504,8 @@ Resident Evil HD Remaster:
     - "{{Game data/config|Windows|{{p|localappdata}}\\CAPCOM\\Resident Evil - biohazard@HD REMASTER\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\304240\\remote\\}}"
     - "{{Game data/saves|GOG.com|{{P|localappdata}}\\GOG.com\\Galaxy\\Applications\\58424498340553405\\Storage\\Shared\\Files}}"
+Resident Evil Outbreak:
+  pageId: 222431
 "Resident Evil Re:Verse":
   cloud:
     steam: true
@@ -198407,6 +198413,8 @@ Roller Coaster Rampage:
     steam: true
   pageId: 40771
   steam: 209610
+Roller Coaster Rumbler:
+  pageId: 222421
 RollerCoaster Legends:
   pageId: 78236
   steam: 756040
@@ -282284,6 +282292,7 @@ World War II Online:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\City Interactive\\PacyficHU}}"
 "World War II: Panzer Claws":
+  lutris: world-war-ii-panzer-claws
   pageId: 9063
   steam: 254100
 "World War II: Sniper - Call to Victory":
@@ -282295,6 +282304,7 @@ World War II Online:
   pageId: 128034
   steam: 1019250
 "World War III: Black Gold":
+  lutris: world-war-iii-black-gold
   pageId: 40585
   steam: 254080
 "World War Party: Game of Trump":

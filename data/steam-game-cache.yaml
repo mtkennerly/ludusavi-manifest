@@ -664514,7 +664514,41 @@
         oslist: windows
       executable: ForgottenHaven.exe
       type: default
-5054650: {}
+5054650:
+  cloud:
+    saves:
+      - path: Dropzoner
+        pattern: profile.neonprofile
+        root: WinAppDataLocal
+      - path: Dropzoner
+        pattern: profile.neonprofile.bak
+        root: WinAppDataLocal
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Dropzoner
+            replace: NeonBreaker
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Dropzoner
+            replace: NeonBreaker
+        root: WinAppDataLocal
+        useInstead: WinAppDataLocal
+  installDir: Neon Breaker
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: NeonBreaker.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Neon Breaker.app
+      type: default
 5056390: {}
 5067360:
   cloud:
