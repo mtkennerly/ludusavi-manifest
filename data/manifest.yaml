@@ -62336,9 +62336,16 @@ Ayakashigami:
   cloud:
     steam: true
   files:
-    "<base>/Aya/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Aya/Saved/Config/Windows":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/Aya/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: ayasa-shadows-of-silence
     steamExtra:
@@ -62349,7 +62356,11 @@ Ayakashigami:
   launch:
     "<base>/Aya.exe":
       - when:
-          - bit: 64
+          - os: windows
+            store: steam
+    "<base>/Aya.sh":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 3146120
@@ -168039,6 +168050,19 @@ Cuit:
   steam:
     id: 614890
 Culdcept The First:
+  files:
+    "<home>/Saved Games/Culdcept The First/*.bin":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Culdcept The First: {}
+  launch:
+    "<base>/S-Tribute.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3825600
 "Culina: Hands in the Kitchen":
@@ -185552,6 +185576,19 @@ Deadweight:
   steam:
     id: 3228590
 "Deadzone: Rogue 2":
+  files:
+    "<winLocalAppData>/Oak/Saved/Config/Windows":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Oak/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   steam:
     id: 4465790
 "Dealer's Life":
@@ -207343,6 +207380,19 @@ Dog Jam:
 "Dog Man: Bark in Action":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Floor 84 Studio/Dog Man_ Bark in Action/<storeUserId>/*.dat":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dog Man Bark in Action: {}
+  launch:
+    "<base>/Dog Man Bark in Action.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4782240
 "Dog Man: Mission Impawsible":
@@ -301475,6 +301525,30 @@ Genius! NAZI-GIRL GoePPels-Chan ep3:
             store: steam
   steam:
     id: 1111220
+Gennady:
+  files:
+    "<winAppData>/Feed 64/Gennady/stable/345961400/controls.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Feed 64/Gennady/stable/345961400/savegame.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Feed 64/Gennady/stable/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1268630104
+  id:
+    steamExtra:
+      - 5456610
+  steam:
+    id: 2430010
 Geno The Fallen King:
   installDir:
     Geno The Fallen King 1: {}
@@ -420441,6 +420515,16 @@ Link the animals:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Zelda_LA/achievements":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Zelda_LA/advanced":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Zelda_LA/settings":
       tags:
         - config
@@ -420449,6 +420533,16 @@ Link the animals:
     "<xdgData>/Zelda_LA/SaveFiles":
       tags:
         - save
+      when:
+        - os: linux
+    "<xdgData>/Zelda_LA/achievements":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/Zelda_LA/advanced":
+      tags:
+        - config
       when:
         - os: linux
     "<xdgData>/Zelda_LA/settings":
@@ -437293,6 +437387,7 @@ Madison:
     lutris: madison
     steamExtra:
       - 1949860
+      - 2624150
   installDir:
     MADiSON: {}
   launch:
@@ -503581,6 +503676,12 @@ Nomad Drive:
       - 4451030
       - 4568400
       - 5199100
+  installDir:
+    Nomad Drive: {}
+  launch:
+    "<base>/Nomad Drive.exe":
+      - when:
+          - store: steam
   steam:
     id: 2223980
 Nomad Fleet:
@@ -504531,6 +504632,13 @@ Northgard Battlegrounds:
   id:
     steamExtra:
       - 5090100
+  installDir:
+    Northgard Battlegrounds: {}
+  launch:
+    "<base>/Northgard Battlegrounds.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4487060
 Northland:
@@ -523413,6 +523521,8 @@ Over the Hill:
         - config
       when:
         - os: windows
+  gog:
+    id: 1442763024
   id:
     lutris: over-the-hill
     steamExtra:
@@ -571656,6 +571766,9 @@ Qvadriga:
         - config
   steam:
     id: 297760
+Qwak Reborn:
+  steam:
+    id: 4704570
 "Qwerty's Prison":
   installDir:
     "Qwerty's Prison": {}
@@ -588516,13 +588629,29 @@ Remorses:
 "Remothered: Red Nun's Legacy":
   cloud:
     epic: true
+    gog: true
     steam: true
+  files:
+    "<winLocalAppData>/Remothered3/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1933416452
   id:
     lutris: remothered-red-nuns-legacy
     steamExtra:
+      - 5312420
+      - 5312450
       - 5312670
+  installDir:
+    REMT: {}
+  launch:
+    "<base>/Remothered.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3335310
 "Remothered: Tormented Fathers":
@@ -592148,6 +592277,22 @@ Retro Racers 2:
             store: steam
   steam:
     id: 887870
+Retro Racing 2:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Mr Qwak/Retro Racing 2/player":
+      when:
+        - store: steam
+  installDir:
+    Retro Racing 2: {}
+  launch:
+    "<base>/retroracing_2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3739960
 Retro Racing City:
   steam:
     id: 1027110
@@ -664489,6 +664634,20 @@ SoulSet:
             store: steam
   steam:
     id: 589860
+SoulTrap:
+  files:
+    "<base>/Games":
+      tags:
+        - save
+      when:
+        - os: windows
+  registry:
+    HKEY_CURRENT_USER/Software/Microforum/SoulTrap:
+      tags:
+        - config
+    HKEY_LOCAL_MACHINE/Software/WOW6432Node/Microforum/SoulTrap:
+      tags:
+        - config
 SoulWorker:
   installDir:
     Soulworker_GB: {}
@@ -716216,6 +716375,9 @@ TTT Classic:
     "<base>/ttt/karma.txt":
       when:
         - store: steam
+    "<base>/ttt/sprays/*.wad":
+      when:
+        - store: steam
     "<base>/ttt/voice_ban.dt":
       when:
         - store: steam
@@ -716223,12 +716385,17 @@ TTT Classic:
       when:
         - store: steam
   installDir:
-    TTT Classic: {}
+    TTTClassic: {}
   launch:
     "<base>/ttt.exe":
-      - arguments: "-game ttt -gl -steam -secure"
+      - arguments: "-game ttt -gl -steam -secure -addons"
         when:
           - os: windows
+            store: steam
+    "<base>/ttt.sh":
+      - arguments: "-steam -game ttt -addons -gl -secure"
+        when:
+          - os: linux
             store: steam
   steam:
     id: 4570530
@@ -754810,6 +754977,21 @@ The Legend of Viccess:
         - config
       when:
         - os: windows
+        - os: linux
+    "<xdgData>/soh/Save/file*.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgData>/soh/Save/global.sav":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/soh/shipofharkinian.json":
+      tags:
+        - config
+      when:
         - os: linux
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)":
   alias: "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)"
@@ -829861,10 +830043,21 @@ Virtually Real Life:
   steam:
     id: 1209610
 Virtue and a Sledgehammer:
+  files:
+    "<base>/Sledgehammer/UserDir/Saved/SaveGames/<storeUserId>/*.sav":
+      when:
+        - store: steam
   id:
     lutris: virtue-and-a-sledgehammer
     steamExtra:
       - 3743280
+  installDir:
+    Virtue and a Sledgehammer: {}
+  launch:
+    "<base>/Virtue and a Sledgehammer.exe":
+      - arguments: "-UserDir=\".\\UserDir\""
+        when:
+          - store: steam
   steam:
     id: 3743260
 Virtuelle Moorhuhn Jagd:
@@ -868022,6 +868215,12 @@ You Are Empty:
         - save
       when:
         - os: windows
+  installDir:
+    You Are Empty Absolute Edition: {}
+  launch:
+    "<base>/you_are_empty.exe":
+      - when:
+          - store: steam
   steam:
     id: 4760480
 You Are God:

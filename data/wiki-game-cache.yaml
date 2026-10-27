@@ -11030,9 +11030,13 @@ Alphaman:
 Alpine Skater:
   pageId: 210287
   steam: 3994690
+"Alpine Ski Racing 2007: Bode Miller vs. Hermann Maier":
+  pageId: 222434
 Alpine Ski VR:
   pageId: 53956
   steam: 553110
+Alpine Skiing 2005:
+  pageId: 222450
 Alt-Frequencies:
   cloud:
     gog: true
@@ -20181,6 +20185,9 @@ Ayakashigami:
   steamSide:
     - 4091500
     - 4091520
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Aya\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Aya\\Saved\\SaveGames}}"
 Ayni Fairyland:
   pageId: 108230
   steam: 885790
@@ -54429,7 +54436,6 @@ Cuit:
   pageId: 60315
   steam: 614890
 Culdcept The First:
-  malformed: true
   pageId: 217787
   steam: 3825600
 "Culina: Hands in the Kitchen":
@@ -60273,6 +60279,9 @@ Deadweight:
 "Deadzone: Rogue 2":
   pageId: 216591
   steam: 4465790
+  templates:
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Oak\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\Oak\\Saved\\SaveGames\\}}"
 Deal or No Deal:
   pageId: 90806
 "Deal or No Deal: Secret Vault Games":
@@ -98296,6 +98305,15 @@ Genius! NAZI-GIRL GoePPels-Chan ep2:
 Genius! NAZI-GIRL GoePPels-Chan ep3:
   pageId: 141821
   steam: 1111220
+Gennady:
+  gog: 1268630104
+  pageId: 222441
+  steam: 2430010
+  steamSide:
+    - 5456610
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Feed 64\\Gennady\\stable\\config.json|{{P|appdata}}\\Feed 64\\Gennady\\stable\\345961400\\controls.dat}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Feed 64\\Gennady\\stable\\345961400\\savegame.dat}}"
 Geno The Fallen King:
   pageId: 154041
   steam: 972180
@@ -137321,10 +137339,10 @@ Link the animals:
 "Link's Awakening DX HD":
   pageId: 191828
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Zelda_LA\\settings}}"
-    - "{{Game data/config|Linux|{{P|xdgdatahome}}/Zelda_LA/settings}}"
-    - "{{Game data/saves|Windows|{{P|game}}\\SaveFiles\\|{{p|localappdata}}\\Zelda_LA\\SaveFiles\\}}"
-    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Zelda_LA/SaveFiles/}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\Zelda_LA\\settings|{{p|localappdata}}\\Zelda_LA\\advanced}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/Zelda_LA/settings|{{P|xdgdatahome}}/Zelda_LA/advanced}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\SaveFiles\\|{{p|localappdata}}\\Zelda_LA\\SaveFiles\\|{{p|localappdata}}\\Zelda_LA\\achievements}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Zelda_LA/SaveFiles/|{{P|xdgdatahome}}/Zelda_LA/achievements}}"
 "Link: The Faces of Evil":
   pageId: 199714
 "Link: The Unleashed Nexus":
@@ -142794,6 +142812,7 @@ Madison:
   steam: 1670870
   steamSide:
     - 1949860
+    - 2624150
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\BLOODIOUS GAMES LLC\\MADiSON\\Data\\*.dat}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\BLOODIOUS GAMES LLC\\MADiSON\\Data\\}}"
@@ -163278,6 +163297,7 @@ Nighthaw-X3000:
   pageId: 61130
   steam: 606190
 Nighthawks:
+  state: outdated
   cloud:
     gog: true
   gog: 1732837498
@@ -171437,6 +171457,7 @@ Over the Hedge:
 Over the Hill:
   cloud:
     steam: true
+  gog: 1442763024
   lutris: over-the-hill
   pageId: 205758
   renamedFrom:
@@ -187182,6 +187203,9 @@ Qvadriga:
   steam: 297760
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Turnopia\\Qvadriga\\}}"
+Qwak Reborn:
+  pageId: 222461
+  steam: 4704570
 "Qwerty's Prison":
   pageId: 141024
   steam: 1103000
@@ -187787,9 +187811,21 @@ RTAG rise:
 RTL Biathlon 2009:
   pageId: 79490
   steam: 374090
+RTL Ski Jumping 2005:
+  pageId: 222452
+RTL Ski Jumping 2006:
+  pageId: 222445
 RTL Ski Jumping 2007:
   pageId: 79492
   steam: 374090
+RTL Skispringen 2002:
+  pageId: 222467
+RTL Skispringen 2003:
+  pageId: 222464
+RTL Skispringen 2004:
+  pageId: 222459
+RTL Skispringen Herausforderung 2001:
+  pageId: 222469
 "RTS Commander: Smash the Rebels":
   pageId: 81604
   steam: 765370
@@ -192724,6 +192760,7 @@ Remote Control:
 "Remothered: Red Nun's Legacy":
   cloud:
     epic: true
+    gog: true
     steam: true
     xbox: true
   gog: 1933416452
@@ -192731,6 +192768,8 @@ Remote Control:
   pageId: 214598
   steam: 3335310
   steamSide:
+    - 5312420
+    - 5312450
     - 5312670
 "Remothered: Tormented Fathers":
   cloud:
@@ -194021,6 +194060,11 @@ Retro Racers:
 Retro Racers 2:
   pageId: 98898
   steam: 887870
+Retro Racing 2:
+  cloud:
+    steam: true
+  pageId: 222463
+  steam: 3739960
 Retro Racing City:
   pageId: 132248
   steam: 1027110
@@ -212661,6 +212705,8 @@ Skirmish:
 Skirmish Line:
   pageId: 70232
   steam: 666820
+Skispringen 2000:
+  pageId: 222471
 Skjoldur Story:
   cloud:
     steam: true
@@ -217393,6 +217439,9 @@ SoulSet:
   steam: 589860
 SoulTrap:
   pageId: 206155
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Microforum\\SoulTrap\\|{{p|hklm}}\\Software\\{{p|wow64}}\\Microforum\\SoulTrap\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Games\\}}"
 SoulWorker:
   pageId: 87876
   steam: 1377580
@@ -246838,9 +246887,9 @@ The Legend of Viccess:
     - "The Legend of Zelda: Ocarina of Time (Ship of Harkinian/unofficial PC port)"
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Save\\global.sav|{{P|game}}\\shipofharkinian.json}}"
-    - "{{Game data/config|Linux|{{P|game}}/Save/global.sav|{{P|game}}/shipofharkinian.json}}"
+    - "{{Game data/config|Linux|{{P|game}}/Save/global.sav|{{P|game}}/shipofharkinian.json|{{P|xdgdatahome}}/soh/Save/global.sav|{{P|xdgdatahome}}/soh/shipofharkinian.json}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Save\\file*.sav}}"
-    - "{{Game data/saves|Linux|{{P|game}}/Save/file*.sav}}"
+    - "{{Game data/saves|Linux|{{P|game}}/Save/file*.sav|{{P|xdgdatahome}}/soh/Save/file*.sav}}"
 "The Legend of Zelda: Twilight Princess (Dusklight)":
   pageId: 216508
   renamedFrom:
@@ -280634,6 +280683,8 @@ Winx Club:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini|{{p|game}}\\winx.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Media\\Saved}}"
+WipEout Omega Collection:
+  pageId: 222435
 Wipe Out VR:
   pageId: 55151
   steam: 553630

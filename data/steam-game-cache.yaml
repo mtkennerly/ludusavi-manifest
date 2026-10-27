@@ -613993,7 +613993,11 @@
   launch:
     - executable: CastingFrankStone.exe
       type: option2
-2223980: {}
+2223980:
+  installDir: Nomad Drive
+  launch:
+    - executable: Nomad Drive.exe
+      type: default
 2224160:
   installDir: Citadel Stormer 2
   launch:
@@ -623917,6 +623921,10 @@
       type: option1
   nameLocalized:
     japanese: スローン・アンド・リバティ
+2430010:
+  nameLocalized:
+    schinese: 怒汉阿根
+    tchinese: 怒漢阿根
 2430280:
   cloud:
     saves:
@@ -646471,8 +646479,11 @@
   installDir: Ayasa Shadows of Silence
   launch:
     - config:
-        osarch: "64"
+        oslist: windows
       executable: Aya.exe
+    - config:
+        oslist: linux
+      executable: Aya.sh
   nameLocalized:
     schinese: 寂静之国的波斯菊
     tchinese: 寂靜之國的波斯菊
@@ -650528,7 +650539,93 @@
     koreana: 프로레슬링 스토리 (Pro Wrestler Story)
     schinese: 摔跤擂台物语 (Pro Wrestler Story)
     tchinese: 摔角擂臺物語 (Pro Wrestler Story)
-3335310: {}
+3335310:
+  cloud:
+    saves:
+      - path: Remothered3/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: REMT
+  launch:
+    - config:
+        betakey: "internal_main_ci_dev, external_qa, internal_bug_test, hdr_test, internal_performance_test1"
+        osarch: "64"
+        oslist: windows
+      description: Development
+      executable: "Remothered\\Binaries\\Win64\\Remothered.exe"
+      type: option1
+    - config:
+        betakey: "internal_main_ci_dev, external_qa, internal_bug_test, internal_release_candidate, external_tryevidence, hdr_test, internal_performance_test1"
+        osarch: "64"
+        oslist: windows
+      description: Shipping
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Shipping.exe"
+      type: option2
+    - config:
+        betakey: internal_feature_test2
+        osarch: "64"
+        oslist: windows
+      description: Test
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Test.exe"
+      type: option3
+    - config:
+        betakey: "external_gold, external_demoshowcase, external_press"
+        osarch: "64"
+        oslist: windows
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Shipping.exe"
+      type: default
+    - config:
+        betakey: external_steamreview
+      executable: Remothered.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Remothered.exe
+    - config:
+        betakey: "internal_main_ci_dev, external_qa, internal_bug_test, hdr_test, internal_performance_test1"
+        osarch: "64"
+        oslist: windows
+      description: Test
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Test.exe"
+      type: option3
+    - config:
+        betakey: internal_feature_test1
+        osarch: "64"
+        oslist: windows
+      description: Development
+      executable: "Remothered\\Binaries\\Win64\\Remothered.exe"
+      type: option1
+    - config:
+        betakey: internal_feature_test1
+        osarch: "64"
+        oslist: windows
+      description: Shipping
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Shipping.exe"
+      type: option2
+    - config:
+        betakey: internal_feature_test1
+        osarch: "64"
+        oslist: windows
+      description: Test
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Test.exe"
+      type: option3
+    - config:
+        betakey: internal_feature_test2
+        osarch: "64"
+        oslist: windows
+      description: Development
+      executable: "Remothered\\Binaries\\Win64\\Remothered.exe"
+      type: option1
+    - config:
+        betakey: internal_feature_test2
+        osarch: "64"
+        oslist: windows
+      description: Shipping
+      executable: "Remothered\\Binaries\\Win64\\Remothered-Win64-Shipping.exe"
+      type: option2
 3335460:
   nameLocalized:
     brazilian: "Broken Sword - O Espelho Fumegante: Reforged"
@@ -657303,6 +657400,18 @@
       type: default
   nameLocalized:
     japanese: "MODEL Debut3 #nicola/モデルデビュー3 ニコラ"
+3739960:
+  cloud:
+    saves:
+      - path: Mr Qwak/Retro Racing 2/player/
+        pattern: "*"
+        root: WinAppDataLocal
+  installDir: Retro Racing 2
+  launch:
+    - config:
+        oslist: windows
+      executable: retroracing_2.exe
+      type: default
 3741860:
   cloud:
     saves:
@@ -657386,7 +657495,18 @@
     - config:
         oslist: macos
       executable: ASM_steam.app
-3743260: {}
+3743260:
+  cloud:
+    saves:
+      - path: "Sledgehammer/UserDir/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Virtue and a Sledgehammer
+  launch:
+    - arguments: "-UserDir=\".\\UserDir\""
+      executable: Virtue and a Sledgehammer.exe
+  nameLocalized:
+    schinese: 美德与重锤
 3743670: {}
 3743790:
   installDir: Thomas & Friends™ Wonders of Sodor
@@ -658393,6 +658513,19 @@
     schinese: "BLUE REFLECTION Quartet: 少女们的奇迹"
     tchinese: "BLUE REFLECTION Quartet: 少女們的奇蹟"
 3825600:
+  cloud:
+    saves:
+      - path: Culdcept The First
+        pattern: "*.bin"
+        platforms:
+          - Windows
+        root: WinSavedGames
+  installDir: Culdcept The First
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: S-Tribute.exe
   nameLocalized:
     japanese: カルドセプト ザ ファースト
 3827840:
@@ -663549,6 +663682,11 @@
     - executable: The Crimson Hunt.exe
       type: default
 4487060:
+  installDir: Northgard Battlegrounds
+  launch:
+    - config:
+        oslist: windows
+      executable: Northgard Battlegrounds.exe
   nameLocalized:
     schinese: Northgard Battlegrounds 北境战场
 4487840:
@@ -663796,12 +663934,19 @@
       - path: ttt
         pattern: voice_volume.dt
         root: gameinstall
-  installDir: TTT Classic
+      - path: ttt/sprays
+        pattern: "*.wad"
+        root: gameinstall
+  installDir: TTTClassic
   launch:
-    - arguments: "-game ttt -gl -steam -secure"
+    - arguments: "-game ttt -gl -steam -secure -addons"
       config:
         oslist: windows
       executable: ttt.exe
+    - arguments: "-steam -game ttt -addons -gl -secure"
+      config:
+        oslist: linux
+      executable: ttt.sh
 4570720:
   cloud:
     saves:
@@ -664070,6 +664215,7 @@
 4694470:
   nameLocalized:
     schinese: 清扫至天明
+4704570: {}
 4704690:
   installDir: MECCHA CHAMELEON
   launch:
@@ -664213,12 +664359,37 @@
 4752390: {}
 4757750: {}
 4760480:
+  cloud:
+    saves:
+      - path: My Games/YaE_Absolute/savegames
+        pattern: Save*
+        root: WinMyDocuments
+      - path: My Games/YaE_Absolute/savegames
+        pattern: tmp_cur_sshot.tga
+        root: WinMyDocuments
+  installDir: You Are Empty Absolute Edition
+  launch:
+    - executable: you_are_empty.exe
+      type: default
   nameLocalized:
     russian: "You Are Empty: Абсолютное издание"
     ukrainian: "You Are Empty: Абсолютне видання"
 4767480: {}
 4769040: {}
 4782240:
+  cloud:
+    saves:
+      - path: "Floor 84 Studio/Dog Man_ Bark in Action/{Steam3AccountID}/"
+        pattern: "*.dat"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Dog Man Bark in Action
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Dog Man Bark in Action.exe
   nameLocalized:
     brazilian: "Homem- Cão: Latidos em Ação"
     japanese: ドッグマン・ワンダフルな復活

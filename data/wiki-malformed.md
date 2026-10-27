@@ -6,7 +6,6 @@
 * [Catherine Classic](https://www.pcgamingwiki.com/wiki/?curid=124963)
 * [Colin McRae Rally 2.0](https://www.pcgamingwiki.com/wiki/?curid=22766)
 * [Commandos: Behind Enemy Lines](https://www.pcgamingwiki.com/wiki/?curid=561)
-* [Culdcept The First](https://www.pcgamingwiki.com/wiki/?curid=217787)
 * [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
 * [Football Manager 2010](https://www.pcgamingwiki.com/wiki/?curid=92556)
