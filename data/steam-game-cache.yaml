@@ -283182,6 +283182,11 @@
   launch:
     - executable: Alchemage.exe
       type: none
+  nameLocalized:
+    brazilian: Alquimia e Magia
+    english: Alchemage
+    schinese: 炼金与魔法
+    tchinese: 煉金與魔法
 691420:
   installDir: Continuous Girl
   launch:
@@ -630571,8 +630576,8 @@
       type: default
     - arguments: "-logPSO"
       config:
-        betakey: "qa-internal,internal,qa-test"
-      description: with -logPSO
+        betakey: "qa-internal,internal,qa-test,public_beta"
+      description: Play with -logPSO enabled
       executable: Stygian.exe
       type: option1
 2581700:
@@ -654831,7 +654836,7 @@
         osCompare: "="
         pathTransforms:
           - find: Featherweight Games/ChainedBeasts/
-            replace: unity.Featherweight Games.ChainedBeasts/
+            replace: com.Featherweight-Games.ChainedBeasts/
         root: WinAppDataLocalLow
         useInstead: MacAppSupport
   installDir: Chained Beasts
