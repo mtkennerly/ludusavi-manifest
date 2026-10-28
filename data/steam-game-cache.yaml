@@ -513201,7 +513201,32 @@
         oslist: macos
       executable: Exphelius.app
       type: default
-1167820: {}
+1167820:
+  cloud:
+    saves:
+      - path: AirportContraband/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Airport Contraband
+  launch:
+    - arguments: "-d3d12 -sm6"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Quality Graphics (SM6)
+      executable: AirportContraband.exe
+      type: option1
+    - arguments: "-d3d12 -sm5"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Performance Mode (SM5)
+      executable: AirportContraband.exe
+      type: option2
+  nameLocalized:
+    japanese: エアポートコントラバンド
+    schinese: 机场安检：包过一下
+    tchinese: 機場查緝：箱當可疑
 1167850:
   installDir: Penguin Park 3D
   launch:
@@ -632697,6 +632722,7 @@
     - config:
         oslist: macos
       executable: Free Stars The Ur-Quan Masters.app/Contents/MacOS/The Ur-Quan Masters
+2646170: {}
 2646460:
   cloud:
     saves:
@@ -636514,7 +636540,17 @@
   launch:
     - executable: Bloodshed.exe
       type: default
-2747660: {}
+2747660:
+  installDir: Zombie Assault
+  launch:
+    - config:
+        oslist: windows
+      executable: zombieassault.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: zombieassault.app
+      type: default
 2747770:
   cloud:
     saves:
@@ -637685,6 +637721,7 @@
         oslist: macos
       executable: The WereCleaner/The WereCleaner.app
       type: default
+2795110: {}
 2795270:
   cloud:
     saves:
@@ -662966,6 +663003,16 @@
     schinese: "古神:风里希"
     tchinese: "古神:風裡希"
 4348910:
+  cloud:
+    saves:
+      - path: Questing Goose Studio/Probably Stolen
+        pattern: "*.es3"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Probably Stolen
+  launch:
+    - executable: Probably Stolen.exe
   nameLocalized:
     russian: Probably Stolen – симулятор магазина в киберпанке
     schinese: 深空当铺：可能是偷的
@@ -664804,6 +664851,12 @@
     ukrainian: "Герой Королівства: Відлуння"
 5138990: {}
 5141030: {}
+5178570:
+  nameLocalized:
+    japanese: 『Winds of Viridia ～ヴィリディアの風～』
+    koreana: 비리디아의 바람(Winds of Viridia)
+    schinese: 翠域之风
+    tchinese: 翡芮迪亞之風
 5195880: {}
 5210430: {}
 5212940:

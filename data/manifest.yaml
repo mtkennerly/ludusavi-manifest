@@ -27848,6 +27848,12 @@ Airport CEO:
 Airport Contraband:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/AirportContraband/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Airport Contraband: {}
   steam:
     id: 1167820
 Airport Fire Department - The Simulation:
@@ -153068,6 +153074,7 @@ Control Freak:
 Control Resonant:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<root>/userdata/<storeUserId>/3669870/remote":
@@ -153081,7 +153088,16 @@ Control Resonant:
         - config
       when:
         - os: windows
+  gog:
+    id: 1627372090
   id:
+    gogExtra:
+      - 1339377452
+      - 1454509523
+      - 1532195723
+      - 1723844482
+      - 1846427364
+      - 1885803931
     lutris: control-resonant--1
     steamExtra:
       - 4403940
@@ -289280,6 +289296,7 @@ Front Mission Evolved:
       when:
         - os: windows
   id:
+    lutris: front-mission-evolved
     steamExtra:
       - 43005
       - 43006
@@ -435365,6 +435382,8 @@ MX vs. ATV Reflex:
       when:
         - os: windows
           store: steam
+  id:
+    lutris: mx-vs-atv-reflex
   installDir:
     MX vs ATV Reflex: {}
   launch:
@@ -480436,6 +480455,9 @@ My Arctic Farm:
             store: steam
   steam:
     id: 1025390
+My Arms Are Longer Now:
+  steam:
+    id: 2646170
 My Beastly Lovers:
   files:
     "<home>/AppData/LocalLow/Holy Potato Studios":
@@ -537812,6 +537834,9 @@ Petal Crash:
             store: steam
   steam:
     id: 1211110
+Petal Runner:
+  steam:
+    id: 2795110
 "Peter Jackson's King Kong":
   files:
     "<base>/KingKong.sav":
@@ -559455,6 +559480,17 @@ Probably Archery:
 Probably Stolen:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Questing Goose Studio/Probably Stolen/*.es3":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Probably Stolen: {}
+  launch:
+    "<base>/Probably Stolen.exe":
+      - when:
+          - store: steam
   steam:
     id: 4348910
 Procyon:
@@ -695047,6 +695083,8 @@ Strider (2014):
         - save
       when:
         - store: steam
+  id:
+    lutris: strider-2014
   installDir:
     Strider: {}
   launch:
@@ -713054,11 +713092,15 @@ Syberia 3:
         - save
       when:
         - os: windows
+        - os: windows
+          store: microsoft
     "<home>/AppData/LocalLow/Microids/Syberia3/Options":
       tags:
         - config
       when:
         - os: windows
+        - os: windows
+          store: microsoft
   gog:
     id: 1965973671
   id:
@@ -853003,6 +853045,11 @@ Winds of Trade:
             store: steam
   steam:
     id: 576260
+Winds of Viridia:
+  cloud:
+    steam: true
+  steam:
+    id: 5178570
 Windscape:
   files:
     "<home>/AppData/LocalLow/Headup/Windscape/Savegames":
@@ -874334,6 +874381,17 @@ Zombie Army VR:
     steamExtra:
       - 3929860
       - 4377450
+  installDir:
+    Zombie Assault: {}
+  launch:
+    "<base>/zombieassault.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/zombieassault.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_CURRENT_USER/Software/Ninja Kiwi/Zombie Assault:
       tags:

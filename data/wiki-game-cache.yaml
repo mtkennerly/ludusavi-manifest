@@ -49525,7 +49525,17 @@ Control Freak:
 Control Resonant:
   cloud:
     epic: true
+    gog: true
     steam: true
+    xbox: true
+  gog: 1627372090
+  gogSide:
+    - 1339377452
+    - 1454509523
+    - 1532195723
+    - 1723844482
+    - 1846427364
+    - 1885803931
   lutris: control-resonant--1
   pageId: 182878
   renamedFrom:
@@ -94274,6 +94284,7 @@ Front Lines:
 Front Mission Evolved:
   cloud:
     steam: true
+  lutris: front-mission-evolved
   pageId: 41088
   steam: 43000
   steamSide:
@@ -94931,6 +94942,8 @@ Fun Fantasy Girls Jigsaw:
 Fun Hospital:
   pageId: 97954
   steam: 829420
+Fun House:
+  pageId: 222496
 Fun VR Farm:
   pageId: 125597
   steam: 1007560
@@ -142159,6 +142172,7 @@ MX vs. ATV Legends:
 MX vs. ATV Reflex:
   cloud:
     steam: true
+  lutris: mx-vs-atv-reflex
   pageId: 11931
   steam: 55140
   templates:
@@ -157235,6 +157249,9 @@ My Agent is a Futanari:
 My Arctic Farm:
   pageId: 127918
   steam: 1025390
+My Arms Are Longer Now:
+  pageId: 222500
+  steam: 2646170
 My Beastly Lovers:
   pageId: 80543
   steam: 776610
@@ -176370,6 +176387,9 @@ Petal Crash:
   steam: 1211110
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\storage.dat}}"
+Petal Runner:
+  pageId: 222502
+  steam: 2795110
 "Peter Gabriel: Eve":
   pageId: 219360
 "Peter Jackson's King Kong":
@@ -187812,6 +187832,8 @@ RRRR3:
 RTAG rise:
   pageId: 87011
   steam: 800680
+RTL Biathlon 2007:
+  pageId: 222506
 RTL Biathlon 2008:
   pageId: 222491
 RTL Biathlon 2009:
@@ -227505,6 +227527,7 @@ Strider:
 Strider (2014):
   cloud:
     steam: true
+  lutris: strider-2014
   pageId: 14832
   steam: 235210
   templates:
@@ -233199,7 +233222,9 @@ Syberia 3:
   steam: 464340
   templates:
     - "{{Game data/config|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Microids\\Syberia3\\Options}}"
+    - "{{Game data/config|Microsoft Store|{{p|USERPROFILE}}\\AppData\\LocalLow\\Microids\\Syberia3\\Options}}"
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Microids\\Syberia3}}"
+    - "{{Game data/saves|Microsoft Store|{{p|USERPROFILE}}\\AppData\\LocalLow\\Microids\\Syberia3}}"
 Syberia II:
   cloud:
     gog: true
@@ -240560,6 +240585,8 @@ The Charnel House Trilogy:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\acsetup.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\Saved Games\\The Charnel House Trilogy\\}}"
+"The Chase on Tom Sawyer's Island":
+  pageId: 222494
 The Chasm:
   pageId: 149130
   steam: 1140900
@@ -280272,6 +280299,11 @@ Winds of Trade:
     steam: true
   pageId: 57329
   steam: 576260
+Winds of Viridia:
+  cloud:
+    steam: true
+  pageId: 222498
+  steam: 5178570
 Windscape:
   pageId: 36594
   steam: 363950
