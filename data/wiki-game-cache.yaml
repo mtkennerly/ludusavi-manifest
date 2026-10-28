@@ -163297,7 +163297,6 @@ Nighthaw-X3000:
   pageId: 61130
   steam: 606190
 Nighthawks:
-  state: outdated
   cloud:
     gog: true
   gog: 1732837498
@@ -259186,7 +259185,7 @@ Total Tank Simulator:
   steamSide:
     - 201270
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\The Creative Assembly\\Shogun2\\scripts\\*.txt}}"
+    - "{{Game data/config|Windows|{{p|appdata}}\\The Creative Assembly\\Shogun2\\scripts\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Feral Interactive/Total War SHOGUN 2/AppData/scripts/}}"
     - "{{Game data/config|Linux|{{p|xdgdatahome}}/feral-interactive/Total War SHOGUN 2/}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\The Creative Assembly\\Shogun2\\}}"

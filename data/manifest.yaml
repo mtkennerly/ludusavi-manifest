@@ -791900,7 +791900,7 @@ Total Tank Simulator:
         - save
       when:
         - os: windows
-    "<winAppData>/The Creative Assembly/Shogun2/scripts/*.txt":
+    "<winAppData>/The Creative Assembly/Shogun2/scripts":
       tags:
         - config
       when:
