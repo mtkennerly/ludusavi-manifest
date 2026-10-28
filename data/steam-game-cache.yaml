@@ -664267,7 +664267,17 @@
 4694470:
   nameLocalized:
     schinese: 清扫至天明
-4704570: {}
+4704570:
+  installDir: Qwak
+  launch:
+    - config:
+        oslist: windows
+      executable: qwak.exe
+      workingdir: "."
+    - config:
+        oslist: macos
+      executable: qwakreborn-steam.app/Contents/MacOS/qwakreborn-steam
+      type: default
 4704690:
   installDir: MECCHA CHAMELEON
   launch:

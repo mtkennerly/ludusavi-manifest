@@ -26973,6 +26973,14 @@ BiT Evolution:
     steam: true
   pageId: 47571
   steam: 342020
+Biathlon 2003:
+  pageId: 222515
+Biathlon 2004:
+  pageId: 222512
+Biathlon 2005:
+  pageId: 222511
+"Biathlon 2006: Go For Gold":
+  pageId: 222509
 Biathlon Battle VR:
   pageId: 152030
   steam: 1004200
@@ -84039,6 +84047,7 @@ Faces of War:
   cloud:
     steam: true
   gog: 1428586504
+  lutris: faces-of-war
   pageId: 34370
   steam: 289300
   templates:
@@ -228843,10 +228852,15 @@ Suite 776:
 Sulfur:
   cloud:
     steam: true
+  lutris: sulfur
   pageId: 205997
   renamedFrom:
     - SULFUR
   steam: 2124120
+  steamSide:
+    - 2845200
+    - 3025640
+    - 4268010
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Perfect Random\\Sulfur\\PlayerSetting_*}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Perfect Random\\Sulfur\\*.es3}}"
