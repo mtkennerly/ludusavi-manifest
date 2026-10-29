@@ -595215,6 +595215,7 @@
     - description: DirectX Version
       executable: atari50.exe
       type: option2
+1919480: {}
 1919590:
   installDir: NBA 2K23
   launch:
@@ -619035,6 +619036,9 @@
   nameLocalized:
     schinese: "星河战队: 终焉虫潮"
     tchinese: "星艦戰將: 終焉蟲潮"
+2321960:
+  nameLocalized:
+    schinese: 灵渡之境
 2322010:
   cloud:
     saves:
@@ -629477,6 +629481,10 @@
       description: Start game (Single-thread rendering)
       executable: BattlestarGalacticaScatteredHopes.exe
       type: option1
+    - config:
+        oslist: macos
+      executable: BattlestarGalacticaScatteredHopes.app/Contents/MacOS/Battlestar Galactica Scattered Hopes
+      type: default
 2536510:
   nameLocalized:
     sc_schinese: 逆神者
@@ -656716,7 +656724,14 @@
         oslist: macos
       executable: Prison Escape Simulator.app
       type: default
-3672840: {}
+3672840:
+  installDir: Joe & Mac Retro Collection
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Joe & Mac.exe
+      type: default
 3674270:
   cloud:
     saves:
@@ -664867,6 +664882,37 @@
     koreana: 비리디아의 바람(Winds of Viridia)
     schinese: 翠域之风
     tchinese: 翡芮迪亞之風
+5189500:
+  cloud:
+    saves:
+      - path: CubeQuad/A Place for Every Potion
+        pattern: PlayerProgress
+        root: WinAppDataLocalLow
+      - path: CubeQuad/A Place for Every Potion
+        pattern: PlayerSettings
+        root: WinAppDataLocalLow
+      - path: CubeQuad/A Place for Every Potion
+        pattern: GlobalProgress
+        root: WinAppDataLocalLow
+      - path: CubeQuad/A Place for Every Potion
+        pattern: PotionsPersistentData_*
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: A Place for Every Potion
+  launch:
+    - config:
+        oslist: macos
+      executable: A Place for Every Potion.app
+      type: default
+    - config:
+        oslist: windows
+      executable: A Place for Every Potion.exe
+      type: default
 5195880: {}
 5210430: {}
 5212940:

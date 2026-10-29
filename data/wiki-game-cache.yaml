@@ -3395,6 +3395,9 @@ A Place Out Here:
   renamedFrom:
     - Stillmere
   steam: 3149450
+A Place for Every Potion:
+  pageId: 222525
+  steam: 5189500
 A Place for the Unwilling:
   cloud:
     steam: true
@@ -12859,6 +12862,8 @@ Angry Birds 2:
   pageId: 163826
 Angry Birds Epic:
   pageId: 203762
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Rovio Entertainment Ltd_\\Epic\\prefs\\player}}"
 Angry Birds Friends:
   pageId: 163824
 Angry Birds Reloaded:
@@ -26973,6 +26978,8 @@ BiT Evolution:
     steam: true
   pageId: 47571
   steam: 342020
+Biathlon 2002:
+  pageId: 222518
 Biathlon 2003:
   pageId: 222515
 Biathlon 2004:
@@ -95123,6 +95130,8 @@ Fur Up:
 Fur the Game:
   pageId: 94134
   steam: 856600
+"Furby: Big Fun In Furbyland":
+  pageId: 222536
 "Fureraba: Friend to Lover":
   pageId: 90190
   steam: 822760
@@ -125187,6 +125196,7 @@ Jimmy Kamikaze:
   pageId: 108356
   steam: 918370
 Jimmy Neutron vs. Jimmy Negatron:
+  lutris: jimmy-neutron-vs-jimmy-negatron
   pageId: 148182
 "Jimmy Neutron: Boy Genius":
   pageId: 166294
@@ -158825,6 +158835,7 @@ NASCAR Heat 5:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\704Games\\NASCAR Heat 5}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\NASCAR Heat 5\\SaveData\\}}"
 NASCAR Heat Evolution:
+  lutris: nascar-heat-evolution
   pageId: 39956
   steam: 508450
   steamSide:
@@ -176659,6 +176670,8 @@ Phantom Blade Zero:
   lutris: phantom-blade-0
   pageId: 208385
   steam: 4115450
+  steamSide:
+    - 5041150
 Phantom Brave PC:
   cloud:
     steam: true
@@ -206285,6 +206298,7 @@ Sengoku Neet:
 Sengoku Rance:
   cloud:
     gog: true
+    steam: true
   gog: 1567591607
   pageId: 175892
   steam: 3867170
@@ -212364,6 +212378,9 @@ Skate & Date:
 Skate City:
   pageId: 147755
   steam: 1361670
+Skate Shop Simulator:
+  pageId: 222520
+  steam: 1919480
 Skate Story:
   cloud:
     gog: true
@@ -220900,6 +220917,9 @@ Spirit Arena:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\SpiritCity\\Saved\\SaveGames\\SCLS_Settings.sav|{{P|localappdata}}\\SpiritCity\\Saved\\SaveGames\\EnhancedInputUserSettings.sav|{{P|localappdata}}\\SpiritCity\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\SpiritCity\\Saved\\SaveGames\\}}"
+Spirit Crossing:
+  pageId: 222528
+  steam: 2321960
 Spirit Fighters:
   pageId: 151135
   steam: 1149200
@@ -223255,6 +223275,8 @@ Star Wars Outlaws:
   pageId: 120358
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\player}}"
+"Star Wars: Early Learning Activity Center":
+  pageId: 222534
 "Star Wars: Empire at War":
   cloud:
     steam: true
@@ -223339,6 +223361,8 @@ Star Wars Outlaws:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Fantasy Flight Games\\Legends of the Alliance\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Imperial Assault_Data\\SavedGames}}"
+"Star Wars: Jar Jar's Journey":
+  pageId: 222530
 "Star Wars: Jedi Knight - Dark Forces II":
   cloud:
     gog: true
@@ -223624,6 +223648,8 @@ Star Wars Outlaws:
   pageId: 6117
   templates:
     - "{{Game data/config|Windows|{{p|windir}}\\Yodesk.ini}}"
+"Star Wars: Yoda's Challenge Activity Center":
+  pageId: 222532
 "Star Wars: Zero Company":
   cloud:
     steam: true
@@ -282510,6 +282536,7 @@ World of Goo (2008):
   cloud:
     steam: true
   gog: 1421855536
+  lutris: world-of-goo
   pageId: 167088
   steam: 22000
   templates:
