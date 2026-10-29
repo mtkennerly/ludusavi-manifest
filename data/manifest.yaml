@@ -99213,6 +99213,9 @@ Boom Island:
 Boom Squad:
   steam:
     id: 712360
+Boom or Bloom:
+  steam:
+    id: 5503620
 Boom! Boom!:
   installDir:
     Boom! Boom!: {}
@@ -114664,6 +114667,11 @@ Cairn:
   gog:
     id: 1300489906
   id:
+    gogExtra:
+      - 1421906078
+      - 1855069799
+      - 1883087033
+      - 2073429017
     lutris: cairn--3
     steamExtra:
       - 3937220
@@ -162475,9 +162483,24 @@ Croc 2:
         - config
 "Croc 2: Kingdom of the Gobbos":
   cloud:
+    gog: true
     steam: true
+  files:
+    "<winAppData>/Croc 2/saves/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1402283956
+  id:
+    lutris: croc-2-kingdom-of-the-gobbos
+  installDir:
+    Croc 2: {}
+  launch:
+    "<base>/croc2.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4198360
 "Croc's World Construction Kit":
@@ -205760,6 +205783,7 @@ Dive Inside:
     id: 955980
 "Dive or Die: Children of Rain":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/DropRateStudio/Dive or Die":
@@ -205768,6 +205792,8 @@ Dive Inside:
         - save
       when:
         - os: windows
+  gog:
+    id: 1169559449
   id:
     lutris: dive-or-die-children-of-rain
     steamExtra:
@@ -434836,6 +434862,12 @@ MINImax Tinyverse:
     gog: true
     steam: true
   files:
+    "<winLocalAppData>/MIO/Saves/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
     "<winLocalAppData>/Packages/FocusHomeInteractiveSA.MioMemoriesinOrbit_4hny5m903y3g0/SystemAppData/wgs":
       tags:
         - save
@@ -538669,10 +538701,21 @@ Phantom Blade Zero:
   cloud:
     steam: true
   files:
-    "<base>/ProjectPBZ/Saved/SaveGames/Steam/<storeUserId>/**/*.sav":
+    "<base>/ProjectPBZ/Saved":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
+    "<base>/ProjectPBZ/Saved/SaveGames/Steam/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/ProjectPBZ/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: phantom-blade-0
     steamExtra:
@@ -627428,6 +627471,14 @@ Secret Files 3:
           - store: steam
   steam:
     id: 40330
+"Secret Files: Tunguska - Remastered":
+  gog:
+    id: 1362256803
+  id:
+    steamExtra:
+      - 5363640
+  steam:
+    id: 4504840
 Secret Government:
   cloud:
     steam: true
@@ -677701,6 +677752,8 @@ Spy Drops Gaiden:
     "<base>/Saves/*.*":
       when:
         - store: steam
+  id:
+    lutris: spy-fox-2-some-assembly-required
   installDir:
     Spy Fox 2: {}
   launch:
@@ -677730,6 +677783,8 @@ Spy Drops Gaiden:
     "<base>/Saves/*.*":
       when:
         - store: steam
+  id:
+    lutris: spy-fox-3-operation-ozone
   installDir:
     Spy Fox 3: {}
   launch:
@@ -677783,6 +677838,8 @@ Spy Drops Gaiden:
         - config
       when:
         - os: windows
+  id:
+    lutris: spy-fox-in-cheese-chase
   installDir:
     Spy Fox In Cheese Chase: {}
   launch:
@@ -677812,6 +677869,8 @@ Spy Drops Gaiden:
     "<base>/Saves/*.*":
       when:
         - store: steam
+  id:
+    lutris: spy-fox-in-hold-the-mustard
   installDir:
     Spy Fox In Hold the Mustard: {}
   launch:
@@ -677853,6 +677912,8 @@ Spy Drops Gaiden:
         - save
       when:
         - os: windows
+  id:
+    lutris: spy-fox-in-dry-cereal
   installDir:
     Spy Fox 1: {}
   launch:
@@ -712572,6 +712633,7 @@ Sword of the Samurai:
 Sword of the Sea:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/SwordOfTheSea/Saved":
@@ -712584,7 +712646,11 @@ Sword of the Sea:
         - save
       when:
         - os: windows
+  gog:
+    id: 1798252985
   id:
+    gogExtra:
+      - 1250101750
     lutris: sword-of-the-sea
   installDir:
     Sword of the Sea: {}
@@ -775953,9 +776019,19 @@ The Wolf Among Us:
 The Wolf Among Us Remastered:
   cloud:
     steam: true
+  files:
+    "<winDocuments>/Telltale Games/The Wolf Among Us Remastered":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 5280090
+  installDir:
+    The Wolf Among Us Remastered: {}
+  launch:
+    "<base>/TheWolfAmongUsRemastered.exe":
+      - when:
+          - store: steam
   steam:
     id: 3884860
 "The Wolf's Bite":
@@ -810826,6 +810902,13 @@ USAGIRI:
             store: steam
   steam:
     id: 1153950
+USAR Hooters ProCup Racing:
+  files:
+    "<base>/VIDEO.CFG":
+      tags:
+        - config
+      when:
+        - os: windows
 "USC: Counterforce":
   cloud:
     gog: true
@@ -868415,6 +868498,16 @@ You Are Empty:
       when:
         - os: windows
     "<winDocuments>/My Games/YaE/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winDocuments>/My Games/YaE_Absolute/config_*":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winDocuments>/My Games/YaE_Absolute/savegames/Save*":
       tags:
         - save
       when:

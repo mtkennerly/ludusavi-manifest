@@ -89,6 +89,8 @@ $1 Ride:
 "***":
   pageId: 129579
   steam: 1034230
+"*NSYNC Hotline":
+  pageId: 221379
 ".Age":
   cloud:
     steam: true
@@ -32327,6 +32329,9 @@ Boom Island:
 Boom Squad:
   pageId: 88910
   steam: 712360
+Boom or Bloom:
+  pageId: 222583
+  steam: 5503620
 Boom! Boom!:
   pageId: 130680
   steam: 1038850
@@ -37356,6 +37361,11 @@ Cairn:
     gog: true
     steam: true
   gog: 1300489906
+  gogSide:
+    - 1421906078
+    - 1855069799
+    - 1883087033
+    - 2073429017
   lutris: cairn--3
   pageId: 206361
   steam: 1588550
@@ -52683,8 +52693,10 @@ Croc 2:
     - "{{Game data/saves|Windows|{{p|game}}}}"
 "Croc 2: Kingdom of the Gobbos":
   cloud:
+    gog: true
     steam: true
   gog: 1402283956
+  lutris: croc-2-kingdom-of-the-gobbos
   pageId: 218948
   steam: 4198360
 "Croc's World 3":
@@ -66892,7 +66904,9 @@ Dive Inside:
   steam: 955980
 "Dive or Die: Children of Rain":
   cloud:
+    gog: true
     steam: true
+  gog: 1169559449
   lutris: dive-or-die-children-of-rain
   pageId: 218819
   steam: 3590290
@@ -96025,6 +96039,8 @@ Gachimuchi Reloaded:
   steam: 1034120
 Gadget & The Gadgetinis:
   pageId: 174606
+Gadget Tycoon:
+  pageId: 222571
 "Gadget – Invention, Travel, & Adventure":
   pageId: 187319
 Gahkthun of the Golden Lightning:
@@ -141989,6 +142005,7 @@ MINImax Tinyverse:
   steam: 1672810
   templates:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\FocusHomeInteractiveSA.MioMemoriesinOrbit_4hny5m903y3g0\\SystemAppData\\wgs\\}}"
+    - "{{Game data/saves|Steam|{{p|localappdata}}\\MIO\\Saves\\Steam\\{{p|uid}}\\}}"
 MIR4:
   pageId: 178540
   steam: 1623660
@@ -176687,6 +176704,9 @@ Phantom Blade Zero:
   steam: 4115450
   steamSide:
     - 5041150
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\ProjectPBZ\\Saved\\Config\\Windows\\|{{P|game}}\\ProjectPBZ\\Saved\\}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\ProjectPBZ\\Saved\\SaveGames\\Steam\\{{P|uid}}\\}}"
 Phantom Brave PC:
   cloud:
     steam: true
@@ -205555,6 +205575,12 @@ Secret Files 3:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\config.ini|{{P|game}}\\settings.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savegame\\}}"
+"Secret Files: Tunguska - Remastered":
+  gog: 1362256803
+  pageId: 222586
+  steam: 4504840
+  steamSide:
+    - 5363640
 Secret Government:
   cloud:
     steam: true
@@ -221732,16 +221758,19 @@ Spy Drops Gaiden:
 "Spy Fox 2: Some Assembly Required":
   cloud:
     steam: true
+  lutris: spy-fox-2-some-assembly-required
   pageId: 37539
   steam: 292240
 "Spy Fox 3: Operation Ozone":
   cloud:
     steam: true
+  lutris: spy-fox-3-operation-ozone
   pageId: 50262
   steam: 292260
 "Spy Fox in: Cheese Chase":
   cloud:
     steam: true
+  lutris: spy-fox-in-cheese-chase
   pageId: 50185
   steam: 292280
   templates:
@@ -221750,11 +221779,13 @@ Spy Drops Gaiden:
 "Spy Fox in: Hold the Mustard":
   cloud:
     steam: true
+  lutris: spy-fox-in-hold-the-mustard
   pageId: 50107
   steam: 292300
 "Spy Fox: Dry Cereal":
   cloud:
     steam: true
+  lutris: spy-fox-in-dry-cereal
   pageId: 16891
   steam: 283980
   templates:
@@ -233065,7 +233096,11 @@ Sword of the Samurai:
 Sword of the Sea:
   cloud:
     epic: true
+    gog: true
     steam: true
+  gog: 1798252985
+  gogSide:
+    - 1250101750
   lutris: sword-of-the-sea
   pageId: 206358
   steam: 2453160
@@ -255074,6 +255109,8 @@ Tho maz:
   steam: 668560
 "Thomas & Friends: Building the New Line":
   pageId: 218178
+"Thomas & Friends: Railway Adventures":
+  pageId: 222568
 "Thomas & Friends: The Great Festival Adventure":
   pageId: 210429
 "Thomas & Friends: Thomas Saves the Day":
@@ -266070,6 +266107,10 @@ USAGIRI:
     steam: true
   pageId: 151105
   steam: 1153950
+USAR Hooters ProCup Racing:
+  pageId: 222582
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\VIDEO.CFG}}"
 "USC: Counterforce":
   cloud:
     gog: true
@@ -274432,8 +274473,12 @@ Wall Street Junior:
     steam: true
   pageId: 78004
   steam: 715520
+Wall Street Trader 2000:
+  pageId: 222576
 Wall Street Trader 2001:
   pageId: 173670
+Wall Street Trader 98:
+  pageId: 222578
 Wall Street Tycoon:
   pageId: 128117
   steam: 985710
@@ -285481,8 +285526,8 @@ You Are Empty:
   pageId: 6712
   steam: 4760480
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE\\savegames}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE<ref>Original 2006 release.</ref>|{{p|userprofile\\Documents}}\\My Games\\YaE_Absolute\\config_*<ref>Absolute Edition. Folder names are set in <code>ds2base.cfg</code> in the installation folder. <code>config_engine</code> holds <code>ds2engine.cfg</code> (resolution, refresh rate, fullscreen, renderer) and <code>load_processor.cfg</code>; <code>config_user</code> holds <code>startup_autorun.cmd</code> (key bindings). Default copies of both folders ship in the installation folder and are used when the user copies are missing. Verified on the Steam version, October 29, 2026.</ref>}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE\\savegames<ref>Original 2006 release.</ref>|{{p|userprofile\\Documents}}\\My Games\\YaE_Absolute\\savegames\\Save*<ref>Absolute Edition. Each slot is <code>SaveN.ds2gsf</code> (game state), <code>SaveN.ds2gsf_description</code> (slot name, level, date, difficulty) and <code>SaveN.tga</code> (thumbnail); autosaves use the same slots. Verified on the Steam version, October 29, 2026.</ref>}}"
 You Are God:
   pageId: 58176
   steam: 596280

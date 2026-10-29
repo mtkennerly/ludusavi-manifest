@@ -659255,7 +659255,15 @@
         oslist: windows
       executable: anuket_Shipping_Playfab_Steam_x64.exe
       type: default
-3884860: {}
+3884860:
+  cloud:
+    saves:
+      - path: Telltale Games/The Wolf Among Us Remastered
+        pattern: "*"
+        root: WinMyDocuments
+  installDir: The Wolf Among Us Remastered
+  launch:
+    - executable: TheWolfAmongUsRemastered.exe
 3886200:
   installDir: DON’T LIE
   launch:
@@ -660870,7 +660878,6 @@
       executable: sgre_steam.exe
       type: option1
     - config:
-        betakey: private_beta
         osarch: "64"
         oslist: windows
         ownsdlc: "4860250"
@@ -660878,6 +660885,7 @@
       executable: "SG_Octet\\SG_Octet.exe"
       type: option2
     - config:
+        betakey: private_beta
         osarch: "64"
         oslist: windows
       description: デバッグ版
@@ -662304,7 +662312,20 @@
 4198090:
   nameLocalized:
     schinese: 獾獾闯天关
-4198360: {}
+4198360:
+  cloud:
+    saves:
+      - path: "Croc 2/saves/{64BitSteamID}"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Croc 2
+  launch:
+    - config:
+        oslist: windows
+      executable: croc2.exe
+      type: default
 4199910:
   nameLocalized:
     japanese: "トータルウォー：ウォーハンマー40,000"
@@ -663816,6 +663837,9 @@
   installDir: The 7th Guest Remake
   launch:
     - executable: The7thGuestVR.exe
+4504840:
+  nameLocalized:
+    german: Geheimakte Tunguska - Remastered
 4507990:
   nameLocalized:
     schinese: "Wo Long 2: Wings of Ember（卧龙2：凤火连天）"
@@ -665012,5 +665036,8 @@
 5480400: {}
 5480410: {}
 5480430: {}
+5503620:
+  nameLocalized:
+    schinese: 炸了还是烟花
 34004563: {}
 3221903386: {}
