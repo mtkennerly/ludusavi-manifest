@@ -73187,6 +73187,11 @@ Dungeons & Darkness:
     steam: true
   pageId: 50791
   steam: 479990
+Dungeons & Degenerate Gamblers:
+  cloud:
+    steam: true
+  pageId: 222555
+  steam: 2400510
 Dungeons & Dragons Online:
   pageId: 445
   steam: 206480
@@ -121398,6 +121403,8 @@ Innocent until Caught:
 Innoquous 5:
   pageId: 43059
   steam: 453830
+Innova Disc Golf:
+  pageId: 222566
 Ino:
   pageId: 58527
   steam: 398140
@@ -129562,6 +129569,9 @@ Kingdom Elemental:
   steam: 285350
 Kingdom Hearts 358/2 Days:
   pageId: 222427
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\saves\\settings.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\saves\\}}"
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   cloud:
     steam: true
@@ -144225,6 +144235,7 @@ Majesty Gold HD:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\MajestyHD\\MajXPrefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\MajestyHD\\}}"
 "Majesty: The Fantasy Kingdom Sim":
+  lutris: majesty-gold-edition
   pageId: 3012
   steam: 25990
   templates:
@@ -153354,6 +153365,8 @@ Monopoly (1995):
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\MONOPOLY.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.MNO}}"
+Monopoly (1999):
+  pageId: 222557
 Monopoly (2002):
   pageId: 191452
 Monopoly (2012):
@@ -153366,6 +153379,8 @@ Monopoly (2024):
   steam: 2929170
 Monopoly Casino:
   pageId: 210792
+"Monopoly Casino: Vegas Edition":
+  pageId: 222553
 Monopoly Deluxe:
   pageId: 136210
   templates:
@@ -193590,6 +193605,8 @@ Resident Evil 6:
     - "{{Game data/config|Steam|{{p|game}}\\re7_config.ini}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\F024294D.RESIDENTEVIL7biohazard_8fty0by30jkny\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\418370\\remote\\win64_save\\}}"
+"Resident Evil Code: Veronica X":
+  pageId: 222544
 Resident Evil HD Remaster:
   cloud:
     gog: true
@@ -237289,6 +237306,9 @@ Tenis PC3:
   pageId: 151895
   templates:
     - "{{Game data/config|Windows|C:\\pc3\\drakssen\\tennis\\keywiz.cfg}}"
+Tenjutsu:
+  pageId: 222548
+  steam: 1363940
 Tenkyu:
   pageId: 90052
   steam: 818350
@@ -238473,7 +238493,7 @@ That Which Binds Us:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\That's not my neighbor}}"
     - "{{Game data/config|OS X|{{P|machome}}/Library/Application Support/Godot/app_userdata/That's not my neighbor}}"
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\That's not my neighbor}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\That's not my Neighbor}}"
     - "{{Game data/saves|OS X|{{P|machome}}/Library/Application Support/Godot/app_userdata/That's not my neighbor}}"
 "That's Pretty Clever":
   pageId: 138962

@@ -255817,13 +255817,6 @@
       executable: Resonance of FateD.exe
       type: option1
     - config:
-        betakey: quality_assurance
-        osarch: "64"
-        oslist: windows
-      description: デバッグ機能付き
-      executable: Resonance of FateD.exe
-      type: option1
-    - config:
         betakey: test
         osarch: "64"
         oslist: windows
@@ -550526,6 +550519,11 @@
   launch:
     - executable: Pioneers.exe
       type: default
+1363940:
+  nameLocalized:
+    japanese: 天術
+    schinese: 天术
+    tchinese: 天術
 1364020:
   installDir: Boundary
   launch:
@@ -622652,6 +622650,41 @@
     - executable: CapcomFightingCollection2.exe
   nameLocalized:
     japanese: カプコン ファイティング コレクション2
+2400510:
+  cloud:
+    saves:
+      - path: Godot/app_userdata/Dungeons & Degenerate Gamblers/1
+        pattern: "*.cfg"
+        root: MacAppSupport
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Dungeons & Degenerate Gamblers/1
+            replace: "Godot\\app_userdata\\Dungeons & Degenerate Gamblers\\1"
+        root: MacAppSupport
+        useInstead: WinAppDataRoaming
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Godot/app_userdata/Dungeons & Degenerate Gamblers/1
+            replace: ".local/share/godot/app_userdata/Dungeons & Degenerate Gamblers/1"
+        root: MacAppSupport
+        useInstead: LinuxHome
+  installDir: Dungeons & Degenerate Gamblers
+  launch:
+    - config:
+        oslist: macos
+      executable: Dungeons & Degenerate Gamblers.app
+    - config:
+        oslist: windows
+      executable: DnDG_64.exe
+    - config:
+        oslist: linux
+      executable: DnDG_linux.x86_64
+  nameLocalized:
+    schinese: 再来一张
+    tchinese: 再來一張
 2401280: {}
 2401410:
   cloud:
@@ -652458,11 +652491,11 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: "That's not my neighbor (Steam).exe"
+      executable: "That's not my neighbor.exe"
     - config:
         osarch: "64"
         oslist: linux
-      executable: "That's not my neighbor (Steam).x86_64"
+      executable: "That's not my neighbor.x86_64"
 3431300:
   cloud:
     saves:

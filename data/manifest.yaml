@@ -225632,6 +225632,38 @@ Dungeons & Darkness:
             store: steam
   steam:
     id: 479990
+Dungeons & Degenerate Gamblers:
+  cloud:
+    steam: true
+  files:
+    "<home>/.local/share/godot/app_userdata/Dungeons & Degenerate Gamblers/1/*.cfg":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/Godot/app_userdata/Dungeons & Degenerate Gamblers/1/*.cfg":
+      when:
+        - store: steam
+    "<winAppData>/Godot/app_userdata/Dungeons & Degenerate Gamblers/1/*.cfg":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dungeons & Degenerate Gamblers: {}
+  launch:
+    "<base>/DnDG_64.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/DnDG_linux.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Dungeons & Degenerate Gamblers.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 2400510
 Dungeons & Dragons Online:
   files:
     "<winDocuments>/Dungeons and Dragons Online":
@@ -396723,6 +396755,18 @@ Kingdom Elemental:
             store: steam
   steam:
     id: 285350
+Kingdom Hearts 358/2 Days:
+  files:
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/saves/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Kingdom Hearts HD 1.5 + 2.5 ReMIX:
   cloud:
     steam: true
@@ -441395,6 +441439,8 @@ Majesty Gold HD:
         - config
       when:
         - os: linux
+  id:
+    lutris: majesty-gold-edition
   installDir:
     Majesty Gold Edition: {}
   launch:
@@ -725800,6 +725846,9 @@ Tenis PC3:
         - config
       when:
         - os: windows
+Tenjutsu:
+  steam:
+    id: 1363940
 Tenkyu:
   installDir:
     tenkyu: {}
@@ -729567,18 +729616,22 @@ That Which Binds Us:
     "<winAppData>/Godot/app_userdata/That's not my neighbor":
       tags:
         - config
+      when:
+        - os: windows
+    "<winAppData>/That's not my Neighbor":
+      tags:
         - save
       when:
         - os: windows
   installDir:
     "That's not my Neighbor": {}
   launch:
-    "<base>/That's not my neighbor (Steam).exe":
+    "<base>/That's not my neighbor.exe":
       - when:
           - bit: 64
             os: windows
             store: steam
-    "<base>/That's not my neighbor (Steam).x86_64":
+    "<base>/That's not my neighbor.x86_64":
       - when:
           - bit: 64
             os: linux
