@@ -52718,6 +52718,7 @@ Croc 2:
     - 2036105119
   lutris: croc-legend-of-the-gobbos
   pageId: 22400
+  steam: 5226010
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Argonaut Software\\Croc|{{p|game}}\\key.txt}}"
     - "{{Game data/saves|Windows|{{P|game}}\\}}"
@@ -61811,6 +61812,8 @@ Deer Man:
   steam: 459940
   steamSide:
     - 460880
+"Deer's Revenge":
+  pageId: 222675
 DeerHunterX:
   pageId: 92037
   steam: 809770
@@ -81713,6 +81716,11 @@ Everything Will Flow:
 Everything is Black and White:
   pageId: 48130
   steam: 365430
+Everything is Crab:
+  cloud:
+    steam: true
+  pageId: 222677
+  steam: 3526710
 Everything is Mayo:
   pageId: 144242
   steam: 1097900
@@ -89484,6 +89492,8 @@ Fish man avoiding fishing:
 Fish or Die:
   pageId: 46635
   steam: 389230
+"Fish's Revenge":
+  pageId: 222687
 "Fish's Trip":
   pageId: 70208
   steam: 701960
@@ -104729,6 +104739,7 @@ Gubble:
   pageId: 206575
 Gubble 2:
   pageId: 31302
+  steam: 5511700
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Actual Entertainment\\Gubble 2\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\gubble0#.sav}}"
@@ -136177,6 +136188,8 @@ Level Devil:
     steam: true
   pageId: 211540
   steam: 3242750
+  templates:
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/share/leveldevil/}}"
 Level Up!:
   pageId: 49265
   steam: 332150
@@ -137805,6 +137818,15 @@ Little Comet:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Outgunned Games\\Little Comet}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Outgunned Games\\Little Comet}}"
+Little Devil:
+  cloud:
+    steam: true
+  lutris: game-level-devil
+  malformed: true
+  pageId: 222671
+  steam: 3242750
+  templates:
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/share/leveldevil/}}"
 Little Diggel:
   pageId: 62342
   steam: 580960
@@ -181973,6 +181995,8 @@ Power Struggle:
 Power Supplied:
   pageId: 78014
   steam: 755760
+Power Surge:
+  pageId: 222682
 Power Tools VR:
   pageId: 74413
   steam: 591920
@@ -188251,6 +188275,8 @@ Race Arcade:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Codemasters\\GRID\\hardwaresettings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Codemasters\\GRID\\savegame\\}}"
     - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support<ref>{{Refurl|url=https://web.archive.org/web/20170915144559/http://support.feralinteractive.com/en/mac-linux-games/grid/faqs/saves/|title=Feral Support - GRID™ FAQs - Where are my saved games stored? (archived)|date=2026-06-04}}</ref>}}"
+Race Mania:
+  pageId: 222667
 Race Race Racer:
   pageId: 152751
   steam: 1190380
@@ -193918,6 +193944,12 @@ Resident Evil Zero HD Remaster:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\capcom\\RESIDENT EVIL REVELATIONS2\\config.ini}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\287290\\remote\\}}"
+"Resident Evil: The Umbrella Chronicles":
+  lutris: resident-evil-the-umbrella-chronicles
+  pageId: 222670
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\config.json}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\saves\\}}"
 Residual:
   gog: 1688702977
   pageId: 171338
@@ -198650,6 +198682,8 @@ Roller Coaster Factory 3:
   pageId: 209511
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\data\\setup.bin}}"
+Roller Coaster Mania:
+  pageId: 222684
 Roller Coaster Rampage:
   cloud:
     steam: true
@@ -214652,6 +214686,8 @@ Smelter:
 "Smersh: Wolfhound":
   pageId: 217070
   steam: 4431400
+  steamSide:
+    - 5453940
 Smile To Fly:
   pageId: 148903
   steam: 1164330
@@ -259605,6 +259641,8 @@ Totally Spies! Totally Party:
   pageId: 122921
 "Totally Spies!: Swamp Monster Blues":
   pageId: 122940
+"Totally Spies!: Zombie Jamboree!":
+  pageId: 222669
 Totally Unbalanced:
   cloud:
     steam: true

@@ -648692,9 +648692,36 @@
   launch:
     - executable: REPO.exe
 3242750:
+  cloud:
+    saves:
+      - path: leveldevil
+        pattern: save*
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
   installDir: Level Devil
   launch:
-    - executable: Level Devil.exe
+    - config:
+        oslist: windows
+      description: Open as Windows application
+      executable: Level Devil.exe
+    - config:
+        oslist: macos
+      description: Open as macOS application
+      executable: Level Devil.app
+    - config:
+        oslist: linux
+      description: Open as Linux application
+      executable: LevelDevil.x86_64
 3243190:
   cloud:
     saves:
@@ -654115,6 +654142,25 @@
       description: Horripilant (DirectX 12)
       executable: Horripilant.exe
       type: option1
+3526710:
+  cloud:
+    saves:
+      - path: Odd Dreams Digital/Everything is Crab/SyncedData/Steam
+        pattern: Slot_*_*v*save
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Everything is Crab
+  launch:
+    - arguments: "-timestamps"
+      config:
+        oslist: windows
+      executable: Everything is Crab.exe
+      type: default
+  nameLocalized:
+    japanese: "Everything is Crab: 生物進化ローグライト"
+    koreana: "에브리씽 이즈 크랩: 동물 진화 로그라이트 | Everything is Crab"
+    schinese: 万物皆可蟹：动物进化 Roguelite | Everything is Crab
+    tchinese: 萬物皆可蟹：動物演化Roguelite遊戲 | Everything is Crab
 3526830:
   cloud:
     saves:
@@ -664890,7 +664936,31 @@
       type: default
   nameLocalized:
     russian: Магия Крови
-4953280: {}
+4953280:
+  cloud:
+    saves:
+      - path: NoRyte Studios/Groovekeeper
+        pattern: save_slot_*.es3
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: NoRyte Studios/Groovekeeper
+        pattern: save_slot_*.es3.bak
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: NoRyte Studios/Groovekeeper
+        pattern: save_slot_*.es3.tmp.bak
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Groovekeeper
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Groovekeeper.exe
+      type: default
 4959180:
   installDir: Blaster!
   launch:
@@ -665172,6 +665242,7 @@
   launch:
     - executable: Bunker.exe
 5219090: {}
+5226010: {}
 5227630: {}
 5233100: {}
 5244970: {}
@@ -665227,5 +665298,6 @@
 5503620:
   nameLocalized:
     schinese: 炸了还是烟花
+5511700: {}
 34004563: {}
 3221903386: {}

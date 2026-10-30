@@ -17,6 +17,7 @@
 * [Kernel Hearts](https://www.pcgamingwiki.com/wiki/?curid=220580)
 * [Kid's Zoo: A Baby Animal Adventure](https://www.pcgamingwiki.com/wiki/?curid=185286)
 * [Life Is Strange: Reunion](https://www.pcgamingwiki.com/wiki/?curid=213008)
+* [Little Devil](https://www.pcgamingwiki.com/wiki/?curid=222671)
 * [Mall of America Tycoon](https://www.pcgamingwiki.com/wiki/?curid=221715)
 * [Marvel's Spider-Man: Miles Morales](https://www.pcgamingwiki.com/wiki/?curid=178032)
 * [Meet the Robinsons](https://www.pcgamingwiki.com/wiki/?curid=81386)

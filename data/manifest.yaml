@@ -162534,6 +162534,8 @@ Croc 2:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Argonaut Software/Croc:
       tags:
         - config
+  steam:
+    id: 5226010
 "Croc: Legend of the Gobbos (2024)":
   alias: "Croc: Legend of the Gobbos (2025)"
 "Croc: Legend of the Gobbos (2025)":
@@ -251553,6 +251555,23 @@ Everything is Black and White:
             store: steam
   steam:
     id: 365430
+Everything is Crab:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Odd Dreams Digital/Everything is Crab/SyncedData/Steam/**/Slot_*_*v*save":
+      when:
+        - store: steam
+  installDir:
+    Everything is Crab: {}
+  launch:
+    "<base>/Everything is Crab.exe":
+      - arguments: "-timestamps"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3526710
 Everything is Mayo:
   installDir:
     Everything is Mayo: {}
@@ -319660,6 +319679,27 @@ Groove Runner:
   steam:
     id: 1197500
 "Groovekeeper: Sort the Record Shop":
+  files:
+    "<home>/AppData/LocalLow/NoRyte Studios/Groovekeeper/save_slot_*.es3":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/NoRyte Studios/Groovekeeper/save_slot_*.es3.bak":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/NoRyte Studios/Groovekeeper/save_slot_*.es3.tmp.bak":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Groovekeeper: {}
+  launch:
+    "<base>/Groovekeeper.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4953280
 Groovy:
@@ -321069,6 +321109,8 @@ Gubble 2:
     HKEY_CURRENT_USER/Software/Actual Entertainment/Gubble 2:
       tags:
         - config
+  steam:
+    id: 5511700
 Gubble HD:
   files:
     "<base>/*.sav":
@@ -416681,12 +416723,27 @@ Level 99 Axe Rage:
 Level Devil:
   cloud:
     steam: true
+  files:
+    "<xdgConfig>/share/leveldevil":
+      tags:
+        - config
+      when:
+        - os: linux
   installDir:
     Level Devil: {}
   launch:
+    "<base>/Level Devil.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Level Devil.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
+    "<base>/LevelDevil.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3242750
 Level Up!:
@@ -421792,6 +421849,34 @@ Little Comet:
             store: steam
   steam:
     id: 856100
+Little Devil:
+  cloud:
+    steam: true
+  files:
+    "<xdgConfig>/share/leveldevil":
+      tags:
+        - config
+      when:
+        - os: linux
+  id:
+    lutris: game-level-devil
+  installDir:
+    Level Devil: {}
+  launch:
+    "<base>/Level Devil.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Level Devil.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/LevelDevil.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 3242750
 Little Diggel:
   steam:
     id: 580960
@@ -591524,6 +591609,20 @@ Resident Evil Zero HD Remaster:
             store: steam
   steam:
     id: 287290
+"Resident Evil: The Umbrella Chronicles":
+  files:
+    "<base>/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: resident-evil-the-umbrella-chronicles
 Residual:
   files:
     "<winAppData>/residual":
@@ -655726,6 +655825,9 @@ Smelter:
   steam:
     id: 1094540
 "Smersh: Wolfhound":
+  id:
+    steamExtra:
+      - 5453940
   steam:
     id: 4431400
 Smile To Fly:
