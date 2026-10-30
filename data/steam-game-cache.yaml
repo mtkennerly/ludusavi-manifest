@@ -645279,6 +645279,28 @@
   installDir: MotoGP™25
   launch:
     - executable: motogp25.exe
+3077540:
+  cloud:
+    saves:
+      - path: SNR/Love Fall in Death
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: Love Fall in Death
+  launch:
+    - config:
+        oslist: windows
+      executable: Love Fall in Death.exe
+      type: default
+  nameLocalized:
+    brazilian: "Amor: Tô morrendo por você"
+    english: "Love: Fall in Death"
+    japanese: "Love: 君の為なら死ねる"
+    latam: "Amor: Me Muero Por Ti"
+    schinese: 爱：死而后已
+    spanish: "Amor: La palmo por ti"
+    turkish: "Aşk: Ölürüm Sana"
 3079170: {}
 3079210:
   installDir: Hell Let Loose - Vietnam

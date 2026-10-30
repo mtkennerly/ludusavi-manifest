@@ -56525,7 +56525,6 @@ Asylopole:
 Asylum:
   cloud:
     epic: true
-    gog: true
     steam: true
   files:
     "<winLocalAppData>/Asylum/Saved/Config/WindowsNoEditor":
@@ -56544,6 +56543,7 @@ Asylum:
     lutris: asylum--1
     steamExtra:
       - 1311020
+      - 1311030
   installDir:
     Asylum: {}
   launch:
@@ -218980,6 +218980,18 @@ Dreams of Solari - Chapter 1:
             store: steam
   steam:
     id: 1107450
+Dreams to Reality:
+  files:
+    "<base>/DATA/GAME":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/DHOOK.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Dreamscape:
   cloud:
     steam: true
@@ -313113,6 +313125,8 @@ Gorky 17:
         - save
       when:
         - os: windows
+  id:
+    lutris: gorky-zero-beyond-honor
 Gorn:
   installDir:
     GORN: {}
@@ -429914,6 +429928,29 @@ Love the game:
     "Love, Sam": {}
   steam:
     id: 1073820
+"Love: Fall in Death":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/SNR/Love Fall in Death":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: love-fall-in-death
+    steamExtra:
+      - 5090500
+  installDir:
+    Love Fall in Death: {}
+  launch:
+    "<base>/Love Fall in Death.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3077540
 LoveBeat:
   installDir:
     LoveBeat: {}
@@ -776097,11 +776134,16 @@ The Wolf Among Us 2:
     id: 1884870
 The Wolf Among Us Remastered:
   cloud:
+    epic: true
     steam: true
   files:
     "<winDocuments>/Telltale Games/The Wolf Among Us Remastered":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
+          store: steam
   id:
     steamExtra:
       - 5280090

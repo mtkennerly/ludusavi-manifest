@@ -1422,6 +1422,8 @@ $1 Ride:
   malformed: true
   pageId: 167445
   steam: 4395360
+3D Bowling USA:
+  pageId: 222646
 3D Brick Blaster Unlimited:
   pageId: 209630
   templates:
@@ -18219,14 +18221,15 @@ Asylopole:
 Asylum:
   cloud:
     epic: true
-    gog: true
     steam: true
+    xbox: true
   gog: 1418166671
   lutris: asylum--1
   pageId: 82213
   steam: 230210
   steamSide:
     - 1311020
+    - 1311030
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Asylum\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Asylum\\Saved\\SaveGames}}"
@@ -71224,6 +71227,9 @@ Dreams of Solari - Chapter 1:
   steam: 1107450
 Dreams to Reality:
   pageId: 97844
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\DHOOK.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\DATA\\GAME\\}}"
 Dreamscape:
   cloud:
     steam: true
@@ -94376,6 +94382,8 @@ Front Page Sports Football:
   steam: 316700
 "Front Page Sports: Trophy Bass 2":
   pageId: 222592
+"Front Page Sports: Trophy Rivers":
+  pageId: 222642
 Front Wars:
   pageId: 46855
   steam: 370160
@@ -102117,6 +102125,7 @@ Gorky 17:
     - "{{Game data/saves|Windows|{{p|game}}\\SAVEGAME}}"
     - "{{Game data/saves|OS X|{{p|game}}/SaveGame}}"
 "Gorky Zero: Beyond Honor":
+  lutris: gorky-zero-beyond-honor
   pageId: 185759
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\bin\\{{file|standard_game.feel}}}}"
@@ -126281,6 +126290,8 @@ Jungle Jorney:
 Jungle Juggle:
   pageId: 94461
   steam: 844580
+Jungle Legend:
+  pageId: 222648
 Jungle Strike:
   pageId: 221105
 Jungle Z:
@@ -140496,6 +140507,17 @@ Love the game:
 "Love, Sam":
   pageId: 138762
   steam: 1073820
+"Love: Fall in Death":
+  cloud:
+    steam: true
+  lutris: love-fall-in-death
+  pageId: 222641
+  steam: 3077540
+  steamSide:
+    - 5090500
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\SNR\\Love Fall in Death\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SNR\\Love Fall in Death\\}}"
 LoveBeat:
   pageId: 45004
   steam: 354290
@@ -254023,11 +254045,15 @@ The Wolf Among Us 2:
   steam: 1884870
 The Wolf Among Us Remastered:
   cloud:
+    epic: true
     steam: true
   pageId: 217307
   steam: 3884860
   steamSide:
     - 5280090
+  templates:
+    - "{{Game data/config|Steam|{{p|userprofile\\Documents}}\\Telltale Games\\The Wolf Among Us Remastered\\}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\Documents}}\\Telltale Games\\The Wolf Among Us Remastered\\}}"
 "The Wolf's Bite":
   pageId: 65738
   steam: 656040
