@@ -586559,7 +586559,17 @@
     - config:
         oslist: windows
       executable: Daydream_Mosaics_2.exe
-1799840: {}
+1799840:
+  cloud:
+    saves:
+      - path: "QueensDomain/Saved/SaveGames/{64BitSteamID}"
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: QueensDomain
+  launch:
+    - executable: QueensDomain.exe
+      type: default
 1799850:
   installDir: Transformation Tycoon
   launch:
@@ -621571,6 +621581,28 @@
       description: Settlements Rising - DirectX 11
       executable: SettlementsRising.exe
       type: option2
+2379350:
+  cloud:
+    saves:
+      - path: "saves/{64BitSteamID}/"
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: ScrambleKnights
+  launch:
+    - config:
+        oslist: linux
+      description: Scramble Knights Online (Linux)
+      executable: "Game\\eac_launcher"
+      type: default
+    - config:
+        oslist: windows
+      description: Scramble Knights Online (Windows)
+      executable: ScrambleKnightsBootstrapper.exe
+      type: default
+  nameLocalized:
+    schinese: 乱斗骑士 Scramble Knights Online
+    tchinese: 亂鬥騎士 Scramble Knights Online
 2379390:
   installDir: Tom Clancy’s Rainbow Six Extraction
   launch:
@@ -641142,6 +641174,27 @@
   installDir: PrizeFighter - Heavyweight Edition
   launch:
     - executable: PrizeFighter - Heavyweight Edition.exe
+2920220:
+  cloud:
+    saves:
+      - path: "Windows\\terrible_lizards\\Saved\\SaveGames"
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Terrible Lizards
+  launch:
+    - config:
+        oslist: windows
+      description: with DirectX 12 (Recommended)
+      executable: "Windows\\terrible_lizards.exe"
+      type: option1
+    - arguments: "-dx11"
+      config:
+        oslist: windows
+      description: with DirectX 11
+      executable: "Windows\\terrible_lizards.exe"
+      type: option1
+  nameLocalized:
+    schinese: 恐怖蜥蜴
 2920390:
   cloud:
     saves:
@@ -651079,6 +651132,26 @@
       type: default
   nameLocalized:
     schinese: 肉丸烹饪：盛满快乐
+3358170:
+  cloud:
+    saves:
+      - path: "DoDoDuck\\Saved\\SaveGames"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Dodo Duckie
+  launch:
+    - config:
+        oslist: windows
+      description: Dodo Duckie Launcher
+      executable: DoDoDuck.exe
+      type: default
+  nameLocalized:
+    japanese: ドドダックの冒険〜オリタタミワールド
+    koreana: 두두의 접는 세계
+    schinese: 渡渡鸭与折叠世界
+    tchinese: 嘟嘟鴨與摺疊世界
 3358250:
   cloud:
     saves:
@@ -652973,23 +653046,26 @@
   nameLocalized:
     english: "Still Wakes the Deep: Siren’s Rest"
 3465710:
+  installDir: Project CITH
+  launch:
+    - executable: Cat In The Hat.exe
   nameLocalized:
-    brazilian: "O Gatola da Cartola: Chuva e Travessuras"
-    danish: "Katten med hatten: Rabalder på en regnvejrsdag"
+    brazilian: "The Cat in the Hat: Chuva e Travessuras"
+    danish: "The Cat in the Hat: Rabalder på en regnvejrsdag"
     dutch: "The Cat in the Hat: chaos in de regen"
     finnish: "The Cat in the Hat: sadepäivän sotku"
-    french: "Le Chat Chapeauté : Pagaille sous la pluie"
-    german: "Der Kater mit Hut: Regentagwahnsinn"
-    italian: "Il gatto col cappello: scompiglio in un giorno di pioggia"
+    french: "The Cat in the Hat : Pagaille sous la pluie"
+    german: "The Cat in the Hat: Regentagwahnsinn"
+    italian: "The Cat in the Hat: scompiglio in un giorno di pioggia"
     japanese: キャットインザハット ぼうしをかぶったへんなねこ：雨の日の大さわぎ
     koreana: "모자 속 고양이: 비 내리는 날 소동"
-    latam: "El gato ensombrerado: Caos en día lluvioso"
-    polish: "Kot Prot: Szaleństwo deszczowego dnia"
-    portuguese: "O Gato do Chapéu: Loucura Chuvosa"
+    latam: "The Cat in the Hat: Caos en día lluvioso"
+    polish: "The Cat in the Hat: Szaleństwo deszczowego dnia"
+    portuguese: "The Cat in the Hat: Loucura Chuvosa"
     russian: "Кот в шляпе: Хаос в дождливый день"
     schinese: 戴帽子的猫：雨天大乱斗
-    spanish: "El Gato Garabato: Caos en el Chaparrón"
-    swedish: "Katten i hatten: Regndagsrabalder"
+    spanish: "The Cat in the Hat: Caos en el Chaparrón"
+    swedish: "The Cat in the Hat: Regndagsrabalder"
     tchinese: 戴帽子的貓：熱鬧雨天
     turkish: "Şapkalı Kedi: Yağmurlu Gün Karmaşası"
     ukrainian: "The Cat in the Hat: «Хаос у дощовий день»"
@@ -658838,6 +658914,7 @@
     koreana: 진・삼국무쌍２ with 맹장전 Remastered
     schinese: 真・三国无双２ with 猛将传 Remastered
     tchinese: 真・三國無雙２ with 猛將傳 Remastered
+3841640: {}
 3843520:
   cloud:
     saves:
@@ -661061,6 +661138,24 @@
         oslist: linux
       executable: projectpitt.x86_64
       type: default
+    - arguments: "--rendering-driver vulkan"
+      config:
+        oslist: windows
+      description: Project P.I.T.T. with vulkan renderer (in case you experience crashes)
+      executable: projectpitt.exe
+      type: option1
+    - arguments: "--rendering-driver vulkan"
+      config:
+        oslist: macos
+      description: Project P.I.T.T. with vulkan renderer (in case you experience crashes)
+      executable: projectpitt.app
+      type: option1
+    - arguments: "--rendering-driver vulkan"
+      config:
+        oslist: linux
+      description: Project P.I.T.T. with vulkan renderer (in case you experience crashes)
+      executable: projectpitt.x86_64
+      type: option1
 4026510: {}
 4026900: {}
 4027450:
@@ -664896,7 +664991,57 @@
         oslist: macos
       executable: Neon Breaker.app
       type: default
-5056390: {}
+5056390:
+  cloud:
+    saves:
+      - path: PCX/DeadoftheBrain
+        pattern: "*.sav"
+        root: WinAppDataRoaming
+      - path: PCX/DeadoftheBrain
+        pattern: persistent
+        root: WinAppDataRoaming
+      - path: PCX/DeadoftheBrain
+        pattern: FLAG*
+        root: WinAppDataRoaming
+      - path: PCX/DeadoftheBrain
+        pattern: NAME.DEF
+        root: WinAppDataRoaming
+      - path: PCX/DeadoftheBrain
+        pattern: pcx-save-keys.txt
+        root: WinAppDataRoaming
+      - path: PCX/DeadoftheBrain
+        pattern: "*.bin"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: PCX/DeadoftheBrain
+            replace: Library/PCX/DeadoftheBrain
+        root: WinAppDataRoaming
+        useInstead: MacHome
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: PCX/DeadoftheBrain
+            replace: ".pcx/DeadoftheBrain"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: Dead of the Brain
+  launch:
+    - config:
+        oslist: windows
+      executable: Dead of the Brain.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Dead of the Brain.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Dead of the Brain.sh
+      type: default
 5067360:
   cloud:
     saves:

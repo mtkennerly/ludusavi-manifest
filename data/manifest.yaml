@@ -184185,8 +184185,90 @@ Dead of Night:
   steam:
     id: 656630
 Dead of the Brain:
+  files:
+    "<home>/.pcx/DeadoftheBrain/*.bin":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.pcx/DeadoftheBrain/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.pcx/DeadoftheBrain/FLAG*":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.pcx/DeadoftheBrain/NAME.DEF":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.pcx/DeadoftheBrain/pcx-save-keys.txt":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.pcx/DeadoftheBrain/persistent":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/PCX/DeadoftheBrain/*.bin":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/PCX/DeadoftheBrain/*.sav":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/PCX/DeadoftheBrain/FLAG*":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/PCX/DeadoftheBrain/NAME.DEF":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/PCX/DeadoftheBrain/pcx-save-keys.txt":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/PCX/DeadoftheBrain/persistent":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/PCX/DeadoftheBrain/**/*.bin":
+      when:
+        - store: steam
+    "<winAppData>/PCX/DeadoftheBrain/*.sav":
+      when:
+        - store: steam
+    "<winAppData>/PCX/DeadoftheBrain/FLAG*":
+      when:
+        - store: steam
+    "<winAppData>/PCX/DeadoftheBrain/NAME.DEF":
+      when:
+        - store: steam
+    "<winAppData>/PCX/DeadoftheBrain/pcx-save-keys.txt":
+      when:
+        - store: steam
+    "<winAppData>/PCX/DeadoftheBrain/persistent":
+      when:
+        - store: steam
   id:
     lutris: dead-of-the-brain
+  installDir:
+    Dead of the Brain: {}
+  launch:
+    "<base>/Dead of the Brain.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Dead of the Brain.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Dead of the Brain.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 5056390
 Dead or Alive 5 Last Round:
@@ -207334,6 +207416,23 @@ Dodgerman:
 Dodging Fake News With Donald Trump:
   steam:
     id: 1084450
+Dodo Duckie:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/DoDoDuck/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    Dodo Duckie: {}
+  launch:
+    "<base>/DoDoDuck.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3358170
 Dodo Peak:
   cloud:
     epic: true
@@ -212523,6 +212622,8 @@ Double Dragon Neon:
         - save
       when:
         - os: windows
+  id:
+    lutris: double-dragon-neon
   installDir:
     Double Dragon Neon: {}
   launch:
@@ -529084,6 +529185,11 @@ Pangeon:
             store: steam
   steam:
     id: 983670
+Pangit:
+  id:
+    lutris: pangit
+  steam:
+    id: 3841640
 Panic 64:
   id:
     lutris: panic-64
@@ -561773,72 +561879,21 @@ Project OutFox:
     id: 1751820
 Project P.I.T.T.:
   files:
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/*.save":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/*.save.bak":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/keybindings.cfg":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/locale.cfg":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/profile.cfg":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T/settings.cfg":
-      when:
-        - os: mac
-          store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/*.save":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/*.save.bak":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/keybindings.cfg":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/locale.cfg":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/profile.cfg":
-      when:
-        - store: steam
-    "<winAppData>/Godot/app_userdata/Project P.I.T.T/settings.cfg":
-      when:
-        - store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/*.save":
+    "<home>/.local/share/godot/app_userdata/Project P.I.T.T":
+      tags:
+        - save
       when:
         - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/*.save.bak":
+    "<home>/Library/Application Support/Godot/app_userdata/Project P.I.T.T":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/keybindings.cfg":
+        - os: mac
+    "<winAppData>/Godot/app_userdata/Project P.I.T.T":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/locale.cfg":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/profile.cfg":
-      when:
-        - os: linux
-          store: steam
-    "<xdgData>/godot/app_userdata/Project P.I.T.T/settings.cfg":
-      when:
-        - os: linux
-          store: steam
+        - os: windows
   id:
     lutris: project-pitt
     steamExtra:
@@ -570708,9 +570763,19 @@ Queen of Thieves:
 "Queen's Domain":
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/QueensDomain/Saved/SaveGames/<storeUserId>/**/*.sav":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 4081520
+  installDir:
+    QueensDomain: {}
+  launch:
+    "<base>/QueensDomain.exe":
+      - when:
+          - store: steam
   steam:
     id: 1799840
 "Queen's Garden: Halloween":
@@ -625000,6 +625065,26 @@ Scram:
       - 889820
   steam:
     id: 773920
+Scramble Knights Online:
+  cloud:
+    steam: true
+  files:
+    "<base>/saves/<storeUserId>":
+      when:
+        - store: steam
+  installDir:
+    ScrambleKnights: {}
+  launch:
+    "<base>/Game/eac_launcher":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/ScrambleKnightsBootstrapper.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2379350
 "Scramble: Battle of Britain":
   files:
     "<home>/AppData/LocalLow/Slitherine/ScrambleBattleOfBritain":
@@ -727963,6 +728048,17 @@ Terrible Laboratory:
             store: steam
   steam:
     id: 985430
+Terrible Lizards:
+  cloud:
+    steam: true
+  files:
+    "<base>/Windows/terrible_lizards/Saved/SaveGames/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Terrible Lizards: {}
+  steam:
+    id: 2920220
 Terrifier The ARTcade Game:
   id:
     lutris: terrifier-the-artcade-game
@@ -736128,6 +736224,12 @@ The Cat in the Hat (2003):
       when:
         - os: windows
 "The Cat in the Hat: Rainy Day Mayhem":
+  installDir:
+    Project CITH: {}
+  launch:
+    "<base>/Cat In The Hat.exe":
+      - when:
+          - store: steam
   steam:
     id: 3465710
 "The Cat! Porfirio's Adventure":

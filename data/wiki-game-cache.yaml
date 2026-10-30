@@ -67433,6 +67433,12 @@ Dodgerman:
 Dodging Fake News With Donald Trump:
   pageId: 136615
   steam: 1084450
+Dodo Duckie:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 222656
+  steam: 3358170
 Dodo GoGo:
   pageId: 181062
 Dodo Peak:
@@ -69110,6 +69116,7 @@ Double Dragon IV:
 Double Dragon Neon:
   cloud:
     steam: true
+  lutris: double-dragon-neon
   pageId: 14824
   steam: 252350
   templates:
@@ -121990,6 +121997,8 @@ International Karate:
   pageId: 81835
 International Moto X:
   pageId: 221855
+International Ninja Rabbits:
+  pageId: 222654
 International Rally Championship:
   pageId: 22653
   templates:
@@ -164078,6 +164087,8 @@ Ninja Pizza Girl:
 Ninja Power Slasher:
   pageId: 125207
   steam: 997670
+Ninja Rabbits:
+  pageId: 222660
 Ninja Reflex:
   pageId: 19109
   steam: 13000
@@ -173452,6 +173463,10 @@ PangYa:
 Pangeon:
   pageId: 124569
   steam: 983670
+Pangit:
+  lutris: pangit
+  pageId: 222664
+  steam: 3841640
 Pangoland:
   pageId: 187308
 Panic 64:
@@ -184164,6 +184179,10 @@ Project P.I.T.T.:
   steam: 4026250
   steamSide:
     - 4636730
+  templates:
+    - "{{Game data/saves|Windows|%APPDATA%\\Godot\\app_userdata\\Project P.I.T.T}}"
+    - "{{Game data/saves|OS X|~/Library/Application Support/Godot/app_userdata/Project P.I.T.T}}"
+    - "{{Game data/saves|Linux|~/.local/share/godot/app_userdata/Project P.I.T.T}}"
 Project Pastorate:
   cloud:
     gog: true
@@ -198620,6 +198639,8 @@ Roller Coaster Apocalypse VR:
 Roller Coaster Egypt VR:
   pageId: 89401
   steam: 751740
+Roller Coaster Factory:
+  pageId: 222662
 Roller Coaster Factory 2:
   pageId: 209504
   templates:
@@ -204858,6 +204879,12 @@ Scram:
   steam: 773920
   steamSide:
     - 889820
+Scramble Knights Online:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 222658
+  steam: 2379350
 "Scramble: Battle of Britain":
   gog: 1766004857
   pageId: 168353
@@ -238004,6 +238031,12 @@ Terrible Laboratory:
   lutris: terrible-laboratory
   pageId: 126236
   steam: 985430
+Terrible Lizards:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 222657
+  steam: 2920220
 Terrifier The ARTcade Game:
   lutris: terrifier-the-artcade-game
   pageId: 205471
