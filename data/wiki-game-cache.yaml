@@ -4858,6 +4858,8 @@ ASTRONEST VR:
 ASTROPUPPA:
   pageId: 153372
   steam: 1184470
+"ATAC: The Secret War Against Drugs":
+  pageId: 222626
 ATLYSS:
   cloud:
     steam: true
@@ -28839,6 +28841,9 @@ Blackshard:
   cloud:
     epic: true
     steam: true
+  gog: 1447508775
+  gogSide:
+    - 1953880831
   lutris: blackshard
   pageId: 216532
   steam: 3223390
@@ -75989,6 +75994,21 @@ Ecstatica:
     - "{{Game data/config|Windows|{{p|game}}\\saved\\}}"
     - "{{Game data/saves|DOS|{{p|game}}\\saved\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\saved\\}}"
+Ecstatica (2026):
+  cloud:
+    gog: true
+    steam: true
+  gog: 1333226285
+  gogSide:
+    - 1335460878
+    - 1942439921
+  lutris: ecstatica
+  pageId: 222621
+  steam: 4834840
+  steamSide:
+    - 5307880
+    - 5418140
+    - 5418150
 Ecstatica II:
   cloud:
     gog: true
@@ -87715,6 +87735,18 @@ Fidget Spinner In Space:
 Fidget Spinner Simulator:
   pageId: 65874
   steam: 676740
+"Field & Stream: Trophy Bass 3D":
+  pageId: 222594
+"Field & Stream: Trophy Bass 4":
+  pageId: 222601
+"Field & Stream: Trophy Buck":
+  pageId: 222613
+"Field & Stream: Trophy Hunting":
+  pageId: 222615
+"Field & Stream: Trophy Hunting 4":
+  pageId: 222617
+"Field & Stream: Trophy Hunting 5":
+  pageId: 222620
 Field Breaking:
   cloud:
     steam: true
@@ -94342,6 +94374,8 @@ Front Office Football Seven:
 Front Page Sports Football:
   pageId: 49582
   steam: 316700
+"Front Page Sports: Trophy Bass 2":
+  pageId: 222592
 Front Wars:
   pageId: 46855
   steam: 370160
@@ -95749,6 +95783,9 @@ GP500:
 GPRO:
   pageId: 183613
   steam: 2169220
+GRASS.EXE:
+  pageId: 222603
+  steam: 5459380
 GRAV:
   pageId: 49013
   steam: 332500
@@ -109834,9 +109871,25 @@ Hell is Us:
     steam: true
     xbox: true
   gog: 1774500758
+  gogSide:
+    - 1090940828
+    - 1165122201
+    - 1174177493
+    - 1420106896
+    - 1441208969
+    - 1643292408
+    - 1920579039
   lutris: hell-is-us
   pageId: 201505
   steam: 1620730
+  steamSide:
+    - 1237358
+    - 2912150
+    - 3494340
+    - 3494350
+    - 3494370
+    - 3494380
+    - 3494390
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\HellIsUs\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\HellIsUs\\Saved\\SaveGames\\}}"
@@ -117339,6 +117392,10 @@ Hypnorain:
   pageId: 42489
   steam: 495230
 Hypnos:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1334825172
   lutris: hypnos
   pageId: 216428
   steam: 2861210
@@ -156016,6 +156073,8 @@ Moustache Mountain:
   pageId: 43857
   steam: 457520
 Mouthwashing:
+  cloud:
+    xbox: true
   lutris: mouthwashing
   pageId: 198242
   steam: 2475490
@@ -208653,14 +208712,6 @@ Shatter Remastered Deluxe:
 Shattered:
   pageId: 70683
   steam: 712620
-Shattered - Tale of the Forgotten King:
-  cloud:
-    gog: true
-    steam: true
-  gog: 1402489296
-  lutris: shattered-tale-of-the-forgotten-king
-  pageId: 135404
-  steam: 1045180
 Shattered God - Quest for the Divine Relic:
   cloud:
     steam: true
@@ -208730,6 +208781,16 @@ Shattered Union:
 Shattered Universe:
   pageId: 152823
   steam: 1179840
+"Shattered: Tale of the Forgotten King":
+  cloud:
+    gog: true
+    steam: true
+  gog: 1402489296
+  lutris: shattered-tale-of-the-forgotten-king
+  pageId: 135404
+  renamedFrom:
+    - Shattered - Tale of the Forgotten King
+  steam: 1045180
 Shatterline:
   pageId: 181492
   steam: 2087030
@@ -238843,6 +238904,8 @@ The Adventures of Nick & Willikins:
 The Adventures of Perseus:
   pageId: 129829
   steam: 1031590
+The Adventures of Pinocchio:
+  pageId: 222624
 The Adventures of Robin Hood:
   pageId: 221623
 "The Adventures of Sam Carlisle: The Hunt for the Lost Treasure":
@@ -252188,6 +252251,7 @@ The Swordsmen X:
 The Séance of Blake Manor:
   cloud:
     steam: true
+    xbox: true
   lutris: the-seance-of-blake-manor
   pageId: 165507
   renamedFrom:
@@ -253954,7 +254018,9 @@ The Wolf Among Us:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\TelltaleGames.TheWolfAmongUs-ATelltaleGamesSeries_4p9dzwrngadje\\SystemAppData\\wgs}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Telltale Games/TheWolfAmongUs/}}"
 The Wolf Among Us 2:
+  lutris: the-wolf-among-us-2
   pageId: 154605
+  steam: 1884870
 The Wolf Among Us Remastered:
   cloud:
     steam: true
@@ -258490,6 +258556,8 @@ Too Many F*cking Nazis:
 Too Many Toys!:
   pageId: 221023
   steam: 5028390
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Jakub T & 4ydam\\Too Many Toys!\\*.es3}}"
 Too Many Weapons:
   pageId: 62974
   steam: 646280
@@ -264109,6 +264177,8 @@ Trooper 1:
 Trooper 2 - Alien Justice:
   pageId: 98676
   steam: 880340
+Trophy Bass:
+  pageId: 222590
 Trophy Fishing 2:
   pageId: 64518
   steam: 645260
@@ -284484,6 +284554,17 @@ Xenoraid:
     steam: true
   pageId: 39243
   steam: 460220
+Xenosensory:
+  cloud:
+    steam: true
+  lutris: xenosensory
+  pageId: 222612
+  steam: 4037830
+  steamSide:
+    - 4289240
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}/Xenosensory}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/Xenosensory}}"
 "Xenosis: Alien Infection":
   cloud:
     steam: true
