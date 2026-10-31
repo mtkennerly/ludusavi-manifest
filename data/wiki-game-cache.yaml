@@ -27108,6 +27108,8 @@ Big Brain Wolf:
 Big Breezy Boat:
   pageId: 121411
   steam: 958790
+Big Brother Brasil:
+  pageId: 222716
 Big Buck Hunter:
   pageId: 192512
 Big Buck Hunter Arcade:
@@ -60679,6 +60681,7 @@ Death Toll:
     gog: true
     steam: true
   gog: 1386697093
+  lutris: death-track-resurrection
   pageId: 21558
   steam: 7840
   templates:
@@ -162727,6 +162730,7 @@ New World Horizon:
   pageId: 127647
   steam: 1017670
 New World Order:
+  lutris: new-world-order
   pageId: 212321
 "New World: The Tupis":
   pageId: 76135
@@ -164449,6 +164453,8 @@ No Law:
 No Lights:
   pageId: 66440
   steam: 682910
+No Limite:
+  pageId: 222714
 No Longer Home:
   cloud:
     gog: true
@@ -171448,6 +171454,12 @@ Outlaws of the Old West:
 Outline:
   pageId: 89506
   steam: 812850
+Outlive:
+  pageId: 222708
+Outlive 25:
+  lutris: outlive-25
+  pageId: 222719
+  steam: 2948680
 "Outliver: Redemption":
   pageId: 125966
   steam: 1011370
@@ -190508,6 +190520,8 @@ Reach Me:
     steam: true
   pageId: 76861
   steam: 727480
+Reach for the Stars:
+  pageId: 222712
 Reach for the Sun:
   pageId: 13039
   steam: 248290
@@ -205759,6 +205773,8 @@ Secret Little Haven:
   templates:
     - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Hummingwarp\\Secret Little Haven}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Hummingwarp/Secret Little Haven}}"
+Secret Mission:
+  pageId: 222706
 Secret Neighbor:
   pageId: 98388
   steam: 859570
@@ -247475,12 +247491,19 @@ The Lion King:
     gog: true
     uplay: true
   gog: 1740490644
+  gogSide:
+    - 1645403563
+  lutris: the-lions-song
   pageId: 37156
   steam: 437160
   steamSide:
+    - 459140
+    - 477020
+    - 477030
     - 477040
+    - 774871
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Mipumi\\TLS\\options.bin}}"
+    - "{{Game data/config|Windows|{{p|game}}\\engine.cfg|{{p|localappdata}}\\Mipumi\\TLS\\options.bin}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Mipumi\\TLS\\*.save}}"
 The Little Acre:
   cloud:
@@ -270928,6 +270951,8 @@ Vampires!:
 "Vampirina's Nails":
   pageId: 103325
   steam: 903200
+Vampiromania:
+  pageId: 222721
 Vampyr:
   cloud:
     gog: true
@@ -276723,6 +276748,7 @@ Warlords Battlecry:
     - "{{Game data/saves|Windows|{{p|game}}\\SavedGames}}"
 Warlords Battlecry II:
   gog: 1207659137
+  lutris: warlords-battlecry-2
   pageId: 10420
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Warlords Battlecry II\\}}"
@@ -281981,6 +282007,8 @@ Wolfram:
 Wolfschanze:
   lutris: wolfschanze
   pageId: 217586
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Data\\*.sav}}"
 Wolfsong:
   pageId: 44748
   steam: 440410

@@ -641983,6 +641983,32 @@
     japanese: インスタントメモリー
     schinese: 絮絮手帐本 Instants
     tchinese: 絮絮手賬本 Instants
+2948680:
+  cloud:
+    saves:
+      - path: "Continuum/Outlive25/Players/{64BitSteamID}"
+        pattern: "*"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Outlive25/User Maps
+        pattern: "*.map"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinMyDocuments
+  installDir: Outlive 25
+  launch:
+    - config:
+        oslist: windows
+      description: Game
+      executable: Outlive2025.exe
+      type: default
+    - config:
+        oslist: windows
+      description: Campaign Editor
+      executable: NewEditor.exe
+      type: editor
 2949120:
   installDir: NoVacationForAnExecutioner
   launch:

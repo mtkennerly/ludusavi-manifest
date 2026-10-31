@@ -186823,6 +186823,8 @@ Death Toll:
         - os: windows
   gog:
     id: 1386697093
+  id:
+    lutris: death-track-resurrection
   installDir:
     Death Track: {}
   launch:
@@ -496867,6 +496869,9 @@ New World Horizon:
             store: steam
   steam:
     id: 1017670
+New World Order:
+  id:
+    lutris: new-world-order
 "New World: The Tupis":
   installDir:
     New World The Tupis: {}
@@ -523367,6 +523372,27 @@ Outline:
             store: steam
   steam:
     id: 812850
+Outlive 25:
+  files:
+    "<winAppData>/Continuum/Outlive25/Players/<storeUserId>":
+      when:
+        - os: windows
+          store: steam
+    "<winDocuments>/Outlive25/User Maps/**/*.map":
+      when:
+        - os: windows
+          store: steam
+  id:
+    lutris: outlive-25
+  installDir:
+    Outlive 25: {}
+  launch:
+    "<base>/Outlive2025.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2948680
 "Outliver: Redemption":
   installDir:
     Outliver Redemption: {}
@@ -756403,6 +756429,11 @@ The Lion King:
     gog: true
     uplay: true
   files:
+    "<base>/engine.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Mipumi/TLS/*.save":
       tags:
         - save
@@ -756416,8 +756447,15 @@ The Lion King:
   gog:
     id: 1740490644
   id:
+    gogExtra:
+      - 1645403563
+    lutris: the-lions-song
     steamExtra:
+      - 459140
+      - 477020
+      - 477030
       - 477040
+      - 774871
   installDir:
     "The Lion's Song": {}
   launch:
@@ -841519,6 +841557,8 @@ Warlords Battlecry II:
         - os: windows
   gog:
     id: 1207659137
+  id:
+    lutris: warlords-battlecry-2
 Warlords Battlecry III:
   files:
     "<winDocuments>/Warlords Battlecry III/Saved Games":
@@ -857857,6 +857897,12 @@ Wolfpack:
   steam:
     id: 490920
 Wolfschanze:
+  files:
+    "<base>/Data/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: wolfschanze
 Wolfsong:
