@@ -665251,6 +665251,13 @@
     russian: "Герой Королевства: Отголоски"
     schinese: 王国英雄：餘音
     ukrainian: "Герой Королівства: Відлуння"
+5133900:
+  installDir: "Can 'Em All"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Can 'Em All.exe"
 5138990: {}
 5141030: {}
 5178570:

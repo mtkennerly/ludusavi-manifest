@@ -38106,6 +38106,9 @@ Campus Notes - forget me not.:
   pageId: 184276
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Options_c2.dat}}"
+"Can 'Em All":
+  pageId: 222725
+  steam: 5133900
 Can You Eat by Yourself:
   pageId: 78146
   steam: 761720
@@ -59882,6 +59885,10 @@ Dead of Night:
   pageId: 63783
   steam: 656630
 Dead of the Brain:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1645689113
   lutris: dead-of-the-brain
   pageId: 221271
   steam: 5056390
@@ -103552,6 +103559,8 @@ Greedy Guns:
 Greedy Trolley:
   pageId: 73284
   steam: 726040
+Green Berets:
+  pageId: 222723
 Green Blood:
   pageId: 95059
   steam: 732820
@@ -136211,7 +136220,7 @@ Level Devil:
   pageId: 211540
   steam: 3242750
   templates:
-    - "{{Game data/config|Linux|{{p|xdgconfighome}}/share/leveldevil/}}"
+    - "{{Game data/config|Linux|{{p|xdgdatahome}}/leveldevil/}}"
 Level Up!:
   pageId: 49265
   steam: 332150
