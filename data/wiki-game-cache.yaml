@@ -61773,6 +61773,10 @@ Deer Avenger:
   pageId: 205467
 "Deer Avenger 2: Deer in the City":
   pageId: 208393
+Deer Avenger 3D:
+  pageId: 222698
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
 "Deer Avenger 4: The Rednecks Strike Back":
   pageId: 57941
 Deer Hunt Legends:
@@ -65604,6 +65608,7 @@ Ding Dong XL:
   pageId: 94763
   steam: 862570
   templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Nickervision Studios\\Ding Dong XL}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Nickervision Studios\\Ding Dong XL\\}}"
 DingDingDing:
   pageId: 112620
@@ -133304,6 +133309,8 @@ Last Call BBS:
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\58020AllianceMetaversalSt.LastCallBBS_j78hpz8e66gfw\\SystemAppData\\xgs\\{{P|uid}}\\all\\save.dat}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Last Call BBS/{{P|uid}}/*}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.local/share/Last Call BBS/{{p|uid}}/}}"
+Last Call!:
+  pageId: 222703
 Last Chance VR:
   pageId: 149584
   steam: 1151860
@@ -167350,6 +167357,8 @@ Odyssey of Gianna:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\Game\\www\\save_Easy\\|{{P|game}}\\Game\\www\\save_Normal\\|{{P|game}}\\Game\\www\\save_Hard\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Game\\www\\save_Easy\\|{{P|game}}\\Game\\www\\save_Normal\\|{{P|game}}\\Game\\www\\save_Hard\\}}"
+"Odyssey: The Search for Ulysses":
+  pageId: 222700
 Oedipus Dating Sim:
   cloud:
     steam: true
@@ -232581,6 +232590,9 @@ Survivor in Summer:
 Survivor of Eschewal:
   pageId: 74510
   steam: 738260
+"Survivor: Castaway Island":
+  pageId: 222695
+  steam: 2396060
 "Survivor: The Interactive Game":
   pageId: 126729
 "Survivor: The Living Dead":

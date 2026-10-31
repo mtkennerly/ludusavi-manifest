@@ -190220,6 +190220,13 @@ Deer & Boy:
           - store: steam
   steam:
     id: 1803140
+Deer Avenger 3D:
+  files:
+    "<base>/savegame":
+      tags:
+        - save
+      when:
+        - os: windows
 Deer Hunt Legends:
   installDir:
     Deer Hunt Legends: {}
@@ -202289,6 +202296,10 @@ Ding Dong XL:
       - when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Nickervision Studios/Ding Dong XL:
+      tags:
+        - config
   steam:
     id: 862570
 DingDingDing:
@@ -710856,6 +710867,15 @@ Survivor of Eschewal:
             store: steam
   steam:
     id: 738260
+"Survivor: Castaway Island":
+  installDir:
+    Survivor: {}
+  launch:
+    "<base>/Survivor.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2396060
 "Survivor: The Living Dead":
   installDir:
     Survivor The Living Dead: {}

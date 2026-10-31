@@ -622232,6 +622232,14 @@
   nameLocalized:
     schinese: "不寐之境:女巫与魔咒"
     tchinese: "不寐之境:女巫與魔咒"
+2396060:
+  installDir: Survivor
+  launch:
+    - executable: Survivor.exe
+      type: default
+  nameLocalized:
+    japanese: サバイバー - キャストアウェイ・アイランド
+    schinese: 幸存者：遗弃之岛 (Survivor - Castaway Island)
 2396130: {}
 2396240:
   cloud:
