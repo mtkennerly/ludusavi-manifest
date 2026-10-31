@@ -582798,7 +582798,20 @@
         oslist: windows
       executable: Idol Showdown.exe
       type: none
-1742440: {}
+1742440:
+  installDir: COP BASTARD
+  launch:
+    - config:
+        oslist: windows
+      description: Play COP BASTARD
+      executable: COP BASTARD game.exe
+      type: default
+    - config:
+        oslist: windows
+        ownsdlc: "5484030"
+      description: Open Digital Compendium
+      executable: "COP BASTARD - Digital Compendium\\COP BASTARD Digital Compendium.pdf"
+      workingdir: COP BASTARD - Digital Compendium
 1742930:
   cloud:
     saves:
@@ -648600,6 +648613,16 @@
       - path: ""
         pattern: "*.data"
         root: gameinstall
+      - path: "Eldritch Sword Games/Conquest Dark/Saves/{64BitSteamID}"
+        pattern: "*.data"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "Eldritch Sword Games/Conquest Dark/Saves/{64BitSteamID}"
+        pattern: Runewords-*.rwd
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
   installDir: Conquest Dark
   launch:
     - config:
@@ -649981,6 +650004,12 @@
     - executable: Killer Depths/Killer Depths.exe
       type: default
 3295420: {}
+3296060:
+  nameLocalized:
+    english: "Escape Academy 2: Back 2 School"
+    japanese: エスケープ・アカデミー2：バック・トゥ・スクール
+    schinese: 逃脱学院 2：再返校园
+    tchinese: 逃脫學院 2：返校囉
 3296790:
   cloud:
     saves:
@@ -665260,6 +665289,7 @@
         osarch: "64"
         oslist: windows
       executable: Dementium II.exe
+5349950: {}
 5370600:
   cloud:
     saves:

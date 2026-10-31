@@ -15363,7 +15363,10 @@ Arctico:
 "Arcturus: The Curse and Loss of Divinity":
   pageId: 172619
 Ardennes Offensive:
+  lutris: ardennes-offensive
   pageId: 222098
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\AO_op\\}}"
 Ardent Seas:
   pageId: 175702
   steam: 1355680
@@ -52694,8 +52697,12 @@ Croakwood:
   pageId: 196489
   steam: 2261380
 Croc 2:
+  gog: 2126885033
+  gogSide:
+    - 1339998951
   lutris: croc-2
   pageId: 25170
+  steam: 5349950
   templates:
     - "{{Game data/config|Windows|{{p|game}}|{{p|hklm}}\\SOFTWARE\\Argonaut Software\\Croc2\\1.00}}"
     - "{{Game data/saves|Windows|{{p|game}}}}"
@@ -79808,6 +79815,11 @@ Escape Academy:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\SOFTWARE\\CoinCrewGames\\Escape Academy}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\CoinCrewGames\\Escape Academy\\}}"
+"Escape Academy 2: Back 2 School":
+  cloud:
+    steam: true
+  pageId: 222692
+  steam: 3296060
 Escape Architect VR:
   pageId: 144011
   steam: 812610
@@ -249897,6 +249909,8 @@ The Pub Simulator:
   renamedFrom:
     - The PUB simulator
   steam: 922690
+The Punisher:
+  pageId: 222254
 The Punisher (2005):
   lutris: the-punisher-2005
   pageId: 31295

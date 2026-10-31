@@ -47709,6 +47709,15 @@ Arctico:
             store: steam
   steam:
     id: 325210
+Ardennes Offensive:
+  files:
+    "<base>/AO_op":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: ardennes-offensive
 Ardent Seas:
   steam:
     id: 1355680
@@ -153770,6 +153779,13 @@ Cop Academy:
   steam:
     id: 982710
 Cop Bastard:
+  installDir:
+    COP BASTARD: {}
+  launch:
+    "<base>/COP BASTARD game.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 1742440
 Copa City:
@@ -162479,12 +162495,18 @@ Croakwood:
   steam:
     id: 2261380
 Croc 2:
+  gog:
+    id: 2126885033
   id:
+    gogExtra:
+      - 1339998951
     lutris: croc-2
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Argonaut Software/Croc2/1.00:
       tags:
         - config
+  steam:
+    id: 5349950
 "Croc 2: Kingdom of the Gobbos":
   cloud:
     gog: true
@@ -245936,6 +245958,11 @@ Escape Academy:
         - config
   steam:
     id: 1812090
+"Escape Academy 2: Back 2 School":
+  cloud:
+    steam: true
+  steam:
+    id: 3296060
 Escape Architect VR:
   installDir:
     Escape Architect VR: {}
