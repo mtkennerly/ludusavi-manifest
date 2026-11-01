@@ -43582,6 +43582,8 @@ Antikiller:
         - config
       when:
         - os: windows
+  id:
+    lutris: antikiller
   installDir:
     Antikiller: {}
   launch:
@@ -123546,17 +123548,11 @@ Castlevania Dominus Collection:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/KONAMI/Castlevania Belmont's Curse/*.sav":
+    "<home>/AppData/LocalLow/KONAMI/Castlevania Belmont's Curse":
+      tags:
+        - save
       when:
-        - store: steam
-    "<home>/KONAMI/Castlevania Belmont's Curse/*.sav":
-      when:
-        - os: linux
-          store: steam
-    "<home>/Library/Application Support/KONAMI/Castlevania Belmont's Curse/*.sav":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   id:
     lutris: castlevania-belmonts-curse
     steamExtra:
@@ -393552,6 +393548,7 @@ Kiai Resonance:
     id: 3306040
 Kiborg:
   cloud:
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/KIBORG/Saved/SaveGames/**/*.sav":
@@ -393565,6 +393562,7 @@ Kiborg:
     id: 2050916447
   id:
     gogExtra:
+      - 1074692008
       - 1089097517
       - 1379840164
       - 1882717012
@@ -393573,6 +393571,7 @@ Kiborg:
       - 3590420
       - 3760560
       - 4298680
+      - 5384860
   installDir:
     KIBORG: {}
   launch:
@@ -593087,12 +593086,12 @@ RetroSpace:
   cloud:
     steam: true
   files:
-    "<home>/LocalLow/The Wild Gentlemen/Retrospace":
+    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace":
       tags:
         - config
       when:
         - os: windows
-    "<home>/LocalLow/The Wild Gentlemen/Retrospace/Saves":
+    "<home>/AppData/LocalLow/The Wild Gentlemen/Retrospace/Saves":
       tags:
         - save
       when:
@@ -687749,39 +687748,11 @@ Stay Out of the House:
   cloud:
     gog: true
   files:
-    "<home>/.config/unity3d/PuppetCombo/Stay out of the HouseAchievementProgress*.*":
+    "<home>/AppData/LocalLow/PuppetCombo/Stay out of the House":
+      tags:
+        - save
       when:
-        - os: linux
-          store: steam
-    "<home>/.config/unity3d/PuppetCombo/Stay out of the HouseConfig*.*":
-      when:
-        - os: linux
-          store: steam
-    "<home>/.config/unity3d/PuppetCombo/Stay out of the HouseSaveFile*.*":
-      when:
-        - os: linux
-          store: steam
-    "<home>/AppData/LocalLow/PuppetCombo/Stay out of the House/AchievementProgress*.*":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/PuppetCombo/Stay out of the House/Config*.*":
-      when:
-        - store: steam
-    "<home>/AppData/LocalLow/PuppetCombo/Stay out of the House/SaveFile*.*":
-      when:
-        - store: steam
-    "<home>/Library/Application Support/unity.PuppetCombo.Stay-out-of-the-HouseAchievementProgress*.*":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/unity.PuppetCombo.Stay-out-of-the-HouseConfig*.*":
-      when:
-        - os: mac
-          store: steam
-    "<home>/Library/Application Support/unity.PuppetCombo.Stay-out-of-the-HouseSaveFile*.*":
-      when:
-        - os: mac
-          store: steam
+        - os: windows
   gog:
     id: 1900177217
   installDir:
@@ -859087,9 +859058,11 @@ Wordle:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/cBlck/Wordle":
+    "<home>/AppData/LocalLow/GigantumGames/Wordle":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Wordle: {}
   launch:

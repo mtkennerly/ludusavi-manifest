@@ -13973,6 +13973,7 @@ Antihorror:
   pageId: 42023
   steam: 496650
 Antikiller:
+  lutris: antikiller
   pageId: 208020
   steam: 2539310
   templates:
@@ -40277,6 +40278,8 @@ Castlevania Dominus Collection:
   steam: 4231820
   steamSide:
     - 5000760
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\KONAMI\\Castlevania Belmont's Curse\\}}"
 "Castlevania: Grimoire of Souls":
   pageId: 170733
 "Castlevania: Lords of Shadow":
@@ -93961,6 +93964,10 @@ Friday Night 3D Bowling:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\data\\setup.bin}}"
     - "{{Game data/saves|Windows|{{p|game}}\\data\\strikes.dat}}"
+Friday Night 3D Darts:
+  pageId: 222738
+Friday Night 3D Pool:
+  pageId: 222743
 Friday Night Bullet Arena:
   cloud:
     steam: true
@@ -106059,6 +106066,8 @@ HOVR:
 HRDINA:
   pageId: 139139
   steam: 1077730
+"HRM: Horse Racing Manager":
+  pageId: 222733
 HTR+ Slot Car Simulation:
   pageId: 50177
   steam: 288650
@@ -117799,6 +117808,7 @@ I Have No Change:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\SCREAM\\}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SCREAM\\Scream.sav}}"
+    - "{{Game data/saves|Steam|{{P|userprofile\\appdata\\locallow}}\\Nightdive Studios\\IHNMAIMS\\<user-id>\\*.dat\\}}"
 I Know Everything:
   pageId: 136828
   steam: 1040310
@@ -127952,6 +127962,8 @@ Kaya:
     steam: true
   pageId: 203387
   steam: 3051470
+Kayak Extreme:
+  pageId: 222745
 Kayalina:
   pageId: 71918
   steam: 714000
@@ -128462,9 +128474,12 @@ Kiai Resonance:
   steam: 3306040
 Kiborg:
   cloud:
+    gog: true
     steam: true
+    xbox: true
   gog: 2050916447
   gogSide:
+    - 1074692008
     - 1089097517
     - 1379840164
     - 1882717012
@@ -128477,6 +128492,7 @@ Kiborg:
     - 3590420
     - 3760560
     - 4298680
+    - 5384860
 "Kiborg: Arena":
   pageId: 195863
   renamedFrom:
@@ -194439,8 +194455,8 @@ RetroSpace:
     - 2783450
     - 5283820
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\LocalLow\\The Wild Gentlemen\\Retrospace}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\LocalLow\\The Wild Gentlemen\\Retrospace\\Saves}}"
+    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\The Wild Gentlemen\\Retrospace}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\The Wild Gentlemen\\Retrospace\\Saves}}"
 RetroVamp:
   pageId: 153039
   steam: 1178680
@@ -225143,6 +225159,8 @@ Stay Out of the House:
   gog: 1900177217
   pageId: 113546
   steam: 896520
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\PuppetCombo\\Stay out of the House\\}}"
 Stay Safe:
   pageId: 93217
   steam: 818140
@@ -282377,6 +282395,8 @@ Wordle:
     steam: true
   pageId: 200563
   steam: 1334000
+  templates:
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\GigantumGames\\Wordle}}"
 Wordle 2:
   cloud:
     steam: true

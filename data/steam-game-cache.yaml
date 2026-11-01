@@ -576907,7 +576907,7 @@
     - config:
         betakey: "ph3_internal, test"
       description: Debug
-      executable: zero_debug.exe
+      executable: zero_Debug_x64.exe
       type: option1
     - arguments: "-latest"
       description: Resume from the latest save
