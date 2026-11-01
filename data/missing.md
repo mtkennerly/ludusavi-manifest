@@ -22658,6 +22658,7 @@
 * [ROD: Revolt of Defense](https://www.pcgamingwiki.com/wiki/?curid=35976)
 * [Rodent Warriors](https://www.pcgamingwiki.com/wiki/?curid=127313)
 * [Rodentwars!](https://www.pcgamingwiki.com/wiki/?curid=92289)
+* [Rodeo Games](https://www.pcgamingwiki.com/wiki/?curid=222727)
 * [Rodney's Funscreen](https://www.pcgamingwiki.com/wiki/?curid=147186)
 * [Rogalia](https://www.pcgamingwiki.com/wiki/?curid=54423)
 * [Rogalik](https://www.pcgamingwiki.com/wiki/?curid=92700)
