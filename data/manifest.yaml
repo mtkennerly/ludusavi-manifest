@@ -848339,6 +848339,8 @@ What Never Was:
         - save
       when:
         - os: windows
+  id:
+    lutris: what-never-was
   installDir:
     What Never Was: {}
   launch:
@@ -848357,6 +848359,8 @@ What Never Was:
   steam:
     id: 866440
 "What Never Was: Chapter II":
+  id:
+    lutris: what-never-was-chapter-ii
   steam:
     id: 1506730
 What Remains of Edith Finch:

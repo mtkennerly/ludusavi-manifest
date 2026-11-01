@@ -22529,6 +22529,8 @@ Barbearian:
     steam: true
   pageId: 89692
   steam: 813450
+Barbie:
+  pageId: 222749
 "Barbie Adventure: Riding Club":
   pageId: 170644
 Barbie Beach Vacation:
@@ -115036,6 +115038,8 @@ Horse Racing 2016:
     steam: true
   pageId: 64020
   steam: 655610
+Horse Racing Manager 2:
+  pageId: 222754
 Horse Riding Deluxe:
   pageId: 80541
   steam: 783860
@@ -124526,6 +124530,8 @@ Jambo:
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\AVATAR\\GamerProfile.xml}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\AVATAR\\Saved Games\\*.sav}}"
+"James Cameron's Titanic Explorer":
+  pageId: 222748
 "James Pond 2: Codename RoboCod":
   pageId: 209605
 James Town Courier Frog MD:
@@ -159558,8 +159564,6 @@ NHL 98:
 NHL 99:
   pageId: 24808
 NHL Championship 2000:
-  cloud:
-    steam: true
   pageId: 201754
 NHL Eastside Hockey Manager:
   cloud:
@@ -191221,6 +191225,8 @@ Rebel Moon Rising:
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles}}"
 "Rebel Runner - Operation: Digital Code":
   pageId: 210885
+"Rebel Trucker: Cajun Blood Money":
+  pageId: 222752
 Rebel Wings:
   pageId: 42477
   steam: 378090
@@ -278918,6 +278924,7 @@ What Lies in the Multiverse:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Untold Tales\\What_Lies_in_the_Multiverse\\config.ini}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Untold Tales\\What_Lies_in_the_Multiverse}}"
 What Never Was:
+  lutris: what-never-was
   pageId: 125042
   steam: 866440
   templates:
@@ -278926,6 +278933,7 @@ What Never Was:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\WhatNeverWas\\Saved\\SaveGames\\SaveSlot.sav}}"
     - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/Epic/WhatNeverWas/Saved/SaveGames/SaveSlot.sav}}"
 "What Never Was: Chapter II":
+  lutris: what-never-was-chapter-ii
   pageId: 173559
   steam: 1506730
 What Remains of Edith Finch:

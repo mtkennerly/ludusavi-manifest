@@ -586583,6 +586583,10 @@
   launch:
     - executable: QueensDomain.exe
       type: default
+    - arguments: "-dx12"
+      description: DirectX 12 Mode (Try if crashing on launch or if having bad performance)
+      executable: QueensDomain.exe
+      type: option1
 1799850:
   installDir: Transformation Tycoon
   launch:
