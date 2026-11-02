@@ -55878,14 +55878,6 @@ DEFCON VR:
   templates:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\6 Faces Team\\DEPO\\DEPO_saved*}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\1091320}}"
-DERELIKT:
-  pageId: 221403
-  steam: 3810510
-  steamSide:
-    - 5242870
-  templates:
-    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\settings.stg<ref>Plain-text JSON holding options (volume, sensitivity, invert axes, vibration, control overrides, display toggles, locale). In the demo the subfolder is named <code>Debug</code>; the <code>*</code> wildcard covers a different subfolder name in the full release.</ref>|{{P|hkcu}}\\Software\\Visuwyg\\DERELIKT<ref>Unity PlayerPrefs (window/resolution settings).</ref>}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\*.drt<ref>Each save slot is a JSON <code>save_&lt;card&gt;_&lt;slot&gt;.drt</code> file. In the demo the subfolder is named <code>Debug</code>.</ref>|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\data.ctg<ref>Save catalog (slot index, location, save time, play time, last-used slot); needed for the save slots to appear in the load menu.</ref>}}"
 DERU - The Art of Cooperation:
   cloud:
     steam: true
@@ -63344,6 +63336,20 @@ Derelict Fleet:
 Dereliction:
   pageId: 122101
   steam: 969420
+Derelikt:
+  cloud:
+    xbox: true
+  gog: 1370908824
+  lutris: derelikt
+  pageId: 221403
+  renamedFrom:
+    - DERELIKT
+  steam: 3810510
+  steamSide:
+    - 5242870
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\settings.stg<ref>Plain-text JSON holding options (volume, sensitivity, invert axes, vibration, control overrides, display toggles, locale). In the demo the subfolder is named <code>Debug</code>; the <code>*</code> wildcard covers a different subfolder name in the full release.</ref>|{{P|hkcu}}\\Software\\Visuwyg\\DERELIKT<ref>Unity PlayerPrefs (window/resolution settings).</ref>}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\*.drt<ref>Each save slot is a JSON <code>save_&lt;card&gt;_&lt;slot&gt;.drt</code> file. In the demo the subfolder is named <code>Debug</code>.</ref>|{{P|userprofile\\appdata\\locallow}}\\Visuwyg\\DERELIKT\\PersistentData\\*\\data.ctg<ref>Save catalog (slot index, location, save time, play time, last-used slot); needed for the save slots to appear in the load menu.</ref>}}"
 Derora:
   pageId: 77174
   steam: 700540
@@ -90349,6 +90355,8 @@ Flesh Water:
   steam: 1740730
 Flesh of the Killer:
   pageId: 179142
+Fleshbite:
+  pageId: 222757
 Flex Apocalypse Racing:
   pageId: 125314
   steam: 1000790
@@ -189722,16 +189730,14 @@ Raptor Valley:
     - "{{Game data/saves|DOS|{{p|game}}\\CHAR****.FIL}}"
     - "{{Game data/saves|Windows|{{p|game}}\\CHAR****.FIL}}"
 "Raptor: Call of the Shadows 2010 Edition":
-  cloud:
-    steam: true
   gog: 1207658879
   pageId: 13092
   steam: 336060
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\saveoptions.dat}}"
-    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\336060\\remote\\}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\CHAR****.FIL}}"
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\336060\\remote\\}}"
+    - "{{Game data/config|Windows|{{p|game}}\\saveoptions.dat<ref>DotEmu build: the DRM-free releases, and the Steam release before October 31, 2026.</ref>|{{p|userprofile}}\\options.dat<ref>Current Steam build (SDL3 <code>raptor.exe</code>, public build of October 31, 2026). The game writes its files loose in the root of the first of <code>%HOME%</code>, <code>%USERPROFILE%</code> or <code>%APPDATA%</code> that is set, so they follow <code>%HOME%</code> when that is set (for example by Git or MSYS). The <code>-savepath</code> command line argument overrides the location. Verified on the Steam version, November 1, 2026.</ref>}}"
+    - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\336060\\remote\\<ref>DotEmu build only. The current Steam build writes no files here.</ref>}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\CHAR****.FIL<ref>DotEmu build: the DRM-free releases, and the Steam release before October 31, 2026.</ref>|{{p|userprofile}}\\CHAR*.FIL<ref>Current Steam build (SDL3 <code>raptor.exe</code>, public build of October 31, 2026). Pilot saves, one file per pilot slot starting at <code>CHAR0000.FIL</code>; not compatible with the DotEmu or DOS saves. The game writes its files loose in the root of the first of <code>%HOME%</code>, <code>%USERPROFILE%</code> or <code>%APPDATA%</code> that is set, so they follow <code>%HOME%</code> when that is set (for example by Git or MSYS). The <code>-savepath</code> command line argument overrides the location. Verified on the Steam version, November 1, 2026.</ref>|{{p|userprofile}}\\CHAR*.ACH<ref>Current Steam build. Per-pilot achievement progress, one file beside each pilot save.</ref>|{{p|userprofile}}\\ACH_*.DAT<ref>Current Steam build. Pending Steam achievement unlocks for the signed-in Steam account; the number in the file name is the account's Steam ID.</ref>}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\336060\\remote\\<ref>DotEmu build only. The current Steam build writes no files here.</ref>}}"
 "Raptor: Cretaceous Island":
   pageId: 122150
   steam: 929230
@@ -220418,6 +220424,8 @@ Speedway Challenge Career:
 Speedway Challenge League:
   pageId: 65214
   steam: 662620
+Speedway Manager 98:
+  pageId: 222760
 Speedway Racing:
   cloud:
     xbox: true
@@ -221714,6 +221722,8 @@ Spooky Bonus:
 Spooky Cats:
   pageId: 38207
   steam: 372210
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\SpookyCats\\User Data}}"
 Spooky Ghosts Dot Com:
   cloud:
     steam: true

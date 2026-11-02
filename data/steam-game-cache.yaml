@@ -461992,12 +461992,12 @@
         root: WinAppDataLocal
   installDir: "'83"
   launch:
-    - arguments: "-STEAM_BRANCH=production"
+    - arguments: "-STEAM_BRANCH=production -culture=en"
       config:
         betakey: Default
         osarch: "64"
         oslist: windows
-      executable: XV83.exe
+      executable: start_protected_game.exe
       type: default
     - arguments: "-STEAM_BRANCH=daily"
       config:
@@ -462005,21 +462005,43 @@
         osarch: "64"
         oslist: windows
       description: Development build for extra debugging and dev tools
-      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe"
+      executable: start_protected_game.exe
     - arguments: "-STEAM_BRANCH=daily"
       config:
         betakey: "83-preflight_1, 83-preflight_2, 83-preflight_3, 83-preflight_4, 83-preflight_5"
         osarch: "64"
         oslist: windows
       description: Test build config
-      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe"
+      executable: start_protected_game.exe
     - arguments: "-STEAM_BRANCH=smoke-test"
       config:
-        betakey: 83-smoke-shipping
+        betakey: "83-smoke-shipping,linux_test"
+        osarch: "64"
+        oslist: windows
+      executable: start_protected_game.exe
+      type: default
+    - arguments: "-STEAM_BRANCH=playtest"
+      config:
+        betakey: preview
+        osarch: "64"
+        oslist: windows
+      executable: start_protected_game.exe
+      type: default
+    - arguments: "-STEAM_BRANCH=daily-test -trace=default,gpu,net,slate -host=localhost -statnamedevents   "
+      config:
+        betakey: community_test_server
         osarch: "64"
         oslist: windows
       executable: XV83.exe
       type: default
+    - arguments: "-STEAM_BRANCH=daily -culture=en"
+      config:
+        betakey: "83-preflight_1, 83-preflight_2, 83-preflight_3, 83-preflight_4, 83-preflight_5"
+        osarch: "64"
+        oslist: windows
+      description: With EAC
+      executable: start_protected_game.exe
+      type: option1
     - arguments: "-STEAM_BRANCH=daily"
       config:
         betakey: "83-preflight_1, 83-preflight_2, 83-preflight_3, 83-preflight_4, 83-preflight_5"
@@ -462027,43 +462049,28 @@
       description: Launch with the daily servers
       executable: XV83.exe
       type: default
-    - arguments: "-STEAM_BRANCH=daily-test"
+    - arguments: "-STEAM_BRANCH=daily-test -culture=en"
       config:
-        betakey: "qa-dev, 83-qa_adhoc"
-        osarch: "64"
-        oslist: windows
-      description: Launch with the fqa servers
-      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe"
-      type: default
-    - arguments: "-STEAM_BRANCH=daily-test"
-      config:
-        betakey: "83-daily-test, 83-daily-dev"
+        betakey: 83-daily-test
         osarch: "64"
         oslist: windows
       description: Test Config (Default Option)
-      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Test.exe"
+      executable: start_protected_game.exe
       type: default
-    - arguments: "-STEAM_BRANCH=daily-test"
-      config:
-        betakey: "83-daily-test, 83-daily-dev"
-        osarch: "64"
-        oslist: windows
-      description: Development build for extra debugging and dev tools
-      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe"
     - arguments: "-STEAM_BRANCH=daily-test -trace=default,gpu,net,slate -host=localhost -statnamedevents   "
       config:
-        betakey: "83-daily-test, 83-daily-dev"
+        betakey: 83-daily-test
         osarch: "64"
         oslist: windows
       description: with traces
-      executable: "XV83\\Binaries\\Win64\\XV83-Win64-Development.exe"
+      executable: start_protected_game.exe
       type: option1
-    - arguments: "-STEAM_BRANCH=steam-review"
+    - arguments: "-STEAM_BRANCH=smoke-test"
       config:
         betakey: 83-default
         osarch: "64"
         oslist: windows
-      executable: XV83.exe
+      executable: start_protected_game.exe
       type: default
 1059230:
   installDir: When I Was Young

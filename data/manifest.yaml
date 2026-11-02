@@ -172210,32 +172210,6 @@ DEFCON VR:
             store: steam
   steam:
     id: 1091320
-DERELIKT:
-  files:
-    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/*.drt":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/data.ctg":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/settings.stg":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    steamExtra:
-      - 5242870
-  registry:
-    HKEY_CURRENT_USER/Software/Visuwyg/DERELIKT:
-      tags:
-        - config
-  steam:
-    id: 3810510
 DERU - The Art of Cooperation:
   cloud:
     steam: true
@@ -195430,6 +195404,35 @@ Dereliction:
             store: steam
   steam:
     id: 969420
+Derelikt:
+  files:
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/*.drt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/data.ctg":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Visuwyg/DERELIKT/PersistentData/*/settings.stg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1370908824
+  id:
+    lutris: derelikt
+    steamExtra:
+      - 5242870
+  registry:
+    HKEY_CURRENT_USER/Software/Visuwyg/DERELIKT:
+      tags:
+        - config
+  steam:
+    id: 3810510
 Derora:
   installDir:
     Derora: {}
@@ -579222,8 +579225,6 @@ Raptor Valley:
   steam:
     id: 358360
 "Raptor: Call of the Shadows 2010 Edition":
-  cloud:
-    steam: true
   files:
     "<base>/CHAR*.FIL":
       tags:
@@ -579231,6 +579232,26 @@ Raptor Valley:
       when:
         - os: windows
     "<base>/saveoptions.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<home>/ACH_*.DAT":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/CHAR*.ACH":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/CHAR*.FIL":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/options.dat":
       tags:
         - config
       when:
@@ -677173,9 +677194,11 @@ Spooky Bonus:
     id: 388450
 Spooky Cats:
   files:
-    "<base>/SavesDir/*.sav":
+    "<winLocalAppData>/SpookyCats/User Data":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Spooky Cats: {}
   launch:
