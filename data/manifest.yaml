@@ -81590,6 +81590,26 @@ Beyond Critical:
             store: steam
   steam:
     id: 960630
+Beyond Dark Castle:
+  installDir:
+    Beyond Dark Castle: {}
+  launch:
+    "<base>/Beyond Dark Castle.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Linux/Beyond Dark Castle":
+      - when:
+          - os: linux
+            store: steam
+        workingDir: "<base>/Linux"
+    "<base>/Win32/Beyond Dark Castle.exe":
+      - when:
+          - os: windows
+            store: steam
+        workingDir: "<base>/Win32"
+  steam:
+    id: 4706300
 Beyond Despair:
   cloud:
     steam: true
@@ -84959,13 +84979,12 @@ Bionic Bay:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/PsychoflowStudio/BionicBay/*.sav":
+    "<winDocuments>/Saved Games/BionicBay":
+      tags:
+        - config
+        - save
       when:
-        - os: linux
-          store: steam
-    "<winDocuments>/Saved Games/BionicBay/**/*.sav":
-      when:
-        - store: steam
+        - os: windows
   id:
     lutris: bionic-bay
   installDir:
@@ -136609,9 +136628,16 @@ Cineris Somnia:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Nayuta Studio/Cineris Somnia/save/*.sav":
+    "<winAppData>/LocalLow/Nayuta Studio/Cineris Somnia":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winAppData>/LocalLow/Nayuta Studio/Cineris Somnia/save":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: cineris-somnia
     steamExtra:
@@ -593884,6 +593910,8 @@ Return to Zork:
     gog: true
   gog:
     id: 1207658907
+  id:
+    lutris: return-to-zork
   installDir:
     Return to Zork: {}
   launch:
@@ -629926,6 +629954,34 @@ Selini:
             store: steam
   steam:
     id: 1434050
+"Selkie's Salvage&Co.":
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Selkies Salvage/playerconfig.tres":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Selkies Salvage/save*.tres":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    SelkieSalvage&Co: {}
+  launch:
+    "<base>/Selkie.exe":
+      - when:
+          - store: steam
+      - arguments: "--rendering-driver opengl3"
+        when:
+          - store: steam
+      - arguments: "--rendering-driver d3d12"
+        when:
+          - store: steam
+  steam:
+    id: 4984870
 Selknam Defense:
   cloud:
     steam: true
@@ -678408,6 +678464,8 @@ SpyParty:
         - os: dos
   gog:
     id: 1207659115
+  id:
+    lutris: spycraft-the-great-game
   installDir:
     Spycraft - The Great Game: {}
   launch:
@@ -831484,6 +831542,24 @@ ViviEon:
 Vivid!:
   steam:
     id: 1147870
+Vividlope:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/VIVIDLOPE/*.viv":
+      when:
+        - store: steam
+    "<winLocalAppData>/VIVIDLOPE/*.vivi":
+      when:
+        - store: steam
+  installDir:
+    VIVIDLOPE: {}
+  launch:
+    "<base>/VIVIDLOPE.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2078510
 Vividstasis:
   cloud:
     steam: true
@@ -836282,7 +836358,7 @@ Wally and the FANTASTIC PREDATORS:
         - save
       when:
         - os: windows
-    "C:/Windows/disney.ini":
+    "<winDir>/disney.ini":
       tags:
         - config
       when:

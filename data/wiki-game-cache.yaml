@@ -18804,6 +18804,8 @@ Atomic 79:
 "Atomic Adam: Episode 1":
   pageId: 78510
   steam: 764280
+"Atomic Betty: Intergalactic Conspiracy":
+  pageId: 222771
 Atomic Bomberman:
   pageId: 14810
   templates:
@@ -26670,6 +26672,9 @@ Beyond Contact:
 Beyond Critical:
   pageId: 153818
   steam: 960630
+Beyond Dark Castle:
+  pageId: 222767
+  steam: 4706300
 Beyond Despair:
   cloud:
     steam: true
@@ -27737,6 +27742,9 @@ Bionic Bay:
   lutris: bionic-bay
   pageId: 203601
   steam: 1928690
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Saved Games\\BionicBay\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Saved Games\\BionicBay\\}}"
 Bionic Commando:
   pageId: 176534
 Bionic Commando (2009):
@@ -44300,6 +44308,9 @@ Cineris Somnia:
   steam: 752470
   steamSide:
     - 903610
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\LocalLow\\Nayuta Studio\\Cineris Somnia}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\LocalLow\\Nayuta Studio\\Cineris Somnia\\save}}"
 Cinnabunny:
   cloud:
     steam: true
@@ -44821,6 +44832,8 @@ City Gangs San Andreas:
 City Hunter:
   pageId: 209336
   steam: 3984650
+City League Softball:
+  pageId: 222774
 City Life:
   lutris: city-life
   pageId: 41340
@@ -47366,6 +47379,8 @@ Color Cingdom:
 Color Circle:
   pageId: 90170
   steam: 800330
+Color Dark Castle:
+  pageId: 222769
 Color Defense:
   cloud:
     steam: true
@@ -194687,6 +194702,7 @@ Return to Zork:
   cloud:
     gog: true
   gog: 1207658907
+  lutris: return-to-zork
   pageId: 8473
   steam: 585240
 Return.:
@@ -206459,6 +206475,14 @@ Selini:
   steamSide:
     - 2198050
     - 4367830
+"Selkie's Salvage&Co.":
+  cloud:
+    steam: true
+  pageId: 222783
+  steam: 4984870
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Selkies Salvage\\playerconfig.tres}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Selkies Salvage\\save*.tres}}"
 Selknam Defense:
   cloud:
     steam: true
@@ -222053,6 +222077,7 @@ SpyParty:
   cloud:
     gog: true
   gog: 1207659115
+  lutris: spycraft-the-great-game
   pageId: 21136
   steam: 569220
   templates:
@@ -261035,6 +261060,8 @@ Tradewinds Legends:
 Tradewinds Odyssey:
   pageId: 51214
   steam: 36140
+"Trading Spaces: Design Companion":
+  pageId: 222780
 Traffic Cop:
   pageId: 86963
   steam: 756340
@@ -273251,6 +273278,11 @@ ViviEon:
 Vivid!:
   pageId: 144704
   steam: 1147870
+Vividlope:
+  cloud:
+    steam: true
+  pageId: 222779
+  steam: 2078510
 Vividstasis:
   cloud:
     steam: true
@@ -274813,7 +274845,7 @@ Walnuts:
 "Walt Disney World Quest: Magical Racing Tour":
   pageId: 17957
   templates:
-    - "{{Game data/config|Windows|C:\\Windows\\disney.ini}}"
+    - "{{Game data/config|Windows|{{p|windir}}\\disney.ini}}"
     - "{{Game data/saves|Windows|{{P|game}}\\WDWRacing.dat}}"
 Waltz of the Wizard (Legacy demo):
   pageId: 37187

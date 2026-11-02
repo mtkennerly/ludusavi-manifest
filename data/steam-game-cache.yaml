@@ -315315,6 +315315,8 @@
         oslist: windows
       executable: Cineris Somnia.exe
       type: default
+  nameLocalized:
+    schinese: 灰烬之梦 CINERIS SOMNIA
 752480:
   installDir: Sniper Elite VR
   launch:
@@ -565077,6 +565079,10 @@
       - path: save
         pattern: "*.dat"
         root: gameinstall
+      - path: save/backups
+        pattern: "*.dat"
+        recursive: true
+        root: gameinstall
   installDir: Wartales
   launch:
     - config:
@@ -605664,6 +605670,18 @@
       type: default
   nameLocalized:
     schinese: 战锤40K：极速狂飙
+2078510:
+  cloud:
+    saves:
+      - path: VIVIDLOPE
+        pattern: "*.viv"
+        root: WinAppDataLocal
+      - path: VIVIDLOPE
+        pattern: "*.vivi"
+        root: WinAppDataLocal
+  installDir: VIVIDLOPE
+  launch:
+    - executable: VIVIDLOPE.exe
 2079080:
   cloud:
     saves:
@@ -664662,6 +664680,44 @@
         oslist: macos
       executable: Dark Castle.app
       type: default
+4706300:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*"
+        root: SteamCloudDocuments
+    overrides:
+      - addPath: Beyond Dark Castle
+        os: Windows
+        osCompare: "="
+        root: SteamCloudDocuments
+        useInstead: WinSavedGames
+      - addPath: /Library/Preferences/games.ludit.beyonddarkcastle
+        os: MacOS
+        osCompare: "="
+        root: SteamCloudDocuments
+        useInstead: MacHome
+      - addPath: Beyond Dark Castle
+        os: Linux
+        osCompare: "="
+        root: SteamCloudDocuments
+        useInstead: LinuxXdgDataHome
+  installDir: Beyond Dark Castle
+  launch:
+    - config:
+        oslist: linux
+      executable: Linux/Beyond Dark Castle
+      type: default
+      workingdir: Linux
+    - config:
+        oslist: windows
+      executable: Win32/Beyond Dark Castle.exe
+      type: default
+      workingdir: Win32
+    - config:
+        oslist: macos
+      executable: Beyond Dark Castle.app
+      type: default
 4712350:
   cloud:
     saves:
@@ -665055,6 +665111,22 @@
       type: default
 4980620: {}
 4981370: {}
+4984870:
+  cloud:
+    saves:
+      - path: Selkies Salvage
+        pattern: "*.tres"
+        root: WinAppDataRoaming
+  installDir: SelkieSalvage&Co
+  launch:
+    - description: Launch using Vulkan
+      executable: Selkie.exe
+    - arguments: "--rendering-driver opengl3"
+      description: Launch Using OpenGL (Use if your computer is old or game is crashing)
+      executable: Selkie.exe
+    - arguments: "--rendering-driver d3d12"
+      description: Launch Using DirectX12
+      executable: Selkie.exe
 4990820: {}
 4991240:
   installDir: Witch Cabin Cleanup
