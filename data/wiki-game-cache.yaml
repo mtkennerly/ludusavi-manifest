@@ -8037,6 +8037,8 @@ Age of Wonders 4:
   gogSide:
     - 1113728204
     - 1197286076
+    - 1265819430
+    - 1417766135
     - 1467390423
     - 1578247919
     - 1592003664
@@ -8046,6 +8048,7 @@ Age of Wonders 4:
     - 1701722110
     - 1804193941
     - 1807709024
+    - 1843615102
     - 1857270805
     - 1873500519
     - 1886745991
@@ -8077,6 +8080,12 @@ Age of Wonders 4:
     - 3976900
     - 3976910
     - 4057080
+    - 5094350
+    - 5094360
+    - 5094370
+    - 5094380
+    - 5094390
+    - 5113010
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Paradox Interactive\\Age of Wonders 4\\Config\\Settings.cfg}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Paradox Interactive\\Age of Wonders 4\\Storage}}"
@@ -34131,6 +34140,7 @@ Brian Lara Cricket:
 Brian Lara International Cricket 2005:
   pageId: 91687
 Brian Lara International Cricket 2007:
+  lutris: brian-lara-international-cricket-2007
   pageId: 91669
   steam: 11520
 Bric:
@@ -101275,6 +101285,8 @@ Godzilla Voxel Wars:
 "Godzilla: Destroy All Monsters Melee Remastered":
   pageId: 217406
   steam: 4251460
+  steamSide:
+    - 4653170
 Goetia:
   cloud:
     gog: true
@@ -109177,6 +109189,9 @@ Heartbound:
 "Heartbreak High: A Break-Up Simulator":
   pageId: 94425
   steam: 836350
+Heartfall — A Tale in Three Lives:
+  pageId: 222845
+  steam: 5257930
 Hearthlands:
   gog: 1287972541
   pageId: 37604
@@ -176383,6 +176398,7 @@ Perils of Man:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Boutiq\\Perils of Man}}"
 Perimeter:
   gog: 1207658667
+  lutris: perimeter
   pageId: 25934
   steam: 289440
   templates:
@@ -176395,6 +176411,7 @@ Perimeter:
   cloud:
     steam: true
   gog: 1454498998
+  lutris: perimeter-emperors-testament
   pageId: 34258
   steam: 289240
 "Perimeter: Legate Edition":
@@ -211681,6 +211698,8 @@ Silhouette:
   pageId: 52848
   steam: 526310
 Silica:
+  cloud:
+    steam: true
   pageId: 186906
   steam: 1494420
 Silicomrades:
@@ -214201,6 +214220,7 @@ Slice & Dice:
   steam: 1775490
   templates:
     - "{{Game data/saves|Windows|{{P|game}}/xsrvc.dll|{{P|game}}/xsrvcx.dll}}"
+    - "{{Game data/saves|Linux|{{P|linuxhome}}/.prefs/slice-and-dice-3|{{P|linuxhome}}/.prefs/slice-and-dice-3x}}"
 "Slice 'N Hook: Haunted Miniature Golf":
   pageId: 208927
 Slice of Life:
@@ -236629,6 +236649,7 @@ Task Force:
   steam: 329680
 Task Force Delta ‑ Afghanistan:
   pageId: 200556
+  steam: 1700370
 Task is to Survive:
   pageId: 74179
   steam: 735410
@@ -241145,6 +241166,11 @@ The Citadel:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\the_citadel\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\the_citadel\\Saved\\SaveGames\\}}"
+The Citadel Project:
+  pageId: 222847
+  steam: 4795460
+  steamSide:
+    - 5111940
 The City of Lost Children:
   pageId: 211686
 The Clans - Saga of the Twins:
@@ -259322,7 +259348,9 @@ Tormentor X Punisher:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TormentorXPunisher\\}}"
 Tormentum II:
   cloud:
+    gog: true
     steam: true
+  gog: 1169385437
   lutris: tormentum-ii
   pageId: 122794
   steam: 931060

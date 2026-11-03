@@ -25459,6 +25459,8 @@ Age of Wonders 4:
     gogExtra:
       - 1113728204
       - 1197286076
+      - 1265819430
+      - 1417766135
       - 1467390423
       - 1578247919
       - 1592003664
@@ -25468,6 +25470,7 @@ Age of Wonders 4:
       - 1701722110
       - 1804193941
       - 1807709024
+      - 1843615102
       - 1857270805
       - 1873500519
       - 1886745991
@@ -25497,6 +25500,12 @@ Age of Wonders 4:
       - 3976900
       - 3976910
       - 4057080
+      - 5094350
+      - 5094360
+      - 5094370
+      - 5094380
+      - 5094390
+      - 5113010
   installDir:
     Age of Wonders 4: {}
   launch:
@@ -104839,6 +104848,8 @@ Brews & Bastards:
   steam:
     id: 2556240
 Brian Lara International Cricket 2007:
+  id:
+    lutris: brian-lara-international-cricket-2007
   installDir:
     Brian Lara International Cricket 2007: {}
   launch:
@@ -310540,6 +310551,22 @@ Godzilla Voxel Wars:
   steam:
     id: 2439780
 "Godzilla: Destroy All Monsters Melee Remastered":
+  files:
+    "<winLocalAppData>/GZPro/Saved/SaveGames/<storeUserId>/GZProSave.sav":
+      when:
+        - os: windows
+          store: steam
+  id:
+    steamExtra:
+      - 4653170
+  installDir:
+    Godzilla Destroy All Monsters Melee Remastered: {}
+  launch:
+    "<base>/GZPro/Binaries/Win64/GZProSteam-Win64-Shipping.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4251460
 Goetia:
@@ -334217,6 +334244,24 @@ Heartbound:
             store: steam
   steam:
     id: 836350
+Heartfall — A Tale in Three Lives:
+  installDir:
+    Heartfall — A Tale in Three Lives: {}
+  launch:
+    "<base>/3rdRPG-shell2.app/Contents/MacOS/3rdRPG-shell2":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Heartfall.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Heartfall.x86_64":
+      - when:
+          - os: linux
+            store: steam
+  steam:
+    id: 5257930
 Hearthlands:
   files:
     "<base>/config.txt":
@@ -344195,6 +344240,21 @@ Hexzen:
         - os: linux
   id:
     lutris: hexzen
+  installDir:
+    Hexzen: {}
+  launch:
+    "<base>/Hexzen.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/hexzen_game":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/hexzen_game.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4886450
 "Hi-5: Create, Paint and Play":
@@ -391462,12 +391522,12 @@ Katana Dragon:
   installDir:
     Katana Dragon: {}
   launch:
-    "<base>/katana_dragon.exe":
+    "<base>/katana-dragon.exe":
       - when:
           - bit: 64
             os: windows
             store: steam
-    "<base>/katana_dragon.x86_64":
+    "<base>/katana-dragon.x86_64":
       - when:
           - bit: 64
             os: linux
@@ -537533,6 +537593,8 @@ Perimeter:
         - os: windows
   gog:
     id: 1207658667
+  id:
+    lutris: perimeter
   installDir:
     Perimeter: {}
   launch:
@@ -537567,6 +537629,8 @@ Perimeter:
           store: steam
   gog:
     id: 1454498998
+  id:
+    lutris: perimeter-emperors-testament
   installDir:
     PerimeterET: {}
   launch:
@@ -569202,6 +569266,31 @@ Qajary Cat:
   steam:
     id: 734080
 Qanga:
+  files:
+    "<winLocalAppData>/Qanga/Saved/SaveGames/*Tutorial.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/BACKUP_Offline/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/LocalData.sav":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/Offline":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/QStorage/Offline/**/*.qst":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/Qanga/Saved/SaveGames/QStorage/Offline/**/*.qst.bak":
+      when:
+        - os: windows
+          store: steam
   installDir:
     Qanga: {}
   launch:
@@ -645966,6 +646055,8 @@ Silhouette:
   steam:
     id: 526310
 Silica:
+  cloud:
+    steam: true
   installDir:
     Silica: {}
   launch:
@@ -653804,6 +653895,16 @@ Slice & Dice:
         - save
       when:
         - os: windows
+    "<home>/.prefs/slice-and-dice-3":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.prefs/slice-and-dice-3x":
+      tags:
+        - save
+      when:
+        - os: linux
   installDir:
     Slice_n_Dice: {}
   launch:
@@ -723309,6 +723410,9 @@ Task Force:
         workingDir: "<base>/dosbox_windows"
   steam:
     id: 329680
+Task Force Delta ‑ Afghanistan:
+  steam:
+    id: 1700370
 Task is to Survive:
   installDir:
     Task is to Survive: {}
@@ -737397,6 +737501,12 @@ The Citadel:
             store: steam
   steam:
     id: 1378290
+The Citadel Project:
+  id:
+    steamExtra:
+      - 5111940
+  steam:
+    id: 4795460
 The Clans - Saga of the Twins:
   cloud:
     steam: true
@@ -791863,6 +791973,7 @@ Tormentor X Punisher:
     id: 500670
 Tormentum II:
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/.config/unity3d/OhNoo Studio/Tormentum II":
@@ -791876,6 +791987,8 @@ Tormentum II:
         - save
       when:
         - os: windows
+  gog:
+    id: 1169385437
   id:
     lutris: tormentum-ii
     steamExtra:

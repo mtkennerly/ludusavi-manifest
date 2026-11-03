@@ -561088,6 +561088,12 @@
     - arguments: "-game:TheChroniclesOfMyrtana.ini"
       executable: System/Gothic2.exe
       type: default
+    - arguments: "-DebugLib"
+      config:
+        betakey: "git_master,git_release,staging,playtest_aug26"
+      description: Debug
+      executable: System/Gothic2.exe
+      type: option1
   nameLocalized:
     german: "Die Chroniken von Myrtana: Archolos"
     italian: "Le Cronache di Myrtana: Archolos"
@@ -567156,28 +567162,28 @@
       executable: Hellraiser.exe
       type: option1
     - config:
-        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing"
+        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing,release_patch2_testing,release_patch3_testing"
         oslist: windows
       description: "Clive Barker's Hellraiser: Revival (Test)"
       executable: "Hellraiser\\Binaries\\Win64\\Hellraiser-Win64-Test.exe"
       type: option2
     - arguments: "-NoVerifyGC -trace=cpu,gpu,frames,log,bookmarks -tracehost=10.105.47.22"
       config:
-        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing"
+        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing,release_patch2_testing,release_patch3_testing"
         oslist: windows
       description: Performance Test
       executable: Hellraiser.exe
       type: option3
     - arguments: "--PsoRunDev"
       config:
-        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing"
+        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing,release_patch2_testing,release_patch3_testing"
         oslist: windows
       description: And Collect PSO (Dev)
       executable: RunGameAndCollectPSO.bat
       type: option3
     - arguments: "--PsoRunTest"
       config:
-        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing"
+        betakey: "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing,release_patch2_testing,release_patch3_testing"
         oslist: windows
       description: And Collect PSO (Test)
       executable: RunGameAndCollectPSO.bat
@@ -575357,6 +575363,41 @@
   launch:
     - executable: Ankora.exe
 1648190:
+  cloud:
+    saves:
+      - path: Qanga/Saved/SaveGames/Offline
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: Qanga/Saved/SaveGames/BACKUP_Offline
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Qanga/Saved/SaveGames/QStorage/Offline
+        pattern: "*.qst"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: Qanga/Saved/SaveGames/QStorage/Offline
+        pattern: "*.qst.bak"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocal
+      - path: Qanga/Saved/SaveGames
+        pattern: "*Tutorial.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+      - path: Qanga/Saved/SaveGames
+        pattern: LocalData.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
   installDir: Qanga
   launch:
     - config:
@@ -579507,6 +579548,7 @@
       type: default
     - description: Launch with Direct3D 9 (Compatible with older devices)
       executable: THUVoI.exe
+1700370: {}
 1700870:
   cloud:
     saves:
@@ -597498,6 +597540,18 @@
       - path: saves
         pattern: "*.bin"
         root: gameinstall
+      - path: Glimmerlight Games/Planet S/saves
+        pattern: "*.pss"
+        root: WinSavedGames
+      - path: Glimmerlight Games/Planet S/saves
+        pattern: "*.bin"
+        root: WinSavedGames
+    overrides:
+      - addPath: Saved Games/
+        os: Linux
+        osCompare: "="
+        root: WinSavedGames
+        useInstead: LinuxHome
   installDir: Planet S
   launch:
     - config:
@@ -650249,12 +650303,12 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: katana_dragon.exe
+      executable: katana-dragon.exe
       type: default
     - config:
         osarch: "64"
         oslist: linux
-      executable: katana_dragon.x86_64
+      executable: katana-dragon.x86_64
       type: default
 3306040:
   installDir: Kiana & Biscuit - Pirates on a visit!
@@ -663131,7 +663185,21 @@
     - executable: 4249150_Launcher.exe
   nameLocalized:
     japanese: ブレス オブ ファイアIV うつろわざるもの
-4251460: {}
+4251460:
+  cloud:
+    saves:
+      - path: "GZPro/Saved/SaveGames/{64BitSteamID}"
+        pattern: GZProSave.sav
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: Godzilla Destroy All Monsters Melee Remastered
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "\\GZPro\\Binaries\\Win64\\GZProSteam-Win64-Shipping.exe"
+      type: default
 4252290:
   installDir: Meowgic
   launch:
@@ -665030,6 +665098,7 @@
     schinese: "神探狗狗 : 汪者归来"
     spanish: "Polican: Vuelta a la Carga"
     tchinese: "超狗神探 : 汪者歸來  "
+4795460: {}
 4808850: {}
 4810160:
   nameLocalized:
@@ -665143,6 +665212,20 @@
 4877950: {}
 4878690: {}
 4886450:
+  installDir: Hexzen
+  launch:
+    - config:
+        oslist: windows
+      executable: hexzen_game.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Hexzen.app
+      type: default
+    - config:
+        oslist: linux
+      executable: hexzen_game
+      type: default
   nameLocalized:
     japanese: Hexzen ヘクスゼン
     koreana: Hexzen 헥스젠
@@ -665585,6 +665668,18 @@
 5233100: {}
 5244970: {}
 5254020: {}
+5257930:
+  installDir: Heartfall — A Tale in Three Lives
+  launch:
+    - config:
+        oslist: windows
+      executable: Heartfall.exe
+    - config:
+        oslist: macos
+      executable: "3rdRPG-shell2.app\\Contents\\MacOS\\3rdRPG-shell2"
+    - config:
+        oslist: linux
+      executable: Heartfall.x86_64
 5306540: {}
 5342930:
   cloud:
