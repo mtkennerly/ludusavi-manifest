@@ -623635,6 +623635,19 @@
     schinese: 鬼灭之刃 争当最强队士！
     spanish: Guardianes de la Noche -Kimetsu no Yaiba- ¡A por todas!
     tchinese: 鬼滅之刃 成為最強隊士！
+2424300:
+  cloud:
+    saves:
+      - path: Save
+        pattern: "*.sav"
+        root: gameinstall
+  installDir: Grey Heritage Noble Duty
+  launch:
+    - description: This is the install location.
+      executable: game.exe
+      type: default
+  nameLocalized:
+    schinese: 灰色遗产：崇高使命
 2424420:
   installDir: Avatar Legends The Fighting Game
   launch:
@@ -637620,6 +637633,9 @@
     tchinese: Barbie™ 馬背探險
     turkish: Barbie™ At Patikaları
     ukrainian: Barbie™ Кінні стежки
+2786710:
+  nameLocalized:
+    russian: Заря
 2787320:
   cloud:
     saves:
@@ -659534,6 +659550,44 @@
     - config:
         oslist: windows
       executable: BannyBarTalk.exe
+3891400:
+  cloud:
+    saves:
+      - path: Rogue Duck Interactive/Mixed Spirits
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Rogue Duck Interactive/Mixed Spirits
+            replace: Rogue Duck Interactive/Mixed Spirits
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Rogue Duck Interactive/Mixed Spirits
+            replace: ".config/unity3d/Rogue Duck Interactive/Mixed Spirits"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Mixed Spirits Bartender Simulator
+  launch:
+    - config:
+        oslist: windows
+      executable: Mixed Spirits.exe
+    - config:
+        oslist: macos
+      executable: mac.app
+    - config:
+        oslist: linux
+      executable: app.x86_64
+  nameLocalized:
+    japanese: バーテンダーシミュレーター
+    koreana: 바텐더 시뮬레이터
+    schinese: 调酒师模拟器
+    tchinese: 調酒師模擬器
 3891510:
   cloud:
     saves:
@@ -661195,6 +661249,25 @@
         oslist: macos
       executable: Netoo.app
       type: default
+4017880:
+  cloud:
+    saves:
+      - path: "FURYU Corporation/Anomalith/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+  installDir: Anomalith
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Anomalith.exe
+      type: default
+  nameLocalized:
+    english: ANOMALITH
+    japanese: アノマリス／ANOMALITH
+    koreana: 아노말리스／ANOMALITH
+    schinese: 异界揭踪／ANOMALITH
+    tchinese: 異界揭蹤／ANOMALITH
 4019220:
   cloud:
     saves:

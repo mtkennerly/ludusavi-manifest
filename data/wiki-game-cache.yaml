@@ -13596,6 +13596,22 @@ Anomalie:
 Anomalies:
   pageId: 52530
   steam: 546780
+Anomalith:
+  cloud:
+    steam: true
+  lutris: anomalith
+  pageId: 222813
+  steam: 4017880
+  steamSide:
+    - 4383910
+    - 4424530
+    - 4424540
+    - 4682820
+    - 5240430
+    - 5240440
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\FURYU Corporation\\Anomalith\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\FURYU Corporation\\Anomalith\\{{P|uid}}\\}}"
 Anomaly 1729:
   pageId: 45136
   steam: 424320
@@ -34982,6 +34998,7 @@ Brotato:
     - 1126351084
     - 1562256538
     - 1638201898
+    - 2120276833
     - 2146695817
   lutris: brotato
   pageId: 188573
@@ -76073,6 +76090,9 @@ Ecstatica (2026):
     - 5307880
     - 5418140
     - 5418150
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\SNEG\\Ecstatica\\}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\SNEG\\Ecstatica\\Save Slots\\}}"
 Ecstatica II:
   cloud:
     gog: true
@@ -94622,6 +94642,7 @@ Frostpunk 2:
     - 1800456002
     - 1967910805
     - 2072738332
+  lutris: frostpunk-2
   malformed: true
   pageId: 170738
   steam: 1601580
@@ -94629,6 +94650,9 @@ Frostpunk 2:
     - 2791490
     - 2791500
     - 2791510
+    - 3197520
+    - 4124750
+    - 4124760
   templates:
     - "{{Game data/config|Steam|{{P|localappdata}}\\11bitstudios\\Frostpunk2\\Steam\\Saved\\Config\\Windows}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\11bitstudios\\Frostpunk2\\MS\\Saved\\Config\\WinGDK}}"
@@ -103770,6 +103794,13 @@ Grey Goo:
 Grey Hack:
   pageId: 77908
   steam: 605230
+"Grey Heritage: Noble Duty":
+  cloud:
+    steam: true
+  pageId: 222803
+  steam: 2424300
+  templates:
+    - "{{Game data/saves|Windows|{{P|game}}\\Save\\}}"
 Grey Phobia:
   cloud:
     steam: true
@@ -152743,6 +152774,9 @@ Mitsurugi Kamui Hikae:
 Mixed Estate:
   pageId: 121053
   steam: 944840
+"Mixed Spirits: Bartender":
+  pageId: 222787
+  steam: 3891400
 Mixed-Up Fairy Tales:
   pageId: 147228
 Mixed-Up Mother Goose:
@@ -255080,9 +255114,16 @@ Thief Town:
     steam: true
     xbox: true
   gog: 1477689565
+  gogSide:
+    - 1234906600
+    - 2045456986
+    - 2101051339
   lutris: thief-the-dark-project-remastered
   pageId: 217454
   steam: 4200960
+  steamSide:
+    - 5407730
+    - 5497820
 Thievery:
   pageId: 99978
   steam: 882700
@@ -255720,6 +255761,8 @@ Through the Dust:
   renamedFrom:
     - Through The Dust
   steam: 1155680
+Through the Looking Glass:
+  pageId: 222799
 Through the Mirror:
   pageId: 55590
   steam: 548720
@@ -287005,6 +287048,9 @@ Zapitalism:
 Zarvot:
   pageId: 126270
   steam: 992930
+Zarya:
+  pageId: 222785
+  steam: 2786710
 Zarya and the Cursed Skull:
   cloud:
     steam: true

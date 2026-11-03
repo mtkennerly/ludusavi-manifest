@@ -42227,6 +42227,35 @@ Anomalies:
             store: steam
   steam:
     id: 546780
+Anomalith:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/FURYU Corporation/Anomalith/<storeUserId>":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: anomalith
+    steamExtra:
+      - 4383910
+      - 4424530
+      - 4424540
+      - 4682820
+      - 5240430
+      - 5240440
+  installDir:
+    Anomalith: {}
+  launch:
+    "<base>/Anomalith.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4017880
 Anomaly 1729:
   installDir:
     Anomaly 1729: {}
@@ -107480,6 +107509,7 @@ Brotato:
       - 1126351084
       - 1562256538
       - 1638201898
+      - 2120276833
       - 2146695817
     lutris: brotato
     steamExtra:
@@ -234033,21 +234063,16 @@ Ecstatica (2026):
     gog: true
     steam: true
   files:
-    "<winAppData>/SNEG/Ecstatica/Save Slots/000*.ecs":
+    "<winAppData>/SNEG/Ecstatica":
+      tags:
+        - config
       when:
-        - store: steam
-    "<winAppData>/SNEG/Ecstatica/Save Slots/000*.png":
+        - os: windows
+    "<winAppData>/SNEG/Ecstatica/Save Slots":
+      tags:
+        - save
       when:
-        - store: steam
-    "<winAppData>/SNEG/Ecstatica/controls.bin":
-      when:
-        - store: steam
-    "<winAppData>/SNEG/Ecstatica/settings.json":
-      when:
-        - store: steam
-    "<winAppData>/SNEG/Ecstatica/store.bin":
-      when:
-        - store: steam
+        - os: windows
   gog:
     id: 1333226285
   id:
@@ -290213,10 +290238,14 @@ Frostpunk 2:
       - 1800456002
       - 1967910805
       - 2072738332
+    lutris: frostpunk-2
     steamExtra:
       - 2791490
       - 2791500
       - 2791510
+      - 3197520
+      - 4124750
+      - 4124760
   installDir:
     Frostpunk2: {}
   launch:
@@ -318133,6 +318162,23 @@ Grey Hack:
             store: steam
   steam:
     id: 605230
+"Grey Heritage: Noble Duty":
+  cloud:
+    steam: true
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Grey Heritage Noble Duty: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2424300
 Grey Phobia:
   cloud:
     steam: true
@@ -466975,6 +467021,36 @@ Mixed Estate:
     Mixed Estate: {}
   steam:
     id: 944840
+"Mixed Spirits: Bartender":
+  files:
+    "<home>/.config/unity3d/Rogue Duck Interactive/Mixed Spirits/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Rogue Duck Interactive/Mixed Spirits/**/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Rogue Duck Interactive/Mixed Spirits/*.json":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Mixed Spirits Bartender Simulator: {}
+  launch:
+    "<base>/Mixed Spirits.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/app.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/mac.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 3891400
 Mixolumia:
   cloud:
     steam: true
@@ -779007,7 +779083,14 @@ Thief Town:
   gog:
     id: 1477689565
   id:
+    gogExtra:
+      - 1234906600
+      - 2045456986
+      - 2101051339
     lutris: thief-the-dark-project-remastered
+    steamExtra:
+      - 5407730
+      - 5497820
   steam:
     id: 4200960
 Thievery:
@@ -872615,6 +872698,9 @@ Zapitalism:
 Zarvot:
   steam:
     id: 992930
+Zarya:
+  steam:
+    id: 2786710
 Zarya and the Cursed Skull:
   cloud:
     steam: true
