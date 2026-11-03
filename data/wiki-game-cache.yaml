@@ -11783,6 +11783,8 @@ American Idol (2002):
   pageId: 212944
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\AmIdol.ini}}"
+American Idol (2003):
+  pageId: 222830
 "American McGee's Alice":
   lutris: american-mcgees-alice
   pageId: 17504
@@ -44326,8 +44328,8 @@ Cineris Somnia:
   steamSide:
     - 903610
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\LocalLow\\Nayuta Studio\\Cineris Somnia}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\LocalLow\\Nayuta Studio\\Cineris Somnia\\save}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Nayuta Studio\\Cineris Somnia}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Nayuta Studio\\Cineris Somnia\\save}}"
 Cinnabunny:
   cloud:
     steam: true
@@ -70879,6 +70881,7 @@ DreadOut 2:
 DreadOut 3:
   cloud:
     steam: true
+  lutris: dreadout-3
   pageId: 204612
   steam: 3500810
 DreadOut Remastered Collection:
@@ -100327,6 +100330,10 @@ Gloomy Eyes:
     gog: true
     steam: true
   gog: 1854583896
+  gogSide:
+    - 1524112552
+    - 1686978672
+    - 2012213766
   lutris: gloomy-eyes--1
   pageId: 208266
   steam: 2667950
@@ -111409,6 +111416,8 @@ Hero Swing VR:
 Hero Village Simulator:
   pageId: 82381
   steam: 793180
+Hero X:
+  pageId: 222832
 Hero Zero:
   pageId: 42569
   steam: 482920
@@ -120441,6 +120450,9 @@ Indian Legends Solitaire:
 Indian Summer:
   pageId: 122028
   steam: 900380
+Indian Truck Simulator:
+  pageId: 222836
+  steam: 5346150
 Indiana Boy Steam Edition:
   pageId: 123918
   steam: 990950
@@ -133978,18 +133990,21 @@ Layers of Fear:
     steam: true
   gog: 1455107123
   gogSide:
+    - 1096897883
     - 1256894029
+    - 1562968029
+  lutris: layers-of-fear
   pageId: 34256
   steam: 391720
   steamSide:
     - 493530
     - 550210
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Bloober Team\\Layers of Fear\\0\\cfg\\|{{P|hkcu}}\\Software\\Bloober Team\\Layers of Fear}}"
-    - "{{Game data/config|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Bloober Team\\Layers of Fear\\{{p|uid}}\\cfg\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Bloober Team\\Layers of Fear\\0\\cfg\\|{{P|hkcu}}\\Software\\Bloober Team\\Layers of Fear}}"
+    - "{{Game data/config|Steam|{{p|userprofile\\appdata\\locallow}}\\Bloober Team\\Layers of Fear\\{{p|uid}}\\cfg\\}}"
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/Bloober Team/Layers of Fear/}}"
-    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Bloober Team\\Layers of Fear\\0\\save*.dat}}"
-    - "{{Game data/saves|Steam|{{p|userprofile}}\\AppData\\LocalLow\\Bloober Team\\Layers of Fear\\{{p|uid}}\\save*.dat}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Bloober Team\\Layers of Fear\\0\\save*.dat}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Bloober Team\\Layers of Fear\\{{p|uid}}\\save*.dat}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Containers/unity.Bloober-Team.Layers-of-Fear/Data/Library/Application Support/unity.Bloober Team.Layers of Fear/0}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/Bloober Team/Layers of Fear/}}"
 Layers of Fear (2023):
@@ -180500,6 +180515,9 @@ Pocket Mirror ~ GoldenerTraum:
     steam: true
   pageId: 202468
   steam: 1899060
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\save\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 Pocket Rally:
   pageId: 168489
 Pocket Rogues:
@@ -245671,6 +245689,18 @@ The Jackbox Party Pack 11:
   steam: 3364070
   steamSide:
     - 4046830
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Jackbox Games\\The Jackbox Party Pack 11}}"
+The Jackbox Party Pack 12:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 222826
+  steam: 4199960
+  steamSide:
+    - 5108610
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Jackbox Games\\The Jackbox Party Pack 12}}"
 The Jackbox Party Pack 2:
   cloud:
     steam: true
@@ -245774,6 +245804,16 @@ The Jackbox Party Starter:
     xbox: true
   pageId: 178634
   steam: 1755580
+The Jackbox Survey Scramble:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 222824
+  steam: 2948640
+  steamSide:
+    - 3349110
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Jackbox Games\\The Jackbox Survey Scramble}}"
 The Janitor:
   pageId: 42269
   steam: 502880
@@ -251756,6 +251796,9 @@ The Sinking City Remastered:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TSCGame\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TSCGame\\Saved\\SaveGames\\}}"
+"The Sisters 2: Road to Fame":
+  pageId: 222818
+  steam: 2434050
 "The Sisters: Party of the Year":
   lutris: the-sisters-party-of-the-year
   pageId: 179841
@@ -264200,6 +264243,12 @@ TrivaTune:
 Trivia King:
   pageId: 97888
   steam: 875780
+Trivia Murder Party 3:
+  pageId: 222828
+  steam: 3048060
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\TMP3\\Saved\\Config\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\TMP3\\Saved\\SaveGames\\}}"
 Trivia Night:
   pageId: 64006
   steam: 628570

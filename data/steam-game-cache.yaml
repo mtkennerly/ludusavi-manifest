@@ -497495,12 +497495,23 @@
       - path: Weird and Wry/NIMBY Rails
         pattern: "*.nimbyrails5"
         root: WinSavedGames
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Weird and Wry/NIMBY Rails
+            replace: nimbyrails-saves
+        root: WinSavedGames
+        useInstead: LinuxXdgDataHome
   installDir: NIMBY Rails
   launch:
     - config:
         oslist: windows
       executable: NIMBYRails.exe
       type: none
+    - config:
+        oslist: linux
+      executable: nimbyrails
 1134730:
   installDir: Wetpants
   launch:
@@ -565411,6 +565422,10 @@
         oslist: windows
       executable: Gorilla Tag.exe
       type: othervr
+    - config:
+        oslist: android
+      executable: GorillaTag.apk
+      type: openxr
 1533420:
   cloud:
     saves:
@@ -624249,6 +624264,12 @@
         osarch: "64"
         oslist: windows
       executable: "Unsorted Horror\\Unsorted Horror.exe"
+2434050:
+  installDir: The Sisters 2 - Road to Fame
+  launch:
+    - executable: The Sisters 2 - Road to Fame.exe
+  nameLocalized:
+    french: Les Sisters 2 - Stars des Réseaux
 2434440:
   cloud:
     saves:
@@ -642028,6 +642049,29 @@
     japanese: インスタントメモリー
     schinese: 絮絮手帐本 Instants
     tchinese: 絮絮手賬本 Instants
+2948640:
+  installDir: The Jackbox Survey Scramble
+  launch:
+    - config:
+        oslist: macos
+      executable: The Jackbox Survey Scramble.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Launcher.sh
+      type: default
+    - arguments: game/the-jackbox-survey-scramble
+      config:
+        oslist: windows
+      description: in The Jackbox Games Megapicker
+      executable: launch_mp.bat
+      type: option3
+    - config:
+        oslist: windows
+      description: Standalone
+      executable: The Jackbox Survey Scramble.exe
+      type: default
 2948680:
   cloud:
     saves:
@@ -644653,6 +644697,57 @@
   nameLocalized:
     schinese: 《牧灵奇旅》
     tchinese: 《牧群之旅》
+3048060:
+  installDir: Trivia Murder Party 3
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: TMP3.exe
+      type: default
+    - config:
+        betakey: "cert,main,main-shipping,latest-linux,steventest"
+        osarch: "64"
+        oslist: linux
+      executable: TMP3.sh
+      type: default
+    - arguments: "-networkversionoverride=632731"
+      config:
+        betakey: "cert,main,main-shipping"
+        oslist: macos
+      executable: TMP3-Mac-Shipping.app
+      type: default
+    - arguments: "-log -networkversionoverride=632731"
+      config:
+        betakey: main
+        oslist: macos
+      description: Trivia Murder Party 3 (TEST)
+      executable: TMP3-Mac-Test.app
+      type: option1
+    - arguments: "-log -EpicPortal -epicsandboxid=p-8xn8gs488bwq3yv4a2xmgr6hvgrsnv -epicdeploymentid=0d0c3c56a14c4285b909fc5d88a7f2bf"
+      config:
+        betakey: "latest-ea,latest-ea-shipping,latest,latest-shipping"
+        osarch: "64"
+        oslist: windows
+      description: TMP3 (Dev Sandbox)
+      executable: TMP3.exe
+      type: option1
+    - arguments: "-log -EpicPortal -epicsandboxid=p-5rnp4n74au6hw33dj3x8z7aqcg8aur -epicdeploymentid=52c9a6b19144436790ec1cd83c93cfcc"
+      config:
+        betakey: "latest-ea,latest-ea-shipping,latest,latest-shipping"
+        osarch: "64"
+        oslist: windows
+      description: TMP3 (Stage Sandbox)
+      executable: TMP3.exe
+      type: option1
+    - arguments: "-log -EpicPortal -epicsandboxid=a6b874a0dbd14c76947ea0c6a52e4d61 -epicdeploymentid=850db7e26a7b474882e4cb8304d107e7"
+      config:
+        betakey: "latest-ea,latest-ea-shipping,latest,latest-shipping"
+        osarch: "64"
+        oslist: windows
+      description: TMP3 (Live Sandbox)
+      executable: TMP3.exe
+      type: option1
 3048540:
   installDir: Micro Tanks
   launch:
@@ -662680,6 +662775,23 @@
     koreana: "토탈워: 워해머 40,000"
     schinese: 全面战争：战锤40000
     tchinese: 全軍破敵：戰鎚40000
+4199960:
+  installDir: The Jackbox Party Pack 12
+  launch:
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Launcher.sh
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: The Jackbox Party Pack 12.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: The Jackbox Party Pack 12.app
+      type: default
 4200110: {}
 4200480:
   installDir: Reclaim! Azhe-giiwewining
@@ -665486,6 +665598,7 @@
         osarch: "64"
         oslist: windows
       executable: Dementium II.exe
+5346150: {}
 5349950: {}
 5370600:
   cloud:

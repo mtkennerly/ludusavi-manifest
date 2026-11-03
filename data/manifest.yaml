@@ -136658,12 +136658,12 @@ Cineris Somnia:
   cloud:
     steam: true
   files:
-    "<winAppData>/LocalLow/Nayuta Studio/Cineris Somnia":
+    "<home>/AppData/LocalLow/Nayuta Studio/Cineris Somnia":
       tags:
         - config
       when:
         - os: windows
-    "<winAppData>/LocalLow/Nayuta Studio/Cineris Somnia/save":
+    "<home>/AppData/LocalLow/Nayuta Studio/Cineris Somnia/save":
       tags:
         - save
       when:
@@ -217876,6 +217876,8 @@ DreadOut 2:
 DreadOut 3:
   cloud:
     steam: true
+  id:
+    lutris: dreadout-3
   steam:
     id: 3500810
 DreadOut Remastered Collection:
@@ -307580,6 +307582,10 @@ Gloomy Eyes:
   gog:
     id: 1854583896
   id:
+    gogExtra:
+      - 1524112552
+      - 1686978672
+      - 2012213766
     lutris: gloomy-eyes--1
     steamExtra:
       - 3986200
@@ -369037,6 +369043,9 @@ Indian Summer:
             store: steam
   steam:
     id: 900380
+Indian Truck Simulator:
+  steam:
+    id: 5346150
 Indiana Boy Steam Edition:
   installDir:
     Indiana Boy Steam Edition: {}
@@ -409860,7 +409869,10 @@ Layers of Fear:
     id: 1455107123
   id:
     gogExtra:
+      - 1096897883
       - 1256894029
+      - 1562968029
+    lutris: layers-of-fear
     steamExtra:
       - 493530
       - 550210
@@ -487408,6 +487420,10 @@ NIMBY Rails:
       - when:
           - os: windows
             store: steam
+    "<base>/nimbyrails":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 1134710
 NIMRODS:
@@ -550096,9 +550112,12 @@ Pocket Mirror ~ GoldenerTraum:
   cloud:
     steam: true
   files:
-    "<base>/save/*.rmmzsave":
+    "<base>/save":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     Pocket Mirror - Goldenertraum: {}
   launch:
@@ -751084,6 +751103,12 @@ The Jackbox Party Pack 10:
 The Jackbox Party Pack 11:
   cloud:
     steam: true
+  files:
+    "<winLocalAppData>/Jackbox Games/The Jackbox Party Pack 11":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 4046830
@@ -751106,6 +751131,37 @@ The Jackbox Party Pack 11:
             store: steam
   steam:
     id: 3364070
+The Jackbox Party Pack 12:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Jackbox Games/The Jackbox Party Pack 12":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5108610
+  installDir:
+    The Jackbox Party Pack 12: {}
+  launch:
+    "<base>/Launcher.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/The Jackbox Party Pack 12.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/The Jackbox Party Pack 12.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4199960
 The Jackbox Party Pack 2:
   cloud:
     steam: true
@@ -751456,6 +751512,36 @@ The Jackbox Party Starter:
             store: steam
   steam:
     id: 1755580
+The Jackbox Survey Scramble:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Jackbox Games/The Jackbox Survey Scramble":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3349110
+  installDir:
+    The Jackbox Survey Scramble: {}
+  launch:
+    "<base>/Launcher.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/The Jackbox Survey Scramble.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/The Jackbox Survey Scramble.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2948640
 The Janitor:
   installDir:
     The Janitor: {}
@@ -769191,6 +769277,15 @@ The Sinking City Remastered:
     The Sinking City: {}
   steam:
     id: 750130
+"The Sisters 2: Road to Fame":
+  installDir:
+    The Sisters 2 - Road to Fame: {}
+  launch:
+    "<base>/The Sisters 2 - Road to Fame.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2434050
 "The Sisters: Party of the Year":
   files:
     "<home>/AppData/LocalLow/Microids/Sisters Party Of The Year":
@@ -804537,6 +804632,28 @@ Trivia King:
             store: steam
   steam:
     id: 875780
+Trivia Murder Party 3:
+  files:
+    "<winLocalAppData>/TMP3/Saved/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/TMP3/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Trivia Murder Party 3: {}
+  launch:
+    "<base>/TMP3.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3048060
 Trivia Night:
   installDir:
     Trivia Night: {}
