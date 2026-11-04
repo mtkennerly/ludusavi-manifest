@@ -18975,6 +18975,10 @@ Atriage:
 Atrocity:
   pageId: 123932
   steam: 979620
+Atrox:
+  pageId: 222863
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Users\\{{p|uid}}\\}}"
 Attached:
   pageId: 135377
   steam: 1076730
@@ -19957,6 +19961,8 @@ Awakened:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\GenuineFlipFlopsGames(www.Genuineflip-flops.com)\\Awakened}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\GenuineFlipFlopsGames(www.Genuineflip-flops.com)\\Awakened}}"
+Awakening:
+  pageId: 222861
 Awakening of Celestial:
   pageId: 94385
   steam: 812590
@@ -35019,6 +35025,7 @@ Brotato:
   pageId: 188573
   steam: 1942280
   steamSide:
+    - 1979010
     - 2868390
     - 3281080
     - 4498220
@@ -112354,6 +112361,7 @@ Hexologic:
   cloud:
     steam: true
     xbox: true
+  lutris: hexologic
   pageId: 82223
   steam: 785890
   templates:
@@ -175710,6 +175718,7 @@ Peace of Evil:
   steamSide:
     - 609440
   templates:
+    - "{{Game data/config|Windows| {{P|localappdata}}\\PeaceDeath\\*.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\PeaceDeath\\stageselectroom100.ini}}"
 Peaceful Days:
   pageId: 151343
@@ -181929,6 +181938,14 @@ Postworld:
 Potata:
   pageId: 130759
   steam: 1044020
+Potato Please:
+  cloud:
+    steam: true
+  pageId: 222856
+  steam: 5266240
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\GoldenHorn\\PotatoPlease<ref>Verified on the Steam version, November 3, 2026. Unity PlayerPrefs key holding all options (Settings.* values, including Settings.BindingOverrides for key bindings) and the display mode. It also holds a few progress values such as Story.Deaths and ending.best_shift_seconds.</ref>}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\GoldenHorn\\PotatoPlease\\saves\\*.sav<ref>Verified on the Steam version, November 3, 2026. The saves folder holds autosave.sav and numbered manual slots such as slot_1.sav (binary, header VSPP).</ref>|{{P|userprofile\\appdata\\locallow}}\\GoldenHorn\\PotatoPlease\\profile.json<ref>Verified on the Steam version, November 3, 2026. JSON file holding lifetime totals, endings seen and earned achievements.</ref>}}"
 Potato Thriller Steamed Potato Edition:
   pageId: 42607
   steam: 486650
@@ -183980,6 +183997,18 @@ Project Absentia:
 Project Abyss:
   pageId: 53063
   steam: 552410
+Project Afterfall:
+  cloud:
+    gog: true
+    steam: true
+  gog: 2070989186
+  lutris: project-thea
+  pageId: 216302
+  renamedFrom:
+    - Project Thea
+  steam: 3360890
+  steamSide:
+    - 3799020
 Project Aftermath:
   pageId: 41338
   steam: 21400
@@ -184538,9 +184567,6 @@ Project Temporality:
     steam: true
   pageId: 50242
   steam: 290320
-Project Thea:
-  pageId: 216302
-  steam: 3360890
 Project Three:
   cloud:
     steam: true
@@ -189828,9 +189854,9 @@ Raptor Valley:
   pageId: 13092
   steam: 336060
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\saveoptions.dat<ref>DotEmu build: the DRM-free releases, and the Steam release before October 31, 2026.</ref>|{{p|userprofile}}\\options.dat<ref>Current Steam build (SDL3 <code>raptor.exe</code>, public build of October 31, 2026). The game writes its files loose in the root of the first of <code>%HOME%</code>, <code>%USERPROFILE%</code> or <code>%APPDATA%</code> that is set, so they follow <code>%HOME%</code> when that is set (for example by Git or MSYS). The <code>-savepath</code> command line argument overrides the location. Verified on the Steam version, November 1, 2026.</ref>}}"
+    - "{{Game data/config|Windows|{{p|game}}\\saveoptions.dat<ref>DotEmu build: the DRM-free releases, and the Steam release before October 31, 2026.</ref>|{{p|appdata}}\\Raptor2015\\options.dat<ref>Current Steam build (update of November 3, 2026). The <code>-savepath</code> command line argument overrides the location. Verified on the Steam version, November 4, 2026.</ref>|{{p|userprofile}}\\options.dat<ref>Steam build of October 31, 2026 (SDL3 <code>raptor.exe</code>), until the November 3, 2026 update. On first launch the current build copies these files to its new location and stops writing here; the originals are left in place. That build wrote its files loose in the root of the first of <code>%HOME%</code>, <code>%USERPROFILE%</code> or <code>%APPDATA%</code> that is set, so they followed <code>%HOME%</code> when that was set (for example by Git or MSYS). Verified on the Steam version, November 1, 2026.</ref>}}"
     - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\336060\\remote\\<ref>DotEmu build only. The current Steam build writes no files here.</ref>}}"
-    - "{{Game data/saves|Windows|{{p|game}}\\CHAR****.FIL<ref>DotEmu build: the DRM-free releases, and the Steam release before October 31, 2026.</ref>|{{p|userprofile}}\\CHAR*.FIL<ref>Current Steam build (SDL3 <code>raptor.exe</code>, public build of October 31, 2026). Pilot saves, one file per pilot slot starting at <code>CHAR0000.FIL</code>; not compatible with the DotEmu or DOS saves. The game writes its files loose in the root of the first of <code>%HOME%</code>, <code>%USERPROFILE%</code> or <code>%APPDATA%</code> that is set, so they follow <code>%HOME%</code> when that is set (for example by Git or MSYS). The <code>-savepath</code> command line argument overrides the location. Verified on the Steam version, November 1, 2026.</ref>|{{p|userprofile}}\\CHAR*.ACH<ref>Current Steam build. Per-pilot achievement progress, one file beside each pilot save.</ref>|{{p|userprofile}}\\ACH_*.DAT<ref>Current Steam build. Pending Steam achievement unlocks for the signed-in Steam account; the number in the file name is the account's Steam ID.</ref>}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\CHAR****.FIL<ref>DotEmu build: the DRM-free releases, and the Steam release before October 31, 2026.</ref>|{{p|appdata}}\\Raptor2015\\<ref>Current Steam build (update of November 3, 2026). Holds pilot saves (<code>CHAR*.FIL</code>, up to 32 slots), per-pilot achievement progress (<code>CHAR*.ACH</code>), pending Steam achievement unlocks (<code>ACH_*.DAT</code>; the number in the file name is the account's Steam ID), the settings file <code>options.dat</code>, and the game's record of imported saves (<code>migration-v1.dat</code> and a <code>cloud</code> subfolder). The whole folder is listed so that record is backed up with the saves. On first launch the game copies files here from the root of <code>%HOME%</code> or <code>%USERPROFILE%</code>. The <code>-savepath</code> command line argument overrides the location. Verified on the Steam version, November 4, 2026.</ref>|{{p|userprofile}}\\CHAR*.FIL<ref>Steam build of October 31, 2026 (SDL3 <code>raptor.exe</code>), until the November 3, 2026 update. On first launch the current build copies these files to its new location and stops writing here; the originals are left in place. Pilot saves, one file per pilot slot starting at <code>CHAR0000.FIL</code>; not compatible with the DotEmu or DOS saves. That build wrote its files loose in the root of the first of <code>%HOME%</code>, <code>%USERPROFILE%</code> or <code>%APPDATA%</code> that is set, so they followed <code>%HOME%</code> when that was set (for example by Git or MSYS). Verified on the Steam version, November 1, 2026.</ref>|{{p|userprofile}}\\CHAR*.ACH<ref>Steam build of October 31, 2026. Per-pilot achievement progress, one file beside each pilot save.</ref>|{{p|userprofile}}\\ACH_*.DAT<ref>Steam build of October 31, 2026. Pending Steam achievement unlocks for the signed-in Steam account; the number in the file name is the account's Steam ID.</ref>}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\336060\\remote\\<ref>DotEmu build only. The current Steam build writes no files here.</ref>}}"
 "Raptor: Cretaceous Island":
   pageId: 122150
@@ -278763,6 +278789,11 @@ Welltris:
 "Wendy's Mart 3D":
   pageId: 81763
   steam: 789700
+"WendyQuest: Legend of the Four Corner Stones":
+  cloud:
+    steam: true
+  pageId: 222859
+  steam: 3339970
 Wenjia:
   cloud:
     xbox: true

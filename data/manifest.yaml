@@ -58494,6 +58494,13 @@ Atrocity:
             store: steam
   steam:
     id: 979620
+Atrox:
+  files:
+    "<base>/Users/<storeUserId>":
+      tags:
+        - save
+      when:
+        - os: windows
 Attached:
   installDir:
     Attached: {}
@@ -107527,6 +107534,7 @@ Brotato:
       - 2146695817
     lutris: brotato
     steamExtra:
+      - 1979010
       - 2868390
       - 3281080
       - 4498220
@@ -343961,6 +343969,8 @@ Hexologic:
         - save
       when:
         - store: steam
+  id:
+    lutris: hexologic
   installDir:
     Hexologic: {}
   launch:
@@ -535430,6 +535440,11 @@ Peace of Evil:
     id: 1070240
 "Peace, Death!":
   files:
+    "<winLocalAppData>/PeaceDeath/*.ini":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/PeaceDeath/stageselectroom100.ini":
       tags:
         - save
@@ -554735,6 +554750,34 @@ Potata:
             store: steam
   steam:
     id: 1044020
+Potato Please:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/GoldenHorn/PotatoPlease/profile.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/GoldenHorn/PotatoPlease/saves/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Potato Please: {}
+  launch:
+    "<base>/PotatoPlease.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/GoldenHorn/PotatoPlease:
+      tags:
+        - config
+  steam:
+    id: 5266240
 Potato Thriller Steamed Potato Edition:
   installDir:
     Potato_Thriller_Steamed_Potato_Edition: {}
@@ -561007,6 +561050,26 @@ Project Abyss:
             store: steam
   steam:
     id: 552410
+Project Afterfall:
+  cloud:
+    gog: true
+    steam: true
+  gog:
+    id: 2070989186
+  id:
+    lutris: project-thea
+    steamExtra:
+      - 3799020
+  installDir:
+    Project Thea: {}
+  launch:
+    "<base>/ProjectThea.exe":
+      - arguments: "-force-d3d11"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3360890
 Project Aftermath:
   installDir:
     Project Aftermath: {}
@@ -562758,15 +562821,7 @@ Project Temporality:
   steam:
     id: 290320
 Project Thea:
-  installDir:
-    Project Thea: {}
-  launch:
-    "<base>/ProjectThea.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 3360890
+  alias: Project Afterfall
 Project Three:
   cloud:
     steam: true
@@ -579494,6 +579549,16 @@ Raptor Valley:
         - save
       when:
         - store: steam
+    "<winAppData>/Raptor2015":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Raptor2015/options.dat":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1207658879
   installDir:
@@ -847772,6 +847837,22 @@ Wells:
             store: steam
   steam:
     id: 789700
+"WendyQuest: Legend of the Four Corner Stones":
+  cloud:
+    steam: true
+  files:
+    "<base>/package.nw/save/*.rmmzsave":
+      when:
+        - store: steam
+  installDir:
+    Wendy Quest: {}
+  launch:
+    "<base>/WendyQuest.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3339970
 Wenjia:
   installDir:
     Wenjia: {}

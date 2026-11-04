@@ -651126,6 +651126,18 @@
         oslist: linux
       executable: OFF.x86_64
       type: default
+3339970:
+  cloud:
+    saves:
+      - path: package.nw/save
+        pattern: "*.rmmzsave"
+        root: gameinstall
+  installDir: Wendy Quest
+  launch:
+    - config:
+        oslist: windows
+      executable: WendyQuest.exe
+      type: default
 3340810:
   installDir: Hero of the Kingdom The Lost Tales 3
   launch:
@@ -651492,7 +651504,8 @@
 3360890:
   installDir: Project Thea
   launch:
-    - config:
+    - arguments: "-force-d3d11"
+      config:
         oslist: windows
       executable: ProjectThea.exe
       type: default
@@ -665686,6 +665699,18 @@
     - config:
         oslist: linux
       executable: Heartfall.x86_64
+5266240:
+  cloud:
+    saves:
+      - path: GoldenHorn/PotatoPlease/saves
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+  installDir: Potato Please
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: PotatoPlease.exe
 5306540: {}
 5342930:
   cloud:
