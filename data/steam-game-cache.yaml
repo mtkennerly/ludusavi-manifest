@@ -665067,6 +665067,12 @@
       - path: My Games/YaE_Absolute/savegames
         pattern: tmp_cur_sshot.tga
         root: WinMyDocuments
+      - path: Yae_Absolute/savegames
+        pattern: Save*
+        root: WinAppDataRoaming
+      - path: Yae_Absolute/savegames
+        pattern: tmp_cur_sshot.tga
+        root: WinAppDataRoaming
   installDir: You Are Empty Absolute Edition
   launch:
     - executable: you_are_empty.exe
@@ -665695,6 +665701,7 @@
       executable: Dementium II.exe
 5346150: {}
 5349950: {}
+5359820: {}
 5370600:
   cloud:
     saves:

@@ -27414,6 +27414,9 @@ Bildo:
   steam: 674390
 "Bill & Ted's Excellent Adventure":
   pageId: 207230
+"Bill & Ted's Excellent Adventure Arcade":
+  pageId: 222852
+  steam: 5359820
 "Bill Nye the Science Guy: Stop the Rock!":
   pageId: 200907
 "Billiard: VR":
@@ -180718,6 +180721,13 @@ Pokka Man Blast:
 Pokris:
   pageId: 130001
   steam: 1036780
+"PokéPark Wii: Pikachu's Adventure":
+  lutris: pokepark-wii-pikachu-s-adventure
+  pageId: 222850
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\settings.ini{{note|Launcher settings}}}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\R8AE01\\nand\\title\\00010000\\52384145\\data\\GD0{{note|Game settings}}}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\R8AE01\\nand\\title\\00010000\\52384145\\data\\}}"
 PokéROM:
   pageId: 207053
 Pokémon Masters Arena:
@@ -225962,6 +225972,8 @@ Steins;Gate Elite:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\Steins Gate ELITE}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\mages_steam\\Steins Gate ELITE}}"
 Steins;Gate Octet of Shifting Space:
+  cloud:
+    steam: true
   pageId: 207735
   renamedFrom:
     - "Steins;Gate: Variant Space Octet"

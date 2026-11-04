@@ -3077,6 +3077,7 @@
 * [Bikour!](https://www.pcgamingwiki.com/wiki/?curid=80364)
 * [Bildo](https://www.pcgamingwiki.com/wiki/?curid=66573)
 * [Bill & Ted's Excellent Adventure](https://www.pcgamingwiki.com/wiki/?curid=207230)
+* [Bill & Ted's Excellent Adventure Arcade](https://www.pcgamingwiki.com/wiki/?curid=222852)
 * [Bill Nye the Science Guy: Stop the Rock!](https://www.pcgamingwiki.com/wiki/?curid=200907)
 * [Billiard: VR](https://www.pcgamingwiki.com/wiki/?curid=54598)
 * [Billiards](https://www.pcgamingwiki.com/wiki/?curid=68903)

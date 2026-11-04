@@ -83964,6 +83964,9 @@ Bildo:
             store: steam
   steam:
     id: 674390
+"Bill & Ted's Excellent Adventure Arcade":
+  steam:
+    id: 5359820
 "Billiard: VR":
   steam:
     id: 566290
@@ -550755,6 +550758,25 @@ Pokris:
             store: steam
   steam:
     id: 1036780
+"PokéPark Wii: Pikachu's Adventure":
+  files:
+    "<base>/R8AE01/nand/title/00010000/52384145/data":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/R8AE01/nand/title/00010000/52384145/data/GD0":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: pokepark-wii-pikachu-s-adventure
 Pokémon Trading Card Game Live:
   files:
     "<winAppData>/Pokemon/Pokemon TCG Live":
