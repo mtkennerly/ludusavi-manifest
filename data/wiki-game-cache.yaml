@@ -4875,8 +4875,14 @@ ATOM RPG:
     gog: true
     steam: true
   gog: 1673367037
+  gogSide:
+    - 1531569593
+    - 2085203195
   pageId: 59866
   steam: 552620
+  steamSide:
+    - 1093400
+    - 5210340
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\AtomTeam\\Atom\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\AtomTeam\\Atom\\}}"
@@ -34357,6 +34363,7 @@ Brief Battles:
   pageId: 90405
   steam: 819980
 Brief Karate Foolish:
+  lutris: brief-karate-foolish
   pageId: 52324
   steam: 546390
 Brig 12:
@@ -37815,10 +37822,13 @@ Call of Duty 2:
     - "{{Game data/config|Windows|{{p|game}}\\players2\\config.cfg|{{p|game}}\\players2\\config_mp.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\players2\\settings_c.zip.iw5|{{p|game}}\\players2\\settings_s.zip.iw5|{{p|game}}\\players2\\save}}"
 "Call of Duty: Modern Warfare 4":
+  cloud:
+    xbox: true
   lutris: call-of-duty-modern-warfare-4
   pageId: 216958
   steam: 4435490
   templates:
+    - "{{Game data/config|Windows|{{P|AppData}}\\Local\\Activision\\Call of Duty\\players}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Activision\\Call of Duty\\players\\{{p|uid}}\\}}"
 "Call of Duty: Modern Warfare II":
   pageId: 178173
@@ -128599,6 +128609,9 @@ Kiborg:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Kiborg\\Saved\\Config\\Windows\\GameUserSettings.ini}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Kiborg\\Saved\\SaveGames}}"
+Kick:
+  pageId: 222864
+  steam: 3760370
 Kick Ass Commandos:
   pageId: 37313
   steam: 359140
@@ -148089,10 +148102,12 @@ MegaRace 2:
   gog: 1207661613
   gogSide:
     - 1207658758
+  lutris: megarace-2
   pageId: 14448
   steam: 733760
 MegaRace 3:
   gog: 1207658764
+  lutris: megarace-3
   pageId: 14450
   steam: 733770
   templates:
@@ -156598,6 +156613,12 @@ Mr. Vegan:
 "Mr.King Luo!Don't be kidding":
   pageId: 153352
   steam: 1198310
+Mr.Mine:
+  cloud:
+    steam: true
+  lutris: mr-dot-mine
+  pageId: 222873
+  steam: 1397920
 Mr.President Prologue Episode:
   pageId: 40430
   steam: 530540
@@ -194140,7 +194161,7 @@ Resident Evil Zero HD Remaster:
   lutris: resident-evil-the-umbrella-chronicles
   pageId: 222670
   templates:
-    - "{{Game data/config|Windows|{{P|game}}\\config.json}}"
+    - "{{Game data/config|Windows|{{P|game}}\\config.json{{note|Launcher settings}}}}"
     - "{{Game data/saves|Windows|{{P|game}}\\saves\\}}"
 Residual:
   gog: 1688702977
@@ -235536,6 +235557,9 @@ Taking Valhalla VR:
 Tale Of Starship:
   pageId: 150613
   steam: 1081430
+Tale Sweeper:
+  pageId: 222865
+  steam: 4764420
 Tale of Alamar:
   pageId: 87165
   steam: 746270
@@ -236139,7 +236163,9 @@ Tametsi:
     - 1761330
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Shadows\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini}}"
+    - "{{Game data/config|Linux|{{P|xdgdatahome}}/Epic/Shadows/Config/LinuxNoEditor/}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Shadows\\Saved\\SaveGames\\}}"
+    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/Epic/Shadows/Saved/SaveGames/}}"
 Tandis:
   lutris: tandis
   pageId: 209731
@@ -285180,11 +285206,6 @@ YORG.io:
 YORG.io 3:
   pageId: 148258
   steam: 1134480
-"YOU and ME and HER: A Love Story":
-  pageId: 165818
-  steam: 1293820
-  templates:
-    - "{{Game data/saves|Windows|{{P|appdata}}\\Nitroplus\\totono\\}}"
 "YU-NO: A Girl Who Chants Love at the Bound of this World (2000)":
   pageId: 175255
   templates:
@@ -286158,6 +286179,14 @@ You Will Die Here Tonight:
 You Will Never Get This Achievement:
   pageId: 79259
   steam: 771410
+"You and Me and Her: A Love Story":
+  pageId: 165818
+  renamedFrom:
+    - "YOU and ME and HER: A Love Story"
+    - "You And Me And Her: A Love Story"
+  steam: 1293820
+  templates:
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Nitroplus\\totono\\}}"
 You are Never Alone:
   pageId: 123691
   steam: 978020

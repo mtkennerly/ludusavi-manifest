@@ -205508,8 +205508,11 @@
         root: gameinstall
   installDir: Brief Karate Foolish
   launch:
-    - executable: SFWinCf.EXE
-      type: none
+    - description: Brief Karate Foolish
+      executable: SFWinCf.EXE
+    - arguments: "-netplay"
+      description: Brief Karate Online
+      executable: BriefKarateLauncher.exe
 546400:
   installDir: Cavern Escape
   launch:
@@ -553974,6 +553977,17 @@
         oslist: linux
       executable: Comet 64.x86_64
       type: none
+1397920:
+  installDir: MrMine
+  launch:
+    - arguments: "--in-process-gpu --process-start-args \"-disable-features=HardwareMediaKeyHandling\""
+      config:
+        oslist: windows
+      executable: win-unpacked/Mr.Mine.exe
+      type: none
+    - config:
+        oslist: macos
+      executable: Mr.Mine.app
 1398100:
   installDir: AnimalFarm
   launch:
@@ -631746,12 +631760,10 @@
   cloud:
     saves:
       - path: VOIDBREAKER/Saved/SaveGames
-        pattern: "*.sav"
+        pattern: LimaSaveGame.sav
         root: WinAppDataLocal
-      - path: VOIDBREAKER/Saved/Config/Windows
-        pattern: "*.ini"
-        platforms:
-          - Windows
+      - path: VOIDBREAKER/Saved/SaveGames
+        pattern: TimePlayed.sav
         root: WinAppDataLocal
   installDir: VOIDBREAKER
   launch:
@@ -658224,6 +658236,13 @@
   installDir: Amplexus Protocol
   launch:
     - executable: AmplexusProtocol.exe
+3760370:
+  installDir: Kick it
+  launch:
+    - config:
+        oslist: windows
+      executable: Kick.exe
+      type: default
 3762550:
   cloud:
     saves:
@@ -665093,6 +665112,27 @@
   nameLocalized:
     russian: "You Are Empty: Абсолютное издание"
     ukrainian: "You Are Empty: Абсолютне видання"
+4764420:
+  cloud:
+    saves:
+      - path: DefaultCompany/Tale Sweeper
+        pattern: save.dat
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: Tale Sweeper
+  launch:
+    - executable: Tale Sweeper.exe
+  nameLocalized:
+    english: Tale Sweeper
+    japanese: 童話の掃除屋
+    koreana: 테일 스위퍼
+    schinese: 童话清道夫
+    tchinese: 童話清道夫
 4767480: {}
 4769040: {}
 4782240:

@@ -15584,6 +15584,13 @@ ATOM RPG:
         - os: linux
   gog:
     id: 1673367037
+  id:
+    gogExtra:
+      - 1531569593
+      - 2085203195
+    steamExtra:
+      - 1093400
+      - 5210340
   installDir:
     ATOM RPG: {}
   launch:
@@ -105627,9 +105634,15 @@ Brief Karate Foolish:
     "<base>/SavesDir/*.sav":
       when:
         - store: steam
+  id:
+    lutris: brief-karate-foolish
   installDir:
     Brief Karate Foolish: {}
   launch:
+    "<base>/BriefKarateLauncher.exe":
+      - arguments: "-netplay"
+        when:
+          - store: steam
     "<base>/SFWinCf.EXE":
       - when:
           - store: steam
@@ -115951,6 +115964,11 @@ Call of Duty Black Ops Cold War:
     id: 115300
 "Call of Duty: Modern Warfare 4":
   files:
+    "<winAppData>/Local/Activision/Call of Duty/players":
+      tags:
+        - config
+      when:
+        - os: windows
     "<winLocalAppData>/Activision/Call of Duty/players/<storeUserId>":
       tags:
         - save
@@ -393764,6 +393782,16 @@ Kiborg:
             store: steam
   steam:
     id: 2796130
+Kick:
+  installDir:
+    Kick it: {}
+  launch:
+    "<base>/Kick.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3760370
 Kick Ass Commandos:
   installDir:
     Kick Ass Commandos: {}
@@ -452992,6 +453020,7 @@ MegaRace 2:
   id:
     gogExtra:
       - 1207658758
+    lutris: megarace-2
   installDir:
     MegaRace 2: {}
   launch:
@@ -453029,6 +453058,8 @@ MegaRace 3:
         - os: windows
   gog:
     id: 1207658764
+  id:
+    lutris: megarace-3
   installDir:
     MegaRace 3: {}
   launch:
@@ -478286,6 +478317,25 @@ Mr. Vegan:
             store: steam
   steam:
     id: 1198310
+Mr.Mine:
+  cloud:
+    steam: true
+  id:
+    lutris: mr-dot-mine
+  installDir:
+    MrMine: {}
+  launch:
+    "<base>/Mr.Mine.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/win-unpacked/Mr.Mine.exe":
+      - arguments: "--in-process-gpu --process-start-args \"-disable-features=HardwareMediaKeyHandling\""
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1397920
 Mr.President Prologue Episode:
   installDir:
     mrpresidentprologue: {}
@@ -719688,6 +719738,23 @@ Tale Of Starship:
             store: steam
   steam:
     id: 1081430
+Tale Sweeper:
+  files:
+    "<home>/AppData/LocalLow/DefaultCompany/Tale Sweeper/save.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/DefaultCompany/Tale Sweeper/save.dat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Tale Sweeper: {}
+  launch:
+    "<base>/Tale Sweeper.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4764420
 Tale of Alamar:
   installDir:
     Tale of Alamar: {}
@@ -721623,6 +721690,16 @@ Tametsi:
         - save
       when:
         - os: windows
+    "<xdgData>/Epic/Shadows/Config/LinuxNoEditor":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<xdgData>/Epic/Shadows/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: linux
   gog:
     id: 1883930697
   id:
@@ -832874,11 +832951,10 @@ Void/Breaker:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/VOIDBREAKER/Saved/Config/Windows/*.ini":
+    "<winLocalAppData>/VOIDBREAKER/Saved/SaveGames/LimaSaveGame.sav":
       when:
-        - os: windows
-          store: steam
-    "<winLocalAppData>/VOIDBREAKER/Saved/SaveGames/*.sav":
+        - store: steam
+    "<winLocalAppData>/VOIDBREAKER/Saved/SaveGames/TimePlayed.sav":
       when:
         - store: steam
   installDir:
@@ -866989,22 +867065,6 @@ YORG.io 3:
     id: 1134480
 YOU - The Untold Stories:
   alias: "You: The Untold Stories"
-"YOU and ME and HER: A Love Story":
-  files:
-    "<winAppData>/Nitroplus/totono":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    YOU and ME and HER - A Love Story: {}
-  launch:
-    "<base>/totono_Steam.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 1293820
 "YU-NO: A Girl Who Chants Love at the Bound of this World":
   alias: "YU-NO: A Girl Who Chants Love at the Bound of this World (2017)"
 "YU-NO: A Girl Who Chants Love at the Bound of this World (2017)":
@@ -870035,6 +870095,22 @@ You Will Never Get This Achievement:
             store: steam
   steam:
     id: 771410
+"You and Me and Her: A Love Story":
+  files:
+    "<winAppData>/Nitroplus/totono":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    YOU and ME and HER - A Love Story: {}
+  launch:
+    "<base>/totono_Steam.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1293820
 You are Never Alone:
   installDir:
     You are Never Alone: {}
