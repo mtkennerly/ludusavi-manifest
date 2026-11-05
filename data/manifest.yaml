@@ -157488,6 +157488,17 @@ Cozy Game Restoration:
       - 4668150
       - 4742270
       - 5338940
+  installDir:
+    Cozy Game Restoration: {}
+  launch:
+    "<base>/CozyGameRestoration.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/CozyGameRestoration.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3581230
 Cozy Grove:
@@ -423504,6 +423515,27 @@ Living The Deal:
             store: steam
   steam:
     id: 647550
+"Living With Sister: Monochrome Fantasy":
+  cloud:
+    steam: true
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 3062990
+      - 3155140
+  installDir:
+    Living With SIster Monochrome Fantasy: {}
+  launch:
+    "<base>/Game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2429860
 Living with Jaguars:
   installDir:
     Jaguars VR: {}
@@ -452985,6 +453017,7 @@ MegaRace:
   id:
     gogExtra:
       - 1207658758
+    lutris: megarace
   installDir:
     MegaRace 1: {}
   launch:
@@ -483193,6 +483226,23 @@ My Sweet Waifu:
             store: steam
   steam:
     id: 793760
+My Sweet Waifu Konko:
+  cloud:
+    steam: true
+  files:
+    "<base>/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    My Sweet Waifu Konko: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3099780
 My Therapist is a Futanari:
   installDir:
     My Therapist is a Futanari: {}
@@ -488920,6 +488970,8 @@ Nanairo Reincarnation:
   steam:
     id: 220420
 "Nancy Drew: The Final Scene":
+  id:
+    lutris: nancy-drew-the-final-scene
   installDir:
     Nancy Drew The Final Scene: {}
   launch:
@@ -489052,6 +489104,8 @@ Nanairo Reincarnation:
   steam:
     id: 42230
 "Nancy Drew: Treasure in the Royal Tower":
+  id:
+    lutris: nancy-drew-treasure-in-the-royal-tower
   installDir:
     Nancy Drew Treasure in the Royal Tower: {}
   launch:
@@ -620036,6 +620090,11 @@ Samorost 2:
   cloud:
     epic: true
   files:
+    "<home>/Library/Application Support/Amanita Design/Samorost 2/s2save.bin":
+      tags:
+        - save
+      when:
+        - os: mac
     "<winAppData>/amanita-design.samorost3/Local Store":
       tags:
         - config
@@ -875654,6 +875713,7 @@ Zombie Army VR:
   cloud:
     steam: true
   id:
+    lutris: zombie-assault-resurgence
     steamExtra:
       - 3929860
       - 4377450

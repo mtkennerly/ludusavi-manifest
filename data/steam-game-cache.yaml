@@ -624166,6 +624166,30 @@
       type: option1
   nameLocalized:
     japanese: スローン・アンド・リバティ
+2429860:
+  cloud:
+    saves:
+      - path: Save
+        pattern: "*.*"
+        root: gameinstall
+  installDir: Living With SIster Monochrome Fantasy
+  launch:
+    - executable: Game.exe
+      type: default
+    - config:
+        betakey: testing
+      description: Game
+      executable: Launcher.exe
+      type: option1
+    - config:
+        ownsdlc: "3155140"
+      description: Cosplay DLC
+      executable: Cosplay DLC/index.html
+      type: option1
+  nameLocalized:
+    japanese: 妹!せいかつ～ファンタジー～
+    schinese: 妹相随～黑白世界的缤纷冒险～
+    tchinese: " 妹相隨～黑白世界的繽紛冒險～"
 2430010:
   nameLocalized:
     schinese: 怒汉阿根
@@ -631498,16 +631522,14 @@
         oslist: windows
       executable: RogueCore.exe
       type: default
-    - arguments: "-serverlist=serverlist.ghostship.dk"
-      config:
+    - config:
         betakey: "internal_testing, internal_release_dev"
         osarch: "64"
         oslist: windows
       description: Testing build
       executable: "RogueCore\\Binaries\\Win64\\RogueCore-Win64-Test.exe"
       type: option1
-    - arguments: "-serverlist=serverlist.ghostship.dk"
-      config:
+    - config:
         betakey: internal_marketing
         osarch: "64"
         oslist: windows
@@ -645913,6 +645935,25 @@
         oslist: windows
       executable: "Liar's Bar.exe"
       type: default
+3099780:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: My Sweet Waifu Konko
+  launch:
+    - executable: game.exe
+      type: none
+  nameLocalized:
+    english: My Sweet Waifu Konko
+    japanese: コン狐との日常
+    koreana: 콘코와의 일상
+    schinese: 我与空狐的日常
+    tchinese: 我與空狐的日常
 3099790:
   installDir: Operation Night Strikers
   launch:
@@ -655445,7 +655486,17 @@
   launch:
     - executable: ArthurSC.exe
       type: default
-3581230: {}
+3581230:
+  installDir: Cozy Game Restoration
+  launch:
+    - config:
+        oslist: macos
+      executable: CozyGameRestoration.app
+      type: default
+    - config:
+        oslist: windows
+      executable: CozyGameRestoration.exe
+      type: default
 3582980:
   cloud:
     saves:

@@ -4148,6 +4148,8 @@ ABANdon02:
 ABC Coloring Town:
   pageId: 42824
   steam: 478010
+ABC Monday Night Football:
+  pageId: 222889
 "ABD: A Beautiful Day":
   pageId: 46859
   steam: 384920
@@ -26441,6 +26443,8 @@ Besiege:
     - "{{Game data/saves|Windows|{{p|game}}\\Besiege_Data\\SavedMachines\\|{{p|game}}\\Besiege_Data\\CompletedLevels.txt}}"
     - "{{Game data/saves|OS X|{{p|game}}/Besiege.app/Contents/SavedMachines/|{{p|game}}/Besiege.app/Contents/CompletedLevels.txt}}"
     - "{{Game data/saves|Linux|{{p|game}}\\Besiege_Data\\SavedMachines\\|{{p|game}}\\Besiege_Data\\CompletedLevels.txt}}"
+Besieger:
+  pageId: 222877
 Best Buds vs Bad Guys:
   pageId: 39151
   steam: 486130
@@ -65742,6 +65746,8 @@ Dino Crisis 2:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\dino2.cfg}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\SAVE*.DAT}}"
+Dino Crisis 3:
+  pageId: 222882
 Dino D-Day:
   cloud:
     steam: true
@@ -138471,6 +138477,16 @@ Living Dark:
 Living The Deal:
   pageId: 70261
   steam: 647550
+"Living With Sister: Monochrome Fantasy":
+  cloud:
+    steam: true
+  pageId: 222891
+  steam: 2429860
+  steamSide:
+    - 3062990
+    - 3155140
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Living World Racing:
   pageId: 88347
 Living with Jaguars:
@@ -148094,6 +148110,7 @@ MegaRace:
   gog: 1207661603
   gogSide:
     - 1207658758
+  lutris: megarace
   pageId: 14445
   steam: 730580
   templates:
@@ -158223,6 +158240,13 @@ My Sweet Floating in the Void:
 My Sweet Waifu:
   pageId: 87491
   steam: 793760
+My Sweet Waifu Konko:
+  cloud:
+    steam: true
+  pageId: 222887
+  steam: 3099780
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\*.sav}}"
 My Therapist is a Futanari:
   pageId: 174793
   steam: 1831260
@@ -160113,6 +160137,7 @@ Nanairo Reincarnation:
   pageId: 40701
   steam: 220420
 "Nancy Drew: The Final Scene":
+  lutris: nancy-drew-the-final-scene
   pageId: 61446
   steam: 615730
 "Nancy Drew: The Haunted Carousel":
@@ -160151,6 +160176,7 @@ Nanairo Reincarnation:
   pageId: 40944
   steam: 42230
 "Nancy Drew: Treasure in the Royal Tower":
+  lutris: nancy-drew-treasure-in-the-royal-tower
   pageId: 62712
   steam: 615780
 "Nancy Drew: Warnings at Waverly Academy":
@@ -175582,6 +175608,8 @@ Pax Imperia:
 Pax Nova:
   pageId: 122402
   steam: 804850
+Pax Romana:
+  pageId: 222880
 "Pax Romana: Romulus":
   cloud:
     steam: true
@@ -203305,6 +203333,7 @@ Samorost 2:
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\amanita-design.samorost3\\Local Store\\}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\amanita-design.samorost3\\Local Store\\s2save.bin}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Amanita Design/Samorost 2/s2save.bin}}"
 Samorost 3:
   cloud:
     epic: true
@@ -248965,6 +248994,8 @@ The Mystery of the Druids:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\House of Tales\\Mystery of the Druids\\Config}}"
     - "{{Game data/saves|Windows|{{p|game}}\\SAVEGAME|{{p|game}}\\lastgame}}"
+The Mystery of the Nautilus:
+  pageId: 222885
 "The Myth Seekers 2: The Sunken City":
   cloud:
     steam: true
@@ -288032,6 +288063,7 @@ Zombie Army VR:
 "Zombie Assault: Resurgence":
   cloud:
     steam: true
+  lutris: zombie-assault-resurgence
   pageId: 202066
   steam: 2747660
   steamSide:
