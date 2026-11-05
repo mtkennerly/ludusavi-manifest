@@ -74539,6 +74539,7 @@ Dysmantle:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 2080674103
   gogSide:
     - 1636760249
@@ -79918,6 +79919,7 @@ Escape Academy:
 "Escape Academy 2: Back 2 School":
   cloud:
     steam: true
+    xbox: true
   pageId: 222692
   steam: 3296060
 Escape Architect VR:
@@ -160037,12 +160039,14 @@ Nanairo Reincarnation:
     - "{{Game data/config|Windows|{{p|game}}\\save\\nanairo.xml}}"
     - "{{Game data/saves|Windows|{{p|game}}\\save\\}}"
 "Nancy Drew Dossier: Lights, Camera, Curses!":
+  lutris: nancy-drew-dossier-lights-camera-curses
   pageId: 41274
   steam: 31870
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Lights, Camera, Curses\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Lights, Camera, Curses\\}}"
 "Nancy Drew Dossier: Resorting to Danger!":
+  lutris: nancy-drew-dossier-resorting-to-danger
   pageId: 41200
   steam: 42200
 "Nancy Drew: Alibi in Ashes":
@@ -160050,12 +160054,14 @@ Nanairo Reincarnation:
   steam: 202670
 "Nancy Drew: Curse of Blackmoor Manor":
   gog: 1207659205
+  lutris: nancy-drew-curse-of-blackmoor-manor
   pageId: 36384
   steam: 31830
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\The Curse of Blackmoor Manor\\Game.INI}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\The Curse of Blackmoor Manor\\*.SAV}}"
 "Nancy Drew: Danger by Design":
+  lutris: nancy-drew-danger-by-design
   pageId: 41225
   steam: 31800
 "Nancy Drew: Danger on Deception Island":
@@ -160063,6 +160069,7 @@ Nanairo Reincarnation:
   pageId: 41222
   steam: 31840
 "Nancy Drew: Ghost Dogs of Moon Lake":
+  lutris: nancy-drew-ghost-dogs-of-moon-lake
   pageId: 41227
   steam: 31850
   templates:
@@ -160078,12 +160085,15 @@ Nanairo Reincarnation:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Labyrinth of Lies\\Labyrinth.INI }}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Labyrinth of Lies\\*.HiLieSave }}"
 "Nancy Drew: Last Train to Blue Moon Canyon":
+  lutris: nancy-drew-last-train-to-blue-moon-canyon
   pageId: 41224
   steam: 31810
 "Nancy Drew: Legend of the Crystal Skull":
+  lutris: nancy-drew-legend-of-the-crystal-skull
   pageId: 41272
   steam: 31860
 "Nancy Drew: Message in a Haunted Mansion":
+  lutris: nancy-drew-message-in-a-haunted-mansion
   pageId: 61836
   steam: 615770
 "Nancy Drew: Midnight in Salem":
@@ -160107,12 +160117,15 @@ Nanairo Reincarnation:
     - "{{Game data/config|Windows| {{P|userprofile\\Documents}}\\SeaOfDarkness\\SeaOfDarkness.INI }}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\SeaOfDarkness\\*.HiSeaSave }}"
 "Nancy Drew: Secret of the Old Clock":
+  lutris: nancy-drew-secret-of-the-old-clock
   pageId: 41223
   steam: 31880
 "Nancy Drew: Secret of the Scarlet Hand":
+  lutris: nancy-drew-secret-of-the-scarlet-hand
   pageId: 41228
   steam: 31890
 "Nancy Drew: Secrets Can Kill":
+  lutris: nancy-drew-secrets-can-kill
   pageId: 182317
 "Nancy Drew: Secrets Can Kill Remastered":
   pageId: 40940
@@ -160131,6 +160144,7 @@ Nanairo Reincarnation:
   templates:
     - "{{Game data/saves|Windows|C:\\Users\\<username>\\Documents\\The Captive Curse\\}}"
 "Nancy Drew: The Creature of Kapu Cave":
+  lutris: nancy-drew-the-creature-of-kapu-cave
   pageId: 41277
   steam: 31900
 "Nancy Drew: The Deadly Device":
@@ -160145,9 +160159,11 @@ Nanairo Reincarnation:
   pageId: 41226
   steam: 31820
 "Nancy Drew: The Haunting of Castle Malloy":
+  lutris: nancy-drew-the-haunting-of-castle-malloy
   pageId: 41273
   steam: 31910
 "Nancy Drew: The Phantom of Venice":
+  lutris: nancy-drew-the-phantom-of-venice
   pageId: 41275
   steam: 31920
   templates:
@@ -160167,6 +160183,7 @@ Nanairo Reincarnation:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\The Silent Spy\\Spy.INI }}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\The Silent Spy\\*.HiSpySave }}"
 "Nancy Drew: The White Wolf of Icicle Creek":
+  lutris: nancy-drew-the-white-wolf-of-icicle-creek
   pageId: 41276
   steam: 31930
 "Nancy Drew: Tomb of the Lost Queen":
@@ -160180,6 +160197,7 @@ Nanairo Reincarnation:
   pageId: 62712
   steam: 615780
 "Nancy Drew: Warnings at Waverly Academy":
+  lutris: nancy-drew-warnings-at-waverly-academy
   pageId: 41186
   steam: 43600
 Nandeyanen!? - The 1st Sûtra:
@@ -172702,6 +172720,8 @@ PINPIN BALLBALL:
   pageId: 121079
   steam: 891180
 PIT OF GOBLIN:
+  cloud:
+    xbox: true
   lutris: pit-of-goblin
   pageId: 215909
   steam: 3253530
@@ -195661,6 +195681,8 @@ Riddle Tower:
     - 3192900
   templates:
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\RT\\Riddle Tower}}"
+"Riddle of the Sphinx: An Egyptian Adventure":
+  pageId: 222898
 "Riddle of the Sphinx: The Awakening (Enhanced Edition)":
   cloud:
     gog: true
@@ -204803,6 +204825,7 @@ Schein:
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Entertainment Forge\\Scheming Through The Zombie Apocalypse}}"
 "Schizm: Mysterious Journey":
   gog: 1471706990
+  lutris: schizm-mysterious-journey
   pageId: 74783
   steam: 1709550
   templates:
@@ -239249,6 +239272,8 @@ The Adventures of Kusoge:
   steam: 787140
 The Adventures of Lomax:
   pageId: 59149
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Psygnosis\\Lomax}}"
 The Adventures of Looppy:
   pageId: 154148
   steam: 1152330
@@ -262702,6 +262727,8 @@ Trainz Trouble:
 Traiteur:
   pageId: 39586
   steam: 470170
+Traitors Gate:
+  pageId: 222902
 "Traitors Gate 2: Cypher":
   pageId: 212511
   templates:
@@ -287634,6 +287661,7 @@ Zero One / 杀戮世界:
     epic: true
     gog: true
     steam: true
+    xbox: true
   gog: 1726016440
   lutris: zero-parades-for-dead-spies
   pageId: 207253
