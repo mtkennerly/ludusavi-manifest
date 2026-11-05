@@ -438214,12 +438214,22 @@
       - path: NanningsGames/Cube Mission
         pattern: savedata
         root: WinAppDataLocalLow
+      - path: NanningsGames/Cube Mission/RelicCollection
+        pattern: collection-v1.json
+        root: WinAppDataLocalLow
+      - path: NanningsGames/Cube Mission/RelicCollection
+        pattern: completion-rewards-v2.json
+        root: WinAppDataLocalLow
+      - path: NanningsGames/Cube Mission/RelicCollection
+        pattern: selected-skin-v1.json
+        root: WinAppDataLocalLow
+      - path: NanningsGames/Cube Mission/RelicCollection
+        pattern: cosmetics-v1.json
+        root: WinAppDataLocalLow
     overrides:
-      - os: Linux
+      - addPath: ".config/unity3d/"
+        os: Linux
         osCompare: "="
-        pathTransforms:
-          - find: NanningsGames/Cube Mission
-            replace: ".config/unity3d/NanningsGames/Cube Mission"
         root: WinAppDataLocalLow
         useInstead: LinuxHome
   installDir: Cube Mission
@@ -601608,6 +601618,28 @@
   nameLocalized:
     schinese: 进击的机甲球
     tchinese: 進擊的機甲球
+2008760:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.SAV"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: ""
+        pattern: "*.PRS"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Wing Commander Privateer
+  launch:
+    - executable: "DOSBOX\\Wing Commander Privateer.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    english: "Wing Commander™: Privateer"
+    tchinese: 銀河飛將：私掠者
 2008920:
   cloud:
     saves:
@@ -614445,6 +614477,22 @@
         oslist: windows
       executable: TheForest.exe
       type: default
+2229820:
+  cloud:
+    saves:
+      - path: SAVE
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Theme Hospital
+  launch:
+    - executable: "DOSBOX\\Theme Hospital.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    english: Theme Hospital™
+    tchinese: 杏林也瘋狂
 2229830:
   cloud:
     saves:
@@ -645396,6 +645444,447 @@
       type: default
   nameLocalized:
     schinese: 加里波利
+3066890:
+  cloud:
+    saves:
+      - path: SAVEGAME
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Crusader No Remorse
+  launch:
+    - executable: "DOSBOX\\Crusader No Remorse.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    english: "Crusader: No Remorse™"
+    tchinese: 《十字軍：義無反顧》
+3066900:
+  cloud:
+    saves:
+      - path: SAVEGAME
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Crusader No Regret
+  launch:
+    - executable: "DOSBOX\\Crusader No Regret.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    english: "Crusader: No Regret™"
+    tchinese: 《十字軍：絕不後悔》
+3067090:
+  cloud:
+    saves:
+      - path: MISSIONS
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Wing Commander - Academy
+  launch:
+    - executable: "DOSBOX\\Wing Commander Academy.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    english: "Wing Commander™: Academy"
+    tchinese: 銀河飛將：學院
+3067100:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.ARM"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Wing Commander Armada
+  launch:
+    - description: Wing Commander Armada Single Player Game
+      executable: "DOSBOX\\Wing Commander Armada.exe"
+      type: option1
+      workingdir: DOSBOX
+    - description: Wing Commander Armada Network Client Game
+      executable: "DOSBOX\\Wing Commander Armada Client.exe"
+      type: option1
+      workingdir: DOSBOX
+    - description: Wing Commander Armada Network Host Game
+      executable: "DOSBOX\\Wing Commander Armada Host.exe"
+      type: option1
+      workingdir: DOSBOX
+    - description: Wing Commander Armada Gauntlet Mode
+      executable: "DOSBOX\\Wing Commander Armada Gauntlet.exe"
+      type: option1
+      workingdir: DOSBOX
+  nameLocalized:
+    tchinese: 銀河飛將：無敵艦隊
+3067110:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.SAV"
+        platforms:
+          - Windows
+        root: gameinstall
+      - path: ""
+        pattern: "*.TO1"
+        platforms:
+          - Windows
+        root: gameinstall
+      - path: ""
+        pattern: GENSAVE.TMP
+        platforms:
+          - Windows
+        root: gameinstall
+  installDir: Strike Commander
+  launch:
+    - executable: "DOSBOX\\Strike Commander.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    english: Strike Commander™
+    tchinese: 攻擊指揮官
+3067480:
+  cloud:
+    saves:
+      - path: ""
+        pattern: PLAYER*.U1
+        platforms:
+          - Windows
+        root: gameinstall
+  installDir: Ultima I
+  launch:
+    - executable: "DOSBOX\\Ultima I.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    brazilian: "Ultima™ I: The First Age of Darkness"
+    czech: "Ultima™ I: The First Age of Darkness"
+    danish: "Ultima™ I: The First Age of Darkness"
+    dutch: "Ultima™ I: The First Age of Darkness"
+    english: "Ultima™ I: The First Age of Darkness"
+    finnish: "Ultima™ I: The First Age of Darkness"
+    french: "Ultima™ I: The First Age of Darkness"
+    german: "Ultima™ I: The First Age of Darkness"
+    italian: "Ultima™ I: The First Age of Darkness"
+    japanese: "Ultima™ I: The First Age of Darkness"
+    koreana: "Ultima™ I: The First Age of Darkness"
+    latam: "Ultima™ I: The First Age of Darkness"
+    norwegian: "Ultima™ I: The First Age of Darkness"
+    polish: "Ultima™ I: The First Age of Darkness"
+    portuguese: "Ultima™ I: The First Age of Darkness"
+    russian: "Ultima™ I: The First Age of Darkness"
+    schinese: "Ultima™ I: The First Age of Darkness"
+    spanish: "Ultima™ I: The First Age of Darkness"
+    swedish: "Ultima™ I: The First Age of Darkness"
+    tchinese: 創世紀 I：第一黑暗時期
+    thai: "Ultima™ I: The First Age of Darkness"
+    turkish: "Ultima™ I: The First Age of Darkness"
+    ukrainian: "Ultima™ I: The First Age of Darkness"
+3067490:
+  cloud:
+    saves:
+      - path: ""
+        pattern: PLAYER
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima II
+  launch:
+    - executable: "DOSBOX\\Ultima II.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    brazilian: "Ultima™ II: The Revenge of the Enchantress"
+    czech: "Ultima™ II: The Revenge of the Enchantress"
+    danish: "Ultima™ II: The Revenge of the Enchantress"
+    dutch: "Ultima™ II: The Revenge of the Enchantress"
+    english: "Ultima™ II: The Revenge of the Enchantress"
+    finnish: "Ultima™ II: The Revenge of the Enchantress"
+    french: "Ultima™ II: The Revenge of the Enchantress"
+    german: "Ultima™ II: The Revenge of the Enchantress"
+    hungarian: "Ultima™ II: The Revenge of the Enchantress"
+    italian: "Ultima™ II: The Revenge of the Enchantress"
+    japanese: "Ultima™ II: The Revenge of the Enchantress"
+    koreana: "Ultima™ II: The Revenge of the Enchantress"
+    latam: "Ultima™ II: The Revenge of the Enchantress"
+    norwegian: "Ultima™ II: The Revenge of the Enchantress"
+    polish: "Ultima™ II: The Revenge of the Enchantress"
+    portuguese: "Ultima™ II: The Revenge of the Enchantress"
+    russian: "Ultima™ II: The Revenge of the Enchantress"
+    schinese: "Ultima™ II: The Revenge of the Enchantress"
+    spanish: "Ultima™ II: The Revenge of the Enchantress"
+    swedish: "Ultima™ II: The Revenge of the Enchantress"
+    tchinese: 創世紀 II：女巫的復仇
+    thai: "Ultima™ II: The Revenge of the Enchantress"
+    turkish: "Ultima™ II: The Revenge of the Enchantress"
+    ukrainian: "Ultima™ II: The Revenge of the Enchantress"
+3067500:
+  cloud:
+    saves:
+      - path: ""
+        pattern: PARTY.ULT
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: ""
+        pattern: ROSTER.ULT
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: ""
+        pattern: SOSARIA.ULT
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima III
+  launch:
+    - executable: "DOSBOX\\Ultima III.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    brazilian: "Ultima™ III: Exodus"
+    czech: "Ultima™ III: Exodus"
+    danish: "Ultima™ III: Exodus"
+    dutch: "Ultima™ III: Exodus"
+    english: "Ultima™ III: Exodus"
+    finnish: "Ultima™ III: Exodus"
+    french: "Ultima™ III: Exodus"
+    german: "Ultima™ III: Exodus"
+    hungarian: "Ultima™ III: Exodus"
+    italian: "Ultima™ III: Exodus"
+    japanese: "Ultima™ III: Exodus"
+    koreana: "Ultima™ III: Exodus"
+    latam: "Ultima™ III: Exodus"
+    norwegian: "Ultima™ III: Exodus"
+    polish: "Ultima™ III: Exodus"
+    portuguese: "Ultima™ III: Exodus"
+    russian: "Ultima™ III: Exodus"
+    schinese: "Ultima™ III: Exodus"
+    spanish: "Ultima™ III: Exodus"
+    swedish: "Ultima™ III: Exodus"
+    tchinese: 創世紀 III：魔胎
+    thai: "Ultima™ III: Exodus"
+    turkish: "Ultima™ III: Exodus"
+    ukrainian: "Ultima™ III: Exodus"
+3067510:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.SAV"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima IV
+  launch:
+    - executable: "DOSBOX\\Ultima IV.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    tchinese: 創世紀 IV：聖者之道
+3067520:
+  cloud:
+    saves:
+      - path: ""
+        pattern: SAVED.GAM
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: ""
+        pattern: PARTY.SAV
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima V
+  launch:
+    - executable: "DOSBOX\\Ultima V.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    tchinese: 創世紀 V：命運鬥士
+3067530:
+  cloud:
+    saves:
+      - path: SAVEGAME
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima VI
+  launch:
+    - executable: "DOSBOX\\Ultima VI.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    brazilian: "Ultima™ VI: The False Prophet"
+    czech: "Ultima™ VI: The False Prophet"
+    danish: "Ultima™ VI: The False Prophet"
+    dutch: "Ultima™ VI: The False Prophet"
+    english: "Ultima™ VI: The False Prophet"
+    finnish: "Ultima™ VI: The False Prophet"
+    french: "Ultima™ VI: The False Prophet"
+    german: "Ultima™ VI: The False Prophet"
+    italian: "Ultima™ VI: The False Prophet"
+    japanese: "Ultima™ VI: The False Prophet"
+    koreana: "Ultima™ VI: The False Prophet"
+    latam: "Ultima™ VI: The False Prophet"
+    norwegian: "Ultima™ VI: The False Prophet"
+    polish: "Ultima™ VI: The False Prophet"
+    portuguese: "Ultima™ VI: The False Prophet"
+    russian: "Ultima™ VI: The False Prophet"
+    schinese: "Ultima™ VI: The False Prophet"
+    spanish: "Ultima™ VI: The False Prophet"
+    swedish: "Ultima™ VI: The False Prophet"
+    tchinese: 創世紀 VI：虛偽先知
+    thai: "Ultima™ VI: The False Prophet"
+    turkish: "Ultima™ VI: The False Prophet"
+    ukrainian: "Ultima™ VI: The False Prophet"
+3067540:
+  cloud:
+    saves:
+      - path: Ultima VII - The Black Gate
+        pattern: "*.U7"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: Ultima VII - Serpent Isle
+        pattern: "*.U7"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima VII
+  launch:
+    - description: " Ultima VII: The Black Gate + The Forge of Virtue"
+      executable: "Ultima VII - The Black Gate\\DOSBOX\\Ultima VII - The Black Gate.exe"
+      type: option1
+      workingdir: "Ultima VII - The Black Gate\\DOSBOX"
+    - description: "Ultima VII: Serpent Island + The Silver Seed"
+      executable: "Ultima VII - Serpent Isle\\DOSBOX\\Ultima VII - Serpent Isle.exe"
+      type: option1
+      workingdir: "Ultima VII - Serpent Isle\\DOSBOX"
+  nameLocalized:
+    tchinese: 創世紀 VII：完整版
+3067550:
+  cloud:
+    saves:
+      - path: ENGLISH/SAVEGAME
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: FRENCH/SAVEGAME
+        pattern: "*.*"
+        recursive: true
+        root: gameinstall
+      - path: GERMAN/SAVEGAME
+        pattern: "*.*"
+        recursive: true
+        root: gameinstall
+  installDir: Ultima VIII
+  launch:
+    - executable: "DOSBOX\\Ultima VIII.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    tchinese: 創世紀 VIII：黃金版
+3067560:
+  cloud:
+    saves:
+      - path: savegame
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima IX
+  launch:
+    - executable: u9.exe
+  nameLocalized:
+    tchinese: 創世紀 IX：羽化昇天
+3067580:
+  cloud:
+    saves:
+      - path: "UNDEROM1\\SAVE0"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "UNDEROM1\\SAVE1"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "UNDEROM1\\SAVE2"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "UNDEROM1\\SAVE3"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "UNDEROM1\\SAVE4"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima Underworld I
+  launch:
+    - executable: "DOSBOX\\Ultima Underworld I.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    tchinese: 地下創世紀 I
+3067590:
+  cloud:
+    saves:
+      - path: "UNDEROM2\\SAVE0"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "UNDEROM2\\SAVE1"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "UNDEROM2\\SAVE2"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "UNDEROM2\\SAVE3"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "UNDEROM2\\SAVE4"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Ultima Underworld II
+  launch:
+    - executable: "DOSBOX\\Ultima Underworld II.exe"
+      workingdir: DOSBOX
+  nameLocalized:
+    tchinese: 地下創世紀 II
 3067930:
   cloud:
     saves:
@@ -651726,6 +652215,19 @@
       description: Outlaws - Development Version
       executable: taweret_Shipping_Playfab_Steam_x64.exe
       type: option1
+3367320:
+  cloud:
+    saves:
+      - path: www/save
+        pattern: "*.rpgsave"
+        root: gameinstall
+  installDir: Milkdelivery
+  launch:
+    - executable: Game.exe
+  nameLocalized:
+    english: "Bessie's Milk Delivery"
+    japanese: バッファローとエロトラップダンジョン
+    schinese: 巴夫罗与色情陷阱迷宫
 3367820: {}
 3368250:
   cloud:
@@ -653290,7 +653792,20 @@
   launch:
     - executable: mk_legacy_kollection.exe
       type: default
-3456660: {}
+3456660:
+  installDir: PAYDAY Aces High
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Windows
+      executable: PAYDAY Aces High.exe
+      type: openxr
+    - config:
+        oslist: android
+      description: Android
+      executable: Calippo-Android-Shipping-arm64.apk
+      type: openxr
 3456930:
   cloud:
     saves:

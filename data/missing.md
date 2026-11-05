@@ -7440,7 +7440,6 @@
 * [DinerTown Tycoon](https://www.pcgamingwiki.com/wiki/?curid=41231)
 * [DingDingDing](https://www.pcgamingwiki.com/wiki/?curid=112620)
 * [Dino and Aliens](https://www.pcgamingwiki.com/wiki/?curid=218877)
-* [Dino Crisis 3](https://www.pcgamingwiki.com/wiki/?curid=222882)
 * [Dino Dawn](https://www.pcgamingwiki.com/wiki/?curid=93651)
 * [Dino Delivery](https://www.pcgamingwiki.com/wiki/?curid=143981)
 * [Dino Game](https://www.pcgamingwiki.com/wiki/?curid=155398)

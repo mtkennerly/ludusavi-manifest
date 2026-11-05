@@ -171,6 +171,7 @@ $1 Ride:
     - 4521840
     - 4601250
     - 4707780
+    - 5283790
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\IO Interactive\\007 First Light|{{P|steam}}\\userdata\\{{P|uid}}\\3768760\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\3768760\\}}"
@@ -26445,6 +26446,11 @@ Besiege:
     - "{{Game data/saves|Linux|{{p|game}}\\Besiege_Data\\SavedMachines\\|{{p|game}}\\Besiege_Data\\CompletedLevels.txt}}"
 Besieger:
   pageId: 222877
+"Bessie's Milk Delivery":
+  cloud:
+    steam: true
+  pageId: 222911
+  steam: 3367320
 Best Buds vs Bad Guys:
   pageId: 39151
   steam: 486130
@@ -53493,8 +53499,10 @@ Crusader Kings III:
   cloud:
     gog: true
     origin: true
+    steam: true
   gog: 1207658982
   pageId: 22515
+  steam: 3066900
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\Crusader.cfg}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME}}"
@@ -53502,9 +53510,11 @@ Crusader Kings III:
   cloud:
     gog: true
     origin: true
+    steam: true
   gog: 1207658933
   lutris: crusader-no-remorse
   pageId: 20626
+  steam: 3066890
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\Crusader.cfg}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME\\}}"
@@ -65748,6 +65758,8 @@ Dino Crisis 2:
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\SAVE*.DAT}}"
 Dino Crisis 3:
   pageId: 222882
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\dc3.cfg}}"
 Dino D-Day:
   cloud:
     steam: true
@@ -94908,6 +94920,7 @@ Fuego!:
   pageId: 45621
   steam: 356100
 Fuel:
+  lutris: fuel
   pageId: 3146
   steam: 12800
   templates:
@@ -160050,6 +160063,7 @@ Nanairo Reincarnation:
   pageId: 41200
   steam: 42200
 "Nancy Drew: Alibi in Ashes":
+  lutris: nancy-drew-alibi-in-ashes
   pageId: 40863
   steam: 202670
 "Nancy Drew: Curse of Blackmoor Manor":
@@ -160076,9 +160090,11 @@ Nanairo Reincarnation:
     - "{{Game data/config|Windows|{{P|userprofile\\Documents}}\\Ghost Dogs of Moon Lake\\Game.INI}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\Documents}}\\Ghost Dogs of Moon Lake\\*.SAV}}"
 "Nancy Drew: Ghost of Thornton Hall":
+  lutris: nancy-drew-ghost-of-thornton-hall
   pageId: 40624
   steam: 226820
 "Nancy Drew: Labyrinth of Lies":
+  lutris: nancy-drew-labyrinth-of-lies
   pageId: 57894
   steam: 572710
   templates:
@@ -160097,6 +160113,7 @@ Nanairo Reincarnation:
   pageId: 61836
   steam: 615770
 "Nancy Drew: Midnight in Salem":
+  lutris: nancy-drew-midnight-in-salem
   pageId: 150798
   steam: 1038450
   templates:
@@ -160105,12 +160122,14 @@ Nanairo Reincarnation:
 "Nancy Drew: Mystery of the Seven Keys":
   cloud:
     steam: true
+  lutris: nancy-drew-mystery-of-the-seven-keys
   pageId: 196075
   steam: 1926590
 "Nancy Drew: Ransom of the Seven Ships":
   pageId: 41262
   steam: 31980
 "Nancy Drew: Sea of Darkness":
+  lutris: nancy-drew-sea-of-darkness
   pageId: 57415
   steam: 572700
   templates:
@@ -160131,6 +160150,7 @@ Nanairo Reincarnation:
   pageId: 40940
   steam: 42210
 "Nancy Drew: Shadow at the Water's Edge":
+  lutris: nancy-drew-shadow-at-the-waters-edge
   pageId: 40912
   steam: 200080
 "Nancy Drew: Stay Tuned for Danger":
@@ -160139,6 +160159,7 @@ Nanairo Reincarnation:
     - "{{Game data/config|Windows|{{p|game}}\\game.ini }}"
     - "{{Game data/saves|Windows|{{p|game}}\\*.SAV }}"
 "Nancy Drew: The Captive Curse":
+  lutris: nancy-drew-the-captive-curse
   pageId: 40942
   steam: 42220
   templates:
@@ -160148,6 +160169,7 @@ Nanairo Reincarnation:
   pageId: 41277
   steam: 31900
 "Nancy Drew: The Deadly Device":
+  lutris: nancy-drew-the-deadly-device
   pageId: 40701
   steam: 220420
 "Nancy Drew: The Final Scene":
@@ -160174,9 +160196,11 @@ Nanairo Reincarnation:
   pageId: 56330
   steam: 572740
 "Nancy Drew: The Shattered Medallion":
+  lutris: nancy-drew-the-shattered-medallion
   pageId: 59013
   steam: 572720
 "Nancy Drew: The Silent Spy":
+  lutris: nancy-drew-the-silent-spy
   pageId: 60440
   steam: 572730
   templates:
@@ -160187,9 +160211,11 @@ Nanairo Reincarnation:
   pageId: 41276
   steam: 31930
 "Nancy Drew: Tomb of the Lost Queen":
+  lutris: nancy-drew-tomb-of-the-lost-queen
   pageId: 40781
   steam: 210230
 "Nancy Drew: Trail of the Twister":
+  lutris: nancy-drew-trail-of-the-twister
   pageId: 40944
   steam: 42230
 "Nancy Drew: Treasure in the Royal Tower":
@@ -175748,6 +175774,12 @@ Payday 3:
   lutris: payday-aces-high
   pageId: 214936
   steam: 3456660
+  steamSide:
+    - 5021070
+    - 5031920
+    - 5031930
+    - 5031940
+    - 5031950
 "Payday: The Heist":
   cloud:
     steam: true
@@ -228086,8 +228118,10 @@ Strike Cars:
 Strike Commander:
   cloud:
     gog: true
+    steam: true
   gog: 1207659195
   pageId: 19756
+  steam: 3067110
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\SC.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\*.SAV|{{p|game}}\\*.TO1}}"
@@ -254881,9 +254915,11 @@ Theme Hospital:
   cloud:
     gog: true
     origin: true
+    steam: true
   gog: 1207659026
   lutris: theme-hospital
   pageId: 1253
+  steam: 2229820
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\HOSPITAL.CFG}}"
     - "{{Game data/config|Windows|{{p|game}}\\HOSPITAL.CFG}}"
@@ -266806,47 +266842,57 @@ Ultima Defesa:
 "Ultima I: The First Age of Darkness":
   cloud:
     gog: true
+    steam: true
   gog: 1207662593
   gogSide:
     - 1207658961
   lutris: ultima
   pageId: 14008
+  steam: 3067480
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\PLAYER*.U1}}"
 "Ultima II: The Revenge of the Enchantress":
   cloud:
     gog: true
+    steam: true
   gog: 1207662603
   gogSide:
     - 1207658961
   lutris: ultima-ii-the-revenge-of-the-enchantress
   pageId: 14010
+  steam: 3067490
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\PLAYER}}"
 "Ultima III: Exodus":
   cloud:
     gog: true
+    steam: true
   gog: 1207662613
   gogSide:
     - 1207658961
   lutris: exodus-ultima-iii
   pageId: 14012
+  steam: 3067500
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\PARTY.ULT|{{p|game}}\\ROSTER.ULT|{{p|game}}\\SOSARIA.ULT}}"
 "Ultima IV: Quest of the Avatar":
   cloud:
     gog: true
+    steam: true
   gog: 1207658962
   lutris: ultima-iv-quest-of-the-avatar
   pageId: 7344
+  steam: 3067510
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\*.SAV}}"
 "Ultima IX: Ascension":
   cloud:
     gog: true
     origin: true
+    steam: true
   gog: 1207659093
   pageId: 14110
+  steam: 3067560
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Options.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\savegame\\}}"
@@ -266856,51 +266902,61 @@ Ultima Online:
 "Ultima Underworld II: Labyrinth of Worlds":
   cloud:
     gog: true
+    steam: true
   gog: 1207662473
   gogSide:
     - 1207658937
   lutris: ultima-underworld-ii-labyrinth-of-worlds
   pageId: 5109
+  steam: 3067590
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE*\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Boxer/Gamebox States/com.gog.ultima-underworld-1+2/Current.boxerstate/C Ultima Underworld 1 and 2.harddisk/UNDEROM2}}"
 "Ultima Underworld: The Stygian Abyss":
   cloud:
     gog: true
+    steam: true
   gog: 1207662463
   gogSide:
     - 1207658937
   lutris: ultima-underworld-the-stygian-abyss
   pageId: 5108
+  steam: 3067580
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE*\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Boxer/Gamebox States/com.gog.ultima-underworld-1+2/Current.boxerstate/C Ultima Underworld 1 and 2.harddisk/UNDEROM1}}"
 "Ultima V: Warriors of Destiny":
   cloud:
     gog: true
+    steam: true
   gog: 1207662443
   gogSide:
     - 1207658965
   lutris: ulltima-v-warriors-of-destiny
   pageId: 14014
+  steam: 3067520
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVED.GAM}}"
 "Ultima VI: The False Prophet":
   cloud:
     gog: true
+    steam: true
   gog: 1207662453
   gogSide:
     - 1207658965
   lutris: ultima-vi
   pageId: 14020
+  steam: 3067530
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\CONFIG.U6}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME\\}}"
 "Ultima VII Part Two: Serpent Isle":
   cloud:
     origin: true
+    steam: true
   gog: 1207662633
   pageId: 14063
+  steam: 3067540
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\GAME**.U7}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Boxer/Gamebox States/com.gog.ultima-7-the-complete-edition/Current.boxerstate/C.harddisk/U7/serpent}}"
@@ -266908,11 +266964,13 @@ Ultima Online:
   cloud:
     gog: true
     origin: true
+    steam: true
   gog: 1207662623
   gogSide:
     - 1207658984
   lutris: ultima-viitm-the-black-gate-the-forge-of-virtue
   pageId: 14061
+  steam: 3067540
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\GAME**.U7}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Boxer/Gamebox States/com.gog.ultima-7-the-complete-edition/Current.boxerstate/C.harddisk/U7/ultima7}}"
@@ -266920,9 +266978,11 @@ Ultima Online:
   cloud:
     gog: true
     origin: true
+    steam: true
   gog: 1207659015
   lutris: ultima-8-gold-edition
   pageId: 14078
+  steam: 3067550
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\U8.INI}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVEGAME\\}}"
@@ -271712,6 +271772,7 @@ Veil of Darkness:
   pageId: 174054
   steam: 2414320
   templates:
+    - "{{Game data/config|DOS|{{P|game}}\\GRAPH.INI (No text editable)}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVES}}"
 Veil of Mist:
   lutris: veil-of-mist
@@ -281050,17 +281111,21 @@ Wing Commander:
 "Wing Commander: Academy":
   cloud:
     gog: true
+    steam: true
   gog: 1207659473
   lutris: wing-commander-academy
   pageId: 12615
+  steam: 3067090
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\MISSIONS}}"
 "Wing Commander: Armada":
   cloud:
     gog: true
+    steam: true
   gog: 1207659603
   lutris: wing-commander-armada
   pageId: 12728
+  steam: 3067100
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\GAME.OPT}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE_*.ARM}}"
@@ -281068,9 +281133,11 @@ Wing Commander:
   cloud:
     gog: true
     origin: true
+    steam: true
   gog: 1207658938
   lutris: wing-commander-privateer
   pageId: 6301
+  steam: 2008760
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\*.SAV|{{p|game}}\\*.PRS}}"
 "Wing Commander: Prophecy":
