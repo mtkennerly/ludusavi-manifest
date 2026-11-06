@@ -121249,6 +121249,8 @@ Carnivores 2:
 "Carnivores: Dinosaur Hunter Reborn":
   cloud:
     steam: true
+  id:
+    lutris: carnivores-dinosaur-hunter-reborn
   installDir:
     CarnivoresReborn: {}
   launch:
@@ -286256,6 +286258,8 @@ Fragile Allegiance:
         - os: dos
   gog:
     id: 1207659059
+  id:
+    lutris: fragile-allegiance
   installDir:
     Fragile Allegiance: {}
   launch:
@@ -330622,6 +330626,8 @@ Hardwar:
         - save
       when:
         - os: windows
+  id:
+    lutris: hardwar
   installDir:
     Hardwar: {}
   launch:
@@ -511412,17 +511418,6 @@ Off Grid:
     steam: true
   steam:
     id: 526720
-Off The Grid:
-  files:
-    "<winLocalAppData>/G01/Saved/Config/WindowsClient/GameUserSettings.ini":
-      tags:
-        - config
-      when:
-        - os: windows
-  installDir:
-    OffTheGrid: {}
-  steam:
-    id: 3659280
 "Off The Record: The Art of Deception":
   installDir:
     "Off The Record The Art of Deception Collector's Edition": {}
@@ -511435,6 +511430,17 @@ Off The Grid:
     id: 600170
 "Off The Record: The Art of Deception Collector's Edition":
   alias: "Off The Record: The Art of Deception"
+Off the Grid:
+  files:
+    "<winLocalAppData>/G01/Saved/Config/WindowsClient/GameUserSettings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    OffTheGrid: {}
+  steam:
+    id: 3659280
 "Off the Record: Liberty Stone":
   installDir:
     "Off The Record Liberty Stone Collector's Edition": {}
@@ -583687,6 +583693,8 @@ Realms of the Haunting:
         - os: dos
   gog:
     id: 1207658921
+  id:
+    lutris: realms-of-the-haunting
   installDir:
     Realms of the Haunting: {}
   launch:
@@ -601574,11 +601582,25 @@ Road Rage Royale:
   steam:
     id: 884610
 Road Rash:
+  cloud:
+    gog: true
+    steam: true
+  gog:
+    id: 2141922451
+  installDir:
+    RoadRash: {}
+  launch:
+    "<base>/RoadRash95.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Electronic Arts/RoadRash 95:
       tags:
         - config
         - save
+  steam:
+    id: 2448570
 Road Redemption:
   cloud:
     gog: true

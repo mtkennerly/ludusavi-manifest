@@ -39547,6 +39547,7 @@ Carnivores 2:
 "Carnivores: Dinosaur Hunter Reborn":
   cloud:
     steam: true
+  lutris: carnivores-dinosaur-hunter-reborn
   pageId: 47761
   steam: 293520
 "Carnivores: Ice Age":
@@ -93421,6 +93422,7 @@ Fragile Allegiance:
   cloud:
     gog: true
   gog: 1207659059
+  lutris: fragile-allegiance
   pageId: 36408
   steam: 383100
   templates:
@@ -108008,6 +108010,7 @@ Hardnoid:
 Hardwar:
   cloud:
     steam: true
+  lutris: hardwar
   pageId: 171573
   steam: 1500540
   templates:
@@ -167684,16 +167687,18 @@ Off Grid:
     steam: true
   pageId: 92395
   steam: 526720
-Off The Grid:
-  pageId: 206931
-  steam: 3659280
-  templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\G01\\Saved\\Config\\WindowsClient\\GameUserSettings.ini}}"
 "Off The Record: The Art of Deception":
   pageId: 58553
   renamedFrom:
     - "Off The Record: The Art of Deception Collector's Edition"
   steam: 600170
+Off the Grid:
+  pageId: 206931
+  renamedFrom:
+    - Off The Grid
+  steam: 3659280
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\G01\\Saved\\Config\\WindowsClient\\GameUserSettings.ini}}"
 "Off the Record: Liberty Stone":
   pageId: 79300
   renamedFrom:
@@ -191318,6 +191323,7 @@ Realms of the Haunting:
   cloud:
     gog: true
   gog: 1207658921
+  lutris: realms-of-the-haunting
   pageId: 22365
   steam: 292390
   templates:
@@ -197298,7 +197304,12 @@ Road Rage Royale:
   pageId: 130553
   steam: 884610
 Road Rash:
+  cloud:
+    gog: true
+    steam: true
+  gog: 2141922451
   pageId: 6462
+  steam: 2448570
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Electronic Arts\\RoadRash 95\\}}"
     - "{{Game data/saves|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\Electronic Arts\\RoadRash 95\\}}"

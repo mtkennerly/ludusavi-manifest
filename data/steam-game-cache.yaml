@@ -559345,12 +559345,75 @@
       executable: TheOuterWorlds2Test.exe
       type: option2
     - config:
+        betakey: release-2.0.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+      type: option3
+    - config:
+        betakey: release-2.0.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option1
+    - config:
+        betakey: release-2.0.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option2
+    - config:
+        betakey: latest_arx2
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+      type: option1
+    - config:
+        betakey: latest_arx2
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option2
+    - config:
+        betakey: latest_arx2
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option3
+    - config:
+        betakey: release-2.1.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Shipping Configuration
+      executable: TheOuterWorlds2.exe
+      type: option1
+    - config:
+        betakey: release-2.1.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Development Configuration
+      executable: TheOuterWorlds2Dev.exe
+      type: option2
+    - config:
         betakey: vs_build
         osarch: "64"
         oslist: windows
       description: Vertical Slice Development Configuration
       executable: ArkansasDev.exe
       type: option1
+    - config:
+        betakey: release-2.1.0.0_all
+        osarch: "64"
+        oslist: windows
+      description: Arkansas Test Configuration
+      executable: TheOuterWorlds2Test.exe
+      type: option3
 1449200:
   cloud:
     saves:
@@ -625336,6 +625399,39 @@
   nameLocalized:
     schinese: 尤卡莱莉：回归
     tchinese: 尤卡萊莉：回歸
+2448570:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.RRS"
+        root: gameinstall
+  installDir: RoadRash
+  launch:
+    - config:
+        oslist: windows
+      executable: RoadRash95.exe
+    - config:
+        betakey: "lkg_msdev, qv_check"
+        oslist: windows
+      description: Use this if testing builds on branches with builds before June 22nd 2026
+      executable: ROADRASH.EXE
+      type: option1
+  nameLocalized:
+    brazilian: "Road Rash™: Edição de 30º Aniversário"
+    danish: "Road Rash™: 30-års jubilæumsudgave"
+    english: "Road Rash™: 30th Anniversary Edition"
+    french: "Road Rash™ : édition 30e anniversaire"
+    japanese: "ロードラッシュ™: 30th Anniversary Edition"
+    latam: "Road Rash™: Edición del 30.º Aniversario"
+    polish: "Road Rash™: Edycja Jubileuszowa na 30-lecie"
+    portuguese: "Road Rash™: Edição de 30.º Aniversário"
+    russian: "Road Rash™: издание 30-й годовщины"
+    schinese: 暴力摩托™：30 周年纪念版
+    spanish: "Road Rash™: Edición del 30.º aniversario"
+    swedish: "Road Rash™: 30th Anniversary Edition"
+    tchinese: 《暴力摩托：30 週年紀念版》
+    thai: "Road Rash™: 30th Anniversary Edition"
+    ukrainian: "Road Rash™: Видання до 30-річчя"
 2448930:
   cloud:
     saves:
