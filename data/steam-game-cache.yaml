@@ -601618,6 +601618,116 @@
   nameLocalized:
     schinese: 进击的机甲球
     tchinese: 進擊的機甲球
+2008740:
+  cloud:
+    saves:
+      - path: Kilrathi_Saga
+        pattern: "*.WSG"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: DOS
+        pattern: "*.WSG"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: wc3w_en
+        pattern: "*.WSG"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+  installDir: Wing Commander III
+  launch:
+    - arguments: "/movies_path=Master_FMVs_Upscaled\\"
+      config:
+        oslist: windows
+      description: WC3 Kilrathi Saga Enhanced - Master FMVs Upscaled
+      executable: "Kilrathi_Saga\\WC3W.EXE"
+      type: option1
+      workingdir: Kilrathi_Saga
+    - arguments: "/movies_path=Master_FMVs_Source\\"
+      config:
+        oslist: windows
+      description: WC3 Kilrathi Saga Enhanced - Master FMVs Source
+      executable: "Kilrathi_Saga\\WC3W.EXE"
+      type: option1
+      workingdir: Kilrathi_Saga
+    - arguments: "/movies_path=movies\\"
+      description: WC3 Kilrathi Saga Enhanced - Original FMVs
+      executable: "Kilrathi_Saga\\WC3W.EXE"
+      type: option1
+      workingdir: Kilrathi_Saga
+    - description: Wing Commander III - DOS
+      executable: "DOS\\DOSBOX\\Wing Commander III.exe"
+      type: option1
+      workingdir: "DOS\\DOSBOX"
+  nameLocalized:
+    brazilian: "Edição de 30º Aniversário de Wing Commander™ III: Heart of the Tiger"
+    danish: "Wing Commander™ III: Heart of the Tiger: 30-års jubilæumsudgave"
+    english: "Wing Commander™ III: Heart of the Tiger: 30th Anniversary Edition"
+    french: "Wing Commander™ III: Heart of the Tiger: édition 30e anniversaire"
+    italian: "Wing Commander™ III: Heart of the Tiger: Anniversary Edition del 30° anniversario"
+    koreana: "Wing Commander™ III: Heart of the Tiger: 30주년 애니버서리 에디션"
+    latam: "Wing Commander™ III: Heart of the Tiger: Edición del 30.º aniversario"
+    polish: "Wing Commander™ III: Heart of the Tiger: Edycja Jubileuszowa na 30-lecie"
+    portuguese: "Wing Commander™ III: Heart of the Tiger: Edição de Aniversário de 30 anos"
+    russian: "Wing Commander™ III: Heart of the Tiger: издание \"30-я годовщина\""
+    schinese: 《银河飞将™ III：虎之心》30 周年纪念版
+    spanish: "Wing Commander™ III: Heart of the Tiger: Edición del 30.º aniversario"
+    tchinese: 《銀河飛將™3：虎之心》：30 週年紀念版
+    ukrainian: "Wing Commander™ III: Heart of the Tiger — видання до 30-ї річниці"
+2008750:
+  cloud:
+    saves:
+      - path: WC4_DVD
+        pattern: "*.WSG"
+        platforms:
+          - Windows
+        root: gameinstall
+      - path: WC4_Enhanced
+        pattern: "*.WSG"
+        platforms:
+          - Windows
+        root: gameinstall
+  installDir: Wing Commander IV
+  launch:
+    - arguments: "/movies_path=Master_FMVs_Upscaled\\"
+      description: WC4 Enhanced - Master FMVs Upscaled
+      executable: "WC4_Enhanced\\Wing Commander IV.exe"
+      type: option1
+      workingdir: WC4_Enhanced
+    - arguments: "/movies_path=Master_FMVs_Source\\"
+      description: WC4 Enhanced - Master FMVs Source
+      executable: "WC4_Enhanced\\Wing Commander IV.exe"
+      type: option1
+      workingdir: WC4_Enhanced
+    - arguments: "/movies_path=vob\\"
+      description: WC4 Enhanced - DVD FMVs
+      executable: "WC4_Enhanced\\Wing Commander IV.exe"
+      type: option1
+      workingdir: WC4_Enhanced
+    - description: WC4 DVD Edition
+      executable: "WC4_DVD\\Wing Commander IV.exe"
+      type: option1
+      workingdir: WC4_DVD
+  nameLocalized:
+    brazilian: "Edição de 30º Aniversário de Wing Commander™ IV: The Price of Freedom"
+    danish: "Wing Commander™ IV: The Price of Freedom: 30-års jubilæumsudgave"
+    english: "Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition"
+    french: "Wing Commander™ IV: The Price of Freedom: édition 30e anniversaire"
+    italian: "Wing Commander™ IV: The Price of Freedom: Anniversary Edition del 30° anniversario"
+    koreana: "Wing Commander™ IV: The Price of Freedom: 30주년 애니버서리 에디션"
+    latam: "Wing Commander™ IV: The Price of Freedom: Edición del 30.º aniversario"
+    polish: "Wing Commander™ IV: The Price of Freedom: Edycja Jubileuszowa na 30-lecie"
+    portuguese: "Wing Commander™ IV: The Price of Freedom: Edição de Aniversário de 30 anos"
+    russian: "Wing Commander™ IV: The Price of Freedom: издание \"30-я годовщина\""
+    schinese: 《银河飞将™ IV：自由的代价》30 周年纪念版
+    spanish: "Wing Commander™ IV: The Price of Freedom: Edición del 30.º aniversario"
+    tchinese: 《銀河飛將™4：自由的代價》：30 週年紀念版
+    ukrainian: "Wing Commander™ IV: The Price of Freedom — видання до 30-ї річниці"
 2008760:
   cloud:
     saves:
@@ -645546,6 +645656,142 @@
   nameLocalized:
     english: Strike Commander™
     tchinese: 攻擊指揮官
+3067120:
+  cloud:
+    saves:
+      - path: "Enhanced\\save"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "Enhanced\\history"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "Original\\save"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "Original\\history"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "Enhanced\\Secret Ops\\save"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: "Original\\Secret Ops\\save"
+        pattern: "*.*"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Wing Commander - Prophecy
+  launch:
+    - config:
+        oslist: windows
+      description: Wing Commander Prophecy - Enhanced
+      executable: "Enhanced\\Launcher.exe"
+      type: option1
+      workingdir: Enhanced
+    - config:
+        oslist: windows
+      description: Wing Commander Prophecy - Original
+      executable: "Original\\prophecy.exe"
+      type: option1
+      workingdir: Original
+  nameLocalized:
+    brazilian: Edição de 30º Aniversário de Wing Commander™ Prophecy
+    czech: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    danish: "Wing Commander™ Prophecy: 30-års jubilæumsudgave"
+    dutch: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    english: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    finnish: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    french: "Wing Commander™ Prophecy: édition 30e anniversaire"
+    german: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    italian: "Wing Commander™ Prophecy: Anniversary Edition del 30° anniversario"
+    japanese: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    koreana: "Wing Commander™ Prophecy: 30주년 애니버서리 에디션"
+    latam: "Wing Commander™ Prophecy: Edición del 30.º aniversario"
+    norwegian: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    polish: "Wing Commander™ Prophecy: Edycja Jubileuszowa na 30 lecie"
+    portuguese: "Wing Commander™ Prophecy: Edição de Aniversário de 30 anos"
+    russian: "Wing Commander™ Prophecy: издание \"30-я годовщина\""
+    schinese: 《银河飞将™：神谕》30 周年纪念版
+    spanish: "Wing Commander™ Prophecy: Edición del 30.º aniversario"
+    swedish: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    tchinese: 《銀河飛將™：神諭》：30 週年紀念版
+    thai: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    turkish: "Wing Commander™ Prophecy: 30th Anniversary Edition"
+    ukrainian: "Wing Commander™: Prophecy — видання до 30-ї річниці"
+3067130:
+  cloud:
+    saves:
+      - path: ""
+        pattern: GAME0*.IFF
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Privateer 2 The Darkening
+  launch:
+    - arguments: "/movies_path=Master_FMVs_Upscaled\\"
+      description: Privateer 2 Enhanced - Master FMVs Upscaled
+      executable: "Windows\\DARK.EXE"
+      type: option1
+      workingdir: Windows
+    - arguments: "/movies_path=Directors_Cut_FMVs\\"
+      description: "Privateer 2 Enhanced - Director's Cut FMVs"
+      executable: "Windows\\DARK.EXE"
+      type: option1
+      workingdir: Windows
+    - arguments: "/movies_path=Master_FMVs_Source\\"
+      description: Privateer 2 Enhanced - Master FMVs Source
+      executable: "Windows\\DARK.EXE"
+      type: option1
+      workingdir: Windows
+    - arguments: "/movies_path=Original_FMVs\\"
+      description: Privateer 2 Enhanced - Original FMVs
+      executable: "Windows\\DARK.EXE"
+      type: option1
+      workingdir: Windows
+    - description: Privateer 2 - DOS
+      executable: "DOS\\DOSBOX\\Privateer 2 The Darkening.exe"
+      type: option1
+      workingdir: "DOS\\DOSBOX"
+  nameLocalized:
+    brazilian: "Edição de 30º Aniversário de Privateer 2: The Darkening"
+    czech: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    danish: "Privateer 2: The Darkening: 30-års jubilæumsudgave"
+    dutch: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    english: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    finnish: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    french: "Privateer 2: The Darkening: édition 30e anniversaire"
+    german: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    italian: "Privateer 2: The Darkening: Anniversary Edition per il 30° anniversario"
+    japanese: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    koreana: "Privateer 2: The Darkening: 30주년 애니버서리 에디션"
+    latam: "Edición del 30.º aniversario de Privateer 2: The Darkening"
+    norwegian: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    polish: "Privateer 2: The Darkening: Edycja Jubileuszowa na 30-lecie"
+    portuguese: "Privateer 2: The Darkening: 30.ª Edição de Aniversário"
+    russian: "Privateer 2: The Darkening: издание \"30-я годовщина\""
+    schinese: 《银河私掠者2：黯星枭雄》30 周年纪念版
+    spanish: "Privateer 2: The Darkening - Edición del 30.º aniversario"
+    swedish: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    tchinese: 《私掠者2：黯星梟雄》30 週年紀念版
+    thai: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    turkish: "Privateer 2: The Darkening: 30th Anniversary Edition"
+    ukrainian: "Privateer 2: The Darkening — видання до 30-ї річниці"
 3067480:
   cloud:
     saves:

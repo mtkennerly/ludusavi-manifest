@@ -138501,6 +138501,7 @@ Living The Deal:
     - 3062990
     - 3155140
   templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Game.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Save\\}}"
 Living World Racing:
   pageId: 88347
@@ -163476,6 +163477,8 @@ Nigate Tale:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Roguelite\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Roguelite\\Saved\\SaveGames\\}}"
+"Nigel Mansell's World Championship Racing":
+  pageId: 222917
 "Nigel: The Minuscule Adventure":
   pageId: 143989
   steam: 1089520
@@ -183592,8 +183595,13 @@ Private Eye:
 "Privateer 2: The Darkening":
   cloud:
     gog: true
-  gog: 1207659613
+    steam: true
+  gog: 2120290282
+  gogSide:
+    - 1207659613
+    - 1649380437
   pageId: 12825
+  steam: 3067130
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\DARK.CFG}}"
     - "{{Game data/config|Windows|{{p|game}}\\DARK.CFG}}"
@@ -281093,16 +281101,28 @@ Wing Commander:
   cloud:
     gog: true
     origin: true
-  gog: 1207658966
+    steam: true
+  gog: 1418263391
+  gogSide:
+    - 1207658966
+    - 1784225157
   lutris: wing-commander-iii-heart-of-the-tiger
   pageId: 12874
+  steam: 2008740
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\00000***.WSG}}"
     - "{{Game data/saves|Windows|{{p|game}}\\00000***.WSG}}"
 "Wing Commander IV: The Price of Freedom":
-  gog: 1207659021
+  cloud:
+    gog: true
+    steam: true
+  gog: 1154804755
+  gogSide:
+    - 1207659021
+    - 2023550212
   lutris: wing-commander-iv-the-price-of-freedom
   pageId: 17444
+  steam: 2008750
   templates:
     - "{{Game data/config|DOS|{{p|game}}\\WC4.CFG}}"
     - "{{Game data/config|Windows|{{p|game}}\\WC4.CFG}}"
@@ -281141,19 +281161,26 @@ Wing Commander:
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\*.SAV|{{p|game}}\\*.PRS}}"
 "Wing Commander: Prophecy":
-  gog: 1207662663
+  cloud:
+    gog: true
+    steam: true
+  gog: 2051767712
   gogSide:
     - 1207660153
+    - 1207662663
   lutris: wing-commandertm-5-prophecy-gold-edition
   pageId: 12895
+  steam: 3067120
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\save}}"
 "Wing Commander: Secret Ops":
-  gog: 1207662673
+  gog: 2051767712
   gogSide:
     - 1207660153
+    - 1207662673
   lutris: wing-commandertm-5-prophecy-gold-edition
   pageId: 12902
+  steam: 3067120
 "Wing Nuts: Battle in the Sky":
   pageId: 183444
 Wing of Darkness:
