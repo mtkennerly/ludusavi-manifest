@@ -7033,7 +7033,10 @@
 24240:
   installDir: PAYDAY The Heist
   launch:
-    - executable: payday_win32_release.exe
+    - config:
+        oslist: windows
+      executable: payday_win32_release.exe
+      type: default
 24400:
   installDir: King Arthur - The Role-playing Wargame
   launch:
@@ -8663,7 +8666,7 @@
       executable: launcher/launcher.exe
       workingdir: launcher
   nameLocalized:
-    koreana: "토탈워: 쇼군 - 컬렉션"
+    koreana: " 토탈 워: 쇼군 2"
     schinese: 全面战争：幕府将军2
     tchinese: 全面戰爭：幕府將軍2
 34410:
@@ -663187,6 +663190,19 @@
   nameLocalized:
     japanese: サイレントロード
 4124830:
+  cloud:
+    saves:
+      - path: Casual Brothers/Hasbro Games Junior Collection
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: HBGC
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: HBGC.exe
+      type: default
   nameLocalized:
     brazilian: Hasbro Games™ Junior Coleção
     japanese: Hasbro Games™ Juniorコレクション
@@ -666081,7 +666097,29 @@
   launch:
     - executable: Armed Snake.exe
 4832970: {}
-4834760: {}
+4834760:
+  cloud:
+    saves:
+      - path: SNEG/POR2/
+        pattern: "*.dat"
+        recursive: true
+        root: WinAppDataLocal
+      - path: SNEG/POR2/
+        pattern: "*.sav"
+        recursive: true
+        root: WinAppDataLocal
+      - path: SNEG/POR2/
+        pattern: "*.sta"
+        recursive: true
+        root: WinAppDataLocal
+      - path: SNEG/POR2
+        pattern: ".pc"
+        recursive: true
+        root: WinAppDataLocal
+  installDir: Pool of Radiance Ruins of Myth Drannor
+  launch:
+    - executable: por2launch.exe
+      type: default
 4834780: {}
 4834790: {}
 4834810: {}

@@ -117035,6 +117035,17 @@ Campus Notes - forget me not.:
       when:
         - os: windows
 "Can 'Em All":
+  files:
+    "<home>/AppData/LocalLow/LuisDev/Can 'Em All/save.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/LuisDev/Can 'Em All/settings.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     "Can 'Em All": {}
   launch:
@@ -117043,6 +117054,10 @@ Campus Notes - forget me not.:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    "HKEY_CURRENT_USER/Software/LuisDev/Can 'Em All":
+      tags:
+        - config
   steam:
     id: 5133900
 Can You Eat by Yourself:
@@ -331580,6 +331595,18 @@ Has-Been Heroes:
   steam:
     id: 492290
 Hasbro Games Junior Collection:
+  files:
+    "<home>/AppData/LocalLow/Casual Brothers/Hasbro Games Junior Collection":
+      when:
+        - store: steam
+  installDir:
+    HBGC: {}
+  launch:
+    "<base>/HBGC.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4124830
 Hasfax:
@@ -449761,6 +449788,10 @@ Max and the Magic Marker:
         - save
       when:
         - store: steam
+  id:
+    lutris: max-the-curse-of-brotherhood
+    steamExtra:
+      - 272390
   installDir:
     Max The Curse of Brotherhood: {}
   launch:
@@ -535589,7 +535620,8 @@ Payday 3:
   launch:
     "<base>/payday_win32_release.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   steam:
     id: 24240
 Payroll:
@@ -553203,6 +553235,9 @@ Pool of Radiance:
   steam:
     id: 1882370
 "Pool of Radiance: Ruins of Myth Drannor":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/savegames":
       tags:
@@ -553213,6 +553248,12 @@ Pool of Radiance:
     id: 1405279681
   id:
     lutris: pool-of-radiance-ruins-of-myth-drannor
+  installDir:
+    Pool of Radiance Ruins of Myth Drannor: {}
+  launch:
+    "<base>/por2launch.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834760
 Pools:
@@ -666009,6 +666050,8 @@ Soulbringer:
         - os: windows
   gog:
     id: 1207659003
+  id:
+    lutris: soulbringer
   installDir:
     Soulbringer: {}
   launch:

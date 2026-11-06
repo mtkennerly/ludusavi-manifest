@@ -11846,6 +11846,8 @@ American Powerhaul Train Simulator:
 American Railroads - Summit River & Pine Valley:
   pageId: 91973
   steam: 787930
+"American Rodeo: Bull Rider 2000":
+  pageId: 222927
 American Theft 80s:
   cloud:
     steam: true
@@ -34613,6 +34615,8 @@ Briquid:
 British Gangsters:
   pageId: 156157
   steam: 1196160
+British Open Championship Golf:
+  pageId: 222929
 "Britney's Dance Beat":
   pageId: 190368
   templates:
@@ -38179,6 +38183,9 @@ Campus Notes - forget me not.:
 "Can 'Em All":
   pageId: 222725
   steam: 5133900
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\LuisDev\\Can 'Em All\\settings.sav|{{p|hkcu}}\\Software\\LuisDev\\Can 'Em All\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\LuisDev\\Can 'Em All\\save.sav}}"
 Can You Eat by Yourself:
   pageId: 78146
   steam: 761720
@@ -128138,6 +128145,8 @@ Keebles:
     steam: true
   pageId: 48350
   steam: 347040
+"Keef the Thief: A Boy and His Lockpick":
+  pageId: 222922
 Keen:
   pageId: 57709
   steam: 566490
@@ -147023,8 +147032,11 @@ Max and the Magic Marker:
 "Max: The Curse of Brotherhood":
   cloud:
     steam: true
+  lutris: max-the-curse-of-brotherhood
   pageId: 16576
   steam: 255390
+  steamSide:
+    - 272390
   templates:
     - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\255390\\remote\\settings.dat}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\255390\\remote\\userdata.dat}}"
@@ -181482,6 +181494,9 @@ Pool of Radiance:
     - "{{Game data/config|DOS|{{p|game}}\\POOL.CFG}}"
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE\\}}"
 "Pool of Radiance: Ruins of Myth Drannor":
+  cloud:
+    gog: true
+    steam: true
   gog: 1405279681
   lutris: pool-of-radiance-ruins-of-myth-drannor
   pageId: 157681
@@ -218059,6 +218074,7 @@ Soulbringer:
   cloud:
     steam: true
   gog: 1207659003
+  lutris: soulbringer
   pageId: 21198
   steam: 283310
   templates:
@@ -273181,6 +273197,8 @@ Virtual Corporation:
 Virtual Debating Chamber:
   pageId: 139098
   steam: 1103940
+Virtual Deep Sea Fishing:
+  pageId: 222925
 Virtual Earth Online:
   pageId: 105081
   steam: 910180
