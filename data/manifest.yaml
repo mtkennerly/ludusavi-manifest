@@ -93971,6 +93971,9 @@ Blood of Steel:
     steam: true
   steam:
     id: 567630
+Blood of the Lead Moon:
+  steam:
+    id: 4407900
 Blood of the Werewolf:
   id:
     lutris: blood-of-the-werewolf
@@ -125795,6 +125798,12 @@ Cave Confectioner:
   steam:
     id: 1181900
 Cave Digger:
+  files:
+    "<home>/AppData/LocalLow/Mekiwi/Cave Digger_ Riches/progress.save":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Cave Digger: {}
   steam:
@@ -410125,12 +410134,12 @@ Layers of Fear (2023):
     gog: true
     steam: true
   files:
-    "<winLocalAppData>/Local/Cron/Saved/Config/Windows":
+    "<winLocalAppData>/Cron/Saved/Config/Windows":
       tags:
         - config
       when:
         - os: windows
-    "<winLocalAppData>/Local/Cron/Saved/SaveGames/<storeUserId>":
+    "<winLocalAppData>/Cron/Saved/SaveGames/<storeUserId>":
       tags:
         - save
       when:
@@ -559582,6 +559591,13 @@ Prison Tycoon Alcatraz:
             store: steam
   steam:
     id: 1515460
+Prison of Husks:
+  id:
+    lutris: prison-of-husks
+    steamExtra:
+      - 3746300
+  steam:
+    id: 2975260
 Prisoner:
   installDir:
     Prisoner: {}
@@ -604951,6 +604967,11 @@ Rockman X7:
 "Rocko's Quest":
   files:
     "<base>/Options.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/RData/Misc/strujen.opt":
       tags:
         - config
       when:
@@ -823531,6 +823552,8 @@ VRobot:
   steam:
     id: 588560
 VRog:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Illusion Walk/VRog/*.dat":
       when:
@@ -834682,6 +834705,12 @@ Vox:
   steam:
     id: 252770
 Vox Machinae:
+  files:
+    "<home>/AppData/LocalLow/SpaceBulletDynamicsCorporation/VoxMachinae":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     Vox Machinae: {}
   launch:
@@ -854993,6 +855022,22 @@ Wing Commander:
       when:
         - os: dos
         - os: windows
+    "<base>/DOS/*.WSG":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/Kilrathi_Saga/*.WSG":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<winAppData>/wc3w_en/*.WSG":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1418263391
   id:

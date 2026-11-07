@@ -30736,6 +30736,9 @@ Blood of Steel:
   steam: 567630
 Blood of the Killer:
   pageId: 179136
+Blood of the Lead Moon:
+  pageId: 222966
+  steam: 4407900
 Blood of the Werewolf:
   lutris: blood-of-the-werewolf
   pageId: 17399
@@ -41053,6 +41056,8 @@ Cave Confectioner:
 Cave Digger:
   pageId: 93080
   steam: 844380
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Mekiwi\\Cave Digger_ Riches\\progress.save}}"
 Cave Escape:
   pageId: 81456
   steam: 653850
@@ -112840,6 +112845,8 @@ High Clear VR:
 High Fidelity:
   pageId: 71074
   steam: 390540
+High Heat Major League Baseball 2002:
+  pageId: 222954
 High Heat Major League Baseball 2003:
   pageId: 212300
   templates:
@@ -134105,8 +134112,8 @@ Layers of Fear (2023):
   steamSide:
     - 2237040
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\Local\\Cron\\Saved\\Config\\Windows\\}}"
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Local\\Cron\\Saved\\SaveGames\\{{P|uid}}\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Cron\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Cron\\Saved\\SaveGames\\{{P|uid}}\\}}"
 Layers of Fear 2:
   cloud:
     epic: true
@@ -183594,6 +183601,12 @@ Prison Tycoon Alcatraz:
   steamSide:
     - 1825450
     - 1888890
+Prison of Husks:
+  lutris: prison-of-husks
+  pageId: 222961
+  steam: 2975260
+  steamSide:
+    - 3746300
 Prisoner:
   pageId: 65237
   steam: 653210
@@ -198445,7 +198458,7 @@ Rockman X7:
   pageId: 25408
   steam: 297620
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\Options.cfg}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Options.cfg|{{p|game}}\\RData\\Misc\\strujen.opt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\RData\\Save\\}}"
 Rockochet:
   pageId: 90152
@@ -203410,6 +203423,8 @@ Samba Shooter:
 Samhain World:
   pageId: 61528
   steam: 618840
+Sammy Sosa High Heat Baseball 2001:
+  pageId: 222956
 Sammy the Suricate in Lion Land:
   pageId: 213065
   templates:
@@ -228957,7 +228972,7 @@ Subsistence:
     - "{{Game data/config|Windows|{{P|game}}\\Subsistence\\UDKGame\\Config}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Subsistence\\Binaries\\Win32}}"
 Subspace Continuum:
-  pageId: 38464
+  pageId: 222951
   steam: 352700
 Subsurface Circular:
   cloud:
@@ -240922,6 +240937,8 @@ The Callisto Protocol:
     - "{{Game data/config|Windows|{{P|localappdata}}\\CallistoProtocol\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\CallistoProtocol\\Saved\\SaveGames}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\PUBGCorp.TheCallistoProtocolXB1_gsxfe54jwf950\\SystemAppData\\wgs\\}}"
+"The Cameron Files: Pharaoh's Curse":
+  pageId: 222946
 "The Cameron Files: The Secret at Loch Ness":
   lutris: the-cameron-files-the-secret-at-loch-ness
   pageId: 49885
@@ -247586,6 +247603,8 @@ The Legend of Viccess:
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/Zelda64Recompiled/mod_config/*.json|{{p|xdgconfighome}}/Zelda64Recompiled/*.json}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Zelda64Recompiled\\saves\\}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/Zelda64Recompiled/saves/}}"
+"The Legend of Zelda: Ocarina of Time (Hookshot)":
+  pageId: 222963
 "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)":
   pageId: 178166
   renamedFrom:
@@ -249450,6 +249469,8 @@ The Olivia Saga:
     steam: true
   pageId: 120725
   steam: 967160
+"The Omega Stone: Riddle of the Sphinx II":
+  pageId: 222948
 The Omega Syndrome:
   pageId: 167610
 The One We Found:
@@ -270623,6 +270644,8 @@ VRobot:
   pageId: 60311
   steam: 588560
 VRog:
+  cloud:
+    steam: true
   pageId: 57754
   steam: 589380
 VRporize - VR FPS:
@@ -274302,6 +274325,8 @@ Vox:
 Vox Machinae:
   pageId: 93295
   steam: 334540
+  templates:
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SpaceBulletDynamicsCorporation\\VoxMachinae\\}}"
 Vox Populi Vox Dei 2:
   cloud:
     steam: true
@@ -281157,6 +281182,7 @@ Wing Commander:
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\00000***.WSG}}"
     - "{{Game data/saves|Windows|{{p|game}}\\00000***.WSG}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\Kilrathi_Saga\\*.WSG|{{p|game}}\\DOS\\*.WSG|{{p|APPDATA}}\\wc3w_en\\*.WSG}}"
 "Wing Commander IV: The Price of Freedom":
   cloud:
     gog: true
