@@ -13335,19 +13335,21 @@ Animyst:
   steam: 871100
 "Anito: Defend a Land Enraged":
   pageId: 176338
-Ankh - Anniversary Edition:
+"Ankh Guardian - Treasure of the Demon's Temple/ゴッド・オブ・ウォール 魔宮の秘宝":
+  pageId: 140892
+  steam: 975160
+"Ankh: Anniversary Edition":
   cloud:
     gog: true
   gog: 1216103455
   lutris: ankh-anniversary-edition
   pageId: 47845
+  renamedFrom:
+    - Ankh - Anniversary Edition
   steam: 353980
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\media\\Ankh.ini|{{p|game}}\\media\\keybinds.ini}}"
     - "{{Game data/saves|Windows|{{P|game}}\\save\\|{{p|APPDATA}}\\Ankh\\save\\}}"
-"Ankh Guardian - Treasure of the Demon's Temple/ゴッド・オブ・ウォール 魔宮の秘宝":
-  pageId: 140892
-  steam: 975160
 "Ankh: Battle of the Gods":
   cloud:
     gog: true
@@ -88145,6 +88147,8 @@ Fight wisdom:
   steam: 1204330
 FightBox:
   pageId: 203682
+Fighter Pilot:
+  pageId: 222935
 Fighter Royale - Last Ace Flying:
   pageId: 134622
   steam: 803350
@@ -122253,6 +122257,8 @@ Interplay Solitaire:
   gog: 1927749465
   pageId: 62292
   steam: 630690
+Interplay Sports Baseball Edition 2000:
+  pageId: 222931
 Interpoint:
   pageId: 126098
   renamedFrom:

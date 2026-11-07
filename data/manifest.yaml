@@ -41243,6 +41243,19 @@ Animyst:
   steam:
     id: 871100
 Ankh - Anniversary Edition:
+  alias: "Ankh: Anniversary Edition"
+"Ankh Guardian - Treasure of the Demon's Temple/ゴッド・オブ・ウォール 魔宮の秘宝":
+  installDir:
+    Ankh Guardian: {}
+  launch:
+    "<base>/Ankh Guardian - Treasure of the Demon's Temple.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 975160
+"Ankh: Anniversary Edition":
   cloud:
     gog: true
   files:
@@ -41280,17 +41293,6 @@ Ankh - Anniversary Edition:
         workingDir: "<base>/bin/release"
   steam:
     id: 353980
-"Ankh Guardian - Treasure of the Demon's Temple/ゴッド・オブ・ウォール 魔宮の秘宝":
-  installDir:
-    Ankh Guardian: {}
-  launch:
-    "<base>/Ankh Guardian - Treasure of the Demon's Temple.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 975160
 "Ankh: Battle of the Gods":
   cloud:
     gog: true
@@ -507363,9 +507365,38 @@ Number Hunt:
   steam:
     id: 851770
 "Number Machine: Math Factory":
+  files:
+    "<home>/.config/unity3d/ARIELEK/Number Machine/Steam_<storeUserId>/*.sav":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/ARIELEK/Number Machine/Steam_<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.ARIELEK.Number Machine/Steam_<storeUserId>/*.sav":
+      when:
+        - os: mac
+          store: steam
   id:
     steamExtra:
       - 2243290
+  installDir:
+    Number Machine: {}
+  launch:
+    "<base>/Number Machine.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Number Machine.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/Number Machine.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 2231090
 Number World:

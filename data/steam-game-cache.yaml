@@ -615091,6 +615091,42 @@
     - executable: game.exe
       type: none
 2231090:
+  cloud:
+    saves:
+      - path: "ARIELEK/Number Machine/Steam_{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "ARIELEK/Number Machine/Steam_{64BitSteamID}"
+            replace: "com.ARIELEK.Number Machine/Steam_{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "ARIELEK/Number Machine/Steam_{64BitSteamID}"
+            replace: ".config/unity3d/ARIELEK/Number Machine/Steam_{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Number Machine
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Number Machine.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Number Machine.x86_64
+      type: default
+    - config:
+        oslist: macos
+      executable: Number Machine.app
+      type: default
   nameLocalized:
     brazilian: "Number Machine: Fábrica Matemática"
     french: "Number Machine: Usine Mathématique"
