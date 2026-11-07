@@ -487740,6 +487740,18 @@ NIMRODS:
     id: 2086430
 "NIMRODS: GunCraft Survivor":
   alias: NIMRODS
+"NIRA: Intense Import Drag Racing":
+  files:
+    "<base>/NIRA.CFG":
+      tags:
+        - config
+      when:
+        - os: dos
+    "<base>/SAVE":
+      tags:
+        - save
+      when:
+        - os: dos
 NIRO:
   id:
     lutris: nero
@@ -736563,6 +736575,8 @@ The Callisto Protocol:
   steam:
     id: 1544020
 "The Cameron Files: The Secret at Loch Ness":
+  id:
+    lutris: the-cameron-files-the-secret-at-loch-ness
   installDir:
     The Cameron Files The Secret at Loch Ness: {}
   launch:

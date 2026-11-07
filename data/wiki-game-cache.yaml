@@ -36324,6 +36324,8 @@ Burnout Paradise Remastered:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Criterion Games\\Burnout Paradise Remastered\\*.ini}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Criterion Games\\Burnout Paradise Remastered\\Save\\}}"
+"Burnout: Championship Drag Racing":
+  pageId: 222937
 "Burnouts: The Igne Mori":
   pageId: 122522
   steam: 970820
@@ -55620,6 +55622,8 @@ Cycling Manager 4:
 Cyclones Playground:
   pageId: 107850
   steam: 916260
+"Cydonia: Mars - The First Manned Mission":
+  pageId: 222941
 "Cygni: All Guns Blazing":
   cloud:
     epic: true
@@ -159808,6 +159812,11 @@ NIMRODS:
   steam: 2086430
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Fiveamp\\NIMRODS}}"
+"NIRA: Intense Import Drag Racing":
+  pageId: 212536
+  templates:
+    - "{{Game data/config|DOS|{{p|game}}\\NIRA.CFG}}"
+    - "{{Game data/saves|DOS|{{p|game}}\\SAVE}}"
 NIRO:
   lutris: nero
   pageId: 206312
@@ -240914,6 +240923,7 @@ The Callisto Protocol:
     - "{{Game data/saves|Windows|{{P|localappdata}}\\CallistoProtocol\\Saved\\SaveGames}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\PUBGCorp.TheCallistoProtocolXB1_gsxfe54jwf950\\SystemAppData\\wgs\\}}"
 "The Cameron Files: The Secret at Loch Ness":
+  lutris: the-cameron-files-the-secret-at-loch-ness
   pageId: 49885
   steam: 302170
 "The Campaign Series: Fall Weiss":
