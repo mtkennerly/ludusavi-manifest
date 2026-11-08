@@ -204835,6 +204835,7 @@ Disjunction:
   id:
     gogExtra:
       - 1515245162
+    lutris: disney-classic-games-aladdin-and-the-lion-king
     steamExtra:
       - 1636800
   installDir:
@@ -226149,6 +226150,7 @@ Dungeons & Dragons Online:
         - os: windows
           store: microsoft
   id:
+    lutris: dungeons-dragons-dark-alliance
     steamExtra:
       - 1670843
   installDir:
@@ -468799,6 +468801,13 @@ Molly - Can you survive 100 nights?:
             store: steam
   steam:
     id: 1177350
+Molokaust:
+  id:
+    lutris: molokaust
+    steamExtra:
+      - 4592180
+  steam:
+    id: 4503570
 Molten Armor:
   files:
     "<winLocalAppData>/MOLTEN_ARMOR":
@@ -499730,6 +499739,7 @@ Nighthaw-X3000:
 Nighthawks:
   cloud:
     gog: true
+    steam: true
   files:
     "<base>/saves/**/*.*":
       when:
@@ -647070,12 +647080,6 @@ Silver Pines:
       - 5153460
   installDir:
     Silver Pines: {}
-  launch:
-    "<base>/Carpenter.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 2333000
 Silver Tale:

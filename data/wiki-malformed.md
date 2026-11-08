@@ -7,6 +7,7 @@
 * [Colin McRae Rally 2.0](https://www.pcgamingwiki.com/wiki/?curid=22766)
 * [Commandos: Behind Enemy Lines](https://www.pcgamingwiki.com/wiki/?curid=561)
 * [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
+* [Demolition Racer](https://www.pcgamingwiki.com/wiki/?curid=101761)
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
 * [Football Manager 2010](https://www.pcgamingwiki.com/wiki/?curid=92556)
 * [Frostpunk 2](https://www.pcgamingwiki.com/wiki/?curid=170738)

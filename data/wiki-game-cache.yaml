@@ -62830,6 +62830,7 @@ Demolition Master 3D:
   pageId: 50454
   steam: 288710
 Demolition Racer:
+  malformed: true
   pageId: 101761
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\players\\}}"
@@ -66563,6 +66564,7 @@ Disjunction:
   gog: 1361333080
   gogSide:
     - 1515245162
+  lutris: disney-classic-games-aladdin-and-the-lion-king
   pageId: 147702
   steam: 1126190
   steamSide:
@@ -66698,6 +66700,8 @@ Disney Villains Cursed Café:
   lutris: disney-villains-cursed-cafe
   pageId: 221187
   steam: 2439220
+"Disney's Activity Center: Aladdin":
+  pageId: 222986
 "Disney's Activity Center: Toy Story":
   pageId: 221766
 "Disney's Adventures in Typing with Timon and Pumbaa":
@@ -73384,6 +73388,7 @@ Dungeons & Dragons Online:
   cloud:
     steam: true
     xbox: true
+  lutris: dungeons-dragons-dark-alliance
   pageId: 167644
   steam: 623280
   steamSide:
@@ -153352,6 +153357,12 @@ Molly - Can you survive 100 nights?:
     steam: true
   pageId: 150003
   steam: 1177350
+Molokaust:
+  lutris: molokaust
+  pageId: 222982
+  steam: 4503570
+  steamSide:
+    - 4592180
 Molten Armor:
   pageId: 68484
   steam: 693670
@@ -163776,6 +163787,7 @@ Nighthaw-X3000:
 Nighthawks:
   cloud:
     gog: true
+    steam: true
   gog: 1732837498
   pageId: 161007
   steam: 1221950
@@ -179400,6 +179412,8 @@ Pixross:
 Pixvault:
   pageId: 130098
   steam: 1043730
+Pizza Commander:
+  pageId: 222984
 Pizza Connection 3:
   cloud:
     gog: true
@@ -225979,6 +225993,10 @@ Steel Ocean:
     - 398310
     - 430120
     - 460240
+Steel Panthers:
+  pageId: 222990
+"Steel Panthers II: Modern Battles":
+  pageId: 222988
 "Steel Panthers III: Brigade Command":
   pageId: 23518
 Steel Punk Ball:

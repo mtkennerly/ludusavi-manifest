@@ -619932,18 +619932,20 @@
         root: WinAppDataLocalLow
   installDir: Silver Pines
   launch:
-    - config:
-        osarch: "64"
-        oslist: windows
-      executable: Carpenter.exe
-      type: default
     - arguments: "-force-d3d11"
       config:
         osarch: "64"
         oslist: windows
-      description: Silver Pines (DirectX 11)
+      description: Silver Pines - DirectX 11 (Recommended)
       executable: Carpenter.exe
       type: option1
+    - arguments: "-force-d3d12"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: Silver Pines - DirectX 12
+      executable: Carpenter.exe
+      type: option2
   nameLocalized:
     schinese: 银松镇
 2333240:
@@ -665371,6 +665373,7 @@
   installDir: The 7th Guest Remake
   launch:
     - executable: The7thGuestVR.exe
+4503570: {}
 4504840:
   nameLocalized:
     german: Geheimakte Tunguska - Remastered
