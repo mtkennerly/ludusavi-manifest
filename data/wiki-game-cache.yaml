@@ -83272,8 +83272,8 @@ F.E.A.R.:
   steamSide:
     - 21110
   templates:
-    - "{{Game data/config|Windows|{{p|public}}\\Documents\\Monolith Productions\\FEAR\\settings.cfg|{{p|public}}\\Documents\\TimeGate Studios\\FEARXP\\settings.cfg|{{p|public}}\\Documents\\TimeGate Studios\\FEARXP2\\settings.cfg}}"
-    - "{{Game data/saves|Windows|{{p|public}}\\Documents\\Monolith Productions\\FEAR\\Save\\Profile000\\SinglePlayer|{{p|public}}\\Documents\\TimeGate Studios\\FEARXP\\Save\\Profile000\\SinglePlayer|{{p|public}}\\Documents\\TimeGate Studios\\FEARXP2\\Save\\Profile000\\SinglePlayer}}"
+    - "{{Game data/config|Windows|{{p|public}}\\Documents\\Monolith Productions\\FEAR\\settings.cfg{{note|note=Base game|name=bg}}|{{p|public}}\\Documents\\TimeGate Studios\\FEARXP\\settings.cfg{{note|note='''Extraction Point'''|name=ep}}|{{p|public}}\\Documents\\TimeGate Studios\\FEARXP2\\settings.cfg{{note|note='''Perseus Mandate'''|name=pm}}}}"
+    - "{{Game data/saves|Windows|{{p|public}}\\Documents\\Monolith Productions\\FEAR\\Save\\Profile000\\SinglePlayer{{note|name=bg}}|{{p|public}}\\Documents\\TimeGate Studios\\FEARXP\\Save\\Profile000\\SinglePlayer{{note|name=ep}}|{{p|public}}\\Documents\\TimeGate Studios\\FEARXP2\\Save\\Profile000\\SinglePlayer{{note|name=pm}}}}"
 "F.E.A.R. 2: Project Origin":
   gog: 1425479123
   lutris: fear-2-project-origin
@@ -98617,6 +98617,14 @@ Genome Guardian:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Alpherior\\Genome Guardian\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Alpherior\\Genome Guardian\\}}"
+Genotype:
+  pageId: 222969
+  steam: 2667980
+  steamSide:
+    - 3023920
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\BolverkGames\\GenotypeGame\\GameSettings.data}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\BolverkGames\\GenotypeGame\\0\\ |\n{{P|userprofile\\appdata\\locallow}}\\BolverkGames\\GenotypeGame\\1\\ |\n{{P|userprofile\\appdata\\locallow}}\\BolverkGames\\GenotypeGame\\2\\ |\n{{P|userprofile\\appdata\\locallow}}\\BolverkGames\\GenotypeGame\\3\\ |\n{{P|userprofile\\appdata\\locallow}}\\BolverkGames\\GenotypeGame\\4\\}}"
 Genshin Impact:
   pageId: 163267
   templates:
@@ -112845,6 +112853,8 @@ High Clear VR:
 High Fidelity:
   pageId: 71074
   steam: 390540
+High Heat Baseball 2000:
+  pageId: 222972
 High Heat Major League Baseball 2002:
   pageId: 222954
 High Heat Major League Baseball 2003:
@@ -183927,6 +183937,8 @@ Probably Stolen:
     steam: true
   pageId: 221995
   steam: 4348910
+  templates:
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\Questing Goose Studio\\Probably Stolen}}"
 Problematic Subjects:
   pageId: 210719
 Procyon:
@@ -197349,6 +197361,7 @@ Road Rage Royale:
 Road Rash:
   cloud:
     gog: true
+    origin: true
     steam: true
   gog: 2141922451
   pageId: 6462
@@ -223061,6 +223074,9 @@ Star Fox 64 (Starship):
   templates:
     - "{{Game data/config|Windows|In-game settings:<br>{{p|game}}\\default.sav<br>Decomp settings:<br>{{p|game}}\\starship.cfg.json}}"
     - "{{Game data/saves|Windows|{{p|game}}\\default.sav}}"
+Star Fox Adventures:
+  lutris: star-fox-adventures
+  pageId: 222975
 Star Garden:
   pageId: 209195
   steam: 3370970
@@ -270200,6 +270216,10 @@ VR Audio Visualizer:
 VR Baseball:
   pageId: 43805
   steam: 458370
+VR Baseball 2000:
+  pageId: 222979
+"VR Baseball: Hardware Accelerated":
+  pageId: 222977
 VR Batting:
   pageId: 59601
   steam: 606850

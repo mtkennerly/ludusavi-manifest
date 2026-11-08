@@ -634009,6 +634009,13 @@
       executable: GloomyEyes.app/Contents/MacOS/GloomyEyes
   nameLocalized:
     japanese: グルーミーの瞳(Gloomy Eyes)
+2667980:
+  installDir: Genotype
+  launch:
+    - config:
+        oslist: windows
+      executable: Genotype.exe
+      type: vr
 2668080:
   installDir: SNOWBREAK
   launch:
@@ -664610,6 +664617,7 @@
   nameLocalized:
     russian: Probably Stolen – симулятор магазина в киберпанке
     schinese: 深空当铺：可能是偷的
+    tchinese: 深空當鋪：可能是偷的 Probably Stolen
 4350360:
   cloud:
     saves:
