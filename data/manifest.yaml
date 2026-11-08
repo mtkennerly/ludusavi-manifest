@@ -135831,6 +135831,9 @@ Chrono Project:
             store: steam
   steam:
     id: 893810
+Chrono Punk:
+  steam:
+    id: 5081550
 Chrono Trigger:
   cloud:
     steam: true
@@ -300551,12 +300554,6 @@ Gears of War 4:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/FairlightConcept/Saved/Config/WinGDK":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: microsoft
     "<winLocalAppData>/Microsoft/Gears of War E-Day/Saves":
       tags:
         - config
@@ -300569,6 +300566,12 @@ Gears of War 4:
       when:
         - os: windows
           store: steam
+    "<winLocalAppData>/Microsoft/Gears of War E-Day/WinGDK/<storeUserId>/Saved/Config/WinGDK":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/Packages/Microsoft.Fairlightbasegame_8wekyb3d8bbwe/SystemAppData/wgs":
       tags:
         - config
@@ -366551,6 +366554,8 @@ Imperial Glory:
 Imperialism:
   gog:
     id: 1207659139
+  id:
+    lutris: imperialism
 "Imperialism II: The Age of Exploration":
   gog:
     id: 1207659153
@@ -387847,6 +387852,7 @@ Jurassic World Evolution 2:
       when:
         - os: windows
   id:
+    lutris: jurassic-world-evolution-2
     steamExtra:
       - 1336321
       - 1336322
@@ -387873,6 +387879,7 @@ Jurassic World Evolution 3:
       when:
         - os: windows
   id:
+    lutris: jurassic-world-evolution-3
     steamExtra:
       - 3651190
       - 3651200
@@ -870145,6 +870152,16 @@ You Are Empty:
   cloud:
     steam: true
   files:
+    "<winAppData>/YaE_Absolute/config_*":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/YaE_Absolute/savegames/Save*":
+      tags:
+        - save
+      when:
+        - os: windows
     "<winDocuments>/My Games/YaE":
       tags:
         - config
@@ -870339,6 +870356,8 @@ You Died but a Necromancer revived you:
   steam:
     id: 1107040
 "You Don't Know Jack":
+  id:
+    lutris: you-dont-know-jack-vol-1-xl
   installDir:
     YDKJ_VOL1XL: {}
   launch:

@@ -661995,28 +661995,28 @@
 3962020:
   installDir: EXD
   launch:
-    - config:
-        osarch: "64"
-        oslist: windows
-      description: Launch in SteamVR
-      executable: EXD.exe
-      type: vr
-    - arguments: "-dx11 -hmd=SteamVR"
-      config:
-        betakey: closed-beta
-        osarch: "64"
-        oslist: windows
-      description: Play with SteamVR (DirectX 11)
-      executable: EXD.exe
-      type: vr
     - arguments: "-dx11 -hmd=OpenXRHMD -EXDOpenXROnly -DisablePlugins=OculusOpenXR"
       config:
-        betakey: closed-beta
         osarch: "64"
         oslist: windows
-      description: Play with OpenXR (DirectX 11)
+      description: OpenXR (DirectX 11)
       executable: EXD.exe
       type: openxr
+    - arguments: "-dx11 -hmd=SteamVR"
+      config:
+        betakey: disabled-steamvr-20261103
+        osarch: "64"
+        oslist: windows
+      description: SteamVR (DirectX 11)
+      executable: EXD.exe
+      type: vr
+    - arguments: "-dx11 -vr -hmd=SteamVR"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: SteamVR (DirectX 11)
+      executable: EXD.exe
+      type: vr
 3965750:
   nameLocalized:
     japanese: DEBUG NEPHEMEE -デバッグネフェミー-
@@ -666606,6 +666606,7 @@
       executable: StarCalibur.exe
   nameLocalized:
     russian: Звёздный меч
+5081550: {}
 5089020: {}
 5093680: {}
 5095280:

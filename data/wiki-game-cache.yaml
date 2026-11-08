@@ -10218,6 +10218,8 @@ Alien Syndrome:
 Alien Tequila:
   lutris: alien-tequila
   pageId: 201071
+Alien Terminator:
+  pageId: 222996
 Alien Trilogy:
   pageId: 61902
   templates:
@@ -44096,6 +44098,9 @@ Chrono Odyssey:
 Chrono Project:
   pageId: 105705
   steam: 893810
+Chrono Punk:
+  pageId: 223003
+  steam: 5081550
 Chrono Trigger:
   cloud:
     steam: true
@@ -98091,7 +98096,7 @@ Gears of War 4:
     - 4637200
     - 5028560
   templates:
-    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\FairlightConcept\\Saved\\Config\\WinGDK}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Microsoft\\Gears of War E-Day\\WinGDK\\{{P|uid}}\\Saved\\Config\\WinGDK}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\Microsoft\\Gears of War E-Day\\Steam\\{{P|uid}}\\Saved\\Config\\Windows\\}}"
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.Fairlightbasegame_8wekyb3d8bbwe\\SystemAppData\\wgs}}"
     - "{{Game data/config|Steam|{{P|localappdata}}\\Microsoft\\Gears of War E-Day\\Saves\\}}"
@@ -119692,6 +119697,7 @@ Imperial Glory:
     - "{{Game data/config|Windows|{{P|game}}\\config.sb}}"
 Imperialism:
   gog: 1207659139
+  lutris: imperialism
   pageId: 131785
 "Imperialism II: The Age of Exploration":
   gog: 1207659153
@@ -121714,6 +121720,8 @@ Innova Disc Golf:
 Ino:
   pageId: 58527
   steam: 398140
+Inordinate Desire:
+  pageId: 222998
 "Inori's House":
   pageId: 136767
   steam: 1073370
@@ -126656,6 +126664,7 @@ Jurassic World Evolution 2:
     epic: true
     steam: true
     xbox: true
+  lutris: jurassic-world-evolution-2
   pageId: 169177
   steam: 1244460
   steamSide:
@@ -126671,6 +126680,7 @@ Jurassic World Evolution 3:
   cloud:
     steam: true
     xbox: true
+  lutris: jurassic-world-evolution-3
   pageId: 209941
   steam: 2958130
   steamSide:
@@ -225999,6 +226009,8 @@ Steel Panthers:
   pageId: 222988
 "Steel Panthers III: Brigade Command":
   pageId: 23518
+"Steel Panthers: World at War":
+  pageId: 222991
 Steel Punk Ball:
   pageId: 66582
   steam: 679510
@@ -286284,8 +286296,8 @@ You Are Empty:
   pageId: 6712
   steam: 4760480
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE<ref>Original 2006 release.</ref>|{{p|userprofile\\Documents}}\\My Games\\YaE_Absolute\\config_*<ref>Absolute Edition. Folder names are set in <code>ds2base.cfg</code> in the installation folder. <code>config_engine</code> holds <code>ds2engine.cfg</code> (resolution, refresh rate, fullscreen, renderer) and <code>load_processor.cfg</code>; <code>config_user</code> holds <code>startup_autorun.cmd</code> (key bindings). Default copies of both folders ship in the installation folder and are used when the user copies are missing. Verified on the Steam version, October 29, 2026.</ref>}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE\\savegames<ref>Original 2006 release.</ref>|{{p|userprofile\\Documents}}\\My Games\\YaE_Absolute\\savegames\\Save*<ref>Absolute Edition. Each slot is <code>SaveN.ds2gsf</code> (game state), <code>SaveN.ds2gsf_description</code> (slot name, level, date, difficulty) and <code>SaveN.tga</code> (thumbnail); autosaves use the same slots. Verified on the Steam version, October 29, 2026.</ref>}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE<ref>Original 2006 release.</ref>|{{p|appdata}}\\YaE_Absolute\\config_*<ref>Absolute Edition, Hot Fix #4 (November 3, 2026) and later. Folder names are set in <code>ds2base.cfg</code> in the installation folder. <code>config_engine</code> holds <code>ds2engine.cfg</code> (resolution, refresh rate, fullscreen, renderer); <code>config_user</code> holds <code>startup_autorun.cmd</code> (key bindings and user settings). Default copies of both folders ship in the installation folder and are used when the user copies are missing. Steam's cloud rule names the folder <code>Yae_Absolute</code>, and that spelling appeared on disk. Verified on the Steam version, November 4, 2026.</ref>|{{p|userprofile\\Documents}}\\My Games\\YaE_Absolute\\config_*<ref>Absolute Edition before Hot Fix #4. The updated <code>ds2base.cfg</code> no longer reads settings from here, and they are not carried over to the new folder. Verified on the Steam version, November 4, 2026.</ref>}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\YaE\\savegames<ref>Original 2006 release.</ref>|{{p|appdata}}\\YaE_Absolute\\savegames\\Save*<ref>Absolute Edition, Hot Fix #4 (November 3, 2026) and later. New saves are written here. Each slot is <code>SaveN.ds2gsf</code> (game state), <code>SaveN.ds2gsf_description</code> (slot name, level, date, difficulty) and <code>SaveN.tga</code> (thumbnail); autosaves use the same slots. Verified on the Steam version, November 4, 2026.</ref>|{{p|userprofile\\Documents}}\\My Games\\YaE_Absolute\\savegames\\Save*<ref>Absolute Edition before Hot Fix #4. Existing saves stay here and remain loadable in the game, but are not copied to the new folder; a save loaded from here and saved again is written to the new folder. Same file layout. Verified on the Steam version, November 4, 2026.</ref>}}"
 You Are God:
   pageId: 58176
   steam: 596280
@@ -286335,6 +286347,7 @@ You Died but a Necromancer revived you:
   pageId: 141564
   steam: 1107040
 "You Don't Know Jack":
+  lutris: you-dont-know-jack-vol-1-xl
   pageId: 40534
   steam: 252730
 "You Don't Know Jack Movies":
