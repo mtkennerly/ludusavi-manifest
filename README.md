@@ -5,13 +5,14 @@ Although this project was started for use by [Ludusavi](https://github.com/mtken
 the goal is for the manifest format to be generic enough for any game backup tool to implement,
 while leaving room for new fields and functionality over time.
 
-This repository contains the [primary manifest](data/manifest.yaml),
+This repository contains the primary manifest
+(on both the `data` and `master` branches, but the `master` copy will stop being updated eventually),
 which is compiled from data on [PCGamingWiki](https://www.pcgamingwiki.com/wiki/Home),
 along with accessing the Steam API for game installation directory names.
 If you find any data that is missing or incorrect, please contribute to the wiki,
 and such changes will be incorporated into the primary manifest periodically.
-There is also a list of [games without any info on what to back up](data/missing.md),
-as well as [articles with wikitext that failed to parse](data/wiki-malformed.md).
+There is also a list of [games without any info on what to back up](https://github.com/mtkennerly/ludusavi-manifest/blob/data/data/missing.md),
+as well as [articles with wikitext that failed to parse](https://github.com/mtkennerly/ludusavi-manifest/blob/data/data/wiki-malformed.md).
 
 Game developers may include a secondary manifest (named `.ludusavi.yaml`) with their games,
 so that backup tools can automatically detect and use it
@@ -120,7 +121,7 @@ For authors of secondary manifests bundled with games:
   and use `<base>/../parent` instead of `../parent`.
 
 The latest version of the primary manifest can be downloaded from
-https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml .
+https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/refs/heads/data/data/manifest.yaml .
 To check for updates:
 
 * Store the value of the `ETag` header for the last downloaded version.
