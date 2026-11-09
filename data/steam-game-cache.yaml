@@ -181924,6 +181924,10 @@
         oslist: windows
       executable: Four Last Things.exe
       type: default
+    - config:
+        oslist: macos
+      executable: Four Last Things.app
+      type: default
 503410:
   installDir: Zombie Camp
   launch:
@@ -665979,6 +665983,14 @@
     - config:
         oslist: macos
       executable: Beyond Dark Castle.app
+      type: default
+4706340:
+  installDir: Bubbly
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Bubbly.exe
       type: default
 4712350:
   cloud:

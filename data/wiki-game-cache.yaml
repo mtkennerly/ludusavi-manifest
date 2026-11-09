@@ -13404,6 +13404,7 @@ Anna - Extended Edition:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Dreampainters/AnnaEE/}}"
 "Anna's Quest":
   cloud:
+    epic: true
     steam: true
   gog: 1434460532
   lutris: annas-quest
@@ -35337,6 +35338,9 @@ Bubbles the Cat:
 Bubblien Pop:
   pageId: 78579
   steam: 764870
+Bubbly:
+  pageId: 223005
+  steam: 4706340
 Bubli:
   pageId: 123546
   steam: 815100
@@ -35995,9 +35999,6 @@ Bunka no Kenkyu - Revival of Queen Leyak -:
 Bunker - Nightmare Begins:
   pageId: 132550
   steam: 1053740
-Bunker - The Underground Game:
-  pageId: 47837
-  steam: 354180
 Bunker 56:
   pageId: 155879
   steam: 1126060
@@ -36016,6 +36017,11 @@ Bunker Rush:
 Bunker Tidy Up:
   pageId: 221021
   steam: 5212940
+"Bunker: The Underground Game":
+  pageId: 47837
+  renamedFrom:
+    - Bunker - The Underground Game
+  steam: 354180
 Bunny & Piggy:
   pageId: 54082
   steam: 549810
@@ -138931,6 +138937,8 @@ Lollypop:
   gog: 1553649691
   pageId: 184306
   steam: 2117440
+Lombard RAC Rally:
+  pageId: 223014
 Lonath Online:
   pageId: 46020
   steam: 407700
@@ -145356,6 +145364,9 @@ Marble Blast Gold:
     - "{{Game data/saves|Windows|{{p|game}}\\marble\\client\\prefs.cs}}"
 Marble Blast Ultra:
   pageId: 199428
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\GarageGames\\Marble Blast Ultra\\prefs.cs}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\GarageGames\\Marble Blast Ultra\\achievements.cs|{{p|appdata}}\\GarageGames\\Marble Blast Ultra\\scores.cs}}"
 Marble Combat:
   pageId: 125791
   steam: 949000
@@ -280613,6 +280624,8 @@ Wild West and Wizards:
 Wild Wet West:
   pageId: 179037
   steam: 1581700
+Wild Wheels:
+  pageId: 223011
 "Wild Wild West: The Steel Assassin":
   pageId: 208781
 Wild Wolf:
@@ -286356,9 +286369,13 @@ You Died but a Necromancer revived you:
 "You Don't Know Jack Sports":
   pageId: 40544
   steam: 260020
+"You Don't Know Jack: 5th Dementia":
+  pageId: 223015
 "You Don't Know Jack: Head Rush":
   pageId: 40528
   steam: 260060
+"You Don't Know Jack: Louder! Faster! Funnier!":
+  pageId: 223018
 "You Don't Know Jack: Television":
   pageId: 40542
   steam: 260040

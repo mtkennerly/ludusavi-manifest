@@ -41476,6 +41476,7 @@ Anna - Extended Edition:
     id: 217690
 "Anna's Quest":
   cloud:
+    epic: true
     steam: true
   files:
     "<winLocalAppData>/Daedalic Entertainment GmbH/Anna's Quest/Savegames":
@@ -108355,6 +108356,17 @@ Bubblien Pop:
             store: steam
   steam:
     id: 764870
+Bubbly:
+  installDir:
+    Bubbly: {}
+  launch:
+    "<base>/Bubbly.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4706340
 Bubli:
   installDir:
     Bubli: {}
@@ -110403,14 +110415,7 @@ Bunker - Nightmare Begins:
   steam:
     id: 1053740
 Bunker - The Underground Game:
-  installDir:
-    Bunker: {}
-  launch:
-    "<base>/Bunker.exe":
-      - when:
-          - store: steam
-  steam:
-    id: 354180
+  alias: "Bunker: The Underground Game"
 Bunker 56:
   installDir:
     Bunker: {}
@@ -110488,6 +110493,15 @@ Bunker Tidy Up:
           - store: steam
   steam:
     id: 5212940
+"Bunker: The Underground Game":
+  installDir:
+    Bunker: {}
+  launch:
+    "<base>/Bunker.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 354180
 Bunny & Piggy:
   steam:
     id: 549810
@@ -285500,6 +285514,10 @@ Four Last Things:
   installDir:
     Four Last Things: {}
   launch:
+    "<base>/Four Last Things.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Four Last Things.exe":
       - when:
           - os: windows
@@ -444607,6 +444625,23 @@ Marble Blast Gold:
       when:
         - os: windows
     "<base>/marble/client/prefs.cs":
+      tags:
+        - save
+      when:
+        - os: windows
+Marble Blast Ultra:
+  files:
+    "<winAppData>/GarageGames/Marble Blast Ultra/achievements.cs":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/GarageGames/Marble Blast Ultra/prefs.cs":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/GarageGames/Marble Blast Ultra/scores.cs":
       tags:
         - save
       when:
@@ -726286,6 +726321,10 @@ Telling Lies:
         - config
   steam:
     id: 762830
+Telltale Batman Season 1:
+  alias: "Batman: The Telltale Series"
+Telltale Batman Season 2:
+  alias: "Batman: The Enemy Within - The Telltale Series"
 "Telltale Texas Hold 'Em":
   files:
     "<base>/prefs.prop":
