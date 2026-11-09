@@ -31,3 +31,14 @@ jobs:
         with:
           commit_message: Import recent changes from PCGamingWiki
           commit_author: GitHub Actions <actions@github.com>
+      - name: Update data branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout --orphan data-temp
+          git reset
+          git add data/manifest.yaml data/missing.md data/steam-game-cache.yaml data/wiki-game-cache.yaml data/wiki-malformed.md
+
+          git commit -m 'Update data files'
+          git push origin data-temp:data --force
