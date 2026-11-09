@@ -41869,6 +41869,8 @@ Champions of Titan:
   steam: 853230
 Championsheep Rally:
   pageId: 60436
+Championship Bass:
+  pageId: 223024
 Championship Lode Runner:
   pageId: 76487
   templates:
@@ -85556,6 +85558,7 @@ Fantasy General II:
     gog: true
     steam: true
   gog: 1090255211
+  lutris: fantasy-general-ii
   pageId: 133346
   steam: 1025440
   steamSide:
@@ -88808,7 +88811,9 @@ Final Fantasy XIII-2:
   steam: 292140
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\setup.xml}}"
+    - "{{Game data/config|Microsoft Store|{{p|userprofile\\Documents}}\\Square Enix\\FFXIII-2\\MS\\config.json}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\SquareEnix\\FinalFantasyXIII-2\\save\\}}"
+    - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\39EA002F.FFXIII-2_n746a19ndrrjg\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\292140\\remote\\}}"
 Final Fantasy XIV Online (2010):
   pageId: 181519
@@ -89451,6 +89456,8 @@ Firestone Idle RPG:
     - "{{Game data/saves|Windows|Stored on the developer's servers.}}"
     - "{{Game data/saves|OS X|Stored on the developer's servers.}}"
     - "{{Game data/saves|Linux|Stored on the developer's servers.}}"
+"Firestorm: Thunderhawk 2":
+  pageId: 223040
 "Firewall: Man vs. Machine":
   pageId: 222161
 Firewatch:
@@ -146981,6 +146988,8 @@ Matris:
 Matryoshka Strike:
   pageId: 70222
   steam: 675960
+"Matt Hayes' Fishing":
+  pageId: 223026
 Matter:
   pageId: 123798
   steam: 978250
@@ -147123,6 +147132,8 @@ Maximum Momentum:
 Maximum Override:
   pageId: 44838
   steam: 389220
+Maximum Pool:
+  pageId: 223030
 Maximum Roadkill:
   pageId: 214955
 Maximum Thunderness:
@@ -159128,6 +159139,11 @@ N.I.C.E. 2:
   steam: 853330
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\SYNETIC\\HAND\\V2}}"
+N.O.M.A.D:
+  cloud:
+    steam: true
+  pageId: 223042
+  steam: 2213260
 "N.O.V.A. 2: Near Orbit Vanguard Alliance":
   pageId: 199809
   templates:
@@ -174049,6 +174065,7 @@ Panzer General 3D Assault:
   cloud:
     gog: true
   gog: 1207658866
+  lutris: panzer-general-3d-assault
   pageId: 131869
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Saves}}"
@@ -174056,6 +174073,7 @@ Panzer General II:
   cloud:
     gog: true
   gog: 1207658871
+  lutris: panzer-general-2
   pageId: 3198
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\SAVE}}"
@@ -176321,6 +176339,7 @@ People of Note:
   cloud:
     gog: true
   gog: 1356099797
+  lutris: peoples-general
   pageId: 177401
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\PEOPLES.INT}}"
@@ -200331,6 +200350,8 @@ Rugrats Munchin Land:
     - "{{Game data/saves|Windows|{{p|game}}\\}}"
 "Rugrats: All Growed Up":
   pageId: 209724
+"Rugrats: Mystery Adventures":
+  pageId: 223038
 "Rugrats: Retro Rewind Collection":
   cloud:
     steam: true
@@ -209457,6 +209478,8 @@ Shelldiver:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Shelldiver\\save\\Settings.json}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Shelldiver\\save\\Game.json}}"
+"Shelley Duvall's It's a Bird's Life":
+  pageId: 223035
 Shellshock:
   pageId: 210467
 "Shellshock 2: Blood Trails":
@@ -279477,6 +279500,8 @@ What the Buck?!:
   steam: 4832970
   steamSide:
     - 5006340
+    - 5155800
+    - 5155820
 What the Car?:
   cloud:
     steam: true
@@ -286363,6 +286388,9 @@ You Died but a Necromancer revived you:
   lutris: you-dont-know-jack-vol-1-xl
   pageId: 40534
   steam: 252730
+"You Don't Know Jack (2011)":
+  pageId: 223033
+  steam: 99200
 "You Don't Know Jack Movies":
   pageId: 40546
   steam: 260000
@@ -286383,6 +286411,7 @@ You Died but a Necromancer revived you:
   pageId: 40536
   steam: 259940
 "You Don't Know Jack: Volume 3":
+  lutris: you-dont-know-jack-vol-3
   pageId: 40538
   steam: 259960
 "You Don't Know Jack: Volume 4 - The Ride":

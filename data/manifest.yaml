@@ -262415,6 +262415,7 @@ Fantasy General II:
   gog:
     id: 1090255211
   id:
+    lutris: fantasy-general-ii
     steamExtra:
       - 1193870
       - 1193871
@@ -271691,6 +271692,18 @@ Final Fantasy XIII-2:
         - save
       when:
         - store: steam
+    "<winDocuments>/Square Enix/FFXIII-2/MS/config.json":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
+    "<winLocalAppData>/Packages/39EA002F.FFXIII-2_n746a19ndrrjg/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/SquareEnix/FinalFantasyXIII-2/save":
       tags:
         - save
@@ -363263,12 +363276,12 @@ IRON GUARD VR:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Xlab Digital/**/*.json":
+    "<home>/AppData/LocalLow/Xlab Digital/IronGuard/save.igsv":
       when:
         - os: windows
           store: steam
   installDir:
-    IRON GUARD VR: {}
+    IRON GUARD: {}
   steam:
     id: 1213220
 IRacing:
@@ -486132,6 +486145,17 @@ N.I.C.E. 2:
         - config
   steam:
     id: 853330
+N.O.M.A.D:
+  cloud:
+    steam: true
+  installDir:
+    NOMAD: {}
+  launch:
+    "<base>/game.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2213260
 N.P.P.D. RUSH - The Milk of Ultraviolet:
   installDir:
     NPPD Rush: {}
@@ -530463,6 +530487,8 @@ Panzer General 3D Assault:
         - os: windows
   gog:
     id: 1207658866
+  id:
+    lutris: panzer-general-3d-assault
 Panzer General II:
   cloud:
     gog: true
@@ -530474,6 +530500,8 @@ Panzer General II:
         - os: windows
   gog:
     id: 1207658871
+  id:
+    lutris: panzer-general-2
 Panzer Hearts:
   files:
     "<base>/PanzerHearts.app/Contents/Resources/autorun/game/saves":
@@ -537171,6 +537199,8 @@ People of Note:
         - os: windows
   gog:
     id: 1356099797
+  id:
+    lutris: peoples-general
 PeoplePackages:
   installDir:
     PeoplePackages: {}
@@ -849719,6 +849749,8 @@ What the Buck?!:
   id:
     steamExtra:
       - 5006340
+      - 5155800
+      - 5155820
   steam:
     id: 4832970
 What the Car?:
@@ -870407,6 +870439,16 @@ You Died but a Necromancer revived you:
             store: steam
   steam:
     id: 252730
+"You Don't Know Jack (2011)":
+  installDir:
+    "You Don't Know Jack": {}
+  launch:
+    "<base>/bin/win/JackGame.exe":
+      - when:
+          - store: steam
+        workingDir: "<base>/bin/win"
+  steam:
+    id: 99200
 "You Don't Know Jack Movies":
   installDir:
     YDKJ_MOVIES: {}
@@ -870463,6 +870505,8 @@ You Died but a Necromancer revived you:
   steam:
     id: 259940
 "You Don't Know Jack: Volume 3":
+  id:
+    lutris: you-dont-know-jack-vol-3
   installDir:
     YDKJ_VOL3: {}
   launch:

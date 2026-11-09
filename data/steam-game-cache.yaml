@@ -14698,6 +14698,11 @@
       description: Configure Yars Revenge
       executable: "win32\\launch.bat"
       workingdir: win32
+99200:
+  installDir: "You Don't Know Jack"
+  launch:
+    - executable: "bin\\win\\JackGame.exe"
+      workingdir: "bin\\win"
 99300:
   installDir: Renegade Ops
   launch:
@@ -530604,13 +530609,12 @@
 1213220:
   cloud:
     saves:
-      - path: Xlab Digital
-        pattern: "*.json"
+      - path: Xlab Digital/IronGuard
+        pattern: save.igsv
         platforms:
           - Windows
-        recursive: true
         root: WinAppDataLocalLow
-  installDir: IRON GUARD VR
+  installDir: IRON GUARD
   launch:
     - config:
         oslist: windows
@@ -613760,6 +613764,11 @@
     latam: DEATH NOTE Asesino Interior
     schinese: DEATH NOTE 暗影任务
     tchinese: DEATH NOTE 暗影任務
+2213260:
+  installDir: NOMAD
+  launch:
+    - executable: game.exe
+      type: none
 2213300:
   installDir: Might & Magic Clash of Heroes - Definitive Edition
   launch:
@@ -664103,15 +664112,28 @@
       config:
         betakey: development
         oslist: windows
-      description: Pratfall using Vulkan (with console)
+      description: Pratfall using Vulkan (with console) | DEV
       executable: Pratfall.console.exe
       type: option3
     - arguments: "--steam --rendering-driver d3d12"
       config:
         betakey: development
         oslist: windows
-      description: Pratfall using DirectX 12 (with console)
+      description: Pratfall using DirectX 12 (with console) | DEV
       executable: Pratfall.console.exe
+      type: option3
+    - arguments: "--steam --rendering-driver vulkan --rendering-method mobile"
+      config:
+        betakey: development
+        oslist: windows
+      description: using Vulkan (Mobile Renderer) | DEV
+      executable: Pratfall.exe
+      type: option3
+    - arguments: "--steam --rendering-driver opengl3"
+      config:
+        oslist: windows
+      description: using OpenGL
+      executable: Pratfall.exe
       type: option3
     - arguments: "--steam --rendering-driver d3d12"
       config:
@@ -664119,16 +664141,10 @@
       description: using DirectX 12 (Intel Arc)
       executable: GameLauncher.exe
       type: option3
-    - arguments: "--steam --rendering-driver vulkan"
-      config:
-        betakey: development_release
-        oslist: windows
-      description: Pratfall using Vulkan (with console)
-      executable: Pratfall.console.exe
-      type: option3
   nameLocalized:
     koreana: 프랫폴
     schinese: 掘地求狗
+    tchinese: 掘地求狗
 4244770: {}
 4244910: {}
 4245560:
