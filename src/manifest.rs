@@ -200,65 +200,11 @@ impl Manifest {
 
             let mut game = Game::default();
             game.integrate_overrides(overridden);
-            if let Some(alias) = &overridden.game.alias {
-                game.alias = Some(alias.clone());
-            }
 
             self.0.insert(title.to_string(), game);
         }
 
         Ok(())
-    }
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn refresh_creates_entry_for_override_only_title() {
-        let mut overrides = ManifestOverride::default();
-        overrides.0.insert(
-            "Telltale Batman Season 1".to_string(),
-            OverrideGame {
-                game: Game {
-                    alias: Some("Batman: The Telltale Series".to_string()),
-                    ..Default::default()
-                },
-                ..Default::default()
-            },
-        );
-
-        let mut manifest = Manifest::default();
-        manifest
-            .refresh(&overrides, &WikiCache::default(), &SteamCache::default())
-            .unwrap();
-
-        let game = manifest.0.get("Telltale Batman Season 1").unwrap();
-        assert_eq!(game.alias.as_deref(), Some("Batman: The Telltale Series"));
-    }
-
-    #[test]
-    fn refresh_skips_omitted_override_only_title() {
-        let mut overrides = ManifestOverride::default();
-        overrides.0.insert(
-            "Telltale Batman Season 1".to_string(),
-            OverrideGame {
-                omit: true,
-                game: Game {
-                    alias: Some("Batman: The Telltale Series".to_string()),
-                    ..Default::default()
-                },
-                ..Default::default()
-            },
-        );
-
-        let mut manifest = Manifest::default();
-        manifest
-            .refresh(&overrides, &WikiCache::default(), &SteamCache::default())
-            .unwrap();
-
-        assert!(!manifest.0.contains_key("Telltale Batman Season 1"));
     }
 }
 
@@ -524,6 +470,14 @@ impl Game {
     }
 
     pub fn integrate_overrides(&mut self, overridden: &OverrideGame) {
+        if let Some(alias) = &overridden.game.alias {
+            *self = Self {
+                alias: Some(alias.clone()),
+                ..Default::default()
+            };
+            return;
+        }
+
         if let Some(id) = overridden.game.steam.id {
             self.steam.id = Some(id);
         }
@@ -719,4 +673,55 @@ pub struct OverrideGame {
 
 impl ResourceFile for ManifestOverride {
     const FILE_NAME: &'static str = "data/manifest-override.yaml";
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn refresh_creates_entry_for_override_only_title() {
+        let mut overrides = ManifestOverride::default();
+        overrides.0.insert(
+            "Telltale Batman Season 1".to_string(),
+            OverrideGame {
+                game: Game {
+                    alias: Some("Batman: The Telltale Series".to_string()),
+                    ..Default::default()
+                },
+                ..Default::default()
+            },
+        );
+
+        let mut manifest = Manifest::default();
+        manifest
+            .refresh(&overrides, &WikiCache::default(), &SteamCache::default())
+            .unwrap();
+
+        let game = manifest.0.get("Telltale Batman Season 1").unwrap();
+        assert_eq!(game.alias.as_deref(), Some("Batman: The Telltale Series"));
+    }
+
+    #[test]
+    fn refresh_skips_omitted_override_only_title() {
+        let mut overrides = ManifestOverride::default();
+        overrides.0.insert(
+            "Telltale Batman Season 1".to_string(),
+            OverrideGame {
+                omit: true,
+                game: Game {
+                    alias: Some("Batman: The Telltale Series".to_string()),
+                    ..Default::default()
+                },
+                ..Default::default()
+            },
+        );
+
+        let mut manifest = Manifest::default();
+        manifest
+            .refresh(&overrides, &WikiCache::default(), &SteamCache::default())
+            .unwrap();
+
+        assert!(!manifest.0.contains_key("Telltale Batman Season 1"));
+    }
 }
