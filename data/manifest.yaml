@@ -52841,6 +52841,16 @@ Ashes of the Singularity:
   steam:
     id: 228880
 Ashes of the Singularity II:
+  cloud:
+    steam: true
+  installDir:
+    Ashes II: {}
+  launch:
+    "<base>/bin/Ashes2.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3499790
 "Ashes of the Singularity: Escalation":
@@ -123870,6 +123880,32 @@ Casual Spider Solitaire:
             store: steam
   steam:
     id: 722810
+"Casualties: Unknown":
+  files:
+    "<home>/AppData/LocalLow/Orsoniks/CasualtiesUnknown":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Orsoniks/CasualtiesUnknown/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: casualties-unknown
+  installDir:
+    Casualties Unknown: {}
+  launch:
+    "<base>/CasualtiesUnknown.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Orsoniks/CasualtiesUnknown:
+      tags:
+        - config
+  steam:
+    id: 4576490
 "Casus Belli: Battle of Annihilation":
   installDir:
     Casus Belli Battle Of Annihilation: {}
@@ -347158,10 +347194,41 @@ Hillsfar:
 Hillthorn:
   cloud:
     steam: true
+  files:
+    "<home>/.var/app/com.valvesoftware.Steam/.config/unity3d/FOOL MOON/Hillthorn/**/*.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/FOOL MOON/Hillthorn/**/*.json":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/FOOL MOON/Hillthorn/**/*.json":
+      when:
+        - os: mac
+          store: steam
+    "<xdgConfig>/unity3d/FOOL MOON/Hillthorn/**/*.json":
+      when:
+        - os: linux
+          store: steam
   id:
     lutris: hillthorn
     steamExtra:
       - 3615330
+  installDir:
+    Hillthorn: {}
+  launch:
+    "<base>/Hillthorn.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Hillthorn.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Hillthorn.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3504050
 Him and I:
@@ -362694,6 +362761,30 @@ IGT Slots Paradise Garden:
             store: steam
   steam:
     id: 320970
+"IGTAP: An Incremental Game That's Also a Platformer":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Pepper tango games/IGTAPfullGame":
+      when:
+        - store: steam
+    "<xdgConfig>/unity3d/Pepper tango games/IGTAPfullGame":
+      when:
+        - os: linux
+          store: steam
+  installDir:
+    "IGTAP an Incremental Game That's Also a Platformer": {}
+  launch:
+    "<base>/IGTAP.x86_64":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/IGTAPfullGame.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4364730
 IGrow Game:
   installDir:
     iGrow Game: {}
@@ -504495,10 +504586,25 @@ Nocturnal:
 Nocturnal 2:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Sunnyside Games/Nocturnal 2/Steam/<storeUserId>":
+      when:
+        - store: steam
   id:
     lutris: nocturnal-2
     steamExtra:
       - 4325830
+  installDir:
+    Nocturnal 2: {}
+  launch:
+    "<base>/Nocturnal 2.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "-force-vulkan"
+        when:
+          - os: windows
+            store: steam
   steam:
     id: 2847780
 Nocturnal Hunt:
@@ -505872,6 +505978,17 @@ Northland:
             store: steam
   steam:
     id: 307010
+Northmen:
+  installDir:
+    Northmen: {}
+  launch:
+    "<base>/NORTHMEN.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 5481810
 Nortinium:
   steam:
     id: 805220
@@ -534055,6 +534172,17 @@ Path:
   steam:
     id: 1208400
 Path Defenders:
+  installDir:
+    Path Defenders: {}
+  launch:
+    "<base>/3d-td":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/Path Defenders.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4819620
 Path Of Aurora:
@@ -643371,6 +643499,17 @@ Shredders:
   steam:
     id: 1874170
 Shrek 2 Remastered:
+  cloud:
+    steam: true
+  installDir:
+    Shrek2Remastered: {}
+  launch:
+    "<base>/Shrek.exe":
+      - arguments: "--process.steam=1"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2523740
 "Shrek 2: Team Action":
@@ -720254,6 +720393,30 @@ Takenoko:
 Takeout food:
   steam:
     id: 887670
+Takeover 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/pelikan 13/Takeover2":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 4425280
+  installDir:
+    Takeover 2: {}
+  launch:
+    "<base>/Takeover2.exe":
+      - when:
+          - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/pelikan 13/Takeover2:
+      tags:
+        - config
+  steam:
+    id: 4423270
 Taking Valhalla VR:
   installDir:
     Taking Valhalla VR: {}
@@ -747498,6 +747661,8 @@ The Golf Club:
   steam:
     id: 269730
 The Golf Club 2:
+  id:
+    lutris: the-golf-club-2tm
   installDir:
     TheGolfClub2: {}
   launch:
@@ -747522,6 +747687,8 @@ The Golf Club 2019 featuring PGA Tour:
   steam:
     id: 695290
 The Golf Club VR:
+  id:
+    lutris: the-golf-club-vr
   installDir:
     The Golf Club VR: {}
   steam:
@@ -825653,12 +825820,45 @@ Vampire of the Sands:
   steam:
     id: 1290270
 "Vampire: The Masquerade - Oaths & Ashes":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Revive The Spark/Vampire the Masquerade Oaths _ Ashes/**/metadata.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/.config/unity3d/Revive The Spark/Vampire the Masquerade Oaths _ Ashes/**/save.json":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Revive The Spark/Vampire the Masquerade Oaths _ Ashes/**/metadata.json":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Revive The Spark/Vampire the Masquerade Oaths _ Ashes/**/save.json":
+      when:
+        - store: steam
   gog:
     id: 1980751921
   id:
+    gogExtra:
+      - 1269970804
+      - 1437141527
     lutris: vampire-the-masquerade-oaths-and-ashes
     steamExtra:
       - 4746430
+      - 5440640
+  installDir:
+    Vampire The Masquerade - Oaths and Ashes: {}
+  launch:
+    "<base>/Vampire the Masquerade Oaths & Ashes.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/Vampire the Masquerade Oaths & Ashes.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 4191110
 "Vampire: The Masquerade - Out for Blood":

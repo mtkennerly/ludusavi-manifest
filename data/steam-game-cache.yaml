@@ -629405,7 +629405,14 @@
       description: Pender Test
       executable: "Binaries_x64\\WarGame-Steam-SteamTest.exe"
       type: option3
-2523740: {}
+2523740:
+  installDir: Shrek2Remastered
+  launch:
+    - arguments: "--process.steam=1"
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: Shrek.exe
 2523770:
   cloud:
     saves:
@@ -639933,6 +639940,23 @@
     tchinese: 破碎怪談：惡意關注
 2846770: {}
 2847780:
+  cloud:
+    saves:
+      - path: "Sunnyside Games/Nocturnal 2/Steam/{64BitSteamID}/"
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Nocturnal 2
+  launch:
+    - config:
+        oslist: windows
+      executable: Nocturnal 2.exe
+      type: default
+    - arguments: "-force-vulkan"
+      config:
+        oslist: windows
+      description: Play with Vulkan (Steam Deck Only)
+      executable: Nocturnal 2.exe
   nameLocalized:
     schinese: 离火长明2
 2848360:
@@ -655008,7 +655032,45 @@
       workingdir: release
   nameLocalized:
     russian: Другой мир
-3499790: {}
+3499790:
+  cloud:
+    saves:
+      - path: "{Steam3AccountID}"
+        pattern: "*"
+        recursive: true
+        root: gameinstall
+  installDir: Ashes II
+  launch:
+    - config:
+        betakey: "dev-latest,main-latest,qa-debug,playtest-debug,marketing,pipeline-test"
+        osarch: "64"
+        oslist: windows
+      description: Retail build without launcher
+      executable: bin/Ashes2.exe
+      type: option1
+    - config:
+        betakey: "pipeline-test,pipeline-test-retail"
+        oslist: linux
+      executable: bin/Ashes2.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Retail build without launcher
+      executable: bin/Ashes2.exe
+      type: default
+    - config:
+        betakey: "dev-latest,main-latest,qa-debug,playtest-debug,marketing,pipeline-test"
+        osarch: "64"
+        oslist: windows
+      description: release build with tools
+      executable: binRelease/Phoenix_Release64D3D12.exe
+      type: option1
+    - config:
+        betakey: "dev-latest,main-latest,qa-debug,playtest-debug,marketing,pipeline-test"
+      description: debug build with tools
+      executable: binDebug/Phoenix_Debug64D3D12.exe
+      type: option2
 3500390:
   installDir: MegaMan StarForce LegacyCollection
   launch:
@@ -655080,6 +655142,42 @@
     schinese: 咖啡星矿工 Astro Prospector
     tchinese: 咖啡星礦工 Astro Prospector
 3504050:
+  cloud:
+    saves:
+      - path: FOOL MOON/Hillthorn
+        pattern: "*.json"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - addPath: unity3d/
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+      - addPath: ".var/app/com.valvesoftware.Steam/.config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Hillthorn
+  launch:
+    - config:
+        oslist: windows
+      executable: Hillthorn.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: Hillthorn.app
+      type: default
+    - config:
+        oslist: linux
+      executable: Hillthorn.sh
+      type: default
   nameLocalized:
     english: Hillthorn
     french: Hillthorn
@@ -663888,6 +663986,32 @@
       executable: "bin\\win_x64\\ColdSideRetroEdition.exe"
       type: default
 4191110:
+  cloud:
+    saves:
+      - path: Revive The Spark/Vampire the Masquerade Oaths _ Ashes
+        pattern: save.json
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: Revive The Spark/Vampire the Masquerade Oaths _ Ashes
+        pattern: metadata.json
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Vampire The Masquerade - Oaths and Ashes
+  launch:
+    - config:
+        oslist: windows
+      executable: Vampire the Masquerade Oaths & Ashes.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: "(Linux) Play Vampire: The Masquerade - Oaths & Ashes"
+      executable: Vampire the Masquerade Oaths & Ashes.x86_64
   nameLocalized:
     japanese: ヴァンパイア：ザ・マスカレード — 誓約と灰
 4193180: {}
@@ -664942,6 +665066,34 @@
       executable: cbt_fullscreen.exe
   nameLocalized:
     russian: Братки
+4364730:
+  cloud:
+    saves:
+      - path: Pepper tango games/IGTAPfullGame
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Pepper tango games/IGTAPfullGame
+            replace: unity3d/Pepper tango games/IGTAPfullGame
+        root: WinAppDataLocalLow
+        useInstead: LinuxXdgConfigHome
+  installDir: "IGTAP an Incremental Game That's Also a Platformer"
+  launch:
+    - config:
+        oslist: windows
+      executable: IGTAPfullGame.exe
+    - config:
+        oslist: linux
+      executable: IGTAP.x86_64
+  nameLocalized:
+    japanese: "IGTAP: どこ見ても足"
+    koreana: 어딜 봐도 다리
+    schinese: 今天都是腿
+    tchinese: 今天都是腿
 4365560:
   cloud:
     saves:
@@ -665331,6 +665483,15 @@
       executable: BillsMustBePaid.app
   nameLocalized:
     schinese: 账单必须支付 Bills Must Be Paid
+4423270:
+  cloud:
+    saves:
+      - path: pelikan 13/Takeover2
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+  installDir: Takeover 2
+  launch:
+    - executable: Takeover2.exe
 4424950:
   cloud:
     saves:
@@ -665805,6 +665966,14 @@
     spanish: Suika Game
     tchinese: 西瓜遊戲
 4573410: {}
+4576490:
+  installDir: Casualties Unknown
+  launch:
+    - executable: CasualtiesUnknown.exe
+      type: default
+  nameLocalized:
+    schinese: 未知伤亡
+    tchinese: 未知傷亡
 4581370: {}
 4590020:
   installDir: Kill Source Neon Hemorrhage
@@ -666287,7 +666456,17 @@
   nameLocalized:
     schinese: 达巴 水痕之地
 4810650: {}
-4819620: {}
+4819620:
+  installDir: Path Defenders
+  launch:
+    - config:
+        oslist: windows
+      executable: Path Defenders.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: 3d-td
+      type: default
 4824610:
   nameLocalized:
     japanese: "BIOHAZARD RE:Veronica"
@@ -666962,6 +667141,14 @@
 5480400: {}
 5480410: {}
 5480430: {}
+5481810:
+  installDir: Northmen
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: NORTHMEN.exe
+      type: default
 5503620:
   nameLocalized:
     schinese: 炸了还是烟花

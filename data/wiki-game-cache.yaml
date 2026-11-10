@@ -17083,8 +17083,12 @@ Ashes of the Singularity:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Ashes of the Singularity\\settings.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Ashes of the Singularity\\Saves\\}}"
 Ashes of the Singularity II:
+  cloud:
+    steam: true
   pageId: 206849
   steam: 3499790
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\{{p|uid}}\\}}"
 "Ashes of the Singularity: Escalation":
   cloud:
     discord: true
@@ -30356,6 +30360,8 @@ Blockle:
 Blockoid:
   pageId: 144977
   steam: 1116010
+Blockout:
+  pageId: 223078
 Blockpocalypse:
   pageId: 50857
   steam: 433660
@@ -40438,6 +40444,13 @@ Casual Penalty:
 Casual Spider Solitaire:
   pageId: 73455
   steam: 722810
+"Casualties: Unknown":
+  lutris: casualties-unknown
+  pageId: 223080
+  steam: 4576490
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Orsoniks\\CasualtiesUnknown|{{p|userprofile\\appdata\\locallow}}\\Orsoniks\\CasualtiesUnknown\\settings.json}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Orsoniks\\CasualtiesUnknown\\{{note|Saves can only be made between levels and are deleted upon death.}}}}"
 "Casus Belli: Battle of Annihilation":
   pageId: 65299
   steam: 667000
@@ -115123,6 +115136,8 @@ Horny Villa:
 Horresco Referens:
   pageId: 138968
   steam: 1078820
+"Horrible Histories: Ruthless Romans":
+  pageId: 223076
 "Horrid Henry: Missions of Mischief":
   pageId: 208207
   steam: 38240
@@ -118473,6 +118488,11 @@ IGOR MAKS The Meme Lord:
 IGT Slots Paradise Garden:
   pageId: 49629
   steam: 320970
+"IGTAP: An Incremental Game That's Also a Platformer":
+  cloud:
+    steam: true
+  pageId: 223096
+  steam: 4364730
 IGrow Game:
   pageId: 33912
   steam: 489020
@@ -138779,6 +138799,8 @@ Locomotion:
     steam: true
   pageId: 135071
   steam: 898790
+Locomotion (1992):
+  pageId: 223082
 Locomoto:
   cloud:
     steam: true
@@ -165895,6 +165917,9 @@ Northland:
     steam: true
   pageId: 49817
   steam: 307010
+Northmen:
+  pageId: 223088
+  steam: 5481810
 Nortinium:
   pageId: 150420
   steam: 805220
@@ -178492,6 +178517,8 @@ Piopupu:
     steam: true
   pageId: 93877
   steam: 844730
+Pipe Dream:
+  pageId: 223085
 Pipe Mania:
   lutris: pipemania
   pageId: 88377
@@ -210943,6 +210970,8 @@ Shredders:
 "Shrek 2 Activity Center: Twisted Fairy Tale Fun":
   pageId: 207561
 Shrek 2 Remastered:
+  cloud:
+    steam: true
   pageId: 221883
   steam: 2523740
 "Shrek 2: Team Action":
@@ -222752,6 +222781,8 @@ Stack Rabbit:
 Stack Tower:
   pageId: 128167
   steam: 1026290
+Stack Up:
+  pageId: 223087
 StackFortress:
   pageId: 87199
   steam: 788490
@@ -235804,6 +235835,16 @@ Takenoko:
 Takeout food:
   pageId: 107680
   steam: 887670
+Takeover 2:
+  cloud:
+    steam: true
+  pageId: 223074
+  steam: 4423270
+  steamSide:
+    - 4425280
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\pelikan 13\\Takeover2\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\pelikan 13\\Takeover2\\}}"
 Takeshi and Hiroshi:
   pageId: 152272
 Taking Valhalla VR:
@@ -244574,12 +244615,14 @@ The Golf Club:
   pageId: 16967
   steam: 269730
 The Golf Club 2:
+  lutris: the-golf-club-2tm
   pageId: 63030
   steam: 554510
 The Golf Club 2019 featuring PGA Tour:
   pageId: 108024
   steam: 695290
 The Golf Club VR:
+  lutris: the-golf-club-vr
   pageId: 51447
   steam: 489600
 "The Golf Pro 2: Wentworth Edition":
@@ -271395,12 +271438,18 @@ Vampire of the Sands:
   templates:
     - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\1290270\\remote\\}}"
 "Vampire: The Masquerade - Oaths & Ashes":
+  cloud:
+    steam: true
   gog: 1980751921
+  gogSide:
+    - 1269970804
+    - 1437141527
   lutris: vampire-the-masquerade-oaths-and-ashes
   pageId: 217731
   steam: 4191110
   steamSide:
     - 4746430
+    - 5440640
 "Vampire: The Masquerade - Out for Blood":
   cloud:
     steam: true
