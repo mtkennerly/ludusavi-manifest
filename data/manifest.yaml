@@ -1137,6 +1137,10 @@ $1 Ride:
   installDir:
     1000xRESIST: {}
   launch:
+    "<base>/1000xRESIST.app/Contents/MacOS/1000xRESIST":
+      - when:
+          - os: mac
+            store: steam
     "<base>/1000xRESIST.exe":
       - when:
           - store: steam
@@ -99538,6 +99542,11 @@ Booster Trooper:
           - store: steam
   steam:
     id: 27920
+BoosterWare:
+  cloud:
+    steam: true
+  steam:
+    id: 2268510
 "Boot : Game Dev Sim":
   files:
     "<winLocalAppData>/BootGameDevSim/Saved/**/*.ini":
@@ -363272,18 +363281,6 @@ IREC:
             store: steam
   steam:
     id: 557260
-IRON GUARD VR:
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Xlab Digital/IronGuard/save.igsv":
-      when:
-        - os: windows
-          store: steam
-  installDir:
-    IRON GUARD: {}
-  steam:
-    id: 1213220
 IRacing:
   files:
     "<winDocuments>/iRacing":
@@ -377070,6 +377067,18 @@ Iron Ground:
     Iron Ground: {}
   steam:
     id: 853120
+Iron Guard VR:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Xlab Digital/IronGuard/save.igsv":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    IRON GUARD: {}
+  steam:
+    id: 1213220
 Iron Harvest:
   cloud:
     gog: true
@@ -442751,12 +442760,6 @@ Makeover Desire - HENSHIN GANBO:
   steam:
     id: 46770
 "Making History: The Calm & the Storm":
-  files:
-    "<winProgramData>/Muzzy Lane Software/Making History Gold":
-      tags:
-        - save
-      when:
-        - os: windows
   id:
     lutris: making-history-the-calm-the-storm
     steamExtra:
@@ -493860,6 +493863,34 @@ Neo Cab:
             store: steam
   steam:
     id: 794540
+Neo Junk City:
+  files:
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/NeoJunkCity_*.jpg":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/NeoJunkCity_*.save":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/Profile_*.language":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/Profile_*.profile":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/active.profile-id":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/storage.state":
+      when:
+        - store: steam
+  installDir:
+    Neo Junk City: {}
+  launch:
+    "<base>/Neo Junk City.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 2378230
 Neo Neo:
   cloud:
     steam: true
@@ -498724,8 +498755,6 @@ Nickelodeon Extreme Tennis Next!:
   steam:
     id: 1383960
 "Nickelodeon Kart Racers 3: Slime Speedway":
-  cloud:
-    steam: true
   files:
     "<winLocalAppData>/Nor/Saved/Config/WindowsNoEditor":
       tags:
@@ -546465,6 +546494,8 @@ Pixplode:
   steam:
     id: 631770
 Pixross:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Kenney/Pixross/Pixross.save":
       tags:
@@ -689845,6 +689876,12 @@ Steel Division 2:
   cloud:
     gog: true
     steam: true
+  files:
+    "<home>/Saved Games/EugenSystems/SteelDivision2":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1911255510
   id:
@@ -807908,9 +807945,19 @@ Tube Tycoon:
   steam:
     id: 611040
 Tube2K:
+  files:
+    "<home>/AppData/LocalLow/Chronik Spartan/Tube2K/*.txt":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 4907870
+  installDir:
+    Tube2K: {}
+  launch:
+    "<base>/Tube2K.exe":
+      - when:
+          - store: steam
   steam:
     id: 756510
 TubeLife:
@@ -838751,6 +838798,18 @@ War Thunder:
             store: steam
   steam:
     id: 236390
+"War Times: European Frontline":
+  files:
+    "<base>/Datos/configuracion.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
 War Trains:
   installDir:
     War Trains: {}
@@ -840920,6 +840979,8 @@ Warhalla:
 "Warhammer 40,000: Dark Heresy":
   gog:
     id: 1591170775
+  id:
+    lutris: warhammer-40000-dark-heresy
   steam:
     id: 3710600
 "Warhammer 40,000: Darktide":
@@ -849751,6 +849812,23 @@ What the Buck?!:
       - 5006340
       - 5155800
       - 5155820
+  installDir:
+    WhattheBuck: {}
+  launch:
+    "<base>/What the Buck.app/Contents/MacOS/What the Buck":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/What the Buck.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/What the Buck.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 4832970
 What the Car?:

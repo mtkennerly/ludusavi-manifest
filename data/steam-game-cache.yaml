@@ -33357,7 +33357,7 @@
       executable: 64/ShovelKnight
       workingdir: "64"
   nameLocalized:
-    japanese: ショベルナイト
+    japanese: "Shovel Knight: Treasure Trove（ショベルナイト：トレジャートローブ）"
 250870:
   installDir: Pro Evolution Soccer 2014
   launch:
@@ -317310,7 +317310,15 @@
       description: Launch
       executable: mac_steam.app/Contents/MacOS/mac_steam
       type: none
-756510: {}
+756510:
+  cloud:
+    saves:
+      - path: Chronik Spartan/Tube2K
+        pattern: "*.txt"
+        root: WinAppDataLocalLow
+  installDir: Tube2K
+  launch:
+    - executable: Tube2K.exe
 756520:
   installDir: Sensual VR
   launch:
@@ -562664,11 +562672,25 @@
 1489680:
   cloud:
     saves:
-      - path: Kenney/Pixross
-        pattern: "*.save"
-        platforms:
-          - Windows
+      - path: Kenney/Pixross/
+        pattern: "*"
+        recursive: true
         root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: Kenney/Pixross
+            replace: unity.Kenney.Pixross
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Kenney/Pixross
+            replace: ".config/unity3d/Kenney/Pixross"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
   installDir: Pixross
   launch:
     - config:
@@ -577642,6 +577664,10 @@
   installDir: 1000xRESIST
   launch:
     - executable: 1000xRESIST.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: 1000xRESIST.app/Contents/MacOS/1000xRESIST
       type: default
 1675860: {}
 1675900:
@@ -616797,6 +616823,7 @@
     koreana: 더 인버스
     russian: Инверсия
 2266890: {}
+2268510: {}
 2268560:
   installDir: Zombie Survival Game Online
   launch:
@@ -621908,6 +621935,36 @@
         oslist: linux
       executable: jane
       type: default
+2378230:
+  cloud:
+    saves:
+      - path: "StarBlade Games/Neo Junk City/CloudSaves/{64BitSteamID}/Data"
+        pattern: NeoJunkCity_*.save
+        root: WinAppDataLocalLow
+      - path: "StarBlade Games/Neo Junk City/CloudSaves/{64BitSteamID}/Data"
+        pattern: NeoJunkCity_*.jpg
+        root: WinAppDataLocalLow
+      - path: "StarBlade Games/Neo Junk City/CloudSaves/{64BitSteamID}/Data"
+        pattern: Profile_*.profile
+        root: WinAppDataLocalLow
+      - path: "StarBlade Games/Neo Junk City/CloudSaves/{64BitSteamID}/Data"
+        pattern: Profile_*.language
+        root: WinAppDataLocalLow
+      - path: "StarBlade Games/Neo Junk City/CloudSaves/{64BitSteamID}/Data"
+        pattern: active.profile-id
+        root: WinAppDataLocalLow
+      - path: "StarBlade Games/Neo Junk City/CloudSaves/{64BitSteamID}/Data"
+        pattern: storage.state
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: Windows
+        osCompare: "="
+        root: gameinstall
+        useInstead: gameinstall
+  installDir: Neo Junk City
+  launch:
+    - executable: Neo Junk City.exe
 2378620:
   cloud:
     saves:
@@ -666177,7 +666234,20 @@
   installDir: Armed Snake
   launch:
     - executable: Armed Snake.exe
-4832970: {}
+4832970:
+  installDir: WhattheBuck
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: What the Buck.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: What the Buck.x86_64
+    - config:
+        oslist: macos
+      executable: What the Buck.app/Contents/MacOS/What the Buck
 4834760:
   cloud:
     saves:

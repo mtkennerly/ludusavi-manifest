@@ -12,6 +12,7 @@
 * [Football Manager 2010](https://www.pcgamingwiki.com/wiki/?curid=92556)
 * [Frostpunk 2](https://www.pcgamingwiki.com/wiki/?curid=170738)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
+* [Grand Theft Auto: Vice City](https://www.pcgamingwiki.com/wiki/?curid=994)
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [JetFly](https://www.pcgamingwiki.com/wiki/?curid=68430)

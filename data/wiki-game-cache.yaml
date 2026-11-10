@@ -32495,6 +32495,11 @@ BoostBots VR:
 Booster Trooper:
   pageId: 18789
   steam: 27920
+BoosterWare:
+  cloud:
+    steam: true
+  pageId: 223049
+  steam: 2268510
 "Boot : Game Dev Sim":
   pageId: 156720
   steam: 1160480
@@ -61896,6 +61901,8 @@ Deer Avenger 3D:
     - "{{Game data/saves|Windows|{{p|game}}\\savegame}}"
 "Deer Avenger 4: The Rednecks Strike Back":
   pageId: 57941
+Deer Hunt Challenge:
+  pageId: 223055
 Deer Hunt Legends:
   pageId: 48945
   steam: 328670
@@ -102906,6 +102913,7 @@ Grand Theft Auto VI:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Rockstar Games\\GTA III Definitive Edition\\Profiles\\{{p|uid}}\\|{{p|userprofile\\Documents}}\\Rockstar Games\\GTA Vice City Definitive Edition\\Profiles\\{{p|uid}}\\|{{p|userprofile\\Documents}}\\Rockstar Games\\GTA San Andreas Definitive Edition\\Profiles\\{{p|uid}}\\}}"
 "Grand Theft Auto: Vice City":
   lutris: grand-theft-auto-vice-city
+  malformed: true
   pageId: 994
   steam: 12110
   steamSide:
@@ -118659,11 +118667,6 @@ IREC:
   steam: 557260
 IREM Arcade Hits:
   pageId: 136198
-IRON GUARD VR:
-  cloud:
-    steam: true
-  pageId: 156887
-  steam: 1213220
 IRacing:
   pageId: 28801
   steam: 266410
@@ -123087,6 +123090,13 @@ Iron Fisticle:
 Iron Ground:
   pageId: 96279
   steam: 853120
+Iron Guard VR:
+  cloud:
+    steam: true
+  pageId: 156887
+  renamedFrom:
+    - IRON GUARD VR
+  steam: 1213220
 Iron Harvest:
   cloud:
     gog: true
@@ -144775,7 +144785,7 @@ Makeover Desire - HENSHIN GANBO:
   steamSide:
     - 371190
   templates:
-    - "{{Game data/saves|Windows|{{P|game}}{{cn|reason=Ambiguous, what files?}}|{{P|programdata}}\\Muzzy Lane Software\\Making History Gold\\}}"
+    - "{{Game data/saves|Windows|Gold Edition: {{P|game}}\\Output Files\\Saves\\<username>{{cn|reason=Ambiguous, what files?}}|MH1: {{P|programdata}}\\Muzzy Lane Software\\Output Files\\Saves\\<username>}}"
 "Making History: The Great War":
   pageId: 48853
   steam: 279140
@@ -161821,6 +161831,9 @@ Neo Cab:
   cloud:
     xbox: true
   pageId: 168836
+Neo Junk City:
+  pageId: 223056
+  steam: 2378230
 Neo Neo:
   cloud:
     steam: true
@@ -163451,8 +163464,6 @@ Nickelodeon Extreme Tennis Next!:
   templates:
     - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\1383960\\}}"
 "Nickelodeon Kart Racers 3: Slime Speedway":
-  cloud:
-    steam: true
   pageId: 182363
   steam: 1620040
   templates:
@@ -179444,6 +179455,8 @@ Pixplode:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Empyrean\\Pixplode\\}}"
     - "{{Game data/saves|Windows|{{P|game}}\\Saves\\}}"
 Pixross:
+  cloud:
+    steam: true
   pageId: 186250
   steam: 1489680
   templates:
@@ -225976,6 +225989,8 @@ Steel Division 2:
     - 2155260
     - 2499890
     - 3761870
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\EugenSystems\\SteelDivision2\\}}"
 "Steel Division: Normandy 44":
   cloud:
     steam: true
@@ -238419,6 +238434,8 @@ TerraTech Legion:
     - 3729960
     - 4443500
     - 4533940
+Terracide:
+  pageId: 223046
 Terracotta - Shards of Doom:
   pageId: 141673
   steam: 1109750
@@ -275730,6 +275747,11 @@ War Thunder:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.blk | {{P|userprofile\\Documents}}\\My Games\\WarThunder\\Saves\\}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/WarThunder/Saves/{{p|uid}}}}"
+"War Times: European Frontline":
+  pageId: 223059
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Datos\\configuracion.txt}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Save}}"
 War Trains:
   pageId: 148653
   steam: 1173340
@@ -276533,6 +276555,7 @@ Warhalla:
     - "{{Game data/saves|Windows|{{p|appdata}}/Local/DakkaGame/Saved/SaveGames/}}"
 "Warhammer 40,000: Dark Heresy":
   gog: 1591170775
+  lutris: warhammer-40000-dark-heresy
   pageId: 204773
   steam: 3710600
 "Warhammer 40,000: Darktide":
