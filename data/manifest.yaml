@@ -99545,6 +99545,16 @@ Booster Trooper:
 BoosterWare:
   cloud:
     steam: true
+  files:
+    "<base>/Save/<storeUserId>":
+      tags:
+        - save
+      when:
+        - store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Overhead Games/BoosterWare:
+      tags:
+        - config
   steam:
     id: 2268510
 "Boot : Game Dev Sim":
@@ -364123,6 +364133,29 @@ Iconoclasts:
   steam:
     id: 684200
 Icy Tower (2026):
+  files:
+    "<base>/lists/*.lst":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/icytower/lists/*.lst":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/icytower/lists/*.lst":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    icytower: {}
+  launch:
+    "<base>/icytower.app/Contents/MacOS/love":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/icytower.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3014860
 "Icycle: On Thin Ice":
@@ -526979,6 +527012,8 @@ PGA Tour 2K23:
   steam:
     id: 1588010
 PGA Tour 2K25:
+  id:
+    lutris: pga-tour-2k25
   installDir:
     PGA TOUR 2K25: {}
   launch:
@@ -560788,7 +560823,7 @@ Probably Stolen:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/Questing Goose Studio/Probably Stolen":
+    "<home>/AppData/LocalLow/Questing Goose Studio/Probably Stolen":
       tags:
         - save
       when:
@@ -710039,11 +710074,6 @@ Supraworld:
         - os: windows
   installDir:
     Supraworld: {}
-  launch:
-    "<base>/Supraworld.exe":
-      - when:
-          - bit: 64
-            store: steam
   steam:
     id: 1869290
 Supremacy 1914:
@@ -842192,6 +842222,14 @@ Warhammer Quest:
 Warhammer Survivors:
   cloud:
     steam: true
+  installDir:
+    Warhammer Survivors: {}
+  launch:
+    "<base>/WarhammerSurvivors.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 3669620
 "Warhammer Underworlds: Online":

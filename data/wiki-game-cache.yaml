@@ -32500,6 +32500,9 @@ BoosterWare:
     steam: true
   pageId: 223049
   steam: 2268510
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Overhead Games\\BoosterWare\\}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\Save\\{{p|uid}}\\}}"
 "Boot : Game Dev Sim":
   pageId: 156720
   steam: 1160480
@@ -172835,8 +172838,15 @@ PGA Tour 2K23:
 PGA Tour 2K25:
   cloud:
     xbox: true
+  lutris: pga-tour-2k25
   pageId: 200925
   steam: 2385530
+PGA Tour 96:
+  pageId: 223067
+PGA Tour Golf:
+  pageId: 223070
+PGA Tour Pro:
+  pageId: 223065
 PHAGEBORN Online Card Game:
   pageId: 130642
   steam: 1037990
@@ -184005,7 +184015,7 @@ Probably Stolen:
   pageId: 221995
   steam: 4348910
   templates:
-    - "{{Game data/saves|Windows|{{P|localappdata}}\\Questing Goose Studio\\Probably Stolen}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Questing Goose Studio\\Probably Stolen}}"
 Problematic Subjects:
   pageId: 210719
 Procyon:
@@ -224803,6 +224813,8 @@ Stargazer Christmas:
 Stargazer Program:
   pageId: 93934
   steam: 828250
+Starglider:
+  pageId: 223061
 Stargoose Warrior:
   pageId: 221977
 Stargunner:

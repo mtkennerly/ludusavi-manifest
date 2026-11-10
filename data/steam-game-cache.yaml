@@ -591570,11 +591570,16 @@
         root: WinAppDataLocal
   installDir: Supraworld
   launch:
-    - config:
+    - arguments: "-dx12"
+      config:
         osarch: "64"
-      description: Launch (Default)
+      description: Supraworld (Default Mode - DirectX 12)
       executable: Supraworld.exe
-      type: default
+      type: option1
+    - arguments: "-dx11"
+      description: Supraworld (Low-End Mode – DirectX 11)
+      executable: Supraworld.exe
+      type: option2
 1869510:
   installDir: Telestians
   launch:
@@ -644122,7 +644127,54 @@
     japanese: "BrokenLore: LOW | 霧雨村"
     schinese: 破碎怪谈：雾雨村
     tchinese: 破碎怪談：霧雨村
-3014860: {}
+3014860:
+  cloud:
+    saves:
+      - path: lists
+        pattern: "*.lst"
+        root: gameinstall
+      - path: ""
+        pattern: "*.itp"
+        root: SteamCloudDocuments
+    overrides:
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: lists
+            replace: icytower/lists
+        root: gameinstall
+        useInstead: WinAppDataRoaming
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: lists
+            replace: icytower/lists
+        root: gameinstall
+        useInstead: MacAppSupport
+      - os: Windows
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: icytower
+        root: SteamCloudDocuments
+        useInstead: WinAppDataRoaming
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: ""
+            replace: icytower
+        root: SteamCloudDocuments
+        useInstead: MacAppSupport
+  installDir: icytower
+  launch:
+    - config:
+        oslist: windows
+      executable: icytower.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: icytower.app/Contents/MacOS/love
+      type: default
 3015650:
   cloud:
     saves:
@@ -658059,7 +658111,17 @@
       description: B&S NEO EU
       executable: /UE4/BNSR/Binaries/Win64/BNSR.exe
       type: option1
-3669620: {}
+3669620:
+  installDir: Warhammer Survivors
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: WarhammerSurvivors.exe
+      type: default
+  nameLocalized:
+    schinese: 戰鎚倖存者
+    tchinese: 战锤幸存者
 3669870:
   installDir: CONTROL Resonant
   launch:
@@ -664832,7 +664894,7 @@
   launch:
     - arguments: "-anticheat_settings=QASettings.json"
       config:
-        betakey: "silver,silver2,protection,silvercompatrun,exttest2"
+        betakey: "silver,silver2,protection,silvercompatrun,exttest2,silver3"
       description: Play NBA 2K27 (QA Environment)
       executable: start_protected_game.exe
       type: default
