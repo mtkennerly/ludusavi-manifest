@@ -507,6 +507,7 @@
 * [Absolute Fall](https://www.pcgamingwiki.com/wiki/?curid=138752)
 * [Absolute Obedience](https://www.pcgamingwiki.com/wiki/?curid=222364)
 * [Absolute Pinball](https://www.pcgamingwiki.com/wiki/?curid=213174)
+* [Absolute Redemption](https://www.pcgamingwiki.com/wiki/?curid=223103)
 * [Absolute VR Experiences](https://www.pcgamingwiki.com/wiki/?curid=96541)
 * [Absolute Zero](https://www.pcgamingwiki.com/wiki/?curid=214889)
 * [Abstract](https://www.pcgamingwiki.com/wiki/?curid=135417)

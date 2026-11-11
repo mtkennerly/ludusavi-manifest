@@ -649833,6 +649833,19 @@
   installDir: "Amarillo's Butt Slapper"
   launch:
     - executable: "Amarillo's Butt Slapper.exe"
+3232610:
+  cloud:
+    saves:
+      - path: "Joey Drew Studios\\Bendy - Lone Wolf\\data\\"
+        pattern: "*.game"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Bendy Lone Wolf
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Bendy - Lone Wolf.exe
 3233400:
   cloud:
     saves:

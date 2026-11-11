@@ -80080,6 +80080,29 @@ Bendy and the Ink Machine:
         - config
   steam:
     id: 622650
+"Bendy: Lone Wolf":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Joey Drew Studios/Bendy - Lone Wolf/data/**/*.game":
+      when:
+        - store: steam
+  gog:
+    id: 1309139340
+  id:
+    lutris: bendy-lone-wolf
+    steamExtra:
+      - 4297100
+  installDir:
+    Bendy Lone Wolf: {}
+  launch:
+    "<base>/Bendy - Lone Wolf.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3232610
 "Bendy: The Cage":
   id:
     lutris: bendy-the-cage
@@ -186119,6 +186142,8 @@ Dear Camy:
         - config
       when:
         - os: windows
+  id:
+    lutris: dear-camy--1
 Dear Esther:
   files:
     "<base>/dearesther/SAVE":
@@ -747646,6 +747671,8 @@ The Golden Compass:
   steam:
     id: 10440
 The Golf Club:
+  id:
+    lutris: the-golf-club
   installDir:
     TheGolfClub: {}
   launch:
@@ -847129,9 +847156,12 @@ We Were Here Tomorrow:
   cloud:
     steam: true
   files:
-    "<base>/SavesDir/*.data":
+    "<base>/SavesDir":
+      tags:
+        - config
+        - save
       when:
-        - store: steam
+        - os: windows
   installDir:
     We Were Here Tomorrow: {}
   launch:

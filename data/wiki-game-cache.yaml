@@ -5361,6 +5361,8 @@ Absolute Obedience:
   pageId: 222364
 Absolute Pinball:
   pageId: 213174
+Absolute Redemption:
+  pageId: 223103
 "Absolute Tactics: Daughters of Mercy":
   cloud:
     gog: true
@@ -26268,6 +26270,15 @@ Bendy and the Ink Machine:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Joey Drew Studios\\Bendy and the Ink Machine\\Saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.TheMeatly Games.Bendy and the Ink Machine/Saves/}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Joey Drew Studios/Bendy and the Ink Machine/Saves/}}"
+"Bendy: Lone Wolf":
+  cloud:
+    steam: true
+  gog: 1309139340
+  lutris: bendy-lone-wolf
+  pageId: 223100
+  steam: 3232610
+  steamSide:
+    - 4297100
 "Bendy: The Cage":
   lutris: bendy-the-cage
   pageId: 220956
@@ -60499,6 +60510,7 @@ Dear Ashely:
   pageId: 134980
   steam: 1068900
 Dear Camy:
+  lutris: dear-camy--1
   pageId: 184254
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Options.dat}}"
@@ -244612,6 +244624,7 @@ The Golden Compass:
   pageId: 88501
   steam: 10440
 The Golf Club:
+  lutris: the-golf-club
   pageId: 16967
   steam: 269730
 The Golf Club 2:
@@ -278678,6 +278691,9 @@ We Were Here Tomorrow:
   renamedFrom:
     - Where Are We?
   steam: 2315050
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}/SavesDir/}}"
+    - "{{Game data/saves|Windows|{{P|game}}/SavesDir/}}"
 We Were Here Too:
   cloud:
     steam: true
