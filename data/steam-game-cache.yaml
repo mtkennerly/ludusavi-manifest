@@ -625000,6 +625000,30 @@
       executable: forza_steamworks_release_final.exe
   nameLocalized:
     schinese: Forza Motorsport 极限竞速
+2440760:
+  cloud:
+    saves:
+      - path: WFO/Saved/SaveGames
+        pattern: "*.sav"
+        recursive: true
+        root: gameinstall
+      - path: WFO/Saved/SaveGames
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataLocal
+  installDir: GravHounds
+  launch:
+    - arguments: "-SaveToUserDir"
+      config:
+        oslist: windows
+      executable: WFOSteam.exe
+    - arguments: "-logPSO -SaveToUserDir"
+      config:
+        betakey: "development, misc_branch_1"
+        oslist: windows
+      description: Play and Log PSOs for Kyle
+      executable: WFOSteam.exe
 2441270:
   cloud:
     saves:
@@ -643592,6 +643616,26 @@
       description: using OpenGL
       executable: Endoparasitic2.app
       type: option1
+2991310:
+  cloud:
+    saves:
+      - path: "DennekoYugi/SakuraTower/Steam/{Steam3AccountID}/System/SaveFile"
+        pattern: "*.ssgdata"
+        root: WinAppDataLocalLow
+      - path: "DennekoYugi/SakuraTower/Steam/{Steam3AccountID}/System/Achievement"
+        pattern: Achievement.ssgdata
+        root: WinAppDataLocalLow
+  installDir: 星樹の機神 夢幻桜楼閣
+  launch:
+    - config:
+        oslist: windows
+      executable: SakuraTower.exe
+      type: default
+  nameLocalized:
+    english: Eternal Palace Sakura
+    japanese: 夢幻桜楼閣
+    schinese: 无尽幻樱阁
+    tchinese: 夢幻櫻樓閣
 2993780:
   installDir: FANTASY LIFE i
   launch:
@@ -649459,6 +649503,25 @@
   nameLocalized:
     english: KINGDOM HEARTS IV
 3218100: {}
+3218570:
+  cloud:
+    saves:
+      - path: "Denkiworks/TANUKI_ Pon's Summer/SaveData"
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: "TANUKI Pon's Summer"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "TANUKI Pon's Summer.exe"
+      type: default
+  nameLocalized:
+    japanese: "TANUKI: Pon's Summer  - タヌキ： ポンの夏"
+    schinese: 狸狸：胖哒的夏日
 3218630:
   cloud:
     saves:
@@ -665777,6 +665840,34 @@
       executable: MyBeautifulFaraway.x86_64
 4523120: {}
 4527520: {}
+4530370:
+  cloud:
+    saves:
+      - path: Sports Interactive/Football Manager 27/cloud/games
+        pattern: "*.fm"
+        root: WinAppDataLocal
+      - path: Sports Interactive/Football Manager 27/cloud
+        pattern: "*.fmf"
+        recursive: true
+        root: WinAppDataLocal
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocal
+        useInstead: MacAppSupport
+  installDir: Football Manager 27
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: fm.exe
+    - config:
+        oslist: macos
+      executable: fm.app
+  nameLocalized:
+    schinese: 足球经理27
+    tchinese: 《Football Manager 27》
 4532500:
   nameLocalized:
     french: "Atelier Karia : Le Royaume de la Nuit et le Guide des Souvenirs"
@@ -666621,6 +666712,24 @@
       type: default
 4877950: {}
 4878690: {}
+4882240:
+  cloud:
+    saves:
+      - path: A Dark Cave
+        pattern: adc-steam-save.dat
+        root: WinAppDataRoaming
+      - path: A Dark Cave
+        pattern: adc-steam-demo-save.dat
+        root: WinAppDataRoaming
+      - path: A Dark Cave Demo
+        pattern: adc-steam-demo-save.dat
+        root: WinAppDataRoaming
+  installDir: A Dark Cave
+  launch:
+    - config:
+        oslist: windows
+      executable: A Dark Cave.exe
+      type: default
 4886450:
   installDir: Hexzen
   launch:

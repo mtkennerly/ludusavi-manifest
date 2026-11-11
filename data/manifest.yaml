@@ -8596,6 +8596,28 @@ A Dance of Fire and Ice:
             store: steam
   steam:
     id: 977950
+A Dark Cave:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/A Dark Cave Demo/adc-steam-demo-save.dat":
+      when:
+        - store: steam
+    "<winAppData>/A Dark Cave/adc-steam-demo-save.dat":
+      when:
+        - store: steam
+    "<winAppData>/A Dark Cave/adc-steam-save.dat":
+      when:
+        - store: steam
+  installDir:
+    A Dark Cave: {}
+  launch:
+    "<base>/A Dark Cave.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4882240
 "A Dark World: The Glowing City":
   installDir:
     A Dark World The Glowing City: {}
@@ -248951,6 +248973,29 @@ Eternal Maze:
             store: steam
   steam:
     id: 652990
+Eternal Palace Sakura:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/DennekoYugi/SakuraTower/Steam/<storeUserId>/System/SaveFile":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: eternal-palace-sakura
+    steamExtra:
+      - 4070720
+  installDir:
+    星樹の機神 夢幻桜楼閣: {}
+  launch:
+    "<base>/SakuraTower.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2991310
 Eternal Radiance:
   cloud:
     steam: true
@@ -281011,6 +281056,38 @@ Football Manager 26:
             store: steam
   steam:
     id: 3551340
+Football Manager 27:
+  cloud:
+    steam: true
+  files:
+    "<home>/Library/Application Support/Sports Interactive/Football Manager 27/cloud/**/*.fmf":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/Sports Interactive/Football Manager 27/cloud/games/*.fm":
+      when:
+        - os: mac
+          store: steam
+    "<winLocalAppData>/Sports Interactive/Football Manager 27/cloud/**/*.fmf":
+      when:
+        - store: steam
+    "<winLocalAppData>/Sports Interactive/Football Manager 27/cloud/games/*.fm":
+      when:
+        - store: steam
+  installDir:
+    Football Manager 27: {}
+  launch:
+    "<base>/fm.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/fm.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 4530370
 Football Manager Touch 2016:
   cloud:
     steam: true
@@ -294264,6 +294341,25 @@ GRAV:
         workingDir: "<base>/Binaries/Win64"
   steam:
     id: 332500
+GRAVHOUNDS:
+  files:
+    "<base>/WFO/Saved/SaveGames/**/*.sav":
+      when:
+        - store: steam
+    "<winLocalAppData>/WFO/Saved/SaveGames/*.sav":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    GravHounds: {}
+  launch:
+    "<base>/WFOSteam.exe":
+      - arguments: "-SaveToUserDir"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2440760
 GRAY:
   files:
     "<winAppData>/MMFApplications/DontReadME":
@@ -403992,6 +404088,7 @@ Kung Fu Panda:
         - config
 "Kung Fu Panda: Showdown of Legendary Legends":
   id:
+    lutris: kung-fu-panda-showdown-of-legendary-legends
     steamExtra:
       - 413800
       - 413801
@@ -716608,6 +716705,24 @@ TANKNAROK:
             store: steam
   steam:
     id: 1029760
+"TANUKI: Pon's Summer":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Denkiworks/TANUKI_ Pon's Summer/SaveData":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    "TANUKI Pon's Summer": {}
+  launch:
+    "<base>/TANUKI Pon's Summer.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 3218570
 TAOTH - The Adventures of the Herkulez:
   installDir:
     TAOTH: {}

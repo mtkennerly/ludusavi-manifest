@@ -2712,6 +2712,11 @@ A Dance of Fire and Ice:
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/unity3d/7th Beat Games/A Dance of Fire and Ice}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\7th Beat Games\\A Dance of Fire and Ice\\|{{p|game}}\\User}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/unity3d/7th Beat Games/A Dance of Fire and Ice}}"
+A Dark Cave:
+  cloud:
+    steam: true
+  pageId: 223118
+  steam: 4882240
 "A Dark World: The Glowing City":
   pageId: 153208
   steam: 1182690
@@ -68262,6 +68267,8 @@ Don Bradman Cricket 17:
 "Don't Give Up: A Cynical Tale":
   pageId: 122846
   steam: 960710
+"Don't Go Alone":
+  pageId: 223137
 "Don't Go into the Woods":
   pageId: 139231
   steam: 1017660
@@ -80840,6 +80847,17 @@ Eternal Magic:
 Eternal Maze:
   pageId: 70577
   steam: 652990
+Eternal Palace Sakura:
+  cloud:
+    steam: true
+  lutris: eternal-palace-sakura
+  pageId: 223113
+  steam: 2991310
+  steamSide:
+    - 4070720
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}/DennekoYugi/SakuraTower/Steam/{{P|uid}}/System/SaveFile/}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}/DennekoYugi/SakuraTower/Steam/{{P|uid}}/System/SaveFile/}}"
 Eternal Radiance:
   cloud:
     steam: true
@@ -91814,6 +91832,12 @@ Football Manager 26:
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Sports Interactive\\Football Manager 26\\cloud\\games\\*.fm|{{p|localappdata}}\\Sports Interactive\\Football Manager 26\\cloud\\*.fmf}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Sports Interactive/Football Manager 26/cloud/games|{{p|osxhome}}/Library/Application Support/Sports Interactive/Football Manager 26/cloud}}"
+Football Manager 27:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 223116
+  steam: 4530370
 Football Manager 3:
   pageId: 177480
 Football Manager Live:
@@ -96031,6 +96055,11 @@ GRASS.EXE:
 GRAV:
   pageId: 49013
   steam: 332500
+GRAVHOUNDS:
+  cloud:
+    xbox: true
+  pageId: 223117
+  steam: 2440760
 GRAY:
   pageId: 145962
   steam: 1034700
@@ -107871,6 +107900,8 @@ Hard Core Puzzle:
   steam: 1013730
 "Hard Drivin'":
   pageId: 218256
+"Hard Drivin' II":
+  pageId: 223141
 "Hard Era: The Fantasy Defence":
   pageId: 68701
   steam: 692260
@@ -132042,6 +132073,7 @@ Kung Fu Panda:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Activision\\Kung Fu Panda\\Saved Games\\GLOBAL.DAT|{{p|hkcu}}\\SOFTWARE\\Activision\\Kung Fu Panda\\Settings}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Activision\\Kung Fu Panda\\Saved Games\\SLOT0}}"
 "Kung Fu Panda: Showdown of Legendary Legends":
+  lutris: kung-fu-panda-showdown-of-legendary-legends
   pageId: 45077
   steam: 369230
   steamSide:
@@ -172684,6 +172716,8 @@ P.U.G.S. Agents:
 P1R4T3S:
   pageId: 150810
   steam: 1133890
+P47 Thunderbolt:
+  pageId: 223124
 P9 The GateAway:
   pageId: 157112
   steam: 1224330
@@ -188750,6 +188784,8 @@ Race Arcade:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Codemasters\\GRID\\hardwaresettings\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Codemasters\\GRID\\savegame\\}}"
     - "{{Game data/saves|OS X|{{p|machome}}/Library/Application Support<ref>{{Refurl|url=https://web.archive.org/web/20170915144559/http://support.feralinteractive.com/en/mac-linux-games/grid/faqs/saves/|title=Feral Support - GRID™ FAQs - Where are my saved games stored? (archived)|date=2026-06-04}}</ref>}}"
+"Race Drivin'":
+  pageId: 223139
 Race Mania:
   pageId: 222667
 Race Race Racer:
@@ -195232,6 +195268,8 @@ Revenant in the Paradise:
 Revenge Quest:
   pageId: 61292
   steam: 569130
+Revenge of Defender:
+  pageId: 223128
 Revenge of Roger Rouge:
   pageId: 43418
   steam: 443680
@@ -223010,6 +223048,8 @@ Star Boss:
 Star Boy:
   pageId: 91144
   steam: 801940
+Star Breaker:
+  pageId: 223126
 Star Chart:
   pageId: 36171
   steam: 460580
@@ -234603,6 +234643,12 @@ TAKANARIA:
 TANKNAROK:
   pageId: 136100
   steam: 1029760
+"TANUKI: Pon's Summer":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 223114
+  steam: 3218570
 TAOTH - The Adventures of the Herkulez:
   pageId: 78030
   steam: 749470
@@ -265517,6 +265563,8 @@ TublerVR:
 Tubular Rift:
   pageId: 78844
   steam: 717680
+Tubular Worlds:
+  pageId: 223131
 Tuebor:
   pageId: 38877
   steam: 521330
@@ -269990,6 +270038,8 @@ Urbek City Builder:
   steamSide:
     - 1652820
     - 1785820
+Uridium:
+  pageId: 223133
 "Uriel's Chasm":
   pageId: 49659
   steam: 292630
@@ -281493,6 +281543,8 @@ Wings of Bluestar:
   steam: 1088420
 Wings of Destiny:
   pageId: 30425
+Wings of Fury:
+  pageId: 223135
 Wings of Glass 玻璃の羽:
   pageId: 127269
   steam: 1010780
