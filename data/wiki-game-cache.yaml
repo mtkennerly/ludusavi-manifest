@@ -9241,6 +9241,7 @@ Alabaster Dawn:
   steam: 3110760
   templates:
     - "{{Game data/config|Linux|{{P|xdgconfighome}}/Alabaster Dawn}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}/Alabaster Dawn/Saves/Default}}"
     - "{{Game data/saves|Linux|{{P|xdgconfighome}}/Alabaster Dawn/Saves/Default}}"
 Aladdin Chess Adventures:
   pageId: 93516
@@ -31684,6 +31685,9 @@ Bob Came in Pieces:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ludosity Interactive\\Bob Came in Pieces\\}}"
     - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\46000\\remote\\*.data}}"
     - "{{Game data/saves|Windows|{{p|programdata}}\\Bob Came In Pieces\\Profiles.data}}"
+Bob Logistics:
+  pageId: 223146
+  steam: 5009390
 Bob Was Hungry:
   pageId: 37836
   steam: 343560
@@ -33277,6 +33281,9 @@ Bowslinger:
 Box Align:
   pageId: 82153
   steam: 768590
+Box Flow:
+  pageId: 223147
+  steam: 4909100
 Box It:
   cloud:
     steam: true
@@ -34244,6 +34251,11 @@ Brick Breaker Ultimate:
 Brick Breaker with Risa:
   pageId: 108336
   steam: 910420
+Brick Buddies:
+  cloud:
+    steam: true
+  pageId: 223145
+  steam: 4901540
 Brick Inventions:
   pageId: 44024
   steam: 411750
@@ -46556,6 +46568,9 @@ Clutchball:
 "Clutter VI: Leigh's Story":
   pageId: 74111
   steam: 733810
+"Cluttermancer: Tidy Up the Nightmare Alley":
+  pageId: 223148
+  steam: 5032140
 Cmoar VR Cinema:
   pageId: 50753
   steam: 527160
@@ -49733,7 +49748,8 @@ Control Resonant:
     - 4403940
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Remedy\\CONTROLResonant\\renderer.ini}}"
-    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3669870\\remote\\}}"
+    - "{{Game data/saves|GOG.com|{{p|localappdata}}\\GOG.com\\Galaxy\\Applications\\60085018752855325\\Storage\\Shared\\Files\\}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\3669870\\remote\\}}"
 Control Room Alpha:
   lutris: control-room-alpha
   pageId: 210829
@@ -51178,6 +51194,9 @@ Crab God:
     - 3016900
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Chaos Theory Games\\Crab God\\*.dat|{{p|userprofile\\appdata\\locallow}}\\Chaos Theory Games\\Crab God\\*.bak}}"
+Crack:
+  pageId: 223149
+  steam: 4312190
 Crack Down:
   pageId: 30699
   templates:
@@ -55228,6 +55247,9 @@ Cutish:
 Cutlass:
   pageId: 64850
   steam: 663020
+Cutout Village:
+  pageId: 223150
+  steam: 3907910
 Cutthroat:
   pageId: 75067
   steam: 737380
@@ -57728,6 +57750,8 @@ Dark Scavenger:
 Dark Scrolls:
   pageId: 216826
   steam: 2912550
+Dark Secrets of Africa:
+  pageId: 223152
 Dark Sector:
   lutris: dark-sector
   pageId: 13010
@@ -146128,6 +146152,9 @@ Marvel Cosmic Invasion:
     xbox: true
   pageId: 203746
   steam: 2753970
+  steamSide:
+    - 4436470
+    - 5032670
   templates:
     - "{{Game data/config|Windows|%USERPROFILE%\\Documents\\Tribute Games\\MARVELCosmicInvasion\\Settings.cfg}}"
     - "{{Game data/saves|Steam|{{p|Steam}}\\userdata\\{{p|uid}}\\2753970\\remote\\GameSave.sav}}"
@@ -241595,6 +241622,8 @@ The Citadel:
     - "{{Game data/config|Windows|{{P|localappdata}}\\the_citadel\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\the_citadel\\Saved\\SaveGames\\}}"
 The Citadel Project:
+  cloud:
+    steam: true
   pageId: 222847
   steam: 4795460
   steamSide:
@@ -278688,6 +278717,11 @@ We Stay Behind:
   renamedFrom:
     - Resort
   steam: 1142570
+"We Steal From Old People: The Game":
+  cloud:
+    steam: true
+  pageId: 223144
+  steam: 5051080
 We Walked in Darkness:
   pageId: 78627
   steam: 766090

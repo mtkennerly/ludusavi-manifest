@@ -634068,7 +634068,10 @@
   launch:
     - executable: Dead Season.exe
       type: default
-2666920: {}
+2666920:
+  nameLocalized:
+    russian: Building Relationships Построй свою любовь
+    schinese: 美好家缘
 2667120:
   cloud:
     saves:
@@ -652329,7 +652332,20 @@
       type: default
   nameLocalized:
     schinese: 面面俱盗
-3341190: {}
+3341190:
+  installDir: Ultra Maze
+  launch:
+    - config:
+        oslist: macos
+      executable: UltraMaze.app/Contents/MacOS/UltraMaze
+      type: default
+    - config:
+        oslist: windows
+      executable: UltraMaze.exe
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: UltraMaze.sh
 3341420:
   installDir: "They're Alive"
   launch:
@@ -658353,6 +658369,9 @@
         betakey: latestlive_shipping
       executable: CONTROLResonant.exe
     - config:
+        betakey: extdev_shipping
+      executable: CONTROLResonant.exe
+    - config:
         betakey: main_development
       executable: development/Game_x64_dev.exe
     - config:
@@ -658499,6 +658518,17 @@
 3676410: {}
 3677050: {}
 3677850:
+  cloud:
+    saves:
+      - path: "Fullbright/Springs, Eternal/"
+        pattern: "*.es3*"
+        root: WinAppDataLocalLow
+  installDir: "Springs, Eternal"
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: "Springs, Eternal.exe"
   nameLocalized:
     schinese: 永泉
 3678970:
@@ -661318,6 +661348,20 @@
     schinese: 网球王子 心跳求生 Tie break ♡ game
     tchinese: 網球王子 心跳求生 Tie break ♡ game
 3907620: {}
+3907910:
+  cloud:
+    saves:
+      - path: saved
+        pattern: "*"
+        root: gameinstall
+  installDir: Cutout Village
+  launch:
+    - config:
+        oslist: windows
+      executable: CutoutVillage.exe
+    - config:
+        oslist: macos
+      executable: CutoutVillage.app/Contents/MacOS/CutoutVillage
 3908100: {}
 3909960:
   cloud:
@@ -664855,6 +664899,54 @@
         oslist: windows
       executable: "TheSkinStapler\\TheSkinStapler.exe"
       type: default
+4312190:
+  cloud:
+    saves:
+      - path: Rafoli/CRACK/
+        pattern: world_slot*
+        root: WinAppDataLocalLow
+      - path: Rafoli/CRACK/world_slot0_timelapse
+        pattern: "*"
+        root: WinAppDataLocalLow
+      - path: Rafoli/CRACK/world_slot1_timelapse
+        pattern: "*"
+        root: WinAppDataLocalLow
+      - path: Rafoli/CRACK/world_slot2_timelapse
+        pattern: "*"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ".config/unity3d/"
+        os: Linux
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+      - addPath: /Library/Application Support/
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacHome
+  installDir: CRACK
+  launch:
+    - config:
+        oslist: windows
+      executable: CRACK.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: CRACK.app
+      type: default
+    - config:
+        oslist: linux
+      executable: CRACK.x86_64
+      type: default
+    - arguments: "-force-vulkan"
+      config:
+        oslist: windows
+      description: "Force Vulkan: try this if the game is crashing!"
+      executable: CRACK.exe
+  nameLocalized:
+    schinese: 破壳行动 (CRACK)
+    tchinese: 破殼行動 (CRACK)
 4316480: {}
 4317460: {}
 4317690:
@@ -665785,9 +665877,31 @@
     japanese: ヴェリタステイルズ：暗黒城の魔女
     schinese: 真理谭：黑暗城堡的女巫
 4509300:
+  cloud:
+    saves:
+      - path: "Nippon Ichi Software, Inc/Prinny Party Going Overboard!/{64BitSteamID}"
+        pattern: save.*
+        root: WinAppDataRoaming
+      - path: "Nippon Ichi Software, Inc/Prinny Party Going Overboard!/{64BitSteamID}"
+        pattern: ".systemsave"
+        root: WinAppDataRoaming
+  installDir: Prinny Party Going Overboard!
+  launch:
+    - executable: PrinnyParty.exe
+    - config:
+        betakey: debug
+      description: debug
+      executable: PrinnyParty.exe
+      type: option1
+    - config:
+        betakey: betatest
+      description: beta_test
+      executable: PrinnyParty.exe
+      type: option2
   nameLocalized:
     japanese: みんなでポイっと！プリニーすごろく
     koreana: 다 함께 즐기자! 프리니 보드 배틀
+    schinese: 全民丟丟樂！普利尼雙六大冒險
     tchinese: 全民丟丟樂！普利尼雙六大冒險
 4509630:
   cloud:
@@ -666554,7 +666668,10 @@
     schinese: "神探狗狗 : 汪者归来"
     spanish: "Polican: Vuelta a la Carga"
     tchinese: "超狗神探 : 汪者歸來  "
-4795460: {}
+4795460:
+  installDir: The Citadel Project
+  launch:
+    - executable: TheCitadelProject.exe
 4808850: {}
 4810160:
   nameLocalized:
@@ -666759,6 +666876,33 @@
         oslist: windows
       executable: Neurohunter.exe
       type: default
+4901540:
+  cloud:
+    saves:
+      - path: "BunnyHopHome/BrickBuddies/Steam/{64BitSteamID}"
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "BunnyHopHome/BrickBuddies/Steam/{64BitSteamID}/BrickProgressIndependent"
+        pattern: "*.json"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: CigBreak
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: 2026September.exe
+      type: default
+4909100:
+  installDir: Box Flow
+  launch:
+    - executable: box-flow.exe
+    - arguments: "--use-webgpu-adapter=d3d11"
+      description: "Box Flow [DirectX 11 (Linux / Mac / black screen)]"
+      executable: box-flow.exe
 4918810: {}
 4921760:
   installDir: Heroes Of Might And Magic III
@@ -666932,13 +667076,79 @@
     - config:
         oslist: windows
       executable: Warmachine Rogue-Scout.exe
+5009390:
+  cloud:
+    saves:
+      - path: BOBLOGISTICS/Saved/SaveGames
+        pattern: BOBLOGISTICS_Main.sav
+        root: WinAppDataLocal
+      - path: BOBLOGISTICS/Saved/SaveGames
+        pattern: BOBLOGISTICS_Main_Backup.sav
+        root: WinAppDataLocal
+      - path: BOBLOGISTICS/Saved/SaveGames
+        pattern: BOBLOGISTICS_Main_Branch.sav
+        root: WinAppDataLocal
+  installDir: BOB LOGISTICS
+  launch:
+    - description: Play BOB LOGISTICS
+      executable: BOBLOGISTICS.exe
 5028390:
   installDir: Too Many Toys!
   launch:
     - executable: Too Many Toys!.exe
+5032140:
+  installDir: Cluttermancer Tidy Up the Nightmare Alley
+  launch:
+    - config:
+        oslist: windows
+      executable: Cluttermancer.exe
+      type: default
 5036490: {}
 5037200: {}
 5037250: {}
+5051080:
+  cloud:
+    saves:
+      - path: "WeStealFromOldPeople/save/cloud/users/{64BitSteamID}"
+        pattern: "*.data"
+        recursive: true
+        root: WinAppDataRoaming
+      - path: "WeStealFromOldPeople/save/cloud/users/{64BitSteamID}"
+        pattern: "*.webp"
+        recursive: true
+        root: WinAppDataRoaming
+      - path: "WeStealFromOldPeople.staging/save/cloud/users/{64BitSteamID}"
+        pattern: "*.data"
+        recursive: true
+        root: WinAppDataRoaming
+      - path: "WeStealFromOldPeople.staging/save/cloud/users/{64BitSteamID}"
+        pattern: "*.webp"
+        recursive: true
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - addPath: ""
+        os: Linux
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: LinuxXdgDataHome
+  installDir: We Steal From Old People The Game
+  launch:
+    - config:
+        oslist: windows
+      description: "We Steal From Old People: The Game (Vulkan, recommended)"
+      executable: WeStealFromOldPeople.exe
+      type: default
+    - arguments: "--rendering-driver d3d12"
+      config:
+        oslist: windows
+      description: "We Steal From Old People: The Game (DirectX 12)"
+      executable: WeStealFromOldPeople.exe
+      type: option1
 5051490:
   cloud:
     saves:
