@@ -615777,6 +615777,8 @@
         oslist: macos
       executable: Thronefall.app
       type: default
+  nameLocalized:
+    schinese: Thronefall《王权陨落》
 2239520:
   installDir: Hazeron Starship
   launch:
@@ -664876,7 +664878,30 @@
     koreana: 마음까지 정리해요
     schinese: 焕然一新的收纳生活
     tchinese: 煥然一新的收納生活
-4304060: {}
+4304060:
+  cloud:
+    saves:
+      - path: "PICO PARK Inc_/SONIC PICO PARK/Steam/{64BitSteamID}"
+        pattern: "*.sav"
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: sonic_pico_park
+  launch:
+    - config:
+        oslist: windows
+      executable: sonic_pico_park.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: sonic_pico_park.exe
+    - config:
+        oslist: macos
+      executable: sonic_pico_park.app
 4304930:
   cloud:
     saves:

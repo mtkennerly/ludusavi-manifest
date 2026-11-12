@@ -38634,6 +38634,8 @@ Capitalism Lab:
 Capitals:
   pageId: 180829
   steam: 2083790
+Capone:
+  pageId: 223162
 "Capria: Magic of the Elements":
   pageId: 43787
   steam: 457790
@@ -252379,6 +252381,8 @@ The Slormancer:
 The Slug:
   pageId: 66951
   steam: 681070
+The Smelly Mystery:
+  pageId: 223160
 The Smurfs:
   pageId: 207204
 "The Smurfs 2: The Prisoner of the Green Stone":
@@ -256251,6 +256255,7 @@ Thronefall:
   steam: 2239150
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Grizzly Games\\Thronefall\\ThroneSave.sav}}"
+    - "{{Game data/saves|Microsoft Store|{{p|userprofile}}\\AppData\\Local\\Packages\\Mythwright.Thronefall_9b483820r0x2c\\SystemAppData\\wgs\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Grizzly Games/Thronefall/ThroneSave.sav}}"
 Throttle Powah VR:
   pageId: 62980
@@ -277233,9 +277238,15 @@ Warhammer Quest:
   steam: 910450
 Warhammer Survivors:
   cloud:
+    gog: true
     steam: true
+    xbox: true
+  gog: 2068449424
   pageId: 210540
   steam: 3669620
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Auroch Digital\\Warhammer Survivors\\|}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\3669620\\remote\\}}"
 "Warhammer Underworlds: Online":
   gog: 1153941202
   pageId: 135726

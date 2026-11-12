@@ -664776,8 +664776,29 @@ Sonic P-06:
   id:
     lutris: sonic-p-06
 Sonic Pico Park:
+  files:
+    "<home>/AppData/LocalLow/PICO PARK Inc_/SONIC PICO PARK/Steam/<storeUserId>/*.sav":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/PICO PARK Inc_/SONIC PICO PARK/Steam/<storeUserId>/*.sav":
+      when:
+        - os: mac
+          store: steam
   id:
     lutris: sonic-pico-park
+  installDir:
+    sonic_pico_park: {}
+  launch:
+    "<base>/sonic_pico_park.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/sonic_pico_park.exe":
+      - when:
+          - os: windows
+            store: steam
+          - os: linux
+            store: steam
   steam:
     id: 4304060
 Sonic Project Hero:
@@ -782371,6 +782392,12 @@ Thronefall:
   cloud:
     steam: true
   files:
+    "<home>/AppData/Local/Packages/Mythwright.Thronefall_9b483820r0x2c/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<home>/AppData/LocalLow/Grizzly Games/Thronefall/ThroneSave.sav":
       tags:
         - save
@@ -842774,7 +842801,16 @@ Warhammer Quest:
     id: 910450
 Warhammer Survivors:
   cloud:
+    gog: true
     steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3669620/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+  gog:
+    id: 2068449424
   installDir:
     Warhammer Survivors: {}
   launch:
@@ -842783,6 +842819,10 @@ Warhammer Survivors:
           - bit: 64
             os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Auroch Digital/Warhammer Survivors:
+      tags:
+        - config
   steam:
     id: 3669620
 "Warhammer Underworlds: Online":
