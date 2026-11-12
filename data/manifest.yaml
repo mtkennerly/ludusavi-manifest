@@ -70073,6 +70073,19 @@ Barbie Horse Trails:
   steam:
     id: 2786660
 Barbie Rewind:
+  files:
+    "<home>/AppData/LocalLow/Atari/Barbie Rewind/campaign/default.brf":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/Atari/Barbie Rewind/classic":
+      when:
+        - store: steam
+  installDir:
+    Barbie Rewind: {}
+  launch:
+    "<base>/Barbie Rewind.exe":
+      - when:
+          - store: steam
   steam:
     id: 4082030
 Barbie Sparkling Ice Show:
@@ -119906,17 +119919,22 @@ CarX Street:
   installDir:
     CarX Street: {}
   launch:
-    "<base>/CarX Street Launcher.exe":
+    "<base>/CarX Street Launcher.app":
       - when:
+          - os: mac
+            store: steam
+    "<base>/CarX Street Launcher.exe":
+      - arguments: "-force-d3d11"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "-force-d3d12"
+        when:
           - os: windows
             store: steam
     "<base>/eac_launcher":
       - when:
           - os: linux
-            store: steam
-    "<base>/eac_launcher.app":
-      - when:
-          - os: mac
             store: steam
   registry:
     HKEY_CURRENT_USER/Software/CarX Technologies/CarX Street:
@@ -203693,6 +203711,9 @@ Dirt Bike Insanity:
             store: steam
   steam:
     id: 851940
+Dirt Town:
+  steam:
+    id: 5275590
 Dirty Bomb:
   files:
     "<winDocuments>/My Games/UnrealEngine3/ShooterGame":
@@ -276802,6 +276823,24 @@ Flaws in the People We Love:
   steam:
     id: 1069380
 Flea Madness:
+  id:
+    lutris: flea-madness
+  installDir:
+    Flea Madness: {}
+  launch:
+    "<base>/FleaMadnessClient-Mac-Shipping.app/Contents/MacOS/FleaMadnessClient-Mac-Shipping":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/FleaMadnessClient.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+    "<base>/FleaMadnessClient.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 1025560
 Fleazer:
@@ -294485,6 +294524,15 @@ GPRO:
   steam:
     id: 2169220
 GRASS.EXE:
+  id:
+    steamExtra:
+      - 5570420
+  installDir:
+    GRASS.EXE: {}
+  launch:
+    "<base>/GRASS.exe":
+      - when:
+          - store: steam
   steam:
     id: 5459380
 GRAV:
@@ -572195,9 +572243,16 @@ Queen of Thieves:
   cloud:
     steam: true
   files:
-    "<winLocalAppData>/QueensDomain/Saved/SaveGames/<storeUserId>/**/*.sav":
+    "<winLocalAppData>/QueensDomain/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<winLocalAppData>/QueensDomain/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     steamExtra:
       - 4081520
@@ -680337,6 +680392,34 @@ Squeakers:
             store: steam
   steam:
     id: 798650
+"Squeakross: Home Squeak Home":
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/unity3d/Alblune/Squeakross/<storeUserId>/*.dat":
+      when:
+        - os: linux
+          store: steam
+    "<home>/AppData/LocalLow/Alblune/Squeakross/<storeUserId>/*.dat":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/Alblune/Squeakross/<storeUserId>/*.dat":
+      when:
+        - os: mac
+          store: steam
+  installDir:
+    Squeakross Home Squeak Home: {}
+  launch:
+    "<base>/Squeakross.app/Contents/MacOS/Squeakross":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Squeakross.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2871440
 Squeezone:
   steam:
     id: 513630

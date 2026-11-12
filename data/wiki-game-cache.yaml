@@ -15972,6 +15972,7 @@ Armed Warrior VR:
 Armed and Dangerous:
   cloud:
     steam: true
+    xbox: true
   gog: 1440410681
   pageId: 38015
   steam: 6090
@@ -51929,6 +51930,8 @@ Crazy Scientist:
 Crazy Shopping:
   pageId: 148759
   steam: 1163980
+Crazy Shot:
+  pageId: 223164
 Crazy Simulator:
   pageId: 155648
   steam: 1184160
@@ -66140,6 +66143,9 @@ Director of Football:
 Dirt Bike Insanity:
   pageId: 93237
   steam: 851940
+Dirt Town:
+  pageId: 223176
+  steam: 5275590
 Dirt Track Racing:
   pageId: 192688
 Dirt Track Racing 2:
@@ -66802,6 +66808,7 @@ Disney Villains Cursed Café:
 "Disney's Chicken Little":
   cloud:
     steam: true
+    xbox: true
   pageId: 48621
   steam: 339040
   templates:
@@ -89783,6 +89790,8 @@ Fisher-Price Learning in Toyland:
   pageId: 220860
 "Fisher-Price: Dream DollHouse: Where Dreams Come To Life":
   pageId: 220761
+"Fisher-Price: Time to Play - Pet Shop":
+  pageId: 223173
 Fishermurs:
   pageId: 58513
   steam: 564210
@@ -90501,6 +90510,7 @@ Flaws in the People We Love:
   pageId: 134528
   steam: 1069380
 Flea Madness:
+  lutris: flea-madness
   pageId: 130733
   steam: 1025560
 Fleazer:
@@ -96078,6 +96088,8 @@ GPRO:
 GRASS.EXE:
   pageId: 222603
   steam: 5459380
+  steamSide:
+    - 5570420
 GRAV:
   pageId: 49013
   steam: 332500
@@ -126172,6 +126184,8 @@ Juanito Arcade Mayhem:
 Jubilee:
   pageId: 179663
   steam: 1774220
+"Jubilee's Journey: A Jane Goodall Environmental Adventure":
+  pageId: 223186
 Jubox 2:
   pageId: 104451
   steam: 906340
@@ -187527,6 +187541,9 @@ Queen of Thieves:
   steam: 1799840
   steamSide:
     - 4081520
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\QueensDomain\\Saved\\Config\\WindowsNoEditor\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\QueensDomain\\Saved\\SaveGames\\}}"
 "Queen's Garden: Halloween":
   cloud:
     steam: true
@@ -206345,6 +206362,8 @@ Secret Service:
 Secret Weapons of the Luftwaffe:
   pageId: 195627
 Secret Weapons over Normandy:
+  cloud:
+    xbox: true
   pageId: 175971
   renamedFrom:
     - Secret Weapons over Normandy
@@ -222738,6 +222757,11 @@ Squash Kings VR:
 Squeakers:
   pageId: 87123
   steam: 798650
+"Squeakross: Home Squeak Home":
+  cloud:
+    steam: true
+  pageId: 223179
+  steam: 2871440
 Squeezone:
   pageId: 39121
   steam: 513630
@@ -223993,6 +224017,7 @@ Star Wars Outlaws:
     gog: true
     origin: true
     steam: true
+    xbox: true
   gog: 1668107107
   lutris: star-wars-battlefront
   pageId: 5267
@@ -224012,6 +224037,7 @@ Star Wars Outlaws:
   cloud:
     origin: true
     steam: true
+    xbox: true
   gog: 1421404701
   lutris: star-wars-battlefront-ii
   pageId: 114
@@ -224169,6 +224195,7 @@ Star Wars Outlaws:
     gog: true
     origin: true
     steam: true
+    xbox: true
   gog: 1428935726
   lutris: star-wars-jedi-knight-jedi-academy
   pageId: 1068
@@ -224198,6 +224225,7 @@ Star Wars Outlaws:
     discord: true
     origin: true
     steam: true
+    xbox: true
   gog: 1428935917
   lutris: star-wars-jedi-knight-ii-jedi-outcast
   pageId: 1046
@@ -224213,6 +224241,7 @@ Star Wars Outlaws:
     gog: true
     origin: true
     steam: true
+    xbox: true
   gog: 1207666283
   lutris: star-wars-knights-of-the-old-republic
   pageId: 419
@@ -224229,6 +224258,7 @@ Star Wars Outlaws:
     gog: true
     origin: true
     steam: true
+    xbox: true
   gog: 1421404581
   lutris: star-wars-knights-of-the-old-republic-ii
   pageId: 168
@@ -224289,6 +224319,7 @@ Star Wars Outlaws:
   cloud:
     origin: true
     steam: true
+    xbox: true
   gog: 1421405135
   lutris: star-wars-republic-commando
   pageId: 1387
@@ -233281,6 +233312,8 @@ Suzy Cube:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Noodlecake Studios Inc.\\Suzy Cube}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Noodlecake Studios Inc.\\Suzy Cube}}"
+Suzy Says!:
+  pageId: 223185
 "Svarog's Dream":
   cloud:
     gog: true

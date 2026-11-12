@@ -446260,7 +446260,22 @@
         oslist: macos
       executable: americancivilwarbattles.app
       type: none
-1025560: {}
+1025560:
+  installDir: Flea Madness
+  launch:
+    - config:
+        oslist: macos
+      executable: FleaMadnessClient-Mac-Shipping.app/Contents/MacOS/FleaMadnessClient-Mac-Shipping
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: FleaMadnessClient.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: FleaMadnessClient.sh
+      type: default
 1025570: {}
 1025580:
   installDir: Vainglory
@@ -487690,7 +487705,8 @@
 1114150:
   installDir: CarX Street
   launch:
-    - config:
+    - arguments: "-force-d3d11"
+      config:
         oslist: windows
       executable: CarX Street Launcher.exe
       type: default
@@ -487699,7 +487715,17 @@
       executable: eac_launcher
     - config:
         oslist: macos
-      executable: eac_launcher.app
+      executable: CarX Street Launcher.app
+    - arguments: "-force-d3d11"
+      config:
+        oslist: windows
+      description: "Play: DirectX 11 (stable)"
+      executable: CarX Street Launcher.exe
+    - arguments: "-force-d3d12"
+      config:
+        oslist: windows
+      description: "Play: DirectX 12 (experimental)"
+      executable: CarX Street Launcher.exe
 1114170:
   installDir: Screen VR
   launch:
@@ -558423,6 +558449,8 @@
       description: Vulkan
       executable: StorageHunter.exe
       type: option3
+  nameLocalized:
+    schinese: 仓库猎人模拟器
 1442480:
   installDir: Prank Call
   launch:
@@ -586770,7 +586798,7 @@
   cloud:
     saves:
       - path: "QueensDomain/Saved/SaveGames/{64BitSteamID}"
-        pattern: "*.sav"
+        pattern: "*"
         recursive: true
         root: WinAppDataLocal
   installDir: QueensDomain
@@ -640580,6 +640608,41 @@
       executable: Restaurats.exe
   nameLocalized:
     schinese: 鼠鼠餐厅
+2871440:
+  cloud:
+    saves:
+      - path: "Alblune/Squeakross/{64BitSteamID}"
+        pattern: "*.dat"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: "Alblune/Squeakross/{64BitSteamID}"
+            replace: "Alblune/Squeakross/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: "Alblune/Squeakross/{64BitSteamID}"
+            replace: ".config/unity3d/Alblune/Squeakross/{64BitSteamID}"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Squeakross Home Squeak Home
+  launch:
+    - config:
+        oslist: windows
+      executable: Squeakross.exe
+      type: default
+    - config:
+        oslist: macos
+      executable: "Squeakross.app\\Contents\\MacOS\\Squeakross"
+      type: default
+  nameLocalized:
+    english: "Squeakross: Home Squeak Home"
+    japanese: イラロジChoo：ネズミのお部屋をデコレート
+    schinese: 鼠织小家
 2871520:
   cloud:
     saves:
@@ -663265,7 +663328,20 @@
     schinese: 星球大战：银河赛车手™
     tchinese: 星際大戰：銀河賽車手™
 4081880: {}
-4082030: {}
+4082030:
+  cloud:
+    saves:
+      - path: Atari/Barbie Rewind/campaign/
+        pattern: default.brf
+        root: WinAppDataLocalLow
+      - path: Atari/Barbie Rewind/classic/
+        pattern: "*"
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: Barbie Rewind
+  launch:
+    - executable: Barbie Rewind.exe
+      type: default
 4084710:
   nameLocalized:
     schinese: 雷曼：传奇再叙
@@ -667447,6 +667523,7 @@
         osarch: "64"
         oslist: windows
       executable: PotatoPlease.exe
+5275590: {}
 5306540: {}
 5342930:
   cloud:
@@ -667490,7 +667567,10 @@
 5396900: {}
 5442080: {}
 5450950: {}
-5459380: {}
+5459380:
+  installDir: GRASS.EXE
+  launch:
+    - executable: GRASS.exe
 5460730: {}
 5460970: {}
 5461430: {}
