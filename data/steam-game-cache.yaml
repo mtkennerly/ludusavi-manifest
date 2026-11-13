@@ -615853,7 +615853,7 @@
       type: option2
     - config:
         oslist: macos
-      executable: IntoTheDeadOurDarkestDays.app/Contents/MacOS/IntoTheDeadOurDarkestDays
+      executable: IntoTheDeadOurDarkestDays.app
       type: default
   nameLocalized:
     schinese: 勇闯死人谷：暗黑之日
@@ -624316,7 +624316,7 @@
   nameLocalized:
     japanese: バックパック・バトル
     koreana: 백팩 배틀즈
-    sc_schinese: 背包乱斗：福西法的宝藏
+    sc_schinese: 背包乱斗
     schinese: 背包乱斗：福西法的宝藏 Backpack Battles
     tchinese: 背包亂鬥 Backpack Battles
 2428730:
@@ -644313,7 +644313,7 @@
       type: default
     - config:
         oslist: macos
-      executable: icytower.app/Contents/MacOS/love
+      executable: steam_launcher.sh
       type: default
 3015650:
   cloud:
@@ -658743,7 +658743,13 @@
       type: option2
   nameLocalized:
     schinese: 裂隙防线 Repel The Rifts
-3687090: {}
+3687090:
+  installDir: Dice Hoarder
+  launch:
+    - config:
+        oslist: windows
+      executable: DiceHoarder.exe
+      type: default
 3688130:
   cloud:
     saves:
@@ -660231,7 +660237,10 @@
         oslist: windows
       description: "Habbo Hotel: Origins [Spanish - XL Client]"
       executable: HabboHotel-oes-xl.exe
-3810510: {}
+3810510:
+  installDir: DERELIKT
+  launch:
+    - executable: DERELIKT.exe
 3812600:
   cloud:
     saves:
@@ -665064,7 +665073,7 @@
   cloud:
     saves:
       - path: CrimsonMoonNG/Saved/SaveGames
-        pattern: "*.*"
+        pattern: "*.sav"
         root: WinAppDataLocal
     overrides:
       - addPath: ""
@@ -666480,6 +666489,14 @@
   launch:
     - executable: blood-moon-serenade.exe
       type: default
+4678050:
+  installDir: Emotional Labor Laboratory
+  launch:
+    - executable: Emotional Labor Laboratory.exe
+  nameLocalized:
+    japanese: 感情労働研究所
+    koreana: 감정노동 연구소
+    schinese: 情绪劳动研究所
 4678800:
   cloud:
     saves:
@@ -667066,6 +667083,7 @@
     schinese: 猫咪又把药水打翻了
     tchinese: 貓咪又把藥水打翻了！
 4932120: {}
+4934830: {}
 4935510:
   cloud:
     saves:
@@ -667489,6 +667507,7 @@
         oslist: windows
       executable: A Place for Every Potion.exe
       type: default
+5189950: {}
 5195880: {}
 5210430: {}
 5212940:

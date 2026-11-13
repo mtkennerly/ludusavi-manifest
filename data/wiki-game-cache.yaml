@@ -31755,8 +31755,12 @@ Body of Evidence:
   pageId: 75703
   steam: 656830
 Bodycam:
+  cloud:
+    steam: true
   pageId: 192737
   steam: 2406770
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\Bodycam\\Saved\\Config\\Windows\\}}"
 Boet Fighter:
   pageId: 142007
   steam: 1108350
@@ -40484,7 +40488,7 @@ Casual Spider Solitaire:
   steam: 4576490
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Orsoniks\\CasualtiesUnknown|{{p|userprofile\\appdata\\locallow}}\\Orsoniks\\CasualtiesUnknown\\settings.json}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Orsoniks\\CasualtiesUnknown\\{{note|Saves can only be made between levels and are deleted upon death.}}}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Orsoniks\\CasualtiesUnknown\\save.sv{{note|Saves can only be made between levels and are deleted upon death.}}}}"
 "Casus Belli: Battle of Annihilation":
   pageId: 65299
   steam: 667000
@@ -43127,6 +43131,8 @@ Chill II:
     steam: true
   pageId: 130092
   steam: 1041140
+Chill Manor:
+  pageId: 223217
 Chill Out:
   pageId: 102663
   steam: 899620
@@ -48784,6 +48790,7 @@ Company of Heroes 3:
     - 4095900
     - 4523380
     - 4836540
+    - 5210790
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\configuration_system.lua|\n{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\users\\{{P|uid}}\\configuration_user.lua}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Company of Heroes 3\\users\\{{P|uid}}\\savegames\\}}"
@@ -78168,6 +78175,9 @@ Emoji TD:
     steam: true
   pageId: 134523
   steam: 1058220
+Emotional Labor Laboratory:
+  pageId: 223207
+  steam: 4678050
 "Empathy: Path of Whispers":
   pageId: 39652
   steam: 291690
@@ -136768,7 +136778,7 @@ Lie In My Heart:
   steam: 1116490
 Lies of P:
   cloud:
-    discord: true
+    epic: true
     steam: true
     xbox: true
   lutris: lies-of-p
@@ -141349,8 +141359,15 @@ Luckslinger:
   steam: 358810
   steamSide:
     - 386500
+Lucky Luke (1997):
+  pageId: 223211
 "Lucky Luke: On the Daltons' Trail":
   pageId: 213624
+"Lucky Luke: The Lonesome Cowboy Collection":
+  cloud:
+    steam: true
+  pageId: 223209
+  steam: 4934830
 "Lucky Luke: Transcontinental Railroad":
   pageId: 185383
 "Lucky Luke: Western Fever":
@@ -161961,6 +161978,9 @@ Neo Cab:
 Neo Junk City:
   pageId: 223056
   steam: 2378230
+  steamSide:
+    - 2474130
+    - 3414440
 Neo Neo:
   cloud:
     steam: true
@@ -181091,6 +181111,12 @@ Pokka Man Blast:
 Pokris:
   pageId: 130001
   steam: 1036780
+"PokéPark 2: Wonders Beyond":
+  lutris: pokepark-2-wonders-beyond
+  pageId: 223229
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\settings.ini{{note|Launcher settings}}}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\S2LE01\\nand\\title\\00010000\\53324c45\\data\\}}"
 "PokéPark Wii: Pikachu's Adventure":
   lutris: pokepark-wii-pikachu-s-adventure
   pageId: 222850
@@ -234726,6 +234752,8 @@ TANKNAROK:
     xbox: true
   pageId: 223114
   steam: 3218570
+  templates:
+    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Denkiworks\\TANUKI_ Pon's Summer\\SaveData}}"
 TAOTH - The Adventures of the Herkulez:
   pageId: 78030
   steam: 749470
@@ -257325,6 +257353,10 @@ TimeShifters:
     steam: true
   pageId: 186314
   steam: 1533470
+TimeSplitters 2:
+  pageId: 223212
+TimeSplitters Future Perfect:
+  pageId: 223213
 TimeSplitters Rewind:
   pageId: 199221
   templates:
@@ -271364,8 +271396,10 @@ Valor Mortis:
     - 4641840
     - 5250300
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}/ValorMortis/Saved/Config/Windows}}"
-    - "{{Game data/saves|Windows|{{p|localappdata}}/ValorMortis/Saved/SaveGames}}"
+    - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\ValorMortisMSG\\Saved\\Config\\Windows}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\ValorMortis\\Saved\\Config\\Windows}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\LyricalGamesLLC.ValorMortis_72fag5ekhk96y\\SystemAppData\\wgs\\}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\ValorMortis\\Saved\\SaveGames}}"
 Valor Time:
   pageId: 109292
   steam: 890820
@@ -281886,6 +281920,9 @@ Winx Club:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\config.ini|{{p|game}}\\winx.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Media\\Saved}}"
+"Winx Club: Moonlight Quest":
+  pageId: 223227
+  steam: 5189950
 WipEout Omega Collection:
   pageId: 222435
 Wipe Out VR:

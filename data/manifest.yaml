@@ -97078,11 +97078,14 @@ Body of Evidence:
   steam:
     id: 656830
 Bodycam:
+  cloud:
+    steam: true
   files:
-    "<base>/Bodycam/Saved/SaveGames/*.sav":
+    "<winLocalAppData>/Bodycam/Saved/Config/Windows":
+      tags:
+        - config
       when:
         - os: windows
-          store: steam
   installDir:
     Bodycam: {}
   launch:
@@ -124014,7 +124017,7 @@ Casual Spider Solitaire:
     id: 722810
 "Casualties: Unknown":
   files:
-    "<home>/AppData/LocalLow/Orsoniks/CasualtiesUnknown":
+    "<home>/AppData/LocalLow/Orsoniks/CasualtiesUnknown/save.sv":
       tags:
         - save
       when:
@@ -150446,6 +150449,7 @@ Company of Heroes 3:
       - 4095900
       - 4523380
       - 4836540
+      - 5210790
   installDir:
     Company of Heroes 3: {}
   launch:
@@ -162210,11 +162214,11 @@ Crimson Moon:
   cloud:
     steam: true
   files:
-    "<home>/CrimsonMoonNG/Saved/SaveGames/*.*":
+    "<home>/CrimsonMoonNG/Saved/SaveGames/*.sav":
       when:
         - os: linux
           store: steam
-    "<winLocalAppData>/CrimsonMoonNG/Saved/SaveGames/*.*":
+    "<winLocalAppData>/CrimsonMoonNG/Saved/SaveGames/*.sav":
       when:
         - store: steam
   id:
@@ -195932,6 +195936,12 @@ Derelikt:
     lutris: derelikt
     steamExtra:
       - 5242870
+  installDir:
+    DERELIKT: {}
+  launch:
+    "<base>/DERELIKT.exe":
+      - when:
+          - store: steam
   registry:
     HKEY_CURRENT_USER/Software/Visuwyg/DERELIKT:
       tags:
@@ -200976,6 +200986,13 @@ Dice Gambit:
 Dice Hoarder:
   cloud:
     steam: true
+  installDir:
+    Dice Hoarder: {}
+  launch:
+    "<base>/DiceHoarder.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 3687090
 Dice Keeper:
@@ -240430,6 +240447,15 @@ Emoji TD:
             store: steam
   steam:
     id: 1058220
+Emotional Labor Laboratory:
+  installDir:
+    Emotional Labor Laboratory: {}
+  launch:
+    "<base>/Emotional Labor Laboratory.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4678050
 "Empathy: Path of Whispers":
   files:
     "<winLocalAppData>/Empathy/Saved/Config/WindowsNoEditor":
@@ -364592,13 +364618,13 @@ Icy Tower (2026):
   installDir:
     icytower: {}
   launch:
-    "<base>/icytower.app/Contents/MacOS/love":
-      - when:
-          - os: mac
-            store: steam
     "<base>/icytower.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/steam_launcher.sh":
+      - when:
+          - os: mac
             store: steam
   steam:
     id: 3014860
@@ -375775,7 +375801,7 @@ Into the Core:
   installDir:
     Into the Dead Our Darkest Days: {}
   launch:
-    "<base>/IntoTheDeadOurDarkestDays.app/Contents/MacOS/IntoTheDeadOurDarkestDays":
+    "<base>/IntoTheDeadOurDarkestDays.app":
       - when:
           - os: mac
             store: steam
@@ -418387,6 +418413,7 @@ Lie In My Heart:
     id: 1116490
 Lies of P:
   cloud:
+    epic: true
     steam: true
   files:
     "<base>/LiesofP/Saved/Config/WindowsNoEditor":
@@ -432448,6 +432475,11 @@ Luckslinger:
             store: steam
   steam:
     id: 358810
+"Lucky Luke: The Lonesome Cowboy Collection":
+  cloud:
+    steam: true
+  steam:
+    id: 4934830
 "Lucky Luke: Western Fever":
   files:
     "<base>/DATA/BOARD/BUTTONS.DAT":
@@ -494365,6 +494397,10 @@ Neo Junk City:
     "<home>/AppData/LocalLow/StarBlade Games/Neo Junk City/CloudSaves/<storeUserId>/Data/storage.state":
       when:
         - store: steam
+  id:
+    steamExtra:
+      - 2474130
+      - 3414440
   installDir:
     Neo Junk City: {}
   launch:
@@ -551785,6 +551821,20 @@ Pokris:
             store: steam
   steam:
     id: 1036780
+"PokéPark 2: Wonders Beyond":
+  files:
+    "<base>/S2LE01/nand/title/00010000/53324c45/data":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+  id:
+    lutris: pokepark-2-wonders-beyond
 "PokéPark Wii: Pikachu's Adventure":
   files:
     "<base>/R8AE01/nand/title/00010000/52384145/data":
@@ -717027,9 +717077,10 @@ TANKNAROK:
     steam: true
   files:
     "<home>/AppData/LocalLow/Denkiworks/TANUKI_ Pon's Summer/SaveData":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     "TANUKI Pon's Summer": {}
   launch:
@@ -825669,6 +825720,12 @@ Valor Mortis:
   cloud:
     steam: true
   files:
+    "<winLocalAppData>/Packages/LyricalGamesLLC.ValorMortis_72fag5ekhk96y/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
     "<winLocalAppData>/ValorMortis/Saved/Config/Windows":
       tags:
         - config
@@ -825679,6 +825736,12 @@ Valor Mortis:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/ValorMortisMSG/Saved/Config/Windows":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: valor-mortis
     steamExtra:
@@ -857108,6 +857171,9 @@ Winx Club:
         - config
       when:
         - os: windows
+"Winx Club: Moonlight Quest":
+  steam:
+    id: 5189950
 Wipe Out VR:
   installDir:
     WipeOut: {}
