@@ -84171,6 +84171,10 @@ Bills Must Be Paid:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Rike Games/Bills Must Be Paid:
+      tags:
+        - config
   steam:
     id: 4421010
 Billy:
@@ -352189,6 +352193,17 @@ Hope in Hell:
             store: steam
   steam:
     id: 410040
+Hope in the City:
+  cloud:
+    steam: true
+  installDir:
+    Hope in the City: {}
+  launch:
+    "<base>/HITC.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3610790
 Hope is in 23:
   installDir:
     Hope23: {}
@@ -355947,6 +355962,10 @@ How to Fish:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Dazed Games/How to Fish:
+      tags:
+        - config
   steam:
     id: 4001890
 How to Fool a Liar King:
@@ -738914,6 +738933,23 @@ The Climate Trail:
             store: steam
   steam:
     id: 1162400
+The Climb:
+  files:
+    "<base>/crytek-the-climb/crytek_climb_wip/user/options/default":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/crytek-the-climb/crytek_climb_wip/user/profiles":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/crytek-the-climb/crytek_climb_wip/user/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
 The Climber:
   installDir:
     sdk: {}

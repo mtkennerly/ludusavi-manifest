@@ -610912,6 +610912,8 @@
       executable: "client_pc\\root\\bin\\pc\\HordeModeClientSteamRetail.exe"
       type: option3
       workingdir: "client_pc\\root\\bin\\pc"
+  nameLocalized:
+    schinese: 约翰·卡朋特：毒液突击队
 2158030:
   cloud:
     saves:
@@ -657477,6 +657479,12 @@
     japanese: 片付け日和
     schinese: 整理拾光
     tchinese: 整理拾光
+3610790:
+  installDir: Hope in the City
+  launch:
+    - executable: HITC.exe
+  nameLocalized:
+    japanese: 雨降る街のホープ
 3612640:
   cloud:
     saves:

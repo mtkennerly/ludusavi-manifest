@@ -27510,6 +27510,7 @@ Bills Must Be Paid:
     - 4577620
     - 5020040
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Rike Games\\Bills Must Be Paid\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Rike Games\\Bills Must Be Paid\\FullGame}}"
 Billy:
   pageId: 154122
@@ -102680,6 +102681,10 @@ Grab the Bottle:
 GrabBag:
   pageId: 104555
   steam: 895890
+Grabbed by the Ghoulies:
+  cloud:
+    xbox: true
+  pageId: 223197
 Grabity:
   pageId: 75141
   steam: 652810
@@ -115001,6 +115006,12 @@ Hope for Love:
 Hope in Hell:
   pageId: 45759
   steam: 410040
+Hope in the City:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 223203
+  steam: 3610790
 Hope is in 23:
   pageId: 74397
   steam: 724950
@@ -116309,6 +116320,7 @@ How to Fish:
   steamSide:
     - 4539520
   templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Dazed Games\\How to Fish\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Dazed Games\\How to Fish\\Saves\\*.txt}}"
 How to Fool a Liar King:
   cloud:
@@ -125809,6 +125821,7 @@ Joggernauts:
 "John Carpenter's Toxic Commando":
   cloud:
     steam: true
+    xbox: true
   lutris: john-carpenters-toxic-commando
   pageId: 206245
   steam: 2157830
@@ -241694,6 +241707,9 @@ The Climate Trail:
   steam: 1162400
 The Climb:
   pageId: 35453
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\crytek-the-climb\\crytek_climb_wip\\user\\options\\default\\}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\crytek-the-climb\\crytek_climb_wip\\user\\profiles\\|{{p|game}}\\crytek-the-climb\\crytek_climb_wip\\user\\savegames\\}}"
 The Climber:
   pageId: 66580
   steam: 678500
@@ -249948,6 +249964,7 @@ The Outforce:
 The Outlast Trials:
   cloud:
     steam: true
+    xbox: true
   lutris: the-outlast-trials
   pageId: 152639
   steam: 1304930
@@ -256228,6 +256245,8 @@ Thrill Rollercoasters:
 Thrills & Chills - Roller Coasters:
   pageId: 40080
   steam: 520270
+Thrillville:
+  pageId: 223199
 "Thrillville: Off the Rails":
   cloud:
     gog: true
