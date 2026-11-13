@@ -34856,16 +34856,23 @@ Altorius:
   steam:
     id: 1081420
 AltspaceVR:
+  id:
+    steamExtra:
+      - 407060
   installDir:
     AltspaceVR: {}
   launch:
     "<base>/AltspaceVR.exe":
-      - when:
-          - bit: 64
-            os: windows
+      - arguments: "-novr"
+        when:
+          - os: windows
+            store: steam
+      - arguments: "-mcp -novr"
+        when:
+          - os: windows
             store: steam
   steam:
-    id: 407060
+    id: 5289710
 Alucinod:
   cloud:
     steam: true

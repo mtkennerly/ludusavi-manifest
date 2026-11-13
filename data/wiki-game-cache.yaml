@@ -11211,7 +11211,9 @@ Altorius:
   steam: 1081420
 AltspaceVR:
   pageId: 38506
-  steam: 407060
+  steam: 5289710
+  steamSide:
+    - 407060
 Alucinod:
   cloud:
     steam: true

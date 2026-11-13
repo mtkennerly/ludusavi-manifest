@@ -427242,6 +427242,8 @@
   nameLocalized:
     english: CRYSTAR
     japanese: CRYSTAR -クライスタ-
+    schinese: CRYSTAR -恸哭之星-
+    tchinese: CRYSTAR -慟哭之星-
 981770:
   cloud:
     saves:
@@ -667524,6 +667526,27 @@
         oslist: windows
       executable: PotatoPlease.exe
 5275590: {}
+5289710:
+  installDir: AltspaceVR
+  launch:
+    - config:
+        oslist: windows
+      executable: AltspaceVR.exe
+      type: openxr
+    - config:
+        oslist: android
+      executable: AltspaceVR.apk
+      type: openxr
+    - arguments: "-novr"
+      config:
+        oslist: windows
+      description: Launch without VR
+      executable: AltspaceVR.exe
+    - arguments: "-mcp -novr"
+      config:
+        oslist: windows
+      description: Launch with MCP
+      executable: AltspaceVR.exe
 5306540: {}
 5342930:
   cloud:
