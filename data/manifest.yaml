@@ -235090,6 +235090,17 @@ Edge of Memories:
   steam:
     id: 2738170
 Edge of Nowhere:
+  files:
+    "<home>/.insomniac/InsomniacEngine":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/.insomniac/InsomniacEngine/EdgeOfNowhere_userprefs.save":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: edge-of-nowhere
 Edge of Reality Visual Novel:
@@ -436524,6 +436535,27 @@ MONOBOT:
     steam: true
   steam:
     id: 1212850
+MONOMOON:
+  files:
+    "<home>/.local/share/MONOMOON/SavedGames/save*.cfg":
+      when:
+        - os: linux
+          store: steam
+    "<home>/Library/Application Support/MONOMOON/SavedGames/save*.cfg":
+      when:
+        - os: mac
+          store: steam
+    "<winAppData>/MONOMOON/SavedGames/save*.cfg":
+      when:
+        - store: steam
+  installDir:
+    MONOMOON: {}
+  launch:
+    "<base>/MONOMOON.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 3285880
 "MONSTERS:SURVIVAL":
   alias: "Monsters: Survival"
 MOP Operation Cleanup:

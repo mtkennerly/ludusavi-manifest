@@ -8558,7 +8558,6 @@
 * [Edge of Hearts](https://www.pcgamingwiki.com/wiki/?curid=62785)
 * [Edge of Insanity](https://www.pcgamingwiki.com/wiki/?curid=64282)
 * [Edge of Memories](https://www.pcgamingwiki.com/wiki/?curid=214028)
-* [Edge of Nowhere](https://www.pcgamingwiki.com/wiki/?curid=35790)
 * [Edge of Reality Visual Novel](https://www.pcgamingwiki.com/wiki/?curid=135544)
 * [Edge of Time: Rise of the Aeus](https://www.pcgamingwiki.com/wiki/?curid=141572)
 * [Edge of Twilight: Return to Glory](https://www.pcgamingwiki.com/wiki/?curid=39125)

@@ -76469,6 +76469,9 @@ Edge of Memories:
 Edge of Nowhere:
   lutris: edge-of-nowhere
   pageId: 35790
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\.insomniac\\InsomniacEngine\\EdgeOfNowhere_userprefs.save}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\.insomniac\\InsomniacEngine\\}}"
 Edge of Reality Visual Novel:
   cloud:
     steam: true
@@ -142632,6 +142635,9 @@ MONOBOT:
     steam: true
   pageId: 157269
   steam: 1212850
+MONOMOON:
+  pageId: 223232
+  steam: 3285880
 MOP Operation Cleanup:
   pageId: 43221
   steam: 463120

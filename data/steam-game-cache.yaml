@@ -651224,6 +651224,32 @@
     - config:
         oslist: windows
       executable: DARK RALLY.exe
+3285880:
+  cloud:
+    saves:
+      - path: MONOMOON/SavedGames
+        pattern: save*.cfg
+        root: WinAppDataRoaming
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataRoaming
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: MONOMOON/SavedGames
+            replace: ".local/share/MONOMOON/SavedGames"
+        root: WinAppDataRoaming
+        useInstead: LinuxHome
+  installDir: MONOMOON
+  launch:
+    - executable: MONOMOON.exe
+      type: default
+  nameLocalized:
+    schinese: "MONOMOON: 幻月迷踪"
+    tchinese: "MONOMOON: 幻月迷蹤"
 3286220:
   installDir: DIMAWORLD
   launch:
