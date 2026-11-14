@@ -702797,7 +702797,7 @@ Sunken (2018):
     id: 884470
 Sunkenland:
   files:
-    "<home>/AppData/LocalLow/Vector3 Studio/Sunkenland":
+    "<home>/AppData/LocalLow/Vector3 Studio/Sunkenland/SteamCloudData/<storeUserId>":
       when:
         - os: windows
           store: steam
@@ -774860,7 +774860,7 @@ The Twins:
     id: 246580
 The Typing of the Dead:
   files:
-    "The 'pol' directory where you installed the game.":
+    "<base>/pol":
       tags:
         - save
       when:

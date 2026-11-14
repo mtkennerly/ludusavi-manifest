@@ -606091,7 +606091,7 @@
 2080690:
   cloud:
     saves:
-      - path: "Vector3 Studio\\Sunkenland"
+      - path: "Vector3 Studio\\Sunkenland\\SteamCloudData\\{64BitSteamID}"
         pattern: "*"
         platforms:
           - Windows

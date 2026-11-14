@@ -69634,6 +69634,8 @@ Dr. Daisy Pet Vet:
 Dr. Doyle & The Mystery of the Cloche Hat:
   pageId: 61435
   steam: 574420
+"Dr. Drago's Madcap Chase":
+  pageId: 223238
 "Dr. Dungeon's Madman!":
   pageId: 66773
   steam: 684570
@@ -210588,6 +210590,8 @@ Shock Troopers:
 ShockRods:
   pageId: 132729
   steam: 647640
+"Shockwave 2: Beyond the Gate":
+  pageId: 223243
 Shockwave Assault:
   pageId: 180223
 Shoemaker:
@@ -239057,6 +239061,8 @@ Test Drive Unlimited Solar Crown:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\tdor3.cfg}}"
     - "{{Game data/saves|Windows|{{P|game}}\\SaveData\\}}"
+Test Page:
+  pageId: 223239
 Test Subject 901:
   pageId: 109750
   steam: 914450
@@ -253763,7 +253769,7 @@ The Typing of the Dead:
   lutris: the-typing-of-the-dead
   pageId: 80224
   templates:
-    - "{{Game data/saves|Windows|The 'pol' directory where you installed the game.}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\pol}}"
 The Typing of the Dead 2:
   lutris: the-typing-of-the-dead-2
   pageId: 80227
@@ -257361,13 +257367,15 @@ TimeShifters:
   steam: 1533470
 TimeSplitters 2:
   pageId: 223212
-TimeSplitters Future Perfect:
-  pageId: 223213
 TimeSplitters Rewind:
   pageId: 199221
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\TimeSplittersRewind\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\TimeSplittersRewind\\Saved\\SaveGames}}"
+"TimeSplitters: Future Perfect":
+  pageId: 223213
+  renamedFrom:
+    - TimeSplitters Future Perfect
 TimeTekker:
   pageId: 94041
   steam: 849680
