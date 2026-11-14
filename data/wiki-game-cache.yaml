@@ -26404,6 +26404,8 @@ Bermuda:
 Bermuda - Lost Survival:
   pageId: 64894
   steam: 654690
+Bermuda Syndrome:
+  pageId: 223247
 "Bernackels' Shoggoth":
   pageId: 75660
   steam: 737690
@@ -84894,6 +84896,16 @@ Fake/SuperSonia:
 "Fakespearean: Overdramatic":
   pageId: 134576
   steam: 1070390
+"Fakin' It XL":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 223252
+  steam: 5054700
+  steamSide:
+    - 5309490
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Jackbox Games\\Fakin It XL}}"
 Falcon:
   cloud:
     gog: true
@@ -114099,7 +114111,7 @@ Hogwarts Legacy:
     - 1880833
     - 1880837
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\Hogwarts Legacy\\Saved\\Config\\WindowsNoEditor|{{p|localappdata}}\\Hogwarts\\Saved\\Config\\WindowNoEditor{{P|uid}}{{note|Only uses {{folder|Hogwarts}} when streaming to other devices.<ref name=\"streaming\"/>}}|{{p|localappdata}}\\Phoenix\\Saved\\Config\\WindowsNoEditor}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\HogwartsLegacy\\Saved\\Config\\WindowsNoEditor|{{p|localappdata}}\\Hogwarts\\Saved\\Config\\WindowNoEditor{{P|uid}}{{note|Only uses {{folder|Hogwarts}} when streaming to other devices.<ref name=\"streaming\"/>}}|{{p|localappdata}}\\Phoenix\\Saved\\Config\\WindowsNoEditor}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Hogwarts Legacy\\Saved\\SaveGames\\{{P|uid}}|{{p|localappdata}}\\HogwartsLegacy\\Saved\\SaveGames\\{{P|uid}}{{note|Used by the Epic Games Launcher}}|{{p|localappdata}}\\Hogwarts\\Saved\\SaveGames\\{{P|uid}}{{note|Only uses {{folder|Hogwarts}} when streaming to other devices.<ref name=\"streaming\">{{Refurl|url=https://www.reddit.com/r/HarryPotterGame/comments/10wvual/lost_save_on_pc/|title=Lost save on PC - Reddit|date=2023-02-17}}</ref>}}|{{p|localappdata}}\\Phoenix\\Saved\\SaveGames\\{{P|uid}}}}"
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\WarnerBros.Interactive.PHX_ktmk1xygcecda\\SystemAppData\\wgs\\{{P|uid}}}}"
 Hogwash:
@@ -155650,6 +155662,9 @@ Morphe:
   steam: 931830
 Morpheus:
   pageId: 212039
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\Settings.dat}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Partidas grabadas}}"
 Morphies Law:
   pageId: 124472
   steam: 948960
@@ -161594,6 +161609,7 @@ Need for Speed Unbound:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\NFS Undercover\\{{p|uid}}\\}}"
 "Need for Speed: Underground":
   lutris: need-for-speed-underground
+  malformed: true
   pageId: 6886
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\EA GAMES\\{{LocalizedPath|Need For Speed Underground}}\\|{{p|programdata}}\\NFS Underground\\*.cfg|{{p|programdata}}\\NFS Underground\\*.opt}}"
@@ -178702,6 +178718,8 @@ Pippi:
   pageId: 122972
 Pippi Långstrump:
   pageId: 122955
+Piranha:
+  pageId: 223249
 Piratado 1:
   pageId: 51939
   steam: 542750
@@ -185468,6 +185486,7 @@ Psi Project 2:
   pageId: 76541
   steam: 753990
 "Psi-Ops: The Mindgate Conspiracy":
+  lutris: psi-ops-the-mindgate-conspiracy
   pageId: 32686
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\GameConfig.ini}}"
@@ -185555,6 +185574,8 @@ Psycho Patrol R:
     steam: true
   pageId: 200845
   steam: 1907590
+Psycho Pinball:
+  pageId: 223259
 Psycho Squirrels:
   pageId: 93136
   steam: 839460
@@ -235904,6 +235925,11 @@ Tainted Fate:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Questline\\Fall of Avalon\\|{{p|hkcu}}\\Software\\Questline\\Fall of Avalon\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Questline\\Fall of Avalon\\}}"
+Tairum:
+  cloud:
+    steam: true
+  pageId: 223264
+  steam: 5043840
 Taisei Project:
   pageId: 195179
   templates:
@@ -246127,6 +246153,8 @@ The Inquisitor (2024):
   templates:
     - "{{Game data/config|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\1880470\\remote\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\1880470\\remote\\}}"
+"The Interactive Adventures of Blake and Mortimer: The Time Trap":
+  pageId: 223255
 The Interactive Adventures of Dog Mendonça and Pizzaboy:
   gog: 1456837030
   pageId: 34242
@@ -246241,6 +246269,14 @@ The Itch:
   steam: 1095520
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Dane Sherman\\The Itch\\SaveFile*}}"
+The Jackbox Naughty Pack:
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 223254
+  steam: 2652000
+  steamSide:
+    - 3233700
 The Jackbox Party Pack:
   cloud:
     steam: true
@@ -267343,6 +267379,7 @@ Ultima Online:
   steam: 3067580
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\SAVE*\\}}"
+    - "{{Game data/saves|Steam|{{p|game}}\\UNDEROM1\\SAVE1\\|{{p|game}}\\UNDEROM1\\SAVE2\\|{{p|game}}\\UNDEROM1\\SAVE3\\|{{p|game}}\\UNDEROM1\\SAVE4\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Boxer/Gamebox States/com.gog.ultima-underworld-1+2/Current.boxerstate/C Ultima Underworld 1 and 2.harddisk/UNDEROM1}}"
 "Ultima V: Warriors of Destiny":
   cloud:
@@ -277496,6 +277533,9 @@ Warhead:
 Warhead Destined:
   pageId: 143940
   steam: 1097400
+Wario World:
+  lutris: wario-world
+  pageId: 223250
 Warium:
   pageId: 87201
   steam: 713010
@@ -286697,6 +286737,7 @@ You Died but a Necromancer revived you:
   pageId: 40546
   steam: 260000
 "You Don't Know Jack Sports":
+  lutris: you-dont-know-jack-sports
   pageId: 40544
   steam: 260020
 "You Don't Know Jack: 5th Dementia":

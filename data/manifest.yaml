@@ -260574,6 +260574,20 @@ Fake/SuperSonia:
           - store: steam
   steam:
     id: 1070390
+"Fakin' It XL":
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Jackbox Games/Fakin It XL":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    steamExtra:
+      - 5309490
+  steam:
+    id: 5054700
 Falcon:
   cloud:
     gog: true
@@ -349522,11 +349536,6 @@ Hogwarts Legacy:
     epic: true
     steam: true
   files:
-    "<winLocalAppData>/Hogwarts Legacy/Saved/Config/WindowsNoEditor":
-      tags:
-        - config
-      when:
-        - os: windows
     "<winLocalAppData>/Hogwarts Legacy/Saved/SaveGames/<storeUserId>":
       tags:
         - save
@@ -349540,6 +349549,11 @@ Hogwarts Legacy:
     "<winLocalAppData>/Hogwarts/Saved/SaveGames/<storeUserId>":
       tags:
         - save
+      when:
+        - os: windows
+    "<winLocalAppData>/HogwartsLegacy/Saved/Config/WindowsNoEditor":
+      tags:
+        - config
       when:
         - os: windows
     "<winLocalAppData>/HogwartsLegacy/Saved/SaveGames/<storeUserId>":
@@ -357142,6 +357156,10 @@ Human.exe:
 HumanitZ:
   files:
     "<winLocalAppData>/HumanitZ/Saved/Minimap/*.exr":
+      when:
+        - os: windows
+          store: steam
+    "<winLocalAppData>/HumanitZ/Saved/SaveGames/**/*.exr":
       when:
         - os: windows
           store: steam
@@ -475402,6 +475420,18 @@ Morphe:
             store: steam
   steam:
     id: 931830
+Morpheus:
+  files:
+    "<base>/Partidas grabadas":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Settings.dat":
+      tags:
+        - config
+      when:
+        - os: windows
 Morphies Law:
   installDir:
     MorphiesLaw: {}
@@ -565569,6 +565599,8 @@ Psi Project 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: psi-ops-the-mindgate-conspiracy
 "PsiSyn: The Game":
   files:
     "<base>/savedata/*.class":
@@ -720567,6 +720599,11 @@ Tainted Grail:
         - config
   steam:
     id: 1466060
+Tairum:
+  cloud:
+    steam: true
+  steam:
+    id: 5043840
 Taisei Project:
   files:
     "<home>/.var/app/org.taisei_project.Taisei/data/taisei":
@@ -752592,6 +752629,14 @@ The Itch:
             store: steam
   steam:
     id: 1095520
+The Jackbox Naughty Pack:
+  cloud:
+    steam: true
+  id:
+    steamExtra:
+      - 3233700
+  steam:
+    id: 2652000
 The Jackbox Party Pack:
   cloud:
     steam: true
@@ -813839,6 +813884,26 @@ Ultima Online:
         - save
       when:
         - os: dos
+    "<base>/UNDEROM1/SAVE1":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/UNDEROM1/SAVE2":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/UNDEROM1/SAVE3":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<base>/UNDEROM1/SAVE4":
+      tags:
+        - save
+      when:
+        - store: steam
     "<home>/Library/Application Support/Boxer/Gamebox States/com.gog.ultima-underworld-1+2/Current.boxerstate/C Ultima Underworld 1 and 2.harddisk/UNDEROM1":
       tags:
         - save
@@ -843387,6 +843452,9 @@ Warhead Destined:
             store: steam
   steam:
     id: 1097400
+Wario World:
+  id:
+    lutris: wario-world
 Warium:
   installDir:
     Warium: {}
@@ -871454,6 +871522,8 @@ You Died but a Necromancer revived you:
   steam:
     id: 260000
 "You Don't Know Jack Sports":
+  id:
+    lutris: you-dont-know-jack-sports
   installDir:
     YDKJ_SPORTS: {}
   launch:

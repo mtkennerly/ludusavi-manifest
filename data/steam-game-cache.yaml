@@ -411884,7 +411884,7 @@
       executable: Launcher/dowser.exe
       type: option1
   nameLocalized:
-    schinese: "Cities: Skylines II 都市：天际线2"
+    schinese: 《都市：天际线2》
 949290:
   cloud:
     saves:
@@ -583925,6 +583925,21 @@
       description: Standalone
       executable: The Jackbox Party Starter.exe
       type: default
+    - arguments: product/the-jackbox-party-starter
+      config:
+        betakey: latest
+        osarch: "64"
+        oslist: windows
+      description: via The Jackbox Games Megapicker
+      executable: launch_megapicker.exe
+      type: option1
+    - arguments: product/the-jackbox-party-starter
+      config:
+        betakey: latest
+        oslist: macos
+      description: via The Jackbox Games Megapicker
+      executable: launch_megapicker
+      type: option1
 1755830:
   cloud:
     saves:
@@ -584687,6 +584702,12 @@
         pattern: "*.sav"
         platforms:
           - Windows
+        root: WinAppDataLocal
+      - path: HumanitZ/Saved/SaveGames
+        pattern: "*.exr"
+        platforms:
+          - Windows
+        recursive: true
         root: WinAppDataLocal
   installDir: HumanitZ
   launch:
@@ -614317,7 +614338,7 @@
       description: release
       executable: Rogue_x64_Release.exe
       type: default
-    - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-lima.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode -force_enable_epicEOS -force_enable_eac_module -force_enable_eos_sdk -anticheat_settings=Settings_Release_PROD.json -allowclmismatch"
+    - arguments: " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-oscar.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode -force_enable_epicEOS -force_enable_eac_module -force_enable_eos_sdk -anticheat_settings=Settings_Release_PROD.json -allowclmismatch"
       config:
         betakey: qc-rel
         osarch: "64"
@@ -614355,13 +614376,13 @@
         oslist: windows
       description: Release
       executable: Rogue_x64_Release.exe
-    - arguments: "-proxylist BUC-WKS-PR1596.ubisoft.org -force_enable_epicEOS -force_enable_eos_sdk -nofullscreentutorials -proxylist_port 11001 -online -noserver -startgame -nophysdatecheck -ssl -noAssetScanner -no_game_proxy -sdfonly -retail_frontend -enabledebugui -nolatency -allowcutsceneskip -performance_tracking -enable_client_tracking  -uplay_launcher -upc_enable_dev_console -login_ubiservices -enable_mps_debug -dnatracking -allowclmismatch -sdfonly -uplay_steam_mode -anticheat_settings=Settings_Release_PROD.json -force_enable_eac_module"
+    - arguments: TheDivision2 --exe EACLaunch.exe -proxylist BUC-WKS-PR1596.ubisoft.org -force_enable_sen -force_enable_epiceos -force_enable_eos_sdk -force_enable_eac_module -nofullscreentutorials -proxylist_port 11001 -online -noserver -startgame -nophysdatecheck -ssl -noAssetScanner -no_game_proxy -sdfonly -retail_frontend -enabledebugui -nolatency -allowcutsceneskip -performance_tracking -enable_client_tracking -uplay_launcher -upc_enable_dev_console -login_ubiservices -enable_mps_debug -dnatracking -allowclmismatch -sdfonly -uplay_steam_mode -anticheat_settings=Settings_Release_UAT.json
       config:
         betakey: eac-release
         osarch: "64"
         oslist: windows
       description: eac-release
-      executable: EACLaunch.exe
+      executable: sen_launcher.exe
       type: default
   nameLocalized:
     schinese: 全境封锁2
@@ -633642,6 +633663,8 @@
     japanese: 堕落エルフ・フレイヤ
     schinese: 堕落精灵·芙蕾雅
     tchinese: 墮落精靈·芙蕾雅
+2652000:
+  state: outdated
 2653240:
   installDir: "Knight's Path The Tournament"
   launch:
@@ -634208,6 +634231,7 @@
   nameLocalized:
     japanese: 英雄伝説 黎の軌跡Ⅱ -CRIMSON SiN-
 2668510:
+  state: outdated
   installDir: Red Dead Redemption
   launch:
     - config:
@@ -644153,6 +644177,7 @@
   nameLocalized:
     japanese: 遊戯王 アーリーデイズコレクション
 3014080:
+  state: outdated
   cloud:
     saves:
       - path: "gamedata/savedata/{64BitSteamID}"
@@ -645355,6 +645380,7 @@
     schinese: 《牧灵奇旅》
     tchinese: 《牧群之旅》
 3048060:
+  state: outdated
   installDir: Trivia Murder Party 3
   launch:
     - config:
@@ -646465,6 +646491,7 @@
   nameLocalized:
     tchinese: 創世紀 IX：羽化昇天
 3067580:
+  state: outdated
   cloud:
     saves:
       - path: "UNDEROM1\\SAVE0"
@@ -651555,6 +651582,7 @@
   launch:
     - executable: DetectiveGame.exe
 3303010:
+  state: outdated
   installDir: Katana Dragon
   launch:
     - config:
@@ -661459,6 +661487,7 @@
     tchinese: 網球王子 心跳求生 Tie break ♡ game
 3907620: {}
 3907910:
+  state: outdated
   cloud:
     saves:
       - path: saved
@@ -665828,7 +665857,8 @@
     russian: "Смерш: Охотник на волков"
 4432150: {}
 4434610: {}
-4435490: {}
+4435490:
+  state: outdated
 4436520: {}
 4436840: {}
 4440650: {}
@@ -667261,6 +667291,8 @@
 5036490: {}
 5037200: {}
 5037250: {}
+5043840:
+  state: outdated
 5051080:
   cloud:
     saves:
@@ -667359,6 +667391,8 @@
         oslist: macos
       executable: Neon Breaker.app
       type: default
+5054700:
+  state: outdated
 5056390:
   cloud:
     saves:
@@ -667555,6 +667589,7 @@
 5244970: {}
 5254020: {}
 5257930:
+  state: outdated
   installDir: Heartfall — A Tale in Three Lives
   launch:
     - config:
