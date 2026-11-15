@@ -81274,6 +81274,17 @@ Better Off Tread:
   steam:
     id: 656070
 Better Than Dead:
+  files:
+    "<winLocalAppData>/BTD/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/BTD/Saved/SaveGames/Settings/MyOptions.sav":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     lutris: better-than-dead
   installDir:
@@ -363625,6 +363636,7 @@ INFRA:
       when:
         - os: windows
   id:
+    lutris: infra
     steamExtra:
       - 432450
   installDir:
@@ -706778,6 +706790,9 @@ Super Meat Boy 3D:
     Super Meat Boy 3D: {}
   steam:
     id: 3288210
+Super Meat Boy Again+:
+  steam:
+    id: 4269060
 Super Meat Boy Forever:
   cloud:
     epic: true

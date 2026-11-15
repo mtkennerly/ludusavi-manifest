@@ -26626,6 +26626,9 @@ Better Than Dead:
   lutris: better-than-dead
   pageId: 212274
   steam: 2599690
+  templates:
+    - "{{Game data/config|Windows|{{p|localappdata}}\\BTD\\Saved\\SaveGames\\Settings\\MyOptions.sav}}"
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\BTD\\Saved\\SaveGames\\*.sav}}"
 Between Horizons:
   cloud:
     gog: true
@@ -103044,7 +103047,6 @@ Grand Theft Auto VI:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Rockstar Games\\GTA III Definitive Edition\\Profiles\\{{p|uid}}\\|{{p|userprofile\\Documents}}\\Rockstar Games\\GTA Vice City Definitive Edition\\Profiles\\{{p|uid}}\\|{{p|userprofile\\Documents}}\\Rockstar Games\\GTA San Andreas Definitive Edition\\Profiles\\{{p|uid}}\\}}"
 "Grand Theft Auto: Vice City":
   lutris: grand-theft-auto-vice-city
-  malformed: true
   pageId: 994
   steam: 12110
   steamSide:
@@ -110056,6 +110058,8 @@ Heliborne:
   steam: 433530
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\JetCat Games\\Heliborne}}"
+Helicops:
+  pageId: 223278
 "Helicopter 2015: Natural Disasters":
   pageId: 48036
   steam: 350540
@@ -118743,6 +118747,7 @@ IN-VERT:
 INFRA:
   cloud:
     steam: true
+  lutris: infra
   pageId: 38345
   steam: 251110
   steamSide:
@@ -231377,6 +231382,9 @@ Super Meat Boy 3D:
     - 4196240
   templates:
     - "{{Game data/config|Microsoft Store|{{p|localappdata}}\\SMB\\Saved\\Config\\WinGDK}}"
+Super Meat Boy Again+:
+  pageId: 223281
+  steam: 4269060
 Super Meat Boy Forever:
   cloud:
     epic: true
