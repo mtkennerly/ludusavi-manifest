@@ -14222,7 +14222,6 @@ Aooni:
   steam: 2934190
 Aooni (2008):
   lutris: ao-oni
-  malformed: true
   pageId: 207717
 Aozameta Tsuki no Hikari:
   pageId: 214754
@@ -83383,6 +83382,9 @@ F-22 Total Air War:
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\PROGRAM\\game.cfg}}"
     - "{{Game data/saves|Windows|{{P|game}}\\PROGRAM\\players\\0\\}}"
+F-Zero X (G-Diffuser):
+  lutris: f-zero-x
+  pageId: 223269
 "F.D.N.Y. Firefighter: American Hero":
   pageId: 196170
   templates:
@@ -255283,6 +255285,8 @@ Theatre of Doom:
     steam: true
   pageId: 61142
   steam: 553020
+Theatre of Pain:
+  pageId: 223275
 Theatre of War:
   gog: 1671479615
   pageId: 171216
@@ -271320,6 +271324,7 @@ Valiant:
 "Valiant Hearts: Coming Home":
   cloud:
     uplay: true
+  lutris: valiant-hearts-coming-home
   pageId: 194791
   steam: 2741360
   templates:
