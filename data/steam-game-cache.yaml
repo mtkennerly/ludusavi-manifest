@@ -633664,7 +633664,45 @@
     schinese: 堕落精灵·芙蕾雅
     tchinese: 墮落精靈·芙蕾雅
 2652000:
-  state: outdated
+  installDir: The Jackbox Naughty Pack
+  launch:
+    - config:
+        oslist: macos
+      executable: The Jackbox Naughty Pack.app
+      type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Launcher.sh
+      type: default
+    - arguments: product/the-jackbox-naughty-pack
+      config:
+        osarch: "64"
+        oslist: windows
+      description: via The Jackbox Games Megapicker
+      executable: launch_mp.bat
+      type: option1
+    - config:
+        osarch: "64"
+        oslist: windows
+      description: Standalone
+      executable: The Jackbox Naughty Pack.exe
+      type: default
+    - arguments: product/the-jackbox-naughty-pack
+      config:
+        betakey: latest
+        osarch: "64"
+        oslist: windows
+      description: via The Jackbox Games Megapicker
+      executable: launch_megapicker.exe
+      type: option1
+    - arguments: product/the-jackbox-naughty-pack
+      config:
+        betakey: latest
+        oslist: macos
+      description: via The Jackbox Games Megapicker
+      executable: launch_megapicker
+      type: option1
 2653240:
   installDir: "Knight's Path The Tournament"
   launch:
@@ -634231,7 +634269,6 @@
   nameLocalized:
     japanese: 英雄伝説 黎の軌跡Ⅱ -CRIMSON SiN-
 2668510:
-  state: outdated
   installDir: Red Dead Redemption
   launch:
     - config:
@@ -644177,7 +644214,6 @@
   nameLocalized:
     japanese: 遊戯王 アーリーデイズコレクション
 3014080:
-  state: outdated
   cloud:
     saves:
       - path: "gamedata/savedata/{64BitSteamID}"
@@ -645380,7 +645416,6 @@
     schinese: 《牧灵奇旅》
     tchinese: 《牧群之旅》
 3048060:
-  state: outdated
   installDir: Trivia Murder Party 3
   launch:
     - config:
@@ -646491,7 +646526,6 @@
   nameLocalized:
     tchinese: 創世紀 IX：羽化昇天
 3067580:
-  state: outdated
   cloud:
     saves:
       - path: "UNDEROM1\\SAVE0"
@@ -651582,7 +651616,6 @@
   launch:
     - executable: DetectiveGame.exe
 3303010:
-  state: outdated
   installDir: Katana Dragon
   launch:
     - config:
@@ -661487,7 +661520,6 @@
     tchinese: 網球王子 心跳求生 Tie break ♡ game
 3907620: {}
 3907910:
-  state: outdated
   cloud:
     saves:
       - path: saved
@@ -664988,6 +665020,10 @@
   installDir: "Edgar Allan Poe's Interactive Horror 1995 Edition"
   launch:
     - executable: DarkEyeLauncher.exe
+4293850:
+  installDir: Wet Wealth
+  launch:
+    - executable: Wet Wealth.exe
 4295810:
   nameLocalized:
     english: "A Whisper of Fall: Jinyiwei"
@@ -665857,8 +665893,7 @@
     russian: "Смерш: Охотник на волков"
 4432150: {}
 4434610: {}
-4435490:
-  state: outdated
+4435490: {}
 4436520: {}
 4436840: {}
 4440650: {}
@@ -667291,8 +667326,7 @@
 5036490: {}
 5037200: {}
 5037250: {}
-5043840:
-  state: outdated
+5043840: {}
 5051080:
   cloud:
     saves:
@@ -667392,7 +667426,24 @@
       executable: Neon Breaker.app
       type: default
 5054700:
-  state: outdated
+  installDir: Fakin It XL
+  launch:
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: Launcher.sh
+      type: default
+    - arguments: product/fakin-it-xl
+      config:
+        osarch: "64"
+        oslist: windows
+      executable: launch_megapicker.exe
+      type: default
+    - arguments: product/fakin-it-xl
+      config:
+        oslist: macos
+      executable: launch_megapicker
+      type: default
 5056390:
   cloud:
     saves:
@@ -667589,7 +667640,6 @@
 5244970: {}
 5254020: {}
 5257930:
-  state: outdated
   installDir: Heartfall — A Tale in Three Lives
   launch:
     - config:

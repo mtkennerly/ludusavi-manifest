@@ -142989,7 +142989,7 @@ Machinarium:
     - 40703
   templates:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Amanita-Design.Machinarium\\|{{p|appdata}}\\Macromedia\\Flash Player\\#SharedObjects\\{{p|uid}}\\localhost\\{{p|game}}\\machinarium.sol}}"
-    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|steam}}\\40700\\remote\\}}"
+    - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\40700\\remote\\}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.macromedia/Flash_Player/#SharedObjects/{{p|uid}}/#localWithNet/|{{p|game}}/machinarium.sol}}"
 Machinarium 2:
   cloud:
@@ -194159,6 +194159,7 @@ Resident Evil 2:
   cloud:
     gog: true
   gog: 1534123252
+  lutris: resident-evil-2
   pageId: 21579
   steam: 4249110
   templates:
@@ -210153,6 +210154,8 @@ Shin Megami Tensei III Nocturne HD Remaster:
     - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\SMT5V\\Saved\\Config\\WinGDK\\}}"
     - "{{Game data/saves|Steam|{{P|appdata}}\\Sega\\SMT5V\\Steam\\{{P|uid}}\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|LOCALAPPDATA}}\\Packages\\SEGAofAmericaInc.654516CB659FE_s751p9cej88mt\\SystemAppData\\wgs\\}}"
+"Shin Megami Tensei: If...":
+  pageId: 223266
 "Shin Megami Tensei: Synchronicity Prologue":
   pageId: 74785
   templates:
@@ -277381,6 +277384,7 @@ Warhammer Survivors:
     steam: true
     xbox: true
   gog: 2068449424
+  lutris: warhammer-survivors
   pageId: 210540
   steam: 3669620
   templates:
@@ -279700,6 +279704,9 @@ Wet Girl:
 Wet Warfare:
   pageId: 112196
   steam: 914350
+Wet Wealth:
+  pageId: 223265
+  steam: 4293850
 Wetlands:
   gog: 1465732730
   lutris: wetlands

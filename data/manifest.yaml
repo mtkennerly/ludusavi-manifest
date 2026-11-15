@@ -260586,6 +260586,25 @@ Fake/SuperSonia:
   id:
     steamExtra:
       - 5309490
+  installDir:
+    Fakin It XL: {}
+  launch:
+    "<base>/Launcher.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/launch_megapicker":
+      - arguments: product/fakin-it-xl
+        when:
+          - os: mac
+            store: steam
+    "<base>/launch_megapicker.exe":
+      - arguments: product/fakin-it-xl
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 5054700
 Falcon:
@@ -437500,7 +437519,7 @@ Machinarium:
         - save
       when:
         - os: linux
-    "<root>/userdata/<root>/40700/remote":
+    "<root>/userdata/<storeUserId>/40700/remote":
       tags:
         - save
       when:
@@ -592382,6 +592401,8 @@ Resident Evil 2:
         - store: steam
   gog:
     id: 1534123252
+  id:
+    lutris: resident-evil-2
   installDir:
     4249110_Biohazard2: {}
   launch:
@@ -752635,6 +752656,23 @@ The Jackbox Naughty Pack:
   id:
     steamExtra:
       - 3233700
+  installDir:
+    The Jackbox Naughty Pack: {}
+  launch:
+    "<base>/Launcher.sh":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/The Jackbox Naughty Pack.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/The Jackbox Naughty Pack.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2652000
 The Jackbox Party Pack:
@@ -843097,6 +843135,8 @@ Warhammer Survivors:
         - store: steam
   gog:
     id: 2068449424
+  id:
+    lutris: warhammer-survivors
   installDir:
     Warhammer Survivors: {}
   launch:
@@ -850358,6 +850398,15 @@ Wet Warfare:
             store: steam
   steam:
     id: 914350
+Wet Wealth:
+  installDir:
+    Wet Wealth: {}
+  launch:
+    "<base>/Wet Wealth.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 4293850
 Wetlands:
   gog:
     id: 1465732730
