@@ -577691,9 +577691,17 @@
       - path: "Sunset Visitor Studios/1000xRESIST/{64BitSteamID}/cloud"
         pattern: "*"
         root: WinSavedGames
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinSavedGames
+        useInstead: MacAppSupport
   installDir: 1000xRESIST
   launch:
-    - executable: 1000xRESIST.exe
+    - config:
+        oslist: windows
+      executable: 1000xRESIST.exe
       type: default
     - config:
         oslist: macos
@@ -600669,6 +600677,83 @@
   nameLocalized:
     schinese: 《地下城守护者黄金版™》
     tchinese: 《地城守護者黃金版™》
+1996640:
+  cloud:
+    saves:
+      - path: DOS/GAMEDAT
+        pattern: SAVEGAME.WLD
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: Kilrathi_Saga/GAMEDAT
+        pattern: SAVEGAME.WLD
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: Origin Systems/Wing Commander 1
+        pattern: SAVEGAME.WLD
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+      - path: WCAT/files/GAMEWC1
+        pattern: "*.WLD"
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+  installDir: Wing Commander
+  launch:
+    - config:
+        oslist: windows
+      description: Wing Commander - Kilrathi Saga Wcdx
+      executable: "Kilrathi_Saga\\WC_wcdx_Enhanced.exe"
+      type: option1
+      workingdir: "Kilrathi_Saga\\"
+    - config:
+        oslist: windows
+      description: Wing Commander Secret Missions - Kilrathi Saga Wcdx
+      executable: "Kilrathi_Saga\\WC_SM1_wcdx_Enhanced.exe"
+      type: option1
+      workingdir: Kilrathi_Saga
+    - description: Wing Commander Secret Missions 2 - Kilrathi Saga Wcdx
+      executable: "Kilrathi_Saga\\WC_SM2_wcdx_Enhanced.exe"
+      type: option1
+      workingdir: Kilrathi_Saga
+    - description: " Wing Commander & Secret Missions - WCAT"
+      executable: "WCAT\\Wing Commander.exe"
+      type: option1
+      workingdir: WCAT
+    - description: Wing Commander & Secret Missions - DOS
+      executable: "DOS\\DOSBOX\\Wing Commander.exe"
+      type: option1
+      workingdir: "DOS\\DOSBOX"
+  nameLocalized:
+    brazilian: Edição de 35º Aniversário de Wing Commander™
+    czech: "Wing Commander™: 35th Anniversary Edition"
+    danish: "Wing Commander™: 35-års jubilæumsudgave"
+    dutch: "Wing Commander™: 35th Anniversary Edition"
+    english: "Wing Commander™: 35th Anniversary Edition"
+    finnish: "Wing Commander™: 35th Anniversary Edition"
+    french: "Wing Commander™: édition 35e anniversaire"
+    german: "Wing Commander™: 35th Anniversary Edition"
+    italian: "Wing Commander™: Anniversary Edition del 35° anniversario"
+    japanese: "Wing Commander™: 35th Anniversary Edition"
+    koreana: "Wing Commander™: 35주년 애니버서리 에디션"
+    latam: "Wing Commander™: Edición del 35.º aniversario"
+    norwegian: "Wing Commander™: 35th Anniversary Edition"
+    polish: "Wing Commander™: Edycja Jubileuszowa na 35-lecie"
+    portuguese: "Wing Commander™: Edição de Aniversário de 35 anos"
+    russian: "Wing Commander™: издание \"35-я годовщина\""
+    schinese: 《银河飞将™》35 周年纪念版
+    spanish: "Wing Commander™: Edición del 35.º aniversario"
+    swedish: "Wing Commander™: 35th Anniversary Edition"
+    tchinese: 《銀河飛將™》：35 週年紀念版
+    thai: "Wing Commander™: 35th Anniversary Edition"
+    turkish: "Wing Commander™: 35th Anniversary Edition"
+    ukrainian: "Wing Commander™: видання до 35-ї річниці"
 1996770:
   cloud:
     saves:
@@ -601774,6 +601859,103 @@
   nameLocalized:
     schinese: 进击的机甲球
     tchinese: 進擊的機甲球
+2008730:
+  cloud:
+    saves:
+      - path: DOS/GAMEDAT
+        pattern: SAVEGAME.WC2
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: Kilrathi_Saga/GAMEDAT
+        pattern: SAVEGAME.WC2
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: Origin Systems/Wing Commander 2
+        pattern: SAVEGAME.WC2
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+      - path: WCAT/files/GAMEWC2
+        pattern: SAVEGAME.WC2
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: WCAT/files/GAMEWC2
+        pattern: SAVEGAME.SO1
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: WCAT/files/GAMEWC2
+        pattern: SAVEGAME.SO2
+        platforms:
+          - Windows
+        recursive: true
+        root: gameinstall
+      - path: Origin Systems/Wing Commander 2
+        pattern: savegame.so1
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+      - path: Origin Systems/Wing Commander 2
+        pattern: savegame.so2
+        platforms:
+          - Windows
+        recursive: true
+        root: WinSavedGames
+  installDir: Wing Commander II
+  launch:
+    - config:
+        oslist: windows
+      description: Wing Commander II - Kilrathi Saga Wcdx
+      executable: "Kilrathi_Saga\\WC2_wcdx_Enhanced.exe"
+      type: option1
+      workingdir: Kilrathi_Saga
+    - config:
+        oslist: windows
+      description: Wing Commander II Secret Operations 1 - Kilrathi Saga Wcdx
+      executable: "Kilrathi_Saga\\WC2_SO1_wcdx_Enhanced.exe"
+      type: option1
+      workingdir: Kilrathi_Saga
+    - config:
+        oslist: windows
+      description: Wing Commander II Secret Operations 2 - Kilrathi Saga Wcdx
+      executable: "Kilrathi_Saga\\WC2_SO2_wcdx_Enhanced.exe"
+      type: option1
+      workingdir: Kilrathi_Saga
+    - config:
+        oslist: windows
+      description: Wing Commander II & Secret Operations - WCAT
+      executable: "WCAT\\Wing Commander II.exe"
+      type: option1
+      workingdir: WCAT
+    - config:
+        oslist: windows
+      description: Wing Commander II & Secret Operations - DOS
+      executable: "DOS\\DOSBOX\\Wing Commander II.exe"
+      type: option1
+      workingdir: "DOS\\DOSBOX"
+  nameLocalized:
+    brazilian: "Edição de 35º Aniversário de Wing Commander™ II: Vengeance of the Kilrathi"
+    danish: "Wing Commander™ II: Vengeance of the Kilrathi: 35-års jubilæumsudgave"
+    french: "Wing Commander™ II: Vengeance of the Kilrathi: édition 35e anniversaire"
+    italian: "Wing Commander™ II: Vengeance of the Kilrathi: Anniversary Edition del 35° anniversario"
+    koreana: "Wing Commander™ II: Vengeance of the Kilrathi: 35주년 애니버서리 에디션"
+    latam: "Wing Commander™ II: Vengeance of the Kilrathi: Edición del 35.º aniversario"
+    polish: "Wing Commander™ II: Vengeance of the Kilrathi: Edycja Jubileuszowa na 35-lecie"
+    portuguese: "Wing Commander™ II: Vengeance of the Kilrathi: Edição de Aniversário de 35 anos"
+    russian: "Wing Commander™ II: Vengeance of the Kilrathi: издание \"35-я годовщина\""
+    schinese: 《银河飞将™ II：帝国逆袭》35 周年纪念版
+    spanish: "Wing Commander™ II: Vengeance of the Kilrathi: Edición del 35.º aniversario"
+    tchinese: 《銀河飛將™2：帝國逆襲》：35 週年紀念版
+    ukrainian: "Wing Commander™ II: Vengeance of the Kilrathi — видання до 35-ї річниці"
 2008740:
   cloud:
     saves:
@@ -644125,7 +644307,7 @@
       type: default
     - config:
         oslist: macos
-      executable: Winter Burrow.app/Contents/MacOS/Winter Burrow
+      executable: Winter Burrow.app
       type: default
   nameLocalized:
     schinese: 林间暖巢 Winter Burrow
@@ -645608,6 +645790,8 @@
       executable: DevilConnection.app
   nameLocalized:
     english: DevilConnection
+    schinese: 恶魔连结
+    tchinese: 惡魔連結
 3054960:
   installDir: Into The Dread
   launch:
@@ -653338,7 +653522,17 @@
   nameLocalized:
     english: Call of Clans
     tchinese: 部落召喚
-3384600: {}
+3384600:
+  nameLocalized:
+    english: Professor Layton and the New World of Steam
+    french: Professeur Layton et le Nouveau Monde à vapeur
+    german: Professor Layton und die Neue Welt des Dampfes
+    italian: Il professor Layton e il Nuovo Mondo a vapore
+    japanese: レイトン教授と蒸気の新世界
+    koreana: 레이튼 교수와 증기의 신세계
+    schinese: 雷顿教授与蒸汽新世界
+    spanish: El profesor Layton y el Nuevo Mundo a vapor
+    tchinese: 雷頓教授與蒸氣新世界
 3384890:
   installDir: Ascent DX
   launch:

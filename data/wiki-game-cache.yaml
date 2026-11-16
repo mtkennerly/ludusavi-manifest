@@ -30988,8 +30988,11 @@ Bloodshed:
     gog: true
     steam: true
   gog: 1525025499
+  lutris: bloodshed
   pageId: 204777
   steam: 2747550
+  steamSide:
+    - 3240090
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\com8com1\\Bloodshed\\savedata.*}}"
 Bloodsports.TV:
@@ -35612,6 +35615,8 @@ Bug Attack!:
 Bug Battle:
   pageId: 77168
   steam: 752000
+Bug Bomber:
+  pageId: 223288
 "Bug Fables: The Everlasting Sapling":
   cloud:
     gog: true
@@ -74307,7 +74312,7 @@ Dynasty Feud:
   pageId: 16672
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\KOEI\\{{LocalizedPath|Dynasty Warriors 4 Hyper}}\\*.*}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KOEI\\{{LocalizedPath|Dynasty Warriors 4 Hyper}}\\Savedata\\*.dat}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\KOEI\\{{LocalizedPath|Dynasty Warriors 4 Hyper}}\\Savedata\\save.dat}}"
 Dynasty Warriors 6:
   lutris: dynasty-warriors-6
   pageId: 5157
@@ -184319,6 +184324,8 @@ Professor Fizzwizzle and the Molten Mystery:
 Professor Layton and the Curious Village Remake:
   pageId: 220333
 Professor Layton and the New World of Steam:
+  cloud:
+    steam: true
   pageId: 215534
   steam: 3384600
 Professor Lupo and His Horrible Pets:
@@ -212497,6 +212504,10 @@ SimTown:
   pageId: 19817
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\*.twn}}"
+SimTractor:
+  pageId: 223290
+  templates:
+    - "{{Game data/saves|Windows|{{p|game}}\\SAV\\}}"
 SimTunes:
   pageId: 19716
   templates:
@@ -281592,11 +281603,15 @@ Wing Commander:
   cloud:
     gog: true
     origin: true
-  gog: 1207662643
+    steam: true
+  gog: 1869711514
   gogSide:
     - 1207658960
+    - 1207662643
+    - 1455015764
   lutris: wing-commander
   pageId: 11569
+  steam: 1996640
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\GAMEDAT\\SAVEGAME.WLD}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GAMEDAT\\SAVEGAME.WLD}}"
@@ -281604,11 +281619,15 @@ Wing Commander:
   cloud:
     gog: true
     origin: true
-  gog: 1207662653
+    steam: true
+  gog: 2101061506
   gogSide:
     - 1207658960
+    - 1207662653
+    - 1953987828
   lutris: wing-commander-ii-deluxe-edition
   pageId: 11573
+  steam: 2008730
   templates:
     - "{{Game data/saves|DOS|{{p|game}}\\GAMEDAT\\SAVEGAME.WC2}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GAMEDAT\\SAVEGAME.WC2}}"

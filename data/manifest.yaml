@@ -1143,7 +1143,8 @@ $1 Ride:
             store: steam
     "<base>/1000xRESIST.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   registry:
     HKEY_CURRENT_USER/Software/sunset visitor 斜陽過客/1000xRESIST:
       tags:
@@ -94683,6 +94684,10 @@ Bloodshed:
         - os: windows
   gog:
     id: 1525025499
+  id:
+    lutris: bloodshed
+    steamExtra:
+      - 3240090
   installDir:
     Bloodshed: {}
   launch:
@@ -229039,7 +229044,7 @@ Dynasty Feud:
         - config
       when:
         - os: windows
-    "<winDocuments>/KOEI/Dynasty Warriors 4 Hyper/Savedata/*.dat":
+    "<winDocuments>/KOEI/Dynasty Warriors 4 Hyper/Savedata/save.dat":
       tags:
         - save
       when:
@@ -561833,6 +561838,8 @@ Professor Fizzwizzle and the Molten Mystery:
   steam:
     id: 50910
 Professor Layton and the New World of Steam:
+  cloud:
+    steam: true
   steam:
     id: 3384600
 Professor Lupo and His Horrible Pets:
@@ -648273,6 +648280,13 @@ SimSafari:
     "<winDir>/smsafari.ini":
       tags:
         - config
+      when:
+        - os: windows
+SimTractor:
+  files:
+    "<base>/SAV":
+      tags:
+        - save
       when:
         - os: windows
 SimTunes:
@@ -856233,6 +856247,7 @@ Wing Commander:
   cloud:
     gog: true
     origin: true
+    steam: true
   files:
     "<base>/GAMEDAT/SAVEGAME.WLD":
       tags:
@@ -856241,15 +856256,22 @@ Wing Commander:
         - os: dos
         - os: windows
   gog:
-    id: 1207662643
+    id: 1869711514
   id:
     gogExtra:
       - 1207658960
+      - 1207662643
+      - 1455015764
     lutris: wing-commander
+  installDir:
+    Wing Commander: {}
+  steam:
+    id: 1996640
 "Wing Commander II: Vengeance of the Kilrathi":
   cloud:
     gog: true
     origin: true
+    steam: true
   files:
     "<base>/GAMEDAT/SAVEGAME.WC2":
       tags:
@@ -856258,11 +856280,17 @@ Wing Commander:
         - os: dos
         - os: windows
   gog:
-    id: 1207662653
+    id: 2101061506
   id:
     gogExtra:
       - 1207658960
+      - 1207662653
+      - 1953987828
     lutris: wing-commander-ii-deluxe-edition
+  installDir:
+    Wing Commander II: {}
+  steam:
+    id: 2008730
 "Wing Commander III: Heart of the Tiger":
   cloud:
     gog: true
@@ -856971,7 +856999,7 @@ Winter Burrow:
   installDir:
     Winter Burrow: {}
   launch:
-    "<base>/Winter Burrow.app/Contents/MacOS/Winter Burrow":
+    "<base>/Winter Burrow.app":
       - when:
           - os: mac
             store: steam

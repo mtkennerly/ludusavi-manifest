@@ -4036,6 +4036,7 @@
 * [Budo War Girl: Maid of Desire](https://www.pcgamingwiki.com/wiki/?curid=156324)
 * [Buffy Stole Your Sandwich](https://www.pcgamingwiki.com/wiki/?curid=72923)
 * [Bug Battle](https://www.pcgamingwiki.com/wiki/?curid=77168)
+* [Bug Bomber](https://www.pcgamingwiki.com/wiki/?curid=223288)
 * [Bug Invaders](https://www.pcgamingwiki.com/wiki/?curid=80849)
 * [Bug Killers](https://www.pcgamingwiki.com/wiki/?curid=66175)
 * [Bug N Out](https://www.pcgamingwiki.com/wiki/?curid=43223)
