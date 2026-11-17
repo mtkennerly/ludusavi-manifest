@@ -13019,6 +13019,8 @@ A.D. 2044:
         - os: windows
   gog:
     id: 2075976504
+  id:
+    lutris: ad-2044
 A.I. Invasion:
   id:
     steamExtra:
@@ -74931,7 +74933,7 @@ Battlefleet Engineer:
   installDir:
     Battlefleet Gothic Armada II: {}
   launch:
-    "<base>/BattlefleetGothic2.exe":
+    "<base>/BattlefleetGothic2-Win64-Shipping.exe":
       - when:
           - bit: 64
             os: windows
@@ -173144,6 +173146,11 @@ DOWN MEANS UP:
             store: steam
   steam:
     id: 1980920
+"DPS: Desktop Pension Squad":
+  cloud:
+    steam: true
+  steam:
+    id: 5135440
 DR LIVESEY ROM AND DEATH EDITION:
   installDir:
     DR LIVESEY GIGA BASED EDITION: {}
@@ -199821,9 +199828,16 @@ DevilConnection:
   cloud:
     steam: true
   files:
-    "<base>/_storage/**/*.sav":
+    "<base>/_storage/DevilConnection_sf.sav":
+      tags:
+        - config
       when:
-        - store: steam
+        - os: windows
+    "<base>/_storage/DevilConnection_tyrano_data.sav":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     でびるコネクショん: {}
   launch:
@@ -210838,6 +210852,9 @@ Donkey Kong 64:
         - save
       when:
         - os: linux
+Donkey Kong Bananza (DKB Recomp):
+  id:
+    lutris: donkey-kong-bananza
 Donkey Xote:
   files:
     "<base>/SaveGame.sav":
@@ -300214,6 +300231,7 @@ Gates of Nowhere:
     id: 614260
 Gates of Skeldal:
   cloud:
+    gog: true
     steam: true
   files:
     "<base>/sav.*":
@@ -300222,6 +300240,8 @@ Gates of Skeldal:
       when:
         - os: dos
         - os: windows
+  gog:
+    id: 1399674434
   id:
     lutris: brany-skeldalu
   installDir:
@@ -373398,6 +373418,8 @@ Insane (2016):
   steam:
     id: 452930
 Insane 2:
+  cloud:
+    steam: true
   files:
     "<root>/userdata/<storeUserId>/35320/remote":
       tags:
@@ -503104,6 +503126,9 @@ Nivalis Nights:
           - store: steam
   steam:
     id: 1488490
+No Asteroids:
+  steam:
+    id: 5527800
 No Body Home:
   steam:
     id: 794420
@@ -510015,6 +510040,9 @@ Obey Me:
   steam:
     id: 1034890
 "Obey Me! Sinner's Choice: Lucifer":
+  id:
+    steamExtra:
+      - 5282320
   steam:
     id: 4444800
 "Object \"Cleaning\"":
@@ -583656,6 +583684,8 @@ Reagan Gorbachev:
         - os: windows
   gog:
     id: 1911151506
+  id:
+    lutris: reah-face-the-unknown
 Reaktron:
   installDir:
     reaktron: {}
@@ -631483,6 +631513,9 @@ Selini:
         - save
       when:
         - os: windows
+  id:
+    steamExtra:
+      - 5132160
   installDir:
     SelkieSalvage&Co: {}
   launch:
@@ -677188,6 +677221,8 @@ Spirit Arena:
   steam:
     id: 2113850
 Spirit Crossing:
+  installDir:
+    Spirit Crossing: {}
   steam:
     id: 2321960
 Spirit Fighters:
@@ -717189,25 +717224,6 @@ TANKNAROK:
             store: steam
   steam:
     id: 1029760
-"TANUKI: Pon's Summer":
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/Denkiworks/TANUKI_ Pon's Summer/SaveData":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    "TANUKI Pon's Summer": {}
-  launch:
-    "<base>/TANUKI Pon's Summer.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
-  steam:
-    id: 3218570
 TAOTH - The Adventures of the Herkulez:
   installDir:
     TAOTH: {}
@@ -724396,6 +724412,29 @@ Tannenberg:
 "Tano's Fate":
   steam:
     id: 888910
+"Tanuki: Pon's Summer":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Denkiworks/TANUKI_ Pon's Summer/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    "TANUKI Pon's Summer": {}
+  launch:
+    "<base>/TANUKI Pon's Summer.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  registry:
+    "HKEY_CURRENT_USER/SOFTWARE/Denkiworks/TANUKI: Pon's Summer":
+      tags:
+        - config
+  steam:
+    id: 3218570
 Tanzia:
   files:
     "<home>/AppData/LocalLow/Arcanity/Tanzia/*.autosave":
@@ -803803,6 +803842,8 @@ Trees Hate You:
     lutris: trees-hate-you
     steamExtra:
       - 4307190
+      - 5364210
+      - 5378320
   steam:
     id: 4171850
 Treis Zoes:

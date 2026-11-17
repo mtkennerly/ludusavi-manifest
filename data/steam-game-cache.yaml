@@ -27230,29 +27230,29 @@
   installDir: Anodyne
   launch:
     - config:
-        oslist: windows
-      description: Remaster (Recommended)
-      executable: "Remake\\AnodyneSharp.exe"
-      type: option1
-    - config:
         oslist: macos
-      description: Remaster (Recommended)
+      description: "Remaster (Less Historically Accurate, but More Compatible)"
       executable: Remake/Anodyne.app
-      type: option1
+      type: option2
     - config:
         oslist: linux
-      description: Remaster (Recommended)
+      description: "Remaster (Original doesn't work on Linux natively)"
       executable: "./Remake/AnodyneSharp"
       type: option1
     - config:
         oslist: windows
-      description: Anodyne Classic (Not Recommended)
+      description: Anodyne Classic (Recommended - use Remaster if incompatible)
       executable: Anodyne.exe
-      type: option2
+      type: option1
     - config:
         oslist: macos
-      description: Anodyne Classic (Not Recommended)
+      description: Anodyne Classic (Recommended - use Remaster if incompatible)
       executable: Anodyne1.6.app
+      type: option1
+    - config:
+        oslist: windows
+      description: Remaster (Less Historically Accurate)
+      executable: "Remake\\AnodyneSharp.exe"
       type: option2
   nameLocalized:
     japanese: Anodyne (アノダイン)
@@ -220283,7 +220283,7 @@
     - config:
         osarch: "64"
         oslist: windows
-      executable: BattlefleetGothic2.exe
+      executable: BattlefleetGothic2-Win64-Shipping.exe
       type: default
     - arguments: "-NoEAC"
       config:
@@ -251412,22 +251412,16 @@
   installDir: SiN Reloaded
   launch:
     - config:
-        betakey: "default,beta"
+        betakey: default
         osarch: "64"
         oslist: windows
       executable: SiNReloaded.exe
       type: default
     - config:
-        betakey: beta
+        betakey: "community,beta"
         osarch: "64"
         oslist: windows
-      executable: SiNReloaded_Dedicated.exe
-      type: server
-    - config:
-        betakey: community
-        osarch: "64"
-        oslist: windows
-      executable: isis_Shipping_Steam_x64.exe
+      executable: isis_Shipping_Playfab_Steam_x64.exe
       type: default
 633060:
   installDir: Orwell Ignorance is Strength
@@ -619712,8 +619706,166 @@
     schinese: "星河战队: 终焉虫潮"
     tchinese: "星艦戰將: 終焉蟲潮"
 2321960:
+  installDir: Spirit Crossing
+  launch:
+    - arguments: "-OzyEnvironment=ProdLive -OzyLabel=prod-live"
+      config:
+        betakey: default
+        osarch: "64"
+        oslist: windows
+      description: "Default branch, should be updated to point to prod-live in due course"
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=main-dev -installed"
+      config:
+        betakey: main-dev
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=playtest-activities-1 -installed"
+      config:
+        betakey: playtest-activities-1
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=game-capture -installed"
+      config:
+        betakey: game-capture
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=qa-1 -installed"
+      config:
+        betakey: qa-1
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=qa-2 -installed"
+      config:
+        betakey: qa-2
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=qa-3 -installed"
+      config:
+        betakey: qa-3
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=qa-4 -installed"
+      config:
+        betakey: qa-4
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=qa-ftue-1 -installed"
+      config:
+        betakey: qa-ftue-1
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=qa-ftue-2 -installed"
+      config:
+        betakey: qa-ftue-2
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainLive -OzyLabel=main-live -installed"
+      config:
+        betakey: main-live
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=qa-ftue-4 -installed"
+      config:
+        betakey: qa-ftue-4
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=playtest-activities-2 -installed"
+      config:
+        betakey: playtest-activities-2
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=playtest-onboarding-1 -installed"
+      config:
+        betakey: playtest-onboarding-1
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=playtest-onboarding-2 -installed"
+      config:
+        betakey: playtest-onboarding-2
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=locqa -installed"
+      config:
+        betakey: locqa
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=qa-ftue-3 -installed"
+      config:
+        betakey: qa-ftue-3
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=tc-development -installed"
+      config:
+        betakey: tc-development
+        osarch: "64"
+        oslist: windows
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainLive -OzyLabel=engine-upgrade -installed"
+      config:
+        betakey: engine-upgrade
+        osarch: "64"
+        oslist: windows
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=sc-preview -installed"
+      config:
+        betakey: sc-preview
+        osarch: "64"
+        oslist: windows
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=NextDev -OzyLabel=next-dev -installed"
+      config:
+        betakey: next-dev
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=NextLive -OzyLabel=next-live -installed"
+      config:
+        betakey: next-live
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=ProdDev -OzyLabel=prod-dev --installed"
+      config:
+        betakey: prod-dev
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=ProdLive -OzyLabel=prod-live"
+      config:
+        betakey: prod-live
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=steam -installed"
+      config:
+        betakey: steam
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
+    - arguments: "-OzyEnvironment=MainDev -OzyLabel=server-hotfix -installed"
+      config:
+        betakey: server-hotfix
+        osarch: "64"
+        oslist: windows
+      description: Select Me
+      executable: SpiritCrossingClient.exe
   nameLocalized:
+    japanese: クロスランド せいれいたちとつむぐせかい
+    koreana: "크로스랜드: 정령과 함께"
     schinese: 灵渡之境
+    tchinese: 靈渡之境
 2322010:
   cloud:
     saves:
@@ -649821,6 +649973,7 @@
     english: KINGDOM HEARTS IV
 3218100: {}
 3218570:
+  state: outdated
   cloud:
     saves:
       - path: "Denkiworks/TANUKI_ Pon's Summer/SaveData"
@@ -656229,6 +656382,7 @@
         oslist: windows
       executable: BoltgunWOV.exe
 3533830:
+  state: outdated
   cloud:
     saves:
       - path: Skeldal
@@ -658452,6 +658606,7 @@
       executable: "This Isn't Just Tower Defense.exe"
       type: default
 3654560:
+  state: outdated
   cloud:
     saves:
       - path: PopCap Games/PvZ Replanted/
@@ -660894,6 +661049,7 @@
 3838790: {}
 3839180: {}
 3841510:
+  state: outdated
   cloud:
     saves:
       - path: KoeiTecmo/DW3CE_RE/Saved/SaveGames
@@ -663126,6 +663282,7 @@
     schinese: 异界揭踪／ANOMALITH
     tchinese: 異界揭蹤／ANOMALITH
 4019220:
+  state: outdated
   cloud:
     saves:
       - path: Cozy Lives/Dressmaker
@@ -663585,6 +663742,7 @@
   nameLocalized:
     schinese: 迷界：异常货运
 4069520:
+  state: outdated
   installDir: Super Battle Golf
   launch:
     - config:
@@ -664326,7 +664484,8 @@
         oslist: windows
       executable: Veil_of_Mist.exe
       type: default
-4171850: {}
+4171850:
+  state: outdated
 4172530:
   installDir: Legend of YMIR
   launch:
@@ -666095,6 +666254,7 @@
 4441710: {}
 4444610: {}
 4444800:
+  state: outdated
   nameLocalized:
     english: "Obey Me! Sinner's Choice: Lucifer"
     japanese: "Obey Me! Sinner's Choice: Lucifer"
@@ -666834,6 +666994,7 @@
   nameLocalized:
     japanese: めっちゃカメレオン
 4705510:
+  state: outdated
   installDir: Happy Wheels
   launch:
     - config:
@@ -667016,6 +667177,7 @@
 4752390: {}
 4757750: {}
 4760480:
+  state: outdated
   cloud:
     saves:
       - path: My Games/YaE_Absolute/savegames
@@ -667083,6 +667245,7 @@
     spanish: "Polican: Vuelta a la Carga"
     tchinese: "超狗神探 : 汪者歸來  "
 4795460:
+  state: outdated
   installDir: The Citadel Project
   launch:
     - executable: TheCitadelProject.exe
@@ -667458,6 +667621,7 @@
 4980620: {}
 4981370: {}
 4984870:
+  state: outdated
   cloud:
     saves:
       - path: Selkies Salvage
@@ -667519,7 +667683,8 @@
       executable: Cluttermancer.exe
       type: default
 5036490: {}
-5037200: {}
+5037200:
+  state: outdated
 5037250: {}
 5043840: {}
 5051080:
@@ -667774,6 +667939,8 @@
         osarch: "64"
         oslist: windows
       executable: "Can 'Em All.exe"
+5135440:
+  state: outdated
 5138990: {}
 5141030: {}
 5178570:
@@ -667946,5 +668113,7 @@
   nameLocalized:
     schinese: 炸了还是烟花
 5511700: {}
+5527800:
+  state: outdated
 34004563: {}
 3221903386: {}

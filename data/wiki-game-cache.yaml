@@ -4003,6 +4003,7 @@ A-Vroom!:
   steam: 1159070
 A.D. 2044:
   gog: 2075976504
+  lutris: ad-2044
   pageId: 76799
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\save0009.dta}}"
@@ -47984,6 +47985,8 @@ Combat Chess:
 Combat Core:
   pageId: 36187
   steam: 405670
+Combat Course:
+  pageId: 223297
 Combat Force:
   pageId: 150832
   steam: 1172430
@@ -55510,6 +55513,8 @@ Cyberball:
   pageId: 208117
 Cyberball (1990):
   pageId: 221975
+Cyberblast:
+  pageId: 223302
 "Cyberbykes: Shadow Racer VR":
   pageId: 202639
 Cybercube:
@@ -56212,6 +56217,11 @@ DOWN MEANS UP:
 "DPET : Desktop Pet Engine":
   pageId: 178357
   steam: 1980920
+"DPS: Desktop Pension Squad":
+  cloud:
+    steam: true
+  pageId: 223305
+  steam: 5135440
 DQ Tycoon:
   pageId: 221959
 DR LIVESEY ROM AND DEATH EDITION:
@@ -64825,8 +64835,8 @@ DevilConnection:
   pageId: 210394
   steam: 3054820
   templates:
-    - "{{Game data/config|Windows|{{p|steamlibrary}}/steamapps/common/でびるコネクショん/_storage/DevilConnection_sf.sav}}"
-    - "{{Game data/saves|Windows|{{p|steamlibrary}}/steamapps/common/でびるコネクショん/_storage/DevilConnection_tyrano_data.sav}}"
+    - "{{Game data/config|Windows|{{p|game}}\\_storage\\DevilConnection_sf.sav}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\_storage\\DevilConnection_tyrano_data.sav}}"
 "DevilShaft: TheTower":
   pageId: 132349
   steam: 1054900
@@ -65939,6 +65949,8 @@ Dino Trauma:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\DinoTrauma\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\DinoTrauma\\}}"
+Dino Wars:
+  pageId: 223304
 Dino and Aliens:
   pageId: 218877
 DinoBlaster:
@@ -68531,6 +68543,9 @@ Donkey Kong:
     - "{{Game data/config|Linux|{{p|xdgconfighome}}\\DK64Recompiled\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\DK64Recompiled\\saves\\|ref=<ref name=\"recomp-readme\"/>}}"
     - "{{Game data/saves|Linux|{{p|xdgconfighome}}\\DK64Recompiled\\saves\\|ref=<ref name=\"recomp-readme\"/>}}"
+Donkey Kong Bananza (DKB Recomp):
+  lutris: donkey-kong-bananza
+  pageId: 223308
 "Donkey Kong: Redux":
   pageId: 200596
 Donkey Xote:
@@ -97957,7 +97972,9 @@ Gates of Nowhere:
   steam: 614260
 Gates of Skeldal:
   cloud:
+    gog: true
     steam: true
+  gog: 1399674434
   lutris: brany-skeldalu
   pageId: 136260
   steam: 3533830
@@ -121933,6 +121950,8 @@ Insane (2016):
   pageId: 51016
   steam: 452930
 Insane 2:
+  cloud:
+    steam: true
   pageId: 40842
   steam: 35320
   templates:
@@ -164897,6 +164916,9 @@ Nivalis Nights:
   templates:
     - "{{Game data/config|Windows}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\ION LANDS\\Nivalis Nights\\}}"
+No Asteroids:
+  pageId: 223307
+  steam: 5527800
 No Body Home:
   pageId: 122784
   steam: 794420
@@ -167197,6 +167219,8 @@ Obey Me:
 "Obey Me! Sinner's Choice: Lucifer":
   pageId: 218281
   steam: 4444800
+  steamSide:
+    - 5282320
 "Object \"Cleaning\"":
   pageId: 80960
   steam: 781880
@@ -191320,6 +191344,7 @@ Reagan Gorbachev:
   steam: 364720
 "Reah: Face the Unknown":
   gog: 1911151506
+  lutris: reah-face-the-unknown
   pageId: 83155
   templates:
     - "{{Game data/saves|Windows|{{P|game}}\\Reah.s*}}"
@@ -207056,6 +207081,8 @@ Selini:
     steam: true
   pageId: 222783
   steam: 4984870
+  steamSide:
+    - 5132160
   templates:
     - "{{Game data/config|Windows|{{P|appdata}}\\Selkies Salvage\\playerconfig.tres}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Selkies Salvage\\save*.tres}}"
@@ -234801,14 +234828,6 @@ TAKANARIA:
 TANKNAROK:
   pageId: 136100
   steam: 1029760
-"TANUKI: Pon's Summer":
-  cloud:
-    steam: true
-    xbox: true
-  pageId: 223114
-  steam: 3218570
-  templates:
-    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Denkiworks\\TANUKI_ Pon's Summer\\SaveData}}"
 TAOTH - The Adventures of the Herkulez:
   pageId: 78030
   steam: 749470
@@ -237077,6 +237096,17 @@ Tannenberg:
 "Tano's Fate":
   pageId: 98926
   steam: 888910
+"Tanuki: Pon's Summer":
+  cloud:
+    steam: true
+    xbox: true
+  pageId: 223114
+  renamedFrom:
+    - "TANUKI: Pon's Summer"
+  steam: 3218570
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Denkiworks\\TANUKI: Pon's Summer\\}}"
+    - "{{Game data/saves|Windows|{{p|USERPROFILE}}\\AppData\\LocalLow\\Denkiworks\\TANUKI_ Pon's Summer\\SaveData}}"
 Tanzia:
   pageId: 39011
   steam: 369700
@@ -264057,6 +264087,8 @@ Trees Hate You:
   steam: 4171850
   steamSide:
     - 4307190
+    - 5364210
+    - 5378320
 Treis Zoes:
   pageId: 157265
   steam: 1202430
