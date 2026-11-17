@@ -53671,6 +53671,8 @@ Asphyxia:
         - config
       when:
         - os: windows
+  id:
+    lutris: assassins-creed-iii-remastered
   installDir:
     "Assassin's Creed III Remastered": {}
   steam:
@@ -53910,6 +53912,7 @@ Asphyxia:
       when:
         - os: windows
   id:
+    lutris: assassins-creed-shadows
     steamExtra:
       - 3362550
       - 3362570
@@ -53994,6 +53997,8 @@ Asphyxia:
         - config
       when:
         - os: windows
+  id:
+    lutris: assassins-creed-unity
   installDir:
     "Assassin's Creed Unity": {}
   launch:
@@ -173149,6 +173154,26 @@ DOWN MEANS UP:
 "DPS: Desktop Pension Squad":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/DetailGames/DPS/saves/<storeUserId>/**/*.sav":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/DetailGames/DPS/saves/<storeUserId>/**/*.sav.bak":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/DetailGames/DPS/saves/<storeUserId>/archive/**/*.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    DPS Desktop Pension Squad: {}
+  launch:
+    "<base>/DPS.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 5135440
 DR LIVESEY ROM AND DEATH EDITION:
@@ -286246,6 +286271,19 @@ Fox Hime Zero:
             store: steam
   steam:
     id: 844930
+"Fox Spirit Sweethearts: Complete Edition":
+  files:
+    "<base>/FoxSpiritSweethearts/saves/*.json":
+      when:
+        - store: steam
+  installDir:
+    Fox Spirit Sweethearts: {}
+  launch:
+    "<base>/fox-spirit-sweethearts.exe":
+      - when:
+          - store: steam
+  steam:
+    id: 5261050
 Fox and Bunny:
   installDir:
     Fox and Bunny: {}
@@ -360931,6 +360969,8 @@ I Am Alive:
         - os: windows
   gog:
     id: 1632475257
+  id:
+    lutris: i-am-alive
   installDir:
     I am Alive: {}
   steam:
@@ -389393,6 +389433,37 @@ Just VR Slingshot Target Practice:
 Just Volleyball:
   cloud:
     steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/volleyball/data/character.json":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Godot/app_userdata/volleyball/data/character_slots.json":
+      when:
+        - os: windows
+          store: steam
+    "<winAppData>/Godot/app_userdata/volleyball/data/profiles.json":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    just volleyball: {}
+  launch:
+    "<base>/volleyball.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: " --rendering-driver vulkan"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
+      - arguments: "--rendering-driver opengl3"
+        when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 5037200
 Just a Cleric:
@@ -494981,7 +495052,7 @@ Neon Drive:
         - save
       when:
         - os: windows
-    "<home>/Library/Application Support/unity.Fraoula.Neon Drive":
+    "<home>/Library/Application Support/Fraoula/Neon Drive/NeonDrive.sav":
       tags:
         - save
       when:
@@ -509334,6 +509405,7 @@ OMORI:
         - os: windows
           store: steam
   id:
+    lutris: omsi-2
     steamExtra:
       - 271390
       - 299350
@@ -509363,6 +509435,9 @@ OMORI:
             store: steam
   steam:
     id: 252530
+"OMSI: The Bus Simulator":
+  id:
+    lutris: omsi-the-bus-simulator
 ONE:
   cloud:
     steam: true
@@ -510040,9 +510115,19 @@ Obey Me:
   steam:
     id: 1034890
 "Obey Me! Sinner's Choice: Lucifer":
+  files:
+    "<base>/savedata":
+      when:
+        - store: steam
   id:
     steamExtra:
       - 5282320
+  installDir:
+    "Obey Me! Sinner's Choice Lucifer": {}
+  launch:
+    "<base>/SCLucifer.exe":
+      - when:
+          - store: steam
   steam:
     id: 4444800
 "Object \"Cleaning\"":
@@ -543380,6 +543465,14 @@ Pimp Tight:
   id:
     steamExtra:
       - 4941930
+  installDir:
+    Pinata Smash Incremental Circus: {}
+  launch:
+    "<base>/Pinata Smash Incremental Circus.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 4918810
 Pinball:
@@ -803844,6 +803937,17 @@ Trees Hate You:
       - 4307190
       - 5364210
       - 5378320
+  installDir:
+    Trees Hate You: {}
+  launch:
+    "<base>/Trees Hate You.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/TreesHateYou.x86_64":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 4171850
 Treis Zoes:
@@ -824798,6 +824902,9 @@ VTree Beach Volleyball:
             store: steam
   steam:
     id: 855160
+"VVVVK: Road of Eternal Night":
+  steam:
+    id: 5582480
 VVVVV:
   installDir:
     VVVVV: {}

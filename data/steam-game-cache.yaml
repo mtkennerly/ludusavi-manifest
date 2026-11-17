@@ -595511,7 +595511,10 @@
         oslist: windows
       executable: Backfirewall_.exe
       type: default
-1920290: {}
+1920290:
+  nameLocalized:
+    japanese: BARKOUR バークール
+    schinese: BARKOUR 汪牌特工
 1920430:
   cloud:
     saves:
@@ -608906,7 +608909,7 @@
     saves:
       - path: Test_C/Saved/SaveGames
         pattern: "*.sav"
-        root: gameinstall
+        root: WinAppDataLocal
   installDir: PROJECT QUARANTINE
   launch:
     - executable: Test_C.exe
@@ -649973,7 +649976,6 @@
     english: KINGDOM HEARTS IV
 3218100: {}
 3218570:
-  state: outdated
   cloud:
     saves:
       - path: "Denkiworks/TANUKI_ Pon's Summer/SaveData"
@@ -656382,7 +656384,6 @@
         oslist: windows
       executable: BoltgunWOV.exe
 3533830:
-  state: outdated
   cloud:
     saves:
       - path: Skeldal
@@ -658606,7 +658607,6 @@
       executable: "This Isn't Just Tower Defense.exe"
       type: default
 3654560:
-  state: outdated
   cloud:
     saves:
       - path: PopCap Games/PvZ Replanted/
@@ -661049,7 +661049,6 @@
 3838790: {}
 3839180: {}
 3841510:
-  state: outdated
   cloud:
     saves:
       - path: KoeiTecmo/DW3CE_RE/Saved/SaveGames
@@ -663282,7 +663281,6 @@
     schinese: 异界揭踪／ANOMALITH
     tchinese: 異界揭蹤／ANOMALITH
 4019220:
-  state: outdated
   cloud:
     saves:
       - path: Cozy Lives/Dressmaker
@@ -663742,7 +663740,6 @@
   nameLocalized:
     schinese: 迷界：异常货运
 4069520:
-  state: outdated
   installDir: Super Battle Golf
   launch:
     - config:
@@ -664485,7 +664482,15 @@
       executable: Veil_of_Mist.exe
       type: default
 4171850:
-  state: outdated
+  installDir: Trees Hate You
+  launch:
+    - config:
+        oslist: windows
+      executable: Trees Hate You.exe
+    - config:
+        oslist: linux
+      executable: TreesHateYou.x86_64
+      type: default
 4172530:
   installDir: Legend of YMIR
   launch:
@@ -666254,7 +666259,14 @@
 4441710: {}
 4444610: {}
 4444800:
-  state: outdated
+  cloud:
+    saves:
+      - path: savedata
+        pattern: "*"
+        root: gameinstall
+  installDir: "Obey Me! Sinner's Choice Lucifer"
+  launch:
+    - executable: SCLucifer.exe
   nameLocalized:
     english: "Obey Me! Sinner's Choice: Lucifer"
     japanese: "Obey Me! Sinner's Choice: Lucifer"
@@ -666994,7 +667006,6 @@
   nameLocalized:
     japanese: めっちゃカメレオン
 4705510:
-  state: outdated
   installDir: Happy Wheels
   launch:
     - config:
@@ -667177,7 +667188,6 @@
 4752390: {}
 4757750: {}
 4760480:
-  state: outdated
   cloud:
     saves:
       - path: My Games/YaE_Absolute/savegames
@@ -667245,7 +667255,6 @@
     spanish: "Polican: Vuelta a la Carga"
     tchinese: "超狗神探 : 汪者歸來  "
 4795460:
-  state: outdated
   installDir: The Citadel Project
   launch:
     - executable: TheCitadelProject.exe
@@ -667480,7 +667489,13 @@
     - arguments: "--use-webgpu-adapter=d3d11"
       description: "Box Flow [DirectX 11 (Linux / Mac / black screen)]"
       executable: box-flow.exe
-4918810: {}
+4918810:
+  installDir: Pinata Smash Incremental Circus
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Pinata Smash Incremental Circus.exe
 4921760:
   installDir: Heroes Of Might And Magic III
   launch:
@@ -667621,7 +667636,6 @@
 4980620: {}
 4981370: {}
 4984870:
-  state: outdated
   cloud:
     saves:
       - path: Selkies Salvage
@@ -667684,7 +667698,41 @@
       type: default
 5036490: {}
 5037200:
-  state: outdated
+  cloud:
+    saves:
+      - path: Godot/app_userdata/volleyball/data
+        pattern: profiles.json
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Godot/app_userdata/volleyball/data
+        pattern: character.json
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+      - path: Godot/app_userdata/volleyball/data
+        pattern: character_slots.json
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: just volleyball
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: volleyball.exe
+    - arguments: " --rendering-driver vulkan"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: "play with vulkan (try this if the game won't open, common on amd gpus)"
+      executable: volleyball.exe
+    - arguments: "--rendering-driver opengl3"
+      config:
+        osarch: "64"
+        oslist: windows
+      description: "compatibility mode (low-end pcs and integrated graphics, the game will look render inaccurately to how it was intended to look.)"
+      executable: volleyball.exe
 5037250: {}
 5043840: {}
 5051080:
@@ -667940,7 +667988,39 @@
         oslist: windows
       executable: "Can 'Em All.exe"
 5135440:
-  state: outdated
+  cloud:
+    saves:
+      - path: "DetailGames\\DPS\\saves\\{64BitSteamID}"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "DetailGames\\DPS\\saves\\{64BitSteamID}"
+        pattern: "*.sav.bak"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+      - path: "DetailGames\\DPS\\saves\\{64BitSteamID}\\archive"
+        pattern: "*.json"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataLocalLow
+  installDir: DPS Desktop Pension Squad
+  launch:
+    - config:
+        oslist: windows
+      executable: DPS.exe
+  nameLocalized:
+    english: "DPS: Desktop Pension Squad"
+    japanese: デスクトップ・DPS：黄昏の遠征隊
+    koreana: "DPS: 데스크탑 황혼 원정대"
+    russian: "DPS: Сумеречный отряд"
+    schinese: 桌面-DPS：黄昏远征队
+    tchinese: 桌面-DPS：黃昏遠征隊
+    ukrainian: "DPS: Сумеречный отряд"
 5138990: {}
 5141030: {}
 5178570:
@@ -668013,6 +668093,16 @@
     - config:
         oslist: linux
       executable: Heartfall.x86_64
+5261050:
+  cloud:
+    saves:
+      - path: FoxSpiritSweethearts/saves
+        pattern: "*.json"
+        root: gameinstall
+  installDir: Fox Spirit Sweethearts
+  launch:
+    - executable: fox-spirit-sweethearts.exe
+      type: default
 5266240:
   cloud:
     saves:
@@ -668113,7 +668203,7 @@
   nameLocalized:
     schinese: 炸了还是烟花
 5511700: {}
-5527800:
-  state: outdated
+5527800: {}
+5582480: {}
 34004563: {}
 3221903386: {}

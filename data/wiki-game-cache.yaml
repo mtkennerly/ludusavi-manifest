@@ -17346,6 +17346,7 @@ Assassin 2015:
 "Assassin's Creed III Remastered":
   cloud:
     uplay: true
+  lutris: assassins-creed-iii-remastered
   pageId: 124755
   steam: 911400
   templates:
@@ -17412,6 +17413,7 @@ Assassin 2015:
 "Assassin's Creed Shadows":
   cloud:
     uplay: true
+  lutris: assassins-creed-shadows
   pageId: 195073
   steam: 3159330
   steamSide:
@@ -17435,6 +17437,7 @@ Assassin 2015:
 "Assassin's Creed Unity":
   cloud:
     uplay: true
+  lutris: assassins-creed-unity
   pageId: 17713
   steam: 289650
   templates:
@@ -21051,6 +21054,8 @@ Back to Ashes:
   steam: 1054700
   steamSide:
     - 1425290
+Back to Baghdad:
+  pageId: 223319
 Back to Bed:
   cloud:
     steam: true
@@ -93449,6 +93454,9 @@ Fox Hime Zero:
     - "{{Game data/saves|Windows|{{p|game}}\\FoxHimeZero_Data\\StreamingAssets\\userinfo.db | {{p|game}}\\FoxHimeZero_Data\\StreamingAssets\\*.jpg | {{p|game}}\\FoxHimeZero_Data\\StreamingAssets\\ScreenShot\\*.jpg}}"
 Fox Hunt:
   pageId: 212492
+"Fox Spirit Sweethearts: Complete Edition":
+  pageId: 223315
+  steam: 5261050
 Fox and Bunny:
   pageId: 135063
   steam: 1075790
@@ -113043,6 +113051,8 @@ High Clear VR:
 High Fidelity:
   pageId: 71074
   steam: 390540
+High Heat Baseball 1999:
+  pageId: 223326
 High Heat Baseball 2000:
   pageId: 222972
 High Heat Major League Baseball 2002:
@@ -117909,6 +117919,7 @@ I Am Alive:
   cloud:
     gog: true
   gog: 1632475257
+  lutris: i-am-alive
   pageId: 3573
   steam: 214250
   templates:
@@ -130497,6 +130508,8 @@ Kingmakers:
 Kingpin Royale:
   pageId: 110058
   steam: 921420
+"Kingpin: Arcade Sports Bowling":
+  pageId: 223331
 "Kingpin: Life of Crime":
   gog: 9
   lutris: kingpin-life-of-crime
@@ -144799,6 +144812,8 @@ Majestic Nights:
   steam: 284140
   steamSide:
     - 322690
+"Majestic Part 1: Alien Encounter":
+  pageId: 223333
 Majestic Trials:
   pageId: 70148
   steam: 638060
@@ -162216,7 +162231,7 @@ Neon Drive:
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Fraoula\\Neon Drive\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Fraoula\\Neon Drive\\NeonDrive.sav}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Fraoula.Neon Drive}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Fraoula/Neon Drive/NeonDrive.sav}}"
     - "{{Game data/saves|Linux|{{P|xdgdatahome}}/unity3d/Fraoula/Neon Drive/prefs}}"
 Neon Exile:
   pageId: 141701
@@ -166987,6 +167002,7 @@ OMORI:
     - "{{Game data/saves|Windows|{{p|game}}/www/save/}}"
     - "{{Game data/saves|Microsoft Store|{{P|userprofile}}/AppData/Local/Packages/ActiveGamingMediaInc.OMORI_4tj796bhrrsp0/SystemAppData/wgs/}}"
 "OMSI 2: The Bus Simulator":
+  lutris: omsi-2
   pageId: 40486
   steam: 252530
   steamSide:
@@ -167013,6 +167029,7 @@ OMORI:
     - "{{Game data/config|Windows|{{p|steam}}/steamapps/common/OMSI 2}}"
     - "{{Game data/saves|Windows|{{p|steam}}/steamapps/common/OMSI 2}}"
 "OMSI: The Bus Simulator":
+  lutris: omsi-the-bus-simulator
   pageId: 13025
 ONE:
   cloud:
@@ -271138,6 +271155,9 @@ VThree:
 VTree Beach Volleyball:
   pageId: 93700
   steam: 855160
+"VVVVK: Road of Eternal Night":
+  pageId: 223323
+  steam: 5582480
 VVVVV:
   pageId: 149700
   steam: 1153250
