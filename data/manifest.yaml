@@ -97848,21 +97848,26 @@ Bomber Crew:
     origin: true
     steam: true
   files:
-    "<home>/.config/unity3d/Runner Duck/Bomber Crew":
-      tags:
-        - save
-      when:
-        - os: linux
-    "<home>/AppData/LocalLow/Runner Duck/Bomber Crew":
+    "<home>/AppData/LocalLow/Runner Duck/Bomber Crew/*.dat":
       tags:
         - save
       when:
         - os: windows
-    "<home>/Library/Application Support/Runner Duck/Bomber Crew":
+    "<home>/Library/Application Support/Runner Duck/Bomber Crew/*.dat":
       tags:
         - save
       when:
         - os: mac
+    "<xdgConfig>/unity3d/Runner Duck/Bomber Crew/*.dat":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Runner Duck/Bomber Crew/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1589536826
   id:
@@ -107508,10 +107513,16 @@ Broken of Darkness:
         - save
       when:
         - os: windows
+  gog:
+    id: 1727445510
   id:
+    gogExtra:
+      - 1113044635
+      - 1336403541
     lutris: brokenlore-dont-lie
     steamExtra:
       - 4005770
+      - 5256740
   installDir:
     DON’T LIE: {}
   launch:
@@ -197389,7 +197400,7 @@ Despotism 3k:
         - save
       when:
         - os: windows
-    "<xdgConfig>/unity3d/Konfa Games/Despotism3k":
+    "<xdgConfig>/unity3d/Konfa Games/Despotism3k/*.dat":
       tags:
         - save
       when:
@@ -285714,7 +285725,7 @@ Foto Flash 2:
     id: 861760
 Fotonica:
   files:
-    "<home>/.config/unity3d/Santa Ragione/FOTONICA":
+    "<xdgConfig>/unity3d/Santa Ragione/FOTONICA/perfs":
       tags:
         - config
         - save
@@ -343093,26 +343104,6 @@ Heroes of Might and Magic II:
       when:
         - os: dos
         - os: windows
-    "<winAppData>/fheroes2":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<winLocalAppData>/fheroes2/GAMES":
-      tags:
-        - config
-      when:
-        - os: windows
-    "<xdgConfig>/fheroes2":
-      tags:
-        - config
-      when:
-        - os: linux
-    "<xdgData>/fheroes2/GAMES":
-      tags:
-        - config
-      when:
-        - os: linux
   gog:
     id: 1207658785
 Heroes of Might and Magic III:
@@ -633200,16 +633191,6 @@ Serial Cleaner:
     gog: true
     steam: true
   files:
-    "<home>/.config/unity3d/iFun4all/Serial Cleaner/*.sav":
-      tags:
-        - save
-      when:
-        - os: linux
-    "<home>/.config/unity3d/iFun4all/Serial Cleaner/settings.conf":
-      tags:
-        - config
-      when:
-        - os: linux
     "<home>/AppData/LocalLow/iFun4all/Serial Cleaner/*.sav":
       tags:
         - save
@@ -633230,6 +633211,16 @@ Serial Cleaner:
         - config
       when:
         - os: mac
+    "<xdgConfig>/unity3d/iFun4all/Serial Cleaner/*.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/iFun4all/Serial Cleaner/settings.conf":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1264767742
   installDir:
@@ -649997,6 +649988,11 @@ Sir Whoopass:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/Big Robot/SirYouAreBeingHunted/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1207664303
   installDir:
@@ -876041,6 +876037,13 @@ Zenza:
   steam:
     id: 519990
 Zenzizenzic:
+  files:
+    "<xdgConfig>/unity3d/Ruud Koorevaar/Zenzizenzic/perfs":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   installDir:
     Zenzizenzic: {}
   launch:
@@ -876065,6 +876068,7 @@ Zenzizenzic:
   registry:
     HKEY_CURRENT_USER/Software/Ruud Koorevaar/Zenzizenzic:
       tags:
+        - config
         - save
   steam:
     id: 327500
@@ -877099,12 +877103,6 @@ Ziggurat:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Milkstone Studios/Ziggurat":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
     "<home>/AppData/LocalLow/Milkstone Studios/Ziggurat/config.xml":
       tags:
         - config
@@ -877126,6 +877124,16 @@ Ziggurat:
         - save
       when:
         - store: steam
+    "<xdgConfig>/unity3d/Milkstone Studios/Ziggurat":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Milkstone Studios/Ziggurat/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1437564865
   installDir:

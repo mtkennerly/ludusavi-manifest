@@ -14821,6 +14821,8 @@ Arachnophobia:
 Arachnophobia (2016):
   pageId: 42756
   steam: 485270
+Arafiesta:
+  pageId: 223349
 Aragami:
   cloud:
     origin: true
@@ -32007,9 +32009,10 @@ Bomber Crew:
     - 765960
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Runner Duck\\Bomber Crew\\}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Runner Duck\\Bomber Crew\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Runner Duck/Bomber Crew}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Runner Duck/Bomber Crew/}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Runner Duck/Bomber Crew/perfs}}"
+    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Runner Duck\\Bomber Crew\\*.dat}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Runner Duck/Bomber Crew/*.dat}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Runner Duck/Bomber Crew/*.dat}}"
 Bomber Fox:
   cloud:
     steam: true
@@ -35031,6 +35034,10 @@ Broken of Darkness:
   pageId: 212260
   steam: 2283250
 "BrokenLore: Don't Lie":
+  gog: 1727445510
+  gogSide:
+    - 1113044635
+    - 1336403541
   lutris: brokenlore-dont-lie
   pageId: 210156
   renamedFrom:
@@ -35038,6 +35045,7 @@ Broken of Darkness:
   steam: 3886200
   steamSide:
     - 4005770
+    - 5256740
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\DontLie\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\DontLie\\Saved\\SaveGames\\}}"
@@ -64020,7 +64028,7 @@ Despotism 3k:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Konfa Games\\Despotism3k\\}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Konfa Games/Despotism3k/perfs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Konfa Games\\Despotism3k\\}}"
-    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Konfa Games/Despotism3k/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Konfa Games/Despotism3k/*.dat}}"
 Dess M-8:
   pageId: 186800
   templates:
@@ -93315,9 +93323,9 @@ Fotonica:
   steam: 253290
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Santa Ragione\\FOTONICA\\}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Santa Ragione/FOTONICA/}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Santa Ragione/FOTONICA/perfs}}"
     - "{{Game data/saves|Windows|{{p|hkcu}}\\SOFTWARE\\Santa Ragione\\FOTONICA\\}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Santa Ragione/FOTONICA/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Santa Ragione/FOTONICA/perfs}}"
 Foul Play:
   cloud:
     steam: true
@@ -112117,12 +112125,8 @@ Heroes of Might and Magic II:
   gog: 1207658785
   pageId: 6518
   templates:
-    - "{{Game data/config|Windows|{{P|appdata}}\\fheroes2}}"
-    - "{{Game data/config|Linux|{{P|xdgconfighome}}/fheroes2/}}"
     - "{{Game data/saves|DOS|{{p|game}}\\GAMES}}"
     - "{{Game data/saves|Windows|{{p|game}}\\GAMES}}"
-    - "{{Game data/config|Windows|{{P|localappdata}}\\fheroes2\\GAMES}}"
-    - "{{Game data/config|Linux|{{P|xdgdatahome}}/fheroes2/GAMES}}"
 Heroes of Might and Magic III:
   cloud:
     gog: true
@@ -188954,6 +188958,7 @@ Race Arcade:
 "Race Driver: Grid":
   gog: 1207659233
   lutris: grid
+  malformed: true
   pageId: 657
   steam: 12750
   templates:
@@ -207578,10 +207583,10 @@ Serial Cleaner:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\iFun4all\\Serial Cleaner\\settings.conf}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/ifun4all/Serial Cleaner/settings.conf}}"
-    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/unity3d/iFun4all/Serial Cleaner/settings.conf}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/iFun4all/Serial Cleaner/settings.conf}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\iFun4all\\Serial Cleaner\\*.sav}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/ifun4all/Serial Cleaner/*.sav}}"
-    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/unity3d/iFun4all/Serial Cleaner/*.sav}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/iFun4all/Serial Cleaner/*.sav}}"
 Serial Cleaners:
   cloud:
     epic: true
@@ -213094,7 +213099,7 @@ Sir Whoopass:
   steam: 242880
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\x64\\s\\SaveGames\\|{{p|game}}\\x86\\s\\SaveGames\\|{{p|hkcu}}\\SOFTWARE\\Big Robot\\SirYouAreBeingHunted\\}}"
-    - "{{Game data/config|Linux|{{p|game}}/s/SaveGames/}}"
+    - "{{Game data/config|Linux|{{p|game}}/s/SaveGames/|{{p|xdgconfighome}}/unity3d/Big Robot/SirYouAreBeingHunted/perfs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\x64\\s\\SaveGames\\World*\\|{{p|game}}\\x86\\s\\SaveGames\\World*\\}}"
     - "{{Game data/saves|Linux|{{p|game}}/s/SaveGames/World*/}}"
 Siralim:
@@ -288240,7 +288245,10 @@ Zenzizenzic:
   pageId: 37541
   steam: 327500
   templates:
-    - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Ruud Koorevaar\\Zenzizenzic\\}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Ruud Koorevaar\\Zenzizenzic\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Ruud Koorevaar/Zenzizenzic/perfs}}"
+    - "{{Game data/saves|Windows|{{p|hkcu}}\\Software\\Ruud Koorevaar\\Zenzizenzic\\}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Ruud Koorevaar/Zenzizenzic/perfs}}"
 Zeon 25:
   cloud:
     steam: true
@@ -288594,11 +288602,11 @@ Ziggurat:
   steam: 308420
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Milkstone Studios\\Ziggurat\\config.xml}}"
-    - "{{Game data/config|Linux|{{p|linuxhome}}/.config/unity3d/Milkstone Studios/Ziggurat/}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Milkstone Studios/Ziggurat/perfs}}"
     - "{{Game data/config|Steam|{{p|steam}}/userdata/{{p|uid}}/308420/remote/}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Milkstone Studios\\Ziggurat\\savegame.xml}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Milkstone Studios.Ziggurat/savegame.xml}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Milkstone Studios/Ziggurat/}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Milkstone Studios/Ziggurat/}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/308420/remote/}}"
 Ziggurat 2:
   cloud:

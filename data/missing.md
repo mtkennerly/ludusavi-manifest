@@ -1621,6 +1621,7 @@
 * [Arabian Stones - The VR Sudoku Game](https://www.pcgamingwiki.com/wiki/?curid=149207)
 * [Arachnophobia](https://www.pcgamingwiki.com/wiki/?curid=97217)
 * [Arachnophobia (2016)](https://www.pcgamingwiki.com/wiki/?curid=42756)
+* [Arafiesta](https://www.pcgamingwiki.com/wiki/?curid=223349)
 * [Araha: Curse of Yieun Island](https://www.pcgamingwiki.com/wiki/?curid=153533)
 * [Arakion: Book One](https://www.pcgamingwiki.com/wiki/?curid=78665)
 * [Arauco Saga - Rpg Action](https://www.pcgamingwiki.com/wiki/?curid=123908)
