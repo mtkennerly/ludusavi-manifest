@@ -666272,6 +666272,18 @@
     japanese: "Obey Me! Sinner's Choice: Lucifer"
     schinese: 服从我吧！最终抉择：路西法
     tchinese: 服從我！終擇晨星：路西法
+4447890:
+  cloud:
+    saves:
+      - path: "QUByte Interactive/SoccerKidCollection/{Steam3AccountID}/"
+        pattern: "*.json"
+        root: WinAppDataLocalLow
+  installDir: Soccer Kid Collection (QUByte Classics)
+  launch:
+    - config:
+        oslist: windows
+      executable: SoccerKid.exe
+      type: default
 4448040:
   cloud:
     saves:

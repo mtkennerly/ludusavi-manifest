@@ -5129,7 +5129,6 @@
 * [City Escaper](https://www.pcgamingwiki.com/wiki/?curid=91975)
 * [City Eye](https://www.pcgamingwiki.com/wiki/?curid=87603)
 * [City Gangs San Andreas](https://www.pcgamingwiki.com/wiki/?curid=149795)
-* [City Hunter](https://www.pcgamingwiki.com/wiki/?curid=209336)
 * [City League Softball](https://www.pcgamingwiki.com/wiki/?curid=222774)
 * [City Life](https://www.pcgamingwiki.com/wiki/?curid=41340)
 * [City Mania](https://www.pcgamingwiki.com/wiki/?curid=199647)

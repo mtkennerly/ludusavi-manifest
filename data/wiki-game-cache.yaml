@@ -44995,8 +44995,13 @@ City Gangs San Andreas:
   pageId: 149795
   steam: 1150610
 City Hunter:
+  cloud:
+    steam: true
   pageId: 209336
   steam: 3984650
+  templates:
+    - "{{Game data/config|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3984650\\remote}}"
+    - "{{Game data/saves|Windows|{{P|steam}}\\userdata\\{{P|uid}}\\3984650\\remote}}"
 City League Softball:
   pageId: 222774
 City Life:
@@ -216392,6 +216397,11 @@ Soccer Kid:
   steam: 1104480
   templates:
     - "{{Game data/saves|DOS}}"
+Soccer Kid Collection:
+  cloud:
+    steam: true
+  pageId: 223342
+  steam: 4447890
 Soccer Legends:
   pageId: 46973
   steam: 340530
@@ -224293,7 +224303,6 @@ Star Wars Outlaws:
 "Star Wars: Galactic Racer":
   cloud:
     steam: true
-  malformed: true
   pageId: 211969
   steam: 4078430
   templates:
@@ -242485,6 +242494,9 @@ The Dark Eye (1995):
     steam: true
   pageId: 165471
   steam: 4289030
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\scummvm.ini}}"
+    - "{{Game data/saves|Windows|{{P|game}}\\Saves}}"
 "The Dark Eye: Book of Heroes":
   cloud:
     steam: true
@@ -277755,8 +277767,8 @@ Warm Snow:
     - 2936000
     - 3103920
   templates:
-    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\BadMudStudio\\WarmSnow\\|{{p|hkcu}}\\Software\\BadMudStudio\\WarmSnow\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\BadMudStudio\\WarmSnow\\}}"
+    - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\BadMudStudio\\WarmSnow\\Save\\_SettingMenuData|{{p|hkcu}}\\Software\\BadMudStudio\\WarmSnow\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\BadMudStudio\\WarmSnow\\Save\\}}"
 Warm Up!:
   pageId: 22682
   templates:

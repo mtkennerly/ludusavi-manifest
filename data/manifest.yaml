@@ -138495,6 +138495,16 @@ City Gangs San Andreas:
   steam:
     id: 1150610
 City Hunter:
+  cloud:
+    steam: true
+  files:
+    "<root>/userdata/<storeUserId>/3984650/remote":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+          store: steam
   installDir:
     City Hunter: {}
   launch:
@@ -660601,6 +660611,22 @@ Soccer Kid:
             store: steam
   steam:
     id: 1104480
+Soccer Kid Collection:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/QUByte Interactive/SoccerKidCollection/<storeUserId>/*.json":
+      when:
+        - store: steam
+  installDir:
+    Soccer Kid Collection (QUByte Classics): {}
+  launch:
+    "<base>/SoccerKid.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 4447890
 Soccer Legends:
   installDir:
     Soccer Legends: {}
@@ -741071,8 +741097,15 @@ The Dark Eye (1995):
     steam: true
   files:
     "<base>/Saves":
+      tags:
+        - save
       when:
-        - store: steam
+        - os: windows
+    "<base>/scummvm.ini":
+      tags:
+        - config
+      when:
+        - os: windows
   installDir:
     "Edgar Allan Poe's Interactive Horror 1995 Edition": {}
   launch:
@@ -844069,10 +844102,14 @@ Warm Snow:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow":
+    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/BadMudStudio/WarmSnow/Save/_SettingMenuData":
       tags:
         - config
-        - save
       when:
         - os: windows
   id:

@@ -32,5 +32,4 @@
 * [Riddle Tower](https://www.pcgamingwiki.com/wiki/?curid=217157)
 * [Riding to Bounce City](https://www.pcgamingwiki.com/wiki/?curid=218655)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
-* [Star Wars: Galactic Racer](https://www.pcgamingwiki.com/wiki/?curid=211969)
 * [Tom Clancy's Rainbow Six 3: Raven Shield](https://www.pcgamingwiki.com/wiki/?curid=6307)
