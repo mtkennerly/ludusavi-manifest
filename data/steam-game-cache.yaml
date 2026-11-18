@@ -579493,24 +579493,8 @@
   nameLocalized:
     schinese: 胡修狐
 1696440:
-  cloud:
-    saves:
-      - path: HMS_00/Saved/PersistentDownloadDir/
-        pattern: "*"
-        platforms:
-          - Windows
-        recursive: true
-        root: WinAppDataLocal
-  installDir: The Matchless KungFu
-  launch:
-    - config:
-        osarch: "64"
-        oslist: windows
-      executable: HMS_00.exe
-      type: default
   nameLocalized:
     english: The Matchless Kungfu
-    sc_schinese: 绝世好武功
     schinese: 绝世好武功
     tchinese: 絕世好武功
 1696770:
@@ -599612,6 +599596,13 @@
         oslist: windows
       description: Test Launch
       executable: LimbusCompany_BE.exe
+    - arguments: "-force-d3d11"
+      config:
+        betakey: devtester
+        oslist: windows
+      description: Limbus Company (DirectX 11)
+      executable: LimbusCompany.exe
+      type: option1
 1973710:
   installDir: HeavenBurnsRed
   launch:

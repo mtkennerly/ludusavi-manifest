@@ -157759,6 +157759,8 @@ Mutation Nation:
 Mutation Phase:
   pageId: 102567
   steam: 871850
+Mutation of J.B.:
+  pageId: 223358
 Mutato Match:
   pageId: 39183
   steam: 391480
@@ -161676,7 +161678,6 @@ Need for Speed Unbound:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\{{p|wow64}}\\EA Games\\Need for Speed Underground 2\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\NFS Underground 2\\}}"
 "Need for Speed: World":
-  malformed: true
   pageId: 6921
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Need for Speed World\\Settings\\UserSettings.xml}}"
@@ -179252,10 +179253,10 @@ Pixel Piracy:
   steamSide:
     - 365970
   templates:
-    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\VITALI KIRPU & QUADRO DELTA\\Pixel Piracy\\}}"
-    - "{{Game data/saves|Windows|{{p|appdata}}\\PixelPiracy\\}}"
-    - "{{Game data/saves|OS X|{{p|osxhome}}/.config/PixelPiracy/}}"
-    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/PixelPiracy/}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\VitaliKirpuProductions\\Pixel Piracy\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/VitaliKirpuProductions/Pixel Piracy/perfs}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\SaveFile\\PixelPiracy\\}}"
+    - "{{Game data/saves|Linux|{{p|game}}/SaveFile/PixelPiracy/}}"
 Pixel Privateers:
   cloud:
     steam: true

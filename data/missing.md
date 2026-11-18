@@ -17986,6 +17986,7 @@
 * [Mutate!](https://www.pcgamingwiki.com/wiki/?curid=121251)
 * [Mutation Mayhem](https://www.pcgamingwiki.com/wiki/?curid=96319)
 * [Mutation Nation](https://www.pcgamingwiki.com/wiki/?curid=168784)
+* [Mutation of J.B.](https://www.pcgamingwiki.com/wiki/?curid=223358)
 * [Mutation Phase](https://www.pcgamingwiki.com/wiki/?curid=102567)
 * [Mutato Match](https://www.pcgamingwiki.com/wiki/?curid=39183)
 * [Mutiny!!](https://www.pcgamingwiki.com/wiki/?curid=73266)

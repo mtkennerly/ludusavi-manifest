@@ -546080,17 +546080,17 @@ Pixel Painter:
     id: 648120
 Pixel Piracy:
   files:
-    "<home>/.config/PixelPiracy":
-      tags:
-        - save
-      when:
-        - os: mac
-        - os: linux
-    "<winAppData>/PixelPiracy":
+    "<base>/SaveFile/PixelPiracy":
       tags:
         - save
       when:
         - os: windows
+        - os: linux
+    "<xdgConfig>/unity3d/VitaliKirpuProductions/Pixel Piracy/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   gog:
     id: 1207667073
   id:
@@ -546117,7 +546117,7 @@ Pixel Piracy:
             os: linux
             store: steam
   registry:
-    HKEY_CURRENT_USER/Software/VITALI KIRPU & QUADRO DELTA/Pixel Piracy:
+    HKEY_CURRENT_USER/Software/VitaliKirpuProductions/Pixel Piracy:
       tags:
         - config
   steam:
@@ -760677,14 +760677,6 @@ The Matchless Kungfu:
         - config
       when:
         - os: windows
-  installDir:
-    The Matchless KungFu: {}
-  launch:
-    "<base>/HMS_00.exe":
-      - when:
-          - bit: 64
-            os: windows
-            store: steam
   steam:
     id: 1696440
 "The Matrix: Path of Neo":
