@@ -639,7 +639,7 @@ $1 Ride:
   pageId: 18518
   steam: 242820
   templates:
-    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\JeppeCarlsen\\140}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\JeppeCarlsen\\140\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/unity.JeppeCarlsen.140.plist}}"
     - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/JeppeCarlsen/140/prefs}}"
     - "{{Game data/saves|Windows|{{p|game}}\\140.sav}}"
@@ -36719,6 +36719,8 @@ Bygone Dreams:
     steam: true
   pageId: 184835
   steam: 951620
+  templates:
+    - "{{Game data/saves|Windows|{{folder|{{p|localappdata}}\\AppData\\Local\\Wa\\Saved\\SaveGames}}}}"
 "Bygone Worlds: Drama at the Odeion":
   pageId: 77952
   steam: 758840
@@ -86186,6 +86188,7 @@ Fantom Feast:
   steam: 962280
 Fantôme Rapport -Intermezzo-:
   pageId: 218283
+  steam: 3622860
 Fap Queen:
   pageId: 120502
   steam: 942140
@@ -112856,9 +112859,10 @@ Hidden Folks:
   pageId: 39622
   steam: 435400
   templates:
-    - "{{Game data/config|Linux|{{P|linuxhome}}/.config/unity3d/Adriaan de Jongh/Hidden Folks}}"
-    - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Adriaan de Jongh\\Hidden Folks\\}}"
-    - "{{Game data/saves|Linux|{{P|linuxhome}}/.config/unity3d/Adriaan de Jongh/Hidden Folks}}"
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Adriaan de Jongh\\Hidden Folks\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Adriaan de Jongh/Hidden Folks/perfs}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Adriaan de Jongh\\Hidden Folks\\*.data}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Adriaan de Jongh/Hidden Folks/*.data}}"
 Hidden Life:
   pageId: 88681
   steam: 801410
@@ -131967,12 +131971,23 @@ KrissX:
 Kristala:
   cloud:
     epic: true
+    gog: true
     steam: true
+  gog: 2052069523
+  gogSide:
+    - 1389773565
+    - 1541632216
+    - 1730693353
+    - 1731891413
+    - 1830954867
+    - 1981264863
+    - 2048031151
   lutris: kristala
   pageId: 203139
   steam: 1206410
   steamSide:
     - 2493530
+    - 4602480
     - 4602520
     - 4602530
     - 4602540
@@ -162242,9 +162257,10 @@ Neon Drive:
     - 487240
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Fraoula\\Neon Drive\\}}"
+    - "{{Game data/config|Linux|{{p|xdgconfighome}}/unity3d/Fraoula/Neon Drive/prefs}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Fraoula\\Neon Drive\\NeonDrive.sav}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Fraoula/Neon Drive/NeonDrive.sav}}"
-    - "{{Game data/saves|Linux|{{P|xdgdatahome}}/unity3d/Fraoula/Neon Drive/prefs}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}/unity3d/Fraoula/Neon Drive/NeonDrive.sav}}"
 Neon Exile:
   pageId: 141701
   steam: 505020
@@ -162853,6 +162869,7 @@ Never Alone:
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/E_Line Media/Never Alone/scprofile.dat}}"
     - "{{Game data/saves|Steam|{{p|steam}}/userdata/{{p|uid}}/295790/}}"
 Never Alone 2:
+  lutris: never-alone-2
   pageId: 194321
   steam: 2154420
 Never Breakup:
@@ -218289,6 +218306,9 @@ Soul Axiom:
     - "{{Game data/config|Windows|{{p|hkcu}}\\SOFTWARE\\Wales Interactive\\SoulAxiom\\}}"
     - "{{Game data/config|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\279900\\remote\\OptionsData<!--File, not a folder-->}}"
     - "{{Game data/saves|Steam|{{p|steam}}\\userdata\\{{p|uid}}\\279900\\remote\\GameData<!--File, not a folder-->}}"
+Soul Blade:
+  pageId: 223362
+  steam: 2658410
 Soul Devourer:
   pageId: 201817
   steam: 2530620
@@ -240187,8 +240207,10 @@ The Antidote:
 The Apartment:
   pageId: 80529
   steam: 752020
-The Apartment (2026):
+The Apartment (2027):
   pageId: 215106
+  renamedFrom:
+    - The Apartment (2026)
   steam: 4333430
 The Apocalyptic Game About Penguins 4:
   pageId: 202337
@@ -241829,6 +241851,7 @@ The Citadel:
 The Citadel Project:
   cloud:
     steam: true
+  gog: 1622151550
   pageId: 222847
   steam: 4795460
   steamSide:

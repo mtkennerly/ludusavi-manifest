@@ -263784,6 +263784,9 @@ Fantom Feast:
           - store: steam
   steam:
     id: 962280
+Fantôme Rapport -Intermezzo-:
+  steam:
+    id: 3622860
 Fap Queen:
   installDir:
     Fap Queen: {}
@@ -277236,6 +277239,13 @@ Flick:
     lutris: flick
     steamExtra:
       - 5267890
+  installDir:
+    Flick: {}
+  launch:
+    "<base>/Flick.exe":
+      - when:
+          - os: windows
+            store: steam
   steam:
     id: 4450660
 FlickSync - Mad Hatter VR:
@@ -345500,17 +345510,21 @@ Hidden Folks:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Adriaan de Jongh/Hidden Folks":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
-    "<home>/AppData/LocalLow/Adriaan de Jongh/Hidden Folks":
+    "<home>/AppData/LocalLow/Adriaan de Jongh/Hidden Folks/*.data":
       tags:
         - save
       when:
         - os: windows
+    "<xdgConfig>/unity3d/Adriaan de Jongh/Hidden Folks/*.data":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Adriaan de Jongh/Hidden Folks/perfs":
+      tags:
+        - config
+      when:
+        - os: linux
   installDir:
     HiddenFolks: {}
   launch:
@@ -345526,6 +345540,10 @@ Hidden Folks:
       - when:
           - os: linux
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Adriaan de Jongh/Hidden Folks:
+      tags:
+        - config
   steam:
     id: 435400
 Hidden Life:
@@ -403804,16 +403822,28 @@ KrissX:
 Kristala:
   cloud:
     epic: true
+    gog: true
     steam: true
   files:
     "<winLocalAppData>/Kristala/Saved/SaveGames/*.sav":
       when:
         - os: windows
           store: steam
+  gog:
+    id: 2052069523
   id:
+    gogExtra:
+      - 1389773565
+      - 1541632216
+      - 1730693353
+      - 1731891413
+      - 1830954867
+      - 1981264863
+      - 2048031151
     lutris: kristala
     steamExtra:
       - 2493530
+      - 4602480
       - 4602520
       - 4602530
       - 4602540
@@ -495058,9 +495088,14 @@ Neon Drive:
         - save
       when:
         - os: mac
-    "<xdgData>/unity3d/Fraoula/Neon Drive/prefs":
+    "<xdgConfig>/unity3d/Fraoula/Neon Drive/NeonDrive.sav":
       tags:
         - save
+      when:
+        - os: linux
+    "<xdgConfig>/unity3d/Fraoula/Neon Drive/prefs":
+      tags:
+        - config
       when:
         - os: linux
   id:
@@ -496958,6 +496993,8 @@ Never Alone:
   steam:
     id: 295790
 Never Alone 2:
+  id:
+    lutris: never-alone-2
   steam:
     id: 2154420
 Never Breakup:
@@ -666495,6 +666532,9 @@ Soul Axiom:
         - config
   steam:
     id: 279900
+Soul Blade:
+  steam:
+    id: 2658410
 Soul Devourer:
   steam:
     id: 2530620
@@ -734124,6 +734164,8 @@ The Apartment:
   steam:
     id: 752020
 The Apartment (2026):
+  alias: The Apartment (2027)
+The Apartment (2027):
   steam:
     id: 4333430
 The Apotheosis Project:
@@ -739180,6 +739222,8 @@ The Citadel:
 The Citadel Project:
   cloud:
     steam: true
+  gog:
+    id: 1622151550
   id:
     steamExtra:
       - 5111940

@@ -424662,6 +424662,12 @@
           - Windows
         recursive: true
         root: WinMyDocuments
+      - path: My Games/Skyrim Special Edition/EnderalSaves/
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinMyDocuments
   installDir: Enderal Special Edition
   launch:
     - executable: Enderal Launcher.exe
@@ -545601,8 +545607,8 @@
     - config:
         osarch: "64"
         oslist: windows
-      description: VR Mode Beta (WIP)
-      executable: "Tin Can Main\\Tin Can VR\\Tin Can VR.exe"
+      description: Tin Can VR
+      executable: "Tin Can Main\\Tin Can VR\\Tin Can.exe"
       type: vr
   nameLocalized:
     schinese: 罐舱逃生指南 Tin Can
@@ -563138,12 +563144,14 @@
         pattern: "*.sav"
         recursive: true
         root: WinAppDataLocalLow
+      - path: HorizontComputergrafik/RogueVoltage/
+        pattern: "*.xml"
+        recursive: true
+        root: WinAppDataLocalLow
     overrides:
-      - os: MacOS
+      - addPath: ""
+        os: MacOS
         osCompare: "="
-        pathTransforms:
-          - find: HorizontComputergrafik/RogueVoltage/
-            replace: unity.HorizontComputergrafik.RogueVoltage
         root: WinAppDataLocalLow
         useInstead: MacAppSupport
       - os: Linux
@@ -563151,13 +563159,6 @@
         pathTransforms:
           - find: HorizontComputergrafik/RogueVoltage/
             replace: ".config/unity3d/HorizontComputergrafik/RogueVoltage"
-        root: WinAppDataLocalLow
-        useInstead: LinuxHome
-      - os: Linux
-        osCompare: "="
-        pathTransforms:
-          - find: HorizontComputergrafik/RogueVoltage/
-            replace: deck/.steam/steam/steamapps/compatdata/1494560/pfx/drive_c/users/steamuser/AppData/LocalLow/HorizontComputergrafik/RogueVoltage/
         root: WinAppDataLocalLow
         useInstead: LinuxHome
   installDir: Rogue Voltage
@@ -630069,6 +630070,7 @@
     - executable: MiSideFull.exe
   nameLocalized:
     japanese: "MiSide : ミサイド"
+    sc_schinese: 米塔
     schinese: 米塔 MiSide
 2527580:
   installDir: TMNT Arcade Wrath of the Mutants
@@ -634137,6 +634139,12 @@
     - config:
         oslist: windows
       executable: CTTA.exe
+2658410:
+  nameLocalized:
+    english: Soul Blade
+    japanese: 剣魂
+    schinese: 剑魂
+    tchinese: 劍魂
 2658450:
   cloud:
     saves:
@@ -658161,6 +658169,10 @@
     koreana: 자판기 시뮬레이터
     schinese: 自动售货机模拟器
     tchinese: 自動售貨機模擬器
+3622860:
+  nameLocalized:
+    japanese: ファントム・ラポール -Intermezzo-
+    schinese: 幽航迷恋 -Intermezzo-
 3624140:
   cloud:
     saves:
@@ -666305,7 +666317,13 @@
     - config:
         oslist: windows
       executable: Biomechanical_Toy.exe
-4450660: {}
+4450660:
+  installDir: Flick
+  launch:
+    - config:
+        oslist: windows
+      executable: Flick.exe
+      type: default
 4450800:
   installDir: IdolsOfAsh
   launch:
