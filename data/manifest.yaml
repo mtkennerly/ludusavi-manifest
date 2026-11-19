@@ -554203,10 +554203,23 @@ Pool of Death:
 Pool of Madness:
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/BitGolem/PoolOfMadness/PoolOfMadness_SaveFile*.es3":
+      when:
+        - store: steam
   id:
     lutris: pool-of-madness
     steamExtra:
       - 2887480
+      - 5597880
+  installDir:
+    Pool of Madness: {}
+  launch:
+    "<base>/PoolOfMadness.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
   steam:
     id: 2873750
 Pool of Radiance:

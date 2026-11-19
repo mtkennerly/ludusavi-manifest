@@ -641098,7 +641098,26 @@
 2873440:
   nameLocalized:
     koreana: 크로노 오디세이
-2873750: {}
+2873750:
+  cloud:
+    saves:
+      - path: BitGolem/PoolOfMadness
+        pattern: PoolOfMadness_SaveFile*.es3
+        root: WinAppDataLocalLow
+  installDir: Pool of Madness
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: PoolOfMadness.exe
+      type: default
+    - config:
+        osarch: "64"
+        oslist: windows
+        ownsdlc: "5597880"
+      description: Halloween Demo 2024
+      executable: Voidhunters Stash/Halloween Demo 2024/Pool of Madness EARLY DEMO.exe
+      type: option1
 2875280:
   installDir: Is this game trying to kill me Preface
   launch:
