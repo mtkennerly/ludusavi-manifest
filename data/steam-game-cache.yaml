@@ -50671,10 +50671,10 @@
       description: Launch Linux
       executable: Tabletop Simulator.x86_64
       type: default
-    - arguments: "-force-metal"
+    - arguments: "-force-glcore"
       config:
         oslist: macos
-      description: Metal
+      description: OpenGL Core (Legacy)
       executable: Tabletop Simulator.app
     - arguments: "-force-vulkan"
       config:
@@ -666984,9 +666984,7 @@
   launch:
     - executable: windows/Farming Incremental But With Guns.exe
       type: default
-4655000:
-  nameLocalized:
-    japanese: カラドリウス2/ダークエレメント
+4655000: {}
 4658830: {}
 4659620:
   cloud:
@@ -667427,7 +667425,20 @@
   launch:
     - executable: Warlords4.exe
       type: default
-4834790: {}
+4834790:
+  cloud:
+    saves:
+      - path: Theocracy/save
+        pattern: "*"
+        recursive: true
+        root: WinSavedGames
+  installDir: Theocracy
+  launch:
+    - executable: theocracy-0.6.85.exe
+      type: default
+    - description: Configure Theocracy
+      executable: config.exe
+      type: config
 4834810:
   cloud:
     saves:

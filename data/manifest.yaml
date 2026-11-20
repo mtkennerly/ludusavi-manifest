@@ -96835,6 +96835,13 @@ Boardfall:
     id: 4026170
 Boardfall Zero:
   alias: Boardfall
+Boards and Blades 2:
+  files:
+    "<base>/System/BB2.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Boardwalk Carnival Game:
   installDir:
     Boardwalk Carnival Game: {}
@@ -255800,6 +255807,13 @@ Extreme Assault:
         - config
       when:
         - os: dos
+Extreme Boards & Blades:
+  files:
+    "<base>/xboards.ini":
+      tags:
+        - config
+      when:
+        - os: windows
 Extreme Burger Defense:
   files:
     "<winLocalAppData>/ExtremeBurgerDefense":
@@ -266097,6 +266111,8 @@ Fast Food Tycoon 2:
         - os: windows
   gog:
     id: 1175067557
+  id:
+    lutris: pizza-connection-2
   installDir:
     Pizza Connection 2: {}
   launch:
@@ -315640,6 +315656,8 @@ Grand Theft Auto V Enhanced:
         - config
       when:
         - os: windows
+  id:
+    lutris: grand-theft-auto-v-enhanced
   installDir:
     Grand Theft Auto V Enhanced: {}
   launch:
@@ -547492,6 +547510,7 @@ Pizza Connection 3:
     gogExtra:
       - 1377044054
       - 1838508915
+    lutris: pizza-connection-3
     steamExtra:
       - 682710
   installDir:
@@ -719599,7 +719618,7 @@ Tabletop Simulator:
       - when:
           - os: mac
             store: steam
-      - arguments: "-force-metal"
+      - arguments: "-force-glcore"
         when:
           - os: mac
             store: steam
@@ -780110,6 +780129,9 @@ TheoTown:
   steam:
     id: 1084020
 Theocracy:
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/.gamesettings":
       tags:
@@ -780126,8 +780148,20 @@ Theocracy:
         - save
       when:
         - os: windows
+    "<home>/Saved Games/Theocracy/save/*.tsg":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: steam
   gog:
     id: 1355762673
+  installDir:
+    Theocracy: {}
+  launch:
+    "<base>/theocracy-0.6.85.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834790
 Theocracy (2022):
@@ -809496,6 +809530,11 @@ Tungulus:
     id: 636470
 "Tunguska: Legend of Faith":
   files:
+    "<base>/TUNGUS.INI":
+      tags:
+        - config
+      when:
+        - os: windows
     "<base>/TUNGUSKA.S*":
       tags:
         - save
