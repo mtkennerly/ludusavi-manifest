@@ -288624,6 +288624,20 @@
       executable: Starbear.exe
       type: vr
 702050:
+  cloud:
+    saves:
+      - path: Nitroplus/saya_en
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
+      - path: Nitroplus/saya_ch
+        pattern: "*"
+        platforms:
+          - Windows
+        recursive: true
+        root: WinAppDataRoaming
   installDir: The Song of Saya
   launch:
     - executable: Saya_Steam.exe
@@ -553436,6 +553450,12 @@
     - config:
         oslist: linux
       executable: Doki Doki Literature Club Plus
+    - config:
+        betakey: engine_update
+        osarch: "64"
+        oslist: windows
+      executable: DDLC.exe
+      type: default
 1389020:
   installDir: The Cleaner
   launch:
@@ -647012,6 +647032,7 @@
     saves:
       - path: game/saves
         pattern: "*"
+        recursive: true
         root: gameinstall
     overrides:
       - os: MacOS
@@ -666570,7 +666591,16 @@
     - config:
         oslist: linux
       executable: MyBeautifulFaraway.x86_64
-4523120: {}
+4523120:
+  cloud:
+    saves:
+      - path: Volvys_Adventure_6/default
+        pattern: "*.onion"
+        root: WinAppDataLocal
+  installDir: Volvy’s Adventure
+  launch:
+    - executable: Volvys_Adventure_6.exe
+      type: default
 4527520: {}
 4530370:
   cloud:
@@ -667966,7 +667996,10 @@
   nameLocalized:
     russian: Звёздный меч
 5081550: {}
-5089020: {}
+5089020:
+  installDir: Disco Ball Simulator 2000
+  launch:
+    - executable: Disco Ball Simulator 2000.exe
 5093680: {}
 5095280:
   cloud:

@@ -61713,6 +61713,12 @@ Awareness Rooms:
   steam:
     id: 453290
 Awaria:
+  files:
+    "<xdgConfig>/unity3d/vanripper/Awaria/prefs":
+      tags:
+        - config
+      when:
+        - os: linux
   id:
     steamExtra:
       - 3394230
@@ -64514,30 +64520,7 @@ BR Logic Pack:
   steam:
     id: 35800
 "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT":
-  files:
-    "<home>/Saved Games/Aviao":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winAppData>/Aviao/config.cfg":
-      tags:
-        - config
-      when:
-        - os: windows
-  id:
-    lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
-    steamExtra:
-      - 3476440
-  installDir:
-    AVIAOZIN3: {}
-  launch:
-    "<base>/AVIAO3.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 3191050
+  alias: Brazilian Drug Dealer 3
 "BRAZILIAN DRUG DEALER BEFORE 4: DEMONS FROM THE PORTAL TO HELL I OPENED ARE STILL IN THE FAVELA AND NOW I HAVE TO SAVE MAMADAS FROM RONALDO":
   installDir:
     AviaoPre4: {}
@@ -97863,7 +97846,7 @@ Bomber Crew:
         - save
       when:
         - os: linux
-    "<xdgConfig>/unity3d/Runner Duck/Bomber Crew/perfs":
+    "<xdgConfig>/unity3d/Runner Duck/Bomber Crew/prefs":
       tags:
         - config
       when:
@@ -103886,6 +103869,36 @@ Brazilian Adventure:
             store: steam
   steam:
     id: 764880
+Brazilian Drug Dealer 3:
+  files:
+    "<home>/Saved Games/Aviao":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Aviao/config.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+  gog:
+    id: 1298669607
+  id:
+    gogExtra:
+      - 1391632422
+      - 2011757279
+    lutris: brazilian-drug-dealer-3-i-opened-a-portal-to-hell-
+    steamExtra:
+      - 3476440
+  installDir:
+    AVIAOZIN3: {}
+  launch:
+    "<base>/AVIAO3.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3191050
 Brazilian Root:
   installDir:
     BrazilianRoot: {}
@@ -197405,7 +197418,7 @@ Despotism 3k:
         - save
       when:
         - os: linux
-    "<xdgConfig>/unity3d/Konfa Games/Despotism3k/perfs":
+    "<xdgConfig>/unity3d/Konfa Games/Despotism3k/prefs":
       tags:
         - config
       when:
@@ -204351,6 +204364,12 @@ Disco Ball Simulator 2000:
   id:
     steamExtra:
       - 5089460
+  installDir:
+    Disco Ball Simulator 2000: {}
+  launch:
+    "<base>/Disco Ball Simulator 2000.exe":
+      - when:
+          - store: steam
   steam:
     id: 5089020
 Disco Bullets:
@@ -285735,7 +285754,7 @@ Foto Flash 2:
     id: 861760
 Fotonica:
   files:
-    "<xdgConfig>/unity3d/Santa Ragione/FOTONICA/perfs":
+    "<xdgConfig>/unity3d/Santa Ragione/FOTONICA/prefs":
       tags:
         - config
         - save
@@ -403284,6 +403303,8 @@ Korwin The Game:
   steam:
     id: 375030
 "Koshmar: The Last Reverie":
+  gog:
+    id: 1429035916
   id:
     lutris: koshmar-the-last-reverie
   steam:
@@ -446578,6 +446599,7 @@ Mark After Dark:
     id: 713980
 Mark of the Deep:
   cloud:
+    epic: true
     steam: true
   files:
     "<base>/MarkOfTheDeep/Saved/SaveGames/*.sav":
@@ -446586,6 +446608,16 @@ Mark of the Deep:
     "<winLocalAppData>/MarkOfTheDeep/Saved/SaveGames/*.sav":
       when:
         - store: steam
+  gog:
+    id: 1749756718
+  id:
+    gogExtra:
+      - 1268617634
+      - 1594619696
+    lutris: mark-of-the-deep
+    steamExtra:
+      - 3480440
+      - 4374400
   installDir:
     Mark of the Deep: {}
   launch:
@@ -453474,7 +453506,7 @@ Mega Balls:
     id: 1185500
 Mega Coin Squad:
   files:
-    "<xdgConfig>/unity3d/Big Pixel Studios/Mega Coin Squad/perfs":
+    "<xdgConfig>/unity3d/Big Pixel Studios/Mega Coin Squad/prefs":
       tags:
         - config
         - save
@@ -484174,6 +484206,12 @@ My Super Tower 3:
   steam:
     id: 838640
 My Sweet Floating in the Void:
+  files:
+    "<home>/AppData/LocalLow/Oculus Digital/My Sweet Floating In The Void/mysweetsave.game":
+      tags:
+        - save
+      when:
+        - os: windows
   installDir:
     My Sweet Floating In The Void: {}
   launch:
@@ -484185,6 +484223,10 @@ My Sweet Floating in the Void:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Oculus Digital/My Sweet Floating In The Void:
+      tags:
+        - config
   steam:
     id: 2738740
 My Sweet Waifu:
@@ -543500,6 +543542,19 @@ Pimp Tight:
   steam:
     id: 555100
 "Pinata Smash: Incremental Circus":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/punkfuncgames/Piñata Smash_ Incremental Circus/save.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/4918810/remote/save.dat":
+      tags:
+        - save
+      when:
+        - store: steam
   id:
     steamExtra:
       - 4941930
@@ -546123,7 +546178,7 @@ Pixel Piracy:
       when:
         - os: windows
         - os: linux
-    "<xdgConfig>/unity3d/VitaliKirpuProductions/Pixel Piracy/perfs":
+    "<xdgConfig>/unity3d/VitaliKirpuProductions/Pixel Piracy/prefs":
       tags:
         - config
       when:
@@ -576782,18 +576837,23 @@ Race the Sun:
   cloud:
     steam: true
   files:
-    "<home>/.config/unity3d/Flippfly/RaceTheSun":
-      tags:
-        - config
-        - save
-      when:
-        - os: linux
     "<home>/Library/Preferences/unity.Flippfly.RaceTheSun.plist":
       tags:
         - config
         - save
       when:
         - os: mac
+    "<root>/userdata/<storeUserId>/253030/remote":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<xdgConfig>/unity3d/Flippfly/RaceTheSun/prefs":
+      tags:
+        - config
+        - save
+      when:
+        - os: linux
   gog:
     id: 1207660134
   id:
@@ -650038,7 +650098,7 @@ Sir Whoopass:
         - save
       when:
         - os: windows
-    "<xdgConfig>/unity3d/Big Robot/SirYouAreBeingHunted/perfs":
+    "<xdgConfig>/unity3d/Big Robot/SirYouAreBeingHunted/prefs":
       tags:
         - config
       when:
@@ -835700,6 +835760,16 @@ Volvox:
   steam:
     id: 392600
 "Volvy’s Adventure: Reslimed":
+  files:
+    "<winLocalAppData>/Volvys_Adventure_6/default/*.onion":
+      when:
+        - store: steam
+  installDir:
+    Volvy’s Adventure: {}
+  launch:
+    "<base>/Volvys_Adventure_6.exe":
+      - when:
+          - store: steam
   steam:
     id: 4523120
 Vomitoreum:
@@ -876087,7 +876157,7 @@ Zenza:
     id: 519990
 Zenzizenzic:
   files:
-    "<xdgConfig>/unity3d/Ruud Koorevaar/Zenzizenzic/perfs":
+    "<xdgConfig>/unity3d/Ruud Koorevaar/Zenzizenzic/prefs":
       tags:
         - config
         - save
