@@ -331172,6 +331172,66 @@ HardCube:
     steam: true
   steam:
     id: 493730
+Hardcoded:
+  files:
+    "<home>/.godot/app_userdata/HARDCODED":
+      tags:
+        - config
+        - save
+      when:
+        - os: mac
+    "<home>/.local/share/godot/app_userdata/HARDCODED/gamesettings.json":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.local/share/godot/app_userdata/HARDCODED/savefile0.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/godot/app_userdata/HARDCODED/savefile1.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/godot/app_userdata/HARDCODED/savefile2.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.local/share/godot/app_userdata/HARDCODED/savefile3.json":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<winAppData>/Godot/app_userdata/HARDCODED":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    HARDCODED: {}
+  launch:
+    "<base>/hardcoded":
+      - when:
+          - os: linux
+            store: steam
+    "<base>/hardcoded.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/hardcoded.exe":
+      - when:
+          - os: windows
+            store: steam
+      - arguments: "--rendering-driver opengl3 opengl3_es"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2693710
 Hardcore Bunny Jumper:
   steam:
     id: 1076320
@@ -662726,8 +662786,23 @@ Soldiers Lost Forever (1914-1918):
   steam:
     id: 508630
 Soldiers at War:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<base>/Save_g":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1731348684
+  installDir:
+    Soldiers at War: {}
+  launch:
+    "<base>/SAW_Game.exe":
+      - when:
+          - store: steam
   steam:
     id: 4834810
 Soldiers of Freedom:
@@ -844180,6 +844255,9 @@ Warlords III:
   steam:
     id: 2916220
 "Warlords IV: Heroes of Etheria":
+  cloud:
+    gog: true
+    steam: true
   files:
     "<base>/Saved Games":
       tags:
@@ -844193,6 +844271,12 @@ Warlords III:
         - os: windows
   gog:
     id: 1462962180
+  installDir:
+    Warlords IV Heroes of Etheria: {}
+  launch:
+    "<base>/Warlords4.exe":
+      - when:
+          - store: steam
   registry:
     HKEY_CURRENT_USER/Software/Ubi Soft/Warlords IV/Options:
       tags:

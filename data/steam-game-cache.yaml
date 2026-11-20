@@ -635547,6 +635547,30 @@
     - config:
         oslist: windows
       executable: Garten of Banban 7.exe
+2693710:
+  cloud:
+    saves:
+      - path: save_files
+        pattern: "*.json"
+        root: gameinstall
+  installDir: HARDCODED
+  launch:
+    - config:
+        oslist: windows
+      executable: hardcoded.exe
+      type: default
+    - config:
+        oslist: linux
+      executable: hardcoded
+      type: default
+    - config:
+        oslist: macos
+      executable: hardcoded.app
+    - arguments: "--rendering-driver opengl3 opengl3_es"
+      config:
+        oslist: windows
+      description: OpenGL ES3
+      executable: hardcoded.exe
 2694420:
   cloud:
     saves:
@@ -667300,7 +667324,11 @@
     koreana: 테일 스위퍼
     schinese: 童话清道夫
     tchinese: 童話清道夫
-4767480: {}
+4767480:
+  nameLocalized:
+    japanese: ロード オブ ザ フォールン II
+    schinese: Lords of the Fallen II 堕落之主2
+    tchinese: Lords of the Fallen II  墮落之主2
 4769040: {}
 4782240:
   cloud:
@@ -667389,9 +667417,26 @@
   launch:
     - executable: por2launch.exe
       type: default
-4834780: {}
+4834780:
+  cloud:
+    saves:
+      - path: Saved Games
+        pattern: "*.ss1"
+        root: gameinstall
+  installDir: Warlords IV Heroes of Etheria
+  launch:
+    - executable: Warlords4.exe
+      type: default
 4834790: {}
-4834810: {}
+4834810:
+  cloud:
+    saves:
+      - path: Save_g
+        pattern: "*.*"
+        root: gameinstall
+  installDir: Soldiers at War
+  launch:
+    - executable: SAW_Game.exe
 4834830: {}
 4834840:
   cloud:
