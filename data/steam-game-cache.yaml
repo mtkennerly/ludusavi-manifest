@@ -627630,15 +627630,15 @@
   installDir: Gray Zone Warfare
   launch:
     - config:
-        betakey: "default,staging"
+        betakey: default
         osarch: "64"
         oslist: windows
       executable: GZWClientEAC.exe
       type: default
-    - arguments: "-MatchmakingGroup=marketing -noEAC -noAnybrain -NakamaEndpoint=MFGReleaseNightly"
+    - arguments: "-steam"
       config:
         betakey: "marketing,marketing-temp"
-      executable: GZWClient.exe
+      executable: GZWClientEAC.exe
       type: default
     - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-test  -noEAC -noAnybrain"
       config:
@@ -627648,7 +627648,7 @@
     - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-dev -noEAC -noAnybrain"
       config:
         betakey: external-dev
-      executable: "GZW\\Binaries\\Win64\\GZWClientSteam-Win64-DebugGame.exe"
+      executable: "GZW\\Binaries\\Win64\\GZWClient-Win64-DebugGame.exe"
       type: default
     - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-shipping"
       config:
@@ -627660,7 +627660,7 @@
         betakey: external-anybrain
       executable: GZWClientEAC.exe
       type: default
-    - arguments: "-NakamaEndpoint=MFGExperimental -MatchmakingGroup=external-nvidia -noeac -noanybrain"
+    - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-nvidia -noeac -noanybrain"
       config:
         betakey: external-nvidia
       executable: "GZW\\Binaries\\Win64\\GZWClientSteam-Win64-Test.exe"
@@ -627675,12 +627675,12 @@
       config:
         betakey: external-dev
       description: Offline Mode
-      executable: "GZW\\Binaries\\Win64\\GZWClientSteam-Win64-DebugGame.exe"
+      executable: "GZW\\Binaries\\Win64\\GZWClient-Win64-DebugGame.exe"
       type: option1
     - arguments: "-NakamaEndpoint=MFGReleaseNightly -MatchmakingGroup=external-anticheat -noEAC"
       config:
         betakey: external-anticheat
-      executable: "GZW\\Binaries\\Win64\\GZWClientSteam-Win64-Shipping.exe"
+      executable: "GZW\\Binaries\\Win64\\GZWClient-Win64-Shipping.exe"
       type: default
     - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-nvidia -DpCVars=\"r.PSOPrecaching=0\""
       config:
@@ -627693,9 +627693,33 @@
         betakey: external-ope
       executable: GZWClientEAC.exe
       type: default
-    - arguments: "-MFGSupporterPreview -NakamaEndpoint=HeroicCloudSupporters"
-      config:
+    - config:
         betakey: supporter-preview
+      executable: GZWClientEAC.exe
+      type: default
+    - arguments: "-NakamaEndpoint=MFGExternal -MatchmakingGroup=external-sam -noeac"
+      config:
+        betakey: external-sam
+      executable: "GZW\\Binaries\\Win64\\GZWClient-Win64-Test.exe"
+      type: default
+    - arguments: "-NakamaEndpoint=MFGExperimental"
+      config:
+        betakey: external-review
+      executable: GZWClientEAC.exe
+      type: default
+    - config:
+        betakey: qa-test
+      executable: GZWClientEAC.exe
+      type: default
+    - config:
+        betakey: staging
+        osarch: "64"
+        oslist: windows
+      executable: GZWClientEAC.exe
+      type: default
+    - arguments: "-steam"
+      config:
+        betakey: prod-test
       executable: GZWClientEAC.exe
       type: default
   nameLocalized:

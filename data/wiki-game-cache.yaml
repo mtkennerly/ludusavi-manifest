@@ -108,6 +108,9 @@ $1 Ride:
     - "{{Game data/saves|Windows|{{p|hkcu}}/Software/Stampede Games/.projekt/}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Preferences/759000.plist}}"
 ".T.E.S.T: Expected Behaviour":
+  cloud:
+    steam: true
+  lutris: dot-t-e-dot-s-t-expected-behaviour
   pageId: 82680
   steam: 771710
   templates:

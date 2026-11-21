@@ -322,6 +322,8 @@ $1 Ride:
   steam:
     id: 759000
 ".T.E.S.T: Expected Behaviour":
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Veslo Games/Test Expected Behaviour/default.profile":
       tags:
@@ -338,6 +340,8 @@ $1 Ride:
         - config
       when:
         - os: linux
+  id:
+    lutris: dot-t-e-dot-s-t-expected-behaviour
   installDir:
     Test Expected Behaviour: {}
   launch:
