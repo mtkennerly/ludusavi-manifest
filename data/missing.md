@@ -25591,6 +25591,7 @@
 * [Star-Rocket Strike](https://www.pcgamingwiki.com/wiki/?curid=64885)
 * [Star99](https://www.pcgamingwiki.com/wiki/?curid=175582)
 * [Starazius](https://www.pcgamingwiki.com/wiki/?curid=149547)
+* [Starball](https://www.pcgamingwiki.com/wiki/?curid=223394)
 * [StarBallMadNess](https://www.pcgamingwiki.com/wiki/?curid=66111)
 * [Starbear: Taxi](https://www.pcgamingwiki.com/wiki/?curid=93545)
 * [Starblast](https://www.pcgamingwiki.com/wiki/?curid=72383)

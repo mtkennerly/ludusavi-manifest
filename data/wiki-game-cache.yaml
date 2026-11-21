@@ -157174,6 +157174,8 @@ Mugsters:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Reinkout Games\\Mugsters\\}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Reinkout Games\\Mugsters\\Saves\\}}"
 Mukti:
+  gog: 1127682353
+  lutris: mukti
   pageId: 105579
   steam: 760250
 "Mula: The Cycle of Shadow":
@@ -224928,6 +224930,8 @@ Starazius:
     steam: true
   pageId: 149547
   steam: 1157100
+Starball:
+  pageId: 223394
 Starbase:
   cloud:
     steam: true
