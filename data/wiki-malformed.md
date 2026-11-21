@@ -12,6 +12,7 @@
 * [Frostpunk 2](https://www.pcgamingwiki.com/wiki/?curid=170738)
 * [Gift](https://www.pcgamingwiki.com/wiki/?curid=35760)
 * [Heroes of Hammerwatch II](https://www.pcgamingwiki.com/wiki/?curid=218830)
+* [International Tennis Pro](https://www.pcgamingwiki.com/wiki/?curid=202258)
 * [James Bond 007: Nightfire](https://www.pcgamingwiki.com/wiki/?curid=13057)
 * [JetFly](https://www.pcgamingwiki.com/wiki/?curid=68430)
 * [Kernel Hearts](https://www.pcgamingwiki.com/wiki/?curid=220580)

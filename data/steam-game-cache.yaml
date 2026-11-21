@@ -21135,11 +21135,29 @@
 217750:
   installDir: Age of Conan
   launch:
-    - description: Start Age of Conan
+    - description: Start Age of Conan Patcher
       executable: ConanPatcher.exe
     - config:
         betakey: yourenotquitedead
+      description: Start Age of Conan Dx9
       executable: AgeOfConan.exe
+    - config:
+        betakey: yourenotquitedead
+        osarch: "64"
+        oslist: linux
+      description: Start Age of Conan Linux
+      executable: LinuxClient/run_client.sh
+    - config:
+        betakey: yourenotquitedead
+        oslist: linux
+      description: Linux Cheetah Previewer
+      executable: LinuxPreviewer/run4020.sh
+    - config:
+        betakey: yourenotquitedead
+        osarch: "64"
+        oslist: windows
+      description: Start Age of Conan DirectX 12
+      executable: AgeOfConan64DX12.exe
 217790:
   cloud:
     saves:
@@ -663004,6 +663022,10 @@
       executable: TimeOfMonsters
 3970690: {}
 3975260: {}
+3975870:
+  nameLocalized:
+    schinese: 破碎怪谈：米琪
+    tchinese: 破碎怪談：米琪
 3976150:
   installDir: "Sonki's Lagoon"
   launch:

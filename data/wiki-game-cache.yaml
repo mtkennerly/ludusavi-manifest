@@ -14440,6 +14440,7 @@ Apocalypse Zombie Race:
   templates:
     - "{{Game data/saves|Windows|{{p|userprofile}}\\AppData\\LocalLow\\Hoplon Infotainment\\Apocalypse_ Party_s Over\\}}"
 Apocalyptica:
+  lutris: apocalyptica
   pageId: 74786
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\ExtremeFX\\Apocalyptica\\}}"
@@ -35091,6 +35092,9 @@ Broken of Darkness:
   steamSide:
     - 3272520
     - 3818240
+"BrokenLore: Miki-chan":
+  pageId: 223399
+  steam: 3975870
 "BrokenLore: Unfollow":
   cloud:
     steam: true
@@ -122482,6 +122486,7 @@ International Space Station Tour VR:
   pageId: 90008
   steam: 797200
 International Tennis Pro:
+  malformed: true
   pageId: 202258
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.cfg}}"
@@ -149686,6 +149691,7 @@ Metal Gear Solid - Master Collection Version:
   cloud:
     gog: true
   gog: 2069117974
+  lutris: metal-gear-solid-2-substance
   pageId: 1508
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\bin\\*.ini}}"
@@ -198680,6 +198686,7 @@ Rocket Island:
   pageId: 99264
   steam: 883630
 Rocket Jockey:
+  lutris: rocket-jockey
   pageId: 14709
   steam: 2471120
 Rocket Knight:
@@ -207912,6 +207919,7 @@ Servant of The People:
 Servant of the Lake:
   cloud:
     steam: true
+  gog: 2142293863
   lutris: servant-of-the-lake
   pageId: 204070
   steam: 3636770
@@ -249513,6 +249521,9 @@ The Movies:
 The Mr. Rabbit Magic Show:
   cloud:
     steam: true
+  gog: 1834699820
+  gogSide:
+    - 2137155569
   pageId: 204053
   steam: 3472550
   steamSide:
@@ -276144,6 +276155,8 @@ War Hunter:
 War Inc. Battlezone:
   pageId: 40950
   steam: 107900
+"War Leaders: Clash of Nations":
+  pageId: 223415
 "War Machines: Free to Play":
   pageId: 123637
   steam: 953250

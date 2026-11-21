@@ -44984,6 +44984,8 @@ Apocalyptica:
         - save
       when:
         - os: windows
+  id:
+    lutris: apocalyptica
   registry:
     HKEY_CURRENT_USER/Software/ExtremeFX/Apocalyptica:
       tags:
@@ -107621,6 +107623,9 @@ Broken of Darkness:
             store: steam
   steam:
     id: 3014520
+"BrokenLore: Miki-chan":
+  steam:
+    id: 3975870
 "BrokenLore: Unfollow":
   cloud:
     steam: true
@@ -457839,6 +457844,8 @@ Metal Gear Solid - Master Collection Version:
         - os: windows
   gog:
     id: 2069117974
+  id:
+    lutris: metal-gear-solid-2-substance
 "Metal Gear Solid 3: Snake Eater - Master Collection Version":
   cloud:
     steam: true
@@ -605633,6 +605640,8 @@ Rocket Island:
   steam:
     id: 883630
 Rocket Jockey:
+  id:
+    lutris: rocket-jockey
   installDir:
     Rocket Jockey: {}
   launch:
@@ -634216,6 +634225,8 @@ Servant of the Lake:
         - config
       when:
         - os: mac
+  gog:
+    id: 2142293863
   id:
     lutris: servant-of-the-lake
     steamExtra:
@@ -762152,7 +762163,11 @@ The Mr. Rabbit Magic Show:
         - save
       when:
         - os: windows
+  gog:
+    id: 1834699820
   id:
+    gogExtra:
+      - 2137155569
     steamExtra:
       - 3701380
   installDir:
