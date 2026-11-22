@@ -447758,6 +447758,9 @@
           - Windows
         root: WinMyDocuments
       - path: 30XX/
+        pattern: "*.exl"
+        root: WinMyDocuments
+      - path: 30XX/
         pattern: "*.key"
         platforms:
           - Windows
@@ -583102,6 +583105,11 @@
       executable: Idol Showdown.exe
       type: none
 1742440:
+  cloud:
+    saves:
+      - path: "targim_/COP BASTARD game/Saves/Steam/{64BitSteamID}/"
+        pattern: "*"
+        root: WinAppDataLocalLow
   installDir: COP BASTARD
   launch:
     - config:
@@ -661438,7 +661446,7 @@
 3849000:
   cloud:
     saves:
-      - path: The_Holy_Fool/Saved
+      - path: The_Holy_Fool/Saved/SaveGames
         pattern: "*"
         platforms:
           - Windows

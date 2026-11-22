@@ -819,6 +819,8 @@ $1 Ride:
 "1914: Prelude to Chaos":
   pageId: 62006
   steam: 627950
+"1914: Shells of Fury":
+  pageId: 223458
 "1914: The Great War":
   pageId: 204075
   templates:
@@ -5693,6 +5695,8 @@ Ace Ventura:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\7THLEVEL.INI}}"
     - "{{Game data/saves|Windows|{{p|game}}\\ACEGAME.SAV}}"
+Ace of Aces:
+  pageId: 223447
 Ace of Protectors:
   cloud:
     steam: true
@@ -11813,6 +11817,9 @@ American Hero:
     - 1160264518
   lutris: american-hero
   pageId: 171969
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Ziggurat\\American Hero\\USR-DATA}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Ziggurat\\American Hero\\USR-DATA}}"
 American Idol (2002):
   pageId: 212944
   templates:
@@ -28006,6 +28013,7 @@ Birdtual Reality:
   pageId: 36912
   steam: 513240
 Birth of America:
+  lutris: birth-of-america
   pageId: 172047
 "Birth of America 2: Wars in America":
   pageId: 172049
@@ -50043,8 +50051,19 @@ Cop Academy:
   pageId: 130042
   steam: 982710
 Cop Bastard:
+  cloud:
+    steam: true
+  gog: 1286862415
+  gogSide:
+    - 1256467534
+    - 1682691070
+    - 1688981549
+  lutris: cop-bastard
   pageId: 203325
   steam: 1742440
+  steamSide:
+    - 2174740
+    - 5484030
 Copa City:
   cloud:
     steam: true
@@ -66416,10 +66435,17 @@ Dischord:
     - "{{Game data/config|Windows|{{p|game}}\\Exe\\DISCIPLE.INI}}"
     - "{{Game data/saves|Windows|{{p|Game}}\\Savegame}}"
 Disco Ball Simulator 2000:
+  cloud:
+    steam: true
   pageId: 221265
   steam: 5089020
   steamSide:
     - 5089460
+  templates:
+    - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\Timi Ocean\\Disco Ball Simulator 2000\\settings.json}}"
+    - "{{Game data/config|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\5089020\\remote\\settings.json}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\Timi Ocean\\Disco Ball Simulator 2000\\save.json}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\5089020\\remote\\save.json}}"
 Disco Bullets:
   pageId: 150836
   steam: 1148850
@@ -70497,6 +70523,7 @@ Dragon Stone - Legendary Archer:
   cloud:
     epic: true
     steam: true
+  lutris: dragon-throne-battle-of-red-cliffs
   pageId: 157640
   steam: 2633500
   templates:
@@ -98344,6 +98371,7 @@ Gears of War 4:
   steam: 2523720
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Coalition\\WarGame\\Config}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\Microsoft.Pender_8wekyb3d8bbwe\\SystemAppData}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Coalition\\WarGame\\SaveData}}"
 "Gears of War: Ultimate Edition":
   cloud:
@@ -154929,6 +154957,8 @@ Monster surprised you-ki chan:
 MonsterCastle - 怪物城堡:
   pageId: 141875
   steam: 1105210
+MonsterQuest:
+  pageId: 223454
 MonsterS in Haha Island:
   pageId: 67233
   steam: 684490
@@ -183639,6 +183669,7 @@ Prince of Qin:
   cloud:
     gog: true
   gog: 1273860392
+  lutris: prince-of-qin
   pageId: 157559
   steam: 1717410
   templates:
@@ -204366,11 +204397,15 @@ Sandstorm:
   steam: 548710
 Sandustry:
   cloud:
+    steam: true
     xbox: true
   pageId: 204065
   steam: 2764460
   steamSide:
     - 3490390
+  templates:
+    - "{{Game data/config|Linux|~/.config/sandustry/meta}}"
+    - "{{Game data/saves|Linux|~/.config/sandustry/saves}}"
 Sandwalkers:
   cloud:
     gog: true
@@ -207787,10 +207822,12 @@ Serious Sam Double D:
   steam: 111600
   templates:
     - "{{Game data/saves|Windows|{{p|localappdata}}\\SSDD\\|{{p|localappdata}}\\SSDDXXL\\}}"
-Serious Sam Fusion 2017:
+Serious Sam Fusion:
   cloud:
     steam: true
   pageId: 60182
+  renamedFrom:
+    - Serious Sam Fusion 2017
   steam: 564310
   steamSide:
     - 564320
@@ -229401,6 +229438,7 @@ Submarine Attack!:
   steam: 1068910
 Submarine Titans:
   gog: 1476453752
+  lutris: submarine-titans
   pageId: 12604
   steam: 1259380
   templates:
@@ -245699,6 +245737,8 @@ The HinterLands:
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles}}"
 "The History Channel: Great Battles of Rome":
   pageId: 191998
+"The History Channel: Lost Worlds":
+  pageId: 223452
 The Hit:
   pageId: 18381
 "The Hitchhiker's Guide to the Galaxy":
@@ -247103,6 +247143,8 @@ The Language of Love:
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\RenPy\\lovelanguage-1539706983\\*|{{p|game}}\\game\\saves\\*}}"
 The Lantern of the Laughless Saint:
+  cloud:
+    steam: true
   lutris: the-lantern-of-the-laughless-saint
   pageId: 215884
   steam: 3849000
@@ -250257,6 +250299,7 @@ The Outforce:
   cloud:
     epic: true
     steam: true
+  lutris: the-outforce
   pageId: 14801
   steam: 2633480
   templates:
@@ -278670,6 +278713,7 @@ Watergate Xtreme:
   steam: 666320
 Waterloo:
   gog: 1356354968
+  lutris: waterloo
   pageId: 149172
   steam: 1157860
 Waterpark Simulator:

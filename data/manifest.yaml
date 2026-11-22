@@ -36646,6 +36646,13 @@ American Fugitive:
 American Hero:
   cloud:
     gog: true
+  files:
+    "<winAppData>/Ziggurat/American Hero/USR-DATA":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
   gog:
     id: 1718511445
   id:
@@ -85751,6 +85758,9 @@ Birdtual Reality:
     Birdtual Reality: {}
   steam:
     id: 513240
+Birth of America:
+  id:
+    lutris: birth-of-america
 Birth of Shadows:
   cloud:
     steam: true
@@ -154247,6 +154257,23 @@ Cop Academy:
   steam:
     id: 982710
 Cop Bastard:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/targim_/COP BASTARD game/Saves/Steam/<storeUserId>":
+      when:
+        - store: steam
+  gog:
+    id: 1286862415
+  id:
+    gogExtra:
+      - 1256467534
+      - 1682691070
+      - 1688981549
+    lutris: cop-bastard
+    steamExtra:
+      - 2174740
+      - 5484030
   installDir:
     COP BASTARD: {}
   launch:
@@ -204416,6 +204443,29 @@ Dischord:
   steam:
     id: 281450
 Disco Ball Simulator 2000:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Timi Ocean/Disco Ball Simulator 2000/save.json":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/Timi Ocean/Disco Ball Simulator 2000/settings.json":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<root>/userdata/<storeUserId>/5089020/remote/save.json":
+      tags:
+        - save
+      when:
+        - store: steam
+    "<root>/userdata/<storeUserId>/5089020/remote/settings.json":
+      tags:
+        - config
+      when:
+        - store: steam
   id:
     steamExtra:
       - 5089460
@@ -216555,6 +216605,8 @@ Dragon Stone - Legendary Archer:
         - save
       when:
         - os: windows
+  id:
+    lutris: dragon-throne-battle-of-red-cliffs
   installDir:
     Dragon Throne - Battle of Red Cliffs: {}
   launch:
@@ -301295,6 +301347,12 @@ Gears of War 4:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/Microsoft.Pender_8wekyb3d8bbwe/SystemAppData":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: gears-of-war-reloaded
   installDir:
@@ -559715,6 +559773,8 @@ Prince of Qin:
         - store: steam
   gog:
     id: 1273860392
+  id:
+    lutris: prince-of-qin
   installDir:
     Prince of Qin: {}
   launch:
@@ -622905,6 +622965,19 @@ Sandstorm:
   steam:
     id: 548710
 Sandustry:
+  cloud:
+    steam: true
+  files:
+    "<home>/.config/sandustry/meta":
+      tags:
+        - config
+      when:
+        - os: linux
+    "<home>/.config/sandustry/saves":
+      tags:
+        - save
+      when:
+        - os: linux
   id:
     steamExtra:
       - 3490390
@@ -633776,7 +633849,7 @@ Serious Sam Double D:
           - store: steam
   steam:
     id: 111600
-Serious Sam Fusion 2017:
+Serious Sam Fusion:
   cloud:
     steam: true
   files:
@@ -633802,6 +633875,8 @@ Serious Sam Fusion 2017:
     Serious Sam Fusion 2017: {}
   steam:
     id: 564310
+Serious Sam Fusion 2017:
+  alias: Serious Sam Fusion
 "Serious Sam HD: The First Encounter":
   files:
     "<root>/userdata/<storeUserId>/41000/local/SeriousSamHD.ini":
@@ -700033,6 +700108,8 @@ Submarine Titans:
         - os: windows
   gog:
     id: 1476453752
+  id:
+    lutris: submarine-titans
   installDir:
     Submarine Titans: {}
   launch:
@@ -754997,8 +755074,10 @@ The Language of Love:
   steam:
     id: 1027620
 The Lantern of the Laughless Saint:
+  cloud:
+    steam: true
   files:
-    "<winLocalAppData>/The_Holy_Fool/Saved":
+    "<winLocalAppData>/The_Holy_Fool/Saved/SaveGames":
       when:
         - os: windows
           store: steam
@@ -764392,6 +764471,8 @@ The Outforce:
         - config
       when:
         - os: windows
+  id:
+    lutris: the-outforce
   installDir:
     The Outforce: {}
   launch:
@@ -846840,6 +846921,8 @@ Watergate Xtreme:
 Waterloo:
   gog:
     id: 1356354968
+  id:
+    lutris: waterloo
   installDir:
     waterloo: {}
   launch:
