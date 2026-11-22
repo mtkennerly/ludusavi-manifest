@@ -76030,7 +76030,7 @@ Beach Head 2000:
   installDir:
     Beachhead 2000: {}
   launch:
-    "<base>/Launcher/BHLauncher.exe":
+    "<base>/Beachhead 2000.exe":
       - when:
           - os: windows
             store: steam
@@ -111626,6 +111626,31 @@ Burning Out:
             store: steam
   steam:
     id: 2016510
+Burning Sword Death Sun:
+  files:
+    "<winLocalAppData>/BurningSwordDeathSun/Saved/Config/Windows":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/BurningSwordDeathSun/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: burning-sword-death-sun
+    steamExtra:
+      - 2824590
+  installDir:
+    Burning Sword Death Sun: {}
+  launch:
+    "<base>/BurningSwordDeathSun.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2561460
 BurningBridges VR:
   files:
     "<base>/BurningBridges/Saved/**/*.save":
@@ -163022,6 +163047,13 @@ Croc 2:
     gogExtra:
       - 1339998951
     lutris: croc-2
+  installDir:
+    Croc 2 Classic: {}
+  launch:
+    "<base>/Croc2.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/Argonaut Software/Croc2/1.00:
       tags:
@@ -163073,6 +163105,13 @@ Croc 2:
     gogExtra:
       - 2036105119
     lutris: croc-legend-of-the-gobbos
+  installDir:
+    Croc Classic: {}
+  launch:
+    "<base>/croc.exe":
+      - when:
+          - os: windows
+            store: steam
   registry:
     HKEY_LOCAL_MACHINE/SOFTWARE/WOW6432Node/Argonaut Software/Croc:
       tags:
@@ -376972,6 +377011,17 @@ Invicta Beam:
   steam:
     id: 611690
 "Invictus: In the Shadow of Olympus":
+  files:
+    "<base>/DAGamePrefs.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/savegames":
+      tags:
+        - save
+      when:
+        - os: windows
   gog:
     id: 1207658655
   installDir:
@@ -388580,6 +388630,8 @@ Jurassic Park Classic Games Collection:
   steam:
     id: 201830
 "Jurassic Park: Trespasser":
+  id:
+    lutris: trespasser
   registry:
     HKEY_CURRENT_USER/Software/DreamWorks Interactive/Trespasser:
       tags:
@@ -404154,6 +404206,10 @@ Krunker.io:
     lutris: kknd2-krossfire
   installDir:
     KKND 2 Krossfire: {}
+  launch:
+    "<base>/kknd2.exe":
+      - when:
+          - store: steam
   steam:
     id: 1292180
 "Krush Kill 'N Destroy Xtreme":
@@ -404176,6 +404232,10 @@ Krunker.io:
     lutris: kknd-krush-kill-n-destroy-xtreme
   installDir:
     KKND Xtreme: {}
+  launch:
+    "<base>/kknd.exe":
+      - when:
+          - store: steam
   steam:
     id: 1292170
 KryptCrawler:
@@ -514920,6 +514980,8 @@ Omensight:
   steam:
     id: 455820
 Omerta - City of Gangsters:
+  alias: "Omerta: City of Gangsters"
+"Omerta: City of Gangsters":
   cloud:
     steam: true
   files:
@@ -688795,9 +688857,19 @@ Startopia:
   installDir:
     Startopia: {}
   launch:
+    "<base>/Startopia":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+    "<base>/Startopia.app":
+      - when:
+          - os: mac
+            store: steam
     "<base>/Startopia.exe":
       - when:
-          - store: steam
+          - os: windows
+            store: steam
   steam:
     id: 243040
 Startup Company:
@@ -785390,6 +785462,35 @@ Time Clickers:
 Time Commando:
   cloud:
     gog: true
+  files:
+    "<home>/AppData/LocalLow/2 POINT 21/Time Commando/Saves/*.tcs":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/2 POINT 21/Time Commando/Saves/progress.cfg":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/2 POINT 21/Time Commando/Saves/tcsaves.idx":
+      when:
+        - store: steam
+    "<home>/AppData/LocalLow/2 POINT 21/Time Commando/Saves/timeco.def":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/2 POINT 21/Time Commando/Saves/*.tcs":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/2 POINT 21/Time Commando/Saves/progress.cfg":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/2 POINT 21/Time Commando/Saves/tcsaves.idx":
+      when:
+        - os: mac
+          store: steam
+    "<home>/Library/Application Support/2 POINT 21/Time Commando/Saves/timeco.def":
+      when:
+        - os: mac
+          store: steam
   gog:
     id: 1207658987
   id:
@@ -848370,6 +848471,14 @@ We Were Here Together:
         - save
       when:
         - os: windows
+  id:
+    lutris: we-were-here-together
+    steamExtra:
+      - 1163640
+      - 1170850
+      - 1170860
+      - 1246990
+      - 1614610
   installDir:
     We Were Here Together: {}
   launch:

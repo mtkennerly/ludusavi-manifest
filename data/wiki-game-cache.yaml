@@ -36402,6 +36402,15 @@ Burning Out:
     - 2065301
 Burning Soldier:
   pageId: 220335
+Burning Sword Death Sun:
+  lutris: burning-sword-death-sun
+  pageId: 223429
+  steam: 2561460
+  steamSide:
+    - 2824590
+  templates:
+    - "{{Game data/config|Windows|{{P|localappdata}}\\BurningSwordDeathSun\\Saved\\Config\\Windows\\}}"
+    - "{{Game data/saves|Windows|{{P|localappdata}}\\BurningSwordDeathSun\\Saved\\SaveGames\\}}"
 BurningBridges VR:
   pageId: 90062
   steam: 818430
@@ -48625,7 +48634,6 @@ Commandos 3 HD Remaster:
   gogSide:
     - 1207658800
   lutris: commandos-behind-enemy-lines
-  malformed: true
   pageId: 561
   steam: 6800
   templates:
@@ -82527,6 +82535,8 @@ Exatron Quest 2:
     steam: true
   pageId: 65277
   steam: 669410
+ExcaliBug:
+  pageId: 223431
 "Excavation Alliance: CaDoRaMo":
   pageId: 199420
   steam: 3194390
@@ -123014,6 +123024,9 @@ Invicta Beam:
   gog: 1207658655
   pageId: 78132
   steam: 692660
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\DAGamePrefs.ini}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\savegames}}"
 "Invincible Presents: Atom Eve":
   cloud:
     epic: true
@@ -126900,6 +126913,7 @@ Jurassic Park Classic Games Collection:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Telltale Games\\Jurassic Park The Game\\|{{p|userprofile\\Documents}}\\telltale games\\JurassicPark\\prefs.prop}}"
     - "{{Game data/saves|OS X|{{P|osxhome}}/Library/Application Support/Telltale Games/JurassicPark100/}}"
 "Jurassic Park: Trespasser":
+  lutris: trespasser
   pageId: 19823
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\DreamWorks Interactive\\Trespasser}}"
@@ -138330,6 +138344,10 @@ Little Comet:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Outgunned Games\\Little Comet}}"
     - "{{Game data/saves|Windows|{{P|userprofile}}\\AppData\\LocalLow\\Outgunned Games\\Little Comet}}"
+Little Critter and the Great Race:
+  pageId: 221792
+  renamedFrom:
+    - "Mercer Mayer's Little Critter and the Great Race"
 Little Devil:
   cloud:
     steam: true
@@ -146162,6 +146180,8 @@ Mars Power Industries Deluxe:
 Mars Taken:
   pageId: 137263
   steam: 754610
+Mars Taxi:
+  pageId: 223433
 Mars Troopers:
   pageId: 103149
   steam: 890680
@@ -149310,8 +149330,6 @@ Mercenary Kings:
 Mercenary Leto:
   pageId: 104933
   steam: 893710
-"Mercer Mayer's Little Critter and the Great Race":
-  pageId: 221792
 Mercfighter:
   pageId: 66631
   steam: 676540
@@ -168902,7 +168920,7 @@ Omensight:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Omensight\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Omensight\\Saved\\SaveGames\\}}"
-Omerta - City of Gangsters:
+"Omerta: City of Gangsters":
   cloud:
     steam: true
   gog: 1207659157
@@ -168911,6 +168929,8 @@ Omerta - City of Gangsters:
     - 1207664223
   lutris: omerta-city-of-gangsters
   pageId: 4532
+  renamedFrom:
+    - Omerta - City of Gangsters
   steam: 208520
   steamSide:
     - 215370
@@ -169056,6 +169076,8 @@ On Rusty Trails:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\settings.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\default.save}}"
+On Safari:
+  pageId: 223166
 On Target VR Darts:
   pageId: 129675
   steam: 1000870
@@ -279123,8 +279145,15 @@ We Were Here Forever:
 We Were Here Together:
   cloud:
     steam: true
+  lutris: we-were-here-together
   pageId: 113412
   steam: 865360
+  steamSide:
+    - 1163640
+    - 1170850
+    - 1170860
+    - 1246990
+    - 1614610
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\appdata\\locallow}}\\Total Mayhem Games\\We Were Here Together\\Data\\Configs}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Total Mayhem Games\\We Were Here Together\\Data\\Saves}}"

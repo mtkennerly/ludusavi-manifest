@@ -17858,6 +17858,11 @@
         oslist: macos
       description: Launch
       executable: Rayman Origins.app
+  nameLocalized:
+    japanese: レイマン オリジン
+    koreana: 레이맨 오리진
+    schinese: 雷曼：起源
+    tchinese: 《雷射超人：起源》
 207530:
   cloud:
     saves:
@@ -27377,6 +27382,18 @@
         oslist: windows
       description: Blitzkrieg 3
       executable: Launcher.exe
+    - config:
+        betakey: "beta,serverless_1_0_0"
+        osarch: "64"
+        oslist: windows
+      description: Blitzkrieg 3
+      executable: b3.exe
+    - config:
+        betakey: offline_legacy2022
+        osarch: "64"
+        oslist: windows
+      description: Blitzkrieg 3 Offline Legacy 2022
+      executable: Launcher.exe
 235400:
   installDir: Kings Bounty Legions
   launch:
@@ -30187,8 +30204,19 @@
 243040:
   installDir: Startopia
   launch:
-    - description: Launch
+    - config:
+        oslist: windows
+      description: Launch
       executable: Startopia.exe
+    - config:
+        oslist: macos
+      description: Launch
+      executable: Startopia.app
+    - config:
+        osarch: "64"
+        oslist: linux
+      description: Launch
+      executable: Startopia
 243060:
   installDir: Urban Chaos
   launch:
@@ -51295,9 +51323,16 @@
   launch:
     - config:
         oslist: windows
-      description: Launch
+      description: Play Re-Volt Classic
       executable: revolt.exe
       type: default
+    - config:
+        betakey: new_test
+        oslist: windows
+      description: Re-Volt Enhanced
+      executable: "Enhanced\\Re-Volt.exe"
+      type: option1
+      workingdir: Enhanced
   nameLocalized:
     english: Re-Volt
     japanese: リボルト
@@ -80062,6 +80097,17 @@
       description: Launch
       executable: CombatMonsters.exe
 336060:
+  cloud:
+    saves:
+      - path: Raptor2015
+        pattern: CHAR*.FIL
+        root: WinAppDataRoaming
+      - path: Raptor2015
+        pattern: CHAR*.ACH
+        root: WinAppDataRoaming
+      - path: "Raptor2015/cloud/{64BitSteamID}"
+        pattern: steam-recovery-v2.dat
+        root: WinAppDataRoaming
   installDir: Raptor Call of The Shadows - 2015 Edition
   launch:
     - config:
@@ -98008,6 +98054,15 @@
       description: "Mafia III: Definitive Edition (Release EXE)"
       executable: whiskey_release.exe
       type: option2
+  nameLocalized:
+    czech: "Mafia III: Definitivní edice"
+    japanese: 『マフィアIII コンプリート・エディション』
+    koreana: "마피아 III: 데피니티브 에디션"
+    latam: "Mafia III: Definitive Edition"
+    polish: "Mafia III: Edycja Ostateczna"
+    schinese: 《四海兄弟 III：最终版》
+    spanish: "Mafia III: Edición Definitiva"
+    tchinese: 《四海兄弟III：決定版》
 360450:
   installDir: Kiai Resonance
   launch:
@@ -185275,7 +185330,7 @@
   launch:
     - config:
         oslist: windows
-      executable: Launcher/BHLauncher.exe
+      executable: Beachhead 2000.exe
       type: default
 509620:
   installDir: Last Stitch Goodnight
@@ -542431,13 +542486,7 @@
         root: gameinstall
   installDir: KKND Xtreme
   launch:
-    - config:
-        betakey: "default,update-testing"
-      executable: launcher.exe
-      type: default
-    - config:
-        betakey: legacy
-      executable: kknd.exe
+    - executable: kknd.exe
       type: default
 1292180:
   cloud:
@@ -542456,13 +542505,7 @@
         root: gameinstall
   installDir: KKND 2 Krossfire
   launch:
-    - config:
-        betakey: "default,update-testing"
-      executable: launcher.exe
-      type: default
-    - config:
-        betakey: legacy
-      executable: kknd2.exe
+    - executable: kknd2.exe
       type: default
 1292460:
   cloud:
@@ -584096,6 +584139,26 @@
       executable: trip=true.exe
       type: none
 1758910:
+  cloud:
+    saves:
+      - path: 2 POINT 21/Time Commando/Saves
+        pattern: "*.tcs"
+        root: WinAppDataLocalLow
+      - path: 2 POINT 21/Time Commando/Saves
+        pattern: tcsaves.idx
+        root: WinAppDataLocalLow
+      - path: 2 POINT 21/Time Commando/Saves
+        pattern: timeco.def
+        root: WinAppDataLocalLow
+      - path: 2 POINT 21/Time Commando/Saves
+        pattern: progress.cfg
+        root: WinAppDataLocalLow
+    overrides:
+      - addPath: ""
+        os: MacOS
+        osCompare: "="
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
   installDir: Time Commando
   launch:
     - config:
@@ -584107,10 +584170,14 @@
       executable: Contents/MacOS/Launcher
       type: default
     - config:
-        betakey: "native, modding"
+        betakey: "native, modding, preview"
         oslist: windows
       executable: TimeCommando.exe
       type: default
+    - config:
+        betakey: "native, preview"
+        oslist: macos
+      executable: TimeCommando.app
   nameLocalized:
     japanese: タイムコマンドー
 1759350:
@@ -631282,6 +631349,15 @@
     - executable: "Astral Throne\\Astral Throne.exe"
       type: default
 2561340: {}
+2561460:
+  installDir: Burning Sword Death Sun
+  launch:
+    - config:
+        oslist: windows
+      executable: BurningSwordDeathSun.exe
+  nameLocalized:
+    schinese: 焚剑：残阳恩仇录
+    tchinese: 焚劍：殘陽恩仇錄
 2561580:
   cloud:
     saves:
@@ -668254,7 +668330,21 @@
   launch:
     - executable: Bunker.exe
 5219090: {}
-5226010: {}
+5226010:
+  cloud:
+    saves:
+      - path: "Argonaut\\CrocCla"
+        pattern: "*.sav"
+        platforms:
+          - Windows
+        root: WinAppDataRoaming
+  installDir: Croc Classic
+  launch:
+    - config:
+        oslist: windows
+      description: Croc Classic PC
+      executable: croc.exe
+      type: default
 5227630: {}
 5233100: {}
 5244970: {}
@@ -668329,7 +668419,19 @@
         oslist: windows
       executable: Dementium II.exe
 5346150: {}
-5349950: {}
+5349950:
+  cloud:
+    saves:
+      - path: ""
+        pattern: "*.crd"
+        root: gameinstall
+  installDir: Croc 2 Classic
+  launch:
+    - config:
+        oslist: windows
+      description: Croc 2 Classic
+      executable: Croc2.exe
+      type: default
 5359820: {}
 5370600:
   cloud:

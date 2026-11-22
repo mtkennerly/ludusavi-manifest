@@ -4,7 +4,6 @@
 * [Bug Adventure](https://www.pcgamingwiki.com/wiki/?curid=167629)
 * [Catherine Classic](https://www.pcgamingwiki.com/wiki/?curid=124963)
 * [Colin McRae Rally 2.0](https://www.pcgamingwiki.com/wiki/?curid=22766)
-* [Commandos: Behind Enemy Lines](https://www.pcgamingwiki.com/wiki/?curid=561)
 * [Darkest Dungeon](https://www.pcgamingwiki.com/wiki/?curid=22744)
 * [Demolition Racer](https://www.pcgamingwiki.com/wiki/?curid=101761)
 * [Doom: The Dark Ages](https://www.pcgamingwiki.com/wiki/?curid=195569)
