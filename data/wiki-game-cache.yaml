@@ -79529,6 +79529,12 @@ Eon Altar:
 Eon Fleet:
   pageId: 91949
   steam: 838980
+Eona:
+  lutris: eona
+  pageId: 223435
+  steam: 3779800
+  steamSide:
+    - 4362000
 Eonia:
   pageId: 92401
   steam: 826180
@@ -89887,6 +89893,8 @@ Fisher-Price Learning in Toyland:
   pageId: 220774
 "Fisher-Price Read & Play: A Day at the Beach with the Fuzzooly Family":
   pageId: 220766
+"Fisher-Price Read & Play: After the Beanstalk":
+  pageId: 220772
 "Fisher-Price Read & Play: The Lie":
   pageId: 220768
 "Fisher-Price Read & Play: Yolanda Yellsalot":
@@ -113785,6 +113793,8 @@ History Warriors:
 History in Letters - The Eternal Alchemist:
   pageId: 45365
   steam: 318680
+"History's Legends of War: Patton":
+  pageId: 223437
 "Historyline: 1914-1918":
   gog: 1207661063
   gogSide:
@@ -139018,6 +139028,8 @@ Loco Motive:
     - 2873680
   templates:
     - "{{Game data/saves|Windows|{{p|game}}\\Saves\\{{p|uid}}\\*.sav}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/unity.Robust Games.Loco Motive/Saves/{{p|uid}}/*.sav}}"
+    - "{{Game data/saves|Linux|{{p|linuxhome}}/.config/unity3d/Robust Games/Loco Motive/Saves/{{p|uid}}/*.sav}}"
 Loco Parentis VR:
   pageId: 135459
   steam: 1072660
@@ -221374,6 +221386,12 @@ Spellbreak:
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\g3\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\g3\\}}"
+Spellbroken Dream Festival:
+  lutris: touhou-danmuki-spellbroken-dream-festival
+  pageId: 223442
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\config.dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\data\\|{{p|game}}\\replay\\}}"
 Spellcaster University:
   cloud:
     gog: true
@@ -280072,12 +280090,17 @@ What if George Washington was a Girl?:
   templates:
     - "{{Game data/saves|Windows|{{p|Appdata}}\\LocalLow\\echomune\\Alter Historia - What if George Washington was a Girl_\\}}"
 What the Buck?!:
+  cloud:
+    steam: true
   pageId: 218958
   steam: 4832970
   steamSide:
     - 5006340
     - 5155800
     - 5155820
+  templates:
+    - "{{Game data/config|Windows|{{P|appdata}}\\Godot\\app_userdata\\What the Buck\\settings.cfg}}"
+    - "{{Game data/saves|Windows|{{P|appdata}}\\Godot\\app_userdata\\What the Buck\\savegame_full.save}}"
 What the Car?:
   cloud:
     steam: true

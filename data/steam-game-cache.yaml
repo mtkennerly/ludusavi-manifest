@@ -580653,6 +580653,17 @@
       - path: "Saves/{64BitSteamID}"
         pattern: "*.sav"
         root: gameinstall
+    overrides:
+      - addPath: ".config/unity3d/Robust Games/Loco Motive/"
+        os: Linux
+        osCompare: "="
+        root: gameinstall
+        useInstead: LinuxHome
+      - addPath: unity.Robust Games.Loco Motive/
+        os: MacOS
+        osCompare: "="
+        root: gameinstall
+        useInstead: MacAppSupport
   installDir: Loco Motive
   launch:
     - config:
@@ -580665,7 +580676,7 @@
       type: default
     - config:
         oslist: linux
-      executable: Loco Motive
+      executable: Loco Motive.x86_64
       type: default
   nameLocalized:
     koreana: "로코 모티브: 로이스 특급 살인"
@@ -660422,6 +660433,7 @@
   installDir: The Puppy
   launch:
     - executable: Puppy.exe
+3779800: {}
 3780660:
   cloud:
     saves:

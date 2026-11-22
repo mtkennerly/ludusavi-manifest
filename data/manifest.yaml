@@ -244751,6 +244751,13 @@ Eon Altar:
 Eon Fleet:
   steam:
     id: 838980
+Eona:
+  id:
+    lutris: eona
+    steamExtra:
+      - 4362000
+  steam:
+    id: 3779800
 Eonia:
   installDir:
     EONIA: {}
@@ -425020,6 +425027,16 @@ Loco Motive:
         - save
       when:
         - os: windows
+    "<home>/.config/unity3d/Robust Games/Loco Motive/Saves/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Library/Application Support/unity.Robust Games.Loco Motive/Saves/<storeUserId>/*.sav":
+      tags:
+        - save
+      when:
+        - os: mac
   gog:
     id: 1690056578
   id:
@@ -425033,10 +425050,6 @@ Loco Motive:
   installDir:
     Loco Motive: {}
   launch:
-    "<base>/Loco Motive":
-      - when:
-          - os: linux
-            store: steam
     "<base>/Loco Motive.app":
       - when:
           - os: mac
@@ -425044,6 +425057,10 @@ Loco Motive:
     "<base>/Loco Motive.exe":
       - when:
           - os: windows
+            store: steam
+    "<base>/Loco Motive.x86_64":
+      - when:
+          - os: linux
             store: steam
   steam:
     id: 1709880
@@ -675884,6 +675901,25 @@ Spellbreak:
             store: steam
   steam:
     id: 1399780
+Spellbroken Dream Festival:
+  files:
+    "<base>/config.dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/data":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/replay":
+      tags:
+        - save
+      when:
+        - os: windows
+  id:
+    lutris: touhou-danmuki-spellbroken-dream-festival
 Spellcaster University:
   cloud:
     gog: true
@@ -851425,6 +851461,19 @@ What if George Washington was a Girl?:
   steam:
     id: 2098470
 What the Buck?!:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/What the Buck/savegame_full.save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/What the Buck/settings.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
   id:
     steamExtra:
       - 5006340
