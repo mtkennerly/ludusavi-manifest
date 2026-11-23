@@ -27968,6 +27968,22 @@ Bird Assassin:
 Bird Game:
   pageId: 82121
   steam: 791700
+"Bird Hunter 2003: Legendary Hunting":
+  pageId: 223474
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Scripts\\}}"
+"Bird Hunter: Upland Edition":
+  pageId: 223468
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Upland.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Hunter.cfg}}"
+"Bird Hunter: Waterfowl Edition":
+  pageId: 223470
+"Bird Hunter: Wild Wings Edition":
+  pageId: 223471
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\Home\\Default.cfg|{{p|game}}\\Home\\DefCmds.cfg|{{p|game}}\\Home\\DefEquip.cfg}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Home\\Hunter.cfg}}"
 Bird Memory:
   pageId: 123641
   steam: 983200
@@ -103802,6 +103818,8 @@ Great Ball of Fire:
 "Great Battle IV: Navy Field IV":
   pageId: 56409
   steam: 481890
+Great Battles Medieval:
+  pageId: 223462
 Great Battles of the American Civil War:
   pageId: 148535
   steam: 1025550
@@ -113812,6 +113830,8 @@ History 2048:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Config\\key_binding.txt}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Profiles}}"
+"History Egypt: Engineering an Empire":
+  pageId: 223464
 History Racers 2:
   pageId: 156067
   steam: 1200870
@@ -113821,6 +113841,8 @@ History Warriors:
 History in Letters - The Eternal Alchemist:
   pageId: 45365
   steam: 318680
+"History's Ice Road Truckers":
+  pageId: 223465
 "History's Legends of War: Patton":
   pageId: 223437
 "Historyline: 1914-1918":
@@ -146427,10 +146449,12 @@ Marvel Puzzle Quest:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Demiurge Studios\\Marvel Puzzle Quest}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\234330\\remote\\}}"
 Marvel Rivals:
+  lutris: marvel-rivals
   pageId: 194000
   steam: 2767030
   steamSide:
     - 4406010
+    - 5554080
   templates:
     - "{{Game data/config|Windows\n|{{P|localappdata}}\\Marvel\\Saved\\Config\\Windows\\GameUserSettings.ini\n|{{P|localappdata}}\\Marvel\\Saved\\Saved\\Config\\MarvelUserSetting.ini\n|{{P|localappdata}}\\Marvel\\Saved\\Saved\\Config\\{id}\\MarvelUserSetting.ini\n|{{P|localappdata}}\\MarvelRivals_Launcher\\meta_info\n}}"
 Marvel Snap:
@@ -163550,6 +163574,7 @@ Nex Machina:
     - "{{Game data/config|Windows|{{P|appdata}}\\Nex Machina\\}}"
     - "{{Game data/saves|Windows|{{P|appdata}}\\Nex Machina\\}}"
 Nexagon Deathmatch:
+  lutris: nexagon
   pageId: 199686
   steam: 1329810
 Nexomon:
@@ -175901,6 +175926,7 @@ Pato Box:
   gog: 1207663933
   gogSide:
     - 1207658802
+  lutris: patrician-ii-quest-for-power
   pageId: 131939
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\P2.cfg}}"
@@ -234218,7 +234244,7 @@ Sword of the Sea:
   pageId: 206358
   steam: 2453160
   templates:
-    - "{{Game data/config|Windows|{{p|localappdata}}\\SwordOfTheSea\\Saved\\}}"
+    - "{{Game data/config|Windows|{{p|localappdata}}\\SwordOfTheSea\\Saved\\Config\\Windows\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\SwordOfTheSea\\Saved\\SaveGames\\*.sav}}"
 Sword of the Slayer:
   cloud:
@@ -278716,6 +278742,8 @@ Waterloo:
   lutris: waterloo
   pageId: 149172
   steam: 1157860
+"Waterloo: Napoleon's Last Battle":
+  pageId: 223460
 Waterpark Simulator:
   cloud:
     steam: true
