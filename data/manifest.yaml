@@ -538315,6 +538315,11 @@ People Playground:
       - when:
           - os: windows
             store: steam
+    "<base>/People Playground.x86_64":
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
   steam:
     id: 1118200
 People of Note:
@@ -562346,6 +562351,8 @@ Professor Fizzwizzle and the Molten Mystery:
 Professor Layton and the New World of Steam:
   cloud:
     steam: true
+  id:
+    lutris: professor-layton-and-the-new-world-of-steam
   steam:
     id: 3384600
 Professor Lupo and His Horrible Pets:
@@ -634957,6 +634964,24 @@ Seventh Circle:
             store: steam
   steam:
     id: 1030950
+Seventh Lair:
+  files:
+    "<winDocuments>/SavedGames/SeventhLair/*.sav":
+      when:
+        - store: steam
+  installDir:
+    Seventh Lair: {}
+  launch:
+    "<base>/Seventh Lair.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/SeventhLair.app":
+      - when:
+          - os: mac
+            store: steam
+  steam:
+    id: 1909810
 Severed Steel:
   cloud:
     gog: true
@@ -751256,6 +751281,7 @@ The House in Fata Morgana:
     id: 303310
 "The House in Fata Morgana: A Requiem for Innocence":
   cloud:
+    gog: true
     steam: true
   files:
     "<winAppData>/MangaGamer/The House in Fata Morgana - A Requiem for Innocence/*.bmp":

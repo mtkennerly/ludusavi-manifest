@@ -489659,16 +489659,16 @@
         pattern: "*"
         recursive: true
         root: gameinstall
-      - path: Mods
-        pattern: "*"
-        recursive: true
-        root: gameinstall
   installDir: People Playground
   launch:
     - config:
         oslist: windows
       executable: People Playground.exe
       type: default
+    - config:
+        osarch: "64"
+        oslist: linux
+      executable: People Playground.x86_64
 1118220: {}
 1118240:
   cloud:
@@ -594930,6 +594930,22 @@
         oslist: windows
       executable: Furry Futanari Jigsaw.exe
       type: default
+1909810:
+  cloud:
+    saves:
+      - path: SavedGames/SeventhLair
+        pattern: "*.sav"
+        root: WinMyDocuments
+  installDir: Seventh Lair
+  launch:
+    - config:
+        oslist: windows
+      executable: Seventh Lair.exe
+    - config:
+        oslist: macos
+      executable: SeventhLair.app
+  nameLocalized:
+    japanese: セブンスコート
 1909950:
   cloud:
     saves:

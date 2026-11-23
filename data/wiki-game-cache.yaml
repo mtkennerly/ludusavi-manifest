@@ -20508,6 +20508,8 @@ B-17 Flying Fortress World War II Bombers in Action:
   gog: 1624514644
   pageId: 192703
   steam: 2000800
+"B-17 Gunner: Air War Over Germany":
+  pageId: 223497
 B-Rabbit:
   pageId: 134525
   steam: 1067070
@@ -35575,6 +35577,10 @@ Bucket Knight:
   gog: 1460611578
   pageId: 135684
   steam: 1077090
+Buckmasters Deer Hunting:
+  pageId: 223488
+Buckmasters Top Bow Championship:
+  pageId: 223486
 Buckshot Roulette:
   cloud:
     xbox: true
@@ -145343,6 +145349,8 @@ Man of Medan:
     - "{{Game data/saves|Microsoft Store|{{p|localappdata}}\\Packages\\NAMCOBANDAIGamesInc.ManofMedanGamePass_gdy2aq6ez762w\\SystemAppData\\wgs\\}}"
 Man of War:
   pageId: 209042
+"Man of War II: Chains of Command":
+  pageId: 223482
 Man of the House:
   pageId: 149273
   steam: 1148150
@@ -184543,6 +184551,7 @@ Professor Layton and the Curious Village Remake:
 Professor Layton and the New World of Steam:
   cloud:
     steam: true
+  lutris: professor-layton-and-the-new-world-of-steam
   pageId: 215534
   steam: 3384600
 Professor Lupo and His Horrible Pets:
@@ -199054,6 +199063,15 @@ Rocksmith+:
 Rockstar Games presents Table Tennis:
   lutris: rockstar-games-presents-table-tennis
   pageId: 195929
+Rocky Mountain Trophy Hunter:
+  pageId: 223490
+  renamedFrom:
+    - Rocky Mountain Trophy Hunter
+    - "Rocky Mountain Trophy Hunter: Alaskan Expedition"
+"Rocky Mountain Trophy Hunter 3: Trophies of the West":
+  pageId: 223495
+"Rocky Mountain Trophy Hunter II: Above the Treeline":
+  pageId: 223493
 Rocwood Academy:
   pageId: 128203
   steam: 1011830
@@ -208204,6 +208222,9 @@ Seventh Circle:
     steam: true
   pageId: 130607
   steam: 1030950
+Seventh Lair:
+  pageId: 223479
+  steam: 1909810
 Severed Steel:
   cloud:
     gog: true
@@ -217209,6 +217230,8 @@ Solenars Edge Rebirth:
 Solid Aether:
   pageId: 109596
   steam: 910730
+Solid Ice:
+  pageId: 223483
 "Solid State Pinball: Tristan":
   pageId: 171264
 Solitaire:
@@ -245883,6 +245906,7 @@ The House in Fata Morgana:
     - "{{Game data/saves|Windows|{{p|appdata}}\\Mangagamer\\The House in Fata Morgana\\}}"
 "The House in Fata Morgana: A Requiem for Innocence":
   cloud:
+    gog: true
     steam: true
   pageId: 93178
   steam: 804700
@@ -256864,6 +256888,8 @@ Thunder Wolves:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Thunder Wolves\\}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\Thunder Wolves\\}}"
+Thunder in Paradise:
+  pageId: 223476
 "Thunder's Leaves":
   cloud:
     steam: true
