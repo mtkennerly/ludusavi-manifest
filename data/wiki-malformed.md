@@ -30,5 +30,6 @@
 * [RetroSpace](https://www.pcgamingwiki.com/wiki/?curid=217010)
 * [Riddle Tower](https://www.pcgamingwiki.com/wiki/?curid=217157)
 * [Riding to Bounce City](https://www.pcgamingwiki.com/wiki/?curid=218655)
+* [Shift 2 Unleashed](https://www.pcgamingwiki.com/wiki/?curid=5949)
 * [Silent Hunter II](https://www.pcgamingwiki.com/wiki/?curid=21224)
 * [Tom Clancy's Rainbow Six 3: Raven Shield](https://www.pcgamingwiki.com/wiki/?curid=6307)

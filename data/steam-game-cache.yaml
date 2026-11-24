@@ -631140,6 +631140,11 @@
     - config:
         oslist: windows
       executable: KannagiUsagi.exe
+2551550:
+  nameLocalized:
+    koreana: "안녕서울 : 이태원편"
+    schinese: 追逐末日之光
+    tchinese: 追逐末日之光
 2552430:
   cloud:
     saves:
@@ -642404,7 +642409,7 @@
     japanese: 進撃の巨人３
     koreana: 진격의거인３
     schinese: 进击的巨人３
-    tchinese: 進撃的巨人３
+    tchinese: 進擊的巨人３
 2917040:
   installDir: Garten of Banban 8 Anti Devil
   launch:
@@ -660898,6 +660903,11 @@
       description: "Habbo Hotel: Origins [Spanish - XL Client]"
       executable: HabboHotel-oes-xl.exe
 3810510:
+  cloud:
+    saves:
+      - path: Visuwyg/DERELIKT/PersistentData/Release
+        pattern: "*"
+        root: WinAppDataLocalLow
   installDir: DERELIKT
   launch:
     - executable: DERELIKT.exe
@@ -663630,6 +663640,15 @@
     koreana: 에스트폴리스 전기 I&II
     schinese: 四狂神战记：I&II
     tchinese: 四狂神戰記：I&II
+4027800:
+  installDir: PSIKYO TENGAI
+  launch:
+    - config:
+        oslist: windows
+      executable: sblade.exe
+      type: default
+  nameLocalized:
+    japanese: 戦国ブレード
 4029480:
   installDir: "Axol's Quest"
   launch:
@@ -664346,6 +664365,91 @@
     - config:
         oslist: linux
       executable: ZATO.sh
+      type: default
+4123500:
+  installDir: PSIKYO SAMURAI ACES
+  launch:
+    - config:
+        oslist: windows
+      executable: saces.exe
+      type: default
+  nameLocalized:
+    japanese: 戦国エース
+4123530:
+  installDir: PSIKYO SAMURAI ACES III
+  launch:
+    - config:
+        oslist: windows
+      executable: scannon.exe
+      type: default
+  nameLocalized:
+    japanese: 戦国キャノン
+4123540:
+  installDir: PSIKYO GUNBIRD
+  launch:
+    - config:
+        oslist: windows
+      executable: gunbird.exe
+      type: default
+4123550:
+  installDir: PSIKYO GUNBIRD 2
+  launch:
+    - config:
+        oslist: windows
+      executable: gunbird2.exe
+      type: default
+4123560:
+  installDir: PSIKYO Gunbarich
+  launch:
+    - config:
+        oslist: windows
+      executable: Gunbarich.exe
+      type: default
+4123570:
+  installDir: PSIKYO STRIKERS 1945
+  launch:
+    - config:
+        oslist: windows
+      executable: s1945.exe
+      type: default
+4123580:
+  installDir: PSIKYO STRIKERS 1945 Ⅱ
+  launch:
+    - config:
+        oslist: windows
+      executable: s1945ii.exe
+      type: default
+4123630:
+  installDir: PSIKYO STRIKERS 1945 III
+  launch:
+    - config:
+        oslist: windows
+      executable: s1945iii.exe
+      type: default
+  nameLocalized:
+    japanese: STRIKERS 1999
+4123660:
+  installDir: PSIKYO Zero Gunner 2
+  launch:
+    - config:
+        oslist: windows
+      executable: Zero Gunner 2.exe
+      type: default
+4123670:
+  installDir: PSIKYO SOL DIVIDE -SWORD OF DARKNESS-
+  launch:
+    - config:
+        oslist: windows
+      executable: soldivide.exe
+      type: default
+  nameLocalized:
+    japanese: SOL DIVIDE
+4123700:
+  installDir: PSIKYO Dragon Blaze
+  launch:
+    - config:
+        oslist: windows
+      executable: dragonblaze.exe
       type: default
 4124320:
   nameLocalized:
@@ -666136,6 +666240,33 @@
     japanese: 最狂進化 EVOカード
     schinese: 最狂進化 EVO Card
     tchinese: 最狂進化 EVO Card
+4380910:
+  cloud:
+    saves:
+      - path: Corn/Saved/SaveGames
+        pattern: "*.sav"
+        root: gameinstall
+      - path: Corn/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
+  installDir: Unicorn Academy Island of Magic
+  launch:
+    - executable: Corn.exe
+      type: default
+  nameLocalized:
+    brazilian: "Academia Unicórnio: A Ilha da Magia"
+    danish: "Enhjørningeakademiet: Magiens ø"
+    french: "L'École des licornes : L'Île de la Magie"
+    japanese: "ユニコーン・アカデミー: 魔法の島"
+    koreana: "유니콘 아카데미: 마법의 섬"
+    latam: "Academia Unicornio: La Isla de la Magia"
+    norwegian: "Enhjørningsakademiet: Magiens øy"
+    polish: "Akademia Jednorożców: Wyspa Magii"
+    portuguese: "Academia Unicórnio: A Ilha da Magia"
+    schinese: "独角兽骑士队: 魔法之岛"
+    spanish: "Academia Unicornio: La Isla de la Magia"
+    swedish: "Enhörningsakademin: Magins ö"
+    tchinese: "獨角獸學院: 魔法之島"
 4381340:
   installDir: Colony28
   launch:
@@ -667076,6 +667207,7 @@
     - config:
         oslist: macos
       executable: SlotGrind.app/Contents/MacOS/SlotGrind
+4622690: {}
 4624100: {}
 4632530:
   installDir: Dog of Wisdom
@@ -668523,6 +668655,7 @@
     schinese: 炸了还是烟花
 5511700: {}
 5527800: {}
+5528520: {}
 5582480: {}
 34004563: {}
 3221903386: {}
