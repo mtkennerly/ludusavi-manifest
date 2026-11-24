@@ -4433,6 +4433,7 @@ AI War 2:
   gog: 1895572517
   gogSide:
     - 1512994101
+    - 1674526429
     - 1889174592
     - 1971284855
   pageId: 93289
@@ -4441,6 +4442,7 @@ AI War 2:
     - 1196420
     - 1290340
     - 1466780
+    - 4534540
   templates:
     - "{{Game data/config|Windows|{{P|game}}\\PlayerData}}"
     - "{{Game data/saves|Windows|{{p|game}}\\PlayerData\\*.dat | {{p|game}}\\PlayerData\\*.bak | {{p|game}}\\PlayerData\\*.graphics | {{p|game}}\\PlayerData\\Profiles\\*.aiwprof | {{p|game}}\\PlayerData\\Save\\ }}"
@@ -6236,6 +6238,9 @@ Actraiser Renaissance:
   templates:
     - "{{Game data/saves|Windows|C:\\Users\\{{p|username}}\\Documents\\My Games\\Actraiser Renaissance|}}"
 Acts of Blood:
+  cloud:
+    steam: true
+    xbox: true
   lutris: acts-of-blood
   pageId: 199721
   steam: 3031890
@@ -7273,6 +7278,8 @@ Afraid of Monsters:
 Africa Hunting:
   pageId: 77122
   steam: 758470
+African Safari Trophy Hunter 3D:
+  pageId: 223505
 After All:
   pageId: 48174
   steam: 365110
@@ -34793,6 +34800,7 @@ Brogue:
   pageId: 193404
 Brok the InvestiGator:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1252694989
@@ -70168,6 +70176,8 @@ Dragon Battle:
 Dragon Blaze:
   pageId: 169029
   steam: 1279420
+  steamSide:
+    - 4123700
 Dragon Blood:
   pageId: 54989
   steam: 562840
@@ -84239,6 +84249,8 @@ FLS:
     steam: true
   pageId: 155910
   steam: 1207020
+FLW Professional Bass Tournament 2000:
+  pageId: 223503
 FLYING SHOT:
   pageId: 156641
   steam: 1206920
@@ -86881,7 +86893,7 @@ Farthest Frontier:
   pageId: 166108
   steam: 1044720
   templates:
-    - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\My Games\\Farthest Frontier\\Save}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\Saved Games}}\\Farthest Frontier\\Save}}"
 Farworld Pioneers:
   cloud:
     xbox: true
@@ -103059,6 +103071,8 @@ Grand Pskov Story:
   steam: 735590
 Grand Slam:
   pageId: 211249
+Grand Slam Turkey Hunt:
+  pageId: 223501
 Grand Strategy:
   pageId: 121391
   steam: 952090
@@ -161824,7 +161838,6 @@ Need for Speed Unbound:
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\NFS Undercover\\{{p|uid}}\\}}"
 "Need for Speed: Underground":
   lutris: need-for-speed-underground
-  malformed: true
   pageId: 6886
   templates:
     - "{{Game data/config|Windows|{{p|hklm}}\\SOFTWARE\\EA GAMES\\{{LocalizedPath|Need For Speed Underground}}\\|{{p|programdata}}\\NFS Underground\\*.cfg|{{p|programdata}}\\NFS Underground\\*.opt}}"
@@ -177614,7 +177627,7 @@ Phantom Blade Zero:
   steamSide:
     - 5041150
   templates:
-    - "{{Game data/config|Windows|{{P|localappdata}}\\ProjectPBZ\\Saved\\Config\\Windows\\|{{P|game}}\\ProjectPBZ\\Saved\\}}"
+    - "{{Game data/config|Windows|{{P|localappdata}}\\ProjectPBZ\\Saved\\Config\\Windows\\|{{P|game}}\\ProjectPBZ\\Saved\\*.sav}}"
     - "{{Game data/saves|Windows|{{P|game}}\\ProjectPBZ\\Saved\\SaveGames\\Steam\\{{P|uid}}\\}}"
 Phantom Brave PC:
   cloud:
@@ -181611,7 +181624,7 @@ Police Stunt Cars:
 Police Tactical Training:
   pageId: 220049
   templates:
-    - "{{Game data/config|Windows|{{p|game}}\\default.cfg|{{p|game}}\\defcmds.cfg|{{p|game}}\\DefEquip.cfg|{{p|game}}\\player.cfg}}"
+    - "{{Game data/config|Windows|{{p|game}}\\Home\\default.cfg|{{p|game}}\\Home\\defcmds.cfg|{{p|game}}\\Home\\DefEquip.cfg|{{p|game}}\\Home\\player.cfg}}"
 "Police Tactics: Imperio":
   pageId: 38751
   steam: 378800
@@ -184187,6 +184200,8 @@ Pro Basketball Manager 2019:
   lutris: pro-basketball-manager-2019
   pageId: 122064
   steam: 880470
+Pro Bass Fishing:
+  pageId: 223508
 Pro Bass Fishing 2003:
   pageId: 221784
 Pro Cycling Manager 2012:
@@ -226988,6 +227003,7 @@ Stellaris:
     - 2048809075
     - 2062279897
     - 2071004157
+    - 2085251567
     - 2106739867
     - 2112845659
   lutris: stellaris
@@ -227040,6 +227056,7 @@ Stellaris:
     - 3417840
     - 3417850
     - 4241420
+    - 4241440
   templates:
     - "{{Game data/config|Windows|{{p|userprofile\\Documents}}\\Paradox Interactive\\Stellaris\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Documents/Paradox Interactive/Stellaris/}}"
@@ -283690,6 +283707,7 @@ Work girl打工妹日记:
   gog: 1860281269
   gogSide:
     - 1414370103
+    - 1658669887
     - 1668945748
     - 1748804900
     - 1967593597
@@ -283702,6 +283720,7 @@ Work girl打工妹日记:
     - 2499360
     - 3333420
     - 3334790
+    - 5303130
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\media_soviet\\config.ini|{{p|game}}\\media_soviet\\controls.ini}}"
     - "{{Game data/saves|Windows|{{p|game}}\\media_soviet\\save}}"

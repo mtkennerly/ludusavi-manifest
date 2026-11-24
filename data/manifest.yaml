@@ -14167,12 +14167,14 @@ AI War 2:
   id:
     gogExtra:
       - 1512994101
+      - 1674526429
       - 1889174592
       - 1971284855
     steamExtra:
       - 1196420
       - 1290340
       - 1466780
+      - 4534540
   installDir:
     AI War 2: {}
   steam:
@@ -19591,6 +19593,8 @@ Actraiser Renaissance:
   steam:
     id: 1393370
 Acts of Blood:
+  cloud:
+    steam: true
   id:
     lutris: acts-of-blood
     steamExtra:
@@ -106757,6 +106761,7 @@ Broforce:
     id: 274190
 Brok the InvestiGator:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -215579,6 +215584,9 @@ Dragon Battle:
   steam:
     id: 859310
 Dragon Blaze:
+  id:
+    steamExtra:
+      - 4123700
   installDir:
     Dragon Blaze: {}
   launch:
@@ -265952,11 +265960,14 @@ Farthest Frontier:
   cloud:
     steam: true
   files:
-    "<winDocuments>/My Games/Farthest Frontier/Save":
-      tags:
-        - save
+    "<home>/Saved Games/Farthest Frontier/Save":
       when:
         - os: windows
+          store: steam
+    "<winLocalAppData>/Farthest Frontier/Save":
+      when:
+        - os: windows
+          store: steam
   installDir:
     Farthest Frontier: {}
   launch:
@@ -540904,7 +540915,7 @@ Phantom Blade Zero:
   cloud:
     steam: true
   files:
-    "<base>/ProjectPBZ/Saved":
+    "<base>/ProjectPBZ/Saved/*.sav":
       tags:
         - config
       when:
@@ -553047,22 +553058,22 @@ Police Stunt Cars:
     id: 1124190
 Police Tactical Training:
   files:
-    "<base>/DefEquip.cfg":
+    "<base>/Home/DefEquip.cfg":
       tags:
         - config
       when:
         - os: windows
-    "<base>/default.cfg":
+    "<base>/Home/default.cfg":
       tags:
         - config
       when:
         - os: windows
-    "<base>/defcmds.cfg":
+    "<base>/Home/defcmds.cfg":
       tags:
         - config
       when:
         - os: windows
-    "<base>/player.cfg":
+    "<base>/Home/player.cfg":
       tags:
         - config
       when:
@@ -692594,6 +692605,7 @@ Stellaris:
       - 2048809075
       - 2062279897
       - 2071004157
+      - 2085251567
       - 2106739867
       - 2112845659
     lutris: stellaris
@@ -692644,6 +692656,7 @@ Stellaris:
       - 3417840
       - 3417850
       - 4241420
+      - 4241440
   installDir:
     Stellaris: {}
   launch:
@@ -862459,6 +862472,7 @@ Work girl打工妹日记:
   id:
     gogExtra:
       - 1414370103
+      - 1658669887
       - 1668945748
       - 1748804900
       - 1967593597
@@ -862469,6 +862483,7 @@ Work girl打工妹日记:
       - 2499360
       - 3333420
       - 3334790
+      - 5303130
   installDir:
     SovietRepublic: {}
   launch:
