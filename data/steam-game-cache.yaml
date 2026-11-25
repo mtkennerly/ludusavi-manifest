@@ -553749,6 +553749,14 @@
         oslist: windows
       executable: AGOS.exe
       type: vr
+1392750:
+  installDir: Lost Patrol
+  launch:
+    - arguments: "-conf lostp.conf -noconsole"
+      config:
+        oslist: windows
+      executable: DOSBox.exe
+      type: default
 1392820:
   installDir: Milk inside a bag of milk inside a bag of milk
   launch:
@@ -585314,7 +585322,7 @@
 1774580:
   installDir: Jedi Survivor
   launch:
-    - executable: "link2ea://launchgame/1774580?platform=steam&theme=applejack"
+    - executable: "steam2ea://launchgame/1774580?platform=steam&theme=applejack"
     - config:
         betakey: eap_td_test
       description: "STAR WARS Jedi: Survivor™ - Test"
@@ -668484,6 +668492,16 @@
       type: default
 5189950: {}
 5195880: {}
+5204830:
+  installDir: Deleted Wiki Clean Up the Lost Files
+  launch:
+    - config:
+        osarch: "64"
+        oslist: windows
+      executable: Deleted Wiki.exe
+    - config:
+        oslist: macos
+      executable: Deleted Wiki.app
 5210430: {}
 5212940:
   cloud:

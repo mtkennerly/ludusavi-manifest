@@ -12738,6 +12738,8 @@ Aneurism IV:
   steam: 905530
 Angband:
   pageId: 175880
+Angel Cat Sugar:
+  pageId: 223548
 "Angel Devoid: Face of the Enemy":
   pageId: 217727
 Angel Express:
@@ -15016,6 +15018,8 @@ Arcade Paradise:
     - 2136474999
   pageId: 170067
   steam: 1388870
+Arcade Pool:
+  pageId: 223550
 Arcade Saga:
   pageId: 54758
   steam: 464000
@@ -62569,6 +62573,14 @@ Delete:
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\Pony\\Delete\\}}"
     - "{{Game data/saves|Windows|{{P|hkcu}}\\Software\\Pony\\Delete\\}}"
+"Deleted Wiki: Clean Up the Lost Files":
+  cloud:
+    steam: true
+  lutris: deleted-wiki-clean-up-the-lost-files
+  pageId: 223552
+  steam: 5204830
+  steamSide:
+    - 5488320
 Deleveled:
   cloud:
     steam: true
@@ -65599,6 +65611,8 @@ Diggerman:
     steam: true
   pageId: 130468
   steam: 1001600
+Diggers:
+  pageId: 223557
 "Diggers 2: Extractors":
   pageId: 180203
 Digging Dragon:
@@ -87251,7 +87265,7 @@ Fate of the Dragon:
   pageId: 157639
   templates:
     - "{{Game data/config|Windows|{{p|game}}}}"
-    - "{{Game data/saves|Windows|{{p|game}}}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\Save}}"
 Fate of the Pharaoh:
   cloud:
     steam: true
@@ -115847,7 +115861,7 @@ Hot Wheels World Race:
   templates:
     - "{{Game data/saves|Windows|{{P|public}}\\Documents\\HWSTC\\PROFILES.SAV}}"
 "Hot Wheels: Stunt Track Driver 2: Get'n Dirty":
-  lutris: hot-wheels-sunt-track-driver-2-getn-dirty/
+  lutris: hot-wheels-sunt-track-driver-2-getn-dirty
   pageId: 189506
 "Hot Wheels: Williams F1 - Team Racer":
   pageId: 186033
@@ -140461,6 +140475,9 @@ Lost Orbit:
   renamedFrom:
     - "LOST ORBIT: Terminal Velocity"
   steam: 372320
+Lost Patrol:
+  pageId: 223542
+  steam: 1392750
 Lost Planet 2:
   lutris: lost-planet-2
   pageId: 10497
@@ -150707,6 +150724,8 @@ Miasmata:
     - "{{Game data/saves|Windows|{{p|game}}\\SavedGames\\}}"
 Michelle Kwan Figure Skating:
   pageId: 91332
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\data\\config}}"
 "Mickey Saves the Day: 3D Adventure":
   pageId: 208306
 "Mickey's Space Adventure":
@@ -150760,6 +150779,8 @@ Micro Miners:
 Micro Pico Racers:
   pageId: 91142
   steam: 816500
+Micro Scooter Challenge:
+  pageId: 223540
 Micro Tanks:
   pageId: 185789
   steam: 3048540
@@ -185479,6 +185500,8 @@ Pronoun Palace:
   pageId: 219285
   steam: 3618850
   templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Pronoun Palace\\}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Pronoun Palace\\saves}}"
     - "{{Game data/saves|Linux|{{p|xdgdatahome}}/Pronoun Palace/saves}}"
 Pronty:
   cloud:
@@ -221982,6 +222005,8 @@ Spin Master:
   cloud:
     xbox: true
   pageId: 168893
+Spin Off:
+  pageId: 223545
 Spin Rhythm XD:
   cloud:
     steam: true
@@ -242168,6 +242193,8 @@ The Club:
   templates:
     - "{{Game data/config|Windows|{{p|public}}\\Documents\\The Club Game Save Data\\}}"
     - "{{Game data/saves|Windows|{{p|public}}\\Documents\\The Club Game Save Data\\}}"
+The Clue!:
+  pageId: 223555
 "The ClueFinders 3rd Grade Adventures: Mystery of Mathra":
   pageId: 174676
 "The ClueFinders 4th Grade Adventures: Puzzle of the Pyramid":

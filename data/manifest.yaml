@@ -192543,6 +192543,27 @@ Delete:
         - save
   steam:
     id: 773670
+"Deleted Wiki: Clean Up the Lost Files":
+  cloud:
+    steam: true
+  id:
+    lutris: deleted-wiki-clean-up-the-lost-files
+    steamExtra:
+      - 5488320
+  installDir:
+    Deleted Wiki Clean Up the Lost Files: {}
+  launch:
+    "<base>/Deleted Wiki.app":
+      - when:
+          - os: mac
+            store: steam
+    "<base>/Deleted Wiki.exe":
+      - when:
+          - bit: 64
+            os: windows
+            store: steam
+  steam:
+    id: 5204830
 Deleveled:
   cloud:
     steam: true
@@ -266907,6 +266928,13 @@ Fate of Kai:
             store: steam
   steam:
     id: 1426480
+Fate of the Dragon:
+  files:
+    "<base>/Save":
+      tags:
+        - save
+      when:
+        - os: windows
 Fate of the Pharaoh:
   cloud:
     steam: true
@@ -354421,7 +354449,7 @@ Hot Wheels World Race:
     lutris: hot-wheels-stunt-track-challenge
 "Hot Wheels: Stunt Track Driver 2: Get'n Dirty":
   id:
-    lutris: hot-wheels-sunt-track-driver-2-getn-dirty/
+    lutris: hot-wheels-sunt-track-driver-2-getn-dirty
 "Hot Wheels: Williams F1 - Team Racer":
   files:
     "<base>/config.ini":
@@ -429345,6 +429373,17 @@ Lost Orbit:
             store: steam
   steam:
     id: 372320
+Lost Patrol:
+  installDir:
+    Lost Patrol: {}
+  launch:
+    "<base>/DOSBox.exe":
+      - arguments: "-conf lostp.conf -noconsole"
+        when:
+          - os: windows
+            store: steam
+  steam:
+    id: 1392750
 Lost Planet 2:
   files:
     "<winDocuments>/capcom/LOST PLANET 2/<storeUserId>/Lostplanet2.Lostplanet2Save-capcom":
@@ -460439,6 +460478,13 @@ Miasmata:
     HKEY_CURRENT_USER/SOFTWARE/Digital Illusions/Rally Masters/Configurations/Default:
       tags:
         - config
+Michelle Kwan Figure Skating:
+  files:
+    "<base>/data/config":
+      tags:
+        - config
+      when:
+        - os: windows
 "Mickey's Typing Adventure":
   installDir:
     "Disney Mickey's Typing Adventure": {}
@@ -565236,6 +565282,16 @@ Pronoun Palace:
   cloud:
     steam: true
   files:
+    "<winAppData>/Pronoun Palace":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Pronoun Palace/saves":
+      tags:
+        - save
+      when:
+        - os: windows
     "<xdgData>/Pronoun Palace/saves":
       tags:
         - save
