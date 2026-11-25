@@ -68884,7 +68884,7 @@ Doom + Doom II:
   steam: 2280
   templates:
     - "{{Game data/config|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\DOOM\\kexengine.cfg}}"
-    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|steam}}\\2280}}"
+    - "{{Game data/saves|Steam|{{P|steam}}\\userdata\\{{P|uid}}\\2280}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Nightdive Studios\\DOOM\\saves\\*.sav}}"
 Doom 3:
   cloud:
@@ -133713,7 +133713,9 @@ Lapya:
   steam: 1071080
 Lara Croft GO:
   cloud:
+    gog: true
     steam: true
+  gog: 2060118552
   lutris: lara-croft-go
   pageId: 30341
   steam: 540840
@@ -133729,17 +133731,31 @@ Lara Croft and the Guardian of Light:
   cloud:
     steam: true
     xbox: true
+  gog: 1963606710
   lutris: lara-croft-and-the-guardian-of-light
   pageId: 3957
   steam: 35130
+  steamSide:
+    - 35134
+    - 35135
+    - 35136
+    - 35137
+    - 35138
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Crystal Dynamics\\Lara Croft: GoL\\}}"
     - "{{Game data/saves|Windows|{{p|steam}}\\userdata\\{{p|uid}}\\35150\\}}"
     - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\CrystalDynamicsEntertainm.LaraCroftandtheGuardiano_kdgqnpmdnjrnt\\SystemAppData}}"
 Lara Croft and the Temple of Osiris:
   cloud:
+    gog: true
     steam: true
     xbox: true
+  gog: 1680301192
+  gogSide:
+    - 1295189036
+    - 1456009243
+    - 1633698135
+    - 2108998066
   lutris: lara-croft-and-the-temple-of-osiris
   pageId: 21404
   steam: 289690
@@ -165039,6 +165055,10 @@ Nioh 3:
   lutris: nioh-3
   pageId: 205142
   steam: 3681010
+  steamSide:
+    - 4003930
+    - 4003950
+    - 4198760
   templates:
     - "{{Game data/config|Windows|{{p|localappdata}}\\KoeiTecmo\\NIOH3\\}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\KoeiTecmo\\NIOH3\\Savedata\\}}"
@@ -172481,8 +172501,9 @@ Over the Hill:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\documents}}\\My Games\\over the hill\\Settings}}"
     - "{{Game data/config|Linux|{{P|linuxhome}}/My Games/over the hill/Settings}}"
-    - "{{Game data/saves|Windows|{{P|userprofile\\documents}}\\My Games\\over the hill\\Saves}}"
-    - "{{Game data/saves|Linux|{{P|linuxhome}}/My Games/over the hill/Saves}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\Funselektor\\over the hill}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\appdata\\locallow}}\\Funselektor\\over the hill\\Steam}}"
+    - "{{Game data/saves|Linux|{{p|xdgconfighome}}\\unity3d\\Funselektor\\over the hill}}"
 OverKill:
   pageId: 74860
   steam: 740950
@@ -258556,6 +258577,8 @@ Titanic VR:
   gog: 1792718486
   pageId: 93568
   steam: 785480
+"Titanic: The Lost Mission":
+  pageId: 223565
 Titanis:
   cloud:
     steam: true
@@ -267545,6 +267568,8 @@ US and THEM:
 USA 2020:
   pageId: 94635
   steam: 859700
+USA Bass Championship:
+  pageId: 223564
 USAGIRI:
   cloud:
     steam: true
