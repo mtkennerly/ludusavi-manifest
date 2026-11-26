@@ -76303,6 +76303,12 @@ Echoes of the Plum Grove:
 Echoes+:
   pageId: 37666
   steam: 338000
+Echograph:
+  lutris: echograph
+  pageId: 223590
+  steam: 3460960
+  steamSide:
+    - 5323580
 Echoplex:
   pageId: 59838
   steam: 611060
@@ -118840,6 +118846,10 @@ IHF Handball Challenge 12:
 IHF Handball Challenge 14:
   pageId: 50510
   steam: 279460
+IHRA Motorsports:
+  pageId: 223593
+IHRA Motorsports Drag Racing:
+  pageId: 223587
 IHUGU:
   pageId: 72812
   steam: 703050
@@ -203083,6 +203093,8 @@ Sabreurs - A Noble Duel:
   pageId: 126584
 "Sabrina the Teenage Witch: Spellbound":
   pageId: 126581
+"Sabrina: The Animated Series - Magical Adventure":
+  pageId: 223584
 Sack of Bots:
   cloud:
     steam: true
@@ -241339,6 +241351,8 @@ The Blue Flamingo:
   steam: 302010
   steamSide:
     - 370500
+  templates:
+    - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\Might and Delight\\The Blue Flamingo\\}}"
 The Blue Zula VR Concert Series:
   pageId: 112008
   steam: 799660
@@ -244780,6 +244794,7 @@ The Floor is Jelly:
   templates:
     - "{{Game data/saves|Windows|{{P|appdata}}\\TheFloorIsJelly\\Local Store\\|{{P|appdata}}\\jelly\\Local Store\\{{Note|DRM-free}}}}"
 The Florist:
+  lutris: the-florist
   pageId: 210240
   steam: 3152440
 The Flower Collectors:
@@ -281049,6 +281064,8 @@ Whitestone:
 Whitetail Challenge:
   pageId: 35228
   steam: 489050
+Whitetail Extreme:
+  pageId: 223581
 Whitevale Defender:
   pageId: 92299
   steam: 841320

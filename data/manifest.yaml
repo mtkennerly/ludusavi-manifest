@@ -234556,6 +234556,13 @@ Echoes+:
             store: steam
   steam:
     id: 338000
+Echograph:
+  id:
+    lutris: echograph
+    steamExtra:
+      - 5323580
+  steam:
+    id: 3460960
 Echoplex:
   files:
     "<home>/AppData/LocalLow/Output Games/Echoplex":
@@ -590302,12 +590309,6 @@ Reka:
       - arguments: "-force-d3d11"
         when:
           - store: steam
-      - arguments: "-force-d3d12"
-        when:
-          - store: steam
-      - arguments: "-force-vulkan"
-        when:
-          - store: steam
   steam:
     id: 1737870
 Rekindling:
@@ -737248,6 +737249,10 @@ The Blue Flamingo:
       - when:
           - os: windows
             store: steam
+  registry:
+    HKEY_CURRENT_USER/Software/Might and Delight/The Blue Flamingo:
+      tags:
+        - config
   steam:
     id: 302010
 The Blue Zula VR Concert Series:
@@ -747531,6 +747536,8 @@ The Floor is Jelly:
   steam:
     id: 295750
 The Florist:
+  id:
+    lutris: the-florist
   steam:
     id: 3152440
 The Flower Collectors:

@@ -582753,15 +582753,6 @@
       description: Default (Launch with DirectX 11)
       executable: Reka.exe
       type: default
-    - arguments: "-force-d3d11"
-      description: Default (Launch with DirectX 11)
-      executable: Reka.exe
-    - arguments: "-force-d3d12"
-      description: Launch with DirectX 12
-      executable: Reka.exe
-    - arguments: "-force-vulkan"
-      description: Launch with Vulkan
-      executable: Reka.exe
   nameLocalized:
     schinese: 蕾卡的移动工坊
 1739000:
@@ -655242,6 +655233,9 @@
         oslist: windows
       executable: BioMenace Remastered.exe
       type: default
+3460960:
+  nameLocalized:
+    schinese: 残魂显影
 3461480:
   installDir: The New Kid on the Block
   launch:
