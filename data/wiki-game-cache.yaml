@@ -35275,6 +35275,8 @@ Brothers in Hell:
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Brothers\\Saved\\Config\\Windows}}"
     - "{{Game data/saves|Windows|{{P|localappdata}}\\Brothers\\Saved\\SaveGames}}"
+"Browning African Safari: Who's Hunting Who?":
+  pageId: 223573
 "Brrrainz: Feed your Hunger":
   cloud:
     steam: true
@@ -136638,6 +136640,7 @@ Let the Cat in:
   pageId: 221822
 "Let's Ride! Silver Buckle Stables":
   gog: 2067932503
+  lutris: lets-ride-silver-buckle-stables
   pageId: 174762
   steam: 1587860
   templates:
@@ -153132,6 +153135,7 @@ Miss Neko 3:
   steamSide:
     - 2824300
 Miss Popularity:
+  lutris: miss-popularity
   pageId: 56209
   steam: 12660
 "Miss Spider's Scavenger Hunt":
@@ -184191,6 +184195,7 @@ Prison Tycoon Alcatraz:
     - 1825450
     - 1888890
 Prison of Husks:
+  gog: 1939928458
   lutris: prison-of-husks
   pageId: 222961
   steam: 2975260
@@ -252983,6 +252988,7 @@ The Smurfs:
 "The Smurfs: The Teletransportsmurf":
   pageId: 173668
 "The Smurfs: Village Party":
+  lutris: the-smurfs-village-party
   pageId: 220533
   steam: 2800630
 The Sniper VR:
@@ -276825,6 +276831,9 @@ Warchasm:
   steam: 1184260
 "Warcraft Adventures: Lord of the Clans":
   pageId: 147218
+  templates:
+    - "{{Game data/config|Windows|{{P|game}}\\BOOK.INI}}"
+    - "{{Game data/saves|Windows|Set in {{P|game}}\\BOOK.INI (''Section SaveDir''){{note|Leak has a fixed absolute path}}}}"
 Warcraft I Remastered:
   pageId: 199227
   templates:

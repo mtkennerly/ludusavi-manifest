@@ -417521,6 +417521,8 @@ Let the Cat in:
         - os: windows
   gog:
     id: 2067932503
+  id:
+    lutris: lets-ride-silver-buckle-stables
   installDir:
     "Let's Ride! Silver Buckle Stables": {}
   launch:
@@ -467729,6 +467731,8 @@ Miss Neko 3:
   steam:
     id: 2695270
 Miss Popularity:
+  id:
+    lutris: miss-popularity
   installDir:
     Miss Popularity: {}
   launch:
@@ -561044,6 +561048,8 @@ Prison Tycoon Alcatraz:
   steam:
     id: 1515460
 Prison of Husks:
+  gog:
+    id: 1939928458
   id:
     lutris: prison-of-husks
     steamExtra:
@@ -772050,6 +772056,8 @@ The Smurfs - Mission Vileaf:
   steam:
     id: 1502560
 "The Smurfs: Village Party":
+  id:
+    lutris: the-smurfs-village-party
   installDir:
     The Smurfs - Village Party: {}
   launch:
@@ -841644,6 +841652,13 @@ Warchasm:
     Warchasm: {}
   steam:
     id: 1184260
+"Warcraft Adventures: Lord of the Clans":
+  files:
+    "<base>/BOOK.INI":
+      tags:
+        - config
+      when:
+        - os: windows
 Warcraft I Remastered:
   files:
     "<home>/Saved Games/WarcraftRemastered/*.sav":
