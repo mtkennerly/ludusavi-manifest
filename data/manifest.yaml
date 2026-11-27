@@ -102744,6 +102744,9 @@ Braid:
         - os: windows
   gog:
     id: 1461061433
+  id:
+    steamExtra:
+      - 26810
   installDir:
     Braid: {}
   launch:
@@ -174438,6 +174441,31 @@ Dairy Princess:
           - store: steam
   steam:
     id: 1168430
+Daisenryaku SSB 2:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/systemsoftbeta/大戦略SSB2/.systemsave":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/systemsoftbeta/大戦略SSB2/roster.*":
+      when:
+        - os: windows
+          store: steam
+    "<home>/AppData/LocalLow/systemsoftbeta/大戦略SSB2/save.*":
+      when:
+        - os: windows
+          store: steam
+  installDir:
+    大戦略SSB2: {}
+  launch:
+    "<base>/daisenryaku-ssb-2.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 3941780
 Daka Dara:
   installDir:
     Daka Dara: {}
@@ -455617,6 +455645,8 @@ Memento Mori 2:
         - save
       when:
         - os: windows
+  id:
+    lutris: memento-mori-2
   installDir:
     MementoMori2: {}
   launch:
@@ -624490,6 +624520,8 @@ Saturn:
   steam:
     id: 2742840
 Saturn. Legacy:
+  id:
+    lutris: saturn-legacy
   steam:
     id: 4540480
 Saturnalia:
@@ -696004,6 +696036,39 @@ Stranded Sails - Explorers of the Cursed Islands:
             store: steam
   steam:
     id: 1324130
+Strange Antiquities:
+  cloud:
+    gog: true
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/BadVikingLtd/Strange Antiquities/*.gd":
+      when:
+        - store: steam
+    "<home>/Library/Application Support/com.BadVikingLtd.StrangeAntiquities/*.gd":
+      when:
+        - os: mac
+          store: steam
+  gog:
+    id: 1247156727
+  id:
+    lutris: strange-antiquities
+    steamExtra:
+      - 3629010
+      - 3833030
+  installDir:
+    StrangeAntiquities: {}
+  launch:
+    "<base>/Strange Antiquities.app":
+      - when:
+          - os: mac
+            store: steam
+        workingDir: "<base>/Strange Antiquities.app/Contents/MacOS"
+    "<base>/Strange Antiquities.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2885870
 Strange Brigade:
   cloud:
     steam: true

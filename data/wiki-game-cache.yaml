@@ -28051,6 +28051,8 @@ Birdcakes:
 Birds Are Real:
   pageId: 156997
   steam: 1218400
+Birds of Prey:
+  pageId: 223620
 Birdsketball:
   pageId: 51557
   steam: 470470
@@ -33554,6 +33556,8 @@ Braid:
   gog: 1461061433
   pageId: 1673
   steam: 26800
+  steamSide:
+    - 26810
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Braid\\}}"
     - "{{Game data/config|OS X|{{p|osxhome}}/Library/Preferences/Braid/}}"
@@ -56712,6 +56716,11 @@ Dairy Farm Simulator:
 Dairy Princess:
   pageId: 152825
   steam: 1168430
+Daisenryaku SSB 2:
+  cloud:
+    steam: true
+  pageId: 223613
+  steam: 3941780
 "Daisy's Garden":
   pageId: 221404
 "Daisy's Garden 2":
@@ -118864,6 +118873,8 @@ IHF Handball Challenge 12:
 IHF Handball Challenge 14:
   pageId: 50510
   steam: 279460
+"IHRA Drag Racing: Sportsman Edition":
+  pageId: 223617
 IHRA Motorsports:
   pageId: 223593
 IHRA Motorsports Drag Racing:
@@ -149095,6 +149106,7 @@ Memento Mori:
 Memento Mori 2:
   cloud:
     steam: true
+  lutris: memento-mori-2
   pageId: 26349
   steam: 237970
   templates:
@@ -204950,6 +204962,7 @@ Saturn:
   pageId: 205575
   steam: 2742840
 Saturn. Legacy:
+  lutris: saturn-legacy
   pageId: 217144
   steam: 4540480
 Saturnalia:
@@ -228150,6 +228163,17 @@ Stranded Sails - Explorers of the Cursed Islands:
   templates:
     - "{{Game data/config|Windows|{{p|appdata}}\\Stranded - Alien Dawn\\LocalStorage.lua}}"
     - "{{Game data/saves|Windows|{{p|userprofile}}\\Saved Games\\Stranded - Alien Dawn\\{{p|uid}}\\}}"
+Strange Antiquities:
+  cloud:
+    gog: true
+    steam: true
+  gog: 1247156727
+  lutris: strange-antiquities
+  pageId: 223616
+  steam: 2885870
+  steamSide:
+    - 3629010
+    - 3833030
 Strange Brigade:
   cloud:
     steam: true

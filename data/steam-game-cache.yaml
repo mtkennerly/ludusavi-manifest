@@ -641671,6 +641671,29 @@
     - config:
         oslist: windows
       executable: GRUEL.exe
+2885870:
+  cloud:
+    saves:
+      - path: BadVikingLtd/Strange Antiquities
+        pattern: "*.gd"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: BadVikingLtd/Strange Antiquities
+            replace: com.BadVikingLtd.StrangeAntiquities
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+  installDir: StrangeAntiquities
+  launch:
+    - config:
+        oslist: windows
+      executable: Strange Antiquities.exe
+    - config:
+        oslist: macos
+      executable: Strange Antiquities.app
+      workingdir: Strange Antiquities.app/Contents/MacOS
 2886550:
   cloud:
     saves:
@@ -662851,6 +662874,35 @@
   nameLocalized:
     english: EA SPORTS™ Madden NFL 27
     schinese: EA SPORTS™《Madden NFL 27》
+3941780:
+  cloud:
+    saves:
+      - path: "systemsoftbeta\\大戦略SSB2"
+        pattern: save.*
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "systemsoftbeta\\大戦略SSB2"
+        pattern: roster.*
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+      - path: "systemsoftbeta\\大戦略SSB2"
+        pattern: ".systemsave"
+        platforms:
+          - Windows
+        root: WinAppDataLocalLow
+  installDir: 大戦略SSB2
+  launch:
+    - config:
+        oslist: windows
+      executable: daisenryaku-ssb-2.exe
+      type: default
+  nameLocalized:
+    english: Daisenryaku SSB 2
+    japanese: 大戦略SSB2
+    schinese: 大战略SSB2
+    tchinese: 大戰略SSB2
 3942580:
   installDir: Pool Blitz
   launch:
