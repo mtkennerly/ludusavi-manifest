@@ -7446,6 +7446,12 @@ $1 Ride:
         - save
       when:
         - os: windows
+    "<winLocalAppData>/Packages/HoodedHorse.9Kings_znaey1dw2bdpr/SystemAppData/wgs":
+      tags:
+        - save
+      when:
+        - os: windows
+          store: microsoft
   gog:
     id: 1875095393
   id:
@@ -35234,10 +35240,22 @@ Always the Same Blue Sky...:
   steam:
     id: 363410
 Am I Nima:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/HO! Games/Am I Nima":
+      tags:
+        - save
+      when:
+        - os: windows
   id:
     lutris: am-i-nima
     steamExtra:
       - 3317110
+  registry:
+    HKEY_CURRENT_USER/Software/HO! Games/Am I Nima:
+      tags:
+        - config
   steam:
     id: 3224600
 Amairo Chocolate:
@@ -45457,8 +45475,27 @@ Approaching Blocks:
 Appulse:
   cloud:
     steam: true
+  files:
+    "<home>/Documents/Appulse/*.save":
+      when:
+        - os: linux
+          store: steam
+    "<winDocuments>/Appulse/*.save":
+      when:
+        - store: steam
   id:
     lutris: appulse
+  installDir:
+    Appulse: {}
+  launch:
+    "<base>/appulse.exe":
+      - when:
+          - os: windows
+            store: steam
+    "<base>/appulse.sh":
+      - when:
+          - os: linux
+            store: steam
   steam:
     id: 3498700
 April 24th:
@@ -61547,7 +61584,10 @@ Awaken:
   steam:
     id: 555970
 Awaken - Astral Blade:
+  alias: "Awaken: Astral Blade"
+"Awaken: Astral Blade":
   cloud:
+    gog: true
     steam: true
   files:
     "<home>/AppData/LocalLow/DarkPigeonGames/AWAKEN - Astral Blade/GameSave":
@@ -61556,7 +61596,15 @@ Awaken - Astral Blade:
         - save
       when:
         - os: windows
+  gog:
+    id: 2096587778
   id:
+    gogExtra:
+      - 1645760090
+      - 1654718818
+      - 1689105266
+      - 1887358412
+    lutris: awaken-astral-blade
     steamExtra:
       - 3266670
       - 3268980
@@ -447912,6 +447960,16 @@ Maru:
 "Marupoyo: The Round Chick's Adventure":
   cloud:
     steam: true
+  files:
+    "<home>/AppData/LocalLow/Casual Brothers/Marupoyo/<storeUserId>/SaveData":
+      when:
+        - store: steam
+  installDir:
+    Marupoyo: {}
+  launch:
+    "<base>/Marupoyo.exe":
+      - when:
+          - store: steam
   steam:
     id: 4355110
 Marvel Cosmic Invasion:
@@ -497314,10 +497372,11 @@ Nevaeh:
   cloud:
     steam: true
   files:
-    "<base>/SavesDir/*.sav":
+    "<winLocalAppData>/Nevaeh/*.sav":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
   installDir:
     Nevaeh: {}
   launch:
@@ -695982,6 +696041,7 @@ Strange Girl Beside:
     id: 709100
 Strange Horticulture:
   cloud:
+    epic: true
     gog: true
     steam: true
   files:
@@ -695993,12 +696053,13 @@ Strange Horticulture:
   gog:
     id: 1110845119
   id:
+    lutris: strange-horticulture
     steamExtra:
       - 1722180
   installDir:
     Strange Horticulture: {}
   launch:
-    "<base>/Strange Horticulture.app/Contents/MacOS/Strange Horticulture":
+    "<base>/Strange Horticulture.app":
       - when:
           - os: mac
             store: steam

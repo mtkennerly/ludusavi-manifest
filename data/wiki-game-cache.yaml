@@ -2359,6 +2359,7 @@ $1 Ride:
   templates:
     - "{{Game data/config|Windows|{{P|userprofile\\appdata\\locallow}}\\SadSocket\\9Kings}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\SadSocket\\9Kings}}"
+    - "{{Game data/saves|Microsoft Store|{{P|localappdata}}\\Packages\\HoodedHorse.9Kings_znaey1dw2bdpr\\SystemAppData\\wgs}}"
 9 Monkeys of Shaolin:
   cloud:
     steam: true
@@ -11334,11 +11335,16 @@ Always the Same Blue Sky...:
     - "{{Game data/config|Windows|{{p|appdata}}\\RenPy\\Always The Same Blue Sky-1334743217\\persistent}}"
     - "{{Game data/saves|Windows|{{p|appdata}}\\RenPy\\Always The Same Blue Sky-1334743217\\*.save}}"
 Am I Nima:
+  cloud:
+    steam: true
   lutris: am-i-nima
   pageId: 219300
   steam: 3224600
   steamSide:
     - 3317110
+  templates:
+    - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\HO! Games\\Am I Nima}}"
+    - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\HO! Games\\Am I Nima}}"
 Amairo Chocolate:
   cloud:
     gog: true
@@ -20000,10 +20006,20 @@ Awake:
 Awaken:
   pageId: 56477
   steam: 555970
-Awaken - Astral Blade:
+"Awaken: Astral Blade":
   cloud:
+    gog: true
     steam: true
+  gog: 2096587778
+  gogSide:
+    - 1645760090
+    - 1654718818
+    - 1689105266
+    - 1887358412
+  lutris: awaken-astral-blade
   pageId: 198619
+  renamedFrom:
+    - Awaken - Astral Blade
   steam: 1716310
   steamSide:
     - 3266670
@@ -73303,6 +73319,8 @@ Dungeon Marathon:
   steam: 682590
 Dungeon Master:
   pageId: 173260
+"Dungeon Master II: The Legend of Skullkeep":
+  pageId: 223601
 Dungeon Maze:
   pageId: 125245
   steam: 997770
@@ -163079,6 +163097,8 @@ Nevaeh:
     steam: true
   pageId: 180613
   steam: 1222090
+  templates:
+    - "{{Game data/saves|Windows|{{p|localappdata}}\\Nevaeh\\*.sav}}"
 Neven:
   pageId: 74958
   steam: 743570
@@ -228146,9 +228166,11 @@ Strange Girl Beside:
   steam: 709100
 Strange Horticulture:
   cloud:
+    epic: true
     gog: true
     steam: true
   gog: 1110845119
+  lutris: strange-horticulture
   pageId: 174315
   steam: 1574580
   steamSide:
@@ -252755,6 +252777,8 @@ The Sims 4:
     - "{{Game data/config|OS X|{{p|osxhome}}/Documents/Electronic Arts/The Sims 4/Options.ini}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\Documents}}\\Electronic Arts\\The Sims 4\\saves\\}}"
     - "{{Game data/saves|OS X|{{p|osxhome}}/Documents/Electronic Arts/The Sims 4/saves/}}"
+"The Sims Carnival: BumperBlast":
+  pageId: 223608
 "The Sims Carnival: SnapCity":
   pageId: 211746
   templates:

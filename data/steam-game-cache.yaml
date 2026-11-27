@@ -569276,7 +569276,7 @@
       type: none
     - config:
         oslist: macos
-      executable: Strange Horticulture.app/Contents/MacOS/Strange Horticulture
+      executable: Strange Horticulture.app
       workingdir: Strange Horticulture.app/Contents/MacOS
 1574820:
   cloud:
@@ -655848,6 +655848,27 @@
       type: default
 3495990: {}
 3498700:
+  cloud:
+    saves:
+      - path: Appulse
+        pattern: "*.save"
+        root: WinMyDocuments
+    overrides:
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: Appulse
+            replace: Documents/Appulse
+        root: WinMyDocuments
+        useInstead: LinuxHome
+  installDir: Appulse
+  launch:
+    - config:
+        oslist: windows
+      executable: appulse.exe
+    - config:
+        oslist: linux
+      executable: appulse.sh
   nameLocalized:
     schinese: "星际弹球 "
 3498980:
@@ -666068,7 +666089,15 @@
 4354570:
   nameLocalized:
     english: FINAL FANTASY VII REVELATION
-4355110: {}
+4355110:
+  cloud:
+    saves:
+      - path: "Casual Brothers/Marupoyo/{64BitSteamID}"
+        pattern: SaveData
+        root: WinAppDataLocalLow
+  installDir: Marupoyo
+  launch:
+    - executable: Marupoyo.exe
 4356400:
   cloud:
     saves:
