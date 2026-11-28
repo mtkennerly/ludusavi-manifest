@@ -35259,6 +35259,7 @@ Am I Nima:
     lutris: am-i-nima
     steamExtra:
       - 3317110
+      - 5481970
   installDir:
     Am I Nima: {}
   launch:
@@ -149170,24 +149171,29 @@ Command & Conquer Remastered Collection:
     id: 2229850
 "Command & Conquer: Red Alert 3":
   cloud:
-    origin: true
     steam: true
   files:
-    "<home>/Saved Games/Red Alert 3":
+    "<home>/Saved Games/Red Alert 3/<storeUserId>":
       tags:
         - save
       when:
         - os: windows
+        - os: windows
+          store: steam
     "<winAppData>/Red Alert 3/Profiles/<storeUserId>":
       tags:
         - config
       when:
         - os: windows
+        - os: windows
+          store: steam
     "<winDocuments>/Red Alert 3/Profiles/<storeUserId>":
       tags:
         - save
       when:
         - os: windows
+        - os: windows
+          store: steam
   id:
     lutris: command-and-conquer-red-alert-3
   installDir:
@@ -416115,10 +416121,16 @@ Legoland:
     gog: true
     steam: true
   files:
-    "<winDocuments>/Semisoft/Legrand Legacy/**/*.gd":
+    "<winDocuments>/Semisoft/Legrand Legacy/Save */Save.gd":
+      tags:
+        - save
       when:
         - os: windows
-          store: steam
+    "<winDocuments>/Semisoft/Legrand Legacy/Setting/GameSetting.gd":
+      tags:
+        - config
+      when:
+        - os: windows
   gog:
     id: 1335936125
   installDir:
@@ -604173,17 +604185,17 @@ Robinson Crusoe and the Cursed Pirates:
     id: 579820
 Roblox:
   files:
-    "<winLocalAppData>/Packages/ROBLOXCORPORATION.ROBLOX_55nm5eh3cm0pr/LocalState/GlobalBasicSettings_13.xml":
-      tags:
-        - config
-      when:
-        - os: windows
-          store: microsoft
     "<winLocalAppData>/Roblox/GlobalBasicSettings_13.xml":
       tags:
         - config
       when:
         - os: windows
+    "<winLocalAppData>/RobloxPCGDK/GlobalBasicSettings_13.xml":
+      tags:
+        - config
+      when:
+        - os: windows
+          store: microsoft
   id:
     lutris: roblox
 Robo Boop:
@@ -629426,6 +629438,18 @@ Seals of the Bygone:
         - os: windows
   id:
     lutris: search-and-rescue-vietnam-med-evac
+Search and Rescue 2:
+  files:
+    "<base>/dat":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 Search and Rescue 3:
   files:
     "<base>/dat":
@@ -666062,7 +666086,7 @@ Sonic Rumble Party:
       when:
         - os: windows
   id:
-    lutris: sonic-rumble
+    lutris: sonic-rumble-party
   installDir:
     SonicRumble: {}
   launch:
@@ -784415,6 +784439,9 @@ Thymesia:
       - 1767174291
       - 2064196756
     lutris: thymesia
+    steamExtra:
+      - 2117330
+      - 2118360
   installDir:
     Thymesia: {}
   launch:

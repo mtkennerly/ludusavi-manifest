@@ -11344,6 +11344,7 @@ Am I Nima:
   steam: 3224600
   steamSide:
     - 3317110
+    - 5481970
   templates:
     - "{{Game data/config|Windows|{{P|hkcu}}\\Software\\HO! Games\\Am I Nima}}"
     - "{{Game data/saves|Windows|{{P|userprofile\\appdata\\locallow}}\\HO! Games\\Am I Nima}}"
@@ -48415,14 +48416,15 @@ Command & Conquer Remastered Collection:
     - "{{Game data/saves|Windows|{{p|game}}\\*.sav}}"
 "Command & Conquer: Red Alert 3":
   cloud:
-    origin: true
     steam: true
   lutris: command-and-conquer-red-alert-3
   pageId: 3140
   steam: 17480
   templates:
-    - "{{Game data/config|Windows|{{p|appdata}}\\Red Alert 3\\Profiles\\{{p|uid}}\\}}"
-    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Red Alert 3\\Profiles\\{{p|uid}}\\|{{p|userprofile}}\\Saved Games\\Red Alert 3\\}}"
+    - "{{Game data/config|Windows|{{P|appdata}}\\Red Alert 3\\Profiles\\{{P|uid}}\\}}"
+    - "{{Game data/config|Steam|{{P|appdata}}\\Red Alert 3\\Profiles\\{{P|uid}}\\}}"
+    - "{{Game data/saves|Windows|{{p|userprofile\\documents}}\\Red Alert 3\\Profiles\\{{p|uid}}\\||{{p|userprofile}}\\Saved Games\\Red Alert 3\\{{p|uid}}}}"
+    - "{{Game data/saves|Steam|{{p|userprofile\\documents}}\\Red Alert 3\\Profiles\\{{p|uid}}\\||{{p|userprofile}}\\Saved Games\\Red Alert 3\\{{p|uid}}}}"
 "Command & Conquer: Red Alert 3 - Uprising":
   cloud:
     steam: true
@@ -136139,6 +136141,9 @@ Legoland:
   gog: 1335936125
   pageId: 53311
   steam: 556740
+  templates:
+    - "{{Game data/config|Windows|{{p|userprofile}}\\Documents\\Semisoft\\Legrand Legacy\\Setting\\GameSetting.gd}}"
+    - "{{Game data/saves|Windows|{{p|userprofile}}\\Documents\\Semisoft\\Legrand Legacy\\Save **\\Save.gd}}"
 Leila:
   cloud:
     steam: true
@@ -177969,6 +177974,7 @@ Phase Shift (2019):
 Phasmophobia:
   cloud:
     steam: true
+    xbox: true
   lutris: phasmophobia
   pageId: 164135
   steam: 739630
@@ -198340,7 +198346,7 @@ Roblox:
   pageId: 71821
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\Roblox\\GlobalBasicSettings_13.xml}}"
-    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\Packages\\ROBLOXCORPORATION.ROBLOX_55nm5eh3cm0pr\\LocalState\\GlobalBasicSettings_13.xml}}"
+    - "{{Game data/config|Microsoft Store|{{P|localappdata}}\\RobloxPCGDK\\GlobalBasicSettings_13.xml}}"
 Robo Army:
   cloud:
     xbox: true
@@ -206552,6 +206558,13 @@ Seals of the Bygone:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Config.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Pilots.dat}}"
+Search and Rescue:
+  pageId: 223652
+Search and Rescue 2:
+  pageId: 223643
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\saves}}"
 Search and Rescue 3:
   pageId: 223635
   templates:
@@ -216383,6 +216396,7 @@ Sniper Zombie Killer:
   cloud:
     gog: true
     steam: true
+    xbox: true
   gog: 1089210906
   lutris: sniper-ghost-warrior-contracts-2
   pageId: 161332
@@ -218287,7 +218301,7 @@ Sonic Robo Blast 2 Kart:
     - "{{Game data/saves|Windows|{{p|game}}/kartdata.dat}}"
     - "{{Game data/saves|Linux|{{p|linuxhome}}/.srb2kart/kartdata.dat}}"
 Sonic Rumble Party:
-  lutris: sonic-rumble
+  lutris: sonic-rumble-party
   pageId: 200761
   renamedFrom:
     - Sonic Rumble
@@ -233988,6 +234002,8 @@ Swarm Arena:
 Swarm Queen:
   pageId: 72367
   steam: 701870
+Swarm Rampage:
+  pageId: 223647
 "Swarm Simulator: Evolution":
   pageId: 128083
   steam: 914320
@@ -257165,6 +257181,9 @@ Thymesia:
   lutris: thymesia
   pageId: 173385
   steam: 1343240
+  steamSide:
+    - 2117330
+    - 2118360
   templates:
     - "{{Game data/config|Windows|{{P|localappdata}}\\PlagueProject\\Saved\\Config\\WindowsNoEditor\\}}"
     - "{{Game data/config|GOG.com|{{P|localappdata}}\\Team17\\Thymesia\\Saved\\Config\\WindowsNoEditor\\}}"
