@@ -59690,6 +59690,12 @@
   launch:
     - description: Launch
       executable: dehon.exe
+300970:
+  installDir: Fiesta Online NA
+  launch:
+    - description: Fiesta Online
+      executable: FiestaLauncher.exe
+      type: config
 301050:
   installDir: Night Shift
   launch:
@@ -108092,28 +108098,10 @@
       executable: DinoSystem.exe
       type: default
     - config:
-        betakey: v0.95.1
+        betakey: "v0.60.0,v0.90.9b,v0.95.1,v0.96.5,v0.97.2"
         oslist: windows
       description: DinoSystem (old exe)
       executable: run_game.exe
-      type: default
-    - config:
-        betakey: v0.96.5
-        oslist: windows
-      description: DinoSystem (old exe)
-      executable: run_game.exe
-      type: default
-    - config:
-        betakey: v0.97.2
-        oslist: windows
-      description: DinoSystem (old exe)
-      executable: run_game.exe
-      type: default
-    - config:
-        betakey: v0.98.0pb1
-        oslist: windows
-      description: DinoSystem (old beta)
-      executable: DinoSystem.exe
       type: default
 373770:
   installDir: LiEat
@@ -482195,6 +482183,9 @@
       - path: ROA3/Saved/SaveGames
         pattern: "*.sav"
         root: gameinstall
+      - path: ROA3/Saved/SaveGames
+        pattern: "*.sav"
+        root: WinAppDataLocal
   installDir: Rock of Ages III Make & Break
   launch:
     - executable: ROA3.exe
@@ -638353,6 +638344,9 @@
     - config:
         oslist: windows
       executable: ATLYSS.exe
+    - config:
+        oslist: linux
+      executable: ATLYSS_LINUX_E.x86_64
 2769080:
   cloud:
     saves:
@@ -650453,7 +650447,32 @@
       description: BLACKSHARD with DirectX 11
       executable: BLACKSHARD.exe
       type: option1
-3224600: {}
+3224600:
+  cloud:
+    saves:
+      - path: /HO! Games/Am I Nima
+        pattern: "*.es3"
+        root: WinAppDataLocalLow
+    overrides:
+      - os: MacOS
+        osCompare: "="
+        pathTransforms:
+          - find: /HO! Games/Am I Nima
+            replace: unity.HO! Games.Am I Nima
+        root: WinAppDataLocalLow
+        useInstead: MacAppSupport
+      - os: Linux
+        osCompare: "="
+        pathTransforms:
+          - find: /HO! Games/Am I Nima
+            replace: ".config/unity3d/HO! Games/Am I Nima"
+        root: WinAppDataLocalLow
+        useInstead: LinuxHome
+  installDir: Am I Nima
+  launch:
+    - config:
+        oslist: windows
+      executable: Am I Nima.exe
 3224770:
   installDir: UmamusumePrettyDerby
   launch:

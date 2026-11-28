@@ -7333,7 +7333,9 @@ After The Suns:
   steam: 1101200
 After Us:
   cloud:
+    gog: true
     steam: true
+  gog: 1122215059
   pageId: 183792
   steam: 1406810
   templates:
@@ -34018,7 +34020,6 @@ Breacher Story:
   steam: 988110
 Bread & Fred:
   cloud:
-    gog: true
     steam: true
   gog: 1089321138
   gogSide:
@@ -34028,6 +34029,9 @@ Bread & Fred:
   steam: 1607680
   steamSide:
     - 1763200
+    - 2448120
+    - 2448160
+    - 2610670
   templates:
     - "{{Game data/config|Windows|{{p|hkcu}}\\Software\\SandCastles\\Bread_Fred\\}}"
     - "{{Game data/saves|Windows|{{p|userprofile\\appdata\\locallow}}\\SandCastles\\Bread_Fred\\*.scs}}"
@@ -88383,7 +88387,9 @@ Fiery catacombs:
   steam: 1138150
 Fiesta Online:
   pageId: 50360
-  steam: 280620
+  steam: 300970
+  steamSide:
+    - 280620
 "Fifo's Night":
   pageId: 156839
   steam: 1191550
@@ -206546,6 +206552,11 @@ Seals of the Bygone:
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Config.dat}}"
     - "{{Game data/saves|Windows|{{p|game}}\\Pilots.dat}}"
+Search and Rescue 3:
+  pageId: 223635
+  templates:
+    - "{{Game data/config|Windows|{{p|game}}\\dat}}"
+    - "{{Game data/saves|Windows|{{p|game}}\\saves}}"
 "Search and Rescue: Coastal Heroes":
   pageId: 111116
   templates:
@@ -222339,6 +222350,13 @@ Spirit of the North 2:
 SpiritSphere:
   pageId: 42029
   steam: 458170
+Spirited Drive:
+  pageId: 223630
+  templates:
+    - "{{Game data/config|Windows|{{p|appdata}}\\Spirited Drive\\}}"
+    - "{{Game data/config|OS X|{{p|osxhome}}/Library/Application Support/Spirited Drive/}}"
+    - "{{Game data/saves|Windows|{{p|appdata}}\\Spirited Drive\\}}"
+    - "{{Game data/saves|OS X|{{p|osxhome}}/Library/Application Support/Spirited Drive/}}"
 Spirited Heart Deluxe:
   cloud:
     steam: true
@@ -281754,6 +281772,7 @@ Will You Snail?:
     - "{{Game data/config|Windows|{{p|localappdata}}\\Will_You_Snail\\SettoIngs23-2.set}}"
     - "{{Game data/saves|Windows|{{p|localappdata}}\\Will_You_Snail}}"
 Will of Steel:
+  lutris: will-of-steel
   pageId: 220748
   templates:
     - "{{Game data/config|Windows|{{p|game}}\\Bin\\WOS\\cfg.dat}}"
